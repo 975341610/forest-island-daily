@@ -238,8 +238,8 @@ function showToast(msg){
 
 /* ---------- 图片兜底链 ---------- */
 function getImageUrl(n){
-    // 兼容旧/新 schema 多种可能的字段名
-    const raw = n.image || n.img || n.cover || n.thumbnail || '';
+    // 兼容多种可能的字段名（image / image_url / img / cover / thumbnail / pic）
+    const raw = n.image || n.image_url || n.imageUrl || n.img || n.cover || n.thumbnail || n.pic || '';
     if(raw && /^https?:\/\//.test(raw)) return raw;
     // 缺图兜底：用 id 作 seed 生成稳定占位图
     const seed = encodeURIComponent(n.id || n.title || Math.random().toString(36).slice(2));
