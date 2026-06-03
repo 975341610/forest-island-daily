@@ -1,0 +1,16 @@
+[
+  {
+    "id": "test-20260603-001",
+    "date": "2026-06-03",
+    "category": "test",
+    "subcategory": "automation-test",
+    "title": "自动化部署测试卡片",
+    "summary": "测试 PAT 能否直接 commit",
+    "detail": [
+      "这是一张测试卡，会自动删除"
+    ],
+    "url": "https://github.com/975341610/forest-island-daily",
+    "source": "Mira",
+    "image_url": "https://via.placeholder.com/400x225.png"
+  }
+]
