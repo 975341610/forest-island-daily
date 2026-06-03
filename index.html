@@ -237,13 +237,40 @@ function showToast(msg){
 }
 
 /* ---------- 图片兜底链 ---------- */
+// 已知国内访问不稳的图源域名（dicebear=BunnyCDN, picsum/placehold=Cloudflare 在国内常超时）
+const UNRELIABLE_IMG_HOSTS = /(dicebear\.com|picsum\.photos|placehold\.co|placeholder\.com|unsplash\.com|api\.lorem)/i;
+
+// 生成纯本地 SVG Data URL 占位图（100% 不依赖外网，按 seed 出不同颜色 emoji）
+function localPlaceholder(n){
+    const cat = (n.category || '').toLowerCase();
+    const emoji = cat.includes('gam') ? '🎮' : cat.includes('vibe') || cat.includes('code') ? '💻' : '🤖';
+    // 按 id 生成稳定色调
+    const seed = (n.id || n.title || 'x').split('').reduce((a,c)=>a + c.charCodeAt(0), 0);
+    const palettes = [
+        ['#FFE5B4','#FFB997'], ['#D4F1C5','#A8E6A1'], ['#C5DEFF','#A1C4E8'],
+        ['#FFD6E8','#FFA8C8'], ['#E8D6FF','#C8A8FF'], ['#FFF5C5','#FFE08A'],
+        ['#C5F5F5','#8AE0E0'], ['#FFD4A8','#FFA870']
+    ];
+    const [c1, c2] = palettes[seed % palettes.length];
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+        <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="${c1}"/><stop offset="1" stop-color="${c2}"/>
+        </linearGradient></defs>
+        <rect width="400" height="400" fill="url(#g)"/>
+        <text x="200" y="240" font-size="160" text-anchor="middle">${emoji}</text>
+    </svg>`;
+    return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
+}
+
 function getImageUrl(n){
-    // 兼容多种可能的字段名（image / image_url / img / cover / thumbnail / pic）
+    // 兼容多种可能的字段名
     const raw = n.image || n.image_url || n.imageUrl || n.img || n.cover || n.thumbnail || n.pic || '';
-    if(raw && /^https?:\/\//.test(raw)) return raw;
-    // 缺图兜底：用 id 作 seed 生成稳定占位图
-    const seed = encodeURIComponent(n.id || n.title || Math.random().toString(36).slice(2));
-    return `https://picsum.photos/seed/${seed}/600/600`;
+    // 有合法 URL 且不在已知不稳的图源列表 → 直接用
+    if(raw && /^https?:\/\//.test(raw) && !UNRELIABLE_IMG_HOSTS.test(raw)){
+        return raw;
+    }
+    // 否则用纯本地 SVG 占位（不依赖任何外部 CDN，国内 100% 可达）
+    return localPlaceholder(n);
 }
 /* ---------- 字段兼容（新老 schema 都吃） ---------- */
 function normalizeItem(n){
@@ -456,7 +483,7 @@ async function renderPosterPage(rawItem, idx, total){
         <h2 class="poster-title">${escapeHtml(item.title)}</h2>
         <div class="poster-img-wrap">
             <img src="${item.image}" crossorigin="anonymous" referrerpolicy="no-referrer" alt=""
-                 onerror="this.onerror=null;this.removeAttribute('crossorigin');this.src='https://picsum.photos/seed/'+encodeURIComponent(${JSON.stringify(item.id||'fallback')})+'/600/600';">
+                 onerror="this.onerror=null;this.removeAttribute('crossorigin');this.src=localPlaceholder(${JSON.stringify(item)});">
         </div>
         <div class="poster-detail">${(item.detail||[]).slice(0,2).map(p=>`<p>${escapeHtml(p)}</p>`).join('')}</div>
         <div class="poster-footer">
