@@ -15,6 +15,21 @@
     ]
   },
   {
+    "id": "n_2026-06-03_05",
+    "date": "2026-06-03",
+    "category": "AI",
+    "subcat": "全球科技热榜",
+    "platform": "HackerNews",
+    "platform_color": "#8ED16D",
+    "title": "AI outperforms law professors in Stanford Law study",
+    "url": "https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/",
+    "image": "https://api.dicebear.com/7.x/shapes/png?seed=ff143591&size=512",
+    "detail": [
+      "来自 HackerNews 的今日热门内容：AI outperforms law professors in Stanford Law study",
+      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+    ]
+  },
+  {
     "id": "n_2026-06-03_04",
     "date": "2026-06-03",
     "category": "AI",
