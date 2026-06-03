@@ -51,17 +51,35 @@ if not errorlevel 1 (
 for /f "tokens=2 delims==" %%a in ('"wmic os get LocalDateTime /value | findstr ="') do set DT=%%a
 set TODAY=%DT:~0,4%-%DT:~4,2%-%DT:~6,2%
 
-echo [^>] Commit and push...
+echo [^>] Commit...
 git commit -m "mira daily: %TODAY%"
-git push
 
+echo.
+echo [^>] Sync with remote (pull --rebase)...
+git pull --rebase origin main
+if errorlevel 1 (
+    echo.
+    echo [X] Pull/rebase failed - there may be merge conflicts.
+    echo     Resolve manually:
+    echo       git status
+    echo       git rebase --abort   ^(to give up^)
+    echo.
+    pause
+    exit /b 1
+)
+
+echo.
+echo [^>] Push to GitHub...
+git push
 if errorlevel 1 (
     echo.
     echo [X] Push failed. Check network/permission.
-) else (
-    echo.
-    echo [v] Push succeeded! Site will update in 1-2 minutes.
+    pause
+    exit /b 1
 )
 
+echo.
+echo [v] Push succeeded! Site will update in 1-2 minutes.
+echo     https://975341610.github.io/forest-island-daily/
 echo.
 pause

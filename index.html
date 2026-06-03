@@ -81,6 +81,12 @@ body {
 .btn-pink    { background:var(--island-pink); color:var(--island-dark); }
 .btn-rs      { background:#FE2C55; color:#fff; border-color:#9E7453; }
 .btn-dy      { background:#161823; color:#fff; }
+.btn-trash   { background:#EFE3D0; color:#7A5A40; flex:0 0 auto; min-width:auto; padding:9px 12px; }
+.btn-trash:hover { background:#E66B6B; color:#fff; }
+
+.card.deleted { display:none !important; }
+.toolbar-extra { display:flex; align-items:center; gap:6px; font-size:12px; color:var(--island-brown); margin-left:6px; }
+.toolbar-extra a { color:var(--island-deep); cursor:pointer; text-decoration:underline; font-weight:700; }
 
 .footer { margin-top:30px; text-align:center; color:var(--island-brown); font-size:12px; line-height:1.8; }
 
@@ -176,6 +182,7 @@ body {
         <p>🍃 内容来源：小红书 · 抖音 · 微博 · B站 · GitHub · Reddit · YouTube · X · TikTok · LinkedIn · Steam · 官方博客 等</p>
         <p>每日 06:00 自动更新 · 由 Mira 智能聚合 · Animal Crossing 灵感设计</p>
         <p id="metaInfo"></p>
+        <p id="deletedInfo" class="toolbar-extra" style="justify-content:center;"></p>
     </footer>
 </div>
 
@@ -239,6 +246,7 @@ function renderCard(n){
             <a class="btn btn-primary" href="${escapeHtml(n.url)}" target="_blank" rel="noopener">🔗 原文</a>
             <button class="btn btn-orange" onclick="openSingleShare('${escapeHtml(n.id)}')">📤 分享</button>
             <button class="btn btn-pink" onclick="copyItemText('${escapeHtml(n.id)}')">📋 复制文案</button>
+            <button class="btn btn-trash" onclick="deleteCard('${escapeHtml(n.id)}', this)" title="隐藏这张卡片">🗑</button>
         </div>
     </div>
 </article>`;
@@ -265,6 +273,53 @@ function renderNews(data){
         });
     }
     document.getElementById('metaInfo').textContent = `共归档 ${NEWS_DATA.length} 条 · ${dates.length} 天`;
+
+    // 应用本地删除列表
+    applyDeletedFromStorage();
+    updateDeletedCounter();
+}
+
+/* ---------- 删除卡片（本地持久化） ---------- */
+const DELETED_KEY = 'forestIsland.deletedIds.v1';
+
+function getDeletedIds(){
+    try { return new Set(JSON.parse(localStorage.getItem(DELETED_KEY) || '[]')); }
+    catch(e){ return new Set(); }
+}
+function saveDeletedIds(set){
+    localStorage.setItem(DELETED_KEY, JSON.stringify(Array.from(set)));
+}
+function applyDeletedFromStorage(){
+    const del = getDeletedIds();
+    document.querySelectorAll('.card').forEach(c=>{
+        if(del.has(c.dataset.id)) c.classList.add('deleted');
+    });
+}
+function deleteCard(id, btn){
+    if(!confirm('确定隐藏这张卡片？\n（可以在顶部点「恢复全部」找回）')) return;
+    const card = btn.closest('.card');
+    if(card){ card.classList.add('deleted'); }
+    const del = getDeletedIds();
+    del.add(id);
+    saveDeletedIds(del);
+    updateDeletedCounter();
+    showToast('🗑 已隐藏');
+}
+function restoreAllCards(){
+    const del = getDeletedIds();
+    if(del.size === 0){ showToast('没有可恢复的卡片'); return; }
+    if(!confirm(`恢复全部 ${del.size} 张被隐藏的卡片？`)) return;
+    localStorage.removeItem(DELETED_KEY);
+    document.querySelectorAll('.card.deleted').forEach(c=>c.classList.remove('deleted'));
+    updateDeletedCounter();
+    showToast('✅ 已恢复全部');
+}
+function updateDeletedCounter(){
+    const n = getDeletedIds().size;
+    const el = document.getElementById('deletedInfo');
+    if(!el) return;
+    if(n === 0){ el.innerHTML = ''; return; }
+    el.innerHTML = `已隐藏 ${n} 张 · <a onclick="restoreAllCards()">恢复全部</a>`;
 }
 
 document.getElementById('catFilter').addEventListener('click', e => {

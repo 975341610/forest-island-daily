@@ -22,12 +22,75 @@ TODAY   = os.path.join(DATA_DIR, "today.json")
 REQUIRED_KEYS = {"id", "date", "category", "subcat", "platform",
                  "platform_color", "title", "url", "image", "detail"}
 
+# 各 category 对应的颜色（Animal Crossing 配色 + 平台主色）
+CATEGORY_COLORS = {
+    # AI 家族
+    "ai-claude":   "#D97757",
+    "ai-codex":    "#10A37F",
+    "ai-gemini":   "#4285F4",
+    "ai-grok":     "#000000",
+    "ai-llama":    "#0866FF",
+    "AI":          "#10A37F",
+    # 科技榜
+    "hackernews":  "#FF6600",
+    "github":      "#24292F",
+    "reddit":      "#FF4500",
+    "x":           "#000000",
+    "youtube":     "#FF0000",
+    "linkedin":    "#0A66C2",
+    "instagram":   "#E1306C",
+    "facebook":    "#1877F2",
+    # 中文
+    "bilibili":    "#FB7299",
+    "xiaohongshu": "#FF2442",
+    "douyin":      "#161823",
+    "weibo":       "#E6162D",
+    # 游戏
+    "主机游戏":     "#E60012",
+    "steam":       "#1B2838",
+    "Gaming":      "#E60012",
+}
+
 
 def load_json(path, default):
     if not os.path.exists(path):
         return default
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def normalize_item(item):
+    """
+    把新 schema 字段（image_url / subcategory / category_label / source）
+    映射成前端需要的旧 schema（image / subcat / platform / platform_color）。
+    已经是旧 schema 的 item 原样返回。
+    """
+    out = dict(item)
+
+    # image_url -> image
+    if "image" not in out and "image_url" in out:
+        out["image"] = out["image_url"]
+
+    # subcategory -> subcat
+    if "subcat" not in out and "subcategory" in out:
+        out["subcat"] = out["subcategory"]
+
+    # source -> platform；category_label 作为备选
+    if "platform" not in out:
+        out["platform"] = out.get("source") or out.get("category_label") or out.get("category", "")
+
+    # platform_color：按 category 查表，找不到给默认绿色
+    if "platform_color" not in out:
+        cat = out.get("category", "")
+        out["platform_color"] = CATEGORY_COLORS.get(cat, "#8ED16D")
+
+    # detail：允许字符串，转为单段列表
+    if isinstance(out.get("detail"), str):
+        # 按段分割（双换行或单换行）
+        paragraphs = [p.strip() for p in out["detail"].replace("\r\n", "\n").split("\n") if p.strip()]
+        out["detail"] = paragraphs if paragraphs else [out["detail"]]
+
+    return out
 
 
 def validate(item):
@@ -45,7 +108,9 @@ def merge(archive, today_new):
     """按 url 去重，老的 archive 永远不丢"""
     existing_urls = {n["url"] for n in archive}
     added, skipped, invalid = 0, 0, 0
-    for n in today_new:
+    for raw in today_new:
+        # 字段归一化：新 schema → 旧 schema
+        n = normalize_item(raw)
         err = validate(n)
         if err:
             print(f"  ✗ invalid: {n.get('title','?')[:30]} → {err}")
