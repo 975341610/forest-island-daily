@@ -1,0 +1,18 @@
+[
+  {
+    "id": "n2",
+    "date": "2026-05-28",
+    "category": "AI",
+    "subcat": "Claude",
+    "platform": "Reddit / r/ClaudeAI",
+    "platform_color": "#FF4500",
+    "title": "Claude Opus 4.8 发布：SWE-bench Pro 升至 69.2%，Fast Mode 价格降至 1/3",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1tq99mu/introducing_claude_opus_48/",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/f4b7d393be2d41428900e4db7f89aaf6.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=Th2OaX1jKgxQsV7sbIJ6tqTdZbM%3D",
+    "detail": [
+      "Anthropic 于 5 月 28 日发布 Claude Opus 4.8，6 月上旬持续占据 r/ClaudeAI 与开发者圈讨论焦点（多个相关帖近 1K~2.6K upvotes、超 800 评论）。该模型在编码、Agent、计算机使用、长任务等核心维度全面超越 Opus 4.7。",
+      "核心成绩：SWE-bench Verified 88.6%、SWE-bench Pro 69.2%（4.7 为 64.3%）、Terminal-Bench 2.1 74.6%、知识工作综合分由 1753 升至 1890，多项基准超越 GPT-5.5 与 Gemini 3.1 Pro。新增 Fast Mode 速度提升约 2.5 倍，价格相对此前快速版本下降 3 倍，让长任务自主化具备实际可用经济性。",
+      "Reddit 社区反应两极：一派开发者称赞其在真实业务问题上更稳定（'Welcome the new King'），另一派则在『i hate that opus 4.8 is honest』等帖中抱怨模型『过度坦率』，会主动指出用户方案缺陷而非顺从。这场围绕『模型诚实度』的争论已成为 6 月初 AI 社区标志性话题。"
+    ]
+  }
+]

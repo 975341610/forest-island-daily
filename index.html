@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#8ED16D">
+<title>森林小岛日报</title>
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<style>
+:root {
+    --island-green:    #8ED16D;
+    --island-deep:     #6BAE52;
+    --island-blue:     #70CAD1;
+    --island-yellow:   #F0DE65;
+    --island-orange:   #F2A65A;
+    --island-pink:     #F8B5C1;
+    --island-brown:    #9E7453;
+    --island-dark:     #5A4A3E;
+    --island-bg:       #FEF9E7;
+    --island-card-bg:  #FFFEF5;
+    --island-radius:   24px;
+    --island-radius-sm:14px;
+    --island-border:   3px solid var(--island-brown);
+    --island-shadow:   0 6px 0 var(--island-brown), 0 8px 18px rgba(94,74,62,0.18);
+    --island-shadow-sm:0 3px 0 var(--island-brown), 0 4px 10px rgba(94,74,62,0.14);
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body {
+    margin: 0; padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--island-bg);
+    background-image:
+        radial-gradient(circle at 10% 20%, rgba(142,209,109,0.15) 0, transparent 25%),
+        radial-gradient(circle at 90% 60%, rgba(112,202,209,0.15) 0, transparent 25%),
+        radial-gradient(circle at 50% 90%, rgba(240,222,101,0.15) 0, transparent 25%);
+    color: var(--island-dark); line-height: 1.7; min-height: 100vh;
+}
+.app { max-width: 980px; margin: 0 auto; padding: 16px 14px 80px; }
+.header {
+    background: linear-gradient(135deg, var(--island-green) 0%, var(--island-deep) 100%);
+    border: var(--island-border); border-radius: var(--island-radius);
+    box-shadow: var(--island-shadow); padding: 22px 22px 26px;
+    text-align: center; color: #fff; position: relative; overflow: hidden; margin-bottom: 22px;
+}
+.header::before { content:""; position:absolute; top:-20px; right:-20px; width:120px; height:120px; background:var(--island-yellow); border-radius:50%; opacity:0.4; }
+.header::after  { content:""; position:absolute; bottom:-30px; left:-30px; width:100px; height:100px; background:var(--island-pink); border-radius:50%; opacity:0.3; }
+.header h1 { margin:0 0 6px; font-size:28px; font-weight:900; letter-spacing:1px; text-shadow:2px 2px 0 var(--island-brown); position:relative; }
+.header .sub { margin:0; font-size:14px; opacity:0.95; position:relative; }
+.header .stamp { display:inline-block; margin-top:10px; padding:4px 14px; background:#fff; color:var(--island-deep); border-radius:999px; font-size:13px; font-weight:700; border:2px solid var(--island-brown); position:relative; }
+
+.toolbar { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:20px; align-items:center; }
+.date-picker { flex:1 1 auto; background:#fff; border:var(--island-border); border-radius:var(--island-radius-sm); box-shadow:var(--island-shadow-sm); padding:8px 12px; display:flex; align-items:center; gap:8px; }
+.date-picker label { font-size:13px; font-weight:700; color:var(--island-dark); }
+.date-picker select { flex:1; border:none; background:transparent; font-size:14px; font-weight:700; color:var(--island-deep); outline:none; cursor:pointer; }
+.btn-poster { background:var(--island-yellow); border:var(--island-border); border-radius:var(--island-radius-sm); box-shadow:var(--island-shadow-sm); padding:10px 18px; font-size:14px; font-weight:800; color:var(--island-dark); cursor:pointer; transition:transform 0.1s ease; }
+.btn-poster:active { transform:translate(0,3px); box-shadow:0 1px 0 var(--island-brown); }
+
+.cat-filter { display:flex; gap:8px; overflow-x:auto; margin-bottom:18px; padding-bottom:6px; -webkit-overflow-scrolling:touch; }
+.cat-chip { flex:0 0 auto; background:#fff; border:2px solid var(--island-brown); border-radius:999px; padding:6px 16px; font-size:13px; font-weight:700; color:var(--island-dark); cursor:pointer; box-shadow:0 2px 0 var(--island-brown); transition:all 0.15s; }
+.cat-chip.active { background:var(--island-green); color:#fff; transform:translateY(1px); box-shadow:0 1px 0 var(--island-brown); }
+
+.news-list { display:flex; flex-direction:column; gap:20px; }
+.card { background:var(--island-card-bg); border:var(--island-border); border-radius:var(--island-radius); box-shadow:var(--island-shadow); overflow:hidden; display:flex; flex-direction:column; }
+.card-img-wrap { background:linear-gradient(135deg,#FFE9A8 0%,#FFD580 100%); padding:12px; border-bottom:var(--island-border); }
+.card-img { width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:var(--island-radius-sm); display:block; background:#fff; }
+.card-body { padding:18px; }
+.card-meta { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px; align-items:center; }
+.tag-platform { display:inline-block; padding:3px 10px; border-radius:999px; color:#fff; font-size:11px; font-weight:700; border:2px solid var(--island-brown); }
+.tag-cat { display:inline-block; padding:3px 10px; border-radius:999px; background:var(--island-yellow); color:var(--island-dark); font-size:11px; font-weight:700; border:2px solid var(--island-brown); }
+.tag-date { margin-left:auto; font-size:11px; color:var(--island-brown); font-weight:700; }
+.card-title { margin:0 0 12px; font-size:18px; font-weight:800; line-height:1.5; color:var(--island-dark); }
+.card-detail p { margin:0 0 10px; font-size:14.5px; line-height:1.75; color:#4A3E33; }
+.card-detail p:last-child { margin-bottom:0; }
+
+.card-actions { margin-top:16px; display:flex; flex-wrap:wrap; gap:8px; padding-top:14px; border-top:2px dashed #D9CAB3; }
+.btn { flex:1 1 auto; min-width:110px; background:#fff; border:2px solid var(--island-brown); border-radius:var(--island-radius-sm); box-shadow:0 3px 0 var(--island-brown); padding:9px 12px; font-size:13px; font-weight:700; color:var(--island-dark); cursor:pointer; text-decoration:none; text-align:center; transition:transform 0.1s; }
+.btn:active { transform:translateY(2px); box-shadow:0 1px 0 var(--island-brown); }
+.btn-primary { background:var(--island-blue); color:#fff; }
+.btn-orange  { background:var(--island-orange); color:#fff; }
+.btn-pink    { background:var(--island-pink); color:var(--island-dark); }
+.btn-rs      { background:#FE2C55; color:#fff; border-color:#9E7453; }
+.btn-dy      { background:#161823; color:#fff; }
+
+.footer { margin-top:30px; text-align:center; color:var(--island-brown); font-size:12px; line-height:1.8; }
+
+.modal-mask { position:fixed; inset:0; background:rgba(0,0,0,0.75); display:none; align-items:center; justify-content:center; z-index:9999; padding:16px; }
+.modal-mask.show { display:flex; }
+.modal-inner { width:100%; max-width:480px; max-height:92vh; overflow:auto; background:#fff; border:var(--island-border); border-radius:var(--island-radius); padding:16px; text-align:center; }
+.modal-tab { display:flex; gap:6px; margin-bottom:14px; background:#F4EFE2; padding:5px; border-radius:999px; border:2px solid var(--island-brown); }
+.modal-tab button { flex:1; border:none; background:transparent; padding:8px 10px; border-radius:999px; font-size:13px; font-weight:800; color:var(--island-brown); cursor:pointer; }
+.modal-tab button.active { background:var(--island-green); color:#fff; }
+.tab-pane { display:none; }
+.tab-pane.show { display:block; }
+
+.poster-carousel { position:relative; padding:0 0 10px; }
+.poster-slides { display:flex; gap:10px; overflow-x:auto; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; padding-bottom:8px; }
+.poster-slide { flex:0 0 75%; scroll-snap-align:center; border:2px solid var(--island-brown); border-radius:var(--island-radius-sm); overflow:hidden; background:#FEF9E7; position:relative; cursor:pointer; transition:transform 0.15s, box-shadow 0.15s; }
+.poster-slide.selected { box-shadow:0 0 0 4px var(--island-green), 0 4px 12px rgba(94,74,62,0.25); transform:translateY(-2px); }
+.poster-slide img { width:100%; height:auto; display:block; }
+.poster-slide .pg-no { position:absolute; top:6px; right:8px; background:rgba(0,0,0,0.55); color:#fff; padding:2px 9px; border-radius:999px; font-size:11px; font-weight:700; }
+.poster-slide .pg-check { position:absolute; top:6px; left:8px; width:26px; height:26px; border-radius:50%; background:#fff; border:2px solid var(--island-brown); display:flex; align-items:center; justify-content:center; font-size:16px; font-weight:900; color:transparent; box-shadow:0 2px 0 var(--island-brown); }
+.poster-slide.selected .pg-check { background:var(--island-green); color:#fff; }
+.poster-actions { margin-top:10px; display:flex; flex-wrap:wrap; gap:8px; justify-content:center; }
+.poster-actions .btn { min-width:100px; flex:1 1 30%; }
+.tips { margin:8px 0; color:var(--island-brown); font-size:12px; font-weight:700; }
+
+.copy-box { text-align:left; background:#FEF9E7; border:2px dashed var(--island-brown); border-radius:var(--island-radius-sm); padding:14px; font-size:13.5px; line-height:1.85; color:var(--island-dark); max-height:300px; overflow:auto; white-space:pre-wrap; word-break:break-word; }
+.copy-actions { margin-top:10px; display:flex; gap:8px; }
+
+.modal-close { margin-top:14px; background:var(--island-orange); border:2px solid var(--island-brown); border-radius:999px; padding:8px 28px; font-size:14px; font-weight:800; color:#fff; cursor:pointer; box-shadow:0 3px 0 var(--island-brown); }
+
+.loading { padding:30px 0; text-align:center; color:var(--island-brown); font-weight:700; }
+.loading .spinner { display:inline-block; width:34px; height:34px; border:4px solid var(--island-yellow); border-top-color:var(--island-green); border-radius:50%; animation:spin 0.9s linear infinite; vertical-align:middle; margin-right:10px; }
+@keyframes spin { to { transform:rotate(360deg); } }
+
+.toast { position:fixed; bottom:30px; left:50%; transform:translateX(-50%) translateY(80px); background:var(--island-dark); color:#fff; padding:10px 20px; border-radius:999px; font-size:13px; font-weight:700; opacity:0; transition:all 0.25s; z-index:10000; pointer-events:none; }
+.toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
+
+.render-stage { position:fixed; top:-10000px; left:-10000px; width:1080px; pointer-events:none; z-index:-1; }
+.poster-page { width:1080px; min-height:1440px; background:linear-gradient(160deg, #FEF9E7 0%, #FFF4D6 100%); padding:54px 50px; position:relative; overflow:visible; font-family:"PingFang SC","Microsoft YaHei",sans-serif; color:#5A4A3E; display:flex; flex-direction:column; border:8px solid #9E7453; border-radius:36px; box-sizing:border-box; }
+.poster-page::before { content:""; position:absolute; top:-50px; right:-50px; width:240px; height:240px; background:#F0DE65; border-radius:50%; opacity:0.4; }
+.poster-page::after  { content:""; position:absolute; bottom:-60px; left:-60px; width:200px; height:200px; background:#F8B5C1; border-radius:50%; opacity:0.35; }
+.poster-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:22px; position:relative; z-index:2; }
+.poster-logo { background:#8ED16D; color:#fff; padding:10px 22px; border-radius:999px; border:4px solid #9E7453; font-size:26px; font-weight:900; letter-spacing:1px; text-shadow:2px 2px 0 #6BAE52; }
+.poster-page-no { background:#fff; color:#9E7453; padding:8px 16px; border-radius:999px; border:3px solid #9E7453; font-size:20px; font-weight:800; }
+.poster-tags { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:18px; position:relative; z-index:2; }
+.poster-tag-pl { color:#fff; padding:6px 16px; border-radius:999px; border:3px solid #9E7453; font-size:20px; font-weight:800; }
+.poster-tag-cat { background:#F0DE65; color:#5A4A3E; padding:6px 16px; border-radius:999px; border:3px solid #9E7453; font-size:20px; font-weight:800; }
+.poster-title { font-size:42px; font-weight:900; line-height:1.35; color:#5A4A3E; margin:0 0 20px; position:relative; z-index:2; word-break:break-word; }
+.poster-img-wrap { background:linear-gradient(135deg,#FFE9A8 0%,#FFD580 100%); padding:14px; border-radius:22px; border:5px solid #9E7453; margin-bottom:20px; position:relative; z-index:2; box-shadow:0 8px 0 #9E7453; width:560px; max-width:100%; align-self:center; }
+.poster-img-wrap img { width:100%; height:auto; aspect-ratio:1/1; object-fit:cover; border-radius:14px; display:block; background:#fff; }
+.poster-detail { font-size:26px; line-height:1.65; color:#4A3E33; position:relative; z-index:2; word-break:break-word; }
+.poster-detail p { margin:0 0 14px; }
+.poster-footer { margin-top:24px; padding-top:18px; border-top:3px dashed #9E7453; display:flex; justify-content:space-between; align-items:center; font-size:18px; color:#9E7453; font-weight:700; position:relative; z-index:2; flex-wrap:wrap; gap:8px; }
+.poster-footer .url { font-size:18px; max-width:60%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+
+@media (min-width:768px) {
+    .app { padding:24px 24px 100px; }
+    .header h1 { font-size:34px; }
+    .card { flex-direction:row; }
+    .card-img-wrap { width:260px; flex:0 0 260px; border-bottom:none; border-right:var(--island-border); }
+    .poster-slide { flex:0 0 45%; }
+}
+</style>
+</head>
+<body>
+
+<div class="app" id="app-root">
+    <header class="header">
+        <h1>🌴 森林小岛日报</h1>
+        <p class="sub">每日聚合全球科技 · AI · 游戏 · 氛围编程的一手热点</p>
+        <span class="stamp" id="header-date">加载中…</span>
+    </header>
+
+    <div class="toolbar">
+        <div class="date-picker">
+            <label>📅 归档</label>
+            <select id="dateSelect"><option value="all">📚 全部日期</option></select>
+        </div>
+        <button class="btn-poster" onclick="openShareAllModal()">📱 一键生成小红书图文</button>
+    </div>
+
+    <div class="cat-filter" id="catFilter">
+        <button class="cat-chip active" data-cat="all">🌈 全部</button>
+        <button class="cat-chip" data-cat="AI">🤖 AI</button>
+        <button class="cat-chip" data-cat="VibeCoding">✨ Vibe Coding</button>
+        <button class="cat-chip" data-cat="Gaming">🎮 游戏圈</button>
+    </div>
+
+    <div class="news-list" id="newsList">
+        <div class="loading"><span class="spinner"></span>正在加载今日热点…</div>
+    </div>
+
+    <footer class="footer">
+        <p>🍃 内容来源：小红书 · 抖音 · 微博 · B站 · GitHub · Reddit · YouTube · X · TikTok · LinkedIn · Steam · 官方博客 等</p>
+        <p>每日 06:00 自动更新 · 由 Mira 智能聚合 · Animal Crossing 灵感设计</p>
+        <p id="metaInfo"></p>
+    </footer>
+</div>
+
+<div class="modal-mask" id="shareModal">
+    <div class="modal-inner">
+        <div class="modal-tab">
+            <button data-tab="pages" class="active" onclick="switchTab('pages')">📸 图片分页</button>
+            <button data-tab="rs" onclick="switchTab('rs')">📕 小红书图文</button>
+            <button data-tab="dy" onclick="switchTab('dy')">🎬 抖音脚本</button>
+        </div>
+        <div class="tab-pane show" id="tab-pages">
+            <div id="posterArea"><div class="loading"><span class="spinner"></span>正在生成竖屏分页图...</div></div>
+        </div>
+        <div class="tab-pane" id="tab-rs">
+            <p class="tips">📕 小红书图文笔记格式（标题 + 正文 + tag）</p>
+            <div class="copy-box" id="rsText"></div>
+            <div class="copy-actions"><button class="btn btn-rs" onclick="copyById('rsText')">📋 复制小红书文案</button></div>
+        </div>
+        <div class="tab-pane" id="tab-dy">
+            <p class="tips">🎬 抖音口播脚本（含分镜 + 旁白 + 话题）</p>
+            <div class="copy-box" id="dyText"></div>
+            <div class="copy-actions"><button class="btn btn-dy" onclick="copyById('dyText')">📋 复制抖音文案</button></div>
+        </div>
+        <div><button class="modal-close" onclick="closeShareModal()">关闭</button></div>
+    </div>
+</div>
+
+<div class="render-stage" id="renderStage"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+let NEWS_DATA = [];
+let CURRENT_SHARE_ITEMS = [];
+let CURRENT_POSTER_BLOBS = [];
+
+function escapeHtml(s){
+    return String(s||'').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function showToast(msg){
+    const t = document.getElementById('toast');
+    t.textContent = msg; t.classList.add('show');
+    clearTimeout(t._t); t._t = setTimeout(()=>t.classList.remove('show'), 1800);
+}
+
+/* ---------- 渲染卡片（运行时） ---------- */
+function renderCard(n){
+    const detailHtml = (n.detail||[]).map(p=>`<p>${escapeHtml(p)}</p>`).join('');
+    return `<article class="card" data-id="${escapeHtml(n.id)}" data-category="${escapeHtml(n.category)}" data-date="${escapeHtml(n.date)}">
+    <div class="card-img-wrap">
+        <img class="card-img" src="${escapeHtml(n.image)}" alt="${escapeHtml(n.title)}" crossorigin="anonymous" referrerpolicy="no-referrer" onerror="this.style.background='#FEF9E7';this.removeAttribute('src');">
+    </div>
+    <div class="card-body">
+        <div class="card-meta">
+            <span class="tag-platform" style="background:${escapeHtml(n.platform_color||'#8ED16D')}">${escapeHtml(n.platform)}</span>
+            <span class="tag-cat">${escapeHtml(n.subcat||n.category)}</span>
+            <span class="tag-date">📅 ${escapeHtml(n.date)}</span>
+        </div>
+        <h2 class="card-title">${escapeHtml(n.title)}</h2>
+        <div class="card-detail">${detailHtml}</div>
+        <div class="card-actions">
+            <a class="btn btn-primary" href="${escapeHtml(n.url)}" target="_blank" rel="noopener">🔗 原文</a>
+            <button class="btn btn-orange" onclick="openSingleShare('${escapeHtml(n.id)}')">📤 分享</button>
+            <button class="btn btn-pink" onclick="copyItemText('${escapeHtml(n.id)}')">📋 复制文案</button>
+        </div>
+    </div>
+</article>`;
+}
+
+function renderNews(data){
+    NEWS_DATA = (data||[]).slice().sort((a,b)=> (a.date<b.date?1:a.date>b.date?-1:0));
+    const list = document.getElementById('newsList');
+    if(!NEWS_DATA.length){ list.innerHTML = '<div class="loading">暂无内容</div>'; return; }
+    list.innerHTML = NEWS_DATA.map(renderCard).join('');
+
+    // 日期下拉
+    const dates = Array.from(new Set(NEWS_DATA.map(n=>n.date))).sort().reverse();
+    const sel = document.getElementById('dateSelect');
+    sel.innerHTML = '<option value="all">📚 全部日期</option>' +
+        dates.map((d,i)=>`<option value="${d}"${i===0?' selected':''}>${d}</option>`).join('');
+    const today = dates[0] || '';
+    document.getElementById('header-date').textContent = today.replace(/-/g,'/');
+
+    // 默认显示最新一天
+    if(today){
+        document.querySelectorAll('.card').forEach(c=>{
+            c.style.display = (c.dataset.date===today) ? '' : 'none';
+        });
+    }
+    document.getElementById('metaInfo').textContent = `共归档 ${NEWS_DATA.length} 条 · ${dates.length} 天`;
+}
+
+document.getElementById('catFilter').addEventListener('click', e => {
+    const btn = e.target.closest('.cat-chip'); if(!btn) return;
+    document.querySelectorAll('.cat-chip').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const cat = btn.dataset.cat;
+    const d = document.getElementById('dateSelect').value;
+    document.querySelectorAll('.card').forEach(c => {
+        const okCat  = (cat==='all' || c.dataset.category===cat);
+        const okDate = (d==='all'   || c.dataset.date===d);
+        c.style.display = (okCat && okDate) ? '' : 'none';
+    });
+});
+document.getElementById('dateSelect').addEventListener('change', e => {
+    const d = e.target.value;
+    document.getElementById('header-date').textContent = d==='all' ? '全部归档' : d.replace(/-/g,'/');
+    document.querySelectorAll('.card').forEach(c => {
+        c.style.display = (d==='all' || c.dataset.date===d) ? '' : 'none';
+    });
+    document.querySelectorAll('.cat-chip').forEach(b => b.classList.remove('active'));
+    document.querySelector('.cat-chip[data-cat="all"]').classList.add('active');
+});
+
+/* ---------- Copy / Modal / Share / Poster ---------- */
+function copyById(id){
+    const el = document.getElementById(id); if(!el) return;
+    const txt = el.innerText;
+    if(navigator.clipboard && window.isSecureContext){
+        navigator.clipboard.writeText(txt).then(()=>showToast('✅ 文案已复制'))
+            .catch(()=>{ fallbackCopy(txt); showToast('✅ 文案已复制'); });
+    } else { fallbackCopy(txt); showToast('✅ 文案已复制'); }
+}
+function fallbackCopy(text){
+    const ta = document.createElement('textarea');
+    ta.value = text; document.body.appendChild(ta);
+    ta.select(); document.execCommand('copy'); document.body.removeChild(ta);
+}
+function switchTab(name){
+    document.querySelectorAll('.modal-tab button').forEach(b => b.classList.toggle('active', b.dataset.tab===name));
+    document.querySelectorAll('.tab-pane').forEach(p => p.classList.toggle('show', p.id==='tab-'+name));
+}
+function closeShareModal(){
+    document.getElementById('shareModal').classList.remove('show');
+    document.getElementById('renderStage').innerHTML = '';
+    CURRENT_POSTER_BLOBS = [];
+}
+document.getElementById('shareModal').addEventListener('click', e => {
+    if(e.target.id==='shareModal') closeShareModal();
+});
+
+function buildRedNoteText(items){
+    const isMulti = items.length > 1;
+    const today = new Date().toISOString().slice(0,10);
+    let head = isMulti
+        ? `🌴 森林小岛日报｜${today}\n今日 ${items.length} 条 AI/科技/游戏热点速看 👇\n\n`
+        : `🌴 ${items[0].title}\n\n`;
+    let body = items.map((n, idx) => {
+        const num = isMulti ? `${idx+1}️⃣ ` : '';
+        const paras = (n.detail||[]).slice(0,2).join('\n\n');
+        return `${num}【${n.title}】\n📍 ${n.platform}｜${n.date}\n\n${paras}\n\n🔗 ${n.url}`;
+    }).join('\n\n━━━━━━━━━━\n\n');
+    const tags = '\n\n━━━━━━━━━━\n#AI日报 #科技热点 #VibeCoding #ClaudeAI #Gemini #国产大模型 #游戏圈 #小红书科技 #每日一报 #森林小岛日报';
+    return head + body + tags;
+}
+function buildDouyinText(items){
+    const isMulti = items.length > 1;
+    const today = new Date().toISOString().slice(0,10);
+    let head = `🎬 【${today} AI 科技日报】\n\n`;
+    let hook = isMulti
+        ? `📢 开场钩子：\n"还在刷无聊视频？今天 ${items.length} 条全球 AI/科技/游戏一手新闻，3 分钟看完别人一整天的信息差！"\n\n`
+        : `📢 开场钩子：\n"今天这一条，可能直接改变你接下来 3 个月的工作方式 ↓"\n\n`;
+    let body = items.map((n, idx) => {
+        const paras = (n.detail||[]).slice(0,2).join('\n');
+        return `━━━━━━━━━━\n🎞️ 分镜 ${idx+1}｜${n.title}\n📍 来源：${n.platform}（${n.date}）\n\n📝 旁白：\n${paras}\n\n🔗 详情：${n.url}`;
+    }).join('\n\n');
+    const cta = '\n\n━━━━━━━━━━\n🎯 结尾引导：\n"觉得有用就点赞收藏，关注我每天 6 点准时更新～"\n\n';
+    const tags = '#ai #科技 #claude #gemini #国产大模型 #游戏 #steam #vibecoding #科技日报 #每日热点';
+    return head + hook + body + cta + tags;
+}
+
+async function renderPosterPage(item, idx, total){
+    const node = document.createElement('div');
+    node.className = 'poster-page';
+    node.innerHTML = `
+        <div class="poster-header">
+            <div class="poster-logo">🌴 森林小岛日报</div>
+            <div class="poster-page-no">${idx+1} / ${total}</div>
+        </div>
+        <div class="poster-tags">
+            <span class="poster-tag-pl" style="background:${item.platform_color||'#8ED16D'}">${escapeHtml(item.platform)}</span>
+            <span class="poster-tag-cat">${escapeHtml(item.subcat||item.category)}｜${item.date}</span>
+        </div>
+        <h2 class="poster-title">${escapeHtml(item.title)}</h2>
+        <div class="poster-img-wrap">
+            <img src="${item.image}" crossorigin="anonymous" referrerpolicy="no-referrer" alt="">
+        </div>
+        <div class="poster-detail">${(item.detail||[]).slice(0,2).map(p=>`<p>${escapeHtml(p)}</p>`).join('')}</div>
+        <div class="poster-footer">
+            <span>📅 ${item.date}｜${escapeHtml(item.platform)}</span>
+            <span class="url">🔗 ${escapeHtml(item.url)}</span>
+        </div>
+    `;
+    const stage = document.getElementById('renderStage');
+    stage.appendChild(node);
+    const img = node.querySelector('img');
+    await new Promise(res => {
+        if(img.complete) return res();
+        img.onload = res; img.onerror = res; setTimeout(res, 6000);
+    });
+    const canvas = await html2canvas(node, {
+        scale: 1, useCORS: true, backgroundColor: null, allowTaint: false,
+        width: 1080, height: Math.max(1440, node.offsetHeight),
+        windowWidth: 1080, windowHeight: Math.max(1440, node.offsetHeight)
+    });
+    stage.removeChild(node);
+    return canvas;
+}
+
+async function generatePosterPages(items){
+    const area = document.getElementById('posterArea');
+    area.innerHTML = '<div class="loading"><span class="spinner"></span>正在生成 '+items.length+' 张竖屏图...</div>';
+    CURRENT_POSTER_BLOBS = [];
+    const canvases = [];
+    for(let i=0; i<items.length; i++){
+        try { canvases.push(await renderPosterPage(items[i], i, items.length)); }
+        catch(e){ console.error('render error', e); }
+    }
+    let html = '<div class="poster-carousel"><div class="poster-slides">';
+    for(let i=0; i<canvases.length; i++){
+        const dataUrl = canvases[i].toDataURL('image/jpeg', 0.9);
+        const blob = await new Promise(res => canvases[i].toBlob(res, 'image/jpeg', 0.9));
+        CURRENT_POSTER_BLOBS.push({blob, name:`森林小岛日报_${String(i+1).padStart(2,'0')}.jpg`, dataUrl, selected:true});
+        html += `<div class="poster-slide selected" data-idx="${i}" onclick="togglePoster(${i})">
+            <span class="pg-check">✓</span>
+            <span class="pg-no">${i+1}/${canvases.length}</span>
+            <img src="${dataUrl}" alt="第${i+1}页">
+        </div>`;
+    }
+    html += '</div></div>';
+    html += `
+        <p class="tips">👆 点击图片可勾选/取消（默认全选 ${canvases.length} 张 · 3:4 竖屏）</p>
+        <div class="poster-actions">
+            <button class="btn btn-orange" onclick="selectAllPosters(true)">✅ 全选</button>
+            <button class="btn btn-pink" onclick="selectAllPosters(false)">⬜ 全不选</button>
+            <button class="btn btn-primary" id="downloadBtn" onclick="downloadSelectedPosters()">⬇️ 下载（${canvases.length}）</button>
+            <button class="btn btn-rs" onclick="shareNative()">🚀 系统分享</button>
+        </div>
+    `;
+    area.innerHTML = html;
+}
+function togglePoster(idx){
+    const item = CURRENT_POSTER_BLOBS[idx]; if(!item) return;
+    item.selected = !item.selected;
+    document.querySelector('.poster-slide[data-idx="'+idx+'"]').classList.toggle('selected', item.selected);
+    updateDownloadBtn();
+}
+function selectAllPosters(flag){
+    CURRENT_POSTER_BLOBS.forEach((p, i) => {
+        p.selected = flag;
+        const el = document.querySelector('.poster-slide[data-idx="'+i+'"]');
+        if(el) el.classList.toggle('selected', flag);
+    });
+    updateDownloadBtn();
+}
+function updateDownloadBtn(){
+    const btn = document.getElementById('downloadBtn'); if(!btn) return;
+    const n = CURRENT_POSTER_BLOBS.filter(p=>p.selected).length;
+    btn.textContent = `⬇️ 下载（${n}）`;
+    btn.disabled = n===0;
+    btn.style.opacity = n===0 ? '0.5' : '1';
+}
+async function downloadSelectedPosters(){
+    const selected = CURRENT_POSTER_BLOBS.filter(p => p.selected);
+    if(!selected.length){ showToast('请先勾选要下载的图片'); return; }
+    if(selected.length === 1){
+        triggerDownload(selected[0].blob, selected[0].name);
+        showToast('💾 已下载: '+selected[0].name); return;
+    }
+    showToast('📦 正在打包 zip...');
+    try {
+        const zip = new JSZip();
+        selected.forEach(p => zip.file(p.name, p.blob));
+        const blob = await zip.generateAsync({type:'blob'});
+        const today = new Date().toISOString().slice(0,10);
+        triggerDownload(blob, `森林小岛日报_${today}_${selected.length}张.zip`);
+        showToast(`✅ ${selected.length} 张图片已打包下载`);
+    } catch(e){
+        selected.forEach((p,i)=>setTimeout(()=>triggerDownload(p.blob, p.name), i*400));
+    }
+}
+function triggerDownload(blob, filename){
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = filename;
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    setTimeout(()=>URL.revokeObjectURL(url), 1000);
+}
+async function shareNative(){
+    const selected = CURRENT_POSTER_BLOBS.filter(p => p.selected);
+    if(!selected.length){ showToast('请先勾选要分享的图片'); return; }
+    if(navigator.canShare && navigator.share){
+        const files = selected.map(p => new File([p.blob], p.name, {type:'image/jpeg'}));
+        if(navigator.canShare({files})){
+            try { await navigator.share({files, title:'森林小岛日报', text:'今日 AI/科技/游戏热点速看'}); return; }
+            catch(e){}
+        }
+    }
+    showToast('ℹ️ 当前浏览器不支持系统分享，请点击下载');
+}
+async function openSingleShare(id){
+    const item = NEWS_DATA.find(n=>n.id===id); if(!item) return;
+    CURRENT_SHARE_ITEMS = [item];
+    document.getElementById('rsText').innerText = buildRedNoteText([item]);
+    document.getElementById('dyText').innerText = buildDouyinText([item]);
+    switchTab('pages');
+    document.getElementById('shareModal').classList.add('show');
+    await generatePosterPages([item]);
+}
+async function openShareAllModal(){
+    const visible = Array.from(document.querySelectorAll('.card'))
+        .filter(c => c.style.display !== 'none')
+        .map(c => NEWS_DATA.find(n => n.id === c.dataset.id))
+        .filter(Boolean);
+    if(!visible.length){ showToast('当前没有可分享的内容'); return; }
+    const items = visible.slice(0, 9);
+    CURRENT_SHARE_ITEMS = items;
+    document.getElementById('rsText').innerText = buildRedNoteText(items);
+    document.getElementById('dyText').innerText = buildDouyinText(items);
+    switchTab('pages');
+    document.getElementById('shareModal').classList.add('show');
+    await generatePosterPages(items);
+}
+function copyItemText(id){
+    const item = NEWS_DATA.find(n=>n.id===id); if(!item) return;
+    const txt = buildRedNoteText([item]);
+    if(navigator.clipboard){ navigator.clipboard.writeText(txt).then(()=>showToast('✅ 文案已复制')); }
+    else { fallbackCopy(txt); showToast('✅ 文案已复制'); }
+}
+
+/* ---------- 启动：fetch archive.json ---------- */
+(function init(){
+    const url = './data/archive.json?t=' + Date.now();
+    fetch(url)
+        .then(r => r.json())
+        .then(renderNews)
+        .catch(err => {
+            console.error(err);
+            document.getElementById('newsList').innerHTML =
+                '<div class="loading">⚠️ 加载失败，请稍后重试<br><small>'+escapeHtml(err.message||'')+'</small></div>';
+        });
+})();
+</script>
+</body>
+</html>

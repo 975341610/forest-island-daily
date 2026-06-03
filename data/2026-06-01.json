@@ -1,0 +1,85 @@
+[
+  {
+    "id": "n3",
+    "date": "2026-06-01",
+    "category": "AI",
+    "subcat": "Claude",
+    "platform": "TechCrunch / Bloomberg",
+    "platform_color": "#00B96B",
+    "title": "Anthropic 正式递交 IPO 招股书，9650 亿美元估值超越 OpenAI",
+    "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/4e6c52f04778465e8667a430233daf57.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=6IZWWtDHkNAU7Dk%2FopBKJTsqbL0%3D",
+    "detail": [
+      "6 月 1 日，Anthropic 正式提交 S-1 文件启动 IPO。同期 Bloomberg 已确认其完成 650 亿美元融资、投后估值达 9650 亿美元，首次超过 OpenAI 8520 亿美元的私有估值，成为全球估值最高的私有 AI 公司，也是 AI 产业史上最大单轮融资。",
+      "时点紧贴 Opus 4.8 发布与 Claude Cowork/Claude Code 在白领市场的快速渗透。招股书披露的 ARR 增速、企业付费用户结构（财富 500 强渗透率）将成为公开市场首次系统性评估『模型公司 + Agent 产品』商业模式的标尺，也为 OpenAI 后续 IPO 路径提供参照。",
+      "华尔街与硅谷关注三点：Anthropic 与 Amazon/Google 双云资本支出绑定下的毛利率结构；下一代未发布模型的研发节奏与算力承诺；IPO 后是否触发 OpenAI 加速私募/二级估值博弈。"
+    ]
+  },
+  {
+    "id": "n7",
+    "date": "2026-06-01",
+    "category": "AI",
+    "subcat": "OpenAI",
+    "platform": "Yahoo Finance",
+    "platform_color": "#410093",
+    "title": "Sam Altman 谈 OpenAI IPO：『时机合适才上市』回应 Anthropic 抢跑",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/sam-altman-says-openai-public-195956494.html",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/e7006ffa99bb494eb6959dbc0ddb16dd.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=w5%2Bx%2FL%2F8gM9s2I1kwkcxVjYQDM0%3D",
+    "detail": [
+      "6 月 1 日下午，Sam Altman 公开回应 Anthropic 当日递交 IPO 招股书一事。他表示 OpenAI 会在『与公司目标和增长计划相一致时』启动 IPO，并未给出明确时间表。这一表态出现在 Anthropic 估值首次超越 OpenAI 的敏感节点，被解读为 OpenAI 不愿被对手『绑架』资本时间表的态度。",
+      "同一周（6 月 2 日）Benzinga 等媒体报道 Altman 个人正以 4000 万美元估值投资 Alfred——一家由前 Tesla 设计师联合创办、聚焦物理世界 AI 的初创。叠加 OpenAI Robotics 部门正大规模招聘全栈硬件与 ML 工程师，可以看到 Altman 个人投资与公司业务双线押注『AI + 实体世界』。",
+      "OpenAI 三条战略路径同步推进：通过 Codex 企业升级在白领市场对 Claude Cowork 形成正面竞争；通过 Sites/Annotations 把 ChatGPT 升级为可分享、可托管的工作平台；通过机器人 + 物理 AI 押注下一个十年。资本市场普遍预期 OpenAI 在 2026 下半年至 2027 上半年完成 IPO 准备。"
+    ]
+  },
+  {
+    "id": "n8",
+    "date": "2026-06-01",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "微博 / 掘金",
+    "platform_color": "#E6162D",
+    "title": "MiniMax M3 开源：编程力压 GPT-5.5，首个『前沿编程+100万长上下文+原生多模态』开源模型",
+    "url": "https://juejin.cn/post/7646334161280417801",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/f9adacd72c1b49fc97346bfb78282a56.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=Le99c3eHS7NR6pWdJaHC4wAcwD8%3D",
+    "detail": [
+      "自年初登陆港股、市值站上 4000 亿港元后，MiniMax 一直被视为国产大模型阵营少有的『商业化+技术+多模态』三线齐发玩家。6 月 1 日深夜，公司正式抛出新一代旗舰 M3，发布会重心放在『同时拿下编程、长上下文、原生多模态』三项硬指标。",
+      "M3 采用自研稀疏注意力架构 MSA（MiniMax Sparse Attention），在 100 万 token 上下文条件下相比上一代实现约 1/20 的计算量；同时支持图像、视频原生输入，可在桌面端操作电脑。会上展示了 M3 自主运行近 12 小时、完整复现一篇学术论文实验的 Demo。",
+      "亮点数据：SWE-Bench Pro 得分 59.0%，超越 OpenAI GPT-5.5 与 Google Gemini 3.1 Pro，成为目前公开评测中开源模型的最强成绩之一。API 上线即推出 7 天 5 折优惠，并承诺 10 天内开源全部权重。",
+      "微博『#MiniMax M3 开源#』与『#国产模型 SWE 第一#』话题持续刷屏，掘金、知乎、虎嗅、36Kr 当晚发出长篇解读。技术社区关注 MSA 是否能成为新一代『DSA 之后的下一块拼图』，以及对 Claude Code、Cursor 等编程 Agent 工具链的潜在替代。"
+    ]
+  },
+  {
+    "id": "n10",
+    "date": "2026-06-01",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "快科技 / 微博热搜",
+    "platform_color": "#E6162D",
+    "title": "DeepSeek V4.1 6 月发布定档：网友热议『降价 vs 打爆国外 AI』",
+    "url": "https://news.mydrivers.com/1/1126/1126509.htm",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/2a32bf781d164be6bef70c3b2a685a57.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=oP789f5U8xMl27kPNhhTx5a5DDQ%3D",
+    "detail": [
+      "DeepSeek 4 月底连发 V4 Flash 与 V4 Pro 后，过去一个月内主动两次下调 API 价格，再次掀起国内大模型价格战，市场密切关注下一代版本节奏。",
+      "6 月 1 日快科技援引接近 DeepSeek 内部人士消息称，V4.1 将于 6 月内发布。新版本将主推『同价位算力下推理能力对齐 Claude Opus 4.6』，并补齐 V4 Pro 在长程 Agent 任务中的稳定性短板。同时配合国家集成电路产业基金的融资落地，DeepSeek 被传估值有望冲击 450 亿美元。",
+      "亮点数据：V4 系列上线 30 天 OpenRouter 调用量稳居全球前三；API 价格降至每百万 token 0.3 美元附近，成为同等性能区间最便宜的旗舰模型；V4.1 预期在数学/竞赛代码上较 V4 Pro 提升 8-12 分。",
+      "微博话题『#DeepSeekV41 本月发布#』当日登上科技榜前三；知乎热议聚焦『再降价是否会逼死 AI 六小龙』；小红书出现大量『等等党的胜利』二创笔记。"
+    ]
+  },
+  {
+    "id": "g3",
+    "date": "2026-06-01",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Variety / Forbes",
+    "platform_color": "#0F0F0F",
+    "title": "GTA 6 行情更新：T2 CEO 确认 11 月 19 日不再延期，6 月底营销轰炸开启",
+    "url": "https://variety.com/2026/gaming/news/gta-5-no-delay-price-marketing-summer-1236755303/",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/4541a8c0fe314b6d9ee46518b5c32b60.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=AVzqg2kDiq9lGMrqC3eP4MK8v3o%3D",
+    "detail": [
+      "Take-Two Interactive CEO Strauss Zelnick 在 6 月初接受 Variety 专访时再次确认《侠盗猎车手6》（GTA VI）将于 2026 年 11 月 19 日 准时发售——此前该作经历过两次延期，令市场对再次跳票高度警惕。Zelnick 同时表示 Rockstar 的官方营销节奏将『随夏季正式开启而启动』。",
+      "Forbes 的 Paul Tassi 在 5 月 26 日（原定发售日）撰文复盘整个延期时间线：2023 年 12 月首支预告、2025 年 5 月首次延期、2025 年 11 月二次延期至 11 月 19 日。Polymarket 上『GTA 6 再次延期』的合约 6 月 2 日仍报价 7%-9%，反映赌徒短期内不再相信 Rockstar 会跳票。",
+      "该作目前确认仍为 PS5 / Xbox Series X|S 独占发售，PC 版没有同步计划。结合任天堂、索尼今年的主机涨价潮，Forbes 分析称黑五周前一周发售意在锁定假日季硬件捆绑销售，并把第三方大作集体挤出 11 月窗口。",
+      "r/GTA6 与 r/GamingLeaksAndRumours 在 6 月初围绕『State of Play 是否会有 GTA 6 彩蛋』展开热烈讨论。社区目前主要预期：6 月底 Trailer 3 + 官方网站重制 + 预购开启。"
+    ]
+  }
+]

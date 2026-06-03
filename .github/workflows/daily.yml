@@ -1,0 +1,73 @@
+name: Daily Fetch & Deploy
+
+on:
+  schedule:
+    # UTC 00:30 = 北京时间 08:30（兜底，万一没有 Mira 数据）
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+    inputs:
+      today_url:
+        description: '【可选】Mira 生成的 today.json 下载链接（留空则跑兜底抓取）'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 优先用 Mira 给的 today.json；URL 为空时退化到本地抓取
+      - name: Fetch today's news (Mira → URL, fallback → local script)
+        run: |
+          INPUT_URL="${{ github.event.inputs.today_url }}"
+          if [ -n "$INPUT_URL" ]; then
+            echo "📥 downloading Mira-generated today.json"
+            curl -sSL "$INPUT_URL" -o data/today.json
+            head -c 200 data/today.json && echo ""
+          else
+            echo "🤖 running local fetch_news.py (fallback)"
+            python scripts/fetch_news.py
+          fi
+
+      - name: Merge into archive
+        run: python scripts/generate.py
+
+      - name: Commit data changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No new data to commit"
+          else
+            git commit -m "📰 daily update: $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

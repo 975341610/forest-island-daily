@@ -1,0 +1,35 @@
+[
+  {
+    "id": "n5",
+    "date": "2026-05-30",
+    "category": "AI",
+    "subcat": "Claude",
+    "platform": "Reddit / r/ClaudeAI",
+    "platform_color": "#FF4500",
+    "title": "Claude Opus 4.8『过度诚实』引发争议：929 upvotes 吐槽帖",
+    "url": "https://www.reddit.com/r/ClaudeAI/comments/1trd1cj/i_hate_that_opus_48_is_honest/",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/0d070b0096814a14b3200492cece6c4c.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=FC6rgddGvPpbU6E3nNEXKpga798%3D",
+    "detail": [
+      "Opus 4.8 上线后约 48 小时，r/ClaudeAI 出现这条 929 upvotes、353 评论的『反向吐槽』帖，并在 6 月初持续发酵。OP 表示模型变得『too honest』——在 Vibe Coding/产品需求评审场景下不再『哄着用户』，而是主动指出用户输入的设计、PRD、代码方案的可能缺陷。",
+      "紧随其后另一条『Spent a few hours with Opus 4.8 - the honesty change is the actual upgrade』进一步指出，4.8 的真实升级不是基准跑分，而是『4.6 级别的礼貌度 + 显著更强的真实问题解决能力』。反对声音则集中在 4.8 的 /model 命令一度不允许回退到 4.7、新模型在某些定制 prompt 上表现不稳。",
+      "产业意义：Anthropic 在系统提示中加强了对模型『sycophancy』（迎合性）的抑制，方向与 OpenAI GPT-5.5 路线相反；氛围编程用户群体对『模型应当顺从还是应当对抗』出现分裂；企业用户普遍认为更高诚实度有助于代码质量与审计，这将影响 Anthropic IPO 前的关键 ARR 续费指标。"
+    ]
+  },
+  {
+    "id": "g5",
+    "date": "2026-05-30",
+    "category": "Gaming",
+    "subcat": "单机",
+    "platform": "Force Gaming / Steam",
+    "platform_color": "#FF0000",
+    "title": "《Gothic 1 重制版》6 月 5 日发售：3A 体量翻新经典德式 RPG",
+    "url": "https://www.youtube.com/watch?v=Xe3u6WfB2Ms",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/d83ffb5e425641e584d2e22144bbfb2e.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=Snf0N5xMocx4R4axvbENwqFQp7k%3D",
+    "detail": [
+      "Alkimia Interactive（THQ Nordic 旗下、Pirahna Bytes 前成员加盟）的《Gothic 1 重制版》（Gothic 1 Remake）将于 2026 年 6 月 5 日 登陆 PC（Steam）、PS5 与 Xbox Series X|S，成为 6 月上旬最受 PC 单机老玩家关注的大体量发售。基于 Unreal Engine 5，全程重写动画、配音、剧情演出与战斗系统，但保留原作 2001 年那套『流放矿坑 + 三大派系投靠』的核心结构。",
+      "战斗系统从早期 GOTHIC 那套『方向键判定』改成更现代的格挡/闪避/重轻击组合；地图体量被官方称为『原作的 2.5 倍』，加入更密集的 NPC 日程系统；支持英德双原配 + 多语字幕，PC 版宣布首发支持 DLSS 4、FSR 4 与 Steam Deck Verified。",
+      "首发售价 49.99 美元，预购送的『Mining Colony Veteran Pack』包含传家装备与一段额外副线任务。Force Gaming（约 108 万订阅）将其列入『2026 年 6 月最值得期待新作』榜单第二位，IGN 此前 5 月底放出 30 分钟实机评测，认为画面观感『达到 RE4 Remake 水准』。",
+      "社区方面，r/pcgaming 和 r/Gothic 老玩家担心剧本现代化改写会破坏原作灰暗、嘲讽式的对白氛围；Steam 论坛同时讨论 EA 早期试玩版的 BUG 数量。媒体普遍认为这是继 Resident Evil 系列后另一次『欧式经典 RPG 复活』的关键测试。"
+    ]
+  }
+]

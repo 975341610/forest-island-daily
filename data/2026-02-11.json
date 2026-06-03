@@ -1,0 +1,19 @@
+[
+  {
+    "id": "n15",
+    "date": "2026-02-11",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "智谱官方 / 财新",
+    "platform_color": "#2563EB",
+    "title": "智谱 GLM-5 开源版编程评测登顶国产 SOTA，GLM-5V-Turbo 6 月迭代",
+    "url": "https://docs.bigmodel.cn/cn/update/new-releases",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/6bc035b204a34ca6a0ac7a2fbc77668f.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=qo2gg5oyQWt9p2ZEKrEK5rkKyYY%3D",
+    "detail": [
+      "智谱 1 月 8 日登陆港交所后市值一路冲至 4000 亿港元规模，2 月 11 日深夜 GLM-5 正式发布并开源，6 月初再迭代出 GLM-5V-Turbo 多模态版本，被开发者社区视为『OpenClaw 主力模型候选之一』。",
+      "GLM-5 首次集成 DeepSeek Sparse Attention，长文本算力大幅下降；6 月配套上线的 GLM-5V-Turbo 在 GUI Agent、Coding Agent 等复杂任务上完整复用 GLM-5 的工具调用与多轮规划能力，自研 CogViT + GLM-0.5B 编码器架构使得 100B 级视觉推理模型实现 SOTA。",
+      "GLM-4.7 发布后 MaaS 平台 ARR 在 10 个月内从 2000 万→5 亿元（25 倍），其中海外 ARR 超 2 亿；GLM Coding Plan 全球 184 国 15 万开发者付费使用；GLM-5 在 Code Arena 开源/国产双榜第一，超过 GPT-5.2。",
+      "微博 #GLM5V# 持续被独立开发者刷屏；B 站头部 UP 主在 5 月底-6 月初提到 GLM-5 在『截图即代码』场景下的实测效果；小红书科技板块出现大量『GLM Coding Plan 换 Claude Code』对比笔记。"
+    ]
+  }
+]

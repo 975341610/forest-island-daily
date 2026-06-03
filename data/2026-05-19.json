@@ -1,0 +1,18 @@
+[
+  {
+    "id": "n4",
+    "date": "2026-05-19",
+    "category": "AI",
+    "subcat": "Gemini",
+    "platform": "Google 官方博客",
+    "platform_color": "#4285F4",
+    "title": "Google I/O 2026：Gemini 3.5 Flash + Antigravity 编码平台 + Gemini Omni",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/be4bfc525c2142578a1b448b4b66dd52.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=UD%2BaaK9fTnABJvD7XyiVizcwQkk%3D",
+    "detail": [
+      "Google I/O 2026 主基调延续『Gemini everywhere』。三项与开发者最相关的发布在 6 月初仍是社区核心议题：Gemini 3.5 Flash 取代 3.1 Pro 成为 Agent 推理速度/成本最优组合；Google Antigravity——新一代 Agent 编码 IDE/CLI 平台，支持多代理协同（orchestrator、researcher、coder、testing、deployment）、原生终端访问与浏览器控制，被视为对 Cursor、Claude Code 的正面回击；Gemini Omni——首个支持『任意输入到视频输出』的统一多模态生成模型。",
+      "Managed Agents 接入 Gemini API、Daily Brief 新型代理、Pomelli/Stitch 设计工具、Lyria 3 音乐模型一并发布。Lenny's Newsletter 上 Claire Vo 的视频复盘指出，Antigravity 在真实代码测试中表现强势但访问入口尚混乱。",
+      "对中国出海开发者的实操影响：Gemini 3.5 Flash 价格/速度优势让长文本与 Agent 工作流成本下降一个数量级；Antigravity 与 Gemini CLI（将于 6 月 18 日停服并迁移）的更迭，意味着中长尾自动化场景的工具链需要重新评估。"
+    ]
+  }
+]
