@@ -85,15 +85,6 @@ body {
 .btn-trash:hover { background:#E66B6B; color:#fff; }
 
 .card.deleted { display:none !important; }
-.card-img-wrap { position:relative; }
-.card-img-wrap[data-fallback]::after {
-    content: attr(data-fallback);
-    position:absolute; inset:0;
-    display:flex; align-items:center; justify-content:center;
-    font-size: 80px;
-    background: linear-gradient(135deg,#FEF9E7,#F4D6A1);
-    pointer-events:none;
-}
 .toolbar-extra { display:flex; align-items:center; gap:6px; font-size:12px; color:var(--island-brown); margin-left:6px; }
 .toolbar-extra a { color:var(--island-deep); cursor:pointer; text-decoration:underline; font-weight:700; }
 
@@ -236,69 +227,12 @@ function showToast(msg){
     clearTimeout(t._t); t._t = setTimeout(()=>t.classList.remove('show'), 1800);
 }
 
-/* ---------- 图片兜底链 ---------- */
-// 已知国内访问不稳的图源域名（dicebear=BunnyCDN, picsum/placehold=Cloudflare 在国内常超时）
-const UNRELIABLE_IMG_HOSTS = /(dicebear\.com|picsum\.photos|placehold\.co|placeholder\.com|unsplash\.com|api\.lorem)/i;
-
-// 生成纯本地 SVG Data URL 占位图（100% 不依赖外网，按 seed 出不同颜色 emoji）
-function localPlaceholder(n){
-    const cat = (n.category || '').toLowerCase();
-    const emoji = cat.includes('gam') ? '🎮' : cat.includes('vibe') || cat.includes('code') ? '💻' : '🤖';
-    // 按 id 生成稳定色调
-    const seed = (n.id || n.title || 'x').split('').reduce((a,c)=>a + c.charCodeAt(0), 0);
-    const palettes = [
-        ['#FFE5B4','#FFB997'], ['#D4F1C5','#A8E6A1'], ['#C5DEFF','#A1C4E8'],
-        ['#FFD6E8','#FFA8C8'], ['#E8D6FF','#C8A8FF'], ['#FFF5C5','#FFE08A'],
-        ['#C5F5F5','#8AE0E0'], ['#FFD4A8','#FFA870']
-    ];
-    const [c1, c2] = palettes[seed % palettes.length];
-    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
-        <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stop-color="${c1}"/><stop offset="1" stop-color="${c2}"/>
-        </linearGradient></defs>
-        <rect width="400" height="400" fill="url(#g)"/>
-        <text x="200" y="240" font-size="160" text-anchor="middle">${emoji}</text>
-    </svg>`;
-    return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
-}
-
-function getImageUrl(n){
-    // 兼容多种可能的字段名
-    const raw = n.image || n.image_url || n.imageUrl || n.img || n.cover || n.thumbnail || n.pic || '';
-    // 有合法 URL 且不在已知不稳的图源列表 → 直接用
-    if(raw && /^https?:\/\//.test(raw) && !UNRELIABLE_IMG_HOSTS.test(raw)){
-        return raw;
-    }
-    // 否则用纯本地 SVG 占位（不依赖任何外部 CDN，国内 100% 可达）
-    return localPlaceholder(n);
-}
-/* ---------- 字段兼容（新老 schema 都吃） ---------- */
-function normalizeItem(n){
-    return {
-        id: n.id || '',
-        date: n.date || '',
-        category: n.category || n.cat || '',
-        subcat: n.subcat || n.subcategory || n.category_label || n.category || '',
-        platform: n.platform || n.source || '',
-        platform_color: n.platform_color || '#8ED16D',
-        title: n.title || '',
-        url: n.url || '#',
-        image: getImageUrl(n),
-        detail: Array.isArray(n.detail) ? n.detail
-              : (typeof n.detail === 'string' ? n.detail.split(/\n+/).filter(Boolean)
-              : (n.summary ? [n.summary] : []))
-    };
-}
 /* ---------- 渲染卡片（运行时） ---------- */
-function renderCard(raw){
-    const n = normalizeItem(raw);
+function renderCard(n){
     const detailHtml = (n.detail||[]).map(p=>`<p>${escapeHtml(p)}</p>`).join('');
-    const emoji = n.category && n.category.toLowerCase().includes('gam') ? '🎮'
-                : n.category && n.category.toLowerCase().includes('vibe') ? '💻'
-                : '🤖';
     return `<article class="card" data-id="${escapeHtml(n.id)}" data-category="${escapeHtml(n.category)}" data-date="${escapeHtml(n.date)}">
     <div class="card-img-wrap">
-        <img class="card-img" src="${escapeHtml(n.image)}" alt="${escapeHtml(n.title)}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.removeAttribute('crossorigin');this.style.cssText='background:linear-gradient(135deg,#FEF9E7,#F4D6A1);display:flex;align-items:center;justify-content:center;font-size:80px;';this.removeAttribute('src');this.parentNode.setAttribute('data-fallback','${emoji}');">
+        <img class="card-img" src="${escapeHtml(n.image)}" alt="${escapeHtml(n.title)}" crossorigin="anonymous" referrerpolicy="no-referrer" onerror="this.style.background='#FEF9E7';this.removeAttribute('src');">
     </div>
     <div class="card-body">
         <div class="card-meta">
@@ -467,8 +401,7 @@ function buildDouyinText(items){
     return head + hook + body + cta + tags;
 }
 
-async function renderPosterPage(rawItem, idx, total){
-    const item = normalizeItem(rawItem);
+async function renderPosterPage(item, idx, total){
     const node = document.createElement('div');
     node.className = 'poster-page';
     node.innerHTML = `
@@ -482,8 +415,7 @@ async function renderPosterPage(rawItem, idx, total){
         </div>
         <h2 class="poster-title">${escapeHtml(item.title)}</h2>
         <div class="poster-img-wrap">
-            <img src="${item.image}" crossorigin="anonymous" referrerpolicy="no-referrer" alt=""
-                 onerror="this.onerror=null;this.removeAttribute('crossorigin');this.src=localPlaceholder(${JSON.stringify(item)});">
+            <img src="${item.image}" crossorigin="anonymous" referrerpolicy="no-referrer" alt="">
         </div>
         <div class="poster-detail">${(item.detail||[]).slice(0,2).map(p=>`<p>${escapeHtml(p)}</p>`).join('')}</div>
         <div class="poster-footer">
@@ -494,37 +426,15 @@ async function renderPosterPage(rawItem, idx, total){
     const stage = document.getElementById('renderStage');
     stage.appendChild(node);
     const img = node.querySelector('img');
-    // 图片等待：最多 4 秒，超时也继续渲染（避免移动端 CORS 永久卡死）
     await new Promise(res => {
-        if(img.complete && img.naturalWidth > 0) return res();
-        let done = false;
-        const finish = () => { if(!done){ done = true; res(); } };
-        img.onload = finish;
-        img.onerror = finish;
-        setTimeout(finish, 4000);
+        if(img.complete) return res();
+        img.onload = res; img.onerror = res; setTimeout(res, 6000);
     });
-    let canvas;
-    try {
-        // html2canvas 整体加 8 秒超时，避免无限挂起
-        canvas = await Promise.race([
-            html2canvas(node, {
-                scale: 1, useCORS: true, backgroundColor: '#FEF9E7', allowTaint: true,
-                width: 1080, height: Math.max(1440, node.offsetHeight),
-                windowWidth: 1080, windowHeight: Math.max(1440, node.offsetHeight),
-                logging: false, imageTimeout: 4000
-            }),
-            new Promise((_, rej) => setTimeout(() => rej(new Error('html2canvas timeout 8s')), 8000))
-        ]);
-    } catch(e){
-        console.warn('poster render fallback:', e.message);
-        // 兜底：用空白 canvas 防止整个流程崩
-        canvas = document.createElement('canvas');
-        canvas.width = 1080; canvas.height = 1440;
-        const ctx = canvas.getContext('2d');
-        ctx.fillStyle = '#FEF9E7'; ctx.fillRect(0, 0, 1080, 1440);
-        ctx.fillStyle = '#8B6F47'; ctx.font = 'bold 48px sans-serif'; ctx.textAlign = 'center';
-        ctx.fillText('🌴 ' + (item.title||'').slice(0, 20), 540, 720);
-    }
+    const canvas = await html2canvas(node, {
+        scale: 1, useCORS: true, backgroundColor: null, allowTaint: false,
+        width: 1080, height: Math.max(1440, node.offsetHeight),
+        windowWidth: 1080, windowHeight: Math.max(1440, node.offsetHeight)
+    });
     stage.removeChild(node);
     return canvas;
 }
