@@ -1,0 +1,77 @@
+[
+  {
+    "id": "n_2026-06-03_01",
+    "date": "2026-06-03",
+    "category": "AI",
+    "subcat": "全球科技热榜",
+    "platform": "HackerNews",
+    "platform_color": "#8ED16D",
+    "title": "1-Click GitHub Token Stealing via a VSCode Bug",
+    "url": "https://blog.ammaraskar.com/github-token-stealing/",
+    "image": "https://api.dicebear.com/7.x/shapes/png?seed=3f745125&size=512",
+    "detail": [
+      "来自 HackerNews 的今日热门内容：1-Click GitHub Token Stealing via a VSCode Bug",
+      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+    ]
+  },
+  {
+    "id": "n_2026-06-03_02",
+    "date": "2026-06-03",
+    "category": "AI",
+    "subcat": "全球科技热榜",
+    "platform": "HackerNews",
+    "platform_color": "#8ED16D",
+    "title": "Show HN: Edsger – A handwritten Clojure REPL for the reMarkable 2",
+    "url": "https://handwritten.danieljanus.pl/2026-06-01-edsger.html",
+    "image": "https://api.dicebear.com/7.x/shapes/png?seed=dbbceee8&size=512",
+    "detail": [
+      "来自 HackerNews 的今日热门内容：Show HN: Edsger – A handwritten Clojure REPL for the reMarkable 2",
+      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+    ]
+  },
+  {
+    "id": "n_2026-06-03_03",
+    "date": "2026-06-03",
+    "category": "AI",
+    "subcat": "全球科技热榜",
+    "platform": "HackerNews",
+    "platform_color": "#8ED16D",
+    "title": "Show HN: I reverse-engineered the world maps of Test Drive III (1990 DOS game)",
+    "url": "https://github.com/s-macke/Test-Drive-3-Maps",
+    "image": "https://api.dicebear.com/7.x/shapes/png?seed=ab6f246e&size=512",
+    "detail": [
+      "来自 HackerNews 的今日热门内容：Show HN: I reverse-engineered the world maps of Test Drive III (1990 DOS game)",
+      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+    ]
+  },
+  {
+    "id": "n_2026-06-03_04",
+    "date": "2026-06-03",
+    "category": "AI",
+    "subcat": "全球科技热榜",
+    "platform": "HackerNews",
+    "platform_color": "#8ED16D",
+    "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
+    "url": "https://github.com/c0dejedi/nbd-vram",
+    "image": "https://api.dicebear.com/7.x/shapes/png?seed=79c44a3e&size=512",
+    "detail": [
+      "来自 HackerNews 的今日热门内容：Use your Nvidia GPU's VRAM as swap space on Linux",
+      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+    ]
+  },
+  {
+    "id": "n_2026-06-03_05",
+    "date": "2026-06-03",
+    "category": "AI",
+    "subcat": "全球科技热榜",
+    "platform": "HackerNews",
+    "platform_color": "#8ED16D",
+    "title": "The Unreasonable Redundancy of Nature's Protein Folds",
+    "url": "https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/",
+    "image": "https://api.dicebear.com/7.x/shapes/png?seed=9aa03188&size=512",
+    "detail": [
+      "来自 HackerNews 的今日热门内容：The Unreasonable Redundancy of Nature's Protein Folds",
+      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+    ]
+  }
+]

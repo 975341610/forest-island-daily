@@ -1,37 +1,5 @@
 [
   {
-    "id": "n1",
-    "date": "2026-06-02",
-    "category": "AI",
-    "subcat": "Codex",
-    "platform": "OpenAI 官方 / VentureBeat",
-    "platform_color": "#10A37F",
-    "title": "OpenAI 大举升级 Codex：Sites + Annotations + 6 大行业插件，杀入白领市场",
-    "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/e7006ffa99bb494eb6959dbc0ddb16dd.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=w5%2Bx%2FL%2F8gM9s2I1kwkcxVjYQDM0%3D",
-    "detail": [
-      "在 Microsoft Build 2026 的同一周，OpenAI 于 6 月 2 日发起对 Codex 的最大规模重新定位。官方将 Codex 从面向工程师的编码代理扩展为面向白领知识工作者的通用业务平台。三大核心能力为：Sites（在 Codex 内一键创建、托管、分享交互式网页/看板）、Annotations（无需重新提示即可在已有产物上原位标注/修改）、以及 6 个角色化插件包。",
-      "6 个新插件覆盖数据分析、创意生产、销售、产品设计、公开市场股票投资、投行业务，每个聚合 62 个常用 SaaS（Snowflake、Figma、Salesforce、Slack、HubSpot、Replit、Hex、Moody's、PitchBook、Canva、Databricks）的连接器和 110 项预置自动化技能。Codex 还宣布未来几周把核心能力嵌入到 ChatGPT 主应用。",
-      "OpenAI 首次披露：Codex 周活用户已突破 500 万，其中 20% 是非工程师，非工程师留存增速是工程师的 3 倍。这意味着 OpenAI 正与 Anthropic（Claude Cowork）、Microsoft Copilot 直接争夺企业生产力市场，将 Codex 定位为下一代企业 AI 操作环境而非单纯的 IDE 代理。"
-    ]
-  },
-  {
-    "id": "n6",
-    "date": "2026-06-02",
-    "category": "VibeCoding",
-    "subcat": "Vibe Coding",
-    "platform": "Taskade / daily.dev",
-    "platform_color": "#7C3AED",
-    "title": "氛围编程市场冲至 47 亿美元：92% 美国开发者每日使用 AI 编码",
-    "url": "https://www.taskade.com/blog/state-of-vibe-coding",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/118dad71eb3044aebe0fbec3903dc587.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=YhM8nt2gUvjktFjig3NkqYC2N9Q%3D",
-    "detail": [
-      "Taskade 在 6 月 2 日更新的 State of Vibe Coding 2026 报告引用 Gartner、GitHub、Stack Overflow、Anthropic/OpenAI 财报多源数据，给出当前最权威的氛围编程产业图景：市场规模约 47 亿美元（18 个月内从 0 起步），92% 美国开发者每日使用 AI 编码工具，41% 全球新代码已由 AI 生成或辅助生成，2024 年单年流入该赛道的 VC 资金超过 50 亿美元。",
-      "用户构成有结构性意义：63% 的 vibe coding 用户为非开发者（产品经理、设计师、市场人员、创业者）。这一群体正以 3 倍于工程师的速度在 Codex、Claude Code、Lovable、Cursor、v0 等平台上构建一次性内部工具与微 SaaS。Gartner 预测到 2026 年底 60% 的新增代码将由 AI 生成。",
-      "行业影响：传统 SaaS 厂商（约 2850 亿美元市场）面临被『一次性自定义应用』替代的结构性威胁；安全成为 vibe coding 在 2026 年下半年的最大议题；非工程师可用英语直接构建『$1M Apps』的案例正在迫使企业重新设计开发组织。"
-    ]
-  },
-  {
     "id": "n9",
     "date": "2026-06-02",
     "category": "AI",
@@ -49,20 +17,19 @@
     ]
   },
   {
-    "id": "n12",
+    "id": "n6",
     "date": "2026-06-02",
-    "category": "AI",
-    "subcat": "字节系",
-    "platform": "微博 / 火山引擎",
-    "platform_color": "#FF6A00",
-    "title": "豆包课堂内置 Seedance 2.0，扣子 Coze 3.0 同日上线",
-    "url": "https://news.softunis.com/60361.html",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/b6b68b52929a4a8184af2a7479d226dd.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=4SyXg5pfBdQ3HG9hNw1knnxd1QE%3D",
+    "category": "VibeCoding",
+    "subcat": "Vibe Coding",
+    "platform": "Taskade / daily.dev",
+    "platform_color": "#7C3AED",
+    "title": "氛围编程市场冲至 47 亿美元：92% 美国开发者每日使用 AI 编码",
+    "url": "https://www.taskade.com/blog/state-of-vibe-coding",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/118dad71eb3044aebe0fbec3903dc587.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=YhM8nt2gUvjktFjig3NkqYC2N9Q%3D",
     "detail": [
-      "QuestMobile 数据显示，3 月豆包以 3.45 亿 MAU 稳居中国 AI 原生应用第一，远超千问（1.66 亿）与 DeepSeek（1.27 亿）。字节在 6 月 2 日宣布两条线同步升级，分别瞄准 C 端教育和开发者生态。",
-      "豆包课堂引入 Seedance 2.0 视频生成模型，可把任何课文一键转成 AI 互动视频课，支持角色对话、画面分镜与中文配音；扣子 Coze 3.0 正式上线，新增『项目』概念，可在一个项目里召集多个 Agent 协作，并接入本地与云端 Agent，编排能力对齐 LangGraph/Crew。",
-      "Seedance 2.0 在豆包内免费开放；扣子 3.0 上线后开发者分成机制延续；豆包 App Store 付费订阅最高档 5088 元/年的方案过去一个月也在持续走量。",
-      "微博 #豆包课堂# #扣子3.0# 双话题登上 6 月 2 日科技榜；抖音多位教育+科技博主在当天直播实测 Seedance 2.0；小红书宝妈群体大量出现『豆包课堂自制绘本课』笔记。"
+      "Taskade 在 6 月 2 日更新的 State of Vibe Coding 2026 报告引用 Gartner、GitHub、Stack Overflow、Anthropic/OpenAI 财报多源数据，给出当前最权威的氛围编程产业图景：市场规模约 47 亿美元（18 个月内从 0 起步），92% 美国开发者每日使用 AI 编码工具，41% 全球新代码已由 AI 生成或辅助生成，2024 年单年流入该赛道的 VC 资金超过 50 亿美元。",
+      "用户构成有结构性意义：63% 的 vibe coding 用户为非开发者（产品经理、设计师、市场人员、创业者）。这一群体正以 3 倍于工程师的速度在 Codex、Claude Code、Lovable、Cursor、v0 等平台上构建一次性内部工具与微 SaaS。Gartner 预测到 2026 年底 60% 的新增代码将由 AI 生成。",
+      "行业影响：传统 SaaS 厂商（约 2850 亿美元市场）面临被『一次性自定义应用』替代的结构性威胁；安全成为 vibe coding 在 2026 年下半年的最大议题；非工程师可用英语直接构建『$1M Apps』的案例正在迫使企业重新设计开发组织。"
     ]
   },
   {
@@ -83,20 +50,53 @@
     ]
   },
   {
-    "id": "g1",
+    "id": "n12",
+    "date": "2026-06-02",
+    "category": "AI",
+    "subcat": "字节系",
+    "platform": "微博 / 火山引擎",
+    "platform_color": "#FF6A00",
+    "title": "豆包课堂内置 Seedance 2.0，扣子 Coze 3.0 同日上线",
+    "url": "https://news.softunis.com/60361.html",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/b6b68b52929a4a8184af2a7479d226dd.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=4SyXg5pfBdQ3HG9hNw1knnxd1QE%3D",
+    "detail": [
+      "QuestMobile 数据显示，3 月豆包以 3.45 亿 MAU 稳居中国 AI 原生应用第一，远超千问（1.66 亿）与 DeepSeek（1.27 亿）。字节在 6 月 2 日宣布两条线同步升级，分别瞄准 C 端教育和开发者生态。",
+      "豆包课堂引入 Seedance 2.0 视频生成模型，可把任何课文一键转成 AI 互动视频课，支持角色对话、画面分镜与中文配音；扣子 Coze 3.0 正式上线，新增『项目』概念，可在一个项目里召集多个 Agent 协作，并接入本地与云端 Agent，编排能力对齐 LangGraph/Crew。",
+      "Seedance 2.0 在豆包内免费开放；扣子 3.0 上线后开发者分成机制延续；豆包 App Store 付费订阅最高档 5088 元/年的方案过去一个月也在持续走量。",
+      "微博 #豆包课堂# #扣子3.0# 双话题登上 6 月 2 日科技榜；抖音多位教育+科技博主在当天直播实测 Seedance 2.0；小红书宝妈群体大量出现『豆包课堂自制绘本课』笔记。"
+    ]
+  },
+  {
+    "id": "n1",
+    "date": "2026-06-02",
+    "category": "AI",
+    "subcat": "Codex",
+    "platform": "OpenAI 官方 / VentureBeat",
+    "platform_color": "#10A37F",
+    "title": "OpenAI 大举升级 Codex：Sites + Annotations + 6 大行业插件，杀入白领市场",
+    "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/e7006ffa99bb494eb6959dbc0ddb16dd.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=w5%2Bx%2FL%2F8gM9s2I1kwkcxVjYQDM0%3D",
+    "detail": [
+      "在 Microsoft Build 2026 的同一周，OpenAI 于 6 月 2 日发起对 Codex 的最大规模重新定位。官方将 Codex 从面向工程师的编码代理扩展为面向白领知识工作者的通用业务平台。三大核心能力为：Sites（在 Codex 内一键创建、托管、分享交互式网页/看板）、Annotations（无需重新提示即可在已有产物上原位标注/修改）、以及 6 个角色化插件包。",
+      "6 个新插件覆盖数据分析、创意生产、销售、产品设计、公开市场股票投资、投行业务，每个聚合 62 个常用 SaaS（Snowflake、Figma、Salesforce、Slack、HubSpot、Replit、Hex、Moody's、PitchBook、Canva、Databricks）的连接器和 110 项预置自动化技能。Codex 还宣布未来几周把核心能力嵌入到 ChatGPT 主应用。",
+      "OpenAI 首次披露：Codex 周活用户已突破 500 万，其中 20% 是非工程师，非工程师留存增速是工程师的 3 倍。这意味着 OpenAI 正与 Anthropic（Claude Cowork）、Microsoft Copilot 直接争夺企业生产力市场，将 Codex 定位为下一代企业 AI 操作环境而非单纯的 IDE 代理。"
+    ]
+  },
+  {
+    "id": "g6",
     "date": "2026-06-02",
     "category": "Gaming",
-    "subcat": "主机",
-    "platform": "PlayStation.Blog 官方",
-    "platform_color": "#0070D1",
-    "title": "PS State of Play 2026 年 6 月：《战神：劳菲》《漫威金刚狼》全曝光",
-    "url": "https://blog.playstation.com/2026/06/02/state-of-play-june-2026-all-announcements-trailers/",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/802d92e599b14b498b6960be440c6de6.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=VuWOEnhB57vbwPFIOQmnt8ElGcg%3D",
+    "subcat": "Steam",
+    "platform": "PC Gamer / Steam",
+    "platform_color": "#1B2838",
+    "title": "《Fatekeeper》6 月 2 日 Steam 抢先体验：第一人称剑与魔法 RPG",
+    "url": "https://store.steampowered.com/app/2186990/Fatekeeper/",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/4ff40975b5754c57b4c4d0741a95d69f.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=jLkmtzw1e7kB%2BySdaDymHkZbKi0%3D",
     "detail": [
-      "北京时间 2026 年 6 月 3 日凌晨，索尼互动娱乐举办 60 分钟规模的 State of Play 直面会，作为 2026 年 Summer Game Fest 周期的开场重头戏。整场以 Insomniac 开发的《漫威金刚狼》首段实机演示开场，凭借 Logan 的爪击连段、断肢与再生表现把暴力等级直接拉到 M 评级，明确仍只面向 PS5/PS5 Pro 平台。",
-      "压轴登场的是圣莫尼卡工作室的《战神：劳菲》（God of War: Laufey），故事不再由克瑞托斯主导，而是让芬蕊（Faye）作为主角，在北欧诸神黄昏之后的亡灵世界中跋涉。这一『女性视角的战神』让社区猜测多年的『劳菲前传』终于成真，PlayStation 官方博客同步给出概念图与开发日志摘要。",
-      "中段还释出大量定档与新作信息：Remedy《控制：共鸣》、卡普空《鬼武者：剑之道》、Konami《寂静岭：陨落》均于 2026 年内发售；万代南梦宫《皇牌空战8》首支演示；Supermassive 确认《直到黎明2》将于 2027 年登陆 PS5；《死亡搁浅2》与 Bungie《马拉松》给出大型更新计划。",
-      "r/PS5 与 ResetEra 普遍盛赞《战神：劳菲》的概念，认为切换主角让系列摆脱了『克瑞托斯疲劳』；但《漫威金刚狼》延期至 2027 财年发售引发不满。IGN 与 Tom's Guide 称这是『2026 年索尼第一方阵容最强的一次集中亮相』。"
+      "由独立团队 Tower Five 开发的《Fatekeeper》于 2026 年 6 月 2 日正式登陆 Steam 抢先体验，是 6 月第一周 Steam 新品节后最具讨论度的单机新作之一。游戏融合《上古卷轴》式开放世界探索、《骑马与砍杀》式真实武器物理判定，以及类似 Kingdom Come: Deliverance 的中世纪生活模拟，全程第一人称视角，主打『用手感而不是数值定胜负』的近战。",
+      "核心系统亮点是『命运守护者』机制：玩家在每个章节会从一组命运牌中抽取技能与缺陷，影响后续剧情与 NPC 反应，强调多周目重玩价值。抢先体验首发包含约 25 小时主线 + 60 平方公里地图，售价 29.99 美元，预计 EA 期 12-18 个月。PC Gamer 将其列入『2026 年 6 月 PC 必玩游戏』榜单第一位。",
+      "媒体提前评测里，Force Gaming 认为战斗手感『比预期紧致很多』，但对当前 NPC 行为 AI 数量级表示担忧；IGN 法国站则给出 Early Access 7/10 的过渡评分，肯定其 UE5 表现与开放世界密度。",
+      "r/pcgaming 与 r/RPG 上首发 24 小时讨论楼达数千层，玩家把它和 Avowed、Blight: Survival、Blackfrost 等同期欧美 RPG 横向对比；Steam 评分首日维持在『特别好评』（85% 正面）区间，主要差评点集中在掉帧与按键自定义不全。游戏同时上架 SteamOS 兼容性测试，Steam Deck 玩家反馈低画质 30fps 可玩。"
     ]
   },
   {
@@ -117,20 +117,20 @@
     ]
   },
   {
-    "id": "g6",
+    "id": "g1",
     "date": "2026-06-02",
     "category": "Gaming",
-    "subcat": "Steam",
-    "platform": "PC Gamer / Steam",
-    "platform_color": "#1B2838",
-    "title": "《Fatekeeper》6 月 2 日 Steam 抢先体验：第一人称剑与魔法 RPG",
-    "url": "https://store.steampowered.com/app/2186990/Fatekeeper/",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/4ff40975b5754c57b4c4d0741a95d69f.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=jLkmtzw1e7kB%2BySdaDymHkZbKi0%3D",
+    "subcat": "主机",
+    "platform": "PlayStation.Blog 官方",
+    "platform_color": "#0070D1",
+    "title": "PS State of Play 2026 年 6 月：《战神：劳菲》《漫威金刚狼》全曝光",
+    "url": "https://blog.playstation.com/2026/06/02/state-of-play-june-2026-all-announcements-trailers/",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/802d92e599b14b498b6960be440c6de6.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=VuWOEnhB57vbwPFIOQmnt8ElGcg%3D",
     "detail": [
-      "由独立团队 Tower Five 开发的《Fatekeeper》于 2026 年 6 月 2 日正式登陆 Steam 抢先体验，是 6 月第一周 Steam 新品节后最具讨论度的单机新作之一。游戏融合《上古卷轴》式开放世界探索、《骑马与砍杀》式真实武器物理判定，以及类似 Kingdom Come: Deliverance 的中世纪生活模拟，全程第一人称视角，主打『用手感而不是数值定胜负』的近战。",
-      "核心系统亮点是『命运守护者』机制：玩家在每个章节会从一组命运牌中抽取技能与缺陷，影响后续剧情与 NPC 反应，强调多周目重玩价值。抢先体验首发包含约 25 小时主线 + 60 平方公里地图，售价 29.99 美元，预计 EA 期 12-18 个月。PC Gamer 将其列入『2026 年 6 月 PC 必玩游戏』榜单第一位。",
-      "媒体提前评测里，Force Gaming 认为战斗手感『比预期紧致很多』，但对当前 NPC 行为 AI 数量级表示担忧；IGN 法国站则给出 Early Access 7/10 的过渡评分，肯定其 UE5 表现与开放世界密度。",
-      "r/pcgaming 与 r/RPG 上首发 24 小时讨论楼达数千层，玩家把它和 Avowed、Blight: Survival、Blackfrost 等同期欧美 RPG 横向对比；Steam 评分首日维持在『特别好评』（85% 正面）区间，主要差评点集中在掉帧与按键自定义不全。游戏同时上架 SteamOS 兼容性测试，Steam Deck 玩家反馈低画质 30fps 可玩。"
+      "北京时间 2026 年 6 月 3 日凌晨，索尼互动娱乐举办 60 分钟规模的 State of Play 直面会，作为 2026 年 Summer Game Fest 周期的开场重头戏。整场以 Insomniac 开发的《漫威金刚狼》首段实机演示开场，凭借 Logan 的爪击连段、断肢与再生表现把暴力等级直接拉到 M 评级，明确仍只面向 PS5/PS5 Pro 平台。",
+      "压轴登场的是圣莫尼卡工作室的《战神：劳菲》（God of War: Laufey），故事不再由克瑞托斯主导，而是让芬蕊（Faye）作为主角，在北欧诸神黄昏之后的亡灵世界中跋涉。这一『女性视角的战神』让社区猜测多年的『劳菲前传』终于成真，PlayStation 官方博客同步给出概念图与开发日志摘要。",
+      "中段还释出大量定档与新作信息：Remedy《控制：共鸣》、卡普空《鬼武者：剑之道》、Konami《寂静岭：陨落》均于 2026 年内发售；万代南梦宫《皇牌空战8》首支演示；Supermassive 确认《直到黎明2》将于 2027 年登陆 PS5；《死亡搁浅2》与 Bungie《马拉松》给出大型更新计划。",
+      "r/PS5 与 ResetEra 普遍盛赞《战神：劳菲》的概念，认为切换主角让系列摆脱了『克瑞托斯疲劳』；但《漫威金刚狼》延期至 2027 财年发售引发不满。IGN 与 Tom's Guide 称这是『2026 年索尼第一方阵容最强的一次集中亮相』。"
     ]
   }
 ]

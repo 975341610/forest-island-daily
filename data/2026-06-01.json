@@ -1,18 +1,19 @@
 [
   {
-    "id": "n3",
+    "id": "n8",
     "date": "2026-06-01",
     "category": "AI",
-    "subcat": "Claude",
-    "platform": "TechCrunch / Bloomberg",
-    "platform_color": "#00B96B",
-    "title": "Anthropic 正式递交 IPO 招股书，9650 亿美元估值超越 OpenAI",
-    "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/4e6c52f04778465e8667a430233daf57.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=6IZWWtDHkNAU7Dk%2FopBKJTsqbL0%3D",
+    "subcat": "国产大模型",
+    "platform": "微博 / 掘金",
+    "platform_color": "#E6162D",
+    "title": "MiniMax M3 开源：编程力压 GPT-5.5，首个『前沿编程+100万长上下文+原生多模态』开源模型",
+    "url": "https://juejin.cn/post/7646334161280417801",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/f9adacd72c1b49fc97346bfb78282a56.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=Le99c3eHS7NR6pWdJaHC4wAcwD8%3D",
     "detail": [
-      "6 月 1 日，Anthropic 正式提交 S-1 文件启动 IPO。同期 Bloomberg 已确认其完成 650 亿美元融资、投后估值达 9650 亿美元，首次超过 OpenAI 8520 亿美元的私有估值，成为全球估值最高的私有 AI 公司，也是 AI 产业史上最大单轮融资。",
-      "时点紧贴 Opus 4.8 发布与 Claude Cowork/Claude Code 在白领市场的快速渗透。招股书披露的 ARR 增速、企业付费用户结构（财富 500 强渗透率）将成为公开市场首次系统性评估『模型公司 + Agent 产品』商业模式的标尺，也为 OpenAI 后续 IPO 路径提供参照。",
-      "华尔街与硅谷关注三点：Anthropic 与 Amazon/Google 双云资本支出绑定下的毛利率结构；下一代未发布模型的研发节奏与算力承诺；IPO 后是否触发 OpenAI 加速私募/二级估值博弈。"
+      "自年初登陆港股、市值站上 4000 亿港元后，MiniMax 一直被视为国产大模型阵营少有的『商业化+技术+多模态』三线齐发玩家。6 月 1 日深夜，公司正式抛出新一代旗舰 M3，发布会重心放在『同时拿下编程、长上下文、原生多模态』三项硬指标。",
+      "M3 采用自研稀疏注意力架构 MSA（MiniMax Sparse Attention），在 100 万 token 上下文条件下相比上一代实现约 1/20 的计算量；同时支持图像、视频原生输入，可在桌面端操作电脑。会上展示了 M3 自主运行近 12 小时、完整复现一篇学术论文实验的 Demo。",
+      "亮点数据：SWE-Bench Pro 得分 59.0%，超越 OpenAI GPT-5.5 与 Google Gemini 3.1 Pro，成为目前公开评测中开源模型的最强成绩之一。API 上线即推出 7 天 5 折优惠，并承诺 10 天内开源全部权重。",
+      "微博『#MiniMax M3 开源#』与『#国产模型 SWE 第一#』话题持续刷屏，掘金、知乎、虎嗅、36Kr 当晚发出长篇解读。技术社区关注 MSA 是否能成为新一代『DSA 之后的下一块拼图』，以及对 Claude Code、Cursor 等编程 Agent 工具链的潜在替代。"
     ]
   },
   {
@@ -32,20 +33,19 @@
     ]
   },
   {
-    "id": "n8",
+    "id": "n3",
     "date": "2026-06-01",
     "category": "AI",
-    "subcat": "国产大模型",
-    "platform": "微博 / 掘金",
-    "platform_color": "#E6162D",
-    "title": "MiniMax M3 开源：编程力压 GPT-5.5，首个『前沿编程+100万长上下文+原生多模态』开源模型",
-    "url": "https://juejin.cn/post/7646334161280417801",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/f9adacd72c1b49fc97346bfb78282a56.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=Le99c3eHS7NR6pWdJaHC4wAcwD8%3D",
+    "subcat": "Claude",
+    "platform": "TechCrunch / Bloomberg",
+    "platform_color": "#00B96B",
+    "title": "Anthropic 正式递交 IPO 招股书，9650 亿美元估值超越 OpenAI",
+    "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/4e6c52f04778465e8667a430233daf57.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=6IZWWtDHkNAU7Dk%2FopBKJTsqbL0%3D",
     "detail": [
-      "自年初登陆港股、市值站上 4000 亿港元后，MiniMax 一直被视为国产大模型阵营少有的『商业化+技术+多模态』三线齐发玩家。6 月 1 日深夜，公司正式抛出新一代旗舰 M3，发布会重心放在『同时拿下编程、长上下文、原生多模态』三项硬指标。",
-      "M3 采用自研稀疏注意力架构 MSA（MiniMax Sparse Attention），在 100 万 token 上下文条件下相比上一代实现约 1/20 的计算量；同时支持图像、视频原生输入，可在桌面端操作电脑。会上展示了 M3 自主运行近 12 小时、完整复现一篇学术论文实验的 Demo。",
-      "亮点数据：SWE-Bench Pro 得分 59.0%，超越 OpenAI GPT-5.5 与 Google Gemini 3.1 Pro，成为目前公开评测中开源模型的最强成绩之一。API 上线即推出 7 天 5 折优惠，并承诺 10 天内开源全部权重。",
-      "微博『#MiniMax M3 开源#』与『#国产模型 SWE 第一#』话题持续刷屏，掘金、知乎、虎嗅、36Kr 当晚发出长篇解读。技术社区关注 MSA 是否能成为新一代『DSA 之后的下一块拼图』，以及对 Claude Code、Cursor 等编程 Agent 工具链的潜在替代。"
+      "6 月 1 日，Anthropic 正式提交 S-1 文件启动 IPO。同期 Bloomberg 已确认其完成 650 亿美元融资、投后估值达 9650 亿美元，首次超过 OpenAI 8520 亿美元的私有估值，成为全球估值最高的私有 AI 公司，也是 AI 产业史上最大单轮融资。",
+      "时点紧贴 Opus 4.8 发布与 Claude Cowork/Claude Code 在白领市场的快速渗透。招股书披露的 ARR 增速、企业付费用户结构（财富 500 强渗透率）将成为公开市场首次系统性评估『模型公司 + Agent 产品』商业模式的标尺，也为 OpenAI 后续 IPO 路径提供参照。",
+      "华尔街与硅谷关注三点：Anthropic 与 Amazon/Google 双云资本支出绑定下的毛利率结构；下一代未发布模型的研发节奏与算力承诺；IPO 后是否触发 OpenAI 加速私募/二级估值博弈。"
     ]
   },
   {

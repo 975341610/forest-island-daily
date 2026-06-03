@@ -1,5 +1,80 @@
 [
   {
+    "id": "n_2026-06-03_05",
+    "date": "2026-06-03",
+    "category": "AI",
+    "subcat": "全球科技热榜",
+    "platform": "HackerNews",
+    "platform_color": "#8ED16D",
+    "title": "The Unreasonable Redundancy of Nature's Protein Folds",
+    "url": "https://research.ligo.bio/posts/unreasonable-redundancy-of-natural-protein-folds/",
+    "image": "https://api.dicebear.com/7.x/shapes/png?seed=9aa03188&size=512",
+    "detail": [
+      "来自 HackerNews 的今日热门内容：The Unreasonable Redundancy of Nature's Protein Folds",
+      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+    ]
+  },
+  {
+    "id": "n_2026-06-03_04",
+    "date": "2026-06-03",
+    "category": "AI",
+    "subcat": "全球科技热榜",
+    "platform": "HackerNews",
+    "platform_color": "#8ED16D",
+    "title": "Use your Nvidia GPU's VRAM as swap space on Linux",
+    "url": "https://github.com/c0dejedi/nbd-vram",
+    "image": "https://api.dicebear.com/7.x/shapes/png?seed=79c44a3e&size=512",
+    "detail": [
+      "来自 HackerNews 的今日热门内容：Use your Nvidia GPU's VRAM as swap space on Linux",
+      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+    ]
+  },
+  {
+    "id": "n_2026-06-03_03",
+    "date": "2026-06-03",
+    "category": "AI",
+    "subcat": "全球科技热榜",
+    "platform": "HackerNews",
+    "platform_color": "#8ED16D",
+    "title": "Show HN: I reverse-engineered the world maps of Test Drive III (1990 DOS game)",
+    "url": "https://github.com/s-macke/Test-Drive-3-Maps",
+    "image": "https://api.dicebear.com/7.x/shapes/png?seed=ab6f246e&size=512",
+    "detail": [
+      "来自 HackerNews 的今日热门内容：Show HN: I reverse-engineered the world maps of Test Drive III (1990 DOS game)",
+      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+    ]
+  },
+  {
+    "id": "n_2026-06-03_02",
+    "date": "2026-06-03",
+    "category": "AI",
+    "subcat": "全球科技热榜",
+    "platform": "HackerNews",
+    "platform_color": "#8ED16D",
+    "title": "Show HN: Edsger – A handwritten Clojure REPL for the reMarkable 2",
+    "url": "https://handwritten.danieljanus.pl/2026-06-01-edsger.html",
+    "image": "https://api.dicebear.com/7.x/shapes/png?seed=dbbceee8&size=512",
+    "detail": [
+      "来自 HackerNews 的今日热门内容：Show HN: Edsger – A handwritten Clojure REPL for the reMarkable 2",
+      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+    ]
+  },
+  {
+    "id": "n_2026-06-03_01",
+    "date": "2026-06-03",
+    "category": "AI",
+    "subcat": "全球科技热榜",
+    "platform": "HackerNews",
+    "platform_color": "#8ED16D",
+    "title": "1-Click GitHub Token Stealing via a VSCode Bug",
+    "url": "https://blog.ammaraskar.com/github-token-stealing/",
+    "image": "https://api.dicebear.com/7.x/shapes/png?seed=3f745125&size=512",
+    "detail": [
+      "来自 HackerNews 的今日热门内容：1-Click GitHub Token Stealing via a VSCode Bug",
+      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+    ]
+  },
+  {
     "id": "g2",
     "date": "2026-06-03",
     "category": "Gaming",
@@ -14,38 +89,6 @@
       "这是『FF7 重制三部曲』第二章首次离开 PS 平台。游戏延续 Remake Intergrade 之后的剧情，云一行人离开米德加进入广阔的世界地图，包含查德利的战斗智库、扎克斯线的平行世界剧情、以及全新陆行鸟系统。Switch 2 版采用 DLSS 与可变帧率，掌机模式动态分辨率最低 540p、TV 模式可达 1440p/30fps，整体压缩到约 75GB。",
       "Digital Foundry 与 Nintendo Life 的对比测试显示，Switch 2 版在镜头快速移动场景出现纹理流式加载延迟，但帧率比同期登陆 Steam Deck 的 PC 版更稳定；Xbox Play Anywhere 支持意味着 ROG Ally X、Lenovo Legion Go 等 Windows 掌机玩家可以一次购买跨设备同步进度。",
       "r/NintendoSwitch2 与 r/FFVIIRemake 双双爆讨论，玩家围绕『Game-Key Card 必须插卡才能玩』这一形式持续吐槽，但对画面优化整体表示惊讶。此次跨平台发售也被视为 Square Enix 多平台战略的关键节点。"
-    ]
-  },
-  {
-    "id": "n1",
-    "date": "2026-06-02",
-    "category": "AI",
-    "subcat": "Codex",
-    "platform": "OpenAI 官方 / VentureBeat",
-    "platform_color": "#10A37F",
-    "title": "OpenAI 大举升级 Codex：Sites + Annotations + 6 大行业插件，杀入白领市场",
-    "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/e7006ffa99bb494eb6959dbc0ddb16dd.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=w5%2Bx%2FL%2F8gM9s2I1kwkcxVjYQDM0%3D",
-    "detail": [
-      "在 Microsoft Build 2026 的同一周，OpenAI 于 6 月 2 日发起对 Codex 的最大规模重新定位。官方将 Codex 从面向工程师的编码代理扩展为面向白领知识工作者的通用业务平台。三大核心能力为：Sites（在 Codex 内一键创建、托管、分享交互式网页/看板）、Annotations（无需重新提示即可在已有产物上原位标注/修改）、以及 6 个角色化插件包。",
-      "6 个新插件覆盖数据分析、创意生产、销售、产品设计、公开市场股票投资、投行业务，每个聚合 62 个常用 SaaS（Snowflake、Figma、Salesforce、Slack、HubSpot、Replit、Hex、Moody's、PitchBook、Canva、Databricks）的连接器和 110 项预置自动化技能。Codex 还宣布未来几周把核心能力嵌入到 ChatGPT 主应用。",
-      "OpenAI 首次披露：Codex 周活用户已突破 500 万，其中 20% 是非工程师，非工程师留存增速是工程师的 3 倍。这意味着 OpenAI 正与 Anthropic（Claude Cowork）、Microsoft Copilot 直接争夺企业生产力市场，将 Codex 定位为下一代企业 AI 操作环境而非单纯的 IDE 代理。"
-    ]
-  },
-  {
-    "id": "n6",
-    "date": "2026-06-02",
-    "category": "VibeCoding",
-    "subcat": "Vibe Coding",
-    "platform": "Taskade / daily.dev",
-    "platform_color": "#7C3AED",
-    "title": "氛围编程市场冲至 47 亿美元：92% 美国开发者每日使用 AI 编码",
-    "url": "https://www.taskade.com/blog/state-of-vibe-coding",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/118dad71eb3044aebe0fbec3903dc587.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=YhM8nt2gUvjktFjig3NkqYC2N9Q%3D",
-    "detail": [
-      "Taskade 在 6 月 2 日更新的 State of Vibe Coding 2026 报告引用 Gartner、GitHub、Stack Overflow、Anthropic/OpenAI 财报多源数据，给出当前最权威的氛围编程产业图景：市场规模约 47 亿美元（18 个月内从 0 起步），92% 美国开发者每日使用 AI 编码工具，41% 全球新代码已由 AI 生成或辅助生成，2024 年单年流入该赛道的 VC 资金超过 50 亿美元。",
-      "用户构成有结构性意义：63% 的 vibe coding 用户为非开发者（产品经理、设计师、市场人员、创业者）。这一群体正以 3 倍于工程师的速度在 Codex、Claude Code、Lovable、Cursor、v0 等平台上构建一次性内部工具与微 SaaS。Gartner 预测到 2026 年底 60% 的新增代码将由 AI 生成。",
-      "行业影响：传统 SaaS 厂商（约 2850 亿美元市场）面临被『一次性自定义应用』替代的结构性威胁；安全成为 vibe coding 在 2026 年下半年的最大议题；非工程师可用英语直接构建『$1M Apps』的案例正在迫使企业重新设计开发组织。"
     ]
   },
   {
@@ -66,20 +109,19 @@
     ]
   },
   {
-    "id": "n12",
+    "id": "n6",
     "date": "2026-06-02",
-    "category": "AI",
-    "subcat": "字节系",
-    "platform": "微博 / 火山引擎",
-    "platform_color": "#FF6A00",
-    "title": "豆包课堂内置 Seedance 2.0，扣子 Coze 3.0 同日上线",
-    "url": "https://news.softunis.com/60361.html",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/b6b68b52929a4a8184af2a7479d226dd.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=4SyXg5pfBdQ3HG9hNw1knnxd1QE%3D",
+    "category": "VibeCoding",
+    "subcat": "Vibe Coding",
+    "platform": "Taskade / daily.dev",
+    "platform_color": "#7C3AED",
+    "title": "氛围编程市场冲至 47 亿美元：92% 美国开发者每日使用 AI 编码",
+    "url": "https://www.taskade.com/blog/state-of-vibe-coding",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/118dad71eb3044aebe0fbec3903dc587.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=YhM8nt2gUvjktFjig3NkqYC2N9Q%3D",
     "detail": [
-      "QuestMobile 数据显示，3 月豆包以 3.45 亿 MAU 稳居中国 AI 原生应用第一，远超千问（1.66 亿）与 DeepSeek（1.27 亿）。字节在 6 月 2 日宣布两条线同步升级，分别瞄准 C 端教育和开发者生态。",
-      "豆包课堂引入 Seedance 2.0 视频生成模型，可把任何课文一键转成 AI 互动视频课，支持角色对话、画面分镜与中文配音；扣子 Coze 3.0 正式上线，新增『项目』概念，可在一个项目里召集多个 Agent 协作，并接入本地与云端 Agent，编排能力对齐 LangGraph/Crew。",
-      "Seedance 2.0 在豆包内免费开放；扣子 3.0 上线后开发者分成机制延续；豆包 App Store 付费订阅最高档 5088 元/年的方案过去一个月也在持续走量。",
-      "微博 #豆包课堂# #扣子3.0# 双话题登上 6 月 2 日科技榜；抖音多位教育+科技博主在当天直播实测 Seedance 2.0；小红书宝妈群体大量出现『豆包课堂自制绘本课』笔记。"
+      "Taskade 在 6 月 2 日更新的 State of Vibe Coding 2026 报告引用 Gartner、GitHub、Stack Overflow、Anthropic/OpenAI 财报多源数据，给出当前最权威的氛围编程产业图景：市场规模约 47 亿美元（18 个月内从 0 起步），92% 美国开发者每日使用 AI 编码工具，41% 全球新代码已由 AI 生成或辅助生成，2024 年单年流入该赛道的 VC 资金超过 50 亿美元。",
+      "用户构成有结构性意义：63% 的 vibe coding 用户为非开发者（产品经理、设计师、市场人员、创业者）。这一群体正以 3 倍于工程师的速度在 Codex、Claude Code、Lovable、Cursor、v0 等平台上构建一次性内部工具与微 SaaS。Gartner 预测到 2026 年底 60% 的新增代码将由 AI 生成。",
+      "行业影响：传统 SaaS 厂商（约 2850 亿美元市场）面临被『一次性自定义应用』替代的结构性威胁；安全成为 vibe coding 在 2026 年下半年的最大议题；非工程师可用英语直接构建『$1M Apps』的案例正在迫使企业重新设计开发组织。"
     ]
   },
   {
@@ -100,37 +142,36 @@
     ]
   },
   {
-    "id": "g1",
+    "id": "n12",
     "date": "2026-06-02",
-    "category": "Gaming",
-    "subcat": "主机",
-    "platform": "PlayStation.Blog 官方",
-    "platform_color": "#0070D1",
-    "title": "PS State of Play 2026 年 6 月：《战神：劳菲》《漫威金刚狼》全曝光",
-    "url": "https://blog.playstation.com/2026/06/02/state-of-play-june-2026-all-announcements-trailers/",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/802d92e599b14b498b6960be440c6de6.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=VuWOEnhB57vbwPFIOQmnt8ElGcg%3D",
+    "category": "AI",
+    "subcat": "字节系",
+    "platform": "微博 / 火山引擎",
+    "platform_color": "#FF6A00",
+    "title": "豆包课堂内置 Seedance 2.0，扣子 Coze 3.0 同日上线",
+    "url": "https://news.softunis.com/60361.html",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/b6b68b52929a4a8184af2a7479d226dd.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=4SyXg5pfBdQ3HG9hNw1knnxd1QE%3D",
     "detail": [
-      "北京时间 2026 年 6 月 3 日凌晨，索尼互动娱乐举办 60 分钟规模的 State of Play 直面会，作为 2026 年 Summer Game Fest 周期的开场重头戏。整场以 Insomniac 开发的《漫威金刚狼》首段实机演示开场，凭借 Logan 的爪击连段、断肢与再生表现把暴力等级直接拉到 M 评级，明确仍只面向 PS5/PS5 Pro 平台。",
-      "压轴登场的是圣莫尼卡工作室的《战神：劳菲》（God of War: Laufey），故事不再由克瑞托斯主导，而是让芬蕊（Faye）作为主角，在北欧诸神黄昏之后的亡灵世界中跋涉。这一『女性视角的战神』让社区猜测多年的『劳菲前传』终于成真，PlayStation 官方博客同步给出概念图与开发日志摘要。",
-      "中段还释出大量定档与新作信息：Remedy《控制：共鸣》、卡普空《鬼武者：剑之道》、Konami《寂静岭：陨落》均于 2026 年内发售；万代南梦宫《皇牌空战8》首支演示；Supermassive 确认《直到黎明2》将于 2027 年登陆 PS5；《死亡搁浅2》与 Bungie《马拉松》给出大型更新计划。",
-      "r/PS5 与 ResetEra 普遍盛赞《战神：劳菲》的概念，认为切换主角让系列摆脱了『克瑞托斯疲劳』；但《漫威金刚狼》延期至 2027 财年发售引发不满。IGN 与 Tom's Guide 称这是『2026 年索尼第一方阵容最强的一次集中亮相』。"
+      "QuestMobile 数据显示，3 月豆包以 3.45 亿 MAU 稳居中国 AI 原生应用第一，远超千问（1.66 亿）与 DeepSeek（1.27 亿）。字节在 6 月 2 日宣布两条线同步升级，分别瞄准 C 端教育和开发者生态。",
+      "豆包课堂引入 Seedance 2.0 视频生成模型，可把任何课文一键转成 AI 互动视频课，支持角色对话、画面分镜与中文配音；扣子 Coze 3.0 正式上线，新增『项目』概念，可在一个项目里召集多个 Agent 协作，并接入本地与云端 Agent，编排能力对齐 LangGraph/Crew。",
+      "Seedance 2.0 在豆包内免费开放；扣子 3.0 上线后开发者分成机制延续；豆包 App Store 付费订阅最高档 5088 元/年的方案过去一个月也在持续走量。",
+      "微博 #豆包课堂# #扣子3.0# 双话题登上 6 月 2 日科技榜；抖音多位教育+科技博主在当天直播实测 Seedance 2.0；小红书宝妈群体大量出现『豆包课堂自制绘本课』笔记。"
     ]
   },
   {
-    "id": "g4",
+    "id": "n1",
     "date": "2026-06-02",
-    "category": "Gaming",
-    "subcat": "掌机",
-    "platform": "The Verge / Steam 官方",
-    "platform_color": "#1B2838",
-    "title": "Valve 推出 SteamOS 3.8：Steam Deck 真休眠登场，Steam Machine 正式支持",
-    "url": "https://www.theverge.com/games/897765/valve-steamos-3-8-update-steam-deck-hibernation-steam-machine-xbox-ally",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/3edbb0f6283c4d08a28ad284f7cf958b.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=AcBr91lzBBaWOre3oPp5ufVOcEM%3D",
+    "category": "AI",
+    "subcat": "Codex",
+    "platform": "OpenAI 官方 / VentureBeat",
+    "platform_color": "#10A37F",
+    "title": "OpenAI 大举升级 Codex：Sites + Annotations + 6 大行业插件，杀入白领市场",
+    "url": "https://openai.com/index/codex-for-every-role-tool-workflow",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/e7006ffa99bb494eb6959dbc0ddb16dd.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=w5%2Bx%2FL%2F8gM9s2I1kwkcxVjYQDM0%3D",
     "detail": [
-      "Valve 在 6 月初推送 SteamOS 3.8 稳定版与 Beta 通道更新，这是 Steam Deck 自 2022 年发售以来最大规模的系统级升级之一。核心改动是为 Steam Deck 与第三方设备引入『自动休眠』（auto-hibernate）机制：在睡眠一定时间后自动转入低功耗的 S4 休眠态，把睡眠续航从原本的几十小时延长到媲美 Windows 掌机的数天甚至一周。",
-      "本次更新同时大幅扩展对 Steam Machine（Valve 即将推出的客厅小主机）的官方支持，包括 EFI 启动菜单调用、嵌套桌面修复、Steam Controller 适配等。The Verge 报道中确认 Valve 已重申 Steam Machine 仍计划于 2026 年内上市，Steam Deck OLED 则因 RAM 供应紧张持续缺货。",
-      "配套的 Steam 客户端更新也修复了大量 UI 与无障碍 bug，加入对 ASUS ROG Ally X、Lenovo Legion Go 系列以及微软 Xbox 同款手柄等第三方设备的 SteamOS 安装兼容性优化。",
-      "r/SteamDeck 帖子在 6 月 1 日当日点赞迅速突破 4 千，玩家普遍对『真休眠』功能表示期待，但也有 LCD 老款用户担忧低功耗状态对电池循环的影响。"
+      "在 Microsoft Build 2026 的同一周，OpenAI 于 6 月 2 日发起对 Codex 的最大规模重新定位。官方将 Codex 从面向工程师的编码代理扩展为面向白领知识工作者的通用业务平台。三大核心能力为：Sites（在 Codex 内一键创建、托管、分享交互式网页/看板）、Annotations（无需重新提示即可在已有产物上原位标注/修改）、以及 6 个角色化插件包。",
+      "6 个新插件覆盖数据分析、创意生产、销售、产品设计、公开市场股票投资、投行业务，每个聚合 62 个常用 SaaS（Snowflake、Figma、Salesforce、Slack、HubSpot、Replit、Hex、Moody's、PitchBook、Canva、Databricks）的连接器和 110 项预置自动化技能。Codex 还宣布未来几周把核心能力嵌入到 ChatGPT 主应用。",
+      "OpenAI 首次披露：Codex 周活用户已突破 500 万，其中 20% 是非工程师，非工程师留存增速是工程师的 3 倍。这意味着 OpenAI 正与 Anthropic（Claude Cowork）、Microsoft Copilot 直接争夺企业生产力市场，将 Codex 定位为下一代企业 AI 操作环境而非单纯的 IDE 代理。"
     ]
   },
   {
@@ -151,19 +192,54 @@
     ]
   },
   {
-    "id": "n3",
+    "id": "g4",
+    "date": "2026-06-02",
+    "category": "Gaming",
+    "subcat": "掌机",
+    "platform": "The Verge / Steam 官方",
+    "platform_color": "#1B2838",
+    "title": "Valve 推出 SteamOS 3.8：Steam Deck 真休眠登场，Steam Machine 正式支持",
+    "url": "https://www.theverge.com/games/897765/valve-steamos-3-8-update-steam-deck-hibernation-steam-machine-xbox-ally",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/3edbb0f6283c4d08a28ad284f7cf958b.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=AcBr91lzBBaWOre3oPp5ufVOcEM%3D",
+    "detail": [
+      "Valve 在 6 月初推送 SteamOS 3.8 稳定版与 Beta 通道更新，这是 Steam Deck 自 2022 年发售以来最大规模的系统级升级之一。核心改动是为 Steam Deck 与第三方设备引入『自动休眠』（auto-hibernate）机制：在睡眠一定时间后自动转入低功耗的 S4 休眠态，把睡眠续航从原本的几十小时延长到媲美 Windows 掌机的数天甚至一周。",
+      "本次更新同时大幅扩展对 Steam Machine（Valve 即将推出的客厅小主机）的官方支持，包括 EFI 启动菜单调用、嵌套桌面修复、Steam Controller 适配等。The Verge 报道中确认 Valve 已重申 Steam Machine 仍计划于 2026 年内上市，Steam Deck OLED 则因 RAM 供应紧张持续缺货。",
+      "配套的 Steam 客户端更新也修复了大量 UI 与无障碍 bug，加入对 ASUS ROG Ally X、Lenovo Legion Go 系列以及微软 Xbox 同款手柄等第三方设备的 SteamOS 安装兼容性优化。",
+      "r/SteamDeck 帖子在 6 月 1 日当日点赞迅速突破 4 千，玩家普遍对『真休眠』功能表示期待，但也有 LCD 老款用户担忧低功耗状态对电池循环的影响。"
+    ]
+  },
+  {
+    "id": "g1",
+    "date": "2026-06-02",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "PlayStation.Blog 官方",
+    "platform_color": "#0070D1",
+    "title": "PS State of Play 2026 年 6 月：《战神：劳菲》《漫威金刚狼》全曝光",
+    "url": "https://blog.playstation.com/2026/06/02/state-of-play-june-2026-all-announcements-trailers/",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/802d92e599b14b498b6960be440c6de6.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=VuWOEnhB57vbwPFIOQmnt8ElGcg%3D",
+    "detail": [
+      "北京时间 2026 年 6 月 3 日凌晨，索尼互动娱乐举办 60 分钟规模的 State of Play 直面会，作为 2026 年 Summer Game Fest 周期的开场重头戏。整场以 Insomniac 开发的《漫威金刚狼》首段实机演示开场，凭借 Logan 的爪击连段、断肢与再生表现把暴力等级直接拉到 M 评级，明确仍只面向 PS5/PS5 Pro 平台。",
+      "压轴登场的是圣莫尼卡工作室的《战神：劳菲》（God of War: Laufey），故事不再由克瑞托斯主导，而是让芬蕊（Faye）作为主角，在北欧诸神黄昏之后的亡灵世界中跋涉。这一『女性视角的战神』让社区猜测多年的『劳菲前传』终于成真，PlayStation 官方博客同步给出概念图与开发日志摘要。",
+      "中段还释出大量定档与新作信息：Remedy《控制：共鸣》、卡普空《鬼武者：剑之道》、Konami《寂静岭：陨落》均于 2026 年内发售；万代南梦宫《皇牌空战8》首支演示；Supermassive 确认《直到黎明2》将于 2027 年登陆 PS5；《死亡搁浅2》与 Bungie《马拉松》给出大型更新计划。",
+      "r/PS5 与 ResetEra 普遍盛赞《战神：劳菲》的概念，认为切换主角让系列摆脱了『克瑞托斯疲劳』；但《漫威金刚狼》延期至 2027 财年发售引发不满。IGN 与 Tom's Guide 称这是『2026 年索尼第一方阵容最强的一次集中亮相』。"
+    ]
+  },
+  {
+    "id": "n8",
     "date": "2026-06-01",
     "category": "AI",
-    "subcat": "Claude",
-    "platform": "TechCrunch / Bloomberg",
-    "platform_color": "#00B96B",
-    "title": "Anthropic 正式递交 IPO 招股书，9650 亿美元估值超越 OpenAI",
-    "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/4e6c52f04778465e8667a430233daf57.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=6IZWWtDHkNAU7Dk%2FopBKJTsqbL0%3D",
+    "subcat": "国产大模型",
+    "platform": "微博 / 掘金",
+    "platform_color": "#E6162D",
+    "title": "MiniMax M3 开源：编程力压 GPT-5.5，首个『前沿编程+100万长上下文+原生多模态』开源模型",
+    "url": "https://juejin.cn/post/7646334161280417801",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/f9adacd72c1b49fc97346bfb78282a56.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=Le99c3eHS7NR6pWdJaHC4wAcwD8%3D",
     "detail": [
-      "6 月 1 日，Anthropic 正式提交 S-1 文件启动 IPO。同期 Bloomberg 已确认其完成 650 亿美元融资、投后估值达 9650 亿美元，首次超过 OpenAI 8520 亿美元的私有估值，成为全球估值最高的私有 AI 公司，也是 AI 产业史上最大单轮融资。",
-      "时点紧贴 Opus 4.8 发布与 Claude Cowork/Claude Code 在白领市场的快速渗透。招股书披露的 ARR 增速、企业付费用户结构（财富 500 强渗透率）将成为公开市场首次系统性评估『模型公司 + Agent 产品』商业模式的标尺，也为 OpenAI 后续 IPO 路径提供参照。",
-      "华尔街与硅谷关注三点：Anthropic 与 Amazon/Google 双云资本支出绑定下的毛利率结构；下一代未发布模型的研发节奏与算力承诺；IPO 后是否触发 OpenAI 加速私募/二级估值博弈。"
+      "自年初登陆港股、市值站上 4000 亿港元后，MiniMax 一直被视为国产大模型阵营少有的『商业化+技术+多模态』三线齐发玩家。6 月 1 日深夜，公司正式抛出新一代旗舰 M3，发布会重心放在『同时拿下编程、长上下文、原生多模态』三项硬指标。",
+      "M3 采用自研稀疏注意力架构 MSA（MiniMax Sparse Attention），在 100 万 token 上下文条件下相比上一代实现约 1/20 的计算量；同时支持图像、视频原生输入，可在桌面端操作电脑。会上展示了 M3 自主运行近 12 小时、完整复现一篇学术论文实验的 Demo。",
+      "亮点数据：SWE-Bench Pro 得分 59.0%，超越 OpenAI GPT-5.5 与 Google Gemini 3.1 Pro，成为目前公开评测中开源模型的最强成绩之一。API 上线即推出 7 天 5 折优惠，并承诺 10 天内开源全部权重。",
+      "微博『#MiniMax M3 开源#』与『#国产模型 SWE 第一#』话题持续刷屏，掘金、知乎、虎嗅、36Kr 当晚发出长篇解读。技术社区关注 MSA 是否能成为新一代『DSA 之后的下一块拼图』，以及对 Claude Code、Cursor 等编程 Agent 工具链的潜在替代。"
     ]
   },
   {
@@ -183,20 +259,19 @@
     ]
   },
   {
-    "id": "n8",
+    "id": "n3",
     "date": "2026-06-01",
     "category": "AI",
-    "subcat": "国产大模型",
-    "platform": "微博 / 掘金",
-    "platform_color": "#E6162D",
-    "title": "MiniMax M3 开源：编程力压 GPT-5.5，首个『前沿编程+100万长上下文+原生多模态』开源模型",
-    "url": "https://juejin.cn/post/7646334161280417801",
-    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/f9adacd72c1b49fc97346bfb78282a56.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=Le99c3eHS7NR6pWdJaHC4wAcwD8%3D",
+    "subcat": "Claude",
+    "platform": "TechCrunch / Bloomberg",
+    "platform_color": "#00B96B",
+    "title": "Anthropic 正式递交 IPO 招股书，9650 亿美元估值超越 OpenAI",
+    "url": "https://techcrunch.com/2026/06/01/anthropic-files-to-go-public/",
+    "image": "https://p-mira-img-sign-sgnontt.byteintl.net/tos-mya-i-xobrcjvdq7/4e6c52f04778465e8667a430233daf57.jpeg~tplv-xobrcjvdq7-image-jpeg.jpeg?lk3s=3523e930&x-orig-authkey=miraorigin&x-orig-expires=1811998800&x-orig-sign=6IZWWtDHkNAU7Dk%2FopBKJTsqbL0%3D",
     "detail": [
-      "自年初登陆港股、市值站上 4000 亿港元后，MiniMax 一直被视为国产大模型阵营少有的『商业化+技术+多模态』三线齐发玩家。6 月 1 日深夜，公司正式抛出新一代旗舰 M3，发布会重心放在『同时拿下编程、长上下文、原生多模态』三项硬指标。",
-      "M3 采用自研稀疏注意力架构 MSA（MiniMax Sparse Attention），在 100 万 token 上下文条件下相比上一代实现约 1/20 的计算量；同时支持图像、视频原生输入，可在桌面端操作电脑。会上展示了 M3 自主运行近 12 小时、完整复现一篇学术论文实验的 Demo。",
-      "亮点数据：SWE-Bench Pro 得分 59.0%，超越 OpenAI GPT-5.5 与 Google Gemini 3.1 Pro，成为目前公开评测中开源模型的最强成绩之一。API 上线即推出 7 天 5 折优惠，并承诺 10 天内开源全部权重。",
-      "微博『#MiniMax M3 开源#』与『#国产模型 SWE 第一#』话题持续刷屏，掘金、知乎、虎嗅、36Kr 当晚发出长篇解读。技术社区关注 MSA 是否能成为新一代『DSA 之后的下一块拼图』，以及对 Claude Code、Cursor 等编程 Agent 工具链的潜在替代。"
+      "6 月 1 日，Anthropic 正式提交 S-1 文件启动 IPO。同期 Bloomberg 已确认其完成 650 亿美元融资、投后估值达 9650 亿美元，首次超过 OpenAI 8520 亿美元的私有估值，成为全球估值最高的私有 AI 公司，也是 AI 产业史上最大单轮融资。",
+      "时点紧贴 Opus 4.8 发布与 Claude Cowork/Claude Code 在白领市场的快速渗透。招股书披露的 ARR 增速、企业付费用户结构（财富 500 强渗透率）将成为公开市场首次系统性评估『模型公司 + Agent 产品』商业模式的标尺，也为 OpenAI 后续 IPO 路径提供参照。",
+      "华尔街与硅谷关注三点：Anthropic 与 Amazon/Google 双云资本支出绑定下的毛利率结构；下一代未发布模型的研发节奏与算力承诺；IPO 后是否触发 OpenAI 加速私募/二级估值博弈。"
     ]
   },
   {
