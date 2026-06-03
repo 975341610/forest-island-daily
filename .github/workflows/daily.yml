@@ -1,6 +1,14 @@
 name: Daily Fetch & Deploy
 
 on:
+  # 你 git push 到 main 后自动重新部署
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'data/**'
+      - 'scripts/**'
+      - '.github/workflows/**'
   schedule:
     # UTC 00:30 = 北京时间 08:30（兜底，万一没有 Mira 数据）
     - cron: '30 0 * * *'
@@ -23,6 +31,8 @@ concurrency:
 jobs:
   fetch-and-deploy:
     runs-on: ubuntu-latest
+    # 跳过 bot 自己 push 触发的循环
+    if: github.actor != 'github-actions[bot]'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,7 +43,9 @@ jobs:
           python-version: '3.11'
 
       # 优先用 Mira 给的 today.json；URL 为空时退化到本地抓取
+      # push 触发时跳过：数据已经是你 push 上来的最新版
       - name: Fetch today's news (Mira → URL, fallback → local script)
+        if: github.event_name != 'push'
         run: |
           INPUT_URL="${{ github.event.inputs.today_url }}"
           if [ -n "$INPUT_URL" ]; then
@@ -46,9 +58,11 @@ jobs:
           fi
 
       - name: Merge into archive
+        if: github.event_name != 'push'
         run: python scripts/generate.py
 
       - name: Commit data changes
+        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
