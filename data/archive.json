@@ -1,5 +1,85 @@
 [
   {
+    "id": "n_2026-06-04_25",
+    "date": "2026-06-04",
+    "category": "Gaming",
+    "subcat": "Steam",
+    "platform": "GameGrin",
+    "platform_color": "#9DC74F",
+    "title": "Gothic 1 Remake 6/5 登陆 Steam",
+    "url": "https://www.gamegrin.com/news/top-19-new-steam-games-this-week-1st7th-of-june-2026",
+    "image": "images/2026-06-04/n_2026-06-04_25.jpg",
+    "detail": [
+      "GameGrin 本周 Steam 新作榜将 Alkimia Interactive 开发、THQ Nordic 发行的 Gothic 1 Remake 列为榜首作品，发售日 2026 年 6 月 5 日。",
+      "本作完全重制 2001 年原版 Gothic 的世界与战斗系统，保留矿坑流放岛设定，被视为德式 ARPG 重要复刻，与同周上线的 Fatekeeper 共享 THQ Nordic 资源。",
+      "同档期还有 The 7th Guest Remake、House Flipper Remastered Collection、Battleship Command 等 19 款关注度过千的新作集中上架。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_24",
+    "date": "2026-06-04",
+    "category": "Gaming",
+    "subcat": "PS5",
+    "platform": "Eurogamer",
+    "platform_color": "#7B2D8E",
+    "title": "Phantom Blade Zero 锁定 10/29 PS5 + PC",
+    "url": "https://www.eurogamer.net/playstation-state-of-play-june-2026-phantom-blade-zero",
+    "image": "images/2026-06-04/n_2026-06-04_24.jpg",
+    "detail": [
+      "State of Play 结束后官方 X 账号正式宣布 Phantom Blade Zero 将于 2026 年 10 月 29 日登陆 PlayStation 5 和 PC，本作主打高速功夫动作与超自然怪物题材。",
+      "S2 Games 表示完整 30 分钟实机演示将在今夏 Summer Game Fest 周期内放出，目前仅释出特别 teaser，重点演示了硬派连段与处决动作。",
+      "作为国产工作室 S2 Games 多年打磨的旗舰，本作发售窗口与 Ghost of Yotei、Marvel's Wolverine 错峰，被视为 Q4 PS5 关键填档作。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_23",
+    "date": "2026-06-04",
+    "category": "Gaming",
+    "subcat": "PS5",
+    "platform": "Eurogamer",
+    "platform_color": "#7B2D8E",
+    "title": "Marvel's Wolverine 9/15 PS5 独占发售",
+    "url": "https://www.eurogamer.net/everything-announced-sonys-playstation-state-of-play-june-2026",
+    "image": "images/2026-06-04/n_2026-06-04_23.jpg",
+    "detail": [
+      "6 月 2 日 PlayStation State of Play 公布 Insomniac Games 开发的 Marvel's Wolverine 将于 2026 年 9 月 15 日 PS5 独占发售，沿用 Marvel's Spider-Man 系列班底。",
+      "延展实机演示展示了 Logan 用艾德曼合金爪追踪被绑架变种人的高血腥战斗场景，并出现了 Jean Grey 协助登场以及摩托追击段落。",
+      "本场 State of Play 同时确认 Wolverine 与 God of War: Laufey 暂不登陆 PC，索尼回归严格的真独占策略。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_22",
+    "date": "2026-06-04",
+    "category": "Gaming",
+    "subcat": "Switch 2",
+    "platform": "Polygon",
+    "platform_color": "#FA4B2A",
+    "title": "Star Fox Switch 2 重制版定档 6/26",
+    "url": "https://www.polygon.com/new-switch-2-games-june-2026",
+    "image": "images/2026-06-04/n_2026-06-04_22.jpg",
+    "detail": [
+      "Polygon 整理 6 月 Switch 2 新作时确认 Star Fox 重制版将在 6 月 26 日发售，本作是 Star Fox 64 的重制（而 64 本身又是初代的重制）。",
+      "新版采用完整管弦乐编曲，可在 Nintendo Music 试听，本作由宫本茂亲自背书，被视为 Switch 2 第一年中段的主推第一方作品。",
+      "同月还有 Final Fantasy 7 Rebirth（6/3）、To a T（6/11）、Denshattack!（6/17）、Adventures of Elliot（6/18）、Wanderstop（6/23）共 6 款重磅。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_21",
+    "date": "2026-06-04",
+    "category": "Gaming",
+    "subcat": "Marathon",
+    "platform": "RPS",
+    "platform_color": "#003B5C",
+    "title": "Marathon 第二赛季首日服务器翻车，Bungie 补偿装备",
+    "url": "https://www.rockpapershotgun.com/marathon-season-2-launch-plagued-by-anteaters-monkeys-and-weasels-with-bungie-dishing-out-free-gear-to-say-sorry-for-the-server-issues",
+    "image": "images/2026-06-04/n_2026-06-04_21.jpg",
+    "detail": [
+      "6 月 2 日 Marathon 第二赛季 Nightfall 上线首日遭遇严重服务器问题，玩家在战局中被食蚁兽、猴子和黄鼠狼形象的 bug 怪物追逐，无法正常 extract。",
+      "Bungie 在 X 上致歉，宣布给所有进入第二赛季的玩家发放免费装备包以补偿停机时间，并表示已紧急回滚部分匹配服务。",
+      "本次 PvP-lite 模式的引入被部分玩家视为转向 PvE 的妥协，社区担心服务器扩容跟不上后续节奏。"
+    ]
+  },
+  {
     "id": "n_2026-06-04_20",
     "date": "2026-06-04",
     "category": "Gaming",
