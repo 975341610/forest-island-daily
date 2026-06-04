@@ -142,6 +142,25 @@ def main():
     today = beijing_today()
     print(f"📅 fetching for: {today}")
 
+    # === 🛡️ 防覆盖保险：若 today.json 已是今天的高质量真数据，跳过抓取 ===
+    if os.path.exists(TODAY):
+        try:
+            with open(TODAY, encoding="utf-8") as _f:
+                _existing = json.load(_f)
+            if isinstance(_existing, list) and len(_existing) >= 10:
+                _today_items = [x for x in _existing if x.get("date") == today]
+                if len(_today_items) >= 10:
+                    _fake_markers = ("dicebear", "picsum", "placehold")
+                    _fakes = sum(1 for x in _today_items
+                                 if any(m in (x.get("image") or "") for m in _fake_markers))
+                    _real = len(_today_items) - _fakes
+                    if _real >= 10:
+                        print(f"🛡️  today.json already has {_real} real items for {today}, skip overwrite")
+                        return 0
+        except Exception as _e:
+            print(f"⚠️  guard check failed ({_e}), proceeding with fetch")
+    # === 保险结束 ===
+
     try:
         raw = collect_from_sources()
         items = normalize_to_schema(raw, today)
