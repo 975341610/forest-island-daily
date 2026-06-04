@@ -1,77 +1,322 @@
 [
   {
-    "id": "n_2026-06-04_01",
+    "id": "n_2026-06-04_20",
     "date": "2026-06-04",
-    "category": "AI",
-    "subcat": "全球科技热榜",
+    "category": "Gaming",
+    "subcat": "Forza",
+    "platform": "RPS",
+    "platform_color": "#003B5C",
+    "title": "《极限竞速 地平线 6》上线可定制车内饰",
+    "url": "https://www.rockpapershotgun.com/forza-horizon-6-gets-customisable-interiors-thanks-to-a-modder-who-couldnt-resist-swapping-the-seats-of-their-beemer",
+    "image": "images/2026-06-04/n_2026-06-04_20.jpg",
+    "detail": [
+      "6 月 3 日，《极限竞速 地平线 6》出现首个可定制车内饰 mod，作者把 2014 款宝马 M4 的座椅和方向盘换成自选样式，作为整套内饰系统的概念演示。",
+      "Playground Games 本体只允许换轮毂和外观，玩家 mod 社区在游戏发售两周内就把缺失的内饰自由度补齐，再次证明 Forza 系列 mod 生态活跃。",
+      "Mod 通过修改车辆资源包内的网格挂点实现，作者表示后续会做一个通用模板，让其他车型也能复用同一套替换流程。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_19",
+    "date": "2026-06-04",
+    "category": "Gaming",
+    "subcat": "经典续作",
+    "platform": "RPS",
+    "platform_color": "#003B5C",
+    "title": "《寂静岭 Townfall》定档 9 月",
+    "url": "https://www.rockpapershotgun.com/silent-hill-townfall-wants-you-to-fear-the-truth-behind-the-static-when-it-arrives-in-september",
+    "image": "images/2026-06-04/n_2026-06-04_19.jpg",
+    "detail": [
+      "在 6 月 2 至 3 日的预热放出后，《寂静岭 Townfall》正式锁定 9 月发售，主打 slogan 是敬畏静电背后的真相。",
+      "本作由 No Code 与 Annapurna 合作，延续他们《Stories Untold》《Observation》一脉的复古噪点美学，用模拟信号本身做恐怖叙事载体。",
+      "时间点几乎与上一作《Silent Hill f》正好相隔一年，意味着 Konami 把寂静岭系列重启成可持续年度产品的策略已经成型。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_18",
+    "date": "2026-06-04",
+    "category": "Gaming",
+    "subcat": "新游公布",
+    "platform": "RPS",
+    "platform_color": "#003B5C",
+    "title": "中村育美新作《Kemuri》：把合作变成仪式",
+    "url": "https://www.rockpapershotgun.com/one-discovers-one-guides-and-one-strikes-the-final-blow-ikumi-nakamuras-new-yokai-hunting-game-kemuri-is-turning-co-op-into-a-ritual-somehow",
+    "image": "images/2026-06-04/n_2026-06-04_18.jpg",
+    "detail": [
+      "6 月 4 日凌晨，RPS 整理了 Ikumi Nakamura 新作《Kemuri》最新一轮试玩反馈，三人小队分别扮演发现者、引导者、终结者的妖怪猎杀仪式。",
+      "三个角色分别承担侦察驱魔、路径牵引、最后一击的强分工，把日式怪谈题材包装成一个高度仪式化的合作流程，区别于常见 PvE 射击。",
+      "项目仍在 Unseen Studio 内部打磨节奏与平衡，但被认为是 2026 年最值得关注的中型日系合作动作冒险之一。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_17",
+    "date": "2026-06-04",
+    "category": "Gaming",
+    "subcat": "PC 大作",
+    "platform": "RPS",
+    "platform_color": "#003B5C",
+    "title": "《Control Resonant》定档：SSD 需求劝退老机",
+    "url": "https://www.rockpapershotgun.com/control-resonant-release-date-yeah-thats-nice-now-move-aside-so-i-can-look-at-its-system-requirements-and-ohhh-thats-a-lot-of-ssd-space",
+    "image": "images/2026-06-04/n_2026-06-04_17.jpg",
+    "detail": [
+      "Remedy 在 6 月 3 日正式公布《Control Resonant》发售日，同步附上 PC 配置需求，最显眼的是占地极大的 SSD 安装空间要求。",
+      "RPS 在快评中把发售日新闻抢镜的硬盘焦虑放在标题，反映很多老 PC 玩家对 2026 年 3A 安装体量越来越无奈。",
+      "本作是《Control》的资料片体量续作，延续 Jesse Faden 的故事线，画面与物理表现继续吃满 Northlight 引擎特性。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_16",
+    "date": "2026-06-04",
+    "category": "Gaming",
+    "subcat": "PS 大作",
+    "platform": "RPS",
+    "platform_color": "#003B5C",
+    "title": "传：战神 Laufey 与金刚狼将跳过 PC 首发",
+    "url": "https://www.rockpapershotgun.com/god-of-war-laufey-and-wolverine-are-snubbing-pc-as-rumoured-but-i-bet-they-come-crawling-back-sometime-after-the-launch-of-ps6",
+    "image": "images/2026-06-04/n_2026-06-04_16.jpg",
+    "detail": [
+      "Rock Paper Shotgun 在 6 月 3 日整理多方爆料，称 Sony 第一方两款重磅作品《战神 Laufey》和《金刚狼》将不再同步 PC，回到 PS 独占首发的老路。",
+      "作者推断这与即将到来的 PS6 主机周期有关，Sony 希望在新主机发售窗口里重新拉起独占叙事，再让 PC 版作为后续长尾收入。",
+      "如果属实，那 PlayStation Studios 在过去几年坚持的延迟登陆 PC 策略将再次摇摆，对 Steam 上等待索尼独占的玩家是一次坏消息。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_15",
+    "date": "2026-06-04",
+    "category": "Gaming",
+    "subcat": "Steam 新作",
+    "platform": "Steam",
+    "platform_color": "#1B2838",
+    "title": "F1® 25 今日登陆 Steam，好评 87%",
+    "url": "https://store.steampowered.com/app/3059520/F1_25/",
+    "image": "images/2026-06-04/n_2026-06-04_15.jpg",
+    "detail": [
+      "6 月 3 日，《F1® 25》正式登陆 Steam，开售首日就在 Steam 热销榜进入前列，9000 多条评测中 87% 为正面，被定性为特别好评。",
+      "本作延续 EA / Codemasters 路线，更新车辆物理和动态天气模型，同时把生涯模式叙事段落与 F1 真人纪录片内容做了更紧密的串联。",
+      "新加入的 My Team 2.0 让玩家可以在中游车队基础上接管运营，包括赞助、技术升级与车手心理状态管理。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_14",
+    "date": "2026-06-04",
+    "category": "VibeCoding",
+    "subcat": "Show HN",
     "platform": "HackerNews",
-    "platform_color": "#8ED16D",
-    "title": "Elixir v1.20: Now a gradually typed language",
+    "platform_color": "#FF6600",
+    "title": "Show HN：Clojure+Htmx 营养库 Nutrepedia",
+    "url": "https://nutrepedia.com/en-us/",
+    "image": "images/2026-06-04/n_2026-06-04_14.jpg",
+    "detail": [
+      "Show HN 今日推出 Nutrepedia，一个覆盖 29 个地区营养信息的数据库站点，全栈使用 Clojure + Htmx 实现，几乎不写前端 JS。",
+      "项目作者强调用 Htmx 把交互直接驱动到后端 HTML 渲染，配合 Clojure 的不变数据，可以在几千行代码里支撑多语言、多地区的内容矩阵。",
+      "Show HN 评论区把它作为 Htmx 在 2026 年依然吃香的代表案例，对偏好极简栈的独立开发者有参考价值。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_13",
+    "date": "2026-06-04",
+    "category": "VibeCoding",
+    "subcat": "HackerNews",
+    "platform": "HackerNews",
+    "platform_color": "#FF6600",
+    "title": "Pwnd Blaster：用扬声器无接触入侵 PC",
+    "url": "https://blog.nns.ee/2026/06/03/katana-badusb/",
+    "image": "images/2026-06-04/n_2026-06-04_13.jpg",
+    "detail": [
+      "6 月 3 日，安全研究者 nns.ee 发布 Pwnd Blaster 攻击演示：通过扬声器播放精心构造的超声 / 可听波形，让附近 PC 在不接触的情况下被注入键盘指令。",
+      "攻击利用了某些 BadUSB 兼容受体在物理音频信号下的边信道行为，本质是 Katana BadUSB 链路的远程触发版本，对桌面环境的物理隔离假设造成挑战。",
+      "帖子在 HackerNews 拿到 600+ 分，安全圈讨论焦点是企业会议室与开放工位是否需要在威胁模型里加入扬声器即注入器这一项。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_12",
+    "date": "2026-06-04",
+    "category": "VibeCoding",
+    "subcat": "GitHub 热门",
+    "platform": "GitHub",
+    "platform_color": "#181717",
+    "title": "Open-LLM-VTuber：本地全平台 Live2D 语音对话",
+    "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
+    "image": "images/2026-06-04/n_2026-06-04_12.jpg",
+    "detail": [
+      "Open-LLM-VTuber 在今日 GitHub Trending 上榜，允许用户用任意 LLM 做免手操作的语音对话，并把回复同步到本地 Live2D 角色的表情和口型上。",
+      "整个链路设计为本地运行(语音识别 / LLM / TTS / Live2D 渲染)，支持随时打断对话，跨 Windows / macOS / Linux 部署。",
+      "项目把本地虚拟形象加任意 LLM 做成了开箱即用的桌面体验，成为近期独立开发者 demo 的常用底座。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_11",
+    "date": "2026-06-04",
+    "category": "VibeCoding",
+    "subcat": "GitHub 热门",
+    "platform": "GitHub",
+    "platform_color": "#181717",
+    "title": "NousResearch 开源 hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "image": "images/2026-06-04/n_2026-06-04_11.jpg",
+    "detail": [
+      "NousResearch 在 6 月初推出 hermes-agent，定位是 the agent that grows with you，今日登上 GitHub Trending 首屏，是 Hermes 系列在 Agent 方向上的一次正式发力。",
+      "项目把 Hermes 模型权重与一套长期记忆、个性化偏好层结合，目标是让 agent 在长期使用中持续把用户习惯沉淀为可复用上下文。",
+      "仓库与同系的 hermes-webui 一起上 trending，反映社区对长期个人化 agent 这条赛道在 2026 年的关注度仍在上升。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_10",
+    "date": "2026-06-04",
+    "category": "VibeCoding",
+    "subcat": "安全",
+    "platform": "官方博客",
+    "platform_color": "#003A70",
+    "title": "Let's Encrypt 公布后量子未来路线：MTC",
+    "url": "https://letsencrypt.org/2026/06/03/pq-certs",
+    "image": "images/2026-06-04/n_2026-06-04_10.jpg",
+    "detail": [
+      "6 月 3 日，Let's Encrypt 宣布把 Merkle Tree Certificates(MTC)作为公开 Web PKI 的后量子演进路线，目标在保留现有性能的前提下加入抗量子认证。",
+      "MTC 不直接替换 X.509，而是在签发链外挂一层 Merkle 结构，使浏览器侧验证可以用更小的签名体积换来后量子安全。",
+      "对站长基本无感，但对 CA 与浏览器厂商是接下来 2 年要协同实现的重大互操作工程，CRLite 与 SCT 路径都会受到影响。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_09",
+    "date": "2026-06-04",
+    "category": "VibeCoding",
+    "subcat": "Web 框架",
+    "platform": "官方博客",
+    "platform_color": "#DD0031",
+    "title": "Angular v22 正式发布",
+    "url": "https://blog.angular.dev/announcing-angular-v22-c52bb83a4664",
+    "image": "images/2026-06-04/n_2026-06-04_09.jpg",
+    "detail": [
+      "6 月 3 日，Angular 团队发布 v22 主版本，延续每半年一次的大版本节奏，继续优化 signals、控制流语法与服务端渲染管线。",
+      "本次版本对构建器、ESLint 规则集和迁移命令都做了打包升级，老项目升级路径仍然由 ng update 一键覆盖。",
+      "对企业前端团队来说，v22 是接续 v17 / v19 signals 改造的关键节点，可以开始把更多模板从 zone.js 调度迁出。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_08",
+    "date": "2026-06-04",
+    "category": "VibeCoding",
+    "subcat": "语言更新",
+    "platform": "官方博客",
+    "platform_color": "#6E4A7E",
+    "title": "Elixir v1.20 发布：正式成为渐进类型语言",
     "url": "https://elixir-lang.org/blog/2026/06/03/elixir-v1-20-0-released/",
-    "image": "https://api.dicebear.com/7.x/shapes/png?seed=e4384e18&size=512",
+    "image": "images/2026-06-04/n_2026-06-04_08.jpg",
     "detail": [
-      "来自 HackerNews 的今日热门内容：Elixir v1.20: Now a gradually typed language",
-      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+      "6 月 3 日，Elixir 团队发布 v1.20，最大变化是每一段程序现在都会被渐进式类型检查，用来在编译期捕获经过验证的 bug 与类型违规。",
+      "类型系统不强制全量标注，沿用 set-theoretic types 路线，向后兼容现有 Phoenix / OTP 生态。",
+      "对函数式社区是标志性事件 —— Elixir 在 Rust、TypeScript 之后给 BEAM 生态补上了真正可用的静态约束工具。"
     ]
   },
   {
-    "id": "n_2026-06-04_02",
+    "id": "n_2026-06-04_07",
     "date": "2026-06-04",
     "category": "AI",
-    "subcat": "全球科技热榜",
+    "subcat": "AI 行业",
     "platform": "HackerNews",
-    "platform_color": "#8ED16D",
-    "title": "\"They're made out of weights\"",
-    "url": "https://maxleiter.com/blog/weights",
-    "image": "https://api.dicebear.com/7.x/shapes/png?seed=19a34061&size=512",
+    "platform_color": "#FF6600",
+    "title": "Uber 月均 $1500 的 AI 限额成行业定价信号",
+    "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+    "image": "images/2026-06-04/n_2026-06-04_07.jpg",
     "detail": [
-      "来自 HackerNews 的今日热门内容：\"They're made out of weights\"",
-      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+      "Simon Willison 在 6 月 3 日的博客里指出，Uber 内部把员工 AI 工具月度预算上限设到 1500 美元，是一个公开可见的、对当下 AI 工具定价合理区间非常有用的锚点。",
+      "他把这个数字与 Cursor、Codex、Claude Code、Copilot Pro 等订阅与按量计费方案放在一起对照，认为整个市场仍处于把高阶工程师每月几千美元工具支出正常化的过程中。",
+      "这条短评在 HackerNews 拿到 350+ 分讨论，反映了开发者社区对 AI 工具货币化路径的强烈关注。"
     ]
   },
   {
-    "id": "n_2026-06-04_03",
+    "id": "n_2026-06-04_06",
     "date": "2026-06-04",
     "category": "AI",
-    "subcat": "全球科技热榜",
-    "platform": "HackerNews",
-    "platform_color": "#8ED16D",
-    "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
-    "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
-    "image": "https://api.dicebear.com/7.x/shapes/png?seed=66eba240&size=512",
+    "subcat": "AI 政策",
+    "platform": "官方博客",
+    "platform_color": "#10A37F",
+    "title": "OpenAI 发布前沿 AI 民主治理蓝图",
+    "url": "https://openai.com/index/frontier-safety-blueprint",
+    "image": "images/2026-06-04/n_2026-06-04_06.jpg",
     "detail": [
-      "来自 HackerNews 的今日热门内容：Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
-      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
-    ]
-  },
-  {
-    "id": "n_2026-06-04_04",
-    "date": "2026-06-04",
-    "category": "AI",
-    "subcat": "全球科技热榜",
-    "platform": "HackerNews",
-    "platform_color": "#8ED16D",
-    "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
-    "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
-    "image": "https://api.dicebear.com/7.x/shapes/png?seed=dda31ab4&size=512",
-    "detail": [
-      "来自 HackerNews 的今日热门内容：I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
-      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+      "6 月 3 日，OpenAI 在公共政策议程更新中发布前沿 AI 民主治理蓝图，提出一套面向 GPT 级模型的多边监管框架草案。",
+      "蓝图主张关键能力(生物、网络、自主复制)的训练与部署都应进入透明披露与对等审查名单，由跨国政府和独立机构共同评估。",
+      "OpenAI 强调蓝图是一份征求意见稿，配合同日发布的公共政策议程一起释出，希望在主要监管区域之间形成对话基础。"
     ]
   },
   {
     "id": "n_2026-06-04_05",
     "date": "2026-06-04",
     "category": "AI",
-    "subcat": "全球科技热榜",
-    "platform": "HackerNews",
-    "platform_color": "#8ED16D",
-    "title": "Gemma 4 12B: A unified, encoder-free multimodal model",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
-    "image": "https://api.dicebear.com/7.x/shapes/png?seed=16b2e2d4&size=512",
+    "subcat": "Anthropic",
+    "platform": "官方博客",
+    "platform_color": "#D97757",
+    "title": "Anthropic 用 MITRE ATT&CK 复盘 AI 网络威胁",
+    "url": "https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack",
+    "image": "images/2026-06-04/n_2026-06-04_05.jpg",
     "detail": [
-      "来自 HackerNews 的今日热门内容：Gemma 4 12B: A unified, encoder-free multimodal model",
-      "本条由自动抓取脚本汇入森林小岛日报，原文请点击链接查看；明日 06:00 会继续追加新条目，旧内容自动归档保留。"
+      "6 月 3 日，Anthropic 发布报告，把过去一年观察到的 AI 辅助网络攻击全部映射到 MITRE ATT&CK 框架，评估现有安全方法对 AI 时代攻击的覆盖度。",
+      "结论是：传统 ATT&CK 在初始接入、信息搜集这类阶段仍然有效，但在自动化、社工脚本生成、横向移动决策这些被 AI 急剧加速的环节，明显出现空白。",
+      "Anthropic 同时给出了对模型供给侧(自家 Claude)和安全社区的几项缓解建议，强调需要把模型滥用情报回灌到 ATT&CK 矩阵里。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_04",
+    "date": "2026-06-04",
+    "category": "AI",
+    "subcat": "Anthropic",
+    "platform": "官方博客",
+    "platform_color": "#D97757",
+    "title": "Anthropic 上线 Services Track 合伙人中心",
+    "url": "https://www.anthropic.com/news/services-track-partner-hub",
+    "image": "images/2026-06-04/n_2026-06-04_04.jpg",
+    "detail": [
+      "6 月 3 日，Anthropic 在 Claude Partner Network 之上新增 Services Track 与 Partner Hub 两个组件，专门服务把 Claude 落地到生产的咨询与集成商。",
+      "Services Track 为合作伙伴提供分级认证、案例库与共担激励；Partner Hub 则让企业客户直接按行业、能力、地理位置筛选合适的实施方。",
+      "这一动作明显是把 Anthropic 的企业生态从单点工具销售推向系统集成层，对应着越来越多大型客户进入 Claude 工程化部署阶段。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_03",
+    "date": "2026-06-04",
+    "category": "AI",
+    "subcat": "OpenAI",
+    "platform": "官方博客",
+    "platform_color": "#10A37F",
+    "title": "OpenAI 推出 GPT-Rosalind 新能力",
+    "url": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+    "image": "images/2026-06-04/n_2026-06-04_03.jpg",
+    "detail": [
+      "6 月 3 日晚间，OpenAI 上线 GPT-Rosalind 的新一批能力升级，这是 OpenAI 面向生命科学与分子生物学场景定制的专用模型分支。",
+      "新版本主要扩展了蛋白质 / 小分子相互作用预测、长片段基因组注释、以及与实验记录文档的双向引用能力，对接湿实验室工作流。",
+      "OpenAI 同时给出了与第三方湿实验数据库的接入示例，目标用户是制药、生物计算和学术实验室的研究团队。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_02",
+    "date": "2026-06-04",
+    "category": "AI",
+    "subcat": "Codex",
+    "platform": "官方博客",
+    "platform_color": "#10A37F",
+    "title": "Wasmer 用 Codex 重写边缘 Node.js",
+    "url": "https://openai.com/index/wasmer",
+    "image": "images/2026-06-04/n_2026-06-04_02.jpg",
+    "detail": [
+      "OpenAI 在 6 月 3 日的 Codex 案例中披露，Wasmer 团队用 Codex 端到端协同把 Node.js 移植成一个跑在边缘 WASM 沙箱里的运行时，传统人工方案预估需要数月。",
+      "案例强调 Codex 在大型 C/C++ 与 Rust 互操作代码库里的跨文件重构能力 —— 从 libuv 适配层到 V8 替代调用，几乎每一处都经过 AI 起草、人工 review 的循环。",
+      "Wasmer CEO 公开表示，Codex 让一个 4 人小团队把工程量压缩到几周内交付，是 Codex 在系统级编程场景的代表性公开背书。"
+    ]
+  },
+  {
+    "id": "n_2026-06-04_01",
+    "date": "2026-06-04",
+    "category": "AI",
+    "subcat": "Gemini",
+    "platform": "官方博客",
+    "platform_color": "#4285F4",
+    "title": "Google 发布 Gemma 4 12B：无编码器多模态",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+    "image": "images/2026-06-04/n_2026-06-04_01.jpg",
+    "detail": [
+      "6 月 3 日，Google 正式发布 Gemma 4 12B，一款无需独立视觉编码器、原生多模态架构的轻量模型，目标是把高性能多模态推理直接塞进笔记本本地运行。",
+      "新架构舍弃传统 vision encoder，把图像 token 与文本 token 在同一前向中处理，对长上下文和多图任务的延迟与显存占用都有明显改善。",
+      "权重以 Gemma 一贯的开放许可放出，开发者可通过 Hugging Face、Vertex AI 直接拉取，预期会迅速被本地推理生态(Ollama、llama.cpp、MLX)适配。"
     ]
   }
 ]
