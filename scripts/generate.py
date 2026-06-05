@@ -3,10 +3,12 @@
 """
 generate.py —— 合并今日新增数据到 archive.json
 - 读取 data/today.json（fetch_news.py 产物）
-- 与 data/archive.json 去重合并（key = url）
+- 与 data/archive.json 按 url 去重合并
+  · 同 url 时保留 detail 更长的版本（支持对历史条目内容升级）
+  · 不同 url 直接新增；老的 archive 不会丢
 - 按日期倒序回写 archive.json
 - 同时按日期切分到 data/{YYYY-MM-DD}.json
-- 不会删除老数据；老内容永远保留 → 同一聚合页面持续累积
+- detail 设有字数/段数硬门槛，过短的条目直接 invalid（参考 06-05 事故）
 
 使用：python scripts/generate.py [--dry-run]
 """
@@ -21,6 +23,10 @@ TODAY   = os.path.join(DATA_DIR, "today.json")
 
 REQUIRED_KEYS = {"id", "date", "category", "subcat", "platform",
                  "platform_color", "title", "url", "image", "detail"}
+
+# detail 质量门槛：每条新闻总字数不少于此值，段数不少于此数，否则视为不合格
+DETAIL_MIN_CHARS = 350
+DETAIL_MIN_SEGS = 3
 
 # 各 category 对应的颜色（Animal Crossing 配色 + 平台主色）
 CATEGORY_COLORS = {
@@ -93,6 +99,16 @@ def normalize_item(item):
     return out
 
 
+def detail_chars(item):
+    """计算 detail 总字数（用于 URL 重复时择优）"""
+    d = item.get("detail", [])
+    if isinstance(d, list):
+        return sum(len(x) for x in d if isinstance(x, str))
+    if isinstance(d, str):
+        return len(d)
+    return 0
+
+
 def validate(item):
     missing = REQUIRED_KEYS - set(item.keys())
     if missing:
@@ -101,28 +117,49 @@ def validate(item):
         return "detail must be non-empty list"
     if not item["url"].startswith(("http://", "https://")):
         return f"bad url: {item['url']}"
+    # 字数与段数硬门槛：防止 detail 太短（参考 06-05 事故）
+    total_chars = detail_chars(item)
+    if total_chars < DETAIL_MIN_CHARS:
+        return f"detail too short: {total_chars} chars (min {DETAIL_MIN_CHARS})"
+    if len(item["detail"]) < DETAIL_MIN_SEGS:
+        return f"detail too few segments: {len(item['detail'])} (min {DETAIL_MIN_SEGS})"
     return None
 
 
 def merge(archive, today_new):
-    """按 url 去重，老的 archive 永远不丢"""
-    existing_urls = {n["url"] for n in archive}
-    added, skipped, invalid = 0, 0, 0
+    """
+    按 url 去重合并。
+    策略：
+    - 同 url 时保留 detail 更长的版本（支持对历史条目做内容升级）
+    - 覆盖时保留原 id/date，避免日期文件错位
+    - 不同 url 直接新增
+    - 老 archive 不会丢
+    """
+    url_to_idx = {n["url"]: i for i, n in enumerate(archive)}
+    added, updated, skipped, invalid = 0, 0, 0, 0
     for raw in today_new:
-        # 字段归一化：新 schema → 旧 schema
         n = normalize_item(raw)
         err = validate(n)
         if err:
             print(f"  ✗ invalid: {n.get('title','?')[:30]} → {err}")
             invalid += 1
             continue
-        if n["url"] in existing_urls:
-            skipped += 1
+        if n["url"] in url_to_idx:
+            old = archive[url_to_idx[n["url"]]]
+            if detail_chars(n) > detail_chars(old):
+                # 覆盖式更新；保留原 id/date 防止日期切分错乱
+                n["id"] = old.get("id", n["id"])
+                n["date"] = old.get("date", n["date"])
+                archive[url_to_idx[n["url"]]] = n
+                updated += 1
+                print(f"  🔄 updated: {n['title'][:30]} ({detail_chars(old)} → {detail_chars(n)} chars)")
+            else:
+                skipped += 1
             continue
         archive.append(n)
-        existing_urls.add(n["url"])
+        url_to_idx[n["url"]] = len(archive) - 1
         added += 1
-    return archive, added, skipped, invalid
+    return archive, added, updated, skipped, invalid
 
 
 def split_by_date(archive):
@@ -148,11 +185,12 @@ def main():
         print("⚠️  today.json 为空或不存在，跳过合并")
         return 0
 
-    archive, added, skipped, invalid = merge(archive, today_new)
+    archive, added, updated, skipped, invalid = merge(archive, today_new)
     archive.sort(key=lambda x: (x["date"], x["id"]), reverse=True)
 
     print(f"\n✅ added   : {added}")
-    print(f"⏭️  skipped : {skipped} (already in archive)")
+    print(f"🔄 updated : {updated} (longer detail overwrote shorter)")
+    print(f"⏭️  skipped : {skipped} (already in archive, not longer)")
     print(f"❌ invalid : {invalid}")
     print(f"📊 total   : {len(archive)} items")
 
