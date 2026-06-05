@@ -88,7 +88,17 @@ body {
 .repo-name { font-size:17px; font-weight:900; color:var(--gh-dark); margin:0 0 4px; word-break:break-all; }
 .repo-name a { color:inherit; text-decoration:none; }
 .repo-name a:hover { color:var(--island-deep); }
-.repo-desc { font-size:13px; color:var(--island-dark); margin:0 0 8px; line-height:1.5; opacity:0.85; }
+/* 中文一句话定位 */
+.repo-tagline { display:inline-block; font-size:13px; font-weight:800; color:var(--island-deep); background:rgba(142,209,109,0.18); border:1.5px solid var(--island-green); border-radius:999px; padding:3px 12px; margin:0 0 8px; }
+/* 大白话介绍 */
+.repo-cn { font-size:14px; color:var(--island-dark); margin:0 0 8px; line-height:1.65; }
+.repo-cn b { color:var(--island-deep); }
+/* 谁会用它 */
+.repo-who { font-size:12px; color:var(--island-brown); margin:0 0 8px; line-height:1.5; background:var(--island-bg); border-radius:10px; padding:6px 10px; border:1px dashed var(--island-brown); }
+.repo-who::before { content:"👥 适合谁用："; font-weight:800; color:var(--island-deep); }
+/* 英文原描述折叠 */
+.repo-desc { font-size:12px; color:var(--island-brown); margin:0 0 8px; line-height:1.5; opacity:0.7; font-style:italic; }
+.repo-desc::before { content:"📄 原文："; font-style:normal; font-weight:700; }
 .repo-meta { display:flex; flex-wrap:wrap; gap:6px 12px; font-size:12px; color:var(--island-brown); align-items:center; }
 .meta-item { display:inline-flex; align-items:center; gap:3px; font-weight:600; }
 .lang-dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
@@ -134,7 +144,7 @@ body {
     <div class="header">
         <a href="../" class="nav-back">← 返回首页</a>
         <h1>🐙 GitHub 热榜</h1>
-        <p class="sub">每日 Top 25 开源项目 · 排名升降一目了然</p>
+        <p class="sub">每日 Top 25 开源项目 · 中文大白话解读 · 排名升降一目了然</p>
         <span class="stamp" id="dateStamp">加载中…</span>
     </div>
 
@@ -219,19 +229,29 @@ function render() {
         const realRank = ALL_REPOS.indexOf(r) + 1;
         const rcCls = r.rank_change==='NEW' ? 'new' : r.rank_change && r.rank_change.startsWith('↑') ? 'up' : r.rank_change && r.rank_change.startsWith('↓') ? 'down' : 'flat';
         const langColor = LANG_COLORS[r.language] || '#9E7453';
-        const topics = (r.topics||[]).slice(0,5).map(t=>'<span class="topic-tag">#'+t+'</span>').join('');
-        const desc = (r.description||'暂无描述').replace(/</g,'&lt;');
+        const esc = s => (s||'').replace(/</g,'&lt;');
+        // 中文话题优先，没有就用英文 topics
+        const tagSrc = (r.cn_topics && r.cn_topics.length) ? r.cn_topics : (r.topics||[]);
+        const topics = tagSrc.slice(0,5).map(t=>'<span class="topic-tag">#'+esc(t)+'</span>').join('');
+        const desc = esc(r.description||'暂无描述');
         const starsK = r.stars >= 1000 ? (r.stars/1000).toFixed(1)+'k' : r.stars;
+        // 中文大白话区块（cn_summary 可能含 <b> 强调，不转义）
+        const tagline = r.cn_tagline ? '<span class="repo-tagline">'+esc(r.cn_tagline)+'</span>' : '';
+        const cnSummary = r.cn_summary ? '<p class="repo-cn">'+r.cn_summary+'</p>' : '';
+        const cnWho = r.cn_who ? '<p class="repo-who">'+esc(r.cn_who)+'</p>' : '';
         return `<div class="repo-card" data-rank-change="${r.rank_change||''}">
             <div class="rank-badge ${realRank<=3?'top3':''}">${realRank}</div>
             <div class="repo-info">
                 <h3 class="repo-name"><a href="${r.html_url}" target="_blank">${r.repo}</a></h3>
+                ${tagline}
+                ${cnSummary}
+                ${cnWho}
                 <p class="repo-desc">${desc}</p>
                 <div class="repo-meta">
-                    ${r.language ? '<span class="meta-item"><span class="lang-dot" style="background:'+langColor+'"></span>'+r.language+'</span>' : ''}
-                    <span class="meta-item">⭐ ${starsK}</span>
-                    <span class="meta-item">🍴 ${r.forks||0}</span>
-                    ${r.license ? '<span class="meta-item">📜 '+r.license+'</span>' : ''}
+                    ${r.language ? '<span class="meta-item">💻 语言：<span class="lang-dot" style="background:'+langColor+'"></span>'+r.language+'</span>' : ''}
+                    <span class="meta-item">⭐ 累计星标 ${starsK}</span>
+                    <span class="meta-item">🍴 分支 ${r.forks||0}</span>
+                    ${r.license ? '<span class="meta-item">📜 开源协议 '+r.license+'</span>' : ''}
                 </div>
                 ${topics ? '<div class="topic-tags">'+topics+'</div>' : ''}
             </div>
