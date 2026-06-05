@@ -105,6 +105,16 @@ body {
 .topic-tags { display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
 .topic-tag { font-size:10px; background:var(--island-yellow); color:var(--island-dark); padding:2px 8px; border-radius:999px; font-weight:700; border:1px solid var(--island-brown); }
 
+/* 跳转按钮区 */
+.repo-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; padding-top:10px; border-top:1px dashed rgba(158,116,83,0.3); }
+.btn-jump { display:inline-flex; align-items:center; gap:5px; font-size:13px; font-weight:800; padding:7px 14px; border-radius:999px; border:2px solid var(--island-brown); box-shadow:0 2px 0 var(--island-brown); text-decoration:none; transition:transform .12s, box-shadow .12s; cursor:pointer; }
+.btn-jump:hover { transform:translateY(-1px); box-shadow:0 3px 0 var(--island-brown); }
+.btn-jump:active { transform:translateY(1px); box-shadow:0 1px 0 var(--island-brown); }
+.btn-jump.primary { background:var(--gh-dark); color:#fff; }
+.btn-jump.primary:hover { background:#1a1f24; }
+.btn-jump.secondary { background:#fff; color:var(--island-dark); }
+.btn-jump.secondary:hover { background:var(--island-bg); }
+
 .repo-right { display:flex; flex-direction:column; align-items:flex-end; gap:6px; min-width:80px; }
 .today-stars { font-size:18px; font-weight:900; color:var(--gh-up); white-space:nowrap; }
 .today-stars::before { content:"⭐ +"; }
@@ -254,6 +264,11 @@ function render() {
                     ${r.license ? '<span class="meta-item">📜 开源协议 '+r.license+'</span>' : ''}
                 </div>
                 ${topics ? '<div class="topic-tags">'+topics+'</div>' : ''}
+                <div class="repo-actions">
+                    <a class="btn-jump primary" href="${r.html_url}" target="_blank" rel="noopener">🐙 去 GitHub 看项目</a>
+                    <a class="btn-jump secondary" href="${r.html_url}/stargazers" target="_blank" rel="noopener">⭐ 谁在 star</a>
+                    ${r.language ? `<a class="btn-jump secondary" href="https://github.com/trending/${encodeURIComponent(r.language.toLowerCase())}?since=daily" target="_blank" rel="noopener">🔥 同语言热榜</a>` : ''}
+                </div>
             </div>
             <div class="repo-right">
                 <span class="today-stars">${r.today_stars||0}</span>
