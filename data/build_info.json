@@ -1,7 +1,6 @@
 {
-  "last_updated": "2026-06-05T06:12:47.384184Z",
+  "last_updated": "2026-06-05T06:19:45.114721Z",
   "total_items": 83,
   "total_dates": 11,
-  "latest_date": "2026-06-05",
-  "trigger": "redeploy-for-github-channel-buttons"
+  "latest_date": "2026-06-05"
 }
