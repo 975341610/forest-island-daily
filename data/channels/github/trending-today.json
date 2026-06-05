@@ -35,7 +35,16 @@
       "pushed_at": "2026-06-05T04:55:23Z",
       "license": "MIT",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "会成长的 AI 助手",
+      "cn_summary": "一个能<b>陪你一起进步</b>的 AI 智能体。它不只是回答问题，还会记住你的使用习惯、慢慢变得更懂你，能帮你处理写代码、查资料、自动完成任务等各种活儿。",
+      "cn_who": "想要一个越用越顺手的全能 AI 帮手的人",
+      "cn_topics": [
+        "AI智能体",
+        "Claude",
+        "ChatGPT",
+        "开源助手"
+      ]
     },
     {
       "repo": "farion1231/cc-switch",
@@ -73,7 +82,16 @@
       "pushed_at": "2026-06-05T00:12:17Z",
       "license": "MIT",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "AI 编程工具一键切换器",
+      "cn_summary": "一个电脑桌面小工具，把 <b>Claude Code、Codex、Gemini 等多个 AI 编程助手集中到一个面板</b>里。你不用来回开好几个软件，在这里就能一键切换、统一管理，省去配置的麻烦。",
+      "cn_who": "同时用了好几款 AI 写代码工具的开发者",
+      "cn_topics": [
+        "AI工具",
+        "桌面应用",
+        "Claude",
+        "效率工具"
+      ]
     },
     {
       "repo": "HKUDS/Vibe-Trading",
@@ -101,7 +119,16 @@
       "pushed_at": "2026-06-04T15:40:08Z",
       "license": "MIT",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "AI 个人炒股助手",
+      "cn_summary": "香港大学团队做的<b>个人智能炒股代理</b>。你把交易想法告诉它，AI 会自动帮你分析行情、回测策略（用历史数据验证靠不靠谱），甚至执行交易，相当于一个 24 小时盯盘的量化助手。",
+      "cn_who": "对量化交易、用 AI 辅助投资感兴趣的人",
+      "cn_topics": [
+        "AI智能体",
+        "量化交易",
+        "金融科技",
+        "策略回测"
+      ]
     },
     {
       "repo": "jwasham/coding-interview-university",
@@ -131,7 +158,16 @@
       "pushed_at": "2025-08-28T14:42:47Z",
       "license": "CC-BY-SA-4.0",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "程序员面试自学路线图",
+      "cn_summary": "一份<b>从零成为软件工程师的完整学习计划</b>，34 万人收藏的超火教程。把算法、数据结构、计算机基础等面试必考内容整理成一条清晰的学习路线，照着学就能准备大厂技术面试。",
+      "cn_who": "想转行做程序员、或准备技术面试的人",
+      "cn_topics": [
+        "编程面试",
+        "算法",
+        "数据结构",
+        "计算机基础"
+      ]
     },
     {
       "repo": "Open-LLM-VTuber/Open-LLM-VTuber",
@@ -159,7 +195,16 @@
       "pushed_at": "2026-05-15T07:18:04Z",
       "license": "NOASSERTION",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "AI 虚拟主播伴侣",
+      "cn_summary": "一个能<b>语音聊天的 AI 虚拟形象（VTuber）</b>。它有 Live2D 动态二次元立绘，你直接说话它就能听懂并回应，还能随时打断对话，全程在本地运行不上传数据，像养了个会说话的纸片人陪伴。",
+      "cn_who": "喜欢二次元、想要 AI 语音陪伴的人",
+      "cn_topics": [
+        "AI伴侣",
+        "虚拟主播",
+        "二次元",
+        "语音交互"
+      ]
     },
     {
       "repo": "supermemoryai/supermemory",
@@ -189,7 +234,16 @@
       "pushed_at": "2026-06-05T04:29:28Z",
       "license": "MIT",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "AI 的超级记忆库",
+      "cn_summary": "给 AI 用的<b>记忆引擎</b>，速度极快、能存海量信息。它解决了 AI「聊完就忘」的痛点，让应用记住用户说过的话、看过的内容，是 AI 时代的「记忆 API」。",
+      "cn_who": "想让自己开发的 AI 应用拥有长期记忆的开发者",
+      "cn_topics": [
+        "AI记忆",
+        "智能体记忆",
+        "数据存储",
+        "云服务"
+      ]
     },
     {
       "repo": "datawhalechina/hello-agents",
@@ -211,7 +265,16 @@
       "pushed_at": "2026-06-04T09:21:17Z",
       "license": "NOASSERTION",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "AI 智能体入门教程",
+      "cn_summary": "国内 Datawhale 团队出的<b>《从零开始构建智能体》中文教程</b>。手把手讲清楚 AI 智能体的原理和动手实践，从最基础讲起，配合代码示例，适合中文读者系统入门 AI Agent 开发。",
+      "cn_who": "想学习 AI 智能体开发的中文初学者",
+      "cn_topics": [
+        "智能体",
+        "大模型",
+        "中文教程",
+        "RAG"
+      ]
     },
     {
       "repo": "pbakaus/impeccable",
@@ -228,7 +291,16 @@
       "pushed_at": "2026-06-03T14:03:54Z",
       "license": "Apache-2.0",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "让 AI 更会做设计",
+      "cn_summary": "一套<b>专门提升 AI 设计能力的「设计语言」规范</b>。把好看的设计原则总结成 AI 能理解的规则，喂给 AI 后，它生成的界面、页面会更美观、更专业，告别「一眼假」的 AI 设计感。",
+      "cn_who": "用 AI 生成网页/界面但嫌不够好看的人",
+      "cn_topics": [
+        "AI设计",
+        "设计规范",
+        "前端",
+        "界面美化"
+      ]
     },
     {
       "repo": "fathah/hermes-desktop",
@@ -245,7 +317,16 @@
       "pushed_at": "2026-06-05T03:03:46Z",
       "license": "MIT",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "Hermes 智能体桌面版",
+      "cn_summary": "Hermes Agent 的<b>电脑桌面客户端</b>。把原本要在命令行里操作的 AI 智能体，做成了带界面的桌面软件，普通人不用敲命令也能方便地使用 Hermes 的各种 AI 能力。",
+      "cn_who": "想用图形界面操作 AI 智能体的非技术用户",
+      "cn_topics": [
+        "桌面应用",
+        "AI智能体",
+        "客户端",
+        "Hermes"
+      ]
     },
     {
       "repo": "openai/codex",
@@ -262,7 +343,16 @@
       "pushed_at": "2026-06-05T04:59:37Z",
       "license": "Apache-2.0",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "OpenAI 命令行编程助手",
+      "cn_summary": "OpenAI 官方出的<b>轻量级 AI 编程助手</b>，直接跑在你的电脑终端（命令行）里。你用自然语言说想做什么，它就帮你写代码、改文件、跑程序，是很多人日常写代码的得力帮手。",
+      "cn_who": "习惯用命令行、想让 AI 帮忙写代码的开发者",
+      "cn_topics": [
+        "AI编程",
+        "命令行工具",
+        "OpenAI",
+        "编程助手"
+      ]
     },
     {
       "repo": "odoo/odoo",
@@ -287,7 +377,16 @@
       "pushed_at": "2026-06-05T04:46:43Z",
       "license": "NOASSERTION",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "开源企业管理系统",
+      "cn_summary": "一套<b>免费开源的企业管理软件（ERP）</b>，覆盖进销存、财务、CRM、电商、人事等公司经营的方方面面。中小企业不用花大钱买商业软件，用它就能搭建一整套数字化管理系统。",
+      "cn_who": "想低成本搭建企业管理系统的公司和创业者",
+      "cn_topics": [
+        "企业ERP",
+        "经营管理",
+        "开源应用",
+        "商业软件"
+      ]
     },
     {
       "repo": "github/spec-kit",
@@ -312,7 +411,16 @@
       "pushed_at": "2026-06-04T21:53:43Z",
       "license": "MIT",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "规范驱动开发工具包",
+      "cn_summary": "GitHub 官方出的<b>「先写规范再写代码」开发工具包</b>。让你先把需求和设计文档（PRD/Spec）讲清楚，再让 AI 按规范生成代码，避免 AI 瞎写、跑偏，让 AI 编程更可控、更靠谱。",
+      "cn_who": "想用 AI 写代码但希望结果更规范可控的团队",
+      "cn_topics": [
+        "AI开发",
+        "规范驱动",
+        "需求文档",
+        "Copilot"
+      ]
     },
     {
       "repo": "reconurge/flowsint",
@@ -334,7 +442,16 @@
       "pushed_at": "2026-06-04T16:25:16Z",
       "license": "Apache-2.0",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "可视化网络调查平台",
+      "cn_summary": "一个给<b>网络安全分析师做情报调查（OSINT）的可视化平台</b>。把零散的线索、人物、关系用图谱的方式连起来，像侦探破案的关系网一样直观，帮助追踪和分析网络威胁。",
+      "cn_who": "网络安全分析师和情报调查人员",
+      "cn_topics": [
+        "网络安全",
+        "情报调查",
+        "关系图谱",
+        "OSINT"
+      ]
     },
     {
       "repo": "Fission-AI/OpenSpec",
@@ -362,7 +479,16 @@
       "pushed_at": "2026-06-03T09:36:11Z",
       "license": "MIT",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "AI 编程的规范管理",
+      "cn_summary": "为 AI 编程助手设计的<b>「规范驱动开发」工具</b>。先把要做的功能写成清晰的规范说明，AI 再照着规范来开发，让 Claude、Cursor 这类 AI 助手少犯错、产出更符合预期。",
+      "cn_who": "用 AI 助手开发、追求结果可预期的开发者",
+      "cn_topics": [
+        "AI编程",
+        "规范驱动",
+        "需求规划",
+        "上下文工程"
+      ]
     },
     {
       "repo": "aquasecurity/trivy",
@@ -395,7 +521,16 @@
       "pushed_at": "2026-06-04T14:50:08Z",
       "license": "Apache-2.0",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "开源安全漏洞扫描器",
+      "cn_summary": "一款<b>给软件和服务器找安全漏洞的扫描工具</b>。能检查容器、Kubernetes、代码仓库、云环境里有没有漏洞、配置错误或泄露的密码，是程序员和运维守护系统安全的常备武器。",
+      "cn_who": "关心系统安全的开发者和运维工程师",
+      "cn_topics": [
+        "安全扫描",
+        "漏洞检测",
+        "容器安全",
+        "DevSecOps"
+      ]
     },
     {
       "repo": "lfnovo/open-notebook",
@@ -419,7 +554,16 @@
       "pushed_at": "2026-06-04T17:07:02Z",
       "license": "MIT",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "开源版谷歌笔记 NotebookLM",
+      "cn_summary": "谷歌 NotebookLM 的<b>开源替代品</b>，而且功能更灵活。你把资料、文档丢进去，AI 帮你做笔记、总结、问答，甚至生成播客。想用 AI 整理知识又担心隐私的人可以自己部署。",
+      "cn_who": "想用 AI 整理学习资料、又在意数据隐私的人",
+      "cn_topics": [
+        "AI笔记",
+        "知识整理",
+        "学习助手",
+        "开源"
+      ]
     },
     {
       "repo": "cyberpapiii/chipotlai-max",
@@ -436,7 +580,16 @@
       "pushed_at": "2026-06-03T18:29:23Z",
       "license": "NOASSERTION",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "玩梗版 AI 编程助手",
+      "cn_summary": "一个<b>带恶搞性质的 AI 编程助手</b>，基于开源项目 OpenCode 魔改而来。项目描述拿快餐品牌玩梗（号称蹭 Chipotle 的算力），本质是个社区驱动、可接入多种模型的开源编程 Agent。",
+      "cn_who": "喜欢折腾、看热闹的开源开发者",
+      "cn_topics": [
+        "AI编程",
+        "开源恶搞",
+        "社区项目",
+        "编程助手"
+      ]
     },
     {
       "repo": "mvanhorn/last30days-skill",
@@ -474,7 +627,16 @@
       "pushed_at": "2026-06-01T14:41:33Z",
       "license": "MIT",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "全网热点调研技能",
+      "cn_summary": "一个 AI 技能插件，能<b>自动扒遍 Reddit、X、YouTube、HackerNews 等全网平台</b>调研任意话题，再综合成一份有理有据的总结报告。想快速了解某个话题最近 30 天发生了啥，交给它就行。",
+      "cn_who": "需要快速做话题调研、追热点的人",
+      "cn_topics": [
+        "AI技能",
+        "深度调研",
+        "热点追踪",
+        "Claude"
+      ]
     },
     {
       "repo": "langgenius/dify",
@@ -512,7 +674,16 @@
       "pushed_at": "2026-06-05T04:44:43Z",
       "license": "NOASSERTION",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "可视化 AI 应用开发平台",
+      "cn_summary": "国内团队做的<b>明星级 AI 应用开发平台</b>，14 万星标。不用写多少代码，靠拖拽就能搭建 AI 工作流、智能体、聊天机器人，企业拿来快速落地自己的 AI 产品非常方便。",
+      "cn_who": "想快速搭建 AI 应用的企业和开发者",
+      "cn_topics": [
+        "AI平台",
+        "智能体",
+        "工作流",
+        "低代码"
+      ]
     },
     {
       "repo": "zarazhangrui/frontend-slides",
@@ -540,7 +711,16 @@
       "pushed_at": "2026-05-26T18:17:56Z",
       "license": "MIT",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "AI 网页幻灯片生成",
+      "cn_summary": "借助 AI 编程助手的前端能力，<b>在网页上直接生成漂亮的幻灯片（PPT）</b>。你描述想要的内容，AI 就帮你做出美观的演示页面，省去自己排版调样式的功夫。",
+      "cn_who": "想快速做出好看 PPT 的人",
+      "cn_topics": [
+        "AI幻灯片",
+        "演示文稿",
+        "前端",
+        "Claude技能"
+      ]
     },
     {
       "repo": "ollama/ollama",
@@ -573,7 +753,16 @@
       "pushed_at": "2026-06-05T00:51:21Z",
       "license": "MIT",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "本地跑大模型神器",
+      "cn_summary": "一款<b>在自己电脑上运行各种 AI 大模型的工具</b>，17 万星标爆款。支持 DeepSeek、Qwen、Llama、Gemma 等主流模型，一行命令就能下载运行，数据全在本地不外传，隐私又免费。",
+      "cn_who": "想免费、私密地在本地用大模型的人",
+      "cn_topics": [
+        "本地大模型",
+        "DeepSeek",
+        "Llama",
+        "离线AI"
+      ]
     },
     {
       "repo": "PaddlePaddle/PaddleOCR",
@@ -604,7 +793,16 @@
       "pushed_at": "2026-06-04T18:21:43Z",
       "license": "Apache-2.0",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "百度开源 OCR 文字识别",
+      "cn_summary": "百度飞桨出的<b>强大文字识别（OCR）工具包</b>。能把 PDF、图片里的文字提取成结构化数据，支持 100 多种语言、中文识别尤其好，常用来把扫描件、票据、文档变成可编辑的内容喂给 AI。",
+      "cn_who": "需要批量提取图片/PDF 文字的开发者和企业",
+      "cn_topics": [
+        "文字识别",
+        "OCR",
+        "文档解析",
+        "中文识别"
+      ]
     },
     {
       "repo": "EvoMap/evolver",
@@ -642,7 +840,16 @@
       "pushed_at": "2026-06-03T18:04:12Z",
       "license": "GPL-3.0",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "AI 智能体自我进化引擎",
+      "cn_summary": "一个能让<b>AI 智能体「自我进化」的引擎</b>。它用类似基因（Genes）、胶囊（Capsules）的机制让智能体不断自我改进，而且整个进化过程可追溯、可审计，让 AI 越变越强又不失控。",
+      "cn_who": "研究 AI 智能体自主进化的开发者和研究者",
+      "cn_topics": [
+        "AI智能体",
+        "自我进化",
+        "智能体框架",
+        "可审计AI"
+      ]
     },
     {
       "repo": "aaif-goose/goose",
@@ -664,7 +871,16 @@
       "pushed_at": "2026-06-05T04:59:06Z",
       "license": "Apache-2.0",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "能动手干活的 AI 智能体",
+      "cn_summary": "一个开源、可扩展的 <b>AI 智能体，不光给代码建议，还能真正动手干活</b>——帮你安装软件、执行命令、改代码、跑测试，而且支持接入任意大模型。相当于一个能自己操作电脑的 AI 工程师。",
+      "cn_who": "想要 AI 自动执行开发任务的工程师",
+      "cn_topics": [
+        "AI智能体",
+        "自动执行",
+        "开源",
+        "MCP"
+      ]
     },
     {
       "repo": "AIDC-AI/Pixelle-Video",
@@ -687,7 +903,16 @@
       "pushed_at": "2026-06-03T16:14:16Z",
       "license": "Apache-2.0",
       "rank_change": "NEW",
-      "prev_rank": null
+      "prev_rank": null,
+      "cn_tagline": "AI 全自动短视频引擎",
+      "cn_summary": "阿里出的<b>AI 全自动短视频生成引擎</b>。输入想法，它能自动完成画面生成、配音（TTS）、视频合成等全流程，一键产出短视频，大大降低做视频的门槛和成本。",
+      "cn_who": "想用 AI 批量生产短视频的创作者和团队",
+      "cn_topics": [
+        "AI视频",
+        "短视频生成",
+        "AIGC",
+        "自动化创作"
+      ]
     }
   ]
 }
