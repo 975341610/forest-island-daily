@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#19c8b9">
+<title>社区频道 · 森林小岛</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+    --primary:        #19c8b9;
+    --primary-hover:  #3dd4c6;
+    --primary-active: #11a89b;
+    --primary-bg:     #e6f9f6;
+    --text:           #794f27;
+    --text-body:      #725d42;
+    --text-secondary: #9f927d;
+    --text-muted:     #8a7b66;
+    --text-disabled:  #c4b89e;
+    --bg:             #f8f8f0;
+    --bg-content:     rgb(247, 243, 223);
+    --border:         #c4b89e;
+    --border-hover:   #a89878;
+    --shadow-btn:     #bdaea0;
+    --shadow-input:   #d4c9b4;
+    --focus-yellow:   #ffcc00;
+    --success:        #6fba2c;
+    --warning:        #f5c31c;
+    --error:          #e05a5a;
+    --radius-sm:      12px;
+    --radius:         18px;
+    --radius-lg:      24px;
+    --radius-pill:    50px;
+    --ease:           cubic-bezier(0.4, 0, 0.2, 1);
+    --shadow-soft:    0 3px 10px 0 rgba(61,52,40,0.10);
+    --shadow-card:    0 8px 24px 0 rgba(61,52,40,0.12);
+    --font:           Nunito, 'Noto Sans SC', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    --ac-pink:#f8a6b2; --ac-purple:#b77dee; --ac-blue:#889df0; --ac-yellow:#f7cd67;
+    --ac-orange:#e59266; --ac-teal:#82d5bb; --ac-green:#8ac68a; --ac-red:#fc736d;
+    --ac-lime:#d1da49; --ac-brown:#9a835a; --ac-peach:#e18c6f;
+}
+* { box-sizing: border-box; }
+body {
+    margin:0; padding:0;
+    font-family: var(--font);
+    font-weight:500;
+    background: var(--bg);
+    background-image:
+        radial-gradient(circle at 12% 10%, rgba(248,166,178,0.16) 0, transparent 26%),
+        radial-gradient(circle at 88% 16%, rgba(183,125,238,0.12) 0, transparent 24%),
+        radial-gradient(circle at 50% 96%, rgba(130,213,187,0.16) 0, transparent 30%);
+    color: var(--text-body); line-height:1.7; min-height:100vh;
+    letter-spacing:0.01em;
+}
+.app { max-width:1180px; margin:0 auto; padding:18px 16px 90px; }
+
+/* ===== Hero 海岛横幅 ===== */
+.hero {
+    position:relative; overflow:hidden;
+    border:2px solid var(--border); border-radius:var(--radius-lg);
+    box-shadow:var(--shadow-card); margin-bottom:18px;
+    background:#f3e3ea;
+    aspect-ratio: 1600 / 540;
+}
+.hero img.hero-bg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.hero::after { content:""; position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(255,252,244,0) 30%, rgba(94,74,62,0.32) 100%); }
+.hero-overlay { position:absolute; left:0; right:0; bottom:0; z-index:2; padding:22px 26px 24px; color:#fff; text-align:center; }
+.hero-mascot { position:absolute; right:18px; top:14px; z-index:3; width:108px; height:108px;
+    border-radius:50%; border:3px solid #fff; object-fit:cover;
+    box-shadow:0 6px 16px rgba(61,52,40,0.28); background:var(--bg-content); }
+.nav-back { position:absolute; left:16px; top:14px; z-index:3;
+    background:var(--bg-content); color:var(--text-body);
+    border:2px solid var(--border); border-radius:var(--radius-pill);
+    padding:6px 16px; font-size:13px; font-weight:700; text-decoration:none;
+    box-shadow:var(--shadow-soft); transition:all 0.25s var(--ease); }
+.nav-back:hover { transform:translateY(-1px); color:var(--primary); border-color:var(--primary); }
+.hero-kicker { display:inline-block; background:var(--ac-pink); color:var(--text-body);
+    font-weight:800; font-size:12px; letter-spacing:2px; padding:4px 16px;
+    border-radius:var(--radius-pill); border:2px solid #e0808f; margin-bottom:10px; }
+.hero h1 { margin:0 0 6px; font-size:40px; font-weight:900; letter-spacing:1px;
+    color:#FFF9E6; text-shadow:0 3px 1px rgba(61,52,40,0.45); }
+.hero .sub { margin:0 auto; font-size:14.5px; font-weight:600; max-width:560px;
+    color:#fffdf6; text-shadow:0 1px 2px rgba(61,52,40,0.4); }
+.hero .stamp { display:inline-block; margin-top:12px; padding:5px 18px;
+    background:var(--bg-content); color:var(--text-body); border-radius:var(--radius-pill);
+    font-size:13px; font-weight:800; border:2px solid var(--border); box-shadow:var(--shadow-soft); }
+
+/* ===== 吸顶锚点导航 (Tabs 风) ===== */
+.anchor-nav { position:sticky; top:0; z-index:20;
+    display:flex; gap:4px; justify-content:center; flex-wrap:wrap;
+    padding:10px; margin:0 -16px 24px;
+    background:rgba(248,248,240,0.9); backdrop-filter:blur(8px);
+    border-bottom:2px dashed rgba(196,184,158,0.5); }
+.anchor-nav a { background:transparent; border:none; border-radius:var(--radius-pill);
+    padding:8px 20px; font-size:14px; font-weight:600; color:var(--text-muted);
+    text-decoration:none; transition:all 0.2s ease; display:inline-flex; align-items:center; gap:6px; }
+.anchor-nav a:hover { background:rgba(25,200,185,0.1); color:var(--text-body); }
+.anchor-nav a.active { background:#0CC0B5; color:#FFF9E3; font-weight:700; box-shadow:0 3px 0 0 var(--shadow-input); }
+
+/* ===== 飘带式分区标题 ===== */
+.board { margin:34px 0 22px; display:flex; justify-content:center; }
+.ribbon { position:relative; display:inline-flex; align-items:center; justify-content:center;
+    height:2em; padding:0 1.8em; font-size:24px; font-weight:900; line-height:1;
+    color:var(--rt,#fff); letter-spacing:0.04em;
+    filter:drop-shadow(0 0.08em 0.12em rgba(0,0,0,0.06)); }
+.ribbon .rb-front { position:absolute; inset:0 0.1em; border-radius:0.2em; z-index:2;
+    background:var(--rf,#27d039); transform:perspective(11.5em) rotateX(3deg);
+    box-shadow:inset 0 -0.06em 0 rgba(0,0,0,0.06); }
+.ribbon .rb-tail { position:absolute; width:1.7em; height:1.7em; bottom:-0.36em; z-index:1; background:var(--rb,#20992a); }
+.ribbon .rb-tail.l { left:-0.6em; clip-path:polygon(100% 0%,100% 100%,0% 100%,30% 50%,0% 0%); }
+.ribbon .rb-tail.r { right:-0.6em; clip-path:polygon(0% 0%,100% 0%,70% 50%,100% 100%,0% 100%); }
+.ribbon .rb-fold { position:absolute; width:0; height:0; top:calc(100% - 0.06em); z-index:0; }
+.ribbon .rb-fold.l { left:0.2em; border-style:solid; border-width:0 0.95em 0.45em 0; border-color:transparent var(--rk,#115017) transparent transparent; }
+.ribbon .rb-fold.r { right:0.2em; border-style:solid; border-width:0 0 0.45em 0.95em; border-color:transparent transparent transparent var(--rk,#115017); }
+.ribbon .rb-text { position:relative; z-index:3; padding-top:0.11em; display:inline-flex; align-items:center; gap:0.4em; }
+.ribbon .rb-ico { width:1.5em; height:1.5em; border-radius:0.4em; object-fit:cover; vertical-align:middle;
+    border:2px solid rgba(255,255,255,0.6); }
+.ribbon .rb-count { font-size:0.55em; font-weight:800; padding:0.15em 0.7em; border-radius:var(--radius-pill);
+    background:rgba(255,255,255,0.85); color:var(--text-body); margin-left:0.3em; }
+.ribbon.c-green  { --rf:#2bbf86; --rb:#1f9a6b; --rk:#0f6347; --rt:#fff; }
+.ribbon.c-yellow { --rf:#f7cd67; --rb:#d4a030; --rk:#8a6010; --rt:#725d42; }
+.ribbon.c-blue   { --rf:#889df0; --rb:#5f78d8; --rk:#2f449a; --rt:#fff; }
+.ribbon.c-pink   { --rf:#f8a6b2; --rb:#e07f8e; --rk:#a23b4c; --rt:#fff; }
+
+/* ===== 今日热帖 瀑布卡片 (波点墙纸) ===== */
+.post-mag { columns:3; column-gap:18px; }
+.post-card { break-inside:avoid; margin-bottom:18px; position:relative; overflow:hidden;
+    border-radius:var(--radius); padding:18px 20px;
+    background:
+        radial-gradient(circle, rgba(248,166,178,0.16) 1.5px, transparent 1.5px) 0 0/28px 28px,
+        radial-gradient(circle, rgba(248,166,178,0.10) 1px, transparent 1px) 7px 7px/14px 14px,
+        #fdf4f6;
+    border:1.5px solid #f3ccd2;
+    transition:transform 0.3s var(--ease), box-shadow 0.3s var(--ease); }
+.post-card:hover { transform:translateY(-2px); box-shadow:var(--shadow-card); }
+.post-head { display:flex; align-items:center; gap:8px; margin:0 0 9px; }
+.plat-chip { display:inline-block; font-size:11px; font-weight:800; color:#fff;
+    border-radius:var(--radius-pill); padding:3px 13px; }
+.post-tag { font-size:11px; font-weight:700; color:var(--text-secondary);
+    background:var(--bg); border:1.5px solid var(--border); border-radius:var(--radius-pill); padding:2px 11px; margin-left:auto; }
+.post-title { font-size:16px; font-weight:800; color:var(--text); margin:0 0 5px; line-height:1.35; }
+.post-author { font-size:12.5px; font-weight:700; color:var(--primary-active); margin:0 0 8px; }
+.post-summary { font-size:13.5px; color:var(--text-body); line-height:1.62; margin:0 0 12px; }
+.post-foot { display:flex; align-items:center; gap:8px; padding-top:10px;
+    border-top:1.5px dashed rgba(196,184,158,0.55); }
+.post-heat { font-size:12px; color:var(--ac-red); font-weight:800; }
+.btn-src { margin-left:auto; display:inline-flex; align-items:center; gap:4px;
+    font-size:12px; font-weight:700; padding:6px 14px; border-radius:var(--radius-pill);
+    text-decoration:none; background:var(--bg); color:var(--text);
+    border:2px solid var(--bg); box-shadow:0 4px 0 0 var(--shadow-btn);
+    transition:all 0.25s var(--ease); white-space:nowrap; }
+.btn-src:hover { transform:translateY(-1px); box-shadow:0 5px 0 0 var(--shadow-btn); color:var(--primary-active); }
+.btn-src:active { transform:translateY(2px); box-shadow:0 1px 0 0 var(--shadow-btn); }
+
+/* ===== 热门话题 ===== */
+.topic-list { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }
+.topic-card { position:relative; overflow:hidden; background:var(--bg-content);
+    border:2px solid var(--border); border-radius:var(--radius);
+    padding:16px 18px; transition:transform 0.3s var(--ease), box-shadow 0.3s var(--ease); }
+.topic-card:hover { transform:translateY(-2px); box-shadow:var(--shadow-soft); }
+.topic-name { font-size:17px; font-weight:900; color:var(--primary-active); margin:0 0 5px; line-height:1.3; }
+.topic-meta { display:flex; align-items:center; gap:8px; margin:0 0 8px; flex-wrap:wrap; }
+.topic-plat { font-size:11px; font-weight:700; color:var(--text-secondary);
+    background:var(--bg); border:1.5px solid var(--border); border-radius:var(--radius-pill); padding:2px 11px; }
+.topic-heat { font-size:12px; font-weight:800; color:var(--ac-red); }
+.topic-summary { font-size:13px; color:var(--text-body); line-height:1.58; margin:0 0 8px; }
+.topic-link { font-size:12px; font-weight:800; color:var(--primary-active); text-decoration:none; }
+.topic-link:hover { text-decoration:underline; }
+
+/* ===== 优质创作者 ===== */
+.creator-list { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }
+.creator-card { display:flex; gap:13px; align-items:flex-start; background:var(--bg-content);
+    border:2px solid var(--border); border-radius:var(--radius);
+    padding:15px 17px; transition:transform 0.3s var(--ease), box-shadow 0.3s var(--ease); }
+.creator-card:hover { transform:translateY(-2px); box-shadow:var(--shadow-soft); }
+.creator-badge { flex:0 0 auto; width:48px; height:48px; border-radius:16px;
+    display:flex; align-items:center; justify-content:center;
+    font-size:20px; font-weight:900; color:#fff; letter-spacing:0;
+    border:2px solid rgba(255,255,255,0.65); box-shadow:0 3px 0 0 rgba(61,52,40,0.12); }
+.creator-main { flex:1; min-width:0; }
+.creator-name { font-size:14.5px; font-weight:900; color:var(--text); margin:0 0 2px; }
+.creator-meta { display:flex; gap:6px; flex-wrap:wrap; margin:0 0 6px; }
+.creator-plat { font-size:11px; font-weight:700; color:var(--text-secondary);
+    background:var(--bg); border:1.5px solid var(--border); border-radius:var(--radius-pill); padding:1px 10px; }
+.creator-field { font-size:11px; font-weight:700; color:#9a7b2e;
+    background:#fdf5dd; border:1.5px solid #ecd99a; border-radius:var(--radius-pill); padding:1px 10px; }
+.creator-summary { font-size:12.5px; color:var(--text-body); line-height:1.55; margin:0 0 8px; }
+.creator-foot { display:flex; align-items:center; gap:8px; }
+.creator-fans { font-size:11.5px; color:var(--text-secondary); font-weight:700; }
+.creator-link { margin-left:auto; font-size:12px; font-weight:800; color:var(--primary-active); text-decoration:none; }
+.creator-link:hover { text-decoration:underline; }
+
+.footer { text-align:center; margin-top:38px; padding:20px; color:var(--text-secondary); font-size:12.5px; }
+.footer a { color:var(--primary-active); text-decoration:none; font-weight:700; }
+.loading { text-align:center; padding:50px 20px; color:var(--text-secondary); font-size:14px; }
+
+@media (max-width:900px) { .post-mag { columns:2; } }
+@media (max-width:640px) {
+    .hero h1 { font-size:28px; }
+    .hero-mascot { width:72px; height:72px; }
+    .post-mag { columns:1; }
+    .topic-list { grid-template-columns:1fr; }
+    .creator-list { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+
+    <!-- Hero 海岛横幅 -->
+    <header class="hero">
+        <img class="hero-bg" src="assets/hero-banner.jpg" alt="森林小岛社区">
+        <a href="../" class="nav-back">← 返回首页</a>
+        <img class="hero-mascot" src="assets/mascot.jpg" alt="小岛社区伙伴">
+        <div class="hero-overlay">
+            <span class="hero-kicker">FOREST ISLAND · COMMUNITY</span>
+            <h1>社区频道</h1>
+            <p class="sub">今日热帖 · 热门话题 · 优质创作者 —— 一页看全科技数码圈在聊什么</p>
+            <span class="stamp" id="dateStamp">加载中…</span>
+        </div>
+    </header>
+
+    <!-- 吸顶锚点导航 -->
+    <nav class="anchor-nav" id="anchorNav">
+        <a href="#sec-posts" class="active">今日热帖</a>
+        <a href="#sec-topics">热门话题</a>
+        <a href="#sec-creators">优质创作者</a>
+    </nav>
+
+    <!-- 今日热帖 -->
+    <section id="sec-posts">
+        <div class="board">
+            <div class="ribbon c-pink">
+                <span class="rb-tail l"></span><span class="rb-tail r"></span>
+                <span class="rb-fold l"></span><span class="rb-fold r"></span>
+                <span class="rb-front"></span>
+                <span class="rb-text"><img class="rb-ico" src="assets/ico-hot.jpg" alt="">今日社区热帖<span class="rb-count" id="cntPost">0</span></span>
+            </div>
+        </div>
+        <div class="post-mag" id="postList"><div class="loading">加载中…</div></div>
+    </section>
+
+    <!-- 热门话题 -->
+    <section id="sec-topics">
+        <div class="board">
+            <div class="ribbon c-green">
+                <span class="rb-tail l"></span><span class="rb-tail r"></span>
+                <span class="rb-fold l"></span><span class="rb-fold r"></span>
+                <span class="rb-front"></span>
+                <span class="rb-text"><img class="rb-ico" src="assets/ico-topic.jpg" alt="">今日热门话题<span class="rb-count" id="cntTopic">0</span></span>
+            </div>
+        </div>
+        <div class="topic-list" id="topicList"><div class="loading">加载中…</div></div>
+    </section>
+
+    <!-- 优质创作者 -->
+    <section id="sec-creators">
+        <div class="board">
+            <div class="ribbon c-blue">
+                <span class="rb-tail l"></span><span class="rb-tail r"></span>
+                <span class="rb-fold l"></span><span class="rb-fold r"></span>
+                <span class="rb-front"></span>
+                <span class="rb-text">值得关注的创作者<span class="rb-count" id="cntCreator">0</span></span>
+            </div>
+        </div>
+        <div class="creator-list" id="creatorList"><div class="loading">加载中…</div></div>
+    </section>
+
+    <div class="footer">
+        <p>数据来源: 小红书 · 抖音 · B站 · 微博 · 知乎 等中文社区 · 每日更新</p>
+        <p><a href="../">← 返回森林小岛日报首页</a></p>
+    </div>
+</div>
+
+<script>
+// 平台 → NookPhone 调色板
+const PLAT_COLOR = {
+    '小红书':'#fc736d','抖音':'#794f27','B站':'#889df0','哔哩哔哩':'#889df0',
+    '微博':'#e59266','知乎':'#82d5bb','公众号':'#8ac68a','YouTube':'#fc736d','X':'#794f27'
+};
+let DATA = null;
+
+function esc(s){ return (s||'').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+function platColor(name){
+    for(const k in PLAT_COLOR){ if((name||'').indexOf(k)>=0) return PLAT_COLOR[k]; }
+    return '#82d5bb';
+}
+function platMain(name){
+    // 取主平台第一个用于徽章配色
+    const f=(name||'').split(/[\s\/]/)[0].trim();
+    return f;
+}
+function nameInitial(name){
+    const cn=(name||'').replace(/[\s\/(（].*$/,'').trim();
+    return cn.charAt(0) || '岛';
+}
+
+async function load(){
+    try {
+        const r = await fetch('../data/channels/community/community-today.json?t='+Date.now());
+        if(!r.ok) throw new Error('fetch fail');
+        DATA = await r.json();
+        document.getElementById('dateStamp').textContent = DATA.date;
+        renderPosts(); renderTopics(); renderCreators();
+    } catch(e){
+        document.getElementById('postList').innerHTML = '<div class="loading">加载失败: '+e.message+'</div>';
+    }
+}
+
+function renderPosts(){
+    const list=(DATA.hot_posts||[]); document.getElementById('cntPost').textContent=list.length;
+    document.getElementById('postList').innerHTML = list.map(p=>`<div class="post-card">
+        <div class="post-head">
+            <span class="plat-chip" style="background:${platColor(p.platform)}">${esc(p.platform)}</span>
+            ${p.tag?'<span class="post-tag">#'+esc(p.tag)+'</span>':''}
+        </div>
+        <h3 class="post-title">${esc(p.title)}</h3>
+        <p class="post-author">@${esc(p.author)}</p>
+        <p class="post-summary">${esc(p.summary)}</p>
+        <div class="post-foot">
+            <span class="post-heat">${esc(p.heat)}</span>
+            ${p.url?'<a class="btn-src" href="'+p.url+'" target="_blank" rel="noopener">看原帖 →</a>':''}
+        </div>
+    </div>`).join('');
+}
+
+function renderTopics(){
+    const list=(DATA.topics||[]); document.getElementById('cntTopic').textContent=list.length;
+    document.getElementById('topicList').innerHTML = list.map(t=>`<div class="topic-card">
+        <h3 class="topic-name">${esc(t.name)}</h3>
+        <div class="topic-meta">
+            <span class="topic-plat">${esc(t.platform)}</span>
+            <span class="topic-heat">${esc(t.heat)}</span>
+        </div>
+        <p class="topic-summary">${esc(t.summary)}</p>
+        ${t.url?'<a class="topic-link" href="'+t.url+'" target="_blank" rel="noopener">查看话题 →</a>':''}
+    </div>`).join('');
+}
+
+function renderCreators(){
+    const list=(DATA.creators||[]); document.getElementById('cntCreator').textContent=list.length;
+    document.getElementById('creatorList').innerHTML = list.map(c=>`<div class="creator-card">
+        <div class="creator-badge" style="background:${platColor(platMain(c.platform))}">${esc(nameInitial(c.name))}</div>
+        <div class="creator-main">
+            <p class="creator-name">${esc(c.name)}</p>
+            <div class="creator-meta">
+                <span class="creator-plat">${esc(c.platform)}</span>
+                <span class="creator-field">${esc(c.field)}</span>
+            </div>
+            <p class="creator-summary">${esc(c.summary)}</p>
+            <div class="creator-foot">
+                <span class="creator-fans">${esc(c.followers)}</span>
+                ${c.url?'<a class="creator-link" href="'+c.url+'" target="_blank" rel="noopener">去主页 →</a>':''}
+            </div>
+        </div>
+    </div>`).join('');
+}
+
+// 锚点高亮
+const navLinks=[...document.querySelectorAll('.anchor-nav a')];
+const secs=navLinks.map(a=>document.querySelector(a.getAttribute('href')));
+window.addEventListener('scroll',()=>{
+    const y=window.scrollY+120; let cur=0;
+    secs.forEach((s,i)=>{ if(s && s.offsetTop<=y) cur=i; });
+    navLinks.forEach((a,i)=>a.classList.toggle('active',i===cur));
+});
+
+load();
+</script>
+</body>
+</html>
