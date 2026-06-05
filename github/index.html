@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#8ED16D">
+<title>GitHub 热榜 · 森林小岛</title>
+<style>
+:root {
+    --island-green:    #8ED16D;
+    --island-deep:     #6BAE52;
+    --island-blue:     #70CAD1;
+    --island-yellow:   #F0DE65;
+    --island-orange:   #F2A65A;
+    --island-pink:     #F8B5C1;
+    --island-brown:    #9E7453;
+    --island-dark:     #5A4A3E;
+    --island-bg:       #FEF9E7;
+    --island-card-bg:  #FFFEF5;
+    --island-radius:   24px;
+    --island-radius-sm:14px;
+    --island-border:   3px solid var(--island-brown);
+    --island-shadow:   0 6px 0 var(--island-brown), 0 8px 18px rgba(94,74,62,0.18);
+    --island-shadow-sm:0 3px 0 var(--island-brown), 0 4px 10px rgba(94,74,62,0.14);
+    --gh-dark:         #24292F;
+    --gh-up:           #2DA44E;
+    --gh-down:         #CF222E;
+    --gh-new:          #BF8700;
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0; padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
+    background: var(--island-bg);
+    background-image:
+        radial-gradient(circle at 10% 20%, rgba(142,209,109,0.15) 0, transparent 25%),
+        radial-gradient(circle at 90% 60%, rgba(112,202,209,0.15) 0, transparent 25%);
+    color: var(--island-dark); line-height: 1.7; min-height: 100vh;
+}
+.app { max-width: 1100px; margin: 0 auto; padding: 16px 14px 80px; }
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, var(--gh-dark) 0%, #1a1f24 100%);
+    border: var(--island-border); border-radius: var(--island-radius);
+    box-shadow: var(--island-shadow); padding: 24px;
+    text-align: center; color: #fff; position: relative; overflow: hidden; margin-bottom: 22px;
+}
+.header::before { content:""; position:absolute; top:-30px; right:-30px; width:140px; height:140px; background:var(--island-orange); border-radius:50%; opacity:0.4; }
+.header::after  { content:""; position:absolute; bottom:-40px; left:-40px; width:120px; height:120px; background:var(--island-blue); border-radius:50%; opacity:0.3; }
+.header h1 { margin:0 0 6px; font-size:30px; font-weight:900; letter-spacing:1px; text-shadow:2px 2px 0 var(--island-brown); position:relative; }
+.header .sub { margin:0; font-size:14px; opacity:0.9; position:relative; }
+.header .stamp { display:inline-block; margin-top:12px; padding:4px 14px; background:var(--island-yellow); color:var(--island-dark); border-radius:999px; font-size:13px; font-weight:700; border:2px solid var(--island-brown); position:relative; }
+.nav-back { position:absolute; left:18px; top:18px; background:#fff; color:var(--gh-dark); border:2px solid var(--island-brown); border-radius:999px; padding:4px 12px; font-size:12px; font-weight:700; text-decoration:none; box-shadow:0 2px 0 var(--island-brown); z-index:2; }
+
+/* Stats */
+.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:20px; }
+.stat-card { background:var(--island-card-bg); border:var(--island-border); border-radius:var(--island-radius-sm); padding:12px 8px; text-align:center; box-shadow:var(--island-shadow-sm); }
+.stat-card .num { font-size:22px; font-weight:900; color:var(--gh-dark); display:block; }
+.stat-card .lbl { font-size:11px; color:var(--island-brown); margin-top:2px; font-weight:600; }
+
+/* Lang filter */
+.filter-bar { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; margin-bottom:20px; }
+.filter-btn { background:#fff; border:2px solid var(--island-brown); border-radius:999px; padding:6px 14px; font-size:13px; font-weight:700; color:var(--island-dark); cursor:pointer; box-shadow:0 2px 0 var(--island-brown); transition:transform .1s; }
+.filter-btn:hover { transform:translateY(-1px); }
+.filter-btn.active { background:var(--island-deep); color:#fff; }
+
+/* Repo cards */
+.repo-list { display:grid; gap:14px; }
+.repo-card {
+    background:var(--island-card-bg); border:var(--island-border); border-radius:var(--island-radius);
+    padding:16px 18px; box-shadow:var(--island-shadow); position:relative; overflow:hidden;
+    display:grid; grid-template-columns:60px 1fr auto; gap:14px; align-items:start;
+}
+.repo-card::after { content:""; position:absolute; right:-20px; top:-20px; width:60px; height:60px; border-radius:50%; opacity:0.15; }
+.repo-card[data-rank-change^="↑"]::after { background:var(--gh-up); }
+.repo-card[data-rank-change^="↓"]::after { background:var(--gh-down); }
+.repo-card[data-rank-change="NEW"]::after { background:var(--gh-new); }
+
+.rank-badge {
+    width:50px; height:50px; border-radius:14px; background:linear-gradient(135deg,var(--island-deep),var(--island-green));
+    color:#fff; font-size:20px; font-weight:900; display:flex; align-items:center; justify-content:center;
+    border:2px solid var(--island-brown); box-shadow:0 3px 0 var(--island-brown);
+}
+.rank-badge.top3 { background:linear-gradient(135deg,#FFB300,#FF6F00); }
+
+.repo-info { min-width:0; }
+.repo-name { font-size:17px; font-weight:900; color:var(--gh-dark); margin:0 0 4px; word-break:break-all; }
+.repo-name a { color:inherit; text-decoration:none; }
+.repo-name a:hover { color:var(--island-deep); }
+.repo-desc { font-size:13px; color:var(--island-dark); margin:0 0 8px; line-height:1.5; opacity:0.85; }
+.repo-meta { display:flex; flex-wrap:wrap; gap:6px 12px; font-size:12px; color:var(--island-brown); align-items:center; }
+.meta-item { display:inline-flex; align-items:center; gap:3px; font-weight:600; }
+.lang-dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
+.topic-tags { display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
+.topic-tag { font-size:10px; background:var(--island-yellow); color:var(--island-dark); padding:2px 8px; border-radius:999px; font-weight:700; border:1px solid var(--island-brown); }
+
+.repo-right { display:flex; flex-direction:column; align-items:flex-end; gap:6px; min-width:80px; }
+.today-stars { font-size:18px; font-weight:900; color:var(--gh-up); white-space:nowrap; }
+.today-stars::before { content:"⭐ +"; }
+.rank-change { font-size:13px; font-weight:800; padding:3px 9px; border-radius:999px; border:2px solid var(--island-brown); }
+.rank-change.up { background:var(--gh-up); color:#fff; }
+.rank-change.down { background:var(--gh-down); color:#fff; }
+.rank-change.new { background:var(--gh-new); color:#fff; }
+.rank-change.flat { background:#fff; color:var(--island-brown); }
+
+/* Lang colors */
+.lang-Python { background:#3572A5; }
+.lang-TypeScript { background:#2b7489; }
+.lang-JavaScript { background:#F1E05A; }
+.lang-Go { background:#00ADD8; }
+.lang-Rust { background:#DEA584; }
+.lang-Java { background:#B07219; }
+.lang-CPP { background:#F34B7D; }
+.lang-default { background:#9E7453; }
+
+/* Footer */
+.footer { text-align:center; margin-top:30px; padding:16px; color:var(--island-brown); font-size:12px; }
+.footer a { color:var(--island-deep); text-decoration:none; font-weight:700; }
+
+/* Loading */
+.loading { text-align:center; padding:60px 20px; color:var(--island-brown); font-size:14px; }
+
+@media (max-width:640px) {
+    .repo-card { grid-template-columns:44px 1fr; padding:14px; }
+    .rank-badge { width:40px; height:40px; font-size:16px; }
+    .repo-right { grid-column:1/-1; flex-direction:row; justify-content:space-between; padding-top:8px; border-top:1px dashed var(--island-brown); }
+    .stats { grid-template-columns:repeat(2,1fr); }
+}
+</style>
+</head>
+<body>
+<div class="app">
+    <div class="header">
+        <a href="../" class="nav-back">← 返回首页</a>
+        <h1>🐙 GitHub 热榜</h1>
+        <p class="sub">每日 Top 25 开源项目 · 排名升降一目了然</p>
+        <span class="stamp" id="dateStamp">加载中…</span>
+    </div>
+
+    <div class="stats" id="statsRow">
+        <div class="stat-card"><span class="num" id="statTotal">—</span><span class="lbl">今日上榜</span></div>
+        <div class="stat-card"><span class="num" id="statNew">—</span><span class="lbl">新晋项目</span></div>
+        <div class="stat-card"><span class="num" id="statUp">—</span><span class="lbl">排名上升</span></div>
+        <div class="stat-card"><span class="num" id="statStars">—</span><span class="lbl">总新增 ⭐</span></div>
+    </div>
+
+    <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-lang="all">全部</button>
+    </div>
+
+    <div class="repo-list" id="repoList">
+        <div class="loading">🌴 加载今日榜单中…</div>
+    </div>
+
+    <div class="footer">
+        <p>数据来源: <a href="https://github.com/trending" target="_blank">GitHub Trending</a> · 每日 08:00 北京时间更新</p>
+        <p><a href="../">← 返回森林小岛日报首页</a></p>
+    </div>
+</div>
+
+<script>
+const LANG_COLORS = {
+    Python:'#3572A5',TypeScript:'#2b7489',JavaScript:'#F1E05A',Go:'#00ADD8',Rust:'#DEA584',
+    Java:'#B07219','C++':'#F34B7D',C:'#555555','Jupyter Notebook':'#DA5B0B','HTML':'#E34C26',
+    'Vue':'#41B883','Svelte':'#FF3E00','Shell':'#89E051','PHP':'#4F5D95','Ruby':'#701516',
+    'Swift':'#FA7343','Kotlin':'#A97BFF','Dart':'#00B4AB','Lua':'#000080','Zig':'#EC915C'
+};
+let ALL_REPOS = [];
+let CUR_LANG = 'all';
+
+async function load() {
+    try {
+        const r = await fetch('../data/channels/github/trending-today.json?t=' + Date.now());
+        if (!r.ok) throw new Error('fetch fail');
+        const doc = await r.json();
+        ALL_REPOS = doc.repos || [];
+        document.getElementById('dateStamp').textContent = '📅 ' + doc.date;
+        renderStats();
+        renderFilterBar();
+        render();
+    } catch(e) {
+        document.getElementById('repoList').innerHTML = '<div class="loading">😢 加载失败: ' + e.message + '</div>';
+    }
+}
+
+function renderStats() {
+    document.getElementById('statTotal').textContent = ALL_REPOS.length;
+    document.getElementById('statNew').textContent = ALL_REPOS.filter(r=>r.rank_change==='NEW').length;
+    document.getElementById('statUp').textContent = ALL_REPOS.filter(r=>r.rank_change && r.rank_change.startsWith('↑')).length;
+    const totalStars = ALL_REPOS.reduce((s,r)=>s+(r.today_stars||0),0);
+    document.getElementById('statStars').textContent = totalStars >= 1000 ? (totalStars/1000).toFixed(1)+'k' : totalStars;
+}
+
+function renderFilterBar() {
+    const langs = new Set();
+    ALL_REPOS.forEach(r => { if (r.language) langs.add(r.language); });
+    const bar = document.getElementById('filterBar');
+    bar.innerHTML = '<button class="filter-btn active" data-lang="all">全部 (' + ALL_REPOS.length + ')</button>';
+    [...langs].sort().forEach(l => {
+        const n = ALL_REPOS.filter(r=>r.language===l).length;
+        bar.insertAdjacentHTML('beforeend', '<button class="filter-btn" data-lang="'+l+'">'+l+' ('+n+')</button>');
+    });
+    bar.querySelectorAll('.filter-btn').forEach(b => {
+        b.addEventListener('click', () => {
+            bar.querySelectorAll('.filter-btn').forEach(x=>x.classList.remove('active'));
+            b.classList.add('active');
+            CUR_LANG = b.dataset.lang;
+            render();
+        });
+    });
+}
+
+function render() {
+    const list = document.getElementById('repoList');
+    const repos = CUR_LANG==='all' ? ALL_REPOS : ALL_REPOS.filter(r=>r.language===CUR_LANG);
+    if (!repos.length) { list.innerHTML = '<div class="loading">该语言今日无项目</div>'; return; }
+    list.innerHTML = repos.map((r,i) => {
+        const realRank = ALL_REPOS.indexOf(r) + 1;
+        const rcCls = r.rank_change==='NEW' ? 'new' : r.rank_change && r.rank_change.startsWith('↑') ? 'up' : r.rank_change && r.rank_change.startsWith('↓') ? 'down' : 'flat';
+        const langColor = LANG_COLORS[r.language] || '#9E7453';
+        const topics = (r.topics||[]).slice(0,5).map(t=>'<span class="topic-tag">#'+t+'</span>').join('');
+        const desc = (r.description||'暂无描述').replace(/</g,'&lt;');
+        const starsK = r.stars >= 1000 ? (r.stars/1000).toFixed(1)+'k' : r.stars;
+        return `<div class="repo-card" data-rank-change="${r.rank_change||''}">
+            <div class="rank-badge ${realRank<=3?'top3':''}">${realRank}</div>
+            <div class="repo-info">
+                <h3 class="repo-name"><a href="${r.html_url}" target="_blank">${r.repo}</a></h3>
+                <p class="repo-desc">${desc}</p>
+                <div class="repo-meta">
+                    ${r.language ? '<span class="meta-item"><span class="lang-dot" style="background:'+langColor+'"></span>'+r.language+'</span>' : ''}
+                    <span class="meta-item">⭐ ${starsK}</span>
+                    <span class="meta-item">🍴 ${r.forks||0}</span>
+                    ${r.license ? '<span class="meta-item">📜 '+r.license+'</span>' : ''}
+                </div>
+                ${topics ? '<div class="topic-tags">'+topics+'</div>' : ''}
+            </div>
+            <div class="repo-right">
+                <span class="today-stars">${r.today_stars||0}</span>
+                <span class="rank-change ${rcCls}">${r.rank_change||'—'}</span>
+            </div>
+        </div>`;
+    }).join('');
+}
+
+load();
+</script>
+</body>
+</html>
