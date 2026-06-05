@@ -6,10 +6,13 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'github/**'
+      - 'game/**'
+      - 'community/**'
       - 'data/**'
       - 'scripts/**'
       - '.github/workflows/**'
-  
+
   workflow_dispatch:
     inputs:
       today_url:
