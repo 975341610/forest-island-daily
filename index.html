@@ -3,51 +3,68 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<meta name="theme-color" content="#8ED16D">
+<meta name="theme-color" content="#19c8b9">
 <title>森林小岛日报</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <style>
 :root {
-    --island-green:    #8ED16D;
-    --island-deep:     #6BAE52;
-    --island-blue:     #70CAD1;
-    --island-yellow:   #F0DE65;
-    --island-orange:   #F2A65A;
-    --island-pink:     #F8B5C1;
-    --island-brown:    #9E7453;
-    --island-dark:     #5A4A3E;
-    --island-bg:       #FEF9E7;
-    --island-card-bg:  #FFFEF5;
+    /* animal-island-ui 设计 token（旧 --island-* 名保留为别名，指向新值） */
+    --primary:        #19c8b9;
+    --primary-hover:  #3dd4c6;
+    --primary-active: #11a89b;
+    --primary-bg:     #e6f9f6;
+    --ac-pink:#f8a6b2; --ac-purple:#b77dee; --ac-blue:#889df0; --ac-yellow:#f7cd67;
+    --ac-orange:#e59266; --ac-teal:#82d5bb; --ac-green:#8ac68a; --ac-red:#fc736d;
+    /* 别名：让全站旧样式自动套用新配色 */
+    --island-green:    #19c8b9;
+    --island-deep:     #11a89b;
+    --island-blue:     #82d5bb;
+    --island-yellow:   #f7cd67;
+    --island-orange:   #e59266;
+    --island-pink:     #f8a6b2;
+    --island-brown:    #c4b89e;
+    --island-dark:     #725d42;
+    --island-bg:       #f8f8f0;
+    --island-card-bg:  rgb(247, 243, 223);
     --island-radius:   24px;
     --island-radius-sm:14px;
-    --island-border:   3px solid var(--island-brown);
-    --island-shadow:   0 6px 0 var(--island-brown), 0 8px 18px rgba(94,74,62,0.18);
-    --island-shadow-sm:0 3px 0 var(--island-brown), 0 4px 10px rgba(94,74,62,0.14);
+    --island-border:   2px solid var(--island-brown);
+    --island-shadow:   0 8px 24px 0 rgba(61,52,40,0.12);
+    --island-shadow-sm:0 3px 10px 0 rgba(61,52,40,0.10);
+    --shadow-btn:      #bdaea0;
+    --shadow-input:    #d4c9b4;
+    --ease:           cubic-bezier(0.4, 0, 0.2, 1);
+    --font:           Nunito, 'Noto Sans SC', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
 }
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 body {
     margin: 0; padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-family: var(--font);
+    font-weight: 500;
     background: var(--island-bg);
     background-image:
-        radial-gradient(circle at 10% 20%, rgba(142,209,109,0.15) 0, transparent 25%),
-        radial-gradient(circle at 90% 60%, rgba(112,202,209,0.15) 0, transparent 25%),
-        radial-gradient(circle at 50% 90%, rgba(240,222,101,0.15) 0, transparent 25%);
+        radial-gradient(circle at 12% 10%, rgba(130,213,187,0.18) 0, transparent 26%),
+        radial-gradient(circle at 88% 16%, rgba(137,157,240,0.12) 0, transparent 24%),
+        radial-gradient(circle at 50% 96%, rgba(247,205,103,0.16) 0, transparent 30%);
     color: var(--island-dark); line-height: 1.7; min-height: 100vh;
+    letter-spacing: 0.01em;
 }
 .app { max-width: 980px; margin: 0 auto; padding: 16px 14px 80px; }
 .header {
-    background: linear-gradient(135deg, var(--island-green) 0%, var(--island-deep) 100%);
-    border: var(--island-border); border-radius: var(--island-radius);
-    box-shadow: var(--island-shadow); padding: 22px 22px 26px;
-    text-align: center; color: #fff; position: relative; overflow: hidden; margin-bottom: 22px;
+    background: linear-gradient(135deg, var(--primary) 0%, #0f9e91 100%);
+    border: var(--island-border); border-color:rgba(255,255,255,0.5); border-radius: var(--island-radius);
+    box-shadow: var(--island-shadow); padding: 26px 22px 28px;
+    text-align: center; color: #fff; position: relative; overflow: hidden; margin-bottom: 20px;
 }
-.header::before { content:""; position:absolute; top:-20px; right:-20px; width:120px; height:120px; background:var(--island-yellow); border-radius:50%; opacity:0.4; }
-.header::after  { content:""; position:absolute; bottom:-30px; left:-30px; width:100px; height:100px; background:var(--island-pink); border-radius:50%; opacity:0.3; }
-.header h1 { margin:0 0 6px; font-size:28px; font-weight:900; letter-spacing:1px; text-shadow:2px 2px 0 var(--island-brown); position:relative; }
-.header .sub { margin:0; font-size:14px; opacity:0.95; position:relative; }
-.header .stamp { display:inline-block; margin-top:10px; padding:4px 14px; background:#fff; color:var(--island-deep); border-radius:999px; font-size:13px; font-weight:700; border:2px solid var(--island-brown); position:relative; }
+.header::before { content:""; position:absolute; top:-24px; right:-24px; width:130px; height:130px; background:var(--ac-yellow); border-radius:50%; opacity:0.35; }
+.header::after  { content:""; position:absolute; bottom:-30px; left:-30px; width:110px; height:110px; background:var(--ac-blue); border-radius:50%; opacity:0.28; }
+.header h1 { margin:0 0 8px; font-size:30px; font-weight:900; letter-spacing:1px; color:#FFF9E6; text-shadow:0 2px 1px rgba(61,52,40,0.28); position:relative; }
+.header .sub { margin:0; font-size:14px; font-weight:600; color:#fffdf6; opacity:0.96; position:relative; }
+.header .stamp { display:inline-block; margin-top:12px; padding:5px 18px; background:rgb(247,243,223); color:var(--island-dark); border-radius:50px; font-size:13px; font-weight:800; border:2px solid var(--island-brown); position:relative; box-shadow:var(--island-shadow-sm); }
 
 .toolbar { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:20px; align-items:center; }
 .date-picker { flex:1 1 auto; background:#fff; border:var(--island-border); border-radius:var(--island-radius-sm); box-shadow:var(--island-shadow-sm); padding:8px 12px; display:flex; align-items:center; gap:8px; }
@@ -56,33 +73,34 @@ body {
 .btn-poster { background:var(--island-yellow); border:var(--island-border); border-radius:var(--island-radius-sm); box-shadow:var(--island-shadow-sm); padding:10px 18px; font-size:14px; font-weight:800; color:var(--island-dark); cursor:pointer; transition:transform 0.1s ease; }
 .btn-poster:active { transform:translate(0,3px); box-shadow:0 1px 0 var(--island-brown); }
 
-.cat-filter { display:flex; gap:8px; overflow-x:auto; margin-bottom:18px; padding-bottom:6px; -webkit-overflow-scrolling:touch; }
-.cat-chip { flex:0 0 auto; background:#fff; border:2px solid var(--island-brown); border-radius:999px; padding:6px 16px; font-size:13px; font-weight:700; color:var(--island-dark); cursor:pointer; box-shadow:0 2px 0 var(--island-brown); transition:all 0.15s; }
-.cat-chip.active { background:var(--island-green); color:#fff; transform:translateY(1px); box-shadow:0 1px 0 var(--island-brown); }
+.cat-filter { display:flex; gap:6px; overflow-x:auto; margin-bottom:18px; padding:8px; -webkit-overflow-scrolling:touch; background:rgba(247,243,223,0.7); border-radius:24px; border:1.5px dashed rgba(196,184,158,0.6); }
+.cat-chip { flex:0 0 auto; background:transparent; border:none; border-radius:50px; padding:7px 16px; font-size:13px; font-weight:600; color:var(--island-dark); cursor:pointer; transition:all 0.2s var(--ease); }
+.cat-chip:hover { background:rgba(25,200,185,0.12); }
+.cat-chip.active { background:#0CC0B5; color:#FFF9E3; font-weight:700; box-shadow:0 3px 0 0 var(--shadow-input); }
 
 .news-list { display:flex; flex-direction:column; gap:20px; }
-.card { background:var(--island-card-bg); border:var(--island-border); border-radius:var(--island-radius); box-shadow:var(--island-shadow); overflow:hidden; display:flex; flex-direction:column; }
-.card-img-wrap { background:linear-gradient(135deg,#FFE9A8 0%,#FFD580 100%); padding:12px; border-bottom:var(--island-border); }
+.card { background:rgb(247,243,223); border:1.5px solid var(--island-brown); border-radius:var(--island-radius); box-shadow:var(--island-shadow); overflow:hidden; display:flex; flex-direction:column; }
+.card-img-wrap { background:linear-gradient(135deg,#e6f9f6 0%,#cfeede 100%); padding:12px; border-bottom:1.5px solid var(--island-brown); }
 .card-img { width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:var(--island-radius-sm); display:block; background:#fff; }
 .card-body { padding:18px; }
 .card-meta { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:10px; align-items:center; }
-.tag-platform { display:inline-block; padding:3px 10px; border-radius:999px; color:#fff; font-size:11px; font-weight:700; border:2px solid var(--island-brown); }
-.tag-cat { display:inline-block; padding:3px 10px; border-radius:999px; background:var(--island-yellow); color:var(--island-dark); font-size:11px; font-weight:700; border:2px solid var(--island-brown); }
+.tag-platform { display:inline-block; padding:3px 11px; border-radius:50px; color:#fff; font-size:11px; font-weight:700; border:1.5px solid rgba(255,255,255,0.6); }
+.tag-cat { display:inline-block; padding:3px 11px; border-radius:50px; background:var(--ac-yellow); color:var(--island-dark); font-size:11px; font-weight:700; border:1.5px solid #d4a030; }
 .tag-date { margin-left:auto; font-size:11px; color:var(--island-brown); font-weight:700; }
 .card-title { margin:0 0 12px; font-size:18px; font-weight:800; line-height:1.5; color:var(--island-dark); }
-.card-detail p { margin:0 0 10px; font-size:14.5px; line-height:1.75; color:#4A3E33; }
+.card-detail p { margin:0 0 10px; font-size:14.5px; line-height:1.75; color:var(--island-dark); }
 .card-detail p:last-child { margin-bottom:0; }
 
 .card-actions { margin-top:16px; display:flex; flex-wrap:wrap; gap:8px; padding-top:14px; border-top:2px dashed #D9CAB3; }
-.btn { flex:1 1 auto; min-width:110px; background:#fff; border:2px solid var(--island-brown); border-radius:var(--island-radius-sm); box-shadow:0 3px 0 var(--island-brown); padding:9px 12px; font-size:13px; font-weight:700; color:var(--island-dark); cursor:pointer; text-decoration:none; text-align:center; transition:transform 0.1s; }
-.btn:active { transform:translateY(2px); box-shadow:0 1px 0 var(--island-brown); }
-.btn-primary { background:var(--island-blue); color:#fff; }
-.btn-orange  { background:var(--island-orange); color:#fff; }
-.btn-pink    { background:var(--island-pink); color:var(--island-dark); }
-.btn-rs      { background:#FE2C55; color:#fff; border-color:#9E7453; }
-.btn-dy      { background:#161823; color:#fff; }
-.btn-trash   { background:#EFE3D0; color:#7A5A40; flex:0 0 auto; min-width:auto; padding:9px 12px; }
-.btn-trash:hover { background:#E66B6B; color:#fff; }
+.btn { flex:1 1 auto; min-width:110px; background:#fff; border:1.5px solid var(--island-brown); border-radius:var(--island-radius-sm); box-shadow:0 3px 0 var(--shadow-btn); padding:9px 12px; font-size:13px; font-weight:700; color:var(--island-dark); cursor:pointer; text-decoration:none; text-align:center; transition:transform 0.15s var(--ease), box-shadow 0.15s var(--ease); }
+.btn:active { transform:translateY(2px); box-shadow:0 1px 0 var(--shadow-btn); }
+.btn-primary { background:var(--primary); color:#FFF9E6; border-color:rgba(255,255,255,0.5); }
+.btn-orange  { background:var(--ac-orange); color:#fff; border-color:rgba(255,255,255,0.5); }
+.btn-pink    { background:var(--ac-pink); color:var(--island-dark); border-color:rgba(255,255,255,0.5); }
+.btn-rs      { background:var(--ac-red); color:#fff; border-color:rgba(255,255,255,0.5); }
+.btn-dy      { background:var(--ac-purple); color:#fff; border-color:rgba(255,255,255,0.5); }
+.btn-trash   { background:rgb(247,243,223); color:var(--island-dark); flex:0 0 auto; min-width:auto; padding:9px 12px; }
+.btn-trash:hover { background:var(--ac-red); color:#fff; }
 
 .card.deleted { display:none !important; }
 .toolbar-extra { display:flex; align-items:center; gap:6px; font-size:12px; color:var(--island-brown); margin-left:6px; }
@@ -128,7 +146,7 @@ body {
 .poster-page::before { content:""; position:absolute; top:-50px; right:-50px; width:240px; height:240px; background:#F0DE65; border-radius:50%; opacity:0.4; }
 .poster-page::after  { content:""; position:absolute; bottom:-60px; left:-60px; width:200px; height:200px; background:#F8B5C1; border-radius:50%; opacity:0.35; }
 .poster-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:22px; position:relative; z-index:2; }
-.poster-logo { background:#8ED16D; color:#fff; padding:10px 22px; border-radius:999px; border:4px solid #9E7453; font-size:26px; font-weight:900; letter-spacing:1px; text-shadow:2px 2px 0 #6BAE52; }
+.poster-logo { background:#19c8b9; color:#FFF9E6; padding:10px 22px; border-radius:999px; border:4px solid #c4b89e; font-size:26px; font-weight:900; letter-spacing:1px; text-shadow:0 2px 1px rgba(61,52,40,0.3); }
 .poster-page-no { background:#fff; color:#9E7453; padding:8px 16px; border-radius:999px; border:3px solid #9E7453; font-size:20px; font-weight:800; }
 .poster-tags { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:18px; position:relative; z-index:2; }
 .poster-tag-pl { color:#fff; padding:6px 16px; border-radius:999px; border:3px solid #9E7453; font-size:20px; font-weight:800; }
@@ -149,23 +167,26 @@ body {
     .poster-slide { flex:0 0 45%; }
 }
 /* 频道入口卡片 */
-.channel-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:18px; }
-.channel-card { display:flex; align-items:center; gap:10px; padding:14px 14px; background:var(--island-card-bg); border:var(--island-border); border-radius:var(--island-radius-sm); box-shadow:var(--island-shadow-sm); text-decoration:none; color:var(--island-dark); transition:transform .15s, box-shadow .15s; position:relative; overflow:hidden; }
-.channel-card:hover { transform:translateY(-2px); box-shadow:0 8px 0 var(--island-brown), 0 10px 20px rgba(94,74,62,0.2); }
-.channel-card.disabled { opacity:0.65; }
-.channel-card.disabled:hover { transform:none; box-shadow:var(--island-shadow-sm); }
-.channel-github { border-top:6px solid #24292F; }
-.channel-game   { border-top:6px solid #E60012; }
-.channel-community { border-top:6px solid #FF2442; }
-.ch-icon { font-size:32px; flex:0 0 auto; }
+.channel-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:20px; }
+.channel-card { display:flex; align-items:center; gap:12px; padding:14px; background:rgb(247,243,223); border:1.5px solid var(--island-brown); border-radius:18px; box-shadow:var(--island-shadow-sm); text-decoration:none; color:var(--island-dark); transition:transform .2s var(--ease), box-shadow .2s var(--ease), border-color .2s var(--ease); position:relative; overflow:hidden;
+    background-image:
+        radial-gradient(circle at 0 0, rgba(25,200,185,0.06) 1.5px, transparent 1.5px),
+        radial-gradient(circle at 7px 7px, rgba(25,200,185,0.05) 1px, transparent 1px);
+    background-size:28px 28px, 14px 14px; }
+.channel-card:hover { transform:translateY(-2px); box-shadow:var(--island-shadow); border-color:var(--primary); }
+.channel-card.disabled { opacity:0.72; }
+.channel-card.disabled:hover { transform:none; box-shadow:var(--island-shadow-sm); border-color:var(--island-brown); }
+.channel-github, .channel-game, .channel-community { border-top:1.5px solid var(--island-brown); }
+.ch-icon { flex:0 0 auto; width:46px; height:46px; }
+.ch-icon img { width:100%; height:100%; object-fit:cover; border-radius:12px; border:2px solid rgba(255,255,255,0.7); box-shadow:0 2px 6px rgba(61,52,40,0.15); display:block; }
 .ch-meta { flex:1; min-width:0; }
-.ch-title { font-size:15px; font-weight:900; color:var(--island-dark); margin-bottom:2px; }
-.ch-desc { font-size:11px; color:var(--island-brown); font-weight:600; line-height:1.3; }
-.ch-arrow { font-size:20px; font-weight:900; color:var(--island-deep); flex:0 0 auto; }
+.ch-title { font-size:15px; font-weight:800; color:var(--island-dark); margin-bottom:2px; }
+.ch-desc { font-size:11px; color:var(--primary-active); font-weight:600; line-height:1.3; }
+.ch-arrow { font-size:18px; font-weight:900; color:var(--primary); flex:0 0 auto; }
 @media (max-width:640px) {
     .channel-grid { grid-template-columns:1fr; gap:8px; }
     .channel-card { padding:12px; }
-    .ch-icon { font-size:26px; }
+    .ch-icon { width:40px; height:40px; }
     .ch-title { font-size:14px; }
 }
 </style>
@@ -174,7 +195,7 @@ body {
 
 <div class="app" id="app-root">
     <header class="header">
-        <h1>🌴 森林小岛日报</h1>
+        <h1>森林小岛日报</h1>
         <p class="sub">每日聚合全球科技 · AI · 游戏 · 氛围编程的一手热点</p>
         <span class="stamp" id="header-date">加载中…</span>
     </header>
@@ -182,23 +203,23 @@ body {
     <!-- 频道入口卡片区 -->
     <div class="channel-grid">
         <a href="github/" class="channel-card channel-github">
-            <div class="ch-icon">🐙</div>
+            <div class="ch-icon"><img src="assets/ch-github.jpg" alt=""></div>
             <div class="ch-meta">
-                <div class="ch-title">GitHub 热榜</div>
+                <div class="ch-title">开源热榜</div>
                 <div class="ch-desc">每日 Top 25 · 排名升降</div>
             </div>
             <div class="ch-arrow">→</div>
         </a>
         <a href="game/" class="channel-card channel-game">
-            <div class="ch-icon">🎮</div>
+            <div class="ch-icon"><img src="assets/ch-game.jpg" alt=""></div>
             <div class="ch-meta">
                 <div class="ch-title">游戏频道</div>
                 <div class="ch-desc">爆料 · 厂商动向 · 发售表</div>
             </div>
             <div class="ch-arrow">→</div>
         </a>
-        <a href="#" class="channel-card channel-community disabled" onclick="alert('🚧 社区频道筹备中,敬请期待'); return false;">
-            <div class="ch-icon">💬</div>
+        <a href="#" class="channel-card channel-community disabled" onclick="alert('社区频道筹备中,敬请期待'); return false;">
+            <div class="ch-icon"><img src="assets/ch-community.jpg" alt=""></div>
             <div class="ch-meta">
                 <div class="ch-title">社区热点</div>
                 <div class="ch-desc">小红书 · 抖音 · B 站</div>
@@ -216,10 +237,10 @@ body {
     </div>
 
     <div class="cat-filter" id="catFilter">
-        <button class="cat-chip active" data-cat="all">🌈 全部</button>
-        <button class="cat-chip" data-cat="AI">🤖 AI</button>
-        <button class="cat-chip" data-cat="VibeCoding">✨ Vibe Coding</button>
-        <button class="cat-chip" data-cat="Gaming">🎮 游戏圈</button>
+        <button class="cat-chip active" data-cat="all">全部</button>
+        <button class="cat-chip" data-cat="AI">AI</button>
+        <button class="cat-chip" data-cat="VibeCoding">Vibe Coding</button>
+        <button class="cat-chip" data-cat="Gaming">游戏圈</button>
     </div>
 
     <div class="news-list" id="newsList">
@@ -284,7 +305,7 @@ function renderCard(n){
     </div>
     <div class="card-body">
         <div class="card-meta">
-            <span class="tag-platform" style="background:${escapeHtml(n.platform_color||'#8ED16D')}">${escapeHtml(n.platform)}</span>
+            <span class="tag-platform" style="background:${escapeHtml(n.platform_color||'#19c8b9')}">${escapeHtml(n.platform)}</span>
             <span class="tag-cat">${escapeHtml(n.subcat||n.category)}</span>
             <span class="tag-date">📅 ${escapeHtml(n.date)}</span>
         </div>
@@ -458,7 +479,7 @@ async function renderPosterPage(item, idx, total){
             <div class="poster-page-no">${idx+1} / ${total}</div>
         </div>
         <div class="poster-tags">
-            <span class="poster-tag-pl" style="background:${item.platform_color||'#8ED16D'}">${escapeHtml(item.platform)}</span>
+            <span class="poster-tag-pl" style="background:${item.platform_color||'#19c8b9'}">${escapeHtml(item.platform)}</span>
             <span class="poster-tag-cat">${escapeHtml(item.subcat||item.category)}｜${item.date}</span>
         </div>
         <h2 class="poster-title">${escapeHtml(item.title)}</h2>
