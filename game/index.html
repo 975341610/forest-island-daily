@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#E60012">
+<title>游戏频道 · 森林小岛</title>
+<style>
+:root {
+    --island-green:    #8ED16D;
+    --island-deep:     #6BAE52;
+    --island-blue:     #70CAD1;
+    --island-yellow:   #F0DE65;
+    --island-orange:   #F2A65A;
+    --island-pink:     #F8B5C1;
+    --island-brown:    #9E7453;
+    --island-dark:     #5A4A3E;
+    --island-bg:       #FEF9E7;
+    --island-card-bg:  #FFFEF5;
+    --island-radius:   24px;
+    --island-radius-sm:14px;
+    --island-border:   3px solid var(--island-brown);
+    --island-shadow:   0 6px 0 var(--island-brown), 0 8px 18px rgba(94,74,62,0.18);
+    --island-shadow-sm:0 3px 0 var(--island-brown), 0 4px 10px rgba(94,74,62,0.14);
+    --game-red:        #E60012;
+    --game-dark:       #2A1216;
+}
+* { box-sizing: border-box; }
+body {
+    margin:0; padding:0;
+    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
+    background: var(--island-bg);
+    background-image:
+        radial-gradient(circle at 10% 20%, rgba(230,0,18,0.10) 0, transparent 25%),
+        radial-gradient(circle at 90% 60%, rgba(112,202,209,0.15) 0, transparent 25%);
+    color: var(--island-dark); line-height:1.7; min-height:100vh;
+}
+.app { max-width:1100px; margin:0 auto; padding:16px 14px 80px; }
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, var(--game-red) 0%, var(--game-dark) 100%);
+    border: var(--island-border); border-radius: var(--island-radius);
+    box-shadow: var(--island-shadow); padding:24px;
+    text-align:center; color:#fff; position:relative; overflow:hidden; margin-bottom:22px;
+}
+.header::before { content:""; position:absolute; top:-30px; right:-30px; width:140px; height:140px; background:var(--island-yellow); border-radius:50%; opacity:0.35; }
+.header::after  { content:""; position:absolute; bottom:-40px; left:-40px; width:120px; height:120px; background:var(--island-blue); border-radius:50%; opacity:0.3; }
+.header h1 { margin:0 0 6px; font-size:30px; font-weight:900; letter-spacing:1px; text-shadow:2px 2px 0 var(--game-dark); position:relative; }
+.header .sub { margin:0; font-size:14px; opacity:0.92; position:relative; }
+.header .stamp { display:inline-block; margin-top:12px; padding:4px 14px; background:var(--island-yellow); color:var(--island-dark); border-radius:999px; font-size:13px; font-weight:700; border:2px solid var(--island-brown); position:relative; }
+.nav-back { position:absolute; left:18px; top:18px; background:#fff; color:var(--game-red); border:2px solid var(--island-brown); border-radius:999px; padding:4px 12px; font-size:12px; font-weight:700; text-decoration:none; box-shadow:0 2px 0 var(--island-brown); z-index:2; }
+
+/* Section tabs */
+.tabs { display:flex; gap:8px; justify-content:center; margin-bottom:20px; flex-wrap:wrap; }
+.tab-btn { background:#fff; border:2px solid var(--island-brown); border-radius:999px; padding:8px 18px; font-size:14px; font-weight:800; color:var(--island-dark); cursor:pointer; box-shadow:0 2px 0 var(--island-brown); transition:transform .1s; }
+.tab-btn:hover { transform:translateY(-1px); }
+.tab-btn.active { background:var(--game-red); color:#fff; }
+
+.section { display:none; }
+.section.active { display:block; }
+.section-title { font-size:18px; font-weight:900; color:var(--game-dark); margin:0 0 14px; display:flex; align-items:center; gap:8px; }
+
+/* === 发售时间表 === */
+.timeline { position:relative; padding-left:8px; }
+.rel-card {
+    background:var(--island-card-bg); border:var(--island-border); border-radius:var(--island-radius);
+    padding:16px 18px; box-shadow:var(--island-shadow); margin-bottom:16px; position:relative; overflow:hidden;
+}
+.rel-card::after { content:""; position:absolute; right:-20px; top:-20px; width:70px; height:70px; border-radius:50%; background:var(--game-red); opacity:0.10; }
+.rel-head { display:flex; align-items:flex-start; gap:12px; flex-wrap:wrap; }
+.rel-date {
+    flex:0 0 auto; background:linear-gradient(135deg,var(--game-red),#B3000E); color:#fff;
+    border:2px solid var(--island-brown); border-radius:14px; padding:8px 12px; text-align:center;
+    box-shadow:0 3px 0 var(--island-brown); min-width:78px;
+}
+.rel-date .d-day { font-size:20px; font-weight:900; line-height:1; }
+.rel-date .d-rest { font-size:11px; font-weight:700; opacity:0.92; margin-top:2px; }
+.rel-main { flex:1; min-width:200px; }
+.rel-name { font-size:18px; font-weight:900; color:var(--game-dark); margin:0 0 2px; }
+.rel-name .en { font-size:12px; font-weight:600; color:var(--island-brown); display:block; margin-top:1px; }
+.rel-hype { font-size:15px; margin-left:6px; }
+.rel-studio { font-size:12px; color:var(--island-brown); font-weight:700; margin:4px 0; }
+.rel-studio::before { content:"🏢 "; }
+.rel-summary { font-size:14px; color:var(--island-dark); line-height:1.6; margin:8px 0; }
+.rel-tags { display:flex; flex-wrap:wrap; gap:6px; margin-top:8px; }
+.rel-genre { font-size:11px; background:var(--island-yellow); color:var(--island-dark); padding:2px 9px; border-radius:999px; font-weight:700; border:1px solid var(--island-brown); }
+.plat-row { display:flex; flex-wrap:wrap; gap:5px; margin-top:8px; }
+.plat-pill { font-size:11px; font-weight:800; padding:3px 10px; border-radius:999px; border:2px solid var(--island-brown); box-shadow:0 1px 0 var(--island-brown); }
+.plat-PC { background:#1B2838; color:#fff; }
+.plat-PS5 { background:#003791; color:#fff; }
+.plat-Xbox { background:#107C10; color:#fff; }
+.plat-Switch { background:#E60012; color:#fff; }
+.plat-default { background:#fff; color:var(--island-dark); }
+
+/* === 热点 / 厂商 卡片 === */
+.news-grid { display:grid; gap:14px; }
+.news-card {
+    background:var(--island-card-bg); border:var(--island-border); border-radius:var(--island-radius);
+    padding:16px 18px; box-shadow:var(--island-shadow); position:relative; overflow:hidden;
+}
+.news-tag { display:inline-block; font-size:11px; font-weight:800; color:#fff; background:var(--game-red); border:1.5px solid var(--island-brown); border-radius:999px; padding:2px 12px; margin-bottom:8px; }
+.news-tag.studio { background:var(--island-deep); }
+.news-title { font-size:17px; font-weight:900; color:var(--game-dark); margin:0 0 6px; }
+.news-company { font-size:13px; font-weight:800; color:var(--island-deep); margin:0 0 4px; }
+.news-company::before { content:"🎯 "; }
+.news-summary { font-size:14px; color:var(--island-dark); line-height:1.65; margin:0 0 12px; }
+.news-foot { display:flex; flex-wrap:wrap; gap:8px; align-items:center; padding-top:10px; border-top:1px dashed rgba(158,116,83,0.35); }
+.news-source { font-size:12px; color:var(--island-brown); font-weight:700; }
+.btn-src { margin-left:auto; display:inline-flex; align-items:center; gap:5px; font-size:13px; font-weight:800; padding:6px 14px; border-radius:999px; border:2px solid var(--island-brown); box-shadow:0 2px 0 var(--island-brown); text-decoration:none; background:var(--game-dark); color:#fff; transition:transform .12s; }
+.btn-src:hover { transform:translateY(-1px); }
+
+.footer { text-align:center; margin-top:30px; padding:16px; color:var(--island-brown); font-size:12px; }
+.footer a { color:var(--island-deep); text-decoration:none; font-weight:700; }
+.loading { text-align:center; padding:60px 20px; color:var(--island-brown); font-size:14px; }
+
+@media (max-width:640px) {
+    .rel-head { gap:10px; }
+    .rel-date { min-width:64px; padding:6px 8px; }
+    .rel-name { font-size:16px; }
+}
+</style>
+</head>
+<body>
+<div class="app">
+    <div class="header">
+        <a href="../" class="nav-back">← 返回首页</a>
+        <h1>🎮 游戏频道</h1>
+        <p class="sub">重磅爆料 · 厂商动向 · 新游发售时间表 · 大白话速读</p>
+        <span class="stamp" id="dateStamp">加载中…</span>
+    </div>
+
+    <div class="tabs">
+        <button class="tab-btn active" data-tab="releases">📅 发售时间表</button>
+        <button class="tab-btn" data-tab="hot">🔥 今日热点</button>
+        <button class="tab-btn" data-tab="studios">🏢 厂商动向</button>
+    </div>
+
+    <div class="section active" id="sec-releases">
+        <h2 class="section-title">📅 新游发售时间表</h2>
+        <div class="timeline" id="releaseList"><div class="loading">🌴 加载中…</div></div>
+    </div>
+
+    <div class="section" id="sec-hot">
+        <h2 class="section-title">🔥 今日游戏热点</h2>
+        <div class="news-grid" id="hotList"><div class="loading">🌴 加载中…</div></div>
+    </div>
+
+    <div class="section" id="sec-studios">
+        <h2 class="section-title">🏢 各大厂商动向</h2>
+        <div class="news-grid" id="studioList"><div class="loading">🌴 加载中…</div></div>
+    </div>
+
+    <div class="footer">
+        <p>数据来源: 各游戏官方 · PlayStation/Xbox/任天堂 · IGN/GameSpot 等 · 每日更新</p>
+        <p><a href="../">← 返回森林小岛日报首页</a></p>
+    </div>
+</div>
+
+<script>
+const PLAT_KNOWN = ['PC','PS5','Xbox','Switch'];
+let DATA = null;
+
+function esc(s){ return (s||'').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function daysUntil(dateStr){
+    const m = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if(!m) return null;
+    const target = new Date(+m[1], +m[2]-1, +m[3]);
+    const now = new Date();
+    const t0 = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    return Math.round((target - t0)/86400000);
+}
+
+function fmtDate(dateStr){
+    const m = dateStr.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if(!m) return { dDay: dateStr, dRest: '' };
+    const d = daysUntil(dateStr);
+    let rest = m[1]+'年';
+    if(d !== null) rest = d > 0 ? ('还有 '+d+' 天') : (d === 0 ? '今日发售' : '已发售');
+    return { dDay: m[2]+'/'+m[3], dRest: rest };
+}
+
+async function load(){
+    try {
+        const r = await fetch('../data/channels/game/game-today.json?t='+Date.now());
+        if(!r.ok) throw new Error('fetch fail');
+        DATA = await r.json();
+        document.getElementById('dateStamp').textContent = '📅 ' + DATA.date;
+        renderReleases();
+        renderHot();
+        renderStudios();
+    } catch(e){
+        document.getElementById('releaseList').innerHTML = '<div class="loading">😢 加载失败: '+e.message+'</div>';
+    }
+}
+
+function renderReleases(){
+    const list = (DATA.releases||[]);
+    document.getElementById('releaseList').innerHTML = list.map(g => {
+        const f = fmtDate(g.date);
+        const plats = (g.platforms||[]).map(p => {
+            const cls = PLAT_KNOWN.includes(p) ? 'plat-'+p : 'plat-default';
+            return '<span class="plat-pill '+cls+'">'+esc(p)+'</span>';
+        }).join('');
+        const genres = (g.genre||[]).map(t=>'<span class="rel-genre">#'+esc(t)+'</span>').join('');
+        return `<div class="rel-card">
+            <div class="rel-head">
+                <div class="rel-date"><div class="d-day">${esc(f.dDay)}</div><div class="d-rest">${esc(f.dRest)}</div></div>
+                <div class="rel-main">
+                    <h3 class="rel-name">${esc(g.name_cn)}<span class="rel-hype">${g.hype||''}</span><span class="en">${esc(g.name_en)}</span></h3>
+                    <div class="rel-studio">${esc(g.studio)}</div>
+                    <p class="rel-summary">${esc(g.summary)}</p>
+                    <div class="plat-row">${plats}</div>
+                    <div class="rel-tags">${genres}</div>
+                </div>
+            </div>
+        </div>`;
+    }).join('');
+}
+
+function renderHot(){
+    const list = (DATA.hot||[]);
+    document.getElementById('hotList').innerHTML = list.map(n => `<div class="news-card">
+        <span class="news-tag">${esc(n.category)}</span>
+        <h3 class="news-title">${esc(n.title)}</h3>
+        <p class="news-summary">${esc(n.summary)}</p>
+        <div class="news-foot">
+            <span class="news-source">📰 ${esc(n.source)}</span>
+            ${n.url ? '<a class="btn-src" href="'+n.url+'" target="_blank" rel="noopener">🔗 看原文</a>' : ''}
+        </div>
+    </div>`).join('');
+}
+
+function renderStudios(){
+    const list = (DATA.studios||[]);
+    document.getElementById('studioList').innerHTML = list.map(n => `<div class="news-card">
+        <span class="news-tag studio">厂商动向</span>
+        <p class="news-company">${esc(n.company)}</p>
+        <h3 class="news-title">${esc(n.title)}</h3>
+        <p class="news-summary">${esc(n.summary)}</p>
+        <div class="news-foot">
+            <span class="news-source">📰 ${esc(n.source)}</span>
+            ${n.url ? '<a class="btn-src" href="'+n.url+'" target="_blank" rel="noopener">🔗 看原文</a>' : ''}
+        </div>
+    </div>`).join('');
+}
+
+document.querySelectorAll('.tab-btn').forEach(b => {
+    b.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(x=>x.classList.remove('active'));
+        document.querySelectorAll('.section').forEach(x=>x.classList.remove('active'));
+        b.classList.add('active');
+        document.getElementById('sec-'+b.dataset.tab).classList.add('active');
+    });
+});
+
+load();
+</script>
+</body>
+</html>
