@@ -3,166 +3,252 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#8ED16D">
-<title>GitHub 热榜 · 森林小岛</title>
+<meta name="theme-color" content="#19c8b9">
+<title>开源热榜 · 森林小岛</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root {
-    --island-green:    #8ED16D;
-    --island-deep:     #6BAE52;
-    --island-blue:     #70CAD1;
-    --island-yellow:   #F0DE65;
-    --island-orange:   #F2A65A;
-    --island-pink:     #F8B5C1;
-    --island-brown:    #9E7453;
-    --island-dark:     #5A4A3E;
-    --island-bg:       #FEF9E7;
-    --island-card-bg:  #FFFEF5;
-    --island-radius:   24px;
-    --island-radius-sm:14px;
-    --island-border:   3px solid var(--island-brown);
-    --island-shadow:   0 6px 0 var(--island-brown), 0 8px 18px rgba(94,74,62,0.18);
-    --island-shadow-sm:0 3px 0 var(--island-brown), 0 4px 10px rgba(94,74,62,0.14);
-    --gh-dark:         #24292F;
-    --gh-up:           #2DA44E;
-    --gh-down:         #CF222E;
-    --gh-new:          #BF8700;
+    /* animal-island-ui 设计 token */
+    --primary:        #19c8b9;
+    --primary-hover:  #3dd4c6;
+    --primary-active: #11a89b;
+    --primary-bg:     #e6f9f6;
+    --text:           #794f27;
+    --text-body:      #725d42;
+    --text-secondary: #9f927d;
+    --text-muted:     #8a7b66;
+    --text-disabled:  #c4b89e;
+    --bg:             #f8f8f0;
+    --bg-content:     rgb(247, 243, 223);
+    --border:         #c4b89e;
+    --border-hover:   #a89878;
+    --shadow-btn:     #bdaea0;
+    --shadow-input:   #d4c9b4;
+    --focus-yellow:   #ffcc00;
+    --success:        #6fba2c;
+    --warning:        #f5c31c;
+    --error:          #e05a5a;
+    --radius-sm:      12px;
+    --radius:         18px;
+    --radius-lg:      24px;
+    --radius-pill:    50px;
+    --ease:           cubic-bezier(0.4, 0, 0.2, 1);
+    --shadow-soft:    0 3px 10px 0 rgba(61,52,40,0.10);
+    --shadow-card:    0 8px 24px 0 rgba(61,52,40,0.12);
+    --font:           Nunito, 'Noto Sans SC', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    /* NookPhone 调色板 */
+    --ac-pink:#f8a6b2; --ac-purple:#b77dee; --ac-blue:#889df0; --ac-yellow:#f7cd67;
+    --ac-orange:#e59266; --ac-teal:#82d5bb; --ac-green:#8ac68a; --ac-red:#fc736d;
+    --ac-lime:#d1da49; --ac-brown:#9a835a; --ac-peach:#e18c6f;
+    /* 升降语义色(柔和化,非刺眼) */
+    --up:#6fba2c; --down:#e08a8a; --new:#e0a83c;
 }
 * { box-sizing: border-box; }
 body {
-    margin: 0; padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", sans-serif;
-    background: var(--island-bg);
+    margin:0; padding:0;
+    font-family: var(--font);
+    font-weight:500;
+    background: var(--bg);
     background-image:
-        radial-gradient(circle at 10% 20%, rgba(142,209,109,0.15) 0, transparent 25%),
-        radial-gradient(circle at 90% 60%, rgba(112,202,209,0.15) 0, transparent 25%);
-    color: var(--island-dark); line-height: 1.7; min-height: 100vh;
+        radial-gradient(circle at 12% 10%, rgba(130,213,187,0.18) 0, transparent 26%),
+        radial-gradient(circle at 88% 16%, rgba(137,157,240,0.12) 0, transparent 24%),
+        radial-gradient(circle at 50% 96%, rgba(247,205,103,0.16) 0, transparent 30%);
+    color: var(--text-body); line-height:1.7; min-height:100vh;
+    letter-spacing:0.01em;
 }
-.app { max-width: 1100px; margin: 0 auto; padding: 16px 14px 80px; }
+.app { max-width:1100px; margin:0 auto; padding:18px 16px 90px; }
 
-/* Header */
-.header {
-    background: linear-gradient(135deg, var(--gh-dark) 0%, #1a1f24 100%);
-    border: var(--island-border); border-radius: var(--island-radius);
-    box-shadow: var(--island-shadow); padding: 24px;
-    text-align: center; color: #fff; position: relative; overflow: hidden; margin-bottom: 22px;
+/* ===== Hero 海岛横幅 ===== */
+.hero {
+    position:relative; overflow:hidden;
+    border:2px solid var(--border); border-radius:var(--radius-lg);
+    box-shadow:var(--shadow-card); margin-bottom:18px;
+    background:#cfeede;
+    aspect-ratio: 1600 / 540;
 }
-.header::before { content:""; position:absolute; top:-30px; right:-30px; width:140px; height:140px; background:var(--island-orange); border-radius:50%; opacity:0.4; }
-.header::after  { content:""; position:absolute; bottom:-40px; left:-40px; width:120px; height:120px; background:var(--island-blue); border-radius:50%; opacity:0.3; }
-.header h1 { margin:0 0 6px; font-size:30px; font-weight:900; letter-spacing:1px; text-shadow:2px 2px 0 var(--island-brown); position:relative; }
-.header .sub { margin:0; font-size:14px; opacity:0.9; position:relative; }
-.header .stamp { display:inline-block; margin-top:12px; padding:4px 14px; background:var(--island-yellow); color:var(--island-dark); border-radius:999px; font-size:13px; font-weight:700; border:2px solid var(--island-brown); position:relative; }
-.nav-back { position:absolute; left:18px; top:18px; background:#fff; color:var(--gh-dark); border:2px solid var(--island-brown); border-radius:999px; padding:4px 12px; font-size:12px; font-weight:700; text-decoration:none; box-shadow:0 2px 0 var(--island-brown); z-index:2; }
+.hero img.hero-bg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.hero::after { content:""; position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(255,252,244,0) 30%, rgba(94,74,62,0.32) 100%); }
+.hero-overlay { position:absolute; left:0; right:0; bottom:0; z-index:2; padding:22px 26px 24px; color:#fff; text-align:center; }
+.hero-mascot { position:absolute; right:18px; top:14px; z-index:3; width:108px; height:108px;
+    border-radius:50%; border:3px solid #fff; object-fit:cover;
+    box-shadow:0 6px 16px rgba(61,52,40,0.28); background:var(--bg-content); }
+.nav-back { position:absolute; left:16px; top:14px; z-index:3;
+    background:var(--bg-content); color:var(--text-body);
+    border:2px solid var(--border); border-radius:var(--radius-pill);
+    padding:6px 16px; font-size:13px; font-weight:700; text-decoration:none;
+    box-shadow:var(--shadow-soft); transition:all 0.25s var(--ease); }
+.nav-back:hover { transform:translateY(-1px); color:var(--primary); border-color:var(--primary); }
+.hero-kicker { display:inline-block; background:var(--ac-yellow); color:var(--text-body);
+    font-weight:800; font-size:12px; letter-spacing:2px; padding:4px 16px;
+    border-radius:var(--radius-pill); border:2px solid #d4a030; margin-bottom:10px; }
+.hero h1 { margin:0 0 6px; font-size:38px; font-weight:900; letter-spacing:1px;
+    color:#FFF9E6; text-shadow:0 3px 1px rgba(61,52,40,0.45); }
+.hero .sub { margin:0 auto; font-size:14.5px; font-weight:600; max-width:560px;
+    color:#fffdf6; text-shadow:0 1px 2px rgba(61,52,40,0.4); }
+.hero .stamp { display:inline-block; margin-top:12px; padding:5px 18px;
+    background:var(--bg-content); color:var(--text-body); border-radius:var(--radius-pill);
+    font-size:13px; font-weight:800; border:2px solid var(--border); box-shadow:var(--shadow-soft); }
 
-/* Stats */
-.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin-bottom:20px; }
-.stat-card { background:var(--island-card-bg); border:var(--island-border); border-radius:var(--island-radius-sm); padding:12px 8px; text-align:center; box-shadow:var(--island-shadow-sm); }
-.stat-card .num { font-size:22px; font-weight:900; color:var(--gh-dark); display:block; }
-.stat-card .lbl { font-size:11px; color:var(--island-brown); margin-top:2px; font-weight:600; }
+/* ===== 统计卡 ===== */
+.stats { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:22px; }
+.stat-card {
+    background:var(--bg-content); border:1.5px solid var(--border); border-radius:var(--radius);
+    padding:16px 10px; text-align:center; box-shadow:var(--shadow-soft);
+    position:relative; overflow:hidden;
+    background-image:
+        radial-gradient(circle at 0 0, rgba(25,200,185,0.06) 1.5px, transparent 1.5px),
+        radial-gradient(circle at 7px 7px, rgba(25,200,185,0.05) 1px, transparent 1px);
+    background-size:28px 28px, 14px 14px;
+}
+.stat-card .num { font-size:26px; font-weight:900; color:var(--primary-active); display:block; line-height:1.1; }
+.stat-card .lbl { font-size:12px; color:var(--text-muted); margin-top:4px; font-weight:600; }
 
-/* Lang filter */
-.filter-bar { display:flex; gap:8px; flex-wrap:wrap; justify-content:center; margin-bottom:20px; }
-.filter-btn { background:#fff; border:2px solid var(--island-brown); border-radius:999px; padding:6px 14px; font-size:13px; font-weight:700; color:var(--island-dark); cursor:pointer; box-shadow:0 2px 0 var(--island-brown); transition:transform .1s; }
-.filter-btn:hover { transform:translateY(-1px); }
-.filter-btn.active { background:var(--island-deep); color:#fff; }
+/* ===== 飘带式分区标题 ===== */
+.board { margin:30px 0 20px; display:flex; justify-content:center; }
+.ribbon { position:relative; display:inline-flex; align-items:center; justify-content:center;
+    height:2em; padding:0 1.8em; font-size:23px; font-weight:900; line-height:1;
+    color:var(--rt,#fff); letter-spacing:0.04em;
+    filter:drop-shadow(0 0.08em 0.12em rgba(0,0,0,0.06)); }
+.ribbon .rb-front { position:absolute; inset:0 0.1em; border-radius:0.2em; z-index:2;
+    background:var(--rf,#27d039); transform:perspective(11.5em) rotateX(3deg);
+    box-shadow:inset 0 -0.06em 0 rgba(0,0,0,0.06); }
+.ribbon .rb-tail { position:absolute; width:1.7em; height:1.7em; bottom:-0.36em; z-index:1; background:var(--rb,#20992a); }
+.ribbon .rb-tail.l { left:-0.6em; clip-path:polygon(100% 0%,100% 100%,0% 100%,30% 50%,0% 0%); }
+.ribbon .rb-tail.r { right:-0.6em; clip-path:polygon(0% 0%,100% 0%,70% 50%,100% 100%,0% 100%); }
+.ribbon .rb-fold { position:absolute; width:0; height:0; top:calc(100% - 0.06em); z-index:0; }
+.ribbon .rb-fold.l { left:0.2em; border-style:solid; border-width:0 0.95em 0.45em 0; border-color:transparent var(--rk,#115017) transparent transparent; }
+.ribbon .rb-fold.r { right:0.2em; border-style:solid; border-width:0 0 0.45em 0.95em; border-color:transparent transparent transparent var(--rk,#115017); }
+.ribbon .rb-text { position:relative; z-index:3; padding-top:0.11em; display:inline-flex; align-items:center; gap:0.4em; }
+.ribbon .rb-ico { width:1.5em; height:1.5em; border-radius:0.4em; object-fit:cover; vertical-align:middle;
+    border:2px solid rgba(255,255,255,0.6); }
+.ribbon .rb-count { font-size:0.55em; font-weight:800; padding:0.15em 0.7em; border-radius:var(--radius-pill);
+    background:rgba(255,255,255,0.85); color:var(--text-body); margin-left:0.3em; }
+.ribbon.c-green  { --rf:#2bbf86; --rb:#1f9a6b; --rk:#0f6347; --rt:#fff; }
 
-/* Repo cards */
-.repo-list { display:grid; gap:14px; }
+/* ===== 语言筛选 (Tabs 胶囊风) ===== */
+.filter-bar { display:flex; gap:6px; flex-wrap:wrap; justify-content:center; margin-bottom:22px;
+    padding:10px; background:rgba(247,243,223,0.7); border-radius:var(--radius-lg);
+    border:1.5px dashed rgba(196,184,158,0.6); }
+.filter-btn { background:transparent; border:none; border-radius:var(--radius-pill);
+    padding:7px 16px; font-size:13px; font-weight:600; color:var(--text-muted); cursor:pointer;
+    transition:all 0.2s var(--ease); display:inline-flex; align-items:center; gap:5px; }
+.filter-btn:hover { background:rgba(25,200,185,0.12); color:var(--text-body); }
+.filter-btn.active { background:#0CC0B5; color:#FFF9E3; font-weight:700; box-shadow:0 3px 0 0 var(--shadow-input); }
+
+/* ===== 仓库卡片 ===== */
+.repo-list { display:grid; gap:16px; }
 .repo-card {
-    background:var(--island-card-bg); border:var(--island-border); border-radius:var(--island-radius);
-    padding:16px 18px; box-shadow:var(--island-shadow); position:relative; overflow:hidden;
-    display:grid; grid-template-columns:60px 1fr auto; gap:14px; align-items:start;
+    background:#f3faf6; border:1.5px solid #b9e2d2; border-radius:var(--radius-lg);
+    padding:18px 20px; box-shadow:var(--shadow-soft); position:relative; overflow:hidden;
+    display:grid; grid-template-columns:58px 1fr auto; gap:16px; align-items:start;
+    background-image:
+        radial-gradient(circle at 0 0, rgba(25,200,185,0.07) 1.5px, transparent 1.5px),
+        radial-gradient(circle at 7px 7px, rgba(25,200,185,0.05) 1px, transparent 1px);
+    background-size:28px 28px, 14px 14px;
+    transition:transform 0.2s var(--ease), box-shadow 0.2s var(--ease);
 }
-.repo-card::after { content:""; position:absolute; right:-20px; top:-20px; width:60px; height:60px; border-radius:50%; opacity:0.15; }
-.repo-card[data-rank-change^="↑"]::after { background:var(--gh-up); }
-.repo-card[data-rank-change^="↓"]::after { background:var(--gh-down); }
-.repo-card[data-rank-change="NEW"]::after { background:var(--gh-new); }
+.repo-card:hover { transform:translateY(-2px); box-shadow:var(--shadow-card); }
 
 .rank-badge {
-    width:50px; height:50px; border-radius:14px; background:linear-gradient(135deg,var(--island-deep),var(--island-green));
-    color:#fff; font-size:20px; font-weight:900; display:flex; align-items:center; justify-content:center;
-    border:2px solid var(--island-brown); box-shadow:0 3px 0 var(--island-brown);
+    width:52px; height:52px; border-radius:var(--radius-sm);
+    background:linear-gradient(135deg, var(--primary) 0%, #0f9e91 100%);
+    color:#FFF9E6; font-size:21px; font-weight:900; display:flex; align-items:center; justify-content:center;
+    border:2px solid rgba(255,255,255,0.7); box-shadow:0 4px 0 0 var(--shadow-btn);
 }
-.rank-badge.top3 { background:linear-gradient(135deg,#FFB300,#FF6F00); }
+.rank-badge.top3 { background:linear-gradient(135deg, #f7cd67 0%, #e59266 100%); color:#fff; }
 
 .repo-info { min-width:0; }
-.repo-name { font-size:17px; font-weight:900; color:var(--gh-dark); margin:0 0 4px; word-break:break-all; }
+.repo-name { font-size:18px; font-weight:900; color:var(--text); margin:0 0 6px; word-break:break-all; }
 .repo-name a { color:inherit; text-decoration:none; }
-.repo-name a:hover { color:var(--island-deep); }
-/* 中文一句话定位 */
-.repo-tagline { display:inline-block; font-size:13px; font-weight:800; color:var(--island-deep); background:rgba(142,209,109,0.18); border:1.5px solid var(--island-green); border-radius:999px; padding:3px 12px; margin:0 0 8px; }
-/* 大白话介绍 */
-.repo-cn { font-size:14px; color:var(--island-dark); margin:0 0 8px; line-height:1.65; }
-.repo-cn b { color:var(--island-deep); }
-/* 谁会用它 */
-.repo-who { font-size:12px; color:var(--island-brown); margin:0 0 8px; line-height:1.5; background:var(--island-bg); border-radius:10px; padding:6px 10px; border:1px dashed var(--island-brown); }
-.repo-who::before { content:"👥 适合谁用："; font-weight:800; color:var(--island-deep); }
-/* 英文原描述折叠 */
-.repo-desc { font-size:12px; color:var(--island-brown); margin:0 0 8px; line-height:1.5; opacity:0.7; font-style:italic; }
-.repo-desc::before { content:"📄 原文："; font-style:normal; font-weight:700; }
-.repo-meta { display:flex; flex-wrap:wrap; gap:6px 12px; font-size:12px; color:var(--island-brown); align-items:center; }
-.meta-item { display:inline-flex; align-items:center; gap:3px; font-weight:600; }
-.lang-dot { width:10px; height:10px; border-radius:50%; display:inline-block; }
-.topic-tags { display:flex; flex-wrap:wrap; gap:4px; margin-top:6px; }
-.topic-tag { font-size:10px; background:var(--island-yellow); color:var(--island-dark); padding:2px 8px; border-radius:999px; font-weight:700; border:1px solid var(--island-brown); }
+.repo-name a:hover { color:var(--primary-active); }
+.repo-tagline { display:inline-block; font-size:13px; font-weight:800; color:var(--primary-active);
+    background:var(--primary-bg); border:1.5px solid #9be0d6; border-radius:var(--radius-pill);
+    padding:3px 13px; margin:0 0 9px; }
+.repo-cn { font-size:14px; color:var(--text-body); margin:0 0 9px; line-height:1.7; }
+.repo-cn b { color:var(--primary-active); }
+.repo-who { font-size:12.5px; color:var(--text-muted); margin:0 0 9px; line-height:1.55;
+    background:rgba(247,243,223,0.85); border-radius:var(--radius-sm); padding:7px 12px;
+    border:1.5px dashed var(--shadow-input); }
+.repo-who::before { content:"适合谁用 · "; font-weight:800; color:var(--primary-active); }
+.repo-desc { font-size:12px; color:var(--text-secondary); margin:0 0 9px; line-height:1.5; font-style:italic; }
+.repo-desc::before { content:"原文 · "; font-style:normal; font-weight:700; color:var(--text-muted); }
+.repo-meta { display:flex; flex-wrap:wrap; gap:6px 14px; font-size:12px; color:var(--text-muted); align-items:center; }
+.meta-item { display:inline-flex; align-items:center; gap:4px; font-weight:600; }
+.lang-dot { width:10px; height:10px; border-radius:50%; display:inline-block; border:1px solid rgba(0,0,0,0.08); }
+.topic-tags { display:flex; flex-wrap:wrap; gap:5px; margin-top:8px; }
+.topic-tag { font-size:11px; background:#fff; color:var(--text-body); padding:3px 10px;
+    border-radius:var(--radius-pill); font-weight:700; border:1.5px solid var(--shadow-input); }
 
 /* 跳转按钮区 */
-.repo-actions { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; padding-top:10px; border-top:1px dashed rgba(158,116,83,0.3); }
-.btn-jump { display:inline-flex; align-items:center; gap:5px; font-size:13px; font-weight:800; padding:7px 14px; border-radius:999px; border:2px solid var(--island-brown); box-shadow:0 2px 0 var(--island-brown); text-decoration:none; transition:transform .12s, box-shadow .12s; cursor:pointer; }
-.btn-jump:hover { transform:translateY(-1px); box-shadow:0 3px 0 var(--island-brown); }
-.btn-jump:active { transform:translateY(1px); box-shadow:0 1px 0 var(--island-brown); }
-.btn-jump.primary { background:var(--gh-dark); color:#fff; }
-.btn-jump.primary:hover { background:#1a1f24; }
-.btn-jump.secondary { background:#fff; color:var(--island-dark); }
-.btn-jump.secondary:hover { background:var(--island-bg); }
+.repo-actions { display:flex; flex-wrap:wrap; gap:9px; margin-top:13px; padding-top:11px;
+    border-top:1.5px dashed rgba(185,226,210,0.8); }
+.btn-jump { display:inline-flex; align-items:center; gap:5px; font-size:13px; font-weight:700;
+    padding:8px 16px; border-radius:var(--radius-pill); text-decoration:none;
+    transition:transform 0.15s var(--ease), box-shadow 0.15s var(--ease); cursor:pointer; }
+.btn-jump.primary { background:var(--primary); color:#FFF9E6; border:2px solid rgba(255,255,255,0.5);
+    box-shadow:0 4px 0 0 var(--shadow-btn); }
+.btn-jump.primary:hover { background:var(--primary-hover); transform:translateY(-1px); box-shadow:0 5px 0 0 var(--shadow-btn); }
+.btn-jump.primary:active { transform:translateY(3px); box-shadow:0 1px 0 0 var(--shadow-btn); }
+.btn-jump.secondary { background:#fff; color:var(--text-body); border:1.5px solid var(--border); }
+.btn-jump.secondary:hover { background:var(--bg-content); border-color:var(--primary); color:var(--primary-active); transform:translateY(-1px); }
 
-.repo-right { display:flex; flex-direction:column; align-items:flex-end; gap:6px; min-width:80px; }
-.today-stars { font-size:18px; font-weight:900; color:var(--gh-up); white-space:nowrap; }
-.today-stars::before { content:"⭐ +"; }
-.rank-change { font-size:13px; font-weight:800; padding:3px 9px; border-radius:999px; border:2px solid var(--island-brown); }
-.rank-change.up { background:var(--gh-up); color:#fff; }
-.rank-change.down { background:var(--gh-down); color:#fff; }
-.rank-change.new { background:var(--gh-new); color:#fff; }
-.rank-change.flat { background:#fff; color:var(--island-brown); }
-
-/* Lang colors */
-.lang-Python { background:#3572A5; }
-.lang-TypeScript { background:#2b7489; }
-.lang-JavaScript { background:#F1E05A; }
-.lang-Go { background:#00ADD8; }
-.lang-Rust { background:#DEA584; }
-.lang-Java { background:#B07219; }
-.lang-CPP { background:#F34B7D; }
-.lang-default { background:#9E7453; }
+.repo-right { display:flex; flex-direction:column; align-items:flex-end; gap:7px; min-width:84px; }
+.today-stars { font-size:18px; font-weight:900; color:var(--up); white-space:nowrap; }
+.today-stars::before { content:"今日 +"; font-size:0.62em; font-weight:700; color:var(--text-muted); }
+.rank-change { font-size:12.5px; font-weight:800; padding:4px 11px; border-radius:var(--radius-pill);
+    border:1.5px solid rgba(255,255,255,0.6); white-space:nowrap; }
+.rank-change.up { background:var(--up); color:#fff; }
+.rank-change.down { background:var(--down); color:#fff; }
+.rank-change.new { background:var(--new); color:#fff; }
+.rank-change.flat { background:#fff; color:var(--text-muted); border-color:var(--border); }
 
 /* Footer */
-.footer { text-align:center; margin-top:30px; padding:16px; color:var(--island-brown); font-size:12px; }
-.footer a { color:var(--island-deep); text-decoration:none; font-weight:700; }
+.footer { text-align:center; margin-top:34px; padding:18px; color:var(--text-muted); font-size:12.5px; }
+.footer a { color:var(--primary-active); text-decoration:none; font-weight:700; }
 
-/* Loading */
-.loading { text-align:center; padding:60px 20px; color:var(--island-brown); font-size:14px; }
+.loading { text-align:center; padding:60px 20px; color:var(--text-muted); font-size:14px; }
 
 @media (max-width:640px) {
-    .repo-card { grid-template-columns:44px 1fr; padding:14px; }
-    .rank-badge { width:40px; height:40px; font-size:16px; }
-    .repo-right { grid-column:1/-1; flex-direction:row; justify-content:space-between; padding-top:8px; border-top:1px dashed var(--island-brown); }
+    .hero h1 { font-size:26px; }
+    .hero-mascot { width:72px; height:72px; }
+    .repo-card { grid-template-columns:44px 1fr; padding:15px; }
+    .rank-badge { width:42px; height:42px; font-size:17px; }
+    .repo-right { grid-column:1/-1; flex-direction:row; justify-content:space-between; padding-top:10px; border-top:1.5px dashed rgba(185,226,210,0.8); }
     .stats { grid-template-columns:repeat(2,1fr); }
 }
 </style>
 </head>
 <body>
 <div class="app">
-    <div class="header">
-        <a href="../" class="nav-back">← 返回首页</a>
-        <h1>🐙 GitHub 热榜</h1>
-        <p class="sub">每日 Top 25 开源项目 · 中文大白话解读 · 排名升降一目了然</p>
-        <span class="stamp" id="dateStamp">加载中…</span>
+    <div class="hero">
+        <img class="hero-bg" src="assets/hero-banner.jpg" alt="">
+        <a href="../" class="nav-back">← 返回小岛</a>
+        <img class="hero-mascot" src="assets/mascot.jpg" alt="">
+        <div class="hero-overlay">
+            <span class="hero-kicker">VIBE CODING</span>
+            <h1>开源热榜</h1>
+            <p class="sub">每日 Top 25 开源项目 · 中文大白话解读 · 排名升降一目了然</p>
+            <span class="stamp" id="dateStamp">加载中…</span>
+        </div>
     </div>
 
     <div class="stats" id="statsRow">
         <div class="stat-card"><span class="num" id="statTotal">—</span><span class="lbl">今日上榜</span></div>
         <div class="stat-card"><span class="num" id="statNew">—</span><span class="lbl">新晋项目</span></div>
         <div class="stat-card"><span class="num" id="statUp">—</span><span class="lbl">排名上升</span></div>
-        <div class="stat-card"><span class="num" id="statStars">—</span><span class="lbl">总新增 ⭐</span></div>
+        <div class="stat-card"><span class="num" id="statStars">—</span><span class="lbl">今日新增星标</span></div>
+    </div>
+
+    <div class="board">
+        <div class="ribbon c-green">
+            <span class="rb-tail l"></span><span class="rb-tail r"></span>
+            <span class="rb-fold l"></span><span class="rb-fold r"></span>
+            <span class="rb-front"></span>
+            <span class="rb-text"><img class="rb-ico" src="assets/ico-rank.jpg" alt="">今日开源热榜<span class="rb-count" id="cntRepo">0</span></span>
+        </div>
     </div>
 
     <div class="filter-bar" id="filterBar">
@@ -170,11 +256,11 @@ body {
     </div>
 
     <div class="repo-list" id="repoList">
-        <div class="loading">🌴 加载今日榜单中…</div>
+        <div class="loading">加载今日榜单中…</div>
     </div>
 
     <div class="footer">
-        <p>数据来源: <a href="https://github.com/trending" target="_blank">GitHub Trending</a> · 每日 08:00 北京时间更新</p>
+        <p>数据来源：<a href="https://github.com/trending" target="_blank" rel="noopener">GitHub Trending</a> · 每日 08:00 北京时间更新</p>
         <p><a href="../">← 返回森林小岛日报首页</a></p>
     </div>
 </div>
@@ -195,12 +281,13 @@ async function load() {
         if (!r.ok) throw new Error('fetch fail');
         const doc = await r.json();
         ALL_REPOS = doc.repos || [];
-        document.getElementById('dateStamp').textContent = '📅 ' + doc.date;
+        document.getElementById('dateStamp').textContent = doc.date;
+        document.getElementById('cntRepo').textContent = ALL_REPOS.length;
         renderStats();
         renderFilterBar();
         render();
     } catch(e) {
-        document.getElementById('repoList').innerHTML = '<div class="loading">😢 加载失败: ' + e.message + '</div>';
+        document.getElementById('repoList').innerHTML = '<div class="loading">加载失败：' + e.message + '</div>';
     }
 }
 
@@ -235,39 +322,37 @@ function render() {
     const list = document.getElementById('repoList');
     const repos = CUR_LANG==='all' ? ALL_REPOS : ALL_REPOS.filter(r=>r.language===CUR_LANG);
     if (!repos.length) { list.innerHTML = '<div class="loading">该语言今日无项目</div>'; return; }
-    list.innerHTML = repos.map((r,i) => {
+    list.innerHTML = repos.map((r) => {
         const realRank = ALL_REPOS.indexOf(r) + 1;
         const rcCls = r.rank_change==='NEW' ? 'new' : r.rank_change && r.rank_change.startsWith('↑') ? 'up' : r.rank_change && r.rank_change.startsWith('↓') ? 'down' : 'flat';
-        const langColor = LANG_COLORS[r.language] || '#9E7453';
+        const langColor = LANG_COLORS[r.language] || '#9a835a';
         const esc = s => (s||'').replace(/</g,'&lt;');
-        // 中文话题优先，没有就用英文 topics
         const tagSrc = (r.cn_topics && r.cn_topics.length) ? r.cn_topics : (r.topics||[]);
         const topics = tagSrc.slice(0,5).map(t=>'<span class="topic-tag">#'+esc(t)+'</span>').join('');
         const desc = esc(r.description||'暂无描述');
         const starsK = r.stars >= 1000 ? (r.stars/1000).toFixed(1)+'k' : r.stars;
-        // 中文大白话区块（cn_summary 可能含 <b> 强调，不转义）
         const tagline = r.cn_tagline ? '<span class="repo-tagline">'+esc(r.cn_tagline)+'</span>' : '';
         const cnSummary = r.cn_summary ? '<p class="repo-cn">'+r.cn_summary+'</p>' : '';
         const cnWho = r.cn_who ? '<p class="repo-who">'+esc(r.cn_who)+'</p>' : '';
-        return `<div class="repo-card" data-rank-change="${r.rank_change||''}">
+        return `<div class="repo-card">
             <div class="rank-badge ${realRank<=3?'top3':''}">${realRank}</div>
             <div class="repo-info">
-                <h3 class="repo-name"><a href="${r.html_url}" target="_blank">${r.repo}</a></h3>
+                <h3 class="repo-name"><a href="${r.html_url}" target="_blank" rel="noopener">${r.repo}</a></h3>
                 ${tagline}
                 ${cnSummary}
                 ${cnWho}
                 <p class="repo-desc">${desc}</p>
                 <div class="repo-meta">
-                    ${r.language ? '<span class="meta-item">💻 语言：<span class="lang-dot" style="background:'+langColor+'"></span>'+r.language+'</span>' : ''}
-                    <span class="meta-item">⭐ 累计星标 ${starsK}</span>
-                    <span class="meta-item">🍴 分支 ${r.forks||0}</span>
-                    ${r.license ? '<span class="meta-item">📜 开源协议 '+r.license+'</span>' : ''}
+                    ${r.language ? '<span class="meta-item">语言 <span class="lang-dot" style="background:'+langColor+'"></span>'+r.language+'</span>' : ''}
+                    <span class="meta-item">累计星标 ${starsK}</span>
+                    <span class="meta-item">分支 ${r.forks||0}</span>
+                    ${r.license ? '<span class="meta-item">协议 '+r.license+'</span>' : ''}
                 </div>
                 ${topics ? '<div class="topic-tags">'+topics+'</div>' : ''}
                 <div class="repo-actions">
-                    <a class="btn-jump primary" href="${r.html_url}" target="_blank" rel="noopener">🐙 去 GitHub 看项目</a>
-                    <a class="btn-jump secondary" href="${r.html_url}/stargazers" target="_blank" rel="noopener">⭐ 谁在 star</a>
-                    ${r.language ? `<a class="btn-jump secondary" href="https://github.com/trending/${encodeURIComponent(r.language.toLowerCase())}?since=daily" target="_blank" rel="noopener">🔥 同语言热榜</a>` : ''}
+                    <a class="btn-jump primary" href="${r.html_url}" target="_blank" rel="noopener">去 GitHub 看项目</a>
+                    <a class="btn-jump secondary" href="${r.html_url}/stargazers" target="_blank" rel="noopener">谁在 Star</a>
+                    ${r.language ? `<a class="btn-jump secondary" href="https://github.com/trending/${encodeURIComponent(r.language.toLowerCase())}?since=daily" target="_blank" rel="noopener">同语言热榜</a>` : ''}
                 </div>
             </div>
             <div class="repo-right">
