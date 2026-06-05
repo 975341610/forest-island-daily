@@ -87,6 +87,14 @@ body {
 .hero .stamp { display:inline-block; margin-top:12px; padding:5px 18px;
     background:var(--bg-content); color:var(--text-body); border-radius:var(--radius-pill);
     font-size:13px; font-weight:800; border:2px solid var(--border); box-shadow:var(--shadow-soft); }
+.hero .date-switch { display:inline-flex; align-items:center; gap:6px; margin-top:12px; margin-left:8px; }
+.hero .date-switch label { font-size:12px; font-weight:700; color:#fffdf6; text-shadow:0 1px 2px rgba(61,52,40,0.4); }
+.hero .date-switch select { font-family:var(--font); font-size:13px; font-weight:800;
+    color:var(--text-body); background:var(--bg-content); border:2px solid var(--border);
+    border-radius:var(--radius-pill); padding:5px 14px; cursor:pointer; box-shadow:var(--shadow-soft); outline:none; }
+.hero .date-switch select:focus { border-color:var(--focus-yellow); }
+.hist-badge { display:inline-block; margin-left:8px; font-size:11px; font-weight:800; color:#fff;
+    background:var(--ac-orange); border-radius:var(--radius-pill); padding:2px 11px; vertical-align:middle; }
 
 /* ===== 吸顶锚点导航 (Tabs 风) ===== */
 .anchor-nav { position:sticky; top:0; z-index:20;
@@ -219,7 +227,13 @@ body {
             <span class="hero-kicker">FOREST ISLAND · COMMUNITY</span>
             <h1>社区频道</h1>
             <p class="sub">今日热帖 · 热门话题 · 优质创作者 —— 一页看全科技数码圈在聊什么</p>
-            <span class="stamp" id="dateStamp">加载中…</span>
+            <div>
+                <span class="stamp" id="dateStamp">加载中…</span>
+                <span class="date-switch">
+                    <label for="dateSelect">历史回看</label>
+                    <select id="dateSelect"><option value="">加载中…</option></select>
+                </span>
+            </div>
         </div>
     </header>
 
@@ -298,15 +312,64 @@ function nameInitial(name){
     return cn.charAt(0) || '岛';
 }
 
+let LATEST_DATE = null;
+
+function render(){
+    if(!DATA){ return; }
+    document.getElementById('dateStamp').textContent = DATA.date || '';
+    renderPosts(); renderTopics(); renderCreators();
+    // 历史回看徽章：当前查看的不是最新一天时提示
+    const stamp = document.getElementById('dateStamp');
+    const old = stamp.querySelector('.hist-badge'); if(old) old.remove();
+    if(LATEST_DATE && DATA.date && DATA.date !== LATEST_DATE){
+        const b=document.createElement('span'); b.className='hist-badge'; b.textContent='历史存档';
+        stamp.after(b);
+    }
+}
+
+async function fetchDay(date){
+    // date 为空 → 取最新 today.json；否则取 archive 快照
+    const path = date ? ('../data/channels/community/archive/'+date+'.json')
+                      : '../data/channels/community/community-today.json';
+    const r = await fetch(path+'?t='+Date.now());
+    if(!r.ok) throw new Error('fetch fail');
+    return await r.json();
+}
+
 async function load(){
     try {
-        const r = await fetch('../data/channels/community/community-today.json?t='+Date.now());
-        if(!r.ok) throw new Error('fetch fail');
-        DATA = await r.json();
-        document.getElementById('dateStamp').textContent = DATA.date;
-        renderPosts(); renderTopics(); renderCreators();
+        DATA = await fetchDay('');
+        render();
+        // 拉取历史索引，填充日期下拉
+        try {
+            const ir = await fetch('../data/channels/community/index.json?t='+Date.now());
+            if(ir.ok){
+                const idx = await ir.json();
+                const dates = (idx.dates||[]).slice();
+                LATEST_DATE = idx.latest || DATA.date;
+                const sel = document.getElementById('dateSelect');
+                if(dates.length){
+                    sel.innerHTML = dates.map((d,i)=>`<option value="${d}"${d===DATA.date?' selected':''}>${d}${i===0?' · 最新':''}</option>`).join('');
+                } else {
+                    sel.innerHTML = `<option value="" selected>${esc(DATA.date||'今日')}</option>`;
+                }
+            }
+        } catch(e){ /* 索引缺失不影响主内容 */ }
+        // 重新渲染一次以补上历史徽章判断
+        render();
     } catch(e){
         document.getElementById('postList').innerHTML = '<div class="loading">加载失败: '+e.message+'</div>';
+    }
+}
+
+async function switchDate(date){
+    try {
+        const isLatest = (date===LATEST_DATE);
+        DATA = await fetchDay(isLatest ? '' : date);
+        render();
+        window.scrollTo({top:0, behavior:'smooth'});
+    } catch(e){
+        document.getElementById('postList').innerHTML = '<div class="loading">该日期存档加载失败: '+e.message+'</div>';
     }
 }
 
@@ -366,6 +429,11 @@ window.addEventListener('scroll',()=>{
     const y=window.scrollY+120; let cur=0;
     secs.forEach((s,i)=>{ if(s && s.offsetTop<=y) cur=i; });
     navLinks.forEach((a,i)=>a.classList.toggle('active',i===cur));
+});
+
+// 历史日期切换
+document.getElementById('dateSelect').addEventListener('change', e=>{
+    switchDate(e.target.value);
 });
 
 load();
