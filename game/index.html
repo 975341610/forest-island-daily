@@ -3,194 +3,283 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#E60012">
+<meta name="theme-color" content="#19c8b9">
 <title>游戏频道 · 森林小岛</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
 :root {
-    --island-green:    #8ED16D;
-    --island-deep:     #6BAE52;
-    --island-blue:     #70CAD1;
-    --island-yellow:   #F0DE65;
-    --island-orange:   #F2A65A;
-    --island-pink:     #F8B5C1;
-    --island-brown:    #9E7453;
-    --island-dark:     #5A4A3E;
-    --island-bg:       #FEF9E7;
-    --island-card-bg:  #FFFEF5;
-    --island-radius:   26px;
-    --island-radius-sm:16px;
-    --island-border:   3px solid var(--island-brown);
-    --island-shadow:   0 6px 0 var(--island-brown), 0 9px 20px rgba(94,74,62,0.18);
-    --island-shadow-sm:0 3px 0 var(--island-brown), 0 4px 10px rgba(94,74,62,0.14);
-    --game-red:        #E60012;
-    --game-dark:       #2A1216;
+    /* animal-island-ui 设计 token */
+    --primary:        #19c8b9;
+    --primary-hover:  #3dd4c6;
+    --primary-active: #11a89b;
+    --primary-bg:     #e6f9f6;
+    --text:           #794f27;
+    --text-body:      #725d42;
+    --text-secondary: #9f927d;
+    --text-muted:     #8a7b66;
+    --text-disabled:  #c4b89e;
+    --bg:             #f8f8f0;
+    --bg-content:     rgb(247, 243, 223);
+    --border:         #c4b89e;
+    --border-hover:   #a89878;
+    --shadow-btn:     #bdaea0;
+    --shadow-input:   #d4c9b4;
+    --focus-yellow:   #ffcc00;
+    --success:        #6fba2c;
+    --warning:        #f5c31c;
+    --error:          #e05a5a;
+    --radius-sm:      12px;
+    --radius:         18px;
+    --radius-lg:      24px;
+    --radius-pill:    50px;
+    --ease:           cubic-bezier(0.4, 0, 0.2, 1);
+    --shadow-soft:    0 3px 10px 0 rgba(61,52,40,0.10);
+    --shadow-card:    0 8px 24px 0 rgba(61,52,40,0.12);
+    --font:           Nunito, 'Noto Sans SC', -apple-system, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    /* NookPhone 调色板 */
+    --ac-pink:#f8a6b2; --ac-purple:#b77dee; --ac-blue:#889df0; --ac-yellow:#f7cd67;
+    --ac-orange:#e59266; --ac-teal:#82d5bb; --ac-green:#8ac68a; --ac-red:#fc736d;
+    --ac-lime:#d1da49; --ac-brown:#9a835a; --ac-peach:#e18c6f;
 }
 * { box-sizing: border-box; }
 body {
     margin:0; padding:0;
-    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
-    background: var(--island-bg);
+    font-family: var(--font);
+    font-weight:500;
+    background: var(--bg);
     background-image:
-        radial-gradient(circle at 8% 12%, rgba(230,0,18,0.08) 0, transparent 22%),
-        radial-gradient(circle at 92% 30%, rgba(112,202,209,0.16) 0, transparent 24%),
-        radial-gradient(circle at 50% 90%, rgba(240,222,101,0.18) 0, transparent 26%);
-    color: var(--island-dark); line-height:1.7; min-height:100vh;
+        radial-gradient(circle at 12% 10%, rgba(130,213,187,0.18) 0, transparent 26%),
+        radial-gradient(circle at 88% 16%, rgba(137,157,240,0.12) 0, transparent 24%),
+        radial-gradient(circle at 50% 96%, rgba(247,205,103,0.16) 0, transparent 30%);
+    color: var(--text-body); line-height:1.7; min-height:100vh;
+    letter-spacing:0.01em;
 }
-.app { max-width:1180px; margin:0 auto; padding:16px 16px 90px; }
+.app { max-width:1180px; margin:0 auto; padding:18px 16px 90px; }
 
-/* ===== 海报式 Hero 头图 ===== */
+/* ===== Hero 海岛横幅 ===== */
 .hero {
-    position:relative; overflow:hidden; border:var(--island-border); border-radius:var(--island-radius);
-    box-shadow:var(--island-shadow); margin-bottom:26px;
-    background: linear-gradient(135deg, var(--game-red) 0%, #B3000E 48%, var(--game-dark) 100%);
-    padding:34px 28px 30px; color:#fff;
+    position:relative; overflow:hidden;
+    border:2px solid var(--border); border-radius:var(--radius-lg);
+    box-shadow:var(--shadow-card); margin-bottom:18px;
+    background:#cfeede;
+    aspect-ratio: 1600 / 540;
 }
-.hero::before { content:""; position:absolute; top:-60px; right:-40px; width:200px; height:200px; background:var(--island-yellow); border-radius:50%; opacity:0.28; }
-.hero::after  { content:""; position:absolute; bottom:-70px; left:-50px; width:180px; height:180px; background:var(--island-blue); border-radius:50%; opacity:0.24; }
-/* 撒在头图上的可爱小图标 */
-.hero .confetti { position:absolute; font-size:26px; opacity:0.85; filter:drop-shadow(0 2px 0 rgba(0,0,0,.25)); pointer-events:none; }
-.hero .c1 { top:18px; left:24px; transform:rotate(-12deg); }
-.hero .c2 { top:60px; right:120px; font-size:20px; transform:rotate(10deg); }
-.hero .c3 { bottom:24px; right:40px; font-size:30px; transform:rotate(-8deg); }
-.hero .c4 { bottom:60px; left:140px; font-size:18px; transform:rotate(14deg); }
-.nav-back { position:absolute; left:18px; top:18px; background:#fff; color:var(--game-red); border:2px solid var(--island-brown); border-radius:999px; padding:5px 14px; font-size:12px; font-weight:800; text-decoration:none; box-shadow:0 2px 0 var(--island-brown); z-index:3; }
-.hero-inner { position:relative; z-index:2; text-align:center; }
-.hero-kicker { display:inline-block; background:var(--island-yellow); color:var(--island-dark); font-weight:900; font-size:12px; letter-spacing:2px; padding:4px 16px; border-radius:999px; border:2px solid var(--island-brown); box-shadow:0 2px 0 var(--island-brown); margin-bottom:14px; }
-.hero h1 { margin:0 0 8px; font-size:42px; font-weight:900; letter-spacing:2px; text-shadow:3px 3px 0 var(--game-dark); }
-.hero .sub { margin:0 auto; font-size:15px; opacity:0.95; max-width:560px; }
-.hero .stamp { display:inline-block; margin-top:16px; padding:5px 18px; background:#fff; color:var(--game-red); border-radius:999px; font-size:13px; font-weight:800; border:2px solid var(--island-brown); box-shadow:0 2px 0 var(--island-brown); }
+.hero img.hero-bg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.hero::after { content:""; position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(255,252,244,0) 30%, rgba(94,74,62,0.32) 100%); }
+.hero-overlay { position:absolute; left:0; right:0; bottom:0; z-index:2; padding:22px 26px 24px; color:#fff; text-align:center; }
+.hero-mascot { position:absolute; right:18px; top:14px; z-index:3; width:108px; height:108px;
+    border-radius:50%; border:3px solid #fff; object-fit:cover;
+    box-shadow:0 6px 16px rgba(61,52,40,0.28); background:var(--bg-content); }
+.nav-back { position:absolute; left:16px; top:14px; z-index:3;
+    background:var(--bg-content); color:var(--text-body);
+    border:2px solid var(--border); border-radius:var(--radius-pill);
+    padding:6px 16px; font-size:13px; font-weight:700; text-decoration:none;
+    box-shadow:var(--shadow-soft); transition:all 0.25s var(--ease); }
+.nav-back:hover { transform:translateY(-1px); color:var(--primary); border-color:var(--primary); }
+.hero-kicker { display:inline-block; background:var(--ac-yellow); color:var(--text-body);
+    font-weight:800; font-size:12px; letter-spacing:2px; padding:4px 16px;
+    border-radius:var(--radius-pill); border:2px solid #d4a030; margin-bottom:10px; }
+.hero h1 { margin:0 0 6px; font-size:40px; font-weight:900; letter-spacing:1px;
+    color:#FFF9E6; text-shadow:0 3px 1px rgba(61,52,40,0.45); }
+.hero .sub { margin:0 auto; font-size:14.5px; font-weight:600; max-width:560px;
+    color:#fffdf6; text-shadow:0 1px 2px rgba(61,52,40,0.4); }
+.hero .stamp { display:inline-block; margin-top:12px; padding:5px 18px;
+    background:var(--bg-content); color:var(--text-body); border-radius:var(--radius-pill);
+    font-size:13px; font-weight:800; border:2px solid var(--border); box-shadow:var(--shadow-soft); }
 
-/* ===== 锚点导航(吸顶) ===== */
-.anchor-nav { position:sticky; top:0; z-index:20; display:flex; gap:10px; justify-content:center; flex-wrap:wrap;
-    padding:10px; margin:0 -16px 26px; background:rgba(254,249,231,0.86); backdrop-filter:blur(6px); border-bottom:2px dashed rgba(158,116,83,0.35); }
-.anchor-nav a { background:#fff; border:2px solid var(--island-brown); border-radius:999px; padding:7px 18px; font-size:14px; font-weight:800; color:var(--island-dark); text-decoration:none; box-shadow:0 2px 0 var(--island-brown); transition:transform .1s, background .15s; }
-.anchor-nav a:hover { transform:translateY(-1px); }
-.anchor-nav a.active { background:var(--game-red); color:#fff; }
+/* ===== 吸顶锚点导航 (Tabs 风) ===== */
+.anchor-nav { position:sticky; top:0; z-index:20;
+    display:flex; gap:4px; justify-content:center; flex-wrap:wrap;
+    padding:10px; margin:0 -16px 24px;
+    background:rgba(248,248,240,0.9); backdrop-filter:blur(8px);
+    border-bottom:2px dashed rgba(196,184,158,0.5); }
+.anchor-nav a { background:transparent; border:none; border-radius:var(--radius-pill);
+    padding:8px 20px; font-size:14px; font-weight:600; color:var(--text-muted);
+    text-decoration:none; transition:all 0.2s ease; display:inline-flex; align-items:center; gap:6px; }
+.anchor-nav a:hover { background:rgba(25,200,185,0.1); color:var(--text-body); }
+.anchor-nav a.active { background:#0CC0B5; color:#FFF9E3; font-weight:700; box-shadow:0 3px 0 0 var(--shadow-input); }
 
-/* ===== 可爱公告牌分区标题 ===== */
-.board { position:relative; margin:34px 0 20px; text-align:center; }
-.board-sign { display:inline-block; position:relative; background:var(--island-card-bg); border:var(--island-border);
-    border-radius:var(--island-radius-sm); padding:10px 30px; box-shadow:var(--island-shadow-sm); }
-.board-sign h2 { margin:0; font-size:22px; font-weight:900; color:var(--game-dark); display:flex; align-items:center; gap:10px; }
-.board-sign .count { font-size:13px; font-weight:800; color:#fff; background:var(--game-red); border:2px solid var(--island-brown); border-radius:999px; padding:1px 10px; }
-/* 公告牌两侧木桩 */
-.board-sign::before, .board-sign::after { content:""; position:absolute; bottom:-14px; width:8px; height:16px; background:var(--island-brown); border-radius:0 0 4px 4px; }
-.board-sign::before { left:26px; }
-.board-sign::after  { right:26px; }
+/* ===== 飘带式分区标题 (Title swallowtail ribbon) ===== */
+.board { margin:34px 0 22px; display:flex; justify-content:center; }
+.ribbon { position:relative; display:inline-flex; align-items:center; justify-content:center;
+    height:2em; padding:0 1.8em; font-size:24px; font-weight:900; line-height:1;
+    color:var(--rt,#fff); letter-spacing:0.04em;
+    filter:drop-shadow(0 0.08em 0.12em rgba(0,0,0,0.06)); }
+.ribbon .rb-front { position:absolute; inset:0 0.1em; border-radius:0.2em; z-index:2;
+    background:var(--rf,#27d039); transform:perspective(11.5em) rotateX(3deg);
+    box-shadow:inset 0 -0.06em 0 rgba(0,0,0,0.06); }
+.ribbon .rb-tail { position:absolute; width:1.7em; height:1.7em; bottom:-0.36em; z-index:1; background:var(--rb,#20992a); }
+.ribbon .rb-tail.l { left:-0.6em; clip-path:polygon(100% 0%,100% 100%,0% 100%,30% 50%,0% 0%); }
+.ribbon .rb-tail.r { right:-0.6em; clip-path:polygon(0% 0%,100% 0%,70% 50%,100% 100%,0% 100%); }
+.ribbon .rb-fold { position:absolute; width:0; height:0; top:calc(100% - 0.06em); z-index:0; }
+.ribbon .rb-fold.l { left:0.2em; border-style:solid; border-width:0 0.95em 0.45em 0; border-color:transparent var(--rk,#115017) transparent transparent; }
+.ribbon .rb-fold.r { right:0.2em; border-style:solid; border-width:0 0 0.45em 0.95em; border-color:transparent transparent transparent var(--rk,#115017); }
+.ribbon .rb-text { position:relative; z-index:3; padding-top:0.11em; display:inline-flex; align-items:center; gap:0.4em; }
+.ribbon .rb-ico { width:1.5em; height:1.5em; border-radius:0.4em; object-fit:cover; vertical-align:middle;
+    border:2px solid rgba(255,255,255,0.6); }
+.ribbon .rb-count { font-size:0.55em; font-weight:800; padding:0.15em 0.7em; border-radius:var(--radius-pill);
+    background:rgba(255,255,255,0.85); color:var(--text-body); margin-left:0.3em; }
+/* 三套配色 */
+.ribbon.c-green  { --rf:#2bbf86; --rb:#1f9a6b; --rk:#0f6347; --rt:#fff; }
+.ribbon.c-yellow { --rf:#f7cd67; --rb:#d4a030; --rk:#8a6010; --rt:#725d42; }
+.ribbon.c-blue   { --rf:#889df0; --rb:#5f78d8; --rk:#2f449a; --rt:#fff; }
 
-/* ===== 发售时间表:海报杂志卡 ===== */
+/* ===== 发售时间表卡片 ===== */
 .rel-mag { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; }
-.rel-card {
-    position:relative; overflow:hidden; background:var(--island-card-bg); border:var(--island-border);
-    border-radius:var(--island-radius); box-shadow:var(--island-shadow); display:flex; flex-direction:column;
-}
-.rel-poster { position:relative; padding:16px 18px; color:#fff; background:linear-gradient(135deg,var(--game-red),#7a000b); overflow:hidden; }
-.rel-poster::after { content:""; position:absolute; right:-26px; top:-26px; width:90px; height:90px; border-radius:50%; background:#fff; opacity:0.12; }
-.rel-ribbon { position:absolute; top:14px; right:-34px; transform:rotate(38deg); background:var(--island-yellow); color:var(--island-dark);
-    font-size:11px; font-weight:900; padding:3px 38px; border-top:1px solid var(--island-brown); border-bottom:1px solid var(--island-brown); box-shadow:0 1px 3px rgba(0,0,0,.2); }
-.rel-date-big { font-size:13px; font-weight:800; opacity:0.92; }
-.rel-name { font-size:21px; font-weight:900; margin:4px 0 2px; text-shadow:2px 2px 0 rgba(0,0,0,.25); line-height:1.2; }
-.rel-name .hype { margin-left:6px; font-size:16px; }
-.rel-en { font-size:12px; font-weight:600; opacity:0.82; }
-.rel-countdown { display:inline-block; margin-top:10px; background:#fff; color:var(--game-red); font-weight:900; font-size:13px; padding:3px 14px; border-radius:999px; border:2px solid var(--island-brown); }
+.rel-card { position:relative; overflow:hidden; background:var(--bg-content);
+    border:2px solid var(--border); border-radius:var(--radius-lg);
+    display:flex; flex-direction:column; transition:transform 0.3s var(--ease), box-shadow 0.3s var(--ease); }
+.rel-card:hover { transform:translateY(-3px); box-shadow:var(--shadow-card); }
+.rel-poster { position:relative; padding:16px 18px 14px; color:#fff; overflow:hidden;
+    background:linear-gradient(135deg, var(--primary) 0%, #0f9e91 100%); }
+.rel-poster::after { content:""; position:absolute; right:-24px; top:-24px; width:88px; height:88px;
+    border-radius:50%; background:#fff; opacity:0.12; }
+.rel-ribbon { position:absolute; top:14px; right:-32px; transform:rotate(38deg);
+    background:var(--ac-yellow); color:var(--text-body); font-size:11px; font-weight:800;
+    padding:3px 36px; box-shadow:0 1px 3px rgba(61,52,40,0.2); }
+.rel-date-big { font-size:13px; font-weight:700; opacity:0.95; }
+.rel-name { font-size:21px; font-weight:900; margin:4px 0 2px; line-height:1.2; text-shadow:0 2px 0 rgba(61,52,40,0.18); }
+.rel-name .hype { margin-left:6px; font-size:15px; }
+.rel-en { font-size:12px; font-weight:600; opacity:0.85; }
+.rel-countdown { display:inline-block; margin-top:10px; background:var(--bg-content);
+    color:var(--primary-active); font-weight:800; font-size:13px; padding:3px 14px;
+    border-radius:var(--radius-pill); }
 .rel-body { padding:14px 18px 16px; }
-.rel-studio { font-size:12px; color:var(--island-brown); font-weight:800; margin:0 0 6px; }
-.rel-studio::before { content:"🏢 "; }
-.rel-summary { font-size:14px; color:var(--island-dark); line-height:1.62; margin:0 0 12px; }
+.rel-studio { font-size:12px; color:var(--text-secondary); font-weight:700; margin:0 0 6px; }
+.rel-summary { font-size:13.5px; color:var(--text-body); line-height:1.62; margin:0 0 12px; }
 .plat-row { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px; }
-.plat-pill { font-size:11px; font-weight:800; padding:3px 11px; border-radius:999px; border:2px solid var(--island-brown); box-shadow:0 1px 0 var(--island-brown); }
-.plat-PC { background:#1B2838; color:#fff; }
-.plat-PS5 { background:#003791; color:#fff; }
-.plat-Xbox { background:#107C10; color:#fff; }
-.plat-Switch { background:#E60012; color:#fff; }
-.plat-default { background:#fff; color:var(--island-dark); }
+.plat-pill { font-size:11px; font-weight:700; padding:3px 12px; border-radius:var(--radius-pill); border:2px solid; }
+.plat-PC     { background:#eef3f0; color:#52677a; border-color:#cdd9d3; }
+.plat-PS5    { background:#eaf0ff; color:#41589a; border-color:#c7d4f4; }
+.plat-Xbox   { background:#ecf6ec; color:#4e8a4e; border-color:#cbe3cb; }
+.plat-Switch { background:#fdeef0; color:#c25560; border-color:#f3ccd2; }
+.plat-default{ background:var(--bg); color:var(--text-muted); border-color:var(--border); }
 .rel-tags { display:flex; flex-wrap:wrap; gap:6px; }
-.rel-genre { font-size:11px; background:var(--island-yellow); color:var(--island-dark); padding:2px 10px; border-radius:999px; font-weight:700; border:1px solid var(--island-brown); }
+.rel-genre { font-size:11px; background:#fdf5dd; color:#9a7b2e; padding:2px 11px;
+    border-radius:var(--radius-pill); font-weight:600; border:1.5px solid #ecd99a; }
 
-/* ===== 热点:杂志瀑布网格 ===== */
+/* ===== 热点瀑布卡片 (Card pattern 波点墙纸) ===== */
 .hot-mag { columns:3; column-gap:18px; }
-.hot-card { break-inside:avoid; margin-bottom:18px; background:var(--island-card-bg); border:var(--island-border);
-    border-radius:var(--island-radius-sm); box-shadow:var(--island-shadow-sm); padding:16px 18px; position:relative; overflow:hidden; }
-.hot-card::before { content:""; position:absolute; left:0; top:0; width:100%; height:6px; background:var(--game-red); }
-.hot-tag { display:inline-block; font-size:11px; font-weight:900; color:#fff; background:var(--game-red); border:1.5px solid var(--island-brown); border-radius:999px; padding:2px 12px; margin:4px 0 8px; }
-.hot-title { font-size:16px; font-weight:900; color:var(--game-dark); margin:0 0 7px; line-height:1.3; }
-.hot-summary { font-size:13.5px; color:var(--island-dark); line-height:1.6; margin:0 0 12px; }
-.hot-foot { display:flex; align-items:center; gap:8px; padding-top:10px; border-top:1px dashed rgba(158,116,83,0.35); }
-.hot-source { font-size:12px; color:var(--island-brown); font-weight:700; }
-.btn-src { margin-left:auto; display:inline-flex; align-items:center; gap:4px; font-size:12px; font-weight:800; padding:5px 13px; border-radius:999px; border:2px solid var(--island-brown); box-shadow:0 2px 0 var(--island-brown); text-decoration:none; background:var(--game-dark); color:#fff; transition:transform .12s; white-space:nowrap; }
-.btn-src:hover { transform:translateY(-1px); }
+.hot-card { break-inside:avoid; margin-bottom:18px; position:relative; overflow:hidden;
+    border-radius:var(--radius); padding:18px 20px;
+    background:
+        radial-gradient(circle, rgba(130,213,187,0.16) 1.5px, transparent 1.5px) 0 0/28px 28px,
+        radial-gradient(circle, rgba(130,213,187,0.10) 1px, transparent 1px) 7px 7px/14px 14px,
+        #f3faf6;
+    border:1.5px solid #b9e2d2;
+    transition:transform 0.3s var(--ease), box-shadow 0.3s var(--ease); }
+.hot-card:hover { transform:translateY(-2px); box-shadow:var(--shadow-card); }
+.hot-tag { display:inline-block; font-size:11px; font-weight:800; color:#fff;
+    background:var(--primary); border-radius:var(--radius-pill); padding:3px 13px; margin:0 0 8px; }
+.hot-title { font-size:16px; font-weight:800; color:var(--text); margin:0 0 7px; line-height:1.35; }
+.hot-summary { font-size:13.5px; color:var(--text-body); line-height:1.62; margin:0 0 12px; }
+.hot-foot { display:flex; align-items:center; gap:8px; padding-top:10px;
+    border-top:1.5px dashed rgba(196,184,158,0.55); }
+.hot-source { font-size:12px; color:var(--text-secondary); font-weight:700; }
+.btn-src { margin-left:auto; display:inline-flex; align-items:center; gap:4px;
+    font-size:12px; font-weight:700; padding:6px 14px; border-radius:var(--radius-pill);
+    text-decoration:none; background:var(--bg); color:var(--text);
+    border:2px solid var(--bg); box-shadow:0 4px 0 0 var(--shadow-btn);
+    transition:all 0.25s var(--ease); white-space:nowrap; }
+.btn-src:hover { transform:translateY(-1px); box-shadow:0 5px 0 0 var(--shadow-btn); color:var(--primary-active); }
+.btn-src:active { transform:translateY(2px); box-shadow:0 1px 0 0 var(--shadow-btn); }
 
-/* ===== 厂商动向:紧凑公告条 ===== */
+/* ===== 厂商动向 ===== */
 .studio-list { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }
-.studio-card { display:flex; gap:12px; align-items:flex-start; background:var(--island-card-bg); border:var(--island-border);
-    border-radius:var(--island-radius-sm); box-shadow:var(--island-shadow-sm); padding:14px 16px; position:relative; }
-.studio-badge { flex:0 0 auto; width:46px; height:46px; border-radius:14px; background:linear-gradient(135deg,var(--island-deep),var(--island-green));
-    border:2px solid var(--island-brown); box-shadow:0 2px 0 var(--island-brown); display:flex; align-items:center; justify-content:center; font-size:22px; }
+.studio-card { display:flex; gap:13px; align-items:flex-start; background:var(--bg-content);
+    border:2px solid var(--border); border-radius:var(--radius);
+    padding:15px 17px; transition:transform 0.3s var(--ease), box-shadow 0.3s var(--ease); }
+.studio-card:hover { transform:translateY(-2px); box-shadow:var(--shadow-soft); }
+.studio-badge { flex:0 0 auto; width:48px; height:48px; border-radius:16px;
+    display:flex; align-items:center; justify-content:center;
+    font-size:20px; font-weight:900; color:#fff; letter-spacing:0;
+    border:2px solid rgba(255,255,255,0.65); box-shadow:0 3px 0 0 rgba(61,52,40,0.12); }
 .studio-main { flex:1; min-width:0; }
-.studio-company { font-size:13px; font-weight:900; color:var(--island-deep); margin:0 0 2px; }
-.studio-title { font-size:15px; font-weight:900; color:var(--game-dark); margin:0 0 5px; line-height:1.3; }
-.studio-summary { font-size:13px; color:var(--island-dark); line-height:1.55; margin:0 0 8px; }
+.studio-company { font-size:13px; font-weight:800; color:var(--text); margin:0 0 2px; }
+.studio-title { font-size:15px; font-weight:800; color:var(--text-body); margin:0 0 5px; line-height:1.35; }
+.studio-summary { font-size:13px; color:var(--text-body); line-height:1.55; margin:0 0 8px; }
 .studio-foot { display:flex; align-items:center; gap:8px; }
-.studio-source { font-size:11.5px; color:var(--island-brown); font-weight:700; }
-.studio-link { margin-left:auto; font-size:12px; font-weight:800; color:var(--game-red); text-decoration:none; }
+.studio-source { font-size:11.5px; color:var(--text-secondary); font-weight:700; }
+.studio-link { margin-left:auto; font-size:12px; font-weight:800; color:var(--primary-active); text-decoration:none; }
 .studio-link:hover { text-decoration:underline; }
 
-.footer { text-align:center; margin-top:36px; padding:18px; color:var(--island-brown); font-size:12px; }
-.footer a { color:var(--island-deep); text-decoration:none; font-weight:700; }
-.loading { text-align:center; padding:50px 20px; color:var(--island-brown); font-size:14px; }
+.footer { text-align:center; margin-top:38px; padding:20px; color:var(--text-secondary); font-size:12.5px; }
+.footer a { color:var(--primary-active); text-decoration:none; font-weight:700; }
+.loading { text-align:center; padding:50px 20px; color:var(--text-secondary); font-size:14px; }
 
 @media (max-width:900px) { .hot-mag { columns:2; } }
 @media (max-width:640px) {
-    .hero h1 { font-size:32px; }
+    .hero h1 { font-size:28px; }
+    .hero-mascot { width:72px; height:72px; }
     .rel-mag { grid-template-columns:1fr; }
     .hot-mag { columns:1; }
     .studio-list { grid-template-columns:1fr; }
-    .hero .confetti { display:none; }
 }
 </style>
 </head>
 <body>
 <div class="app">
 
-    <!-- 海报式 Hero -->
+    <!-- Hero 海岛横幅 -->
     <header class="hero">
+        <img class="hero-bg" src="assets/hero-banner.jpg" alt="森林小岛">
         <a href="../" class="nav-back">← 返回首页</a>
-        <span class="confetti c1">🎮</span>
-        <span class="confetti c2">🕹️</span>
-        <span class="confetti c3">🎯</span>
-        <span class="confetti c4">⭐</span>
-        <div class="hero-inner">
+        <img class="hero-mascot" src="assets/mascot.jpg" alt="小岛游戏伙伴">
+        <div class="hero-overlay">
             <span class="hero-kicker">FOREST ISLAND · GAME</span>
-            <h1>🎮 游戏频道</h1>
-            <p class="sub">重磅爆料 · 厂商动向 · 新游发售时间表 —— 一页看全今日游戏圈,大白话速读</p>
-            <span class="stamp" id="dateStamp">📅 加载中…</span>
+            <h1>游戏频道</h1>
+            <p class="sub">新游发售 · 今日热点 · 厂商动向 —— 一页看全今日游戏圈，大白话速读</p>
+            <span class="stamp" id="dateStamp">加载中…</span>
         </div>
     </header>
 
     <!-- 吸顶锚点导航 -->
     <nav class="anchor-nav" id="anchorNav">
-        <a href="#sec-releases" class="active">📅 发售时间表</a>
-        <a href="#sec-hot">🔥 今日热点</a>
-        <a href="#sec-studios">🏢 厂商动向</a>
+        <a href="#sec-releases" class="active">发售时间表</a>
+        <a href="#sec-hot">今日热点</a>
+        <a href="#sec-studios">厂商动向</a>
     </nav>
 
     <!-- 发售时间表 -->
     <section id="sec-releases">
-        <div class="board"><div class="board-sign"><h2>📅 新游发售时间表 <span class="count" id="cntRel">0</span></h2></div></div>
-        <div class="rel-mag" id="releaseList"><div class="loading">🌴 加载中…</div></div>
+        <div class="board">
+            <div class="ribbon c-green">
+                <span class="rb-tail l"></span><span class="rb-tail r"></span>
+                <span class="rb-fold l"></span><span class="rb-fold r"></span>
+                <span class="rb-front"></span>
+                <span class="rb-text"><img class="rb-ico" src="assets/ico-releases.jpg" alt="">新游发售时间表<span class="rb-count" id="cntRel">0</span></span>
+            </div>
+        </div>
+        <div class="rel-mag" id="releaseList"><div class="loading">加载中…</div></div>
     </section>
 
     <!-- 今日热点 -->
     <section id="sec-hot">
-        <div class="board"><div class="board-sign"><h2>🔥 今日游戏热点 <span class="count" id="cntHot">0</span></h2></div></div>
-        <div class="hot-mag" id="hotList"><div class="loading">🌴 加载中…</div></div>
+        <div class="board">
+            <div class="ribbon c-yellow">
+                <span class="rb-tail l"></span><span class="rb-tail r"></span>
+                <span class="rb-fold l"></span><span class="rb-fold r"></span>
+                <span class="rb-front"></span>
+                <span class="rb-text"><img class="rb-ico" src="assets/ico-hot.jpg" alt="">今日游戏热点<span class="rb-count" id="cntHot">0</span></span>
+            </div>
+        </div>
+        <div class="hot-mag" id="hotList"><div class="loading">加载中…</div></div>
     </section>
 
     <!-- 厂商动向 -->
     <section id="sec-studios">
-        <div class="board"><div class="board-sign"><h2>🏢 各大厂商动向 <span class="count" id="cntStu">0</span></h2></div></div>
-        <div class="studio-list" id="studioList"><div class="loading">🌴 加载中…</div></div>
+        <div class="board">
+            <div class="ribbon c-blue">
+                <span class="rb-tail l"></span><span class="rb-tail r"></span>
+                <span class="rb-fold l"></span><span class="rb-fold r"></span>
+                <span class="rb-front"></span>
+                <span class="rb-text">各大厂商动向<span class="rb-count" id="cntStu">0</span></span>
+            </div>
+        </div>
+        <div class="studio-list" id="studioList"><div class="loading">加载中…</div></div>
     </section>
 
     <div class="footer">
@@ -201,7 +290,14 @@ body {
 
 <script>
 const PLAT_KNOWN = ['PC','PS5','Xbox','Switch'];
-const COMPANY_ICON = { '索尼':'🎮','微软':'🟢','任天堂':'🍄','Take-Two':'🌆','Rockstar':'🌆','卡普空':'🗡️','Capcom':'🗡️','Valve':'🚂','育碧':'🛡️','Ubisoft':'🛡️','EA':'⚽','网易':'🐼','腾讯':'🐧','Square':'💎','世嘉':'🦔','Epic':'🏗️' };
+// 厂商 → NookPhone 调色板 (首字徽章，告别 emoji)
+const COMPANY_COLOR = {
+    '索尼':'#889df0','SIE':'#889df0','微软':'#8ac68a','Xbox':'#8ac68a',
+    '任天堂':'#fc736d','Take-Two':'#b77dee','Rockstar':'#b77dee',
+    '卡普空':'#e59266','Capcom':'#e59266','Valve':'#82d5bb','育碧':'#f7cd67','Ubisoft':'#f7cd67',
+    'EA':'#fc736d','艺电':'#fc736d','网易':'#8ac68a','腾讯':'#82d5bb',
+    'Square':'#b77dee','世嘉':'#889df0','SEGA':'#889df0','Epic':'#e18c6f'
+};
 let DATA = null;
 
 function esc(s){ return (s||'').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
@@ -215,20 +311,28 @@ function fmtDate(d){
     const m=d.match(/^(\d{4})-(\d{2})-(\d{2})$/);
     if(!m) return { big:d, cd:'敬请期待' };
     const n=daysUntil(d);
-    const cd = n>0 ? ('倒计时 '+n+' 天') : (n===0?'🎉 今日发售':'已发售');
+    const cd = n>0 ? ('倒计时 '+n+' 天') : (n===0?'今日发售':'已发售');
     return { big:m[1]+'年'+m[2]+'月'+m[3]+'日', cd };
 }
-function companyIcon(name){ for(const k in COMPANY_ICON){ if(name.indexOf(k)>=0) return COMPANY_ICON[k]; } return '🏢'; }
+function companyColor(name){
+    for(const k in COMPANY_COLOR){ if(name.indexOf(k)>=0) return COMPANY_COLOR[k]; }
+    return '#82d5bb';
+}
+function companyInitial(name){
+    // 取公司名首个有意义字符
+    const cn = name.replace(/[\s\/].*$/,'').trim();
+    return cn.charAt(0) || '游';
+}
 
 async function load(){
     try {
         const r = await fetch('../data/channels/game/game-today.json?t='+Date.now());
         if(!r.ok) throw new Error('fetch fail');
         DATA = await r.json();
-        document.getElementById('dateStamp').textContent = '📅 '+DATA.date;
+        document.getElementById('dateStamp').textContent = DATA.date;
         renderReleases(); renderHot(); renderStudios();
     } catch(e){
-        document.getElementById('releaseList').innerHTML = '<div class="loading">😢 加载失败: '+e.message+'</div>';
+        document.getElementById('releaseList').innerHTML = '<div class="loading">加载失败: '+e.message+'</div>';
     }
 }
 
@@ -242,7 +346,7 @@ function renderReleases(){
         return `<div class="rel-card">
             <div class="rel-poster">
                 ${hot?'<div class="rel-ribbon">★ 必玩</div>':''}
-                <div class="rel-date-big">📅 ${esc(f.big)}</div>
+                <div class="rel-date-big">${esc(f.big)}</div>
                 <div class="rel-name">${esc(g.name_cn)}<span class="hype">${g.hype||''}</span></div>
                 <div class="rel-en">${esc(g.name_en)}</div>
                 <span class="rel-countdown">${esc(f.cd)}</span>
@@ -264,8 +368,8 @@ function renderHot(){
         <h3 class="hot-title">${esc(n.title)}</h3>
         <p class="hot-summary">${esc(n.summary)}</p>
         <div class="hot-foot">
-            <span class="hot-source">📰 ${esc(n.source)}</span>
-            ${n.url?'<a class="btn-src" href="'+n.url+'" target="_blank" rel="noopener">🔗 看原文</a>':''}
+            <span class="hot-source">${esc(n.source)}</span>
+            ${n.url?'<a class="btn-src" href="'+n.url+'" target="_blank" rel="noopener">看原文 →</a>':''}
         </div>
     </div>`).join('');
 }
@@ -273,13 +377,13 @@ function renderHot(){
 function renderStudios(){
     const list=(DATA.studios||[]); document.getElementById('cntStu').textContent=list.length;
     document.getElementById('studioList').innerHTML = list.map(n=>`<div class="studio-card">
-        <div class="studio-badge">${companyIcon(n.company)}</div>
+        <div class="studio-badge" style="background:${companyColor(n.company)}">${esc(companyInitial(n.company))}</div>
         <div class="studio-main">
             <p class="studio-company">${esc(n.company)}</p>
             <h3 class="studio-title">${esc(n.title)}</h3>
             <p class="studio-summary">${esc(n.summary)}</p>
             <div class="studio-foot">
-                <span class="studio-source">📰 ${esc(n.source)}</span>
+                <span class="studio-source">${esc(n.source)}</span>
                 ${n.url?'<a class="studio-link" href="'+n.url+'" target="_blank" rel="noopener">看原文 →</a>':''}
             </div>
         </div>
