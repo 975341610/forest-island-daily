@@ -1,0 +1,31 @@
+{
+  "snapshots": {
+    "2026-06-05": {
+      "NousResearch/hermes-agent": 1,
+      "farion1231/cc-switch": 2,
+      "HKUDS/Vibe-Trading": 3,
+      "jwasham/coding-interview-university": 4,
+      "Open-LLM-VTuber/Open-LLM-VTuber": 5,
+      "supermemoryai/supermemory": 6,
+      "datawhalechina/hello-agents": 7,
+      "pbakaus/impeccable": 8,
+      "fathah/hermes-desktop": 9,
+      "openai/codex": 10,
+      "odoo/odoo": 11,
+      "github/spec-kit": 12,
+      "reconurge/flowsint": 13,
+      "Fission-AI/OpenSpec": 14,
+      "aquasecurity/trivy": 15,
+      "lfnovo/open-notebook": 16,
+      "cyberpapiii/chipotlai-max": 17,
+      "mvanhorn/last30days-skill": 18,
+      "langgenius/dify": 19,
+      "zarazhangrui/frontend-slides": 20,
+      "ollama/ollama": 21,
+      "PaddlePaddle/PaddleOCR": 22,
+      "EvoMap/evolver": 23,
+      "aaif-goose/goose": 24,
+      "AIDC-AI/Pixelle-Video": 25
+    }
+  }
+}
