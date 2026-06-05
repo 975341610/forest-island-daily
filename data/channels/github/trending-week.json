@@ -1,0 +1,230 @@
+{
+  "week_start": "2026-06-01",
+  "repos": {
+    "NousResearch/hermes-agent": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 1913,
+      "language": "Python",
+      "description": "The agent that grows with you",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
+      "html_url": "https://github.com/NousResearch/hermes-agent"
+    },
+    "farion1231/cc-switch": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1169,
+      "language": "Rust",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/44939412?v=4",
+      "html_url": "https://github.com/farion1231/cc-switch"
+    },
+    "HKUDS/Vibe-Trading": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 884,
+      "language": "Python",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    "jwasham/coding-interview-university": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 632,
+      "language": null,
+      "description": "A complete computer science study plan to become a software engineer.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/3771963?v=4",
+      "html_url": "https://github.com/jwasham/coding-interview-university"
+    },
+    "Open-LLM-VTuber/Open-LLM-VTuber": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 581,
+      "language": "Python",
+      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/193920693?v=4",
+      "html_url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber"
+    },
+    "supermemoryai/supermemory": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 469,
+      "language": "TypeScript",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/171979587?v=4",
+      "html_url": "https://github.com/supermemoryai/supermemory"
+    },
+    "datawhalechina/hello-agents": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 451,
+      "language": "Python",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/46047812?v=4",
+      "html_url": "https://github.com/datawhalechina/hello-agents"
+    },
+    "pbakaus/impeccable": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 442,
+      "language": "JavaScript",
+      "description": "The design language that makes your AI harness better at design.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
+      "html_url": "https://github.com/pbakaus/impeccable"
+    },
+    "fathah/hermes-desktop": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 387,
+      "language": "TypeScript",
+      "description": "Desktop Companion for Hermes Agent",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/48355244?v=4",
+      "html_url": "https://github.com/fathah/hermes-desktop"
+    },
+    "openai/codex": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 346,
+      "language": "Rust",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/codex"
+    },
+    "odoo/odoo": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 328,
+      "language": "Python",
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6368483?v=4",
+      "html_url": "https://github.com/odoo/odoo"
+    },
+    "github/spec-kit": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 321,
+      "language": "Python",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
+      "html_url": "https://github.com/github/spec-kit"
+    },
+    "reconurge/flowsint": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 308,
+      "language": "TypeScript",
+      "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/182449807?v=4",
+      "html_url": "https://github.com/reconurge/flowsint"
+    },
+    "Fission-AI/OpenSpec": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 258,
+      "language": "TypeScript",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/203414896?v=4",
+      "html_url": "https://github.com/Fission-AI/OpenSpec"
+    },
+    "aquasecurity/trivy": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 255,
+      "language": "Go",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/12783832?v=4",
+      "html_url": "https://github.com/aquasecurity/trivy"
+    },
+    "lfnovo/open-notebook": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 212,
+      "language": "TypeScript",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/579178?v=4",
+      "html_url": "https://github.com/lfnovo/open-notebook"
+    },
+    "cyberpapiii/chipotlai-max": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 201,
+      "language": "TypeScript",
+      "description": "The AI coding agent that runs on stolen Chipotle compute 🌯 Fork of OpenCode with Pepper AI as default model. Community project to add providers from Home Depot, Lowes, Target, Starbucks & more.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/103138198?v=4",
+      "html_url": "https://github.com/cyberpapiii/chipotlai-max"
+    },
+    "mvanhorn/last30days-skill": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 199,
+      "language": "Python",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
+      "html_url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    "langgenius/dify": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 160,
+      "language": "TypeScript",
+      "description": "Production-ready platform for agentic workflow development.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127165244?v=4",
+      "html_url": "https://github.com/langgenius/dify"
+    },
+    "zarazhangrui/frontend-slides": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 156,
+      "language": "JavaScript",
+      "description": "Create beautiful slides on the web using a coding agent's frontend skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
+      "html_url": "https://github.com/zarazhangrui/frontend-slides"
+    },
+    "ollama/ollama": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 150,
+      "language": "Go",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
+      "html_url": "https://github.com/ollama/ollama"
+    },
+    "PaddlePaddle/PaddleOCR": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 141,
+      "language": "Python",
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/23534030?v=4",
+      "html_url": "https://github.com/PaddlePaddle/PaddleOCR"
+    },
+    "EvoMap/evolver": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 140,
+      "language": "JavaScript",
+      "description": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/263044117?v=4",
+      "html_url": "https://github.com/EvoMap/evolver"
+    },
+    "aaif-goose/goose": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 128,
+      "language": "Rust",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/271095942?v=4",
+      "html_url": "https://github.com/aaif-goose/goose"
+    },
+    "AIDC-AI/Pixelle-Video": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 125,
+      "language": "Python",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/172576026?v=4",
+      "html_url": "https://github.com/AIDC-AI/Pixelle-Video"
+    }
+  }
+}
