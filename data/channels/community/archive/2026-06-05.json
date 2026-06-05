@@ -1,0 +1,172 @@
+{
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T06:30:00+00:00",
+  "hot_posts": [
+    {
+      "platform": "B站",
+      "title": "Seedance 2.0 保姆级教程:7天从小白到大神",
+      "author": "AI视频创作类UP主",
+      "summary": "字节 Seedance 2.0 多模态视频模型刷屏后,B站涌现大量保姆级教程与参赛作品,讲解免费入口、提示词模板、分镜卡点与人脸生成技巧。配合「B站首届AI创作大赛」百万大奖,丝滑转场与导演级运镜让作品动辄破百万播放,带动全民AI视频热潮。",
+      "heat": "单条破百万播放",
+      "tag": "AI视频教程",
+      "url": "https://www.bilibili.com/video/BV1BucKzeErt"
+    },
+    {
+      "platform": "B站",
+      "title": "详细实测:最强多模态视频模型 Seedance 2.0",
+      "author": "AI测评类UP主",
+      "summary": "围绕字节 Seedance 2.0 的深度实测,展示从文本/图像到成片的全新创作流程,对比 Veo 等海外模型,讨论「传统影视制作倒计时」话题。因画质、音画同步与运镜效果惊艳,叠加春晚案例背书,成为科技区近期高热内容。",
+      "heat": "高热度,评论区刷屏",
+      "tag": "AI数码评测",
+      "url": "https://www.bilibili.com/video/BV1sgF7zzEDG"
+    },
+    {
+      "platform": "微博",
+      "title": "《影之刃零》延期至 10 月 29 日 + 独立 SoP",
+      "author": "灵游坊官方 / 游戏媒体",
+      "summary": "6月初索尼 State of Play 后,国产功夫朋克动作RPG《影之刃零》宣布从9月9日延期至10月29日,并预告夏季举办专属独立 State of Play 深入解析世界观与战斗系统。作为黑神话之后的国产3A门面,延期消息引发玩家既期待又焦虑的热议。",
+      "heat": "游戏圈高热,愿望单全球前列",
+      "tag": "游戏资讯",
+      "url": "https://www.taptap.cn/moment/748854476172954224"
+    },
+    {
+      "platform": "微博",
+      "title": "Summer Game Fest 今夜开播,GTA6 预告或突袭",
+      "author": "游戏媒体 / 玩家社区",
+      "summary": "北京时间6月5日 Summer Game Fest 在洛杉矶直播,主持人 Geoff Keighley 带来全球新作首曝。叠加6月2日 State of Play 与7日 Xbox 展,玩家围绕 GTA6 第三支预告是否突袭、巫师4 等展开刷屏式讨论。",
+      "heat": "全球游戏圈刷屏",
+      "tag": "游戏实况",
+      "url": "https://www.summergamefest.com"
+    },
+    {
+      "platform": "小红书",
+      "title": "3 个 AI 神器做小红书,1 天产出 10 篇爆款笔记",
+      "author": "小红书AI运营博主",
+      "summary": "教程类笔记拆解用豆包批量生成文案、即梦AI修图换背景、AI搭建选题库的全流程玩法,辅以各类涨粉变现案例。踩中AI副业焦虑与降本增效需求,成为小红书创作者圈高互动的常青爆款选题。",
+      "heat": "高赞高收藏",
+      "tag": "AI工具教学",
+      "url": "https://www.xiaohongshu.com/explore"
+    },
+    {
+      "platform": "微博",
+      "title": "库克的告别秀:WWDC 2026 猛料太多了",
+      "author": "数码科技媒体 / 苹果博主",
+      "summary": "围绕 WWDC 2026 的讨论被解读为蒂姆·库克任内的「告别秀」,系统更新、AI能力与传闻中的AI眼镜(代号N50)等爆料引发数码圈热议。叠加苹果折叠屏设计传闻,苹果在AI落后焦虑下的动作成为关注焦点。",
+      "heat": "数码圈高热",
+      "tag": "数码评测",
+      "url": "https://www.apple.com.cn/newsroom/"
+    },
+    {
+      "platform": "B站",
+      "title": "影视飓风:内容工业化标杆与画质科普",
+      "author": "影视飓风(Tim)",
+      "summary": "B站影视/数码顶流影视飓风持续产出高品质科普与器材测评,从码率科普到太空相机项目,凭借电影级制作与人文表达稳居科技区头部,被同行视为标杆,近期作品仍保持高播放与强讨论度。",
+      "heat": "1400w+粉,视频常破百万",
+      "tag": "数码评测",
+      "url": "https://space.bilibili.com/946974"
+    },
+    {
+      "platform": "抖音",
+      "title": "Seedance 2.0 一键生成动漫角色真人大片",
+      "author": "抖音AI创作者群体",
+      "summary": "在即梦/豆包接入 Seedance 2.0 后,抖音用户用文字一键生成动漫角色真人化、虚拟冒险等「用完即走」的爽片,二创内容病毒式传播,海外博主甚至反向注册体验。这波全民AI视频热潮被认为是字节用海量短视频数据训练出的C端杀招。",
+      "heat": "全民二创,海量转发",
+      "tag": "AI绘画",
+      "url": "https://www.douyin.com/"
+    }
+  ],
+  "topics": [
+    {
+      "name": "#Seedance2.0全民AI视频#",
+      "platform": "微博 / 抖音 / B站",
+      "heat": "5天破千万曝光",
+      "summary": "字节跳动 Seedance 2.0 多模态视频模型引爆全网,支持图/视/音/文混合输入,画质与运镜达「导演级」。争议点在于它靠海量短视频数据「工程学碾压」而非物理模拟,以及生成侵权IP内容的合规风险,被视为「视频界的 DeepSeek 时刻」。",
+      "url": "https://www.eet-china.com/mp/a499425.html"
+    },
+    {
+      "name": "#影之刃零延期至10月29日#",
+      "platform": "微博 / TapTap",
+      "heat": "游戏圈高热",
+      "summary": "国产功夫朋克3A《影之刃零》从9月9日延期至10月29日,并预告独立 State of Play。讨论聚焦延期是打磨还是躲避 GTA6、坚持全人力创作拒绝AI图形,以及它能否接棒黑神话成为国产3A新标杆。",
+      "url": "https://www.gamersky.com/news/202512/2058009.shtml"
+    },
+    {
+      "name": "#SummerGameFest2026#",
+      "platform": "微博 / B站",
+      "heat": "全球游戏圈刷屏",
+      "summary": "6月5日 Summer Game Fest 与6月2日 State of Play、6月7日 Xbox 展密集开播,集中曝光巫师4、金刚狼、生化危机等新作。最大看点与争议是 GTA6 第三预告是否突袭,以及大批大作为躲 GTA6 扎堆9月发售。",
+      "url": "https://www.summergamefest.com/events/summer-game-fest"
+    },
+    {
+      "name": "#国产大模型智能体竞赛#",
+      "platform": "微博 / 知乎",
+      "heat": "AI话题持续霸榜",
+      "summary": "评价标尺从「跑分」转向「能独立干多久」,GLM-5、Qwen3.7-Max、DeepSeek V4、MiniMax M3 等密集迭代,「模型开源+芯片适配+API降价」三重共振,引发国产AI崛起的讨论。",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33291314"
+    },
+    {
+      "name": "#AI小店副业月入过万#",
+      "platform": "小红书",
+      "heat": "内容电商GMV年增超150%",
+      "summary": "围绕用AI(豆包/即梦/DeepSeek)做小红书爆款笔记、零库存带货的副业话题持续发酵。争议点在于AI批量内容的真实性、平台限流风险与「割韭菜」式付费课程。",
+      "url": "https://www.xiaohongshu.com/explore"
+    },
+    {
+      "name": "#手机存储涨价旗舰被迫提价#",
+      "platform": "微博 / 数码社区",
+      "heat": "数码圈持续热议",
+      "summary": "AI需求推高存储芯片价格,LPDDR5 较去年涨约3-4倍,多家厂商部分机型上调200-1500元。消费者对2026旗舰普涨的吐槽成为热点,「加量不加价」与「命名升维涨价」之争并存。",
+      "url": "https://m.cls.cn/detail/2349661"
+    }
+  ],
+  "creators": [
+    {
+      "name": "影视飓风(Tim)",
+      "platform": "B站",
+      "field": "影视 / 数码 / 科技科普",
+      "summary": "B站影视区顶流「画质一哥」,连续多年百大UP主,团队化高品质产出(科普、器材测评、太空相机等),与多家头部厂商深度合作。以电影级制作和「无限进步」理念著称,是国产内容工业化标杆。",
+      "followers": "B站1400w+粉",
+      "url": "https://space.bilibili.com/946974"
+    },
+    {
+      "name": "老师好我叫何同学",
+      "platform": "B站",
+      "field": "数码科技创意",
+      "summary": "凭「5G到底有多快」、采访库克出圈的千万粉数码UP主,擅长用故事化叙事讲科技浪漫。近年话题度极高,是观察科技博主「信任资产」的典型样本。",
+      "followers": "B站千万级粉丝",
+      "url": "https://space.bilibili.com/163637592"
+    },
+    {
+      "name": "梁其伟 / 灵游坊 S-GAME",
+      "platform": "微博 / TapTap",
+      "field": "独立游戏开发 / 国产3A",
+      "summary": "《影之刃零》制作人兼灵游坊CEO,从《影之刃》手游系列转向功夫朋克3A单机。坚持全人力创作、拒绝AI图形,常以开发者文章与玩家直接沟通,被视为黑神话之后国产3A最受关注的创作者之一。",
+      "followers": "高关注度",
+      "url": "https://www.taptap.cn/app/197497"
+    },
+    {
+      "name": "花叔",
+      "platform": "B站 / 公众号",
+      "field": "AI工具 / 独立开发者",
+      "summary": "AI Native 方向的内容创作者与独立开发者,擅长AI工具实测对比、「用AI做一个XX」全流程实录及AI行业深度解读。在AIGC内容爆发期精准卡位开发者与AI爱好者人群,内容强粘性。",
+      "followers": "中腰部高粘性",
+      "url": "https://www.bilibili.com/"
+    },
+    {
+      "name": "图灵的猫",
+      "platform": "B站",
+      "field": "AI科普 / 编程极客",
+      "summary": "AI与编程领域知识区UP主,擅长把AI技术、模型原理与社会热点结合,内容兼具硬核与话题性。在国产大模型密集迭代的当下,是普通用户理解AI「怎么用」的热门科普源。",
+      "followers": "百万级关注",
+      "url": "https://www.bilibili.com/"
+    },
+    {
+      "name": "Aton数码",
+      "platform": "微博 / 抖音",
+      "field": "AI数码 / 概念创作",
+      "summary": "AI创作出圈代表之一,用 Seedance 2.0 等工具「造出梦里才有的概念神机」,把数码评测与AI生成创意结合。代表了2026年「让AI技术被大众看懂、模仿」的新锐创作者。",
+      "followers": "高热度新锐",
+      "url": "https://weibo.com/"
+    }
+  ]
+}
