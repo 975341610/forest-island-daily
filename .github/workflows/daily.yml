@@ -40,8 +40,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      # 优先用 Mira 给的 today.json；URL 为空时退化到本地抓取
-      # push 触发时跳过：数据已经是你 push 上来的最新版
+      # 仅 workflow_dispatch 且明确传 URL 时才下载，否则走兜底脚本
+      # push 触发时跳过抓取(已是最新数据)，但 merge/commit 步骤仍要执行
       - name: Fetch today's news (Mira → URL, fallback → local script)
         if: github.event_name != 'push'
         run: |
@@ -55,20 +55,21 @@ jobs:
             python scripts/fetch_news.py
           fi
 
+      # 无论何种触发方式都要 merge:Mira push today.json 后也要重新归档+切分日期
       - name: Merge into archive
-        if: github.event_name != 'push'
         run: python scripts/generate.py
 
+      # 只 commit 由 generate.py 产生的归档/分日期/build_info 变更
+      # 避免 today.json 自我循环 push(Mira 已经 push 过了)
       - name: Commit data changes
-        if: github.event_name != 'push'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/archive.json data/build_info.json data/2*.json
           if git diff --cached --quiet; then
-            echo "No new data to commit"
+            echo "No archive changes to commit"
           else
-            git commit -m "📰 daily update: $(date -u +%Y-%m-%d)"
+            git commit -m "📰 daily archive merge: $(date -u +%Y-%m-%d)"
             git push
           fi
 
