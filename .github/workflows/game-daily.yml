@@ -1,0 +1,45 @@
+name: Game Channel Daily
+
+on:
+  schedule:
+    # 每天 00:30 UTC = 北京时间 08:30（错开 github-daily 的 08:00）
+    - cron: '30 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "game-channel"
+  cancel-in-progress: false
+
+jobs:
+  fetch-game-news:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch game news (RSS aggregate fallback)
+        run: |
+          python scripts/fetchers/game_fetcher.py --max-hot 12 --max-studio 9 --lookback-hours 36
+
+      - name: Commit channel data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/channels/game/*.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🎮 game channel: $(date -u +%Y-%m-%d)"
+            git push
+          fi
