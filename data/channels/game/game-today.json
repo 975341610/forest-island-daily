@@ -1,14 +1,23 @@
 {
-  "date": "2026-06-05",
-  "generated_at": "2026-06-05T06:00:00+00:00",
+  "date": "2026-06-06",
+  "generated_at": "2026-06-06T04:33:11.701893+00:00",
+  "source": "rss-auto",
   "releases": [
     {
       "name_cn": "地狱潜兵:越南",
       "name_en": "Hell Let Loose: Vietnam",
       "date": "2026-06-18",
-      "platforms": ["PC", "PS5", "Xbox"],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox"
+      ],
       "studio": "Team17 / Expression Games",
-      "genre": ["硬核射击", "二战军事", "多人"],
+      "genre": [
+        "硬核射击",
+        "二战军事",
+        "多人"
+      ],
       "summary": "硬核多人战争射击《地狱潜兵》系列新作,这次把战场搬到越战丛林。强调真实弹道、班组协作与大地图阵地战,适合喜欢拟真军事对抗的玩家。",
       "hype": "🔥"
     },
@@ -16,9 +25,15 @@
       "name_cn": "EA 综合格斗 6",
       "name_en": "EA Sports UFC 6",
       "date": "2026-06-19",
-      "platforms": ["PS5", "Xbox"],
+      "platforms": [
+        "PS5",
+        "Xbox"
+      ],
       "studio": "EA Vancouver",
-      "genre": ["格斗", "体育竞技"],
+      "genre": [
+        "格斗",
+        "体育竞技"
+      ],
       "summary": "EA 旗下 UFC 综合格斗游戏时隔多年回归,全新动作捕捉与受击反馈系统,真实还原八角笼里的擒抱、地面缠斗与重拳 KO。",
       "hype": "🔥"
     },
@@ -26,9 +41,15 @@
       "name_cn": "转生之兽",
       "name_en": "Beast of Reincarnation",
       "date": "2026-08-04",
-      "platforms": ["PC", "PS5"],
+      "platforms": [
+        "PC",
+        "PS5"
+      ],
       "studio": "Game Freak",
-      "genre": ["动作 RPG", "魂类"],
+      "genre": [
+        "动作 RPG",
+        "魂类"
+      ],
       "summary": "宝可梦开发商 Game Freak 罕见的新原创动作 RPG,末世废土与神兽题材结合的魂系动作冒险,是工作室尝试主机硬核大作的重要一步。",
       "hype": "🔥🔥"
     },
@@ -36,9 +57,17 @@
       "name_cn": "晨行者之血",
       "name_en": "The Blood of Dawnwalker",
       "date": "2026-09-03",
-      "platforms": ["PC", "PS5", "Xbox"],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox"
+      ],
       "studio": "Rebel Wolves",
-      "genre": ["开放世界 RPG", "吸血鬼", "黑暗奇幻"],
+      "genre": [
+        "开放世界 RPG",
+        "吸血鬼",
+        "黑暗奇幻"
+      ],
       "summary": "由《巫师3》核心团队成立的新工作室 Rebel Wolves 打造的开放世界 RPG,玩家扮演半人半吸血鬼,昼夜切换不同能力,主打成熟叙事与道德抉择。",
       "hype": "🔥🔥🔥"
     },
@@ -46,9 +75,14 @@
       "name_cn": "漫威金刚狼",
       "name_en": "Marvel's Wolverine",
       "date": "2026-09-15",
-      "platforms": ["PS5"],
+      "platforms": [
+        "PS5"
+      ],
       "studio": "Insomniac Games",
-      "genre": ["动作冒险", "漫威英雄"],
+      "genre": [
+        "动作冒险",
+        "漫威英雄"
+      ],
       "summary": "《漫威蜘蛛侠》开发商 Insomniac 操刀的金刚狼独占大作,血腥近战、利爪暴走与硬汉叙事,是 PS5 平台最受期待的单机动作游戏之一。",
       "hype": "🔥🔥🔥"
     },
@@ -56,9 +90,16 @@
       "name_cn": "空之轨迹 第二章",
       "name_en": "The Legend of Heroes: Trails in the Sky 2nd Chapter",
       "date": "2026-09-17",
-      "platforms": ["PC", "PS5", "Switch"],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Switch"
+      ],
       "studio": "Falcom",
-      "genre": ["日式 RPG", "回合制"],
+      "genre": [
+        "日式 RPG",
+        "回合制"
+      ],
       "summary": "经典日式 RPG《空之轨迹》系列重制续作,延续艾丝蒂尔的冒险旅程,画面与战斗全面现代化,是轨迹系列老玩家的情怀之作。",
       "hype": "🔥🔥"
     },
@@ -66,9 +107,17 @@
       "name_cn": "控制:共鸣",
       "name_en": "Control Resonant",
       "date": "2026-09-24",
-      "platforms": ["PC", "PS5", "Xbox"],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox"
+      ],
       "studio": "Remedy Entertainment",
-      "genre": ["动作冒险", "超自然", "TPS"],
+      "genre": [
+        "动作冒险",
+        "超自然",
+        "TPS"
+      ],
       "summary": "Remedy 旗下《控制》系列正统续作,延续超自然管理局的诡谲世界观,主角重返「最古老的房子」对抗失控异象。超能力战斗、扭曲建筑与意识流叙事是看点。",
       "hype": "🔥🔥🔥"
     },
@@ -76,9 +125,17 @@
       "name_cn": "鬼武者:刀之道",
       "name_en": "Onimusha: Way of the Sword",
       "date": "2026-09-25",
-      "platforms": ["PC", "PS5", "Xbox"],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox"
+      ],
       "studio": "Capcom",
-      "genre": ["动作", "战国", "武士"],
+      "genre": [
+        "动作",
+        "战国",
+        "武士"
+      ],
       "summary": "卡普空经典《鬼武者》系列时隔近二十年的全新正传,以战国乱世为背景,主打一闪居合的硬核武士斩杀,RE 引擎打造的高质感画面备受期待。",
       "hype": "🔥🔥🔥"
     },
@@ -86,9 +143,17 @@
       "name_cn": "雷曼传奇:重述",
       "name_en": "Rayman Legends Retold",
       "date": "2026-10-01",
-      "platforms": ["PC", "PS5", "Xbox", "Switch"],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox",
+        "Switch"
+      ],
       "studio": "Ubisoft",
-      "genre": ["平台跳跃", "横版"],
+      "genre": [
+        "平台跳跃",
+        "横版"
+      ],
       "summary": "育碧经典横版动作《雷曼传奇》的重制版,高清重绘画面、新增关卡与本地多人合作,是适合全家同乐的轻松平台跳跃佳作。",
       "hype": "🔥🔥"
     },
@@ -96,9 +161,16 @@
       "name_cn": "使命召唤:现代战争 4",
       "name_en": "Call of Duty: Modern Warfare 4",
       "date": "2026-10-23",
-      "platforms": ["PC", "PS5", "Xbox"],
+      "platforms": [
+        "PC",
+        "PS5",
+        "Xbox"
+      ],
       "studio": "Infinity Ward / Activision",
-      "genre": ["第一人称射击", "军事"],
+      "genre": [
+        "第一人称射击",
+        "军事"
+      ],
       "summary": "年货射击巨头《使命召唤》现代战争系列新作,延续 141 特遣队的故事线,电影化战役、多人对战与战区模式三件套,FPS 玩家年度焦点。",
       "hype": "🔥🔥"
     },
@@ -106,9 +178,16 @@
       "name_cn": "影刃零",
       "name_en": "Phantom Blade Zero",
       "date": "2026-10-29",
-      "platforms": ["PC", "PS5"],
+      "platforms": [
+        "PC",
+        "PS5"
+      ],
       "studio": "S-GAME (上海梁其伟工作室)",
-      "genre": ["动作", "武侠", "暗黑武侠"],
+      "genre": [
+        "动作",
+        "武侠",
+        "暗黑武侠"
+      ],
       "summary": "国产 3A 期待之作,融合武侠与暗黑奇幻的「武侠朋克」动作游戏,行云流水的刀剑连招与高难度战斗,被视为国产单机冲击主机市场的代表作。",
       "hype": "🔥🔥🔥"
     },
@@ -116,9 +195,16 @@
       "name_cn": "侠盗猎车手 6",
       "name_en": "Grand Theft Auto VI",
       "date": "2026-11-19",
-      "platforms": ["PS5", "Xbox"],
+      "platforms": [
+        "PS5",
+        "Xbox"
+      ],
       "studio": "Rockstar Games",
-      "genre": ["开放世界", "动作", "犯罪"],
+      "genre": [
+        "开放世界",
+        "动作",
+        "犯罪"
+      ],
       "summary": "游戏史上最受瞩目的开放世界续作,重返虚构的莱昂尼达州(罪恶都市原型),双主角剧情、空前规模的活世界与互动细节,被业界视为时代级别大作。",
       "hype": "🔥🔥🔥"
     },
@@ -126,162 +212,168 @@
       "name_cn": "战争机器:决战日",
       "name_en": "Gears of War: E-Day",
       "date": "2026 待定",
-      "platforms": ["PC", "Xbox"],
+      "platforms": [
+        "PC",
+        "Xbox"
+      ],
       "studio": "The Coalition / Xbox",
-      "genre": ["第三人称射击", "科幻"],
+      "genre": [
+        "第三人称射击",
+        "科幻"
+      ],
       "summary": "《战争机器》系列前传,回到「灾变日」这场人类对抗兽族的灾难起点,年轻的马库斯与多姆并肩作战,是 Xbox 第一方重磅射击大作。",
       "hype": "🔥🔥"
     }
   ],
   "hot": [
     {
-      "title": "State of Play 公布《战神:劳菲》",
+      "title": "Magic just brought back its deadliest mechanic and put it in",
       "category": "重磅新闻",
-      "summary": "索尼最新一期 State of Play 发布会压轴公布《战神》系列衍生新作《战神:劳菲》,由奎托斯之妻劳菲(法叶)担任主角,引发玩家热议。",
-      "source": "PlayStation Blog",
-      "url": "https://blog.playstation.com/"
+      "summary": "Poison counters are back in the Magic: The Gathering's Marvel Super Heroes set.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/magic-poison-counters-marvel/"
     },
     {
-      "title": "《漫威金刚狼》正式定档 9 月 15 日",
-      "category": "发售定档",
-      "summary": "Insomniac 终于为万众期待的《漫威金刚狼》敲定 2026 年 9 月 15 日 PS5 独占发售,实机演示展示了血腥利爪战斗与硬汉剧情。",
-      "source": "IGN",
-      "url": "https://www.ign.com/"
-    },
-    {
-      "title": "GTA6 再度延期至 11 月 19 日",
+      "title": "Two New Cuphead Games Are Now In Development",
       "category": "重磅新闻",
-      "summary": "Rockstar 母公司 Take-Two 确认《侠盗猎车手6》发售日小幅推迟至 2026 年 11 月 19 日,官方称为打磨品质,玩家既期待又焦虑。",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/"
+      "summary": "Get ready for new retro-inspired adventures.It's been a while since we heard from the talented team at Studio MDHR, but it's finally back, with not one but two announcements.Firstly, the developer has officially confirmed it has begun work on a brand-new hand-animated Cuphead vid",
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/06/two-new-cuphead-games-are-now-in-development"
     },
     {
-      "title": "《星际火狐》新作 6 月 25 日登陆 Switch 2",
-      "category": "发售定档",
-      "summary": "任天堂宣布《星际火狐》系列新作将于 6 月 25 日作为 Switch 2 首发护航大作之一推出,空战玩法全面升级。",
-      "source": "Nintendo",
-      "url": "https://www.nintendo.com/"
-    },
-    {
-      "title": "夏日游戏节 6 月 5 日盛大开幕",
-      "category": "行业活动",
-      "summary": "由 Geoff Keighley 主办的 Summer Game Fest 2026 于 6 月 5 日开幕,众多厂商齐聚带来新作首曝与实机演示,拉开夏季发布会季序幕。",
-      "source": "Summer Game Fest",
-      "url": "https://www.summergamefest.com/"
-    },
-    {
-      "title": "《控制:共鸣》定档 9 月 24 日",
-      "category": "发售定档",
-      "summary": "Remedy 公布《控制》正统续作《控制:共鸣》将于 9 月 24 日发售,玩家将再次以联邦控制局特工身份重返超自然办公大楼,对抗失控的异常现象。",
+      "title": "God Of War Laufey’s Combat Was Inspired By The Original Gree",
+      "category": "重磅新闻",
+      "summary": "Until now, Kratos was the primary star of every God of War game. However, his late wife, Faye, is taking the spotlight in God of War Laufey. But when Faye picks up her sword, veteran God of War fans may recognize the influence that the original Greek trilogy had on her fighting s",
       "source": "GameSpot",
-      "url": "https://www.gamespot.com/"
+      "url": "https://www.gamespot.com/articles/god-of-war-laufeys-combat-was-inspired-by-the-original-greek-trilogy/"
     },
     {
-      "title": "《古墓丽影》重制三部曲 2027 年 2 月发售",
+      "title": "7 years after it was announced, The Wolf Among Us 2 is final",
       "category": "重磅新闻",
-      "summary": "晶体动力宣布劳拉经典三部曲将以现代化重制版形式于 2027 年 2 月推出,重绘画面并保留原汁原味的探险解谜体验。",
+      "summary": "A remastered version of the original Wolf Among Us is also coming later this, so you'll have something to do while you wait.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/adventure/7-years-after-it-was-announced-the-wolf-among-us-2-is-finally-set-to-arrive-in-2027/"
+    },
+    {
+      "title": "Critical Role Campaign 4 just proved that performance trumps",
+      "category": "重磅新闻",
+      "summary": "The latest Critical Role episode is a masterclass in showing why Brennan Lee Mulligan opted for performance over dice.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/critical-role-brennan-lee-mulligan-campaign-4/"
+    },
+    {
+      "title": "Welcome Back, 47: HITMAN Classic Trilogy Remastered Revealed",
+      "category": "重磅新闻",
+      "summary": "The post Welcome Back, 47: HITMAN Classic Trilogy Remastered Revealed – Coming 2027 appeared first on XBOX Wire.",
+      "source": "Xbox Wire",
+      "url": "https://news.xbox.com/en-us/2026/06/05/hitman-classic-trilogy-remastered-sgf-announce/"
+    },
+    {
+      "title": "God of War Laufey Director 'Understands' Skepticism Followin",
+      "category": "行业活动",
+      "summary": "God of War Laufey's director, Ariel Lawrence, has addressed \"skepticism\" following the game's reveal, hoping fans give it a chance.",
+      "source": "IGN",
+      "url": "https://www.ign.com/articles/god-of-war-laufey-director-understands-skepticism-following-reveal-but-hopes-fans-give-it-a-chance"
+    },
+    {
+      "title": "I really want to know what the cube is all about in Haex",
+      "category": "重磅新闻",
+      "summary": "Cubes 'n' co-op. Sure, I'll bite.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/survival-crafting/i-really-want-to-know-what-the-cube-is-all-about-in-haex/"
+    },
+    {
+      "title": "IO Interactive's James Bond game 007 First Light sells 2.7 m",
+      "category": "行业活动",
+      "summary": "007 First Light is already racking up some pretty impressive sales figures for IO Interactive. Today, in a presentation given to the press after the Summer Game Fest 2026 showcase, IO studio director Hakan Abrak told Eurogamer that the game sold 2.7 million copies in its first we",
       "source": "Eurogamer",
-      "url": "https://www.eurogamer.net/"
+      "url": "https://www.eurogamer.net/io-interactives-james-bond-game-007-first-light-sells-27-million-copies-in-its-first-week-as-dev-reiterates-free-year-one-content"
     },
     {
-      "title": "《Marathon》第二赛季内容公布",
+      "title": "Hugh Jackman’s new Logan replacement officially releases in ",
+      "category": "重磅新闻",
+      "summary": "The Death of Robin Hood, starring Hugh Jackman as the aging hero, will be in theaters well before Marvel reboots X-Men",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/hugh-jackman-death-of-robin-hood-movies-like-logan/"
+    },
+    {
+      "title": "Hot Wheels Infinite Rush Races Onto Switch 2 This September ",
+      "category": "重磅新闻",
+      "summary": "\"Go beyond the track\".At the Summer Games Fest this year, Mattel and Milestone lifted the lid on a brand new open-world Hot Wheels game.Hot Wheels Infinite Rush will be coming to the Switch 2 and multiple other platforms on 24th September 2026 and follows Hot Wheels Unleashed 2, ",
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/06/hot-wheels-infinite-rush-races-onto-switch-2-this-september-with-new-open-world-gameplay"
+    },
+    {
+      "title": "007 First Light Reveals Road Map; Story DLC, New Game+, and ",
       "category": "游戏更新",
-      "summary": "Bungie 公布旗下科幻撤离射击《Marathon》第二赛季路线图,新增赛博跑者、地图与平衡调整,试图稳住上线后的玩家热度。",
-      "source": "Bungie",
-      "url": "https://www.bungie.net/"
-    },
-    {
-      "title": "《空洞骑士:丝之歌》将推免费 DLC",
-      "category": "游戏更新",
-      "summary": "万众瞩目的《空洞骑士:丝之歌》开发商 Team Cherry 透露发售后将提供免费内容更新,延续系列良心传统,玩家社区一片好评。",
-      "source": "Team Cherry",
-      "url": "https://www.teamcherry.com.au/"
-    },
-    {
-      "title": "Xbox 展前泄露《神鬼寓言》新情报",
-      "category": "爆料",
-      "summary": "在微软 Xbox 发布会前夕,《神鬼寓言(Fable)》重启作的新画面与玩法细节遭提前泄露,显示开放世界规模与英式幽默风格回归。",
-      "source": "Windows Central",
-      "url": "https://www.windowscentral.com/"
-    },
-    {
-      "title": "《上古卷轴 6》缺席本届 Xbox 展",
-      "category": "爆料",
-      "summary": "据多方消息,Bethesda 备受期待的《上古卷轴6》不会出现在本届 Xbox 夏季发布会,玩家漫长的等待还将继续。",
-      "source": "GamesRadar",
-      "url": "https://www.gamesradar.com/"
-    },
-    {
-      "title": "《生化危机:安魂曲》领跑销量榜",
-      "category": "市场热点",
-      "summary": "卡普空《生化危机:安魂曲》在多平台上市后强势登顶各地区销量榜,系列恐怖氛围与新主角口碑双丰收,带动卡普空财报创新高。",
-      "source": "Famitsu",
-      "url": "https://www.famitsu.com/"
+      "summary": "007 First Light is getting an impressive amount of post-launch support, according to the game's year one road map.",
+      "source": "IGN",
+      "url": "https://www.ign.com/articles/007-first-light-reveals-road-map-story-dlc-new-game-and-more-coming-soon"
     }
   ],
   "studios": [
     {
-      "company": "索尼 / SIE",
-      "title": "State of Play 密集放出第一方大作",
-      "summary": "索尼通过 State of Play 发布会集中公布《战神:劳菲》《金刚狼》等第一方阵容,巩固 PS5 后期独占护城河,主机大战押注高质量单机叙事。",
-      "source": "PlayStation Blog",
-      "url": "https://blog.playstation.com/"
+      "company": "任天堂",
+      "title": "It's Official, Monster Hunter Wilds Is Now In Development Fo",
+      "summary": "It's happening!After some rumours, Capcom has today confirmed Monster Hunter Wilds is officially in development for the Switch 2. More information and a release date for the Nintendo version of the game will be shared at some point \"in the future\".Read the full article on nintend",
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/06/its-official-monster-hunter-wilds-is-now-in-development-for-switch-2"
+    },
+    {
+      "company": "世嘉 / SEGA",
+      "title": "An 8-bit Cuphead game is being programmed in assembly langua",
+      "summary": "It'll be playable on modern PCs, too, and there's another \"hand-animated\" Cuphead game in development alongside it.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/action/an-8-bit-cuphead-game-is-being-programmed-in-assembly-language-for-the-sega-master-system/"
     },
     {
       "company": "微软 / Xbox",
-      "title": "Xbox 夏季发布会定档 6 月 7 日",
-      "summary": "微软将于 6 月 7 日举办 Xbox 夏季发布会,预计公布《战争机器:决战日》《神鬼寓言》等第一方进展,并强调多平台与游戏订阅战略。",
+      "title": "HOT WHEELS Infinite Rush: Race Beyond the Track",
+      "summary": "The post HOT WHEELS Infinite Rush: Race Beyond the Track appeared first on XBOX Wire.",
       "source": "Xbox Wire",
-      "url": "https://news.xbox.com/"
+      "url": "https://news.xbox.com/en-us/2026/06/05/hot-wheels-infinite-rush-sgf-reveal/"
     },
     {
-      "company": "任天堂",
-      "title": "Switch 2 护航阵容持续扩充",
-      "summary": "任天堂为 Switch 2 排出《星际火狐》等护航大作,凭借硬件升级与第一方 IP 续航力,延续掌机+主机一体的差异化路线。",
-      "source": "Nintendo",
-      "url": "https://www.nintendo.com/"
+      "company": "Epic Games",
+      "title": "Fortnite Live Event Stuns Fans as The Rock's Fate Is Reveale",
+      "summary": "Fortnite has just concluded a stunning live event that saw the game's storyline propelled forward in dramatic style.",
+      "source": "IGN",
+      "url": "https://www.ign.com/articles/fortnite-live-event-stuns-fans-as-the-rocks-fate-is-revealed-and-ben-starrs-character-is-unmasked-in-shock-twist"
     },
     {
-      "company": "Take-Two / Rockstar",
-      "title": "确认 GTA6 不会再大幅跳票",
-      "summary": "Take-Two 高层重申《GTA6》将按 2026 年 11 月档期发售,小幅延期只为最终打磨,寄望这款史诗级大作刷新行业销售纪录。",
-      "source": "Variety",
-      "url": "https://variety.com/"
+      "company": "索尼 / SIE",
+      "title": "Summer Game Fest 2026 highlights: 16 games coming to PS5",
+      "summary": "The summer continues to be an exciting time for big game announcements with a new look at upcoming titles, some long-awaited release dates, and more than a few surprises along the way. Here are some of the biggest updates and reveals on upcoming PlayStation titles. Assassin’s Cre",
+      "source": "PlayStation Blog",
+      "url": "https://blog.playstation.com/2026/06/05/summer-game-fest-2026-highlights-16-games-coming-to-ps5/"
     },
     {
       "company": "卡普空 / Capcom",
-      "title": "财报创九年新高",
-      "summary": "得益于《生化危机:安魂曲》《怪物猎人》等系列的强劲表现,卡普空最新财报营收与利润创下连续九年增长,确立日厂头部地位。",
-      "source": "Capcom IR",
-      "url": "https://www.capcom.co.jp/ir/english/"
+      "title": "Monster Hunter Ascendance is to Wilds what Iceborne was to M",
+      "summary": "Monster Hunter Wilds' first expansion, Ascendance, has finally been revealed. In a trailer at Summer Games Fest 2026, Capcom unveiled the future of the game with a massive new expansion called Ascendance. Read more",
+      "source": "Eurogamer",
+      "url": "https://www.eurogamer.net/monster-hunter-ascendance-wilds-coming-2027"
     },
     {
-      "company": "Valve",
-      "title": "Steam Machine 年内重启发售",
-      "summary": "Valve 宣布全新一代客厅主机 Steam Machine 将在年内发售,搭载 SteamOS 与高性能硬件,被视为对主机阵营的正面挑战。",
-      "source": "PCMag",
-      "url": "https://www.pcmag.com/"
-    },
-    {
-      "company": "育碧 / Ubisoft",
-      "title": "腾讯入股,重组五大创意工作室",
-      "summary": "育碧与腾讯达成合作并成立子公司,整合《刺客信条》《彩虹六号》《孤岛惊魂》等核心 IP 为五大创意工作室,谋求经营转型。",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/"
+      "company": "Square Enix",
+      "title": "Final Fantasy 7 Revelation Gets Its First Trailer At Summer ",
+      "summary": "Square Enix has officially unveiled Final Fantasy Revelation at Summer Game Fest 2026. The final chapter in the Final Fantasy 7 Remake trilogy takes an open-world approach that has you flying the Highwind airship all over the planet, and is set to release simultaneously on all pl",
+      "source": "GameSpot",
+      "url": "https://www.gamespot.com/articles/final-fantasy-7-revelation-gets-its-first-trailer-at-summer-game-fest/"
     },
     {
       "company": "网易游戏",
-      "title": "Q1 营收同比大涨",
-      "summary": "网易最新季度财报显示游戏业务营收同比显著增长,海外自研与端游新品双轮驱动,持续加码全球主机与 PC 市场布局。",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/"
+      "title": "Netease action stunner Blood Message gets gorgeous cinematic",
+      "summary": "Blood Message - the upcoming action adventure game by Netease - just got a stunning new trailer at Summer Game Fest. Read more",
+      "source": "Eurogamer",
+      "url": "https://www.eurogamer.net/blood-message-gets-stunning-cinematic-trailer-at-summer-game-fest"
     },
     {
-      "company": "EA / 美国艺电",
-      "title": "《战地6》营收创系列纪录",
-      "summary": "EA 公布《战地6》上市表现超预期,营收创下系列新高,推动公司股价与季度业绩走强,重燃军事射击品类竞争。",
-      "source": "TweakTown",
-      "url": "https://www.tweaktown.com/"
+      "company": "育碧 / Ubisoft",
+      "title": "Ubisoft's free-to-play Division shooter is coming to Steam",
+      "summary": "The Division Resurgence, originally announced as a mobile-only game, quietly dropped for PC on Ubisoft's storefront in April.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/third-person-shooter/ubisofts-free-to-play-division-shooter-is-coming-to-steam/"
     }
   ]
 }
