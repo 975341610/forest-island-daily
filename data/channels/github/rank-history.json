@@ -26,6 +26,33 @@
       "EvoMap/evolver": 23,
       "aaif-goose/goose": 24,
       "AIDC-AI/Pixelle-Video": 25
+    },
+    "2026-06-06": {
+      "NousResearch/hermes-agent": 1,
+      "lfnovo/open-notebook": 2,
+      "PaddlePaddle/PaddleOCR": 3,
+      "jwasham/coding-interview-university": 4,
+      "mvanhorn/last30days-skill": 5,
+      "Open-LLM-VTuber/Open-LLM-VTuber": 6,
+      "NVIDIA/cosmos": 7,
+      "refactoringhq/tolaria": 8,
+      "reconurge/flowsint": 9,
+      "CopilotKit/CopilotKit": 10,
+      "Crosstalk-Solutions/project-nomad": 11,
+      "666ghj/MiroFish": 12,
+      "github/copilot-sdk": 13,
+      "ZhuLinsen/daily_stock_analysis": 14,
+      "aaif-goose/goose": 15,
+      "MemPalace/mempalace": 16,
+      "multica-ai/multica": 17,
+      "aquasecurity/trivy": 18,
+      "facebook/react": 19,
+      "cyberpapiii/chipotlai-max": 20,
+      "Panniantong/Agent-Reach": 21,
+      "koala73/worldmonitor": 22,
+      "helix-editor/helix": 23,
+      "agentscope-ai/agentscope": 24,
+      "ollama/ollama": 25
     }
   }
 }
