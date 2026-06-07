@@ -53,6 +53,33 @@
       "helix-editor/helix": 23,
       "agentscope-ai/agentscope": 24,
       "ollama/ollama": 25
+    },
+    "2026-06-07": {
+      "lfnovo/open-notebook": 1,
+      "Panniantong/Agent-Reach": 2,
+      "CopilotKit/CopilotKit": 3,
+      "666ghj/MiroFish": 4,
+      "MemPalace/mempalace": 5,
+      "mvanhorn/last30days-skill": 6,
+      "PaddlePaddle/PaddleOCR": 7,
+      "github/spec-kit": 8,
+      "yt-dlp/yt-dlp": 9,
+      "heygen-com/hyperframes": 10,
+      "aaif-goose/goose": 11,
+      "microsoft/VibeVoice": 12,
+      "openai/plugins": 13,
+      "openai/codex": 14,
+      "Shubhamsaboo/awesome-llm-apps": 15,
+      "aquasecurity/trivy": 16,
+      "datawhalechina/easy-vibe": 17,
+      "openai/whisper": 18,
+      "multica-ai/multica": 19,
+      "EvoMap/evolver": 20,
+      "ollama/ollama": 21,
+      "agentscope-ai/agentscope": 22,
+      "cheahjs/free-llm-api-resources": 23,
+      "shadcn-ui/ui": 24,
+      "microsoft/mxc": 25
     }
   }
 }

@@ -84,8 +84,8 @@
     },
     "openai/codex": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 346,
+      "appearances": 2,
+      "total_today_stars": 555,
       "language": "Rust",
       "description": "Lightweight coding agent that runs in your terminal",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -101,9 +101,9 @@
       "html_url": "https://github.com/odoo/odoo"
     },
     "github/spec-kit": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 321,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 719,
       "language": "Python",
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
@@ -129,17 +129,17 @@
     },
     "aquasecurity/trivy": {
       "best_rank": 15,
-      "appearances": 2,
-      "total_today_stars": 462,
+      "appearances": 3,
+      "total_today_stars": 621,
       "language": "Go",
       "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
       "owner_avatar": "https://avatars.githubusercontent.com/u/12783832?v=4",
       "html_url": "https://github.com/aquasecurity/trivy"
     },
     "lfnovo/open-notebook": {
-      "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 1364,
+      "best_rank": 1,
+      "appearances": 3,
+      "total_today_stars": 2158,
       "language": "TypeScript",
       "description": "An Open Source implementation of Notebook LM with more flexibility and features",
       "owner_avatar": "https://avatars.githubusercontent.com/u/579178?v=4",
@@ -156,8 +156,8 @@
     },
     "mvanhorn/last30days-skill": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 930,
+      "appearances": 3,
+      "total_today_stars": 1369,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
@@ -183,8 +183,8 @@
     },
     "ollama/ollama": {
       "best_rank": 21,
-      "appearances": 2,
-      "total_today_stars": 266,
+      "appearances": 3,
+      "total_today_stars": 395,
       "language": "Go",
       "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
@@ -192,26 +192,26 @@
     },
     "PaddlePaddle/PaddleOCR": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 888,
+      "appearances": 3,
+      "total_today_stars": 1321,
       "language": "Python",
       "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/23534030?v=4",
       "html_url": "https://github.com/PaddlePaddle/PaddleOCR"
     },
     "EvoMap/evolver": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 140,
+      "best_rank": 20,
+      "appearances": 2,
+      "total_today_stars": 276,
       "language": "JavaScript",
       "description": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
       "owner_avatar": "https://avatars.githubusercontent.com/u/263044117?v=4",
       "html_url": "https://github.com/EvoMap/evolver"
     },
     "aaif-goose/goose": {
-      "best_rank": 15,
-      "appearances": 2,
-      "total_today_stars": 362,
+      "best_rank": 11,
+      "appearances": 3,
+      "total_today_stars": 624,
       "language": "Rust",
       "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
       "owner_avatar": "https://avatars.githubusercontent.com/u/271095942?v=4",
@@ -245,9 +245,9 @@
       "html_url": "https://github.com/refactoringhq/tolaria"
     },
     "CopilotKit/CopilotKit": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 366,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 997,
       "language": "TypeScript",
       "description": "The Frontend Stack for Agents & Generative UI. React + Angular.  Makers of the AG-UI Protocol",
       "owner_avatar": "https://avatars.githubusercontent.com/u/131273140?v=4",
@@ -263,9 +263,9 @@
       "html_url": "https://github.com/Crosstalk-Solutions/project-nomad"
     },
     "666ghj/MiroFish": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 320,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 813,
       "language": "Python",
       "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110395318?v=4",
@@ -290,9 +290,9 @@
       "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis"
     },
     "MemPalace/mempalace": {
-      "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 227,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 673,
       "language": "Python",
       "description": "The best-benchmarked open-source AI memory system. And it's free.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/275135684?v=4",
@@ -300,8 +300,8 @@
     },
     "multica-ai/multica": {
       "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 213,
+      "appearances": 2,
+      "total_today_stars": 353,
       "language": "Go",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
@@ -317,9 +317,9 @@
       "html_url": "https://github.com/facebook/react"
     },
     "Panniantong/Agent-Reach": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 148,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 831,
       "language": "Python",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
@@ -344,13 +344,103 @@
       "html_url": "https://github.com/helix-editor/helix"
     },
     "agentscope-ai/agentscope": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 118,
+      "best_rank": 22,
+      "appearances": 2,
+      "total_today_stars": 202,
       "language": "Python",
       "description": "Build and run agents you can see, understand and trust.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/211762292?v=4",
       "html_url": "https://github.com/agentscope-ai/agentscope"
+    },
+    "yt-dlp/yt-dlp": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 291,
+      "language": "Python",
+      "description": "A feature-rich command-line audio/video downloader",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/79589310?v=4",
+      "html_url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    "heygen-com/hyperframes": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 269,
+      "language": "TypeScript",
+      "description": "Write HTML. Render video. Built for agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
+      "html_url": "https://github.com/heygen-com/hyperframes"
+    },
+    "microsoft/VibeVoice": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 216,
+      "language": "Python",
+      "description": "Open-Source Frontier Voice AI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/VibeVoice"
+    },
+    "openai/plugins": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 213,
+      "language": "JavaScript",
+      "description": "OpenAI Plugins",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/plugins"
+    },
+    "Shubhamsaboo/awesome-llm-apps": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 206,
+      "language": "Python",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/31396011?v=4",
+      "html_url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    "datawhalechina/easy-vibe": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 151,
+      "language": "JavaScript",
+      "description": "💻 vibe coding 2026 | Your first modern Coding course beginners to master step by step.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/46047812?v=4",
+      "html_url": "https://github.com/datawhalechina/easy-vibe"
+    },
+    "openai/whisper": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 150,
+      "language": "Python",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/whisper"
+    },
+    "cheahjs/free-llm-api-resources": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 83,
+      "language": "Python",
+      "description": "A list of free LLM inference resources accessible via API.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/818368?v=4",
+      "html_url": "https://github.com/cheahjs/free-llm-api-resources"
+    },
+    "shadcn-ui/ui": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 72,
+      "language": "TypeScript",
+      "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/139895814?v=4",
+      "html_url": "https://github.com/shadcn-ui/ui"
+    },
+    "microsoft/mxc": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 64,
+      "language": "Rust",
+      "description": "Policy-driven, layered isolation and containment ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/mxc"
     }
   }
 }
