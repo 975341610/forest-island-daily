@@ -1,5 +1,277 @@
 [
   {
+    "id": "n_2026-06-08_16",
+    "date": "2026-06-08",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "Polygon",
+    "title": "星际迷航暗影边疆惊喜公布",
+    "url": "https://www.polygon.com/xbox-showcase-2026-sgf",
+    "image": "images/2026-06-08/n_2026-06-08_16.jpg",
+    "detail": [
+      "星际迷航：暗影边疆(Star Trek: Shadow Frontier)是一款以星际迷航下一代时代为背景的科幻惊悚新作,由曾打造寂静岭2重制版的 Bloober Team 与派拉蒙游戏工作室联合开发,在本届 Xbox 游戏展示会上作为惊喜项目亮相。",
+      "公布预告中出现了下一代粉丝熟悉的角色——巴乔裔星舰军官萝·拉伦(Ro Laren),她在剧中常与星际舰队产生冲突;红光笼罩的画面奠定了悬疑惊悚基调,显示本作将延续 Bloober 擅长的氛围营造风格。",
+      "对于星际迷航与恐怖游戏双重粉丝而言,知名 IP 与擅长心理惊悚的工作室组合带来不小惊喜,社媒上关于剧情走向、是否会延续电视剧设定的讨论迅速展开,也有玩家期待其能复刻寂静岭2重制的口碑。",
+      "本作的登场体现了 Xbox 展示会持续吸纳影视改编与第三方合作项目的策略,在第一方大作之外,为玩家提供了题材更为多元的内容补充。"
+    ],
+    "platform_color": "#E60012"
+  },
+  {
+    "id": "n_2026-06-08_15",
+    "date": "2026-06-08",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "IGN",
+    "title": "Xbox公布25周年半透明限定主机",
+    "url": "https://www.ign.com/articles/xbox-series-x-translucent-green-25th-anniversary-edition-console-and-controller-announced-inspired-by-the-original-xbox",
+    "image": "images/2026-06-08/n_2026-06-08_15.jpg",
+    "detail": [
+      "为庆祝 Xbox 品牌诞生 25 周年,微软在本届 Xbox 游戏展示会上公布了一款全新的 Xbox Series X 限定版主机及配套手柄,设计灵感直接取自 2001 年初代 Xbox,主打怀旧与情怀向收藏。",
+      "这款限定主机采用半透明的 Xbox 标志性绿色外壳,可以直接看到机身内部结构,并配有同样半透明设计的手柄;手柄既会随主机捆绑发售,也将单独销售,机身与手柄上还藏有致敬品牌 25 年历史的小细节与彩蛋。",
+      "官方表示主机与手柄都将于今年 11 月上市,具体定价与预购信息将在稍后公布。消息引发老玩家强烈共鸣,半透明外观让不少人回忆起千禧年初的硬件设计潮流,被视为本次展示会上最具情怀价值的硬件公布。",
+      "微软指出这款限定机将与初代经典重制作品光环战役进化(Halo: Campaign Evolved)形成绝佳搭配,进一步强化了围绕品牌 25 周年的纪念氛围。"
+    ],
+    "platform_color": "#E60012"
+  },
+  {
+    "id": "n_2026-06-08_14",
+    "date": "2026-06-08",
+    "category": "Gaming",
+    "subcat": "单机游戏",
+    "platform": "IGN",
+    "title": "神鬼寓言公布正式发售日期",
+    "url": "https://www.ign.com/videos/fable-official-release-date-trailer-xbox-games-showcase-2026",
+    "image": "images/2026-06-08/n_2026-06-08_14.jpg",
+    "detail": [
+      "全新神鬼寓言(Fable)由英国名厂 Playground Games 操刀,是这一经典奇幻 RPG 系列时隔多年的重启之作,曾在 2024 年 Xbox 展示会及 2026 年初的开发者直面会上多次亮相,以其英伦童话风格的开放世界和幽默叙事备受期待。",
+      "在本届 Xbox 游戏展示会上,微软放出了神鬼寓言的正式发售日期预告,本作此前曾从 2026 年跳票至 2027 年,如今终于敲定具体上市时间,将登陆 Xbox Series X|S 与 PC,并首发加入 Game Pass。",
+      "确切发售日的公布让长期关注该系列的玩家松了一口气,社媒讨论聚焦于 Playground 从竞速名作极限竞速地平线转型开放世界 RPG 的能力,以及重启版能否重现初代的魅力与英式幽默。",
+      "作为微软第一方重点 IP 之一,神鬼寓言与战争机器E日、发条革命共同构成了 Xbox 未来一两年的核心单机阵容,显示出微软在自研大作上的持续发力。"
+    ],
+    "platform_color": "#E60012"
+  },
+  {
+    "id": "n_2026-06-08_13",
+    "date": "2026-06-08",
+    "category": "Gaming",
+    "subcat": "单机游戏",
+    "platform": "IGN",
+    "title": "发条革命新预告 2027年Xbox独占",
+    "url": "https://www.ign.com/videos/clockwork-revolution-official-the-heist-trailer-xbox-games-showcase-2026",
+    "image": "images/2026-06-08/n_2026-06-08_13.jpg",
+    "detail": [
+      "发条革命(Clockwork Revolution)是 InXile 娱乐打造的第一人称蒸汽朋克题材 RPG,玩家可以在过去与现在之间穿梭,通过改变历史进程影响游戏世界,自 2023 年首曝以来便以独特的复古未来美术风格和时间操控玩法吸引关注。",
+      "在 Xbox 游戏展示会上,官方放出名为劫案(The Heist)的全新剧情预告,故事中主角被拉回 25 年前,需要设法对付反派 Lady Ironwood;官方确认本作为 Xbox 主机平台独占,计划于 2027 年发售,同样首发进入 Game Pass。",
+      "新预告进一步展示了时空切换机制与浓郁的蒸汽朋克城市风貌,被不少玩家拿来与生化奇兵无限对比,社媒上对其叙事野心与世界观设定给予肯定,但也有声音对 2027 年的较远发售窗口表示遗憾。",
+      "作为微软第一方阵容中风格最鲜明的 RPG 之一,本作承载了 Xbox 在单机叙事领域的差异化尝试,稳定的曝光节奏也显示出微软对该项目的长期投入。"
+    ],
+    "platform_color": "#E60012"
+  },
+  {
+    "id": "n_2026-06-08_12",
+    "date": "2026-06-08",
+    "category": "Gaming",
+    "subcat": "单机游戏",
+    "platform": "Gematsu",
+    "title": "女神异闻录6正式公布登陆多平台",
+    "url": "https://www.gematsu.com/2026/06/persona-6-announced-for-ps5-xbox-series-and-pc",
+    "image": "images/2026-06-08/n_2026-06-08_12.jpg",
+    "detail": [
+      "女神异闻录6(Persona 6)是 Atlus 旗下王牌 JRPG 系列的最新正统续作,系列自 1996 年作为真·女神转生衍生作起步,凭借独特的假面战斗、社群养成与浓郁青春叙事,成长为全球范围内极具号召力的 RPG 招牌之一。",
+      "在 Xbox 游戏展示会上,Atlus 放出首支预告并宣布本作将登陆 PlayStation 5、Xbox Series X|S、Xbox Cloud 以及 PC(Steam 与微软商店),官方称其既是系列老玩家的全新悬疑篇章,也是新人入坑的理想起点,但暂未公布确切发售日期。",
+      "预告释出后引发玩家热议,不少人注意到本作氛围更偏向阴郁与恐怖基调,认为这是向系列早期真·女神转生风格的回归,社媒上关于主题、配色与潜在发售窗口的讨论迅速升温,粉丝同时呼吁追加 Switch 2 版本。",
+      "Atlus 同场还公布了女神异闻录4 Revival 将于 2027 年 2 月 18 日发售,两作前后脚亮相,显示出公司在主机与 PC 多平台同步铺开的明确策略。"
+    ],
+    "platform_color": "#E60012"
+  },
+  {
+    "id": "n_2026-06-08_11",
+    "date": "2026-06-08",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "IGN",
+    "title": "战争机器E日公布发售日10月6日",
+    "url": "https://www.ign.com/videos/gears-of-war-e-day-official-gameplay-trailer-xbox-games-showcase-2026",
+    "image": "images/2026-06-08/n_2026-06-08_11.jpg",
+    "detail": [
+      "战争机器：E日(Gears of War: E-Day)是 The Coalition 工作室打造的系列前传,故事设定在初代战争机器故事发生的 14 年之前,聚焦更年轻的马库斯·菲尼克斯,讲述兽族突袭人类世界、引爆紧急日的起源篇章,自 2024 年首度曝光后一直备受系列粉丝期待。",
+      "在北京时间 6 月 8 日凌晨举行的 Xbox 游戏展示会(Xbox Games Showcase 2026)及随后的 E日专场直面会上,微软放出了全新实机演示预告,并正式宣布本作将于 2026 年 10 月 6 日发售,定位为 Xbox 主机平台独占,同时登陆 PC,并首发加入 Game Pass。",
+      "预告中展现了高强度近身作战与系列标志性元素,画面表现与紧张氛围获得现场与社媒玩家好评。作为微软 2026 年下半年最重磅的第一方大作之一,确切发售日的落地让长期处于只闻其名状态的项目终于明朗,也为今年秋季主机大战增添看点。",
+      "本作是系列时隔多年的正统新作,The Coalition 同步公布了开发细节解析,强调希望找回系列早期夏日大片般的爽快与幽默基调,在叙事与战斗节奏上做出取舍。"
+    ],
+    "platform_color": "#E60012"
+  },
+  {
+    "id": "n_2026-06-08_10",
+    "date": "2026-06-08",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
+    "platform": "HackerNews",
+    "title": "SourceLibrary:为AI开放的古籍译库",
+    "url": "https://sourcelibrary.org",
+    "image": "images/2026-06-08/n_2026-06-08_10.jpg",
+    "detail": [
+      "开发者 dr_dshiv 在 HackerNews 发布 Show HN,介绍号称全球最大的古代典籍翻译在线图书馆 SourceLibrary.org。它收录了从拉丁语、希腊语、汉语、梵语、阿拉伯语到希伯来语、古埃及语等数十种语言翻译而来的逾 1.5 万册书籍,内容横跨宗教经典到早期科学,愿景是让古代智慧同时对人类与 AI 开放。",
+      "该项目采用 AGPL3 开源,扫描件多为公有领域,译文以知识共享(Creative Commons)署名相同方式共享,并全面通过 MCP 与 API 提供访问。开发者特别强调可让 Claude Code 或 Codex 直接接入,检索并引用原始文献,例如对比拉丁语、汉语、梵语中的炼金术实践,甚至检索配图。其文字量已超过英文维基百科。",
+      "作者指出一个反差:拉丁语文艺复兴文献被翻译成英文的不足 3%,而点燃文艺复兴的恰是对古希腊智慧文本的翻译。项目由荷兰非营利机构 Embassy of the Free Mind 发起,背后是被 UNESCO 列入世界记忆的珍本图书馆。",
+      "该 Show HN 邀请社区免费注册并提供反馈,站内还内置名为 librarian 的研究型 Agent,可在对话中检索引文与图像。"
+    ],
+    "platform_color": "#8ED16D"
+  },
+  {
+    "id": "n_2026-06-08_09",
+    "date": "2026-06-08",
+    "category": "VibeCoding",
+    "subcat": "编程语言",
+    "platform": "HackerNews",
+    "title": "Python指导委员会叫停JIT项目开发",
+    "url": "https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638",
+    "image": "images/2026-06-08/n_2026-06-08_09.jpg",
+    "detail": [
+      "Python 指导委员会(Steering Council)发布官方公告,要求暂停 JIT(即时编译)项目的开发。这一消息于 6 月 6 日至 7 日在 Python 官方论坛与 HackerNews 引发广泛关注,HN 帖子获得 174 分与 95 条评论,成为编程语言圈近期的焦点话题。",
+      "CPython 的实验性 JIT 编译器自前几年引入以来,被寄望为提升 Python 运行性能的关键路径之一,与无 GIL 等性能工程一同构成 CPython 现代化的重要方向。指导委员会此番叫停,意味着该实验性特性的推进节奏出现重大调整,具体走向需等待后续说明。",
+      "社区反应复杂,有人担忧这会削弱 Python 在性能上的长期竞争力,也有人认为在收益尚不明确、维护成本高企的情况下暂停是务实之举。讨论还延伸到 CPython 治理流程、资源分配以及实验特性该如何设定成功标准等更深层议题。",
+      "作为官方治理机构的正式决定,这一公告将直接影响 CPython 后续版本的特性规划,值得关注 Python 性能演进的开发者持续跟踪。"
+    ],
+    "platform_color": "#8ED16D"
+  },
+  {
+    "id": "n_2026-06-08_08",
+    "date": "2026-06-08",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
+    "platform": "GitHub",
+    "title": "浏览器里像素级还原Office文档",
+    "url": "https://github.com/yukiyokotani/office-open-xml-viewer",
+    "image": "images/2026-06-08/n_2026-06-08_08.jpg",
+    "detail": [
+      "开发者 yukiyokotani 的开源项目 office-open-xml-viewer 于 6 月 7 日登上 HackerNews 首页,主打在浏览器中像素级忠实渲染 Office 文档。它能直接解析 OOXML(Office Open XML)格式,在前端高保真还原 Word、Excel、PowerPoint 等文档的版式与样式,而无需依赖微软或第三方在线服务。",
+      "与多数仅做粗略转换或丢失格式的网页预览方案不同,该项目强调对原始排版的精确复刻,力求让浏览器中的呈现效果与桌面 Office 客户端一致。这对需要在 Web 端嵌入文档预览、又不愿上传敏感文件到云端的场景尤为实用,兼顾隐私与还原度。",
+      "帖子获得 111 分与 42 条评论,社区围绕 OOXML 解析的复杂度、字体替换、图表与公式渲染等技术难点展开讨论。不少前端开发者认为这是一个填补空白的实用轮子,可作为现有重型文档库的轻量替代。",
+      "项目纯前端实现,文档不离开用户浏览器,天然规避了服务端上传带来的合规与隐私顾虑。"
+    ],
+    "platform_color": "#8ED16D"
+  },
+  {
+    "id": "n_2026-06-08_07",
+    "date": "2026-06-08",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "HackerNews",
+    "title": "Zeroserve:用eBPF脚本化的零配置服务器",
+    "url": "https://su3.io/posts/introducing-zeroserve",
+    "image": "images/2026-06-08/n_2026-06-08_07.jpg",
+    "detail": [
+      "开发者 losfair 发布了名为 Zeroserve 的全新 Web 服务器,主打零配置与用 eBPF 脚本化。你只需把整个网站打包成一个 tar 文件交给它,即可通过 HTTP/2 与 TLS 1.3 对外提供服务,支持热重载,且常驻内存极小。最大亮点是可把 eBPF 程序塞进 tarball,作为沙箱中间件在每个请求上运行。",
+      "这些 eBPF 脚本会被 JIT 编译为本地代码并在用户态沙箱执行,成本低到可逐请求运行,用于改写、鉴权、限流或反向代理。它全程基于 io_uring 提交网络与磁盘操作,内置 TLS 1.3、HTTP/2、加密 ClientHello、SNI 证书选择与 JA4 指纹。官方称单核性能在多数静态文件与小响应代理场景下超过 nginx。",
+      "该文在 HackerNews 收获 265 分与 58 条评论,被定位为 nginx 与 Caddy 的替代品。其核心理念是程序即配置:不再有 location 块、rewrite 规则等声明式配置叠加脚本的割裂,而是用一个可从头读到尾的 eBPF 程序统一掌控整个请求路径。",
+      "部署只需替换 tarball 并发送 SIGHUP 信号,即可原子化地同时热替换站点、脚本与 TLS 材料且不丢连接。作者也注明本文由 GPT-5.5 与 Claude Opus 4.8 协作撰写。"
+    ],
+    "platform_color": "#8ED16D"
+  },
+  {
+    "id": "n_2026-06-08_06",
+    "date": "2026-06-08",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "HackerNews",
+    "title": "Sem:在Git之上理解代码的新原语",
+    "url": "https://ataraxy-labs.github.io/sem/",
+    "image": "images/2026-06-08/n_2026-06-08_06.jpg",
+    "detail": [
+      "Ataraxy Labs 推出全新命令行工具 Sem,主打在 Git 之上的语义理解。它不依赖 LSP,而是把代码视为实体(函数、类、方法)而非纯文本行,提供 diff、blame、impact、log 等命令,让开发者直观看到某次提交到底改了哪些函数,而非传统按行对比的晦涩 diff。",
+      "Sem 共提供六条命令、打包为单个二进制,支持 26 种语言与 5 种数据格式,零配置即可在任意 Git 仓库工作。亮点包括实体级 diff(带重命名检测)、跨文件依赖图的 impact 分析、单实体的演进历史 log,以及为 LLM 设计、可控 token 预算的 context 命令。官网称典型 diff 仅需 8 毫秒,下载量已破 4000。",
+      "项目在 HackerNews 获得 168 分与 56 条评论,讨论聚焦其对 AI 编程的价值。官方援引基准称,向 AI Agent 提供 sem 输出相比原始行级 diff,准确率提升 2.3 倍,这让它在 Agent 工程化场景中颇受关注。",
+      "安装仅需 brew install sem-cli,运行 sem setup 即可将其设为 git 的外部 diff 工具并安装 pre-commit 钩子,所有命令均支持 --json 机器可读输出。"
+    ],
+    "platform_color": "#8ED16D"
+  },
+  {
+    "id": "n_2026-06-08_05",
+    "date": "2026-06-08",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "GitHub",
+    "title": "开发者请愿:Claude Desktop登陆Linux",
+    "url": "https://github.com/anthropics/claude-code/issues/65697",
+    "image": "images/2026-06-08/n_2026-06-08_05.jpg",
+    "detail": [
+      "一条标题为 Anthropic, please ship an official Claude Desktop for Linux 的 GitHub Issue 在 2026 年 6 月 7 日引爆开发者社区,登上 HackerNews 首页,斩获 433 分与逾 240 条评论。大量 Linux 用户集体请愿,呼吁 Anthropic 为 Linux 平台推出官方 Claude 桌面客户端,结束长期只有 Windows 和 macOS 版本的局面。",
+      "目前 Claude 官方桌面应用仅覆盖 Windows 与 macOS,Linux 用户只能依赖浏览器网页版或社区自制的非官方封装方案,缺乏托盘、全局快捷键、MCP 本地集成等原生体验。该 Issue 下聚集了数百名开发者列举使用场景与技术诉求,成为 claude-code 仓库近期讨论最热烈的议题之一。",
+      "评论区中不少人指出,作为开发者主力工具,Claude Code CLI 已深受 Linux 用户欢迎,但桌面端的缺位显得不合常理。也有人讨论用 Electron 还是原生 GTK/Qt 实现的取舍。这场请愿折射出 AI 编程工具在 Linux 生态的巨大需求,以及厂商优先级与社区期待之间的落差。",
+      "Anthropic 尚未在该 Issue 中给出官方承诺,但高热度已让其成为衡量社区呼声的风向标。"
+    ],
+    "platform_color": "#8ED16D"
+  },
+  {
+    "id": "n_2026-06-08_04",
+    "date": "2026-06-08",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "GitHub",
+    "title": "Lathe：让AI教你学,而非替你写",
+    "url": "https://github.com/devenjarvis/lathe",
+    "image": "images/2026-06-08/n_2026-06-08_04.jpg",
+    "detail": [
+      "开发者 devenjarvis 推出全新开源工具 Lathe,反其道而行地用大模型教你学习而非替你干活。它能为任意技术主题按需生成一份手把手、附带原始资料出处的多章节教程,你需要亲手在本地界面里逐行阅读并敲出代码,从而真正掌握知识,而不是被 AI 一键跳过学习过程。",
+      "Lathe 由一个 Go 语言 CLI 加一套面向 Claude Code、Cursor、Codex 的 Agent Skills 组成。用户只需输入类似 /lathe build a 3D slicer in Erlang 的指令,再运行 lathe serve 即可在浏览器打开本地 webapp。教程内置随滚动跟随的目录、引导思考的旁注、读者练习题,以及可溯源的参考资料,还能让另一个 LLM 验证代码能否真正编译运行。",
+      "该项目在 HackerNews 上线数小时即冲上首页,获得 221 分与 41 条评论。作者坦言项目本身正是 vibecoded 产物,定位为低风险的个人兴趣作品。社区普遍认可其逆向思路,认为在缺乏优质人工教程的冷门领域,这种让 AI 帮你思考更多而非更少的范式颇具价值。",
+      "作者强调 Lathe 并非要取代人工撰写的教程,而是填补无人写过领域的空白,例如从零实现 3D 切片器或让嵌入式 Zig 更易上手。它目前在 Claude Code 加 macOS 环境下验证最充分。"
+    ],
+    "platform_color": "#8ED16D"
+  },
+  {
+    "id": "n_2026-06-08_03",
+    "date": "2026-06-08",
+    "category": "AI",
+    "subcat": "OpenAI/ChatGPT",
+    "platform": "CNBC",
+    "title": "特朗普政府商谈入股OpenAI",
+    "url": "https://www.cnbc.com/2026/06/05/trump-open-ai-altman-stake.html",
+    "image": "images/2026-06-08/n_2026-06-08_03.jpg",
+    "detail": [
+      "美国财经媒体CNBC于美东时间6月5日下午1点58分证实,OpenAI首席执行官萨姆·奥尔特曼与白宫正就政府可能持有该公司股份进行持续磋商。知情人士透露,相关讨论已进行一年多,奥尔特曼早在2025年就向特朗普政府提出了这一构想。",
+      "根据可能的安排,OpenAI或将向美国政府捐赠股权,用以孵化该公司今年4月政策提案中提出的公共财富基金。该基金将投资多元化长期资产,使普通公民能够分享AI增长的红利,甚至可能直接获得基金回报。不过具体投资条款尚未敲定,仍可能变动。",
+      "特朗普6月5日在空军一号上向记者回应称,可以设计出把部分股份给予美国公众、让公众实质上成为合伙人的方案,并表示将在很近的将来与多家AI公司会面。此前他已签署行政令要求联邦政府设立主权财富基金,本届政府还入股过英特尔、IBM等企业。",
+      "报道指出,参议员伯尼·桑德斯周三与奥尔特曼会面时也讨论了主权财富基金概念。OpenAI目前私募估值超过8500亿美元,并正筹备最快今年内上市。科技公司在塑造白宫AI立场上扮演核心角色,而政府入股议题在IPO季节浮出水面,无疑将令机构投资者情绪更趋复杂。"
+    ],
+    "platform_color": "#10A37F"
+  },
+  {
+    "id": "n_2026-06-08_02",
+    "date": "2026-06-08",
+    "category": "AI",
+    "subcat": "Gemini/Google DeepMind",
+    "platform": "TechCrunch",
+    "title": "谷歌每月付SpaceX 9.2亿美元购算力",
+    "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+    "image": "images/2026-06-08/n_2026-06-08_02.jpg",
+    "detail": [
+      "科技媒体TechCrunch于太平洋时间6月5日上午11点57分独家披露,谷歌已与埃隆·马斯克的SpaceX达成一项规模惊人的算力租赁协议,折射出AI军备竞赛中对GPU算力近乎贪婪的需求。这笔交易让一向被视为竞争对手的两家巨头出人意料地站到了一起。",
+      "根据协议,谷歌将从2026年10月起到2029年6月,每月向SpaceX支付高达9.2亿美元,以获取约11万块英伟达GPU的使用权。这笔算力被定位为过桥产能,用于支撑谷歌Gemini Enterprise企业服务的爆发式需求,协议还设有2026年12月31日后可取消的条款。",
+      "报道将该协议与Anthropic每月12.5亿美元的Colossus算力交易对比,凸显出头部AI公司为抢夺算力不惜重金。这种竞争对手互相供血的格局,也说明在算力极度紧缺的当下,商业利益正在重塑行业联盟关系,谷歌宁愿向马斯克阵营付费也要确保Gemini服务不断供。",
+      "值得注意的是,SpaceX正加速推进首次公开募股,计划以约1.75万亿美元估值募资约750亿美元,股票代码SPCX,预计6月12日左右在纳斯达克挂牌。这笔来自谷歌的稳定巨额现金流,无疑将为SpaceX旗下烧钱的xAI业务提供有力支撑,也成为投资者关注的焦点。"
+    ],
+    "platform_color": "#10A37F"
+  },
+  {
+    "id": "n_2026-06-08_01",
+    "date": "2026-06-08",
+    "category": "AI",
+    "subcat": "Gemini/Google DeepMind",
+    "platform": "TechCrunch",
+    "title": "苹果WWDC将发布Gemini驱动新Siri",
+    "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+    "image": "images/2026-06-08/n_2026-06-08_01.jpg",
+    "detail": [
+      "苹果一年一度的全球开发者大会WWDC 2026将于太平洋时间6月8日上午10点(北京时间6月9日凌晨1点)正式开幕。这也是蒂姆·库克作为CEO主持的最后一届WWDC,他已宣布将于9月1日把帅印交给硬件主管约翰·特努斯,使本届大会更具历史意义,全球开发者都在屏息以待。",
+      "据TechCrunch 6月6日报道,本届最受期待的发布是Siri的彻底重建。新Siri将基于谷歌Gemini技术,成为能理解上下文、处理多步骤任务、跨应用自然交互的对话式助手。彭博社爆料苹果以约每年10亿美元授权了一个1.2万亿参数的定制Gemini模型,这是Gemini在谷歌自家产品之外最大的商业部署。",
+      "除Siri外,苹果还将推出独立Siri应用,直接对标ChatGPT、Claude、Gemini等聊天机器人,并支持设定30天或一年后自动删除对话。相机将新增视觉智能模式,照片应用引入自然语言AI修图、自动抹除物体等功能,Image Playground也将升级画质与风格,引发外界对苹果AI补课成效的高度关注。",
+      "报道还提到苹果计划在App Store引入AI智能体集成,让用户委托助手完成订位、整理文档、控制智能家居等任务。钱包应用将新增账单分摊与创建通行证功能。业界普遍认为,苹果选择不自研前沿大模型、而以授权加私有云计算的策略,是当前科技界最具争议的战略豪赌。"
+    ],
+    "platform_color": "#10A37F"
+  },
+  {
     "id": "n_2026-06-06_19",
     "date": "2026-06-06",
     "category": "Gaming",
