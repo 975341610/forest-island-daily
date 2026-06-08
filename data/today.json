@@ -1,301 +1,258 @@
 [
   {
-    "id": "n_2026-06-06_01",
-    "date": "2026-06-06",
+    "id": "n_2026-06-08_01",
+    "date": "2026-06-08",
     "category": "AI",
-    "subcat": "AI研究",
-    "platform": "官方博客",
-    "title": "Anthropic警告AI将开始自我迭代 呼吁全球协调减速",
-    "url": "https://www.anthropic.com/institute/recursive-self-improvement",
-    "image": "images/2026-06-06/n_2026-06-06_01.jpg",
-    "detail": [
-      "美国当地时间6月4日，Anthropic通过其内部研究机构Anthropic Institute发布长文《When AI builds itself》（当AI开始构建自身），由政策负责人Jack Clark与内部研究负责人Marina Favaro联合署名，首次系统性地警告“递归式自我改进”（Recursive Self-Improvement，RSI）正以快于预期的速度逼近。文章核心观点是：AI系统正在越来越多地参与构建、测试并改进下一代AI，这一进程一旦完全闭环，人类对前沿模型的掌控力可能显著下降。",
-      "文章用一组内部数据佐证了趋势：Claude如今已经为公司贡献了超过80%的合并代码，每日产出的代码量约为2024年的8倍；从Claude 1到Claude Opus 4.5、再到内部代号Mythos Preview的多代模型，在编程会话成功率、能否选出比人类更优的下一步等评测上持续抬升。Anthropic据此判断，模型“自己挑选下一步研发方向”的能力正在逼近甚至局部超过人类工程师。",
-      "Anthropic罕见地呼吁全球前沿实验室考虑“协调减速”乃至临时暂停，认为若能给社会结构与对齐研究争取更多时间将是好事，并强调需要建立可核验机制——确保各方真正同步放缓、且没有坏人借“减速”之名暗中抢跑。该立场在AI圈引发强烈反响，Axios、WSJ、Sky News、SiliconANGLE等密集跟进；批评者则认为，作为商业公司一边发布Opus 4.8、一边喊暂停，姿态颇具争议。"
-    ]
-  },
-  {
-    "id": "n_2026-06-06_02",
-    "date": "2026-06-06",
-    "category": "AI",
-    "subcat": "AI产业",
-    "platform": "官方博客",
-    "title": "美两党推《伟大美国AI法案》拟联邦预占州法三年",
-    "url": "https://www.politico.com/news/2026/06/04/obernolte-trahan-ai-bill-lands-on-the-hill-00949920",
-    "image": "images/2026-06-06/n_2026-06-06_02.jpg",
-    "detail": [
-      "美国当地时间6月4日（周四），共和党众议员Jay Obernolte（加州）与民主党众议员Lori Trahan（马萨诸塞州）联合发布了《2026年伟大美国人工智能法案》（Great American Artificial Intelligence Act of 2026）讨论稿，意在为美国搭建首个全面的联邦级AI治理框架。Scott Franklin、Suhas Subramanyam、Erin Houchin、Scott Peters等多位两党议员联署支持，目前以“讨论稿”形式向业界、专家与公众征求意见，之后才会正式提出立法。",
-      "草案设立四大支柱：前沿AI模型治理、追踪AI对劳动力市场的冲击、强化网络安全、以及推动AI研发，并要求劳工部新设“人工智能劳动力研究中心”发布就业数据。其中最具争议的，是对“专门规制AI模型开发”的州级法律实施为期三年的联邦预占（preemption），即设置三年“日落”期限。批评者称这是把各州现有的AI监管下限直接变成联邦上限，剥夺州政府应对新兴风险的能力。",
-      "该草案延续了今年3月白宫向国会递交的AI蓝图思路，也得到众议院议长Mike Johnson的支持。但Trahan作为民主党核心人物，与共和党合作推进预占条款，已招致本党强烈反弹：马萨诸塞州、纽约州的州议员公开警告，Americans for Responsible Innovation主席Brad Carson、Public Citizen等组织联合数千份请愿表示反对。Politico、Roll Call、Nextgov、FedScoop等媒体均做了重点报道，预计将在国会掀起新一轮AI监管路线之争。"
-    ]
-  },
-  {
-    "id": "n_2026-06-06_03",
-    "date": "2026-06-06",
-    "category": "AI",
-    "subcat": "大模型",
+    "subcat": "Gemini/Google DeepMind",
     "platform": "TechCrunch",
-    "title": "国产大模型双雄智谱MiniMax齐冲科创板 拟构A+H",
-    "url": "https://news.qq.com/rain/a/20260602A0A71U00",
-    "image": "images/2026-06-06/n_2026-06-06_03.jpg",
+    "title": "苹果WWDC将发布Gemini驱动新Siri",
+    "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+    "image": "images/2026-06-08/n_2026-06-08_01.jpg",
     "detail": [
-      "进入2026年6月，全球大模型资本竞赛同步升温，被并称“国产大模型双雄”的智谱与MiniMax先后启动A股征程，齐齐剑指上交所科创板。6月1日晚间，港股市值逼近7000亿港元的“全球大模型第一股”智谱公告，董事会已全票通过建议发行A股并在科创板上市的决议；而MiniMax早在5月29日就与中信证券签署上市辅导协议，并于5月31日公告披露“登科”意向。两家公司均在今年1月刚登陆港交所，不到5个月就启动回A，节奏极其罕见。",
-      "根据智谱公告，公司拟发行不少于909.88万股、不超过3876.90万股新A股，占发行后总股本2%至8%，募资净额预计不超过150亿元人民币，其中120亿元投向“人工智能通用基座大模型”、20亿元用于“大模型MaaS一站式服务平台”、10亿元补充流动资金。这一规模远超其1月港股IPO约36亿元人民币的净筹资额。截至6月2日，智谱股价报1412港元，较116.2港元发行价涨超12倍；MiniMax报667.5港元，较165港元发行价累计涨超300%。",
-      "靓丽股价背后是“烧钱”现实：2025年智谱营收7.24亿元、同比增131.9%，但经调整净亏损约31.8亿元，核心MaaS平台ARR约17亿元、12个月提升60倍；MiniMax全年收入7903.8万美元、同比增158.9%，经调整净亏损约2.5亿美元，逾七成收入来自海外。业内人士将“快步回A”归因于科创板第五套上市标准重启、A股估值溢价与全球AI竞赛压力三重叠加。叠加大洋彼岸Anthropic抢先OpenAI于6月1日秘密递交IPO（投后估值9650亿美元），2026年被称为“大模型IPO元年”。"
+      "苹果一年一度的全球开发者大会WWDC 2026将于太平洋时间6月8日上午10点(北京时间6月9日凌晨1点)正式开幕。这也是蒂姆·库克作为CEO主持的最后一届WWDC,他已宣布将于9月1日把帅印交给硬件主管约翰·特努斯,使本届大会更具历史意义,全球开发者都在屏息以待。",
+      "据TechCrunch 6月6日报道,本届最受期待的发布是Siri的彻底重建。新Siri将基于谷歌Gemini技术,成为能理解上下文、处理多步骤任务、跨应用自然交互的对话式助手。彭博社爆料苹果以约每年10亿美元授权了一个1.2万亿参数的定制Gemini模型,这是Gemini在谷歌自家产品之外最大的商业部署。",
+      "除Siri外,苹果还将推出独立Siri应用,直接对标ChatGPT、Claude、Gemini等聊天机器人,并支持设定30天或一年后自动删除对话。相机将新增视觉智能模式,照片应用引入自然语言AI修图、自动抹除物体等功能,Image Playground也将升级画质与风格,引发外界对苹果AI补课成效的高度关注。",
+      "报道还提到苹果计划在App Store引入AI智能体集成,让用户委托助手完成订位、整理文档、控制智能家居等任务。钱包应用将新增账单分摊与创建通行证功能。业界普遍认为,苹果选择不自研前沿大模型、而以授权加私有云计算的策略,是当前科技界最具争议的战略豪赌。"
     ]
   },
   {
-    "id": "n_2026-06-06_04",
-    "date": "2026-06-06",
+    "id": "n_2026-06-08_02",
+    "date": "2026-06-08",
     "category": "AI",
-    "subcat": "AI产业",
+    "subcat": "Gemini/Google DeepMind",
     "platform": "TechCrunch",
-    "title": "微软自研AI模型矩阵 降低对OpenAI依赖",
-    "url": "https://www.cnbc.com/2026/06/02/microsoft-unveils-new-ai-models-lessen-reliance-on-openai-lower-costs.html",
-    "image": "images/2026-06-06/n_2026-06-06_04.jpg",
+    "title": "谷歌每月付SpaceX 9.2亿美元购算力",
+    "url": "https://techcrunch.com/2026/06/05/google-will-pay-spacex-920m-per-month-for-compute/",
+    "image": "images/2026-06-08/n_2026-06-08_02.jpg",
     "detail": [
-      "美国当地时间6月初，微软在其面向开发者的发布会上一口气推出多款自研AI模型，明确目标是降低对合作伙伴OpenAI的依赖、并显著压低成本。作为AI浪潮中的关键玩家，微软长期同时为OpenAI与Anthropic提供云基础设施，并持有两家公司数十亿美元的股权，此番大举自研被外界视为其在大模型供应链上的“去单一依赖”战略落地。",
-      "据CNBC报道，微软此次发布的模型矩阵覆盖了智能体（agent）与编程等核心场景，配套推出新的AI智能体和编程工具，意在与Anthropic的Claude Code、OpenAI的Codex以及谷歌Gemini在AI编程赛道正面竞争。同期CNBC另一篇报道（6月1日）也指出，微软与谷歌正联手在AI编程模型市场向Anthropic与OpenAI发起挑战，编程已成为各家变现与生态卡位的关键战场。",
-      "这一动作折射出云巨头与基础模型公司之间微妙的“竞合”关系：一方面微软仍是OpenAI最大的算力与资本支持者，另一方面又通过自研模型对冲风险、争夺定价权。结合Anthropic 5月年化收入运行率突破470亿美元、并抢先递交IPO，以及国产双雄冲刺科创板，6月初的AI产业呈现出“模型军备竞赛”与“资本竞速”并行的格局，编程与智能体能力成为各家比拼的主战场。"
+      "科技媒体TechCrunch于太平洋时间6月5日上午11点57分独家披露,谷歌已与埃隆·马斯克的SpaceX达成一项规模惊人的算力租赁协议,折射出AI军备竞赛中对GPU算力近乎贪婪的需求。这笔交易让一向被视为竞争对手的两家巨头出人意料地站到了一起。",
+      "根据协议,谷歌将从2026年10月起到2029年6月,每月向SpaceX支付高达9.2亿美元,以获取约11万块英伟达GPU的使用权。这笔算力被定位为过桥产能,用于支撑谷歌Gemini Enterprise企业服务的爆发式需求,协议还设有2026年12月31日后可取消的条款。",
+      "报道将该协议与Anthropic每月12.5亿美元的Colossus算力交易对比,凸显出头部AI公司为抢夺算力不惜重金。这种竞争对手互相供血的格局,也说明在算力极度紧缺的当下,商业利益正在重塑行业联盟关系,谷歌宁愿向马斯克阵营付费也要确保Gemini服务不断供。",
+      "值得注意的是,SpaceX正加速推进首次公开募股,计划以约1.75万亿美元估值募资约750亿美元,股票代码SPCX,预计6月12日左右在纳斯达克挂牌。这笔来自谷歌的稳定巨额现金流,无疑将为SpaceX旗下烧钱的xAI业务提供有力支撑,也成为投资者关注的焦点。"
     ]
   },
   {
-    "id": "n_2026-06-06_05",
-    "date": "2026-06-06",
+    "id": "n_2026-06-08_03",
+    "date": "2026-06-08",
     "category": "AI",
-    "subcat": "AI研究",
-    "platform": "YouTube",
-    "title": "图灵奖得主Bengio警示AI智能体失控",
-    "url": "https://www.bloomberg.com/news/videos/2026-06-04/ai-scientist-bengio-on-engineering-safer-agents-video",
-    "image": "images/2026-06-06/n_2026-06-06_05.jpg",
+    "subcat": "OpenAI/ChatGPT",
+    "platform": "CNBC",
+    "title": "特朗普政府商谈入股OpenAI",
+    "url": "https://www.cnbc.com/2026/06/05/trump-open-ai-altman-stake.html",
+    "image": "images/2026-06-08/n_2026-06-08_03.jpg",
     "detail": [
-      "美国当地时间6月4日，在旧金山举行的Bloomberg Tech 2026大会上，被誉为“AI教父”之一的图灵奖得主、深度学习先驱Yoshua Bengio接受彭博记者Shirin Ghaffary专访，围绕AI安全、智能体（agent）风险与治理框架发表了尖锐警告。Bengio现任Mila魁北克AI研究所创始人兼科学顾问，并担任他于2025年创立的非营利安全机构LawZero联席主席兼科学总监，该机构主推名为“Scientist AI”的护栏式技术路线。",
-      "Bengio的核心担忧是：当前主流路线把通用人工智能（AGI）构建成“理解世界并自主行动”的智能体，而智能体内部用于监督的monitor往往与被监督系统同源，难以构成有效制衡，一旦能力越过临界点，开发者就可能失去对系统的控制。在企业与国家高速竞赛、缺乏护栏的背景下，他直言这是一个“危险的命题”，并呼吁建立独立、可核验的治理机制。",
-      "值得注意的是，Bengio还点名了近期引发广泛关注的Anthropic Mythos——他在采访中表示“Mythos所揭示的是，我们已经到了、而且会越来越严重的一个节点：AI可以被武器化”。这一表态与同期Anthropic发布的“递归式自我改进”警告、以及大会上Verizon、Android、思维机器实验室Mira Murati等人的发言相互呼应，使“AI安全与失控风险”成为本届Bloomberg Tech的核心议题之一。"
+      "美国财经媒体CNBC于美东时间6月5日下午1点58分证实,OpenAI首席执行官萨姆·奥尔特曼与白宫正就政府可能持有该公司股份进行持续磋商。知情人士透露,相关讨论已进行一年多,奥尔特曼早在2025年就向特朗普政府提出了这一构想。",
+      "根据可能的安排,OpenAI或将向美国政府捐赠股权,用以孵化该公司今年4月政策提案中提出的公共财富基金。该基金将投资多元化长期资产,使普通公民能够分享AI增长的红利,甚至可能直接获得基金回报。不过具体投资条款尚未敲定,仍可能变动。",
+      "特朗普6月5日在空军一号上向记者回应称,可以设计出把部分股份给予美国公众、让公众实质上成为合伙人的方案,并表示将在很近的将来与多家AI公司会面。此前他已签署行政令要求联邦政府设立主权财富基金,本届政府还入股过英特尔、IBM等企业。",
+      "报道指出,参议员伯尼·桑德斯周三与奥尔特曼会面时也讨论了主权财富基金概念。OpenAI目前私募估值超过8500亿美元,并正筹备最快今年内上市。科技公司在塑造白宫AI立场上扮演核心角色,而政府入股议题在IPO季节浮出水面,无疑将令机构投资者情绪更趋复杂。"
     ]
   },
   {
-    "id": "n_2026-06-06_06",
-    "date": "2026-06-06",
+    "id": "n_2026-06-08_04",
+    "date": "2026-06-08",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "GitHub",
+    "title": "Lathe：让AI教你学,而非替你写",
+    "url": "https://github.com/devenjarvis/lathe",
+    "image": "images/2026-06-08/n_2026-06-08_04.jpg",
+    "detail": [
+      "开发者 devenjarvis 推出全新开源工具 Lathe,反其道而行地用大模型教你学习而非替你干活。它能为任意技术主题按需生成一份手把手、附带原始资料出处的多章节教程,你需要亲手在本地界面里逐行阅读并敲出代码,从而真正掌握知识,而不是被 AI 一键跳过学习过程。",
+      "Lathe 由一个 Go 语言 CLI 加一套面向 Claude Code、Cursor、Codex 的 Agent Skills 组成。用户只需输入类似 /lathe build a 3D slicer in Erlang 的指令,再运行 lathe serve 即可在浏览器打开本地 webapp。教程内置随滚动跟随的目录、引导思考的旁注、读者练习题,以及可溯源的参考资料,还能让另一个 LLM 验证代码能否真正编译运行。",
+      "该项目在 HackerNews 上线数小时即冲上首页,获得 221 分与 41 条评论。作者坦言项目本身正是 vibecoded 产物,定位为低风险的个人兴趣作品。社区普遍认可其逆向思路,认为在缺乏优质人工教程的冷门领域,这种让 AI 帮你思考更多而非更少的范式颇具价值。",
+      "作者强调 Lathe 并非要取代人工撰写的教程,而是填补无人写过领域的空白,例如从零实现 3D 切片器或让嵌入式 Zig 更易上手。它目前在 Claude Code 加 macOS 环境下验证最充分。"
+    ]
+  },
+  {
+    "id": "n_2026-06-08_05",
+    "date": "2026-06-08",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "GitHub",
+    "title": "开发者请愿:Claude Desktop登陆Linux",
+    "url": "https://github.com/anthropics/claude-code/issues/65697",
+    "image": "images/2026-06-08/n_2026-06-08_05.jpg",
+    "detail": [
+      "一条标题为 Anthropic, please ship an official Claude Desktop for Linux 的 GitHub Issue 在 2026 年 6 月 7 日引爆开发者社区,登上 HackerNews 首页,斩获 433 分与逾 240 条评论。大量 Linux 用户集体请愿,呼吁 Anthropic 为 Linux 平台推出官方 Claude 桌面客户端,结束长期只有 Windows 和 macOS 版本的局面。",
+      "目前 Claude 官方桌面应用仅覆盖 Windows 与 macOS,Linux 用户只能依赖浏览器网页版或社区自制的非官方封装方案,缺乏托盘、全局快捷键、MCP 本地集成等原生体验。该 Issue 下聚集了数百名开发者列举使用场景与技术诉求,成为 claude-code 仓库近期讨论最热烈的议题之一。",
+      "评论区中不少人指出,作为开发者主力工具,Claude Code CLI 已深受 Linux 用户欢迎,但桌面端的缺位显得不合常理。也有人讨论用 Electron 还是原生 GTK/Qt 实现的取舍。这场请愿折射出 AI 编程工具在 Linux 生态的巨大需求,以及厂商优先级与社区期待之间的落差。",
+      "Anthropic 尚未在该 Issue 中给出官方承诺,但高热度已让其成为衡量社区呼声的风向标。"
+    ]
+  },
+  {
+    "id": "n_2026-06-08_06",
+    "date": "2026-06-08",
     "category": "VibeCoding",
     "subcat": "开发工具",
+    "platform": "HackerNews",
+    "title": "Sem:在Git之上理解代码的新原语",
+    "url": "https://ataraxy-labs.github.io/sem/",
+    "image": "images/2026-06-08/n_2026-06-08_06.jpg",
+    "detail": [
+      "Ataraxy Labs 推出全新命令行工具 Sem,主打在 Git 之上的语义理解。它不依赖 LSP,而是把代码视为实体(函数、类、方法)而非纯文本行,提供 diff、blame、impact、log 等命令,让开发者直观看到某次提交到底改了哪些函数,而非传统按行对比的晦涩 diff。",
+      "Sem 共提供六条命令、打包为单个二进制,支持 26 种语言与 5 种数据格式,零配置即可在任意 Git 仓库工作。亮点包括实体级 diff(带重命名检测)、跨文件依赖图的 impact 分析、单实体的演进历史 log,以及为 LLM 设计、可控 token 预算的 context 命令。官网称典型 diff 仅需 8 毫秒,下载量已破 4000。",
+      "项目在 HackerNews 获得 168 分与 56 条评论,讨论聚焦其对 AI 编程的价值。官方援引基准称,向 AI Agent 提供 sem 输出相比原始行级 diff,准确率提升 2.3 倍,这让它在 Agent 工程化场景中颇受关注。",
+      "安装仅需 brew install sem-cli,运行 sem setup 即可将其设为 git 的外部 diff 工具并安装 pre-commit 钩子,所有命令均支持 --json 机器可读输出。"
+    ]
+  },
+  {
+    "id": "n_2026-06-08_07",
+    "date": "2026-06-08",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "HackerNews",
+    "title": "Zeroserve:用eBPF脚本化的零配置服务器",
+    "url": "https://su3.io/posts/introducing-zeroserve",
+    "image": "images/2026-06-08/n_2026-06-08_07.jpg",
+    "detail": [
+      "开发者 losfair 发布了名为 Zeroserve 的全新 Web 服务器,主打零配置与用 eBPF 脚本化。你只需把整个网站打包成一个 tar 文件交给它,即可通过 HTTP/2 与 TLS 1.3 对外提供服务,支持热重载,且常驻内存极小。最大亮点是可把 eBPF 程序塞进 tarball,作为沙箱中间件在每个请求上运行。",
+      "这些 eBPF 脚本会被 JIT 编译为本地代码并在用户态沙箱执行,成本低到可逐请求运行,用于改写、鉴权、限流或反向代理。它全程基于 io_uring 提交网络与磁盘操作,内置 TLS 1.3、HTTP/2、加密 ClientHello、SNI 证书选择与 JA4 指纹。官方称单核性能在多数静态文件与小响应代理场景下超过 nginx。",
+      "该文在 HackerNews 收获 265 分与 58 条评论,被定位为 nginx 与 Caddy 的替代品。其核心理念是程序即配置:不再有 location 块、rewrite 规则等声明式配置叠加脚本的割裂,而是用一个可从头读到尾的 eBPF 程序统一掌控整个请求路径。",
+      "部署只需替换 tarball 并发送 SIGHUP 信号,即可原子化地同时热替换站点、脚本与 TLS 材料且不丢连接。作者也注明本文由 GPT-5.5 与 Claude Opus 4.8 协作撰写。"
+    ]
+  },
+  {
+    "id": "n_2026-06-08_08",
+    "date": "2026-06-08",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
     "platform": "GitHub",
-    "title": "微软开源 pg_durable：数据库内持久化执行",
-    "url": "https://github.com/microsoft/pg_durable",
-    "image": "images/2026-06-06/n_2026-06-06_06.jpg",
+    "title": "浏览器里像素级还原Office文档",
+    "url": "https://github.com/yukiyokotani/office-open-xml-viewer",
+    "image": "images/2026-06-08/n_2026-06-08_08.jpg",
     "detail": [
-      "6月5日,微软在 GitHub 开源了 pg_durable,这是一个把「持久化执行」(durable execution)直接塞进 PostgreSQL 内核的扩展,用 pgrx 框架以 Rust 编写,当天就冲上 Hacker News 首页,获得 361 分和 83 条评论,仓库星标迅速攀升至约 760。",
-      "它的核心卖点是「零基础设施」:开发者无需再额外部署 Redis、Temporal 等编排组件,直接用 SQL DSL 就能定义可恢复的长流程任务。它提供 ~> 与 |=> 两个自定义操作符以及 df.start() 函数,把查询结果像管道一样串成可重放、断点续跑的工作流。",
-      "项目底层基于微软自研的 duroxide 与 duroxide-pg 运行时,并与云端的 Azure HorizonDB 技术线绑定,目前以 Preview 预览状态发布,采用 PostgreSQL License。语言构成约为 Rust 50%、PLpgSQL 30%、Shell 18%。",
-      "社区评论两极:一派认为把工作流引擎下沉到数据库能大幅简化架构、减少分布式协调的坑;另一派担忧业务逻辑过度耦合进数据库会带来运维与可移植性风险,讨论延伸到 durable execution 是否应该是数据库的职责。"
+      "开发者 yukiyokotani 的开源项目 office-open-xml-viewer 于 6 月 7 日登上 HackerNews 首页,主打在浏览器中像素级忠实渲染 Office 文档。它能直接解析 OOXML(Office Open XML)格式,在前端高保真还原 Word、Excel、PowerPoint 等文档的版式与样式,而无需依赖微软或第三方在线服务。",
+      "与多数仅做粗略转换或丢失格式的网页预览方案不同,该项目强调对原始排版的精确复刻,力求让浏览器中的呈现效果与桌面 Office 客户端一致。这对需要在 Web 端嵌入文档预览、又不愿上传敏感文件到云端的场景尤为实用,兼顾隐私与还原度。",
+      "帖子获得 111 分与 42 条评论,社区围绕 OOXML 解析的复杂度、字体替换、图表与公式渲染等技术难点展开讨论。不少前端开发者认为这是一个填补空白的实用轮子,可作为现有重型文档库的轻量替代。",
+      "项目纯前端实现,文档不离开用户浏览器,天然规避了服务端上传带来的合规与隐私顾虑。"
     ]
   },
   {
-    "id": "n_2026-06-06_07",
-    "date": "2026-06-06",
+    "id": "n_2026-06-08_09",
+    "date": "2026-06-08",
     "category": "VibeCoding",
-    "subcat": "AI编程",
-    "platform": "HN",
-    "title": "数据反驳：Claude 并没让 rsync 更多 bug",
-    "url": "https://alexispurslane.github.io/rsync-analysis/",
-    "image": "images/2026-06-06/n_2026-06-06_07.jpg",
+    "subcat": "编程语言",
+    "platform": "HackerNews",
+    "title": "Python指导委员会叫停JIT项目开发",
+    "url": "https://discuss.python.org/t/an-announcement-from-the-steering-council-regarding-the-jit-project/107638",
+    "image": "images/2026-06-08/n_2026-06-08_09.jpg",
     "detail": [
-      "6月5日,一篇题为《Did Claude Increase Bugs in rsync?》的统计分析登上 Hacker News 首页,获 352 分、363 条评论。它回应的是5月底那场风波:有人指责 rsync 维护者用 Claude 写代码导致质量下滑,GitHub 上甚至出现标题粗暴、长达 329 条评论的攻击性 issue,还夹带针对维护者的暴力言论。",
-      "作者用数据说话,系统分析了 rsync 从 v2.4.6 到 v3.4.3 共 36 个版本。其中仅 2 个版本明显由 Claude 参与:v3.4.2(50 次提交、9 次 Claude 参与、0 个 bug),v3.4.3(34 次提交、28 次 Claude 参与、17 个 bug,严重度 3.29 sev/10c,处于历史第 77 百分位)。",
-      "通过精确置换检验得出 p≈46%,Fisher 精确检验 p≈74%(优势比仅 1.06),意味着没有统计学证据表明 Claude 让 rsync 更易出 bug。历史平均严重度 2.95 反而高于 Claude 参与版本的 1.65,而史上最差版本 v3.4.1(39.39 sev/10c)出现在 Claude 介入之前。",
-      "有趣的是,分析脚本本身由 GLM 5.1 编写、bug 严重度由 Qwen 3 35B 评分,文中还引用了 rsync 之父 Andrew Tridgell 的观点。事件成为「AI 辅助编程是否真的拉低开源质量」这一争论的典型案例,评论区围绕方法论与社区戾气展开激辩。"
+      "Python 指导委员会(Steering Council)发布官方公告,要求暂停 JIT(即时编译)项目的开发。这一消息于 6 月 6 日至 7 日在 Python 官方论坛与 HackerNews 引发广泛关注,HN 帖子获得 174 分与 95 条评论,成为编程语言圈近期的焦点话题。",
+      "CPython 的实验性 JIT 编译器自前几年引入以来,被寄望为提升 Python 运行性能的关键路径之一,与无 GIL 等性能工程一同构成 CPython 现代化的重要方向。指导委员会此番叫停,意味着该实验性特性的推进节奏出现重大调整,具体走向需等待后续说明。",
+      "社区反应复杂,有人担忧这会削弱 Python 在性能上的长期竞争力,也有人认为在收益尚不明确、维护成本高企的情况下暂停是务实之举。讨论还延伸到 CPython 治理流程、资源分配以及实验特性该如何设定成功标准等更深层议题。",
+      "作为官方治理机构的正式决定,这一公告将直接影响 CPython 后续版本的特性规划,值得关注 Python 性能演进的开发者持续跟踪。"
     ]
   },
   {
-    "id": "n_2026-06-06_08",
-    "date": "2026-06-06",
+    "id": "n_2026-06-08_10",
+    "date": "2026-06-08",
     "category": "VibeCoding",
-    "subcat": "AI编程",
-    "platform": "官方博客",
-    "title": "谷歌发布 Gemma 4 QAT 量化版模型",
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
-    "image": "images/2026-06-06/n_2026-06-06_08.jpg",
+    "subcat": "开源项目",
+    "platform": "HackerNews",
+    "title": "SourceLibrary:为AI开放的古籍译库",
+    "url": "https://sourcelibrary.org",
+    "image": "images/2026-06-08/n_2026-06-08_10.jpg",
     "detail": [
-      "6月5日,谷歌在 The Keyword 官方博客发布 Gemma 4 的 QAT(量化感知训练)系列模型,主打在手机和笔记本等端侧设备上的高效压缩与推理,消息当天登上 Hacker News 首页并获得约 309 分,引发开发者广泛关注。",
-      "与训练后再压缩的常规量化不同,QAT 在训练阶段就模拟低比特运算,让模型「提前适应」量化误差。其目标是在把权重压到 int4 等更低精度、显著降低显存与体积占用的同时,尽量保住接近原始全精度模型的输出质量。",
-      "对独立开发者和本地部署玩家而言,这意味着可以用更小的显存预算把 Gemma 4 跑在消费级硬件上,降低了在笔记本、甚至移动端做本地 AI 编程助手与离线推理的门槛,延续了 Gemma 系列开放、轻量的定位。",
-      "社区讨论聚焦于 QAT 版本的实测精度损失、在不同推理框架(如 llama.cpp、MLX)上的支持进度,以及它与同类开源端侧模型在体积与速度上的取舍,被视为端侧本地大模型生态又一次重要补强。"
+      "开发者 dr_dshiv 在 HackerNews 发布 Show HN,介绍号称全球最大的古代典籍翻译在线图书馆 SourceLibrary.org。它收录了从拉丁语、希腊语、汉语、梵语、阿拉伯语到希伯来语、古埃及语等数十种语言翻译而来的逾 1.5 万册书籍,内容横跨宗教经典到早期科学,愿景是让古代智慧同时对人类与 AI 开放。",
+      "该项目采用 AGPL3 开源,扫描件多为公有领域,译文以知识共享(Creative Commons)署名相同方式共享,并全面通过 MCP 与 API 提供访问。开发者特别强调可让 Claude Code 或 Codex 直接接入,检索并引用原始文献,例如对比拉丁语、汉语、梵语中的炼金术实践,甚至检索配图。其文字量已超过英文维基百科。",
+      "作者指出一个反差:拉丁语文艺复兴文献被翻译成英文的不足 3%,而点燃文艺复兴的恰是对古希腊智慧文本的翻译。项目由荷兰非营利机构 Embassy of the Free Mind 发起,背后是被 UNESCO 列入世界记忆的珍本图书馆。",
+      "该 Show HN 邀请社区免费注册并提供反馈,站内还内置名为 librarian 的研究型 Agent,可在对话中检索引文与图像。"
     ]
   },
   {
-    "id": "n_2026-06-06_09",
-    "date": "2026-06-06",
-    "category": "VibeCoding",
-    "subcat": "开发者圈",
-    "platform": "HN",
-    "title": "实测：SQLite 用 UUID 主键性能可慢 10 倍",
-    "url": "https://andersmurphy.com/2026/06/05/the-perils-of-uuid-primary-keys-in-sqlite.html",
-    "image": "images/2026-06-06/n_2026-06-06_09.jpg",
-    "detail": [
-      "6月5日,开发者 Anders Murphy 发表《The perils of UUID primary keys in SQLite》,用一组扎实的基准测试展示随机 UUID 做主键的性能代价,文章随即登上 Hacker News 首页,在「数据库选型」话题里引发热议。",
-      "他向表中分批插入共 1 亿行数据做对比:使用常规自增整型主键(rowid)时,稳定保持约每秒 100 万次插入,单批耗时约 1080 毫秒;而换成随机 UUID4 主键后,单批耗时从 2649 毫秒一路升到 12586 毫秒,整体慢了约 10 到 12 倍。",
-      "原因在于聚簇索引:SQLite 的表数据按主键物理排序存储,UUID4 的无序特性会让新行被随机插入 B 树各处,迫使引擎不断重新平衡、反复读写页面。作者用归一化 diffgraph 火焰图直观佐证了时间都耗在了树平衡上。",
-      "解法是改用时间有序的 UUID7:实测单批稳定在约 1250 毫秒,仅略慢于整型基线(因为 16 字节的 blob 主键比 8 字节整型更大)。结论提醒大家,这一陷阱同样适用于其他使用聚簇索引的数据库,选主键务必考虑写入顺序。"
-    ]
-  },
-  {
-    "id": "n_2026-06-06_10",
-    "date": "2026-06-06",
-    "category": "VibeCoding",
-    "subcat": "AI编程",
-    "platform": "HN",
-    "title": "Opus 4.8 一次过：首个形式化验证多边形求交",
-    "url": "https://github.com/schildep/verified-polygon-intersection",
-    "image": "images/2026-06-06/n_2026-06-06_10.jpg",
-    "detail": [
-      "6月4日,开发者 schildep 在 GitHub 发布 verified-polygon-intersection,并以 Show HN 形式分享,称这或是首个对多边形求交算法做完整形式化验证的实现。帖子最受关注的点在于:最新模型 Opus 4.8 能「一次过」给出带形式化证明的算法,而此前的模型则需要人类分步提供证明策略。",
-      "项目用 Lean 4 证明助手把多边形求交的规范完全形式化并验证。多边形内部由射线与边相交次数的奇偶性定义,输入配置有无穷多种、内部点集也是无穷集,因此传统测试无法穷尽覆盖,而形式化证明可以对任意输入保证求交等式成立。",
-      "作者强调「信任来源」的设计:正确性只来自 Lean 检查器和人类对一小段规范的审阅,而非 LLM 本身。审阅者只需读 DataStructures.lean、Defs.lean 等 3 个文件、约 87 行易懂的 Lean 规范并运行检查器即可,算法实现与证明代码再多也不影响这份可信基础。",
-      "他还指出,证明长度大多并非来自算法本身,而是因为许多「看似显然」的几何事实缺乏简短严格证明——仅「内部点定义与射线方向无关」一条就写了上千行 Lean。该项目被社区当作 AI 辅助形式化验证能力跃迁的标志性 vibe coding 案例。"
-    ]
-  },
-  {
-    "id": "n_2026-06-06_11",
-    "date": "2026-06-06",
+    "id": "n_2026-06-08_11",
+    "date": "2026-06-08",
     "category": "Gaming",
-    "subcat": "单机",
+    "subcat": "主机游戏",
     "platform": "IGN",
-    "title": "最终幻想7重制三部曲终章《启示》公布",
-    "url": "https://www.ign.com/articles/final-fantasy-vii-remake-part-3-called-revelation-out-simultaneously-across-all-platforms",
-    "image": "images/2026-06-06/n_2026-06-06_11.jpg",
+    "title": "战争机器E日公布发售日10月6日",
+    "url": "https://www.ign.com/videos/gears-of-war-e-day-official-gameplay-trailer-xbox-games-showcase-2026",
+    "image": "images/2026-06-08/n_2026-06-08_11.jpg",
     "detail": [
-      "在北京时间6月6日凌晨举办的Summer Game Fest Live 2026上,史克威尔艾尼克斯正式揭晓了《最终幻想7重制》三部曲的最终章,定名为《Final Fantasy VII Revelation(启示)》,首支预告片在Dolby剧院亮相,将玩家带回经典原作中的雾都Wutai等地点。",
-      "本作预定于2027年春季发售,首次实现全平台同步上市,覆盖PS5、Nintendo Switch 2、Xbox Series X|S以及PC(Steam、Epic、Xbox PC),不再像前作那样存在PC版延后的等待期,正值1997年原版30周年纪念年。",
-      "预告确认了飞空艇Highwind登场,玩家可驾驶后跳入开放世界;在《重生》中无法操作的文森特与西德首次成为可战斗角色,并能挑战巨型Weapon。新增名为FITS的换装战术系统,类似经典职业系统,让角色穿戴不同套装切换招式。",
-      "作为衔接2020年《重制》与2024年《重生》的收尾之作,社区反响热烈,Switch 2同步首发也被视为任天堂新机第一方第三方阵容的重要补强,玩家普遍认为这是本届SGF最受瞩目的压轴级公布之一。"
+      "战争机器：E日(Gears of War: E-Day)是 The Coalition 工作室打造的系列前传,故事设定在初代战争机器故事发生的 14 年之前,聚焦更年轻的马库斯·菲尼克斯,讲述兽族突袭人类世界、引爆紧急日的起源篇章,自 2024 年首度曝光后一直备受系列粉丝期待。",
+      "在北京时间 6 月 8 日凌晨举行的 Xbox 游戏展示会(Xbox Games Showcase 2026)及随后的 E日专场直面会上,微软放出了全新实机演示预告,并正式宣布本作将于 2026 年 10 月 6 日发售,定位为 Xbox 主机平台独占,同时登陆 PC,并首发加入 Game Pass。",
+      "预告中展现了高强度近身作战与系列标志性元素,画面表现与紧张氛围获得现场与社媒玩家好评。作为微软 2026 年下半年最重磅的第一方大作之一,确切发售日的落地让长期处于只闻其名状态的项目终于明朗,也为今年秋季主机大战增添看点。",
+      "本作是系列时隔多年的正统新作,The Coalition 同步公布了开发细节解析,强调希望找回系列早期夏日大片般的爽快与幽默基调,在叙事与战斗节奏上做出取舍。"
     ]
   },
   {
-    "id": "n_2026-06-06_12",
-    "date": "2026-06-06",
+    "id": "n_2026-06-08_12",
+    "date": "2026-06-08",
     "category": "Gaming",
-    "subcat": "单机",
-    "platform": "官方博客",
-    "title": "上田文人新作正式定名《gen ATLAS》",
-    "url": "https://www.gematsu.com/2026/06/epic-games-publishing-and-gendesign-announce-gen-atlas",
-    "image": "images/2026-06-06/n_2026-06-06_12.jpg",
+    "subcat": "单机游戏",
+    "platform": "Gematsu",
+    "title": "女神异闻录6正式公布登陆多平台",
+    "url": "https://www.gematsu.com/2026/06/persona-6-announced-for-ps5-xbox-series-and-pc",
+    "image": "images/2026-06-08/n_2026-06-08_12.jpg",
     "detail": [
-      "《ICO》《旺达与巨像》《最后的守护者》之父上田文人率领的genDESIGN工作室,在6月5日Summer Game Fest上公布了新作的正式名称《gen ATLAS》,此前内部代号为Project Robot,由Epic Games Publishing负责发行。",
-      "本作定位为单人开放世界动作冒险游戏,登陆PS5、Xbox Series以及PC(Epic游戏商城)。官方简介描述:行星表面散落着某种宏大造物的残骸,在漫长岁月后这些被遗忘的构造体再度开始活动,延续了上田作品一贯的孤独与宏大美学。",
-      "这是上田文人时隔十余年的全新原创项目,且为其作品首次登陆Xbox平台,社区与媒体高度关注。本次仅放出第二支预告,尚未公布发售日期或时间窗口,但已足以成为本届展会艺术向话题中心。",
-      "genDESIGN官网同步更新,确认第二支预告于6月5日在SGF首映,并提及《最后的守护者》主题大型艺术雕像等周边动态,显示工作室正逐步加大宣发力度。"
+      "女神异闻录6(Persona 6)是 Atlus 旗下王牌 JRPG 系列的最新正统续作,系列自 1996 年作为真·女神转生衍生作起步,凭借独特的假面战斗、社群养成与浓郁青春叙事,成长为全球范围内极具号召力的 RPG 招牌之一。",
+      "在 Xbox 游戏展示会上,Atlus 放出首支预告并宣布本作将登陆 PlayStation 5、Xbox Series X|S、Xbox Cloud 以及 PC(Steam 与微软商店),官方称其既是系列老玩家的全新悬疑篇章,也是新人入坑的理想起点,但暂未公布确切发售日期。",
+      "预告释出后引发玩家热议,不少人注意到本作氛围更偏向阴郁与恐怖基调,认为这是向系列早期真·女神转生风格的回归,社媒上关于主题、配色与潜在发售窗口的讨论迅速升温,粉丝同时呼吁追加 Switch 2 版本。",
+      "Atlus 同场还公布了女神异闻录4 Revival 将于 2027 年 2 月 18 日发售,两作前后脚亮相,显示出公司在主机与 PC 多平台同步铺开的明确策略。"
     ]
   },
   {
-    "id": "n_2026-06-06_13",
-    "date": "2026-06-06",
+    "id": "n_2026-06-08_13",
+    "date": "2026-06-08",
     "category": "Gaming",
-    "subcat": "单机",
-    "platform": "官方博客",
-    "title": "茶杯头新作公布 含8位平台动作游戏",
-    "url": "https://nintendoeverything.com/mighty-cuphead-adventure-announced-new-cuphead-game-on-the-way",
-    "image": "images/2026-06-06/n_2026-06-06_13.jpg",
-    "detail": [
-      "在6月5日Summer Game Fest 2026的Studio MDHR特别快报中,工作室一口气带来两项茶杯头(Cuphead)相关公布,确认全新手绘动画《Cuphead》正篇游戏已进入开发,将带领茶杯头等经典角色展开全新冒险,目前处于早期阶段。",
-      "同时公布的还有一款名为《Mighty Cuphead Adventure》的8位动作平台游戏,由MDHR内部小团队秘密开发。该作不仅致敬1980年代经典,更采用时代技术真实打造,以经典汇编语言编写并按SEGA Master System主机规格设计,将登陆现代平台。",
-      "MDHR表示此次以充满趣味的快报形式揭幕,希望把玩家带回他们下一个项目所设定的年代。预计现代平台版本会包含Switch 2/Switch等,延续工作室招牌的手绘美术风格。",
-      "《茶杯头》以高难度Boss战与1930年代橡皮管动画风格闻名,新作消息令系列粉丝振奋,被视为本届展会最具情怀和惊喜感的独立向公布之一。"
-    ]
-  },
-  {
-    "id": "n_2026-06-06_14",
-    "date": "2026-06-06",
-    "category": "Gaming",
-    "subcat": "Steam",
-    "platform": "Steam",
-    "title": "《哥特王朝1：重制版》正式发售",
-    "url": "https://store.steampowered.com/app/1297900/Gothic_1_Remake",
-    "image": "images/2026-06-06/n_2026-06-06_14.jpg",
-    "detail": [
-      "由Alkimia Interactive开发、THQ Nordic发行的《Gothic 1 Remake(哥特王朝1:重制版)》已于6月5日正式登陆PC(Steam)、PS5与Xbox Series X|S,是对Piranha Bytes于2001年推出的开创性开放世界RPG经典的重制,恰逢系列25周年。",
-      "重制版从零重建整个游戏世界,在保留原作自由探索与满足感进阶的核心支柱同时,加入了更扩展细致的任务线、更多NPC日常作息与反应、新的移动能力,以及全面现代化的战斗系统,力求重现原作粗粝、写实的矿区峡谷氛围。",
-      "官方此前在2月12日发布稿中强调本作不会过早也不会过晚发售,而是定在6月5日这一精准时点。在Summer Game Fest档期发售,使其获得额外曝光,老粉丝对欧式硬核Jank风格的回归普遍表示欢迎。",
-      "故事讲述米尔塔纳王国遭兽人横扫,玩家作为无名外来者被丢入矿区殖民地求生。系列三部曲经典此前也已宣布登陆PS与Xbox平台,显示THQ Nordic对Gothic IP的整体重振布局。"
-    ]
-  },
-  {
-    "id": "n_2026-06-06_15",
-    "date": "2026-06-06",
-    "category": "Gaming",
-    "subcat": "Steam",
-    "platform": "Steam",
-    "title": "《幻兽帕鲁》1.0将于7月10日推出",
-    "url": "https://www.gamespot.com/articles/palworld-1-0-is-launching-sooner-than-you-expect",
-    "image": "images/2026-06-06/n_2026-06-06_15.jpg",
-    "detail": [
-      "开发商Pocketpair在6月5日Summer Game Fest上宣布,现象级生存制作游戏《Palworld(幻兽帕鲁)》将于7月10日迎来正式1.0版本,并放出了游戏首支CG过场动画预告以纪念这一里程碑。",
-      "1.0更新内容丰富,将加入全新帕鲁、新地区以及一个全新的威胁势力,玩家还能探索一座日式风格的全新岛屿,遇见此前从未见过的帕鲁。此前官方仅确认本年内正式发售,如今档期落定在数周之后。",
-      "《幻兽帕鲁》自2024年初以抢先体验形态爆红,凭借捕捉、建造与生存玩法吸引大量玩家。配合公布,游戏在Steam开启限时25%折扣,持续至6月9日,进一步刺激了销量与讨论热度。",
-      "作为常被戏称为'带枪宝可梦'的话题作,它在结束长期抢先体验、正式步入1.0的节点引发社区高度关注,玩家纷纷期待最终版的内容规模与那棵长期可见却无法抵达的巨树之谜。"
-    ]
-  },
-  {
-    "id": "n_2026-06-06_16",
-    "date": "2026-06-06",
-    "category": "Gaming",
-    "subcat": "主机",
-    "platform": "The Verge",
-    "title": "卡普空公布《生化危机:维罗妮卡》重制",
-    "url": "https://variety.com/2026/gaming/news/new-resident-evil-game-veronica-remake-release-2027-1236768265",
-    "image": "images/2026-06-06/n_2026-06-06_16.jpg",
-    "detail": [
-      "在6月5日Summer Game Fest 2026上,卡普空正式公布生存恐怖新作《Resident Evil Veronica(生化危机:维罗妮卡)》,这是对2000年经典《生化危机 代号:维罗妮卡》的重制,首支预告以经典女主角克莱尔·雷德菲尔德登场作为开篇。",
-      "游戏预定2027年发售,登陆PS5、Xbox Series X|S、PC与Nintendo Switch 2。原作剧情发生在1998年《生化危机2》三个月后、与1999年《生化危机3》同期,讲述克莱尔与哥哥克里斯在南冰洋监狱岛及南极研究设施中遭遇病毒爆发求生的故事。",
-      "卡普空表示本作将在重温这一系列经典的同时,为新玩家重新构想体验。这是继系列第九部正统作《生化危机 安魂曲》之后的又一重磅项目,补完了Remake系列拼图,长期被业界内部人士预测的Code Veronica重制终成现实。",
-      "维罗妮卡是系列粉丝呼声极高的重制目标之一,公布后社区反响热烈。配合RE Engine的现代化表现与全平台覆盖,该作被视为本届SGF恐怖品类最受期待的回归之作。"
-    ]
-  },
-  {
-    "id": "n_2026-06-06_17",
-    "date": "2026-06-06",
-    "category": "Gaming",
-    "subcat": "主机",
+    "subcat": "单机游戏",
     "platform": "IGN",
-    "title": "世嘉《人中異邦》加入图派克 定档2027",
-    "url": "https://www.rpgsite.net/news/20546-stranger-than-heaven-release-date-tupac",
-    "image": "images/2026-06-06/n_2026-06-06_17.jpg",
+    "title": "发条革命新预告 2027年Xbox独占",
+    "url": "https://www.ign.com/videos/clockwork-revolution-official-the-heist-trailer-xbox-games-showcase-2026",
+    "image": "images/2026-06-08/n_2026-06-08_13.jpg",
     "detail": [
-      "在6月5日Summer Game Fest 2026直播中,世嘉美国与RGG工作室为其备受期待的动作冒险新作《Stranger Than Heaven》带来重磅卡司更新,确认已故传奇说唱歌手图派克·夏库尔(Tupac)将以名为Amaru的角色登场。",
-      "RGG工作室负责人横山昌义登台正式宣布游戏将于2027年1月15日全球发售,登陆PS5与Xbox Series X|S、Xbox PC、Xbox云游戏及Steam。Snoop Dogg及其子Cordell Broadus也现身舞台,二人均在游戏中出演角色。",
-      "Snoop Dogg还与藤原聪、Ado、Tori Kelly共同参与游戏主题曲创作,后三者同样在游戏中饰演角色,阵容堪称豪华。图派克饰演Amaru获得其遗产管理方Amaru Entertainment授权并在其持续监督下完成。",
-      "《人中異邦》是横跨20世纪多个年代的动作冒险史诗,出自《如龙/人中之龙》团队之手。引入图派克这一在其离世约30年后的'数字复活',引发社区强烈讨论,被认为是本届展会最具话题性的卡司公布。"
+      "发条革命(Clockwork Revolution)是 InXile 娱乐打造的第一人称蒸汽朋克题材 RPG,玩家可以在过去与现在之间穿梭,通过改变历史进程影响游戏世界,自 2023 年首曝以来便以独特的复古未来美术风格和时间操控玩法吸引关注。",
+      "在 Xbox 游戏展示会上,官方放出名为劫案(The Heist)的全新剧情预告,故事中主角被拉回 25 年前,需要设法对付反派 Lady Ironwood;官方确认本作为 Xbox 主机平台独占,计划于 2027 年发售,同样首发进入 Game Pass。",
+      "新预告进一步展示了时空切换机制与浓郁的蒸汽朋克城市风貌,被不少玩家拿来与生化奇兵无限对比,社媒上对其叙事野心与世界观设定给予肯定,但也有声音对 2027 年的较远发售窗口表示遗憾。",
+      "作为微软第一方阵容中风格最鲜明的 RPG 之一,本作承载了 Xbox 在单机叙事领域的差异化尝试,稳定的曝光节奏也显示出微软对该项目的长期投入。"
     ]
   },
   {
-    "id": "n_2026-06-06_18",
-    "date": "2026-06-06",
+    "id": "n_2026-06-08_14",
+    "date": "2026-06-08",
     "category": "Gaming",
-    "subcat": "主机",
-    "platform": "YouTube",
-    "title": "《使命召唤:现代战争4》公布首支预告",
-    "url": "https://www.youtube.com/watch?v=jLbst85USN8",
-    "image": "images/2026-06-06/n_2026-06-06_18.jpg",
+    "subcat": "单机游戏",
+    "platform": "IGN",
+    "title": "神鬼寓言公布正式发售日期",
+    "url": "https://www.ign.com/videos/fable-official-release-date-trailer-xbox-games-showcase-2026",
+    "image": "images/2026-06-08/n_2026-06-08_14.jpg",
     "detail": [
-      "动视在6月5日Summer Game Fest 2026上公布了年度大作《Call of Duty: Modern Warfare 4(使命召唤:现代战争4)》的首支揭晓预告片,正式拉开本年度系列新作的宣发序幕,该作预定2026年10月推出。",
-      "据官方介绍,本作战役将玩家投入多地冲突场景,包括朝鲜半岛、纽约近距离对抗、巴黎高速追逐、孟买SAS夜袭以及为夺回被占领地区展开的全城行动,延续系列标志性的电影化叙事体验。",
-      "多人模式强调扎实、精准的对抗,围绕流畅的移动系统打造,为每场对局提供更强的操控感。游戏已开放预购,并将通过Xbox、Battle.net及PC等多平台发售,可在Xbox Game Pass上游玩。",
-      "值得注意的是,主持人Geoff Keighley特意强调本届SGF压轴并非在线服务型射击游戏,以避免重蹈《Highguard》快速停服的覆辙,而MW4作为系列招牌则照例成为展会期间的人气焦点之一。"
+      "全新神鬼寓言(Fable)由英国名厂 Playground Games 操刀,是这一经典奇幻 RPG 系列时隔多年的重启之作,曾在 2024 年 Xbox 展示会及 2026 年初的开发者直面会上多次亮相,以其英伦童话风格的开放世界和幽默叙事备受期待。",
+      "在本届 Xbox 游戏展示会上,微软放出了神鬼寓言的正式发售日期预告,本作此前曾从 2026 年跳票至 2027 年,如今终于敲定具体上市时间,将登陆 Xbox Series X|S 与 PC,并首发加入 Game Pass。",
+      "确切发售日的公布让长期关注该系列的玩家松了一口气,社媒讨论聚焦于 Playground 从竞速名作极限竞速地平线转型开放世界 RPG 的能力,以及重启版能否重现初代的魅力与英式幽默。",
+      "作为微软第一方重点 IP 之一,神鬼寓言与战争机器E日、发条革命共同构成了 Xbox 未来一两年的核心单机阵容,显示出微软在自研大作上的持续发力。"
     ]
   },
   {
-    "id": "n_2026-06-06_19",
-    "date": "2026-06-06",
+    "id": "n_2026-06-08_15",
+    "date": "2026-06-08",
     "category": "Gaming",
-    "subcat": "单机",
-    "platform": "YouTube",
-    "title": "《异形:孤立2》SGF放出首支预告",
-    "url": "https://www.avpgalaxy.net/2026/04/26/creative-assembly-teases-alien-isolation-2-setting-for-alien-day",
-    "image": "images/2026-06-06/n_2026-06-06_19.jpg",
+    "subcat": "主机游戏",
+    "platform": "IGN",
+    "title": "Xbox公布25周年半透明限定主机",
+    "url": "https://www.ign.com/articles/xbox-series-x-translucent-green-25th-anniversary-edition-console-and-controller-announced-inspired-by-the-original-xbox",
+    "image": "images/2026-06-08/n_2026-06-08_15.jpg",
     "detail": [
-      "Creative Assembly与世嘉在6月5日Summer Game Fest 2026上正式公开了备受期待的续作《Alien: Isolation 2(异形:孤立2)》的揭晓预告,并展示了前期alpha阶段实机画面,这是该续作自2024年确认开发以来首次公开亮相。",
-      "本作延续2014年初代以单人潜行恐怖著称的玩法,被预告呈现为与初代同样惊悚的体验,确认将登陆PC、PS5、Xbox与Nintendo Switch 2等多平台,让更广泛的主机与掌机玩家都能体验这场太空求生噩梦。",
-      "在此之前,Creative Assembly已于4月26日'异形日'放出一段神秘短预告作为铺垫,如今在SGF进一步揭幕完整方向。创意总监Al Hope曾在2024年确认续作处于早期开发,此次终于兑现承诺。",
-      "初代《异形:孤立》以高压氛围与不可预测的异形AI成为生存恐怖里程碑,续作时隔多年回归令系列粉丝振奋,被媒体评为本届SGF最受欢迎的恐怖类惊喜公布之一。"
+      "为庆祝 Xbox 品牌诞生 25 周年,微软在本届 Xbox 游戏展示会上公布了一款全新的 Xbox Series X 限定版主机及配套手柄,设计灵感直接取自 2001 年初代 Xbox,主打怀旧与情怀向收藏。",
+      "这款限定主机采用半透明的 Xbox 标志性绿色外壳,可以直接看到机身内部结构,并配有同样半透明设计的手柄;手柄既会随主机捆绑发售,也将单独销售,机身与手柄上还藏有致敬品牌 25 年历史的小细节与彩蛋。",
+      "官方表示主机与手柄都将于今年 11 月上市,具体定价与预购信息将在稍后公布。消息引发老玩家强烈共鸣,半透明外观让不少人回忆起千禧年初的硬件设计潮流,被视为本次展示会上最具情怀价值的硬件公布。",
+      "微软指出这款限定机将与初代经典重制作品光环战役进化(Halo: Campaign Evolved)形成绝佳搭配,进一步强化了围绕品牌 25 周年的纪念氛围。"
+    ]
+  },
+  {
+    "id": "n_2026-06-08_16",
+    "date": "2026-06-08",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "Polygon",
+    "title": "星际迷航暗影边疆惊喜公布",
+    "url": "https://www.polygon.com/xbox-showcase-2026-sgf",
+    "image": "images/2026-06-08/n_2026-06-08_16.jpg",
+    "detail": [
+      "星际迷航：暗影边疆(Star Trek: Shadow Frontier)是一款以星际迷航下一代时代为背景的科幻惊悚新作,由曾打造寂静岭2重制版的 Bloober Team 与派拉蒙游戏工作室联合开发,在本届 Xbox 游戏展示会上作为惊喜项目亮相。",
+      "公布预告中出现了下一代粉丝熟悉的角色——巴乔裔星舰军官萝·拉伦(Ro Laren),她在剧中常与星际舰队产生冲突;红光笼罩的画面奠定了悬疑惊悚基调,显示本作将延续 Bloober 擅长的氛围营造风格。",
+      "对于星际迷航与恐怖游戏双重粉丝而言,知名 IP 与擅长心理惊悚的工作室组合带来不小惊喜,社媒上关于剧情走向、是否会延续电视剧设定的讨论迅速展开,也有玩家期待其能复刻寂静岭2重制的口碑。",
+      "本作的登场体现了 Xbox 展示会持续吸纳影视改编与第三方合作项目的策略,在第一方大作之外,为玩家提供了题材更为多元的内容补充。"
     ]
   }
 ]
