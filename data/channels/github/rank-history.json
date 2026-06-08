@@ -80,6 +80,33 @@
       "cheahjs/free-llm-api-resources": 23,
       "shadcn-ui/ui": 24,
       "microsoft/mxc": 25
+    },
+    "2026-06-08": {
+      "RyanCodrai/turbovec": 1,
+      "NousResearch/hermes-agent": 2,
+      "mvanhorn/last30days-skill": 3,
+      "Panniantong/Agent-Reach": 4,
+      "roboflow/supervision": 5,
+      "CopilotKit/CopilotKit": 6,
+      "lfnovo/open-notebook": 7,
+      "MemPalace/mempalace": 8,
+      "heygen-com/hyperframes": 9,
+      "iptv-org/iptv": 10,
+      "TapXWorld/ChinaTextbook": 11,
+      "aaif-goose/goose": 12,
+      "microsoft/pg_durable": 13,
+      "Crosstalk-Solutions/project-nomad": 14,
+      "microsoft/VibeVoice": 15,
+      "openai/plugins": 16,
+      "refactoringhq/tolaria": 17,
+      "Wei-Shaw/sub2api": 18,
+      "microsoft/mxc": 19,
+      "666ghj/MiroFish": 20,
+      "yikart/AiToEarn": 21,
+      "twentyhq/twenty": 22,
+      "aquasecurity/trivy": 23,
+      "NangoHQ/nango": 24,
+      "ggml-org/llama.cpp": 25
     }
   }
 }
