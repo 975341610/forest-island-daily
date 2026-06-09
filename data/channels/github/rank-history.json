@@ -107,6 +107,33 @@
       "aquasecurity/trivy": 23,
       "NangoHQ/nango": 24,
       "ggml-org/llama.cpp": 25
+    },
+    "2026-06-09": {
+      "mvanhorn/last30days-skill": 1,
+      "RyanCodrai/turbovec": 2,
+      "roboflow/supervision": 3,
+      "lfnovo/open-notebook": 4,
+      "yikart/AiToEarn": 5,
+      "aaif-goose/goose": 6,
+      "Panniantong/Agent-Reach": 7,
+      "refactoringhq/tolaria": 8,
+      "TapXWorld/ChinaTextbook": 9,
+      "TauricResearch/TradingAgents": 10,
+      "Crosstalk-Solutions/project-nomad": 11,
+      "Imbad0202/academic-research-skills": 12,
+      "google/skills": 13,
+      "Wei-Shaw/sub2api": 14,
+      "heygen-com/hyperframes": 15,
+      "CopilotKit/CopilotKit": 16,
+      "microsoft/pg_durable": 17,
+      "yt-dlp/yt-dlp": 18,
+      "openai/plugins": 19,
+      "microsoft/VibeVoice": 20,
+      "MemPalace/mempalace": 21,
+      "phuryn/pm-skills": 22,
+      "Andyyyy64/whichllm": 23,
+      "twentyhq/twenty": 24,
+      "ashishpatel26/500-AI-Agents-Projects": 25
     }
   }
 }
