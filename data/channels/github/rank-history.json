@@ -134,6 +134,33 @@
       "Andyyyy64/whichllm": 23,
       "twentyhq/twenty": 24,
       "ashishpatel26/500-AI-Agents-Projects": 25
+    },
+    "2026-06-10": {
+      "mvanhorn/last30days-skill": 1,
+      "RyanCodrai/turbovec": 2,
+      "Panniantong/Agent-Reach": 3,
+      "refactoringhq/tolaria": 4,
+      "phuryn/pm-skills": 5,
+      "roboflow/supervision": 6,
+      "google/skills": 7,
+      "Andyyyy64/whichllm": 8,
+      "pbakaus/impeccable": 9,
+      "lfnovo/open-notebook": 10,
+      "TapXWorld/ChinaTextbook": 11,
+      "aaif-goose/goose": 12,
+      "CopilotKit/CopilotKit": 13,
+      "addyosmani/agent-skills": 14,
+      "ruvnet/RuView": 15,
+      "MemPalace/mempalace": 16,
+      "yikart/AiToEarn": 17,
+      "Wei-Shaw/sub2api": 18,
+      "openai/plugins": 19,
+      "QuantumNous/new-api": 20,
+      "shareAI-lab/learn-claude-code": 21,
+      "anthropics/knowledge-work-plugins": 22,
+      "maziyarpanahi/openmed": 23,
+      "reconurge/flowsint": 24,
+      "ollama/ollama": 25
     }
   }
 }
