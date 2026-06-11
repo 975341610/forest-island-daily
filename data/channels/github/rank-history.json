@@ -161,6 +161,33 @@
       "maziyarpanahi/openmed": 23,
       "reconurge/flowsint": 24,
       "ollama/ollama": 25
+    },
+    "2026-06-11": {
+      "mvanhorn/last30days-skill": 1,
+      "apple/container": 2,
+      "harry0703/MoneyPrinterTurbo": 3,
+      "addyosmani/agent-skills": 4,
+      "phuryn/pm-skills": 5,
+      "RyanCodrai/turbovec": 6,
+      "roboflow/supervision": 7,
+      "yikart/AiToEarn": 8,
+      "refactoringhq/tolaria": 9,
+      "maziyarpanahi/openmed": 10,
+      "Andyyyy64/whichllm": 11,
+      "ruvnet/RuView": 12,
+      "Wei-Shaw/sub2api": 13,
+      "Fission-AI/OpenSpec": 14,
+      "FareedKhan-dev/train-llm-from-scratch": 15,
+      "alistaitsacle/free-llm-api-keys": 16,
+      "openai/plugins": 17,
+      "google/skills": 18,
+      "shadcn-ui/ui": 19,
+      "Sumanth077/Hands-On-AI-Engineering": 20,
+      "google-labs-code/design.md": 21,
+      "pascalorg/editor": 22,
+      "blackmatrix7/ios_rule_script": 23,
+      "ZuodaoTech/everyone-can-use-english": 24,
+      "activeloopai/hivemind": 25
     }
   }
 }
