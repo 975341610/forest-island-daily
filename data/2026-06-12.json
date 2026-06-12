@@ -1,0 +1,274 @@
+[
+  {
+    "id": "n_2026-06-12_9",
+    "date": "2026-06-12",
+    "category": "VibeCoding",
+    "subcat": "Show HN",
+    "platform": "Hacker News",
+    "platform_color": "#FF6600",
+    "title": "ZeroFS 把S3变成你的主存储",
+    "url": "https://zerofs.net",
+    "image": "images/2026-06-12/n_2026-06-12_9.jpg",
+    "detail": [
+      "北京时间6月12日，开发者在Hacker News以Show HN形式发布ZeroFS，主题为让S3成为你的主存储，迅速进入当日讨论。ZeroFS用Rust编写，可把任意S3兼容存储桶通过NFS和9P暴露为POSIX文件系统，或通过NBD暴露为裸块设备；数据在上传前先经zstd/lz4压缩并用XChaCha20-Poly1305加密，密钥由密码经Argon2id派生，没有未加密模式。",
+      "性能是其核心卖点：热缓存下的随机读延迟约1.6微秒，而原始S3往返需50–300毫秒；小写入平均延迟约0.83毫秒；理论最大文件系统规模达16 EiB。项目强调可验证性，CI在每次改动时分别在NFS、9P、FUSE三种协议上跑pjdfstest、xfstests、内核编译、stress-ng，甚至在ZeroFS块设备上搭建ZFS池、解压Linux内核源码树并做全量scrub，报告零校验和错误。",
+      "它三种协议服务（文件走NFS/9P、块设备走NBD）跑在同一个用户态进程中，客户端用系统自带支持即可挂载。还支持跨三个S3区域组建ZFS镜像实现地理容灾、命名检查点、只读副本、TRIM回收空间、独立compactor、独立WAL存储，并可一段配置开启自带Web控制台（含文件管理器、仪表盘与启动Linux虚机的终端）。",
+      "ZeroFS采用AGPL-3.0与商业双授权，GitHub已有约1.9k星标。社区围绕把对象存储当主盘的可行性、fsync语义、延迟与成本展开讨论，不少人对其在CI中以真实工作负载（内核编译、ZFS scrub）自证的做法表示认可。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_8",
+    "date": "2026-06-12",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "Gizmochina",
+    "platform_color": "#FF6600",
+    "title": "小米开源终端编程Agent MiMo Code",
+    "url": "https://www.gizmochina.com/2026/06/11/xiaomi-mimo-code-open-source-terminal-ai-coding-agent/",
+    "image": "images/2026-06-12/n_2026-06-12_8.jpg",
+    "detail": [
+      "北京时间6月11日，小米MiMo团队正式开源终端AI编程Agent MiMo Code V0.1.0，采用MIT许可证，登上当日Hacker News首页并获400多分。该工具基于开源项目OpenCode构建，开箱即用地内置免费的小米多模态模型MiMo-V2.5，同时支持接入DeepSeek、Kimi、GLM等第三方后端，延续了小米从2025年MiMo-7B起持续开源的路线。",
+      "MiMo Code主打解决AI编程越用越健忘的痛点：它带有持久化记忆系统，由一个后台子Agent持续管理与存储上下文，当当前会话接近上下文上限时自动压缩为结构化摘要，让主Agent不丢失进度。还有每七天自动运行的/dream维护Agent，会复盘旧会话与记忆文件、去重、校验路径并压缩为长期记忆库。",
+      "功能上，它引入专为MiMo模型设计的Harness系统，以及按Tab键激活的Compose模式——只需给出粗略目标，Agent便尝试从规划、设计到编码、测试、评审完成整条工作流，小米称之为可产出工业级成品。还集成了基于MiMo-V2.5-ASR的语音输入，可口述指令并触发send、execute等动作。",
+      "小米援引基准数据称MiMo Code在SWE-Bench Pro取得62%、Terminal Bench 2取得73%，在相同底座模型下比Claude Code高约五个百分点，尤其在200步以上的超长链路任务上表现更稳。开发者社区对其持久记忆与免注册免费通道反应积极，但对工业级成品这类宣称及实际可用性仍持观望与讨论态度。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_7",
+    "date": "2026-06-12",
+    "category": "VibeCoding",
+    "subcat": "开源工具",
+    "platform": "Zed官方博客",
+    "platform_color": "#FF6600",
+    "title": "Zed推出DeltaDB 为AI时代重造版本控制",
+    "url": "https://zed.dev/blog/introducing-deltadb",
+    "image": "images/2026-06-12/n_2026-06-12_7.jpg",
+    "detail": [
+      "北京时间6月11日，高性能代码编辑器Zed的创始人Nathan Sobo发表《Software Is Made Between Commits》一文，正式介绍其酝酿已久的新型版本控制系统DeltaDB，文章登上Hacker News当日首页。Zed团队自2021年起就主张突破commit的束缚，认为在AI Agent协作时代，真正生成代码的是对话本身，而以离散提交为中心的Git从未为此设计。",
+      "DeltaDB的核心抽象是把工作拆成细粒度的增量（delta）流：Git在每次提交拍快照，DeltaDB则记录两次提交之间的每一个操作，并为其赋予稳定标识。这样你可以指向代码演化过程中的任意一刻，把工作树与驱动它的对话一起版本化；消息与它产生的修改并排记录，彼此不再漂移。由于内嵌了无冲突复制（CRDT）的工作树，多人和多个Agent可跨机器同时编辑同一批文件。",
+      "更进一步，每个引用都锚定到delta而非行号，代码移动后引用依然有效：从历史对话的任意一行能跳到代码当前状态，从任意一行代码也能找到产生它的对话以及之后触碰过它的全部讨论。Agent同样能调用这些上下文，甚至召集此前处理过该代码的Agent询问缘由。",
+      "作者主张让PR、评审线程与行内评论这类事后把讨论重新贴回代码的繁文缛节消失，Git与CI则专注于跑检查和对接外部世界。官方称beta版将在数周内交付早期用户，并开放了等待列表。社区围绕对话即源代码这一理念展开激烈讨论，既有期待，也有人质疑其与现有Git生态的兼容成本。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_6",
+    "date": "2026-06-12",
+    "category": "VibeCoding",
+    "subcat": "开源工具",
+    "platform": "Homebrew官方博客",
+    "platform_color": "#FF6600",
+    "title": "Homebrew 6.0.0发布 Tap信任与全平台沙箱",
+    "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+    "image": "images/2026-06-12/n_2026-06-12_6.jpg",
+    "detail": [
+      "北京时间6月11日晚，macOS/Linux最流行的包管理器Homebrew正式发布6.0.0大版本，由项目负责人Mike McQuaid撰文宣布。这是自5.1.0以来最重要的一次更新，核心围绕安全与性能展开，登上Hacker News当日首页并迅速冲上950多分，成为开发者圈热议焦点。Homebrew是由志愿者维护的非营利项目，被微软在Windows开发者配置中推荐用于WSL，影响面极广。",
+      "此版本最受瞩目的是全新的Tap信任机制：第三方tap可能包含任意未沙箱化的Ruby代码，6.0.0要求tap在被执行前必须显式信任，官方tap默认可信，从源头降低供应链投毒风险。同时Linux引入Bubblewrap沙箱，与macOS对齐，对构建、测试与postinstall阶段做隔离；内部JSON API成为默认，将全部元数据合并为单次下载，更新更快、网络请求更少。",
+      "性能方面，brew leaves提速约30%，启动、bottle抓取均做并行优化；brew bundle新增并行公式安装、npm/krew扩展与Windows上的winget支持。版本还公布三项安全公告并修复了POST下载策略绕过、Git hook提权等漏洞。",
+      "值得注意的是，官方在博文中坦言brew-rs（将Ruby前端迁移到Rust的实验）已经收尾：基准测试显示Rust前端仅在窄场景占优，完整安装并不快，于是性能重心回归Ruby。社区对其诚实的对比态度与macOS 27初步支持普遍点赞，也有用户讨论Intel在2026年9月降级到Tier 3的影响。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_5",
+    "date": "2026-06-12",
+    "category": "AI",
+    "subcat": "OpenAI",
+    "platform": "OpenAI官方",
+    "platform_color": "#10A37F",
+    "title": "OpenAI模型可用Oracle云额度调用",
+    "url": "https://openai.com/index/openai-on-oracle-cloud/",
+    "image": "images/2026-06-12/n_2026-06-12_5.jpg",
+    "detail": [
+      "OpenAI官方宣布，企业客户现可通过其已有的Oracle通用云额度（Oracle Universal Credits）直接访问OpenAI的前沿AI模型及编程工具Codex。这意味着Oracle云基础设施（OCI）的客户无需新建独立的采购渠道，即可在现有云合同框架内部署OpenAI技术，相关能力预计将在未来几周内上线。",
+      "这是一项重要的企业级分发举措。许多企业与Oracle签有多年期、预先谈定、金额高达数千万甚至数亿美元的云承诺合同，如今它们可以把AI工作负载直接路由到OpenAI模型，而无需建立新的供应商关系，等于把现成的云预算转化为AI采购通道。",
+      "这一合作建立在OpenAI与Oracle自2026年1月星际之门（Stargate）项目以来的深度绑定之上。Stargate涉及5000亿美元的基础设施承诺，由Oracle在得州、新墨西哥、威斯康星、密歇根等多州建设数据中心，此次举措则把这一基础设施投资升级为面向企业的分发渠道。",
+      "业内解读认为，对企业AI落地而言，采购摩擦而非模型质量才是真正的障碍，OpenAI此举消除了这一摩擦，其意义可能比任何一次基准跑分提升都更深远。在OpenAI已秘密提交IPO招股书、加速企业化转型的背景下，与Oracle的渠道打通被视为其抢占企业市场、对抗Anthropic的关键一招。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_4",
+    "date": "2026-06-12",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "EE Times",
+    "platform_color": "#10A37F",
+    "title": "欧盟芯片法案2.0聚焦需求与AI芯片",
+    "url": "https://www.design-reuse.com/news/202530646-chips-act-2-0-puts-demand-at-center-of-europe-s-semiconductor-strategy/",
+    "image": "images/2026-06-12/n_2026-06-12_4.jpg",
+    "detail": [
+      "6月11日，业界媒体EE Times详细报道了欧盟委员会芯片法案2.0（Chips Act 2.0）提案的战略转向。该提案于6月3日发布，标志着欧洲半导体政策从第一版侧重制造产能，转向围绕需求侧、芯片设计、规模化初创、战略项目、供应链可见性以及与下游产业的联动来重塑整体竞争力。",
+      "欧委会一位高级官员向EE Times表示，芯片法案2.0出台的背景与第一版截然不同，背后有两股推力：地缘政治和AI。欧洲在AI芯片领域明显薄弱，只有少数初创公司在设计AI芯片，且持续依赖在美国设计、在亚洲制造的先进半导体，这种结构性短板正是新提案试图补齐的核心。",
+      "与1.0版本砸钱建厂的思路不同，2.0版本试图把晶圆厂、设计、规模化企业与工业客户连接成完整链条，强调把制造产能转化为真实需求与产业落地能力，但最大的资金问题被留给未来的欧盟预算谈判，存在较大不确定性。",
+      "该提案发布正值全球AI算力军备竞赛白热化、芯片供需持续紧张之际。同期design-reuse平台还密集出现多条6月11日的半导体动态，反映出在AI驱动下，全球各主要经济体都在加紧布局自主可控的芯片设计与制造能力，欧洲能否借此缩小在AI硅片上的差距成为业界关注焦点。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_3",
+    "date": "2026-06-12",
+    "category": "AI",
+    "subcat": "xAI",
+    "platform": "xAI官方博客",
+    "platform_color": "#10A37F",
+    "title": "xAI推出Grok Build插件市场",
+    "url": "https://x.ai/news/grok-plugin-marketplace",
+    "image": "images/2026-06-12/n_2026-06-12_3.jpg",
+    "detail": [
+      "6月11日，马斯克旗下xAI正式上线Grok Build Plugin Marketplace（Grok Build插件市场），为其AI编程智能体Grok Build提供一套内置可安装插件体系。该市场直接集成在Grok Build终端中，开发者无需离开命令行即可浏览、安装和更新插件，进一步完善xAI在AI编程工具赛道与Claude Code、OpenAI Codex的正面竞争布局。",
+      "所谓插件，是把skills（技能）、slash命令、agents、hooks、MCP服务器和LSP打包成一个可安装单元。用户在Grok Build内输入/marketplace即可浏览目录、按i键安装，或通过CLI命令grok plugin install直接安装，体验对标主流终端生态。",
+      "首发合作伙伴覆盖开发全栈，包括MongoDB（数据探索与查询优化）、Vercel（部署与域名管理）、Sentry（堆栈分析与生产环境调试）、Chrome DevTools（控制实时浏览器、记录性能、检查网络请求）、Cloudflare（Workers与Durable Objects技能）以及Superpowers（流行的智能体工作流）。",
+      "在安全与开放性上，目录中每个远程插件都被固定到特定的commit SHA，Grok Build会在安装时校验该锁定值，以降低供应链风险——这一设计恰逢近期npm生态供应链攻击频发的背景。该市场同时是一个开放目录，开发者可通过向xai-org/plugin-marketplace提交PR发布自己的插件，被社区视为xAI补齐智能体工具链、争夺开发者的重要一步。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_2",
+    "date": "2026-06-12",
+    "category": "AI",
+    "subcat": "AI融资",
+    "platform": "CNBC",
+    "platform_color": "#10A37F",
+    "title": "贝索斯Prometheus获120亿融资估值410亿",
+    "url": "https://www.cnbc.com/2026/06/11/project-prometheus-bezos-bajaj-live-updates.html",
+    "image": "images/2026-06-12/n_2026-06-12_2.jpg",
+    "detail": [
+      "6月11日，由亚马逊创始人杰夫·贝索斯与前谷歌高管Vik Bajaj共同担任联席CEO的物理AI创业公司Prometheus（普罗米修斯）宣布完成120亿美元B轮融资，投后估值达410亿美元。当天贝索斯与Bajaj在公司旧金山总部接受CNBC的David Faber独家专访，首次公开详述这家神秘公司的愿景，引发科技与资本圈高度关注。",
+      "Prometheus主攻物理AI，目标是打造能原生理解物理规律的AI模型与工具，帮助工程师大幅压缩从设计到制造的周期，覆盖航空发动机、医疗器械、计算硬件等领域。贝索斯将其定位为AI工程师，称要让梦想到落地的循环大幅提速，标志着AI投资正从软件层深入到实体经济与先进制造。",
+      "本轮投资阵容豪华，包括摩根大通、贝莱德、高盛、DST Global和Arch Venture Partners，贝索斯本人继续重注。结合公司2025年11月成立时6.2亿美元启动资金及此前已披露的大额融资，Prometheus尚未发布任何产品便已跻身全球资金最充裕的私营AI公司之列，且大部分资金将投向算力。",
+      "贝索斯在专访中坦言，自己如今在亚马逊、蓝色起源和Prometheus的时间几乎都花在AI上。市场反应中，部分声音盛赞物理AI、材料与制造方向的长期价值，也有人质疑一家无公开产品、员工仅数十到两百人的公司即获410亿美元估值，是当前AI估值过热的又一例证。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_16",
+    "date": "2026-06-12",
+    "category": "Gaming",
+    "subcat": "Switch2",
+    "platform": "Nintendo Life",
+    "platform_color": "#E60012",
+    "title": "《to a T》登陆Switch2 高桥庆太新作",
+    "url": "https://www.nintendolife.com/reviews/nintendo-switch-2/to-a-t",
+    "image": "images/2026-06-12/n_2026-06-12_16.jpg",
+    "detail": [
+      "由《块魂（Katamari Damacy）》之父高桥庆太及其工作室uvula打造、Annapurna Interactive发行的叙事冒险游戏《to a T》于2026年6月11日登陆Nintendo Switch 2，定价19.99美元。本作此前已在PS5、Xbox Series和PC平台发售，此次作为Annapurna将多款作品移植Switch 2计划的一环登陆任天堂新主机，媒体评测也于同日解禁。",
+      "游戏以一名身体永久卡在T字姿势（T-pose）的青少年Teen为主角，讲述其与可爱小狗伙伴在小镇中努力融入日常生活的温暖故事，延续了高桥庆太一贯天马行空、色彩斑斓的独特美学。游戏将宏大的人生主题包裹在轻松治愈的卡通画风之中，玩家通过各种贴合T姿势设定的趣味互动推进剧情，体验一段关于自我接纳与他人善意的旅程。",
+      "媒体评价呈现两极：有评测肯定其魅力与温情，认为特定受众会被深深打动；但Nintendo World Report、GamingTrend等则指出游戏陷入重复的桥段套路、支线活动缺乏吸引力，并对Switch 2移植版的优化表现提出批评，整体口碑较为分化。",
+      "尽管评价不一，作为块魂之父的最新作，《to a T》凭借独树一帜的创意与治愈基调仍吸引了大量好奇玩家，其登陆Switch 2也让更多任天堂用户得以体验这位鬼才设计师的奇思妙想。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_15",
+    "date": "2026-06-12",
+    "category": "Gaming",
+    "subcat": "PC/PS5/Xbox",
+    "platform": "Marvel Rivals官方",
+    "platform_color": "#E60012",
+    "title": "《漫威争锋》8.5赛季上线 镭射眼参战",
+    "url": "https://www.marvelrivals.com/20260610/41525_1303717.html",
+    "image": "images/2026-06-12/n_2026-06-12_15.jpg",
+    "detail": [
+      "网易开发的英雄团队射击游戏《漫威争锋（Marvel Rivals）》于2026年6月12日开启全新8.5赛季，官方先在UTC时间6月12日09:00进行约2小时停服维护，随后版本号20260612正式上线，覆盖PC、PS5与Xbox Series X|S全平台。本次更新被命名为夏日主题季中版本，提前放出的补丁说明引发玩家热议。",
+      "赛季核心内容是X战警成员镭射眼（Cyclops）作为全新决斗者（Duelist）英雄加入，同时上线一张全新地图、一个名为地狱火海滩湾（Hellfire Bay-Beach）的社交休闲枢纽，以及一个18v18的大规模新模式和大量夏日皮肤。此外版本还对英雄进行了平衡性调整，并在PC端正式接入NVIDIA DLSS 4.5超分辨率技术，新增多档DLSS模型预设，进一步提升画面与性能表现。",
+      "社区对镭射眼的技能机制、18v18大乱斗模式以及夏日泳装皮肤反响热烈，PC玩家尤其关注DLSS 4.5带来的帧数收益。新增的海滩社交枢纽延续了此前时代广场式的非战斗聚集地设计，被视为强化玩家社交与赛季氛围的举措。",
+      "作为一款持续高频更新的实况服务型射击游戏，8.5赛季通过新英雄＋新模式＋新社交场景＋画质升级的组合，为夏季档期注入新鲜活力，相关活动皮肤掉落期持续至7月10日。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_14",
+    "date": "2026-06-12",
+    "category": "Gaming",
+    "subcat": "Steam",
+    "platform": "Steam",
+    "platform_color": "#E60012",
+    "title": "合作挖矿生存《哥布林公司》Steam发售",
+    "url": "https://store.steampowered.com/app/3864450/Goblin_Company/",
+    "image": "images/2026-06-12/n_2026-06-12_14.jpg",
+    "detail": [
+      "由独立工作室BitBorne Studio开发的合作挖矿生存游戏《哥布林公司（Goblin Company）》于2026年6月12日正式登陆Steam，定价9.99美元（约合人民币、欧元等区域价格相近）。该作在发售前已积累超过75,000份愿望单，是本周Steam最受关注的独立新作之一，发售前夕开发组还举办了首映直播并赠送激活码。",
+      "游戏设定玩家扮演为WHAAG MINING INC.打工的哥布林矿工，需要在地下深处挖掘、铺设轨道并求生。游戏主打完全可破坏的生物群系，玩家要点亮道路——否则黑暗会持续吸取生命值——同时对抗敌对生物，最终目标是挖出传说中的巨型水晶（Giant Crystal）。支持单人独自下矿，也支持最多4人在线合作，强调协作分工与地下探险的紧张感。",
+      "凭借鲜明的哥布林打工人题材、夸张诙谐的美术风格以及亲民的定价，该作在社区中口碑不俗。部分玩家在试玩Demo后给出乐趣十足、潜力可观的评价，也有人期待后续在内容量上进一步扩充。Demo在发售当日同步下架，将体验完整转入正式版。",
+      "作为一款由小型团队打造的合作生存游戏，《哥布林公司》以光照求生＋可破坏地形＋合作挖宝的组合切入拥挤的生存赛道，低价策略与高愿望单基数为其首发表现奠定了良好基础。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_13",
+    "date": "2026-06-12",
+    "category": "Gaming",
+    "subcat": "PS5",
+    "platform": "PlayStation Store",
+    "platform_color": "#E60012",
+    "title": "奇幻策略《漂移大陆：魔法复兴》登陆PS5",
+    "url": "https://store.playstation.com/en-us/concept/10015227",
+    "image": "images/2026-06-12/n_2026-06-12_13.jpg",
+    "detail": [
+      "由波兰工作室Star Drifters开发、Ultimate Games发行的奇幻策略游戏《漂移大陆：魔法复兴（Driftland: The Magic Revival）》于2026年6月12日正式登陆PlayStation 5，UTC时间下午3点解锁。该作此前已于2019年4月在Steam（PC）发售，并已在5月22日先行登陆Xbox Series X|S，PS5版的到来标志着这款老牌策略游戏完成全主机平台覆盖。",
+      "游戏融合了即时战略（RTS）、4X与上帝游戏三大元素：在一个因法师战争而破碎成无数漂浮岛屿的世界中，玩家扮演拥有移动和重塑岛屿之力的法师，可将分散的浮岛拼接成自己的领地。游戏提供战役与遭遇战等多种模式，包含四个各具特色的派系供玩家选择，强调资源管理、领地扩张与魔法对抗的策略深度。PS5版支持单人离线游玩、远程游戏，并加入了多达10项无障碍辅助功能与DualSense手柄震动支持。",
+      "对于主机策略游戏爱好者而言，这类兼具4X与god game机制的作品相对稀缺，移动浮岛这一核心玩法在手柄操作下的适配表现成为社区讨论焦点。考虑到本体在PC端已积累多年口碑与更新，主机玩家得以体验到较为完整的版本。",
+      "该作的多平台扩张也反映出经典PC策略游戏持续向主机迁移的趋势，借助无障碍设计与手柄优化触达更广泛的玩家群体。对喜爱沙盒式建造与战略经营的玩家来说，这是一款值得在PS5上尝试的差异化作品。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_12",
+    "date": "2026-06-12",
+    "category": "Gaming",
+    "subcat": "PS5/Switch2/Xbox",
+    "platform": "Bandai Namco",
+    "platform_color": "#E60012",
+    "title": "《小小梦魇3》首弹DLC后台上线",
+    "url": "https://en.bandainamcoent.eu/little-nightmares/news/venture-the-darkest-part-of-the-carnevale-little-nightmares-iii-the",
+    "image": "images/2026-06-12/n_2026-06-12_12.jpg",
+    "detail": [
+      "由Supermassive Games开发、万代南梦宫发行的合作恐怖解谜游戏《小小梦魇3》于2026年6月12日推出首个故事DLC后台（The Backstage），这是螺旋秘密（Secrets of the Spiral）季票中的第一弹内容，覆盖PS5、Xbox Series X|S、Nintendo Switch 2、PC，以及PS4、Xbox One和初代Switch等全平台同步发售。本作此前已凭借双人合作恐怖玩法和阴森唯美的美术风格收获大量关注。",
+      "后台将玩家带往狂欢节（The Carnevale）幕布之下最黑暗的角落。本体主角Low与Alone之外，DLC引入了一位戴着火炬帽的新角色Dime，这顶能照明的帽子成为玩家在幕后黑暗中探路的关键道具。两名孩子必须携手面对全新的怪物威胁，用微弱的光亮寻找将Alone从操偶师（Puppeteer）手中救出的方法，延续系列招牌的潜行、解谜与逃脱体验。",
+      "作为系列首度加入合作模式后的首个付费扩展，后台承载了开发组对长线运营的尝试。社区对新增的双人协作机关、独特的光影解谜以及Dime这一新伙伴表现出浓厚兴趣，不少玩家认为火炬帽的照明机制为黑暗场景带来了新的策略层次。",
+      "值得注意的是，季票还规划了第二弹DLC，意味着《小小梦魇3》的恐怖世界还将持续扩展。对于喜爱本系列压抑氛围和精巧关卡设计的玩家而言，后台既是对本体故事的补完，也是检验合作恐怖玩法潜力的重要一步。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_11",
+    "date": "2026-06-12",
+    "category": "VibeCoding",
+    "subcat": "Show HN",
+    "platform": "GitHub",
+    "platform_color": "#FF6600",
+    "title": "FPS.cob 用COBOL写的第一人称射击游戏",
+    "url": "https://github.com/icitry/FPS.cob",
+    "image": "images/2026-06-12/n_2026-06-12_11.jpg",
+    "detail": [
+      "北京时间6月11日，一个名为FPS.cob的趣味项目登上Hacker News，作者用以严肃商业系统著称的古老语言COBOL写出了一款第一人称射击游戏，迅速吸引开发者围观并积累约56个星标。项目自嘲：FPS.cob是当你觉得如今做游戏太容易时的产物，欢迎体验COBOL折腾术带来的灵魂出窍式体验。",
+      "在技术实现上，游戏支持两种关卡风格：map/level1.map是经典的、基于网格的Wolfenstein 3D式路径渲染；map/doom_sectors.map则是带门、不同高度的sector/linedef地图，更接近DOOM的效果。整个渲染逻辑几乎完全用COBOL完成（仓库中COBOL占比99.7%），构建依赖GnuCOBOL的cobc编译器、ffplay与bash，从仓库根目录运行build.sh即可启动。",
+      "操作与现代FPS类似：W/S前后移动、A/D转向、空格开火、Q退出，纹理与精灵资源放在res/目录、地图放在map/目录，并可通过命令行参数加载指定关卡。项目以Apache-2.0许可证开源，目前仅两次提交，属于典型的炫技玩梗式个人作品。",
+      "这类用非游戏语言实现图形渲染的项目历来是Hacker News与GitHub上的常青话题，既展示了COBOL在现代环境下意想不到的表现力，也引发了关于光线投射（raycasting）实现细节、性能与可读性的技术讨论。对许多开发者而言，它更像一封写给古老语言的趣味情书，提醒大家编程的乐趣本身。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_10",
+    "date": "2026-06-12",
+    "category": "VibeCoding",
+    "subcat": "开源工具",
+    "platform": "GitHub",
+    "platform_color": "#FF6600",
+    "title": "boo 基于libghostty的屏幕式终端复用器",
+    "url": "https://github.com/coder/boo",
+    "image": "images/2026-06-12/n_2026-06-12_10.jpg",
+    "detail": [
+      "北京时间6月11日，Coder团队开源的终端复用器boo随v0.5.13版本登上Hacker News，标榜会缠住你终端的会话。boo用Zig编写，模仿GNU screen的极简模型（会话、前缀键，别无他物），但把核心的终端模拟层换成了Ghostty的VT内核libghostty-vt，因此始终精确掌握每个会话的屏幕状态：内容、样式、光标、回滚缓冲与终端模式。",
+      "与GNU screen几十年前的老旧模拟器相比，boo用现代VT内核重绘，重连时还原的画面与真实终端显示一致，避免了老模拟器对新程序输出丢弃或错乱的问题；在会话分离期间还能代为应答终端查询，让TUI程序不会挂起。基础体验上支持Ctrl-A d分离、boo attach重连、boo ui全屏会话管理器等熟悉操作。",
+      "boo的一大亮点是面向脚本与AI Agent的自动化原语：send、peek、wait全部可在无TTY环境下使用并支持--json输出。典型循环是新建无头会话、用send --text输入命令、wait --idle等待输出稳定、再用peek --scrollback读取重建后的屏幕，告别sleep轮询。peek输出的是有序、完整重绘的稳定屏幕，而非原始字节流，正适合让Agent像人一样读取界面。",
+      "项目坦诚自己仍年轻，并非screen的直接替代：每会话仅允许一个附着客户端、会话内不支持分屏或标签、C-a前缀暂不可配置。它采用MIT许可证，GitHub已累计23个发布版本。社区对其为AI Agent驱动交互式程序提供天然沙箱的定位颇感兴趣。"
+    ]
+  },
+  {
+    "id": "n_2026-06-12_1",
+    "date": "2026-06-12",
+    "category": "AI",
+    "subcat": "AI上市",
+    "platform": "Yahoo Finance",
+    "platform_color": "#10A37F",
+    "title": "SpaceX史上最大IPO今日纳斯达克挂牌",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-ipo-just-days-away-090800298.html",
+    "image": "images/2026-06-12/n_2026-06-12_1.jpg",
+    "detail": [
+      "马斯克旗下SpaceX在6月11日盘后以每股135美元的固定价格完成定价，并于6月12日（周五）在纳斯达克以代码SPCX正式挂牌交易。此次募资规模约750亿美元，对应估值约1.77万亿美元，一举超越2019年沙特阿美354亿美元、3200亿美元估值的纪录，成为有史以来规模最大的首次公开募股，被华尔街视为本轮AI与硬科技IPO开闸的标志性事件。",
+      "该交易与AI高度绑定：SpaceX已于2026年2月以全股票方式吸收合并马斯克的AI公司xAI，合并实体估值约1.25万亿美元，意味着投资SPCX等于同时押注Starlink卫星网络与Grok大模型的协同。承销方面由高盛领衔的21家银行组成承销团，并罕见地将约30%份额通过Robinhood、富达和嘉信理财分配给散户，是常规交易5%-10%散户比例的约三倍。",
+      "马斯克通过双重股权结构保留完全投票控制权，且本人不出售任何一股。基本面上，仅Starlink一项2025年就贡献114亿美元营收、44亿美元分部经营利润，但按约100倍市销率定价，被分析师指为给十年完美执行预留了零容错空间。",
+      "社区与媒体反应分化：支持者认为这是真正进入太空时代的里程碑，而散户主导的发行历史上首日波动极大，多位分析师警告开盘买入更像押注短期动能而非公司基本面，叠加近期AI泡沫争论，首日交易成为全球市场焦点。"
+    ]
+  }
+]
