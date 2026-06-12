@@ -21,8 +21,8 @@
     },
     "mvanhorn/last30days-skill": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 10395,
+      "appearances": 5,
+      "total_today_stars": 11194,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
@@ -147,8 +147,8 @@
     },
     "refactoringhq/tolaria": {
       "best_rank": 4,
-      "appearances": 4,
-      "total_today_stars": 2337,
+      "appearances": 5,
+      "total_today_stars": 2941,
       "language": "TypeScript",
       "description": "Desktop app to manage markdown knowledge bases",
       "owner_avatar": "https://avatars.githubusercontent.com/u/263141683?v=4",
@@ -183,8 +183,8 @@
     },
     "yikart/AiToEarn": {
       "best_rank": 5,
-      "appearances": 4,
-      "total_today_stars": 2065,
+      "appearances": 5,
+      "total_today_stars": 2380,
       "language": "TypeScript",
       "description": "Let's use AI to Earn!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/194770693?v=4",
@@ -263,9 +263,9 @@
       "html_url": "https://github.com/yt-dlp/yt-dlp"
     },
     "phuryn/pm-skills": {
-      "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1774,
+      "best_rank": 3,
+      "appearances": 4,
+      "total_today_stars": 3752,
       "language": null,
       "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/7837354?v=4",
@@ -299,27 +299,27 @@
       "html_url": "https://github.com/pbakaus/impeccable"
     },
     "addyosmani/agent-skills": {
-      "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1264,
+      "best_rank": 1,
+      "appearances": 3,
+      "total_today_stars": 4542,
       "language": "Shell",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
       "html_url": "https://github.com/addyosmani/agent-skills"
     },
     "ruvnet/RuView": {
-      "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 859,
+      "best_rank": 7,
+      "appearances": 3,
+      "total_today_stars": 1318,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
       "html_url": "https://github.com/ruvnet/RuView"
     },
     "QuantumNous/new-api": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 239,
+      "best_rank": 15,
+      "appearances": 2,
+      "total_today_stars": 427,
       "language": "Go",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
       "owner_avatar": "https://avatars.githubusercontent.com/u/205075698?v=4",
@@ -344,9 +344,9 @@
       "html_url": "https://github.com/anthropics/knowledge-work-plugins"
     },
     "maziyarpanahi/openmed": {
-      "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 718,
+      "best_rank": 8,
+      "appearances": 3,
+      "total_today_stars": 1144,
       "language": "Python",
       "description": "open-source healthcare ai",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5762953?v=4",
@@ -372,8 +372,8 @@
     },
     "apple/container": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1611,
+      "appearances": 2,
+      "total_today_stars": 4041,
       "language": "Swift",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "owner_avatar": "https://avatars.githubusercontent.com/u/10639145?v=4",
@@ -398,9 +398,9 @@
       "html_url": "https://github.com/Fission-AI/OpenSpec"
     },
     "FareedKhan-dev/train-llm-from-scratch": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 247,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 738,
       "language": "Python",
       "description": "A straightforward method for training your LLM, from downloading data to generating text.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/63067900?v=4",
@@ -408,8 +408,8 @@
     },
     "alistaitsacle/free-llm-api-keys": {
       "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 217,
+      "appearances": 2,
+      "total_today_stars": 313,
       "language": "Python",
       "description": "Free LLM API keys for GPT-5.5, Claude, DeepSeek, Gemini, Grok — copy, paste, use. Updated 3-5x daily. No credit card needed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/94039400?v=4",
@@ -425,9 +425,9 @@
       "html_url": "https://github.com/shadcn-ui/ui"
     },
     "Sumanth077/Hands-On-AI-Engineering": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 119,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 238,
       "language": "Python",
       "description": "A curated collection of practical AI projects implementing OCR systems, RAG, AI agents, and other AI use cases.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/66694715?v=4",
@@ -470,13 +470,121 @@
       "html_url": "https://github.com/ZuodaoTech/everyone-can-use-english"
     },
     "activeloopai/hivemind": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 64,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 404,
       "language": "TypeScript",
       "description": "One brain for all your agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/34816118?v=4",
       "html_url": "https://github.com/activeloopai/hivemind"
+    },
+    "LLMQuant/quant-mind": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 324,
+      "language": "Python",
+      "description": "QuantMind is an intelligent knowledge extraction and retrieval framework for quantitative finance.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/67217001?v=4",
+      "html_url": "https://github.com/LLMQuant/quant-mind"
+    },
+    "NVIDIA/SkillSpector": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 319,
+      "language": "Python",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
+      "html_url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    "karpathy/autoresearch": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 208,
+      "language": "Python",
+      "description": "AI agents running research on single-GPU nanochat training automatically",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
+      "html_url": "https://github.com/karpathy/autoresearch"
+    },
+    "hexo-ai/sia": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 199,
+      "language": "Python",
+      "description": "SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a benchmark task.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118002492?v=4",
+      "html_url": "https://github.com/hexo-ai/sia"
+    },
+    "bannedbook/fanqiang": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 161,
+      "language": "Kotlin",
+      "description": "翻墙-科学上网",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4361923?v=4",
+      "html_url": "https://github.com/bannedbook/fanqiang"
+    },
+    "iii-hq/iii": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 144,
+      "language": "Rust",
+      "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/258310054?v=4",
+      "html_url": "https://github.com/iii-hq/iii"
+    },
+    "warpdotdev/warp": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 132,
+      "language": "Rust",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/71840468?v=4",
+      "html_url": "https://github.com/warpdotdev/warp"
+    },
+    "graykode/abtop": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 116,
+      "language": "Rust",
+      "description": "Like htop, but for AI coding agents. Monitor Claude    Code & Codex CLI sessions, tokens, context window,    rate limits, and ports in real-time.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/10525011?v=4",
+      "html_url": "https://github.com/graykode/abtop"
+    },
+    "kenn-io/agentsview": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 114,
+      "language": "Go",
+      "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/259885253?v=4",
+      "html_url": "https://github.com/kenn-io/agentsview"
+    },
+    "anthropics/claude-plugins-official": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 90,
+      "language": "Python",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    "alchaincyf/zhangxuefeng-skill": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 89,
+      "language": null,
+      "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
+      "html_url": "https://github.com/alchaincyf/zhangxuefeng-skill"
+    },
+    "modelscope/FunASR": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 89,
+      "language": "Python",
+      "description": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/109945100?v=4",
+      "html_url": "https://github.com/modelscope/FunASR"
     }
   }
 }

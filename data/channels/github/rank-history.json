@@ -188,6 +188,33 @@
       "blackmatrix7/ios_rule_script": 23,
       "ZuodaoTech/everyone-can-use-english": 24,
       "activeloopai/hivemind": 25
+    },
+    "2026-06-12": {
+      "addyosmani/agent-skills": 1,
+      "apple/container": 2,
+      "phuryn/pm-skills": 3,
+      "mvanhorn/last30days-skill": 4,
+      "refactoringhq/tolaria": 5,
+      "FareedKhan-dev/train-llm-from-scratch": 6,
+      "ruvnet/RuView": 7,
+      "maziyarpanahi/openmed": 8,
+      "activeloopai/hivemind": 9,
+      "LLMQuant/quant-mind": 10,
+      "NVIDIA/SkillSpector": 11,
+      "yikart/AiToEarn": 12,
+      "karpathy/autoresearch": 13,
+      "hexo-ai/sia": 14,
+      "QuantumNous/new-api": 15,
+      "bannedbook/fanqiang": 16,
+      "iii-hq/iii": 17,
+      "warpdotdev/warp": 18,
+      "Sumanth077/Hands-On-AI-Engineering": 19,
+      "graykode/abtop": 20,
+      "kenn-io/agentsview": 21,
+      "alistaitsacle/free-llm-api-keys": 22,
+      "anthropics/claude-plugins-official": 23,
+      "alchaincyf/zhangxuefeng-skill": 24,
+      "modelscope/FunASR": 25
     }
   }
 }
