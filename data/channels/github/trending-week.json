@@ -84,8 +84,8 @@
     },
     "iptv-org/iptv": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 384,
+      "appearances": 2,
+      "total_today_stars": 563,
       "language": "TypeScript",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "owner_avatar": "https://avatars.githubusercontent.com/u/55937028?v=4",
@@ -147,8 +147,8 @@
     },
     "refactoringhq/tolaria": {
       "best_rank": 4,
-      "appearances": 5,
-      "total_today_stars": 2941,
+      "appearances": 6,
+      "total_today_stars": 3310,
       "language": "TypeScript",
       "description": "Desktop app to manage markdown knowledge bases",
       "owner_avatar": "https://avatars.githubusercontent.com/u/263141683?v=4",
@@ -264,8 +264,8 @@
     },
     "phuryn/pm-skills": {
       "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 3752,
+      "appearances": 5,
+      "total_today_stars": 4579,
       "language": null,
       "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/7837354?v=4",
@@ -300,8 +300,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 4542,
+      "appearances": 4,
+      "total_today_stars": 7198,
       "language": "Shell",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -344,9 +344,9 @@
       "html_url": "https://github.com/anthropics/knowledge-work-plugins"
     },
     "maziyarpanahi/openmed": {
-      "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 1144,
+      "best_rank": 7,
+      "appearances": 4,
+      "total_today_stars": 1659,
       "language": "Python",
       "description": "open-source healthcare ai",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5762953?v=4",
@@ -371,9 +371,9 @@
       "html_url": "https://github.com/ollama/ollama"
     },
     "apple/container": {
-      "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 4041,
+      "best_rank": 1,
+      "appearances": 3,
+      "total_today_stars": 7545,
       "language": "Swift",
       "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
       "owner_avatar": "https://avatars.githubusercontent.com/u/10639145?v=4",
@@ -399,8 +399,8 @@
     },
     "FareedKhan-dev/train-llm-from-scratch": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 738,
+      "appearances": 3,
+      "total_today_stars": 962,
       "language": "Python",
       "description": "A straightforward method for training your LLM, from downloading data to generating text.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/63067900?v=4",
@@ -488,9 +488,9 @@
       "html_url": "https://github.com/LLMQuant/quant-mind"
     },
     "NVIDIA/SkillSpector": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 319,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1132,
       "language": "Python",
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
@@ -498,8 +498,8 @@
     },
     "karpathy/autoresearch": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 208,
+      "appearances": 2,
+      "total_today_stars": 415,
       "language": "Python",
       "description": "AI agents running research on single-GPU nanochat training automatically",
       "owner_avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
@@ -525,8 +525,8 @@
     },
     "iii-hq/iii": {
       "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 144,
+      "appearances": 2,
+      "total_today_stars": 203,
       "language": "Rust",
       "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/258310054?v=4",
@@ -543,17 +543,17 @@
     },
     "graykode/abtop": {
       "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 116,
+      "appearances": 2,
+      "total_today_stars": 181,
       "language": "Rust",
       "description": "Like htop, but for AI coding agents. Monitor Claude    Code & Codex CLI sessions, tokens, context window,    rate limits, and ports in real-time.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/10525011?v=4",
       "html_url": "https://github.com/graykode/abtop"
     },
     "kenn-io/agentsview": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 114,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 644,
       "language": "Go",
       "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/259885253?v=4",
@@ -585,6 +585,123 @@
       "description": "Industrial-grade speech recognition toolkit: 170x realtime, 50+ languages, speaker diarization, emotion detection, streaming, and OpenAI-compatible API.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/109945100?v=4",
       "html_url": "https://github.com/modelscope/FunASR"
+    },
+    "farion1231/cc-switch": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 872,
+      "language": "Rust",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/44939412?v=4",
+      "html_url": "https://github.com/farion1231/cc-switch"
+    },
+    "anthropics/skills": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 459,
+      "language": "Python",
+      "description": "Public repository for Agent Skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/skills"
+    },
+    "mattermost/mattermost": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 388,
+      "language": "TypeScript",
+      "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9828093?v=4",
+      "html_url": "https://github.com/mattermost/mattermost"
+    },
+    "restic/restic": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 307,
+      "language": "Go",
+      "description": "Fast, secure, efficient backup program",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/10073512?v=4",
+      "html_url": "https://github.com/restic/restic"
+    },
+    "shuvonsec/claude-bug-bounty": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 226,
+      "language": "Python",
+      "description": "AI-powered bug bounty hunting from your terminal - recon, 20 vuln classes,   autonomous hunting, and report generation. All inside Claude Code.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/83355567?v=4",
+      "html_url": "https://github.com/shuvonsec/claude-bug-bounty"
+    },
+    "browser-use/browser-use": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 181,
+      "language": "Python",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "html_url": "https://github.com/browser-use/browser-use"
+    },
+    "zarazhangrui/frontend-slides": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 140,
+      "language": "JavaScript",
+      "description": "Create beautiful slides on the web using a coding agent's frontend skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
+      "html_url": "https://github.com/zarazhangrui/frontend-slides"
+    },
+    "supermemoryai/supermemory": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 124,
+      "language": "TypeScript",
+      "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/171979587?v=4",
+      "html_url": "https://github.com/supermemoryai/supermemory"
+    },
+    "HelixDB/helix-db": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 124,
+      "language": "Rust",
+      "description": "HelixDB is an OLTP graph-vector database built in Rust.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/189895202?v=4",
+      "html_url": "https://github.com/HelixDB/helix-db"
+    },
+    "microsoft/PowerToys": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 103,
+      "language": "C",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/PowerToys"
+    },
+    "langchain-ai/langchain": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 83,
+      "language": "Python",
+      "description": "The agent engineering platform.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/126733545?v=4",
+      "html_url": "https://github.com/langchain-ai/langchain"
+    },
+    "juspay/hyperswitch": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 83,
+      "language": "Rust",
+      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11497632?v=4",
+      "html_url": "https://github.com/juspay/hyperswitch"
+    },
+    "pgdogdev/pgdog": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 67,
+      "language": "Rust",
+      "description": "PostgreSQL connection pooler, load balancer and database sharder.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/200978917?v=4",
+      "html_url": "https://github.com/pgdogdev/pgdog"
     }
   }
 }

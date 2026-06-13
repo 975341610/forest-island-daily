@@ -215,6 +215,33 @@
       "anthropics/claude-plugins-official": 23,
       "alchaincyf/zhangxuefeng-skill": 24,
       "modelscope/FunASR": 25
+    },
+    "2026-06-13": {
+      "apple/container": 1,
+      "addyosmani/agent-skills": 2,
+      "farion1231/cc-switch": 3,
+      "phuryn/pm-skills": 4,
+      "NVIDIA/SkillSpector": 5,
+      "kenn-io/agentsview": 6,
+      "maziyarpanahi/openmed": 7,
+      "anthropics/skills": 8,
+      "mattermost/mattermost": 9,
+      "refactoringhq/tolaria": 10,
+      "restic/restic": 11,
+      "shuvonsec/claude-bug-bounty": 12,
+      "FareedKhan-dev/train-llm-from-scratch": 13,
+      "karpathy/autoresearch": 14,
+      "browser-use/browser-use": 15,
+      "iptv-org/iptv": 16,
+      "zarazhangrui/frontend-slides": 17,
+      "supermemoryai/supermemory": 18,
+      "HelixDB/helix-db": 19,
+      "microsoft/PowerToys": 20,
+      "langchain-ai/langchain": 21,
+      "juspay/hyperswitch": 22,
+      "pgdogdev/pgdog": 23,
+      "graykode/abtop": 24,
+      "iii-hq/iii": 25
     }
   }
 }
