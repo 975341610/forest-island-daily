@@ -242,6 +242,33 @@
       "pgdogdev/pgdog": 23,
       "graykode/abtop": 24,
       "iii-hq/iii": 25
+    },
+    "2026-06-14": {
+      "addyosmani/agent-skills": 1,
+      "apple/container": 2,
+      "NVIDIA/SkillSpector": 3,
+      "iptv-org/iptv": 4,
+      "anthropics/skills": 5,
+      "microsoft/PowerToys": 6,
+      "maziyarpanahi/openmed": 7,
+      "LMCache/LMCache": 8,
+      "mattermost/mattermost": 9,
+      "kenn-io/agentsview": 10,
+      "browser-use/browser-use": 11,
+      "andrewyng/aisuite": 12,
+      "Anil-matcha/Open-Generative-AI": 13,
+      "shareAI-lab/learn-claude-code": 14,
+      "iii-hq/iii": 15,
+      "bannedbook/fanqiang": 16,
+      "openai/codex-plugin-cc": 17,
+      "DavidHDev/react-bits": 18,
+      "immich-app/immich": 19,
+      "microsoft/playwright": 20,
+      "hexo-ai/sia": 21,
+      "skypilot-org/skypilot": 22,
+      "beclab/Olares": 23,
+      "restic/restic": 24,
+      "alacritty/alacritty": 25
     }
   }
 }
