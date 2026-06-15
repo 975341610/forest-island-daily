@@ -269,6 +269,33 @@
       "beclab/Olares": 23,
       "restic/restic": 24,
       "alacritty/alacritty": 25
+    },
+    "2026-06-15": {
+      "iptv-org/iptv": 1,
+      "NVIDIA/SkillSpector": 2,
+      "lfnovo/open-notebook": 3,
+      "kenn-io/agentsview": 4,
+      "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots": 5,
+      "andrewyng/aisuite": 6,
+      "yt-dlp/yt-dlp": 7,
+      "LMCache/LMCache": 8,
+      "shiyu-coder/Kronos": 9,
+      "OpenHands/OpenHands": 10,
+      "Anil-matcha/Open-Generative-AI": 11,
+      "tinyhumansai/openhuman": 12,
+      "Ar9av/obsidian-wiki": 13,
+      "FareedKhan-dev/train-llm-from-scratch": 14,
+      "tensorzero/tensorzero": 15,
+      "frappe/erpnext": 16,
+      "zhukunpenglinyutong/desktop-cc-gui": 17,
+      "Free-TV/IPTV": 18,
+      "technomancer702/nodecast-tv": 19,
+      "SagerNet/sing-box": 20,
+      "mattermost/mattermost": 21,
+      "fabro-sh/fabro": 22,
+      "cypress-io/cypress": 23,
+      "rust-lang/rust": 24,
+      "hydralauncher/hydra": 25
     }
   }
 }
