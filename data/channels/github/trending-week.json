@@ -3,8 +3,8 @@
   "repos": {
     "iptv-org/iptv": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 1528,
+      "appearances": 2,
+      "total_today_stars": 4185,
       "language": "TypeScript",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "owner_avatar": "https://avatars.githubusercontent.com/u/55937028?v=4",
@@ -12,8 +12,8 @@
     },
     "NVIDIA/SkillSpector": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 964,
+      "appearances": 2,
+      "total_today_stars": 2043,
       "language": "Python",
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
@@ -30,17 +30,17 @@
     },
     "kenn-io/agentsview": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 329,
+      "appearances": 2,
+      "total_today_stars": 449,
       "language": "Go",
       "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. ",
       "owner_avatar": "https://avatars.githubusercontent.com/u/259885253?v=4",
       "html_url": "https://github.com/kenn-io/agentsview"
     },
     "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots": {
-      "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 293,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 782,
       "language": "TeX",
       "description": "Introduction to Autonomous Robots",
       "owner_avatar": "https://avatars.githubusercontent.com/u/80428812?v=4",
@@ -48,8 +48,8 @@
     },
     "andrewyng/aisuite": {
       "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 291,
+      "appearances": 2,
+      "total_today_stars": 546,
       "language": "Python",
       "description": "Simple, unified interface to multiple Generative AI providers ",
       "owner_avatar": "https://avatars.githubusercontent.com/u/3710007?v=4",
@@ -74,9 +74,9 @@
       "html_url": "https://github.com/LMCache/LMCache"
     },
     "shiyu-coder/Kronos": {
-      "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 244,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 640,
       "language": "Python",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65760973?v=4",
@@ -93,8 +93,8 @@
     },
     "Anil-matcha/Open-Generative-AI": {
       "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 219,
+      "appearances": 2,
+      "total_today_stars": 459,
       "language": "JavaScript",
       "description": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
@@ -102,8 +102,8 @@
     },
     "tinyhumansai/openhuman": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 203,
+      "appearances": 2,
+      "total_today_stars": 393,
       "language": "Rust",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
@@ -155,9 +155,9 @@
       "html_url": "https://github.com/zhukunpenglinyutong/desktop-cc-gui"
     },
     "Free-TV/IPTV": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 70,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 431,
       "language": "Python",
       "description": "M3U Playlist for free TV channels",
       "owner_avatar": "https://avatars.githubusercontent.com/u/82442715?v=4",
@@ -225,6 +225,150 @@
       "description": "Hydra Launcher is an open-source gaming platform created to be the single tool that you need",
       "owner_avatar": "https://avatars.githubusercontent.com/u/164102380?v=4",
       "html_url": "https://github.com/hydralauncher/hydra"
+    },
+    "Panniantong/Agent-Reach": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1100,
+      "language": "Python",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
+      "html_url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    "jwasham/coding-interview-university": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 364,
+      "language": null,
+      "description": "A complete computer science study plan to become a software engineer.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/3771963?v=4",
+      "html_url": "https://github.com/jwasham/coding-interview-university"
+    },
+    "itsfatduck/optimizerDuck": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 340,
+      "language": "C#",
+      "description": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/124025976?v=4",
+      "html_url": "https://github.com/itsfatduck/optimizerDuck"
+    },
+    "hmjz100/LinkSwift": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 292,
+      "language": "JavaScript",
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/98228280?v=4",
+      "html_url": "https://github.com/hmjz100/LinkSwift"
+    },
+    "meshery/meshery": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 228,
+      "language": "TypeScript",
+      "description": "Meshery, the cloud native manager",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/52376019?v=4",
+      "html_url": "https://github.com/meshery/meshery"
+    },
+    "mikeroyal/Self-Hosting-Guide": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 188,
+      "language": "Dockerfile",
+      "description": "Self-Hosting Guide. Learn all about  locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/45159366?v=4",
+      "html_url": "https://github.com/mikeroyal/Self-Hosting-Guide"
+    },
+    "puppeteer/puppeteer": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 171,
+      "language": "TypeScript",
+      "description": "JavaScript API for Chrome and Firefox",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6906516?v=4",
+      "html_url": "https://github.com/puppeteer/puppeteer"
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 144,
+      "language": "TypeScript",
+      "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
+      "html_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    "shuvonsec/claude-bug-bounty": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 135,
+      "language": "Python",
+      "description": "AI-powered bug bounty hunting from your terminal - recon, 20 vuln classes,   autonomous hunting, and report generation. All inside Claude Code.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/83355567?v=4",
+      "html_url": "https://github.com/shuvonsec/claude-bug-bounty"
+    },
+    "Flowseal/tg-ws-proxy": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 127,
+      "language": "Python",
+      "description": "Local MTProto proxy server for partial bypassing of Telegram loading",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/50780822?v=4",
+      "html_url": "https://github.com/Flowseal/tg-ws-proxy"
+    },
+    "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 118,
+      "language": "Rust",
+      "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/149629021?v=4",
+      "html_url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation"
+    },
+    "mvanhorn/cli-printing-press": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 102,
+      "language": "Go",
+      "description": "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
+      "html_url": "https://github.com/mvanhorn/cli-printing-press"
+    },
+    "maboloshi/github-chinese": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 88,
+      "language": "JavaScript",
+      "description": "GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/7850715?v=4",
+      "html_url": "https://github.com/maboloshi/github-chinese"
+    },
+    "krahets/hello-algo": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 71,
+      "language": "Java",
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/26993056?v=4",
+      "html_url": "https://github.com/krahets/hello-algo"
+    },
+    "gildas-lormeau/SingleFile": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 63,
+      "language": "JavaScript",
+      "description": "Web Extension for saving a faithful copy of a complete web page in a single HTML file",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/396787?v=4",
+      "html_url": "https://github.com/gildas-lormeau/SingleFile"
+    },
+    "zhom/donutbrowser": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 54,
+      "language": "Rust",
+      "description": "Simple Yet Powerful Anti-Detect Browser 🍩",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2717306?v=4",
+      "html_url": "https://github.com/zhom/donutbrowser"
     }
   }
 }

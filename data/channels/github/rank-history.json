@@ -296,6 +296,33 @@
       "cypress-io/cypress": 23,
       "rust-lang/rust": 24,
       "hydralauncher/hydra": 25
+    },
+    "2026-06-16": {
+      "iptv-org/iptv": 1,
+      "Panniantong/Agent-Reach": 2,
+      "NVIDIA/SkillSpector": 3,
+      "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots": 4,
+      "shiyu-coder/Kronos": 5,
+      "jwasham/coding-interview-university": 6,
+      "Free-TV/IPTV": 7,
+      "itsfatduck/optimizerDuck": 8,
+      "hmjz100/LinkSwift": 9,
+      "andrewyng/aisuite": 10,
+      "Anil-matcha/Open-Generative-AI": 11,
+      "meshery/meshery": 12,
+      "tinyhumansai/openhuman": 13,
+      "mikeroyal/Self-Hosting-Guide": 14,
+      "puppeteer/puppeteer": 15,
+      "TencentCloud/TencentDB-Agent-Memory": 16,
+      "shuvonsec/claude-bug-bounty": 17,
+      "Flowseal/tg-ws-proxy": 18,
+      "kenn-io/agentsview": 19,
+      "Universal-Debloater-Alliance/universal-android-debloater-next-generation": 20,
+      "mvanhorn/cli-printing-press": 21,
+      "maboloshi/github-chinese": 22,
+      "krahets/hello-algo": 23,
+      "gildas-lormeau/SingleFile": 24,
+      "zhom/donutbrowser": 25
     }
   }
 }
