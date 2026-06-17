@@ -323,6 +323,33 @@
       "krahets/hello-algo": 23,
       "gildas-lormeau/SingleFile": 24,
       "zhom/donutbrowser": 25
+    },
+    "2026-06-17": {
+      "Panniantong/Agent-Reach": 1,
+      "iptv-org/iptv": 2,
+      "Egonex-AI/Understand-Anything": 3,
+      "OpenBMB/VoxCPM": 4,
+      "n0-computer/iroh": 5,
+      "earendil-works/pi": 6,
+      "datawhalechina/hello-agents": 7,
+      "Free-TV/IPTV": 8,
+      "meshery/meshery": 9,
+      "karpathy/autoresearch": 10,
+      "teslamate-org/teslamate": 11,
+      "rmyndharis/OpenWA": 12,
+      "multica-ai/multica": 13,
+      "Anil-matcha/Open-Generative-AI": 14,
+      "alibaba/zvec": 15,
+      "Universal-Debloater-Alliance/universal-android-debloater-next-generation": 16,
+      "EveryInc/compound-engineering-plugin": 17,
+      "mvanhorn/cli-printing-press": 18,
+      "microsoft/fara": 19,
+      "ChromeDevTools/chrome-devtools-mcp": 20,
+      "immich-app/immich": 21,
+      "andrewyng/aisuite": 22,
+      "nocobase/nocobase": 23,
+      "google-research/timesfm": 24,
+      "Gitlawb/openclaude": 25
     }
   }
 }

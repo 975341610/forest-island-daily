@@ -3,8 +3,8 @@
   "repos": {
     "iptv-org/iptv": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 4185,
+      "appearances": 3,
+      "total_today_stars": 5382,
       "language": "TypeScript",
       "description": "Collection of publicly available IPTV channels from all over the world",
       "owner_avatar": "https://avatars.githubusercontent.com/u/55937028?v=4",
@@ -48,8 +48,8 @@
     },
     "andrewyng/aisuite": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 546,
+      "appearances": 3,
+      "total_today_stars": 633,
       "language": "Python",
       "description": "Simple, unified interface to multiple Generative AI providers ",
       "owner_avatar": "https://avatars.githubusercontent.com/u/3710007?v=4",
@@ -93,8 +93,8 @@
     },
     "Anil-matcha/Open-Generative-AI": {
       "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 459,
+      "appearances": 3,
+      "total_today_stars": 616,
       "language": "JavaScript",
       "description": "Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
@@ -156,8 +156,8 @@
     },
     "Free-TV/IPTV": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 431,
+      "appearances": 3,
+      "total_today_stars": 679,
       "language": "Python",
       "description": "M3U Playlist for free TV channels",
       "owner_avatar": "https://avatars.githubusercontent.com/u/82442715?v=4",
@@ -227,9 +227,9 @@
       "html_url": "https://github.com/hydralauncher/hydra"
     },
     "Panniantong/Agent-Reach": {
-      "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1100,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 3125,
       "language": "Python",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
@@ -263,9 +263,9 @@
       "html_url": "https://github.com/hmjz100/LinkSwift"
     },
     "meshery/meshery": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 228,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 456,
       "language": "TypeScript",
       "description": "Meshery, the cloud native manager",
       "owner_avatar": "https://avatars.githubusercontent.com/u/52376019?v=4",
@@ -317,18 +317,18 @@
       "html_url": "https://github.com/Flowseal/tg-ws-proxy"
     },
     "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 118,
+      "best_rank": 16,
+      "appearances": 2,
+      "total_today_stars": 264,
       "language": "Rust",
       "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/149629021?v=4",
       "html_url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation"
     },
     "mvanhorn/cli-printing-press": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 102,
+      "best_rank": 18,
+      "appearances": 2,
+      "total_today_stars": 212,
       "language": "Go",
       "description": "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
@@ -369,6 +369,159 @@
       "description": "Simple Yet Powerful Anti-Detect Browser 🍩",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2717306?v=4",
       "html_url": "https://github.com/zhom/donutbrowser"
+    },
+    "Egonex-AI/Understand-Anything": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 1146,
+      "language": "TypeScript",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/257477979?v=4",
+      "html_url": "https://github.com/Egonex-AI/Understand-Anything"
+    },
+    "OpenBMB/VoxCPM": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 408,
+      "language": "Python",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/89920203?v=4",
+      "html_url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    "n0-computer/iroh": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 334,
+      "language": "Rust",
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/101023307?v=4",
+      "html_url": "https://github.com/n0-computer/iroh"
+    },
+    "earendil-works/pi": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 326,
+      "language": "TypeScript",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
+      "html_url": "https://github.com/earendil-works/pi"
+    },
+    "datawhalechina/hello-agents": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 291,
+      "language": "Python",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/46047812?v=4",
+      "html_url": "https://github.com/datawhalechina/hello-agents"
+    },
+    "karpathy/autoresearch": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 226,
+      "language": "Python",
+      "description": "AI agents running research on single-GPU nanochat training automatically",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
+      "html_url": "https://github.com/karpathy/autoresearch"
+    },
+    "teslamate-org/teslamate": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 215,
+      "language": "Elixir",
+      "description": "A self-hosted data logger for your Tesla  🚘 [main maintainer=@JakobLichterfeld]",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/150616486?v=4",
+      "html_url": "https://github.com/teslamate-org/teslamate"
+    },
+    "rmyndharis/OpenWA": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 185,
+      "language": "TypeScript",
+      "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2390382?v=4",
+      "html_url": "https://github.com/rmyndharis/OpenWA"
+    },
+    "multica-ai/multica": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 164,
+      "language": "Go",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/multica"
+    },
+    "alibaba/zvec": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 156,
+      "language": "C++",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
+      "html_url": "https://github.com/alibaba/zvec"
+    },
+    "EveryInc/compound-engineering-plugin": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 139,
+      "language": "TypeScript",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76073155?v=4",
+      "html_url": "https://github.com/EveryInc/compound-engineering-plugin"
+    },
+    "microsoft/fara": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 97,
+      "language": "Python",
+      "description": "Fara-7B: An Efficient Agentic Model for Computer Use",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/fara"
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 94,
+      "language": "TypeScript",
+      "description": "Chrome DevTools for coding agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11260967?v=4",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    "immich-app/immich": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 88,
+      "language": "TypeScript",
+      "description": "High performance self-hosted photo and video management solution.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/109746326?v=4",
+      "html_url": "https://github.com/immich-app/immich"
+    },
+    "nocobase/nocobase": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 87,
+      "language": "TypeScript",
+      "description": "NocoBase is an open-source AI + no-code platform for building business systems fast. Instead of generating everything from scratch, AI works on top of production-proven infrastructure and a WYSIWYG no-code interface, so you get both speed and reliability.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/66196787?v=4",
+      "html_url": "https://github.com/nocobase/nocobase"
+    },
+    "google-research/timesfm": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 84,
+      "language": "Python",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43830688?v=4",
+      "html_url": "https://github.com/google-research/timesfm"
+    },
+    "Gitlawb/openclaude": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 74,
+      "language": "TypeScript",
+      "description": "runs anywhere. uses anything",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/268502891?v=4",
+      "html_url": "https://github.com/Gitlawb/openclaude"
     }
   }
 }
