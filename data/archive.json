@@ -1,5 +1,264 @@
 [
   {
+    "id": "n_2026-06-18_9",
+    "date": "2026-06-18",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "Freebuff：靠广告免费用的命令行编码agent",
+    "url": "https://freebuff.com",
+    "image": "images/2026-06-18/n_2026-06-18_9.jpg",
+    "detail": [
+      "6月17日深夜，一个名为 Freebuff 的项目登上 Hacker News 的 Show HN，主打一个挑衅性的卖点：一个完全免费、由广告供养的命令行编码智能体。在AI编程工具普遍按用量计费、月费水涨船高的2026年（解决方案动辄每月20到40美元起），广告换算力是一种相当少见的商业模式尝试，立刻引发好奇与争议。",
+      "其思路是把AI编码agent的推理成本转嫁给广告主，而非向开发者收费，让预算有限的个人开发者、学生或业余爱好者也能用上agent能力。这与当下行业的付费墙趋势形成鲜明对比——同期的报道显示 GitHub Copilot 已全面转向按用量计费的AI Credits、Anthropic 也在收紧旧模型访问，免费且无门槛的入口因此显得稀缺。",
+      "不过在Show HN的讨论中，开发者的反应相当审慎。围绕广告供养的agent，社区最关心的是隐私与上下文安全：代码和提示词会不会被用于广告定向？免费额度下的模型质量与延迟如何？商业模式能否长期持续？这类问题正是2026年HN趋势所反映的——开发者对AI工具的信任、安全和可控性，已经比炫酷demo更受重视。Freebuff 能否站稳，取决于它如何回应这些疑虑。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_8",
+    "date": "2026-06-18",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "Relaymux：Telegram远程指挥编码agent",
+    "url": "https://github.com/mupt-ai/relaymux",
+    "image": "images/2026-06-18/n_2026-06-18_8.jpg",
+    "detail": [
+      "6月17日，mupt-ai 团队在 Hacker News 发布 Show HN，推出开源项目 Relaymux（MIT协议，TypeScript编写）——一个轻量级、基于tmux的元harness，用来远程指挥本地编码智能体。它的核心理念很有意思：Telegram 是遥控器，tmux 是真正干活的地方。后台服务监听Telegram消息，但绝不把agent运行藏进黑盒。",
+      "与许多把agent运行隐藏起来的工具不同，Relaymux 启动一个agent时会在你机器上打开一个可见的tmux窗口，你可以随时attach进去观看、打断或像普通终端会话一样调试。默认使用一个名为agents的共享tmux会话，每个agent各占一个窗口；关掉Telegram也不会停止tmux里的运行。它支持 pi、codex、claude 等本地agent CLI，需要Node.js 20+和tmux，一行curl即可安装；iMessage/SMS支持目前还是beta。",
+      "这一设计踩中了当前开发者社区对agent可观测性和远程随手指挥的双重需求——既要能在通勤路上发条消息让agent去查失败的测试，又要保留对运行过程的完全可见与可恢复。项目目前仍处早期(stars不多、暂无正式release)，但Telegram启动、tmux留痕的轻量思路在Show HN讨论中被认为务实，避开了重型云端编排的复杂度。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_7",
+    "date": "2026-06-18",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
+    "platform": "GitHub / Hacker News",
+    "platform_color": "#2563EB",
+    "title": "Yomi：把网页或整站读成干净Markdown",
+    "url": "https://github.com/tamnd/yomi",
+    "image": "images/2026-06-18/n_2026-06-18_7.jpg",
+    "detail": [
+      "6月17日，开发者 tamnd 发布 Go 语言开源工具 Yomi（読み，阅读之意，MIT协议），同日登上 Hacker News 的 Show HN，仓库当天发布 v0.2.1 版本。它针对的是每个人都干过的麻烦事：看到一篇好文章想存下来，用浏览器另存为得到4MB的html加一堆资源还排版崩坏；复制粘贴又把菜单、订阅框、评论控件、cookie横幅全拖进来；最糟的是JS渲染页面查看源码只剩空div。",
+      "Yomi 把阅读这件事自动化：先用便宜的HTTP请求抓取，只在页面确实需要时才启动真实的无头Chrome渲染（auto模式靠空SPA挂载点、noscript提示或可见文本少于25词来判断是否升级），然后用readability提取正文、丢掉所有页面家具，输出带front-matter的GFM Markdown。命令覆盖read单页、site整站爬取(默认遵守robots、并发4)、pack打包成SQLite或ZIM离线档、meta取元数据、links取正文链接、serve本地预览。",
+      "项目在工程细节上颇为讲究：保留代码块语言、把表格还原成表格、去掉永久链接符号和重复caption。作者明确点出它是 kage 的姊妹项目——kage负责离线浏览、Yomi负责在编辑器里阅读，两者共享同一无头浏览器引擎与scope模型。发布即提供Homebrew、Scoop、deb/rpm/apk及多架构GHCR镜像(内置Chromium)，工程完成度获社区好评。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_6",
+    "date": "2026-06-18",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "Deep Work Plan：把计划写进仓库防agent跑偏",
+    "url": "https://www.producthunt.com/products/deep-work-plan",
+    "image": "images/2026-06-18/n_2026-06-18_6.jpg",
+    "detail": [
+      "6月17日，一位独立开发者在 Product Hunt 推出开源项目 Deep Work Plan（MIT协议），当天排名第9、获106赞。它要解决的是每个重度AI编程者都遇过的问题：agent开局表现惊艳，到第三个小时却悄悄偏离任务——diff照样能编译，只是不是你要的东西，而且因为整个计划都活在过长的聊天窗口里，根本无法干净地恢复。作者把这判定为结构问题而非提示词问题。",
+      "它的核心是两步：第一，让计划成为唯一事实来源而非聊天记录——动手前先写规格，包含目标、原子任务，每个任务都有明确的验收标准和验证门(validation gate)，完成由门判定而非模型感觉，且写在磁盘上能扛住上下文重置与跨agent交接；第二，让仓库本身成为harness——上下文、工具、护栏、状态全是任意agent可读的纯文件，因此工具无关，Claude Code、Codex、Cursor 都能跑同一份计划，无厂商锁定。",
+      "作者在评论区与开发者深入交流了多个设计细节：验证门是agent自己运行的可执行断言（如 cargo test、pytest、ruff），退出码非0就不能标记任务完成；任务以行为而非具体编辑描述，因此队友改了实现也不会让计划失效；每个计划结尾还有强制的安全分析与技能发现环节。讨论普遍称赞spec写进仓库是长程agent任务的正确架构。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_5",
+    "date": "2026-06-18",
+    "category": "VibeCoding",
+    "subcat": "AI编程",
+    "platform": "Charlie Labs",
+    "platform_color": "#2563EB",
+    "title": "Daemons：专门收拾AI智能体烂摊子的进程",
+    "url": "https://charlielabs.ai/blog/introducing-daemons",
+    "image": "images/2026-06-18/n_2026-06-18_5.jpg",
+    "detail": [
+      "6月17日，Charlie Labs 在 Product Hunt 正式推出 Daemons，单日排名第3。团队过去近两年一直在做名为 Charlie 的自主 TypeScript 编程智能体。他们发现一个反直觉的现实：当团队大规模用agent写代码后，真正的负担不是写，而是agent产出物带来的运维拖累——堆积的不可合并PR、过期文档、半完成的issue。于是他们从造agent转向收拾agent留下的活。",
+      "Daemons 是常驻、主动的AI进程，用简单的 .md 文件定义角色、目标和产出，7×24小时跨 Slack、Linear、GitHub、Sentry 工作，无需逐条指令。文档给出的示例是一个 bug-triage daemon：当Linear出现bug标签的issue时，自动按Sentry影响数据设优先级、依CODEOWNERS分派负责人、补全缺失上下文、附上根因分析评论——同时通过deny列表明确禁止它改源码、删issue或覆盖人工设定的优先级。",
+      "Charlie Labs 强调这是一个新产品品类，是其早前提出的编码智能体操作系统(CAOS)叙事的延续。社区反应里，有开发者指出 daemons 在概念上更接近近期流行的routines常驻任务，讨论普遍认可给重复性工程运维找个owner的方向，但也有人质疑always-on agent的成本与误操作边界如何把控。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_4",
+    "date": "2026-06-18",
+    "category": "VibeCoding",
+    "subcat": "AI编程",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "Swytchcode CLI：给AI智能体可靠API接入",
+    "url": "https://www.producthunt.com/products/swytchcode/launches/swytchcode-cli",
+    "image": "images/2026-06-18/n_2026-06-18_4.jpg",
+    "detail": [
+      "6月17日，Swytchcode 在 Product Hunt 推出全新的 CLI 产品形态，单日冲到第2名、收获329个赞，团队此前曾以Turn your API into an AI experience在2025年首次亮相。这次的定位非常明确：做AI智能体与生产环境API之间的执行权威层。开发者用AI写集成代码已经很快，但真正的痛点不在写，而在执行——鉴权、重试、幂等、合规、错误处理这些脏活，往往是agent在生产环境翻车的根源。",
+      "核心能力上，Swytchcode CLI 横跨2000+ API，自动处理OAuth令牌、API key、请求头注入（全部从环境变量读取，agent不接触明文密钥），内置重试与幂等保证，并在CLI层就执行速率限制、白名单和执行策略——在请求离开本机前就拦截违规调用。它还提供结构化JSON错误和MCP支持，让agent每次都清楚发生了什么、下一步该做什么，号称可实现多工具调用100%准确率。",
+      "社区讨论集中在CLI is the new API这一趋势上：越来越多团队认为给agent一个好用的CLI，比写定制MCP集成更高效。Reddit的r/AI_Agents帖子下，开发者认可其在agent和生产API之间加一层可靠性的思路，认为这正击中了agent从demo走向生产的最大缺口，也有人追问2000+ API的覆盖深度与维护成本。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_3",
+    "date": "2026-06-18",
+    "category": "AI",
+    "subcat": "AI产品",
+    "platform": "Google Developers Blog",
+    "platform_color": "#7C3AED",
+    "title": "Gemini CLI今日停服 强制迁移Antigravity",
+    "url": "https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli",
+    "image": "images/2026-06-18/n_2026-06-18_3.jpg",
+    "detail": [
+      "6月18日，谷歌正式让广受开发者欢迎的Gemini CLI与Gemini Code Assist IDE扩展停止服务。根据谷歌开发者官方博客，自今日起，面向Google AI Pro、Ultra订阅用户以及免费个人版用户的Gemini CLI将不再响应请求，开发者被强制迁移至全新的Antigravity CLI。这一原定于I/O大会公布的时间表，如今迎来真正的硬性切换日。",
+      "Antigravity CLI是基于Go语言重写的、面向智能体的开发平台命令行工具，定位为谷歌agent-first开发平台的一部分。然而社区普遍反映其在发布初期尚未实现与Gemini CLI的功能对等，被不少开发者称为短期内的倒退。更关键的是，新工具与Antigravity 2.0共享统一的额度池，并引入滚动5小时与每周用量上限，高频代码生成用户可能更快触及限流墙。",
+      "此次停服在Hacker News、GitHub与Reddit上引发广泛讨论与不满。许多开发者指出Gemini CLI此前积累了约6000项开源贡献，社区生态被一刀切式终结令人惋惜；不少人正评估迁移路径，把终端工作流转向Claude Code，或选择Aider以保留完全开源的可控性，也有CI/CD流水线因依赖gemini命令而面临脚本断裂的隐患。",
+      "需要注意的是，企业级用户不受影响：使用Gemini Code Assist标准版或企业版授权、或通过Google Cloud使用Gemini Code Assist for GitHub的组织，访问权限保持不变。但对广大个人开发者而言，这次从社区共建的Node.js工具到谷歌自有智能体平台的强制切换，被视为谷歌收紧开发者工具生态、统一品牌至Antigravity旗下的关键一步。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_2",
+    "date": "2026-06-18",
+    "category": "AI",
+    "subcat": "AI行业大事",
+    "platform": "CNBC",
+    "platform_color": "#7C3AED",
+    "title": "G7峰会上呼吁组建美国主导AI联盟",
+    "url": "https://www.cnbc.com/2026/06/17/anthropic-amodei-google-hassabis-us-ai-coalition-g7.html",
+    "image": "images/2026-06-18/n_2026-06-18_2.jpg",
+    "detail": [
+      "6月17日，在法国埃维昂举行的G7峰会闭门工作午餐上，Anthropic首席执行官Dario Amodei与谷歌DeepMind首席执行官Demis Hassabis共同呼吁组建一个由美国主导的AI国际联盟，以共同制定AI规则与标准。约十余位科技高管与多国元首出席，其中包括美国总统特朗普以及OpenAI首席执行官Sam Altman，凸显AI治理已上升为大国议程核心。",
+      "据CNBC援引两位知情人士透露，Amodei在发言中主张国际合作应涵盖对前沿模型的结构化访问，以及把中国排除在外的芯片与关键零部件贸易；他还提出各国应携手应对AI在网络攻击、生物恐怖及情报领域的风险。Altman则呼吁建立一个全球公认的测试标准国际论坛，提供对模型能力与风险的中立专业评估。加拿大总理卡尼对美国主导AI联盟表示认同。",
+      "这场会谈发生在AI网络能力急剧增强、引发各国政企对数字安全担忧的大背景下。就在上周五，Anthropic因美国政府以国家安全为由对其最新模型实施出口管制，被迫关闭了相关访问权限，目前仍在与特朗普政府谈判。社区与媒体普遍认为，前沿AI正从纯技术竞赛演变为地缘政治博弈，模型出口与算力管制成为新的国家间角力焦点。",
+      "OpenAI全球事务负责人在会后表示，与会的非美国领导人承认美国确实可以在建立AI标准方面发挥主导作用。值得注意的是，OpenAI上月已向通过审核的网络安全团队限量预览GPT-5.5 Cyber版本。多方观点指出，本次G7讨论可能为后续多边AI治理框架奠定基调，但排除中国的提法也可能加剧全球AI生态的阵营化分裂。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_16",
+    "date": "2026-06-18",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Games Press",
+    "platform_color": "#059669",
+    "title": "《英雄连:越南》6月18日数字版发售",
+    "url": "https://www.gamespress.com/Hell-Let-Loose-Vietnam-Confirms-June-18-Digital-Release-Date",
+    "image": "images/2026-06-18/n_2026-06-18_16.jpg",
+    "detail": [
+      "Team17与开发商Expression Games的大规模多人战术游戏《Hell Let Loose: Vietnam(英雄连:越南)》于北京时间6月18日推出数字版，登陆PC(Steam、Epic)、PS5与Xbox Series X|S。该作是广受硬核军事玩家欢迎的《Hell Let Loose》系列的全新独立续作，把舞台从二战推进到越南战争时期，采用独立的Steam app ID，无需拥有前作即可游玩。",
+      "本作主打50对50的大规模拟真战场，强调团队协作、阵地战与角色分工，带来契合越战题材的全新地图、装备与丛林环境。发售前官方曾于5月29日至6月1日在Steam举办免费开放Beta周末，以Thanh Hóa大桥地图供玩家提前体验并收集反馈。需要注意的是，实体版将延后至8月推出，本次6月18日先行上线的是全平台数字版本。",
+      "对硬核拟真战术爱好者来说，这是本周主机与PC平台分量十足的发售。社区围绕越战题材的氛围还原与团队战术深度展开热议，Beta阶段的丛林伏击与协同推进体验获得不少好评。在六月新作竞争激烈的环境下，系列既有的拟真口碑和题材新鲜感，使《英雄连:越南》成为多人战术品类中备受期待的一员。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_15",
+    "date": "2026-06-18",
+    "category": "Gaming",
+    "subcat": "单机大作",
+    "platform": "PC Gamer",
+    "platform_color": "#059669",
+    "title": "史克威尔《艾利欧特冒险》今日发售",
+    "url": "https://www.pcgamer.com/games/rpg/the-adventures-of-elliot-the-millennium-tales-review/",
+    "image": "images/2026-06-18/n_2026-06-18_15.jpg",
+    "detail": [
+      "史克威尔·艾尼克斯(Square Enix)由Team Asano与Claytechworks打造的HD-2D角色扮演新作《艾利欧特冒险:千年传说》(The Adventures of Elliot: The Millennium Tales)于北京时间6月18日正式发售，登陆Nintendo Switch 2、PS5、Xbox Series X|S与PC(Steam)。这是继《八方旅人》《三角战略》之后，Team Asano在HD-2D路线上的又一力作，定价60美元。",
+      "随着发售临近，各大媒体评测于6月17日前后陆续解禁。Game Informer、PC Gamer、The Outerhaven等纷纷给出评价，普遍称赞其精美的HD-2D视觉表现、爽快的战斗，以及围绕时间旅行展开、充满乐观基调的故事。评测指出游戏在世界观构建、角色魅力，以及地下城探索与解谜方面表现突出，首周目流程约16小时，被认为是又一部令人信服的JRPG。Famitsu此前甚至提前破例放出了首篇评测。",
+      "对JRPG与HD-2D爱好者而言，这是六月最重要的发售之一。社区评测汇总显示口碑整体正面，玩家对其美术和探索设计赞誉有加，也有声音认为剧情套路略显熟悉。作为史克威尔HD-2D产品线的延续，该作进一步巩固了Team Asano这一招牌的市场地位，在主机与PC多平台同步登场，覆盖了广泛的受众群体。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_14",
+    "date": "2026-06-18",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Gematsu",
+    "platform_color": "#059669",
+    "title": "《观察者:系统重制版》登陆Switch 2",
+    "url": "https://www.gematsu.com/2026/06/observer-system-redux-coming-to-switch-2-on-june-18",
+    "image": "images/2026-06-18/n_2026-06-18_14.jpg",
+    "detail": [
+      "Bloober Team旗下第一人称赛博朋克恐怖侦探游戏《观察者:系统重制版》(Observer: System Redux)于北京时间6月18日正式登陆Nintendo Switch 2，以39.99美元数字版形式在eShop全球发售。该作此前已在PS4、PS5、Xbox One、Xbox Series以及PC(Steam)推出，这次是首度移植到任天堂新一代掌机/主机平台，补齐了平台拼图。",
+      "Switch 2版本最大的亮点在于针对新硬件做了适配：支持Joy-Con 2手柄的鼠标操作模式，以及可选的体感操控，为这款强调氛围与探索的恐怖游戏提供了新的交互方式。游戏设定在反乌托邦的2084年，玩家扮演由已故演员鲁特格尔·哈尔(Rutger Hauer)配音的神经刑警，潜入他人记忆调查案件。为庆祝上线，eShop还提供限时25%折扣，首发价降至29.99美元，持续至7月7日。",
+      "对Switch 2用户而言，这款氛围浓厚的赛博朋克恐怖作品丰富了平台的成熟向阵容。社区注意到这是哈尔生前最后一次游戏配音演出，具有一定纪念意义；鼠标与体感操作的加入也被视为Switch 2外设潜力的又一次展示。在6月18日的发售潮中，这款移植作以扎实的口碑底子和首发折扣，成为恐怖与剧情向玩家的可靠选择。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_13",
+    "date": "2026-06-18",
+    "category": "Gaming",
+    "subcat": "单机大作",
+    "platform": "Gematsu",
+    "platform_color": "#059669",
+    "title": "《Forgotlings》主机版6月18日发售",
+    "url": "https://www.gematsu.com/2026/06/forgotlings-for-ps5-xbox-series-launches-june-18",
+    "image": "images/2026-06-18/n_2026-06-18_13.jpg",
+    "detail": [
+      "发行商Hitcents与开发商Throughline Games宣布，2D电影化横版动作冒险游戏《Forgotlings》的PlayStation 5与Xbox Series版本于北京时间6月18日正式发售。该作此前已于2月17日通过Steam率先登陆PC，获得了不错的反响，此次主机版上线同时，PC版也将追加Epic Games Store与GOG两个发行渠道，进一步扩大玩家覆盖面。",
+      "《Forgotlings》设定在一个被遗忘之物寻找存在意义的奇幻国度，以手绘质感的电影化美术风格和富有诗意的叙事见长。玩家将操控被遗弃的物品角色在这个魔法世界中冒险，体验充满情感的横版动作与解谜。开发商同步放出了主机版发售日期预告片，展示了游戏精致的画面表现和氛围营造，Throughline Games此前也凭借叙事类作品积累了口碑。",
+      "对于偏好叙事与艺术风格的玩家，这是一款值得关注的独立佳作。社区对主机版的到来表示欢迎，认为更多平台和商店的开放有助于这类小体量但制作用心的作品触及更广受众。在6月18日这个新作扎堆的发售日，《Forgotlings》以其独特的美术和情感基调，在众多竞品中提供了一份风格鲜明的差异化选择。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_12",
+    "date": "2026-06-18",
+    "category": "Gaming",
+    "subcat": "单机大作",
+    "platform": "Steam",
+    "platform_color": "#059669",
+    "title": "《潜水员戴夫》丛林DLC今日上线",
+    "url": "https://store.steampowered.com/app/4394810/DAVE_THE_DIVER__In_the_Jungle_Content_Pack/",
+    "image": "images/2026-06-18/n_2026-06-18_12.jpg",
+    "detail": [
+      "现象级休闲经营游戏《潜水员戴夫》(Dave the Diver)的大型付费DLC In the Jungle(丛林篇)于北京时间6月18日在全平台同步上线，覆盖PC(Steam)、PS4、PS5、Xbox以及Nintendo Switch/Switch 2。本体凭借白天潜水捕鱼、夜晚经营寿司店的独特循环成为近年最受欢迎的独立爆款之一，这次资料片则首次把舞台从蔚蓝海底延伸到陆地丛林。",
+      "开发商MINTROCKET介绍，新DLC将戴夫带离蓝洞，前往一座名为Utara、围绕神秘异象建立的丛林村庄，加入全新的淡水生态系统、新任务线和新机制，官方估算可提供约10小时的新内容，是该系列迄今体量最大的扩展。配合DLC上线，官方还推出了实体完整版与典藏版，分别面向PS5与Switch 2，满足收藏向玩家需求。",
+      "作为一款销量与口碑双丰收的独立标杆，《潜水员戴夫》本次扩展受到社区高度期待。玩家普遍认为丛林主题为已显熟悉的捕鱼循环注入了新鲜感，十小时的内容量也物超所值。在六月主机与PC新作密集的窗口里，这款合家欢向、节奏轻松的更新成为不少玩家本周的首选，延续了系列小而美的口碑路线。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_11",
+    "date": "2026-06-18",
+    "category": "Gaming",
+    "subcat": "单机大作",
+    "platform": "Games Press",
+    "platform_color": "#059669",
+    "title": "《毒贩模拟器2》登陆PS5与Xbox",
+    "url": "https://www.gamespress.com/Co-op-crime-sim-Drug-Dealer-Simulator-2-launches-on-PlayStation-5-Xbox",
+    "image": "images/2026-06-18/n_2026-06-18_11.jpg",
+    "detail": [
+      "由Movie Games发行、Byterunners开发的《毒贩模拟器2》(Drug Dealer Simulator 2)于北京时间6月17日正式登陆PlayStation 5与Xbox Series X|S。这款作品是开创了贩毒模拟细分品类的初代续作，此前已在Steam上积累了大量玩家口碑，如今终于把这套充满黑色幽默的地下经营玩法搬上主机平台，让手柄玩家也能体验从生产、分销到管理扩张的完整经营流程。",
+      "主机版定价24.99美元，官方确认在PS5与Xbox Series X上以目标60帧运行，保证经营与潜行环节的流畅度。相比一代，续作最大的卖点是引入了合作模式，玩家可以与好友组队共同打理生意、躲避监管和竞争对手，把单人沙盒升级为多人协作的地下网络。游戏支持包括简体中文在内的十余种文字语言，本地化覆盖面相当广。",
+      "对主机玩家而言，这是一款定价友好、内容扎实的沙盒经营游戏补充。社区反应普遍积极，不少Steam老玩家表示终于可以在客厅大屏与朋友联机经营；也有评论调侃其题材一贯争议十足。在六月末Steam夏促和大量3A新作夹击下，这类中等体量、强联机属性的作品凭借差异化玩法和亲民价格，成为本周主机平台值得关注的发售之一。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_10",
+    "date": "2026-06-18",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "Quartz：本地运行在Mac的极简AI邮件客户端",
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/6/17",
+    "image": "images/2026-06-18/n_2026-06-18_10.jpg",
+    "detail": [
+      "6月17日，AI邮件客户端 Quartz 在 Product Hunt 当日榜单排到第4名，获196赞。它的差异化定位非常明确：一个为专注而生、完全本地运行在你Mac上的AI邮件客户端。在AI邮件助手大多依赖云端处理、把邮件数据上传到第三方服务器的当下，Quartz 选择把AI能力放在本地设备运行，直接回应了开发者与隐私敏感用户对邮件不出本机的强烈诉求。",
+      "对开发者而言，本地优先(local-first)的架构意味着邮件内容不必经过外部服务器即可获得AI摘要、整理与处理能力，既降低了数据泄露面，也减少了对网络与云端额度的依赖。为专注而生的产品理念则瞄准了被通知和杂乱收件箱淹没的知识工作者，试图用更克制的界面和AI辅助，把邮件从注意力黑洞变回可控的工具。",
+      "这条产品踩中了2026年的两个明显趋势：一是本地优先/端侧AI的崛起，二是专注类生产力工具的回潮。同日Product Hunt榜单上聚集了Swytchcode、Daemons等一众AI产品，竞争激烈，Quartz 能挤进前四，说明本地运行、隐私友好、界面克制这套组合在开发者与重度邮件用户中确有共鸣，社区讨论也多聚焦于本地模型的能力边界与多账户支持。"
+    ]
+  },
+  {
+    "id": "n_2026-06-18_1",
+    "date": "2026-06-18",
+    "category": "AI",
+    "subcat": "AI产品",
+    "platform": "Reuters",
+    "platform_color": "#7C3AED",
+    "title": "SpaceX 600亿美元收购Cursor母公司",
+    "url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16",
+    "image": "images/2026-06-18/n_2026-06-18_1.jpg",
+    "detail": [
+      "马斯克旗下的SpaceX宣布以600亿美元全股票方式收购AI编程工具Cursor的母公司Anysphere，正式杀入炙手可热的企业级AI开发工具市场。此次交易紧随SpaceX上周登陆纳斯达克、估值飙升至逾2万亿美元的创纪录IPO之后，外媒于6月16至17日密集报道，引发科技圈高度关注。SpaceX今年早些时候已先行与xAI合并，本次再下一城，意在补齐AI编程能力的拼图。",
+      "据路透社、CNBC及华尔街日报披露，SpaceX早在4月便锁定了以600亿美元收购Cursor的期权，如今正式行权。Cursor增长曲线近乎垂直：年化收入从2月的20亿美元、4月底的30亿美元一路涨到6月初的40亿美元。SpaceX在X平台表示，双方已联合训练一款AI模型，未来将同时落地于Cursor与Grok Build产品线，交易预计于2026年第三季度完成交割。",
+      "这笔收购被视为AI编程赛道格局的重大转折，直接对标Anthropic的Claude Code与OpenAI的Codex两大编程工具。社区反应两极：开发者一方面担忧Cursor在SpaceX体系下的产品走向与定价策略，另一方面也有人看好其背靠超大算力与资本后的扩张潜力。Reddit与Hacker News上的讨论帖热度居高不下，围绕被收购后Cursor是否会涨价、是否绑定Grok展开激烈辩论。",
+      "从商业层面看，SpaceX股价上市当日大涨13%，市值一度逼近2.8万亿美元，超越亚马逊跻身全球第五大公司。分析人士指出，SpaceX宁可支付双倍对价也要立即拿下Cursor，而非等待，反映出其抢占开发者生态入口的迫切。若交易顺利，马斯克将一举掌控当前最受欢迎的AI代码编辑器，进一步夯实其横跨火箭、卫星与AI的商业帝国。"
+    ]
+  },
+  {
     "id": "n_2026-06-17_9",
     "date": "2026-06-17",
     "category": "VibeCoding",
