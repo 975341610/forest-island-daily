@@ -350,6 +350,33 @@
       "nocobase/nocobase": 23,
       "google-research/timesfm": 24,
       "Gitlawb/openclaude": 25
+    },
+    "2026-06-18": {
+      "Panniantong/Agent-Reach": 1,
+      "google-research/timesfm": 2,
+      "anthropics/skills": 3,
+      "Universal-Debloater-Alliance/universal-android-debloater-next-generation": 4,
+      "n0-computer/iroh": 5,
+      "OpenBMB/VoxCPM": 6,
+      "DeusData/codebase-memory-mcp": 7,
+      "rmyndharis/OpenWA": 8,
+      "earendil-works/pi": 9,
+      "PaddlePaddle/PaddleOCR": 10,
+      "openai/codex": 11,
+      "Alishahryar1/free-claude-code": 12,
+      "meshery/meshery": 13,
+      "ruvnet/ruflo": 14,
+      "multica-ai/multica": 15,
+      "goldmansachs/gs-quant": 16,
+      "bytedance/UI-TARS-desktop": 17,
+      "vercel-labs/json-render": 18,
+      "infiniflow/ragflow": 19,
+      "ChromeDevTools/chrome-devtools-mcp": 20,
+      "nautechsystems/nautilus_trader": 21,
+      "calesthio/OpenMontage": 22,
+      "krahets/hello-algo": 23,
+      "makeplane/plane": 24,
+      "roboflow/rf-detr": 25
     }
   }
 }
