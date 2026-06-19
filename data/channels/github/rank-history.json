@@ -377,6 +377,33 @@
       "krahets/hello-algo": 23,
       "makeplane/plane": 24,
       "roboflow/rf-detr": 25
+    },
+    "2026-06-19": {
+      "DeusData/codebase-memory-mcp": 1,
+      "Kilo-Org/kilocode": 2,
+      "google-research/timesfm": 3,
+      "Egonex-AI/Understand-Anything": 4,
+      "github/spec-kit": 5,
+      "calesthio/OpenMontage": 6,
+      "makeplane/plane": 7,
+      "anthropics/financial-services": 8,
+      "n0-computer/iroh": 9,
+      "Adam-CAD/CADAM": 10,
+      "nautechsystems/nautilus_trader": 11,
+      "openai/codex": 12,
+      "alibaba/zvec": 13,
+      "continuedev/continue": 14,
+      "Universal-Debloater-Alliance/universal-android-debloater-next-generation": 15,
+      "shareAI-lab/learn-claude-code": 16,
+      "zai-org/GLM-5": 17,
+      "bytedance/UI-TARS-desktop": 18,
+      "K-Dense-AI/scientific-agent-skills": 19,
+      "BuilderIO/agent-native": 20,
+      "meshery/meshery": 21,
+      "garrytan/gbrain": 22,
+      "multica-ai/multica": 23,
+      "koala73/worldmonitor": 24,
+      "yifanfeng97/Hyper-Extract": 25
     }
   }
 }

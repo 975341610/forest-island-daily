@@ -264,8 +264,8 @@
     },
     "meshery/meshery": {
       "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 652,
+      "appearances": 4,
+      "total_today_stars": 819,
       "language": "TypeScript",
       "description": "Meshery, the cloud native manager",
       "owner_avatar": "https://avatars.githubusercontent.com/u/52376019?v=4",
@@ -318,8 +318,8 @@
     },
     "Universal-Debloater-Alliance/universal-android-debloater-next-generation": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 721,
+      "appearances": 4,
+      "total_today_stars": 965,
       "language": "Rust",
       "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/149629021?v=4",
@@ -372,8 +372,8 @@
     },
     "Egonex-AI/Understand-Anything": {
       "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 1146,
+      "appearances": 2,
+      "total_today_stars": 1953,
       "language": "TypeScript",
       "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/257477979?v=4",
@@ -390,8 +390,8 @@
     },
     "n0-computer/iroh": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 755,
+      "appearances": 3,
+      "total_today_stars": 1124,
       "language": "Rust",
       "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/101023307?v=4",
@@ -444,17 +444,17 @@
     },
     "multica-ai/multica": {
       "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 322,
+      "appearances": 3,
+      "total_today_stars": 459,
       "language": "Go",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
       "html_url": "https://github.com/multica-ai/multica"
     },
     "alibaba/zvec": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 156,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 415,
       "language": "C++",
       "description": "A lightweight, lightning-fast, in-process vector database",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -507,8 +507,8 @@
     },
     "google-research/timesfm": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 690,
+      "appearances": 3,
+      "total_today_stars": 1534,
       "language": "Python",
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43830688?v=4",
@@ -533,9 +533,9 @@
       "html_url": "https://github.com/anthropics/skills"
     },
     "DeusData/codebase-memory-mcp": {
-      "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 371,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 2693,
       "language": "C",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/81762164?v=4",
@@ -552,8 +552,8 @@
     },
     "openai/codex": {
       "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 254,
+      "appearances": 2,
+      "total_today_stars": 551,
       "language": "Rust",
       "description": "Lightweight coding agent that runs in your terminal",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -588,8 +588,8 @@
     },
     "bytedance/UI-TARS-desktop": {
       "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 150,
+      "appearances": 2,
+      "total_today_stars": 343,
       "language": "TypeScript",
       "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4158466?v=4",
@@ -614,27 +614,27 @@
       "html_url": "https://github.com/infiniflow/ragflow"
     },
     "nautechsystems/nautilus_trader": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 98,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 441,
       "language": "Rust",
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "owner_avatar": "https://avatars.githubusercontent.com/u/33360632?v=4",
       "html_url": "https://github.com/nautechsystems/nautilus_trader"
     },
     "calesthio/OpenMontage": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 98,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 836,
       "language": "Python",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/213189893?v=4",
       "html_url": "https://github.com/calesthio/OpenMontage"
     },
     "makeplane/plane": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 89,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 702,
       "language": "TypeScript",
       "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/115727700?v=4",
@@ -648,6 +648,114 @@
       "description": "RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. [ICLR 2026] ",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53104118?v=4",
       "html_url": "https://github.com/roboflow/rf-detr"
+    },
+    "Kilo-Org/kilocode": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1345,
+      "language": "TypeScript",
+      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/201822503?v=4",
+      "html_url": "https://github.com/Kilo-Org/kilocode"
+    },
+    "github/spec-kit": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 764,
+      "language": "Python",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
+      "html_url": "https://github.com/github/spec-kit"
+    },
+    "anthropics/financial-services": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 481,
+      "language": "Python",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/financial-services"
+    },
+    "Adam-CAD/CADAM": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 364,
+      "language": "TypeScript",
+      "description": "CADAM is the open source text-to-CAD web application",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/193529322?v=4",
+      "html_url": "https://github.com/Adam-CAD/CADAM"
+    },
+    "continuedev/continue": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 254,
+      "language": "TypeScript",
+      "description": "open-source coding agent",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127876214?v=4",
+      "html_url": "https://github.com/continuedev/continue"
+    },
+    "shareAI-lab/learn-claude-code": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 234,
+      "language": "Python",
+      "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/189210346?v=4",
+      "html_url": "https://github.com/shareAI-lab/learn-claude-code"
+    },
+    "zai-org/GLM-5": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 202,
+      "language": null,
+      "description": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/223098841?v=4",
+      "html_url": "https://github.com/zai-org/GLM-5"
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 174,
+      "language": "Python",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
+      "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    "BuilderIO/agent-native": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 172,
+      "language": "TypeScript",
+      "description": "A framework for building agent-native applications.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/35700027?v=4",
+      "html_url": "https://github.com/BuilderIO/agent-native"
+    },
+    "garrytan/gbrain": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 167,
+      "language": "TypeScript",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
+      "html_url": "https://github.com/garrytan/gbrain"
+    },
+    "koala73/worldmonitor": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 133,
+      "language": "TypeScript",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/996596?v=4",
+      "html_url": "https://github.com/koala73/worldmonitor"
+    },
+    "yifanfeng97/Hyper-Extract": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 124,
+      "language": "Python",
+      "description": "Hypergraph is more powerful. Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/15007108?v=4",
+      "html_url": "https://github.com/yifanfeng97/Hyper-Extract"
     }
   }
 }
