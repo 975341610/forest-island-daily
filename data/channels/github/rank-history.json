@@ -404,6 +404,33 @@
       "multica-ai/multica": 23,
       "koala73/worldmonitor": 24,
       "yifanfeng97/Hyper-Extract": 25
+    },
+    "2026-06-20": {
+      "google-research/timesfm": 1,
+      "DeusData/codebase-memory-mcp": 2,
+      "Kilo-Org/kilocode": 3,
+      "palmier-io/palmier-pro": 4,
+      "zai-org/GLM-5": 5,
+      "makeplane/plane": 6,
+      "public-apis/public-apis": 7,
+      "n0-computer/iroh": 8,
+      "Kong/insomnia": 9,
+      "github/spec-kit": 10,
+      "Universal-Debloater-Alliance/universal-android-debloater-next-generation": 11,
+      "Lightricks/LTX-2": 12,
+      "stanford-oval/storm": 13,
+      "openai/codex": 14,
+      "koala73/worldmonitor": 15,
+      "calesthio/OpenMontage": 16,
+      "stablyai/orca": 17,
+      "BuilderIO/agent-native": 18,
+      "asheshgoplani/agent-deck": 19,
+      "bytedance/UI-TARS-desktop": 20,
+      "aishwaryanr/awesome-generative-ai-guide": 21,
+      "K-Dense-AI/scientific-agent-skills": 22,
+      "penpot/penpot": 23,
+      "kubearmor/KubeArmor": 24,
+      "zzet/gortex": 25
     }
   }
 }
