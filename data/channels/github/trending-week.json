@@ -57,8 +57,8 @@
     },
     "yt-dlp/yt-dlp": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 252,
+      "appearances": 2,
+      "total_today_stars": 578,
       "language": "Python",
       "description": "A feature-rich command-line audio/video downloader",
       "owner_avatar": "https://avatars.githubusercontent.com/u/79589310?v=4",
@@ -390,8 +390,8 @@
     },
     "n0-computer/iroh": {
       "best_rank": 5,
-      "appearances": 4,
-      "total_today_stars": 1426,
+      "appearances": 5,
+      "total_today_stars": 1583,
       "language": "Rust",
       "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/101023307?v=4",
@@ -507,8 +507,8 @@
     },
     "google-research/timesfm": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 3044,
+      "appearances": 5,
+      "total_today_stars": 3477,
       "language": "Python",
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43830688?v=4",
@@ -534,8 +534,8 @@
     },
     "DeusData/codebase-memory-mcp": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 3751,
+      "appearances": 4,
+      "total_today_stars": 5022,
       "language": "C",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/81762164?v=4",
@@ -561,8 +561,8 @@
     },
     "Alishahryar1/free-claude-code": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 230,
+      "appearances": 2,
+      "total_today_stars": 494,
       "language": "Python",
       "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -570,8 +570,8 @@
     },
     "ruvnet/ruflo": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 167,
+      "appearances": 2,
+      "total_today_stars": 349,
       "language": "TypeScript",
       "description": "🌊 The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -623,9 +623,9 @@
       "html_url": "https://github.com/nautechsystems/nautilus_trader"
     },
     "calesthio/OpenMontage": {
-      "best_rank": 6,
-      "appearances": 3,
-      "total_today_stars": 992,
+      "best_rank": 4,
+      "appearances": 4,
+      "total_today_stars": 1669,
       "language": "Python",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/213189893?v=4",
@@ -651,8 +651,8 @@
     },
     "Kilo-Org/kilocode": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 2380,
+      "appearances": 3,
+      "total_today_stars": 2893,
       "language": "TypeScript",
       "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/201822503?v=4",
@@ -722,9 +722,9 @@
       "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
     },
     "BuilderIO/agent-native": {
-      "best_rank": 18,
-      "appearances": 2,
-      "total_today_stars": 319,
+      "best_rank": 13,
+      "appearances": 3,
+      "total_today_stars": 618,
       "language": "TypeScript",
       "description": "A framework for building agent-native applications.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/35700027?v=4",
@@ -740,9 +740,9 @@
       "html_url": "https://github.com/garrytan/gbrain"
     },
     "koala73/worldmonitor": {
-      "best_rank": 15,
-      "appearances": 2,
-      "total_today_stars": 289,
+      "best_rank": 5,
+      "appearances": 3,
+      "total_today_stars": 922,
       "language": "TypeScript",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "owner_avatar": "https://avatars.githubusercontent.com/u/996596?v=4",
@@ -758,9 +758,9 @@
       "html_url": "https://github.com/yifanfeng97/Hyper-Extract"
     },
     "palmier-io/palmier-pro": {
-      "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 756,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 1658,
       "language": "Swift",
       "description": "macOS video editor built for AI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/173962009?v=4",
@@ -768,8 +768,8 @@
     },
     "public-apis/public-apis": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 367,
+      "appearances": 2,
+      "total_today_stars": 697,
       "language": "Python",
       "description": "A collective list of free APIs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/51121562?v=4",
@@ -777,8 +777,8 @@
     },
     "Kong/insomnia": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 292,
+      "appearances": 2,
+      "total_today_stars": 621,
       "language": "TypeScript",
       "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/962416?v=4",
@@ -786,8 +786,8 @@
     },
     "Lightricks/LTX-2": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 196,
+      "appearances": 2,
+      "total_today_stars": 342,
       "language": "Python",
       "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/3170348?v=4",
@@ -830,9 +830,9 @@
       "html_url": "https://github.com/aishwaryanr/awesome-generative-ai-guide"
     },
     "penpot/penpot": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 85,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 505,
       "language": "Clojure",
       "description": "Penpot: The open-source design tool for design and code collaboration",
       "owner_avatar": "https://avatars.githubusercontent.com/u/30179644?v=4",
@@ -855,6 +855,96 @@
       "description": "High-performance code-intelligence engine for AI agents and IDE, supports 257 languages, multi repositories, with access via CLI, MCP Server, and API. AI coding agents teammate - expose only needed information, cutting token usage up to 50x. 100% local.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/510788?v=4",
       "html_url": "https://github.com/zzet/gortex"
+    },
+    "tursodatabase/turso": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 801,
+      "language": "Rust",
+      "description": "Turso is an in-process SQL database, compatible with SQLite.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/139391156?v=4",
+      "html_url": "https://github.com/tursodatabase/turso"
+    },
+    "microsoft/presidio": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 312,
+      "language": "Python",
+      "description": "An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data. Supports NLP, pattern matching, and customizable pipelines.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/presidio"
+    },
+    "everywall/ladder": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 244,
+      "language": "Go",
+      "description": "Selfhosted alternative to 12ft.io. and 1ft.io. Proxy to remove CORS headers and modify HTML",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/150453436?v=4",
+      "html_url": "https://github.com/everywall/ladder"
+    },
+    "THUDM/slime": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 175,
+      "language": "Python",
+      "description": "slime is an LLM post-training framework for RL Scaling.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/48590610?v=4",
+      "html_url": "https://github.com/THUDM/slime"
+    },
+    "n8n-io/n8n": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 172,
+      "language": "TypeScript",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/45487711?v=4",
+      "html_url": "https://github.com/n8n-io/n8n"
+    },
+    "zubair-trabzada/geo-seo-claude": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 166,
+      "language": "Python",
+      "description": "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports.  If you want learn how to sell this to real businesses, check out the skool community",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/13802400?v=4",
+      "html_url": "https://github.com/zubair-trabzada/geo-seo-claude"
+    },
+    "mikumifa/biliTickerBuy": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 164,
+      "language": "Python",
+      "description": "b站会员购购票辅助工具",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/99951454?v=4",
+      "html_url": "https://github.com/mikumifa/biliTickerBuy"
+    },
+    "ruvnet/RuView": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 156,
+      "language": "Rust",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "html_url": "https://github.com/ruvnet/RuView"
+    },
+    "jamiepine/voicebox": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 145,
+      "language": "TypeScript",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/32987599?v=4",
+      "html_url": "https://github.com/jamiepine/voicebox"
+    },
+    "run-llama/liteparse": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 141,
+      "language": "Rust",
+      "description": "A fast, helpful, and open-source document parser",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/130722866?v=4",
+      "html_url": "https://github.com/run-llama/liteparse"
     }
   }
 }
