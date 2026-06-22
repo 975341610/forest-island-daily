@@ -458,6 +458,33 @@
       "Lightricks/LTX-2": 23,
       "jamiepine/voicebox": 24,
       "run-llama/liteparse": 25
+    },
+    "2026-06-22": {
+      "palmier-io/palmier-pro": 1,
+      "penpot/penpot": 2,
+      "DeusData/codebase-memory-mcp": 3,
+      "calesthio/OpenMontage": 4,
+      "NousResearch/hermes-agent": 5,
+      "jamiepine/voicebox": 6,
+      "ZhuLinsen/daily_stock_analysis": 7,
+      "tursodatabase/turso": 8,
+      "firecrawl/firecrawl": 9,
+      "garrytan/gstack": 10,
+      "bytedance/deer-flow": 11,
+      "smicallef/spiderfoot": 12,
+      "Alishahryar1/free-claude-code": 13,
+      "tashfeenahmed/freellmapi": 14,
+      "ruvnet/ruflo": 15,
+      "public-apis/public-apis": 16,
+      "1jehuang/jcode": 17,
+      "koala73/worldmonitor": 18,
+      "stablyai/orca": 19,
+      "sartoopjj/thefeed": 20,
+      "everywall/ladder": 21,
+      "ruvnet/RuView": 22,
+      "run-llama/liteparse": 23,
+      "byoungd/English-level-up-tips": 24,
+      "modem-dev/hunk": 25
     }
   }
 }
