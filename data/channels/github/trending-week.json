@@ -3,8 +3,8 @@
   "repos": {
     "palmier-io/palmier-pro": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 1834,
+      "appearances": 2,
+      "total_today_stars": 4297,
       "language": "Swift",
       "description": "macOS video editor built for AI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/173962009?v=4",
@@ -12,8 +12,8 @@
     },
     "penpot/penpot": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1135,
+      "appearances": 2,
+      "total_today_stars": 1863,
       "language": "Clojure",
       "description": "Penpot: The open-source design tool for design and code collaboration",
       "owner_avatar": "https://avatars.githubusercontent.com/u/30179644?v=4",
@@ -21,17 +21,17 @@
     },
     "DeusData/codebase-memory-mcp": {
       "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 1032,
+      "appearances": 2,
+      "total_today_stars": 2217,
       "language": "C",
       "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/81762164?v=4",
       "html_url": "https://github.com/DeusData/codebase-memory-mcp"
     },
     "calesthio/OpenMontage": {
-      "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 987,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 3925,
       "language": "Python",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/213189893?v=4",
@@ -48,17 +48,17 @@
     },
     "jamiepine/voicebox": {
       "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 614,
+      "appearances": 2,
+      "total_today_stars": 1143,
       "language": "TypeScript",
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/32987599?v=4",
       "html_url": "https://github.com/jamiepine/voicebox"
     },
     "ZhuLinsen/daily_stock_analysis": {
-      "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 568,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 2125,
       "language": "Python",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/42829555?v=4",
@@ -66,35 +66,35 @@
     },
     "tursodatabase/turso": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 548,
+      "appearances": 2,
+      "total_today_stars": 1088,
       "language": "Rust",
       "description": "Turso is an in-process SQL database, compatible with SQLite.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/139391156?v=4",
       "html_url": "https://github.com/tursodatabase/turso"
     },
     "firecrawl/firecrawl": {
-      "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 513,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 1128,
       "language": "TypeScript",
       "description": "The API to search, scrape, and interact with the web at scale. 🔥",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
       "html_url": "https://github.com/firecrawl/firecrawl"
     },
     "garrytan/gstack": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 454,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 1027,
       "language": "TypeScript",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
       "html_url": "https://github.com/garrytan/gstack"
     },
     "bytedance/deer-flow": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 442,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1180,
       "language": "Python",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4158466?v=4",
@@ -102,8 +102,8 @@
     },
     "smicallef/spiderfoot": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 294,
+      "appearances": 2,
+      "total_today_stars": 620,
       "language": "Python",
       "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1687345?v=4",
@@ -120,8 +120,8 @@
     },
     "tashfeenahmed/freellmapi": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 229,
+      "appearances": 2,
+      "total_today_stars": 479,
       "language": "TypeScript",
       "description": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -164,9 +164,9 @@
       "html_url": "https://github.com/koala73/worldmonitor"
     },
     "stablyai/orca": {
-      "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 147,
+      "best_rank": 16,
+      "appearances": 2,
+      "total_today_stars": 357,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -191,18 +191,18 @@
       "html_url": "https://github.com/everywall/ladder"
     },
     "ruvnet/RuView": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 131,
+      "best_rank": 17,
+      "appearances": 2,
+      "total_today_stars": 314,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
       "html_url": "https://github.com/ruvnet/RuView"
     },
     "run-llama/liteparse": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 127,
+      "best_rank": 21,
+      "appearances": 2,
+      "total_today_stars": 274,
       "language": "Rust",
       "description": "A fast, helpful, and open-source document parser",
       "owner_avatar": "https://avatars.githubusercontent.com/u/130722866?v=4",
@@ -218,13 +218,94 @@
       "html_url": "https://github.com/byoungd/English-level-up-tips"
     },
     "modem-dev/hunk": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 110,
+      "best_rank": 23,
+      "appearances": 2,
+      "total_today_stars": 237,
       "language": "TypeScript",
       "description": "Review-first terminal diff viewer for agentic coders",
       "owner_avatar": "https://avatars.githubusercontent.com/u/207912732?v=4",
       "html_url": "https://github.com/modem-dev/hunk"
+    },
+    "heygen-com/hyperframes": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 395,
+      "language": "TypeScript",
+      "description": "Write HTML. Render video. Built for agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
+      "html_url": "https://github.com/heygen-com/hyperframes"
+    },
+    "esengine/DeepSeek-Reasonix": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 301,
+      "language": "Go",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/18465053?v=4",
+      "html_url": "https://github.com/esengine/DeepSeek-Reasonix"
+    },
+    "NVIDIA/skills": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 242,
+      "language": "Python",
+      "description": "AI agent skills published by NVIDIA",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
+      "html_url": "https://github.com/NVIDIA/skills"
+    },
+    "HKUDS/Vibe-Trading": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 154,
+      "language": "Python",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    "vercel-labs/agent-browser": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 154,
+      "language": "Rust",
+      "description": "Browser automation CLI for AI agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "html_url": "https://github.com/vercel-labs/agent-browser"
+    },
+    "corsairdev/corsair": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 149,
+      "language": "TypeScript",
+      "description": "Your Agent's Integration Layer",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/238079011?v=4",
+      "html_url": "https://github.com/corsairdev/corsair"
+    },
+    "immich-app/immich": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 138,
+      "language": "TypeScript",
+      "description": "High performance self-hosted photo and video management solution.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/109746326?v=4",
+      "html_url": "https://github.com/immich-app/immich"
+    },
+    "vectorize-io/hindsight": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 126,
+      "language": "Python",
+      "description": "Hindsight: Agent Memory That  Learns",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/81837244?v=4",
+      "html_url": "https://github.com/vectorize-io/hindsight"
+    },
+    "JCodesMore/ai-website-cloner-template": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 100,
+      "language": "TypeScript",
+      "description": "Clone any website with one command using AI coding agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/182581310?v=4",
+      "html_url": "https://github.com/JCodesMore/ai-website-cloner-template"
     }
   }
 }

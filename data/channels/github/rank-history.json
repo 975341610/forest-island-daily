@@ -485,6 +485,33 @@
       "run-llama/liteparse": 23,
       "byoungd/English-level-up-tips": 24,
       "modem-dev/hunk": 25
+    },
+    "2026-06-23": {
+      "calesthio/OpenMontage": 1,
+      "palmier-io/palmier-pro": 2,
+      "ZhuLinsen/daily_stock_analysis": 3,
+      "DeusData/codebase-memory-mcp": 4,
+      "bytedance/deer-flow": 5,
+      "penpot/penpot": 6,
+      "firecrawl/firecrawl": 7,
+      "garrytan/gstack": 8,
+      "tursodatabase/turso": 9,
+      "jamiepine/voicebox": 10,
+      "heygen-com/hyperframes": 11,
+      "smicallef/spiderfoot": 12,
+      "esengine/DeepSeek-Reasonix": 13,
+      "tashfeenahmed/freellmapi": 14,
+      "NVIDIA/skills": 15,
+      "stablyai/orca": 16,
+      "ruvnet/RuView": 17,
+      "HKUDS/Vibe-Trading": 18,
+      "vercel-labs/agent-browser": 19,
+      "corsairdev/corsair": 20,
+      "run-llama/liteparse": 21,
+      "immich-app/immich": 22,
+      "modem-dev/hunk": 23,
+      "vectorize-io/hindsight": 24,
+      "JCodesMore/ai-website-cloner-template": 25
     }
   }
 }
