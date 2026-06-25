@@ -539,6 +539,33 @@
       "truelockmc/streambert": 23,
       "ruvnet/RuView": 24,
       "revfactory/harness": 25
+    },
+    "2026-06-25": {
+      "apple/container": 1,
+      "ZhuLinsen/daily_stock_analysis": 2,
+      "NousResearch/hermes-agent": 3,
+      "garrytan/gstack": 4,
+      "googleworkspace/cli": 5,
+      "jamiepine/voicebox": 6,
+      "JCodesMore/ai-website-cloner-template": 7,
+      "google-labs-code/design.md": 8,
+      "bytedance/deer-flow": 9,
+      "firecrawl/firecrawl": 10,
+      "heygen-com/hyperframes": 11,
+      "pbakaus/impeccable": 12,
+      "openai/codex": 13,
+      "stablyai/orca": 14,
+      "anthropics/claude-plugins-official": 15,
+      "esengine/DeepSeek-Reasonix": 16,
+      "alibaba/page-agent": 17,
+      "revfactory/harness": 18,
+      "tashfeenahmed/freellmapi": 19,
+      "interviewstreet/hiring-agent": 20,
+      "tursodatabase/turso": 21,
+      "multica-ai/multica": 22,
+      "IceWhaleTech/CasaOS": 23,
+      "langgenius/dify": 24,
+      "vercel-labs/agent-browser": 25
     }
   }
 }

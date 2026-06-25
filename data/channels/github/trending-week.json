@@ -38,9 +38,9 @@
       "html_url": "https://github.com/calesthio/OpenMontage"
     },
     "NousResearch/hermes-agent": {
-      "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1636,
+      "best_rank": 3,
+      "appearances": 3,
+      "total_today_stars": 2814,
       "language": "Python",
       "description": "The agent that grows with you",
       "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
@@ -48,17 +48,17 @@
     },
     "jamiepine/voicebox": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 2188,
+      "appearances": 4,
+      "total_today_stars": 2960,
       "language": "TypeScript",
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/32987599?v=4",
       "html_url": "https://github.com/jamiepine/voicebox"
     },
     "ZhuLinsen/daily_stock_analysis": {
-      "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 3244,
+      "best_rank": 2,
+      "appearances": 4,
+      "total_today_stars": 4712,
       "language": "Python",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/42829555?v=4",
@@ -66,8 +66,8 @@
     },
     "tursodatabase/turso": {
       "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 1786,
+      "appearances": 4,
+      "total_today_stars": 1979,
       "language": "Rust",
       "description": "Turso is an in-process SQL database, compatible with SQLite.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/139391156?v=4",
@@ -75,17 +75,17 @@
     },
     "firecrawl/firecrawl": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 2254,
+      "appearances": 4,
+      "total_today_stars": 2841,
       "language": "TypeScript",
       "description": "The API to search, scrape, and interact with the web at scale. 🔥",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
       "html_url": "https://github.com/firecrawl/firecrawl"
     },
     "garrytan/gstack": {
-      "best_rank": 6,
-      "appearances": 3,
-      "total_today_stars": 2038,
+      "best_rank": 4,
+      "appearances": 4,
+      "total_today_stars": 2960,
       "language": "TypeScript",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
@@ -93,8 +93,8 @@
     },
     "bytedance/deer-flow": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1919,
+      "appearances": 4,
+      "total_today_stars": 2536,
       "language": "Python",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4158466?v=4",
@@ -120,8 +120,8 @@
     },
     "tashfeenahmed/freellmapi": {
       "best_rank": 14,
-      "appearances": 2,
-      "total_today_stars": 479,
+      "appearances": 3,
+      "total_today_stars": 731,
       "language": "TypeScript",
       "description": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -164,9 +164,9 @@
       "html_url": "https://github.com/koala73/worldmonitor"
     },
     "stablyai/orca": {
-      "best_rank": 16,
-      "appearances": 3,
-      "total_today_stars": 622,
+      "best_rank": 14,
+      "appearances": 4,
+      "total_today_stars": 953,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -228,8 +228,8 @@
     },
     "heygen-com/hyperframes": {
       "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 1148,
+      "appearances": 3,
+      "total_today_stars": 1573,
       "language": "TypeScript",
       "description": "Write HTML. Render video. Built for agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
@@ -237,8 +237,8 @@
     },
     "esengine/DeepSeek-Reasonix": {
       "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 602,
+      "appearances": 3,
+      "total_today_stars": 887,
       "language": "Go",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18465053?v=4",
@@ -264,8 +264,8 @@
     },
     "vercel-labs/agent-browser": {
       "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 154,
+      "appearances": 2,
+      "total_today_stars": 295,
       "language": "Rust",
       "description": "Browser automation CLI for AI agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
@@ -299,9 +299,9 @@
       "html_url": "https://github.com/vectorize-io/hindsight"
     },
     "JCodesMore/ai-website-cloner-template": {
-      "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 926,
+      "best_rank": 7,
+      "appearances": 3,
+      "total_today_stars": 1618,
       "language": "TypeScript",
       "description": "Clone any website with one command using AI coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/182581310?v=4",
@@ -327,8 +327,8 @@
     },
     "alibaba/page-agent": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 417,
+      "appearances": 2,
+      "total_today_stars": 697,
       "language": "TypeScript",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -372,8 +372,8 @@
     },
     "multica-ai/multica": {
       "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 172,
+      "appearances": 2,
+      "total_today_stars": 354,
       "language": "Go",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
@@ -389,13 +389,94 @@
       "html_url": "https://github.com/truelockmc/streambert"
     },
     "revfactory/harness": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 128,
+      "best_rank": 18,
+      "appearances": 2,
+      "total_today_stars": 405,
       "language": "HTML",
       "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2889542?v=4",
       "html_url": "https://github.com/revfactory/harness"
+    },
+    "apple/container": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 1838,
+      "language": "Swift",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon. ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/10639145?v=4",
+      "html_url": "https://github.com/apple/container"
+    },
+    "googleworkspace/cli": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 922,
+      "language": "Rust",
+      "description": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/3708359?v=4",
+      "html_url": "https://github.com/googleworkspace/cli"
+    },
+    "google-labs-code/design.md": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 619,
+      "language": "TypeScript",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/161364575?v=4",
+      "html_url": "https://github.com/google-labs-code/design.md"
+    },
+    "pbakaus/impeccable": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 418,
+      "language": "JavaScript",
+      "description": "The design language that makes your AI harness better at design.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
+      "html_url": "https://github.com/pbakaus/impeccable"
+    },
+    "openai/codex": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 349,
+      "language": "Rust",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/codex"
+    },
+    "anthropics/claude-plugins-official": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 306,
+      "language": "Python",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    "interviewstreet/hiring-agent": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 203,
+      "language": "Python",
+      "description": "AI agent to evaluate and score resumes.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1030588?v=4",
+      "html_url": "https://github.com/interviewstreet/hiring-agent"
+    },
+    "IceWhaleTech/CasaOS": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 174,
+      "language": "Go",
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/91336243?v=4",
+      "html_url": "https://github.com/IceWhaleTech/CasaOS"
+    },
+    "langgenius/dify": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 158,
+      "language": "TypeScript",
+      "description": "Production-ready platform for agentic workflow development.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127165244?v=4",
+      "html_url": "https://github.com/langgenius/dify"
     }
   }
 }
