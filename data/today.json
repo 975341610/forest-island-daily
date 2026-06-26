@@ -1,184 +1,184 @@
 [
   {
-    "id": "n_2026-06-25_1",
-    "date": "2026-06-25",
+    "id": "n_2026-06-26_1",
+    "date": "2026-06-26",
+    "category": "AI",
+    "subcat": "海外大模型",
+    "platform": "新浪科技",
+    "platform_color": "#7C3AED",
+    "title": "谷歌Gemini 3.5 Pro推迟至7月上线",
+    "url": "https://finance.sina.com.cn/roll/2026-06-25/doc-inieqsma5800383.shtml",
+    "image": "images/2026-06-26/n_2026-06-26_1.jpg",
+    "detail": [
+      "6月25日,据Business Insider报道,谷歌已将其备受关注的下一代前沿AI模型Gemini 3.5 Pro的发布时间从原定的6月推迟至7月。该模型被视为谷歌对标OpenAI与Anthropic旗舰模型的关键产品,此前曾在公司内部及早期测试圈层获得高度期待。",
+      "据知情人士透露,本次延期的核心原因是谷歌需要更多时间收集早期测试用户的反馈,并对模型进行针对性调优。延期窗口期将重点优化Token消耗等效率短板,同时强化长文本处理与驱动智能体(Agent)的能力,确保正式上线时性能更稳定、成本更可控。",
+      "市场观点认为,头部厂商在旗舰模型发布上日趋审慎,反映出当前大模型竞争已从单纯比拼参数与发布速度,转向更看重实际可用性、推理效率与商业化落地质量。此次推迟也被部分开发者解读为谷歌力求一次性交付高完成度产品、避免仓促上线翻车的信号。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_2",
+    "date": "2026-06-26",
+    "category": "AI",
+    "subcat": "AI产业",
+    "platform": "新浪科技",
+    "platform_color": "#7C3AED",
+    "title": "胡润全球独角兽榜:Anthropic登顶",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-06-25/doc-inierayy2513392.shtml",
+    "image": "images/2026-06-26/n_2026-06-26_2.jpg",
+    "detail": [
+      "6月25日,胡润研究院在广州发布《2026全球独角兽榜》,全球共有1603家独角兽企业上榜,较去年增加80家,创历史新高,总价值飙升至54万亿元人民币,同比增长43%。位列前三名的均为大模型企业:Claude母公司Anthropic、ChatGPT母公司OpenAI、豆包母公司字节跳动。",
+      "其中Anthropic以6.6万亿元价值成为全球价值最高的独角兽,单年增值6.1万亿元创下榜单纪录,排名跃升7位;OpenAI以5.8万亿元位列第二;字节跳动价值增长60%至3.3万亿元,位居第三,也是中国独角兽之首。全球AI领域独角兽达215家,总价值占全榜单的36%,居各行业之最。",
+      "中国以381家独角兽位居全球第二,平均每五天新增一家。来自杭州的DeepSeek以3400亿元价值登上全球新晋独角兽榜首,并跻身全球前15名;月之暗面(1360亿元)、阶跃星辰(410亿元)等大模型企业同样表现亮眼,显示中国AI创业生态持续高速扩张。",
+      "胡润表示,Anthropic与OpenAI的价值有望突破万亿美元,一旦上市明年或将从独角兽榜'毕业'。今年有26家中国独角兽完成上市创近五年新高,包括9500亿元的智谱、超3000亿元的摩尔线程与沐曦股份,折射出AI、机器人与半导体赛道的资本热度。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_3",
+    "date": "2026-06-26",
     "category": "AI",
     "subcat": "国产大模型",
     "platform": "IT之家",
     "platform_color": "#7C3AED",
-    "title": "特斯拉车机OTA接入豆包大模型",
-    "url": "https://www.ithome.com/0/967/989.htm",
-    "image": "images/2026-06-25/n_2026-06-25_1.jpg",
+    "title": "百度开源Unlimited OCR刷新SOTA",
+    "url": "https://www.ithome.com/0/968/496.htm",
+    "image": "images/2026-06-26/n_2026-06-26_3.jpg",
     "detail": [
-      "2026年6月24日,特斯拉中国正式向部分车主推送内测版本号为2026.14.11的车机OTA升级,在中控系统中新增了豆包AI助手入口。这是特斯拉在国内首次将本土大模型深度嵌入车机交互层,标志着这家以自研著称的车企开始借助第三方中文大模型补齐本地化语音能力的短板,引发了车圈与AI圈的双重关注。",
-      "据IT之家与每日经济新闻6月24日报道,本次合作通过火山引擎落地,在分工上采取了双模型协同方案:豆包大模型负责车辆控制类指令,如空调、车窗、座椅与导航的语音调度,而DeepSeek则承担开放域闲聊与知识问答。该方案在当天的火山引擎原动力大会上得到确认,被视为豆包加速汽车场景商业化的关键一步。",
-      "消息发布后,社区普遍认为特斯拉此举是对中文语境理解能力的务实补强,过去其原生语音助手在方言识别和复杂指令上体验欠佳。也有车主关注数据安全与响应延迟问题,期待正式版能在隐私合规与本地化处理上给出更清晰的说明。业内分析称,头部车企引入国产大模型,将进一步推动豆包在端侧与车载市场的渗透。"
+      "6月24日,百度开源全新文档解析模型Unlimited OCR,主打'一口气读完几十页长文档',在权威评测榜单OmniDocBench上刷新端到端SOTA,整体成绩超过此前广受关注的DeepSeek OCR。该模型总参数3B、激活参数仅500M,可在单张GPU上一次前向完成超长文档转录。",
+      "技术上,Unlimited OCR基于DeepSeek OCR检查点继续训练4000步,冻结DeepEncoder编码器、只训练解码器,训练数据约200万份文档样本,运行在8×16张A800 GPU上。其核心创新是采用参考滑动窗口注意力机制,使KV cache压成常数,解决了长文档生成时'越生成越慢'的内存墙问题。",
+      "基准测试显示,Unlimited OCR在OmniDocBench v1.5上整体得分93.23,高于DeepSeek OCR的87.01和DeepSeek OCR 2的89.17;在v1.6上达93.92。速度方面,Base模式下达到5580 TPS,较DeepSeek OCR的4951 TPS提升约12.7%,在长输出场景下优势进一步拉大。",
+      "社区注意到,该模型疑似出自前DeepSeek OCR研究员之手,延续了端到端OCR路线并在工程效率上更进一步,引发开发者对国产开源OCR生态快速迭代的热议。MarkTechPost、GIGAZINE等海外媒体也对其常数KV cache架构给予关注。"
     ]
   },
   {
-    "id": "n_2026-06-25_2",
-    "date": "2026-06-25",
-    "category": "AI",
-    "subcat": "AI语音",
-    "platform": "IT之家",
-    "platform_color": "#7C3AED",
-    "title": "ChatGPT双向语音模型Bidi 1开测",
-    "url": "https://www.ithome.com/0/967/852.htm",
-    "image": "images/2026-06-25/n_2026-06-25_2.jpg",
-    "detail": [
-      "2026年6月24日,多家科技媒体援引科技博客testingcatalog于6月23日的爆料报道,OpenAI正在为ChatGPT测试一款名为Bidi 1(GPT-Bidi-1)的全新双向语音模型。与现有需要轮流对话的语音模式不同,Bidi 1主打边说边听的并行处理能力,被视为对话式语音交互体验的一次结构性升级。",
-      "据IT之家与中华网6月24日的报道,Bidi 1基于OpenAI内部代号BiDi的双向语音架构打造,该架构自2026年初开始研发。其核心特性在于模型可以在生成语音回答的同时持续监听用户输入,从而支持自然的打断响应,用户无需等待AI说完即可插话纠正或追问,显著贴近真实人类对话的节奏。",
-      "在功能定位上,Bidi 1意在解决传统语音助手机械式一问一答、打断后需重新唤醒的痛点,对实时客服、口语陪练和无障碍交互等场景具有较大价值。社区开发者对其低延迟与自然度表现出浓厚兴趣,同时也讨论该模型在嘈杂环境下的抗干扰与误触发问题。",
-      "目前Bidi 1仍处于灰度测试阶段,尚未面向全体用户开放,OpenAI也未公布正式上线时间与定价。分析人士指出,双向语音若能稳定落地,将进一步拉开ChatGPT与竞品在多模态实时交互上的差距,并可能带动整个行业从回合制语音向连续对话范式迁移。"
-    ]
-  },
-  {
-    "id": "n_2026-06-25_3",
-    "date": "2026-06-25",
-    "category": "AI",
-    "subcat": "具身智能",
-    "platform": "金融界",
-    "platform_color": "#7C3AED",
-    "title": "大摩上调中国人形机器人出货预测",
-    "url": "https://stock.jrj.com.cn/2026/06/24133857567048.shtml",
-    "image": "images/2026-06-25/n_2026-06-25_3.jpg",
-    "detail": [
-      "2026年6月24日,摩根士丹利(大摩)发布最新研报,大幅上调对中国人形机器人市场的出货预期。报告将2026年中国人形机器人出货量预测从此前的2.8万台上调至5万台,并预计到2030年将攀升至44.6万台,2026至2030年的复合年增长率高达约106%,显示出对该赛道商业化加速的强烈信心。",
-      "据金融界与新浪财经6月24日报道,大摩同时给出市场规模测算:中国人形机器人市场规模有望从2026年的约20亿美元增长至2030年的约150亿美元。报告将上调依据归结为国内供应链成熟、整机成本快速下探,以及政府与央企采购订单的密集落地,产业正从样机演示走向规模化交付。",
-      "研报特别提到,国家电网近期约68亿元的采购大单成为重要风向标,该订单涵盖约500台人形机器人、3000台双臂机器人与5000台四足机器人,验证了电力巡检等工业场景的真实需求。机构认为央企级订单将带动上游零部件放量,加速行业从概念验证转入实际部署。",
-      "大摩还提示三季度多重催化剂值得关注,包括世界人工智能大会、世界机器人大会、人形机器人运动会以及特斯拉Optimus Gen3的进展。资本市场对此反应积极,人形机器人产业链相关标的获得关注,但也有声音提醒需警惕预期过热与量产爬坡的不确定性。"
-    ]
-  },
-  {
-    "id": "n_2026-06-25_4",
-    "date": "2026-06-25",
-    "category": "VibeCoding",
-    "subcat": "AI Coding",
-    "platform": "官方博客 + PostHog Engineering Blog",
-    "platform_color": "#2563EB",
-    "title": "PostHog用Claude Code重写SQL解析器",
-    "url": "https://posthog.com/blog/sql-parser",
-    "image": "images/2026-06-25/n_2026-06-25_4.jpg",
-    "detail": [
-      "2026年6月24日,PostHog工程师Robbie Coomber发表长文,披露他几乎不手写代码、靠多个长时运行的Claude Code会话并行协作,重写了PostHog的SQL解析器。PostHog允许用户用SQL直接查询数据,再转译为ClickHouse SQL,旧解析器由ANTLR自动生成,虽强大但每个token都要走图遍历解释器,性能受限。",
-      "新方案改为手写递归下降加Pratt表达式循环的解析器,产出约1.6万行解析代码、5千行工具代码及大量测试。Coomber以旧C++解析器为'oracle'做差分测试,并用Hypothesis做属性测试不断生成两套解析器结果不一致的查询来修正。最终对所有现实查询完全等价,实测提速约70倍,极端路径下可达454倍。",
-      "该文6月24日登上Hacker News(robbie-c提交),46条以上讨论聚焦'oracle+海量测试语料'这一范式。有评论认为这是AI编程的优秀范例,前提是开发者本身技术过硬;也有人担忧长期依赖会让工程师的底层知识增长放缓,争论AI是放大能力的'电动工具'还是'出卖灵魂'。"
-    ]
-  },
-  {
-    "id": "n_2026-06-25_5",
-    "date": "2026-06-25",
-    "category": "VibeCoding",
-    "subcat": "开发者社区讨论",
-    "platform": "Hacker News",
-    "platform_color": "#2563EB",
-    "title": "热议:发布Rust包不该把GitHub当依赖",
-    "url": "https://news.ycombinator.com/item?id=48664733",
-    "image": "images/2026-06-25/n_2026-06-25_5.jpg",
-    "detail": [
-      "2026年6月24日,安全研究者Taggart(mttaggart)在Mastodon发帖批评crates.io把GitHub变成发布Rust包的事实性依赖,被提交至Hacker News后迅速登上首页,聚集133分与46条以上评论。争议核心是crates.io的'可信发布'(Trusted Publishing)目前主要绑定GitHub Actions与GitLab CI,通过OIDC换取短时令牌发布,意在减少长效API令牌泄露的供应链风险。",
-      "讨论中,Rust团队成员epage回应称,一份用于解除该限制的RFC(rust-lang/rfcs PR 3963)已合并、实现工作已经启动,并强调Rust主要由志愿者推动,枯燥任务依赖资金和愿意接手的维护者。他还引用'Rust不是一家公司'的观点解释推进缓慢的现实约束。",
-      "更多评论延伸到crates.io与Cargo长期的命名空间与抢注难题:有人指责领导层拒绝引入命名空间,epage则反驳称社区多停留在重复的表层诉求,缺乏认真权衡矛盾需求的提案,团队倾向'以crate名作命名空间'的渐进方案。这场讨论折射出开源基础设施去中心化理想与单一平台集中化现实之间的张力。"
-    ]
-  },
-  {
-    "id": "n_2026-06-25_6",
-    "date": "2026-06-25",
-    "category": "VibeCoding",
-    "subcat": "AI Coding",
-    "platform": "官方博客 + Google The Keyword",
-    "platform_color": "#2563EB",
-    "title": "Gemini 3.5 Flash上线电脑操作能力",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
-    "image": "images/2026-06-25/n_2026-06-25_6.jpg",
-    "detail": [
-      "2026年6月24日,Google在官方博客The Keyword宣布为Gemini 3.5 Flash引入computer use(计算机操作)能力,让这款主打低延迟、低成本的轻量模型能够像人一样读取屏幕、点击按钮、填写表单并在浏览器中执行多步操作。该能力此前多见于更大的旗舰模型,下放到Flash档意味着开发者可以更廉价地构建自动化Agent。",
-      "对开发者工程实践而言,computer use是构建浏览器自动化与端到端任务Agent的关键基座:模型直接以截图为输入、输出鼠标键盘动作,绕开了为每个网站单独写脚本和脆弱选择器的老办法。Flash档的速度与价格优势让高频、长链路的循环操作在成本上更可行,适合批量化、规模化的Agent部署。",
-      "此举发布当日登上Hacker News引发93条以上讨论,正值AI编码工具竞争白热化——OpenAI的Codex、Anthropic的Claude Code均在强化桌面与浏览器操作能力。社区关注点集中在可靠性、安全沙箱与防注入,以及computer use Agent在真实生产环境中究竟能否稳定完成长任务。"
-    ]
-  },
-  {
-    "id": "n_2026-06-25_7",
-    "date": "2026-06-25",
+    "id": "n_2026-06-26_4",
+    "date": "2026-06-26",
     "category": "VibeCoding",
     "subcat": "新开发者工具",
-    "platform": "官方博客 + Tigris Data Blog",
+    "platform": "Hacker News",
     "platform_color": "#2563EB",
-    "title": "objgit:把对象存储桶直接变成Git服务器",
-    "url": "https://www.tigrisdata.com/blog/objgit/",
-    "image": "images/2026-06-25/n_2026-06-25_7.jpg",
+    "title": "HN 版谷歌趋势:18年帖子全检索",
+    "url": "https://hackernewstrends.com",
+    "image": "images/2026-06-26/n_2026-06-26_4.jpg",
     "detail": [
-      "Tigris工程师Xe Iaso于2026年6月23日发布实验项目objgit,该文6月24日在Hacker News登上首页讨论。其核心思路是:既然此前已用billy文件系统抽象层让Tigris对象存储桶'伪装'成文件系统,而go-git这一纯Go实现的Git本就把文件系统当母语,那么直接把Git服务器架在对象存储桶上理论上可行。",
-      "文章拆解了Git的本质:仓库不过是对象(压缩blob)、树(目录)、提交(指向树和父提交)和refs(分支/标签指针)四类东西,其中大部分是内容寻址、一旦提交便永不更改,与Tigris仅追加(append-only)的存储模型天然契合;频繁变动的只有体积极小的refs,对象存储毫不费力。",
-      "Xe Iaso指出,传统自建Git服务器的痛点在于几乎所有实现(包括GitHub)都要shell out到git二进制并依赖本地挂载文件系统,使其成为无状态云原生环境里最有状态的服务,且单机即单点故障。用go-git直接对接对象存储,绕开了二进制依赖与screen-scraping式错误处理,为去中心化、高可用的Git托管提供了新范式。"
+      "2026年6月25日,开发者 ytkimirti 在 Hacker News 发布 Show HN 项目 Hacker News Trends,把 Hacker News 过去18年、约4500万条帖子与评论做成可检索、可叠加的时间序列图表。用户输入任意话题、工具或人名,即可看到它在 HN 上被讨论的热度随时间起落,图表下方还直接列出对应的原始故事和评论。",
+      "项目底层基于 Upstash Redis Search 构建实时日期直方图,因此检索速度极快。作者预置了大量经典对比组,例如 Cursor vs Claude Code vs Codex 的 AI 编程工具接力、vim vs emacs vs zed 编辑器之争、webpack vs vite 打包器更迭,以及 docker 到 kubernetes 的容器化交接,直观呈现技术风向变迁。",
+      "该帖当日冲上 HN 前列,获得约637个赞、143条评论(HN item 48673671)。社区认为它是观察技术潮流兴衰的趣味数据工具,也有人讨论用评论计数衡量热度的偏差,但普遍肯定其交互体验与18年长跨度数据的稀缺价值,被不少人收藏为日常技术雷达。"
     ]
   },
   {
-    "id": "n_2026-06-25_8",
-    "date": "2026-06-25",
+    "id": "n_2026-06-26_5",
+    "date": "2026-06-26",
+    "category": "VibeCoding",
+    "subcat": "编程语言生态",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "LuaJIT 3.0 语法扩展提案引热议",
+    "url": "https://github.com/LuaJIT/LuaJIT/issues/1475",
+    "image": "images/2026-06-26/n_2026-06-26_5.jpg",
+    "detail": [
+      "2026年6月25日,LuaJIT 仓库公开了一份面向 LuaJIT 3.0 的语法扩展提案(Issue #1475),并迅速登上 Hacker News 前排。提案在保持 Lua 内核精简的前提下,讨论为 LuaJIT 引入一批可选的现代语法糖,目标是改善大型代码库的可读性与开发体验,同时尽量不破坏既有生态的兼容性。",
+      "提案涉及的方向包括更符合直觉的运算与赋值写法、对常见模式的语法简化等,本质是在 LuaJIT 这一以性能著称的 JIT 编译器上,探索语言层面的渐进式演进。由于 LuaJIT 长期由 Mike Pall 主导、版本推进缓慢,任何 3.0 相关动向都极易牵动社区神经。",
+      "该讨论当日获得约223个赞、151条评论(HN item 48667336),GitHub Issue 下也有35条以上回帖。社区反应两极:一派欢迎让 Lua 写起来更现代,另一派担忧语法膨胀会侵蚀 Lua 极简哲学并割裂方言生态,游戏与嵌入式领域用户尤为关注向后兼容问题。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_6",
+    "date": "2026-06-26",
+    "category": "VibeCoding",
+    "subcat": "新开发者工具",
+    "platform": "官方博客",
+    "platform_color": "#2563EB",
+    "title": "Deno 2.9 发布:可造原生桌面应用",
+    "url": "https://deno.com/blog/v2.9",
+    "image": "images/2026-06-26/n_2026-06-26_6.jpg",
+    "detail": [
+      "2026年6月25日,Deno 团队由 Bartek Iwańczuk 发布 Deno 2.9。核心亮点是实验性的 deno desktop:无需 Electron 样板代码,即可用熟悉的 Web 技术栈打造原生桌面应用,UI 在系统 webview 中运行、逻辑跑在 Deno 里,最终编译成单个可分发二进制,并支持一条命令交叉编译 Windows、macOS、Linux 多平台安装包。",
+      "本次迁移体验也大幅改善:deno install 现可直接读取 npm、pnpm、yarn 与 Bun 的 lockfile,从其他包管理器切换到 Deno 只需几条命令而非整套迁移。此外新增 CSS 模块导入、更强的测试运行器,并兼容 Node.js 26,补齐了大量与 Node 生态对接的细节。",
+      "性能提升同样显著:官方基准显示冷启动从 2.8 的约34.2ms 降至17.3ms,提速近1.98倍;Deno.serve 真实负载吞吐提升约1.27倍,而峰值内存占用在1MiB响应场景下减少约3.1倍。该版本当日登上 Hacker News(item 48675717),获136个赞、59条评论,桌面应用方向尤受关注。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_7",
+    "date": "2026-06-26",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "OpenKnowledge:AI优先的Obsidian替代",
+    "url": "https://github.com/inkeep/open-knowledge",
+    "image": "images/2026-06-26/n_2026-06-26_7.jpg",
+    "detail": [
+      "2026年6月25日,开发者 Nick(engomez)在 Hacker News 发布 Show HN 项目 OpenKnowledge,定位为开源、AI 优先的 Obsidian/Notion 替代品。它是一款所见即所得的 Markdown 编辑器,与 Claude、Codex、Cursor 等智能体桌面应用直接集成,智能体可在其内嵌浏览器中打开编辑器实现并排协作,提供本地、免费、完全开源的使用方式。",
+      "项目内置 MCP、skills 与 RAG,支持 LLM-wiki、AI 第二大脑和规格文档撰写场景,并自带终端与 CLI 面向 TUI 用户。技术栈采用 Tiptap/ProseMirror、CodeMirror、yjs(CRDT)与 Electron;工程难点在于实现 ProseMirror 与 Markdown 的双向无损转换,以及用双观察者 CRDT 保持两侧状态实时同步。",
+      "其分享与云同步功能表面零代码,底层却基于 git/GitHub,既支持团队协作、撤销重做与版本历史,又能让数据保持完全私有。该帖当日获约177个赞、79条评论(HN item 48675435),仓库为 github.com/inkeep/open-knowledge,社区聚焦其智能体协作体验与本地优先、数据私有的设计取向。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_8",
+    "date": "2026-06-26",
     "category": "Gaming",
     "subcat": "主机游戏",
-    "platform": "Gematsu",
+    "platform": "VGC",
     "platform_color": "#059669",
-    "title": "壁虎之神登陆Switch2附新岛屿",
-    "url": "https://www.gematsu.com/2026/06/gecko-gods-coming-to-switch-2-on-june-25-alongside-forgotten-cove-update",
-    "image": "images/2026-06-25/n_2026-06-25_8.jpg",
+    "title": "微软全球上调Xbox主机售价",
+    "url": "https://www.videogameschronicle.com/news/microsoft-is-raising-the-price-of-xbox-consoles-by-100-150",
+    "image": "images/2026-06-26/n_2026-06-26_8.jpg",
     "detail": [
-      "2026年6月24日,发行商Super Rare Originals与开发商Inresin宣布,治愈系解谜平台游戏《壁虎之神》(Gecko Gods)的Switch 2版本将于6月25日正式上线,同步推出名为「Forgotten Cove」(遗忘湾)的免费内容更新。该作此前已于2026年4月16日登陆PlayStation 5、初代Switch及PC平台(Steam),如今补齐Switch 2阵容,成为Super Rare Originals在Switch 2上的首款数字发行作品。",
-      "本作的核心玩法是操控一只好奇又可爱的小壁虎,玩家需要攀爬阳光下的古代遗迹、穿越郁郁葱葱的洞穴,逐步揭开一个失落文明的残迹与秘密。游戏强调宁静探索的基调:沙滩上壁虎的细碎脚步声、扬帆出海时温柔的海浪声,共同营造出轻松惬意的冒险氛围,玩家还会沿途遇到各种小动物并从它们身上获得解谜提示。",
-      "在商业与玩家权益方面,官方明确表示已持有初代Switch版本的玩家可免费升级至Switch 2版本,无需额外付费,这一友好政策受到社区欢迎。同步上线的「Forgotten Cove」更新将面向所有平台(PS5、Switch、PC及新增的Switch 2)推出,新增一整座可探索的岛屿以及供壁虎使用的全新装扮(cosmetics),进一步扩充了游戏内容。",
-      "对于偏好慢节奏、低压力体验的玩家而言,《壁虎之神》填补了Switch 2平台在「氛围探索类」独立游戏上的空缺。借助Switch 2更强的机能,这款主打视觉氛围与环境音效的小品有望呈现更稳定的帧数与更细腻的光影表现,免费跨平台更新也体现了小型发行商维系玩家口碑的运营思路。"
+      "2026年6月25日,微软宣布对Xbox Series S与Series X主机进行全球范围的涨价,理由是内存与存储芯片成本飙升。官方表示主机存储和内存价格相比此前已上涨超过2.5倍,并预计到2027年底还会再翻一番,公司称在当前供应链危机下别无选择。此次调整自2026年8月1日起正式生效。",
+      "具体涨幅为:512GB机型上调100美元,1TB机型上调150美元,同时2TB版本将直接停产。调整后,最便宜的1TB数字版Series X定价749.99美元,带光驱的Series X为799.99美元;Series S的512GB版升至499.99美元,1TB版为599.99美元。相比2020年发售时,带光驱的Series X已贵出约300美元。",
+      "这是微软不到一年内第二次上调Xbox价格,上一次是在2025年10月。涨价消息几乎与苹果对Mac、iPad的提价同步登场,被外媒形容为整个硬件行业受内存涨价波及的缩影。微软同时表示正研发新计划,以更低价格提供翻新二手主机来缓解玩家负担。",
+      "社区对此普遍不满,认为如今一台入门Series X已逼近800美元门槛,性价比承压。Push Square等媒体也指出,索尼PS6可能同样面临内存成本压力,行业整体硬件定价前景趋于悲观。"
     ]
   },
   {
-    "id": "n_2026-06-25_9",
-    "date": "2026-06-25",
+    "id": "n_2026-06-26_9",
+    "date": "2026-06-26",
     "category": "Gaming",
     "subcat": "主机游戏",
-    "platform": "Gematsu",
+    "platform": "Eurogamer",
     "platform_color": "#059669",
-    "title": "双点医院全资料合集登主机",
-    "url": "https://www.gematsu.com/2026/06/two-point-hospital-full-health-collection-announced-for-ps5-xbox-series-and-switch-2",
-    "image": "images/2026-06-25/n_2026-06-25_9.jpg",
+    "title": "GTA6预购开启 标准版79.99美元",
+    "url": "https://www.eurogamer.net/grand-theft-auto-6-preorders-gta6-no-disc",
+    "image": "images/2026-06-26/n_2026-06-26_9.jpg",
     "detail": [
-      "2026年6月24日,发行商SEGA与开发商Two Point Studios正式宣布推出《双点医院:全资料合集》(Two Point Hospital: Full Health Collection),将登陆PlayStation 5、Xbox Series以及Nintendo Switch 2。该合集打包了2018年首发的医院模拟本体及其历来发售的全部付费与免费DLC,这是Two Point系列的第一部作品,也正是后续衍生出《双点博物馆》系列混乱欢乐玩法的源头。",
-      "此次发布的核心意义在于:多年来主机玩家一直被排除在《双点医院》丰富的后续内容之外,只能玩到基础版本。开发商在官方影片中直言「主机版本多年来一直缺失这些DLC,我们终于找到了解药」,Full Health Collection将本体连同每一份DLC一次性「注入」主机版,被团队称为一份「超值大礼包」(bumper package),让主机玩家终于获得完整的医院经营体验。",
-      "合集让玩家可以建造梦想中的医院:收治形形色色的病患、设计院内设施、管理员工团队,并在多个主题区域间穿梭,沉浸于超自然、艺术乃至偶尔的时间旅行等天马行空的设定。本次公布也恰逢Two Point Studios成立十周年,工作室借此契机集中释放了一系列消息,包括为《双点博物馆》推出免费的《潜水员戴夫》联动内容等。",
-      "目前官方表述为「即将推出」(coming soon),尚未公布Switch 2及其余平台的具体发售日期与售价,更多细节将后续跟进。考虑到《双点医院》在PC端积累的良好口碑与海量内容,完整DLC一次性登陆现世代主机被社区视为长期诉求的兑现,PSN与论坛玩家普遍期待各资料片能配套独立奖杯系统。"
+      "2026年6月25日,Rockstar Games正式开放《侠盗猎车手6》(GTA 6)预购,按各地本地时间于当天午夜陆续上线。游戏将于2026年11月19日登陆PS5与Xbox Series X|S,标准版定价79.99美元,英国售价69.99英镑、欧洲79.99欧元。除标准版外,还推出包含专属载具、武器、服饰与剧情内容的99.99美元终极版。",
+      "本次预购细节引发广泛讨论:实体版盒内仅附带数字下载码,而非传统光盘,与近期主机去光盘化趋势一致。数字预购可享一个月GTA+会员,所有在11月20日前购买的玩家可获得复古风维斯城内容包(Vintage Vice City Pack)。数字版预载将于11月12日开启,实体盒装据称会提前数天发货。",
+      "作为Rockstar史上规模最大的发售,GTA 6的定价和无光盘策略成为行业焦点。Eurogamer指出,GTA 6采用下载码的做法已在业界引发连锁反应,促使其他厂商表态。索尼方面则强调GTA 6将在PS5上获得最佳体验。",
+      "社区反应两极:部分玩家不满实体版无光盘、首发仅含单人战役;也有玩家因午夜全球同步预购而连夜抢购。多家零售商在开放数小时内即显示有货,显示出这一现象级作品的超高热度。"
     ]
   },
   {
-    "id": "n_2026-06-25_10",
-    "date": "2026-06-25",
+    "id": "n_2026-06-26_10",
+    "date": "2026-06-26",
     "category": "Gaming",
-    "subcat": "独立游戏",
-    "platform": "Gematsu",
+    "subcat": "主机游戏",
+    "platform": "Eurogamer",
     "platform_color": "#059669",
-    "title": "横版动作新作Cresata公布",
-    "url": "https://www.gematsu.com/2026/06/side-scrolling-action-platformer-cresata-announced-for-ps5-xbox-series-and-pc",
-    "image": "images/2026-06-25/n_2026-06-25_10.jpg",
+    "title": "金刚狼实体版确认附带光盘",
+    "url": "https://www.eurogamer.net/marvels-wolverine-disc-in-box-gta-6",
+    "image": "images/2026-06-26/n_2026-06-26_10.jpg",
     "detail": [
-      "2026年6月24日,一款名为《Cresata》的横版卷轴动作平台游戏正式公布,确认将登陆PlayStation 5、Xbox Series以及PC平台(Steam与Epic Games Store)。根据官方信息,本作预计于2027年正式发售,而一场Kickstarter众筹活动也已同步上线,面向支持者开放,以助力这款独立作品的开发推进。",
-      "作为一款主打横版卷轴的动作平台游戏,《Cresata》延续了该品类强调精准操作、流畅移动与关卡探索的传统设计取向。官方同步释出了游戏实机演示预告片(Official Gameplay Teaser Trailer),向玩家直观展示了战斗与平台跳跃的核心节奏,为这款尚处早期阶段的项目积累了首批关注度。",
-      "本作的公布反映出当前独立动作平台赛道依旧活跃:在大厂续作与重制版扎堆的6月档期中,中小团队选择以「先放预告、再开众筹」的方式提前锁定核心受众,并通过多平台(PS5、Xbox Series、PC)同步规划尽可能扩大潜在玩家盘。社区初步反响以期待居多,玩家关注其美术风格与最终成品的打磨程度。",
-      "由于游戏定档2027年且仍依赖众筹推进,其后续命运较大程度上取决于Kickstarter的达成情况与开发进度。对独立游戏爱好者而言,这是一条值得长期关注的早期立项消息,但距离实际可玩仍有较长周期,玩家需以理性预期看待这类处于募资阶段的横版动作新作。"
+      "2026年6月24至25日,索尼旗下顽皮狗姊妹工作室Insomniac Games对外确认,PS5独占动作游戏《漫威金刚狼》(Marvel's Wolverine)的实体版盒内将包含真正的游戏光盘,而非仅有下载码。该消息源于一名玩家在社交平台X上的直接追问,工作室回应称\"实体版将随盒附带光盘\"。",
+      "这一表态出现在GTA 6宣布实体版仅含下载码的背景之下,因此格外受关注。《漫威金刚狼》此前在State of Play展示中亮相,呈现出节奏极快、风格凌厉的线性动作冒险,预计于2026年9月15日发售,是PS5平台下半年的重磅单人大作之一。",
+      "Insomniac的明确承诺被IGN与Eurogamer解读为对\"去光盘化\"潮流的一种回应。IGN评论称,在GTA 6之后,更多开发商或将被迫正面回答\"盒内到底有没有光盘\"这一问题,实体收藏价值正成为玩家购买决策的重要因素。",
+      "社区对此普遍表示欢迎,认为在数字下载码盛行的当下,保留实体光盘是对收藏玩家与二手交易的尊重。不少玩家借此呼吁其他第一方与第三方厂商效仿,保障实体版的实际内容。"
     ]
   },
   {
-    "id": "n_2026-06-25_11",
-    "date": "2026-06-25",
+    "id": "n_2026-06-26_11",
+    "date": "2026-06-26",
     "category": "Gaming",
-    "subcat": "独立游戏",
-    "platform": "Gematsu",
+    "subcat": "PC单机",
+    "platform": "PC Gamer",
     "platform_color": "#059669",
-    "title": "肉鸽动作游戏7Trials公布",
-    "url": "https://www.gematsu.com/2026/06/stylish-roguelite-action-game-7-trials-announced-for-ps5-xbox-series-and-pc",
-    "image": "images/2026-06-25/n_2026-06-25_11.jpg",
+    "title": "Steam夏季特卖开启 持续至7月9日",
+    "url": "https://www.pcgamer.com/games/steam-summer-sale-2026-live/",
+    "image": "images/2026-06-26/n_2026-06-26_11.jpg",
     "detail": [
-      "2026年6月24日,曾开发《The Devil Within: Satgat》的韩国工作室Newcore Games正式公布了全新作品《7 Trials》,这是一款风格华丽的肉鸽(roguelite)动作游戏,确认将登陆PlayStation 5、Xbox Series以及PC平台。本作最大的特色在于支持最多四人协作的联机模式,主打与好友组队闯关的合作动作体验。",
-      "从定位上看,《7 Trials》延续了Newcore Games在动作设计上的积累:把强调操作手感与连段表现的「stylish action」玩法,与肉鸽常见的随机性、可重复挑战及成长循环相结合,试图在单人硬核动作与多人合作刷本之间找到平衡点。四人联机的加入,使其相比开发商前作《Satgat》在玩法社交性上有了明显扩展。",
-      "对于关注动作肉鸽品类的玩家来说,这一公布丰富了2026年下半年的独立动作阵容。近年来肉鸽与动作的融合作品竞争激烈,《7 Trials》凭借「华丽动作+四人合作」的组合卖点,在公布初期就吸引了一批核心动作玩家的目光,社区讨论集中于其战斗深度、Boss设计与联机稳定性等关键维度。",
-      "目前官方尚未公布《7 Trials》的具体发售日期与售价等信息。考虑到这是Newcore Games在《The Devil Within: Satgat》之后的又一次发力,其能否将单人动作经验顺利转化为多人合作肉鸽的长线可玩性,将是决定该作口碑的关键,值得动作游戏爱好者持续跟进后续情报。"
+      "2026年6月25日,Valve的Steam夏季特卖(Steam Summer Sale 2026)正式上线,于美国东部时间下午1点(太平洋时间上午10点)开启,是全年规模最大的PC购游窗口。本轮特卖覆盖超过4000款游戏,平均折扣约45%,老作品最高可达九折优惠,将一直持续到2026年7月9日。",
+      "Steam官方在社交平台宣布,玩家可在未来两周浏览数千项折扣、通过探索队列发现新游并领取贴纸,同时商城上线了夏季主题的点数商店物品。值得注意的是,Steamworks会在整个特卖期间锁定价格,因此无需在首日抢购,降低了\"早买吃亏\"的焦虑。",
+      "本届特卖的热门折扣包括《合作恐怖游戏PEAK》等多人作品打三八折低至4.95美元,以及《以撒》之父新作《Mewgenics》打七五折约22.49美元等独立佳作。对于想清空愿望单或填补暑期游戏空档的PC玩家而言,这是一年中最值得出手的时机之一。",
+      "本次特卖也恰逢GTA 6午夜全球预购开启的同一天,令6月25日成为今夏最繁忙的游戏日之一。在Halo战役进化版、《晨行者之血》等PC大作陆续发售前,夏季特卖为玩家提供了一个补全经典库存的良机。"
     ]
   }
 ]
