@@ -1,5 +1,187 @@
 [
   {
+    "id": "n_2026-06-26_9",
+    "date": "2026-06-26",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "Eurogamer",
+    "platform_color": "#059669",
+    "title": "GTA6预购开启 标准版79.99美元",
+    "url": "https://www.eurogamer.net/grand-theft-auto-6-preorders-gta6-no-disc",
+    "image": "images/2026-06-26/n_2026-06-26_9.jpg",
+    "detail": [
+      "2026年6月25日,Rockstar Games正式开放《侠盗猎车手6》(GTA 6)预购,按各地本地时间于当天午夜陆续上线。游戏将于2026年11月19日登陆PS5与Xbox Series X|S,标准版定价79.99美元,英国售价69.99英镑、欧洲79.99欧元。除标准版外,还推出包含专属载具、武器、服饰与剧情内容的99.99美元终极版。",
+      "本次预购细节引发广泛讨论:实体版盒内仅附带数字下载码,而非传统光盘,与近期主机去光盘化趋势一致。数字预购可享一个月GTA+会员,所有在11月20日前购买的玩家可获得复古风维斯城内容包(Vintage Vice City Pack)。数字版预载将于11月12日开启,实体盒装据称会提前数天发货。",
+      "作为Rockstar史上规模最大的发售,GTA 6的定价和无光盘策略成为行业焦点。Eurogamer指出,GTA 6采用下载码的做法已在业界引发连锁反应,促使其他厂商表态。索尼方面则强调GTA 6将在PS5上获得最佳体验。",
+      "社区反应两极:部分玩家不满实体版无光盘、首发仅含单人战役;也有玩家因午夜全球同步预购而连夜抢购。多家零售商在开放数小时内即显示有货,显示出这一现象级作品的超高热度。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_8",
+    "date": "2026-06-26",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "VGC",
+    "platform_color": "#059669",
+    "title": "微软全球上调Xbox主机售价",
+    "url": "https://www.videogameschronicle.com/news/microsoft-is-raising-the-price-of-xbox-consoles-by-100-150",
+    "image": "images/2026-06-26/n_2026-06-26_8.jpg",
+    "detail": [
+      "2026年6月25日,微软宣布对Xbox Series S与Series X主机进行全球范围的涨价,理由是内存与存储芯片成本飙升。官方表示主机存储和内存价格相比此前已上涨超过2.5倍,并预计到2027年底还会再翻一番,公司称在当前供应链危机下别无选择。此次调整自2026年8月1日起正式生效。",
+      "具体涨幅为:512GB机型上调100美元,1TB机型上调150美元,同时2TB版本将直接停产。调整后,最便宜的1TB数字版Series X定价749.99美元,带光驱的Series X为799.99美元;Series S的512GB版升至499.99美元,1TB版为599.99美元。相比2020年发售时,带光驱的Series X已贵出约300美元。",
+      "这是微软不到一年内第二次上调Xbox价格,上一次是在2025年10月。涨价消息几乎与苹果对Mac、iPad的提价同步登场,被外媒形容为整个硬件行业受内存涨价波及的缩影。微软同时表示正研发新计划,以更低价格提供翻新二手主机来缓解玩家负担。",
+      "社区对此普遍不满,认为如今一台入门Series X已逼近800美元门槛,性价比承压。Push Square等媒体也指出,索尼PS6可能同样面临内存成本压力,行业整体硬件定价前景趋于悲观。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_7",
+    "date": "2026-06-26",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "OpenKnowledge:AI优先的Obsidian替代",
+    "url": "https://github.com/inkeep/open-knowledge",
+    "image": "images/2026-06-26/n_2026-06-26_7.jpg",
+    "detail": [
+      "2026年6月25日,开发者 Nick(engomez)在 Hacker News 发布 Show HN 项目 OpenKnowledge,定位为开源、AI 优先的 Obsidian/Notion 替代品。它是一款所见即所得的 Markdown 编辑器,与 Claude、Codex、Cursor 等智能体桌面应用直接集成,智能体可在其内嵌浏览器中打开编辑器实现并排协作,提供本地、免费、完全开源的使用方式。",
+      "项目内置 MCP、skills 与 RAG,支持 LLM-wiki、AI 第二大脑和规格文档撰写场景,并自带终端与 CLI 面向 TUI 用户。技术栈采用 Tiptap/ProseMirror、CodeMirror、yjs(CRDT)与 Electron;工程难点在于实现 ProseMirror 与 Markdown 的双向无损转换,以及用双观察者 CRDT 保持两侧状态实时同步。",
+      "其分享与云同步功能表面零代码,底层却基于 git/GitHub,既支持团队协作、撤销重做与版本历史,又能让数据保持完全私有。该帖当日获约177个赞、79条评论(HN item 48675435),仓库为 github.com/inkeep/open-knowledge,社区聚焦其智能体协作体验与本地优先、数据私有的设计取向。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_6",
+    "date": "2026-06-26",
+    "category": "VibeCoding",
+    "subcat": "新开发者工具",
+    "platform": "官方博客",
+    "platform_color": "#2563EB",
+    "title": "Deno 2.9 发布:可造原生桌面应用",
+    "url": "https://deno.com/blog/v2.9",
+    "image": "images/2026-06-26/n_2026-06-26_6.jpg",
+    "detail": [
+      "2026年6月25日,Deno 团队由 Bartek Iwańczuk 发布 Deno 2.9。核心亮点是实验性的 deno desktop:无需 Electron 样板代码,即可用熟悉的 Web 技术栈打造原生桌面应用,UI 在系统 webview 中运行、逻辑跑在 Deno 里,最终编译成单个可分发二进制,并支持一条命令交叉编译 Windows、macOS、Linux 多平台安装包。",
+      "本次迁移体验也大幅改善:deno install 现可直接读取 npm、pnpm、yarn 与 Bun 的 lockfile,从其他包管理器切换到 Deno 只需几条命令而非整套迁移。此外新增 CSS 模块导入、更强的测试运行器,并兼容 Node.js 26,补齐了大量与 Node 生态对接的细节。",
+      "性能提升同样显著:官方基准显示冷启动从 2.8 的约34.2ms 降至17.3ms,提速近1.98倍;Deno.serve 真实负载吞吐提升约1.27倍,而峰值内存占用在1MiB响应场景下减少约3.1倍。该版本当日登上 Hacker News(item 48675717),获136个赞、59条评论,桌面应用方向尤受关注。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_5",
+    "date": "2026-06-26",
+    "category": "VibeCoding",
+    "subcat": "编程语言生态",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "LuaJIT 3.0 语法扩展提案引热议",
+    "url": "https://github.com/LuaJIT/LuaJIT/issues/1475",
+    "image": "images/2026-06-26/n_2026-06-26_5.jpg",
+    "detail": [
+      "2026年6月25日,LuaJIT 仓库公开了一份面向 LuaJIT 3.0 的语法扩展提案(Issue #1475),并迅速登上 Hacker News 前排。提案在保持 Lua 内核精简的前提下,讨论为 LuaJIT 引入一批可选的现代语法糖,目标是改善大型代码库的可读性与开发体验,同时尽量不破坏既有生态的兼容性。",
+      "提案涉及的方向包括更符合直觉的运算与赋值写法、对常见模式的语法简化等,本质是在 LuaJIT 这一以性能著称的 JIT 编译器上,探索语言层面的渐进式演进。由于 LuaJIT 长期由 Mike Pall 主导、版本推进缓慢,任何 3.0 相关动向都极易牵动社区神经。",
+      "该讨论当日获得约223个赞、151条评论(HN item 48667336),GitHub Issue 下也有35条以上回帖。社区反应两极:一派欢迎让 Lua 写起来更现代,另一派担忧语法膨胀会侵蚀 Lua 极简哲学并割裂方言生态,游戏与嵌入式领域用户尤为关注向后兼容问题。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_4",
+    "date": "2026-06-26",
+    "category": "VibeCoding",
+    "subcat": "新开发者工具",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "HN 版谷歌趋势:18年帖子全检索",
+    "url": "https://hackernewstrends.com",
+    "image": "images/2026-06-26/n_2026-06-26_4.jpg",
+    "detail": [
+      "2026年6月25日,开发者 ytkimirti 在 Hacker News 发布 Show HN 项目 Hacker News Trends,把 Hacker News 过去18年、约4500万条帖子与评论做成可检索、可叠加的时间序列图表。用户输入任意话题、工具或人名,即可看到它在 HN 上被讨论的热度随时间起落,图表下方还直接列出对应的原始故事和评论。",
+      "项目底层基于 Upstash Redis Search 构建实时日期直方图,因此检索速度极快。作者预置了大量经典对比组,例如 Cursor vs Claude Code vs Codex 的 AI 编程工具接力、vim vs emacs vs zed 编辑器之争、webpack vs vite 打包器更迭,以及 docker 到 kubernetes 的容器化交接,直观呈现技术风向变迁。",
+      "该帖当日冲上 HN 前列,获得约637个赞、143条评论(HN item 48673671)。社区认为它是观察技术潮流兴衰的趣味数据工具,也有人讨论用评论计数衡量热度的偏差,但普遍肯定其交互体验与18年长跨度数据的稀缺价值,被不少人收藏为日常技术雷达。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_3",
+    "date": "2026-06-26",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "IT之家",
+    "platform_color": "#7C3AED",
+    "title": "百度开源Unlimited OCR刷新SOTA",
+    "url": "https://www.ithome.com/0/968/496.htm",
+    "image": "images/2026-06-26/n_2026-06-26_3.jpg",
+    "detail": [
+      "6月24日,百度开源全新文档解析模型Unlimited OCR,主打'一口气读完几十页长文档',在权威评测榜单OmniDocBench上刷新端到端SOTA,整体成绩超过此前广受关注的DeepSeek OCR。该模型总参数3B、激活参数仅500M,可在单张GPU上一次前向完成超长文档转录。",
+      "技术上,Unlimited OCR基于DeepSeek OCR检查点继续训练4000步,冻结DeepEncoder编码器、只训练解码器,训练数据约200万份文档样本,运行在8×16张A800 GPU上。其核心创新是采用参考滑动窗口注意力机制,使KV cache压成常数,解决了长文档生成时'越生成越慢'的内存墙问题。",
+      "基准测试显示,Unlimited OCR在OmniDocBench v1.5上整体得分93.23,高于DeepSeek OCR的87.01和DeepSeek OCR 2的89.17;在v1.6上达93.92。速度方面,Base模式下达到5580 TPS,较DeepSeek OCR的4951 TPS提升约12.7%,在长输出场景下优势进一步拉大。",
+      "社区注意到,该模型疑似出自前DeepSeek OCR研究员之手,延续了端到端OCR路线并在工程效率上更进一步,引发开发者对国产开源OCR生态快速迭代的热议。MarkTechPost、GIGAZINE等海外媒体也对其常数KV cache架构给予关注。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_2",
+    "date": "2026-06-26",
+    "category": "AI",
+    "subcat": "AI产业",
+    "platform": "新浪科技",
+    "platform_color": "#7C3AED",
+    "title": "胡润全球独角兽榜:Anthropic登顶",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-06-25/doc-inierayy2513392.shtml",
+    "image": "images/2026-06-26/n_2026-06-26_2.jpg",
+    "detail": [
+      "6月25日,胡润研究院在广州发布《2026全球独角兽榜》,全球共有1603家独角兽企业上榜,较去年增加80家,创历史新高,总价值飙升至54万亿元人民币,同比增长43%。位列前三名的均为大模型企业:Claude母公司Anthropic、ChatGPT母公司OpenAI、豆包母公司字节跳动。",
+      "其中Anthropic以6.6万亿元价值成为全球价值最高的独角兽,单年增值6.1万亿元创下榜单纪录,排名跃升7位;OpenAI以5.8万亿元位列第二;字节跳动价值增长60%至3.3万亿元,位居第三,也是中国独角兽之首。全球AI领域独角兽达215家,总价值占全榜单的36%,居各行业之最。",
+      "中国以381家独角兽位居全球第二,平均每五天新增一家。来自杭州的DeepSeek以3400亿元价值登上全球新晋独角兽榜首,并跻身全球前15名;月之暗面(1360亿元)、阶跃星辰(410亿元)等大模型企业同样表现亮眼,显示中国AI创业生态持续高速扩张。",
+      "胡润表示,Anthropic与OpenAI的价值有望突破万亿美元,一旦上市明年或将从独角兽榜'毕业'。今年有26家中国独角兽完成上市创近五年新高,包括9500亿元的智谱、超3000亿元的摩尔线程与沐曦股份,折射出AI、机器人与半导体赛道的资本热度。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_11",
+    "date": "2026-06-26",
+    "category": "Gaming",
+    "subcat": "PC单机",
+    "platform": "PC Gamer",
+    "platform_color": "#059669",
+    "title": "Steam夏季特卖开启 持续至7月9日",
+    "url": "https://www.pcgamer.com/games/steam-summer-sale-2026-live/",
+    "image": "images/2026-06-26/n_2026-06-26_11.jpg",
+    "detail": [
+      "2026年6月25日,Valve的Steam夏季特卖(Steam Summer Sale 2026)正式上线,于美国东部时间下午1点(太平洋时间上午10点)开启,是全年规模最大的PC购游窗口。本轮特卖覆盖超过4000款游戏,平均折扣约45%,老作品最高可达九折优惠,将一直持续到2026年7月9日。",
+      "Steam官方在社交平台宣布,玩家可在未来两周浏览数千项折扣、通过探索队列发现新游并领取贴纸,同时商城上线了夏季主题的点数商店物品。值得注意的是,Steamworks会在整个特卖期间锁定价格,因此无需在首日抢购,降低了\"早买吃亏\"的焦虑。",
+      "本届特卖的热门折扣包括《合作恐怖游戏PEAK》等多人作品打三八折低至4.95美元,以及《以撒》之父新作《Mewgenics》打七五折约22.49美元等独立佳作。对于想清空愿望单或填补暑期游戏空档的PC玩家而言,这是一年中最值得出手的时机之一。",
+      "本次特卖也恰逢GTA 6午夜全球预购开启的同一天,令6月25日成为今夏最繁忙的游戏日之一。在Halo战役进化版、《晨行者之血》等PC大作陆续发售前,夏季特卖为玩家提供了一个补全经典库存的良机。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_10",
+    "date": "2026-06-26",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "Eurogamer",
+    "platform_color": "#059669",
+    "title": "金刚狼实体版确认附带光盘",
+    "url": "https://www.eurogamer.net/marvels-wolverine-disc-in-box-gta-6",
+    "image": "images/2026-06-26/n_2026-06-26_10.jpg",
+    "detail": [
+      "2026年6月24至25日,索尼旗下顽皮狗姊妹工作室Insomniac Games对外确认,PS5独占动作游戏《漫威金刚狼》(Marvel's Wolverine)的实体版盒内将包含真正的游戏光盘,而非仅有下载码。该消息源于一名玩家在社交平台X上的直接追问,工作室回应称\"实体版将随盒附带光盘\"。",
+      "这一表态出现在GTA 6宣布实体版仅含下载码的背景之下,因此格外受关注。《漫威金刚狼》此前在State of Play展示中亮相,呈现出节奏极快、风格凌厉的线性动作冒险,预计于2026年9月15日发售,是PS5平台下半年的重磅单人大作之一。",
+      "Insomniac的明确承诺被IGN与Eurogamer解读为对\"去光盘化\"潮流的一种回应。IGN评论称,在GTA 6之后,更多开发商或将被迫正面回答\"盒内到底有没有光盘\"这一问题,实体收藏价值正成为玩家购买决策的重要因素。",
+      "社区对此普遍表示欢迎,认为在数字下载码盛行的当下,保留实体光盘是对收藏玩家与二手交易的尊重。不少玩家借此呼吁其他第一方与第三方厂商效仿,保障实体版的实际内容。"
+    ]
+  },
+  {
+    "id": "n_2026-06-26_1",
+    "date": "2026-06-26",
+    "category": "AI",
+    "subcat": "海外大模型",
+    "platform": "新浪科技",
+    "platform_color": "#7C3AED",
+    "title": "谷歌Gemini 3.5 Pro推迟至7月上线",
+    "url": "https://finance.sina.com.cn/roll/2026-06-25/doc-inieqsma5800383.shtml",
+    "image": "images/2026-06-26/n_2026-06-26_1.jpg",
+    "detail": [
+      "6月25日,据Business Insider报道,谷歌已将其备受关注的下一代前沿AI模型Gemini 3.5 Pro的发布时间从原定的6月推迟至7月。该模型被视为谷歌对标OpenAI与Anthropic旗舰模型的关键产品,此前曾在公司内部及早期测试圈层获得高度期待。",
+      "据知情人士透露,本次延期的核心原因是谷歌需要更多时间收集早期测试用户的反馈,并对模型进行针对性调优。延期窗口期将重点优化Token消耗等效率短板,同时强化长文本处理与驱动智能体(Agent)的能力,确保正式上线时性能更稳定、成本更可控。",
+      "市场观点认为,头部厂商在旗舰模型发布上日趋审慎,反映出当前大模型竞争已从单纯比拼参数与发布速度,转向更看重实际可用性、推理效率与商业化落地质量。此次推迟也被部分开发者解读为谷歌力求一次性交付高完成度产品、避免仓促上线翻车的信号。"
+    ]
+  },
+  {
     "id": "n_2026-06-25_9",
     "date": "2026-06-25",
     "category": "Gaming",
