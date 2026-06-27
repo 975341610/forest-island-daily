@@ -593,6 +593,33 @@
       "microsoft/vscode": 23,
       "QuantumNous/new-api": 24,
       "alibaba/page-agent": 25
+    },
+    "2026-06-27": {
+      "google-labs-code/design.md": 1,
+      "xbtlin/ai-berkshire": 2,
+      "Panniantong/Agent-Reach": 3,
+      "JCodesMore/ai-website-cloner-template": 4,
+      "mauriceboe/TREK": 5,
+      "opendatalab/MinerU": 6,
+      "garrytan/gstack": 7,
+      "ZhuLinsen/daily_stock_analysis": 8,
+      "IceWhaleTech/CasaOS": 9,
+      "every-app/open-seo": 10,
+      "stablyai/orca": 11,
+      "tashfeenahmed/freellmapi": 12,
+      "alibaba/page-agent": 13,
+      "kunchenguid/no-mistakes": 14,
+      "esengine/DeepSeek-Reasonix": 15,
+      "zarazhangrui/frontend-slides": 16,
+      "googleworkspace/cli": 17,
+      "aws/agent-toolkit-for-aws": 18,
+      "multica-ai/multica": 19,
+      "alchaincyf/zhangxuefeng-skill": 20,
+      "QuantumNous/new-api": 21,
+      "vercel-labs/agent-browser": 22,
+      "remotion-dev/remotion": 23,
+      "vercel-labs/skills": 24,
+      "ripienaar/free-for-dev": 25
     }
   }
 }
