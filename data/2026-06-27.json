@@ -1,0 +1,194 @@
+[
+  {
+    "id": "n_2026-06-27_9",
+    "date": "2026-06-27",
+    "category": "Gaming",
+    "subcat": "独立游戏",
+    "platform": "Gematsu",
+    "platform_color": "#059669",
+    "title": "《暗黑战神》团队公布科幻动作新作DUST: Origins",
+    "url": "https://www.gematsu.com/2026/06/airship-syndicate-announces-sci-fi-action-game-dust-origins",
+    "image": "images/2026-06-27/n_2026-06-27_9.jpg",
+    "detail": [
+      "2026年6月26日下午,曾打造《暗黑血统》(Darksiders)、《战斗法师:夜战》(Battle Chasers: Nightwar)与《破败之王:英雄联盟传奇》的工作室Airship Syndicate,正式公布了全新科幻动作游戏《DUST: Origins》,并放出首支预告片。工作室由知名漫画与游戏美术师Joe Madureira(Joe Mad)领衔,这一阵容本身就让大量老玩家闻讯而来。",
+      "《DUST: Origins》是一款'手工打造'的科幻动作游戏,故事舞台设在一座正在彻底崩塌的轨道监狱空间站。玩家扮演一名被突然从冷冻牢笼中唤醒的囚犯,要在空间站自我解体之前,杀出一条血路,穿过凶残罪犯与各种恐怖怪物组成的重重关卡。官方用一句'No saints(没有圣人)'为整部作品定下冷硬基调,画面风格被媒体形容为偏向科幻恐怖。",
+      "值得注意的是,这款新作将采用众筹方式推进:Airship Syndicate已在Kickstarter上线'即将到来'页面预热,据外媒报道正式众筹活动定于2026年7月28日启动。考虑到工作室近年经历过《Wayfinder》的发行波折与裁员,社区对其转向众筹既抱有期待,也夹杂着对资金与排期的担忧,但多数粉丝表示'看到Joe Mad的美术就先点了个赞'。"
+    ]
+  },
+  {
+    "id": "n_2026-06-27_8",
+    "date": "2026-06-27",
+    "category": "Gaming",
+    "subcat": "独立游戏",
+    "platform": "VGC",
+    "platform_color": "#059669",
+    "title": "《风暴之上》6月26日全平台登陆主机并入Game Pass",
+    "url": "https://www.vgchartz.com/article/464560/against-the-storm-launches-june-26-for-ps5-xbox-series-xs-switch-ps4-xbox-one-and-game-pass",
+    "image": "images/2026-06-27/n_2026-06-27_8.jpg",
+    "detail": [
+      "由发行商Hooded Horse与开发商Eremite Games打造的黑暗奇幻肉鸽城市建造游戏《风暴之上》(Against the Storm),已于2026年6月26日正式登陆PS5、Xbox Series X|S、Nintendo Switch、PS4与Xbox One五大主机平台,并同步加入Xbox Game Pass主机端阵容。这款作品此前在PC上长期处于口碑顶端,Steam好评率高达95%、评测数超过1.5万条,如今终于把'永不停雨的世界'带到了客厅大屏前。",
+      "游戏的核心玩法围绕'肉鸽式城建'展开:玩家扮演女王的总督,带领人类、海狸、蜥蜴人等不同种族的居民,在无尽暴雨中一次次重建文明前哨。每一局都会随机生成地图、事件与资源,失败后保留升级与经验进入下一次远征,把传统城建冗长的中后期压缩成节奏明快的短局体验,IGN此前给出8.4分的评价。",
+      "对主机玩家而言,这次移植最受关注的是手柄操作适配与Game Pass首发加入两点。开发方表示针对手柄重做了建造与菜单交互,降低了复杂城建在主机上的上手门槛;而首发进Game Pass则意味着大量订阅用户可零门槛尝鲜。社区普遍认为,这是2026年6月这个'相对平淡'的发售窗口里,最值得城建与肉鸽爱好者下载的一款作品。"
+    ]
+  },
+  {
+    "id": "n_2026-06-27_7",
+    "date": "2026-06-27",
+    "category": "VibeCoding",
+    "subcat": "开发者社区讨论",
+    "platform": "Hacker News (Ask HN)",
+    "platform_color": "#2563EB",
+    "title": "开源DOCX编辑器突然被删,社区追问",
+    "url": "https://news.ycombinator.com/item?id=48692474",
+    "image": "images/2026-06-27/n_2026-06-27_7.jpg",
+    "detail": [
+      "2026年6月26日,一位HN用户发起Ask HN(帖子id=48692474),指出几周前在HN首发、广受关注的开源DOCX编辑器项目突然全面消失:eigenpal名下的GitHub仓库已不存在,docx-editor官网返回503错误,无人知道发生了什么。帖子迅速积累35个赞和29条评论。",
+      "这条看似小众的讨论触动了开源社区一根敏感神经:一个曾经公开、被很多人收藏甚至依赖的项目,可能在没有任何预告的情况下被作者或平台层面整体抹除。评论中有人猜测涉及商业化转私有、法律纠纷或维护者主动跑路,也有人当场翻找Wayback Machine存档和本地clone试图抢救代码。",
+      "这场讨论再次把'依赖单一仓库的脆弱性'摆上台面——当代码托管在某个个人账号下,删除即蒸发。不少开发者借机重申应自行fork、镜像并保存关键依赖快照,而非默认GitHub会永远在那里。事件成为24小时内编程社区关于开源可持续性与供应链韧性的一个真实警示案例。"
+    ]
+  },
+  {
+    "id": "n_2026-06-27_6",
+    "date": "2026-06-27",
+    "category": "VibeCoding",
+    "subcat": "编程语言与运行时",
+    "platform": "官方网站 / Hacker News",
+    "platform_color": "#2563EB",
+    "title": "Gossamer:带真协程与无暂停内存的类Rust语言",
+    "url": "https://gossamer-lang.org",
+    "image": "images/2026-06-27/n_2026-06-27_6.jpg",
+    "detail": [
+      "2026年6月26日,新系统级编程语言Gossamer登上Hacker News首页,5小时获62个赞、50条评论。它自我定位为'Rust风味'语言:既能像脚本一样直接运行,也能编译为单个无依赖原生二进制,当前版本v0.19.1(pre-1.0),采用Apache-2.0开源协议。",
+      "技术上Gossamer主打三点差异化:一是自动内存管理,用确定性引用计数加arena{}区域回收,既无GC停顿也无借用检查器和生命周期标注;二是真正的goroutine与类型化channel,跑在M:N调度器上,阻塞调用只挂起协程不挂起线程,彻底消除async/await的'函数染色'问题;三是熟悉的类型系统,带Result/Option/?、穷尽match、trait与泛型且没有null。",
+      "语法上它引入前向管道|>、默认不可变、数据自上而下流动,并自带HTTP、JSON、crypto、SQL、压缩等较全的标准库,需要时可下沉到安全Rust扩展。官网提供编译为WebAssembly的浏览器内REPL可直接试跑。HN讨论聚焦其'无borrow checker却宣称无GC停顿'的可行性,以及与Go、Rust的真实定位竞争。"
+    ]
+  },
+  {
+    "id": "n_2026-06-27_5",
+    "date": "2026-06-27",
+    "category": "VibeCoding",
+    "subcat": "新开发者工具",
+    "platform": "Hacker News (Show HN)",
+    "platform_color": "#2563EB",
+    "title": "Weave Router:给编码Agent做智能模型路由",
+    "url": "https://weaverouter.com",
+    "image": "images/2026-06-27/n_2026-06-27_5.jpg",
+    "detail": [
+      "2026年6月26日,Weave团队在Hacker News发布Show HN,推出Weave Router——一个插在Claude Code、Codex、Cursor等编码Agent前面的智能模型路由层。帖子7小时内获133个赞、86条评论,成为当天最受关注的新工具之一。它伪装成Anthropic/OpenAI端点,逐条审视推理请求并自动分发到最合适的模型。",
+      "触发动机非常真实:Opus 4.7发布后因tokenizer变化导致团队成本飙升,他们意识到并非每个请求都需要顶配模型。路由器用强化学习训练,基于数万条Agent执行轨迹做奖励——选中能成功完成任务的模型就给正反馈。复杂规划路由到Opus 4.8,子代理探索代码库走DeepSeek V4 Flash,实现阶段交给GLM 5.2等更快模型。",
+      "团队称内部使用一个多月,在不明显损失质量与速度的前提下省下了约40%的token开销。项目以Elastic License 2.0源码可得,可自托管,也提供weaverouter.com托管版。评论区聚焦RL路由的泛化能力、隐私与多模型质量一致性问题,也有人认为这印证了'AI编码栈正分化为编排/执行/审查多层'的趋势。"
+    ]
+  },
+  {
+    "id": "n_2026-06-27_4",
+    "date": "2026-06-27",
+    "category": "VibeCoding",
+    "subcat": "开发者社区讨论",
+    "platform": "Reuters / Hacker News",
+    "platform_color": "#2563EB",
+    "title": "美国政府放行Anthropic Mythos给'可信伙伴'",
+    "url": "https://news.ycombinator.com/item?id=48692995",
+    "image": "images/2026-06-27/n_2026-06-27_4.jpg",
+    "detail": [
+      "2026年6月26日,路透社报道(援引Semafor)称美国政府已允许Anthropic向部分'可信合作伙伴'(主要为美国本土企业)释放其高能力模型Mythos。该新闻当晚登上Hacker News,1小时内即获106个赞、48条评论,引爆关于前沿模型出口与使用管制的激烈讨论。",
+      "报道的核心信息是:Mythos不再是完全封存状态,而是以'受限可信名单'方式有条件开放,由政府层面参与决定谁能使用。这与同日另一条744赞的华盛顿邮报报道'美国政府将决定谁能用GPT-5.6'形成呼应,显示监管之手正深入前沿模型的分发环节。",
+      "开发者社区的反应两极化。支持者认为对超强模型设访问门槛有合理安全考量;反对者则担忧这会形成'算力与智能的特权阶层',中小团队和开源生态被进一步边缘化,加剧闭源前沿与开放权重之间的能力鸿沟。不少评论将其与当天热议的开放权重差距文章联系起来,认为2026年的AI编码竞争正越来越受非技术因素左右。"
+    ]
+  },
+  {
+    "id": "n_2026-06-27_3",
+    "date": "2026-06-27",
+    "category": "AI",
+    "subcat": "具身智能",
+    "platform": "TechCrunch / YC",
+    "platform_color": "#7C3AED",
+    "title": "Aseon Labs获1000万美元种子轮融资",
+    "url": "https://www.crunchbase.com/funding_round/aseon-labs-seed--aseon-2026",
+    "image": "images/2026-06-27/n_2026-06-27_3.jpg",
+    "detail": [
+      "2026年6月26日,正在为自动驾驶车队打造分布式\"机器人补给站\"网络的公司Aseon Labs宣布完成1000万美元种子轮融资。本轮由Crane Venture Partners领投,Y Combinator、Expa等知名机构参投。资金将用于加速其机器人微型补给站(robotic micro-depot)网络的部署,并扩充其工程与机器人团队。",
+      "Aseon Labs瞄准的是自动驾驶规模化运营中一个被长期忽视的环节:无人车队的日常维护、清洁、充能与小型维修等\"停站\"作业。通过部署一张由机器人自动完成这些任务的分布式补给站网络,公司希望补上Robotaxi与无人物流车真正大规模商用前的最后一块运营拼图。",
+      "在自动驾驶资本回暖、具身智能持续升温的背景下,这类\"为机器人提供服务的机器人\"基础设施创企开始获得早期投资者青睐。社区评论指出,随着无人车队规模扩大,补给与运维环节将从人工密集型转向自动化,Aseon Labs背靠YC与Crane的组合,被视为押注这一新兴细分赛道的代表性早期案例。"
+    ]
+  },
+  {
+    "id": "n_2026-06-27_2",
+    "date": "2026-06-27",
+    "category": "AI",
+    "subcat": "具身智能",
+    "platform": "Caixin Global / 盖世汽车",
+    "platform_color": "#7C3AED",
+    "title": "无界动力超2亿美元天使轮关闭 京东系领投",
+    "url": "https://www.caixinglobal.com/2026-06-26/anyverse-dynamics-raises-over-200-million-as-chinas-robotics-funding-boom-accelerates-102458149.html",
+    "image": "images/2026-06-27/n_2026-06-27_2.jpg",
+    "detail": [
+      "2026年6月26日,北京具身智能机器人公司Anyverse Dynamics(无界动力)宣布完成一轮超过2亿美元的天使轮融资,由京东关联基金、C Capital、弘毅资本(Hony Capital)、晟誉投资、丰元投资共同领投,多家老股东跟投。公司成立于2025年,自2025年11月以来已连续拿下多轮大额融资,本轮使其上半年累计融资额进一步攀升。",
+      "公司同时透露,一笔规模近2亿美元的Pre-A轮也已接近完成。资金将用于其\"具身通用大脑\"的研发、技术基础设施建设以及全球交付能力的规模化扩张。值得注意的是,无界动力已在全球范围拿下近1亿美元订单,显示其商业化落地正在加速。该公司主攻世界模型(world model)与强化学习路线,构建原生多模态具身大模型,聚焦机器人\"手-眼-脑\"协同与精密操作。",
+      "这笔交易延续了中国机器人赛道2026年的融资热潮。Crunchbase数据显示,今年中国机器人领域的风险投资已创历史新高,资本不再扎堆资助预编程硬件,而是大举押注\"具身智能\"——拥有物理躯体、能实时与现实世界交互的AI。社区与投资者普遍将无界动力此轮视为上半年具身智能商业化的标志性事件之一。"
+    ]
+  },
+  {
+    "id": "n_2026-06-27_12",
+    "date": "2026-06-27",
+    "category": "Gaming",
+    "subcat": "PC游戏",
+    "platform": "Gematsu",
+    "platform_color": "#059669",
+    "title": "Steam Machine确认6月30日1049美元起售",
+    "url": "https://www.gematsu.com/2026/06/steam-machine-launches-june-30-starting-at-1049",
+    "image": "images/2026-06-27/n_2026-06-27_12.jpg",
+    "detail": [
+      "Valve的客厅游戏主机Steam Machine进入发售前最后冲刺:据Gematsu等媒体汇总,这台运行SteamOS的小型游戏PC将于2026年6月30日正式发售,512GB无手柄版本起售价1,049美元,而附带Steam手柄与两块额外面板的2TB版本则定价1,428美元,临近发售的相关讨论在6月26日至27日持续占据玩家社区热门。",
+      "硬件方面,Steam Machine搭载半定制AMD Zen 4 六核十二线程CPU与基于RDNA3、28组计算单元的GPU,配512GB NVMe固态并支持microSD扩展。Valve采用'预约登记+随机抽选'的方式发货,登记窗口已于6月25日关闭,官方称此举是为了把机器尽量送到真实玩家而非黄牛与机器人手中,体现了对首发供货紧张的预判。",
+      "不过定价引发了不小争议。GamersNexus等硬件媒体的评测指出,其GPU实测性能大致与RX 6600、RTX 3060相当,同等预算自行装机往往能获得更高帧数,加之2026年全球内存涨价推高成本,不少玩家质疑'主机外形却卖PC价格'是否值得。支持者则看重SteamOS的客厅体验与即开即玩的Steam库整合,围绕'生态溢价'的辩论成为本周PC玩家圈的焦点话题。"
+    ]
+  },
+  {
+    "id": "n_2026-06-27_11",
+    "date": "2026-06-27",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "Gematsu",
+    "platform_color": "#059669",
+    "title": "魂系动作RPG《遗物:首位守护者》放出12分钟实机",
+    "url": "https://www.gematsu.com/2026/06/the-relic-first-guardian-exploration-deep-dive-trailer",
+    "image": "images/2026-06-27/n_2026-06-27_11.jpg",
+    "detail": [
+      "2026年6月26日,发行商Perp Games与韩国开发商Project Cloud Games为暗黑奇幻魂系动作RPG《The Relic: First Guardian(遗物:首位守护者)》放出了一段长达12分钟的'探索深度解析'实机演示,集中展示了游戏的世界观、地图探索与战斗细节,是该作迄今信息量最大的一次公开亮相。",
+      "这是一款带有浓厚亚洲文化灵感的硬核魂类作品,玩家将在阴郁破败的世界中探索相互勾连的关卡、解锁捷径,并与各类强敌正面交锋。本次长演示重点呈现了立体的地图结构与环境叙事，以及高风险高回报的动作交战节奏,延续了'类魂'品类一贯的探索与挑战乐趣,制作组也借此回应了玩家对实机表现的关注。",
+      "根据官方信息,《遗物:首位守护者》将于2026年7月31日登陆PC(Steam)与PlayStation 5。对于偏好魂系动作的主机与PC玩家来说,这段在发售前一个月放出的长篇实机,既是临门一脚的宣传,也让社区得以更全面地评估这款来自新兴工作室作品的完成度,讨论中不乏将其与同类大作对比的声音。"
+    ]
+  },
+  {
+    "id": "n_2026-06-27_10",
+    "date": "2026-06-27",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "Evo官方",
+    "platform_color": "#059669",
+    "title": "格斗盛会EVO 2026拉斯维加斯6月26日开赛",
+    "url": "https://evo.gg/news/evo-2026-viewer-s-guide",
+    "image": "images/2026-06-27/n_2026-06-27_10.jpg",
+    "detail": [
+      "全球规模最大的格斗游戏赛事EVO 2026,于2026年6月26日在拉斯维加斯会展中心西厅正式开打,赛程持续至6月28日,由Chipotle冠名赞助。本届主舞台共设12款格斗游戏的正式比赛项目,跨所有项目的最低保障总奖金池达到50万美元,现场还配有300多台街机柜、厂商体验展台与决赛竞技场。",
+      "作为绝对的主角,卡普空《街头霸王6》连续第四年成为EVO拉斯维加斯报名人数最多的游戏,最终报名达2,414人;紧随其后的是《铁拳8》的1,354人,以及首次在拉斯维加斯亮相、抢下周日决赛席位的拳头新作《2XKO》1,080人。本届总计有5,774名独立选手报名了至少一个项目,延续了近来格斗游戏热度持续攀升的势头。",
+      "赛事的火爆背后是格斗品类的整体复兴:今年早些时候《街头霸王6》在EVO Japan打破世界纪录,成为史上单款格斗游戏规模最大的比赛。社区对本届看点充满期待,既包括《街霸6》冠军悬念,也包括《饿狼传说:狼之城》《2XKO》等新作的舞台首秀,大量主机与PC玩家通过线上直播追看这场'格斗游戏世界杯'。"
+    ]
+  },
+  {
+    "id": "n_2026-06-27_1",
+    "date": "2026-06-27",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "AP News / US News",
+    "platform_color": "#7C3AED",
+    "title": "OpenAI限制GPT-5.6 Sol仅供特朗普政府批准客户",
+    "url": "https://www.usnews.com/news/business/articles/2026-06-26/openai-limits-its-newest-chatgpt-product-to-trump-approved-customers-during-cybersecurity-review",
+    "image": "images/2026-06-27/n_2026-06-27_1.jpg",
+    "detail": [
+      "2026年6月26日(周五),OpenAI官方宣布将其最新旗舰AI模型GPT-5.6 Sol的发布范围,限制在一小批由特朗普政府批准的\"可信赖合作伙伴\"范围内。这是美国政府对可能带来网络安全风险的前沿AI产品,实施史无前例的官方审查的最新一例。GPT-5.6是一个全新模型家族,包含Sol、Terra、Luna三款,Sol为其中能力最强者。",
+      "此举源于特朗普本月早些时候签署的AI监管行政令——该框架允许联邦政府在最先进AI系统公开发布前,对其国家安全风险进行最长30天的审查。OpenAI称三款模型均被要求限制发布,并把这次预览定性为\"短期举措\",未来数周将逐步扩大可用范围,同时与政府共同制定网络安全行政令新框架及\"可复用的未来模型发布流程\"。",
+      "据OpenAI披露,GPT-5.6 Sol是其迄今最强模型,在编程、生物学与网络安全方面的智能体(agentic)能力显著提升;官方称Sol性能可与Mythos预览版抗衡,但输出token消耗仅为后者的三分之一。社区注意到,这一交错发布(staggered release)紧随本月政府针对Anthropic旗下Claude模型采取的类似动作之后,标志着美国对头部AI实验室的发布节奏管控正在常态化。"
+    ]
+  }
+]
