@@ -1,0 +1,165 @@
+[
+  {
+    "id": "n_2026-06-28_9",
+    "date": "2026-06-28",
+    "category": "Gaming",
+    "subcat": "单机大作",
+    "platform": "PS5/Xbox Series/Switch 2/Switch/PC(Steam)",
+    "platform_color": "#059669",
+    "title": "《龙珠电光火石ZERO》DAIMA角色包上线",
+    "url": "https://dragonballsparkingzero.com/news",
+    "image": "images/2026-06-28/n_2026-06-28_9.jpg",
+    "detail": [
+      "《Dragon Ball: Sparking! ZERO》(龙珠 Sparking! ZERO)是由万代南梦宫发行、Spike Chunsoft开发的3D对战动作游戏,作为经典《龙珠 电光火石》系列的正统续作,以超过200名可操作角色和大破坏感的战斗体验著称,登陆PS5、Xbox Series、Switch 2、Switch以及PC(Steam)等主机与PC平台,是龙珠粉丝与对战玩家的人气之作。",
+      "据官方网站公告,游戏的新一批付费内容“Dragon Ball DAIMA”角色包1与角色包2,以及来自《龙珠 Legends》的人气角色沙鲁特(Shallot)已于6月27日正式上线。本次更新同步实装战斗系统调整,包括对可变身角色追加永久攻击力提升增益、缩短短冲刺后龙冲刺的硬直、调整Rush气功波伤害与连段缩放等平衡性改动,进一步优化线上排位与自定义对战的体验。",
+      "DAIMA篇与沙鲁特的加入,正值龙珠IP四十周年庆典节点,为庞大的角色阵容再添新血,粉丝社区围绕新角色的招式演出、变身机制与强度评级展开热烈讨论。不过历代DAIMA角色包上线初期也曾出现过新角色无法选择等小问题,玩家在期待新内容的同时也密切关注本次更新的稳定性表现,相关话题在论坛与社媒持续发酵。"
+    ]
+  },
+  {
+    "id": "n_2026-06-28_8",
+    "date": "2026-06-28",
+    "category": "Gaming",
+    "subcat": "玩家社区",
+    "platform": "PC/PS5/Xbox Series/Switch 2",
+    "platform_color": "#059669",
+    "title": "EVO 2026拉斯维加斯总决赛收官",
+    "url": "https://esports.gg/news/fgc/evo-2026-overview-results",
+    "image": "images/2026-06-28/n_2026-06-28_8.jpg",
+    "detail": [
+      "EVO(Evolution Championship Series)是全球规模最大、历史最悠久的格斗游戏线下赛事,每年汇聚世界顶尖选手与数万名观众。2026年的EVO拉斯维加斯站于6月26日至28日在拉斯维加斯会议中心举办,本届主舞台共设12款格斗游戏项目,覆盖《街头霸王6》《铁拳8》《罪恶装备:Strive》《饿狼传说:群狼之城》等主机与PC平台的硬核对战作品,延续了线下电竞的传统魅力。",
+      "本届赛事规格创下新高,官方公布的总奖金池保底达50万美元。其中《街头霸王6》连续第三年成为EVO拉斯维加斯的最大项目,共有2414名选手报名厮杀;Riot出品的《2XKO》首次以正式项目亮相,奖金池高达约13至14万美元,《铁拳8》则提供7万美元奖金。6月28日的最终日上演各项目Top 8总决赛,街霸、铁拳、2XKO等王者归属在当天一锤定音,直播观赛人数与现场氛围都达到全年格斗圈的顶点。",
+      "作为格斗游戏社区一年一度的盛事,本届EVO同样承担着各大官方赛事巡回赛(如Capcom Pro Tour、Tekken World Tour、SNK世界锦标赛资格赛)的积分与晋级功能,使竞技分量倍增。社区与玩家对线下回归的热情高涨,选手间跨地区的对决、冷门黑马的逆袭以及新作首秀都成为社交平台热议焦点,进一步带动了相关主机与PC格斗游戏在夏促期间的关注度与销量。"
+    ]
+  },
+  {
+    "id": "n_2026-06-28_7",
+    "date": "2026-06-28",
+    "category": "VibeCoding",
+    "subcat": "开源工具",
+    "platform": "GitHub Trending",
+    "platform_color": "#2563EB",
+    "title": "ppt-master:AI生成可编辑PPT再登热榜",
+    "url": "https://github.com/hugohe3/ppt-master",
+    "image": "images/2026-06-28/n_2026-06-28_7.jpg",
+    "detail": [
+      "开发者 Hugo He 的 ppt-master 在 6 月 27 日有新提交(pushed 06-27)并再度冲上 GitHub Trending,当日新增约 589 star,累计已达约 3.3 万 star、2814 fork,语言以 Python 为主,MIT 许可证。它解决的痛点很具体:多数 AI PPT 工具只能生成「图片化」的幻灯片,而 ppt-master 能从任意文档生成真正可在 PowerPoint 中编辑的 .pptx 文件。",
+      "核心功能上,它输出原生形状与动画而非截图,支持把演讲者备注转成音频旁白,并允许按用户自带的 .pptx 模板来排版,从而保持企业视觉规范。整个流程以 AI Agent 驱动,从解析文档结构、提炼要点到生成可编辑版式一气呵成,topics 涵盖 aippt、powerpoint-generation、ai-agent 等,定位介于内容工具与编程智能体之间。",
+      "社区讨论里,大量用户称其「终于解决了 AI PPT 不能二次编辑」的老问题,对需要交付正式材料的职场人很实用;也有人关注复杂模板的还原度与中文排版效果。结合本窗口期它仍在持续迭代与登榜,ppt-master 展示了 AI 文档生成正从「能看」走向「能改、能讲」的成熟阶段,是热度居高的开源效率工具。"
+    ]
+  },
+  {
+    "id": "n_2026-06-28_6",
+    "date": "2026-06-28",
+    "category": "VibeCoding",
+    "subcat": "开源工具",
+    "platform": "GitHub Trending",
+    "platform_color": "#2563EB",
+    "title": "open-seo:开源版Semrush/Ahrefs登榜",
+    "url": "https://github.com/every-app/open-seo",
+    "image": "images/2026-06-28/n_2026-06-28_6.jpg",
+    "detail": [
+      "every-app 团队的 open-seo 在本窗口期登上 GitHub Trending,当日新增约 239 star,累计 3376 star、372 fork,采用 TypeScript 编写、MIT 许可证,并在 6 月 26 日有持续推送更新。它定位为 Semrush、Ahrefs 等商业 SEO 平台的开源替代,把关键词研究、外链分析、站点审计等付费功能开放为可自托管的工具集。",
+      "项目的技术亮点在于深度拥抱 MCP(Model Context Protocol):仓库 topics 明确标注了 google-search-console-mcp、keyword-research、backlink-analysis、site-audit 等能力,意味着它不仅是传统 Web 工具,还能作为 MCP 服务器接入 Claude、Cursor 等编程/AI 智能体,让 AI 直接调用 SEO 数据做内容优化与诊断,契合当下「AI 原生工具」的趋势。",
+      "开发者社区的关注点集中在成本与可控性:商业 SEO 工具订阅费高昂,open-seo 提供自托管方案对独立开发者、出海团队和内容创作者吸引力很大;同时把 SEO 数据 MCP 化,被视为「让 Agent 自己做增长」的有趣方向。也有用户讨论数据源完整度与抓取合规问题。整体上它是窗口期内值得关注的开源开发者工具之一。"
+    ]
+  },
+  {
+    "id": "n_2026-06-28_5",
+    "date": "2026-06-28",
+    "category": "VibeCoding",
+    "subcat": "AI编程",
+    "platform": "GitHub Trending",
+    "platform_color": "#2563EB",
+    "title": "ai-berkshire:Claude Code投研框架",
+    "url": "https://github.com/xbtlin/ai-berkshire",
+    "image": "images/2026-06-28/n_2026-06-28_5.jpg",
+    "detail": [
+      "中文开发者 xbtlin 的 ai-berkshire 项目在 6 月 27 日持续提交更新(pushed 06-27)并冲上 GitHub Trending,当日新增约 685 star,累计达 4094 star、576 fork。它自称「AI 时代的伯克希尔」,是一套构建在 Claude Code 之上的价值投资研究框架,把巴菲特、芒格、段永平、李录四位投资大师的方法论拆解为提示词与工作流,语言以 Python 为主,MIT 许可证。",
+      "框架最大的技术亮点是多 Agent 并行与「对抗式」研究:不同子代理分别扮演不同大师视角与多空双方,围绕一只标的同时展开基本面分析、估值与风险证伪,再汇总成研究报告;同时通过 MCP 接入数据源,实现从拉取财报到生成结论的链路自动化。它本质上是把 Claude Code 的子代理(sub-agents)能力从写代码迁移到了金融研究场景。",
+      "该项目在社区引发两类反应:一部分开发者赞赏其把「Claude Code 当通用代理框架」的范式演示得很完整,认为对想学习多代理编排的人是优质模板;另一部分则提醒投资决策不应盲信 LLM 输出、需警惕幻觉与数据时效。作为本窗口期内热度最高的中文 AI 编程项目之一,它体现了编程智能体正快速外溢到垂直领域。"
+    ]
+  },
+  {
+    "id": "n_2026-06-28_4",
+    "date": "2026-06-28",
+    "category": "VibeCoding",
+    "subcat": "开发者框架",
+    "platform": "GitHub Trending",
+    "platform_color": "#2563EB",
+    "title": "Google Labs推DESIGN.md设计规范格式",
+    "url": "https://github.com/google-labs-code/design.md",
+    "image": "images/2026-06-28/n_2026-06-28_4.jpg",
+    "detail": [
+      "由 Google Labs(google-labs-code 组织)维护的 design.md 仓库在北京时间 6 月 28 日登上 GitHub Trending 全站第一,当日新增约 1541 star,累计已突破 2.2 万 star、1782 fork。它定义了一种名为 DESIGN.md 的格式规范,用于把「视觉身份/设计系统」以结构化、可持久的方式描述给编程智能体(coding agents),让 AI 在生成 UI 时拥有一致的颜色、字体、间距与组件语言。",
+      "其定位类似于 README.md 之于文档、AGENTS.md 之于代理行为:DESIGN.md 充当设计系统的「单一事实来源」,Claude Code、Codex、Cursor 等工具读取后即可在多次会话中复用同一套视觉规则,避免每次都口头描述风格、产出风格漂移的界面。规范配套了在线文档与 Google Stitch 产品(stitch.withgoogle.com)的实现,采用 Apache-2.0 许可证,语言以 TypeScript 为主。",
+      "开发者社区把它视为「设计版的 spec-driven development」的延续,认为在 Vibe Coding 流行、UI 一键生成成为常态的当下,把设计约束文件化是必然方向。也有声音担心标准过多(DESIGN.md/AGENTS.md/各类 .md 配置)会带来碎片化。无论如何,Google 官方背书令该格式迅速成为本窗口期最受关注的开发者协作约定之一。"
+    ]
+  },
+  {
+    "id": "n_2026-06-28_3",
+    "date": "2026-06-28",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "快科技 / 新浪",
+    "platform_color": "#7C3AED",
+    "title": "iPhone 18 Pro主板曝光A20 Pro增强NPU",
+    "url": "https://news.mydrivers.com/1/1132/1132560.htm",
+    "image": "images/2026-06-28/n_2026-06-28_3.jpg",
+    "detail": [
+      "6月27日，知名爆料人Reptalicant在X平台分享了苹果iPhone 18 Pro的主板信息，引发数码与半导体圈热议。爆料显示其搭载的A20 Pro芯片将采用全新的WMCM（晶圆级多芯片模块，Wafer-Level Multi-Chip Module）封装，取代A19时代的封装方案，并对DRAM采取侧置重构布局，整体瞄准更高集成度与更好的散热表现。",
+      "WMCM封装是本次爆料的最大看点：它能让SoC与DRAM等不同元件在晶圆阶段就完成整合，无需中介层（interposer）或基板（substrate）连接晶粒，从而改善芯片散热、减少材料用量和生产步骤，同时提升良率与生产效率。爆料进一步称A20 Pro的NPU面积明显增大，意味着端侧AI（Apple Intelligence）算力将获得实质性提升，配合台积电2nm工艺，性能预计提升约15%、能效提升约30%。",
+      "在内存方面，多方信息指向A20 Pro支持96-bit位宽的LPDDR6内存，部分爆料提到Pro系列将标配12GB运存，为本地大模型推理与多任务提供更大带宽和容量空间。同时iPhone 18 Pro系列还被传将首发苹果自研C2基带，进一步压缩高通在苹果供应链中的份额，这一系列动作共同凸显苹果“芯片+封装+端侧AI”的垂直整合路线。",
+      "社区对这次爆料反应热烈，多数观点认为，NPU面积增大叠加WMCM先进封装与2nm工艺，标志着苹果正把更多AI算力下沉到手机端，以支撑下一代Apple Intelligence体验。不过也有声音提醒，距离iPhone 18 Pro预计的2026年下半年发布尚有时日，主板级爆料仍属早期信息，最终量产规格与散热表现仍需官方确认。"
+    ]
+  },
+  {
+    "id": "n_2026-06-28_2",
+    "date": "2026-06-28",
+    "category": "AI",
+    "subcat": "具身智能",
+    "platform": "IT之家 / 新浪科技",
+    "platform_color": "#7C3AED",
+    "title": "京东欧洲推出机器人维修救护车",
+    "url": "https://www.ithome.com/0/969/325.htm",
+    "image": "images/2026-06-28/n_2026-06-28_2.jpg",
+    "detail": [
+      "6月27日，据京东黑板报消息，京东正式在欧洲推出JoyRobocare机器人维修服务，并已在英国贝德福德、德国杜伊斯堡等地建立机器人维修中心，被称为“机器人救护车”的上门服务可覆盖英国、德国、法国、荷兰等多个国家的主要城市，未来还将逐步延展至欧洲更多地区，以及美洲、亚太及中东等海外市场。这是中国机器人加速出海背景下，售后服务环节首次成体系地落地海外。",
+      "JoyRobocare在欧洲主要针对具身智能机器人、四足机器人提供上门送货、调试配置和使用辅导等服务，并将持续拓展家庭、教育、商业、工业制造、物流、安防等多场景机器人的维修、保养、回收等售后支持。通过本地化“机器人救护车”上门及维修中心服务，机器人未来无需跨国返厂即可解决大部分故障，大幅降低企业与消费者的维修售后成本，也补足了全球机器人供应链物流及售后链条这一关键短板。",
+      "在人才与投入方面，京东一方面继续挖掘欧洲本土维修人才、培养海外仓储配送一线员工的“多面手”能力，另一方面从国内引进优秀维修工程师为欧洲员工做技术培训。目前京东已在国内布局多个维修中心、拥有数千名机器人维修工程师，持续投入超过2亿元；未来5年计划培养10万名工程师，全面覆盖机器人、智能家居等各类售后维修服务。",
+      "作为领先的机器人售后服务商，京东已与众擎、松延动力、云深处、智元等行业绝大多数头部机器人企业达成深度合作，服务涵盖基础维修、故障诊断、换电补能、测试鉴定、美容保养、设备回收等全场景。在今年亦庄人形机器人半程马拉松赛事中，京东“机器人救护车”曾为超300台参赛机器人提供维修保障。业界认为，售后网络出海正在成为中国机器人产业从“卖硬件”走向“可持续服务”的关键一环。"
+    ]
+  },
+  {
+    "id": "n_2026-06-28_10",
+    "date": "2026-06-28",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "PS5/Switch 2/Switch/PC",
+    "platform_color": "#059669",
+    "title": "《闪电十一人:胜利之路》免费DLC公布",
+    "url": "https://gonintendo.com/contents/62307-inazuma-eleven-victory-road-contenders-for-glory-free-dlc-launches-july-3rd-2026",
+    "image": "images/2026-06-28/n_2026-06-28_10.jpg",
+    "detail": [
+      "《闪电十一人:胜利之路》(Inazuma Eleven: Victory Road)是日本LEVEL-5开发的足球RPG,作为长寿系列的最新作,融合了热血足球竞技与角色养成、必杀技演出等招牌玩法,登陆PS5、Switch 2、Switch以及PC等主机与PC平台,凭借跨平台联机对战与丰富剧情吸引了大量系列老粉与新玩家。",
+      "LEVEL-5官方宣布,游戏第六波免费大型更新“荣耀竞争者DLC”(Contenders for Glory DLC)将于7月3日正式上线。本次更新延续此前免费追加内容的节奏,在第五波“新踢法”更新加入“协同(Synergies)”新机制、新编年史路线与线上锦标赛模式之后,继续扩充剧情章节、可用角色与对战内容,并配套放出了全新预告片展示新增玩法与登场球员。",
+      "持续不断的免费大型更新是本作维系社区活跃度的重要策略,玩家社区对“持续白嫖”的运营方式普遍给予正面评价,认为这显著延长了游戏寿命并提升了线上对战环境的新鲜感。新预告公布后,粉丝围绕新增角色的必杀技、新剧情走向以及锦标赛Meta变化展开讨论,期待7月3日更新进一步丰富球队组建与竞技深度。"
+    ]
+  },
+  {
+    "id": "n_2026-06-28_1",
+    "date": "2026-06-28",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "GitHub / IT之家",
+    "platform_color": "#7C3AED",
+    "title": "DeepSeek联合北大开源DSpark推理框架",
+    "url": "https://www.ithome.com/0/969/379.htm",
+    "image": "images/2026-06-28/n_2026-06-28_1.jpg",
+    "detail": [
+      "6月27日，DeepSeek团队联合北京大学正式发布并开源大模型推理加速框架DSpark，技术报告题为《DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation》，由DeepSeek创始人梁文锋署名共著。该框架属于投机解码（speculative decoding）方向，目标并非提升模型“变聪明”，而是在高并发生产环境下显著加快大模型“吐字速度”，已直接部署到DeepSeek-V4的线上服务引擎中。",
+      "DSpark的核心创新有两点。其一是半自回归生成架构：保留并行草稿模型高吞吐优势的同时，加入轻量级串行模块对block内token依赖建模，缓解并行草稿在后续位置接受率衰减的问题。其二是硬件感知的置信度调度验证，通过置信头评估每个token的存活概率，再结合硬件感知前缀调度器，根据实时引擎吞吐特征为每个请求动态裁剪最优验证长度，把算力只分配给预期回报最高的token。",
+      "官方公布的数据相当亮眼：相较前一代单token生产基准MTP-1，在维持相同总体吞吐量下，DSpark将单用户生成速度提升最高达85%（Flash约60%-85%，Pro约57%-78%）。具体看，V4-Flash在80 tok/s SLA下吞吐提升51%，在120 tok/s严苛SLA下标称提升达661%；V4-Pro在35 tok/s下提升52%，50 tok/s高要求场景下提升406%。相比并行DFlash，平均接受长度提升16.3%-18.4%，代码、数学等结构化任务收益高于开放式闲聊。",
+      "DeepSeek同时开源了全栈训练框架DeepSpec，统一封装DSpark、DFlash、Eagle3三套推测解码草稿模型的训练、推理、评估全链路代码，并附论文、权重与压测脚本，目标模型支持Qwen3与Gemma系列。社区普遍认为这是DeepSeek继DeepEP、FlashMLA后又一次“工程内核级”开源，把推理成本与延迟优化的能力直接交到开发者手中，对国内主权模型与端侧推理生态意义重大。"
+    ]
+  }
+]
