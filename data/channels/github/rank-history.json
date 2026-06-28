@@ -620,6 +620,33 @@
       "remotion-dev/remotion": 23,
       "vercel-labs/skills": 24,
       "ripienaar/free-for-dev": 25
+    },
+    "2026-06-28": {
+      "google-labs-code/design.md": 1,
+      "Panniantong/Agent-Reach": 2,
+      "JCodesMore/ai-website-cloner-template": 3,
+      "opendatalab/MinerU": 4,
+      "xbtlin/ai-berkshire": 5,
+      "garrytan/gstack": 6,
+      "mauriceboe/TREK": 7,
+      "hugohe3/ppt-master": 8,
+      "IceWhaleTech/CasaOS": 9,
+      "kunchenguid/no-mistakes": 10,
+      "ripienaar/free-for-dev": 11,
+      "harry0703/MoneyPrinterTurbo": 12,
+      "colbymchenry/codegraph": 13,
+      "tashfeenahmed/freellmapi": 14,
+      "commaai/openpilot": 15,
+      "anthropics/skills": 16,
+      "Anil-matcha/Open-Generative-AI": 17,
+      "every-app/open-seo": 18,
+      "browser-use/video-use": 19,
+      "aws/agent-toolkit-for-aws": 20,
+      "Fission-AI/OpenSpec": 21,
+      "MemPalace/mempalace": 22,
+      "alibaba/page-agent": 23,
+      "zarazhangrui/frontend-slides": 24,
+      "facebook/astryx": 25
     }
   }
 }

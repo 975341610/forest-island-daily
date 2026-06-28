@@ -84,8 +84,8 @@
     },
     "garrytan/gstack": {
       "best_rank": 4,
-      "appearances": 6,
-      "total_today_stars": 4677,
+      "appearances": 7,
+      "total_today_stars": 5351,
       "language": "TypeScript",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
@@ -120,8 +120,8 @@
     },
     "tashfeenahmed/freellmapi": {
       "best_rank": 12,
-      "appearances": 4,
-      "total_today_stars": 1294,
+      "appearances": 5,
+      "total_today_stars": 1648,
       "language": "TypeScript",
       "description": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -299,9 +299,9 @@
       "html_url": "https://github.com/vectorize-io/hindsight"
     },
     "JCodesMore/ai-website-cloner-template": {
-      "best_rank": 4,
-      "appearances": 5,
-      "total_today_stars": 3730,
+      "best_rank": 3,
+      "appearances": 6,
+      "total_today_stars": 4480,
       "language": "TypeScript",
       "description": "Clone any website with one command using AI coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/182581310?v=4",
@@ -318,8 +318,8 @@
     },
     "anthropics/skills": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 433,
+      "appearances": 2,
+      "total_today_stars": 755,
       "language": "Python",
       "description": "Public repository for Agent Skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -327,8 +327,8 @@
     },
     "alibaba/page-agent": {
       "best_rank": 13,
-      "appearances": 4,
-      "total_today_stars": 1390,
+      "appearances": 5,
+      "total_today_stars": 1538,
       "language": "TypeScript",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -417,8 +417,8 @@
     },
     "google-labs-code/design.md": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 4501,
+      "appearances": 4,
+      "total_today_stars": 6042,
       "language": "TypeScript",
       "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/161364575?v=4",
@@ -462,8 +462,8 @@
     },
     "IceWhaleTech/CasaOS": {
       "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 1016,
+      "appearances": 4,
+      "total_today_stars": 1518,
       "language": "Go",
       "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/91336243?v=4",
@@ -480,8 +480,8 @@
     },
     "Panniantong/Agent-Reach": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 2741,
+      "appearances": 3,
+      "total_today_stars": 3886,
       "language": "Python",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
@@ -489,17 +489,17 @@
     },
     "kunchenguid/no-mistakes": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 1394,
+      "appearances": 3,
+      "total_today_stars": 1875,
       "language": "Go",
       "description": "git push no-mistakes",
       "owner_avatar": "https://avatars.githubusercontent.com/u/3233006?v=4",
       "html_url": "https://github.com/kunchenguid/no-mistakes"
     },
     "opendatalab/MinerU": {
-      "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 1604,
+      "best_rank": 4,
+      "appearances": 3,
+      "total_today_stars": 2353,
       "language": "Python",
       "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/97503431?v=4",
@@ -516,8 +516,8 @@
     },
     "xbtlin/ai-berkshire": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 1583,
+      "appearances": 3,
+      "total_today_stars": 2268,
       "language": "Python",
       "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework   built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6993203?v=4",
@@ -525,8 +525,8 @@
     },
     "mauriceboe/TREK": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1301,
+      "appearances": 3,
+      "total_today_stars": 1911,
       "language": "TypeScript",
       "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/61554723?v=4",
@@ -543,8 +543,8 @@
     },
     "zarazhangrui/frontend-slides": {
       "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 463,
+      "appearances": 3,
+      "total_today_stars": 611,
       "language": "JavaScript",
       "description": "Create beautiful slides on the web using a coding agent's frontend skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
@@ -570,8 +570,8 @@
     },
     "every-app/open-seo": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 594,
+      "appearances": 2,
+      "total_today_stars": 833,
       "language": "TypeScript",
       "description": "Open source alternative to Semrush and Ahrefs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
@@ -579,8 +579,8 @@
     },
     "aws/agent-toolkit-for-aws": {
       "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 243,
+      "appearances": 2,
+      "total_today_stars": 425,
       "language": "Python",
       "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2232217?v=4",
@@ -614,13 +614,94 @@
       "html_url": "https://github.com/vercel-labs/skills"
     },
     "ripienaar/free-for-dev": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 90,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 549,
       "language": "HTML",
       "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
       "owner_avatar": "https://avatars.githubusercontent.com/u/82342?v=4",
       "html_url": "https://github.com/ripienaar/free-for-dev"
+    },
+    "hugohe3/ppt-master": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 589,
+      "language": "Python",
+      "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/188330578?v=4",
+      "html_url": "https://github.com/hugohe3/ppt-master"
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 427,
+      "language": "Python",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    "colbymchenry/codegraph": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 366,
+      "language": "TypeScript",
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/18431132?v=4",
+      "html_url": "https://github.com/colbymchenry/codegraph"
+    },
+    "commaai/openpilot": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 322,
+      "language": "Python",
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/16128714?v=4",
+      "html_url": "https://github.com/commaai/openpilot"
+    },
+    "Anil-matcha/Open-Generative-AI": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 255,
+      "language": "JavaScript",
+      "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
+      "html_url": "https://github.com/Anil-matcha/Open-Generative-AI"
+    },
+    "browser-use/video-use": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 186,
+      "language": "Python",
+      "description": "Edit videos with coding agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "html_url": "https://github.com/browser-use/video-use"
+    },
+    "Fission-AI/OpenSpec": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 177,
+      "language": "TypeScript",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/203414896?v=4",
+      "html_url": "https://github.com/Fission-AI/OpenSpec"
+    },
+    "MemPalace/mempalace": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 156,
+      "language": "Python",
+      "description": "The best-benchmarked open-source AI memory system. And it's free.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/275135684?v=4",
+      "html_url": "https://github.com/MemPalace/mempalace"
+    },
+    "facebook/astryx": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 147,
+      "language": "TypeScript",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/69631?v=4",
+      "html_url": "https://github.com/facebook/astryx"
     }
   }
 }
