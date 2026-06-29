@@ -647,6 +647,33 @@
       "alibaba/page-agent": 23,
       "zarazhangrui/frontend-slides": 24,
       "facebook/astryx": 25
+    },
+    "2026-06-29": {
+      "DeusData/codebase-memory-mcp": 1,
+      "xbtlin/ai-berkshire": 2,
+      "JCodesMore/ai-website-cloner-template": 3,
+      "google-labs-code/design.md": 4,
+      "ripienaar/free-for-dev": 5,
+      "HKUDS/Vibe-Trading": 6,
+      "every-app/open-seo": 7,
+      "opendatalab/MinerU": 8,
+      "Anil-matcha/Open-Generative-AI": 9,
+      "Robbyant/lingbot-map": 10,
+      "IceWhaleTech/CasaOS": 11,
+      "canopy-network/canopy": 12,
+      "tinyhumansai/openhuman": 13,
+      "TauricResearch/TradingAgents": 14,
+      "commaai/openpilot": 15,
+      "ByteByteGoHq/system-design-101": 16,
+      "vercel-labs/skills": 17,
+      "mauriceboe/TREK": 18,
+      "browser-use/video-use": 19,
+      "dbt-labs/dbt-core": 20,
+      "rust-lang/rust": 21,
+      "pandas-dev/pandas": 22,
+      "usestrix/strix": 23,
+      "sherlock-project/sherlock": 24,
+      "Gentleman-Programming/gentle-ai": 25
     }
   }
 }
