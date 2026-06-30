@@ -12,8 +12,8 @@
     },
     "xbtlin/ai-berkshire": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1445,
+      "appearances": 2,
+      "total_today_stars": 2831,
       "language": "Python",
       "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6993203?v=4",
@@ -21,8 +21,8 @@
     },
     "JCodesMore/ai-website-cloner-template": {
       "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 782,
+      "appearances": 2,
+      "total_today_stars": 1542,
       "language": "TypeScript",
       "description": "Clone any website with one command using AI coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/182581310?v=4",
@@ -38,18 +38,18 @@
       "html_url": "https://github.com/google-labs-code/design.md"
     },
     "ripienaar/free-for-dev": {
-      "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 495,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 2430,
       "language": "HTML",
       "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
       "owner_avatar": "https://avatars.githubusercontent.com/u/82342?v=4",
       "html_url": "https://github.com/ripienaar/free-for-dev"
     },
     "HKUDS/Vibe-Trading": {
-      "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 492,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 1331,
       "language": "Python",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -75,17 +75,17 @@
     },
     "Anil-matcha/Open-Generative-AI": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 375,
+      "appearances": 2,
+      "total_today_stars": 517,
       "language": "JavaScript",
       "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
       "html_url": "https://github.com/Anil-matcha/Open-Generative-AI"
     },
     "Robbyant/lingbot-map": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 372,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 837,
       "language": "Python",
       "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
       "owner_avatar": "https://avatars.githubusercontent.com/u/212647524?v=4",
@@ -101,9 +101,9 @@
       "html_url": "https://github.com/IceWhaleTech/CasaOS"
     },
     "canopy-network/canopy": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 341,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 693,
       "language": "Go",
       "description": "The official go implementation of the Canopy Network protocol",
       "owner_avatar": "https://avatars.githubusercontent.com/u/183553659?v=4",
@@ -111,26 +111,26 @@
     },
     "tinyhumansai/openhuman": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 323,
+      "appearances": 2,
+      "total_today_stars": 586,
       "language": "Rust",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
       "html_url": "https://github.com/tinyhumansai/openhuman"
     },
     "TauricResearch/TradingAgents": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 274,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 636,
       "language": "Python",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192884433?v=4",
       "html_url": "https://github.com/TauricResearch/TradingAgents"
     },
     "commaai/openpilot": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 266,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 724,
       "language": "Python",
       "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/16128714?v=4",
@@ -146,9 +146,9 @@
       "html_url": "https://github.com/ByteByteGoHq/system-design-101"
     },
     "vercel-labs/skills": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 250,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 563,
       "language": "TypeScript",
       "description": "The open agent skills tool - npx skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
@@ -164,9 +164,9 @@
       "html_url": "https://github.com/mauriceboe/TREK"
     },
     "browser-use/video-use": {
-      "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 196,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 1163,
       "language": "Python",
       "description": "Edit videos with coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
@@ -225,6 +225,123 @@
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/97131605?v=4",
       "html_url": "https://github.com/Gentleman-Programming/gentle-ai"
+    },
+    "firecrawl/firecrawl": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 826,
+      "language": "TypeScript",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
+      "html_url": "https://github.com/firecrawl/firecrawl"
+    },
+    "facebook/astryx": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 426,
+      "language": "TypeScript",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/69631?v=4",
+      "html_url": "https://github.com/facebook/astryx"
+    },
+    "0xNyk/council-of-high-intelligence": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 331,
+      "language": "Shell",
+      "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/93952610?v=4",
+      "html_url": "https://github.com/0xNyk/council-of-high-intelligence"
+    },
+    "refactoringhq/tolaria": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 280,
+      "language": "TypeScript",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/263141683?v=4",
+      "html_url": "https://github.com/refactoringhq/tolaria"
+    },
+    "yt-dlp/yt-dlp": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 273,
+      "language": "Python",
+      "description": "A feature-rich command-line audio/video downloader",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/79589310?v=4",
+      "html_url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    "lumina-ai-inc/chunkr": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 262,
+      "language": "Rust",
+      "description": "Vision infrastructure to turn complex documents into RAG/LLM-ready data",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/133187075?v=4",
+      "html_url": "https://github.com/lumina-ai-inc/chunkr"
+    },
+    "zarazhangrui/frontend-slides": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 241,
+      "language": "JavaScript",
+      "description": "Create beautiful slides on the web using a coding agent's frontend skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
+      "html_url": "https://github.com/zarazhangrui/frontend-slides"
+    },
+    "veracrypt/VeraCrypt": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 186,
+      "language": "C",
+      "description": "Disk encryption with strong security based on TrueCrypt",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/7925881?v=4",
+      "html_url": "https://github.com/veracrypt/VeraCrypt"
+    },
+    "drawdb-io/drawdb": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 172,
+      "language": "JavaScript",
+      "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/139706923?v=4",
+      "html_url": "https://github.com/drawdb-io/drawdb"
+    },
+    "gastownhall/beads": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 136,
+      "language": "Go",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/255961667?v=4",
+      "html_url": "https://github.com/gastownhall/beads"
+    },
+    "firecrawl/open-lovable": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 135,
+      "language": "TypeScript",
+      "description": "🔥 Clone and recreate any website as a modern React app in seconds",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
+      "html_url": "https://github.com/firecrawl/open-lovable"
+    },
+    "yikart/AiToEarn": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 132,
+      "language": "TypeScript",
+      "description": "Let's use AI to Earn!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/194770693?v=4",
+      "html_url": "https://github.com/yikart/AiToEarn"
+    },
+    "Unclecheng-li/VulnClaw": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 129,
+      "language": "Python",
+      "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/55303635?v=4",
+      "html_url": "https://github.com/Unclecheng-li/VulnClaw"
     }
   }
 }

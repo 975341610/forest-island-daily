@@ -674,6 +674,33 @@
       "usestrix/strix": 23,
       "sherlock-project/sherlock": 24,
       "Gentleman-Programming/gentle-ai": 25
+    },
+    "2026-06-30": {
+      "ripienaar/free-for-dev": 1,
+      "xbtlin/ai-berkshire": 2,
+      "browser-use/video-use": 3,
+      "HKUDS/Vibe-Trading": 4,
+      "firecrawl/firecrawl": 5,
+      "JCodesMore/ai-website-cloner-template": 6,
+      "Robbyant/lingbot-map": 7,
+      "commaai/openpilot": 8,
+      "facebook/astryx": 9,
+      "TauricResearch/TradingAgents": 10,
+      "canopy-network/canopy": 11,
+      "0xNyk/council-of-high-intelligence": 12,
+      "vercel-labs/skills": 13,
+      "refactoringhq/tolaria": 14,
+      "yt-dlp/yt-dlp": 15,
+      "tinyhumansai/openhuman": 16,
+      "lumina-ai-inc/chunkr": 17,
+      "zarazhangrui/frontend-slides": 18,
+      "veracrypt/VeraCrypt": 19,
+      "drawdb-io/drawdb": 20,
+      "Anil-matcha/Open-Generative-AI": 21,
+      "gastownhall/beads": 22,
+      "firecrawl/open-lovable": 23,
+      "yikart/AiToEarn": 24,
+      "Unclecheng-li/VulnClaw": 25
     }
   }
 }
