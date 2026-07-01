@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-30",
-  "generated_at": "2026-06-30T04:40:42.549793+00:00",
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T05:00:08.463618+00:00",
   "source": "rss-auto",
   "releases": [
     {
@@ -227,153 +227,132 @@
   ],
   "hot": [
     {
-      "title": "Persona could be getting the Netflix live action treatment, ",
+      "title": "Total War: Warhammer 3 is getting new endgames, individual v",
       "category": "重磅新闻",
-      "summary": "Talent behind Stranger Things, Sonic The Hedgehog and Star Trek: Picard are reportedly involved.",
+      "summary": "We can even become an endgame crisis ourselves, which sounds neat.",
       "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/movies-tv/persona-could-be-getting-the-netflix-live-action-treatment-which-means-oh-no-americans-will-be-making-it/"
+      "url": "https://www.pcgamer.com/games/strategy/total-war-warhammer-3-is-getting-new-endgames-individual-victory-conditions-a-vampire-counts-rework-and-nurgles-three-grossest-champions/"
     },
     {
-      "title": "Super Mario Bros. Wonder \"Elephant Mario\" Statue Officially ",
+      "title": "Popular Steam Wallpaper Program Removes App Over Malware Con",
+      "category": "重磅新闻",
+      "summary": "Wallpaper Engine has been a popular wallpaper tool on Steam for the better part of a decade since its release. However, the tool's application wallpaper was apparently hijacked by bad actors months ago who used it to infect users' machines with malware as the desktop wallpaper pr",
+      "source": "GameSpot",
+      "url": "https://www.gamespot.com/articles/popular-steam-wallpaper-program-removes-app-over-malware-concerns/"
+    },
+    {
+      "title": "Tomb Raider: Definitive Edition Switch 2 Limited Run Physica",
+      "category": "重磅新闻",
+      "summary": "Pre-orders open this week.Following the shadow drop of Tomb Raider: Definitive Edition on the Switch 2 last November, physical distributor Limited Run Games has now officially announced a physical release.Pre-orders for a standard edition and collector's edition go live on 2nd Ju",
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/07/tomb-raider-definitive-edition-switch-2-limited-run-physical-release-announced"
+    },
+    {
+      "title": "Based on Meccha Chameleon's incredibly short 2-month dev cyc",
+      "category": "重磅新闻",
+      "summary": "That's, uh, a lotta money.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/sports/based-on-meccha-chameleons-incredibly-short-2-month-dev-cycle-its-creators-have-already-earned-usd1-million-per-day-of-work/"
+    },
+    {
+      "title": "Cruis'n Blast Has Been Delisted From The Switch eShop",
+      "category": "重磅新闻",
+      "summary": "Speeding away.Back in 2021, the Cruis'n series returned to consoles with the release of the arcade title Cruis'n Blast on the Switch.Years later, this racing title has now been delisted from the Nintendo eShop. There's no word from the developer Raw Thrills about the game's remov",
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/07/cruisn-blast-has-been-delisted-from-the-switch-eshop"
+    },
+    {
+      "title": "Civilization 7 Review Update",
       "category": "游戏更新",
-      "summary": "Update: Exclusive Edition revealed.:First 4 Figures is known for releasing all sorts of Nintendo-themed figures, and the next one on the way is \"Elephant Mario\" from Super Mario Bros. Wonder.Read the full article on nintendolife.com",
-      "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/06/super-mario-bros-wonder-elephant-mario-statue-officially-revealed-heres-a-first-look"
-    },
-    {
-      "title": "Another Switch 2 Edition Will Deliver More Demon Slaying Act",
-      "category": "重磅新闻",
-      "summary": "An upgrade pack has been confirmed for Switch owners.:Read the full article on nintendolife.com",
-      "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/06/another-switch-2-edition-will-deliver-more-demon-slaying-action-this-october"
-    },
-    {
-      "title": "Dawn of War 2’s The Last Stand mode is still the best co-op ",
-      "category": "重磅新闻",
-      "summary": "A co-op Warhammer 40K RTS mode so ahead of its time, it's still easy to find a match 17 years later.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/rts/dawn-of-war-2s-the-last-stand-mode-is-still-the-best-co-op-moba-that-never-was/"
-    },
-    {
-      "title": "Persona Live-Action TV Show in the Works at Netflix",
-      "category": "重磅新闻",
-      "summary": "A live-action Persona TV show is reportedly in development at Netflix.",
+      "summary": "A year and a half of updates have brought meaningful improvements alongside a few steps backward.",
       "source": "IGN",
-      "url": "https://www.ign.com/articles/persona-live-action-tv-show-in-the-works-at-netflix"
+      "url": "https://www.ign.com/articles/civilization-7-review-update"
     },
     {
-      "title": "Netflix Reportedly Making Live-Action Persona Series Nobody ",
-      "category": "行业活动",
-      "summary": "Atlus fans, I'm so sorry this is happening to you",
+      "title": "Love And Deepspace Cancels Its New Love Interest After Fan B",
+      "category": "重磅新闻",
+      "summary": "Shortly after developer Papergames announced the addition of Valko--a new love interest in the mobile action dating sim Love and Deepspace--the backlash from fans has spilled into the real world. Now, Papergames is reversing course by canceling Valko's debut and pledging to focus",
+      "source": "GameSpot",
+      "url": "https://www.gamespot.com/articles/love-and-deepspace-cancels-its-new-love-interest-after-fan-backlash/"
+    },
+    {
+      "title": "Everything We Know About World Of Warcraft‘s Rumored Classic",
+      "category": "爆料",
+      "summary": "A Classic for all seasons",
       "source": "Kotaku",
-      "url": "https://kotaku.com/netflix-reportedly-making-live-action-persona-series-nobody-asked-for-with-deadpool-director-and-star-trek-picard-writer-2000711527"
+      "url": "https://kotaku.com/everything-we-know-about-world-of-warcrafts-rumored-classic-2000711801"
     },
     {
-      "title": "Cyberpunk: Edgerunners 2 Teaser Features Cyberpunk 2077 Loca",
-      "category": "游戏更新",
-      "summary": "The first Cyberpunk: Edgerunners 2 teaser is here, and fans have already found some of the locations the new season pulled from Cyberpunk 2077.",
+      "title": "Please Come Back, 24-Hour Official Livestream Of Moomin On Y",
+      "category": "重磅新闻",
+      "summary": "Take me up to Moomin land",
+      "source": "Kotaku",
+      "url": "https://kotaku.com/please-come-back-24-hour-official-livestream-moomin-youtube-2000711840"
+    },
+    {
+      "title": "Daigo Says 'Random' State of Street Fighter 6 Is Good for Ca",
+      "category": "重磅新闻",
+      "summary": "While Daigo Umehara isn’t dissatisfied with the current state of Street Fighter 6, he says the game’s “random” style makes it difficult to determine the best player in modern tournament settings.",
       "source": "IGN",
-      "url": "https://www.ign.com/articles/cyberpunk-edgerunners-2-teaser-features-cyberpunk-2077-locations-set-to-show-up-in-new-season"
+      "url": "https://www.ign.com/articles/daigo-says-random-state-of-street-fighter-6-is-good-for-casuals-but-makes-it-hard-to-crown-a-goat"
     },
     {
-      "title": "After leading the studio through 2 rounds of layoffs and 1 g",
+      "title": "OG Baldur’s Gate Lead Designer Turned Down Opportunity To Ma",
       "category": "重磅新闻",
-      "summary": "He's also stepping down from his role at Supermassive parent Nordisk, so he can spend the summer with his family.",
+      "summary": "On the plus side, apparently a remake of Baldur's Gate 2 is on the way",
+      "source": "Kotaku",
+      "url": "https://kotaku.com/baldurs-gate-3-4-1-2-remake-original-larian-swen-vincke-james-ohlen-archetype-exodus-2000711714"
+    },
+    {
+      "title": "Steam is getting a jockey simulator next month that reimagin",
+      "category": "重磅新闻",
+      "summary": "It's an unconventional idea, but I'm willing to withhold judgement.",
       "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/gaming-industry/after-leading-the-studio-through-2-rounds-of-layoffs-and-1-game-release-the-ceo-of-supermassive-is-stepping-down/"
-    },
-    {
-      "title": "Xbox marketing takes embarrassing turn with new Call of Duty",
-      "category": "重磅新闻",
-      "summary": "My 'NOT ON XBOX GAME PASS THIS YEAR' ad has people wondering a lot of things about my business strategy already clarified by my ad.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/fps/xbox-marketing-takes-embarrassing-turn-with-new-call-of-duty-ads-loudly-disclaiming-not-on-xbox-game-pass-this-year/"
-    },
-    {
-      "title": "Acclaimed Spirited Away stage play is headed for America",
-      "category": "重磅新闻",
-      "summary": "Spirited Away: Live on Stage, an adaptation of Studio Ghibli's 2001 anime movie, is coming to Los Angeles and Toronto in 2027.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/spirited-away-stage-play-north-america/"
-    },
-    {
-      "title": "Why The Back-to-Back Street Fighter 6 Evo Champion, MenaRD, ",
-      "category": "重磅新闻",
-      "summary": "We asked Evo Champ MenaRD why he decided to switch off the character he's most known for playing in the highest stakes matches of the Street Fighter 6 tournament.",
-      "source": "IGN",
-      "url": "https://www.ign.com/articles/why-the-back-to-back-street-fighter-6-evo-champion-menard-switched-off-his-main-in-the-finals"
-    },
-    {
-      "title": "Hideki Kamiya thinks there should be a cozy Resident Evil ga",
-      "category": "重磅新闻",
-      "summary": "It's cool if someone else makes it, as long as he gets to play it.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/resident-evil/hideki-kamiya-thinks-there-should-be-a-cozy-resident-evil-game-where-retired-leon-goes-fishing-in-the-countryside/"
+      "url": "https://www.pcgamer.com/games/sports/steam-is-getting-a-jockey-simulator-next-month-that-reimagines-umamusume-as-normal-horses/"
     }
   ],
   "studios": [
     {
       "company": "任天堂",
-      "title": "More Mario Kart World 'Free Roam' Songs Have Been Added To N",
-      "summary": "Featuring tracks from Mario Kart DS & Wii.Nintendo recently added the Mario Kart World soundtrack to its music app, and since then, has been rolling out weekly updates featuring additional tracks from the game's 'Free Roam' mode.This latest update today Free Roam songs based on t",
+      "title": "Digital Foundry Delivers Its Tech Review Of Sonic Frontiers ",
+      "summary": "\"The technical improvements are substantial\".Sonic Frontiers got a not-so-surprising Definitive Edition release on the Switch 2 last week as part of the ongoing Sonic the Hedgehog 35th anniversary celebrations.Digital Foundry has now taken a closer look at this version of the gam",
       "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/06/more-mario-kart-world-free-roam-songs-have-been-added-to-nintendo-music"
-    },
-    {
-      "company": "索尼 / SIE",
-      "title": "Hearing about the future of PlayStation from its top dogs ma",
-      "summary": "My life for shareholder value.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/gaming-industry/hearing-about-the-future-of-playstation-from-its-top-dogs-made-me-so-depressed-i-had-to-go-lie-down/"
+      "url": "https://www.nintendolife.com/news/2026/07/digital-foundry-delivers-its-tech-review-of-sonic-frontiers-on-switch-2"
     },
     {
       "company": "微软 / Xbox",
-      "title": "State Of Decay Studio Undead Labs Reportedly At Risk Of Clos",
-      "summary": "Amid reports that Microsoft is planning massive layoffs in its Xbox gaming division, first-party studios like Double Fine, Compulsion Games, and Ninja Theory have been rumored to be in talks to avoid total closure. Now, State of Decay developer Undead Labs is said to be facing th",
-      "source": "GameSpot",
-      "url": "https://www.gamespot.com/articles/state-of-decay-studio-undead-labs-reportedly-at-risk-of-closure/"
+      "title": "Xbox Is Cutting A Bunch Of Stuff Loose, But Not Hideo Kojima",
+      "summary": "The project remains mysterious but still backed by Microsoft",
+      "source": "Kotaku",
+      "url": "https://kotaku.com/xbox-is-cutting-a-bunch-of-stuff-loose-but-not-hideo-kojimas-new-horror-game-od-2000711811"
     },
     {
-      "company": "世嘉 / SEGA",
-      "title": "Netflix is adapting Atlus Persona for new live-action TV ser",
-      "summary": "Sega, Atlus, and Netflix are teaming up to adapt the Persona RPG series for a live-action television series, according to a new report.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/persona-tv-series-netflix-atlus-sega/"
-    },
-    {
-      "company": "育碧 / Ubisoft",
-      "title": "Assassin's Creed Black Flag Resynced's PS5 Pro trailer looks",
-      "summary": "Ubisoft's new Assassin's Creed Black Flag remake trailer should be showcasing the game on PS5 Pro, but YouTube kinda ruined it",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/assassins-creed-black-flag-resynced-trailer-ps5-pro/"
-    },
-    {
-      "company": "卡普空 / Capcom",
-      "title": "Leon Kennedy Stardew Valley clone would be amazing, RE2 dire",
-      "summary": "Kamiya shared the idea with his former bosses at Capcom after fans inquired about his hypothetical return to the Resident Evil series",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/resident-evil-hideki-kamiya-leon-kennedy-life-sim/"
+      "company": "索尼 / SIE",
+      "title": "Fresh off of dumping on Xbox's flailing, former Sony exec sa",
+      "summary": "Shawn Layden is a man with opinions, and now that he's out of the game he doesn't mind sharing them.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/gaming-industry/fresh-off-of-dumping-on-xboxs-flailing-former-sony-exec-says-playstations-pullback-from-pc-releases-doesnt-make-any-sense-either/"
     },
     {
       "company": "Valve",
-      "title": "Steam Machine Companion Cube case cancelled because Dbrand d",
-      "summary": "This was definitely not a triumph.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/hardware/steam-machine-companion-cube-case-cancelled-because-dbrand-didnt-ask-valve-for-permission-to-make-it-were-going-to-regret-that-decision-for-a-very-long-time/"
+      "title": "In A Land Of Boring Consoles, The Steam Machine Is Fun And Q",
+      "summary": "Remember when game hardware had personality and was cool?",
+      "source": "Kotaku",
+      "url": "https://kotaku.com/in-a-land-of-boring-consoles-the-steam-machine-is-fun-and-quirky-2000711813"
     },
     {
       "company": "Take-Two / Rockstar",
-      "title": "GTA 6 is shaping up to be a disaster for stores like GameSto",
-      "summary": "With a reported $1 billion in digital pre-orders, Grand Theft Auto 6 could shape the future of GameStop and other retail chains.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/gta-6-digital-preorder-gamestop-sales-console-supply-rockstar-games/"
+      "title": "GTA 6 Developers Ask Rockstar for Union Recognition — and Th",
+      "summary": "Rockstar developers have applied for voluntary recognition of the IWGB Game Workers Union in a bid to make the Grand Theft Auto 6 developer the second UK games studio with a recognized union.",
+      "source": "IGN",
+      "url": "https://www.ign.com/articles/gta-6-developers-ask-rockstar-for-union-recognition-and-theyre-prepared-to-go-to-the-uk-government-if-necessary"
     },
     {
-      "company": "Square Enix",
-      "title": "Best Buy Slashes Prices on Select Square Enix Games – Here A",
-      "summary": "Best Buy has dropped the prices of select Square Enix games. Score big discounts on Final Fantasy 7 Rebirth, Octopath Traveler 0, and more.",
-      "source": "IGN",
-      "url": "https://www.ign.com/articles/best-buy-has-slashed-the-prices-of-select-square-enix-games-here-are-some-of-our-favorite-picks"
+      "company": "育碧 / Ubisoft",
+      "title": "Star Wars Monopoly Is Fun, Unless You Are Playing Against Ch",
+      "summary": "Ubisoft's new Star Wars-themed Monopoly game is fine enough, but it needs more options",
+      "source": "Kotaku",
+      "url": "https://kotaku.com/star-wars-monopoly-is-fun-unless-you-are-playing-against-chewbacca-who-is-a-overpowered-nuclear-bomb-2000711507"
     }
   ]
 }
