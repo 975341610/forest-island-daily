@@ -12,8 +12,8 @@
     },
     "xbtlin/ai-berkshire": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 2831,
+      "appearances": 3,
+      "total_today_stars": 3800,
       "language": "Python",
       "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6993203?v=4",
@@ -39,8 +39,8 @@
     },
     "ripienaar/free-for-dev": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 2430,
+      "appearances": 3,
+      "total_today_stars": 3172,
       "language": "HTML",
       "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
       "owner_avatar": "https://avatars.githubusercontent.com/u/82342?v=4",
@@ -48,8 +48,8 @@
     },
     "HKUDS/Vibe-Trading": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1331,
+      "appearances": 3,
+      "total_today_stars": 2052,
       "language": "Python",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -84,8 +84,8 @@
     },
     "Robbyant/lingbot-map": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 837,
+      "appearances": 3,
+      "total_today_stars": 1026,
       "language": "Python",
       "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
       "owner_avatar": "https://avatars.githubusercontent.com/u/212647524?v=4",
@@ -102,8 +102,8 @@
     },
     "canopy-network/canopy": {
       "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 693,
+      "appearances": 3,
+      "total_today_stars": 1000,
       "language": "Go",
       "description": "The official go implementation of the Canopy Network protocol",
       "owner_avatar": "https://avatars.githubusercontent.com/u/183553659?v=4",
@@ -111,8 +111,8 @@
     },
     "tinyhumansai/openhuman": {
       "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 586,
+      "appearances": 3,
+      "total_today_stars": 726,
       "language": "Rust",
       "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
@@ -147,8 +147,8 @@
     },
     "vercel-labs/skills": {
       "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 563,
+      "appearances": 3,
+      "total_today_stars": 747,
       "language": "TypeScript",
       "description": "The open agent skills tool - npx skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
@@ -165,8 +165,8 @@
     },
     "browser-use/video-use": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1163,
+      "appearances": 3,
+      "total_today_stars": 1884,
       "language": "Python",
       "description": "Edit videos with coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
@@ -200,9 +200,9 @@
       "html_url": "https://github.com/pandas-dev/pandas"
     },
     "usestrix/strix": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 122,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 637,
       "language": "Python",
       "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
@@ -237,8 +237,8 @@
     },
     "facebook/astryx": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 426,
+      "appearances": 2,
+      "total_today_stars": 790,
       "language": "TypeScript",
       "description": "An open source design system that's fully customizable and agent ready",
       "owner_avatar": "https://avatars.githubusercontent.com/u/69631?v=4",
@@ -254,9 +254,9 @@
       "html_url": "https://github.com/0xNyk/council-of-high-intelligence"
     },
     "refactoringhq/tolaria": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 280,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 715,
       "language": "TypeScript",
       "description": "Desktop app to manage markdown knowledge bases",
       "owner_avatar": "https://avatars.githubusercontent.com/u/263141683?v=4",
@@ -273,8 +273,8 @@
     },
     "lumina-ai-inc/chunkr": {
       "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 262,
+      "appearances": 2,
+      "total_today_stars": 379,
       "language": "Rust",
       "description": "Vision infrastructure to turn complex documents into RAG/LLM-ready data",
       "owner_avatar": "https://avatars.githubusercontent.com/u/133187075?v=4",
@@ -300,8 +300,8 @@
     },
     "drawdb-io/drawdb": {
       "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 172,
+      "appearances": 2,
+      "total_today_stars": 298,
       "language": "JavaScript",
       "description": "Free, simple, and intuitive online database diagram editor and SQL generator.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/139706923?v=4",
@@ -326,9 +326,9 @@
       "html_url": "https://github.com/firecrawl/open-lovable"
     },
     "yikart/AiToEarn": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 132,
+      "best_rank": 22,
+      "appearances": 2,
+      "total_today_stars": 260,
       "language": "TypeScript",
       "description": "Let's use AI to Earn!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/194770693?v=4",
@@ -342,6 +342,105 @@
       "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/55303635?v=4",
       "html_url": "https://github.com/Unclecheng-li/VulnClaw"
+    },
+    "hasaneyldrm/exercises-dataset": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 1343,
+      "language": "HTML",
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/28005450?v=4",
+      "html_url": "https://github.com/hasaneyldrm/exercises-dataset"
+    },
+    "Panniantong/Agent-Reach": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1339,
+      "language": "Python",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
+      "html_url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    "hugohe3/ppt-master": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 881,
+      "language": "Python",
+      "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/188330578?v=4",
+      "html_url": "https://github.com/hugohe3/ppt-master"
+    },
+    "google/agents-cli": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 445,
+      "language": "Python",
+      "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "html_url": "https://github.com/google/agents-cli"
+    },
+    "CoreBunch/Instatic": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 351,
+      "language": "TypeScript",
+      "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/200088650?v=4",
+      "html_url": "https://github.com/CoreBunch/Instatic"
+    },
+    "interviewstreet/hiring-agent": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 312,
+      "language": "Python",
+      "description": "AI agent to evaluate and score resumes.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1030588?v=4",
+      "html_url": "https://github.com/interviewstreet/hiring-agent"
+    },
+    "roboflow/supervision": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 309,
+      "language": "Python",
+      "description": "We write your reusable computer vision tools. 💜",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/53104118?v=4",
+      "html_url": "https://github.com/roboflow/supervision"
+    },
+    "microsoft/AI-For-Beginners": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 252,
+      "language": "Jupyter Notebook",
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/AI-For-Beginners"
+    },
+    "humanlayer/12-factor-agents": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 166,
+      "language": "TypeScript",
+      "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/177409041?v=4",
+      "html_url": "https://github.com/humanlayer/12-factor-agents"
+    },
+    "decolua/9router": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 161,
+      "language": "JavaScript",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/8282593?v=4",
+      "html_url": "https://github.com/decolua/9router"
+    },
+    "1jehuang/jcode": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 122,
+      "language": "Rust",
+      "description": "Coding Agent Harness",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/94247773?v=4",
+      "html_url": "https://github.com/1jehuang/jcode"
     }
   }
 }

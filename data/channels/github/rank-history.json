@@ -701,6 +701,33 @@
       "firecrawl/open-lovable": 23,
       "yikart/AiToEarn": 24,
       "Unclecheng-li/VulnClaw": 25
+    },
+    "2026-07-01": {
+      "hasaneyldrm/exercises-dataset": 1,
+      "Panniantong/Agent-Reach": 2,
+      "xbtlin/ai-berkshire": 3,
+      "hugohe3/ppt-master": 4,
+      "ripienaar/free-for-dev": 5,
+      "browser-use/video-use": 6,
+      "HKUDS/Vibe-Trading": 7,
+      "usestrix/strix": 8,
+      "google/agents-cli": 9,
+      "refactoringhq/tolaria": 10,
+      "facebook/astryx": 11,
+      "CoreBunch/Instatic": 12,
+      "interviewstreet/hiring-agent": 13,
+      "roboflow/supervision": 14,
+      "canopy-network/canopy": 15,
+      "microsoft/AI-For-Beginners": 16,
+      "Robbyant/lingbot-map": 17,
+      "vercel-labs/skills": 18,
+      "humanlayer/12-factor-agents": 19,
+      "decolua/9router": 20,
+      "tinyhumansai/openhuman": 21,
+      "yikart/AiToEarn": 22,
+      "drawdb-io/drawdb": 23,
+      "1jehuang/jcode": 24,
+      "lumina-ai-inc/chunkr": 25
     }
   }
 }
