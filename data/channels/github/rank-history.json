@@ -728,6 +728,33 @@
       "drawdb-io/drawdb": 23,
       "1jehuang/jcode": 24,
       "lumina-ai-inc/chunkr": 25
+    },
+    "2026-07-02": {
+      "hasaneyldrm/exercises-dataset": 1,
+      "usestrix/strix": 2,
+      "microsoft/AI-For-Beginners": 3,
+      "facebook/astryx": 4,
+      "HKUDS/Vibe-Trading": 5,
+      "browser-use/video-use": 6,
+      "google/agents-cli": 7,
+      "CoreBunch/Instatic": 8,
+      "allenai/olmocr": 9,
+      "decolua/9router": 10,
+      "canopy-network/canopy": 11,
+      "yorukot/superfile": 12,
+      "Mebus/cupp": 13,
+      "t8y2/dbx": 14,
+      "0xNyk/council-of-high-intelligence": 15,
+      "refactoringhq/tolaria": 16,
+      "HKUDS/VideoAgent": 17,
+      "Wei-Shaw/sub2api": 18,
+      "Unclecheng-li/VulnClaw": 19,
+      "yikart/AiToEarn": 20,
+      "ChromeDevTools/chrome-devtools-mcp": 21,
+      "vosen/ZLUDA": 22,
+      "getmaxun/maxun": 23,
+      "langchain-ai/deepagents": 24,
+      "openobserve/openobserve": 25
     }
   }
 }

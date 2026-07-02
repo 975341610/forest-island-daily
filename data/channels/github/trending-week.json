@@ -48,8 +48,8 @@
     },
     "HKUDS/Vibe-Trading": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 2052,
+      "appearances": 4,
+      "total_today_stars": 2746,
       "language": "Python",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -102,8 +102,8 @@
     },
     "canopy-network/canopy": {
       "best_rank": 11,
-      "appearances": 3,
-      "total_today_stars": 1000,
+      "appearances": 4,
+      "total_today_stars": 1271,
       "language": "Go",
       "description": "The official go implementation of the Canopy Network protocol",
       "owner_avatar": "https://avatars.githubusercontent.com/u/183553659?v=4",
@@ -165,8 +165,8 @@
     },
     "browser-use/video-use": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 1884,
+      "appearances": 4,
+      "total_today_stars": 2577,
       "language": "Python",
       "description": "Edit videos with coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
@@ -200,9 +200,9 @@
       "html_url": "https://github.com/pandas-dev/pandas"
     },
     "usestrix/strix": {
-      "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 637,
+      "best_rank": 2,
+      "appearances": 3,
+      "total_today_stars": 1848,
       "language": "Python",
       "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
@@ -236,9 +236,9 @@
       "html_url": "https://github.com/firecrawl/firecrawl"
     },
     "facebook/astryx": {
-      "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 790,
+      "best_rank": 4,
+      "appearances": 3,
+      "total_today_stars": 1498,
       "language": "TypeScript",
       "description": "An open source design system that's fully customizable and agent ready",
       "owner_avatar": "https://avatars.githubusercontent.com/u/69631?v=4",
@@ -246,8 +246,8 @@
     },
     "0xNyk/council-of-high-intelligence": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 331,
+      "appearances": 2,
+      "total_today_stars": 492,
       "language": "Shell",
       "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council",
       "owner_avatar": "https://avatars.githubusercontent.com/u/93952610?v=4",
@@ -255,8 +255,8 @@
     },
     "refactoringhq/tolaria": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 715,
+      "appearances": 3,
+      "total_today_stars": 865,
       "language": "TypeScript",
       "description": "Desktop app to manage markdown knowledge bases",
       "owner_avatar": "https://avatars.githubusercontent.com/u/263141683?v=4",
@@ -326,18 +326,18 @@
       "html_url": "https://github.com/firecrawl/open-lovable"
     },
     "yikart/AiToEarn": {
-      "best_rank": 22,
-      "appearances": 2,
-      "total_today_stars": 260,
+      "best_rank": 20,
+      "appearances": 3,
+      "total_today_stars": 376,
       "language": "TypeScript",
       "description": "Let's use AI to Earn!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/194770693?v=4",
       "html_url": "https://github.com/yikart/AiToEarn"
     },
     "Unclecheng-li/VulnClaw": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 129,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 261,
       "language": "Python",
       "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/55303635?v=4",
@@ -345,8 +345,8 @@
     },
     "hasaneyldrm/exercises-dataset": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 1343,
+      "appearances": 2,
+      "total_today_stars": 3813,
       "language": "HTML",
       "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/28005450?v=4",
@@ -371,18 +371,18 @@
       "html_url": "https://github.com/hugohe3/ppt-master"
     },
     "google/agents-cli": {
-      "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 445,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 1031,
       "language": "Python",
       "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
       "html_url": "https://github.com/google/agents-cli"
     },
     "CoreBunch/Instatic": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 351,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 859,
       "language": "TypeScript",
       "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute",
       "owner_avatar": "https://avatars.githubusercontent.com/u/200088650?v=4",
@@ -407,9 +407,9 @@
       "html_url": "https://github.com/roboflow/supervision"
     },
     "microsoft/AI-For-Beginners": {
-      "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 252,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 1348,
       "language": "Jupyter Notebook",
       "description": "12 Weeks, 24 Lessons, AI for All!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -425,9 +425,9 @@
       "html_url": "https://github.com/humanlayer/12-factor-agents"
     },
     "decolua/9router": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 161,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 445,
       "language": "JavaScript",
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8282593?v=4",
@@ -441,6 +441,105 @@
       "description": "Coding Agent Harness",
       "owner_avatar": "https://avatars.githubusercontent.com/u/94247773?v=4",
       "html_url": "https://github.com/1jehuang/jcode"
+    },
+    "allenai/olmocr": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 334,
+      "language": "Python",
+      "description": "Toolkit for linearizing PDFs for LLM datasets/training",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5667695?v=4",
+      "html_url": "https://github.com/allenai/olmocr"
+    },
+    "yorukot/superfile": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 204,
+      "language": "Go",
+      "description": "Pretty fancy and modern terminal file manager",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/107802416?v=4",
+      "html_url": "https://github.com/yorukot/superfile"
+    },
+    "Mebus/cupp": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 184,
+      "language": "Python",
+      "description": "Common User Passwords Profiler (CUPP)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/271557?v=4",
+      "html_url": "https://github.com/Mebus/cupp"
+    },
+    "t8y2/dbx": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 166,
+      "language": "Rust",
+      "description": "15MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.15MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
+      "html_url": "https://github.com/t8y2/dbx"
+    },
+    "HKUDS/VideoAgent": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 139,
+      "language": "Python",
+      "description": "\"VideoAgent: All-in-One Agentic Framework for Video Understanding, Editing, and Remaking\"",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/VideoAgent"
+    },
+    "Wei-Shaw/sub2api": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 139,
+      "language": "Go",
+      "description": "Sub2API is an open-source relay platform that unifies Claude, OpenAI, Gemini, and Antigravity subscriptions into a single endpoint. It supports account sharing and cost-sharing, with seamless native tool compatibility.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/26101719?v=4",
+      "html_url": "https://github.com/Wei-Shaw/sub2api"
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 92,
+      "language": "TypeScript",
+      "description": "Chrome DevTools for coding agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11260967?v=4",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    "vosen/ZLUDA": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 92,
+      "language": "Rust",
+      "description": "CUDA on non-NVIDIA GPUs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1206376?v=4",
+      "html_url": "https://github.com/vosen/ZLUDA"
+    },
+    "getmaxun/maxun": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 88,
+      "language": "TypeScript",
+      "description": "🔥 The open-source no-code platform for web scraping, crawling, search and AI data extraction • Turn websites into structured APIs in minutes 🔥 ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/139582646?v=4",
+      "html_url": "https://github.com/getmaxun/maxun"
+    },
+    "langchain-ai/deepagents": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 80,
+      "language": "Python",
+      "description": "The batteries-included agent harness.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/126733545?v=4",
+      "html_url": "https://github.com/langchain-ai/deepagents"
+    },
+    "openobserve/openobserve": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 80,
+      "language": "TypeScript",
+      "description": "Open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/95867656?v=4",
+      "html_url": "https://github.com/openobserve/openobserve"
     }
   }
 }
