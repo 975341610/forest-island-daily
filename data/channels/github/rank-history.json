@@ -755,6 +755,33 @@
       "getmaxun/maxun": 23,
       "langchain-ai/deepagents": 24,
       "openobserve/openobserve": 25
+    },
+    "2026-07-03": {
+      "usestrix/strix": 1,
+      "facebook/astryx": 2,
+      "HKUDS/Vibe-Trading": 3,
+      "hasaneyldrm/exercises-dataset": 4,
+      "NousResearch/hermes-agent": 5,
+      "browser-use/video-use": 6,
+      "firecrawl/firecrawl": 7,
+      "tt-a1i/archify": 8,
+      "yikart/AiToEarn": 9,
+      "public-apis/public-apis": 10,
+      "openai/codex-plugin-cc": 11,
+      "TencentCloud/CubeSandbox": 12,
+      "OpenCut-app/OpenCut": 13,
+      "ruvnet/ruflo": 14,
+      "yorukot/superfile": 15,
+      "decolua/9router": 16,
+      "browser-use/browser-use": 17,
+      "anthropics/claude-code": 18,
+      "vercel-labs/skills": 19,
+      "langflow-ai/langflow": 20,
+      "google/agents-cli": 21,
+      "alirezarezvani/claude-skills": 22,
+      "ChromeDevTools/chrome-devtools-mcp": 23,
+      "ashishpatel26/500-AI-Agents-Projects": 24,
+      "excalidraw/excalidraw": 25
     }
   }
 }

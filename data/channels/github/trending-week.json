@@ -47,9 +47,9 @@
       "html_url": "https://github.com/ripienaar/free-for-dev"
     },
     "HKUDS/Vibe-Trading": {
-      "best_rank": 4,
-      "appearances": 4,
-      "total_today_stars": 2746,
+      "best_rank": 3,
+      "appearances": 5,
+      "total_today_stars": 3685,
       "language": "Python",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -147,8 +147,8 @@
     },
     "vercel-labs/skills": {
       "best_rank": 13,
-      "appearances": 3,
-      "total_today_stars": 747,
+      "appearances": 4,
+      "total_today_stars": 906,
       "language": "TypeScript",
       "description": "The open agent skills tool - npx skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
@@ -165,8 +165,8 @@
     },
     "browser-use/video-use": {
       "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 2577,
+      "appearances": 5,
+      "total_today_stars": 3131,
       "language": "Python",
       "description": "Edit videos with coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
@@ -200,9 +200,9 @@
       "html_url": "https://github.com/pandas-dev/pandas"
     },
     "usestrix/strix": {
-      "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 1848,
+      "best_rank": 1,
+      "appearances": 4,
+      "total_today_stars": 3985,
       "language": "Python",
       "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
@@ -228,17 +228,17 @@
     },
     "firecrawl/firecrawl": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 826,
+      "appearances": 2,
+      "total_today_stars": 1361,
       "language": "TypeScript",
       "description": "The API to search, scrape, and interact with the web at scale. 🔥",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
       "html_url": "https://github.com/firecrawl/firecrawl"
     },
     "facebook/astryx": {
-      "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 1498,
+      "best_rank": 2,
+      "appearances": 4,
+      "total_today_stars": 2606,
       "language": "TypeScript",
       "description": "An open source design system that's fully customizable and agent ready",
       "owner_avatar": "https://avatars.githubusercontent.com/u/69631?v=4",
@@ -326,9 +326,9 @@
       "html_url": "https://github.com/firecrawl/open-lovable"
     },
     "yikart/AiToEarn": {
-      "best_rank": 20,
-      "appearances": 3,
-      "total_today_stars": 376,
+      "best_rank": 9,
+      "appearances": 4,
+      "total_today_stars": 838,
       "language": "TypeScript",
       "description": "Let's use AI to Earn!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/194770693?v=4",
@@ -345,8 +345,8 @@
     },
     "hasaneyldrm/exercises-dataset": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 3813,
+      "appearances": 3,
+      "total_today_stars": 4751,
       "language": "HTML",
       "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/28005450?v=4",
@@ -372,8 +372,8 @@
     },
     "google/agents-cli": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 1031,
+      "appearances": 3,
+      "total_today_stars": 1146,
       "language": "Python",
       "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
@@ -426,8 +426,8 @@
     },
     "decolua/9router": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 445,
+      "appearances": 3,
+      "total_today_stars": 676,
       "language": "JavaScript",
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8282593?v=4",
@@ -453,8 +453,8 @@
     },
     "yorukot/superfile": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 204,
+      "appearances": 2,
+      "total_today_stars": 456,
       "language": "Go",
       "description": "Pretty fancy and modern terminal file manager",
       "owner_avatar": "https://avatars.githubusercontent.com/u/107802416?v=4",
@@ -498,8 +498,8 @@
     },
     "ChromeDevTools/chrome-devtools-mcp": {
       "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 92,
+      "appearances": 2,
+      "total_today_stars": 196,
       "language": "TypeScript",
       "description": "Chrome DevTools for coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11260967?v=4",
@@ -540,6 +540,123 @@
       "description": "Open source observability platform for logs, metrics, traces, frontend monitoring, pipelines and LLM observability. A sophisticated, simple and highly performant alternative to Datadog, Splunk, and Elasticsearch with 140x lower storage costs and single binary deployment.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/95867656?v=4",
       "html_url": "https://github.com/openobserve/openobserve"
+    },
+    "NousResearch/hermes-agent": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 829,
+      "language": "Python",
+      "description": "The agent that grows with you",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
+      "html_url": "https://github.com/NousResearch/hermes-agent"
+    },
+    "tt-a1i/archify": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 484,
+      "language": "JavaScript",
+      "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
+      "html_url": "https://github.com/tt-a1i/archify"
+    },
+    "public-apis/public-apis": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 366,
+      "language": "Python",
+      "description": "A collective list of free APIs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/51121562?v=4",
+      "html_url": "https://github.com/public-apis/public-apis"
+    },
+    "openai/codex-plugin-cc": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 352,
+      "language": "JavaScript",
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/codex-plugin-cc"
+    },
+    "TencentCloud/CubeSandbox": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 314,
+      "language": "Rust",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
+      "html_url": "https://github.com/TencentCloud/CubeSandbox"
+    },
+    "OpenCut-app/OpenCut": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 294,
+      "language": "TypeScript",
+      "description": "The open-source CapCut alternative",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/217499887?v=4",
+      "html_url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    "ruvnet/ruflo": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 263,
+      "language": "TypeScript",
+      "description": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "html_url": "https://github.com/ruvnet/ruflo"
+    },
+    "browser-use/browser-use": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 205,
+      "language": "Python",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "html_url": "https://github.com/browser-use/browser-use"
+    },
+    "anthropics/claude-code": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 202,
+      "language": "Python",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-code"
+    },
+    "langflow-ai/langflow": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 117,
+      "language": "Python",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85702467?v=4",
+      "html_url": "https://github.com/langflow-ai/langflow"
+    },
+    "alirezarezvani/claude-skills": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 109,
+      "language": "Python",
+      "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5697919?v=4",
+      "html_url": "https://github.com/alirezarezvani/claude-skills"
+    },
+    "ashishpatel26/500-AI-Agents-Projects": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 100,
+      "language": "Python",
+      "description": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/3095771?v=4",
+      "html_url": "https://github.com/ashishpatel26/500-AI-Agents-Projects"
+    },
+    "excalidraw/excalidraw": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 93,
+      "language": "TypeScript",
+      "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/59452120?v=4",
+      "html_url": "https://github.com/excalidraw/excalidraw"
     }
   }
 }
