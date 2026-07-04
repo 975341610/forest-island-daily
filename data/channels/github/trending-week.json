@@ -48,8 +48,8 @@
     },
     "HKUDS/Vibe-Trading": {
       "best_rank": 3,
-      "appearances": 5,
-      "total_today_stars": 3685,
+      "appearances": 6,
+      "total_today_stars": 4149,
       "language": "Python",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -201,8 +201,8 @@
     },
     "usestrix/strix": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 3985,
+      "appearances": 5,
+      "total_today_stars": 6788,
       "language": "Python",
       "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
@@ -237,8 +237,8 @@
     },
     "facebook/astryx": {
       "best_rank": 2,
-      "appearances": 4,
-      "total_today_stars": 2606,
+      "appearances": 5,
+      "total_today_stars": 3491,
       "language": "TypeScript",
       "description": "An open source design system that's fully customizable and agent ready",
       "owner_avatar": "https://avatars.githubusercontent.com/u/69631?v=4",
@@ -426,8 +426,8 @@
     },
     "decolua/9router": {
       "best_rank": 10,
-      "appearances": 3,
-      "total_today_stars": 676,
+      "appearances": 4,
+      "total_today_stars": 845,
       "language": "JavaScript",
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8282593?v=4",
@@ -453,8 +453,8 @@
     },
     "yorukot/superfile": {
       "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 456,
+      "appearances": 3,
+      "total_today_stars": 632,
       "language": "Go",
       "description": "Pretty fancy and modern terminal file manager",
       "owner_avatar": "https://avatars.githubusercontent.com/u/107802416?v=4",
@@ -497,9 +497,9 @@
       "html_url": "https://github.com/Wei-Shaw/sub2api"
     },
     "ChromeDevTools/chrome-devtools-mcp": {
-      "best_rank": 21,
-      "appearances": 2,
-      "total_today_stars": 196,
+      "best_rank": 10,
+      "appearances": 3,
+      "total_today_stars": 601,
       "language": "TypeScript",
       "description": "Chrome DevTools for coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11260967?v=4",
@@ -552,8 +552,8 @@
     },
     "tt-a1i/archify": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 484,
+      "appearances": 2,
+      "total_today_stars": 699,
       "language": "JavaScript",
       "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
@@ -569,9 +569,9 @@
       "html_url": "https://github.com/public-apis/public-apis"
     },
     "openai/codex-plugin-cc": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 352,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 986,
       "language": "JavaScript",
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -614,18 +614,18 @@
       "html_url": "https://github.com/browser-use/browser-use"
     },
     "anthropics/claude-code": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 202,
+      "best_rank": 15,
+      "appearances": 2,
+      "total_today_stars": 423,
       "language": "Python",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
       "html_url": "https://github.com/anthropics/claude-code"
     },
     "langflow-ai/langflow": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 117,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 648,
       "language": "Python",
       "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/85702467?v=4",
@@ -633,8 +633,8 @@
     },
     "alirezarezvani/claude-skills": {
       "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 109,
+      "appearances": 2,
+      "total_today_stars": 239,
       "language": "Python",
       "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5697919?v=4",
@@ -657,6 +657,132 @@
       "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
       "owner_avatar": "https://avatars.githubusercontent.com/u/59452120?v=4",
       "html_url": "https://github.com/excalidraw/excalidraw"
+    },
+    "alibaba/page-agent": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1110,
+      "language": "TypeScript",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
+      "html_url": "https://github.com/alibaba/page-agent"
+    },
+    "harvard-edge/cs249r_book": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 793,
+      "language": "Python",
+      "description": "Machine Learning Systems",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/47722602?v=4",
+      "html_url": "https://github.com/harvard-edge/cs249r_book"
+    },
+    "stablyai/orca": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 703,
+      "language": "TypeScript",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "html_url": "https://github.com/stablyai/orca"
+    },
+    "agentskills/agentskills": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 406,
+      "language": "Python",
+      "description": "Specification and documentation for Agent Skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/249824077?v=4",
+      "html_url": "https://github.com/agentskills/agentskills"
+    },
+    "pytorch/pytorch": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 293,
+      "language": "Python",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/21003710?v=4",
+      "html_url": "https://github.com/pytorch/pytorch"
+    },
+    "pbakaus/impeccable": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 260,
+      "language": "JavaScript",
+      "description": "The design language that makes your AI harness better at design.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
+      "html_url": "https://github.com/pbakaus/impeccable"
+    },
+    "rommapp/romm": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 239,
+      "language": "Python",
+      "description": "A beautiful, powerful, self-hosted rom manager and player.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/164058018?v=4",
+      "html_url": "https://github.com/rommapp/romm"
+    },
+    "Chocobozzz/PeerTube": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 223,
+      "language": "TypeScript",
+      "description": "ActivityPub-federated video streaming platform using P2P directly in your web browser",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5180488?v=4",
+      "html_url": "https://github.com/Chocobozzz/PeerTube"
+    },
+    "Alishahryar1/free-claude-code": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 212,
+      "language": "Python",
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
+      "html_url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    "ryanmcdermott/clean-code-javascript": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 164,
+      "language": "JavaScript",
+      "description": "Clean Code concepts adapted for JavaScript",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5114666?v=4",
+      "html_url": "https://github.com/ryanmcdermott/clean-code-javascript"
+    },
+    "huggingface/speech-to-speech": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 162,
+      "language": "Python",
+      "description": "Build local voice agents with open-source models",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "html_url": "https://github.com/huggingface/speech-to-speech"
+    },
+    "juanfont/headscale": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 130,
+      "language": "Go",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/181059?v=4",
+      "html_url": "https://github.com/juanfont/headscale"
+    },
+    "actions/checkout": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 129,
+      "language": "TypeScript",
+      "description": "Action for checking out a repo",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/44036562?v=4",
+      "html_url": "https://github.com/actions/checkout"
+    },
+    "microsoft/vscode": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 117,
+      "language": "TypeScript",
+      "description": "Visual Studio Code",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/vscode"
     }
   }
 }

@@ -782,6 +782,33 @@
       "ChromeDevTools/chrome-devtools-mcp": 23,
       "ashishpatel26/500-AI-Agents-Projects": 24,
       "excalidraw/excalidraw": 25
+    },
+    "2026-07-04": {
+      "usestrix/strix": 1,
+      "alibaba/page-agent": 2,
+      "facebook/astryx": 3,
+      "harvard-edge/cs249r_book": 4,
+      "stablyai/orca": 5,
+      "openai/codex-plugin-cc": 6,
+      "langflow-ai/langflow": 7,
+      "HKUDS/Vibe-Trading": 8,
+      "agentskills/agentskills": 9,
+      "ChromeDevTools/chrome-devtools-mcp": 10,
+      "pytorch/pytorch": 11,
+      "pbakaus/impeccable": 12,
+      "rommapp/romm": 13,
+      "Chocobozzz/PeerTube": 14,
+      "anthropics/claude-code": 15,
+      "tt-a1i/archify": 16,
+      "Alishahryar1/free-claude-code": 17,
+      "yorukot/superfile": 18,
+      "decolua/9router": 19,
+      "ryanmcdermott/clean-code-javascript": 20,
+      "huggingface/speech-to-speech": 21,
+      "alirezarezvani/claude-skills": 22,
+      "juanfont/headscale": 23,
+      "actions/checkout": 24,
+      "microsoft/vscode": 25
     }
   }
 }
