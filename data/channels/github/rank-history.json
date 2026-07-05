@@ -809,6 +809,33 @@
       "juanfont/headscale": 23,
       "actions/checkout": 24,
       "microsoft/vscode": 25
+    },
+    "2026-07-05": {
+      "usestrix/strix": 1,
+      "facebook/astryx": 2,
+      "alibaba/page-agent": 3,
+      "openai/codex-plugin-cc": 4,
+      "harvard-edge/cs249r_book": 5,
+      "rommapp/romm": 6,
+      "anthropics/claude-code": 7,
+      "agentskills/agentskills": 8,
+      "ChromeDevTools/chrome-devtools-mcp": 9,
+      "pbakaus/impeccable": 10,
+      "immich-app/immich": 11,
+      "TencentCloud/CubeSandbox": 12,
+      "chthollyphile/folia-major": 13,
+      "openai/codex": 14,
+      "tt-a1i/archify": 15,
+      "ruvnet/ruflo": 16,
+      "alirezarezvani/claude-skills": 17,
+      "ruvnet/RuView": 18,
+      "AgentWrapper/agent-orchestrator": 19,
+      "huggingface/speech-to-speech": 20,
+      "ai-boost/awesome-harness-engineering": 21,
+      "yorukot/superfile": 22,
+      "ModernRelay/omnigraph": 23,
+      "paper-design/shaders": 24,
+      "langflow-ai/langflow": 25
     }
   }
 }
