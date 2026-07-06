@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-05": {
-      "NousResearch/hermes-agent": 1,
-      "farion1231/cc-switch": 2,
-      "HKUDS/Vibe-Trading": 3,
-      "jwasham/coding-interview-university": 4,
-      "Open-LLM-VTuber/Open-LLM-VTuber": 5,
-      "supermemoryai/supermemory": 6,
-      "datawhalechina/hello-agents": 7,
-      "pbakaus/impeccable": 8,
-      "fathah/hermes-desktop": 9,
-      "openai/codex": 10,
-      "odoo/odoo": 11,
-      "github/spec-kit": 12,
-      "reconurge/flowsint": 13,
-      "Fission-AI/OpenSpec": 14,
-      "aquasecurity/trivy": 15,
-      "lfnovo/open-notebook": 16,
-      "cyberpapiii/chipotlai-max": 17,
-      "mvanhorn/last30days-skill": 18,
-      "langgenius/dify": 19,
-      "zarazhangrui/frontend-slides": 20,
-      "ollama/ollama": 21,
-      "PaddlePaddle/PaddleOCR": 22,
-      "EvoMap/evolver": 23,
-      "aaif-goose/goose": 24,
-      "AIDC-AI/Pixelle-Video": 25
-    },
     "2026-06-06": {
       "NousResearch/hermes-agent": 1,
       "lfnovo/open-notebook": 2,
@@ -836,6 +809,33 @@
       "ModernRelay/omnigraph": 23,
       "paper-design/shaders": 24,
       "langflow-ai/langflow": 25
+    },
+    "2026-07-06": {
+      "openai/codex-plugin-cc": 1,
+      "usestrix/strix": 2,
+      "alibaba/page-agent": 3,
+      "facebook/astryx": 4,
+      "cheahjs/free-llm-api-resources": 5,
+      "immich-app/immich": 6,
+      "rommapp/romm": 7,
+      "alirezarezvani/claude-skills": 8,
+      "bradautomates/claude-video": 9,
+      "public-apis/public-apis": 10,
+      "harvard-edge/cs249r_book": 11,
+      "TauricResearch/TradingAgents": 12,
+      "ChromeDevTools/chrome-devtools-mcp": 13,
+      "dotnet/skills": 14,
+      "karpathy/nanoGPT": 15,
+      "mvanhorn/last30days-skill": 16,
+      "pbakaus/impeccable": 17,
+      "ruvnet/RuView": 18,
+      "anthropics/claude-code": 19,
+      "can1357/oh-my-pi": 20,
+      "Comfy-Org/ComfyUI": 21,
+      "HalFrgrd/flyline": 22,
+      "Wei-Shaw/sub2api": 23,
+      "esengine/DeepSeek-Reasonix": 24,
+      "ollama/ollama": 25
     }
   }
 }
