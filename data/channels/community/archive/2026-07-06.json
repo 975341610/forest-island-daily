@@ -1,0 +1,121 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T08:30:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "title": "99万机器人伴侣发布 网友吵翻有悖伦理",
+      "url": "https://m.thepaper.cn/newsDetail_forward_33500955",
+      "platform": "澎湃新闻",
+      "author": "澎湃新闻",
+      "detail": "优必选发布仿生人形机器人U1赛博伴侣,售价11.98万至99万元,订单据称已破1.3万台。发布后引发激烈争论,不少网友质疑其涉及情感替代与伦理边界。",
+      "heat": "微博话题阅读超2亿"
+    },
+    {
+      "title": "机器人伴侣隐私与伦理风险被低估",
+      "url": "https://finance.sina.com.cn/jjxw/2026-07-04/doc-inifrpaa0053064.shtml",
+      "platform": "新浪微博",
+      "author": "新浪科技",
+      "detail": "围绕赛博伴侣热度,评论区聚焦机器人常态化采集家庭影像语音带来的隐私隐患,以及对独居人群的情感依赖诱导,多位网友呼吁明确数据边界。",
+      "heat": "评论转发过万"
+    },
+    {
+      "title": "为什么DeepSeek快速模式越来越豆包化",
+      "url": "https://www.zhihu.com/question/1974969489348064977/answer/1979109742392652111",
+      "platform": "知乎",
+      "author": "知乎用户",
+      "detail": "知乎热榜提问DeepSeek快速模式体验向豆包靠拢,回复更口语更讨好。高赞回答从产品定位用户留存与成本角度拆解,引发大量用户吐槽风格趋同。",
+      "heat": "知乎热榜在榜"
+    },
+    {
+      "title": "宇树科技IPO注册获批引社区热议",
+      "url": "https://m.ofweek.com/ai/2026-06/ART-201721-8420-30690517.html",
+      "platform": "OFweek",
+      "author": "OFweek维科网",
+      "detail": "宇树科技科创板IPO注册获批,被网友称为人形机器人第一股。社区讨论从订单估值延伸到具身智能赛道是否过热,以及散户能否分享机器人红利。",
+      "heat": "多平台转发热议"
+    },
+    {
+      "title": "陈立谈具身智能ChatGPT时刻要两个80%",
+      "url": "https://k.sina.com.cn/article_7857201856_1d45362c001907t68y.html?from=tech",
+      "platform": "新浪科技",
+      "author": "新浪科技",
+      "detail": "业内人士在论坛提出具身智能要迎来ChatGPT时刻,需满足场景覆盖与成功率的两个80%。观点在社区被反复引用,网友借此讨论机器人何时真正走进家庭。",
+      "heat": "科技话题热传"
+    }
+  ],
+  "topics": [
+    {
+      "title": "#赛博伴侣#",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%B5%9B%E5%8D%9A%E4%BC%B4%E4%BE%A3%23",
+      "platform": "微博",
+      "detail": "仿生人形机器人被冠以赛博伴侣称号后迅速登上热搜,网友围绕它究竟是陪伴刚需还是资本噱头展开拉锯,情感伦理价格三方观点交锋激烈。",
+      "heat": "微博话题阅读超2亿"
+    },
+    {
+      "title": "#具身智能ChatGPT时刻#",
+      "url": "https://s.weibo.com/weibo?q=%23%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BDChatGPT%E6%97%B6%E5%88%BB%23",
+      "platform": "微博",
+      "detail": "关于具身智能何时迎来ChatGPT时刻的讨论持续发酵,网友争论人形机器人是概念先行还是即将量变,乐观派与泼冷水派各执一词。",
+      "heat": "科技榜话题在榜"
+    },
+    {
+      "title": "#脑机接口发展到什么程度#",
+      "url": "https://s.weibo.com/weibo?q=%23%E8%84%91%E6%9C%BA%E6%8E%A5%E5%8F%A3%E5%8F%91%E5%B1%95%E5%88%B0%E4%BB%80%E4%B9%88%E7%A8%8B%E5%BA%A6%23",
+      "platform": "微博",
+      "detail": "脑机接口相关进展带动话题升温,网友好奇临床与消费级产品的真实差距,也有人担忧读取脑信号的隐私与安全边界,科普与质疑并存。",
+      "heat": "话题讨论热"
+    },
+    {
+      "title": "#AI拟人化互动新规#",
+      "url": "https://s.weibo.com/weibo?q=%23AI%E6%8B%9F%E4%BA%BA%E5%8C%96%E4%BA%92%E5%8A%A8%E6%96%B0%E8%A7%84%23",
+      "platform": "微博",
+      "detail": "人工智能拟人化互动服务管理暂行办法将于7月15日施行,部分平台下线自建智能体。网友讨论AI人设边界与情感化交互的合规红线。",
+      "heat": "话题登榜热议"
+    },
+    {
+      "title": "#DeepSeek豆包化#",
+      "url": "https://www.zhihu.com/search?type=content&q=DeepSeek%E8%B1%86%E5%8C%85%E5%8C%96",
+      "platform": "知乎",
+      "detail": "用户吐槽DeepSeek快速模式回答风格向豆包靠拢,变得更迎合更啰嗦。讨论从模型调优商业化取向蔓延到国产大模型是否在趋同的行业观察。",
+      "heat": "知乎搜索热议"
+    }
+  ],
+  "creators": [
+    {
+      "title": "跟李沐学AI",
+      "url": "https://space.bilibili.com/1567748478",
+      "platform": "哔哩哔哩",
+      "detail": "资深机器学习研究者,以论文精读系列出圈,逐段拆解Transformer AlexNet等经典与前沿论文,近期持续更新大模型相关技术解读,是AI学习者的硬核标杆。",
+      "followers": "B站粉丝数十万级"
+    },
+    {
+      "title": "秋芝2046",
+      "url": "https://space.bilibili.com/385670211",
+      "platform": "哔哩哔哩",
+      "detail": "AI科普与内容创作UP主,曾担任AI春晚总导演,擅长把大模型AIGC等前沿话题讲得通俗有趣,近期围绕AI生成内容和工具应用持续产出。",
+      "followers": "B站粉丝数十万级"
+    },
+    {
+      "title": "ZOMI酱",
+      "url": "https://space.bilibili.com/517221395",
+      "platform": "哔哩哔哩",
+      "detail": "专注AI系统与底层技术的硬核UP主,内容覆盖AI芯片 编译器 分布式训练与大模型推理优化,近期持续拆解大模型基础设施与算力相关话题,是AI工程向观众的高质量信息源。",
+      "followers": "B站粉丝十万级"
+    },
+    {
+      "title": "王木头学科学",
+      "url": "https://space.bilibili.com/504715181",
+      "platform": "哔哩哔哩",
+      "detail": "以第一性原理讲AI的科普UP主,擅长把神经网络 反向传播 大模型原理等抽象概念拆到直觉层面,近期围绕大模型底层机制持续更新,深受AI学习者好评。",
+      "followers": "B站粉丝二十万级"
+    },
+    {
+      "title": "数字生命卡兹克",
+      "url": "https://space.bilibili.com/313468110",
+      "platform": "哔哩哔哩",
+      "detail": "高产的AI垂类UP主,紧跟大模型与AI工具动态,近期连更Claude Code 英伟达发布会 Seedance视频模型等选题,以短平快解读追踪AI前沿。",
+      "followers": "B站粉丝数十万级"
+    }
+  ]
+}
