@@ -3,8 +3,8 @@
   "repos": {
     "openai/codex-plugin-cc": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 1532,
+      "appearances": 2,
+      "total_today_stars": 2438,
       "language": "JavaScript",
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -21,8 +21,8 @@
     },
     "alibaba/page-agent": {
       "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 805,
+      "appearances": 2,
+      "total_today_stars": 1697,
       "language": "TypeScript",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -39,8 +39,8 @@
     },
     "cheahjs/free-llm-api-resources": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 482,
+      "appearances": 2,
+      "total_today_stars": 901,
       "language": "Python",
       "description": "A list of free LLM inference resources accessible via API.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/818368?v=4",
@@ -48,8 +48,8 @@
     },
     "immich-app/immich": {
       "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 470,
+      "appearances": 2,
+      "total_today_stars": 1028,
       "language": "TypeScript",
       "description": "High performance self-hosted photo and video management solution.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/109746326?v=4",
@@ -65,9 +65,9 @@
       "html_url": "https://github.com/rommapp/romm"
     },
     "alirezarezvani/claude-skills": {
-      "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 392,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1002,
       "language": "Python",
       "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5697919?v=4",
@@ -75,8 +75,8 @@
     },
     "bradautomates/claude-video": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 368,
+      "appearances": 2,
+      "total_today_stars": 795,
       "language": "Python",
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/186665980?v=4",
@@ -84,8 +84,8 @@
     },
     "public-apis/public-apis": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 348,
+      "appearances": 2,
+      "total_today_stars": 699,
       "language": "Python",
       "description": "A collective list of free APIs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/51121562?v=4",
@@ -102,8 +102,8 @@
     },
     "TauricResearch/TradingAgents": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 257,
+      "appearances": 2,
+      "total_today_stars": 579,
       "language": "Python",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192884433?v=4",
@@ -111,8 +111,8 @@
     },
     "ChromeDevTools/chrome-devtools-mcp": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 252,
+      "appearances": 2,
+      "total_today_stars": 359,
       "language": "TypeScript",
       "description": "Chrome DevTools for coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11260967?v=4",
@@ -137,9 +137,9 @@
       "html_url": "https://github.com/karpathy/nanoGPT"
     },
     "mvanhorn/last30days-skill": {
-      "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 237,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 695,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
@@ -155,9 +155,9 @@
       "html_url": "https://github.com/pbakaus/impeccable"
     },
     "ruvnet/RuView": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 161,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 631,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -225,6 +225,132 @@
       "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
       "html_url": "https://github.com/ollama/ollama"
+    },
+    "addyosmani/agent-skills": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 1112,
+      "language": "JavaScript",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
+      "html_url": "https://github.com/addyosmani/agent-skills"
+    },
+    "firecrawl/firecrawl": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 867,
+      "language": "TypeScript",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
+      "html_url": "https://github.com/firecrawl/firecrawl"
+    },
+    "alibaba/zvec": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 382,
+      "language": "C++",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
+      "html_url": "https://github.com/alibaba/zvec"
+    },
+    "decolua/9router": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 312,
+      "language": "JavaScript",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/8282593?v=4",
+      "html_url": "https://github.com/decolua/9router"
+    },
+    "gastownhall/gastown": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 291,
+      "language": "Go",
+      "description": "Gas Town - multi-agent workspace manager",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/255961667?v=4",
+      "html_url": "https://github.com/gastownhall/gastown"
+    },
+    "kenn-io/agentsview": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 247,
+      "language": "Go",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/259885253?v=4",
+      "html_url": "https://github.com/kenn-io/agentsview"
+    },
+    "karakeep-app/karakeep": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 199,
+      "language": "TypeScript",
+      "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/202258986?v=4",
+      "html_url": "https://github.com/karakeep-app/karakeep"
+    },
+    "Alishahryar1/free-claude-code": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 197,
+      "language": "Python",
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
+      "html_url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    "microsoft/qlib": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 125,
+      "language": "Python",
+      "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/qlib"
+    },
+    "rust-lang/rust": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 119,
+      "language": "Rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5430905?v=4",
+      "html_url": "https://github.com/rust-lang/rust"
+    },
+    "crynta/terax-ai": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 110,
+      "language": "TypeScript",
+      "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/135257643?v=4",
+      "html_url": "https://github.com/crynta/terax-ai"
+    },
+    "golang/go": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 110,
+      "language": "Go",
+      "description": "The Go programming language",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4314092?v=4",
+      "html_url": "https://github.com/golang/go"
+    },
+    "anthropics/financial-services": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 105,
+      "language": "Python",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/financial-services"
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 104,
+      "language": "Python",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
+      "html_url": "https://github.com/ComposioHQ/awesome-claude-skills"
     }
   }
 }
