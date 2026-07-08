@@ -3,8 +3,8 @@
   "repos": {
     "openai/codex-plugin-cc": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 2438,
+      "appearances": 3,
+      "total_today_stars": 2921,
       "language": "JavaScript",
       "description": "Use Codex from Claude Code to review code or delegate tasks.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -21,8 +21,8 @@
     },
     "alibaba/page-agent": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1697,
+      "appearances": 3,
+      "total_today_stars": 2054,
       "language": "TypeScript",
       "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -39,8 +39,8 @@
     },
     "cheahjs/free-llm-api-resources": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 901,
+      "appearances": 3,
+      "total_today_stars": 1313,
       "language": "Python",
       "description": "A list of free LLM inference resources accessible via API.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/818368?v=4",
@@ -48,8 +48,8 @@
     },
     "immich-app/immich": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 1028,
+      "appearances": 3,
+      "total_today_stars": 1254,
       "language": "TypeScript",
       "description": "High performance self-hosted photo and video management solution.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/109746326?v=4",
@@ -66,17 +66,17 @@
     },
     "alirezarezvani/claude-skills": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1002,
+      "appearances": 3,
+      "total_today_stars": 1480,
       "language": "Python",
       "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5697919?v=4",
       "html_url": "https://github.com/alirezarezvani/claude-skills"
     },
     "bradautomates/claude-video": {
-      "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 795,
+      "best_rank": 4,
+      "appearances": 3,
+      "total_today_stars": 1760,
       "language": "Python",
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/186665980?v=4",
@@ -138,8 +138,8 @@
     },
     "mvanhorn/last30days-skill": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 695,
+      "appearances": 3,
+      "total_today_stars": 1354,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
@@ -155,9 +155,9 @@
       "html_url": "https://github.com/pbakaus/impeccable"
     },
     "ruvnet/RuView": {
-      "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 631,
+      "best_rank": 3,
+      "appearances": 3,
+      "total_today_stars": 1760,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -200,9 +200,9 @@
       "html_url": "https://github.com/HalFrgrd/flyline"
     },
     "Wei-Shaw/sub2api": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 115,
+      "best_rank": 20,
+      "appearances": 2,
+      "total_today_stars": 305,
       "language": "Go",
       "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/26101719?v=4",
@@ -228,8 +228,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 1112,
+      "appearances": 2,
+      "total_today_stars": 2429,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -255,8 +255,8 @@
     },
     "decolua/9router": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 312,
+      "appearances": 2,
+      "total_today_stars": 694,
       "language": "JavaScript",
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8282593?v=4",
@@ -264,8 +264,8 @@
     },
     "gastownhall/gastown": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 291,
+      "appearances": 2,
+      "total_today_stars": 565,
       "language": "Go",
       "description": "Gas Town - multi-agent workspace manager",
       "owner_avatar": "https://avatars.githubusercontent.com/u/255961667?v=4",
@@ -273,17 +273,17 @@
     },
     "kenn-io/agentsview": {
       "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 247,
+      "appearances": 2,
+      "total_today_stars": 370,
       "language": "Go",
       "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. ",
       "owner_avatar": "https://avatars.githubusercontent.com/u/259885253?v=4",
       "html_url": "https://github.com/kenn-io/agentsview"
     },
     "karakeep-app/karakeep": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 199,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 619,
       "language": "TypeScript",
       "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
       "owner_avatar": "https://avatars.githubusercontent.com/u/202258986?v=4",
@@ -351,6 +351,105 @@
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "owner_avatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
       "html_url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    "MadsLorentzen/ai-job-search": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 2514,
+      "language": "TypeScript",
+      "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/50207393?v=4",
+      "html_url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    "iOfficeAI/OfficeCLI": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 893,
+      "language": "C#",
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/145246968?v=4",
+      "html_url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    "NousResearch/hermes-agent": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 685,
+      "language": "Python",
+      "description": "The agent that grows with you",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
+      "html_url": "https://github.com/NousResearch/hermes-agent"
+    },
+    "TencentCloud/CubeSandbox": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 664,
+      "language": "Rust",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
+      "html_url": "https://github.com/TencentCloud/CubeSandbox"
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 610,
+      "language": "TypeScript",
+      "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
+      "html_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    "kyutai-labs/pocket-tts": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 531,
+      "language": "Python",
+      "description": "A TTS that fits in your CPU (and pocket)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/151010778?v=4",
+      "html_url": "https://github.com/kyutai-labs/pocket-tts"
+    },
+    "anthropics/skills": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 413,
+      "language": "Python",
+      "description": "Public repository for Agent Skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/skills"
+    },
+    "t8y2/dbx": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 173,
+      "language": "Rust",
+      "description": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
+      "html_url": "https://github.com/t8y2/dbx"
+    },
+    "tonhowtf/omniget": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 155,
+      "language": "Rust",
+      "description": "Open-source desktop app for downloading, organizing and studying media. Native cross-platform (Tauri + Rust + Svelte). PDF/EPUB reader with focus mode, timestamped notes and spaced repetition. Media downloads via yt-dlp (1.800+ sites). Extensible plugin system.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/58658417?v=4",
+      "html_url": "https://github.com/tonhowtf/omniget"
+    },
+    "n8n-io/n8n": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 148,
+      "language": "TypeScript",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/45487711?v=4",
+      "html_url": "https://github.com/n8n-io/n8n"
+    },
+    "lessweb/deepcode-cli": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 117,
+      "language": "TypeScript",
+      "description": "Deep Code 是专为 deepseek-v4 模型优化的终端 AI 编码助手，支持深度思考、推理强度控制以及 Agent Skills。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118287711?v=4",
+      "html_url": "https://github.com/lessweb/deepcode-cli"
     }
   }
 }
