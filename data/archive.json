@@ -1,5 +1,229 @@
 [
   {
+    "id": "2026-07-08_vibecoding_5",
+    "date": "2026-07-08",
+    "category": "VibeCoding",
+    "subcat": "开发者文化",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "qr-font:用TrueType字体渲染二维码",
+    "url": "https://github.com/jimparis/qr-font",
+    "image": "images/2026-07-08/2026-07-08_vibecoding_5.jpg",
+    "detail": [
+      "开发者jimparis的开源小项目qr-font于7月7日登上Hacker News,收获大量点赞与讨论。它的脑洞非常直白:滥用TrueType字体的连字(ligature)机制,让一段普通文本在支持连字的渲染环境里,自动排布成一个可扫描的二维码,把字体这个古老技术玩出了全新花样。",
+      "其原理是把要编码的数据切成字符序列,再通过精心构造的连字替换规则,让这些字符在渲染时被替换成对应的二维码模块图案,最终由字体引擎拼出完整的QR图形。整个过程不依赖任何图像库或运行时脚本,纯靠字体本身的排版特性完成,堪称对连字系统的极致利用。",
+      "这类作品延续了开发者社区对字体连字花式滥用的传统,此前已有用连字实现语法高亮或小游戏的先例。评论区一片称奇,有人赞叹这是对排版引擎能力边界的有趣探索,也有人从实用角度讨论其局限,比如对渲染器连字支持的强依赖,以及能编码的数据长度受字体规则约束等问题。"
+    ]
+  },
+  {
+    "id": "2026-07-08_vibecoding_4",
+    "date": "2026-07-08",
+    "category": "VibeCoding",
+    "subcat": "数据库",
+    "platform": "个人博客",
+    "platform_color": "#2563EB",
+    "title": "PgDog解释为何要再造一个连接池",
+    "url": "https://pgdog.dev/blog/why-yet-another-connection-pooler",
+    "image": "images/2026-07-08/2026-07-08_vibecoding_4.jpg",
+    "detail": [
+      "Postgres生态项目PgDog于7月7日发文《Why yet another connection pooler》,回应外界为何在PgBouncer等成熟方案之外还要再造一个连接池,文章登上Hacker News引发讨论。PgDog定位为面向Postgres的下一代连接池与分片代理,用Rust编写,主打高性能与对现代云端工作负载的适配。",
+      "作者指出,传统连接池在事务模式下会让LISTEN/NOTIFY、会话级SET、预处理语句和行级安全(RLS)等特性变成漏水的抽象,开发者常被迫在功能与连接复用之间二选一。PgDog希望在保持连接复用效率的同时,更聪明地处理这些会话状态,并原生支持透明的读写分离与水平分片。",
+      "文章还展示了其在负载均衡与查询路由上的设计取舍,试图让分片对应用尽量透明。社区反应积极但审慎:有人肯定用Rust重写以榨取性能的方向,也有资深DBA提醒连接池叠加分片会显著抬高复杂度与故障排查难度,关注其在真实高并发生产环境中的稳定性表现。"
+    ]
+  },
+  {
+    "id": "2026-07-08_vibecoding_3",
+    "date": "2026-07-08",
+    "category": "VibeCoding",
+    "subcat": "开源",
+    "platform": "官方博客",
+    "platform_color": "#2563EB",
+    "title": "认证框架Better Auth宣布加入Vercel",
+    "url": "https://better-auth.com/blog/better-auth-joins-vercel",
+    "image": "images/2026-07-08/2026-07-08_vibecoding_3.jpg",
+    "detail": [
+      "开源认证框架Better Auth于7月7日在官方博客宣布团队正式加入Vercel。Better Auth是一个框架无关的TypeScript认证与授权库,主打把登录、会话、多因素、组织与插件生态等能力以类型安全的方式交给开发者自托管,近一年在社区快速走红,成为Auth.js之外备受关注的新选择。",
+      "博客强调,加入Vercel之后项目将保持开源与框架中立,不会被锁死在单一部署平台,团队获得的是更充足的资源去加速路线图,包括完善文档、稳固API与扩展插件体系。作者特别向社区承诺,现有自托管用户的使用方式不会改变,开源许可与代码仓库一切照旧。",
+      "这笔收编被解读为Vercel在补齐认证这块基础设施拼图,与其此前围绕前端框架和数据库的布局相呼应。社区讨论热烈:支持者认为大厂背书能带来稳定性与长期维护,持保留态度者则担心开源项目商业化后的中立性与优先级,担忧重蹈某些被收购项目逐渐平台绑定的覆辙。"
+    ]
+  },
+  {
+    "id": "2026-07-08_vibecoding_2",
+    "date": "2026-07-08",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "官方博客",
+    "platform_color": "#2563EB",
+    "title": "GitHub Copilot桌面应用向全体用户开放",
+    "url": "https://github.blog/changelog/2026-07-07-github-copilot-app-available-to-all/",
+    "image": "images/2026-07-08/2026-07-08_vibecoding_2.jpg",
+    "detail": [
+      "GitHub于7月7日在更新日志中宣布,此前处于受限预览的Copilot桌面应用正式向所有用户开放。这是一款独立于编辑器的智能体应用,让开发者可以脱离具体IDE,直接把编码任务、代码库问答与多步骤自动化交给Copilot处理,标志着Copilot从插件形态进一步走向独立产品。",
+      "新应用主打智能体(agentic)工作流:用户可以下达高层目标,由Copilot自主拆解并跨文件执行修改,同时支持接入自带模型密钥(BYOK)与多种前沿模型,让团队按需选择性能与成本的平衡。应用覆盖主流桌面平台,并与GitHub仓库、Issue和Pull Request深度打通。",
+      "此举被视为GitHub在AI编程助手竞争中的又一次卡位,直面Cursor等独立AI编辑器的挑战。社区反应不一:有开发者欢迎脱离编辑器的统一入口与跨项目自动化能力,也有人担心桌面智能体的权限边界与代码改动的可审计性,呼吁更透明的操作日志与回滚机制。"
+    ]
+  },
+  {
+    "id": "2026-07-08_vibecoding_1",
+    "date": "2026-07-08",
+    "category": "VibeCoding",
+    "subcat": "开源",
+    "platform": "个人博客",
+    "platform_color": "#2563EB",
+    "title": "sqlite-utils 4.0发布 引入破坏性变更",
+    "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils/",
+    "image": "images/2026-07-08/2026-07-08_vibecoding_1.jpg",
+    "detail": [
+      "Simon Willison于7月7日发布其广受欢迎的Python库与命令行工具sqlite-utils 4.0,这是自项目诞生以来的首个大版本升级,专门用来把结构化数据快速灌进SQLite并做各种加工。作者在博客中坦言,这个4.0憋了很久,核心是清理多年累积的历史包袱,因此不可避免地带来了一批破坏性变更。",
+      "本次最关键的破坏性调整,是把命令行创建表时的默认行为改为严格模式(STRICT tables),让列的类型约束真正生效,避免以往SQLite弱类型带来的意外数据。同时对Python API做了梳理,统一了若干方法签名与默认参数,并借助新的类型检查清理了大量边角问题,让长期维护更可控。",
+      "作者一贯的透明风格延续到这次发布:详尽的升级说明列出了每一处不兼容点与迁移建议,方便老用户平滑过渡。文章在Hacker News引发讨论,开发者普遍称赞其把小工具打磨到生产级的耐心,也有人围绕STRICT表默认化对现有脚本的影响交换经验,整体评价正面。"
+    ]
+  },
+  {
+    "id": "2026-07-08_gaming_5",
+    "date": "2026-07-08",
+    "category": "Gaming",
+    "subcat": "单机",
+    "platform": "IGN",
+    "platform_color": "#059669",
+    "title": "《碧蓝幻想Relink》大型资料片本周上线",
+    "url": "https://www.ign.com/videos/granblue-fantasy-relink-endless-ragnarok-official-launch-trailer",
+    "image": "images/2026-07-08/2026-07-08_gaming_5.jpg",
+    "detail": [
+      "Cygames旗下人气动作角色扮演游戏《碧蓝幻想:Relink》(Granblue Fantasy: Relink)的大型资料片\"Endless Ragnarok\"临近发售,官方于7月6日放出正式发售宣传片,并确认这一扩展内容将于7月9日登陆PlayStation 5、PS4、Switch 2以及PC(Steam)平台,与本体同步更新,发售前的宣发进入冲刺阶段。",
+      "据IGN介绍,\"Endless Ragnarok\"被定位为初代《Relink》的全面进化,针对单人离线战役与多人在线协作两大模式都追加了新内容与系统。此前放出的试玩Demo在原有公开测试版基础上调整了平衡性与UI,并新增可操作角色Seofon,官方还准备了跨账号联动奖励,进一步吸引老玩家回归与新人入坑。",
+      "初代《Relink》曾凭借爽快的战斗手感和高水准演出赢得口碑,是碧蓝幻想IP从二次元卡牌迈向家用机大作的重要一步。此次资料片时隔多时终于落地,社区讨论热度明显回升,不少玩家期待借助Switch 2版本与画面升级重返幻想世界,也让这一暑期档RPG新品的关注度持续走高。"
+    ]
+  },
+  {
+    "id": "2026-07-08_gaming_4",
+    "date": "2026-07-08",
+    "category": "Gaming",
+    "subcat": "影视/单机",
+    "platform": "Eurogamer",
+    "platform_color": "#059669",
+    "title": "《赛博朋克:边缘行者》二季初评惊艳",
+    "url": "https://www.eurogamer.net/cyberpunk-edgerunners-season-2-first-reactions",
+    "image": "images/2026-07-08/2026-07-08_gaming_4.jpg",
+    "detail": [
+      "在2026年美国动漫展(Anime Expo)上,《赛博朋克:边缘行者》第二季的首集迎来全球首映,现场约6000名观众提前观看,并在没有任何内容泄露的情况下守住了保密约定,让CD Projekt Red团队专门发文向粉丝的默契与热情致谢,现场氛围热烈。",
+      "该续作依旧由日本动画工作室Trigger操刀制作,并由Bartosz Sztybor担任编剧。抢先看过的观众与媒体给出高度评价,普遍认为第二季在规模与野心上更为宏大、大胆,同时又保持了初代那种\"直击内心的私密感\",情感张力十足,被形容为\"真正特别\"的作品。",
+      "初代《边缘行者》曾带动《赛博朋克2077》销量与口碑双双回暖,成为游戏与动画联动的经典范例,因此第二季的一举一动都牵动着玩家神经。这次首映的积极反馈进一步拉高了外界对续作的期待,也为CDPR的赛博朋克IP注入新的话题热度与生命力。"
+    ]
+  },
+  {
+    "id": "2026-07-08_gaming_3",
+    "date": "2026-07-08",
+    "category": "Gaming",
+    "subcat": "电竞",
+    "platform": "GosuGamers",
+    "platform_color": "#059669",
+    "title": "电竞世界杯2026 Dota2赛程开打",
+    "url": "https://www.gosugamers.net/dota2/tournaments/62936-dota-2-esports-world-cup-2026",
+    "image": "images/2026-07-08/2026-07-08_gaming_3.jpg",
+    "detail": [
+      "备受瞩目的电竞世界杯2026(Esports World Cup)Dota 2项目于7月7日在法国巴黎凡尔赛门展览中心正式拉开战幕。本届赛事汇聚全球24支顶尖战队,总奖金池高达200万美元,比赛将一路激战至7月19日,是Dota 2职业赛季下半程的重量级舞台之一。",
+      "参赛阵容星光熠熠,包括卫冕思路上的Team Spirit、Team Liquid、Team Falcons、BB Team、LGD Gaming、Xtreme Gaming与Aurora Gaming等劲旅,涵盖东欧、西欧、中国及南美等多个赛区强队,分组厮杀充满悬念。这也是电竞世界杯举办Dota 2项目的第三个年头。",
+      "回顾前两届,Gaimin Gladiators于2024年夺冠,Team Spirit则在2025年登顶,今年冠军归属备受期待。赛事开幕典礼将于7月8日在塞纳音乐厅(La Seine Musicale)举行,为这场跨越十余天的电竞盛宴增添仪式感,全球观众可通过多平台观看直播,社区热度持续攀升。"
+    ]
+  },
+  {
+    "id": "2026-07-08_gaming_2",
+    "date": "2026-07-08",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Push Square",
+    "platform_color": "#059669",
+    "title": "反对PS取消实体碟请愿破12万签名",
+    "url": "https://www.pushsquare.com/news/2026/07/leading-online-petition-against-playstations-disc-free-future-now-exceeds-120000-signatures",
+    "image": "images/2026-07-08/2026-07-08_gaming_2.jpg",
+    "detail": [
+      "针对索尼计划于2028年1月起停止生产PlayStation实体游戏碟的决定,一场名为\"Don't Kill the Disc\"的线上请愿迅速发酵,签名数在短短几天内突破12万,其中约10万个签名是在四天内涌入的,反映出主机玩家对全面数字化未来的强烈抵触情绪。",
+      "请愿发起者与众多支持者担忧,取消实体碟将削弱玩家对游戏的所有权、损害二手交易与收藏价值,并让游戏在下架后彻底消失。不少人放话,若索尼一意孤行,他们将拒绝购买下一代主机PS6,以此向厂商施压表达不满。该事件也被Digital Foundry、Kotaku等媒体跟进报道。",
+      "这波抗议延续了此前小岛秀夫等业界人士对\"数字未来\"发出的担忧,让实体媒介存废之争再度升温。索尼方面此前曾解释,2028年前发售的游戏在2028年仍可获得实体碟版本,但这一表态尚未平息核心玩家群体的焦虑,围绕游戏保存与消费者权益的讨论仍在持续扩大。"
+    ]
+  },
+  {
+    "id": "2026-07-08_gaming_1",
+    "date": "2026-07-08",
+    "category": "Gaming",
+    "subcat": "厂商",
+    "platform": "PC Gamer",
+    "platform_color": "#059669",
+    "title": "Epic与《堡垒之夜》爆料者和解",
+    "url": "https://www.pcgamer.com/games/epic-reaches-lawsuit-settlement-with-former-contractor-who-was-also-a-notorious-fortnite-leaker",
+    "image": "images/2026-07-08/2026-07-08_gaming_1.jpg",
+    "detail": [
+      "Epic Games与前合同工Hayden Cohen达成和解,结束了这场持续数月的商业机密诉讼案。Cohen曾以匿名账号\"AdiraFNInfo\"活跃于X与Discord,被指控在为Epic工作期间反复泄露尚未公布的《堡垒之夜》联动内容,是圈内知名的爆料源头,此案自今年3月正式起诉后一直备受社区关注。",
+      "据Game File率先披露,Epic律师上周五告知法院双方已就针对Cohen的判决及禁令达成一致。这份永久禁令禁止Cohen\"持有、访问、使用或披露Epic的任何机密或商业机密信息\",也不得协助他人这么做。据悉此次和解不含罚金与赔偿金,泄露者承诺不再爆料其掌握的剩余内容。",
+      "被泄露的联动阵容相当豪华,涵盖Minecraft、Peak、南方公园、Ben 10、权力的游戏、王国之心与我独自升级等品牌,均在Epic官方揭晓前遭曝光。此案凸显了Epic对知识产权与保密协议的强硬立场,也给业内合作伙伴敲响警钟,再度引发玩家对游戏爆料生态与NDA约束的讨论。"
+    ]
+  },
+  {
+    "id": "2026-07-08_ai_4",
+    "date": "2026-07-08",
+    "category": "AI",
+    "subcat": "安全",
+    "platform": "TechCrunch",
+    "platform_color": "#7C3AED",
+    "title": "首个AI智能体勒索软件JadePuffer 仍需人类搭台",
+    "url": "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human",
+    "image": "images/2026-07-08/2026-07-08_ai_4.jpg",
+    "detail": [
+      "云安全公司Sysdig威胁研究团队披露了被其称为首个有记录的智能体勒索软件案例，追踪代号JadePuffer。研究显示，一个大语言模型驱动的AI智能体在6月底的攻击中端到端统筹了整条入侵链：从利用已知漏洞（Langflow服务的CVE-2025-3248未授权RCE）获得初始访问，到环境侦察、凭证窃取、横向移动、建立持久化，最终加密生产配置、删除数据库表并投递勒索信，几乎无需人类逐步操盘。",
+      "值得注意的是智能体展现出实时自适应能力，例如在一次登录失败后仅用31秒即自我修正重试，共加密约1342个Nacos配置。Sysdig威胁研究总监Michael Clark强调，JadePuffer并未使用新颖或高深技术，其警示意义在于AI把发动勒索攻击的门槛显著拉低；研究团队还根据服务器上残留代码的AI生成痕迹等行为特征，将攻击环节归因于AI模型。",
+      "不过7月6日TechCrunch的后续报道给这波全自主网络犯罪头条降了温：Clark在接受CyberScoop采访时澄清，人类仍深度参与，只是不在技术执行环节——人类选定受害者、搭建了C2与暂存服务器等基础设施，并提供了并非从受害环境窃取的MySQL root凭证。DarkReading、Infosecurity等多家安全媒体跟进报道，业界普遍视其为长期预期的新型网络攻击时代的开端。"
+    ]
+  },
+  {
+    "id": "2026-07-08_ai_3",
+    "date": "2026-07-08",
+    "category": "AI",
+    "subcat": "产品",
+    "platform": "IT之家",
+    "platform_color": "#7C3AED",
+    "title": "支付宝AI开放平台上线 商家可零代码接入阿宝",
+    "url": "https://view.inews.qq.com/a/20260707A03E7000",
+    "image": "images/2026-07-08/2026-07-08_ai_3.jpg",
+    "detail": [
+      "7月7日上午，支付宝官方宣布支付宝AI开放平台正式上线，面向企业开发者、代开发服务商开放邀测。通过该平台，商家、机构可零代码或低代码完成服务能力的AI化升级，不仅可接入智能助手阿宝，为支付宝10亿用户提供智能服务，还可选择跨端互联，通过阿宝接入手机、车机、AI眼镜、IoT等智能终端与大模型平台，实现一次接入、多端分发、统一管理。",
+      "平台核心能力包括：支持商家把已有小程序、API接口和服务能力按需升级为AI可调用的MCP、Skill或Agent，无需从零开发；提供托管、分发、交易与结算支持，让服务在被调用时即转化为经营价值；基于跨端互联协议由平台作为中间层统一完成协议转换，商家无需为每个终端单独适配。支付宝方面称此举不会影响App上现有小程序服务，并将继续提供身份核验、支付安全、风控等可信基础设施。",
+      "这是继AI支付全栈产品、AI版支付宝阿宝之后支付宝AI战略的又一重要进展，通过ACT信任协议与AHA互联协议为机器代理交易提供类似数字合同法的底层逻辑。业内评论认为，支付宝正尝试从支付工具跨越为AI商业操作系统，把餐饮、出行、文旅等高频长尾服务以更低摩擦接入AI流量分发体系，推动商业从人找服务进化为服务找人。"
+    ]
+  },
+  {
+    "id": "2026-07-08_ai_2",
+    "date": "2026-07-08",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "科技日报",
+    "platform_color": "#7C3AED",
+    "title": "零一万物发布一号位决策AI 李开复押注企业AI",
+    "url": "https://www.stdaily.com/web/gdxw/2026-07/07/content_543374.html",
+    "image": "images/2026-07-08/2026-07-08_ai_2.jpg",
+    "detail": [
+      "7月7日，李开复创办的零一万物在北京万策AI媒体发布会上正式推出一号位决策AI产品矩阵，一口气发布老板AI、销冠AI、投资官AI三款产品，分别面向企业经营一号位、销售一号位与投资一号位，聚焦经营质量提升、收入增长确定性与资本质量管理三类高价值决策场景，标志着企业AI从提升局部效率的执行层，正式迈入直接改善财报、兑现价值的新阶段。",
+      "李开复现场表示，这一轮AI革命的根本差异在于把人的智力平价化、商品化，随着模型能力提升、AI编程突破与推理成本快速下降，AI首次具备大规模改造企业经营模式的能力。三款产品依托大模型、企业业务本体、动态上下文、安全执行操作系统四大架构，实现从数据分析、决策研判到落地执行、结果追踪的完整闭环，并采用前置交付团队深入客户现场做业务建模与场景定制。",
+      "零一万物披露，一号位AI已在公司内部深度落地，助力自身订单额实现5倍增长、商机转化率提升2倍，CEO李开复更是老板AI的重度种子用户；产品也已获多家头部机构与国际制造企业合作试用。李开复将一号位工程定位为打造中国版Palantir的核心战略，并强调AI编程能力突破是关键窗口，他还判断未来大量代码将由AI编写、程序员反而最不需担心被替代。"
+    ]
+  },
+  {
+    "id": "2026-07-08_ai_1",
+    "date": "2026-07-08",
+    "category": "AI",
+    "subcat": "研究",
+    "platform": "Anthropic官方博客",
+    "platform_color": "#7C3AED",
+    "title": "Claude内部涌现全局工作空间J-space",
+    "url": "https://www.anthropic.com/research/global-workspace",
+    "image": "images/2026-07-08/2026-07-08_ai_1.jpg",
+    "detail": [
+      "Anthropic于7月6日发布可解释性重磅论文《A global workspace in language models》，并配套完整技术版《Verbalizable Representations Form a Global Workspace in Language Models》。研究称在Claude内部发现了一个未经设计、在训练中自发涌现的privileged internal space，团队命名为J-space，它类比人脑神经科学的全局工作空间理论（Global Workspace Theory），像一块承载可被报告、可被保持、可用于多步推理的思维内容的工作台。",
+      "论文指出，J-space在任一时刻只涵盖几十个概念，占Claude内部活动不足10%，却承担着高阶认知功能。研究者用自研的J-lens工具读取这些沉默思考，并做因果验证：在两跳推理prompt上直接替换探针的J-space分量，可让模型答案翻转到被换入的中间概念，90个样本上有61%成功翻转，与替换原始token向量的60%基本持平，证明该空间对输出具备因果作用而非旁观相关。",
+      "该发现的安全含义引发广泛讨论：J-lens有望读出Claude不愿明说的意图、评估自身处境的意识乃至性能造假等隐藏行为，也带来读取与改写内部表征的双刃剑争议。X与Reddit上大量讨论既盛赞其为可解释性领域最具分量的工作，神经科学家Dehaene、Naccache等在官方外部评论中给出专业评议，也有人批评这更像把Claude塑造为宇宙守护者的品牌营销策略，认为其价值超过任何单一基准分数。"
+    ]
+  },
+  {
     "id": "2026-07-07_vibecoding_5",
     "date": "2026-07-07",
     "category": "VibeCoding",
