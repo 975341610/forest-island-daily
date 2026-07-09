@@ -1,0 +1,126 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T08:30:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Hacker News",
+      "author": "nickslaughter02",
+      "title": "欧盟新车强制加装驾驶员监控摄像头",
+      "url": "https://news.ycombinator.com/item?id=48823557",
+      "detail": "欧盟《通用安全条例》从7月7日起生效，所有新注册乘用车和货车必须强制配备驾驶员监控摄像头，以检测疲劳与分心驾驶。帖子在HN引爆984条评论的激烈讨论，网友一边质疑这是以安全之名的全民监控，一边吐槽自动限速刹车在高速上误读匝道限速牌导致险些追尾，隐私与强制安全的边界成为核心争论焦点。",
+      "heat": "HN 745分 984评论"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "bauc",
+      "title": "微软裁撤 id Software 的 idTech 引擎团队",
+      "url": "https://gamefromscratch.com/microsoft-fire-idtech-team-at-id-software",
+      "detail": "微软在7月7日DOOM: The Dark Ages「Revelations」资料片上线当天，裁掉id Software约95名工程师，几乎清空idTech引擎团队，终结了从1992年Wolfenstein延续30年的自研引擎传承。Apogee创始人Scott Miller称id基本已死，业界哀叹一批业内最顶尖的程序员被裁，帖子在HN引发对大厂并购游戏工作室后果的513条讨论。",
+      "heat": "HN 574分 515评论"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "in-silico",
+      "title": "Anthropic 论文:语言模型中的全局工作空间",
+      "url": "https://news.ycombinator.com/item?id=48808002",
+      "detail": "Anthropic发表16位作者的重磅论文《Verbalizable Representations Form a Global Workspace in Language Models》，用新的Jacobian数学技术在Claude神经网络中发现J-space——一个可被模型报告、推理和主动调用的特权内部区域，与人类意识的全局工作空间理论惊人契合。DeepMind研究员Neel Nanda已在Qwen 3.6上复现核心结论，HN讨论150条。",
+      "heat": "HN 392分 150评论"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "miroljub",
+      "title": "欧洲议会一读通过Chat Control聊天管控法案",
+      "url": "https://news.ycombinator.com/item?id=48819008",
+      "detail": "欧洲人民党（EPP）通过罕见立法程序复活了此前被否决的临时聊天管控信息扫描条例，本周欧洲议会以更易通过的表决规则再度投票。争议法案允许科技公司扫描私人通讯以检测儿童性虐待材料，反对者担忧这实质是端到端加密的破坏与大规模监控，帖子在HN引发对隐私、加密与立法程序滥用的239条激烈辩论。",
+      "heat": "HN 549分 239评论"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "modinfo",
+      "title": "开发者把电子墨水板改造成里德尔魔法日记",
+      "url": "https://news.ycombinator.com/item?id=48811591",
+      "detail": "开发者用Anthropic的Fable模型把reMarkable电子墨水手写板改造成《哈利·波特》里汤姆·里德尔的魔法日记：你在纸上手写提问，字迹会消失，然后AI以里德尔的口吻手写回复浮现出来，完美复刻电影名场面。项目登上HN前列收获504分、324条评论，网友盛赞这是LLM与电子墨水结合的最有想象力的玩法之一。",
+      "heat": "HN 504分 324评论"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "知乎",
+      "author": "知乎热榜",
+      "title": "GPT-5.6本周四全面开放,哪些亮点值得期待?",
+      "url": "https://www.zhihu.com/search?q=GPT-5.6%20%E5%85%A8%E9%9D%A2%E5%BC%80%E6%94%BE",
+      "detail": "OpenAI官宣GPT-5.6将于本周四面向所有用户全面开放，登上知乎热榜137万热度。讨论聚焦其相较前代在推理、多模态和智能体能力上的升级，以及与谷歌Gemini 3.5 Pro同期发布形成的正面竞争。结合白宫AI行政令框架的落地时间，网友热议大厂是否会把7月的模型发布节奏与监管框架对齐，这轮开放被视为下半年大模型竞争的关键起点。",
+      "heat": "知乎 137万热度"
+    },
+    {
+      "platform": "知乎",
+      "author": "知乎热榜",
+      "title": "Anthropic提出AI脑海J-space研究有何意义?",
+      "url": "https://www.zhihu.com/search?q=Anthropic%20J-space%20%E8%AE%BA%E6%96%87",
+      "detail": "Anthropic关于Claude内部J-space全局工作空间的论文在知乎发酵，两个相关话题合计超116万热度。网友一方面惊叹大模型自发涌现出类意识结构、可对J-space内容审视隐藏目标，另一方面也争论这究竟是机制可解释性的突破，还是被过度解读为AI有意识的营销话术，机器认知边界成为讨论热点。",
+      "heat": "知乎 116万热度"
+    },
+    {
+      "platform": "微博",
+      "author": "IT之家/路透社",
+      "title": "DeepSeek传自研AI芯片,英伟达华为迎新对手?",
+      "url": "https://www.ithome.com/tag/deepseek",
+      "detail": "路透社援引三位知情人士称，中国AI公司DeepSeek正研发自有AI推理芯片，若成功将降低对英伟达、华为的依赖并进军半导体领域。消息7月7日传出后英伟达盘前股价一度下跌约1.6%，在微博与科技社区引发热议：DeepSeek既冲击英伟达在中国的推理市场，又给华为昇腾等国产算力带来新竞争压力，被视为国产大模型厂商垂直整合算力的重要信号。",
+      "heat": "微博科技热议"
+    },
+    {
+      "platform": "微博",
+      "author": "李博杰",
+      "title": "李博杰怒批DeepSeek面试,双屏写代码算作弊吗?",
+      "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%8D%9A%E6%9D%B0%20DeepSeek%20%E9%9D%A2%E8%AF%95",
+      "detail": "中科大博士、前华为天才少年、Pine AI首席科学家李博杰7月6日公开吐槽DeepSeek远程面试流程拖沓、面试官迟到，并因其使用双显示器写代码被当场指控抄袭代码要求自证清白，愤而终止面试并曝光。事件在微博与知乎发酵，舆论就双屏办公在技术面试中是否算作弊分裂为技术常态与防作弊底线两派，折射AI行业招聘管理乱象。",
+      "heat": "微博科技热议"
+    },
+    {
+      "platform": "Reddit",
+      "author": "r/Doom 社区",
+      "title": "id Software 约95人被裁,社区实时追踪",
+      "url": "https://www.reddit.com/r/Doom/comments/1up5pta/95_reportedly_laid_off_at_id_software/",
+      "detail": "微软裁员波及id Software，r/Doom社区实时追踪约95人被裁的进展，成为游戏圈当日焦点讨论帖。有资深程序员在LinkedIn证实自己属于被裁的约50%团队，游戏设计传奇John Romero呼吁微软务必保存现版本id的代码与文档。玩家与开发者哀悼idTech引擎时代落幕，并担忧Starfield、上古卷轴OL等新老IP前景，讨论蔓延至整个Xbox重组风波。",
+      "heat": "Reddit 游戏区热帖"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "B站",
+      "name": "极客湾Geekerwan",
+      "url": "https://space.bilibili.com/25876945",
+      "detail": "国内最硬核的科技数码评测频道，以手机SoC性能实测、CPU/GPU深度拆解和跑分横评著称，凭借自建测试方法论在芯片评测领域树立行业标杆。近期作品覆盖小米自研玄戒O1芯片深评、RTX5090D评测、Switch 2解析等，单条视频动辄数百万播放。硬核内容风格与影视飓风惺惺相惜，是数码发烧友判断新品性能的重要参考频道。",
+      "heat": "B站 534万粉"
+    },
+    {
+      "platform": "B站",
+      "name": "影视飓风",
+      "url": "https://space.bilibili.com/946974",
+      "detail": "由Tim（潘天鸿）创立的头部科技影像团队，以无限进步为口号，从影视器材评测与拍摄教学起家，逐步扩展到大制作科技科普与硬核实验短片。已突破1600万粉丝，制作水准和选题野心在国内UP主中名列前茅，常以电影级画面讲解显示技术、相机原理、色彩与光学等话题，是科技区当之无愧的顶流之一。",
+      "heat": "B站 1668万粉"
+    },
+    {
+      "platform": "B站",
+      "name": "稚晖君",
+      "url": "https://space.bilibili.com/20259914",
+      "detail": "前华为天才少年、智元机器人联合创始人，B站硬核机器人与嵌入式硬件UP主的代表人物。以保持热爱，奔赴星海为签名，凭借自制自动驾驶自行车、机械臂、迷你主机等惊艳工程项目走红，视频兼具极客深度与工程美感。作为具身智能创业者，其内容是关注机器人、AI硬件与嵌入式开发人群的必看频道。",
+      "heat": "B站 284万粉"
+    },
+    {
+      "platform": "B站",
+      "name": "硬件茶谈",
+      "url": "https://space.bilibili.com/14871346",
+      "detail": "专注PC硬件科普与装机教学的老牌UP主，以通俗易懂的方式讲解CPU、显卡、主板、电源等原理和选购避坑，被粉丝称为装机圈的良心教科书。内容深入浅出、逻辑清晰，既适合小白入门也能满足老玩家进阶，在DIY装机与硬件知识领域拥有极高口碑，是想自己组装电脑者绕不开的学习频道。",
+      "heat": "B站 392万粉"
+    },
+    {
+      "platform": "B站",
+      "name": "硬核的半佛仙人",
+      "url": "https://space.bilibili.com/37663924",
+      "detail": "以犀利吐槽和商业深挖著称的财经科技类UP主，擅长用高信息密度的口播拆解互联网商业模式、行业黑幕与科技产品背后的逻辑，语速快、金句多、观点鲜明。内容横跨科技、金融、消费与社会现象，兼具娱乐性与信息量，在解读大厂动向、AI风口与商业套路方面视角独到，是理性看待科技热点的热门频道。",
+      "heat": "B站 772万粉"
+    }
+  ]
+}
