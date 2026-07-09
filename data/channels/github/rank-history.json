@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-08": {
-      "RyanCodrai/turbovec": 1,
-      "NousResearch/hermes-agent": 2,
-      "mvanhorn/last30days-skill": 3,
-      "Panniantong/Agent-Reach": 4,
-      "roboflow/supervision": 5,
-      "CopilotKit/CopilotKit": 6,
-      "lfnovo/open-notebook": 7,
-      "MemPalace/mempalace": 8,
-      "heygen-com/hyperframes": 9,
-      "iptv-org/iptv": 10,
-      "TapXWorld/ChinaTextbook": 11,
-      "aaif-goose/goose": 12,
-      "microsoft/pg_durable": 13,
-      "Crosstalk-Solutions/project-nomad": 14,
-      "microsoft/VibeVoice": 15,
-      "openai/plugins": 16,
-      "refactoringhq/tolaria": 17,
-      "Wei-Shaw/sub2api": 18,
-      "microsoft/mxc": 19,
-      "666ghj/MiroFish": 20,
-      "yikart/AiToEarn": 21,
-      "twentyhq/twenty": 22,
-      "aquasecurity/trivy": 23,
-      "NangoHQ/nango": 24,
-      "ggml-org/llama.cpp": 25
-    },
     "2026-06-09": {
       "mvanhorn/last30days-skill": 1,
       "RyanCodrai/turbovec": 2,
@@ -836,6 +809,33 @@
       "n8n-io/n8n": 23,
       "kenn-io/agentsview": 24,
       "lessweb/deepcode-cli": 25
+    },
+    "2026-07-09": {
+      "MadsLorentzen/ai-job-search": 1,
+      "iOfficeAI/OfficeCLI": 2,
+      "addyosmani/agent-skills": 3,
+      "Diolinux/PhotoGIMP": 4,
+      "bradautomates/claude-video": 5,
+      "Graphify-Labs/graphify": 6,
+      "ruvnet/RuView": 7,
+      "kyutai-labs/pocket-tts": 8,
+      "TencentCloud/CubeSandbox": 9,
+      "yt-dlp/yt-dlp": 10,
+      "decolua/9router": 11,
+      "vxcontrol/pentagi": 12,
+      "pbakaus/impeccable": 13,
+      "alibaba/zvec": 14,
+      "mvanhorn/last30days-skill": 15,
+      "Egonex-AI/Understand-Anything": 16,
+      "TencentCloud/TencentDB-Agent-Memory": 17,
+      "microsoft/SkillOpt": 18,
+      "anthropics/claude-code": 19,
+      "alirezarezvani/claude-skills": 20,
+      "NVIDIA/SkillSpector": 21,
+      "jingyaogong/minimind": 22,
+      "byoungd/up": 23,
+      "dream-num/univer": 24,
+      "tinyhumansai/openhuman": 25
     }
   }
 }

@@ -66,8 +66,8 @@
     },
     "alirezarezvani/claude-skills": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1480,
+      "appearances": 4,
+      "total_today_stars": 1657,
       "language": "Python",
       "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5697919?v=4",
@@ -75,8 +75,8 @@
     },
     "bradautomates/claude-video": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 1760,
+      "appearances": 4,
+      "total_today_stars": 2711,
       "language": "Python",
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/186665980?v=4",
@@ -138,17 +138,17 @@
     },
     "mvanhorn/last30days-skill": {
       "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 1354,
+      "appearances": 4,
+      "total_today_stars": 1706,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
       "html_url": "https://github.com/mvanhorn/last30days-skill"
     },
     "pbakaus/impeccable": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 216,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 658,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -156,8 +156,8 @@
     },
     "ruvnet/RuView": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 1760,
+      "appearances": 4,
+      "total_today_stars": 2559,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -165,8 +165,8 @@
     },
     "anthropics/claude-code": {
       "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 156,
+      "appearances": 2,
+      "total_today_stars": 371,
       "language": "Python",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -228,8 +228,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 2429,
+      "appearances": 3,
+      "total_today_stars": 3726,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -246,17 +246,17 @@
     },
     "alibaba/zvec": {
       "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 382,
+      "appearances": 2,
+      "total_today_stars": 777,
       "language": "C++",
       "description": "A lightweight, lightning-fast, in-process vector database",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
       "html_url": "https://github.com/alibaba/zvec"
     },
     "decolua/9router": {
-      "best_rank": 14,
-      "appearances": 2,
-      "total_today_stars": 694,
+      "best_rank": 11,
+      "appearances": 3,
+      "total_today_stars": 1149,
       "language": "JavaScript",
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8282593?v=4",
@@ -354,17 +354,17 @@
     },
     "MadsLorentzen/ai-job-search": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 2514,
+      "appearances": 2,
+      "total_today_stars": 7593,
       "language": "TypeScript",
       "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/50207393?v=4",
       "html_url": "https://github.com/MadsLorentzen/ai-job-search"
     },
     "iOfficeAI/OfficeCLI": {
-      "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 893,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 2610,
       "language": "C#",
       "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/145246968?v=4",
@@ -381,8 +381,8 @@
     },
     "TencentCloud/CubeSandbox": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 664,
+      "appearances": 2,
+      "total_today_stars": 1228,
       "language": "Rust",
       "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
@@ -390,17 +390,17 @@
     },
     "TencentCloud/TencentDB-Agent-Memory": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 610,
+      "appearances": 2,
+      "total_today_stars": 928,
       "language": "TypeScript",
       "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
       "html_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
     },
     "kyutai-labs/pocket-tts": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 531,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 1186,
       "language": "Python",
       "description": "A TTS that fits in your CPU (and pocket)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151010778?v=4",
@@ -450,6 +450,105 @@
       "description": "Deep Code 是专为 deepseek-v4 模型优化的终端 AI 编码助手，支持深度思考、推理强度控制以及 Agent Skills。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118287711?v=4",
       "html_url": "https://github.com/lessweb/deepcode-cli"
+    },
+    "Diolinux/PhotoGIMP": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 1125,
+      "language": "CSS",
+      "description": "A Patch for GIMP 3+ for Photoshop Users",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/13944967?v=4",
+      "html_url": "https://github.com/Diolinux/PhotoGIMP"
+    },
+    "Graphify-Labs/graphify": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 856,
+      "language": "Python",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
+      "html_url": "https://github.com/Graphify-Labs/graphify"
+    },
+    "yt-dlp/yt-dlp": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 488,
+      "language": "Python",
+      "description": "A feature-rich command-line audio/video downloader",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/79589310?v=4",
+      "html_url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    "vxcontrol/pentagi": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 454,
+      "language": "Go",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/39194251?v=4",
+      "html_url": "https://github.com/vxcontrol/pentagi"
+    },
+    "Egonex-AI/Understand-Anything": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 336,
+      "language": "TypeScript",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/257477979?v=4",
+      "html_url": "https://github.com/Egonex-AI/Understand-Anything"
+    },
+    "microsoft/SkillOpt": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 275,
+      "language": "Python",
+      "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/SkillOpt"
+    },
+    "NVIDIA/SkillSpector": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 168,
+      "language": "Python",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
+      "html_url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    "jingyaogong/minimind": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 149,
+      "language": "Python",
+      "description": "🧠「大模型」2小时完全从0训练64M的小参数LLM！Train a 64M-parameter LLM from scratch in just 2h!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/62287848?v=4",
+      "html_url": "https://github.com/jingyaogong/minimind"
+    },
+    "byoungd/up": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 148,
+      "language": "JavaScript",
+      "description": "An advanced guide which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/16145783?v=4",
+      "html_url": "https://github.com/byoungd/up"
+    },
+    "dream-num/univer": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 131,
+      "language": "TypeScript",
+      "description": "Univer is a full-stack framework for creating and editing spreadsheets / word processor / presentation on both web and server.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/61444807?v=4",
+      "html_url": "https://github.com/dream-num/univer"
+    },
+    "tinyhumansai/openhuman": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 114,
+      "language": "Rust",
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
+      "html_url": "https://github.com/tinyhumansai/openhuman"
     }
   }
 }
