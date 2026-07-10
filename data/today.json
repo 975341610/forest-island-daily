@@ -1,269 +1,242 @@
 [
   {
-    "id": "2026-07-09_ai_1",
-    "date": "2026-07-09",
-    "category": "AI",
-    "subcat": "模型发布",
-    "platform": "X",
-    "platform_color": "#7C3AED",
-    "title": "OpenAI宣布GPT-5.6周四全球公开发布",
-    "url": "https://x.com/OpenAI/status/2074704958419792299",
-    "image": "images/2026-07-09/2026-07-09_ai_1.jpg",
-    "detail": [
-      "北京时间7月8日,OpenAI通过官方X账号正式宣布,新一代旗舰模型GPT-5.6将于本周四(7月9日)面向全球公开发布,同时其预览版本从即日起向全球用户逐步开放。此次发布是继GPT-5系列后的又一次重要迭代,官方称模型在推理速度、上下文理解与多模态能力上均有显著提升。",
-      "GPT-5.6此次采用了Sol、Terra、Luna三档模型规格,分别对应不同的算力预算与响应场景:Sol主打高性能复杂推理,Terra面向通用均衡任务,Luna则聚焦低延迟与成本敏感型部署。路透社与Politico于同日报道称,该模型已获得美国监管方针对大规模推广的相关批准,为全球铺开扫清障碍。",
-      "消息发布后在开发者社区引发强烈关注,X与Reddit相关讨论帖迅速登上热榜。不少开发者对三档分级的定价策略与API限流政策表示期待,同时也有声音担忧新模型的算力成本与调用配额。业界普遍认为,GPT-5.6的公开发布将进一步加剧头部大模型厂商在企业与消费级市场的竞争态势。"
-    ]
-  },
-  {
-    "id": "2026-07-09_ai_2",
-    "date": "2026-07-09",
+    "id": "2026-07-10_ai_1",
+    "date": "2026-07-10",
     "category": "AI",
     "subcat": "产品",
-    "platform": "OpenAI官方博客",
+    "platform": "Reuters",
     "platform_color": "#7C3AED",
-    "title": "OpenAI推出GPT-Live实时语音模型",
-    "url": "https://openai.com/index/introducing-gpt-live",
-    "image": "images/2026-07-09/2026-07-09_ai_2.jpg",
+    "title": "OpenAI推出ChatGPT Work智能体",
+    "url": "https://wtvbam.com/2026/07/09/openai-launches-chatgpt-work",
+    "image": "images/2026-07-10/2026-07-10_ai_1.jpg",
     "detail": [
-      "北京时间7月8日,OpenAI正式发布全新实时语音模型系列GPT-Live,包含GPT-Live-1与GPT-Live-1 mini两款,并于当天(周三)开始向全球用户逐步开放。该系列专为自然口语对话打造,是OpenAI在语音交互赛道上的又一次重大产品升级。",
-      "GPT-Live最大的技术亮点在于能够同时进行聆听与说话,支持真正意义上的双向实时对话,大幅缩短了传统语音助手中先听完再回答的等待延迟。据路透社同日报道,新模型在打断、插话、情绪语调等自然对话场景下的表现更接近真人交流体验,mini版本则面向对成本和延迟更敏感的轻量部署。",
-      "该产品被视为OpenAI直接对标语音助手与实时客服市场的关键落子。发布后,开发者社区围绕其在智能硬件、车载语音、在线教育与陪伴类应用中的落地潜力展开热烈讨论。多位从业者指出,能同时听说的低延迟语音能力有望重塑人机语音交互的产品形态,并对现有语音API厂商构成直接压力。"
+      "北京时间7月9日,OpenAI正式发布面向职场人群的AI智能体ChatGPT Work,这是该公司迄今最大规模的办公场景更新。它把广受欢迎的ChatGPT聊天能力与旗下编程工具Codex深度整合,让不懂代码的白领也能低成本调用强大的自动化能力,直接生成文档、演示文稿与网站。",
+      "据路透报道,ChatGPT Work可自主规划并执行多步骤复杂任务,覆盖邮件管理、技能调用与素材创作等办公流程,几乎不需要人工频繁介入。该服务由当天同步登场的最新一代模型驱动,在上下文处理与长任务连贯性上较此前版本有明显提升,主打端到端的项目交付体验。",
+      "外界普遍将ChatGPT Work视为对Anthropic今年初推出的Claude Cowork的正面回击。两家公司都在为潜在的公开上市做准备,并激烈争夺利润率更高的企业级市场。业内认为,这标志着大模型竞争的焦点正从消费级聊天,快速转向能自主完成复杂工作的生产力智能体。"
     ]
   },
   {
-    "id": "2026-07-09_ai_3",
-    "date": "2026-07-09",
+    "id": "2026-07-10_ai_2",
+    "date": "2026-07-10",
     "category": "AI",
-    "subcat": "安全",
-    "platform": "CNBC",
+    "subcat": "模型发布",
+    "platform": "官方博客",
     "platform_color": "#7C3AED",
-    "title": "中国工信部预警Claude Code存在后门",
-    "url": "https://www.cnbc.com/2026/07/08/china-anthropic-ai-claude-code-backdoor-security-threat.html",
-    "image": "images/2026-07-09/2026-07-09_ai_3.jpg",
+    "title": "字节跳动发布Seedream 5.0 Pro图像模型",
+    "url": "https://www.barchart.com/story/news/3214059/seedream-5-0-pro-launches-bytedance-unveils-professional-multimodal-ai-image-model-with-advanced-layer-editing-multilingual-precision-and-production-ready-control",
+    "image": "images/2026-07-10/2026-07-10_ai_2.jpg",
     "detail": [
-      "北京时间7月8日,据CNBC报道,中国工业和信息化部下属的国家漏洞库(CNVDB)发布安全预警,指出Anthropic旗下编程助手Claude Code存在安全后门风险,呼吁国内用户高度警惕。这是中国官方机构首次针对该海外AI编程工具发出正式安全通报。",
-      "预警指出,受影响的版本为2.1.91至2.1.196(发布区间为今年4月2日至6月29日),这些版本可能在未经用户同意的情况下,将用户的地理位置、身份等敏感信息发送至远程服务器。CNVDB建议用户升级至最新的2.1.204版本,或暂停使用该工具,以规避潜在的数据泄露风险。",
-      "该预警迅速在国内技术圈发酵。据报道,阿里巴巴已计划自7月10日起禁止员工使用Anthropic旗下工具。业内人士认为,此次事件反映出企业与监管方对海外AI开发工具供应链安全的日益关注,也可能进一步推动国产编程助手在企业内部的替代进程,加剧中外AI工具在合规与信任层面的博弈。"
+      "北京时间7月9日,字节跳动正式发布旗舰级多模态图像生成与编辑模型Seedream 5.0 Pro,面向专业创作者、营销人员、设计师与内容生产团队,是Seedream 5.0系列中定位最高的专业版,能力全面超越此前的5.0 Lite轻量版。",
+      "该模型主打交互式精准编辑,支持图层分离、通过草图与批注进行局部修改,并可原生渲染多达14种语言的高精度文字,擅长处理高密度信息图与结构化排版设计。其编辑模型可在只改动单一元素的同时保持画面其余部分不变,支持最多10张参考图,适配影视级视觉工作流。",
+      "发布当天,生成媒体平台fal同步上线Seedream 5.0 Pro的文生图与编辑API,为开发者提供零时差的生产级接入能力。社区评价其在图文对齐、结构一致性与文字渲染上进步显著,不少设计师直呼可替代部分传统修图软件,进一步印证国产多模态模型在图像赛道的快速崛起。"
     ]
   },
   {
-    "id": "2026-07-09_ai_4",
-    "date": "2026-07-09",
+    "id": "2026-07-10_ai_3",
+    "date": "2026-07-10",
     "category": "AI",
     "subcat": "行业",
-    "platform": "PR Newswire",
+    "platform": "X",
     "platform_color": "#7C3AED",
-    "title": "UST联手Anthropic培训两万名员工",
-    "url": "https://www.morningstar.com/news/pr-newswire/20260708io00270/ust-partners-with-anthropic-to-bring-claude-into-usts-platforms-engineering-and-operations-and-train-20000-ust-employees-globally",
-    "image": "images/2026-07-09/2026-07-09_ai_4.jpg",
+    "title": "MiniMax将开源2.7万亿参数巨型模型",
+    "url": "https://x.com/lauriechenwords/status/2075048321790755008",
+    "image": "images/2026-07-10/2026-07-10_ai_3.jpg",
     "detail": [
-      "北京时间7月8日,数字化转型服务商UST宣布与AI公司Anthropic达成战略联盟,将把Claude深度引入UST自身的平台、工程与运营体系,并计划在全球范围内对两万名UST员工进行Claude相关技能的培训与认证。这一合作标志着企业级AI落地进入更大规模的组织赋能阶段。",
-      "根据公告,双方合作还涵盖面向物理AI(Physical AI)的Claude应用,以及UST旗下iDEC、CarePath、IntelliOps、FinX等多个平台与解决方案的智能化升级。UST希望借助Claude的推理与代码能力,加速内部研发流程并向客户交付更具竞争力的AI驱动服务。",
-      "这一动作被视为Anthropic加速企业市场扩张的重要一步。分析人士指出,通过与大型IT服务商深度绑定并规模化培训员工,Anthropic能够快速渗透到金融、医疗、制造等垂直行业的实际业务场景中。此举也反映出企业客户对AI技能储备的迫切需求,大规模员工认证或将成为未来AI落地的标配路径。"
+      "7月9日,多家媒体持续跟进报道,中国AI公司MiniMax正在研发一款参数规模高达2.7万亿的超大语言模型,并计划以开源形式发布。若如期推出,它将成为目前市面上体量最大的中国AI模型,消息最早由The Information援引两位知情人士披露。",
+      "该模型的规模约为MiniMax当前旗舰M3(约4280亿参数)的六倍,业界预计最快在今年第三季度发布。分析普遍认为,这一动作是继DeepSeek、智谱Z.ai之后,国产开源阵营对海外闭源前沿模型商业模式发起的又一次强力冲击,进一步挤压美国实验室的利润空间。",
+      "报道指出,今年以来中国低成本开源模型在美国及其他市场加速渗透,越来越多开发者选择它们处理高并发、低敏感度的任务。MiniMax的这一超大开源计划被视为国产大模型从追赶转向以规模和开放策略换取生态话语权的标志性事件,引发社区高度关注。"
     ]
   },
   {
-    "id": "2026-07-09_ai_5",
-    "date": "2026-07-09",
+    "id": "2026-07-10_ai_4",
+    "date": "2026-07-10",
     "category": "AI",
-    "subcat": "行业",
-    "platform": "CNBC",
+    "subcat": "模型发布",
+    "platform": "官方博客",
     "platform_color": "#7C3AED",
-    "title": "中国大模型占美企token用量近半",
-    "url": "https://www.cnbc.com/2026/07/08/chinese-open-weight-ai-models-us-enterprise-adoption.html",
-    "image": "images/2026-07-09/2026-07-09_ai_5.jpg",
+    "title": "Grok 4.5联合Cursor共训上线",
+    "url": "https://cursor.com/blog/grok-4-5",
+    "image": "images/2026-07-10/2026-07-10_ai_4.jpg",
     "detail": [
-      "北京时间7月8日,据CNBC一项调查报道,中国开源(开放权重)大模型在美国企业市场的渗透率正快速攀升,已占到部分美国企业token调用量的约30%至46%,成为不容忽视的重要力量。这一数据打破了外界对国产模型难以进入海外企业市场的固有印象。",
-      "报道以GLM系列模型为例指出,其新版本GLM-5.2在Vercel平台上的token调用量实现了约27倍的增长,付费客户数更是暴增约80倍,增长曲线极为陡峭。开放权重、可自托管部署以及更具吸引力的成本结构,被认为是国产模型赢得海外企业青睐的关键原因。",
-      "这一趋势在AI社区引发广泛讨论。不少开发者认为,中国开源模型在性价比与部署灵活性上的优势,正在实质性地改变全球企业的模型选型格局,并对以闭源API为主的头部厂商构成成本层面的压力。也有观点提醒,企业在采用海外开源模型时仍需权衡合规、安全与长期维护等因素。"
+      "近日,埃隆·马斯克旗下SpaceXAI发布其最强模型Grok 4.5,7月9日随编程工具Cursor全面开放访问,成为该公司上市并收购Cursor后的首款重磅新模型。Cursor官方博客确认,这是双方首次联合训练的成果,面向编码、智能体任务与知识工作全面发力。",
+      "Grok 4.5采用混合专家(MoE)架构,由SpaceXAI与Cursor共同训练,训练数据包含数万亿token的Cursor真实用户与代码库交互记录,并在软件工程和更广泛的知识工作场景中进行了强化学习。它拥有约50万token的超长上下文窗口,API定价为每百万输入token 2美元、输出token 6美元。",
+      "该模型现已在Grok Build、SpaceXAI控制台以及Cursor全线套餐中上线,Cursor为个人与团队用户提供首周双倍额度并限时免费体验。据第三方评测,其在SWE-bench Pro上token效率突出、单任务成本极具竞争力,登上智能榜单前列,被视为编程与智能体赛道的一匹黑马。"
     ]
   },
   {
-    "id": "2026-07-09_vibecoding_1",
-    "date": "2026-07-09",
-    "category": "VibeCoding",
-    "subcat": "框架",
-    "platform": "官方博客",
-    "platform_color": "#2563EB",
-    "title": "TypeScript 7 正式发布 快10倍",
-    "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
-    "image": "images/2026-07-09/2026-07-09_vibecoding_1.jpg",
-    "detail": [
-      "微软 TypeScript 团队于 2026 年 7 月 8 日正式发布 TypeScript 7.0,这是用 Go 语言从零重写的原生版本编译器。去年团队公布了让工具链快一个数量级的目标,新代码库在忠实保留原有结构与逻辑的前提下,带来了原生代码速度、共享内存多线程以及一系列新优化,官方称全量构建通常能获得 8 到 12 倍的提速。",
-      "官方给出的实测数据颇具说服力:vscode 代码库构建从 125.7 秒降到 10.6 秒,提速 11.9 倍;sentry、bluesky、playwright 等大型项目也普遍有 8 倍以上加速,同时内存占用平均下降 6% 到 26%。编辑器体验同样飞跃,打开 VS Code 代码库中一个含错误的文件、从启动到看到首个报错,由 17.5 秒缩短到 1.3 秒以内。",
-      "落地方面反响热烈:Slack 工程师称 TS7 消除了 40% 的合并队列时间,CI 类型检查从 7.5 分钟降到 1.25 分钟;Vanta 最大项目提速 9 倍;微软新闻团队每月省下 400 小时 CI 等待。新语言服务还让失败的语言服务命令减少 80% 以上、崩溃减少 60% 以上。",
-      "为平滑过渡,7.0 暂不附带 API,官方发布 @typescript/typescript6 兼容包提供 tsc6 可执行文件,支持与旧版并存供 typescript-eslint 等工具使用。同时引入实验性 --checkers、--builders 与 --singleThreaded 标志来精调并行行为,夜间构建也将回归标准 typescript@next 通道。"
-    ]
-  },
-  {
-    "id": "2026-07-09_vibecoding_2",
-    "date": "2026-07-09",
-    "category": "VibeCoding",
-    "subcat": "工具",
-    "platform": "官方博客",
-    "platform_color": "#2563EB",
-    "title": "Bun 宣布用 Rust 重写运行时",
-    "url": "https://bun.com/blog/bun-in-rust",
-    "image": "images/2026-07-09/2026-07-09_vibecoding_2.jpg",
-    "detail": [
-      "2026 年 7 月 8 日,Bun 作者 Jarred 发文宣布正在把 Bun 从 Zig 重写为 Rust。Bun 起初是把 esbuild 的 Go 转译器逐行移植到 Zig,作者 2021 年在奥克兰一间小公寓里用一年时间独立完成,如今 Bun CLI 月下载量超过 2200 万,Claude Code、OpenCode 等工具都押注其为运行时。文中也披露 Bun 已于 2025 年 12 月被 Anthropic 收购。",
-      "重写的核心动机是稳定性。作者贴出 v1.3.14 一长串修复清单,几乎全是 use-after-free、double-free、内存泄漏和竞态崩溃,多集中在 node:zlib、node:http2、crypto、tls 等模块。他坦言问题根源在于 Zig 混合垃圾回收值与手动管理内存时缺乏语言层面保障,每处分配都要人工反复审查何时、如何、是否只释放一次。",
-      "团队此前已做了大量努力:给 Zig 编译器打补丁加 ASAN、Windows 上发布 ReleaseSafe 安全构建、用 Fuzzilli 全天候模糊测试、编写端到端内存泄漏测试,但仍无法根治。Rust 的 safe 子集能把 use-after-free、忘记释放等问题变成编译错误,配合 Drop 的 RAII 自动清理,提供了远优于风格指南加代码评审的反馈闭环。",
-      "作者坦言重写通常是坏主意——Bun 去掉注释有 535,496 行 Zig,全量重写需一支小团队干满一年且冻结功能。但庆幸的是 Bun 测试套件本身用 TypeScript 写、不依赖运行时语言,加上作者用了预发布版 Claude 辅助,使这种以相同测试驱动的机械化移植成为可行路径。此文在 HN 迅速登上首页引发热议。"
-    ]
-  },
-  {
-    "id": "2026-07-09_vibecoding_3",
-    "date": "2026-07-09",
-    "category": "VibeCoding",
-    "subcat": "开源项目",
-    "platform": "Hacker News",
-    "platform_color": "#2563EB",
-    "title": "自托管群聊 Chatto 宣布开源",
-    "url": "https://www.hmans.dev/blog/chatto-is-open-source",
-    "image": "images/2026-07-09/2026-07-09_vibecoding_3.jpg",
-    "detail": [
-      "2026 年 7 月 8 日,开发者 hmans 宣布其打磨约一年的团队/群组聊天应用 Chatto 正式开源,任何人都可自托管。最快体验方式是 Homebrew:brew install chattocorp/tap/chatto,再 chatto init 与 chatto run 即可跑起来。项目当天冲上 Hacker News 首页,获得约 668 分与近 200 条评论,热度极高。",
-      "Chatto 对标 Slack、Teams、Discord 这类产品,主打紧凑、轻快且开源可自托管。它资源占用极低、前端号称同类中最顺滑,并把隐私放在首位:所有个人与聊天数据以每用户密钥静态加密,用户注销时密钥即被销毁。单个服务器对应单个社区,无数据联邦、无第三方追踪或分析,客户端可同时直连多个服务器。",
-      "功能上,Chatto 内置完整的语音与视频通话及屏幕共享,通话端到端加密并可随基础设施扩展参与人数。二进制文件覆盖 Linux(x86_64/ARM64)、macOS 与 Windows,单一可执行文件甚至自带前端。作者同时预告即将公测的 Chatto Cloud,采用全欧洲自有基础设施提供托管,不做订阅、不投广告、无锁定。",
-      "目前 Chatto 处于 0.4 版本,作者认为已足够稳定用于生产,但仍有内容举报、审核等功能待补。0.5 将聚焦安全特性与多服务器客户端打磨,预计 6 到 12 个月内发布 1.0。社区反应积极,不少人赞赏其在日益奇怪的 OSS 聊天赛道里提供了一个干净、隐私优先的自托管选择。"
-    ]
-  },
-  {
-    "id": "2026-07-09_vibecoding_4",
-    "date": "2026-07-09",
-    "category": "VibeCoding",
-    "subcat": "AI编程",
-    "platform": "Hacker News",
-    "platform_color": "#2563EB",
-    "title": "微软开源 Flint 面向AI的图表语言",
-    "url": "https://microsoft.github.io/flint-chart/#/",
-    "image": "images/2026-07-09/2026-07-09_vibecoding_4.jpg",
-    "detail": [
-      "2026 年 7 月 8 日,微软在 Show HN 上发布并开源了 Flint——一门面向 AI 智能体的数据可视化中间语言。作者指出,让 AI 可靠生成图表一直很棘手:简单的图表规格虽稳定但常因依赖系统默认值而质量低下;而写满细节的复杂规格虽好看却冗长,智能体难以稳定产出。帖子登上 HN 首页,获得约 169 分与数十条讨论。",
-      "团队判断这本质是语言层面而非单纯模型能力的问题:现有可视化语言对 AI 智能体来说太底层,迫使它们显式做出本应由优秀编译器处理的视觉决策。Flint 提供基于语义类型的简洁规格,并内置布局优化引擎,能从高层的简单描述自动推导补全底层细节,生成既好看又对人类可读可改的图表。",
-      "Flint 已经为微软另一开源项目 Data Formulator 提供可视化能力,团队还配套发布了 MCP 服务器,开发者可直接把 Flint 插入自己喜欢的智能体应用中,用自然语言驱动数据探索与制图。这一智能体友好的中间表示思路,契合近来社区对降低人机可视化最后一公里门槛的关注。",
-      "在 AI 编码与智能体工具爆发的背景下,Flint 代表了一条不同路线:与其一味加强模型,不如为智能体设计更合适的领域语言与编译器,把可靠性从提示工程转移到工具层。HN 上的开发者围绕语义类型规格的表达力、与 Vega-Lite 等既有语言的关系展开了热烈探讨。"
-    ]
-  },
-  {
-    "id": "2026-07-09_vibecoding_5",
-    "date": "2026-07-09",
+    "id": "2026-07-10_vibecoding_1",
+    "date": "2026-07-10",
     "category": "VibeCoding",
     "subcat": "工具",
     "platform": "GitHub",
     "platform_color": "#2563EB",
-    "title": "OfficeCLI 为AI代理造Office套件",
-    "url": "https://github.com/iOfficeAI/OfficeCLI",
-    "image": "images/2026-07-09/2026-07-09_vibecoding_5.jpg",
+    "title": "FableCut:AI能驱动的浏览器视频编辑器",
+    "url": "https://github.com/ronak-create/FableCut",
+    "image": "images/2026-07-10/2026-07-10_vibecoding_1.jpg",
     "detail": [
-      "开源项目 OfficeCLI 近日在 GitHub Trending 强势霸榜,单日新增约 1717 星,总星标已达 1.17 万,并于 2026 年 7 月 8 日发布 v1.0.132 版本(累计 126 个 release)。它自称是首个专为 AI 智能体打造的 Office 套件,让任意 AI 代理用一行命令即可读取、编辑并自动化 Word、Excel、PowerPoint 文件,开源、单一二进制、无需安装 Office 或任何依赖。",
-      "其杀手锏是内置的高保真 HTML 渲染引擎,能把 docx/xlsx/pptx 渲染成 HTML 或 PNG,给智能体一双眼睛,闭合渲染到查看再到修复的循环,即使在 CI、Docker 或无显示器服务器上也能工作。此外内置 350 多个 Excel 函数的公式与数据透视引擎、模板合并、round-trip dump 转可回放批处理 JSON,以及路径寻址与三层架构(读视图、DOM 操作、原始 XML)。",
-      "面向 AI 集成,OfficeCLI 提供内置 MCP 服务器,一条命令即可注册到 Claude Code、Cursor、VS Code/Copilot、LM Studio;安装后还会自动探测本机 AI 工具并写入 skill 文件,让代理立刻具备文档创建与编辑能力。所有命令支持确定性 --json 输出与结构化错误码,便于智能体自我纠错。",
-      "项目用 C# 编写(占比 94%),采用 Apache-2.0 许可,同时提供 Python 与 Node.js 的常驻管道 SDK,以及 Homebrew、npm 与一键脚本安装。相较 python-docx/openpyxl 需分库且仅限 Python,OfficeCLI 主打跨语言、跨平台、单二进制与 AI 原生渲染,在智能体办公自动化浪潮中迅速走红。"
+      "FableCut 是开发者 ronak-create 刚开源的一款浏览器端非线性视频编辑器,主打\"AI 智能体可直接驱动剪辑\"。它风格类似 Premiere,完全跑在浏览器里,且把整条时间线暴露为一个 JSON 文档,任何能写 JSON 的进程都能编辑视频。项目零 npm 依赖,一句 node server.js 即可启动。",
+      "核心亮点是\"项目文件即接口\":project.json 描述媒体、片段、轨道、特效、关键帧与转场,人类手动编辑与 Claude Code、Claude Desktop 等 MCP/REST 客户端可同时协作,浏览器 UI 借助 SSE 在约 150ms 内热更新。功能覆盖 4 视频轨+3 音频轨、12 种滤镜、绿幕抠像、浏览器内 AI 抠人、关键帧动画、变速重映射、17 种转场与动感字幕等。",
+      "项目登上 Hacker News Show HN 并获约 83 分讨论,发布数小时即在 GitHub 收获 224 星、7 个 fork。它把\"AI 视频\"从黑盒 API 拉回到透明可控的工程化路线,让智能体能像剪辑师一样逐帧操作时间线,被社区视为 agent 驱动创作工具的新范式。"
     ]
   },
   {
-    "id": "2026-07-09_vibecoding_6",
-    "date": "2026-07-09",
+    "id": "2026-07-10_vibecoding_2",
+    "date": "2026-07-10",
     "category": "VibeCoding",
     "subcat": "AI编程",
-    "platform": "官方博客",
+    "platform": "HN",
     "platform_color": "#2563EB",
-    "title": "Cognition 发布 SWE-1.7 编程模型",
-    "url": "https://cognition.com/blog/swe-1-7",
-    "image": "images/2026-07-09/2026-07-09_vibecoding_6.jpg",
+    "title": "Frugon:本地LLM账单泄漏分析器",
+    "url": "https://github.com/rodiun/frugon",
+    "image": "images/2026-07-10/2026-07-10_vibecoding_2.jpg",
     "detail": [
-      "2026 年 7 月 8 日,Cognition(Devin/Windsurf 背后的公司)发布了新一代软件工程模型 SWE-1.7,并在 Hacker News 引发讨论,标题直言其智能水平已逼近 GPT-5.5 与 Opus。作为专为编码任务优化的模型系列,SWE 系列强调在真实软件工程工作流中的表现,而非仅追求抽象基准分数。",
-      "此次发布延续了业界对 AI 编码模型专用化的趋势:相较通用大模型,SWE-1.7 面向代码库理解、多文件修改、补丁生成与工具调用等真实开发场景做针对性打磨,试图在保持强推理能力的同时兼顾速度与成本,服务于 Windsurf 等编辑器与自主编码代理。",
-      "社区反应两极,HN 上约 127 条评论围绕基准可信度、与 GPT-5.5、Claude Opus 的实际差距,以及近似顶级模型宣称的水分展开辩论。有开发者认可其在日常改代码任务上够用且更快,也有人强调基准分数与真实工程体验之间的落差,呼吁看第三方独立评测。",
-      "值得注意的是,同日 OpenAI 也发布了在编码评测中区分信号与噪声一文,凸显整个行业正从堆叠榜单转向更严谨的编码能力评估方法。SWE-1.7 的登场与这场关于如何正确衡量 AI 编码能力的讨论相互呼应,成为当天 VibeCoding 圈的焦点之一。"
+      "Frugon 是开发者 rodiun 新发布的开源命令行工具,定位为\"你的 LLM 账单在漏钱,就在本机看清漏在哪\"。它是一个完全本地运行、MIT 许可的 LLM 成本分析器,把你的调用日志喂给它,就能算出切换或路由模型后能省多少钱,数据与密钥都不离开本机。",
+      "使用上支持 uvx frugon analyze 一键运行,或用 pipx 安装。它读取 OpenAI 请求/响应格式的 JSONL 日志,并自带 frugon capture 本地代理:把应用的 base URL 指向它,即可零延迟捕获每次调用。成本分析纯本地完成,不发任何网络请求,靠内置分词器、定价表与算术得出结果,并给出模型路由拆分建议。",
+      "项目在 Show HN 发布约 9 小时内获约 29 分与多条讨论,GitHub 收获 80 星。在各家 AI 编码模型定价频繁变动、团队 token 账单飙升的背景下,这类隐私优先、可离线审计的成本优化工具切中痛点,被认为能帮小团队把按次计费的 API 开销压回到本机 CPU 时间。"
     ]
   },
   {
-    "id": "2026-07-09_gaming_1",
-    "date": "2026-07-09",
+    "id": "2026-07-10_vibecoding_3",
+    "date": "2026-07-10",
+    "category": "VibeCoding",
+    "subcat": "开源",
+    "platform": "HN",
+    "platform_color": "#2563EB",
+    "title": "Rowboat:本地优先的Claude桌面替代品",
+    "url": "https://news.ycombinator.com/item?id=48819808",
+    "image": "images/2026-07-10/2026-07-10_vibecoding_3.jpg",
+    "detail": [
+      "Rowboat 由 rowboatlabs 团队开源,定位为\"带记忆的开源 AI 同事\",也是本地优先的 Claude Desktop 替代品。作者称 Claude 桌面版很出色,但日常工作更想要一个真正的\"工作应用\"而非纯聊天框,于是做了 Rowboat,并支持用户在其中自建\"工作面\"(work surfaces)。",
+      "它把你的工作索引成一张\"活的知识图谱\",并据此在本机完成任务,重要数据以纯 Markdown 存于本地、可随时查看编辑。内置邮件、笔记、浏览器、代码模式、会议记录等工作面,助手能直接在工作流内帮忙;可连接工具、联网、用浏览器,并调用 Claude Code 或 Codex 写代码,还支持通过 Composio、MCP server 扩展。",
+      "该 Show HN 帖当天获约 50 分与十余条讨论,前一天旧帖曾冲到 214 分、92 条评论,热度持续。社区把它与 OpenWork 等\"本地优先 AI 协作台\"一并讨论,认为\"AI 要在工作真正发生的地方出现\"这一理念,正推动桌面 AI 从对话框走向可编排的生产力工作台。"
+    ]
+  },
+  {
+    "id": "2026-07-10_vibecoding_4",
+    "date": "2026-07-10",
+    "category": "VibeCoding",
+    "subcat": "工具",
+    "platform": "HN",
+    "platform_color": "#2563EB",
+    "title": "Sighthound:Rust写的开源代码扫描器",
+    "url": "https://github.com/corgea/sighthound",
+    "image": "images/2026-07-10/2026-07-10_vibecoding_4.jpg",
+    "detail": [
+      "Sighthound 是安全公司 Corgea 开源的规则驱动 SAST(静态应用安全测试)扫描器,用 Rust 编写、基于 Tree-sitter 做 AST 感知的漏洞扫描。它同时支持模式匹配模式与污点分析模式(source 到 sink 的数据流追踪),可处理多文件项目并行执行,输出 text、JSON 或 CSV。",
+      "语言覆盖较广:Python、JavaScript、TypeScript/TSX、Java、PHP、C#、Go、Ruby、HTML 及 Django 模板,按文件扩展名加载内置规则包,也支持自定义规则。规则以 RON 编写,分 search 与 taint 两种模式,并提供规则编写指南。构建需 Rust 1.85+,可 cargo build 或用 Docker 导出容器兼容的二进制。",
+      "项目在 Show HN 发布约 3 小时,虽分数尚低但作为厂商开源的可自托管 SAST 引擎受到关注。在 AI 生成代码激增、安全审查压力上升的当下,轻量、可嵌入 CI、无需上传源码到云端的开源扫描器,正成为团队补齐\"AI 代码安全\"短板的实用选择。"
+    ]
+  },
+  {
+    "id": "2026-07-10_vibecoding_5",
+    "date": "2026-07-10",
+    "category": "VibeCoding",
+    "subcat": "工具",
+    "platform": "HN",
+    "platform_color": "#2563EB",
+    "title": "Onboard-CLI:Go+AST的代码库可视化",
+    "url": "https://github.com/animesh-94/onboard-cli",
+    "image": "images/2026-07-10/2026-07-10_vibecoding_5.jpg",
+    "detail": [
+      "Onboard-CLI 是开发者 animesh-94 新开源的开发者平台工具,用于代码解析、系统画像与基于画布的节点可视化,帮助开发者快速看懂大型复杂代码库。它用 Go 编写核心 CLI,配合 React 19 前端,借助 Tree-sitter 做 AST 切片,生成结构拓扑图并强制架构边界。",
+      "关键能力包括:map 命令自动拉起本地 React Flow 画布,在指定半径内可视化探索代码路径与依赖;drift 命令依据 architecture.yml 规则检测未授权的跨文件导入与边界违规,守护长期代码健康;还内置配置管理、影响分析、代码导出、owner 追踪与 project pulse 等命令。内置 Go、TS、JS、Python、Java 五种以上解析器。",
+      "项目在 Show HN 发布约 15 小时,获约 22 分与十条讨论。它把\"新人上手陌生代码库\"这一常见痛点产品化,结合 LLM 与 AST 的可视化路线,被视为在 AI 辅助开发时代帮助人和智能体共同建立代码心智模型的实用工具。"
+    ]
+  },
+  {
+    "id": "2026-07-10_vibecoding_6",
+    "date": "2026-07-10",
+    "category": "VibeCoding",
+    "subcat": "工具",
+    "platform": "HN",
+    "platform_color": "#2563EB",
+    "title": "Devthropology:更懂GitHub仓库的洞察",
+    "url": "https://news.ycombinator.com/item?id=48848819",
+    "image": "images/2026-07-10/2026-07-10_vibecoding_6.jpg",
+    "detail": [
+      "Devthropology 是一位开发者的个人项目,名字是\"developer\"与\"anthropology(人类学)\"的合成词,寓意\"开发者人类学\",用来为 GitHub 仓库提供比原生页面更深入的洞察。它构建在 GitHub 的 pull request 数据之上,试图从协作行为角度解读一个开源项目的健康与演进。",
+      "相比 GitHub 自带的 Insights,它更聚焦于把 PR、贡献者与代码变更等数据加工成可读的图表与画像,帮助维护者和潜在贡献者判断项目的活跃度、评审文化与协作模式。作者将其定位为\"passion project\",强调对开源社群运作方式的观察与量化。",
+      "该 Show HN 帖发布约 7 小时内获约 31 分与 9 条讨论。它与 Diggit.dev 等\"代码考古/仓库历史可视化\"工具一同被社区讨论,反映出开发者对\"读懂一个仓库背后的人与协作\"这一需求的持续兴趣,也为评估开源依赖提供了新的观察视角。"
+    ]
+  },
+  {
+    "id": "2026-07-10_gaming_1",
+    "date": "2026-07-10",
     "category": "Gaming",
     "subcat": "主机游戏",
-    "platform": "IGN",
-    "platform_color": "#059669",
-    "title": "曜石取消《宣誓2》转做全新《辐射》",
-    "url": "https://www.ign.com/articles/obsidian-cancels-avowed-2-to-focus-on-new-fallout-game",
-    "image": "images/2026-07-09/2026-07-09_gaming_1.jpg",
-    "detail": [
-      "据Bloomberg报道,微软旗下工作室黑曜石(Obsidian)已取消《宣誓2》(Avowed 2)及多个未公开项目,将团队资源全面转向开发一款全新的《辐射》系列作品,这是自2010年《辐射:新维加斯》后该工作室时隔十余年重返这一标志性废土IP。",
-      "报道指出,新《辐射》项目据传由《新维加斯》总监Josh Sawyer领衔,黑曜石在近期席卷Xbox业务的大规模裁员与重组浪潮中做出这一取舍,首部《宣誓》虽口碑尚可但商业表现未达预期,成为项目被砍的重要背景。",
-      "消息在《辐射》社区引发强烈反响,大量老玩家一面为黑曜石回归系列而振奋,一面则保持谨慎态度,表示要看到实机才信,并担忧Bethesda对IP的把控会重演《辐射4》《辐射76》的争议路线。",
-      "从商业层面看,这一调整反映出微软在收缩战线、集中押注头部IP的策略取向,《辐射》凭借Prime Video剧集的热度已成为其最具变现潜力的资产之一,而《宣誓》这类新原创IP的续作则被优先牺牲。"
-    ]
-  },
-  {
-    "id": "2026-07-09_gaming_2",
-    "date": "2026-07-09",
-    "category": "Gaming",
-    "subcat": "单机游戏",
-    "platform": "IGN",
-    "platform_color": "#059669",
-    "title": "《刺客信条:黑旗 重制》评测9分",
-    "url": "https://www.ign.com/articles/assassins-creed-black-flag-resynced-review",
-    "image": "images/2026-07-09/2026-07-09_gaming_2.jpg",
-    "detail": [
-      "育碧新加坡工作室打造的《刺客信条:黑旗 重制版》(Black Flag Resynced)正式解禁,IGN给出9分的高分评价,认为这是对系列公认最佳作品之一的一次必要的再创作,而非仅仅是画面翻新的换皮之作。",
-      "评测指出,重制版不只提升了画质表现,还对跑酷、潜行系统以及任务结构进行了现代化重构,借鉴了2023年《刺客信条:幻景》的流畅手感,同时删除了原作中饱受诟病的现代日部分与强制失败的跟踪任务。",
-      "该作在Metacritic上PC与PS5双平台均取得84分的综合成绩,社区玩家对重返海盗黄金时代、扬帆海战与探索古代秘密的体验普遍表示期待,不少人称其有望成为业界最佳重制作品之一。",
-      "《黑旗 重制》登陆PC、PS5与Xbox Series X|S平台,其发售紧随争议但销量强劲的《刺客信条:影》之后,被视为育碧稳固系列口碑、唤起老玩家情怀的重要一步。"
-    ]
-  },
-  {
-    "id": "2026-07-09_gaming_3",
-    "date": "2026-07-09",
-    "category": "Gaming",
-    "subcat": "主机游戏",
-    "platform": "IGN",
-    "platform_color": "#059669",
-    "title": "《EA大学橄榄球27》评测7分",
-    "url": "https://www.ign.com/articles/college-football-27-review",
-    "image": "images/2026-07-09/2026-07-09_gaming_3.jpg",
-    "detail": [
-      "EA体育年货新作《EA Sports 大学橄榄球27》(College Football 27)于7月9日正式发售,IGN在深度体验后给出7分的初步评测评价,称其为系列大三赛季,整体呈现出稳步改进而非突破性革新的态势。",
-      "评测重点提到本作重做了防守端的操作系统,新方案更直观、按键更少即可完成防守调整,但对老玩家而言多年养成的肌肉记忆难以在短时间内适应,好在游戏内置的技巧训练模式能提供及时的操作提醒与帮助。",
-      "作为一款登陆PS5、Xbox Series X|S与PC的体育大作,本作延续了Dynasty王朝、Road to Glory荣耀之路、College Ultimate Team等核心模式,但社区中已有部分玩家在EA官方论坛抱怨改进幅度不及预期,认为缺乏诚意。",
-      "从年货运营角度看,《大学橄榄球》系列在2025年凭借时隔十余年的回归掀起热潮,而如今每年都是同一款游戏的体育品类疲劳感开始显现,7分成绩也反映出EA维持热度的挑战。"
-    ]
-  },
-  {
-    "id": "2026-07-09_gaming_4",
-    "date": "2026-07-09",
-    "category": "Gaming",
-    "subcat": "单机游戏",
     "platform": "Gematsu",
     "platform_color": "#059669",
-    "title": "《幻兽帕鲁》突破4000万玩家迎1.0",
-    "url": "https://www.gematsu.com/2026/07/palworld-early-access-tops-40-million-players",
-    "image": "images/2026-07-09/2026-07-09_gaming_4.jpg",
+    "title": "数码宝贝时空旅者 登陆Switch",
+    "url": "https://www.gematsu.com/2026/06/digimon-story-time-stranger-free-update-launches-july-9-adds-terriermon-assistant-graphics-mode-options-more",
+    "image": "images/2026-07-10/2026-07-10_gaming_1.jpg",
     "detail": [
-      "开发商Pocketpair宣布,生存建造大作《幻兽帕鲁》(Palworld)自2024年初进入抢先体验以来,2.5年间累计玩家已突破4000万大关,这一里程碑恰逢游戏即将于7月10日正式推出1.0版本、结束长达近30个月的抢先体验阶段。",
-      "1.0版本将在PC、PS5与Xbox上同步上线,并首发加入Xbox Game Pass,已拥有该作的玩家可免费升级;官方特别提示存档无需清空即可延续,不过制作人Bucky半开玩笑地建议玩家其实还是清一下比较好。",
-      "这款曾被戏称为带枪宝可梦的作品,发售首月即售出1500万份,一度登上Steam史上同时在线人数第二的宝座,如今在社区中依旧热度不减,4000万玩家的成绩已可比肩索尼克、《霍格沃茨之遗》等知名IP。",
-      "商业层面,Pocketpair此前已与索尼合作成立名为Palworld Entertainment的新公司专门拓展该IP,而此前Nintendo与宝可梦公司发起的专利诉讼,据本周消息进展来看赔偿金额或将小到可忽略不计。"
+      "《数码宝贝物语:时空旅者》(Digimon Story: Time Stranger)是万代南梦宫发行、Media.Vision开发的回合制角色扮演游戏,是《数码宝贝物语》系列时隔多年的正统新作,收录超过450只数码宝贝,以时间穿越拯救人类与数码世界的剧情为核心,自2025年10月在PS5、Xbox Series与PC上推出后广受JRPG玩家好评。",
+      "7月10日,游戏正式登陆Nintendo Switch与Switch 2平台(日本7月9日),这是系列首次如此迅速地移植到任天堂掌机。与此同时,PS5、Xbox与Steam版在7月9日获得一款免费更新,新增可操作角色\"亚古兽助手\"(Terriermon Assistant)、实地探索拍照模式,以及可切换至最高60帧性能表现的\"画质模式\"选项。",
+      "对于任天堂平台玩家而言,这意味着终于能在便携掌机上体验这款高口碑数码宝贝新作,与其他Switch数码宝贝作品凑齐收藏。社区反馈热烈,不少人称赞移植速度之快\"史无前例\",而Switch 2版本同时具备画质模式与性能模式的设定,也让掌机体验的流畅度得到保障。"
     ]
   },
   {
-    "id": "2026-07-09_gaming_5",
-    "date": "2026-07-09",
+    "id": "2026-07-10_gaming_2",
+    "date": "2026-07-10",
     "category": "Gaming",
-    "subcat": "主机游戏",
-    "platform": "PlayStation Blog",
+    "subcat": "行业",
+    "platform": "PC Gamer",
     "platform_color": "#059669",
-    "title": "索尼2028年1月停产实体游戏光盘",
-    "url": "https://blog.playstation.com/2026/07/01/physical-disc-production-ending-in-january-2028-for-new-games-releasing-on-playstation-consoles",
-    "image": "images/2026-07-09/2026-07-09_gaming_5.jpg",
+    "title": "Marathon前监督与索尼和解",
+    "url": "https://www.pcgamer.com/games/former-destiny-2-and-marathon-director-settles-usd200-million-lawsuit-against-sony-and-bungie-the-outcome-is-one-i-am-very-satisfied-with",
+    "image": "images/2026-07-10/2026-07-10_gaming_2.jpg",
     "detail": [
-      "索尼互动娱乐(SIE)通过PlayStation官方博客宣布,将从2028年1月起停止为所有登陆PlayStation主机的新游戏生产实体光盘,此后新作只会以数字形式在PlayStation Store及零售商处发售,标志着主机行业加速向纯数字化时代迈进。",
-      "索尼在公告中解释,随着消费者偏好与整个娱乐产业持续从实体介质转向数字下载,这是顺应市场趋势的自然选择;该决定不会影响2028年之前已发售或即将以光盘形式推出的游戏,存量光盘游戏仍可正常游玩。",
-      "消息在玩家社区引发广泛讨论与担忧,不少玩家指出游戏其实早就不在光盘里、盘上只剩一枚数字密钥,也有人担心失去二手交易、收藏与实体所有权,并希望Nintendo不要在Switch 2上走同样的路线。",
-      "值得注意的是,与索尼停产策略形成对照的是,据报道微软正在测试一项光盘转数字功能,允许Xbox玩家将现有实体游戏收藏数字化,两大厂商在实体介质终局问题上呈现出不同的过渡思路。"
+      "Christopher Barrett曾在Bungie工作超过25年,是《命运2》(Destiny 2)以及今年发售的《Marathon》的初代游戏监督,2024年因所谓\"不当行为\"被Bungie解雇。此后他向索尼与Bungie提起高达2亿美元的错误解雇诉讼,指控解雇是为规避向其支付近5000万美元的报酬,该案曾一度因管辖权问题被驳回,后于2026年1月重新提起。",
+      "本周Barrett在社媒宣布,索尼、Bungie与他已达成和解协议,正式了结这起2亿美元诉讼。作为和解的一部分,他的名字被重新加入《Marathon》的制作人员名单,标注为初代游戏监督。索尼与Bungie在联合声明中肯定他为\"Bungie最成功的一些游戏\"做出的贡献,Barrett本人则表示\"对这一结果非常满意\"。",
+      "这起长期备受关注的高管纠纷终于落幕,让持续动荡的Bungie少了一桩悬而未决的法律风险。业界观察者认为,和解与署名恢复对双方而言都是体面的收场,也再次将聚光灯投向《Marathon》上线以来口碑与商业表现不及预期的处境,以及Bungie近年在人事与项目上的持续震荡。"
+    ]
+  },
+  {
+    "id": "2026-07-10_gaming_3",
+    "date": "2026-07-10",
+    "category": "Gaming",
+    "subcat": "单机",
+    "platform": "Nintendo Everything",
+    "platform_color": "#059669",
+    "title": "传说之下续作 第五章上线补丁",
+    "url": "https://nintendoeverything.com/deltarune-0-0-247-update-announced-patch-notes-changes-and-more",
+    "image": "images/2026-07-10/2026-07-10_gaming_3.jpg",
+    "detail": [
+      "《Deltarune》是《传说之下》(Undertale)作者Toby Fox打造的角色扮演冒险游戏,以分章节形式陆续免费更新推出,凭借独特的黑色幽默、可爱角色与创新战斗系统积累了庞大粉丝群体。此前推出的第五章(Chapter 5)是玩家翘首以盼的重要内容更新,登陆包括PS4、PS5、Steam以及Switch 1与Switch 2在内的多个平台。",
+      "开发团队于7月9日推出了0.0.247版本更新,主要针对第五章修复大量问题。补丁修复了曾在PlayStation 4上引发随机崩溃的多处内存泄漏、一处可穿模导致的卡死(softlock)问题,以及若干图形与流程Bug,同时在\"悬崖\"(Cliffs)商店中新增了一些对话内容,让游戏体验更加完整流畅。",
+      "作为一款仍在持续开发中的分章节作品,及时的稳定性修复对保障玩家推进剧情至关重要,尤其是解决PS4崩溃问题受到主机玩家的普遍欢迎。粉丝社区对Toby Fox团队快速响应反馈表示认可,新增的商店对话也被眼尖的玩家挖掘讨论,持续维持着这款免费大作的高活跃度与话题热度。"
+    ]
+  },
+  {
+    "id": "2026-07-10_gaming_4",
+    "date": "2026-07-10",
+    "category": "Gaming",
+    "subcat": "单机",
+    "platform": "Eurogamer",
+    "platform_color": "#059669",
+    "title": "致命躯壳2 定档8月20日",
+    "url": "https://www.eurogamer.net/mortal-shell-2-august-release-date",
+    "image": "images/2026-07-10/2026-07-10_gaming_4.jpg",
+    "detail": [
+      "《Mortal Shell 2》(致命躯壳2)是开发商Cold Symmetry、发行商Playstack打造的类魂动作角色扮演游戏,是2020年好评作品《致命躯壳》的独立续作。前作以\"占据不同躯壳\"的独特机制和硬核的类魂战斗在小成本作品中脱颖而出,续作曾在今年的夏日游戏节(Summer Game Fest)亮相,承诺2026年内发售。",
+      "本周官方正式公布发售日期:游戏将于8月20日以数字版形式登陆PC、PS5与Xbox Series X|S。标准版售价49.99美元,59.99美元的数字\"Devout版\"则包含72小时抢先体验以及八款黑曜石躯壳皮肤。故事设定在一个满目疮痍的奇幻世界,玩家扮演被预言注定夺回圣物的\"先驱者\"(Harbinger)。",
+      "确定档期意味着这款备受类魂玩家期待的续作不会跳票至2027年,但也一头扎进了2026年8月拥挤的发售档期,需与众多大作正面竞争。社区对前作的机制创新记忆犹新,普遍期待续作在战斗深度与世界观上更进一步,而抢先体验与皮肤特典的Devout版设定也引发了关于预购价值的讨论。"
+    ]
+  },
+  {
+    "id": "2026-07-10_gaming_5",
+    "date": "2026-07-10",
+    "category": "Gaming",
+    "subcat": "经典重制",
+    "platform": "PS5",
+    "platform_color": "#059669",
+    "title": "黑色行动1、2登陆PS5并打五折",
+    "url": "https://www.pushsquare.com/guides/what-are-the-call-of-duty-black-ops-1-and-2-ps5-release-dates",
+    "image": "images/2026-07-10/2026-07-10_gaming_5.jpg",
+    "detail": [
+      "《使命召唤:黑色行动》初代与《黑色行动2》是Treyarch在PS3世代打造的两部标杆作品,以冷战谍战叙事、\"Reznov\"与\"Mason\"的双线剧情,以及开创性的僵尸模式赢得口碑。此次由移植名厂Iron Galaxy操刀,把这两部经典正式带上PlayStation 5平台,让新老玩家无需老主机即可重温这段被誉为系列巅峰的战役与合作内容。",
+      "据Push Square整理,两作已于7月9日在PS商店同步上架,提供独立的原生PS5与PS4版本,保留原作全部战役、僵尸及多人内容,并支持奖杯系统;PS Plus会员在发售期内可享受五折优惠,单作定价约40美元,DLC地图包与《黑色行动2》季票则单独出售,整体属于系列少见的大幅折扣。",
+      "社区反应两极:老玩家为能在新主机上重刷战役和僵尸\"Origins\"等经典地图而兴奋,称这是补票收藏的好时机;但也有人吐槽把地图包和季票拆开单卖\"吃相难看\",担心多人在线人数和联机稳定性,呼吁厂商尽快公布服务器与跨世代匹配的具体细节。"
     ]
   }
 ]
