@@ -1,0 +1,126 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T08:30:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Hacker News",
+      "author": "某博客作者(Tris Sherliker)",
+      "title": "破解优衣库T恤上的混淆Bash脚本",
+      "url": "https://news.ycombinator.com/item?id=48829312",
+      "detail": "有人发现优衣库与Akamai联名T恤背面看似乱码的文字,其实是一段Base64编码的可执行Bash脚本,运行后会在终端里彩色滚动打印\"Peace for All\"。这个把真实shell代码藏进量产服装的彩蛋触动了极客们的怀旧神经,评论区热烈考据。",
+      "heat": "1300+分"
+    },
+    {
+      "platform": "Reddit",
+      "author": "r/webdev社区",
+      "title": "都2026年了,AI到底带来了什么收益?",
+      "url": "https://www.reddit.com/r/webdev/comments/1r36elk/ok_its_2026_what_are_the_ai_gains",
+      "detail": "一位普通打工程序员发帖追问:都2026年了,AI到底给日常朝九晚五的开发带来了什么实际收益?楼主坦言自己只把AI当\"帮我敲我已会写的代码\",引发大量开发者晒真实使用场景与生产力争论。",
+      "heat": "1.2k赞"
+    },
+    {
+      "platform": "新浪财经",
+      "author": "格隆汇/智通财经",
+      "title": "英伟达两个月市值蒸发1万亿美元",
+      "url": "https://finance.sina.com.cn/stock/bxjj/2026-07-08/doc-inihaxzy4817625.shtml",
+      "detail": "自5月14日创历史新高以来,英伟达累计下跌逾16%,不到两个月市值蒸发约1万亿美元,前瞻市盈率被压至18倍,创2019年初以来最低。市场资金正从\"唯一选择\"轮动向美光等存储芯片,引发AI交易逻辑变天的热议。",
+      "heat": "70万+讨论"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "soycaporal",
+      "title": "Ternlight:7MB浏览器端向量模型",
+      "url": "https://news.ycombinator.com/item?id=48811644",
+      "detail": "一位开发者把MiniLM蒸馏成三值量化的小型句向量模型,用Rust手写推理引擎编译到WASM SIMD,仅7MB就能在浏览器端本地跑语义搜索:文本进、384维向量出,靠余弦相似度匹配同义句,全程无需API。演示用2000篇React文档做纯端侧即输即搜,引发关于端侧embedding用途的热议。",
+      "heat": "325分/67评论"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "某博主(stevekrouse)",
+      "title": "在AI时代,学编程依然值得",
+      "url": "https://news.ycombinator.com/item?id=48810439",
+      "detail": "作者主张即便在LLM写代码盛行的当下,学编程依然值得。评论区激辩:有人担心编码能力会持续萎缩、未来只剩AI生成的低质代码互相训练;也有人引用阿西莫夫《职业》,认为真正吃透业务与代码结构的人才会成为稀缺的核心创造力,超过300条回复讨论职业路径与技能价值。",
+      "heat": "315分/307评论"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "知乎",
+      "author": "知乎热榜",
+      "title": "英伟达市值两个月蒸发约1万亿美元,怎么看?",
+      "url": "https://finance.sina.com.cn/stock/usstock/c/2026-07-08/doc-inihaxzu8269617.shtml",
+      "detail": "英伟达估值大幅回落成为财经与科技圈焦点。争论集中在:这是AI泡沫见顶的信号,还是资金向存储、定制ASIC、CPU复苏等多赛道扩散的\"黄金坑\"?多头与空头就AI下半场谁是赢家针锋相对。",
+      "heat": "70万热度"
+    },
+    {
+      "platform": "Reddit",
+      "author": "r/ExperiencedDevs社区",
+      "title": "资深开发者自认用AI快24% 实测却慢20%",
+      "url": "https://www.reddit.com/r/ExperiencedDevs/comments/1tlqzld/update_study_2025_study_shows_experienced_devs",
+      "detail": "一份研究更新显示,经验丰富的开发者主观感觉用AI提速24%,但客观测量反而慢了约20%。帖子重燃\"AI到底是不是生产力幻觉\"的大讨论,不少人现身说法承认存在感知偏差。",
+      "heat": "高热讨论"
+    },
+    {
+      "platform": "CNBC/TVBS",
+      "author": "科技媒体报道",
+      "title": "中国AI模型低价攻势冲击OpenAI、Anthropic",
+      "url": "https://news.tvbs.com.tw/tech/3251030",
+      "detail": "CNBC报道称越来越多美国企业采用中国AI模型,通过OpenRouter使用的中国模型Token占比最高达46%。GLM-5.2上市首周日Token暴增约27倍,成本仅为Anthropic主力模型的十分之一到四成,引发\"中美AI差距微乎其微\"的热议。",
+      "heat": "广泛讨论"
+    },
+    {
+      "platform": "知乎",
+      "author": "知乎热榜",
+      "title": "为什么AI一次性写不好代码 总要程序员兜底?",
+      "url": "https://www.zhihu.com/question/2058507973886997487",
+      "detail": "随着AI编程工具普及,\"一人公司\"与\"人人皆可开发\"的叙事升温,但开发者们发现AI生成的代码仍需大量人工兜底。这一话题引爆关于AI编程真实生产力与程序员岗位价值的辩论。",
+      "heat": "56万热度"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "bilsbie",
+      "title": "如何在家给自己的DNA测序",
+      "url": "https://news.ycombinator.com/item?id=48812156",
+      "detail": "一位爱好者分享了在家用消费级设备给自己DNA测序的完整流程,从取样、建库到用开源工具做基因组比对,把过去需要专业实验室的操作搬到了书房。帖子登上HN首页,评论区热议DIY生物学的门槛下降、数据隐私与自我量化的边界。",
+      "heat": "257分/101评论"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "B站",
+      "name": "图灵的猫",
+      "url": "https://space.bilibili.com/371846699",
+      "detail": "111.9万粉丝的知名科技UP主、2024百大UP主。近期围绕\"AI时代一人公司、AI应用与AI培训乱象\"等话题持续更新,把AI通识与社会热点结合,视频常破百万播放,是B站AI科普的头部创作者。",
+      "heat": "111.9万粉"
+    },
+    {
+      "platform": "博客/独立作者",
+      "name": "某IP与技术法律博主(Tris Sherliker)",
+      "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
+      "detail": "这位专注IP与商业法的博主逐行逆向了优衣库×Akamai联名T恤上的混淆Bash脚本,揭示其解码后会在终端打印\"Peace for All\"。文章因兼具技术考据与文化趣味被HN、Reddit、Mastodon大量转发。",
+      "heat": "1300+分登HN"
+    },
+    {
+      "platform": "B站",
+      "name": "妈咪说MommyTalk",
+      "url": "https://space.bilibili.com/223146252",
+      "detail": "硬核科学科普UP主,擅长把量子力学、相对论、神经网络、诺奖成果等抽象原理讲得通俗易懂,常年产出高信息密度的深度解析长视频,在AI与前沿物理选题上尤其受工科与技术向观众追捧,是B站知识区口碑稳定的老牌硬核科普作者。",
+      "heat": "B站知识区硬核科普"
+    },
+    {
+      "platform": "B站",
+      "name": "无穷小亮的科普日常",
+      "url": "https://space.bilibili.com/14804670",
+      "detail": "《中国国家地理》融媒体中心负责人、《博物》杂志编辑,以《网络热传生物鉴定》系列走红,用幽默严谨的方式为网络热门生物视频辟谣鉴定,B站粉丝破千万、全网超两千万,是国内最具影响力的自然科普创作者之一。",
+      "heat": "B站粉丝破千万"
+    },
+    {
+      "platform": "B站",
+      "name": "某AI大模型周报UP主(AI 大模型周报)",
+      "url": "https://www.bilibili.com/video/BV1G89MBVEJL",
+      "detail": "这位专注大模型追踪的UP主持续更新\"AI大模型周报/AI Infra周报\"系列,近期上线\"AI Infra 周报 2026年7月 a\",逐条汇总GLM-5.2、DeepSeek V4、Hermes Agent等新模型与工具,并附论文与项目链接,是追前沿模型动态的实用频道。",
+      "heat": "周更AI资讯"
+    }
+  ]
+}
