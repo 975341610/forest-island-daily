@@ -75,8 +75,8 @@
     },
     "bradautomates/claude-video": {
       "best_rank": 4,
-      "appearances": 4,
-      "total_today_stars": 2711,
+      "appearances": 5,
+      "total_today_stars": 3429,
       "language": "Python",
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/186665980?v=4",
@@ -147,8 +147,8 @@
     },
     "pbakaus/impeccable": {
       "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 658,
+      "appearances": 3,
+      "total_today_stars": 1040,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -156,8 +156,8 @@
     },
     "ruvnet/RuView": {
       "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 2559,
+      "appearances": 5,
+      "total_today_stars": 3225,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -173,9 +173,9 @@
       "html_url": "https://github.com/anthropics/claude-code"
     },
     "can1357/oh-my-pi": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 155,
+      "best_rank": 18,
+      "appearances": 2,
+      "total_today_stars": 404,
       "language": "TypeScript",
       "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11807264?v=4",
@@ -228,8 +228,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 3726,
+      "appearances": 4,
+      "total_today_stars": 6280,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -255,8 +255,8 @@
     },
     "decolua/9router": {
       "best_rank": 11,
-      "appearances": 3,
-      "total_today_stars": 1149,
+      "appearances": 4,
+      "total_today_stars": 1436,
       "language": "JavaScript",
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8282593?v=4",
@@ -354,8 +354,8 @@
     },
     "MadsLorentzen/ai-job-search": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 7593,
+      "appearances": 3,
+      "total_today_stars": 11309,
       "language": "TypeScript",
       "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/50207393?v=4",
@@ -363,8 +363,8 @@
     },
     "iOfficeAI/OfficeCLI": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 2610,
+      "appearances": 3,
+      "total_today_stars": 4539,
       "language": "C#",
       "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/145246968?v=4",
@@ -381,8 +381,8 @@
     },
     "TencentCloud/CubeSandbox": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 1228,
+      "appearances": 3,
+      "total_today_stars": 1704,
       "language": "Rust",
       "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
@@ -390,8 +390,8 @@
     },
     "TencentCloud/TencentDB-Agent-Memory": {
       "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 928,
+      "appearances": 3,
+      "total_today_stars": 1509,
       "language": "TypeScript",
       "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
@@ -399,8 +399,8 @@
     },
     "kyutai-labs/pocket-tts": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 1186,
+      "appearances": 3,
+      "total_today_stars": 1421,
       "language": "Python",
       "description": "A TTS that fits in your CPU (and pocket)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151010778?v=4",
@@ -417,8 +417,8 @@
     },
     "t8y2/dbx": {
       "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 173,
+      "appearances": 2,
+      "total_today_stars": 342,
       "language": "Rust",
       "description": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
@@ -461,9 +461,9 @@
       "html_url": "https://github.com/Diolinux/PhotoGIMP"
     },
     "Graphify-Labs/graphify": {
-      "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 856,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1765,
       "language": "Python",
       "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
@@ -479,9 +479,9 @@
       "html_url": "https://github.com/yt-dlp/yt-dlp"
     },
     "vxcontrol/pentagi": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 454,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 989,
       "language": "Go",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "owner_avatar": "https://avatars.githubusercontent.com/u/39194251?v=4",
@@ -497,9 +497,9 @@
       "html_url": "https://github.com/Egonex-AI/Understand-Anything"
     },
     "microsoft/SkillOpt": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 275,
+      "best_rank": 17,
+      "appearances": 2,
+      "total_today_stars": 551,
       "language": "Python",
       "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -549,6 +549,96 @@
       "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
       "html_url": "https://github.com/tinyhumansai/openhuman"
+    },
+    "jamiepine/voicebox": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 1146,
+      "language": "TypeScript",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/32987599?v=4",
+      "html_url": "https://github.com/jamiepine/voicebox"
+    },
+    "stablyai/orca": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 868,
+      "language": "TypeScript",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "html_url": "https://github.com/stablyai/orca"
+    },
+    "SmartlyDressedGames/U3-SDK": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 524,
+      "language": "C#",
+      "description": "Source code for Unturned, a free open-world zombie survival sandbox game.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/12567656?v=4",
+      "html_url": "https://github.com/SmartlyDressedGames/U3-SDK"
+    },
+    "prisma/prisma": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 376,
+      "language": "TypeScript",
+      "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/17219288?v=4",
+      "html_url": "https://github.com/prisma/prisma"
+    },
+    "openai/codex": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 299,
+      "language": "Rust",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/codex"
+    },
+    "wealthfolio/wealthfolio": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 226,
+      "language": "Rust",
+      "description": "A beautiful, private, local-first personal finance tracker. Investments, net worth, spending, and simulations.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/183885451?v=4",
+      "html_url": "https://github.com/wealthfolio/wealthfolio"
+    },
+    "fqscfqj/Y2A-Auto": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 211,
+      "language": "Python",
+      "description": "YouTube到AcFun和bilibili自动化搬运工具，支持AI翻译、字幕生成、内容审核、智能监控",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/68098251?v=4",
+      "html_url": "https://github.com/fqscfqj/Y2A-Auto"
+    },
+    "roboflow/supervision": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 195,
+      "language": "Python",
+      "description": "We write your reusable computer vision tools. 💜",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/53104118?v=4",
+      "html_url": "https://github.com/roboflow/supervision"
+    },
+    "anthropics/claude-cookbooks": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 194,
+      "language": "Jupyter Notebook",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-cookbooks"
+    },
+    "bytedance/deer-flow": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 136,
+      "language": "Python",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4158466?v=4",
+      "html_url": "https://github.com/bytedance/deer-flow"
     }
   }
 }
