@@ -1,242 +1,213 @@
 [
   {
-    "id": "2026-07-10_ai_1",
-    "date": "2026-07-10",
-    "category": "AI",
-    "subcat": "产品",
-    "platform": "Reuters",
-    "platform_color": "#7C3AED",
-    "title": "OpenAI推出ChatGPT Work智能体",
-    "url": "https://wtvbam.com/2026/07/09/openai-launches-chatgpt-work",
-    "image": "images/2026-07-10/2026-07-10_ai_1.jpg",
-    "detail": [
-      "北京时间7月9日,OpenAI正式发布面向职场人群的AI智能体ChatGPT Work,这是该公司迄今最大规模的办公场景更新。它把广受欢迎的ChatGPT聊天能力与旗下编程工具Codex深度整合,让不懂代码的白领也能低成本调用强大的自动化能力,直接生成文档、演示文稿与网站。",
-      "据路透报道,ChatGPT Work可自主规划并执行多步骤复杂任务,覆盖邮件管理、技能调用与素材创作等办公流程,几乎不需要人工频繁介入。该服务由当天同步登场的最新一代模型驱动,在上下文处理与长任务连贯性上较此前版本有明显提升,主打端到端的项目交付体验。",
-      "外界普遍将ChatGPT Work视为对Anthropic今年初推出的Claude Cowork的正面回击。两家公司都在为潜在的公开上市做准备,并激烈争夺利润率更高的企业级市场。业内认为,这标志着大模型竞争的焦点正从消费级聊天,快速转向能自主完成复杂工作的生产力智能体。"
-    ]
-  },
-  {
-    "id": "2026-07-10_ai_2",
-    "date": "2026-07-10",
+    "id": "2026-07-11_ai_1",
+    "date": "2026-07-11",
     "category": "AI",
     "subcat": "模型发布",
-    "platform": "官方博客",
+    "platform": "OpenAI",
     "platform_color": "#7C3AED",
-    "title": "字节跳动发布Seedream 5.0 Pro图像模型",
-    "url": "https://www.barchart.com/story/news/3214059/seedream-5-0-pro-launches-bytedance-unveils-professional-multimodal-ai-image-model-with-advanced-layer-editing-multilingual-precision-and-production-ready-control",
-    "image": "images/2026-07-10/2026-07-10_ai_2.jpg",
+    "title": "OpenAI旗舰GPT-5.6 Sol向公众全面开放",
+    "url": "https://openai.com/index/gpt-5-6",
+    "image": "images/2026-07-11/2026-07-11_ai_1.jpg",
     "detail": [
-      "北京时间7月9日,字节跳动正式发布旗舰级多模态图像生成与编辑模型Seedream 5.0 Pro,面向专业创作者、营销人员、设计师与内容生产团队,是Seedream 5.0系列中定位最高的专业版,能力全面超越此前的5.0 Lite轻量版。",
-      "该模型主打交互式精准编辑,支持图层分离、通过草图与批注进行局部修改,并可原生渲染多达14种语言的高精度文字,擅长处理高密度信息图与结构化排版设计。其编辑模型可在只改动单一元素的同时保持画面其余部分不变,支持最多10张参考图,适配影视级视觉工作流。",
-      "发布当天,生成媒体平台fal同步上线Seedream 5.0 Pro的文生图与编辑API,为开发者提供零时差的生产级接入能力。社区评价其在图文对齐、结构一致性与文字渲染上进步显著,不少设计师直呼可替代部分传统修图软件,进一步印证国产多模态模型在图像赛道的快速崛起。"
+      "OpenAI在北京时间7月10日正式向全体用户公开发布GPT-5.6模型系列。这一系列共分三个能力层级:旗舰款Sol主打编程、生物科技与网络安全等专业场景,均衡款Terra性能对标上一代GPT-5.5但成本减半,轻量款Luna则以最低成本提供高速批量处理能力,让用户在智能、速度与成本间自由取舍。",
+      "此次发布距离6月26日的有限预览约两周。当时受特朗普政府前沿AI监管新规约束,GPT-5.6仅向约20家经美国政府批准的企业通过API和Codex开放。在完成额外测试并与官员会谈后,美国商务部批准了此次广泛发布,消费端ChatGPT用户也首次可用,标志模型发布正式进入政府审查新阶段。",
+      "官方数据显示,Sol在需要规划、迭代与工具协同的Terminal-Bench 2.1命令行基准上创下新纪录,并在基因组学基准GeneBench v1上以更少token超越GPT-5.5;网络安全基准ExploitBench中仅用约三分之一输出token即可媲美Mythos预览版。Sol还搭载OpenAI迄今最稳健的安全栈,经过数周人工红队测试与超过70万A100等效GPU小时的自动化测试。",
+      "定价方面,Sol每百万输入token收费5美元、输出30美元,Terra为2.5/15美元,Luna仅1/6美元,并提供缓存读取九折优惠。OpenAI还计划7月在Cerebras平台推出Sol,最高可达每秒750 token的推理速度,以前所未有的速度将前沿智能带给客户,不过初期访问权限仍将限于部分用户。"
     ]
   },
   {
-    "id": "2026-07-10_ai_3",
-    "date": "2026-07-10",
+    "id": "2026-07-11_ai_2",
+    "date": "2026-07-11",
+    "category": "AI",
+    "subcat": "融资",
+    "platform": "IT之家",
+    "platform_color": "#7C3AED",
+    "title": "MiniMax融资160亿港元 创始人AGI前零薪酬",
+    "url": "https://www.ithome.com/0/975/327.htm",
+    "image": "images/2026-07-11/2026-07-11_ai_2.jpg",
+    "detail": [
+      "7月10日,AI大模型企业MiniMax发布公告,完成新一轮约160亿港元(约合138亿元人民币)融资。方案采用配股加零息可转债的组合结构:配售3560万股A类股份、每股268港元,预计募资约95亿港元;同步发行65亿港元于2027年到期的零息可转债,初步转换价每股335港元。公司拟将募集资金净额约80%用于加强AI基础设施与模型研发。",
+      "本次交易吸引多家顶级国际主权基金、长线基金、一线中资机构与多策略基金参与,覆盖亚太、欧洲和美国市场,其中长线及主权基金逾20家,多家Pre-IPO及基石投资人进一步加仓。共有百余家机构参与,实现7倍认购覆盖,发行规模从最初约18亿美元在需求推动下最终扩大至20亿美元以上,显示资本对其中长期基本面的持续关注。",
+      "融资背景是MiniMax正经历上市以来的压力时刻。7月9日首轮限售股解禁首日,受部分财务投资人减持影响股价收跌17.98%,市值较3月高点累计缩水约80%。截至7月10日上午,公司市值约800余亿港元。公司称过去六个月已发布7个基础模型,企业及开发者客户增长逾五倍,消费端产品全球用户约3亿,推理算力开销大幅上升。",
+      "同日,创始人兼CEO闫俊杰发布内部全员信回应市场波动,强调公司长期方向不变。他宣布,从即日起直到公司实现AGI的那一天,将不再从公司领取任何薪酬;未来四年拿出个人名下相当于公司总股本4%的股份激励团队,另拿出1%股份设立专项基金支持开源社区。他称将把全部时间、精力和资源投入其中,视为作为创始人的长期承诺。"
+    ]
+  },
+  {
+    "id": "2026-07-11_ai_3",
+    "date": "2026-07-11",
     "category": "AI",
     "subcat": "行业",
-    "platform": "X",
+    "platform": "Financial Times",
     "platform_color": "#7C3AED",
-    "title": "MiniMax将开源2.7万亿参数巨型模型",
-    "url": "https://x.com/lauriechenwords/status/2075048321790755008",
-    "image": "images/2026-07-10/2026-07-10_ai_3.jpg",
+    "title": "OpenAI谷歌经新加坡向被列黑名单中企售AI",
+    "url": "https://www.ft.com/content/5d6aafa1-5d47-4585-aa95-6ec06a6cd20f",
+    "image": "images/2026-07-11/2026-07-11_ai_3.jpg",
     "detail": [
-      "7月9日,多家媒体持续跟进报道,中国AI公司MiniMax正在研发一款参数规模高达2.7万亿的超大语言模型,并计划以开源形式发布。若如期推出,它将成为目前市面上体量最大的中国AI模型,消息最早由The Information援引两位知情人士披露。",
-      "该模型的规模约为MiniMax当前旗舰M3(约4280亿参数)的六倍,业界预计最快在今年第三季度发布。分析普遍认为,这一动作是继DeepSeek、智谱Z.ai之后,国产开源阵营对海外闭源前沿模型商业模式发起的又一次强力冲击,进一步挤压美国实验室的利润空间。",
-      "报道指出,今年以来中国低成本开源模型在美国及其他市场加速渗透,越来越多开发者选择它们处理高并发、低敏感度的任务。MiniMax的这一超大开源计划被视为国产大模型从追赶转向以规模和开放策略换取生态话语权的标志性事件,引发社区高度关注。"
+      "据英国《金融时报》7月10日报道,OpenAI与谷歌一直在向阿里巴巴、百度和腾讯设于新加坡的子公司提供先进AI服务,尽管这三家中国科技巨头的母公司已被列入五角大楼所谓的1260H黑名单,该名单指认相关实体与中国军方存在关联。此举暴露出华盛顿意图减缓中国AI发展的努力中存在漏洞。",
+      "两家公司均向《金融时报》证实,确曾通过新加坡关联实体向上述企业提供AI服务。由于服务对象在法律上是设于新加坡的独立子公司,这一操作在现行出口管制框架下具有合规空间。OpenAI表示已就相关活动向美国政府报备。此前OpenAI还曾因怀疑存在模型蒸馏行为,切断了对阿里巴巴的部分API访问。",
+      "与OpenAI和谷歌形成对比,Anthropic采取了更为严格的立场,明确禁止中国公司及其拥有的境外实体访问其前沿AI模型,并呼吁美国收紧出口管制,以防止先进美国AI技术助力中国AI发展。报道引发对现有管制体系有效性的广泛讨论,凸显跨国子公司结构给技术封锁带来的现实挑战。",
+      "该报道正值中美AI竞争持续升温、监管收紧的敏感时点。业内人士指出,随着前沿模型能力被视为涉及国家安全的战略资源,美国政府对模型出口与客户访问的审查日趋严格,而企业出于商业利益与合规灰色地带之间的博弈,料将成为未来一段时间中美科技脱钩议题中的核心争议之一。"
     ]
   },
   {
-    "id": "2026-07-10_ai_4",
-    "date": "2026-07-10",
-    "category": "AI",
-    "subcat": "模型发布",
-    "platform": "官方博客",
-    "platform_color": "#7C3AED",
-    "title": "Grok 4.5联合Cursor共训上线",
-    "url": "https://cursor.com/blog/grok-4-5",
-    "image": "images/2026-07-10/2026-07-10_ai_4.jpg",
-    "detail": [
-      "近日,埃隆·马斯克旗下SpaceXAI发布其最强模型Grok 4.5,7月9日随编程工具Cursor全面开放访问,成为该公司上市并收购Cursor后的首款重磅新模型。Cursor官方博客确认,这是双方首次联合训练的成果,面向编码、智能体任务与知识工作全面发力。",
-      "Grok 4.5采用混合专家(MoE)架构,由SpaceXAI与Cursor共同训练,训练数据包含数万亿token的Cursor真实用户与代码库交互记录,并在软件工程和更广泛的知识工作场景中进行了强化学习。它拥有约50万token的超长上下文窗口,API定价为每百万输入token 2美元、输出token 6美元。",
-      "该模型现已在Grok Build、SpaceXAI控制台以及Cursor全线套餐中上线,Cursor为个人与团队用户提供首周双倍额度并限时免费体验。据第三方评测,其在SWE-bench Pro上token效率突出、单任务成本极具竞争力,登上智能榜单前列,被视为编程与智能体赛道的一匹黑马。"
-    ]
-  },
-  {
-    "id": "2026-07-10_vibecoding_1",
-    "date": "2026-07-10",
+    "id": "2026-07-11_vibecoding_1",
+    "date": "2026-07-11",
     "category": "VibeCoding",
-    "subcat": "工具",
+    "subcat": "AI编程",
     "platform": "GitHub",
     "platform_color": "#2563EB",
-    "title": "FableCut:AI能驱动的浏览器视频编辑器",
-    "url": "https://github.com/ronak-create/FableCut",
-    "image": "images/2026-07-10/2026-07-10_vibecoding_1.jpg",
+    "title": "kill-ai-slop：清除AI味的Agent技能",
+    "url": "https://github.com/yetone/kill-ai-slop",
+    "image": "images/2026-07-11/2026-07-11_vibecoding_1.jpg",
     "detail": [
-      "FableCut 是开发者 ronak-create 刚开源的一款浏览器端非线性视频编辑器,主打\"AI 智能体可直接驱动剪辑\"。它风格类似 Premiere,完全跑在浏览器里,且把整条时间线暴露为一个 JSON 文档,任何能写 JSON 的进程都能编辑视频。项目零 npm 依赖,一句 node server.js 即可启动。",
-      "核心亮点是\"项目文件即接口\":project.json 描述媒体、片段、轨道、特效、关键帧与转场,人类手动编辑与 Claude Code、Claude Desktop 等 MCP/REST 客户端可同时协作,浏览器 UI 借助 SSE 在约 150ms 内热更新。功能覆盖 4 视频轨+3 音频轨、12 种滤镜、绿幕抠像、浏览器内 AI 抠人、关键帧动画、变速重映射、17 种转场与动感字幕等。",
-      "项目登上 Hacker News Show HN 并获约 83 分讨论,发布数小时即在 GitHub 收获 224 星、7 个 fork。它把\"AI 视频\"从黑盒 API 拉回到透明可控的工程化路线,让智能体能像剪辑师一样逐帧操作时间线,被社区视为 agent 驱动创作工具的新范式。"
+      "kill-ai-slop 是知名开源作者 yetone(Neovim 明星插件 Avante.nvim 的作者)在北京时间 7 月 10 日全新开源的项目,定位是一份「AI 生成产品视觉与文案通病的田野指南」,同时附带一个可直接运行的 Agent Skill。仓库上线当天即冲上百星,用 TypeScript 编写,配套站点 killaislop.com。",
+      "它把 AI 生成界面里那些一眼假的套路系统化归档:滥用紫色渐变、千篇一律的 emoji 小标题、居中英雄区大字、空洞的营销黑话等等。核心能力是让 Claude Code 等编码 Agent 加载这个 Skill 后,自动扫描你的项目文件,定位这些 AI 腔调并给出改写建议,把成品打磨得更像人类设计师的手笔。",
+      "这个项目精准戳中了 vibe-coding 时代的普遍痛点——大家用 AI 快速搓出应用,却都长着同一张脸。上线数小时就在开发者社区刷屏,评论区一边玩梗一边认领自己项目里的 AI 味,被认为是对当前 AI 审美同质化的一次有趣反击,也让越来越多人开始重视 AI 产物的差异化和人味打磨。"
     ]
   },
   {
-    "id": "2026-07-10_vibecoding_2",
-    "date": "2026-07-10",
+    "id": "2026-07-11_vibecoding_2",
+    "date": "2026-07-11",
     "category": "VibeCoding",
     "subcat": "AI编程",
     "platform": "HN",
     "platform_color": "#2563EB",
-    "title": "Frugon:本地LLM账单泄漏分析器",
-    "url": "https://github.com/rodiun/frugon",
-    "image": "images/2026-07-10/2026-07-10_vibecoding_2.jpg",
+    "title": "Cactus v2发布：端侧AI推理+云端智能兜底",
+    "url": "https://github.com/cactus-compute/cactus",
+    "image": "images/2026-07-11/2026-07-11_vibecoding_2.jpg",
     "detail": [
-      "Frugon 是开发者 rodiun 新发布的开源命令行工具,定位为\"你的 LLM 账单在漏钱,就在本机看清漏在哪\"。它是一个完全本地运行、MIT 许可的 LLM 成本分析器,把你的调用日志喂给它,就能算出切换或路由模型后能省多少钱,数据与密钥都不离开本机。",
-      "使用上支持 uvx frugon analyze 一键运行,或用 pipx 安装。它读取 OpenAI 请求/响应格式的 JSONL 日志,并自带 frugon capture 本地代理:把应用的 base URL 指向它,即可零延迟捕获每次调用。成本分析纯本地完成,不发任何网络请求,靠内置分词器、定价表与算术得出结果,并给出模型路由拆分建议。",
-      "项目在 Show HN 发布约 9 小时内获约 29 分与多条讨论,GitHub 收获 80 星。在各家 AI 编码模型定价频繁变动、团队 token 账单飙升的背景下,这类隐私优先、可离线审计的成本优化工具切中痛点,被认为能帮小团队把按次计费的 API 开销压回到本机 CPU 时间。"
+      "Cactus 是一款专为手机、手表等资源受限设备打造的低延迟 AI 推理引擎,团队 Roman 与 Henry 于北京时间 7 月 10 日在 Show HN 发布了迄今最大的一次升级 v2。项目从零手写运行时,已在生产应用中每周处理数百万次推理,月活开发者数以万计。",
+      "v2 最大亮点是「基于模型置信度的路由」:通过在模型权重里植入一个探针读取内部激活值,发出置信信号,让模型自己判断哪些请求本地就能搞定、哪些该甩给云端(Gemini、Claude、OpenAI 兼容端点均可)。还带来任意 PyTorch 模型转换器、4-bit 无损量化、Apple Metal GPU 加速。实测 Gemma 4 E2B 级模型在 M5 Max 上跑到 169 tok/s,仅占 2.7GB 磁盘、1.3GB 内存,精度相比 FP16 无损。",
+      "端侧模型能扛 90% 的活,但那 10% 的缺口一直是量产拦路虎,过去开发者只能自己手搓云端兜底逻辑。Cactus 把这套「模型内部路由」做成了标配,并提供 Python、Rust、React Native、Swift、Kotlin 多语言绑定。项目采用源码可见许可(个人和小公司免费),在 HN 引发关于端云混合推理未来路线的热烈讨论。"
     ]
   },
   {
-    "id": "2026-07-10_vibecoding_3",
-    "date": "2026-07-10",
+    "id": "2026-07-11_vibecoding_3",
+    "date": "2026-07-11",
     "category": "VibeCoding",
-    "subcat": "开源",
+    "subcat": "框架",
     "platform": "HN",
     "platform_color": "#2563EB",
-    "title": "Rowboat:本地优先的Claude桌面替代品",
-    "url": "https://news.ycombinator.com/item?id=48819808",
-    "image": "images/2026-07-10/2026-07-10_vibecoding_3.jpg",
+    "title": "Bedrock：几KB字节码到处跑的8位计算系统",
+    "url": "https://news.ycombinator.com/item?id=44526322",
+    "image": "images/2026-07-11/2026-07-11_vibecoding_3.jpg",
     "detail": [
-      "Rowboat 由 rowboatlabs 团队开源,定位为\"带记忆的开源 AI 同事\",也是本地优先的 Claude Desktop 替代品。作者称 Claude 桌面版很出色,但日常工作更想要一个真正的\"工作应用\"而非纯聊天框,于是做了 Rowboat,并支持用户在其中自建\"工作面\"(work surfaces)。",
-      "它把你的工作索引成一张\"活的知识图谱\",并据此在本机完成任务,重要数据以纯 Markdown 存于本地、可随时查看编辑。内置邮件、笔记、浏览器、代码模式、会议记录等工作面,助手能直接在工作流内帮忙;可连接工具、联网、用浏览器,并调用 Claude Code 或 Codex 写代码,还支持通过 Composio、MCP server 扩展。",
-      "该 Show HN 帖当天获约 50 分与十余条讨论,前一天旧帖曾冲到 214 分、92 条评论,热度持续。社区把它与 OpenWork 等\"本地优先 AI 协作台\"一并讨论,认为\"AI 要在工作真正发生的地方出现\"这一理念,正推动桌面 AI 从对话框走向可编排的生产力工作台。"
+      "Bedrock 是开发者 benbridle 于北京时间 7 月 10 日在 Show HN 发布的轻量程序运行时,当天冲到 221 分、68 条评论,热度极高。它的理念是:程序编译后只有几 KB 字节码,能在任意电脑、游戏机或掌机上运行,而运行时本身极小,从零实现只需几个小时。",
+      "它深受 Uxn 和 PICO-8 启发,但相比 Uxn 做了显著改进,给程序提供了更多能力、也更易于移植实现。键盘、屏幕、网络等 I/O 设备采用按需挂载的模块化设计,不用的就不加载。作者设计它的初衷是让单人开发者更容易长期维护自己的程序,对抗现代软件栈的臃肿与易腐化。",
+      "在「软件永久保存」和抵抗依赖地狱的话题下,Bedrock 引发了大量共鸣。评论区围绕极简计算、可移植字节码虚拟机、以及个人软件的长期可维护性展开热议,不少人把它视作 Uxn 生态之外又一个值得关注的极简运行时实验。"
     ]
   },
   {
-    "id": "2026-07-10_vibecoding_4",
-    "date": "2026-07-10",
-    "category": "VibeCoding",
-    "subcat": "工具",
-    "platform": "HN",
-    "platform_color": "#2563EB",
-    "title": "Sighthound:Rust写的开源代码扫描器",
-    "url": "https://github.com/corgea/sighthound",
-    "image": "images/2026-07-10/2026-07-10_vibecoding_4.jpg",
-    "detail": [
-      "Sighthound 是安全公司 Corgea 开源的规则驱动 SAST(静态应用安全测试)扫描器,用 Rust 编写、基于 Tree-sitter 做 AST 感知的漏洞扫描。它同时支持模式匹配模式与污点分析模式(source 到 sink 的数据流追踪),可处理多文件项目并行执行,输出 text、JSON 或 CSV。",
-      "语言覆盖较广:Python、JavaScript、TypeScript/TSX、Java、PHP、C#、Go、Ruby、HTML 及 Django 模板,按文件扩展名加载内置规则包,也支持自定义规则。规则以 RON 编写,分 search 与 taint 两种模式,并提供规则编写指南。构建需 Rust 1.85+,可 cargo build 或用 Docker 导出容器兼容的二进制。",
-      "项目在 Show HN 发布约 3 小时,虽分数尚低但作为厂商开源的可自托管 SAST 引擎受到关注。在 AI 生成代码激增、安全审查压力上升的当下,轻量、可嵌入 CI、无需上传源码到云端的开源扫描器,正成为团队补齐\"AI 代码安全\"短板的实用选择。"
-    ]
-  },
-  {
-    "id": "2026-07-10_vibecoding_5",
-    "date": "2026-07-10",
+    "id": "2026-07-11_vibecoding_4",
+    "date": "2026-07-11",
     "category": "VibeCoding",
     "subcat": "工具",
     "platform": "HN",
     "platform_color": "#2563EB",
-    "title": "Onboard-CLI:Go+AST的代码库可视化",
-    "url": "https://github.com/animesh-94/onboard-cli",
-    "image": "images/2026-07-10/2026-07-10_vibecoding_5.jpg",
+    "title": "开源本地录屏扩展：一键生成LLM可读Bug报告",
+    "url": "https://github.com/mohsen1/session-recorder-chrome-extension",
+    "image": "images/2026-07-11/2026-07-11_vibecoding_4.jpg",
     "detail": [
-      "Onboard-CLI 是开发者 animesh-94 新开源的开发者平台工具,用于代码解析、系统画像与基于画布的节点可视化,帮助开发者快速看懂大型复杂代码库。它用 Go 编写核心 CLI,配合 React 19 前端,借助 Tree-sitter 做 AST 切片,生成结构拓扑图并强制架构边界。",
-      "关键能力包括:map 命令自动拉起本地 React Flow 画布,在指定半径内可视化探索代码路径与依赖;drift 命令依据 architecture.yml 规则检测未授权的跨文件导入与边界违规,守护长期代码健康;还内置配置管理、影响分析、代码导出、owner 追踪与 project pulse 等命令。内置 Go、TS、JS、Python、Java 五种以上解析器。",
-      "项目在 Show HN 发布约 15 小时,获约 22 分与十条讨论。它把\"新人上手陌生代码库\"这一常见痛点产品化,结合 LLM 与 AST 的可视化路线,被视为在 AI 辅助开发时代帮助人和智能体共同建立代码心智模型的实用工具。"
+      "开发者 mohsen1 于北京时间 7 月 10 日在 Show HN 发布了一款免费开源的 Chrome 会话录制扩展。他的动机很直接:市面上同类工具都把会话数据上传到自家云端再想办法变现,于是他做了个自己想要的版本——完全免费、开源、纯本地,没有账号、没有后端、没有遥测,数据只存在浏览器 IndexedDB 里,导出为 zip。",
+      "它记录的信息非常全:点击、输入、页面跳转、网络请求与响应、控制台报错、截图、带声音的录像,还能把你的语音转写并对齐到当时的操作上,支持在页面截图上画箭头和方框做标注。所有事件按时间戳排在一条时间线上;密码、认证头、token 在采集时即被脱敏。导出时可选详细程度,并带实时 token 估算,保证长会话也能塞进模型上下文窗口。",
+      "在 AI 辅助排障成为刚需的当下,「把一次复现过程打包成 LLM 可直接读的报告」这个思路很对味。本地优先、隐私可控的定位也戳中了对云端录屏工具心存顾虑的开发者,发布后获得社区正面关注,被视为 vibe-coding 工作流里一块实用拼图。"
     ]
   },
   {
-    "id": "2026-07-10_vibecoding_6",
-    "date": "2026-07-10",
+    "id": "2026-07-11_vibecoding_5",
+    "date": "2026-07-11",
     "category": "VibeCoding",
     "subcat": "工具",
     "platform": "HN",
     "platform_color": "#2563EB",
-    "title": "Devthropology:更懂GitHub仓库的洞察",
-    "url": "https://news.ycombinator.com/item?id=48848819",
-    "image": "images/2026-07-10/2026-07-10_vibecoding_6.jpg",
+    "title": "Runko：构建在Git之上的Monorepo平台",
+    "url": "https://github.com/saxocellphone/Runko",
+    "image": "images/2026-07-11/2026-07-11_vibecoding_5.jpg",
     "detail": [
-      "Devthropology 是一位开发者的个人项目,名字是\"developer\"与\"anthropology(人类学)\"的合成词,寓意\"开发者人类学\",用来为 GitHub 仓库提供比原生页面更深入的洞察。它构建在 GitHub 的 pull request 数据之上,试图从协作行为角度解读一个开源项目的健康与演进。",
-      "相比 GitHub 自带的 Insights,它更聚焦于把 PR、贡献者与代码变更等数据加工成可读的图表与画像,帮助维护者和潜在贡献者判断项目的活跃度、评审文化与协作模式。作者将其定位为\"passion project\",强调对开源社群运作方式的观察与量化。",
-      "该 Show HN 帖发布约 7 小时内获约 31 分与 9 条讨论。它与 Diggit.dev 等\"代码考古/仓库历史可视化\"工具一同被社区讨论,反映出开发者对\"读懂一个仓库背后的人与协作\"这一需求的持续兴趣,也为评估开源依赖提供了新的观察视角。"
+      "Runko 是开发者 saxocellphone 于北京时间 7 月 10 日在 Show HN 发布的 monorepo 协作平台,定位是「构建在 Git 之上」,主打堆叠式评审(stacked review)与工作区(workspaces)两大能力,面向团队在单一大仓库下的日常协作场景。",
+      "堆叠式评审让开发者把一系列相互依赖的改动拆成小颗粒、逐层叠放地提交与审阅,避免超大 PR 难以 review 的老问题;工作区则帮助在同一个 monorepo 里隔离和组织不同的开发上下文。整套系统仍以 Git 为底座,意味着团队无需抛弃现有版本控制习惯即可接入。",
+      "monorepo 与堆叠式 PR 近年在大型工程团队中越来越流行,但现成的开源方案并不多。Runko 作为一个新面孔切入这个赛道,在 Show HN 上引发了关于 stacked diff 工作流、monorepo 工具链选型的讨论,适合正在被巨型 PR 和分支管理困扰的团队关注试用。"
     ]
   },
   {
-    "id": "2026-07-10_gaming_1",
-    "date": "2026-07-10",
+    "id": "2026-07-11_vibecoding_6",
+    "date": "2026-07-11",
+    "category": "VibeCoding",
+    "subcat": "库",
+    "platform": "HN",
+    "platform_color": "#2563EB",
+    "title": "Hana JIT：带遗传算法超优化器的Python JIT",
+    "url": "https://github.com/ezducate/HanaJit",
+    "image": "images/2026-07-11/2026-07-11_vibecoding_6.jpg",
+    "detail": [
+      "Hana JIT 是开发者 iqbal1980 于北京时间 7 月 10 日在 Show HN 发布的一款基于 LLVM 的 Python 即时编译器(JIT),最大特色是内置了一个用遗传算法驱动的「超优化器」(superoptimizer),试图为热点代码自动搜索出更优的指令序列。",
+      "作者做它的初衷是想要一个 Numba 的替代品,但目标不止 NVIDIA GPU——他希望覆盖更多种类的 GPU 乃至 FPGA。项目通过 LLVM 后端把 Python 代码编译为原生指令,再叠加遗传算法在优化空间里做搜索,以榨取更高性能。作者在帖中坦言项目还在早期,尤其需要在 AMD 目标和 FPGA 方向上寻求开发与测试的帮助。",
+      "把遗传算法超优化器塞进 Python JIT 是个相当大胆的思路,兼顾了性能探索与异构硬件的野心。虽然目前仍处于寻求协作的雏形阶段,但对关注高性能 Python、编译器技术和异构计算的开发者来说是个有意思的新实验,发布后吸引了同好围观和讨论。"
+    ]
+  },
+  {
+    "id": "2026-07-11_gaming_1",
+    "date": "2026-07-11",
     "category": "Gaming",
-    "subcat": "主机游戏",
+    "subcat": "经典重制",
+    "platform": "Nintendo Everything",
+    "platform_color": "#059669",
+    "title": "乐高《大金刚》街机套装曝光 售价200美元",
+    "url": "https://nintendoeverything.com/leak-reveals-lego-donkey-kong-arcade-set",
+    "image": "images/2026-07-11/2026-07-11_gaming_1.jpg",
+    "detail": [
+      "《大金刚》是任天堂1981年推出的经典街机游戏,由宫本茂设计,玩家操控跳跳人(马力欧的前身)一路躲避大金刚扔下的木桶,攀爬钢架去营救被掳走的女友。这款作品不仅奠定了平台跳跃类型的雏形,也是马力欧与大金刚两大招牌角色的共同起点,在游戏史上有着里程碑式的地位,至今仍被无数玩家津津乐道。",
+      "早在今年五月,乐高就预告过将推出《大金刚》联名套装,但当时只放出一张模糊剪影。如今随着惯例的产品泄露,首批实拍图终于流出:这是一套高度还原初代街机机台的模型,配有可操作的摇杆、按钮,以及描绘经典关卡画面的屏幕面板。据爆料,套装共含1367块积木,预计八月上市,定价约200美元,官方正式公布应会很快跟进。",
+      "对怀旧玩家和乐高收藏家而言,这款忠实复刻原版街机的套装无疑极具吸引力,机台造型、木桶下落机关与像素画面都唤起满满回忆。它也延续了任天堂近年与乐高深度联动的势头,继马力欧、《任天堂娱乐系统》复刻套装之后,再度把游戏文化实体化摆上书桌,让经典以另一种可触摸的形式回归到粉丝身边。"
+    ]
+  },
+  {
+    "id": "2026-07-11_gaming_2",
+    "date": "2026-07-11",
+    "category": "Gaming",
+    "subcat": "经典重制",
     "platform": "Gematsu",
     "platform_color": "#059669",
-    "title": "数码宝贝时空旅者 登陆Switch",
-    "url": "https://www.gematsu.com/2026/06/digimon-story-time-stranger-free-update-launches-july-9-adds-terriermon-assistant-graphics-mode-options-more",
-    "image": "images/2026-07-10/2026-07-10_gaming_1.jpg",
+    "title": "卡普空解释《洛克人流星》合集为何用RE引擎",
+    "url": "https://mynintendonews.com/2026/07/10/capcom-on-why-it-used-re-engine-for-mega-man-star-force-legacy-collection/",
+    "image": "images/2026-07-11/2026-07-11_gaming_2.jpg",
     "detail": [
-      "《数码宝贝物语:时空旅者》(Digimon Story: Time Stranger)是万代南梦宫发行、Media.Vision开发的回合制角色扮演游戏,是《数码宝贝物语》系列时隔多年的正统新作,收录超过450只数码宝贝,以时间穿越拯救人类与数码世界的剧情为核心,自2025年10月在PS5、Xbox Series与PC上推出后广受JRPG玩家好评。",
-      "7月10日,游戏正式登陆Nintendo Switch与Switch 2平台(日本7月9日),这是系列首次如此迅速地移植到任天堂掌机。与此同时,PS5、Xbox与Steam版在7月9日获得一款免费更新,新增可操作角色\"亚古兽助手\"(Terriermon Assistant)、实地探索拍照模式,以及可切换至最高60帧性能表现的\"画质模式\"选项。",
-      "对于任天堂平台玩家而言,这意味着终于能在便携掌机上体验这款高口碑数码宝贝新作,与其他Switch数码宝贝作品凑齐收藏。社区反馈热烈,不少人称赞移植速度之快\"史无前例\",而Switch 2版本同时具备画质模式与性能模式的设定,也让掌机体验的流畅度得到保障。"
+      "《洛克人流星传奇合集》收录了原本在2006至2008年间登陆NDS的三部《洛克人流星》系列作品,已于2026年3月27日在Switch、PS4、PS5、Windows、Xbox One与Xbox Series X/S平台推出,还首次为各作追加了日英双语配音,由动画版原班声优阵容献声,是该系列首次登上现世代主机的合集。",
+      "日本游戏媒体Automaton近日刊出对多位洛克人系列开发者的长篇专访。被问及本作为何采用卡普空自研的RE引擎时,导演小田晃司回应称,团队的目标是让游戏尽可能覆盖更多平台;而RE引擎通用性强、开发效率高,在预算有限、开发周期紧张的条件下,是最合适的选择。这也不同于以往洛克人X、EXE等复刻所用的引擎。",
+      "这番表态引发玩家与业界讨论。RE引擎原本以《生化危机》《怪物猎人》等大作闻名,如今被用于像素风格的复古合集,凸显出卡普空正把这套自研技术全面铺开到旗下各类项目。对追求多平台同步、又要控制成本的中小型复刻企划来说,统一引擎的做法既保证了移植品质,也为后续更多经典系列的现代化重生提供了参考路径。"
     ]
   },
   {
-    "id": "2026-07-10_gaming_2",
-    "date": "2026-07-10",
-    "category": "Gaming",
-    "subcat": "行业",
-    "platform": "PC Gamer",
-    "platform_color": "#059669",
-    "title": "Marathon前监督与索尼和解",
-    "url": "https://www.pcgamer.com/games/former-destiny-2-and-marathon-director-settles-usd200-million-lawsuit-against-sony-and-bungie-the-outcome-is-one-i-am-very-satisfied-with",
-    "image": "images/2026-07-10/2026-07-10_gaming_2.jpg",
-    "detail": [
-      "Christopher Barrett曾在Bungie工作超过25年,是《命运2》(Destiny 2)以及今年发售的《Marathon》的初代游戏监督,2024年因所谓\"不当行为\"被Bungie解雇。此后他向索尼与Bungie提起高达2亿美元的错误解雇诉讼,指控解雇是为规避向其支付近5000万美元的报酬,该案曾一度因管辖权问题被驳回,后于2026年1月重新提起。",
-      "本周Barrett在社媒宣布,索尼、Bungie与他已达成和解协议,正式了结这起2亿美元诉讼。作为和解的一部分,他的名字被重新加入《Marathon》的制作人员名单,标注为初代游戏监督。索尼与Bungie在联合声明中肯定他为\"Bungie最成功的一些游戏\"做出的贡献,Barrett本人则表示\"对这一结果非常满意\"。",
-      "这起长期备受关注的高管纠纷终于落幕,让持续动荡的Bungie少了一桩悬而未决的法律风险。业界观察者认为,和解与署名恢复对双方而言都是体面的收场,也再次将聚光灯投向《Marathon》上线以来口碑与商业表现不及预期的处境,以及Bungie近年在人事与项目上的持续震荡。"
-    ]
-  },
-  {
-    "id": "2026-07-10_gaming_3",
-    "date": "2026-07-10",
+    "id": "2026-07-11_gaming_3",
+    "date": "2026-07-11",
     "category": "Gaming",
     "subcat": "单机",
     "platform": "Nintendo Everything",
     "platform_color": "#059669",
-    "title": "传说之下续作 第五章上线补丁",
-    "url": "https://nintendoeverything.com/deltarune-0-0-247-update-announced-patch-notes-changes-and-more",
-    "image": "images/2026-07-10/2026-07-10_gaming_3.jpg",
+    "title": "恐怖RPG《HorrorVale》登陆Switch 2",
+    "url": "https://nintendoeverything.com/rpg-adventure-game-horrorvale-announced-for-nintendo-switch-2-switch",
+    "image": "images/2026-07-11/2026-07-11_gaming_3.jpg",
     "detail": [
-      "《Deltarune》是《传说之下》(Undertale)作者Toby Fox打造的角色扮演冒险游戏,以分章节形式陆续免费更新推出,凭借独特的黑色幽默、可爱角色与创新战斗系统积累了庞大粉丝群体。此前推出的第五章(Chapter 5)是玩家翘首以盼的重要内容更新,登陆包括PS4、PS5、Steam以及Switch 1与Switch 2在内的多个平台。",
-      "开发团队于7月9日推出了0.0.247版本更新,主要针对第五章修复大量问题。补丁修复了曾在PlayStation 4上引发随机崩溃的多处内存泄漏、一处可穿模导致的卡死(softlock)问题,以及若干图形与流程Bug,同时在\"悬崖\"(Cliffs)商店中新增了一些对话内容,让游戏体验更加完整流畅。",
-      "作为一款仍在持续开发中的分章节作品,及时的稳定性修复对保障玩家推进剧情至关重要,尤其是解决PS4崩溃问题受到主机玩家的普遍欢迎。粉丝社区对Toby Fox团队快速响应反馈表示认可,新增的商店对话也被眼尖的玩家挖掘讨论,持续维持着这款免费大作的高活跃度与话题热度。"
+      "开发商Electric Airship与BatWorks Software宣布,恐怖题材角色扮演冒险游戏《HorrorVale》将登陆包括Switch 2与Switch在内的多个平台。游戏讲述一名少女爱丽丝与她的宠物狗的故事:狗狗Scruffy被卷入怪异的地下世界,爱丽丝为拯救它踏上一段漫长而惊悚的旅程,画风融合可爱与诡异,别具一格。",
+      "据官方介绍,主机新版本承诺带来增强的画面表现、更好的运行性能以及全新战斗内容。游戏采用传统回合制战斗,却加入了恐怖惊悚的独特调味;剧情横跨四个章节,提供超过50小时的流程,玩家可招募30多名各具个性与能力的伙伴,并通过共享经验值机制自由尝试各种搭配,还有60个支线任务可供探索。",
+      "作为一款带有浓厚复古JRPG韵味的独立作品,《HorrorVale》此前在PC端已积累了不错口碑,此次登陆任天堂双平台让更多主机与掌机玩家得以体验这段既温情又毛骨悚然的旅程。它也再次印证了Switch生态对小众恐怖独立游戏的友好,为喜爱剧情向、收集向回合制冒险的玩家增添了一个值得期待的新选择。"
     ]
   },
   {
-    "id": "2026-07-10_gaming_4",
-    "date": "2026-07-10",
+    "id": "2026-07-11_gaming_4",
+    "date": "2026-07-11",
     "category": "Gaming",
     "subcat": "单机",
-    "platform": "Eurogamer",
+    "platform": "Nintendo Everything",
     "platform_color": "#059669",
-    "title": "致命躯壳2 定档8月20日",
-    "url": "https://www.eurogamer.net/mortal-shell-2-august-release-date",
-    "image": "images/2026-07-10/2026-07-10_gaming_4.jpg",
+    "title": "心理恐怖《The Green Light》登陆Switch",
+    "url": "https://nintendoeverything.com/the-green-light-a-first-person-psychological-horror-game-coming-to-nintendo-switch",
+    "image": "images/2026-07-11/2026-07-11_gaming_4.jpg",
     "detail": [
-      "《Mortal Shell 2》(致命躯壳2)是开发商Cold Symmetry、发行商Playstack打造的类魂动作角色扮演游戏,是2020年好评作品《致命躯壳》的独立续作。前作以\"占据不同躯壳\"的独特机制和硬核的类魂战斗在小成本作品中脱颖而出,续作曾在今年的夏日游戏节(Summer Game Fest)亮相,承诺2026年内发售。",
-      "本周官方正式公布发售日期:游戏将于8月20日以数字版形式登陆PC、PS5与Xbox Series X|S。标准版售价49.99美元,59.99美元的数字\"Devout版\"则包含72小时抢先体验以及八款黑曜石躯壳皮肤。故事设定在一个满目疮痍的奇幻世界,玩家扮演被预言注定夺回圣物的\"先驱者\"(Harbinger)。",
-      "确定档期意味着这款备受类魂玩家期待的续作不会跳票至2027年,但也一头扎进了2026年8月拥挤的发售档期,需与众多大作正面竞争。社区对前作的机制创新记忆犹新,普遍期待续作在战斗深度与世界观上更进一步,而抢先体验与皮肤特典的Devout版设定也引发了关于预购价值的讨论。"
-    ]
-  },
-  {
-    "id": "2026-07-10_gaming_5",
-    "date": "2026-07-10",
-    "category": "Gaming",
-    "subcat": "经典重制",
-    "platform": "PS5",
-    "platform_color": "#059669",
-    "title": "黑色行动1、2登陆PS5并打五折",
-    "url": "https://www.pushsquare.com/guides/what-are-the-call-of-duty-black-ops-1-and-2-ps5-release-dates",
-    "image": "images/2026-07-10/2026-07-10_gaming_5.jpg",
-    "detail": [
-      "《使命召唤:黑色行动》初代与《黑色行动2》是Treyarch在PS3世代打造的两部标杆作品,以冷战谍战叙事、\"Reznov\"与\"Mason\"的双线剧情,以及开创性的僵尸模式赢得口碑。此次由移植名厂Iron Galaxy操刀,把这两部经典正式带上PlayStation 5平台,让新老玩家无需老主机即可重温这段被誉为系列巅峰的战役与合作内容。",
-      "据Push Square整理,两作已于7月9日在PS商店同步上架,提供独立的原生PS5与PS4版本,保留原作全部战役、僵尸及多人内容,并支持奖杯系统;PS Plus会员在发售期内可享受五折优惠,单作定价约40美元,DLC地图包与《黑色行动2》季票则单独出售,整体属于系列少见的大幅折扣。",
-      "社区反应两极:老玩家为能在新主机上重刷战役和僵尸\"Origins\"等经典地图而兴奋,称这是补票收藏的好时机;但也有人吐槽把地图包和季票拆开单卖\"吃相难看\",担心多人在线人数和联机稳定性,呼吁厂商尽快公布服务器与跨世代匹配的具体细节。"
+      "开发商Take It Studio宣布,将把第一人称心理恐怖游戏《The Green Light》移植到包括Switch在内的家用主机平台,具体发售时间稍后公布。该作由Waleedzo打造,主打氛围营造与叙事,讲述主人公Fred的现实逐渐与不安的幻觉交织,一个神秘的电台声音向他许诺自由与安宁,引诱他走向远方一座灯塔。",
+      "在剧情设定中,Fred厌倦了枯燥的死胡同工作、讨厌上司,生活仿佛一场没有尽头的失望。某个深夜值班时,收音机里的声音穿透寂静,告诉他真正的解脱正在远处那座灯塔等待。一无所有的他就此踏上旅途,不得不直面自己内心最深处的角落,以及所谓自由背后的真正代价,整体基调阴郁而富有心理张力。",
+      "这类小体量、重氛围的独立恐怖游戏近年在PC平台颇受欢迎,如今登陆Switch意味着掌机玩家也能随时随地体验这段压抑的心理惊悚之旅。虽然发售日尚未敲定,但预告片已展示了其独特的视听风格,为偏爱慢节奏叙事恐怖、探索人物内心世界的玩家提供了又一个值得关注的作品。"
     ]
   }
 ]
