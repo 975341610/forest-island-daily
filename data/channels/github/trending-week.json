@@ -111,8 +111,8 @@
     },
     "ChromeDevTools/chrome-devtools-mcp": {
       "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 359,
+      "appearances": 3,
+      "total_today_stars": 504,
       "language": "TypeScript",
       "description": "Chrome DevTools for coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11260967?v=4",
@@ -138,17 +138,17 @@
     },
     "mvanhorn/last30days-skill": {
       "best_rank": 8,
-      "appearances": 4,
-      "total_today_stars": 1706,
+      "appearances": 5,
+      "total_today_stars": 1983,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
       "html_url": "https://github.com/mvanhorn/last30days-skill"
     },
     "pbakaus/impeccable": {
-      "best_rank": 13,
-      "appearances": 3,
-      "total_today_stars": 1040,
+      "best_rank": 7,
+      "appearances": 4,
+      "total_today_stars": 1406,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -228,8 +228,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 6280,
+      "appearances": 5,
+      "total_today_stars": 7396,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -255,8 +255,8 @@
     },
     "decolua/9router": {
       "best_rank": 11,
-      "appearances": 4,
-      "total_today_stars": 1436,
+      "appearances": 5,
+      "total_today_stars": 1704,
       "language": "JavaScript",
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8282593?v=4",
@@ -309,8 +309,8 @@
     },
     "rust-lang/rust": {
       "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 119,
+      "appearances": 2,
+      "total_today_stars": 296,
       "language": "Rust",
       "description": "Empowering everyone to build reliable and efficient software.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5430905?v=4",
@@ -326,9 +326,9 @@
       "html_url": "https://github.com/crynta/terax-ai"
     },
     "golang/go": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 110,
+      "best_rank": 16,
+      "appearances": 2,
+      "total_today_stars": 306,
       "language": "Go",
       "description": "The Go programming language",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4314092?v=4",
@@ -362,9 +362,9 @@
       "html_url": "https://github.com/MadsLorentzen/ai-job-search"
     },
     "iOfficeAI/OfficeCLI": {
-      "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 4539,
+      "best_rank": 1,
+      "appearances": 4,
+      "total_today_stars": 5763,
       "language": "C#",
       "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/145246968?v=4",
@@ -381,8 +381,8 @@
     },
     "TencentCloud/CubeSandbox": {
       "best_rank": 7,
-      "appearances": 3,
-      "total_today_stars": 1704,
+      "appearances": 4,
+      "total_today_stars": 1995,
       "language": "Rust",
       "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
@@ -416,9 +416,9 @@
       "html_url": "https://github.com/anthropics/skills"
     },
     "t8y2/dbx": {
-      "best_rank": 21,
-      "appearances": 2,
-      "total_today_stars": 342,
+      "best_rank": 12,
+      "appearances": 3,
+      "total_today_stars": 587,
       "language": "Rust",
       "description": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
@@ -479,9 +479,9 @@
       "html_url": "https://github.com/yt-dlp/yt-dlp"
     },
     "vxcontrol/pentagi": {
-      "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 989,
+      "best_rank": 3,
+      "appearances": 3,
+      "total_today_stars": 1547,
       "language": "Go",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "owner_avatar": "https://avatars.githubusercontent.com/u/39194251?v=4",
@@ -552,8 +552,8 @@
     },
     "jamiepine/voicebox": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 1146,
+      "appearances": 2,
+      "total_today_stars": 1661,
       "language": "TypeScript",
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/32987599?v=4",
@@ -578,18 +578,18 @@
       "html_url": "https://github.com/SmartlyDressedGames/U3-SDK"
     },
     "prisma/prisma": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 376,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 660,
       "language": "TypeScript",
       "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
       "owner_avatar": "https://avatars.githubusercontent.com/u/17219288?v=4",
       "html_url": "https://github.com/prisma/prisma"
     },
     "openai/codex": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 299,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 712,
       "language": "Rust",
       "description": "Lightweight coding agent that runs in your terminal",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -614,9 +614,9 @@
       "html_url": "https://github.com/fqscfqj/Y2A-Auto"
     },
     "roboflow/supervision": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 195,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 420,
       "language": "Python",
       "description": "We write your reusable computer vision tools. 💜",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53104118?v=4",
@@ -639,6 +639,96 @@
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4158466?v=4",
       "html_url": "https://github.com/bytedance/deer-flow"
+    },
+    "iptv-org/iptv": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 425,
+      "language": "TypeScript",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/55937028?v=4",
+      "html_url": "https://github.com/iptv-org/iptv"
+    },
+    "oven-sh/bun": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 209,
+      "language": "Rust",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/108928776?v=4",
+      "html_url": "https://github.com/oven-sh/bun"
+    },
+    "juanfont/headscale": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 197,
+      "language": "Go",
+      "description": "An open source, self-hosted implementation of the Tailscale control server",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/181059?v=4",
+      "html_url": "https://github.com/juanfont/headscale"
+    },
+    "kubernetes/kubernetes": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 192,
+      "language": "Go",
+      "description": "Production-Grade Container Scheduling and Management",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/13629408?v=4",
+      "html_url": "https://github.com/kubernetes/kubernetes"
+    },
+    "vercel/next.js": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 191,
+      "language": "JavaScript",
+      "description": "The React Framework",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14985020?v=4",
+      "html_url": "https://github.com/vercel/next.js"
+    },
+    "huggingface/speech-to-speech": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 187,
+      "language": "Python",
+      "description": "Build local voice agents with open-source models",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "html_url": "https://github.com/huggingface/speech-to-speech"
+    },
+    "microsoft/TypeScript": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 177,
+      "language": "TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/TypeScript"
+    },
+    "hashicorp/terraform": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 172,
+      "language": "Go",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/761456?v=4",
+      "html_url": "https://github.com/hashicorp/terraform"
+    },
+    "vuejs/vue": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 162,
+      "language": "TypeScript",
+      "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6128107?v=4",
+      "html_url": "https://github.com/vuejs/vue"
+    },
+    "tailscale/tailscale": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 143,
+      "language": "Go",
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/48932923?v=4",
+      "html_url": "https://github.com/tailscale/tailscale"
     }
   }
 }
