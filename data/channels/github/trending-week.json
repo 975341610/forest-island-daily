@@ -147,8 +147,8 @@
     },
     "pbakaus/impeccable": {
       "best_rank": 7,
-      "appearances": 4,
-      "total_today_stars": 1406,
+      "appearances": 5,
+      "total_today_stars": 1684,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -164,9 +164,9 @@
       "html_url": "https://github.com/ruvnet/RuView"
     },
     "anthropics/claude-code": {
-      "best_rank": 19,
-      "appearances": 2,
-      "total_today_stars": 371,
+      "best_rank": 16,
+      "appearances": 3,
+      "total_today_stars": 528,
       "language": "Python",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -291,8 +291,8 @@
     },
     "Alishahryar1/free-claude-code": {
       "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 197,
+      "appearances": 2,
+      "total_today_stars": 314,
       "language": "Python",
       "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -470,9 +470,9 @@
       "html_url": "https://github.com/Graphify-Labs/graphify"
     },
     "yt-dlp/yt-dlp": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 488,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 749,
       "language": "Python",
       "description": "A feature-rich command-line audio/video downloader",
       "owner_avatar": "https://avatars.githubusercontent.com/u/79589310?v=4",
@@ -560,9 +560,9 @@
       "html_url": "https://github.com/jamiepine/voicebox"
     },
     "stablyai/orca": {
-      "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 868,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 1334,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -588,8 +588,8 @@
     },
     "openai/codex": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 712,
+      "appearances": 3,
+      "total_today_stars": 936,
       "language": "Rust",
       "description": "Lightweight coding agent that runs in your terminal",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -623,9 +623,9 @@
       "html_url": "https://github.com/roboflow/supervision"
     },
     "anthropics/claude-cookbooks": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 194,
+      "best_rank": 15,
+      "appearances": 2,
+      "total_today_stars": 413,
       "language": "Jupyter Notebook",
       "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -650,9 +650,9 @@
       "html_url": "https://github.com/iptv-org/iptv"
     },
     "oven-sh/bun": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 209,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 867,
       "language": "Rust",
       "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108928776?v=4",
@@ -677,9 +677,9 @@
       "html_url": "https://github.com/kubernetes/kubernetes"
     },
     "vercel/next.js": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 191,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 525,
       "language": "JavaScript",
       "description": "The React Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14985020?v=4",
@@ -695,18 +695,18 @@
       "html_url": "https://github.com/huggingface/speech-to-speech"
     },
     "microsoft/TypeScript": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 177,
+      "best_rank": 17,
+      "appearances": 2,
+      "total_today_stars": 325,
       "language": "TypeScript",
       "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
       "html_url": "https://github.com/microsoft/TypeScript"
     },
     "hashicorp/terraform": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 172,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 401,
       "language": "Go",
       "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/761456?v=4",
@@ -722,13 +722,130 @@
       "html_url": "https://github.com/vuejs/vue"
     },
     "tailscale/tailscale": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 143,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 511,
       "language": "Go",
       "description": "The easiest, most secure way to use WireGuard and 2FA.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/48932923?v=4",
       "html_url": "https://github.com/tailscale/tailscale"
+    },
+    "malisper/pgrust": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 774,
+      "language": "Rust",
+      "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6210567?v=4",
+      "html_url": "https://github.com/malisper/pgrust"
+    },
+    "Shubhamsaboo/awesome-llm-apps": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 549,
+      "language": "Python",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/31396011?v=4",
+      "html_url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    "google-labs-code/stitch-skills": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 340,
+      "language": "TypeScript",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/161364575?v=4",
+      "html_url": "https://github.com/google-labs-code/stitch-skills"
+    },
+    "tt-a1i/archify": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 242,
+      "language": "JavaScript",
+      "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
+      "html_url": "https://github.com/tt-a1i/archify"
+    },
+    "davila7/claude-code-templates": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 232,
+      "language": "Python",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6216945?v=4",
+      "html_url": "https://github.com/davila7/claude-code-templates"
+    },
+    "FoundationAgents/OpenManus": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 226,
+      "language": "Python",
+      "description": "No fortress, purely open ground.  OpenManus is Coming.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/198047230?v=4",
+      "html_url": "https://github.com/FoundationAgents/OpenManus"
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 123,
+      "language": "Python",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    "abseil/abseil-cpp": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 118,
+      "language": "C++",
+      "description": "Abseil Common Libraries (C++)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/26718316?v=4",
+      "html_url": "https://github.com/abseil/abseil-cpp"
+    },
+    "langflow-ai/langflow": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 117,
+      "language": "Python",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85702467?v=4",
+      "html_url": "https://github.com/langflow-ai/langflow"
+    },
+    "ATH-MaaS/Pixelle-Video": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 115,
+      "language": "Python",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/172576026?v=4",
+      "html_url": "https://github.com/ATH-MaaS/Pixelle-Video"
+    },
+    "catchorg/Catch2": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 113,
+      "language": "C++",
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/33321405?v=4",
+      "html_url": "https://github.com/catchorg/Catch2"
+    },
+    "rowboatlabs/rowboat": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 112,
+      "language": "TypeScript",
+      "description": "Open-source AI coworker, with memory",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/172591271?v=4",
+      "html_url": "https://github.com/rowboatlabs/rowboat"
+    },
+    "zeux/meshoptimizer": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 110,
+      "language": "C++",
+      "description": "Mesh optimization library that makes meshes smaller and faster to render",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1106629?v=4",
+      "html_url": "https://github.com/zeux/meshoptimizer"
     }
   }
 }

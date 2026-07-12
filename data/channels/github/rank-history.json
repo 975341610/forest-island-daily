@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-11": {
-      "mvanhorn/last30days-skill": 1,
-      "apple/container": 2,
-      "harry0703/MoneyPrinterTurbo": 3,
-      "addyosmani/agent-skills": 4,
-      "phuryn/pm-skills": 5,
-      "RyanCodrai/turbovec": 6,
-      "roboflow/supervision": 7,
-      "yikart/AiToEarn": 8,
-      "refactoringhq/tolaria": 9,
-      "maziyarpanahi/openmed": 10,
-      "Andyyyy64/whichllm": 11,
-      "ruvnet/RuView": 12,
-      "Wei-Shaw/sub2api": 13,
-      "Fission-AI/OpenSpec": 14,
-      "FareedKhan-dev/train-llm-from-scratch": 15,
-      "alistaitsacle/free-llm-api-keys": 16,
-      "openai/plugins": 17,
-      "google/skills": 18,
-      "shadcn-ui/ui": 19,
-      "Sumanth077/Hands-On-AI-Engineering": 20,
-      "google-labs-code/design.md": 21,
-      "pascalorg/editor": 22,
-      "blackmatrix7/ios_rule_script": 23,
-      "ZuodaoTech/everyone-can-use-english": 24,
-      "activeloopai/hivemind": 25
-    },
     "2026-06-12": {
       "addyosmani/agent-skills": 1,
       "apple/container": 2,
@@ -836,6 +809,33 @@
       "vuejs/vue": 23,
       "ChromeDevTools/chrome-devtools-mcp": 24,
       "tailscale/tailscale": 25
+    },
+    "2026-07-12": {
+      "malisper/pgrust": 1,
+      "oven-sh/bun": 2,
+      "Shubhamsaboo/awesome-llm-apps": 3,
+      "stablyai/orca": 4,
+      "tailscale/tailscale": 5,
+      "google-labs-code/stitch-skills": 6,
+      "vercel/next.js": 7,
+      "pbakaus/impeccable": 8,
+      "yt-dlp/yt-dlp": 9,
+      "tt-a1i/archify": 10,
+      "davila7/claude-code-templates": 11,
+      "hashicorp/terraform": 12,
+      "FoundationAgents/OpenManus": 13,
+      "openai/codex": 14,
+      "anthropics/claude-cookbooks": 15,
+      "anthropics/claude-code": 16,
+      "microsoft/TypeScript": 17,
+      "harry0703/MoneyPrinterTurbo": 18,
+      "abseil/abseil-cpp": 19,
+      "langflow-ai/langflow": 20,
+      "Alishahryar1/free-claude-code": 21,
+      "ATH-MaaS/Pixelle-Video": 22,
+      "catchorg/Catch2": 23,
+      "rowboatlabs/rowboat": 24,
+      "zeux/meshoptimizer": 25
     }
   }
 }
