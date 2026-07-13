@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-12": {
-      "addyosmani/agent-skills": 1,
-      "apple/container": 2,
-      "phuryn/pm-skills": 3,
-      "mvanhorn/last30days-skill": 4,
-      "refactoringhq/tolaria": 5,
-      "FareedKhan-dev/train-llm-from-scratch": 6,
-      "ruvnet/RuView": 7,
-      "maziyarpanahi/openmed": 8,
-      "activeloopai/hivemind": 9,
-      "LLMQuant/quant-mind": 10,
-      "NVIDIA/SkillSpector": 11,
-      "yikart/AiToEarn": 12,
-      "karpathy/autoresearch": 13,
-      "hexo-ai/sia": 14,
-      "QuantumNous/new-api": 15,
-      "bannedbook/fanqiang": 16,
-      "iii-hq/iii": 17,
-      "warpdotdev/warp": 18,
-      "Sumanth077/Hands-On-AI-Engineering": 19,
-      "graykode/abtop": 20,
-      "kenn-io/agentsview": 21,
-      "alistaitsacle/free-llm-api-keys": 22,
-      "anthropics/claude-plugins-official": 23,
-      "alchaincyf/zhangxuefeng-skill": 24,
-      "modelscope/FunASR": 25
-    },
     "2026-06-13": {
       "apple/container": 1,
       "addyosmani/agent-skills": 2,
@@ -836,6 +809,33 @@
       "catchorg/Catch2": 23,
       "rowboatlabs/rowboat": 24,
       "zeux/meshoptimizer": 25
+    },
+    "2026-07-13": {
+      "HKUDS/Vibe-Trading": 1,
+      "k1tbyte/Wand-Enhancer": 2,
+      "malisper/pgrust": 3,
+      "anthropics/claude-cookbooks": 4,
+      "Shubhamsaboo/awesome-llm-apps": 5,
+      "home-assistant/core": 6,
+      "public-apis/public-apis": 7,
+      "par274/sharpemu": 8,
+      "pbakaus/impeccable": 9,
+      "iptv-org/iptv": 10,
+      "hmjz100/LinkSwift": 11,
+      "openai/codex": 12,
+      "vercel/next.js": 13,
+      "heygen-com/hyperframes": 14,
+      "oven-sh/bun": 15,
+      "Nutlope/hallmark": 16,
+      "chen08209/FlClash": 17,
+      "naptha/tesseract.js": 18,
+      "ruvnet/ruflo": 19,
+      "gitroomhq/postiz-app": 20,
+      "Crosstalk-Solutions/project-nomad": 21,
+      "Comfy-Org/ComfyUI": 22,
+      "virattt/ai-hedge-fund": 23,
+      "cypress-io/cypress": 24,
+      "react/react": 25
     }
   }
 }
