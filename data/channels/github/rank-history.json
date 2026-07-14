@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-13": {
-      "apple/container": 1,
-      "addyosmani/agent-skills": 2,
-      "farion1231/cc-switch": 3,
-      "phuryn/pm-skills": 4,
-      "NVIDIA/SkillSpector": 5,
-      "kenn-io/agentsview": 6,
-      "maziyarpanahi/openmed": 7,
-      "anthropics/skills": 8,
-      "mattermost/mattermost": 9,
-      "refactoringhq/tolaria": 10,
-      "restic/restic": 11,
-      "shuvonsec/claude-bug-bounty": 12,
-      "FareedKhan-dev/train-llm-from-scratch": 13,
-      "karpathy/autoresearch": 14,
-      "browser-use/browser-use": 15,
-      "iptv-org/iptv": 16,
-      "zarazhangrui/frontend-slides": 17,
-      "supermemoryai/supermemory": 18,
-      "HelixDB/helix-db": 19,
-      "microsoft/PowerToys": 20,
-      "langchain-ai/langchain": 21,
-      "juspay/hyperswitch": 22,
-      "pgdogdev/pgdog": 23,
-      "graykode/abtop": 24,
-      "iii-hq/iii": 25
-    },
     "2026-06-14": {
       "addyosmani/agent-skills": 1,
       "apple/container": 2,
@@ -836,6 +809,33 @@
       "virattt/ai-hedge-fund": 23,
       "cypress-io/cypress": 24,
       "react/react": 25
+    },
+    "2026-07-14": {
+      "HKUDS/Vibe-Trading": 1,
+      "Graphify-Labs/graphify": 2,
+      "Shubhamsaboo/awesome-llm-apps": 3,
+      "Nutlope/hallmark": 4,
+      "github/spec-kit": 5,
+      "hasaneyldrm/exercises-dataset": 6,
+      "malisper/pgrust": 7,
+      "Crosstalk-Solutions/project-nomad": 8,
+      "public-apis/public-apis": 9,
+      "virattt/ai-hedge-fund": 10,
+      "heygen-com/hyperframes": 11,
+      "PrefectHQ/prefect": 12,
+      "TauricResearch/TradingAgents": 13,
+      "pingdotgg/t3code": 14,
+      "Augani/openreel-video": 15,
+      "ColeMurray/background-agents": 16,
+      "practical-tutorials/project-based-learning": 17,
+      "simonlin1212/TradingAgents-astock": 18,
+      "zarazhangrui/frontend-slides": 19,
+      "ruvnet/ruflo": 20,
+      "3b1b/manim": 21,
+      "FoundationAgents/OpenManus": 22,
+      "Anil-matcha/Open-Generative-AI": 23,
+      "gitroomhq/postiz-app": 24,
+      "IceWhaleTech/CasaOS": 25
     }
   }
 }
