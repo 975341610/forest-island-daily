@@ -1,288 +1,255 @@
 [
   {
-    "id": "2026-07-13_ai_1",
-    "date": "2026-07-13",
+    "id": "2026-07-14_ai_1",
+    "date": "2026-07-14",
     "category": "AI",
-    "subcat": "国产大模型",
-    "platform": "新浪科技",
+    "subcat": "行业动态",
+    "platform": "X/Fortune",
     "platform_color": "#7C3AED",
-    "title": "阶跃星辰今晚发布全球首款AI智能体手机",
-    "url": "https://finance.sina.com.cn/tech/digi/2026-07-10/doc-inihhvki5196553.shtml",
-    "image": "images/2026-07-13/2026-07-13_ai_1.jpg",
+    "title": "马斯克奥特曼再互撕:苹果告OpenAI引爆口水战",
+    "url": "https://fortune.com/2026/07/13/elon-musk-sam-altman-feud-scam-accusations-spacex-openai-ipos-grok-gpt-apple-lawsuit",
+    "image": "images/2026-07-14/2026-07-14_ai_1.jpg",
     "detail": [
-      "上海大模型独角兽阶跃星辰将于北京时间7月13日晚19点整召开「阶跃终端品牌暨新一代智能体战略发布会」,主题聚焦「Agent时代真正的智能体」。这家由前微软全球副总裁创办的公司,此前已推出Step系列多模态大模型及「跃问」「阶跃AI」等应用,近两年战略重心从C端转向Agent方向。",
-      "据多方消息,本次发布会将一次性推出AI终端品牌、智能体系统以及首款AI智能体手机,被称为「全球首款AI智能体手机」。该手机将集成多模态大模型能力,使设备从「能对话」延展到「会干活」,可自主完成点外卖、预约挂号等多步骤任务,底层依托此前发布的Step-GUI系列模型,支持200多个APP场景执行。",
-      "另据蓝鲸新闻援引知情人士消息,这款AI智能体手机由A股上市公司华勤技术负责代工生产,双方为深度绑定合作而非简单贴牌。此前OpenAI已公开押注新一代AI终端,计划2027年上市,阶跃星辰抢先落地,成为全球大模型厂商中率先迈出硬件终端这一步的玩家,业界关注其能否真正跑通「模型+终端」的商业闭环。"
+      "苹果于7月11日(周五)在加州联邦法院起诉OpenAI,指控其伙同两名跳槽而来的前苹果员工,窃取涉及苹果制造工艺及未发布产品的商业机密。这场诉讼直接点燃了两位OpenAI联合创始人之间的陈年恩怨,周末在X平台上演了一场公开骂战,再度成为科技圈焦点。",
+      "马斯克周六上午率先发难,连发数帖称奥特曼把行骗提升到了全新高度,并影射当年奥特曼窃取OpenAI这一恩怨源头。奥特曼当天回击称,GPT-5.6 Sol在多项基准测试中已是全球最强模型,而判断这点最可靠的方式,就是马斯克又开始对他念念不忘,还顺势唱衰对方的太空数据中心计划。",
+      "值得注意的是,GPT-5.6 Sol正好在马斯克旗下xAI发布Grok 4.5的次日推出,针锋相对意味十足。两人此前已因OpenAI从非营利转向营利公益公司结构而多次对簿公堂,马斯克的相关诉讼今年因超过三年诉讼时效被法官驳回。此番AI旗舰模型竞速再次把私人恩怨与商业竞争交织,引爆周末最大话题。"
     ]
   },
   {
-    "id": "2026-07-13_ai_2",
-    "date": "2026-07-13",
+    "id": "2026-07-14_ai_2",
+    "date": "2026-07-14",
     "category": "AI",
-    "subcat": "AI前沿",
-    "platform": "新浪科技",
+    "subcat": "大模型",
+    "platform": "CNBC",
     "platform_color": "#7C3AED",
-    "title": "斯坦福人类与AGI峰会聚焦具身智能",
-    "url": "https://finance.yahoo.com/technology/ai/articles/ai-moves-physical-world-humanity-002500785.html",
-    "image": "images/2026-07-13/2026-07-13_ai_2.jpg",
+    "title": "高盛点名最看好的三款中国AI大模型",
+    "url": "https://www.cnbc.com/2026/07/12/goldman-sachs-picks-its-favorite-chinese-ai-models.html",
+    "image": "images/2026-07-14/2026-07-14_ai_2.jpg",
     "detail": [
-      "美西时间7月12日(北京时间7月13日0点至9点),美国AI机器人联盟AIRA在斯坦福大学Faculty Club举办「Humanity & AGI Summit 2026:Robotics for Future Civilization」峰会,汇聚来自人工智能、机器人、科学、公共政策与风险投资领域的全球代表,共同探讨AI从数字世界走向物理世界的关键转折。",
-      "本届峰会主题定为「AGI的下一个考验是物理世界」,重点讨论智能系统如何在不确定环境中感知、从交互中学习、在约束下规划并可靠地在现实世界行动。《人类简史》《未来简史》作者尤瓦尔·赫拉利将发表线上主题演讲,多位斯坦福与卡内基梅隆大学的学者也将亮相。",
-      "钛媒体作为联合主办方之一,将连接斯坦福现场与中文科技产业用户,并在「具身智能的技术临界点」论坛与来自CMU、英伟达、甲骨文的AI科学家展开对谈。峰会同时邀请政策与政府代表参与,反映出公共部门在AI治理与部署中日益重要的角色,标志着行业焦点正从纯软件模型转向真实世界的机器人落地。"
+      "投资银行高盛于上周五发布了一份中国AI大模型竞争格局分析框架,首次明确点名其最看好的三款中国AI模型,报告聚焦各家在算力受限背景下形成的差异化能力,以及资本市场对高效率技术路线的追捧,三款首选中仅有一家为上市公司。",
+      "高盛亚洲互联网研究主管此前指出,由于算力与基础设施约束,中美AI模型走出了不同的发展路径,而投资者正在奖励中国厂商在效率上的突破。今年以来,多只中国AI相关个股凭借这一逻辑跻身香港市场表现最佳之列,吸引全球资金重新关注中国AI资产,南向资金与外资持续加码,推动板块估值中枢明显抬升。",
+      "报告认为,中国厂商的核心优势在于以更少的高端芯片、更优的工程调度与训练方法,压低单位推理成本。高盛测算,头部中国模型的API调用价格仅为同档次海外闭源模型的零头,这种极致性价比正加速其在开发者与出海企业中的渗透,也构成对英伟达高端算力依赖度较低的独特投资叙事。",
+      "这份研判正值中国开源与开放权重模型密集迭代、在编程与推理基准上逼近前沿闭源系统之际。以极低价格提供接近前沿的能力,使得DeepSeek、Qwen、GLM等模型在美国企业中的采用率持续攀升。市场对报告反应积极,相关中概与港股AI标的盘中走高,也让海外资本重新审视中国AI板块的投资价值与长期成长空间。"
     ]
   },
   {
-    "id": "2026-07-13_ai_3",
-    "date": "2026-07-13",
+    "id": "2026-07-14_ai_3",
+    "date": "2026-07-14",
     "category": "AI",
-    "subcat": "大模型突破",
-    "platform": "新浪财经",
+    "subcat": "AI治理",
+    "platform": "Decrypt/Yahoo",
     "platform_color": "#7C3AED",
-    "title": "GPT-5.6一小时证50年数学猜想",
-    "url": "https://finance.sina.com.cn/stock/t/2026-07-12/doc-inihpchi4696320.shtml",
-    "image": "images/2026-07-13/2026-07-13_ai_3.jpg",
+    "title": "示威者游行三大AI巨头总部要求暂停研发",
+    "url": "https://www.yahoo.com/news/politics/articles/protesters-march-openai-anthropic-google-221105906.html",
+    "image": "images/2026-07-14/2026-07-14_ai_3.jpg",
     "detail": [
-      "OpenAI宣布,其最强模型GPT-5.6 Sol Ultra在不到一小时内生成了困扰图论界50余年的循环双覆盖猜想的完整证明。该猜想由两位数学家分别于1973年与1979年独立提出,长期被视为图论中最重要的未解难题之一,如今首次由AI模型独立给出证明并以PDF形式发布。",
-      "OpenAI一位研究员在X平台披露,模型调用了多达64个并行子智能体协同攻关。系统原本预留8小时算力,最终仅约1小时便完成全部推导:先把一般图归约为三次图,再借助无处为零的8流定理为每条边贴上非零标签,最后用线性代数证明每条边恰好属于两个圈。据估算这次推理的算力成本约275至485美元。",
-      "曼彻斯特大学一位数学家最早公开评价,称这是一份非常漂亮、简洁而基础的证明,并感叹AI不会像人类那样因一种方法失败就放弃,而会不断尝试各种细微变体。不过他也指出证明未引用任何已有文献,且尚未经过同行评审。业内强调,把PDF上传至CDN与正式发表经同行评审的论文完全是两回事。",
-      "循环双覆盖猜想历史上曾多次出现所谓证明,后来均被发现漏洞甚至撤稿,因此数学界对这份新证明保持谨慎,预计将用数天至数周逐步审查每一步推导。若最终获认可,这将意味着大语言模型首次独立解决一个被列入维基百科未解数学问题清单的重要难题,也再度点燃了关于AI能否真正参与数学发现的讨论。"
+      "周六,一批示威者再度走上旧金山街头,在OpenAI、Anthropic与谷歌DeepMind三家公司的办公楼之间游行,呼吁暂停开发更强大的前沿AI模型。活动由组织Stop the AI Race发起,由一位前AI研究员牵头,现场获得了全美医疗工作者工会等团体的公开声援。",
+      "本次游行的诉求已从单纯的AI安全,扩展到就业流失、AI能耗对环境的影响、旧金山房价高涨,以及大型科技公司日益膨胀的影响力等议题。组织者呼吁各大AI公司停止训练新的前沿模型、保留现有系统,并把研发资源转向安全与对齐,同时推动更严格的地方与州级监管。",
+      "组织者表示,自今年3月首次约200人的抗议以来,运动获得了更多支持,且相信CEO们正在倾听。此次行动正逢AI安全争议持续发酵:联合国首个独立AI科学专家组近期得出结论,称无法排除AI技术带来灾难性危害的可能性。截至发稿,三家公司均未立即回应置评请求。"
     ]
   },
   {
-    "id": "2026-07-13_ai_4",
-    "date": "2026-07-13",
-    "category": "AI",
-    "subcat": "国产大模型",
-    "platform": "新浪财经",
-    "platform_color": "#7C3AED",
-    "title": "智谱启动摸高计划直指AGI",
-    "url": "https://www.stheadline.com/zh-hans/realtime-finance/3592813/%E6%99%BA%E8%B0%B1%E5%86%85%E9%83%A8%E4%BF%A1%E6%8F%ADTouch-High%E6%88%98%E7%95%A5-%E7%9B%B4%E6%8C%87AGI%E6%98%AF%E4%B8%8B%E4%B8%80%E4%B8%AA%E9%AB%98%E5%9C%B0-%E4%B8%8D%E7%99%BB%E9%A1%B6%E5%B0%B1%E6%98%AF%E5%A4%B1%E8%B4%A5",
-    "image": "images/2026-07-13/2026-07-13_ai_4.jpg",
-    "detail": [
-      "内地AI大模型公司智谱创始人发布题为《巨浪已来》的全员内部信,宣布正式启动名为Touch High(摸高)的两年战略投入计划。在行业普遍加速商业变现的当下,智谱选择反其道而行,不追求短期应用变现,而是集中资源向上突破,直指通用人工智能AGI这一下一个高地,创始人更直言不登顶,就是失败。",
-      "内部信将战略聚焦于四大核心引擎:一是长程任务,让AI从即时问答走向可跨越数周乃至数年的宏大工程;二是自治智能体系统,构建成千上万个不同专业智能体自主协作的数字员工社会;三是完全自我训练,以合成数据工厂和自博弈实现知识的无中生有;四是极致安全治理,计划投入百亿级资源攻坚机械可解释性,厘清模型决策背后的神经元逻辑。",
-      "这位创始人强调,真正的商业机会从不在产品和模式的微调里,而在智能上界的跃迁中,谁能率先把这一上界向上推升一寸,谁就能重新定义千行百业的能力边界。这封信发布之际,智谱刚于1月8日以大模型第一股身份登陆港交所,并在近期完成一笔约314亿港元的新股配售,募资将用于基座模型研发与算力基础设施建设,为摸高计划提供弹药。"
-    ]
-  },
-  {
-    "id": "2026-07-13_vibecoding_1",
-    "date": "2026-07-13",
+    "id": "2026-07-14_vibecoding_1",
+    "date": "2026-07-14",
     "category": "VibeCoding",
-    "subcat": "开发工具安全",
-    "platform": "HN",
+    "subcat": "开发者论战",
+    "platform": "个人博客/HN",
     "platform_color": "#2563EB",
-    "title": "逆向拆解:Grok CLI 偷传整个代码库",
-    "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
-    "image": "images/2026-07-13/2026-07-13_vibecoding_1.jpg",
+    "title": "Zig作者炮轰Anthropic的Rust重写吹嘘",
+    "url": "https://raymyers.org/blog/zig-creator-calls-spade-a-spade/",
+    "image": "images/2026-07-14/2026-07-14_vibecoding_1.jpg",
     "detail": [
-      "研究者 cereblab 对 xAI 的 Grok Build CLI(版本 0.2.93)做了一次线级(wire-level)抓包拆解,报告 7 月 12 日登上 HackerNews 首页,迅速引爆开发者社区对 AI 编码 CLI 数据外泄的担忧。这款终端编码助手目前仅向 SuperGrok Heavy 订阅者开放测试。",
-      "报告用可复现证据指出:Grok CLI 会把它读取的文件内容(包括 .env 密钥文件)原封不动、未脱敏地上传给 xAI。密钥同时出现在实时模型请求 POST /v1/responses 和 POST /v1/storage 归档两个通道,后者被路由进名为 grok-code-session-traces 的 GCS 存储桶并返回 HTTP 200。",
-      "更严重的是所谓「整仓上传」通道:在一次运行中,抓包显示 Grok 把整个仓库打包成 git bundle 上传,克隆保存下来的 uploaded_repo.bundle 竟能还原出一个被明确要求不要打开的 canary 文件 never_read_canary.txt,连完整 git 历史一并外传。",
-      "报告强调关闭开关(opt-out)并不能阻止这些上传行为。Reddit 的 r/LocalLLaMA 同步热议,评论区数百条,再度把「AI 编码工具到底把你的代码发去了哪里」这一隐私议题推向风口,也成为本地开源 CLI 拥护者的有力论据。"
+      "软件维护者Ray Myers发文声援Zig语言创始人Andrew Kelley,直指Bun团队用Claude把核心代码「一键重写」为Rust的宣传属于过度营销。文章题为《叫铲子就是铲子,Anthropic在放烟雾弹》,一天内冲上Hacker News首页第一,拿下近1400点赞、约700条评论。",
+      "事件源于Bun此前高调宣称借助AI在极短时间内完成Rust重写。Kelley公开质疑「AI几小时改写整个代码库」的说法夸大其词,认为大量代码实为未经充分审查的产物,把营销叙事当成了工程事实。",
+      "争论迅速演变成一场关于「AI是否终结软件工程」的语言社区大讨论。支持者认为AI确实提升迁移效率,反对者担忧「无人审查的代码倾泻」会埋下维护隐患,双方在评论区激烈交锋。",
+      "这场论战折射出2026年AI编码工具狂飙下的深层焦虑:当厂商争相用大模型改写老代码,代码质量、可维护性与真实生产力究竟该如何衡量,成了开发者绕不开的命题。"
     ]
   },
   {
-    "id": "2026-07-13_vibecoding_2",
-    "date": "2026-07-13",
+    "id": "2026-07-14_vibecoding_2",
+    "date": "2026-07-14",
     "category": "VibeCoding",
-    "subcat": "AI Coding",
-    "platform": "HN",
+    "subcat": "AI编程",
+    "platform": "GitHub/Show HN",
     "platform_color": "#2563EB",
-    "title": "Claude Code 开口前先塞 3.3 万 token",
-    "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-    "image": "images/2026-07-13/2026-07-13_vibecoding_2.jpg",
+    "title": "Clawk:给编码智能体一台一次性虚机",
+    "url": "https://github.com/clawkwork/clawk",
+    "image": "images/2026-07-14/2026-07-14_vibecoding_2.jpg",
     "detail": [
-      "咨询团队 Systima 发布对比分析,实测主流终端编码代理在真正读取用户提示词之前先发出的「隐形开销」。文章 7 月 12 日发到 HackerNews 后飙升,数小时内攒下 430 分、240 条评论,直击开发者对 AI 编码工具烧 token 的痛点。",
-      "核心数据是标题党却真实:Claude Code 在处理你的第一条指令前,光系统提示词和工具定义就要先发送约 3.3 万 token,而开源的 OpenCode 同样场景只需约 7000 token,差距接近五倍。这意味着长会话里成本与首字延迟被显著推高。",
-      "对本地/自托管模型用户而言,这笔固定开销尤其致命:上下文窗口被系统提示词大量占用,提示缓存复用效率也随之下降。文章因此成为「逃离 token 税」阵营的新论据,评论区大量对比 OpenCode、Pi 等精简提示词方案。",
-      "讨论也延伸到架构层面——有人指出与其抱怨模型,不如反思代理框架把太多无关信息塞进每一轮请求。这与近期精简代理的话题遥相呼应,推动业界重新审视代理提示词的「减法设计」。"
+      "开发者celrenheit开源了用Go编写的Clawk,一款为AI编码智能体准备的「一次性Linux虚拟机」沙箱工具,登上Hacker News首页收获170多点赞、140多条评论。核心理念是:让智能体在自己的机器里折腾,而不是你的电脑。",
+      "痛点直击当下:放手让Claude Code、Codex等智能体装包、跑代码、开服务时,你要么每几秒批一次权限,要么开启危险的跳过权限模式,一个rm -rf或泄露的token就可能酿祸。Clawk让你cd进仓库后一句clawk,代码挂载进虚机、guest内拥有root、无需权限弹窗。",
+      "安全边界不是提示词里能被绕过的规则,而是一台独立机器:密钥、钥匙串、主机文件都被隔离,网络走白名单,连接未知服务器会被直接拦截,而ssh-agent转发让git push仍可用。",
+      "项目采用Apache 2.0协议、需Go 1.26+,支持macOS与实验性Linux。作者坦言仍处1.0前快速迭代期,虚机被搞坏可一键destroy重建并用--resume恢复对话,正征集反馈打磨正式版。"
     ]
   },
   {
-    "id": "2026-07-13_vibecoding_3",
-    "date": "2026-07-13",
+    "id": "2026-07-14_vibecoding_3",
+    "date": "2026-07-14",
     "category": "VibeCoding",
     "subcat": "开发工具",
-    "platform": "GitHub",
+    "platform": "GitHub/Show HN",
     "platform_color": "#2563EB",
-    "title": "Mindwalk:3D 地图重放你的编码代理",
-    "url": "https://github.com/cosmtrek/mindwalk",
-    "image": "images/2026-07-13/2026-07-13_vibecoding_3.jpg",
+    "title": "DOM-docx:HTML片段转原生可编辑Word",
+    "url": "https://github.com/floodtide/dom-docx",
+    "image": "images/2026-07-14/2026-07-14_vibecoding_3.jpg",
     "detail": [
-      "知名开源作者 cosmtrek(air 热重载工具作者)推出新项目 Mindwalk,7 月 12 日发到 HackerNews 拿下 146 分、62 条评论,短时间内在 GitHub 攒下约 317 星。它把编码代理(coding agent)的会话日志重放成一张会「发光」的 3D 代码库夜景地图。",
-      "解决的痛点很具体:会话日志只记录代理做了什么,却看不出它如何理解任务——把仓库哪些部分当成相关、在哪里探索、改动范围是否符合预期。逐行读原始 JSONL 根本回答不了这些问题,Mindwalk 用可视化让「代理的理解」变成一眼可辨的形状。",
-      "它是一个纯本地运行的 Go 单文件二进制,能读取 Claude Code 与 Codex 的会话日志,不上传任何数据。文件按触碰深度分层着色:seen 苔绿、read 月白、edited 暖琥珀、未访问则保持黑暗;播放条还能按观察/修改冷暖光谱回放整个运行过程。",
-      "安装一行 curl 脚本即可,自动扫描本地会话目录并在本地端口开 UI。这类「给 AI 代理做行为可视化」的工具正成为新赛道,回应了开发者对代理黑箱行为可审计、可复盘的强烈需求。"
+      "开源项目DOM-docx在Hacker News首页亮相,一天内积累225颗星、130多条评论。它能把语义化HTML片段转换成原生、可编辑的Word文档(OOXML),采用MIT协议,7月13日仍在持续提交更新。",
+      "与许多导出方案不同,DOM-docx生成的不是图片或只读版式,而是真正可在Word里继续编辑的原生文档结构,能完整保留标题、列表、表格等语义元素,填补了「网页内容优雅落地为办公文档」的常见需求空白。",
+      "对大量需要把富文本、报告、AI生成内容一键转成Word交付物的场景极具吸引力,评论区开发者纷纷讨论其在文档流水线、RAG输出、自动报告等工作流中的落地价值。",
+      "项目当天已新增全局npm安装命令方便作为CLI使用,显示作者正快速响应社区反馈、持续完善易用性,是本轮开发者工具热榜里少见的「解决真实痛点」的实用小工具。"
     ]
   },
   {
-    "id": "2026-07-13_vibecoding_4",
-    "date": "2026-07-13",
+    "id": "2026-07-14_vibecoding_4",
+    "date": "2026-07-14",
+    "category": "VibeCoding",
+    "subcat": "语音AI",
+    "platform": "官方博客/HN",
+    "platform_color": "#2563EB",
+    "title": "实测:苹果新语音API击败Whisper",
+    "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+    "image": "images/2026-07-14/2026-07-14_vibecoding_4.jpg",
+    "detail": [
+      "端侧AI应用Inscribe团队发布首份严谨基准测试,在5559条LibriSpeech标准语料上实测苹果iOS/macOS 26新推出的SpeechAnalyzer语音识别API,7月13日登上Hacker News首页,拿下415点赞、170多条评论。",
+      "结论出人意料:SpeechAnalyzer成为他们测过最准的端侧语音引擎,clean集词错率仅2.12%、noisy集4.56%,不仅碾压被替换的旧版SFSpeechRecognizer(9.02%),还击败了体积约460MB的Whisper Small,且速度快约3倍。",
+      "苹果发布新API时未公布任何精度数字,让开发者迁移与选型全靠猜。这份测试直接给出答案:凡是仍在用旧API处理长语音的应用,仅凭精度提升就值得迁移,团队甚至据此改了自家产品的默认引擎。",
+      "Whisper仍保留两大优势:覆盖约30种语言、且能跨平台运行。但结论明确——在苹果硬件上做英文转写,「Whisper=最准」的时代已经结束,所有测试转录文本已全部公开供复现。"
+    ]
+  },
+  {
+    "id": "2026-07-14_vibecoding_5",
+    "date": "2026-07-14",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
+    "platform": "GitHub/Show HN",
+    "platform_color": "#2563EB",
+    "title": "Taetype:Rust+WASM完整字体引擎",
+    "url": "https://github.com/silly-tae/taetype",
+    "image": "images/2026-07-14/2026-07-14_vibecoding_5.jpg",
+    "detail": [
+      "开发者silly-tae开源了Taetype,一款用Rust和WebAssembly编写的完整字体引擎,当天登上Hacker News并被热议。它能对TTF、OTF、TTC和WOFF2字体进行解码、实例化、子集化(subset)与排版整形(shape)。",
+      "字体处理长期依赖庞杂的C/C++库(如FreeType、HarfBuzz),Taetype试图用现代Rust给出一个内存安全、可编译到WASM在浏览器直接运行的一体化方案,把「读取字体、抽取子集、渲染整形」这条完整链路都收进单个引擎。",
+      "对前端与工具链开发者意义显著:可在浏览器或边缘环境按需裁剪字体、减小加载体积,也为需要精细排版控制的Web应用、设计工具提供了轻量可移植的底层能力。",
+      "作为一个刚亮相的新仓库,Taetype展示了Rust生态在字体、排版这类传统「硬骨头」领域的持续渗透,也延续了近期WASM把重型原生库搬进浏览器的趋势,吸引了一批关注排版技术的开发者围观。"
+    ]
+  },
+  {
+    "id": "2026-07-14_vibecoding_6",
+    "date": "2026-07-14",
     "category": "VibeCoding",
     "subcat": "开发者社区",
-    "platform": "个人博客",
+    "platform": "Hacker News",
     "platform_color": "#2563EB",
-    "title": "geohot:我爱 LLM,但我恨炒作",
-    "url": "https://geohot.github.io/blog/jekyll/update/2026/07/12/i-love-llms.html",
-    "image": "images/2026-07-13/2026-07-13_vibecoding_4.jpg",
+    "title": "呼吁给AI生成文章加标记引热议",
+    "url": "https://news.ycombinator.com/item?id=48886741",
+    "image": "images/2026-07-14/2026-07-14_vibecoding_6.jpg",
     "detail": [
-      "传奇黑客、tinygrad 与 comma.ai 创始人 George Hotz(geohot)7 月 12 日发表博文《I love LLMs, I hate hype》,当天登上 HackerNews 拿下 293 分、175 条评论,以其一贯犀利的口吻在 AI 圈掀起讨论。",
-      "他先表态自己对 AI 进展「兴奋到发狂」:上周在本地 GLM-5.2 上跑 opencode,一句话就能按他的配置装好 tmux,直呼「Linux 桌面元年终于来了」。他热爱新 LLM、自动驾驶、视频生成模型和编码代理。",
-      "但他痛批两类炒作:一是「窗口正在关闭」「你会被永远抛下」这类制造焦虑、逼人搬去旧金山的负向叙事;二是把 LLM 从「花哨的自动补全」硬跳到「统治整个光锥」的稻草人式吹嘘。他打赌后者不会发生,称鼓吹者是在替前沿实验室的估值背书。",
-      "他借 Linus Torvalds 的话打比方:代理让编程效率提升 10 倍,但编译器提升了 1000 倍。他承认 vibe coding 产物仍是「slop」、会加剧认知疲劳,但模型确实像 find-replace、Stack Overflow 一样有用——AI 只是计算机革命的延续。"
+      "一条名为《Ask HN:为AI生成的文章加个标记》的帖子在Hacker News爆火,22小时内冲上超1000点赞、430多条评论,成为开发者社区当日最热议题之一。",
+      "发帖人提议在文章旁增设可标注「AI生成」的标识机制,让读者一眼区分内容是否出自大模型之手。这一诉求击中了2026年内容生态的普遍痛点:AI批量生产的技术文章、教程与营销稿泛滥,真假与质量难辨。",
+      "评论区分歧明显:支持者认为透明标记有助于建立信任、过滤低质「AI垃圾」;质疑者则担心标准难定、易被滥用或规避,且人机协作的边界本就模糊,一刀切标记未必可行。",
+      "这场讨论不仅关乎一个社区功能,更折射出整个开发者群体对「信息可信度」的集体焦虑——当AI写作成本趋近于零,如何在海量内容中辨别人类原创与机器产物,正成为技术社区内容治理绕不开的新命题,也预示未来平台或将被迫引入某种来源标注机制。"
     ]
   },
   {
-    "id": "2026-07-13_vibecoding_5",
-    "date": "2026-07-13",
-    "category": "VibeCoding",
-    "subcat": "开发工具",
-    "platform": "GitHub",
-    "platform_color": "#2563EB",
-    "title": "Ghostel:libghostty 版 Emacs 终端",
-    "url": "https://github.com/dakra/ghostel",
-    "image": "images/2026-07-13/2026-07-13_vibecoding_5.jpg",
-    "detail": [
-      "开发者 dakra 的 Ghostel 项目 7 月 12 日登上 HackerNews 首页,拿下 262 分、50 条评论。它是一款运行在 Emacs 里的终端模拟器,底层由 libghostty-vt 驱动——也就是热门终端 Ghostty 背后的 VT 解析引擎。",
-      "作者坦言开发动机是对 vterm 不满,尤其是调整终端尺寸时文本回流(reflow)处理糟糕。借助近期开源的 libghostty-vt(零依赖、不含 libc 的 VT 状态解析库),Ghostel 得以获得经生产验证的现代终端核心。",
-      "它与 Emacs 项目工作流深度整合:C-x m 打开 Ghostel 缓冲区,进入项目后按 m 直接在该项目开终端,C-x p M 列出当前项目所有 Ghostel 缓冲区。line mode 让缓冲区表现得像普通 Emacs 文本,copy-mode 则可自由导航选择输出文本。",
-      "这是 libghostty 生态落地的一个标志性案例——「可嵌入终端库」的愿景正被第三方项目采纳。社区讨论也延续了对 Emacs Lisp 新项目、以及 AI 辅助编写此类底层代码可信度的持续关注。"
-    ]
-  },
-  {
-    "id": "2026-07-13_vibecoding_6",
-    "date": "2026-07-13",
-    "category": "VibeCoding",
-    "subcat": "开发工具",
-    "platform": "HN",
-    "platform_color": "#2563EB",
-    "title": "WhimFiles:9MB 原生 Mac 文件管理器",
-    "url": "https://whimfiles.com/",
-    "image": "images/2026-07-13/2026-07-13_vibecoding_6.jpg",
-    "detail": [
-      "独立开发者 whimbyte 7 月 12 日在 HackerNews 发起 Show HN,推出 WhimFiles——一款围绕「过滤」设计的原生 macOS 文件管理器,主打快速、原生、无 Electron,应用体积仅约 9MB,登上当天新品讨论。",
-      "核心卖点是实时组合过滤:可同时按类型、日期、大小三个维度筛选文件夹,内置 Images、PDFs、Videos、Documents 等预设,也支持自定义扩展名。加上日期范围、大小上限和搜索词可叠加,结果随输入即时更新,还能递归搜索所有子目录。",
-      "它还提供不少提效功能:双栏视图并排操作两个文件夹、模糊「Go to Folder」(⌘G)输入几个字母即可跳转、悬停即预览图片和 PDF 无需打开、多标签页各自记忆布局。文件操作支持批量重命名、HEIC/WebP/AVIF 转 JPG/PNG、压缩 ZIP 与撤销。",
-      "商业模式为一次性买断 19.99 美元、30 天免费试用,面向 Apple Silicon、macOS 12 及以上。它延续了近期 HN 上「原生、小巧、告别 Electron」的独立 Mac 工具风潮,回应用户对臃肿文件管理器的不满。"
-    ]
-  },
-  {
-    "id": "2026-07-13_vibecoding_7",
-    "date": "2026-07-13",
-    "category": "VibeCoding",
-    "subcat": "AI Coding",
-    "platform": "GitHub",
-    "platform_color": "#2563EB",
-    "title": "peek-cli:让编码代理看见你的浏览器",
-    "url": "https://github.com/puffinsoft/peek-cli",
-    "image": "images/2026-07-13/2026-07-13_vibecoding_7.jpg",
-    "detail": [
-      "加拿大小工作室 puffinsoft(jscanify 文档扫描库作者)推出 peek-cli,slogan 为「Let coding agents see your browser」(让编码代理看见你的浏览器),7 月 12 日晚发到 HackerNews newest,同时在 GitHub 攒下约 52 星,主打 TypeScript 实现。",
-      "它解决的是当前编码代理的一大盲区:代理能改代码却看不到浏览器里真实渲染的结果。peek-cli 把浏览器画面与状态回传给 Claude Code、Codex 等代理,让它们在改完前端后能「亲眼」检查页面表现,从而自主迭代调试。",
-      "puffinsoft 的产品线颇有连贯性——除 peek-cli 外还有 1.8k 星的 jscanify、484 星的生成式 UI 框架 syntux,以及 feedbackplus 等,均围绕浏览器端能力打造,显示其在「AI 代理 × 前端可视化」方向的持续押注。",
-      "这类「给代理装眼睛」的工具与同日走红的 Mindwalk(可视化代理行为)形成呼应,共同指向一个趋势:开发者不再满足于代理盲改代码,而是要求它们具备观察、验证、闭环的能力,推动 agentic 前端开发向更可靠的方向演进。"
-    ]
-  },
-  {
-    "id": "2026-07-13_gaming_1",
-    "date": "2026-07-13",
-    "category": "Gaming",
-    "subcat": "PlayStation",
-    "platform": "Eurogamer",
-    "platform_color": "#059669",
-    "title": "《战神:洛菲》确认发行实体光盘",
-    "url": "https://www.eurogamer.net/god-of-war-laufey-disc-confirmed",
-    "image": "images/2026-07-13/2026-07-13_gaming_1.jpg",
-    "detail": [
-      "圣莫尼卡工作室开发的PS5独占新作《战神:洛菲》(God of War Laufey)至今尚未公布具体发售日期,但工作室7月10日在X平台发文回应玩家,明确表态本作将会有实体光盘版本发行。这一表态被外媒视为对索尼近期宣布将于2028年1月起停止生产新游戏实体光盘一事的直接回应,试图平息社区的不满情绪。",
-      "由于索尼计划自2028年1月停产实体碟,工作室强调《洛菲》将以光盘形式推出,等于暗示本作会在2027年底之前发售。此前有记者曾报道该作瞄准2027年2月或3月的档期。本作由新演员出演新主角Faye/Laufey,是今年State of Play上最重磅的揭幕之一,故事聚焦亡灵之旅而非奎托斯前传。",
-      "工作室同时透露,《战神:洛菲》将在本月圣地亚哥动漫展(SDCC)设立专场,由游戏总监、创意总监以及演员阵容出席。Eurogamer还指出本作确定不会推出PC版本,因索尼已不再将其非服务型游戏移植到PC平台,这一决定同样在玩家群体中引发讨论。",
-      "对渴望收藏实体游戏的核心玩家而言,这条确认无疑是好消息,尤其是在索尼停产碟片消息激起大规模反弹、相关反对请愿签名已破十二万的背景下。业界普遍认为,在停产大限前发行光盘版,既是对忠实用户的安抚,也间接坐实了本作2027年内登场的时间窗口。"
-    ]
-  },
-  {
-    "id": "2026-07-13_gaming_2",
-    "date": "2026-07-13",
-    "category": "Gaming",
-    "subcat": "PlayStation",
-    "platform": "Eurogamer",
-    "platform_color": "#059669",
-    "title": "《漫威斗魂》单人剧情由知名漫画家执笔",
-    "url": "https://www.eurogamer.net/marvel-tokon-fighting-souls-episode-modes-kieron-gillen",
-    "image": "images/2026-07-13/2026-07-13_gaming_2.jpg",
-    "detail": [
-      "由Arc System Works开发、索尼与漫威游戏联合推出的4v4组队格斗新作《漫威斗魂:格斗之魂》(Marvel Tokon: Fighting Souls)即将登陆PS5与PC。官方7月11日至12日间揭晓,游戏的单人剧情模式Episode Mode由一位知名漫画作家、前游戏记者亲自执笔,消息经Eurogamer报道后引发格斗与漫画双圈层关注。",
-      "据官方介绍,Episode Mode包含五段独立故事,每段由不同艺术家绘制呈现,分别跟随五支不同队伍,面对名为冠军(the Champion)的迫近威胁,最终以对阵推广者(the Promoter)与冠军的Boss战收尾。这是本作主打的单人向内容,为以竞技对战为核心的格斗游戏补足了叙事体验。",
-      "本作首发阵容已确认达20名角色,包括暴风女、魔形女、金刚狼、蜘蛛侠、美国队长、钢铁侠、黑豹、绿巨人、末日博士、万磁王、绿魔、屠杀、恶灵骑士、刀锋战士、死侍与洛基等。由这位以多部漫威作品闻名的作家操刀剧本,让社区对单人内容的深度与角色塑造充满期待。",
-      "此前官方还宣布将于7月24日至26日面向PS5和PC开放公开测试,回应粉丝呼声。相比现代格斗同类作品,《漫威斗魂》20人的首发规模颇为可观(《街霸6》为18人、《铁拳8》为32人),叠加大牌编剧加持的剧情模式,进一步提升了这款Evo 2026亮相新作的商业号召力。"
-    ]
-  },
-  {
-    "id": "2026-07-13_gaming_3",
-    "date": "2026-07-13",
-    "category": "Gaming",
-    "subcat": "Steam",
-    "platform": "Eurogamer",
-    "platform_color": "#059669",
-    "title": "独立开发者炮轰Steam退款政策易被滥用",
-    "url": "https://www.eurogamer.net/indie-dev-steam-refund-policy",
-    "image": "images/2026-07-13/2026-07-13_gaming_3.jpg",
-    "detail": [
-      "独立开发者Mateo Covic近日在推特上吐槽,他开发的游戏《Paddle Paddle Paddle》据称因Steam的两小时退款政策而被退款约55000次,引发热议。他对媒体表示,即便游戏Steam评价90%好评,Valve两周内、游玩不足两小时无理由退款的规则仍让玩家极易钻空子滥用。",
-      "Covic解释,他原本为游戏设计了约3.5小时的完整流程,加上免费试玩关卡总时长约4小时,不少评测显示玩家游玩5小时甚至20小时以上,但游戏也吸引了大量速通玩家和高手,他们在1到2小时内通关后随即退款。他强调自己百分百支持退款,矛头只指向那些留下好评却仍退款的玩家。",
-      "该言论迅速反噬:Covic称自己收到了大量辱骂性私信和评论,游戏遭到评测轰炸,Steam近期评价从特别好评跌至褒贬不一。他坦言人们现在觉得我是个混蛋、想彻底废掉退款政策,但这从来不是我的本意,并表示这是一次教训,今后会三思而后发声。",
-      "这起风波再次把Steam退款机制推上风口浪尖。开发者认为该政策难以区分正当退款与恶意白嫖,因为玩家可随意选择退款理由而无需真实反馈;而支持退款政策的一方则认为两小时门槛是保护消费者的重要防线,双方争论折射出独立游戏在短流程与可玩性设计上的两难。"
-    ]
-  },
-  {
-    "id": "2026-07-13_gaming_4",
-    "date": "2026-07-13",
+    "id": "2026-07-14_gaming_1",
+    "date": "2026-07-14",
     "category": "Gaming",
     "subcat": "主机",
     "platform": "Eurogamer",
     "platform_color": "#059669",
-    "title": "SGDQ 2026为无国界医生募得240万美元",
-    "url": "https://www.eurogamer.net/sgdq-2026-raises-24-m",
-    "image": "images/2026-07-13/2026-07-13_gaming_4.jpg",
+    "title": "光环工作室被曝砍掉多人新作Ekur",
+    "url": "https://www.eurogamer.net/halo-studios-project-ekur-cancelled-certain-affinity",
+    "image": "images/2026-07-14/2026-07-14_gaming_1.jpg",
     "detail": [
-      "年度速通马拉松盛事Summer Games Done Quick(SGDQ)2026于本周在美国明尼阿波利斯落幕,最终为无国界医生组织(Médecins Sans Frontières)募得约240万美元(约180万英镑)善款。本届活动吸引约2500名观众现场参与,并有成千上万人通过直播观看。",
-      "全部捐款将直接用于无国界医生在全球范围内为需要的人提供救命医疗援助。活动现场还播放了一部记录该组织在加沙人道危机中救援工作的短纪录片《Return to Gaza》,让速通娱乐与公益关怀相互交织。",
-      "长达七天的赛程亮点频出:选手在《卡比:气球飞车》(Kirby Air Riders)中刷新世界纪录,一场逆天改命的《Balatro》挑战,以及《生化危机:安魂曲》速通中即兴的Beatbox表演。活动还设有专题座谈、桌游与音乐社区房、周边艺术集市和试玩展位。",
-      "自2010年以来,Games Done Quick系列已累计为全球慈善机构募集超过6200万美元。作为对比,SGDQ 2025筹得约243.7万美元,今年1月的AGDQ 2026则为防癌基金会募得244万美元,本届240万的成绩与近年基本持平,显示这一速通公益IP的稳定号召力。"
+      "《光环》系列近年在多人玩法上迟迟拿不出让人满意的新作,负责开发的Halo Studios一直被寄予厚望。知名爆料者Rebs Gaming在YouTube放出消息,称从多名工作室员工处获悉一个代号Project Ekur的多人项目已被取消,消息经Eurogamer于7月13日报道后迅速扩散。",
+      "据爆料,Ekur由老搭档Certain Affinity打造原型,2023年9月通过立项评审,主打可自定义的斯巴达战士与精英外星人,以及超大规模的大团队对战,还沿用了此前废弃的皇家战场实验Tatanka的地图资源。与微软关系密切的记者Jez Corden也证实消息百分之百属实。",
+      "此次取消被普遍认为与上周席卷Xbox的大裁员相关,另一说法是《光环:战役重制版》遭遇重大开发问题、抽走了大量人手,随后Ekur便被砍。爆料者并未把矛头直接指向裁员,只提到开发问题这一可能原因。",
+      "社区对此一片哗然,玩家纷纷追问那多人《光环》以后到底该怎么办,对系列未来更加担忧。在Xbox接连关停工作室、削减规模的背景下,这一取消被视为微软游戏战略动荡的又一注脚,也让老牌IP的重启前景蒙上阴影。"
     ]
   },
   {
-    "id": "2026-07-13_gaming_5",
-    "date": "2026-07-13",
+    "id": "2026-07-14_gaming_2",
+    "date": "2026-07-14",
     "category": "Gaming",
-    "subcat": "Switch",
-    "platform": "Nintendo Everything",
+    "subcat": "Steam",
+    "platform": "Eurogamer",
     "platform_color": "#059669",
-    "title": "《斯派罗:超越领域》为何不叫斯派罗4",
-    "url": "https://nintendoeverything.com/spyro-a-realm-beyond-dev-explains-why-its-not-spyro-4-plus-lots-of-new-details",
-    "image": "images/2026-07-13/2026-07-13_gaming_5.jpg",
+    "title": "幻兽帕鲁1.0在线数一举反超Dota 2",
+    "url": "https://www.eurogamer.net/palworld-player-count-launch-weekend",
+    "image": "images/2026-07-14/2026-07-14_gaming_2.jpg",
     "detail": [
-      "紫色小龙斯派罗将随明年春季的新作《Spyro: A Realm Beyond》(暂译《斯派罗:超越领域》)强势回归,本作将登陆Nintendo Switch 2。不过它在命名上并未沿用斯派罗4,开发商Toys for Bob近日就这一决定作出解释,并披露了新作的诸多细节。",
-      "工作室副创意总监在接受采访时表示,团队希望这款作品成为任何人都能上手的起点。如果直接命名为斯派罗4,可能会让部分玩家误以为需要先了解此前的老作品,从而形成心理门槛,这与新作面向新老玩家开放的定位相悖。",
-      "他对比称,此前《古惑狼4》是对初代三部曲的直接延续,带着我们敬重这些原作的宣言意味,玩法也高度还原经典。而《斯派罗:超越领域》则尝试全新方向,最大变化是玩家可以随时让斯派罗飞行,是一种全新的游玩体验,而非单纯回归老三部曲。",
-      "他强调新作依然对原作充满敬意、埋有致敬与彩蛋以满足深度粉丝,但同时确保任何新玩家都无需做功课即可享受。《斯派罗:超越领域》定于明年春季登陆Switch 2,此前工作室也曾介绍过本作中斯派罗的全新形象设计,种种信息显示发行方有意让这一经典IP以更亲和的姿态重启。"
+      "在长时间的抢先体验后,Pocketpair的开放世界生存游戏《幻兽帕鲁》(Palworld)终于在PC与主机端迎来1.0正式版,一举成为Steam上最热门的游戏之一,这也是它自2024年初以来最强的一次回归。相关战报于7月13日由Eurogamer报道。",
+      "据报道,撰稿时《帕鲁》以约48.9万在线玩家排在Steam第二,仅次于《CS2》,单日峰值达到85.5万,是本作除首发外有史以来最佳的同时在线成绩,并一举压过了Valve旗下常青免费大作《Dota 2》。",
+      "福布斯记者Paul Tassi指出,这种二次发售还能冲到如此量级的情况几乎前所未有,亚洲市场在欧美低活跃时段贡献了大量玩家。作为付费游戏能盖过免费大作,被认为含金量十足,限时七折且不涨价的策略功不可没。",
+      "玩家社区反响热烈,不少人是特意等本作退出抢先体验、内容更完整后才入坑。尽管《帕鲁》此前争议不断(包括与任天堂的持续法律纠纷),但它两年多来持续更新、稳住了核心口碑,如今用亮眼数据证明了长线运营的价值。"
     ]
   },
   {
-    "id": "2026-07-13_gaming_6",
-    "date": "2026-07-13",
+    "id": "2026-07-14_gaming_3",
+    "date": "2026-07-14",
     "category": "Gaming",
-    "subcat": "Switch",
-    "platform": "Nintendo Everything",
+    "subcat": "单机",
+    "platform": "Eurogamer",
     "platform_color": "#059669",
-    "title": "《Denshattack》开发者谈灵感与被拒经历",
-    "url": "https://nintendoeverything.com/denshattack-interview-switch-2",
-    "image": "images/2026-07-13/2026-07-13_gaming_6.jpg",
+    "title": "龙之信条2要靠DLC挽回RPG玩家信任",
+    "url": "https://www.eurogamer.net/dragons-dogma-2-dark-arisen-interview-performance-microtransactions",
+    "image": "images/2026-07-14/2026-07-14_gaming_3.jpg",
     "detail": [
-      "以电车车厢为舞台、融合滑板竞技的独特街机新作《Denshattack》即将发售,Nintendo Everything趁发售前专访了开发商Undercoders的工作室兼游戏总监。该作自去年夏季公布以来便是玩家心中的黑马,如今距上市仅剩数日,将登陆Switch 2等平台。",
-      "访谈中他谈及游戏的多方面灵感来源,既有来自粉丝反馈的意见,也包括启发其艺术风格的诸多作品。他还介绍了团队为Switch 2专门推出独立版本的考量,强调高帧率、速度感与画面爽快度是本作核心体验,因而没有妥协于旧硬件规格,并最终放弃了Switch 1版本。",
-      "尤为引人注目的是,他坦言项目曾多次遭到发行商拒绝,但团队始终坚持推进这一另类创意。作为资深Switch用户兼开发者,他表示从项目伊始就希望《Denshattack》能以某种形式登上任天堂eShop,如今借Switch 2得以实现,是一段来之不易的历程。",
-      "《Denshattack》的登场展现了独立开发者在主流发行体系之外的坚持:一款把日本电车文化、街机滑板与高速动作结合的怪趣味作品,尽管概念小众、屡遭婉拒,仍凭借鲜明风格获得关注,也为Switch 2的独立游戏阵容再添一抹别具一格的色彩。"
+      "《龙之信条2》当年口碑不俗,却因糟糕的技术性能和争议的微交易,让舆论从赞叹其硬核系统转向吐槽。如今在10月Dark Arisen DLC上线前,制作人大山尚人与总监木下健太7月13日接受Eurogamer采访,回顾了那段经历。",
+      "大山尚人坦言团队正尽力挽回那些对首发失望玩家的信任,并称6月已上线的更新收到了积极反馈;不过仍有玩家保持谨慎,认为8月的性能补丁才是真正的考验。该补丁将进一步优化性能,并加入应对争议龙瘟疫机制的手段。",
+      "此前6月的补丁已撤下了把快速旅行与角色编辑塞进付费墙的多项微交易——正是这些设计在首发时激起众怒。开发者强调,改善生活质量的最佳方式是不破坏原有体验、只给玩家更多可能,而非用付费门槛限制玩法。",
+      "谈及备受诟病的传送水晶稀缺问题,官方也在通过补丁松绑,让玩家能自由创建更多传送点。制作人希望本体回到良好状态后,玩家能安心投入即将到来的扩展内容,把这次Dark Arisen视为一次口碑翻身的机会。"
+    ]
+  },
+  {
+    "id": "2026-07-14_gaming_4",
+    "date": "2026-07-14",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Eurogamer",
+    "platform_color": "#059669",
+    "title": "GDQ火速取消SNK赞助直播因沙特背景",
+    "url": "https://www.eurogamer.net/games-done-quick-cancels-snk-sponsored-stream",
+    "image": "images/2026-07-14/2026-07-14_gaming_4.jpg",
+    "detail": [
+      "知名速通慈善活动Games Done Quick(GDQ)刚在SGDQ 2026为无国界医生筹得240万美元,随后却宣布将与SNK合作一场赞助速通展示,称非常期待,不料迅速引爆争议。Eurogamer于7月13日报道了这场风波。",
+      "争议焦点在于SNK目前由沙特公共投资基金(PIF)控股。玩家在社交平台上批评,GDQ这个以LGBTQ+包容著称的社群,与一个牵涉人权争议、且同性恋仍属违法国家背景的公司合作,与其价值观严重冲突。",
+      "面对海量抗议,GDQ在直播上线仅数小时后就提前结束,并发表声明道歉,承认未做到社群应有的审核标准,明确表示不会接受这笔赞助款,也不会再与该赞助商合作。整件事从宣布到取消不过约三小时。",
+      "此事在速通与慈善圈引发广泛讨论。有观点认为,GDQ刚为无国界医生募款、转头又接下与沙特相关的赞助,反差过于刺眼;也有人肯定其快速纠错的态度。这场极其短命的合作,再次把游戏行业的沙特资本议题推上台面。"
+    ]
+  },
+  {
+    "id": "2026-07-14_gaming_5",
+    "date": "2026-07-14",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Eurogamer",
+    "platform_color": "#059669",
+    "title": "ZeniMax称裁员非上古卷轴OL终点",
+    "url": "https://www.eurogamer.net/the-elder-scrolls-online-xbox-layoffs-roadmap",
+    "image": "images/2026-07-14/2026-07-14_gaming_5.jpg",
+    "detail": [
+      "上周席卷Xbox的大规模裁员波及了《上古卷轴Online》(ESO)的开发商ZeniMax Online,而这家工作室一年前就已经历过一轮削减,再次点燃了社区对游戏被打入维护模式的担忧。Eurogamer于7月13日报道。",
+      "年初的上一轮裁员后,ZeniMax已从开发大型资料片转向更小体量的季节性更新,尽管当时坚称与裁员无关。此次Massively Overpowered汇总了核心开发者的表态,他们再度向玩家保证ESO并未走向收尾。",
+      "据非官方上古卷轴维基Discord管理员在德国线下活动转述,副设计总监Jason Barnes与社区管理副总监Jessica Folsom均表示,工作室目前规模与当年做出Wrothgar、Summerset资料片时相当,以此打消玩家的疑虑。",
+      "官方口径是计划仍是持续推出优质内容,但玩家对这份承诺将信将疑。作为一款运营多年的MMO,ESO曾靠稳定收入维系,如今在微软反复重组、关停工作室的阴影下,老玩家最担心的仍是内容更新会否就此缩水。"
+    ]
+  },
+  {
+    "id": "2026-07-14_gaming_6",
+    "date": "2026-07-14",
+    "category": "Gaming",
+    "subcat": "PC",
+    "platform": "Eurogamer",
+    "platform_color": "#059669",
+    "title": "英雄联盟经典服定档7月29玩家投票改版",
+    "url": "https://www.eurogamer.net/league-of-legends-classic-release-date-details",
+    "image": "images/2026-07-14/2026-07-14_gaming_6.jpg",
+    "detail": [
+      "在怀旧经典服成为行业趋势的当下,Riot Games正式为《英雄联盟》的怀旧模式League of Legends Classic敲定上线日期,让老玩家有机会重温早期版本的对局体验。Eurogamer于7月13日报道了这一消息。",
+      "据报道,LoL Classic将于7月29日随26.15版本上线,玩法主要还原第三赛季(Season 3)时期的构筑、旧版符文系统等设定,把玩家带回多年前的召唤师峡谷,重现当年的英雄强度与节奏。",
+      "更受关注的是,Riot承诺后续补丁将部分由社区投票塑造,玩家可以就版本走向发表意见。这种由老玩家共同决定改动方向的做法,被视为对经典情怀的诚意回应,也区别于一次性的怀旧噱头。",
+      "相关演示首秀在社区中引发强烈共鸣,不少人称满满都是回忆。近年从多款老游戏推出经典服可以看出,厂商越来越重视挖掘玩家的怀旧价值,而《英雄联盟》作为长青竞技游戏加入这一行列,无疑将吸引大批回归玩家。"
     ]
   }
 ]
