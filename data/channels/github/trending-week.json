@@ -3,8 +3,8 @@
   "repos": {
     "HKUDS/Vibe-Trading": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 1921,
+      "appearances": 3,
+      "total_today_stars": 3177,
       "language": "Python",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -39,8 +39,8 @@
     },
     "Shubhamsaboo/awesome-llm-apps": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1404,
+      "appearances": 3,
+      "total_today_stars": 2510,
       "language": "Python",
       "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/31396011?v=4",
@@ -66,8 +66,8 @@
     },
     "par274/sharpemu": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 314,
+      "appearances": 2,
+      "total_today_stars": 646,
       "language": "C#",
       "description": "An experimental PlayStation 5 emulator project.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/12572227?v=4",
@@ -102,8 +102,8 @@
     },
     "openai/codex": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 195,
+      "appearances": 2,
+      "total_today_stars": 571,
       "language": "Rust",
       "description": "Lightweight coding agent that runs in your terminal",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -120,8 +120,8 @@
     },
     "heygen-com/hyperframes": {
       "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 451,
+      "appearances": 3,
+      "total_today_stars": 787,
       "language": "TypeScript",
       "description": "Write HTML. Render video. Built for agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
@@ -138,8 +138,8 @@
     },
     "Nutlope/hallmark": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 949,
+      "appearances": 3,
+      "total_today_stars": 1964,
       "language": "CSS",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/63742054?v=4",
@@ -227,9 +227,9 @@
       "html_url": "https://github.com/react/react"
     },
     "Graphify-Labs/graphify": {
-      "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1095,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 2946,
       "language": "Python",
       "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
@@ -237,17 +237,17 @@
     },
     "github/spec-kit": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 543,
+      "appearances": 2,
+      "total_today_stars": 1296,
       "language": "Python",
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
       "html_url": "https://github.com/github/spec-kit"
     },
     "hasaneyldrm/exercises-dataset": {
-      "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 451,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1302,
       "language": "HTML",
       "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/28005450?v=4",
@@ -282,8 +282,8 @@
     },
     "Augani/openreel-video": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 228,
+      "appearances": 2,
+      "total_today_stars": 349,
       "language": "TypeScript",
       "description": "OpenReel Video - Professional browser-based video editor. Open source CapCut alternative. 100% browser-based, no installation, no cloud uploads, no watermarks.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/13237525?v=4",
@@ -345,8 +345,8 @@
     },
     "Anil-matcha/Open-Generative-AI": {
       "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 125,
+      "appearances": 2,
+      "total_today_stars": 250,
       "language": "JavaScript",
       "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
@@ -360,6 +360,132 @@
       "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/91336243?v=4",
       "html_url": "https://github.com/IceWhaleTech/CasaOS"
+    },
+    "openinterpreter/openinterpreter": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 607,
+      "language": "Rust",
+      "description": "A coding agent for low-cost models",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/163192481?v=4",
+      "html_url": "https://github.com/openinterpreter/openinterpreter"
+    },
+    "earendil-works/pi": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 557,
+      "language": "TypeScript",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
+      "html_url": "https://github.com/earendil-works/pi"
+    },
+    "moeru-ai/airi": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 537,
+      "language": "TypeScript",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/165476306?v=4",
+      "html_url": "https://github.com/moeru-ai/airi"
+    },
+    "microsoft/markitdown": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 507,
+      "language": "Python",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/markitdown"
+    },
+    "penpot/penpot": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 395,
+      "language": "Clojure",
+      "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/30179644?v=4",
+      "html_url": "https://github.com/penpot/penpot"
+    },
+    "Fission-AI/OpenSpec": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 280,
+      "language": "TypeScript",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/203414896?v=4",
+      "html_url": "https://github.com/Fission-AI/OpenSpec"
+    },
+    "Wei-Shaw/sub2api": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 252,
+      "language": "Go",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/26101719?v=4",
+      "html_url": "https://github.com/Wei-Shaw/sub2api"
+    },
+    "multica-ai/multica": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 241,
+      "language": "Go",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/multica"
+    },
+    "browseros-ai/BrowserOS": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 206,
+      "language": "TypeScript",
+      "description": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/218857586?v=4",
+      "html_url": "https://github.com/browseros-ai/BrowserOS"
+    },
+    "chenyme/grok2api": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 186,
+      "language": "Go",
+      "description": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118253778?v=4",
+      "html_url": "https://github.com/chenyme/grok2api"
+    },
+    "millionco/react-doctor": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 174,
+      "language": "TypeScript",
+      "description": "Your agent writes bad React. This catches it",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85101781?v=4",
+      "html_url": "https://github.com/millionco/react-doctor"
+    },
+    "google/skills": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 153,
+      "language": "Python",
+      "description": "Agent Skills for Google products and technologies",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "html_url": "https://github.com/google/skills"
+    },
+    "kangarooking/cangjie-skill": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 145,
+      "language": "Python",
+      "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/52196004?v=4",
+      "html_url": "https://github.com/kangarooking/cangjie-skill"
+    },
+    "QuantumNous/new-api": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 125,
+      "language": "Go",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/205075698?v=4",
+      "html_url": "https://github.com/QuantumNous/new-api"
     }
   }
 }
