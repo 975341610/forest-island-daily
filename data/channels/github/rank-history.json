@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-15": {
-      "iptv-org/iptv": 1,
-      "NVIDIA/SkillSpector": 2,
-      "lfnovo/open-notebook": 3,
-      "kenn-io/agentsview": 4,
-      "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots": 5,
-      "andrewyng/aisuite": 6,
-      "yt-dlp/yt-dlp": 7,
-      "LMCache/LMCache": 8,
-      "shiyu-coder/Kronos": 9,
-      "OpenHands/OpenHands": 10,
-      "Anil-matcha/Open-Generative-AI": 11,
-      "tinyhumansai/openhuman": 12,
-      "Ar9av/obsidian-wiki": 13,
-      "FareedKhan-dev/train-llm-from-scratch": 14,
-      "tensorzero/tensorzero": 15,
-      "frappe/erpnext": 16,
-      "zhukunpenglinyutong/desktop-cc-gui": 17,
-      "Free-TV/IPTV": 18,
-      "technomancer702/nodecast-tv": 19,
-      "SagerNet/sing-box": 20,
-      "mattermost/mattermost": 21,
-      "fabro-sh/fabro": 22,
-      "cypress-io/cypress": 23,
-      "rust-lang/rust": 24,
-      "hydralauncher/hydra": 25
-    },
     "2026-06-16": {
       "iptv-org/iptv": 1,
       "Panniantong/Agent-Reach": 2,
@@ -836,6 +809,33 @@
       "Anil-matcha/Open-Generative-AI": 23,
       "QuantumNous/new-api": 24,
       "Augani/openreel-video": 25
+    },
+    "2026-07-16": {
+      "Graphify-Labs/graphify": 1,
+      "Nutlope/hallmark": 2,
+      "Shubhamsaboo/awesome-llm-apps": 3,
+      "hasaneyldrm/exercises-dataset": 4,
+      "HKUDS/Vibe-Trading": 5,
+      "tt-a1i/archify": 6,
+      "github/spec-kit": 7,
+      "microsoft/markitdown": 8,
+      "openai/codex": 9,
+      "earendil-works/pi": 10,
+      "heygen-com/hyperframes": 11,
+      "AIEraDev/Clypra": 12,
+      "openinterpreter/openinterpreter": 13,
+      "datawhalechina/hello-agents": 14,
+      "chenyme/grok2api": 15,
+      "screenpipe/screenpipe": 16,
+      "browseros-ai/BrowserOS": 17,
+      "multica-ai/multica": 18,
+      "Wei-Shaw/sub2api": 19,
+      "HKUDS/DeepTutor": 20,
+      "Anil-matcha/Open-Generative-AI": 21,
+      "QuantumNous/new-api": 22,
+      "moeru-ai/airi": 23,
+      "HKUDS/nanobot": 24,
+      "SagerNet/sing-box": 25
     }
   }
 }
