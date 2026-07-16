@@ -1,262 +1,258 @@
 [
   {
-    "id": "2026-07-15_ai_1",
-    "date": "2026-07-15",
+    "id": "2026-07-16_ai_1",
+    "date": "2026-07-16",
     "category": "AI",
-    "subcat": "Anthropic / Claude",
-    "platform": "Anthropic 官方博客",
+    "subcat": "大模型",
+    "platform": "Thinking Machines Lab",
     "platform_color": "#7C3AED",
-    "title": "Anthropic推出Claude教师版",
-    "url": "https://www.anthropic.com/news/claude-for-teachers",
-    "image": "images/2026-07-15/2026-07-15_ai_1.jpg",
+    "title": "Mira Murati团队首发开源模型Inkling",
+    "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+    "image": "images/2026-07-16/2026-07-16_ai_1.jpg",
     "detail": [
-      "7月14日,Anthropic正式发布Claude for Teachers,面向美国经过身份验证的K-12教师免费开放Claude高级能力、一套教学技能库,以及一个直连循证教研资料的连接器,内容对齐全美50个州的学术课程标准。这被业界视为对OpenAI约八个月前推出的ChatGPT for Teachers的正面回应,是各大AI公司争夺课堂场景的又一步。",
-      "产品核心是接入Learning Commons连接器,让Claude在起草教案时自动对齐州级标准,并调用OpenSciEd、Illustrative Mathematics IM v.360等权威课程资源。它同时集成Claude Code与Cowork,可分析学生花名册、诊断与出勤数据来做差异化教学,还能设定每天下午4点自动复盘当日exit ticket并调整次日计划,把重复任务托管给AI。",
-      "在数据安全上,教师版遵循Claude的18岁以上政策,配套专门的K-12数据处理条款以符合FERPA,且承诺学生数据不用于模型训练。Anthropic还与美国教师联合会AFT合作对齐隐私与安全的Gold Standard,并将在底特律公立学区试点评估其对教师工作负担与教学实践的影响。",
-      "该产品对个人教师完全免费,在2027年6月30日前注册即可获得整年使用权;面向学校与学区的专用版本也已在路上。Anthropic同步开源了教学技能仓库并发布技术评测文档,配合与盖茨基金会的合作,进一步夯实其在教育领域的整体布局。"
+      "前OpenAI首席技术官Mira Murati创办的Thinking Machines Lab在7月15日正式发布公司成立一年多以来的首个基础模型Inkling，这是一款完全从零训练、开放权重的模型，开发者可自由下载、微调并商用，标志这家此前主要因巨额融资而出名的明星初创终于交出第一份产品答卷。",
+      "Inkling采用混合专家(MoE)架构，总参数量达9750亿、单次推理仅激活约410亿，支持最高100万token上下文，基于约45万亿token的文本、图像、音频与视频数据训练，可原生跨文本、图像、音频推理，但输出仅限文本、代码与结构化数据。官方同时预览了更轻量的Inkling-Small(激活120亿参数)，并支持在其Tinker微调平台上直接定制。",
+      "公司坦承Inkling并非当前最强模型，定位是一个均衡、易定制的开源底座，意在填补西方开源生态相对中国模型的空缺。社区普遍将其视作对DeepSeek、Qwen等中国开源模型的正面回应；此前该实验室以120亿美元估值融资20亿美元却屡有核心成员出走，此次发布被外界看作能否兑现预期的关键一战。"
     ]
   },
   {
-    "id": "2026-07-15_ai_2",
-    "date": "2026-07-15",
+    "id": "2026-07-16_ai_2",
+    "date": "2026-07-16",
     "category": "AI",
-    "subcat": "Anthropic / Claude",
-    "platform": "Anthropic 官方博客",
+    "subcat": "行业",
+    "platform": "PYMNTS",
     "platform_color": "#7C3AED",
-    "title": "Anthropic承诺千万加元资助加拿大AI研究",
-    "url": "https://www.anthropic.com/news/canadian-ai-research",
-    "image": "images/2026-07-15/2026-07-15_ai_2.jpg",
+    "title": "Anthropic启动IPO投资者会议 最快10月上市",
+    "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/anthropic-begin-investor-meetings-potential-october-ipo/",
+    "image": "images/2026-07-16/2026-07-16_ai_2.jpg",
     "detail": [
-      "7月14日,Anthropic宣布向加拿大研究机构投入1000万加元,主要以Claude API额度形式发放,资助有益且负责任的AI研究。Anthropic强调,多伦多大学、蒙特利尔大学在神经网络饱受质疑的年代坚持深耕,阿尔伯塔大学在强化学习上做了开创性工作,加拿大对现代AI的诞生功不可没。",
-      "合作名单覆盖八家机构:加拿大三大区域AI研究所Amii(埃德蒙顿)、Mila(蒙特利尔)、Vector(多伦多),以及CHEO、成瘾与心理健康中心CAMH、拉瓦尔大学、多伦多大学与萨斯喀彻温大学,方向涵盖强化学习、AI信任与安全、医疗健康、多智能体与机器人等。今夏Anthropic还将把三大研究所纳入创业扶持计划,数百家关联初创各获至少5000美元额度。",
-      "同日发布的首份加拿大国别简报显示,加拿大在Claude.ai全球使用量中排名第八(占2.6%),按人均强度计算仅次于美国、位居全球第二,人均使用率超过人口规模预测的四倍。省内看,不列颠哥伦比亚省人均使用最高,安大略省对话总量最大,翻译类请求在联邦公务员集中、双语法规要求高的省份尤为常见。",
-      "联合创始人Chris Olah表示,现代AI的部分根基与许多最重视安全的研究者都出自多伦多、蒙特利尔和埃德蒙顿,他为Anthropic能支持下一章感到自豪。Anthropic称这八项合作只是投入起点,未来数月还将有更多伙伴加入,长期支持加拿大在研究、医院与高校中的AI工作。"
+      "据彭博社7月15日报道，Claude开发商Anthropic已开始安排与潜在投资者的会面，为最快10月启动的首次公开募股铺路，牵头承销的摩根士丹利、高盛与摩根大通正于未来几周密集排期，这是继其此前向SEC秘密递交IPO草案后进入投石问路阶段的标志性动作。",
+      "Anthropic在今年5月的融资轮后估值达到9650亿美元，成为全球估值最高的私营公司之一，并首次超越OpenAI。若10月成功挂牌，它将抢在推迟至2027年上市的OpenAI以及正筹备IPO的中国公司DeepSeek之前率先登陆公开市场，其上市信心主要来自Claude模型尤其是编程工具带来的强劲企业收入增长。",
+      "分析普遍认为这场潜在的巨型IPO是AI推动全球资本市场复苏的又一注脚——今年以来全球IPO募资已达2275亿美元，创2021年以来新高。不过Anthropic也面临与政府关系带来的不确定性，其两款模型此前被临时施加海外访问限制，最终上市时间仍可能随市场状况调整。"
     ]
   },
   {
-    "id": "2026-07-15_ai_3",
-    "date": "2026-07-15",
+    "id": "2026-07-16_ai_3",
+    "date": "2026-07-16",
     "category": "AI",
-    "subcat": "国产大模型 / DeepSeek",
-    "platform": "新浪新闻",
+    "subcat": "行业",
+    "platform": "投资界",
     "platform_color": "#7C3AED",
-    "title": "梁文锋身家飙至360亿美元成AI首富",
-    "url": "https://news.sina.com.cn/c/2026-07-14/doc-inihunse1296639.shtml",
-    "image": "images/2026-07-15/2026-07-15_ai_3.jpg",
+    "title": "DeepSeek估值飙至4800亿 火速开启新融资",
+    "url": "https://news.pedaily.cn/202607/566302.shtml",
+    "image": "images/2026-07-16/2026-07-16_ai_3.jpg",
     "detail": [
-      "7月14日,据彭博亿万富豪指数最新数据,DeepSeek创始人梁文锋身家飙升至360亿美元(此前约167亿美元),一举成为全球AI大模型创始人中身家最高的人,超过Anthropic联合创始人Dario Amodei与OpenAI联合创始人Greg Brockman。该榜单仅统计主营业务与大部分收入直接来自AI大模型的公司,不含阿里、腾讯等多元化集团。",
-      "梁文锋的绝大部分财富来自对DeepSeek的控股。今年6月,DeepSeek完成约500亿元人民币首轮外部融资,投后估值超3300亿元,梁文锋个人出资200亿元参与,为本轮最大投资方。据彭博测算,其持股比例经稀释后仍高达约78%,这在现代AI创业者中极为罕见。",
-      "多方报道指出,本轮融资结构对外部投资者极为苛刻:入股的有限合伙人面临长达五年的锁定期且不含投票权,资金并非直接入股DeepSeek主体,而是投入梁文锋管理的有限合伙企业,以确保他对公司战略与AGI路线的绝对控制权。投资方还包括腾讯、宁德时代、京东、网易、IDG资本等。",
-      "与硅谷同行需向科技巨头和风投让渡大量股权不同,梁文锋凭借幻方量化早期积累的资本维持了极高持股与决策权,目前在中国富豪榜排名第八,仅次于寒武纪陈天石。DeepSeek近期展示的V4模型宣称可兼容华为芯片,融资资金正投向算力基建与上层应用。"
+      "7月15日，据英国《金融时报》与彭博社消息，DeepSeek在完成首轮超500亿元融资仅六周后，已悄然启动新一轮融资谈判，融资前估值约710亿美元(折合人民币约4800亿元)，较首轮融资后约520亿美元的估值上涨约37%，再次刷新国产大模型公司最高估值纪录。",
+      "首轮融资中创始人梁文锋个人出资约200亿元、占四成，腾讯出资约100亿元，宁德时代、京东、网易、IDG资本及国家人工智能产业投资基金等共同参投。新一轮资金将主要投向自建GW级数据中心、采购AI芯片以及研发Agent等下一代AI系统，凸显竞争焦点已从模型能力转向算力储备。",
+      "更受关注的是，DeepSeek已开始为IPO做实质准备，正与银行和会计师事务所密集接触，力争年底前备齐财务报告，最快今年底或2027年初递交申请，首选内地科创板。受消息刺激，7月15日港股AI板块集体拉升，创始人个人身家据彭博亿万富豪指数升至约360亿美元，一举超越Anthropic与OpenAI两位联合创始人。"
     ]
   },
   {
-    "id": "2026-07-15_ai_4",
-    "date": "2026-07-15",
+    "id": "2026-07-16_ai_4",
+    "date": "2026-07-16",
     "category": "AI",
-    "subcat": "Anthropic / OpenAI",
-    "platform": "智东西 / 新浪科技",
+    "subcat": "产品发布",
+    "platform": "网易科技",
     "platform_color": "#7C3AED",
-    "title": "AI额度集体回血:Fable5延期Codex取消限制",
-    "url": "https://k.sina.com.cn/article_5952915705_162d248f906703bpu2.html?from=tech",
-    "image": "images/2026-07-15/2026-07-15_ai_4.jpg",
+    "title": "阿里发布Qwen-Audio-3.0实时语音模型",
+    "url": "https://www.163.com/dy/article/L1SMB4S005118HA4.html",
+    "image": "images/2026-07-16/2026-07-16_ai_4.jpg",
     "detail": [
-      "据智东西7月13日报道,当天凌晨Claude宣布将付费用户的Claude Fable 5订阅期限延长至7月19日,并把Claude Code的周额度上限提高50%。活动覆盖Claude Pro、Max、Team套餐及传统席位制Enterprise的Premium席位,符合条件用户无需手动激活即可在现有订阅中继续使用Fable 5。",
-      "促销期内用户最多可将每周套餐额度的50%用于Fable 5,该模型会消耗原有周额度且消耗速度高于其他Claude模型;达到上限后可启用usage credits按量续用,或切换到其他模型使用剩余额度。用户可通过网页、移动端、桌面端、Cowork、Claude Code等多个入口调用。",
-      "紧随其后,OpenAI的ChatGPT与Codex团队成员Tibo也公布三项更新:临时取消Plus、Business、Pro套餐的5小时用量限制;对GPT-5.6 Sol做全面效率优化;因Codex活跃用户突破600万,统一为用户重置使用限额,展现出两家头部公司争抢用户的白热化态势。",
-      "Tibo称GPT-5.6 Sol首轮推理优化已完成,把节省的成本转化为各套餐更多用量,预计同等额度下多用约10%。此前因上下文上限从GPT-5.5的272k提到372k导致扣量超预期,OpenAI已回退至272k以降低消耗速度,待进一步优化后再重开372k。可用额度与订阅性价比正成为争夺开发者的新筹码。"
+      "7月15日上午，阿里巴巴通义团队正式发布并全面升级实时语音交互对话模型Qwen-Audio-3.0-Realtime(原Fun-Realtime-AudioChat)，一并推出推理更强的Plus版与速度更快的Flash版，主打又快又聪明，适用于智能客服、教育培训、娱乐互动与情感陪伴等场景。",
+      "该模型在智商、Agent工具调用、共情对话与双工交互流畅度四条主线同步升级。它可毫秒级响应且不明显掉智商：在语音问答基准VoiceBench上，Plus版对书面化与口语化提问得分分别为92.5和90.5，仅相差2.0；还能无需明确指令自主判断何时调用地图等外部工具，并将结果融入对话记忆，支持MCP、API与知识库接入。",
+      "共情与双工交互是本次体验升级的核心，模型可动态调整语气节奏并随时被打断、插话，在S2S语音指令遵循基准VStyle上取得SOTA。今年5月其Preview版本曾在第三方评测平台Artificial Analysis的语音推理能力指标以97.6%登顶、超越GPT-Realtime-2。模型已通过阿里云百炼开放API，按token计费。"
     ]
   },
   {
-    "id": "2026-07-15_vibecoding_1",
-    "date": "2026-07-15",
+    "id": "2026-07-16_vibecoding_1",
+    "date": "2026-07-16",
     "category": "VibeCoding",
-    "subcat": "工具",
-    "platform": "GitHub 官方博客",
+    "subcat": "开源项目",
+    "platform": "GitHub",
     "platform_color": "#2563EB",
-    "title": "Dependabot默认给新版本加3天冷静期",
-    "url": "https://github.blog/changelog/2026-07-14-dependabot-version-updates-introduce-default-package-cooldown/",
-    "image": "images/2026-07-15/2026-07-15_vibecoding_1.jpg",
+    "title": "xAI 开源编码智能体 Grok Build",
+    "url": "https://github.com/xai-org/grok-build",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_1.jpg",
     "detail": [
-      "GitHub在7月14日的更新日志中宣布,Dependabot的版本更新功能现在默认引入了「冷静期」机制:一个依赖包发布新版本后,必须在其registry上存在至少三天,Dependabot才会为它开启版本升级的Pull Request。该默认策略对所有受支持的生态系统生效,无需任何额外配置。",
-      "这一设计直接针对供应链攻击场景。新版本发布往往是投毒的入口,一旦某个被篡改或损坏的版本刚上线就被自动合入项目,后果严重。三天的延迟给了维护者和社区足够时间去发现异常信号,从而大幅降低误合恶意发布的概率。值得注意的是,安全更新仍会立即开PR,关键修复不会被拖延。",
-      "开发者依然保有控制权,可在.github/dependabot.yml里用cooldown选项自定义时间窗口或完全退出。该默认策略已在github.com上线,并将在GitHub Enterprise Server 3.23版本生效。HN上引发41条热议,不少人认为这是自动化依赖管理在便利与安全之间的一次合理再平衡。"
+      "xAI 于北京时间 7 月 16 日凌晨在 GitHub 正式开源了自家编码智能体的核心工程 Grok Build，仓库描述为「xAI 的编码 agent harness 与全屏 TUI」，主体几乎全部用 Rust 编写(占比约 99.6%),采用 Apache-2.0 许可证。这是继 Grok 4.5 模型上线 Cursor 与自家 CLI 之后,xAI 首次把编码工具链的宿主层与终端界面代码完整对外公开。",
+      "仓库以 crates 多包结构组织,核心组件包括负责滚动区、输入框与渲染的 TUI 包 xai-grok-pager、承载 agent 运行时与 headless 入口的 xai-grok-shell、实现终端/文件编辑/搜索等工具调用的 xai-grok-tools,以及管理宿主文件系统、版本控制与检查点的 xai-grok-workspace。附带用户手册覆盖快捷键、slash 命令、MCP 服务、skills、插件、hooks、headless 与沙箱等能力,开源后短时间内已积累超 300 个 fork。",
+      "该项目在 Hacker News 获约 200 分与 235 条评论。社区一方面肯定其把一整套可扩展、鼠标可交互的全屏终端 agent 框架开放出来,便于开发者审阅提示工程与工具调用实现;另一方面也讨论它与 Claude Code、OpenCode、Codex 等既有 CLI 智能体的差异,以及在部分区域模型可用性受限等问题,被视为终端派 AI 编码工具竞争进一步白热化的信号。"
     ]
   },
   {
-    "id": "2026-07-15_vibecoding_2",
-    "date": "2026-07-15",
+    "id": "2026-07-16_vibecoding_2",
+    "date": "2026-07-16",
     "category": "VibeCoding",
-    "subcat": "语言",
-    "platform": "Alex Edwards 博客",
+    "subcat": "开源项目",
+    "platform": "HN",
     "platform_color": "#2563EB",
-    "title": "我如何在Go项目里搭配HTMX使用",
-    "url": "https://www.alexedwards.net/blog/how-i-use-htmx-with-go",
-    "image": "images/2026-07-15/2026-07-15_vibecoding_2.jpg",
+    "title": "misa77:解压快过 LZ4 的新编解码器",
+    "url": "https://github.com/welcome-to-the-sunny-side/misa77",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_2.jpg",
     "detail": [
-      "Go生态知名作者Alex Edwards于7月14日发布长文,系统分享了他在Go Web应用中搭配HTMX的实践模式。他偏爱HTMX是因为它能以极少的JavaScript给交互带来接近原生App的顺滑感,同时保留服务端用html/template渲染HTML的一致性与安全性,重心完全放在Go这一侧。",
-      "文章围绕三大主题展开:一是组织HTML模板、返回局部片段与整页响应的结构化模式;二是在HTMX场景下如何优雅处理重定向和错误;三是他常用的HTMX标准配置项及背后原因。全文以一个对用户列表做过滤的小型示例应用贯穿,从go mod init到目录骨架逐步演示,可直接跟练。",
-      "该帖当天冲上Hacker News热榜,收获89个赞。作者指出这套模板处理模式同样适配Unpoly、Hotwire等其他HTML-over-the-wire方案。在前端框架日益臃肿的当下,这类回归服务端渲染、少写JS的路线持续吸引大量后端开发者的共鸣。"
+      "一位独立开发者在 Hacker News 发布 Show HN 项目 misa77,这是一款面向「一次写入、多次读取」场景的 LZ 系无损压缩编解码器。作者称自己花了数月打磨,目标是在保持甚至优于 LZ4 压缩率的前提下大幅提升解压速度,项目以 C/C++ 实现并提供命令行工具与库两种使用方式,当前处于 0.1.x 早期版本。",
+      "据仓库与 lzbench 基准数据,misa77 在 x86 与 ARM 架构上的解压速度约为 LZ4 的 1.5 到 3 倍;在测试集的 12 个文件中,除高度不可压缩的 x-ray 样本外,其余 11 个文件的每种模式解压都快于 LZ4,部分领先幅度巨大,同时压缩率更优。设计思路是让格式更贴近 memcpy、增加解码期的内存拷贝以换取更高的整体吞吐。",
+      "帖子获得约 125 分与 39 条评论。Google Snappy 维护者出面点评,指出这属于压缩领域已知的权衡:面向 memcpy 的格式在解压端更快,但需要在编码端付出更慢的建匹配代价,并给出 aarch64 用 shrn 指令优化 movemask 的建议。作者回应目前尚未加入 ARM 专用 NEON 路径,后续版本会补上,社区整体认为该方向有实际需求。"
     ]
   },
   {
-    "id": "2026-07-15_vibecoding_3",
-    "date": "2026-07-15",
+    "id": "2026-07-16_vibecoding_3",
+    "date": "2026-07-16",
     "category": "VibeCoding",
-    "subcat": "AI编码",
-    "platform": "Hacker News / GitHub",
+    "subcat": "开发工具",
+    "platform": "HN",
     "platform_color": "#2563EB",
-    "title": "Picchio揪出本地大模型的静默降速",
-    "url": "https://github.com/logxio/picchio",
-    "image": "images/2026-07-15/2026-07-15_vibecoding_3.jpg",
+    "title": "Brainless:复刻AI CLI界面的组件库",
+    "url": "https://brainless.swerdlow.dev/",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_3.jpg",
     "detail": [
-      "开发者在7月14日于Hacker News发布了开源小工具Picchio,专门捕捉本地大模型运行中的两类隐蔽问题:一是本应跑在GPU上的推理悄悄回退(silent fallback)到CPU,二是被误标注的tok/s吞吐数据。它面向llama.cpp和ollama用户,主打单文件、零依赖,拿来即用。",
-      "项目的一个核心发现颇具冲击力:同一个模型、同样标着Q4_K_M量化标签,实测每权重比特数却可能是5.02、5.07乃至5.27 bit,意味着相同标签下的量化文件体积和精度并不一致。这提醒开发者不能只看文件名标签,而要用工具真实核验本地模型的运行状态与量化质量。",
-      "在本地跑LLM日益普及的背景下,性能被静默拖垮却毫无察觉是常见坑,Picchio把这类不可见问题显性化。上线当天在HN获得关注,GitHub仓库星标快速积累。轻量、无依赖的定位让它很容易被集成进个人的本地推理调试流程。"
+      "开发者 benswerd 在 Hacker News 发布 Brainless,一套基于 shadcn 注册表分发的 React 组件库,专门像素级复刻 Claude Code、OpenAI Codex 与 xAI Grok 三款终端编码智能体的界面外观。作者表示自己花时间逐一对齐这些 CLI 的视觉细节,把每个终端状态重建成可访问、可键盘操作的 React 组件,方便在自己的网站与产品中复用。",
+      "组件库覆盖约 35 个组件,横跨三套 CLI:包括欢迎头部、对话消息、thinking/working 动效指示器、可展开的工具调用块、带 +/- 行的内联 diff、Todo 列表、权限确认、slash 命令菜单、项目选择器等,例如 claude-header、codex-exec、grok-plan 等。安装通过 shadcn CLI 拉取对应 JSON 注册项,组件代码直接复制进用户代码库,由用户自行拥有和改造。",
+      "该帖获约 77 分与十余条评论。作者在讨论中阐述了不再相信传统组件的观点,认为在 AI 时代代码变得廉价,这些组件更适合作为可深度定制的基线而非最终形态,其价值在于精确对齐了各家 CLI 的观感。社区反应积极,有人计划用于自家主页,也有人追问为何选择 shadcn 注册表而非传统组件包的分发方式。"
     ]
   },
   {
-    "id": "2026-07-15_vibecoding_4",
-    "date": "2026-07-15",
+    "id": "2026-07-16_vibecoding_4",
+    "date": "2026-07-16",
     "category": "VibeCoding",
-    "subcat": "AI编码",
-    "platform": "Hacker News / X",
+    "subcat": "社区讨论",
+    "platform": "个人博客",
     "platform_color": "#2563EB",
-    "title": "Tilion为AI代理提供隐身浏览器",
-    "url": "https://twitter.com/tiliondev/status/2077162199739752933",
-    "image": "images/2026-07-15/2026-07-15_vibecoding_4.jpg",
+    "title": "探讨万能 agent harness 的边界",
+    "url": "https://eardatasci.github.io/c/ambiance/index.html",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_4.jpg",
     "detail": [
-      "7月14日,一款名为Tilion的产品以Show HN形式登场,定位是「面向智能体的隐身浏览器基础设施」(Stealth Browser Infrastructure for Agents)。它试图解决当下AI代理自动化操作网页时频繁被反爬、反机器人系统识别拦截的痛点,为代理提供更难被检测的浏览器运行环境。",
-      "随着编码代理、研究代理越来越依赖浏览器去抓取信息、填表和执行任务,浏览器指纹、行为检测成为自动化的最大拦路虎。Tilion把这类隐身与规避能力做成可直接接入的基础设施,让开发者无需自己维护复杂的反检测栈,专注在代理逻辑本身。",
-      "该发布在Hacker News上收获关注并引发讨论,反映出「代理用浏览器」这一细分赛道正在快速升温。不过这类隐身工具也天然伴随争议:如何在合规抓取与绕过网站防护之间划清边界,是社区评论中被反复提及的焦点。"
+      "一篇题为《Towards a harness that can do anything》的技术随笔登上 Hacker News,作者围绕 AI 编码智能体的 harness(即包裹模型、负责工具调用、上下文管理与执行循环的宿主层)展开思考,探讨在模型能力不断增强的当下,能否设计出一个足够通用、几乎可以完成任何任务的智能体宿主框架,以及这种设计会带来哪些抽象与工程取舍。",
+      "文章从当前主流编码 agent(如 Claude Code、Codex、Grok Build 等)普遍采用的工具调用、文件编辑、终端执行、检查点等模式出发,讨论如何把这些能力抽象成更少、更正交的原语,让 harness 不再为每类任务硬编码流程,而是通过统一接口把复杂度交给模型本身,进而逼近什么都能干的目标,同时也反思其可靠性与可控性风险。",
+      "该帖在 Hacker News 获约 163 分与 82 条评论,引发关于 agent 架构范式的热烈讨论。支持者认为随着模型上下文与推理能力提升,轻量而通用的 harness 是趋势;质疑者则指出过度通用会牺牲可预测性、调试难度与安全边界,现实中仍需针对不同任务做约束。这场讨论恰逢多家厂商密集开源编码 agent,时机上颇具代表性。"
     ]
   },
   {
-    "id": "2026-07-15_vibecoding_5",
-    "date": "2026-07-15",
+    "id": "2026-07-16_vibecoding_5",
+    "date": "2026-07-16",
     "category": "VibeCoding",
-    "subcat": "工具",
-    "platform": "Hacker News / GitHub",
+    "subcat": "编程语言",
+    "platform": "个人博客",
     "platform_color": "#2563EB",
-    "title": "planning.nvim极简Neovim日程插件",
-    "url": "https://github.com/duguyue100/planning.nvim",
-    "image": "images/2026-07-15/2026-07-15_vibecoding_5.jpg",
+    "title": "提议 SQLite 引入 Rust 式版本纪元",
+    "url": "https://mort.coffee/home/sqlite-editions/",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_5.jpg",
     "detail": [
-      "7月14日,开发者在Hacker News分享了新开源项目planning.nvim,这是一款极简的Neovim日程与规划日历插件。它把日历式的任务规划能力直接搬进编辑器,让习惯全程在Neovim中工作的开发者不必切出去用单独的日历App,即可管理待办与时间安排。",
-      "该插件走的是Neovim社区一贯推崇的「小而专注」路线:功能克制、依赖轻量,聚焦在计划编排这一件事上,方便用户按需集成进自己的配置。对于把终端和编辑器当作主要工作台的重度用户,这类原生插件能显著减少上下文切换成本。",
-      "项目当天在GitHub创建并推送,同步发到Hacker News求反馈。虽然仍是早期阶段、星标不多,但它延续了Neovim生态持续涌现的插件创造力——用极小的代码把某个工作流环节做得恰到好处、可高度自定义,正是这个社区最典型也最迷人的贡献方式,也让不少终端党跃跃欲试。"
+      "开发者 mort 撰文《SQLite should have (Rust-style) editions》,提议这款世界上部署最广的嵌入式数据库借鉴 Rust 的 edition 机制。文章指出 SQLite 长期以永不破坏向后兼容为最高原则,导致一些早期设计的怪异默认行为(如宽松的类型系统、隐式转换等)被永久保留,新用户容易踩坑而项目又无法直接修正。",
+      "作者主张引入类似 Rust 2015/2018/2021 的纪元概念:老数据库文件与老代码继续沿用既有默认行为,而在新纪元下可以启用更严格、更符合直觉的默认设置(例如更严格的表约束、更合理的 NUL 字符处理等),从而在不破坏海量存量部署的前提下,让语言/引擎的默认体验持续演进。这一思路正好与近期 SQLite 关于严格表、字符串中 NUL 字符处理等讨论相呼应。",
+      "该文登上 Hacker News(约 57 分)并在 Lobsters 引发讨论(约 55 分、17 条评论)。不少开发者认为 edition 是既想保持默认向后兼容、又想减少令人困惑的默认这一矛盾的合理折中方案;也有人质疑对以极简与稳定著称的 SQLite 而言,维护多套纪元行为会显著增加实现与测试复杂度,是否值得仍有争议。"
     ]
   },
   {
-    "id": "2026-07-15_vibecoding_6",
-    "date": "2026-07-15",
+    "id": "2026-07-16_vibecoding_6",
+    "date": "2026-07-16",
     "category": "VibeCoding",
-    "subcat": "工具",
-    "platform": "Hacker News",
+    "subcat": "开发工具",
+    "platform": "HN",
     "platform_color": "#2563EB",
-    "title": "Flashbang用SW在本地解析DDG指令",
-    "url": "https://flashbang-dyr.pages.dev",
-    "image": "images/2026-07-15/2026-07-15_vibecoding_6.jpg",
+    "title": "Puter 把 Firefox 编译进 WASM",
+    "url": "https://developer.puter.com/labs/firefox-wasm/",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_6.jpg",
     "detail": [
-      "7月14日的一则Show HN带来了Flashbang,它把DuckDuckGo广受欢迎的「!bangs」快捷搜索指令改为完全在本地解析。传统上输入类似!gh、!w这样的bang会先经过DuckDuckGo服务器再跳转,而Flashbang借助浏览器的Service Worker,让这一步在本地直接完成。",
-      "核心价值在于速度与隐私:因为无需把查询先发给远端服务器,跳转几乎是即时的,同时也避免了搜索意图在中转过程中被记录。对于把bang当作日常快捷入口、频繁在几十个站点间跳转搜索的重度用户,这种本地化改造能带来可感知的体验提升。",
-      "该项目部署在Cloudflare Pages上,当天登上Hacker News获得讨论。它是「用Service Worker把原本依赖服务端的功能搬到浏览器本地」这一思路的又一个巧妙范例,展示了现代Web平台能力如何被用来同时优化性能和隐私。"
+      "Puter 团队在 Hacker News 发布 Show HN 项目 Firefox in WebAssembly,把完整的 Firefox 浏览器(包含 Gecko 渲染引擎、全部 UI 组件与 SpiderMonkey JS 引擎)编译为 WebAssembly,并整体渲染到一个网页 canvas 元素里,实现在浏览器标签页里再跑一个真正的 Firefox 的效果。开发者称这是一次探索 WebAssembly 边界的实验。",
+      "技术亮点包括:网络流量通过 WISP 协议以 TCP-over-WebSocket 的方式经 Puter 托管的代理出口转发,并保持端到端 TLS 加密(OpenSSL 同样编译为 WASM);实现了一个实验性的 WASM→JS JIT 用于加速部分站点;甚至能在 firefox-wasm 里再套一层 firefox-wasm。作者透露整个移植在调试与 JIT 研究上消耗了超过 25k 的 AI 编码 token 成本,并另做了更省内存的 browser.js 方案。",
+      "该帖获约 108 分与 56 条评论。有评论半开玩笑地宣称浏览器沙箱问题彻底解决了,因为攻击者需要同时攻破 Firefox 与 WASM 运行时两道防线;作者则坦承由于运行在单进程模式、Fission 无法启用,实际上削弱了 Firefox 原生沙箱。也有人担忧流量经第三方代理出口会带来滥用风险,以及 aarch64 上 GPU 直通导致的启动失败等兼容问题。"
     ]
   },
   {
-    "id": "2026-07-15_gaming_1",
-    "date": "2026-07-15",
+    "id": "2026-07-16_gaming_1",
+    "date": "2026-07-16",
     "category": "Gaming",
     "subcat": "掌机",
-    "platform": "Eurogamer",
+    "platform": "IGN",
     "platform_color": "#059669",
-    "title": "传任天堂正研发Switch 2 OLED版",
-    "url": "https://www.eurogamer.net/nintendo-switch-2-oled-rumours",
-    "image": "images/2026-07-15/2026-07-15_gaming_1.jpg",
+    "title": "黑夜降临Switch2独占公布网络测试",
+    "url": "https://www.videogameschronicle.com/news/fromsoftwares-the-duskbloods-gets-a-network-test-this-august/",
+    "image": "images/2026-07-16/2026-07-16_gaming_1.jpg",
     "detail": [
-      "继此前有关任天堂考虑升级Switch 2液晶面板的传闻后,韩国科技媒体ZDNET Korea再度爆料,称任天堂内部正认真讨论推出OLED屏幕版本的可能性。虽然外界一直预期Switch 2终将像初代那样迎来OLED机型,但这波传闻来得比想象中更早,引发掌机玩家高度关注。",
-      "据爆料,若计划推进,OLED版最快也要到2027年底才投产,预计2028年发售,即距LCD版上市约三年,比初代等待四年半更快。消息称三星显示有望像初代那样供货OLED面板,同时分辨率或由初代OLED的720p升级到1080p,不过成本上涨幅度仍是未知变量。",
-      "该升级被视为有望解决现款Switch 2液晶屏的延迟、拖影以及HDR支持不精准等被Digital Foundry等专家反复记录的短板。玩家社区对此普遍期待,但也担忧在当前零部件紧缺、主机普遍涨价的背景下,OLED版售价可能进一步走高。"
+      "FromSoftware为Nintendo Switch 2独占新作《The Duskbloods(黑夜降临)》正式公布了封闭网络测试(Network Test)的完整日程。这是继2025年4月Nintendo Direct首度亮相后,玩家首次能真正上手体验这款被视为艾尔登法环黑夜君临精神续作的多人联机魂系新作,测试将验证服务器承压、多人联机稳定性与游戏平衡三大方向。",
+      "官方确认申请通道于北京时间7月22日晚间开启,7月28日截止,入选结果8月7日公布。测试本体安排在8月21日至23日之间的五个时段进行,每场持续约4小时,最多支持8名玩家同场竞技。参与者需持有Nintendo账号,入选后会收到可在eShop兑换的预发行版本兑换码。",
+      "作为FromSoftware沉寂许久后的重磅动作,消息一出即在社区引发热议。不少魂系玩家将其视作Switch 2平台最值得期待的独占大作之一,纷纷讨论职业构筑与联机机制;也有玩家担忧掌机机能能否撑起开发团队一贯的高强度战斗与画面表现,呼吁官方尽快放出更多实机细节。"
     ]
   },
   {
-    "id": "2026-07-15_gaming_2",
-    "date": "2026-07-15",
+    "id": "2026-07-16_gaming_2",
+    "date": "2026-07-16",
     "category": "Gaming",
     "subcat": "主机",
-    "platform": "Eurogamer",
+    "platform": "PushSquare",
     "platform_color": "#059669",
-    "title": "黎明行者总监:主机换代延后反是好事",
-    "url": "https://www.eurogamer.net/next-gen-console-delay-blood-of-dawnwalker-developer",
-    "image": "images/2026-07-15/2026-07-15_gaming_2.jpg",
+    "title": "消逝的光芒野兽取消上代主机版并退款",
+    "url": "https://www.pushsquare.com/news/2026/07/refunds-for-dying-light-2-ps4-users-as-the-beast-is-cancelled-for-last-gen-system",
+    "image": "images/2026-07-16/2026-07-16_gaming_2.jpg",
     "detail": [
-      "吸血鬼题材RPG《黎明行者之血》总监、《巫师3》前总监Konrad Tomaszkiewicz近日表示,对于他所在的Rebel Wolves这类工作室而言,新一代主机推迟登场反而是件好事。此番言论正值主机因AI数据中心抢占零部件供应而价格飙升的特殊时期。",
-      "他指出,这是首个基础款主机上市后不降反涨价的世代,有传言PS6制造成本可能高达1000美元,Xbox也警告一年后零部件价格或再翻倍、波及下一代主机Project Helix,连Valve的Steam Machine都以远超预期的价格开卖。他解释,当团队熟悉现有主机的系统与特性后就清楚该怎么做,每换平台都是新挑战,还得额外维护构建版本。",
-      "Tomaszkiewicz透露,《黎明行者之血》目前需同时制作四个版本——Xbox Series、PS5及两套因分级差异而不同的PC版本;若加入次世代平台,构建数量与后续补丁、测试工作量都会成倍增加。玩家社区借此讨论主机世代是否会被拉长,以及涨价潮对整个行业的冲击。"
+      "开发商Techland通过官方社交账号宣布做出艰难决定:《消逝的光芒:野兽(Dying Light: The Beast)》将不再登陆PlayStation 4与Xbox One。该作原本脱胎于《消逝的光芒2》季票承诺的第二部剧情DLC,后来演变为一款约20小时流程的独立作品,PS5玩家可免费获得,而上代主机用户则被排除在外。",
+      "Techland将取消归因于技术限制,称《野兽》从底层就是为当世代硬件打造,拥有大型开放世界与高强度跑酷,基于2013年发售的PS4老旧架构已无法在不大幅牺牲品质的前提下运行。作为补偿,凡是购买了《消逝的光芒2》PS4终极版、原本期待游玩的玩家均可申请退款,游戏本体将继续在PS5、Xbox Series X|S与PC上提供。",
+      "这一决定在社区引发两极反应。部分玩家认为砍掉上代版本对提升游戏技术品质是合理甚至必要之举,不应再被十三年前的硬件拖累;但也有大量PS4用户感到被辜负,批评厂商违背了当初的季票承诺,并指出Techland历史上就曾在初代《消逝的光芒》临近发售时砍掉PS3版本,如今历史重演令人失望。"
     ]
   },
   {
-    "id": "2026-07-15_gaming_3",
-    "date": "2026-07-15",
+    "id": "2026-07-16_gaming_3",
+    "date": "2026-07-16",
     "category": "Gaming",
     "subcat": "主机",
-    "platform": "Eurogamer",
+    "platform": "IGN",
     "platform_color": "#059669",
-    "title": "玩家涌入Xbox意见平台呼吁停止裁员",
-    "url": "https://www.eurogamer.net/xbox-player-voice-portal-layoffs-discussion",
-    "image": "images/2026-07-15/2026-07-15_gaming_3.jpg",
+    "title": "微软突然撤下托尼霍克1+2的XGP上线",
+    "url": "https://www.ign.com/articles/microsoft-pulls-tony-hawks-pro-skater-12-from-july-2026-xbox-game-pass-lineup-without-explanation",
+    "image": "images/2026-07-16/2026-07-16_gaming_3.jpg",
     "detail": [
-      "Xbox今年5月上线Player Voice意见平台,方便用户分享对Xbox的看法与期望,这也呼应了新任CEO Asha Sharma接任时承诺的\"Xbox回归\"。然而在微软宣布裁员3200人、四家工作室出走后,许多玩家在这个类Reddit平台上表达了担忧与不满。",
-      "截至报道时,平台热度最高的帖子标题为\"停止关闭工作室、终结裁员循环\",由用户Witt Yao发起,列出六点诉求,涉及\"对玩家透明\"、信任开发者,并把裁员称作\"领导层的失败\"。该帖已获3446个赞、686条评论,被视为颇具分量,因为这是Xbox直通玩家的官方渠道。",
-      "有用户写道\"大多数员工只是照命令行事却被裁、工作室被关闭\",并把矛头指向领导层,认为这正是\"Xbox陷入如此糟糕境地\"的原因;还有人提醒众人别忘了微软在Xbox之外的庞大遗产,再感叹当前状况。此事折射出玩家对本世代Xbox持续动荡与失误的普遍失望情绪。"
+      "微软在没有给出明确解释的情况下,悄悄将《托尼霍克职业滑板1+2(Tony Hawk's Pro Skater 1+2)》从2026年7月的Xbox Game Pass阵容中撤下。该作原定于7月21日登陆Game Pass Ultimate、Game Pass Premium与PC Game Pass,但Xbox Wire文章随后被追加编辑注记,确认其已被移出上线名单。",
+      "值得注意的是,该系列通过微软斥资690亿美元收购动视暴雪而归入其麾下,发行完全由微软掌控。面向IGN,Xbox发言人回应称正在处理《托尼霍克1+2》必要的授权方审批事宜,有进展会尽快分享,并强调《托尼霍克3+4》仍在Game Pass中可玩。外界普遍推测撤下与这款音乐向作品的曲目授权问题有关。",
+      "此事恰逢微软大规模重整Xbox业务的敏感时期——上周裁员1600人并有四家工作室离场,本财年内还将再裁1600人,微软表示未来将聚焦光环、上古卷轴、辐射等头部IP。作为一款首发方游戏,在临上线一周前被匆忙撤下预告,让不少滑板游戏爱好者和订阅用户倍感疑惑与失望。"
     ]
   },
   {
-    "id": "2026-07-15_gaming_4",
-    "date": "2026-07-15",
+    "id": "2026-07-16_gaming_4",
+    "date": "2026-07-16",
     "category": "Gaming",
-    "subcat": "单机",
-    "platform": "Eurogamer",
+    "subcat": "主机",
+    "platform": "IGN",
     "platform_color": "#059669",
-    "title": "王国之心将亮相D23迪士尼粉丝活动",
-    "url": "https://www.eurogamer.net/kingdom-hearts-d23-event-retrospective-25-years",
-    "image": "images/2026-07-15/2026-07-15_gaming_4.jpg",
+    "title": "PS Plus七月会免阵容公布 阿凡达领衔",
+    "url": "https://www.ign.com/articles/playstation-plus-game-catalog-for-july-2026-confirmed",
+    "image": "images/2026-07-16/2026-07-16_gaming_4.jpg",
     "detail": [
-      "据迪士尼官方粉丝俱乐部D23网站公布,《王国之心》系列将在下月于加州举办的D23粉丝活动上亮相,这一消息让长期期待《王国之心4》更多情报的玩家再度兴奋起来。不过Eurogamer提醒,这次登场并非展望未来,而是一次回顾系列历史的\"深度回望\"。",
-      "官网描述,活动上参会者将从游戏的\"创意团队\"与\"角色声优\"处了解系列历史,但具体嘉宾尚未公开。此前系列热度在上月的任天堂直面会上被重新点燃——《王国之心4》不仅放出新演示,还确认将于Switch 2首发登陆,让沉寂已久的粉丝倍感欣慰。",
-      "报道指出,《王国之心4》自2022年首曝以来已过去相当长时间,期间粉丝只能靠零星预告支撑,尽管总监曾保证开发进展顺利。此次D23虽不会带来最新作品情报,但玩家社区仍期待现场或许会\"漏出\"一些关于未来的暗示,门票目前仍在发售中。"
+      "索尼正式公布了2026年7月PlayStation Plus游戏目录(Game Catalog)阵容,由两款大型开放世界作品《阿凡达:潘多拉边境(Avatar: Frontiers of Pandora)》与《浪人崛起(Rise of the Ronin)》领衔,此外还加入了两款PS2经典作品以及《消逝的光芒》《消防模拟:点燃》等多款游戏,阵容颇为豪华。",
+      "索尼目前仍在试验新会免游戏的上线节奏,这意味着美国、英国、日本三地的具体上线日期各有不同,而其余所有地区将统一在7月21日全部开放游玩。同时索尼此前也确认本月将有多款游戏从会员目录中轮换下架,订阅玩家需抓紧时间体验心仪作品。",
+      "《阿凡达:潘多拉边境》与《浪人崛起》两款体量可观的开放世界作品同期入库,被玩家视为本月最超值的会员福利之一。社区普遍对阵容表示认可,认为在夏季游戏相对平淡的档期,这批库容为PS Plus Extra及Premium订阅者提供了充足的游玩内容,不过分区上线的策略也引来部分用户对同订阅不同待遇的讨论。"
     ]
   },
   {
-    "id": "2026-07-15_gaming_5",
-    "date": "2026-07-15",
+    "id": "2026-07-16_gaming_5",
+    "date": "2026-07-16",
     "category": "Gaming",
-    "subcat": "掌机",
-    "platform": "Eurogamer",
+    "subcat": "新作发布",
+    "platform": "Gematsu",
     "platform_color": "#059669",
-    "title": "龙之信条2 Switch 2版已跑30帧以上",
-    "url": "https://www.eurogamer.net/dragons-dogma-2-switch-2-development",
-    "image": "images/2026-07-15/2026-07-15_gaming_5.jpg",
+    "title": "GameFreak新作转生之兽公开战斗演示",
+    "url": "https://www.gematsu.com/2026/07/beast-of-reincarnation-combat-overview-trailer",
+    "image": "images/2026-07-16/2026-07-16_gaming_5.jpg",
     "detail": [
-      "卡普空备受好评的沉浸式RPG《龙之信条2》将于今年晚些时候携大型资料片《黑暗觉者》登陆Switch 2。考虑到该作2024年首发时在主机与PC上的运行表现饱受批评,如今能在任天堂掌机上流畅运行本身就被视为一项成就,制作人大山直人表示该版本\"已经超出我们对Switch 2的预期\"。",
-      "大山直人解释,团队自研的RE引擎与Switch 2非常契合,今年《Pragmata》《生化危机:安魂曲》等大作在该机型上表现出色,得益于内部引擎能让各团队积累的优化经验在后续作品间传承复用,形成\"良性循环\"。目前《龙之信条2》Switch 2版已能稳定运行在\"30帧及以上\"。",
-      "他还透露,卡普空在为Switch 2优化的同时,也在改进其他平台的基础版本,通过累积大量小幅调整提升整体性能;路线图中定于8月底的更新目标是让主机版性能模式达到60帧。玩家社区对RE引擎的跨平台适配能力给予肯定,并期待掌机端的实际体验。"
+      "发行商Fictions与开发商Game Freak公开了动作RPG《Beast of Reincarnation(转生之兽)》一段约四分半的战斗总览实机演示。这是以《宝可梦》系列闻名的Game Freak打造的原创新IP,故事发生在因腐蚀而崩坏、猛兽横行的末世日本,讲述被视为污秽者的少女Emma与她忠诚的斗犬Koo踏上冒险的旅程。",
+      "演示详细展示了游戏偏硬核、指令化的战斗系统,包括压制技、招架(Parry)、FP资源管理,以及名为Bloom Arts的独特战斗机制;同时介绍了角色成长与技能树,玩家可分别强化Emma及斗犬Koo的能力,Emma的技能树可在追踪射击、Hair、纠缠爆发三大方向投入点数。本作确认将于8月4日登陆PS5、Xbox Series X|S与PC,并首发加入Game Pass。",
+      "作为Game Freak在宝可梦之外的重要尝试,《转生之兽》一人一犬的独特羁绊设定与技术性魂系战斗吸引了大量关注。社区对这家老牌工作室跳出舒适区、挑战高难度动作RPG抱有浓厚兴趣,预购已开启并附带斗犬皮肤等特典,不少玩家期待它能成为8月的黑马之作。"
     ]
   },
   {
-    "id": "2026-07-15_gaming_6",
-    "date": "2026-07-15",
+    "id": "2026-07-16_gaming_6",
+    "date": "2026-07-16",
     "category": "Gaming",
-    "subcat": "单机",
-    "platform": "Eurogamer",
+    "subcat": "新作发布",
+    "platform": "Nintendo Everything",
     "platform_color": "#059669",
-    "title": "脱离Xbox后 Compulsion公开求合作",
-    "url": "https://www.eurogamer.net/compulsion-games-looking-for-work-xbox-cuts",
-    "image": "images/2026-07-15/2026-07-15_gaming_6.jpg",
+    "title": "舒适格罗夫营地精灵登陆Switch2",
+    "url": "https://nintendoeverything.com/cozy-grove-camp-spirit-launch-trailer-cozy-grove-sequel-comes-to-nintendo-switch-2-and-switch/",
+    "image": "images/2026-07-16/2026-07-16_gaming_6.jpg",
     "detail": [
-      "在因Xbox大规模裁员而从微软手中重新赎回独立身份仅数日后,《南方之午夜》与《消逝的记忆》(We Happy Few)开发商Compulsion Games已开始寻找新的工作机会。工作室在LinkedIn宣布,现已开放\"合作机会\",希望\"支持他处正在开发的难忘项目\"。",
-      "工作室强调其打造原创IP的深厚经验——《南方之午夜》曾荣获BAFTA奖、七项加拿大游戏奖并入选多个\"2025年度最佳游戏\"榜单,称将以\"艺术性、技术专长与协作方式\"服务每个项目。作为与Xbox分手的一部分,工作室保留了旗下《南方之午夜》《消逝的记忆》和《对比》三作的品牌权。",
-      "报道分析,约112人的团队自2025年《南方之午夜》后一直在忙于某些工作,而对外承接项目正是独立工作室的现实;文中也抛出关键疑问:在当前削减成本、精打细算的市场中,哪家发行商愿意押注它?同期恢复独立的还有《脑航员》开发商Double Fine,同样处于大项目之间的空档期。"
+      "开发商Spry Fox的治愈系生活模拟游戏续作《Cozy Grove: Camp Spirit(舒适格罗夫:营地精灵)》正式发售,同步登陆Nintendo Switch 2与Nintendo Switch两个平台,官方也放出了发售宣传片。本作是备受喜爱的《Cozy Grove》的正统续作,主打让玩家在忙碌一天后回到放松的岛屿绿洲慢慢解压。",
+      "这一代在前作基础上做得更可爱、更温馨,引入了全新的一批古灵精怪的角色、新的动物伙伴、全新场景设定以及新增的玩法系统,提供了更多解压放松的方式。游戏延续了标志性的水彩美术风格,画面细节丰富,玩家可以点燃篝火、探索营地,享受悠闲的岛屿生活。作品此前在Wholesome Direct上公布定档7月15日发售。",
+      "作为一款主打治愈慢节奏的生活模拟游戏,续作的登场受到原有粉丝群体的热烈欢迎。社区玩家纷纷表示这类无压力、可长期陪伴的游戏正是繁忙生活中所需要的数字篝火,同时Switch 2与Switch双平台同步发售也让更多玩家能够第一时间上手,被视为夏季档期里一股清新的暖流。"
     ]
   }
 ]
