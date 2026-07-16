@@ -1,0 +1,258 @@
+[
+  {
+    "id": "2026-07-16_vibecoding_6",
+    "date": "2026-07-16",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "HN",
+    "platform_color": "#2563EB",
+    "title": "Puter 把 Firefox 编译进 WASM",
+    "url": "https://developer.puter.com/labs/firefox-wasm/",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_6.jpg",
+    "detail": [
+      "Puter 团队在 Hacker News 发布 Show HN 项目 Firefox in WebAssembly,把完整的 Firefox 浏览器(包含 Gecko 渲染引擎、全部 UI 组件与 SpiderMonkey JS 引擎)编译为 WebAssembly,并整体渲染到一个网页 canvas 元素里,实现在浏览器标签页里再跑一个真正的 Firefox 的效果。开发者称这是一次探索 WebAssembly 边界的实验。",
+      "技术亮点包括:网络流量通过 WISP 协议以 TCP-over-WebSocket 的方式经 Puter 托管的代理出口转发,并保持端到端 TLS 加密(OpenSSL 同样编译为 WASM);实现了一个实验性的 WASM→JS JIT 用于加速部分站点;甚至能在 firefox-wasm 里再套一层 firefox-wasm。作者透露整个移植在调试与 JIT 研究上消耗了超过 25k 的 AI 编码 token 成本,并另做了更省内存的 browser.js 方案。",
+      "该帖获约 108 分与 56 条评论。有评论半开玩笑地宣称浏览器沙箱问题彻底解决了,因为攻击者需要同时攻破 Firefox 与 WASM 运行时两道防线;作者则坦承由于运行在单进程模式、Fission 无法启用,实际上削弱了 Firefox 原生沙箱。也有人担忧流量经第三方代理出口会带来滥用风险,以及 aarch64 上 GPU 直通导致的启动失败等兼容问题。"
+    ]
+  },
+  {
+    "id": "2026-07-16_vibecoding_5",
+    "date": "2026-07-16",
+    "category": "VibeCoding",
+    "subcat": "编程语言",
+    "platform": "个人博客",
+    "platform_color": "#2563EB",
+    "title": "提议 SQLite 引入 Rust 式版本纪元",
+    "url": "https://mort.coffee/home/sqlite-editions/",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_5.jpg",
+    "detail": [
+      "开发者 mort 撰文《SQLite should have (Rust-style) editions》,提议这款世界上部署最广的嵌入式数据库借鉴 Rust 的 edition 机制。文章指出 SQLite 长期以永不破坏向后兼容为最高原则,导致一些早期设计的怪异默认行为(如宽松的类型系统、隐式转换等)被永久保留,新用户容易踩坑而项目又无法直接修正。",
+      "作者主张引入类似 Rust 2015/2018/2021 的纪元概念:老数据库文件与老代码继续沿用既有默认行为,而在新纪元下可以启用更严格、更符合直觉的默认设置(例如更严格的表约束、更合理的 NUL 字符处理等),从而在不破坏海量存量部署的前提下,让语言/引擎的默认体验持续演进。这一思路正好与近期 SQLite 关于严格表、字符串中 NUL 字符处理等讨论相呼应。",
+      "该文登上 Hacker News(约 57 分)并在 Lobsters 引发讨论(约 55 分、17 条评论)。不少开发者认为 edition 是既想保持默认向后兼容、又想减少令人困惑的默认这一矛盾的合理折中方案;也有人质疑对以极简与稳定著称的 SQLite 而言,维护多套纪元行为会显著增加实现与测试复杂度,是否值得仍有争议。"
+    ]
+  },
+  {
+    "id": "2026-07-16_vibecoding_4",
+    "date": "2026-07-16",
+    "category": "VibeCoding",
+    "subcat": "社区讨论",
+    "platform": "个人博客",
+    "platform_color": "#2563EB",
+    "title": "探讨万能 agent harness 的边界",
+    "url": "https://eardatasci.github.io/c/ambiance/index.html",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_4.jpg",
+    "detail": [
+      "一篇题为《Towards a harness that can do anything》的技术随笔登上 Hacker News,作者围绕 AI 编码智能体的 harness(即包裹模型、负责工具调用、上下文管理与执行循环的宿主层)展开思考,探讨在模型能力不断增强的当下,能否设计出一个足够通用、几乎可以完成任何任务的智能体宿主框架,以及这种设计会带来哪些抽象与工程取舍。",
+      "文章从当前主流编码 agent(如 Claude Code、Codex、Grok Build 等)普遍采用的工具调用、文件编辑、终端执行、检查点等模式出发,讨论如何把这些能力抽象成更少、更正交的原语,让 harness 不再为每类任务硬编码流程,而是通过统一接口把复杂度交给模型本身,进而逼近什么都能干的目标,同时也反思其可靠性与可控性风险。",
+      "该帖在 Hacker News 获约 163 分与 82 条评论,引发关于 agent 架构范式的热烈讨论。支持者认为随着模型上下文与推理能力提升,轻量而通用的 harness 是趋势;质疑者则指出过度通用会牺牲可预测性、调试难度与安全边界,现实中仍需针对不同任务做约束。这场讨论恰逢多家厂商密集开源编码 agent,时机上颇具代表性。"
+    ]
+  },
+  {
+    "id": "2026-07-16_vibecoding_3",
+    "date": "2026-07-16",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "HN",
+    "platform_color": "#2563EB",
+    "title": "Brainless:复刻AI CLI界面的组件库",
+    "url": "https://brainless.swerdlow.dev/",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_3.jpg",
+    "detail": [
+      "开发者 benswerd 在 Hacker News 发布 Brainless,一套基于 shadcn 注册表分发的 React 组件库,专门像素级复刻 Claude Code、OpenAI Codex 与 xAI Grok 三款终端编码智能体的界面外观。作者表示自己花时间逐一对齐这些 CLI 的视觉细节,把每个终端状态重建成可访问、可键盘操作的 React 组件,方便在自己的网站与产品中复用。",
+      "组件库覆盖约 35 个组件,横跨三套 CLI:包括欢迎头部、对话消息、thinking/working 动效指示器、可展开的工具调用块、带 +/- 行的内联 diff、Todo 列表、权限确认、slash 命令菜单、项目选择器等,例如 claude-header、codex-exec、grok-plan 等。安装通过 shadcn CLI 拉取对应 JSON 注册项,组件代码直接复制进用户代码库,由用户自行拥有和改造。",
+      "该帖获约 77 分与十余条评论。作者在讨论中阐述了不再相信传统组件的观点,认为在 AI 时代代码变得廉价,这些组件更适合作为可深度定制的基线而非最终形态,其价值在于精确对齐了各家 CLI 的观感。社区反应积极,有人计划用于自家主页,也有人追问为何选择 shadcn 注册表而非传统组件包的分发方式。"
+    ]
+  },
+  {
+    "id": "2026-07-16_vibecoding_2",
+    "date": "2026-07-16",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
+    "platform": "HN",
+    "platform_color": "#2563EB",
+    "title": "misa77:解压快过 LZ4 的新编解码器",
+    "url": "https://github.com/welcome-to-the-sunny-side/misa77",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_2.jpg",
+    "detail": [
+      "一位独立开发者在 Hacker News 发布 Show HN 项目 misa77,这是一款面向「一次写入、多次读取」场景的 LZ 系无损压缩编解码器。作者称自己花了数月打磨,目标是在保持甚至优于 LZ4 压缩率的前提下大幅提升解压速度,项目以 C/C++ 实现并提供命令行工具与库两种使用方式,当前处于 0.1.x 早期版本。",
+      "据仓库与 lzbench 基准数据,misa77 在 x86 与 ARM 架构上的解压速度约为 LZ4 的 1.5 到 3 倍;在测试集的 12 个文件中,除高度不可压缩的 x-ray 样本外,其余 11 个文件的每种模式解压都快于 LZ4,部分领先幅度巨大,同时压缩率更优。设计思路是让格式更贴近 memcpy、增加解码期的内存拷贝以换取更高的整体吞吐。",
+      "帖子获得约 125 分与 39 条评论。Google Snappy 维护者出面点评,指出这属于压缩领域已知的权衡:面向 memcpy 的格式在解压端更快,但需要在编码端付出更慢的建匹配代价,并给出 aarch64 用 shrn 指令优化 movemask 的建议。作者回应目前尚未加入 ARM 专用 NEON 路径,后续版本会补上,社区整体认为该方向有实际需求。"
+    ]
+  },
+  {
+    "id": "2026-07-16_vibecoding_1",
+    "date": "2026-07-16",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "xAI 开源编码智能体 Grok Build",
+    "url": "https://github.com/xai-org/grok-build",
+    "image": "images/2026-07-16/2026-07-16_vibecoding_1.jpg",
+    "detail": [
+      "xAI 于北京时间 7 月 16 日凌晨在 GitHub 正式开源了自家编码智能体的核心工程 Grok Build，仓库描述为「xAI 的编码 agent harness 与全屏 TUI」，主体几乎全部用 Rust 编写(占比约 99.6%),采用 Apache-2.0 许可证。这是继 Grok 4.5 模型上线 Cursor 与自家 CLI 之后,xAI 首次把编码工具链的宿主层与终端界面代码完整对外公开。",
+      "仓库以 crates 多包结构组织,核心组件包括负责滚动区、输入框与渲染的 TUI 包 xai-grok-pager、承载 agent 运行时与 headless 入口的 xai-grok-shell、实现终端/文件编辑/搜索等工具调用的 xai-grok-tools,以及管理宿主文件系统、版本控制与检查点的 xai-grok-workspace。附带用户手册覆盖快捷键、slash 命令、MCP 服务、skills、插件、hooks、headless 与沙箱等能力,开源后短时间内已积累超 300 个 fork。",
+      "该项目在 Hacker News 获约 200 分与 235 条评论。社区一方面肯定其把一整套可扩展、鼠标可交互的全屏终端 agent 框架开放出来,便于开发者审阅提示工程与工具调用实现;另一方面也讨论它与 Claude Code、OpenCode、Codex 等既有 CLI 智能体的差异,以及在部分区域模型可用性受限等问题,被视为终端派 AI 编码工具竞争进一步白热化的信号。"
+    ]
+  },
+  {
+    "id": "2026-07-16_gaming_6",
+    "date": "2026-07-16",
+    "category": "Gaming",
+    "subcat": "新作发布",
+    "platform": "Nintendo Everything",
+    "platform_color": "#059669",
+    "title": "舒适格罗夫营地精灵登陆Switch2",
+    "url": "https://nintendoeverything.com/cozy-grove-camp-spirit-launch-trailer-cozy-grove-sequel-comes-to-nintendo-switch-2-and-switch/",
+    "image": "images/2026-07-16/2026-07-16_gaming_6.jpg",
+    "detail": [
+      "开发商Spry Fox的治愈系生活模拟游戏续作《Cozy Grove: Camp Spirit(舒适格罗夫:营地精灵)》正式发售,同步登陆Nintendo Switch 2与Nintendo Switch两个平台,官方也放出了发售宣传片。本作是备受喜爱的《Cozy Grove》的正统续作,主打让玩家在忙碌一天后回到放松的岛屿绿洲慢慢解压。",
+      "这一代在前作基础上做得更可爱、更温馨,引入了全新的一批古灵精怪的角色、新的动物伙伴、全新场景设定以及新增的玩法系统,提供了更多解压放松的方式。游戏延续了标志性的水彩美术风格,画面细节丰富,玩家可以点燃篝火、探索营地,享受悠闲的岛屿生活。作品此前在Wholesome Direct上公布定档7月15日发售。",
+      "作为一款主打治愈慢节奏的生活模拟游戏,续作的登场受到原有粉丝群体的热烈欢迎。社区玩家纷纷表示这类无压力、可长期陪伴的游戏正是繁忙生活中所需要的数字篝火,同时Switch 2与Switch双平台同步发售也让更多玩家能够第一时间上手,被视为夏季档期里一股清新的暖流。"
+    ]
+  },
+  {
+    "id": "2026-07-16_gaming_5",
+    "date": "2026-07-16",
+    "category": "Gaming",
+    "subcat": "新作发布",
+    "platform": "Gematsu",
+    "platform_color": "#059669",
+    "title": "GameFreak新作转生之兽公开战斗演示",
+    "url": "https://www.gematsu.com/2026/07/beast-of-reincarnation-combat-overview-trailer",
+    "image": "images/2026-07-16/2026-07-16_gaming_5.jpg",
+    "detail": [
+      "发行商Fictions与开发商Game Freak公开了动作RPG《Beast of Reincarnation(转生之兽)》一段约四分半的战斗总览实机演示。这是以《宝可梦》系列闻名的Game Freak打造的原创新IP,故事发生在因腐蚀而崩坏、猛兽横行的末世日本,讲述被视为污秽者的少女Emma与她忠诚的斗犬Koo踏上冒险的旅程。",
+      "演示详细展示了游戏偏硬核、指令化的战斗系统,包括压制技、招架(Parry)、FP资源管理,以及名为Bloom Arts的独特战斗机制;同时介绍了角色成长与技能树,玩家可分别强化Emma及斗犬Koo的能力,Emma的技能树可在追踪射击、Hair、纠缠爆发三大方向投入点数。本作确认将于8月4日登陆PS5、Xbox Series X|S与PC,并首发加入Game Pass。",
+      "作为Game Freak在宝可梦之外的重要尝试,《转生之兽》一人一犬的独特羁绊设定与技术性魂系战斗吸引了大量关注。社区对这家老牌工作室跳出舒适区、挑战高难度动作RPG抱有浓厚兴趣,预购已开启并附带斗犬皮肤等特典,不少玩家期待它能成为8月的黑马之作。"
+    ]
+  },
+  {
+    "id": "2026-07-16_gaming_4",
+    "date": "2026-07-16",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "IGN",
+    "platform_color": "#059669",
+    "title": "PS Plus七月会免阵容公布 阿凡达领衔",
+    "url": "https://www.ign.com/articles/playstation-plus-game-catalog-for-july-2026-confirmed",
+    "image": "images/2026-07-16/2026-07-16_gaming_4.jpg",
+    "detail": [
+      "索尼正式公布了2026年7月PlayStation Plus游戏目录(Game Catalog)阵容,由两款大型开放世界作品《阿凡达:潘多拉边境(Avatar: Frontiers of Pandora)》与《浪人崛起(Rise of the Ronin)》领衔,此外还加入了两款PS2经典作品以及《消逝的光芒》《消防模拟:点燃》等多款游戏,阵容颇为豪华。",
+      "索尼目前仍在试验新会免游戏的上线节奏,这意味着美国、英国、日本三地的具体上线日期各有不同,而其余所有地区将统一在7月21日全部开放游玩。同时索尼此前也确认本月将有多款游戏从会员目录中轮换下架,订阅玩家需抓紧时间体验心仪作品。",
+      "《阿凡达:潘多拉边境》与《浪人崛起》两款体量可观的开放世界作品同期入库,被玩家视为本月最超值的会员福利之一。社区普遍对阵容表示认可,认为在夏季游戏相对平淡的档期,这批库容为PS Plus Extra及Premium订阅者提供了充足的游玩内容,不过分区上线的策略也引来部分用户对同订阅不同待遇的讨论。"
+    ]
+  },
+  {
+    "id": "2026-07-16_gaming_3",
+    "date": "2026-07-16",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "IGN",
+    "platform_color": "#059669",
+    "title": "微软突然撤下托尼霍克1+2的XGP上线",
+    "url": "https://www.ign.com/articles/microsoft-pulls-tony-hawks-pro-skater-12-from-july-2026-xbox-game-pass-lineup-without-explanation",
+    "image": "images/2026-07-16/2026-07-16_gaming_3.jpg",
+    "detail": [
+      "微软在没有给出明确解释的情况下,悄悄将《托尼霍克职业滑板1+2(Tony Hawk's Pro Skater 1+2)》从2026年7月的Xbox Game Pass阵容中撤下。该作原定于7月21日登陆Game Pass Ultimate、Game Pass Premium与PC Game Pass,但Xbox Wire文章随后被追加编辑注记,确认其已被移出上线名单。",
+      "值得注意的是,该系列通过微软斥资690亿美元收购动视暴雪而归入其麾下,发行完全由微软掌控。面向IGN,Xbox发言人回应称正在处理《托尼霍克1+2》必要的授权方审批事宜,有进展会尽快分享,并强调《托尼霍克3+4》仍在Game Pass中可玩。外界普遍推测撤下与这款音乐向作品的曲目授权问题有关。",
+      "此事恰逢微软大规模重整Xbox业务的敏感时期——上周裁员1600人并有四家工作室离场,本财年内还将再裁1600人,微软表示未来将聚焦光环、上古卷轴、辐射等头部IP。作为一款首发方游戏,在临上线一周前被匆忙撤下预告,让不少滑板游戏爱好者和订阅用户倍感疑惑与失望。"
+    ]
+  },
+  {
+    "id": "2026-07-16_gaming_2",
+    "date": "2026-07-16",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "PushSquare",
+    "platform_color": "#059669",
+    "title": "消逝的光芒野兽取消上代主机版并退款",
+    "url": "https://www.pushsquare.com/news/2026/07/refunds-for-dying-light-2-ps4-users-as-the-beast-is-cancelled-for-last-gen-system",
+    "image": "images/2026-07-16/2026-07-16_gaming_2.jpg",
+    "detail": [
+      "开发商Techland通过官方社交账号宣布做出艰难决定:《消逝的光芒:野兽(Dying Light: The Beast)》将不再登陆PlayStation 4与Xbox One。该作原本脱胎于《消逝的光芒2》季票承诺的第二部剧情DLC,后来演变为一款约20小时流程的独立作品,PS5玩家可免费获得,而上代主机用户则被排除在外。",
+      "Techland将取消归因于技术限制,称《野兽》从底层就是为当世代硬件打造,拥有大型开放世界与高强度跑酷,基于2013年发售的PS4老旧架构已无法在不大幅牺牲品质的前提下运行。作为补偿,凡是购买了《消逝的光芒2》PS4终极版、原本期待游玩的玩家均可申请退款,游戏本体将继续在PS5、Xbox Series X|S与PC上提供。",
+      "这一决定在社区引发两极反应。部分玩家认为砍掉上代版本对提升游戏技术品质是合理甚至必要之举,不应再被十三年前的硬件拖累;但也有大量PS4用户感到被辜负,批评厂商违背了当初的季票承诺,并指出Techland历史上就曾在初代《消逝的光芒》临近发售时砍掉PS3版本,如今历史重演令人失望。"
+    ]
+  },
+  {
+    "id": "2026-07-16_gaming_1",
+    "date": "2026-07-16",
+    "category": "Gaming",
+    "subcat": "掌机",
+    "platform": "IGN",
+    "platform_color": "#059669",
+    "title": "黑夜降临Switch2独占公布网络测试",
+    "url": "https://www.videogameschronicle.com/news/fromsoftwares-the-duskbloods-gets-a-network-test-this-august/",
+    "image": "images/2026-07-16/2026-07-16_gaming_1.jpg",
+    "detail": [
+      "FromSoftware为Nintendo Switch 2独占新作《The Duskbloods(黑夜降临)》正式公布了封闭网络测试(Network Test)的完整日程。这是继2025年4月Nintendo Direct首度亮相后,玩家首次能真正上手体验这款被视为艾尔登法环黑夜君临精神续作的多人联机魂系新作,测试将验证服务器承压、多人联机稳定性与游戏平衡三大方向。",
+      "官方确认申请通道于北京时间7月22日晚间开启,7月28日截止,入选结果8月7日公布。测试本体安排在8月21日至23日之间的五个时段进行,每场持续约4小时,最多支持8名玩家同场竞技。参与者需持有Nintendo账号,入选后会收到可在eShop兑换的预发行版本兑换码。",
+      "作为FromSoftware沉寂许久后的重磅动作,消息一出即在社区引发热议。不少魂系玩家将其视作Switch 2平台最值得期待的独占大作之一,纷纷讨论职业构筑与联机机制;也有玩家担忧掌机机能能否撑起开发团队一贯的高强度战斗与画面表现,呼吁官方尽快放出更多实机细节。"
+    ]
+  },
+  {
+    "id": "2026-07-16_ai_4",
+    "date": "2026-07-16",
+    "category": "AI",
+    "subcat": "产品发布",
+    "platform": "网易科技",
+    "platform_color": "#7C3AED",
+    "title": "阿里发布Qwen-Audio-3.0实时语音模型",
+    "url": "https://www.163.com/dy/article/L1SMB4S005118HA4.html",
+    "image": "images/2026-07-16/2026-07-16_ai_4.jpg",
+    "detail": [
+      "7月15日上午，阿里巴巴通义团队正式发布并全面升级实时语音交互对话模型Qwen-Audio-3.0-Realtime(原Fun-Realtime-AudioChat)，一并推出推理更强的Plus版与速度更快的Flash版，主打又快又聪明，适用于智能客服、教育培训、娱乐互动与情感陪伴等场景。",
+      "该模型在智商、Agent工具调用、共情对话与双工交互流畅度四条主线同步升级。它可毫秒级响应且不明显掉智商：在语音问答基准VoiceBench上，Plus版对书面化与口语化提问得分分别为92.5和90.5，仅相差2.0；还能无需明确指令自主判断何时调用地图等外部工具，并将结果融入对话记忆，支持MCP、API与知识库接入。",
+      "共情与双工交互是本次体验升级的核心，模型可动态调整语气节奏并随时被打断、插话，在S2S语音指令遵循基准VStyle上取得SOTA。今年5月其Preview版本曾在第三方评测平台Artificial Analysis的语音推理能力指标以97.6%登顶、超越GPT-Realtime-2。模型已通过阿里云百炼开放API，按token计费。"
+    ]
+  },
+  {
+    "id": "2026-07-16_ai_3",
+    "date": "2026-07-16",
+    "category": "AI",
+    "subcat": "行业",
+    "platform": "投资界",
+    "platform_color": "#7C3AED",
+    "title": "DeepSeek估值飙至4800亿 火速开启新融资",
+    "url": "https://news.pedaily.cn/202607/566302.shtml",
+    "image": "images/2026-07-16/2026-07-16_ai_3.jpg",
+    "detail": [
+      "7月15日，据英国《金融时报》与彭博社消息，DeepSeek在完成首轮超500亿元融资仅六周后，已悄然启动新一轮融资谈判，融资前估值约710亿美元(折合人民币约4800亿元)，较首轮融资后约520亿美元的估值上涨约37%，再次刷新国产大模型公司最高估值纪录。",
+      "首轮融资中创始人梁文锋个人出资约200亿元、占四成，腾讯出资约100亿元，宁德时代、京东、网易、IDG资本及国家人工智能产业投资基金等共同参投。新一轮资金将主要投向自建GW级数据中心、采购AI芯片以及研发Agent等下一代AI系统，凸显竞争焦点已从模型能力转向算力储备。",
+      "更受关注的是，DeepSeek已开始为IPO做实质准备，正与银行和会计师事务所密集接触，力争年底前备齐财务报告，最快今年底或2027年初递交申请，首选内地科创板。受消息刺激，7月15日港股AI板块集体拉升，创始人个人身家据彭博亿万富豪指数升至约360亿美元，一举超越Anthropic与OpenAI两位联合创始人。"
+    ]
+  },
+  {
+    "id": "2026-07-16_ai_2",
+    "date": "2026-07-16",
+    "category": "AI",
+    "subcat": "行业",
+    "platform": "PYMNTS",
+    "platform_color": "#7C3AED",
+    "title": "Anthropic启动IPO投资者会议 最快10月上市",
+    "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/anthropic-begin-investor-meetings-potential-october-ipo/",
+    "image": "images/2026-07-16/2026-07-16_ai_2.jpg",
+    "detail": [
+      "据彭博社7月15日报道，Claude开发商Anthropic已开始安排与潜在投资者的会面，为最快10月启动的首次公开募股铺路，牵头承销的摩根士丹利、高盛与摩根大通正于未来几周密集排期，这是继其此前向SEC秘密递交IPO草案后进入投石问路阶段的标志性动作。",
+      "Anthropic在今年5月的融资轮后估值达到9650亿美元，成为全球估值最高的私营公司之一，并首次超越OpenAI。若10月成功挂牌，它将抢在推迟至2027年上市的OpenAI以及正筹备IPO的中国公司DeepSeek之前率先登陆公开市场，其上市信心主要来自Claude模型尤其是编程工具带来的强劲企业收入增长。",
+      "分析普遍认为这场潜在的巨型IPO是AI推动全球资本市场复苏的又一注脚——今年以来全球IPO募资已达2275亿美元，创2021年以来新高。不过Anthropic也面临与政府关系带来的不确定性，其两款模型此前被临时施加海外访问限制，最终上市时间仍可能随市场状况调整。"
+    ]
+  },
+  {
+    "id": "2026-07-16_ai_1",
+    "date": "2026-07-16",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "Thinking Machines Lab",
+    "platform_color": "#7C3AED",
+    "title": "Mira Murati团队首发开源模型Inkling",
+    "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+    "image": "images/2026-07-16/2026-07-16_ai_1.jpg",
+    "detail": [
+      "前OpenAI首席技术官Mira Murati创办的Thinking Machines Lab在7月15日正式发布公司成立一年多以来的首个基础模型Inkling，这是一款完全从零训练、开放权重的模型，开发者可自由下载、微调并商用，标志这家此前主要因巨额融资而出名的明星初创终于交出第一份产品答卷。",
+      "Inkling采用混合专家(MoE)架构，总参数量达9750亿、单次推理仅激活约410亿，支持最高100万token上下文，基于约45万亿token的文本、图像、音频与视频数据训练，可原生跨文本、图像、音频推理，但输出仅限文本、代码与结构化数据。官方同时预览了更轻量的Inkling-Small(激活120亿参数)，并支持在其Tinker微调平台上直接定制。",
+      "公司坦承Inkling并非当前最强模型，定位是一个均衡、易定制的开源底座，意在填补西方开源生态相对中国模型的空缺。社区普遍将其视作对DeepSeek、Qwen等中国开源模型的正面回应；此前该实验室以120亿美元估值融资20亿美元却屡有核心成员出走，此次发布被外界看作能否兑现预期的关键一战。"
+    ]
+  }
+]
