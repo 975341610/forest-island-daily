@@ -1,0 +1,126 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T08:10:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Hacker News",
+      "author": "spacemarine1",
+      "title": "Duskers, the scary command line game, is getting a sequel",
+      "url": "https://elbowgreasegames.substack.com/p/misfits-attic-announces-duskers-20",
+      "detail": [
+        "帖子由用户 spacemarine1 分享，内容来自独立工作室 Misfits Attic 的官方公告：以命令行操作为核心玩法的恐怖科幻 Roguelike《Duskers》要出续作《Duskers 2.0》了。初代 2016 年发布，玩家靠敲文字指令遥控无人机去废弃飞船里搜刮补给，凭独特的“黑客式”终端界面和极致孤独氛围收获 Steam 好评如潮，成为程序员群体心中的白月光。",
+        "续作最大看点是拿到了 Max McGuire（《深海迷航》联合创始人）新成立基金 Stray Signal 的首笔投资，Max 本人还将亲自参与代码开发。玩法在初代“探索、适应、生存”的核心循环外，新增“复兴人类文明”的道德抉择层，玩家化身在自私求生与拯救他人之间反复权衡的“流浪救援者”，官方称其情感重量堪比《冰汽时代》《文明》。",
+        "在 HN 上该帖收获约 148 分、41 条评论。老玩家集体怀旧，直呼初代终端界面“太有代入感”，甚至有人回忆当年开发团队专门采访 Linux 用户来打磨命令行体验；也有人担心加入剧情叙事会稀释纯粹的硬核生存感。命令行游戏能上 HN 首页，本身就说明这一小众品类在极客圈的号召力。"
+      ],
+      "heat": "🔥 HN 约 148 分、41 评论，命令行硬核玩家集体怀旧"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "theanonymousone",
+      "title": "Mysteries of Telegram Data Centers (2022)",
+      "url": "https://dev.moe/en/3025",
+      "detail": [
+        "这是用户 theanonymousone 在 Hacker News 分享的一篇深度技术考据文章（原文成稿于 2022 年），主题是逆向探究 Telegram 的数据中心分布与基础设施架构。作者通过公开 API 返回的 DC 编号、IP 段、CDN 行为等蛛丝马迹，拼凑出这家以“神秘、去中心”著称的即时通讯巨头究竟把服务器放在了哪些地方、如何在全球调度流量。",
+        "文章核心在于用可观测的外部信号做“黑盒推理”：从客户端连接的 DC1 到 DC5 编号，到不同地区用户被路由到的落点，再到 Telegram 官方语焉不详的表态，作者层层剥茧。老帖被重新翻出正是因为近期围绕即时通讯隐私、跨境数据主权的讨论再度升温，这类基础设施透明度调查因此重新获得关注。",
+        "帖子热度不俗，约 261 分、152 条评论。评论区既有网络工程师补充 BGP、Anycast 层面的细节，也有人讨论这种“从外部逆推架构”方法论的局限与伦理边界；还有用户结合自身跨国使用体验佐证文中的路由推断。一篇几年前的考据能重登首页，印证了社区对基础设施“祛魅”话题的持久兴趣。"
+      ],
+      "heat": "🔥 HN 约 261 分、152 评论，老帖重登首页"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "gregsadetsky",
+      "title": "LLM Networking with MikroTik",
+      "url": "https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik.html",
+      "detail": [
+        "帖子由 gregsadetsky 发布，记录了他把大语言模型和 MikroTik（一款在极客与网工圈极受欢迎的低价路由/网络设备）结合折腾的过程。核心脑洞是：让 LLM 来帮忙读懂、生成甚至调试 MikroTik 那套以晦涩难懂著称的 RouterOS 配置命令，把原本需要翻遍文档的网络运维，变成用自然语言对话就能推进的体验。",
+        "文章亮点在于把两个看似不相干的圈子——‘手搓网络设备的硬核网工’与‘AI 编程助手’——拼在一起，展示了 LLM 在小众专业领域作为‘配置翻译官’的实用价值。作者分享了具体 prompt 设计、模型对 RouterOS 语法的理解误区，以及如何用脚本把模型输出安全地落到真实设备上，兼具趣味与可复现的工程细节。",
+        "该帖在 24 小时内收获约 102 分、53 条评论。网工背景的读者一边吐槽 MikroTik 命令行的‘反人类’，一边认可 AI 辅助确实降低了上手门槛；也有人提醒把 LLM 生成的配置直接推到生产网络的风险。讨论从工具本身延伸到‘AI 该不该碰关键基础设施配置’，是一次典型的极客实用主义辩论。"
+      ],
+      "heat": "🔥 HN 约 102 分、53 评论，网工圈热议"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "vshulcz",
+      "title": "Open-source memory for coding agents, synced over SSH",
+      "url": "https://github.com/vshulcz/deja-vu/",
+      "detail": [
+        "这是开发者 vshulcz 自荐的开源项目 deja-vu，直击当下最热的“编程 Agent 记忆”痛点。它给 Claude Code、Codex 这类 AI 编程助手提供一层持久化记忆，让 Agent 记住项目上下文、过往决策与踩坑经验，并且创新地通过 SSH 在多台机器、多个开发环境之间同步这份记忆，避免每次换设备都要从零喂上下文。",
+        "项目技术选型很对极客胃口：不依赖厂商云、不锁定平台，纯粹用开发者最熟悉的 SSH 通道做同步，天然契合自托管与隐私优先的取向。它把‘Agent 记忆’从各家封闭产品里解放出来，做成可自由掌控的开源基础设施，正好踩中社区对‘编程助手到底该记住什么、记忆存在哪’的集体焦虑与讨论热点。",
+        "帖子在 HN 上获得约 128 分、34 条评论。不少人认可‘用 SSH 同步记忆’这一简洁务实的思路，讨论延伸到记忆的隐私边界、如何防止污染上下文、以及与官方记忆功能的取舍；也有人对比了同期上榜的其他 Agent 记忆方案。作为个人开发者的周边工具，能冲上首页说明这一赛道正被高度关注。"
+      ],
+      "heat": "🔥 HN 约 128 分、34 评论，Agent 记忆赛道受关注"
+    },
+    {
+      "platform": "GitHub",
+      "author": "Nutlope",
+      "title": "hallmark：拒绝一眼AI味的设计Skill",
+      "url": "https://github.com/Nutlope/hallmark",
+      "detail": "hallmark 是 Together AI 推出、由 Hassan El Mghari(Nutlope)主导的开源设计 Skill,兼容 Claude Code、Cursor 和 Codex,一行命令 npx skills add nutlope/hallmark 即可安装。它的核心卖点是让 AI 生成的界面「不再一眼假」——针对当前所有 LLM 被训练出的默认审美(Inter 字体、紫色渐变、层层嵌套卡片),它先为需求挑选宏观结构,再套用 20 种主题之一,最后跑一整套 slop-test 门禁做自我批判,不达标就重新生成。",
+      "heat": "GitHub Trending 单日 +3,372 star,累计 10.9k"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "V2EX",
+      "title": "Vibe Coding 作品井喷，专门的‘作品展示社区’集中冒头",
+      "url": "https://www.v2ex.com/t/1221771",
+      "detail": [
+        "随着 AI 辅助编程（Vibe Coding）把‘做出一个产品’的门槛降到极低，V2EX‘分享创造’节点近期被大量 AI 小工具、独立应用刷屏。与此同时，一个新现象浮出水面：多个开发者不约而同地做起了‘Vibe Coding 作品展示社区’，比如用户 MYI 上线的平台已收录 500+ 作品，专门给这些小产品找一个被发现、被讨论的地方。",
+        "发酵的核心矛盾很真实：现在‘写得出来’不再是难题，‘没人看、没人试、没人反馈’才是。于是社区里既有人疯狂晒自己 vibe 出来的博客框架、剪贴板工具、屏保、桌宠同步到灵动岛的小玩意，也有人直接发出灵魂拷问——‘你用 AI 到底做了哪些有意义的工具’，把这场创作热潮的价值与泡沫一并摊开讨论。",
+        "各方态度耐人寻味：一派认为这是独立开发者的黄金时代，作品数量爆发意味着更多试错与创意；另一派担忧同质化严重、大量项目上线即无人问津，甚至质疑‘为做而做’。展示社区的集中出现，本身就是社区在为‘作品过剩、注意力稀缺’寻找解法，成为近期开发者圈最有代表性的自组织现象。"
+      ],
+      "heat": "🔥 V2EX 分享创造节点被 Vibe Coding 作品刷屏"
+    },
+    {
+      "platform": "GitHub / 科技媒体",
+      "title": "OpenMontage 开源‘agentic 视频工厂’登顶 GitHub 趋势",
+      "url": "https://nerdzap.com/news/openmontage-agentic-video-generator-github/",
+      "detail": [
+        "一个名为 OpenMontage 的开源项目近日在 GitHub 趋势榜高歌猛进，被媒体称为‘全球首个开源的 agentic 视频制作系统’。它把 AI 编程助手（如 Claude、Codex）改造成一整个视频制作工作室：从选题研究、写脚本、生成素材，到剪辑与最终合成，全流程用自然语言描述即可驱动，据报道单日曾狂揽近 3000 星。",
+        "发酵的核心卖点是‘真视频’而非‘几张静图硬凑动画’：OpenMontage 强调它能从免费素材库和公开档案中检索真实动态片段，编入时间线并渲染成片；同时也支持 Veo、Kling 等模型生成的镜头。README 里晒出的示例——1.33 美元做出一支皮克斯风格短片、AI 生成的科幻预告片等——极具冲击力，直接点燃创作者与开发者的热情。",
+        "围绕它的讨论呈两极：支持者认为这是把 AI 编程 Agent 的能力从写代码扩展到内容生产的标志性一步，开源 + 低成本让个人创作者也能玩转‘视频工厂’；质疑者则担心版权来源、成片质量参差以及‘一句话出片’是否被过度营销。无论如何，它已成为近日开源社区绕不开的热门话题。"
+      ],
+      "heat": "🔥 GitHub 趋势榜前列，单日约 3000 星"
+    },
+    {
+      "platform": "GitHub / X",
+      "author": "OpenCut-app (社区讨论)",
+      "title": "开源 CapCut 替代品 OpenCut 全面重写引热议",
+      "url": "https://github.com/OpenCut-app/OpenCut",
+      "detail": "OpenCut 是一款 MIT 许可、完全在浏览器本地运行的开源视频剪辑器,主打隐私(素材不上传服务器)和零安装跨平台,被社区普遍视为 CapCut 的开源替代方案。近期讨论焦点在于:它的默认分支正在进行一次彻底的「从零重写」,采用插件优先架构、共享 Rust 核心,并规划了 Editor API、MCP server(供 AI agent 驱动剪辑)、无头批量渲染等能力,而旧版经典编辑器仍在 opencut.app 线上服务。在 2026-07-16 当天,OpenCut 再次成为 GitHub Trending 的当日热门仓库,X 上记录其 24 小时内新增约 4,349 star、累计约 6.8 万 star。",
+      "heat": "当日 GitHub Trending 热门,24h +4,349 star"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "GitHub",
+      "name": "calesthio",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "detail": [
+        "calesthio 是开源项目 OpenMontage 的作者，凭这款‘全球首个开源 agentic 视频制作系统’在数日内登上 GitHub 趋势榜前列、单日近 3000 星，迅速成为社区新晋焦点人物。OpenMontage 内置 12 条流水线、52 个工具、500+ agent skills，能把 AI 编程助手变成端到端的视频制作工作室。",
+        "他的作品亮点在于‘务实的野心’：不满足于‘让静图动起来’的伪视频，而是让 Agent 从免费素材与公开档案中检索真实动态片段、编排时间线并用 Remotion 渲染成片，同时兼容 Veo、Kling 等生成模型。仓库里 1.33 美元产出皮克斯风格短片、科幻预告片等示例，把‘低成本高完成度’的创作路径展示得极具说服力。",
+        "值得关注是因为他精准卡位了‘AI 编程 Agent × 内容生产’这个正在爆发的交叉赛道，项目工程化程度高、迭代频繁（近期持续合并 Azure 语音识别等 PR），社区参与踊跃。作为把 coding agent 能力外溢到视频领域的早期实践者，calesthio 后续动向很可能预示这一新兴方向的走势。"
+      ],
+      "heat": "🆕 OpenMontage 作者，agentic 视频赛道领跑者"
+    },
+    {
+      "platform": "Hacker News / GitHub",
+      "name": "frmoded (OdedF)",
+      "url": "https://github.com/frmoded/e--",
+      "detail": [
+        "frmoded（HN 账号 OdedF）是实验性编程语言 E-- 的作者，其 Show HN 帖近期在社区激起关于‘自然语言编程’的持续讨论。E-- 的核心创意是一根可调节的‘旋钮’：让你在纯英文自然语言与纯 Python 代码之间任意‘拨动’，同一段程序既能写得像大白话，也能收紧成严谨代码，介于两者之间任意取值。",
+        "作品的技术亮点在于把‘模糊的自然语言’与‘确定的可执行代码’做了工程化缝合：通过 slot 机制让语句位置既能填自然语言描述、也能填代码片段，并用缓存冻结自然语言的解析与归一化结果（如把‘前几个素数’固化为 2,3,5,7,11），既保证可复现，又保留 LLM 时代‘用意图写程序’的灵活性，已打包发布到 PyPI。",
+        "值得早期关注，是因为 E-- 站在了‘AI 时代编程语言该长什么样’这一根本性讨论的前沿。它不是又一个语法糖，而是对‘代码与意图边界’的严肃探索，恰好呼应社区对 Vibe Coding、自然语言编程的集体好奇。frmoded 这类敢于重新定义编程范式的独立创作者，正处在理念快速发酵的上升期。"
+      ],
+      "heat": "🆕 E-- 语言作者，自然语言编程范式探索者"
+    },
+    {
+      "platform": "GitHub",
+      "name": "JustVugg",
+      "url": "https://github.com/JustVugg/colibri",
+      "detail": "JustVugg 是近期在 GitHub 上迅速走红的独立开发者,凭借开源项目 colibrì(colibri)登上 Trendshift 当日趋势榜,过去 24 小时内热度持续攀升,仓库星标已突破 1.5 万。colibrì 用纯 C 语言、零依赖实现了一个极小的推理引擎,让 744B 参数的 GLM-5.2(MoE 架构)能在仅 25GB 内存的消费级机器上跑起来:把 MoE 专家权重以 int4 量化后从磁盘按需流式加载,配合 KV 缓存持久化与随可用内存自动调节的缓存策略,把原本需要服务器集群才能承载的巨型模型压进了普通台式机。它撕开了「巨型前沿模型只能云端跑」的固有认知,为本地化、隐私优先的大模型部署提供了新范式。",
+      "heat": "GitHub 15k+ stars,Trendshift 当日趋势榜"
+    }
+  ]
+}
