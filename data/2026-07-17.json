@@ -1,0 +1,268 @@
+[
+  {
+    "id": "2026-07-17_vibecoding_6",
+    "date": "2026-07-17",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "HN/官网",
+    "platform_color": "#2563EB",
+    "title": "LM Studio Bionic 本地模型 Agent",
+    "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+    "image": "images/2026-07-17/2026-07-17_vibecoding_6.jpg",
+    "detail": [
+      "LM Studio 在 7 月 16 日推出全新产品 Bionic,定位为「面向开源模型的 AI Agent」。LM Studio 一直是本地跑开源大模型的热门桌面工具,而 Bionic 在此基础上更进一步,把单纯的模型推理界面升级为可执行任务的智能体,主打完全在本地、以开放权重模型驱动的编码、研究与文档处理能力。",
+      "据官方博客介绍,Bionic 面向 Mac,能调用本地模型完成写代码、检索资料、读写与整理文档等多步骤任务,强调数据不出本机的隐私优势与对开源模型生态的开放接入。它把「本地 LLM + Agent 工作流」打包成开箱即用的应用,降低了在离线或敏感环境中使用自主智能体的门槛。",
+      "发布后 Bionic 登上 Hacker News,story 获得约 128 分、53 条评论,9to5Mac 亦做了报道。社区讨论集中在本地模型驱动 Agent 的实际可用性、相较云端闭源方案的能力差距,以及隐私与可控性带来的吸引力;不少注重数据安全的开发者表示愿意尝试用它替代部分云端 AI 编码服务。"
+    ]
+  },
+  {
+    "id": "2026-07-17_vibecoding_5",
+    "date": "2026-07-17",
+    "category": "VibeCoding",
+    "subcat": "社区讨论",
+    "platform": "Lore/HN",
+    "platform_color": "#2563EB",
+    "title": "Torvalds:Linux 不是反 AI 项目",
+    "url": "https://lore.kernel.org/all/CAHk-=wi4zC+Ze8e+p3tMv8TtG_80KzsZ1syL9anBtmEh5Z40vg@mail.gmail.com/",
+    "image": "images/2026-07-17/2026-07-17_vibecoding_5.jpg",
+    "detail": [
+      "在 Linux 内核邮件列表的一封公开回复中,Linus Torvalds 就社区如何对待 AI 生成代码明确表态,直言「Linux is not one of those anti-AI projects」,即 Linux 并不属于那类抵制 AI 的项目。此番发言出现在关于 AI 辅助补丁与贡献规范的讨论串中,迅速被广泛引用。",
+      "Torvalds 的核心观点是:内核关心的始终是补丁本身的质量、可维护性与提交者是否愿意为其负责,而不是代码由人手写还是 AI 辅助生成。他反对因工具来源而一刀切地拒绝贡献,同时也强调这不等于放松审查,AI 生成的代码同样要经过正常的评审与责任归属流程,不能拿「AI 写的」当免责借口。",
+      "相关邮件通过 lore.kernel.org 永久链接传播,并被搬上 Hacker News 及 Tom's Hardware 等媒体报道,当日出现多个提交讨论串。开发者反应两极:支持者认为这是务实且面向未来的态度,担忧者则关心 AI 补丁的版权、可追溯性与维护负担,围绕开源项目该如何制定 AI 贡献政策再度展开辩论。"
+    ]
+  },
+  {
+    "id": "2026-07-17_vibecoding_4",
+    "date": "2026-07-17",
+    "category": "VibeCoding",
+    "subcat": "社区讨论",
+    "platform": "X/Twitter",
+    "platform_color": "#2563EB",
+    "title": "Codex 误删用户 $HOME 目录",
+    "url": "https://x.com/thsottiaux/status/2077630111499882637",
+    "image": "images/2026-07-17/2026-07-17_vibecoding_4.jpg",
+    "detail": [
+      "OpenAI 的 Tibo Sottiaux 在 X 上发帖,披露了一起由 AI 编程助手 Codex(基于 GPT-5.6)引发的事故:在一次自动化操作中,Codex 执行的命令误删了用户的 $HOME 主目录,导致大量个人文件被清空。帖子随即在开发者圈发酵,成为当日关于 AI 编程安全最受关注的话题之一。",
+      "从复盘看,问题出在 Agent 在缺乏充分沙箱与二次确认的情况下拥有了对 shell 的高权限执行能力,一条包含变量展开的删除命令因路径为空而作用到了家目录根。讨论指出这类风险并非模型能力不足,而是工具链在权限边界、危险命令拦截与可回滚机制上的工程缺失,explainx.ai 等媒体也做了跟进报道。",
+      "事件在社交平台引发大量转发与讨论,开发者普遍呼吁 AI 编码工具默认启用沙箱、对 rm 等破坏性命令强制确认,并把工作区隔离在项目目录内。也有人借此重申「永远备份、最小权限」的老原则,提醒在 Vibe Coding 高度自动化的当下,把关键操作交给 Agent 前必须设好安全护栏。"
+    ]
+  },
+  {
+    "id": "2026-07-17_vibecoding_3",
+    "date": "2026-07-17",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "个人博客",
+    "platform_color": "#2563EB",
+    "title": "mermaid-ascii 编译为 WebAssembly",
+    "url": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/",
+    "image": "images/2026-07-17/2026-07-17_vibecoding_3.jpg",
+    "detail": [
+      "开发者 Simon Willison 在 7 月 16 日的博客中介绍了 mermaid-ascii 的一次有趣升级。mermaid-ascii 是一个把 Mermaid 图表语法渲染成纯 ASCII 字符图的 Go 库,适合在终端、纯文本文档和代码注释中直接呈现流程图,免去图片依赖,长期受 CLI 与文档党喜爱。",
+      "本次亮点是借助 Claude Fable 5 把这个 Go 库编译为 WebAssembly,使其可以直接在浏览器端运行,无需后端服务即可实时把 Mermaid 语法转成 ASCII 图,并新增了颜色输出支持。Willison 展示了在网页里粘贴图表代码即时预览的过程,并强调这是 AI 辅助将既有语言库快速移植到 WASM、降低跨平台分发成本的典型「Vibe Coding」案例。",
+      "作为高影响力的 AI 与开发工具观察者,Willison 的推荐带来了明显关注,原始 Go 仓库 AlexanderGrooff/mermaid-ascii 累计约 1.4k stars。社区反馈聚焦于 WASM 让命令行工具「一键上网页」的便利,以及用大模型完成语言到 WASM 移植的可复制性,不少人表示想把自家 CLI 工具照此搬进浏览器。"
+    ]
+  },
+  {
+    "id": "2026-07-17_vibecoding_2",
+    "date": "2026-07-17",
+    "category": "VibeCoding",
+    "subcat": "编程语言",
+    "platform": "个人博客/HN",
+    "platform_color": "#2563EB",
+    "title": "Roc 编译器 Rust 重写为 Zig 复盘",
+    "url": "https://rtfeldman.com/rust-to-zig",
+    "image": "images/2026-07-17/2026-07-17_vibecoding_2.jpg",
+    "detail": [
+      "Roc 语言创始人 Richard Feldman 撰长文复盘,分享把 Roc 编译器从 Rust 整体重写为 Zig 的完整历程。Roc 是一门主打纯函数式与高性能的新语言,编译器是其核心资产;团队此前用 Rust 编写多年,却最终决定推倒重来,这一「反潮流」选择在系统编程圈引发强烈好奇与争论。",
+      "文章披露重写涉及约 30 万行代码,历时约 487 天才达到与原 Rust 版本的功能对等。Feldman 详述了动机:借助 Zig 的 comptime 与更贴近底层的内存控制简化编译器实现,减少 Rust 借用检查在复杂编译器数据结构上的摩擦。他还专门对比了 Bun 团队反向仅用 11 天把部分 Zig 代码移植回 Rust 的案例,坦诚重写代价高昂但认为长期收益值得。",
+      "该帖在 Hacker News 获得约 387 分、212 条评论。讨论集中在「重写是否值得」这一经典命题上:一派认为 487 天成本过高、功能对等并非净收益,另一派则支持为编译器这类长期项目选择更契合的底层语言。Zig 与 Rust 拥趸也就 comptime、内存安全与工程可维护性展开对比。"
+    ]
+  },
+  {
+    "id": "2026-07-17_vibecoding_1",
+    "date": "2026-07-17",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "HN/官网",
+    "platform_color": "#2563EB",
+    "title": "Kimi K3 登顶前端代码竞技场",
+    "url": "https://www.kimi.com/blog/kimi-k3",
+    "image": "images/2026-07-17/2026-07-17_vibecoding_1.jpg",
+    "detail": [
+      "月之暗面于 7 月 16 日发布开源前沿大模型 Kimi K3,定位「Open Frontier Intelligence」。这是 K 系列继 K2 之后的重大迭代,继续走开源路线,权重与技术报告一并公开,面向编程、Agent 与长文本场景,主打可自部署与低成本推理,试图在闭源巨头林立的格局中为开发者保留一条完全开放的高性能选项。",
+      "官方披露 K3 采用 MoE 架构,总参数规模约 2.8T,原生支持 100 万 token 上下文,在代码生成与工具调用上做了专门强化。最受关注的是它在 Front-end Code Arena 前端代码竞技场以 1679 分登顶,首次超过 Claude Fable 5;在 artificialanalysis 综合榜排名第三,仅落后 GPT-5.6 Sol 两分,推理与前端还原能力被普遍认为已进入第一梯队。",
+      "该消息在 Hacker News 迅速冲上首页,story 48935342 累计约 1067 分、667 条评论,是当日热度最高的技术条目。评论区围绕开源权重能否真正复现榜单成绩、2.8T 模型的本地部署门槛,以及国产模型在前端代码上反超闭源标杆的意义展开激烈讨论,不少开发者表示已计划接入现有 IDE 与 Agent 工作流实测。"
+    ]
+  },
+  {
+    "id": "2026-07-17_gaming_6",
+    "date": "2026-07-17",
+    "category": "Gaming",
+    "subcat": "掌机/Switch 2",
+    "platform": "Nintendo Life",
+    "platform_color": "#059669",
+    "title": "《星海游侠2R》突袭上架Switch 2",
+    "url": "https://www.nintendolife.com/news/2026/07/surprise-square-enix-has-released-a-switch-2-version-of-star-ocean-the-second-story-r",
+    "image": "images/2026-07-17/2026-07-17_gaming_6.jpg",
+    "detail": [
+      "科幻动作RPG系列《星海游侠》(Star Ocean)正迎来30周年,Square Enix借此契机于7月16日毫无预告地在Switch 2上架了备受好评的重制作《星海游侠:第二个故事R》(Star Ocean: The Second Story R)。该作以“2.5D”风格重制1998年的经典二代,把精美3D场景与怀旧2D像素角色融为一体,此前已登陆Switch、PS5、PS4与Steam,如今补上Switch 2版本。",
+      "eShop定价49.99美元(或对应区域价)。与本周早些时候上架的《八方旅人1&2》一样,本次Switch 2版没有从旧Switch版升级的路径,存档也无法互通,商店页明确提示“本作仅兼容Switch 2、无法在Switch上运行”,并提醒玩家购买时看清版本。Square Enix目前尚未详细说明Switch 2版具体有哪些画面或性能强化。游戏可选择以Claude或Rena开局,不同视角会改变剧情与可加入的同伴,配以实时战斗、深度技能系统与多结局。",
+      "配合上架,官方同步开启夏季促销:《第二个故事R》五折,《神圣力量》《最后的希望》等系列作品也有六折到七折不等的折扣;此外7月28日两部作品还将首次登陆GOG平台并限时打折。对于系列老饕来说,这波折扣与新平台确实颇具吸引力。",
+      "不过“无升级路径+存档不互通”成为社区争议焦点。已在旧Switch版投入大量时间的玩家抱怨要原价重买、进度清零,直呼诚意不足;也有玩家认可这款2023年被Nintendo Life评为九分的“年度最佳RPG之一”本身素质过硬,愿意在Switch 2上从头再战一遍,认为借30周年补齐新主机版本仍是件好事。"
+    ]
+  },
+  {
+    "id": "2026-07-17_gaming_5",
+    "date": "2026-07-17",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Eurogamer",
+    "platform_color": "#059669",
+    "title": "《使命召唤:现代战争4》揭晓Kill Block模式",
+    "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-kill-block-first-look",
+    "image": "images/2026-07-17/2026-07-17_gaming_5.jpg",
+    "detail": [
+      "7月16日,Infinity Ward放出了《使命召唤:现代战争4》全新多人模式“Kill Block”的首个预告。这是《使命召唤》系列一种前所未有的多人体验——一座由数百种地图变体拼装而成、不断变化的竞技场,官方形容其类似“程序化生成的小地图”。这也是本作多人玩法首次以实机形式亮相,吸引了大量系列老玩家的目光。",
+      "Kill Block的每张地图由三段“Slab”(板块)拼接构成,分别对应外侧与中央区域,灵感或取自经典现代战争地图、或为全新设计,并会在每场对局之间重新组合,官方称发售时可提供超过500种配置。由于采用Gunfight性质,所有玩家会以相同的随机武器与投掷物配装出生;地图支持3v3 Gunfight以及全新的10v10 Gunfight,更多传统模式将在发售后陆续加入。本作定于10月23日登陆PC、PS5、Xbox Series与Switch 2。",
+      "颇为反常的是,这次首秀并未配套任何公开测试:该模式只在7月16日至19日于纽约Javits中心举办的Fanatics Fest NYC线下向到场观众开放,官方甚至没有安排统一直播,让线上玩家无从围观。据悉本届也未确认举办“Call of Duty: Next”发布会,下次看到多人实机很可能要等到今夏晚些的Beta测试。",
+      "社区对此褒贬不一。有人对“每局重组、500+配置”的动态地图理念颇感新鲜,认为为长期同质化的多人模式注入了变数;但也有大量玩家吐槽,先展示一个偏门侧模式而非团队死斗等核心玩法、又缺乏可玩测试与直播,营销节奏“很奇怪”,担心正式多人内容的成色仍是未知数。"
+    ]
+  },
+  {
+    "id": "2026-07-17_gaming_4",
+    "date": "2026-07-17",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Tech Times",
+    "platform_color": "#059669",
+    "title": "《Moss:遗失圣物》登陆全平台脱离VR独占",
+    "url": "https://www.techtimes.com/articles/320694/20260716/moss-forgotten-relic-launches-consoles-today-after-8-years-vr-smart-camera-makes-it-work.htm",
+    "image": "images/2026-07-17/2026-07-17_gaming_4.jpg",
+    "detail": [
+      "由Polyarc打造的《Moss》系列讲述小老鼠Quill的冒险故事,曾是备受赞誉的VR名作,但因需要头显而将大量玩家拒之门外。7月16日,《Moss: The Forgotten Relic》(遗失圣物)正式在Switch 2、Switch、PS5、Xbox Series/One以及Steam同步发售,结束了系列长达八年的VR独占,把Quill第一次带给最广泛的平面屏玩家群体,无需任何头显即可畅玩。",
+      "本作是把《Moss》与《Moss: Book II》两部VR作品从零重构成的平面平台冒险,核心在于用“智能镜头”解决从VR到平面视角的转换。发售前共17家媒体给出评价,在OpenCritic上均分为80分,获得“Strong”评级,94%的评论者推荐,跻身整体评分前17%,口碑相当稳健。玩家将以“读者”身份翻开故事书,通过操控机关、平台与敌人,帮助Quill踏上拯救家园的英雄之旅。",
+      "这次发售同时也是一则工作室的生存故事。2026年3月底,Polyarc在一个大型未公布项目被取消、融资失败后裁掉了约30名员工,占团队三分之二;《遗失圣物》正是与Blackbird Interactive合作、由剩余团队完成的作品,既是商业上的必要转型,也是系列的一次真正扩张。",
+      "本作发售正值VR行业寒冬:nDreams关闭两家工作室、Rec Room宣布停运、Cloudhead裁员70%、Meta旗下多家VR工作室被裁撤或缩编。社区一方面为终于能在掌机与主机上体验这只可爱小老鼠而欢呼,称赞其画面与配乐;另一方面也感慨其“转平面”背后是VR创作者们在艰难环境中求生的缩影。"
+    ]
+  },
+  {
+    "id": "2026-07-17_gaming_3",
+    "date": "2026-07-17",
+    "category": "Gaming",
+    "subcat": "PC/Steam",
+    "platform": "Insider Gaming",
+    "platform_color": "#059669",
+    "title": "《刺客信条:黑旗重生》确认将加二周目",
+    "url": "https://insider-gaming.com/new-game-plus-coming-to-assassins-creed-black-flag-resynced/",
+    "image": "images/2026-07-17/2026-07-17_gaming_3.jpg",
+    "detail": [
+      "育碧7月9日推出的《刺客信条:黑旗重生》(Black Flag Resynced)是2013年经典海盗题材作品的重制版,带来了画面重做、玩法增强与新增内容,玩家可再次扮演爱德华·肯威在加勒比海的黄金海盗时代扬帆。该作发售首日即售出逾200万份,并被指为该系列在Steam上表现最佳的发售,成绩相当亮眼。",
+      "7月16日,游戏总监Richard Knight在YouTuber JorRaptor长达近一小时的访谈中确认,新增“二周目”(New Game Plus)模式正在开发中。Knight表示这是主线完工后团队最先着手的功能之一:“是的,我们现在正全力开发这个,这是非常自然的事。”他坦言目前尚无法透露太多细节,也未给出具体上线时间表。",
+      "团队将参考《刺客信条:影》已实装的二周目方案,视其为“低风险功能”,并会在借鉴的同时结合黑旗自身特点做差异化设计。此前《影》正是在发售后不久公布二周目并纳入长线路线图,黑旗重生的开发节奏与之类似,只是暂未公布完整更新计划。",
+      "玩家社区对二周目普遍欢迎,认为高质量重制配合可继承养成的再周目能显著提升重玩价值。但也有不少人把喜悦与遗憾交织:该作由育碧巴塞罗那工作室参与开发,而育碧近期宣布关闭并裁员该工作室,巴塞罗那员工已发起为期三天的罢工抗议,让这份佳绩蒙上一层阴影。"
+    ]
+  },
+  {
+    "id": "2026-07-17_gaming_2",
+    "date": "2026-07-17",
+    "category": "Gaming",
+    "subcat": "行业",
+    "platform": "Insider Gaming",
+    "platform_color": "#059669",
+    "title": "《上古卷轴OL》工作室高层随裁员离职",
+    "url": "https://insider-gaming.com/zenimax-online-studios-leadership-exits-amid-xbox-layoffs/",
+    "image": "images/2026-07-17/2026-07-17_gaming_2.jpg",
+    "detail": [
+      "微软7月6日宣布了公司史上“最重大重组”,计划本财年裁撤超3200个岗位。7月16日,据Game File的Stephen Totilo报道并经多家媒体证实,这轮动荡蔓延到了《上古卷轴Online》(ESO)开发商ZeniMax Online Studios,其核心领导层集体受到波及,成为本次Xbox裁员中最受关注的连锁反应之一。",
+      "在这家工作室工作14年、去年7月才接任负责人的Joe Burba将离开;同时离职的还有ESO执行制作人Susan Kath、工作室游戏总监Rich Lambert与制作总监Ala Diaz。提交给马里兰州的WARN法案通知显示,微软及ZeniMax在当地办公室共裁员约379人,其中ESO团队被裁逾200人。四位高层将在未来数月留任以完成过渡,之后工作室将由业务运营主管Josh Henderson与去年晋升为ESO游戏总监的Nick Giacomini接手。",
+      "值得注意的是,ZeniMax Online在2025年已经历过一轮裁员,叠加此次冲击,团队规模较2024年缩减了约四成,如今体量大致回到当年推出Summerset资料片时的水平。社区管理员Kevin Gbolie安抚玩家称,游戏年内路线图内容依旧充实,“计划仍是持续交付优质内容,很快会有新消息”。",
+      "尽管官方强调对游戏未来“充满信心”,玩家社区仍普遍忧心《上古卷轴OL》的长线运营,不少人回忆EverQuest、EVE Online等MMO在高层动荡后依旧存活的先例聊以自慰。也有声音把矛头指向微软整体战略,认为频繁重组正在持续损耗第一方工作室的士气与稳定性。"
+    ]
+  },
+  {
+    "id": "2026-07-17_gaming_1",
+    "date": "2026-07-17",
+    "category": "Gaming",
+    "subcat": "新作发布",
+    "platform": "Gematsu",
+    "platform_color": "#059669",
+    "title": "《Prinny企鹅派对:大翻船!》正式公布",
+    "url": "https://www.gematsu.com/2026/07/prinny-party-going-overboard-launches-november-12-in-japan-and-asia-coming-west",
+    "image": "images/2026-07-17/2026-07-17_gaming_1.jpg",
+    "detail": [
+      "日本一软件旗下的吉祥物“Prinny企鹅”终于迎来了自己的派对游戏。7月16日,日本一正式公布了四人派对游戏《Prinny Party: Going Overboard!》(企鹅派对:大翻船!),登陆PS5、Switch 2、Switch与PC(Steam)四大平台。这只常年把“dood”挂在嘴边、为一条沙丁鱼就拼命工作的企鹅,是《魔界战记》系列的招牌角色,此次首度挑起大梁,让长期粉丝倍感亲切。",
+      "游戏将于11月12日在日本及亚洲地区先行发售,定价6980日元(含税7678日元),PS5与Switch 2版提供实体与数字版,Switch与PC版仅限数字版;NIS America同步宣布欧美版,但发售日暂定“待定”。玩法融合指令式RPG与“双六”棋盘元素:玩家在棋盘上移动、刷经验、换装备、接任务,Boss刷新后需合力围剿,但只有把Boss带回出生点的人才能记功,注定引发背叛与内斗。本作还支持Switch 2的GameShare与Steam的Remote Play Together,一份游戏即可多人同乐,且PS5、Switch 2、Switch平台现已开放试玩Demo。",
+      "背叛机制是玩家讨论的最大焦点。“合作—歼灭—然后背叛!”的设计让不少人联想到《马力欧派对》的翻脸传统,社区戏称这是“友尽神器”,尤其适合聚会开黑。也有粉丝欣喜Prinny终于有了专属正统作,认为把“扔队友”做成核心玩法非常契合企鹅一贯的搞笑贱萌调性。",
+      "不过西方版无具体日期,让部分海外玩家略感失落,担心又要经历漫长等待与潜在的本地化差价。总体来看,作为《魔界战记》宇宙的衍生派对新作,《大翻船!》凭借低门槛玩法、跨平台联机与试玩Demo,已在核心JRPG圈层积攒起相当的期待值。"
+    ]
+  },
+  {
+    "id": "2026-07-17_ai_4",
+    "date": "2026-07-17",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "量子位",
+    "platform_color": "#7C3AED",
+    "title": "原力灵机开源世界模型DW0.5",
+    "url": "https://www.qbitai.com/2026/07/450896.html",
+    "image": "images/2026-07-17/2026-07-17_ai_4.jpg",
+    "detail": [
+      "具身智能创业公司原力灵机发布并开源世界模型DW0.5,配套推出面向VLA(视觉-语言-动作)的DFOL2.0强化学习框架。该成果聚焦机器人在物理世界中的预测与决策,试图用世界模型为具身大模型提供更强的环境理解与规划能力。",
+      "DW0.5作为世界模型,可对机器人所处环境的动态演化进行建模与预测,让智能体在执行动作前先在\"脑内\"推演结果;而DFOL2.0框架则将强化学习与VLA模型结合,提升动作策略在复杂长周期任务中的稳定性与泛化性,二者协同构成完整的具身智能技术栈。",
+      "值得关注的是其开源策略。原力灵机选择将DW0.5对外开放,降低了研究者与开发者复现、二次开发的门槛,有望吸引社区共建,加速世界模型这一前沿方向的迭代。这也延续了国内具身智能团队以开源换生态的普遍打法。",
+      "在具身智能成为2026年AI主线之一的背景下,世界模型被视为通向通用机器人的关键拼图。原力灵机以DW0.5切入该赛道,与同期银河通用等团队的探索相互呼应,共同推动国产具身大模型在数据、算法与工程层面持续突破。"
+    ]
+  },
+  {
+    "id": "2026-07-17_ai_3",
+    "date": "2026-07-17",
+    "category": "AI",
+    "subcat": "行业",
+    "platform": "彭博社",
+    "platform_color": "#7C3AED",
+    "title": "日本采购英伟达Rubin芯片建主权机器人AI",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-16/japan-to-buy-nvidia-rubin-chips-to-build-sovereign-ai-for-robots",
+    "image": "images/2026-07-17/2026-07-17_ai_3.jpg",
+    "detail": [
+      "主权AI浪潮再添重磅一笔。据彭博社报道,英伟达CEO黄仁勋访日期间,日本宣布将采购约2.75万枚英伟达最新Rubin芯片,用于构建面向机器人的主权AI基础设施,携手本土机器人企业推进物理AI(Physical AI)研发,力图在具身智能时代占据一席之地。",
+      "此举被视为日本举国押注物理AI的信号。面对人口老龄化与劳动力短缺,日本长期看重机器人产业,而大规模算力与英伟达的Rubin平台正是训练与部署机器人大模型的底座。通过自主掌控算力,日本希望减少对外依赖,打造本国可控的AI能力。",
+      "黄仁勋此行进一步巩固了英伟达在全球主权AI版图中的核心地位。继多国相继下单建设本土算力后,日本的加入延续了英伟达向各国政府与产业输出算力平台的战略,也让Rubin这一新一代芯片获得早期规模化订单背书。",
+      "分析指出,当AI竞争从软件模型延伸至物理世界的机器人与硬件,算力主权成为国家战略焦点。日本此番布局,既是对本土制造业升级的支撑,也折射出各国在具身智能与主权AI赛道上加速卡位的全球态势。"
+    ]
+  },
+  {
+    "id": "2026-07-17_ai_2",
+    "date": "2026-07-17",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "量子位",
+    "platform_color": "#7C3AED",
+    "title": "银河通用发布具身测试时后训练WAM-TTT",
+    "url": "https://www.qbitai.com/2026/07/451403.html",
+    "image": "images/2026-07-17/2026-07-17_ai_2.jpg",
+    "detail": [
+      "具身智能领域迎来新范式。银河通用团队发布全球首个面向具身智能大模型的测试时后训练框架WAM-TTT(World-Action Model Test-Time Training),首次将大语言模型中成熟的测试时训练思想迁移到物理世界的机器人控制,让机器人在部署阶段也能持续学习进化。",
+      "该框架以冻结的预训练WAM为基座,由视频专家与动作专家组成,部署时仅需无标注的人类RGB视频,通过快速权重记忆机制实现自监督适应,无需人工标注动作,也无需重新预训练。这大幅降低了对昂贵机器人轨迹数据的依赖,让新环境、新任务的适配门槛显著下降。",
+      "实验数据颇具说服力:仅用100条机器人轨迹加100条人类视频,成功率即达74.1%,逼近使用全量轨迹的效果;跨环境泛化时保持75.6%的性能留存,有效缓解了灾难性遗忘问题。相关论文已在arXiv公开,四大突破点获得学界关注。",
+      "业界认为,WAM-TTT为具身智能的规模化落地提供了新思路。长期以来,机器人数据采集成本高、泛化难是行业痛点,而借助海量易得的人类视频完成部署时自适应,有望打破数据瓶颈,推动通用机器人从实验室走向真实多变的物理场景。"
+    ]
+  },
+  {
+    "id": "2026-07-17_ai_1",
+    "date": "2026-07-17",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "9to5Google",
+    "platform_color": "#7C3AED",
+    "title": "谷歌Gemini 3.5 Pro再度跳票",
+    "url": "https://9to5google.com/2026/07/16/gemini-3-5-pro-delays/",
+    "image": "images/2026-07-17/2026-07-17_ai_1.jpg",
+    "detail": [
+      "谷歌旗舰大模型Gemini 3.5 Pro再遇波折。该模型自今年5月I/O大会由CEO皮查伊预告以来,原定6月上线却一再推迟,如今7月17日的目标发布日再次面临跳票风险。据彭博社与多家外媒披露,谷歌因模型能力未达内部标准,尤其在关键的代码生成环节落后,选择继续打磨而非仓促交付。",
+      "报道称,谷歌工程与研究团队对进度积压普遍感到焦虑。原版3.5 Pro在企业级Vertex AI测试中暴露出多层SVG场景生成结构不一致、递归工具调用链崩溃等结构性缺陷,谷歌一度决定推倒重来、重新预训练基座模型。业界流传其规格包括200万token超长上下文与Deep Think深度推理模式,但截至7月16日官方仍未放出模型卡与API端点。",
+      "此番延期正值大模型竞争白热化。同一周OpenAI的GPT-5.6 Sol、xAI的Grok 4.5均已公开发布,DeepSeek V4系列也瞄准7月中下旬。Gemini 3.5 Pro的持续滞后,让谷歌在编程与Agent这一企业落地核心战场承压,消息一出Alphabet股价应声下挫,凸显市场对其AI竞争力的担忧。",
+      "分析普遍认为,这标志大模型赛道正从参数竞赛转向落地实效比拼。代码生成、长周期任务与自主智能体能力成为衡量商用价值的硬指标,也是Anthropic、OpenAI拉开身位的关键。谷歌坐拥搜索、Workspace、Android与云的分发优势,但若旗舰迟迟难产,其先发红利恐被对手蚕食。"
+    ]
+  }
+]
