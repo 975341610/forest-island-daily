@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-16": {
-      "iptv-org/iptv": 1,
-      "Panniantong/Agent-Reach": 2,
-      "NVIDIA/SkillSpector": 3,
-      "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots": 4,
-      "shiyu-coder/Kronos": 5,
-      "jwasham/coding-interview-university": 6,
-      "Free-TV/IPTV": 7,
-      "itsfatduck/optimizerDuck": 8,
-      "hmjz100/LinkSwift": 9,
-      "andrewyng/aisuite": 10,
-      "Anil-matcha/Open-Generative-AI": 11,
-      "meshery/meshery": 12,
-      "tinyhumansai/openhuman": 13,
-      "mikeroyal/Self-Hosting-Guide": 14,
-      "puppeteer/puppeteer": 15,
-      "TencentCloud/TencentDB-Agent-Memory": 16,
-      "shuvonsec/claude-bug-bounty": 17,
-      "Flowseal/tg-ws-proxy": 18,
-      "kenn-io/agentsview": 19,
-      "Universal-Debloater-Alliance/universal-android-debloater-next-generation": 20,
-      "mvanhorn/cli-printing-press": 21,
-      "maboloshi/github-chinese": 22,
-      "krahets/hello-algo": 23,
-      "gildas-lormeau/SingleFile": 24,
-      "zhom/donutbrowser": 25
-    },
     "2026-06-17": {
       "Panniantong/Agent-Reach": 1,
       "iptv-org/iptv": 2,
@@ -836,6 +809,33 @@
       "moeru-ai/airi": 23,
       "HKUDS/nanobot": 24,
       "SagerNet/sing-box": 25
+    },
+    "2026-07-17": {
+      "Nutlope/hallmark": 1,
+      "Graphify-Labs/graphify": 2,
+      "Shubhamsaboo/awesome-llm-apps": 3,
+      "HKUDS/Vibe-Trading": 4,
+      "hasaneyldrm/exercises-dataset": 5,
+      "openinterpreter/openinterpreter": 6,
+      "HKUDS/DeepTutor": 7,
+      "NousResearch/hermes-agent": 8,
+      "codecrafters-io/build-your-own-x": 9,
+      "moeru-ai/airi": 10,
+      "openai/codex": 11,
+      "microsoft/markitdown": 12,
+      "PrismML-Eng/Bonsai-demo": 13,
+      "multica-ai/multica": 14,
+      "YimMenu/YimMenuV2": 15,
+      "Anil-matcha/Open-Generative-AI": 16,
+      "ossu/computer-science": 17,
+      "screenpipe/screenpipe": 18,
+      "thinking-machines-lab/tinker-cookbook": 19,
+      "chenyme/grok2api": 20,
+      "HKUDS/nanobot": 21,
+      "memvid/memvid": 22,
+      "vercel-labs/agent-browser": 23,
+      "PostHog/posthog": 24,
+      "pocketbase/pocketbase": 25
     }
   }
 }

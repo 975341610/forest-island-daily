@@ -3,8 +3,8 @@
   "repos": {
     "HKUDS/Vibe-Trading": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 4092,
+      "appearances": 5,
+      "total_today_stars": 4873,
       "language": "Python",
       "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -39,8 +39,8 @@
     },
     "Shubhamsaboo/awesome-llm-apps": {
       "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 3746,
+      "appearances": 5,
+      "total_today_stars": 4669,
       "language": "Python",
       "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/31396011?v=4",
@@ -102,8 +102,8 @@
     },
     "openai/codex": {
       "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 994,
+      "appearances": 4,
+      "total_today_stars": 1375,
       "language": "Rust",
       "description": "Lightweight coding agent that runs in your terminal",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -137,9 +137,9 @@
       "html_url": "https://github.com/oven-sh/bun"
     },
     "Nutlope/hallmark": {
-      "best_rank": 2,
-      "appearances": 4,
-      "total_today_stars": 3241,
+      "best_rank": 1,
+      "appearances": 5,
+      "total_today_stars": 6613,
       "language": "CSS",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/63742054?v=4",
@@ -228,8 +228,8 @@
     },
     "Graphify-Labs/graphify": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 4569,
+      "appearances": 4,
+      "total_today_stars": 5676,
       "language": "Python",
       "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
@@ -246,8 +246,8 @@
     },
     "hasaneyldrm/exercises-dataset": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 2251,
+      "appearances": 4,
+      "total_today_stars": 2961,
       "language": "HTML",
       "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/28005450?v=4",
@@ -344,9 +344,9 @@
       "html_url": "https://github.com/FoundationAgents/OpenManus"
     },
     "Anil-matcha/Open-Generative-AI": {
-      "best_rank": 21,
-      "appearances": 3,
-      "total_today_stars": 421,
+      "best_rank": 16,
+      "appearances": 4,
+      "total_today_stars": 532,
       "language": "JavaScript",
       "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
@@ -362,9 +362,9 @@
       "html_url": "https://github.com/IceWhaleTech/CasaOS"
     },
     "openinterpreter/openinterpreter": {
-      "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 906,
+      "best_rank": 6,
+      "appearances": 3,
+      "total_today_stars": 1567,
       "language": "Rust",
       "description": "A coding agent for low-cost models",
       "owner_avatar": "https://avatars.githubusercontent.com/u/163192481?v=4",
@@ -381,8 +381,8 @@
     },
     "moeru-ai/airi": {
       "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 647,
+      "appearances": 3,
+      "total_today_stars": 1049,
       "language": "TypeScript",
       "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/165476306?v=4",
@@ -390,8 +390,8 @@
     },
     "microsoft/markitdown": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 941,
+      "appearances": 3,
+      "total_today_stars": 1304,
       "language": "Python",
       "description": "Python tool for converting files and office documents to Markdown.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -425,9 +425,9 @@
       "html_url": "https://github.com/Wei-Shaw/sub2api"
     },
     "multica-ai/multica": {
-      "best_rank": 17,
-      "appearances": 2,
-      "total_today_stars": 457,
+      "best_rank": 14,
+      "appearances": 3,
+      "total_today_stars": 621,
       "language": "Go",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
@@ -444,8 +444,8 @@
     },
     "chenyme/grok2api": {
       "best_rank": 15,
-      "appearances": 2,
-      "total_today_stars": 428,
+      "appearances": 3,
+      "total_today_stars": 525,
       "language": "Go",
       "description": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118253778?v=4",
@@ -516,26 +516,26 @@
     },
     "screenpipe/screenpipe": {
       "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 222,
+      "appearances": 2,
+      "total_today_stars": 325,
       "language": "Rust",
       "description": "YC (S26) | AI that knows what you've seen, said, or heard. Records everything you do, say, hear 24/7, local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
       "owner_avatar": "https://avatars.githubusercontent.com/u/259178917?v=4",
       "html_url": "https://github.com/screenpipe/screenpipe"
     },
     "HKUDS/DeepTutor": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 172,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 828,
       "language": "Python",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
       "html_url": "https://github.com/HKUDS/DeepTutor"
     },
     "HKUDS/nanobot": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 108,
+      "best_rank": 21,
+      "appearances": 2,
+      "total_today_stars": 193,
       "language": "Python",
       "description": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -549,6 +549,96 @@
       "description": "The universal proxy platform",
       "owner_avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
       "html_url": "https://github.com/SagerNet/sing-box"
+    },
+    "NousResearch/hermes-agent": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 588,
+      "language": "Python",
+      "description": "The agent that grows with you",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
+      "html_url": "https://github.com/NousResearch/hermes-agent"
+    },
+    "codecrafters-io/build-your-own-x": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 435,
+      "language": "Markdown",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/58904235?v=4",
+      "html_url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    "PrismML-Eng/Bonsai-demo": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 196,
+      "language": "Shell",
+      "description": "Bonsai Demo",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/259176612?v=4",
+      "html_url": "https://github.com/PrismML-Eng/Bonsai-demo"
+    },
+    "YimMenu/YimMenuV2": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 128,
+      "language": "C++",
+      "description": "Experimental menu for GTA 5: Enhanced",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/106739674?v=4",
+      "html_url": "https://github.com/YimMenu/YimMenuV2"
+    },
+    "ossu/computer-science": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 107,
+      "language": "HTML",
+      "description": "🎓 Path to a free self-taught education in Computer Science!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957346?v=4",
+      "html_url": "https://github.com/ossu/computer-science"
+    },
+    "thinking-machines-lab/tinker-cookbook": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 100,
+      "language": "Python",
+      "description": "Post-training with Tinker",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/220441404?v=4",
+      "html_url": "https://github.com/thinking-machines-lab/tinker-cookbook"
+    },
+    "memvid/memvid": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 81,
+      "language": "Rust",
+      "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/241489775?v=4",
+      "html_url": "https://github.com/memvid/memvid"
+    },
+    "vercel-labs/agent-browser": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 81,
+      "language": "Rust",
+      "description": "Browser automation CLI for AI agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "html_url": "https://github.com/vercel-labs/agent-browser"
+    },
+    "PostHog/posthog": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 77,
+      "language": "Python",
+      "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/60330232?v=4",
+      "html_url": "https://github.com/PostHog/posthog"
+    },
+    "pocketbase/pocketbase": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 65,
+      "language": "Go",
+      "description": "Open Source realtime backend in 1 file",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/101000011?v=4",
+      "html_url": "https://github.com/pocketbase/pocketbase"
     }
   }
 }
