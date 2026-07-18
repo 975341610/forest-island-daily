@@ -1,5 +1,213 @@
 [
   {
+    "id": "2026-07-18_vibecoding_5",
+    "date": "2026-07-18",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "Scribble Party:纯浏览器本地优先白板教学工作室",
+    "url": "https://scribbling.party/",
+    "image": "images/2026-07-18/2026-07-18_vibecoding_5.jpg",
+    "detail": [
+      "本地优先的白板教学工具Scribble Party于2026年7月17日登上Product Hunt,定位为面向教师和创作者的白板教学工作室。它的核心理念是把绘制、录制和导出课程的全过程都放在浏览器内完成,任何内容都不会被上传到服务器,主打隐私与离线可用。",
+      "在技术形态上,Scribble Party采用local-first架构,用户可以在画布上边画边讲、录制讲解过程,并直接把成品课程导出,整个链路无需注册账号或云端依赖。这种把重交互应用完全塞进浏览器本地运行的做法,是当下前端与Web能力演进催生的典型产物,也降低了教学内容创作的门槛。",
+      "在Product Hunt当日榜单中,Scribble Party被归入Productivity、Education与GitHub分类,显示其开源属性。对开发者而言,它既是一个可直接使用的教学工具,也提供了一个local-first白板应用的参考实现,契合社区对隐私友好、无服务器依赖工具日益增长的偏好。"
+    ]
+  },
+  {
+    "id": "2026-07-18_vibecoding_4",
+    "date": "2026-07-18",
+    "category": "VibeCoding",
+    "subcat": "VibeCoding文化",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "Tamamon:随Claude Code编码成长的桌面宠物",
+    "url": "https://www.producthunt.com/products/tamamon-a-tiny-desktop-pet-that-grows",
+    "image": "images/2026-07-18/2026-07-18_vibecoding_4.jpg",
+    "detail": [
+      "一款名为Tamamon的macOS桌面宠物应用于2026年7月17日在Product Hunt发布,由独立开发者solo打造。作者自述整天泡在Claude Code里,想要屏幕上有个随工作一起成长的小伙伴而非又一个仪表盘,于是做出了这个从蛋开始、随编码逐渐孵化进化的电子宠物,主打陪伴而非生产力。",
+      "产品设计颇具巧思:它读取本地Claude Code的编码活动(基于token量)来喂养宠物,HUD显示当日与本周活动量及实时CPU、内存占用;共有20种物种可通过每周扭蛋收集,各有进化形态与癖性;宠物会对真实时间与天气做出反应,下雨或入夜时会回家休息。全程无账号、无登录、无追踪,数据不离开本机。",
+      "作为一款典型的为写代码的人做的玩物,Tamamon在开发者社区收获160余条评论的热烈互动,首发即获约484关注。它折射出Claude Code重度用户群体独特的亚文化——把日常编码活动游戏化、拟人化,让枯燥的构建过程多一份治愈感。"
+    ]
+  },
+  {
+    "id": "2026-07-18_vibecoding_3",
+    "date": "2026-07-18",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "Unabyss登顶PH:跨AI工具的MCP上下文层",
+    "url": "https://www.producthunt.com/products/unabyss-a-tiny-desktop-pet-that-grows",
+    "image": "images/2026-07-18/2026-07-18_vibecoding_3.jpg",
+    "detail": [
+      "MCP原生上下文层产品Unabyss在2026年7月17日登上Product Hunt当日榜首,收获超500个赞。它切中一个真实痛点:每换一个AI工具都要从零重新解释自己的角色、目标和项目背景,ChatGPT里积累的记忆带不到Claude,Claude Projects又和Cursor互不相通,工具越多重复劳动越严重。",
+      "Unabyss的做法是从LinkedIn、个人网站、Notion、Gmail、Slack、GitHub等来源一次性抽取用户上下文,结构化成persona.md、voice.md、company.md等分层文件,再通过MCP协议供任意兼容工具读取。它支持Claude、Codex、Cursor、Gemini、VS Code等十余种AI工具,并提供按话题、敏感度、来源打标签的细粒度共享控制,数据全程AES-256加密。",
+      "社区反响热烈,不少开发者称赞其一键连接MCP体验,认为它让AI真正开始记住你。也有用户追问它能否读取自己维护的CLAUDE.md记忆文件、理解工程师的解题习惯,官方回应称其相比静态上下文文件的最大优势正是保持实时更新、不会过期。"
+    ]
+  },
+  {
+    "id": "2026-07-18_vibecoding_1",
+    "date": "2026-07-18",
+    "category": "VibeCoding",
+    "subcat": "开发者博客",
+    "platform": "个人博客",
+    "platform_color": "#2563EB",
+    "title": "Willison用Fable 5写LLM套话高亮器",
+    "url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/",
+    "image": "images/2026-07-18/2026-07-18_vibecoding_1.jpg",
+    "detail": [
+      "开发者Simon Willison在2026年7月17日发布了一款名为LLM cliché highlighter的浏览器小工具。他表示自己读腻了那些满是AI生成腔调的文章,诸如no fluff, no filler, no jargon这类空洞排比,于是萌生了做一个能自动识别并高亮这类套话模式的想法,并把它写成日常可用的小应用发布在个人博客上。",
+      "这款工具最大的看点在于其开发方式:Willison没有手写代码,而是通过vibe coding让Fable 5模型直接生成整个应用。工具内置十种常见的LLM写作套话模式识别规则,全部逻辑在浏览器本地运行,无需后端服务器,用户把文本粘贴进去即可即时看到被标红的可疑句式,轻量且开箱即用。",
+      "作为最具影响力的AI应用博客作者之一,Willison此次演示再次成为社区讨论焦点。它生动展示了让前沿模型一次性产出可交付小工具的可行性,也戳中了开发者对AI文风泛滥的普遍吐槽,让如何识别AI味文本这一话题在开发者圈层持续发酵。"
+    ]
+  },
+  {
+    "id": "2026-07-18_gaming_5",
+    "date": "2026-07-18",
+    "category": "Gaming",
+    "subcat": "游戏新作",
+    "platform": "Gematsu",
+    "platform_color": "#059669",
+    "title": "太空军阀婴儿交易模拟登陆Switch",
+    "url": "https://www.gematsu.com/2026/07/space-warlord-baby-trading-simulator-now-available-for-switch-2-switch",
+    "image": "images/2026-07-18/2026-07-18_gaming_5.jpg",
+    "detail": [
+      "《Space Warlord Baby Trading Simulator》是由发行商 Frosty Pop 与以怪诞题材著称的开发团队 Strange Scaffold 打造的股票交易模拟游戏,以夸张的太空黑色幽默包装,让玩家在虚构市场中低买高卖各类奇特商品,此前已在其他平台推出并积累了口碑。",
+      "本作现已正式登陆 Nintendo Switch 2 与 Switch 平台,让掌机与主机玩家也能体验这套融合了资源管理与荒诞叙事的交易玩法。游戏保留了原作独特的市场波动机制与讽刺性剧情,凭借在掌机上随时上手的碎片化节奏,成为 7 月 17 日值得关注的新上架作品之一。",
+      "作为 Strange Scaffold 旗下颇具个性的独立作品,该团队一贯以短小精悍、创意大胆的项目吸引核心玩家。社区对其登陆任天堂平台表示欢迎,认为掌机形态更契合这类轻量交易模拟的体验,也有玩家期待开发方后续将更多实验性作品带到 Switch 生态。"
+    ]
+  },
+  {
+    "id": "2026-07-18_gaming_4",
+    "date": "2026-07-18",
+    "category": "Gaming",
+    "subcat": "游戏更新",
+    "platform": "MP1st",
+    "platform_color": "#059669",
+    "title": "使命召唤黑色行动2主机端更新",
+    "url": "https://mp1st.com/title-updates-and-patches/black-ops-2-update-1-04-1-004-released-playstation-july-17",
+    "image": "images/2026-07-18/2026-07-18_gaming_4.jpg",
+    "detail": [
+      "《使命召唤:黑色行动2》此前由 Iron Galaxy 负责移植到 PS4 与 PS5 平台,重新上线后经历了 XP 进度异常、联机崩溃等一系列问题,官方持续通过补丁修复,本次是继近期 XP 修正后的又一次客户端更新。",
+      "7 月 17 日推送的 1.04/1.004 版本更新体积约 4.7GB,主要聚焦修复与体验优化:公开多人对战将优先选择 PS5 作为主机、不再回退到 PS4,新增反主机迁移滥用的防护,并将手柄死区行为调整为贴近初代 PS3 版本;多人进出大厅崩溃、抢占模式与爆破模式缺失等问题也得到修复。",
+      "官方坦言 XP 相关漏洞尚未完全解决,后续将继续修复,而邀请好友、组队报错、匹配问题及缺少离线 BOT 等痛点仍然存在。社区玩家对崩溃修复表示肯定,但普遍希望这不是最后一个补丁,期待开发方持续维护这款经典作品的联机体验。"
+    ]
+  },
+  {
+    "id": "2026-07-18_gaming_3",
+    "date": "2026-07-18",
+    "category": "Gaming",
+    "subcat": "主机硬件",
+    "platform": "Nintendo Life",
+    "platform_color": "#059669",
+    "title": "任天堂公布 13 步换电池指南",
+    "url": "https://www.nintendolife.com/news/2026/07/nintendo-shares-13-step-procedure-detailing-how-to-replace-your-switch-joy-con-battery",
+    "image": "images/2026-07-18/2026-07-18_gaming_3.jpg",
+    "detail": [
+      "伴随欧洲电池法规合规工作,任天堂上线了一份官方支持页面,以 13 个步骤详细说明如何自行更换改版 Joy-Con 的内置电池,面向的是欧洲专属、采用十字螺丝而非 Y 型螺丝的 HAC-015(-01)/HAC-016(-01) 型号手柄。",
+      "根据指引,更换所需的套件包含 HAC-006(-01) 电池、PH00 十字螺丝刀、塑料镊子、撬棒以及双面胶等工具,玩家需按顺序拆解外壳、断开排线并替换电池。这份文档由社区通过 Reddit 与拆解者 OatmealDome 最先发现,并获 Digital Foundry 等媒体转载确认。",
+      "此举被视为任天堂配合欧盟可拆卸电池规定的落地措施,让手柄维修更加透明。社区玩家普遍认为官方提供如此细致的 DIY 流程有助于减少电子废弃并延长设备寿命,但也有人指出实际操作仍存在一定门槛,呼吁提供更完善的正品配件供应渠道。"
+    ]
+  },
+  {
+    "id": "2026-07-18_gaming_2",
+    "date": "2026-07-18",
+    "category": "Gaming",
+    "subcat": "主机硬件",
+    "platform": "Nintendo Life",
+    "platform_color": "#059669",
+    "title": "Switch 2 欧版将推可换电池改版",
+    "url": "https://www.nintendolife.com/news/2026/07/switch-2-hardware-revision-with-replaceable-battery-coming-later-this-year-in-europe",
+    "image": "images/2026-07-18/2026-07-18_gaming_2.jpg",
+    "detail": [
+      "为应对欧盟将于 2027 年 2 月中旬生效的电池法规,任天堂确认将在欧洲市场推出配备可更换电池的 Switch 2 硬件改版,涉及主机、Joy-Con 2、Pro 手柄以及 N64、GameCube 复刻手柄等多款配件,并将从今秋起分批上市。",
+      "据支持页面,新版 Switch 2 主机电池容量约为 5172mAh,较现款 5220mAh 小约 1%,重量约 411g,比现款重约 10g;搭配 Joy-Con 2 后整机约 548g,重约 14g。Pro 手柄电池缩小约 16%但更轻,改版将覆盖英、德、法等 30 多个国家,无法更换电池的旧配件则会在 2027 年 2 月中旬后下架。",
+      "改版将采用独立型号与包装上的额外标识以便区分,但商店无法指定购买版本。社区对官方支持用户自行更换电池、延长主机寿命的做法普遍表示欢迎,也有玩家担忧容量缩水与重量增加带来的手感变化,并讨论该政策是否会推广到欧洲以外地区。"
+    ]
+  },
+  {
+    "id": "2026-07-18_gaming_1",
+    "date": "2026-07-18",
+    "category": "Gaming",
+    "subcat": "游戏新作",
+    "platform": "Gematsu",
+    "platform_color": "#059669",
+    "title": "《最终幻想 共鸣》公布像素预告",
+    "url": "https://www.gematsu.com/2026/07/final-fantasy-resonance-pixel-trailer-latest-details-and-screenshots",
+    "image": "images/2026-07-18/2026-07-18_gaming_1.jpg",
+    "detail": [
+      "《最终幻想 共鸣》(Final Fantasy Resonance)是史克威尔艾尼克斯与开发商 Lancarse 打造的系列首款 HD-2D 作品,改编自手游《勇气启示录》第一章剧情,于 6 月 9 日的任天堂直面会上正式公开,是本作在正式发售前的重要宣传节点。",
+      "本次新预告展示了两座核心城市:以飞空艇科技闻名的机械都市迪尔玛吉亚,以及奥尔德利安地区,并登场系列历代英雄的幻影,包括《FF4》塞西尔、《FF5》巴兹、《FF8》斯考尔、《FF9》吉坦、《FF10》提达等。游戏还包含斗技场、12 把传说武器与多种小游戏,确认 10 月 22 日登陆 Switch 2、Switch、PS5、Xbox Series 与 PC,标准版售价 49.99 美元。",
+      "作为纯单人剧情向 RPG,本作以经典像素画风叠加 3D 场景的 HD-2D 表现力吸引了大量系列老玩家关注。社区对历代主角以幻影形式回归的设定反响热烈,也有玩家讨论其源自手游剧情的改编能否满足单机受众,整体期待值随预告发布明显走高。"
+    ]
+  },
+  {
+    "id": "2026-07-18_ai_4",
+    "date": "2026-07-18",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "量子位",
+    "platform_color": "#7C3AED",
+    "title": "月之暗面发布全球最大开源模型K3",
+    "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/",
+    "image": "images/2026-07-18/2026-07-18_ai_4.jpg",
+    "detail": [
+      "在2026世界人工智能大会开幕前夕,北京月之暗面科技发布新一代模型Kimi K3,参数规模高达2.8万亿,成为目前全球参数量最大的开源模型,新华社在7月17日的报道中称其标志中国AI模型发展迈出新的一步,模型已通过网页与API上线。",
+      "K3采用稀疏混合专家(MoE)架构,原生支持视觉理解,具备100万词元上下文窗口与常开的思考模式,面向软件工程、知识工作、深度研究等复杂任务优化。定价为每百万输入词元3美元、输出15美元,与Anthropic的Sonnet系列持平,是中国实验室迄今最贵的模型,完整开源权重预计7月27日前放出。",
+      "独立测评者指出,K3在部分榜单上跻身前列,接近Opus 4.8与GPT-5.5一档,较此前1万亿参数的K2.6价格大幅上调,反映月之暗面对模型能力的自信。业界普遍认为,月之暗面选择在谷歌年度大发布前夜投下这枚重磅开源模型,是2026年最激进的产品时机策略。"
+    ]
+  },
+  {
+    "id": "2026-07-18_ai_3",
+    "date": "2026-07-18",
+    "category": "AI",
+    "subcat": "Google Gemini",
+    "platform": "彭博社",
+    "platform_color": "#7C3AED",
+    "title": "谷歌Gemini 3.5 Pro难产内幕曝光",
+    "url": "https://www.latimes.com/business/story/2026-07-17/inside-googles-gemini-delay-coding-stumbles-clashing-teams-frustrated-engineers",
+    "image": "images/2026-07-18/2026-07-18_ai_3.jpg",
+    "detail": [
+      "7月17日多家外媒披露谷歌旗舰模型Gemini 3.5 Pro已比原计划延期数月,报道援引知情人士称,谷歌为提升模型能力尤其是编程表现而反复打磨,甚至推翻原有基座模型从头重新预训练,发布窗口一再从6月推迟至7月17日,但谷歌始终未官方确认日期与规格。",
+      "内幕显示延期背后是内部资源与派系摩擦:DeepMind今年组建了由研究工程师牵头的AI编程专项团队,要求工程师用AI生成代码,但内部算力竞争激烈常遇产能瓶颈。联合创始人一方主张加速抢占AI编程机会,却被云、DeepMind、安卓等多条并行编程工具战线的内耗拖慢。",
+      "报道指出,谷歌在模型能力上已落后于Anthropic与OpenAI,Gemini最强卖点仍是搜索数据查询。此次发布恰逢GPT-5.6发布一周、Grok 4.5发布九天后,又撞上前夜中国Kimi K3开源模型登场,业界普遍认为这是谷歌今年最关键的一次翻身仗,压力空前。"
+    ]
+  },
+  {
+    "id": "2026-07-18_ai_2",
+    "date": "2026-07-18",
+    "category": "AI",
+    "subcat": "AI产业",
+    "platform": "36氪",
+    "platform_color": "#7C3AED",
+    "title": "WAIC开幕300款AI产品全球首发",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-07-17/doc-iniickaw4199478.shtml",
+    "image": "images/2026-07-18/2026-07-18_ai_2.jpg",
+    "detail": [
+      "7月17日2026世界人工智能大会在上海正式启幕,本届汇集1100余家AI企业,展出超3000项技术成果,其中逾300款产品实现全球首发,并有9位图灵奖、诺奖专家到场交流,展览总面积首次突破10万平方米,规模创历届之最。",
+      "与往年侧重参数竞赛不同,本届释放明确信号:行业告别参数内卷,进入智能体落地、人形机器人量产、端侧AI合规商用的兑现周期。华为展出Atlas 950超节点真机,单柜64张昇腾NPU可扩展至8192卡;中科曙光发布十万卡级全国产超集群曙光8000登峰,正式启动商用交付。",
+      "消费电子端成最大看点,恰逢国内首批手机端侧大模型完成备案,努比亚联合字节推出已备案的豆包智能体手机NaviX Ultra,阶跃星辰发布搭载Step AOS的原生智能体手机STEPX Neo。业内认为算力、消费终端、工业机器人三大赛道迎来共振,完整AI软硬产业闭环初步成型。"
+    ]
+  },
+  {
+    "id": "2026-07-18_ai_1",
+    "date": "2026-07-18",
+    "category": "AI",
+    "subcat": "AI产业",
+    "platform": "官方博客",
+    "platform_color": "#7C3AED",
+    "title": "2026世界AI大会开幕 WAICO落地上海",
+    "url": "https://www.mfa.gov.cn/eng/xw/zyjh/202607/t20260717_11984910.html",
+    "image": "images/2026-07-18/2026-07-18_ai_1.jpg",
+    "detail": [
+      "北京时间7月17日上午,2026世界人工智能大会暨人工智能全球治理高级别会议在上海开幕,中国最高领导人首次以本人身份出席开幕式并发表主旨演讲,主题为共同构建公平公正的全球人工智能治理体系,这是该会议自2018年创办以来规格最高的一届。",
+      "演讲释放两大核心信息:一是宣布世界人工智能合作组织(WAICO)正式在上海成立,前一日已有包括俄罗斯、巴基斯坦、哈萨克斯坦在内的29个国家签署协议,总部设于上海;二是承诺未来五年为发展中国家提供5000个AI培训名额,并推动向30国部署妈祖气象预警系统。",
+      "外界普遍将此解读为中国以开源模型为公共产品、面向全球南方争夺AI治理话语权的关键一步,被视为对美国主导的Pax Silica联盟(已有35国)的直接对标。多家国际媒体指出,这是中方迄今对全球AI治理蓝图最清晰的一次系统阐述,治理主导权之争正式白热化。"
+    ]
+  },
+  {
     "id": "2026-07-17_vibecoding_6",
     "date": "2026-07-17",
     "category": "VibeCoding",
@@ -8733,16 +8941,16 @@
     "id": "n_2026-06-05_05",
     "date": "2026-06-05",
     "category": "VibeCoding",
-    "subcat": "AI Coding",
+    "subcat": "AI编程工具",
     "platform": "官方博客",
-    "platform_color": "#D97757",
-    "title": "Claude Code v2.1.162 发布",
+    "platform_color": "#7C3AED",
+    "title": "Claude Code v2.1.212发布多项会话防护",
     "url": "https://code.claude.com/docs/en/changelog",
-    "image": "images/2026-06-05/n_2026-06-05_05.jpg",
+    "image": "images/2026-07-18/2026-07-18_vibecoding_2.jpg",
     "detail": [
-      "Anthropic于北京时间6月3日深夜推送Claude Code v2.1.162版本,这是2.1系列的第七次小版本迭代,changelog更新当晚在GitHub Discussion与X开发者圈引发集中讨论,被视为本周最值得安装的CLI更新。",
-      "本次更新重点修复了Agent长循环在后台任务挂起后的状态恢复问题,新增针对大型monorepo的增量索引能力,初次扫描时间从分钟级压缩到十秒级,同时优化了/compact指令的上下文摘要质量,避免长会话中关键决策被无差别压缩。",
-      "MCP工具调用路径也得到打磨,工具响应被流式塞入对话流而不是一次性等待完成,体感延迟明显下降。开发者反馈大型重构任务的成功率较上一版本提升约15%,Hacker News相关讨论帖当天获得近千点赞,生态正逐步把Claude Code当作日常默认入口。"
+      "Anthropic于2026年7月17日发布Claude Code v2.1.212版本更新。作为终端AI编程代理领域的主力工具,此次更新聚焦会话管理与安全防护,针对长时间运行的智能体工作流做了大量稳定性打磨,是近期功能调整较为密集的一次迭代,直接影响开发者日常使用体验。",
+      "核心变化包括:/fork命令现在会把当前会话复制到独立的后台会话继续跑,而原来的会话内子代理改名为/subtask;新增对WebSearch调用的全局上限(默认200次,可通过环境变量调节)以及每会话子代理生成上限(默认200个),防止搜索与委派陷入失控循环;运行超过两分钟的MCP工具调用现在会自动转入后台,避免阻塞会话。",
+      "此外版本还修复了计划模式下未经权限提示就自动执行touch、rm等改文件Bash命令的隐患,以及worktree沿仓库软链接创建导致文件跑到仓库外的问题。这些防护性改动回应了开发者对智能体自动化跑飞的担忧,在Claude Code重度用户群中获得普遍关注。"
     ]
   },
   {
