@@ -362,9 +362,9 @@
       "html_url": "https://github.com/IceWhaleTech/CasaOS"
     },
     "openinterpreter/openinterpreter": {
-      "best_rank": 6,
-      "appearances": 4,
-      "total_today_stars": 1998,
+      "best_rank": 4,
+      "appearances": 5,
+      "total_today_stars": 2381,
       "language": "Rust",
       "description": "A coding agent for low-cost models",
       "owner_avatar": "https://avatars.githubusercontent.com/u/163192481?v=4",
@@ -506,9 +506,9 @@
       "html_url": "https://github.com/AIEraDev/Clypra"
     },
     "datawhalechina/hello-agents": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 271,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 429,
       "language": "Python",
       "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
       "owner_avatar": "https://avatars.githubusercontent.com/u/46047812?v=4",
@@ -525,8 +525,8 @@
     },
     "HKUDS/DeepTutor": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1359,
+      "appearances": 4,
+      "total_today_stars": 1729,
       "language": "Python",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -560,9 +560,9 @@
       "html_url": "https://github.com/NousResearch/hermes-agent"
     },
     "codecrafters-io/build-your-own-x": {
-      "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1503,
+      "best_rank": 1,
+      "appearances": 3,
+      "total_today_stars": 2629,
       "language": "Markdown",
       "description": "Master programming by recreating your favorite technologies from scratch.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/58904235?v=4",
@@ -624,8 +624,8 @@
     },
     "PostHog/posthog": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 515,
+      "appearances": 3,
+      "total_today_stars": 853,
       "language": "Python",
       "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/60330232?v=4",
@@ -642,8 +642,8 @@
     },
     "FB208/OpenBidKit_Yibiao": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 346,
+      "appearances": 2,
+      "total_today_stars": 475,
       "language": "JavaScript",
       "description": "开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8197476?v=4",
@@ -651,8 +651,8 @@
     },
     "firecrawl/open-lovable": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 326,
+      "appearances": 2,
+      "total_today_stars": 461,
       "language": "TypeScript",
       "description": "🔥 Clone and recreate any website as a modern React app in seconds",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
@@ -765,6 +765,168 @@
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
       "html_url": "https://github.com/Tencent/WeKnora"
+    },
+    "Robbyant/lingbot-map": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 831,
+      "language": "Python",
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/212647524?v=4",
+      "html_url": "https://github.com/Robbyant/lingbot-map"
+    },
+    "SigNoz/signoz": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 432,
+      "language": "TypeScript",
+      "description": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log management, infra monitoring, etc. Combined with SigNoz MCP and a native AI teammate (in SigNoz Cloud) it helps you build more resilient apps.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76905799?v=4",
+      "html_url": "https://github.com/SigNoz/signoz"
+    },
+    "anthropics/skills": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 291,
+      "language": "Python",
+      "description": "Public repository for Agent Skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/skills"
+    },
+    "KnockOutEZ/wigolo": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 203,
+      "language": "TypeScript",
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/70368615?v=4",
+      "html_url": "https://github.com/KnockOutEZ/wigolo"
+    },
+    "anthropics/cwc-workshops": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 162,
+      "language": "TypeScript",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/cwc-workshops"
+    },
+    "rivet-dev/agentos": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 136,
+      "language": "Rust",
+      "description": "A faster, lighter, cheaper alternative to sandboxes. Run any coding agent inside an isolated Linux VM, with agent orchestration built in.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/57733614?v=4",
+      "html_url": "https://github.com/rivet-dev/agentos"
+    },
+    "OpenSenseNova/SenseNova-U1": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 97,
+      "language": "Python",
+      "description": "SenseNova-U series: Native Unified Paradigm with NEO-unify from the First Principles",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/175909011?v=4",
+      "html_url": "https://github.com/OpenSenseNova/SenseNova-U1"
+    },
+    "tldraw/tldraw": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 85,
+      "language": "TypeScript",
+      "description": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/86724562?v=4",
+      "html_url": "https://github.com/tldraw/tldraw"
+    },
+    "microsoft/agent-framework-go": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 80,
+      "language": "Go",
+      "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/agent-framework-go"
+    },
+    "tursodatabase/turso": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 75,
+      "language": "Rust",
+      "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/139391156?v=4",
+      "html_url": "https://github.com/tursodatabase/turso"
+    },
+    "elder-plinius/G0DM0D3": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 69,
+      "language": "TypeScript",
+      "description": "LIBERATED AI CHAT",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/133052465?v=4",
+      "html_url": "https://github.com/elder-plinius/G0DM0D3"
+    },
+    "MoonshotAI/kimi-cli": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 65,
+      "language": "Python",
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/129152888?v=4",
+      "html_url": "https://github.com/MoonshotAI/kimi-cli"
+    },
+    "warpdotdev/warp": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 59,
+      "language": "Rust",
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/71840468?v=4",
+      "html_url": "https://github.com/warpdotdev/warp"
+    },
+    "andrewrabert/jellium-desktop": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 55,
+      "language": "Rust",
+      "description": "An unofficial desktop client for Jellyfin",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6550543?v=4",
+      "html_url": "https://github.com/andrewrabert/jellium-desktop"
+    },
+    "cocoindex-io/cocoindex": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 52,
+      "language": "Rust",
+      "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/190812870?v=4",
+      "html_url": "https://github.com/cocoindex-io/cocoindex"
+    },
+    "apache/ossie": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 47,
+      "language": "Python",
+      "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/47359?v=4",
+      "html_url": "https://github.com/apache/ossie"
+    },
+    "outsourc-e/hermes-workspace": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 45,
+      "language": "JavaScript",
+      "description": "Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/201563152?v=4",
+      "html_url": "https://github.com/outsourc-e/hermes-workspace"
+    },
+    "greensock/GSAP": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 44,
+      "language": "JavaScript",
+      "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2386673?v=4",
+      "html_url": "https://github.com/greensock/GSAP"
     }
   }
 }

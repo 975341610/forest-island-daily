@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-18": {
-      "Panniantong/Agent-Reach": 1,
-      "google-research/timesfm": 2,
-      "anthropics/skills": 3,
-      "Universal-Debloater-Alliance/universal-android-debloater-next-generation": 4,
-      "n0-computer/iroh": 5,
-      "OpenBMB/VoxCPM": 6,
-      "DeusData/codebase-memory-mcp": 7,
-      "rmyndharis/OpenWA": 8,
-      "earendil-works/pi": 9,
-      "PaddlePaddle/PaddleOCR": 10,
-      "openai/codex": 11,
-      "Alishahryar1/free-claude-code": 12,
-      "meshery/meshery": 13,
-      "ruvnet/ruflo": 14,
-      "multica-ai/multica": 15,
-      "goldmansachs/gs-quant": 16,
-      "bytedance/UI-TARS-desktop": 17,
-      "vercel-labs/json-render": 18,
-      "infiniflow/ragflow": 19,
-      "ChromeDevTools/chrome-devtools-mcp": 20,
-      "nautechsystems/nautilus_trader": 21,
-      "calesthio/OpenMontage": 22,
-      "krahets/hello-algo": 23,
-      "makeplane/plane": 24,
-      "roboflow/rf-detr": 25
-    },
     "2026-06-19": {
       "DeusData/codebase-memory-mcp": 1,
       "Kilo-Org/kilocode": 2,
@@ -836,6 +809,33 @@
       "SillyTavern/SillyTavern": 23,
       "rustfs/rustfs": 24,
       "Tencent/WeKnora": 25
+    },
+    "2026-07-19": {
+      "codecrafters-io/build-your-own-x": 1,
+      "Robbyant/lingbot-map": 2,
+      "SigNoz/signoz": 3,
+      "openinterpreter/openinterpreter": 4,
+      "HKUDS/DeepTutor": 5,
+      "PostHog/posthog": 6,
+      "anthropics/skills": 7,
+      "KnockOutEZ/wigolo": 8,
+      "anthropics/cwc-workshops": 9,
+      "datawhalechina/hello-agents": 10,
+      "rivet-dev/agentos": 11,
+      "firecrawl/open-lovable": 12,
+      "FB208/OpenBidKit_Yibiao": 13,
+      "OpenSenseNova/SenseNova-U1": 14,
+      "tldraw/tldraw": 15,
+      "microsoft/agent-framework-go": 16,
+      "tursodatabase/turso": 17,
+      "elder-plinius/G0DM0D3": 18,
+      "MoonshotAI/kimi-cli": 19,
+      "warpdotdev/warp": 20,
+      "andrewrabert/jellium-desktop": 21,
+      "cocoindex-io/cocoindex": 22,
+      "apache/ossie": 23,
+      "outsourc-e/hermes-workspace": 24,
+      "greensock/GSAP": 25
     }
   }
 }
