@@ -1,0 +1,226 @@
+[
+  {
+    "id": "2026-07-19_vibecoding_5",
+    "date": "2026-07-19",
+    "category": "VibeCoding",
+    "subcat": "VibeCoding文化",
+    "platform": "个人博客",
+    "platform_color": "#2563EB",
+    "title": "21岁Python框架Quixote迎来最新提交",
+    "url": "https://simonwillison.net/2026/Jul/18/quixote/",
+    "image": "images/2026-07-19/2026-07-19_vibecoding_5.jpg",
+    "detail": [
+      "2026年7月18日,Simon Willison在其Link Blog上分享了一条让\"某个年代的Python老网虫\"会心一笑的动态:老牌Python Web框架Quixote的最新一次提交就发生在数小时前,项目在多年沉寂后再次有了活跃迹象。",
+      "Willison考据指出,该仓库中最古老的提交距今已有21年——那是把Quixote 2.4从Subversion迁移导入Git的初始记录。Quixote诞生于Python早期Web开发年代,曾是当时颇具特色的框架之一,如今看到它仍有维护者在更新,颇具计算机历史与开发者情怀色彩。",
+      "在Django、FastAPI等现代框架主导、AI辅助编码盛行的今天,一个上古Web框架突然收到新提交,成为开发者社区津津乐道的\"考古\"话题,也引发人们对开源项目长期生命力与代际传承的感慨与讨论。"
+    ]
+  },
+  {
+    "id": "2026-07-19_vibecoding_4",
+    "date": "2026-07-19",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "leaves:终端里的磁盘占用树状图可视化工具",
+    "url": "https://github.com/patonw/leaves",
+    "image": "images/2026-07-19/2026-07-19_vibecoding_4.jpg",
+    "detail": [
+      "2026年7月18日,开发者patonw的项目leaves在Hacker News的Show HN板块亮相,收获86个赞和25条评论。leaves是一款用Rust编写的文本模式(TUI)磁盘占用可视化工具,能在终端里以树状图(treemap)方式直观展示各目录和文件占用的空间大小,帮助用户快速定位吃掉硬盘空间的\"大户\"。",
+      "项目支持配置文件加载和色彩偏移(color shift)自定义,并已实现面向musl的交叉编译,方便在各类Linux发行版和精简容器环境中分发使用。作者还为README补充了截图,直观展示其彩色treemap布局效果。它是ncdu、dust等经典磁盘分析工具在可视化维度上的又一新选择。",
+      "在AI编程工具刷屏的当下,这类回归\"小而美\"的纯终端实用工具依然能在开发者社区获得关注,反映出程序员对高效、无依赖、可脚本化的命令行体验的持久偏好。HN讨论区就其treemap算法、性能与同类工具的差异展开交流。"
+    ]
+  },
+  {
+    "id": "2026-07-19_vibecoding_3",
+    "date": "2026-07-19",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "clx:把Lua编译成原生可执行文件的编译器",
+    "url": "https://github.com/samyeyo/clx",
+    "image": "images/2026-07-19/2026-07-19_vibecoding_3.jpg",
+    "detail": [
+      "2026年7月18日,开源项目clx登上Hacker News的Show HN板块,获得133个赞和数十条讨论。clx是一款跨平台的Lua提前编译(AOT)编译器与运行时,采用C++20后端,能够把Lua代码编译为原生可执行文件,让Lua脚本无需依赖解释器即可独立分发运行。",
+      "项目当天保持高频更新:仓库合并了修复安装脚本SIMD头文件、修正版本字符串等多个PR,并为require()中的_ENV增加了测试,还新增了set_fenv()/get_fenv()等API用于管理函数的_ENV环境。截至当日,仓库已累积92次提交,并发布到0.2.0版本附带更新的基准测试结果。",
+      "作为面向嵌入式脚本和工具链场景的编译器,clx让开发者可以像编译C/Rust程序一样打包Lua应用,兼顾脚本语言的开发效率与原生二进制的部署便利。HN评论区围绕其性能基准、与LuaJIT的对比以及跨平台musl交叉编译等话题展开了热烈讨论。"
+    ]
+  },
+  {
+    "id": "2026-07-19_vibecoding_2",
+    "date": "2026-07-19",
+    "category": "VibeCoding",
+    "subcat": "AI编程工具",
+    "platform": "个人博客",
+    "platform_color": "#2563EB",
+    "title": "Anthropic反转:Fable 5将永久保留在订阅套餐",
+    "url": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/",
+    "image": "images/2026-07-19/2026-07-19_vibecoding_2.jpg",
+    "detail": [
+      "2026年7月18日,Anthropic官方@claudeai账号在Twitter宣布重大政策反转:自7月20日起,旗舰模型Claude Fable 5将被永久纳入所有Max和Team Premium套餐(限额为50%),而不再像原计划那样仅通过API计费提供。Pro和Team Standard用户可继续通过用量额度使用Fable,并获得一次性100美元额度补偿。",
+      "Simon Willison分析指出,这次\"急刹车\"源于竞争压力:OpenAI的GPT-5.6 Sol乃至Moonshot的Kimi 3崛起,使Anthropic\"把最强模型从订阅套餐里拿掉\"的方案变得站不住脚——用户凭什么每月付100或200美元却用不到厂商最好的模型。原计划本是出于算力容量顾虑。",
+      "Willison调侃,此前大量开发者为在订阅访问被撤销前\"榨干\"Fable 5而焦虑失眠,如今这场\"Fable末日\"(Fablepocalypse)警报终于解除。他也补充提醒,20美元/月的入门套餐用户仍无法使用Fable 5。该消息在AI编程圈迅速发酵,被视为大模型订阅定价竞争白热化的最新信号。"
+    ]
+  },
+  {
+    "id": "2026-07-19_vibecoding_1",
+    "date": "2026-07-19",
+    "category": "VibeCoding",
+    "subcat": "VibeCoding文化",
+    "platform": "个人博客",
+    "platform_color": "#2563EB",
+    "title": "Willison用Fable氛围编码SQLite解释器",
+    "url": "https://tools.simonwillison.net/sqlite-query-explainer",
+    "image": "images/2026-07-19/2026-07-19_vibecoding_1.jpg",
+    "detail": [
+      "2026年7月18日,知名开发者Simon Willison发布了一款名为SQLite Query Explainer的交互式在线工具。灵感来自Julia Evans当天前一篇博客《Learning a few things about running SQLite》中那句\"也许某天我能学会读懂查询计划\",Willison直言\"深有同感\",于是让Claude Fable 5帮他把想法\"氛围编码\"(vibe code)成了成品。",
+      "这个工具在浏览器里通过Pyodide把SQLite跑在WebAssembly中的Python里,直接对用户输入的SQL执行EXPLAIN和EXPLAIN QUERY PLAN,并在结果上叠加一层人类可读的解释,帮助开发者理解SQLite查询计划的执行逻辑。全程无需后端,纯前端即可运行,是典型的单页浏览器工具。",
+      "Willison坦承自己对查询计划了解也有限,无法完全验证输出准确性,提醒\"谨慎使用\",但整体\"看起来足够靠谱\"。这条案例再次展示了资深工程师用大模型快速把一时兴起的想法落地成实用工具的vibe coding工作流,在开发者社区引发对AI辅助小工具开发的讨论。"
+    ]
+  },
+  {
+    "id": "2026-07-19_gaming_5",
+    "date": "2026-07-19",
+    "category": "Gaming",
+    "subcat": "平台服务",
+    "platform": "Pushsquare",
+    "platform_color": "#059669",
+    "title": "十余款PS游戏7、8月将下架",
+    "url": "https://www.pushsquare.com/news/2026/07/these-10plus-ps5-ps4-games-will-be-delisted-or-disabled-in-july-and-august-2026",
+    "image": "images/2026-07-19/2026-07-19_gaming_5.jpg",
+    "detail": [
+      "媒体整理出一份清单,盘点了将在 2026 年 7 月与 8 月期间从 PlayStation 商店下架、或核心功能被关停的十余款 PS5、PS4 游戏,提醒玩家在期限到来前及时购买或备份存档。这批变动多源于发行商授权到期或在线服务器关闭,是数字时代主机游戏“消失”风险的又一集中体现。",
+      "受影响作品涵盖《尘埃拉力赛2.0》《麦登橄榄球23》《新世界:永恒》《Let It Die》《撕纸小邮差》《NBA 2K Playgrounds 2》《WWE 2K Battlegrounds》以及《NHL 22/23》等。其中多数为在线服务终止,联机与部分依赖服务器的模式将无法使用,另有 PS Stars 积分被指将于 7 月 31 日到期作废。",
+      "更让玩家在意的是,部分游戏在服务器关闭或下架后,某些依赖联机的奖杯可能变得无法解锁,对追求白金的收藏党构成实质影响。此次大规模下架再次引发社区对数字所有权的讨论,不少人呼吁尽量保留实体版或提前完成相关成就,以免留下永久遗憾。"
+    ]
+  },
+  {
+    "id": "2026-07-19_gaming_4",
+    "date": "2026-07-19",
+    "category": "Gaming",
+    "subcat": "订阅服务",
+    "platform": "Pure Xbox",
+    "platform_color": "#059669",
+    "title": "XGP八月首批入库游戏已公布",
+    "url": "https://www.purexbox.com/news/2026/07/five-games-are-confirmed-for-xbox-game-pass-in-august-2026-so-far",
+    "image": "images/2026-07-19/2026-07-19_gaming_4.jpg",
+    "detail": [
+      "微软的 Xbox Game Pass 订阅服务再度成为焦点,媒体汇总了目前已确认将在 2026 年 8 月加入会员库的首批游戏名单。虽然官方尚未放出完整月度阵容,但通过各作品此前公布的发售信息与首发即入库承诺,已有五款游戏被提前锁定,为订阅玩家勾勒出下月的大致轮廓。",
+      "值得关注的是,不少备受期待的新作延续了 Xbox 首发日即登陆 Game Pass 的策略,让会员无需额外付费即可在发售当天体验。对于在 Xbox 大重组与裁员风波中略显焦虑的核心用户而言,稳定的首发入库节奏成为微软安抚社区、证明订阅服务价值的重要抓手。",
+      "文章同时提醒,Game Pass 在有新作入库的同时,也会有部分旧作在 7 月底陆续轮换离开,玩家需留意手中想玩的游戏是否临近下架期限。随着 8 月正式月度片单临近公布,这份提前曝光的名单被视为衡量本月订阅含金量的第一块风向标。"
+    ]
+  },
+  {
+    "id": "2026-07-19_gaming_3",
+    "date": "2026-07-19",
+    "category": "Gaming",
+    "subcat": "平台服务",
+    "platform": "ixbt",
+    "platform_color": "#059669",
+    "title": "PS商店拉美区上调本地货币定价",
+    "url": "https://ixbt.games/en/news/2026/07/18/sony-ustanovit-regionalnye-ceny-v-playstation-store-dlia-geimerov-iz-latinskix-stran.html",
+    "image": "images/2026-07-19/2026-07-19_gaming_3.jpg",
+    "detail": [
+      "索尼近日正式向拉丁美洲用户发出通知,确认 PlayStation Store 将从以美元计价切换为当地货币结算,首批覆盖墨西哥、洪都拉斯与尼加拉瓜三国。据 7 月 17 日起陆续发出的官方邮件,新定价将于 8 月 20 日正式生效,此举原本被视为响应墨西哥消费者保护机构 Profeco 长期施压的结果。",
+      "然而玩家发现,索尼采用的汇率明显高于市场实际水平:墨西哥的换算比率被设定为 1 美元兑 20.5 比索,而当前真实汇率约为 17.5 比索,再叠加各国数字税,实际购买成本不降反升。许多用户批评这更像变相涨价,直言继续以美元结算反而更划算。",
+      "为完成技术切换,PlayStation Store 将于 8 月 18 日至 20 日进入维护并暂时下线,期间无法用信用卡、借记卡等方式充值或付款；已购买的美元礼品卡在切换后仍然有效,受影响地区的促销活动预计将在 9 月 23 日前后恢复。这场定价风波也再度点燃拉美玩家对区域定价合理性的讨论。"
+    ]
+  },
+  {
+    "id": "2026-07-19_gaming_2",
+    "date": "2026-07-19",
+    "category": "Gaming",
+    "subcat": "厂商动态",
+    "platform": "Engadget",
+    "platform_color": "#059669",
+    "title": "B社公布路线图:上古6与辐射5",
+    "url": "https://www.engadget.com/2217631/bethesda-details-whats-next-for-fallout-and-its-other-franchises-amid-xbox-cuts/",
+    "image": "images/2026-07-19/2026-07-19_gaming_2.jpg",
+    "detail": [
+      "在微软 Xbox 部门大规模裁员与业务重组的背景下,Bethesda Game Studios 于当地时间 7 月 17 日罕见发布长篇路线图公开信,由掌门人 Todd Howard 出面,系统性地向玩家交代旗下《上古卷轴》《辐射》《星空》三大支柱系列的未来走向,试图稳定动荡中的粉丝信心。",
+      "信中最重磅的信息是官方首次确认《辐射3》与《辐射:新维加斯》重制版正在开发中,同时《辐射5》已进入前期制作阶段,而《上古卷轴6》被明确为工作室当前的首要开发重心,并与《辐射5》一同采用全新的 Creation Engine 3 引擎打造。此外,黑曜石(Obsidian)也被证实正在参与一款新的《辐射》项目。",
+      "Bethesda 还表示《星空》并未被放弃,累计已有超过 1700 万玩家、游玩时长逼近十亿小时,第三年将继续推出新剧情与 Starborn 内容更新。不过公司对所有作品均未给出具体发售窗口,《上古卷轴6》此前被指最快也要 2028 年,令部分玩家在兴奋之余仍对漫长等待与裁员阴影表达担忧。"
+    ]
+  },
+  {
+    "id": "2026-07-19_gaming_1",
+    "date": "2026-07-19",
+    "category": "Gaming",
+    "subcat": "主机平台",
+    "platform": "Pushsquare",
+    "platform_color": "#059669",
+    "title": "索尼确认参展东京电玩展2026",
+    "url": "https://www.pushsquare.com/news/2026/07/playstation-to-show-more-upcoming-ps5-games-at-tokyo-game-show-2026",
+    "image": "images/2026-07-19/2026-07-19_gaming_1.jpg",
+    "detail": [
+      "东京电玩展(TGS)2026 的参展商名单已经正式公布,索尼互娱确认将以 PlayStation 名义再度亮相这一亚洲最大规模的游戏展会。本届展会定于 9 月 17 日至 21 日在千叶县幕张展览馆举办,前两天为商务日、后两天面向普通公众开放,索尼此番回归被视为其加码亚洲市场、直接面向日本及周边玩家展示新作的重要信号。",
+      "根据官方展商信息,索尼将在现场设置大型展台,并承诺带来更多即将发售的 PS5 游戏。虽然具体片单尚未揭晓,但外界普遍猜测由 Insomniac 打造、计划于 9 月 15 日推出的《漫威金刚狼》极可能成为展台主角之一,此外多款第三方与日厂新作也有望借 TGS 舞台放出实机演示与最新预告。",
+      "对玩家而言,索尼时隔数年重新以完整规格出展 TGS,意味着展会现场有望迎来可试玩 Demo 与舞台活动的双重回归。不少日本玩家在社交平台表示期待久违的线下体验,也有声音希望索尼借此机会公布更多面向亚洲的本地化内容与发售档期,为下半年主机大作季预热。"
+    ]
+  },
+  {
+    "id": "2026-07-19_ai_4",
+    "date": "2026-07-19",
+    "category": "AI",
+    "subcat": "AI产业",
+    "platform": "IT之家",
+    "platform_color": "#7C3AED",
+    "title": "沐曦发布AI超节点曦景S600可扩万卡",
+    "url": "https://www.ithome.com/0/978/460.htm",
+    "image": "images/2026-07-19/2026-07-19_ai_4.jpg",
+    "detail": [
+      "7月18日,在2026世界人工智能大会(WAIC)上,国产GPU厂商沐曦股份正式发布新一代AI超节点产品——曦景S600。这是一款面向大模型训练、推理及智算中心建设的系统级算力产品,可实现单机柜64张GPU高速全互连,并支持灵活扩展至万卡级集群,为国产AI基础设施提供算力底座。",
+      "曦景S600采用OEX架构设计,通过正交连接器与两级交换拓扑实现GPU间低时延、高带宽通信,能更好满足MoE稀疏模型、万亿参数大模型对集群通信的要求。产品创新采用\"三0设计\"——计算节点、交换节点及二者之间均实现0线缆,大幅减少复杂布线带来的信号损耗与故障风险,同时电源与液冷管路支持盲插热插拔。",
+      "此次发布正值国产算力供不应求之际,沐曦此前透露部分产品订单已排到明年之后,主力MXC600芯片已大规模出货。曦景S600以模块化解耦设计和软硬协同优势,进一步补齐国产算力在集群级部署上的短板,业内视其为国产AI基础设施迈向大规模、高可靠部署的重要一步。"
+    ]
+  },
+  {
+    "id": "2026-07-19_ai_3",
+    "date": "2026-07-19",
+    "category": "AI",
+    "subcat": "Google Gemini",
+    "platform": "新智元",
+    "platform_color": "#7C3AED",
+    "title": "DeepMind科学家离职万字长文引热议",
+    "url": "https://www.163.com/dy/article/L24648M90511ABV6.html",
+    "image": "images/2026-07-19/2026-07-19_ai_3.jpg",
+    "detail": [
+      "7月18日,一篇长文在AI圈引发广泛讨论。前谷歌DeepMind科学家Alex Turner(网名turntrout)于7月15日宣布辞职,并发表万字长文《Why I left Google DeepMind》,公开质疑谷歌在与美国国防部门AI合作上的立场转变,称相关协议缺乏明确\"红线\"约束。",
+      "文章回顾了2014年谷歌收购DeepMind时曾明确约定AI不得用于军事和武器用途,而如今公司态度发生变化。Turner称他在经历内部沟通无果后,曾直接私信DeepMind CEO Demis Hassabis;Hassabis在受访时回应\"世界变得越来越危险,但我们的AI原则没有任何改变\"。首席科学家Jeff Dean曾于2018年签署《反对致命自主武器誓言》。",
+      "值得注意的是,Turner没有像其他离职AI高管那样跳槽拿高薪,而是选择成为失业者以表明态度,这一举动使长文更具冲击力。事件迅速在中英文社区扩散,引发关于AI巨头商业压力、伦理底线与科学家个人责任的激烈争论,也再度将科技公司与军事AI合作的敏感议题推向台前。"
+    ]
+  },
+  {
+    "id": "2026-07-19_ai_2",
+    "date": "2026-07-19",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "央视新闻",
+    "platform_color": "#7C3AED",
+    "title": "上智院开放科学多模态大模型\"神珍\"",
+    "url": "https://news.cctv.com/2026/07/18/ARTIhwtPPG5x7VMcIRC5wmxl260718.shtml",
+    "image": "images/2026-07-19/2026-07-19_ai_2.jpg",
+    "detail": [
+      "7月18日,上海科学智能研究院(上智院)宣布向全球开放一款名为\"神珍\"(Monkey King Bang,MKB)的多模态科学基础大模型。模型总参数约110亿,以Qwen3-VL-8B为共享主干,面向DNA、RNA、蛋白质、小分子、地球系统和医学影像六类科学数据,在单一统一模型中同时支持科学理解与多类结果生成。",
+      "与只做问答的模型不同,\"神珍\"能直接生成新内容,包括RNA序列、可供计算机读取的分子式SMILES、未来10天的全球天气预报,以及从医学影像中自动标注器官或病灶区域。为兼顾不同数据特性,模型为六类数据设置专门处理通路:序列按先后顺序读取,分子按原子连接理解,气象数据按空间分布分析,影像保留局部细节。",
+      "官方评测显示,在覆盖DNA、RNA、蛋白质的20项任务中,\"神珍\"有9项取得参评模型最优、17项位列前二,与总参数约1万亿的Intern-S1-Pro相比也各有胜负,证明参数规模并非科学模型能力的唯一维度。模型已在星河启智平台、Hugging Face及GitHub三大社区完整开源,有望加速AI for Science跨学科落地。"
+    ]
+  },
+  {
+    "id": "2026-07-19_ai_1",
+    "date": "2026-07-19",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "IT之家",
+    "platform_color": "#7C3AED",
+    "title": "商汤发布日日新U1 Pro,原生8K图片交付",
+    "url": "https://www.ithome.com/0/978/562.htm",
+    "image": "images/2026-07-19/2026-07-19_ai_1.jpg",
+    "detail": [
+      "7月18日,在2026世界人工智能大会(WAIC)上,商汤科技正式发布大模型家族旗舰新品——日日新SenseNova U1 Pro图片创作模型。作为今年4月开源的U1系列旗舰版本,它定位为面向长程任务的交付级原生多模态智能体基座,基于NEO-Unify原生统一架构打通理解、生成与行动能力,官方称效果比肩海外顶尖模型。",
+      "U1 Pro主打四大交付能力:一是宣称告别\"AI味\"、具备专业设计美感;二是最高支持原生8K超清分辨率输出,画幅放大后文字、线条、图标仍清晰稳定,经得起印刷与展览级检验;三是极高信息密度下文字渲染出错率极低;四是支持数十轮Agentic Generation Loop智能体生成循环。正式版预计今年8月上线并同步推出API服务。",
+      "现场商汤演示了为WAIC九周年创作4:1超宽画幅《智会世图》水墨长卷、生成含22个连续镜头的影视分镜方案,以及将世界杯数据自动生成可视化分析报告。官方数据显示,6月U1用户日均生图量较5月提升近3倍,截至7月中旬相关代码库在GitHub累计Star已突破8000,社区关注度持续走高。"
+    ]
+  }
+]
