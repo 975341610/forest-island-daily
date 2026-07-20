@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-19": {
-      "DeusData/codebase-memory-mcp": 1,
-      "Kilo-Org/kilocode": 2,
-      "google-research/timesfm": 3,
-      "Egonex-AI/Understand-Anything": 4,
-      "github/spec-kit": 5,
-      "calesthio/OpenMontage": 6,
-      "makeplane/plane": 7,
-      "anthropics/financial-services": 8,
-      "n0-computer/iroh": 9,
-      "Adam-CAD/CADAM": 10,
-      "nautechsystems/nautilus_trader": 11,
-      "openai/codex": 12,
-      "alibaba/zvec": 13,
-      "continuedev/continue": 14,
-      "Universal-Debloater-Alliance/universal-android-debloater-next-generation": 15,
-      "shareAI-lab/learn-claude-code": 16,
-      "zai-org/GLM-5": 17,
-      "bytedance/UI-TARS-desktop": 18,
-      "K-Dense-AI/scientific-agent-skills": 19,
-      "BuilderIO/agent-native": 20,
-      "meshery/meshery": 21,
-      "garrytan/gbrain": 22,
-      "multica-ai/multica": 23,
-      "koala73/worldmonitor": 24,
-      "yifanfeng97/Hyper-Extract": 25
-    },
     "2026-06-20": {
       "google-research/timesfm": 1,
       "DeusData/codebase-memory-mcp": 2,
@@ -836,6 +809,33 @@
       "apache/ossie": 23,
       "outsourc-e/hermes-workspace": 24,
       "greensock/GSAP": 25
+    },
+    "2026-07-20": {
+      "bojieli/ai-agent-book": 1,
+      "Robbyant/lingbot-map": 2,
+      "codecrafters-io/build-your-own-x": 3,
+      "jamiepine/voicebox": 4,
+      "KnockOutEZ/wigolo": 5,
+      "PostHog/posthog": 6,
+      "MoonshotAI/kimi-cli": 7,
+      "kvcache-ai/ktransformers": 8,
+      "SigNoz/signoz": 9,
+      "garrytan/gstack": 10,
+      "HKUDS/DeepTutor": 11,
+      "1jehuang/jcode": 12,
+      "every-app/open-seo": 13,
+      "elder-plinius/G0DM0D3": 14,
+      "openinterpreter/openinterpreter": 15,
+      "pocketbase/pocketbase": 16,
+      "ruvnet/ruflo": 17,
+      "Comfy-Org/ComfyUI": 18,
+      "PKUFlyingPig/cs-self-learning": 19,
+      "XiaoYouChR/Ghost-Downloader-3": 20,
+      "Canner/WrenAI": 21,
+      "Flowseal/zapret-discord-youtube": 22,
+      "AstrBotDevs/AstrBot": 23,
+      "ollama/ollama": 24,
+      "esengine/DeepSeek-Reasonix": 25
     }
   }
 }

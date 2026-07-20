@@ -1,932 +1,230 @@
 {
-  "week_start": "2026-07-13",
+  "week_start": "2026-07-20",
   "repos": {
-    "HKUDS/Vibe-Trading": {
+    "bojieli/ai-agent-book": {
       "best_rank": 1,
-      "appearances": 5,
-      "total_today_stars": 4873,
+      "appearances": 1,
+      "total_today_stars": 1734,
       "language": "Python",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
-      "html_url": "https://github.com/HKUDS/Vibe-Trading"
-    },
-    "k1tbyte/Wand-Enhancer": {
-      "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 609,
-      "language": "C#",
-      "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/96521396?v=4",
-      "html_url": "https://github.com/k1tbyte/Wand-Enhancer"
-    },
-    "malisper/pgrust": {
-      "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 939,
-      "language": "Rust",
-      "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/6210567?v=4",
-      "html_url": "https://github.com/malisper/pgrust"
-    },
-    "anthropics/claude-cookbooks": {
-      "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 459,
-      "language": "Jupyter Notebook",
-      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
-      "html_url": "https://github.com/anthropics/claude-cookbooks"
-    },
-    "Shubhamsaboo/awesome-llm-apps": {
-      "best_rank": 3,
-      "appearances": 6,
-      "total_today_stars": 5620,
-      "language": "Python",
-      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/31396011?v=4",
-      "html_url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
-    },
-    "home-assistant/core": {
-      "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 400,
-      "language": "Python",
-      "description": ":house_with_garden: Open source home automation that puts local control and privacy first.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/13844975?v=4",
-      "html_url": "https://github.com/home-assistant/core"
-    },
-    "public-apis/public-apis": {
-      "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 737,
-      "language": "Python",
-      "description": "A collective list of free APIs",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/51121562?v=4",
-      "html_url": "https://github.com/public-apis/public-apis"
-    },
-    "par274/sharpemu": {
-      "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 646,
-      "language": "C#",
-      "description": "An experimental PlayStation 5 emulator project.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/12572227?v=4",
-      "html_url": "https://github.com/par274/sharpemu"
-    },
-    "pbakaus/impeccable": {
-      "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 271,
-      "language": "JavaScript",
-      "description": "The design language that makes your AI harness better at design.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
-      "html_url": "https://github.com/pbakaus/impeccable"
-    },
-    "iptv-org/iptv": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 270,
-      "language": "TypeScript",
-      "description": "Collection of publicly available IPTV channels from all over the world",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/55937028?v=4",
-      "html_url": "https://github.com/iptv-org/iptv"
-    },
-    "hmjz100/LinkSwift": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 234,
-      "language": "JavaScript",
-      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/98228280?v=4",
-      "html_url": "https://github.com/hmjz100/LinkSwift"
-    },
-    "openai/codex": {
-      "best_rank": 9,
-      "appearances": 5,
-      "total_today_stars": 1703,
-      "language": "Rust",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
-      "html_url": "https://github.com/openai/codex"
-    },
-    "vercel/next.js": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 179,
-      "language": "JavaScript",
-      "description": "The React Framework",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/14985020?v=4",
-      "html_url": "https://github.com/vercel/next.js"
-    },
-    "heygen-com/hyperframes": {
-      "best_rank": 11,
-      "appearances": 4,
-      "total_today_stars": 1182,
-      "language": "TypeScript",
-      "description": "Write HTML. Render video. Built for agents.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
-      "html_url": "https://github.com/heygen-com/hyperframes"
-    },
-    "oven-sh/bun": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 162,
-      "language": "Rust",
-      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/108928776?v=4",
-      "html_url": "https://github.com/oven-sh/bun"
-    },
-    "Nutlope/hallmark": {
-      "best_rank": 1,
-      "appearances": 6,
-      "total_today_stars": 8098,
-      "language": "CSS",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/63742054?v=4",
-      "html_url": "https://github.com/Nutlope/hallmark"
-    },
-    "chen08209/FlClash": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 154,
-      "language": "Dart",
-      "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/66918471?v=4",
-      "html_url": "https://github.com/chen08209/FlClash"
-    },
-    "naptha/tesseract.js": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 149,
-      "language": "JavaScript",
-      "description": "Pure Javascript OCR for more than 100 Languages 📖🎉🖥",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/7720173?v=4",
-      "html_url": "https://github.com/naptha/tesseract.js"
-    },
-    "ruvnet/ruflo": {
-      "best_rank": 19,
-      "appearances": 2,
-      "total_today_stars": 300,
-      "language": "TypeScript",
-      "description": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
-      "html_url": "https://github.com/ruvnet/ruflo"
-    },
-    "gitroomhq/postiz-app": {
-      "best_rank": 20,
-      "appearances": 2,
-      "total_today_stars": 250,
-      "language": "TypeScript",
-      "description": "📨 The ultimate agentic social media scheduling tool 🤖",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/128401275?v=4",
-      "html_url": "https://github.com/gitroomhq/postiz-app"
-    },
-    "Crosstalk-Solutions/project-nomad": {
-      "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 495,
-      "language": "TypeScript",
-      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/105950641?v=4",
-      "html_url": "https://github.com/Crosstalk-Solutions/project-nomad"
-    },
-    "Comfy-Org/ComfyUI": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 125,
-      "language": "Python",
-      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/166579949?v=4",
-      "html_url": "https://github.com/Comfy-Org/ComfyUI"
-    },
-    "virattt/ai-hedge-fund": {
-      "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 445,
-      "language": "Python",
-      "description": "An AI Hedge Fund Team",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/901795?v=4",
-      "html_url": "https://github.com/virattt/ai-hedge-fund"
-    },
-    "cypress-io/cypress": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 109,
-      "language": "TypeScript",
-      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/8908513?v=4",
-      "html_url": "https://github.com/cypress-io/cypress"
-    },
-    "react/react": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 103,
-      "language": "JavaScript",
-      "description": "The library for web and native user interfaces.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/102812?v=4",
-      "html_url": "https://github.com/react/react"
-    },
-    "Graphify-Labs/graphify": {
-      "best_rank": 1,
-      "appearances": 5,
-      "total_today_stars": 7036,
-      "language": "Python",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
-      "html_url": "https://github.com/Graphify-Labs/graphify"
-    },
-    "github/spec-kit": {
-      "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1783,
-      "language": "Python",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
-      "html_url": "https://github.com/github/spec-kit"
-    },
-    "hasaneyldrm/exercises-dataset": {
-      "best_rank": 4,
-      "appearances": 4,
-      "total_today_stars": 2961,
-      "language": "HTML",
-      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/28005450?v=4",
-      "html_url": "https://github.com/hasaneyldrm/exercises-dataset"
-    },
-    "PrefectHQ/prefect": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 254,
-      "language": "Python",
-      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/39270919?v=4",
-      "html_url": "https://github.com/PrefectHQ/prefect"
-    },
-    "TauricResearch/TradingAgents": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 245,
-      "language": "Python",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/192884433?v=4",
-      "html_url": "https://github.com/TauricResearch/TradingAgents"
-    },
-    "pingdotgg/t3code": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 232,
-      "language": "TypeScript",
-      "description": "",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
-      "html_url": "https://github.com/pingdotgg/t3code"
-    },
-    "Augani/openreel-video": {
-      "best_rank": 15,
-      "appearances": 2,
-      "total_today_stars": 349,
-      "language": "TypeScript",
-      "description": "OpenReel Video - Professional browser-based video editor. Open source CapCut alternative. 100% browser-based, no installation, no cloud uploads, no watermarks.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/13237525?v=4",
-      "html_url": "https://github.com/Augani/openreel-video"
-    },
-    "ColeMurray/background-agents": {
-      "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 209,
-      "language": "TypeScript",
-      "description": "An open-source background agents coding system",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/2492022?v=4",
-      "html_url": "https://github.com/ColeMurray/background-agents"
-    },
-    "practical-tutorials/project-based-learning": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 179,
-      "language": "Python",
-      "description": "Curated list of project-based tutorials",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/89421154?v=4",
-      "html_url": "https://github.com/practical-tutorials/project-based-learning"
-    },
-    "simonlin1212/TradingAgents-astock": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 179,
-      "language": "Python",
-      "description": "A股多Agent投研框架 — 适配A股数据源(龙虎榜/游资/解禁等)，7位分析师基于A股规则的辩论决策，基于TradingAgents深度改造，适配大A。A-share multi-agent investment research framework — 7 AI analysts, bull/bear debate, risk assessment。",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/166034225?v=4",
-      "html_url": "https://github.com/simonlin1212/TradingAgents-astock"
-    },
-    "zarazhangrui/frontend-slides": {
-      "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 175,
-      "language": "JavaScript",
-      "description": "Create beautiful slides on the web using a coding agent's frontend skills",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/153693696?v=4",
-      "html_url": "https://github.com/zarazhangrui/frontend-slides"
-    },
-    "3b1b/manim": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 133,
-      "language": "Python",
-      "description": "Animation engine for explanatory math videos",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/11601040?v=4",
-      "html_url": "https://github.com/3b1b/manim"
-    },
-    "FoundationAgents/OpenManus": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 126,
-      "language": "Python",
-      "description": "No fortress, purely open ground.  OpenManus is Coming.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/198047230?v=4",
-      "html_url": "https://github.com/FoundationAgents/OpenManus"
-    },
-    "Anil-matcha/Open-Generative-AI": {
-      "best_rank": 16,
-      "appearances": 4,
-      "total_today_stars": 532,
-      "language": "JavaScript",
-      "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
-      "html_url": "https://github.com/Anil-matcha/Open-Generative-AI"
-    },
-    "IceWhaleTech/CasaOS": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 114,
-      "language": "Go",
-      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/91336243?v=4",
-      "html_url": "https://github.com/IceWhaleTech/CasaOS"
-    },
-    "openinterpreter/openinterpreter": {
-      "best_rank": 4,
-      "appearances": 5,
-      "total_today_stars": 2381,
-      "language": "Rust",
-      "description": "A coding agent for low-cost models",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/163192481?v=4",
-      "html_url": "https://github.com/openinterpreter/openinterpreter"
-    },
-    "earendil-works/pi": {
-      "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 963,
-      "language": "TypeScript",
-      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
-      "html_url": "https://github.com/earendil-works/pi"
-    },
-    "moeru-ai/airi": {
-      "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 1049,
-      "language": "TypeScript",
-      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/165476306?v=4",
-      "html_url": "https://github.com/moeru-ai/airi"
-    },
-    "microsoft/markitdown": {
-      "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 1304,
-      "language": "Python",
-      "description": "Python tool for converting files and office documents to Markdown.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
-      "html_url": "https://github.com/microsoft/markitdown"
-    },
-    "penpot/penpot": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 395,
-      "language": "Clojure",
-      "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/30179644?v=4",
-      "html_url": "https://github.com/penpot/penpot"
-    },
-    "Fission-AI/OpenSpec": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 280,
-      "language": "TypeScript",
-      "description": "Spec-driven development (SDD) for AI coding assistants.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/203414896?v=4",
-      "html_url": "https://github.com/Fission-AI/OpenSpec"
-    },
-    "Wei-Shaw/sub2api": {
-      "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 448,
-      "language": "Go",
-      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/26101719?v=4",
-      "html_url": "https://github.com/Wei-Shaw/sub2api"
-    },
-    "multica-ai/multica": {
-      "best_rank": 14,
-      "appearances": 3,
-      "total_today_stars": 621,
-      "language": "Go",
-      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
-      "html_url": "https://github.com/multica-ai/multica"
-    },
-    "browseros-ai/BrowserOS": {
-      "best_rank": 17,
-      "appearances": 2,
-      "total_today_stars": 425,
-      "language": "TypeScript",
-      "description": "🌐 The open-source Agentic browser; alternative to ChatGPT Atlas, Perplexity Comet, Dia.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/218857586?v=4",
-      "html_url": "https://github.com/browseros-ai/BrowserOS"
-    },
-    "chenyme/grok2api": {
-      "best_rank": 15,
-      "appearances": 4,
-      "total_today_stars": 613,
-      "language": "Go",
-      "description": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/118253778?v=4",
-      "html_url": "https://github.com/chenyme/grok2api"
-    },
-    "millionco/react-doctor": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 174,
-      "language": "TypeScript",
-      "description": "Your agent writes bad React. This catches it",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/85101781?v=4",
-      "html_url": "https://github.com/millionco/react-doctor"
-    },
-    "google/skills": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 153,
-      "language": "Python",
-      "description": "Agent Skills for Google products and technologies",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
-      "html_url": "https://github.com/google/skills"
-    },
-    "kangarooking/cangjie-skill": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 145,
-      "language": "Python",
-      "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/52196004?v=4",
-      "html_url": "https://github.com/kangarooking/cangjie-skill"
-    },
-    "QuantumNous/new-api": {
-      "best_rank": 22,
-      "appearances": 2,
-      "total_today_stars": 245,
-      "language": "Go",
-      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/205075698?v=4",
-      "html_url": "https://github.com/QuantumNous/new-api"
-    },
-    "tt-a1i/archify": {
-      "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 541,
-      "language": "JavaScript",
-      "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
-      "html_url": "https://github.com/tt-a1i/archify"
-    },
-    "AIEraDev/Clypra": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 338,
-      "language": "TypeScript",
-      "description": "A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/80651195?v=4",
-      "html_url": "https://github.com/AIEraDev/Clypra"
-    },
-    "datawhalechina/hello-agents": {
-      "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 429,
-      "language": "Python",
-      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/46047812?v=4",
-      "html_url": "https://github.com/datawhalechina/hello-agents"
-    },
-    "screenpipe/screenpipe": {
-      "best_rank": 16,
-      "appearances": 3,
-      "total_today_stars": 398,
-      "language": "Rust",
-      "description": "YC (S26) | AI that knows what you've seen, said, or heard. Records everything you do, say, hear 24/7, local, private, secure. Connect to OpenClaw, Hermes agent and 100+ apps",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/259178917?v=4",
-      "html_url": "https://github.com/screenpipe/screenpipe"
-    },
-    "HKUDS/DeepTutor": {
-      "best_rank": 5,
-      "appearances": 4,
-      "total_today_stars": 1729,
-      "language": "Python",
-      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
-      "html_url": "https://github.com/HKUDS/DeepTutor"
-    },
-    "HKUDS/nanobot": {
-      "best_rank": 21,
-      "appearances": 2,
-      "total_today_stars": 193,
-      "language": "Python",
-      "description": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
-      "html_url": "https://github.com/HKUDS/nanobot"
-    },
-    "SagerNet/sing-box": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 102,
-      "language": "Go",
-      "description": "The universal proxy platform",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/83217677?v=4",
-      "html_url": "https://github.com/SagerNet/sing-box"
-    },
-    "NousResearch/hermes-agent": {
-      "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 588,
-      "language": "Python",
-      "description": "The agent that grows with you",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
-      "html_url": "https://github.com/NousResearch/hermes-agent"
-    },
-    "codecrafters-io/build-your-own-x": {
-      "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 2629,
-      "language": "Markdown",
-      "description": "Master programming by recreating your favorite technologies from scratch.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/58904235?v=4",
-      "html_url": "https://github.com/codecrafters-io/build-your-own-x"
-    },
-    "PrismML-Eng/Bonsai-demo": {
-      "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 474,
-      "language": "Shell",
-      "description": "Bonsai Demo",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/259176612?v=4",
-      "html_url": "https://github.com/PrismML-Eng/Bonsai-demo"
-    },
-    "YimMenu/YimMenuV2": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 128,
-      "language": "C++",
-      "description": "Experimental menu for GTA 5: Enhanced",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/106739674?v=4",
-      "html_url": "https://github.com/YimMenu/YimMenuV2"
-    },
-    "ossu/computer-science": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 107,
-      "language": "HTML",
-      "description": "🎓 Path to a free self-taught education in Computer Science!",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/14957346?v=4",
-      "html_url": "https://github.com/ossu/computer-science"
-    },
-    "thinking-machines-lab/tinker-cookbook": {
-      "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 100,
-      "language": "Python",
-      "description": "Post-training with Tinker",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/220441404?v=4",
-      "html_url": "https://github.com/thinking-machines-lab/tinker-cookbook"
-    },
-    "memvid/memvid": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 81,
-      "language": "Rust",
-      "description": "Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/241489775?v=4",
-      "html_url": "https://github.com/memvid/memvid"
-    },
-    "vercel-labs/agent-browser": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 81,
-      "language": "Rust",
-      "description": "Browser automation CLI for AI agents",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
-      "html_url": "https://github.com/vercel-labs/agent-browser"
-    },
-    "PostHog/posthog": {
-      "best_rank": 6,
-      "appearances": 3,
-      "total_today_stars": 853,
-      "language": "Python",
-      "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/60330232?v=4",
-      "html_url": "https://github.com/PostHog/posthog"
-    },
-    "pocketbase/pocketbase": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 65,
-      "language": "Go",
-      "description": "Open Source realtime backend in 1 file",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/101000011?v=4",
-      "html_url": "https://github.com/pocketbase/pocketbase"
-    },
-    "FB208/OpenBidKit_Yibiao": {
-      "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 475,
-      "language": "JavaScript",
-      "description": "开箱即用的AI标书编写工具，标书AI生成工具，投标工具箱、知识库、标书查重、废标项检查，完全开源免费，欢迎使用",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/8197476?v=4",
-      "html_url": "https://github.com/FB208/OpenBidKit_Yibiao"
-    },
-    "firecrawl/open-lovable": {
-      "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 461,
-      "language": "TypeScript",
-      "description": "🔥 Clone and recreate any website as a modern React app in seconds",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
-      "html_url": "https://github.com/firecrawl/open-lovable"
-    },
-    "RyanCodrai/turbovec": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 280,
-      "language": "Python",
-      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/10856497?v=4",
-      "html_url": "https://github.com/RyanCodrai/turbovec"
-    },
-    "github/copilot-sdk": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 233,
-      "language": "Java",
-      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
-      "html_url": "https://github.com/github/copilot-sdk"
-    },
-    "n8n-io/n8n": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 160,
-      "language": "TypeScript",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/45487711?v=4",
-      "html_url": "https://github.com/n8n-io/n8n"
-    },
-    "NomaDamas/k-skill": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 96,
-      "language": "JavaScript",
-      "description": "한국인을 위한 스킬 모음집 - SRT, KTX, 카카오톡, 한글과컴퓨터, 날씨, 미세먼지, 법령, 주식정보, 조선왕조실록, KBO, K-리그, LCK, 특허 검색, 토스 증권, 맞춤법 검사, 중고차 가격, 쿠팡, 네이버 블로그, 다이소, 올리브영, 택배 송장 조회 등등...",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/140389712?v=4",
-      "html_url": "https://github.com/NomaDamas/k-skill"
-    },
-    "docusealco/docuseal": {
-      "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 91,
-      "language": "Ruby",
-      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/138379721?v=4",
-      "html_url": "https://github.com/docusealco/docuseal"
-    },
-    "poteto/hiring-without-whiteboards": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 74,
-      "language": "JavaScript",
-      "description": "⭐️  Companies that don't have a broken hiring process",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/1390709?v=4",
-      "html_url": "https://github.com/poteto/hiring-without-whiteboards"
-    },
-    "safing/portmaster": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 62,
-      "language": "Go",
-      "description": "🏔 Love Freedom - ❌ Block Mass Surveillance",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/20678162?v=4",
-      "html_url": "https://github.com/safing/portmaster"
-    },
-    "EKKOLearnAI/hermes-studio": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 59,
-      "language": "TypeScript",
-      "description": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics ",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/152005280?v=4",
-      "html_url": "https://github.com/EKKOLearnAI/hermes-studio"
-    },
-    "superplanehq/superplane": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 54,
-      "language": "Go",
-      "description": "The open source control plane for agentic engineering.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/210748804?v=4",
-      "html_url": "https://github.com/superplanehq/superplane"
-    },
-    "SillyTavern/SillyTavern": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 51,
-      "language": "JavaScript",
-      "description": "LLM Frontend for Power Users.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/134869877?v=4",
-      "html_url": "https://github.com/SillyTavern/SillyTavern"
-    },
-    "rustfs/rustfs": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 51,
-      "language": "Rust",
-      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/151849438?v=4",
-      "html_url": "https://github.com/rustfs/rustfs"
-    },
-    "Tencent/WeKnora": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 49,
-      "language": "Go",
-      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
-      "html_url": "https://github.com/Tencent/WeKnora"
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1421793?v=4",
+      "html_url": "https://github.com/bojieli/ai-agent-book"
     },
     "Robbyant/lingbot-map": {
       "best_rank": 2,
       "appearances": 1,
-      "total_today_stars": 831,
+      "total_today_stars": 865,
       "language": "Python",
       "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
       "owner_avatar": "https://avatars.githubusercontent.com/u/212647524?v=4",
       "html_url": "https://github.com/Robbyant/lingbot-map"
     },
-    "SigNoz/signoz": {
+    "codecrafters-io/build-your-own-x": {
       "best_rank": 3,
       "appearances": 1,
-      "total_today_stars": 432,
-      "language": "TypeScript",
-      "description": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log management, infra monitoring, etc. Combined with SigNoz MCP and a native AI teammate (in SigNoz Cloud) it helps you build more resilient apps.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/76905799?v=4",
-      "html_url": "https://github.com/SigNoz/signoz"
+      "total_today_stars": 754,
+      "language": "Markdown",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/58904235?v=4",
+      "html_url": "https://github.com/codecrafters-io/build-your-own-x"
     },
-    "anthropics/skills": {
-      "best_rank": 7,
+    "jamiepine/voicebox": {
+      "best_rank": 4,
       "appearances": 1,
-      "total_today_stars": 291,
-      "language": "Python",
-      "description": "Public repository for Agent Skills",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
-      "html_url": "https://github.com/anthropics/skills"
+      "total_today_stars": 610,
+      "language": "TypeScript",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/32987599?v=4",
+      "html_url": "https://github.com/jamiepine/voicebox"
     },
     "KnockOutEZ/wigolo": {
-      "best_rank": 8,
+      "best_rank": 5,
       "appearances": 1,
-      "total_today_stars": 203,
+      "total_today_stars": 595,
       "language": "TypeScript",
       "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/70368615?v=4",
       "html_url": "https://github.com/KnockOutEZ/wigolo"
     },
-    "anthropics/cwc-workshops": {
-      "best_rank": 9,
+    "PostHog/posthog": {
+      "best_rank": 6,
       "appearances": 1,
-      "total_today_stars": 162,
-      "language": "TypeScript",
-      "description": "",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
-      "html_url": "https://github.com/anthropics/cwc-workshops"
-    },
-    "rivet-dev/agentos": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 136,
-      "language": "Rust",
-      "description": "A faster, lighter, cheaper alternative to sandboxes. Run any coding agent inside an isolated Linux VM, with agent orchestration built in.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/57733614?v=4",
-      "html_url": "https://github.com/rivet-dev/agentos"
-    },
-    "OpenSenseNova/SenseNova-U1": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 97,
+      "total_today_stars": 411,
       "language": "Python",
-      "description": "SenseNova-U series: Native Unified Paradigm with NEO-unify from the First Principles",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/175909011?v=4",
-      "html_url": "https://github.com/OpenSenseNova/SenseNova-U1"
-    },
-    "tldraw/tldraw": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 85,
-      "language": "TypeScript",
-      "description": "Build infinite canvas apps in React with the tldraw SDK. World's best, top-most agent recommended #1 five star SDK.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/86724562?v=4",
-      "html_url": "https://github.com/tldraw/tldraw"
-    },
-    "microsoft/agent-framework-go": {
-      "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 80,
-      "language": "Go",
-      "description": "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
-      "html_url": "https://github.com/microsoft/agent-framework-go"
-    },
-    "tursodatabase/turso": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 75,
-      "language": "Rust",
-      "description": "A SQL database in Rust: SQLite-compatible, now also speaking Postgres (experimental). The LLVM of databases.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/139391156?v=4",
-      "html_url": "https://github.com/tursodatabase/turso"
-    },
-    "elder-plinius/G0DM0D3": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 69,
-      "language": "TypeScript",
-      "description": "LIBERATED AI CHAT",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/133052465?v=4",
-      "html_url": "https://github.com/elder-plinius/G0DM0D3"
+      "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/60330232?v=4",
+      "html_url": "https://github.com/PostHog/posthog"
     },
     "MoonshotAI/kimi-cli": {
-      "best_rank": 19,
+      "best_rank": 7,
       "appearances": 1,
-      "total_today_stars": 65,
+      "total_today_stars": 410,
       "language": "Python",
       "description": "Kimi Code CLI is your next CLI agent.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/129152888?v=4",
       "html_url": "https://github.com/MoonshotAI/kimi-cli"
     },
-    "warpdotdev/warp": {
+    "kvcache-ai/ktransformers": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 360,
+      "language": "Python",
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/170996193?v=4",
+      "html_url": "https://github.com/kvcache-ai/ktransformers"
+    },
+    "SigNoz/signoz": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 345,
+      "language": "TypeScript",
+      "description": "SigNoz is an open-source, OpenTelemetry-native observability platform for your team and their AI agents. Get logs, metrics, and traces in one tool with features like APM, distributed tracing, log management, infra monitoring, etc. Combined with SigNoz MCP and a native AI teammate (in SigNoz Cloud) it helps you build more resilient apps.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76905799?v=4",
+      "html_url": "https://github.com/SigNoz/signoz"
+    },
+    "garrytan/gstack": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 330,
+      "language": "TypeScript",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
+      "html_url": "https://github.com/garrytan/gstack"
+    },
+    "HKUDS/DeepTutor": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 269,
+      "language": "Python",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/DeepTutor"
+    },
+    "1jehuang/jcode": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 235,
+      "language": "Rust",
+      "description": "Coding Agent Harness",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/94247773?v=4",
+      "html_url": "https://github.com/1jehuang/jcode"
+    },
+    "every-app/open-seo": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 222,
+      "language": "TypeScript",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
+      "html_url": "https://github.com/every-app/open-seo"
+    },
+    "elder-plinius/G0DM0D3": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 216,
+      "language": "TypeScript",
+      "description": "LIBERATED AI CHAT",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/133052465?v=4",
+      "html_url": "https://github.com/elder-plinius/G0DM0D3"
+    },
+    "openinterpreter/openinterpreter": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 176,
+      "language": "Rust",
+      "description": "A coding agent for open models like Kimi K3",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/163192481?v=4",
+      "html_url": "https://github.com/openinterpreter/openinterpreter"
+    },
+    "pocketbase/pocketbase": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 164,
+      "language": "Go",
+      "description": "Open Source realtime backend in 1 file",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/101000011?v=4",
+      "html_url": "https://github.com/pocketbase/pocketbase"
+    },
+    "ruvnet/ruflo": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 154,
+      "language": "TypeScript",
+      "description": "🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "html_url": "https://github.com/ruvnet/ruflo"
+    },
+    "Comfy-Org/ComfyUI": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 138,
+      "language": "Python",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/166579949?v=4",
+      "html_url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    "PKUFlyingPig/cs-self-learning": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 134,
+      "language": "HTML",
+      "description": "计算机自学指南",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/60659728?v=4",
+      "html_url": "https://github.com/PKUFlyingPig/cs-self-learning"
+    },
+    "XiaoYouChR/Ghost-Downloader-3": {
       "best_rank": 20,
       "appearances": 1,
-      "total_today_stars": 59,
-      "language": "Rust",
-      "description": "Warp is an agentic development environment, born out of the terminal.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/71840468?v=4",
-      "html_url": "https://github.com/warpdotdev/warp"
+      "total_today_stars": 124,
+      "language": "Python",
+      "description": "An AI-boost cross-platform multi-protocol fluent-design concurrent downloader built with Python & Qt.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/87308195?v=4",
+      "html_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3"
     },
-    "andrewrabert/jellium-desktop": {
+    "Canner/WrenAI": {
       "best_rank": 21,
       "appearances": 1,
-      "total_today_stars": 55,
-      "language": "Rust",
-      "description": "An unofficial desktop client for Jellyfin",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/6550543?v=4",
-      "html_url": "https://github.com/andrewrabert/jellium-desktop"
+      "total_today_stars": 121,
+      "language": "Python",
+      "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/7250217?v=4",
+      "html_url": "https://github.com/Canner/WrenAI"
     },
-    "cocoindex-io/cocoindex": {
+    "Flowseal/zapret-discord-youtube": {
       "best_rank": 22,
       "appearances": 1,
-      "total_today_stars": 52,
-      "language": "Rust",
-      "description": "Incremental engine for long horizon agents 🌟 Star if you like it!",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/190812870?v=4",
-      "html_url": "https://github.com/cocoindex-io/cocoindex"
+      "total_today_stars": 106,
+      "language": "Batchfile",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/50780822?v=4",
+      "html_url": "https://github.com/Flowseal/zapret-discord-youtube"
     },
-    "apache/ossie": {
+    "AstrBotDevs/AstrBot": {
       "best_rank": 23,
       "appearances": 1,
-      "total_today_stars": 47,
+      "total_today_stars": 83,
       "language": "Python",
-      "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/47359?v=4",
-      "html_url": "https://github.com/apache/ossie"
+      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/197911947?v=4",
+      "html_url": "https://github.com/AstrBotDevs/AstrBot"
     },
-    "outsourc-e/hermes-workspace": {
+    "ollama/ollama": {
       "best_rank": 24,
       "appearances": 1,
-      "total_today_stars": 45,
-      "language": "JavaScript",
-      "description": "Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector.",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/201563152?v=4",
-      "html_url": "https://github.com/outsourc-e/hermes-workspace"
+      "total_today_stars": 79,
+      "language": "Go",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
+      "html_url": "https://github.com/ollama/ollama"
     },
-    "greensock/GSAP": {
+    "esengine/DeepSeek-Reasonix": {
       "best_rank": 25,
       "appearances": 1,
-      "total_today_stars": 44,
-      "language": "JavaScript",
-      "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
-      "owner_avatar": "https://avatars.githubusercontent.com/u/2386673?v=4",
-      "html_url": "https://github.com/greensock/GSAP"
+      "total_today_stars": 78,
+      "language": "Go",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/18465053?v=4",
+      "html_url": "https://github.com/esengine/DeepSeek-Reasonix"
     }
   }
 }
