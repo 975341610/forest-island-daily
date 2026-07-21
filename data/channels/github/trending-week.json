@@ -3,8 +3,8 @@
   "repos": {
     "bojieli/ai-agent-book": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 1734,
+      "appearances": 2,
+      "total_today_stars": 6168,
       "language": "Python",
       "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1421793?v=4",
@@ -12,8 +12,8 @@
     },
     "Robbyant/lingbot-map": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 865,
+      "appearances": 2,
+      "total_today_stars": 1430,
       "language": "Python",
       "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
       "owner_avatar": "https://avatars.githubusercontent.com/u/212647524?v=4",
@@ -30,8 +30,8 @@
     },
     "jamiepine/voicebox": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 610,
+      "appearances": 2,
+      "total_today_stars": 1431,
       "language": "TypeScript",
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/32987599?v=4",
@@ -39,8 +39,8 @@
     },
     "KnockOutEZ/wigolo": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 595,
+      "appearances": 2,
+      "total_today_stars": 1284,
       "language": "TypeScript",
       "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/70368615?v=4",
@@ -48,8 +48,8 @@
     },
     "PostHog/posthog": {
       "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 411,
+      "appearances": 2,
+      "total_today_stars": 721,
       "language": "Python",
       "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/60330232?v=4",
@@ -57,8 +57,8 @@
     },
     "MoonshotAI/kimi-cli": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 410,
+      "appearances": 2,
+      "total_today_stars": 820,
       "language": "Python",
       "description": "Kimi Code CLI is your next CLI agent.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/129152888?v=4",
@@ -66,8 +66,8 @@
     },
     "kvcache-ai/ktransformers": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 360,
+      "appearances": 2,
+      "total_today_stars": 818,
       "language": "Python",
       "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
       "owner_avatar": "https://avatars.githubusercontent.com/u/170996193?v=4",
@@ -84,8 +84,8 @@
     },
     "garrytan/gstack": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 330,
+      "appearances": 2,
+      "total_today_stars": 578,
       "language": "TypeScript",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
@@ -101,18 +101,18 @@
       "html_url": "https://github.com/HKUDS/DeepTutor"
     },
     "1jehuang/jcode": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 235,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 803,
       "language": "Rust",
       "description": "Coding Agent Harness",
       "owner_avatar": "https://avatars.githubusercontent.com/u/94247773?v=4",
       "html_url": "https://github.com/1jehuang/jcode"
     },
     "every-app/open-seo": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 222,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 1161,
       "language": "TypeScript",
       "description": "Open source alternative to Semrush and Ahrefs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
@@ -182,9 +182,9 @@
       "html_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3"
     },
     "Canner/WrenAI": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 121,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 442,
       "language": "Python",
       "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/7250217?v=4",
@@ -200,9 +200,9 @@
       "html_url": "https://github.com/Flowseal/zapret-discord-youtube"
     },
     "AstrBotDevs/AstrBot": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 83,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 400,
       "language": "Python",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
       "owner_avatar": "https://avatars.githubusercontent.com/u/197911947?v=4",
@@ -225,6 +225,123 @@
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18465053?v=4",
       "html_url": "https://github.com/esengine/DeepSeek-Reasonix"
+    },
+    "oblien/openship": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1641,
+      "language": "TypeScript",
+      "description": "Self-hosted deployment platform",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/195301136?v=4",
+      "html_url": "https://github.com/oblien/openship"
+    },
+    "microsoft/Ontology-Playground": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 464,
+      "language": "TypeScript",
+      "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/Ontology-Playground"
+    },
+    "handy-computer/transcribe.cpp": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 395,
+      "language": "C++",
+      "description": " ggml speech-to-text inference for 16+ model families",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254852949?v=4",
+      "html_url": "https://github.com/handy-computer/transcribe.cpp"
+    },
+    "Alishahryar1/free-claude-code": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 313,
+      "language": "Python",
+      "description": "Use claude code, codex or pi for free from the terminal, IDE, or you phone like OpenClaw (voice supported)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
+      "html_url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    "earthtojake/text-to-cad": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 297,
+      "language": "JavaScript",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/10742417?v=4",
+      "html_url": "https://github.com/earthtojake/text-to-cad"
+    },
+    "moonshine-ai/moonshine": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 282,
+      "language": "C++",
+      "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/98664891?v=4",
+      "html_url": "https://github.com/moonshine-ai/moonshine"
+    },
+    "vercel-labs/deepsec": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 249,
+      "language": "TypeScript",
+      "description": "Deepsec is a security harness for finding vulnerabilities in your codebase powered by coding agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "html_url": "https://github.com/vercel-labs/deepsec"
+    },
+    "iptv-org/iptv": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 240,
+      "language": "TypeScript",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/55937028?v=4",
+      "html_url": "https://github.com/iptv-org/iptv"
+    },
+    "andrewrabert/jellium-desktop": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 155,
+      "language": "Rust",
+      "description": "An unofficial desktop client for Jellyfin",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6550543?v=4",
+      "html_url": "https://github.com/andrewrabert/jellium-desktop"
+    },
+    "mvanhorn/cli-printing-press": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 114,
+      "language": "Go",
+      "description": "Every API has a secret identity. This finds it, absorbs every feature from every competing tool, then builds the GOAT CLI — designed for AI agents first, with SQLite sync, offline search, and compound insight commands.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
+      "html_url": "https://github.com/mvanhorn/cli-printing-press"
+    },
+    "browser-use/video-use": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 110,
+      "language": "Python",
+      "description": "Edit videos with coding agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "html_url": "https://github.com/browser-use/video-use"
+    },
+    "PrefectHQ/fastmcp": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 96,
+      "language": "Python",
+      "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/39270919?v=4",
+      "html_url": "https://github.com/PrefectHQ/fastmcp"
+    },
+    "rmyndharis/OpenWA": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 81,
+      "language": "TypeScript",
+      "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2390382?v=4",
+      "html_url": "https://github.com/rmyndharis/OpenWA"
     }
   }
 }

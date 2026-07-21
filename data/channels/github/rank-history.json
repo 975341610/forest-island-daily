@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-20": {
-      "google-research/timesfm": 1,
-      "DeusData/codebase-memory-mcp": 2,
-      "Kilo-Org/kilocode": 3,
-      "palmier-io/palmier-pro": 4,
-      "zai-org/GLM-5": 5,
-      "makeplane/plane": 6,
-      "public-apis/public-apis": 7,
-      "n0-computer/iroh": 8,
-      "Kong/insomnia": 9,
-      "github/spec-kit": 10,
-      "Universal-Debloater-Alliance/universal-android-debloater-next-generation": 11,
-      "Lightricks/LTX-2": 12,
-      "stanford-oval/storm": 13,
-      "openai/codex": 14,
-      "koala73/worldmonitor": 15,
-      "calesthio/OpenMontage": 16,
-      "stablyai/orca": 17,
-      "BuilderIO/agent-native": 18,
-      "asheshgoplani/agent-deck": 19,
-      "bytedance/UI-TARS-desktop": 20,
-      "aishwaryanr/awesome-generative-ai-guide": 21,
-      "K-Dense-AI/scientific-agent-skills": 22,
-      "penpot/penpot": 23,
-      "kubearmor/KubeArmor": 24,
-      "zzet/gortex": 25
-    },
     "2026-06-21": {
       "DeusData/codebase-memory-mcp": 1,
       "palmier-io/palmier-pro": 2,
@@ -836,6 +809,33 @@
       "AstrBotDevs/AstrBot": 23,
       "ollama/ollama": 24,
       "esengine/DeepSeek-Reasonix": 25
+    },
+    "2026-07-21": {
+      "bojieli/ai-agent-book": 1,
+      "oblien/openship": 2,
+      "every-app/open-seo": 3,
+      "jamiepine/voicebox": 4,
+      "KnockOutEZ/wigolo": 5,
+      "1jehuang/jcode": 6,
+      "Robbyant/lingbot-map": 7,
+      "microsoft/Ontology-Playground": 8,
+      "kvcache-ai/ktransformers": 9,
+      "MoonshotAI/kimi-cli": 10,
+      "handy-computer/transcribe.cpp": 11,
+      "Canner/WrenAI": 12,
+      "AstrBotDevs/AstrBot": 13,
+      "Alishahryar1/free-claude-code": 14,
+      "PostHog/posthog": 15,
+      "earthtojake/text-to-cad": 16,
+      "moonshine-ai/moonshine": 17,
+      "vercel-labs/deepsec": 18,
+      "garrytan/gstack": 19,
+      "iptv-org/iptv": 20,
+      "andrewrabert/jellium-desktop": 21,
+      "mvanhorn/cli-printing-press": 22,
+      "browser-use/video-use": 23,
+      "PrefectHQ/fastmcp": 24,
+      "rmyndharis/OpenWA": 25
     }
   }
 }
