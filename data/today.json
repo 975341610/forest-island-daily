@@ -1,194 +1,281 @@
 [
   {
-    "id": "2026-07-21_ai_1",
-    "date": "2026-07-21",
+    "id": "2026-07-22_ai_1",
+    "date": "2026-07-22",
     "category": "AI",
-    "subcat": "AI治理",
-    "platform": "Los Angeles Times",
+    "subcat": "AI",
+    "platform": "Publishers Weekly",
     "platform_color": "#8ED16D",
-    "title": "哈萨比斯提议设全球AI监管机构",
-    "url": "https://www.latimes.com/business/story/2026-07-20/deepmind-chief-urges-washington-to-back-global-ai-watchdog-as-frontier-models-raise-security-fears",
-    "image": "images/2026-07-21/2026-07-21_ai_1.jpg",
+    "title": "Anthropic 15亿美元版权和解获终审批准",
+    "url": "https://www.publishersweekly.com/pw/by-topic/digital/copyright/article/100888-judge-gives-final-approval-in-1-5-billion-settlement-in-anthropic-copyright-case.html",
+    "image": "images/2026-07-22/2026-07-22_ai_1.jpg",
     "detail": [
-      "谷歌DeepMind首席执行官戴米斯·哈萨比斯正式推动其全球AI监管机构提案,并计划下周赴华盛顿与美国政策制定者会谈。据《洛杉矶时报》7月20日报道,该提案主张成立一个国际性独立机构,在前沿模型发布前进行\"严格\"的测试与审查,机构成员由独立技术专家担任,经费由领先AI公司承担,企业需将模型提交审查最长达30天。哈萨比斯坦言,他筹备该框架已数月,最终决定公布是因担忧Anthropic旗下Mythos模型展现的高级网络安全能力,称其为对社会的\"警示性一击\"。",
-      "提案参照美国金融业监管局FINRA的模式设计,并在必要时\"可根据形势严重程度逐步升级\",甚至协调领先实验室之间放缓研发节奏。哈萨比斯特别强调生物安全风险的潜在威胁:\"模型现在还不够强,但如果外推下去,也许两三年后就会到那个程度。\"他透露公司训练最新模型时已就基准分数与政府及AI安全机构保持沟通,但认为这种\"临时性\"做法长期难以为继,需要制度化安排。",
-      "这一提议迅速获得竞争对手回应:OpenAI的萨姆·奥尔特曼称其\"深思熟虑\",埃隆·马斯克则评价为\"讨论的良好起点\",此前奥尔特曼也曾呼吁建立美国主导的国际安全标准组织。发布前,哈萨比斯已向几乎所有主要AI实验室及包括Anthropic的达里奥·阿莫代伊在内的多位CEO征求过意见。不过报道也指出,美国、欧盟与中国在AI监管路径上时有分歧,美国国会尚未通过有意义的联邦立法,能否落地仍存变数,但哈萨比斯对当前\"足够的势能\"推动落地表示乐观。"
+      "美国加州北区联邦法官 Araceli Martinez-Olguin 于当地时间 7 月 20 日至 21 日正式批准了 Anthropic 与作家、出版商群体之间高达 15 亿美元的版权集体诉讼和解协议。此案源于 Anthropic 在训练 Claude 时使用了大量盗版书籍,是迄今为止美国已知规模最大的版权案和解,标志着这场持续两年的诉讼终于落下帷幕。",
+      "法官在裁决中驳回了部分作者认为和解金额过低的异议,认定该协议对约 50 万部受影响作品的赔偿方案公平合理。按方案测算,每部登记作品可获约 3000 美元赔偿,创作者需在规定期限内完成登记与认领,晚到的单独退出请求被一并否决。",
+      "这起和解为整个 AI 训练数据的版权争议树立了标杆性先例,被业界视为可能重塑大模型公司获取语料方式的分水岭。出版界与作家协会普遍将其称为历史性胜利,而 AI 行业则担忧后续会引发更多同类集体诉讼,倒逼各家从灰色语料转向付费授权。",
+      "值得注意的是,该和解落地正值 Anthropic 推进 IPO 进程、并因 Fable 5 等模型面临出口管制波动的敏感时点,15 亿美元的现金支出与合规信号对其上市估值叙事构成新的变量。"
     ]
   },
   {
-    "id": "2026-07-21_ai_2",
-    "date": "2026-07-21",
+    "id": "2026-07-22_ai_2",
+    "date": "2026-07-22",
     "category": "AI",
-    "subcat": "行业大会",
-    "platform": "新浪财经/上海证券报",
+    "subcat": "AI",
+    "platform": "AI Insider",
     "platform_color": "#8ED16D",
-    "title": "WAIC 2026闭幕交出成绩单",
-    "url": "https://finance.sina.com.cn/roll/2026-07-20/doc-iniimzha9764789.shtml",
-    "image": "images/2026-07-21/2026-07-21_ai_2.jpg",
+    "title": "谷歌自研Frozen v2芯片曝光 效率号称提升6-10倍",
+    "url": "https://theaiinsider.tech/2026/07/21/google-reportedly-developing-new-ai-chip-aimed-at-boosting-gemini-model-efficiency/",
+    "image": "images/2026-07-22/2026-07-22_ai_2.jpg",
     "detail": [
-      "2026世界人工智能大会(WAIC 2026)暨人工智能全球治理高级别会议于7月20日下午在上海闭幕,并交出一份创纪录的成绩单。据上海证券报现场报道,本届大会展览面积首次突破10万平方米,展品总数达4486项,其中351款产品全球首发、198款首秀,展商数量与展览面积均较去年增长超三分之一,线下参观人次超40万。这是中国首次在人工智能领域举办的高规格主场外交活动,大会期间开展10场双边外交活动。",
-      "在产业与资本对接方面,数据同样亮眼。截至7月20日,大会组织全球177个重要采购团组,现场发布212项采购需求,预计达成意向采购金额约203.6亿元,同比增长25%。闭幕式上一批上海市重点项目集中签约,涵盖AI基础设施、智能体应用、具身智能、科学智能等领域共32个项目,投资额超过409亿元;同时设立1.18万亿元创新企业意向性信贷支持额度。大会共组织近160场论坛,吸引1568位国内外专家,其中图灵奖、诺贝尔奖、菲尔兹奖得主达11位。",
-      "治理层面成为本届最大看点之一——《成立世界人工智能合作组织的协定》在沪签署,该组织总部将设在上海,标志着中国在AI全球治理机制建设上迈出关键一步。此外,\"UniAI·智联申城\"项目启动,上海联通将投资超250亿元加强智算基建;\"2026国际具身智能技能大赛\"同步启动;上海物理智能与机器人研究院正式揭牌成立。业内认为,WAIC 2026从展览规模、学术首创到全球治理协定,全面凸显了上海作为人工智能创新高地的国际影响力。"
+      "据 7 月 21 日多家媒体援引匿名消息源报道,谷歌母公司 Alphabet 正在研发一款代号为 Frozen v2 的新一代服务器芯片,专门围绕 Gemini 模型架构进行软硬件协同设计,预计 2028 年推出。消息称该芯片按每瓦生成 token 数衡量,效率可达谷歌现有 TPU 的 6 到 10 倍。",
+      "谷歌未直接证实或否认该报道,仅表示团队会持续研究新的硬件与软件创新以提升性能和能效,并强调其一贯的软硬一体协同设计思路。若数据在量产中兑现,这将是谷歌自研硅片项目单代最大的效率跃升,有望大幅压低大规模 AI 服务的推理成本。",
+      "这一动向折射出行业减少对英伟达依赖的大趋势:今年 OpenAI 已发布首款自研芯片 Jalapeño,Anthropic 也被曝正与三星洽谈定制芯片合作。消息发布后 Alphabet 股价一度上涨约 3%,显示投资者在其巨额 AI 基建开支承压之际,对效率提升给出正面反馈。",
+      "业内也保有审慎态度:量产前来自内部消息源的效率数字带有营销色彩,6 到 10 倍区间过宽,且能效高度依赖具体负载,Gemini 推理上的数字未必能推广到其他场景。但即便兑现低端,也足以让 Gemini 定价对竞争对手形成压制。"
     ]
   },
   {
-    "id": "2026-07-21_ai_3",
-    "date": "2026-07-21",
+    "id": "2026-07-22_ai_3",
+    "date": "2026-07-22",
     "category": "AI",
-    "subcat": "具身智能",
-    "platform": "新浪财经/IDC",
+    "subcat": "AI",
+    "platform": "South China Morning Post",
     "platform_color": "#8ED16D",
-    "title": "WAIC收官:具身智能走出演示区",
-    "url": "https://finance.sina.com.cn/tech/roll/2026-07-20/doc-iniimzfz3033040.shtml",
-    "image": "images/2026-07-21/2026-07-21_ai_3.jpg",
+    "title": "Kimi K3爆火超载 月之暗面紧急暂停新订阅",
+    "url": "https://www.scmp.com/tech/article/3361172/kimi-k3-developer-suspends-new-subscriptions-amid-compute-constraints",
+    "image": "images/2026-07-22/2026-07-22_ai_3.jpg",
     "detail": [
-      "在7月20日WAIC 2026收官之日,国际数据公司IDC举办\"Physical AI时代开启\"线上专场,基于全球追踪数据与工业用户调研发布对具身智能机器人产业的系统研判。IDC指出,本届大会的展品已不再是\"能动的演示\",而是围绕3C电子、汽车制造、仓储物流、商用服务、家庭陪伴等真实场景展开应用,反映出中国具身智能机器人正由技术验证迈向商业化落地,产业进入从展示走向产线的关键转折期。",
-      "报告给出多项硬数据:IDC预计未来五年中国具身智能支出将由14亿美元增长至770亿美元,年复合增长率高达94%。分品类看,人形机器人是增长最快品类,2025年全球出货量接近1.8万台、同比增长近800%,预计2030年将突破51万台;四足机器人2025年全球出货约6万台;商用服务机器人出货超15.5万台;家庭清洁机器人2025年全球出货达3273万台、同比增长20.1%,成为家庭具身智能落地的最佳入口。",
-      "技术层面,IDC强调模型、数据、算力三大底座正加速协同演进:世界模型与VLA(视觉-语言-行动)协同成为核心架构,\"仿真优先、虚实融合\"成行业共识,预计到2027年推理将占智能算力需求的70%以上。商业模式则由\"卖产品\"转向\"卖服务\",\"硬件+软件+服务+AI\"融合及RaaS租赁订阅模式并行发展。IDC最后判断,技术竞争已进入系统能力比拼阶段,生态能力将成为产业分水岭,依托完整制造体系与供应链优势,中国厂商有望持续引领全球具身智能机器人产业化。"
+      "中国 AI 创业公司月之暗面(Moonshot AI)于 7 月 19 日晚在 X 上发布声明,宣布因需求激增挤压算力,暂停 Kimi K3 的新订阅注册。公司称过去 48 小时需求已逼近现有产能极限,GPU 不堪重负,现有订阅用户不受影响,将分批重新开放新席位。这距离 K3 上线仅数天。",
+      "Kimi K3 是一款 2.8 万亿参数的大模型,上周发布后在 Arena AI 前端代码榜等多项基准上超越 GPT-5.6 Sol 与 Claude Fable 5,引发全球关注。月之暗面通过云端 API 提供这一庞大模型的服务,并计划于 7 月 27 日开放权重,届时将成为迄今最大的开放权重前沿模型。",
+      "这一幕再次暴露中国 AI 实验室在美国出口管制下的算力困境。有分析师指出,要为数百万月活用户服务 K3,月之暗面很可能需在芯片与能源上投入数十亿美元,而这些芯片正是中国厂商仍难以规模化量产的。也有观点认为公司更可能是低估了 K3 的火爆程度。",
+      "消息还波及美股,市场担忧更廉价的中国模型将挤压美国 AI 公司的定价权。与此同时,阿里预告了 2.4 万亿参数的 Qwen3.8 Max,称仅次于 Fable 5,中国前沿模型的密集攻势仍在加剧。"
     ]
   },
   {
-    "id": "2026-07-21_ai_4",
-    "date": "2026-07-21",
+    "id": "2026-07-22_ai_4",
+    "date": "2026-07-22",
     "category": "AI",
-    "subcat": "大厂动态",
-    "platform": "The Times of India",
+    "subcat": "AI",
+    "platform": "The Playlist",
     "platform_color": "#8ED16D",
-    "title": "Anthropic调整Fable 5订阅权限",
-    "url": "https://timesofindia.indiatimes.com/technology/tech-news/just-a-day-after-chinese-president-xi-jinping-almost-warned-against-us-placing-its-own-security-above-everyone-elses-anthropic-announces-changes-to-claude-fable-5-says-beginning-july-20-/articleshow/132480273.cms",
-    "image": "images/2026-07-21/2026-07-21_ai_4.jpg",
+    "title": "《第九区》导演发布全AI科幻短片Nightborne",
+    "url": "https://theplaylist.net/nightborne-neill-blomkamp-shares-sci-fi-horror-ai-short-20260720/",
+    "image": "images/2026-07-22/2026-07-22_ai_4.jpg",
     "detail": [
-      "Anthropic对其备受追捧的前沿模型Claude Fable 5的订阅权限进行了重大调整,新规于7月20日正式生效。公司在X平台发文宣布:\"自7月20日起,Claude Fable 5将纳入所有Max与Team Premium套餐,但用量限制为标准的50%。\"这意味着Fable 5将原生包含在顶级订阅中,但用量被砍半;而较低层级的用户将失去默认访问权,转而迁移到\"用量额度\"(usage credits)体系。",
-      "对于受影响的中低层用户,Anthropic给出了补偿方案:Pro与Team Standard用户将继续通过用量额度访问Fable,并一次性获得100美元额度。公司解释称,\"Fable的需求一直难以预测,这也是我们分阶段向订阅套餐推出、并多次延长访问权限的原因\",并坦承滚动式的容量限制\"一直令人沮丧\",此次调整意在让用户对套餐所含内容\"有更多确定性\"。公司同时表示正在投资更多算力芯片和云容量以在近期稳定限额。",
-      "这一调整发生在西方科技巨头普遍面临算力瓶颈的大背景下,凸显出前沿大模型高企的推理成本与需求波动带来的运营压力。有分析将其与中国在WAIC上力推开源、无约束AI生态的姿态相对照——就在数日前的WAIC开幕式上,中方强调\"AI系统必须处于人类控制之下\"并倡导将AI作为全球公共产品。社区对Fable 5\"付费墙化\"反应不一:部分重度用户欢迎权限\"标准化\"带来的确定性,也有用户对用量被削减至50%及低层级失去默认访问表达不满。"
+      "7 月 20 日,《第九区》(District 9)导演尼尔·布洛姆坎普(Neill Blomkamp)在社交平台发布了一部时长约 13 分钟、完全使用 Seedance 2.0 视频生成模型制作的科幻恐怖短片《Nightborne》。一位具备类型片公信力的知名导演,把 AI 视频用于一部完整叙事作品而非演示片段,被视为电影业对待该技术态度的重要转变。",
+      "13 分钟这个数字是关键所在。此前 AI 视频已能生成惊艳的短片段,但在长达十余分钟的时长里维持画面一致性、角色连续性与叙事连贯,是难度陡增的问题,也正是早期工具崩溃之处。布洛姆坎普选择这种方式创作,意味着工具在风格化科幻这类题材上已跨过专业叙事的可用门槛。",
+      "短片在社区引发两极反应。支持者认为 AI 视频大幅压低了高成本视觉叙事的门槛,让更多人得以实现宏大想象;反对者则担忧视效师、动画师与摄制团队的生计受冲击,在本已被 AI 搅动的行业中雪上加霜。IGN 等媒体也报道了随之而来的抵制声浪。",
+      "这也进一步凸显中国系视频模型在生成式赛道的强势:从字节跳动的 Seedance/Seedream 到阿里投资的相关项目,视频生成的竞争格局与文本领域截然不同,好莱坞导演的采用为国产技术提供了一次高曝光度的背书。"
     ]
   },
   {
-    "id": "2026-07-21_vibecoding_1",
-    "date": "2026-07-21",
+    "id": "2026-07-22_ai_5",
+    "date": "2026-07-22",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "CNBC",
+    "platform_color": "#8ED16D",
+    "title": "美国AI安全机构CAISI负责人上任三月即辞职",
+    "url": "https://www.cnbc.com/2026/07/20/trumps-head-of-ai-safety-agency-caisi-resigns-after-months-on-job.html",
+    "image": "images/2026-07-22/2026-07-22_ai_5.jpg",
+    "detail": [
+      "7 月 20 日,CNBC 证实,特朗普政府任命的美国 AI 标准与创新中心(CAISI)主任 Chris Fall 在上任仅三个月后宣布辞职。CAISI 隶属美国商务部,前身为美国 AI 安全研究所,去年被重新定位为侧重标准与创新,是政府评估 AI 模型能力与风险的主要测试枢纽之一。",
+      "商务部发言人表示,现任国家标准与技术研究院(NIST)主任 Arvind Raman 将出任 CAISI 代理主任,同时继续掌管 NIST,预计数周内公布正式继任者。此前该职位人事已现动荡:白宫曾在另一位来自 Anthropic 的 AI 研究员上任仅四天后将其撤换,Fall 于四月接任。",
+      "这次高层变动正值白宫加强对新模型发布网络安全风险审查的敏感时期。据报道,白宫正与 OpenAI、Anthropic、谷歌敲定一份自愿框架,拟在前沿模型公开发布前给予联邦机构最多 30 天的国安审查窗口,而 CAISI 正处于这项测试工作的中心。",
+      "有消息人士称 Fall 的职务本就是临时性质。但监管机构自身留不住领导层,让外界质疑在 AI 政策频繁摇摆之下,美国如何维持对前沿模型的一致性测试与标准制定,这一空窗为即将落地的审查框架增添了不确定性。"
+    ]
+  },
+  {
+    "id": "2026-07-22_ai_6",
+    "date": "2026-07-22",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "AI Insider",
+    "platform_color": "#8ED16D",
+    "title": "英国Humanoid完成1.52亿美元A轮 估值13.5亿",
+    "url": "https://theaiinsider.tech/2026/07/21/uks-humanoid-raises-152m-in-series-a-funding-at-1-35b-valuation-for-humanoid-robots/",
+    "image": "images/2026-07-22/2026-07-22_ai_6.jpg",
+    "detail": [
+      "7 月 21 日,英国具身智能机器人创业公司 Humanoid 宣布完成 1.52 亿美元 A 轮融资,投后估值达 13.5 亿美元,累计融资额升至 2.7 亿美元。本轮由 Prime Movers Lab 领投,舍弗勒(Schaeffler)、博世(Bosch)、富邦金控创投及 Aglaé Ventures 参投,使其成为欧洲首家纯人形机器人独角兽。",
+      "创始人兼 CEO Artem Sokolov 表示,公司在两年内从一个想法成长为独角兽,并与多家全球顶级工业企业达成合作,建立起行业最强的订单管线之一。资金将用于下一代人形平台研发、客户端商业部署、轮式人形机器人量产,以及自研工业 AI 系统 KinetIQ 的持续开发。",
+      "与多数厂商押注双足不同,Humanoid 主攻轮式人形机器人,瞄准制造、物流等面临劳动力短缺与运营压力的行业,首批测试机型计划于 2026 年第四季度落地客户现场。公司已与 SAP、英伟达、博世、西门子建立合作,并与舍弗勒签署了在制造环境中大规模部署数千台机器人的商业协议。",
+      "这笔融资延续了今年具身智能与防务 AI 的资本热潮,继欧洲 Helsing 的 18 亿欧元大额融资之后再添一笔重磅注资。物理世界 AI 正成为整个赛道最大的资金流向之一,实时感知、不确定性决策等技术难题也让机器人与前沿模型领域的人才与方法快速互通。"
+    ]
+  },
+  {
+    "id": "2026-07-22_ai_7",
+    "date": "2026-07-22",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "AI Insider",
+    "platform_color": "#8ED16D",
+    "title": "语音AI公司Gradium获英伟达加持完成1亿美元种子轮",
+    "url": "https://theaiinsider.tech/2026/07/21/gradium-raises-100m-seed-round-backed-by-nvidia-to-expand-voice-ai-platform/",
+    "image": "images/2026-07-22/2026-07-22_ai_7.jpg",
+    "detail": [
+      "7 月 21 日,总部位于巴黎的语音 AI 创业公司 Gradium 宣布重新开放种子轮,引入包括英伟达在内的新投资者,使该轮总额达到 1 亿美元。公司计划用这笔资金在旧金山湾区设立办公室,把自身定位到 Anthropic、谷歌、Meta、OpenAI 等主要 AI 实验室的近旁。",
+      "Gradium 去年 12 月带着 7000 万美元融资走出隐身状态,早期投资者包括 FirstMark Capital、Eurazeo、DST Global、埃里克·施密特以及法国电信企业家 Xavier Niel。公司脱胎于同样由 Niel 支持的法国 AI 研究实验室 Kyutai,联合创始人 Neil Zeghidour 曾任职于谷歌大脑、DeepMind 与 Facebook。",
+      "Gradium 的技术聚焦超低延迟语音 AI,力图消除语音智能体对话中常见的卡顿延迟,让人机语音交互更接近自然对话。它需要直面 ElevenLabs(今年估值已达 110 亿美元)以及谷歌 Gemini 等大模型厂商的竞争,但自 12 月上线以来已拿下包括法国车企雷诺在内的重要客户。",
+      "英伟达此番以战略投资者身份入局,凸显芯片巨头在语音这一高价值多模态赛道的布局意图;而欧洲 AI 团队集体加速跨大西洋落地湾区,也反映出人才与资本向头部实验室聚集的行业引力。"
+    ]
+  },
+  {
+    "id": "2026-07-22_vibecoding_1",
+    "date": "2026-07-22",
     "category": "VibeCoding",
-    "subcat": "AI编程工具",
-    "platform": "GitHub",
+    "subcat": "VibeCoding",
+    "platform": "Hacker News",
     "platform_color": "#2563EB",
-    "title": "jcode:Rust 写的高性能编码 Agent 终端",
-    "url": "https://github.com/1jehuang/jcode",
-    "image": "images/2026-07-21/2026-07-21_vibecoding_1.jpg",
+    "title": "Hoop:给Claude Code加P2P协作沙盒",
+    "url": "https://github.com/bruno-de-queiroz/hoop",
+    "image": "images/2026-07-22/2026-07-22_vibecoding_1.jpg",
     "detail": [
-      "jcode 是开发者 1jehuang 打造的新一代命令行编码 Agent「harness」(壳层),定位是「最聪明的代码 Agent 终端」,主打多会话工作流、极致性能与近乎无限的可定制性。项目用 Rust 编写,截至北京时间 7 月 21 日在 GitHub 单日新增约 568 星,累计约 9,600 星,最近一次代码推送就在 7 月 20 日深夜,是过去 24 小时内热度飙升最快的编码工具之一。",
-      "技术亮点集中在资源效率与内存机制上。官方给出的基准显示:单会话下 jcode 常驻内存最低仅 27.8 MB,而 Claude Code 约 386 MB、Cursor Agent 约 215 MB、Codex CLI 约 140 MB;10 会话并发时 jcode 仅约 117 MB,OpenCode 却飙到 3.2 GB。首帧渲染时间 14 毫秒,号称比 Claude Code 快约 245 倍。它还内置类人「记忆」系统——每轮对话被编码为语义向量存入记忆图谱,通过余弦相似度自动召回相关上下文,无需 Agent 主动调用记忆工具,避免 token 浪费。",
-      "jcode 还提供侧边面板、实时图表、信息挂件等丰富 TUI 组件,支持让 Agent 把文件或诊断结果直接写进侧栏实时刷新。因为 README 直接把自己和 Claude Code、Cursor、Codex CLI、Copilot CLI 逐项拉表对比,开发者社区反应两极:一部分人惊叹 Rust 带来的启动速度与内存优势,认为这是重度多开 Agent 用户的福音;也有人质疑基准测试的公平性和真实工作负载下的表现。对追求极致响应速度、习惯同时跑多个编码会话的工程师而言,它提供了一个轻量而激进的新选择。"
+      "开发者Bruno de Queiroz于北京时间7月22日凌晨在Hacker News发布Show HN,推出开源项目Hoop,定位是架在Claude Code之上的沙盒化P2P实时协作外壳。项目口号是独自一人并非必需,目标是让多名开发者能围绕同一个AI编码代理协同工作,而不再是各自单打独斗地与终端里的Agent对话。",
+      "Hoop把Claude Code的会话包裹进一层受控沙盒,并通过点对点(P2P)通道把执行环境实时共享给协作者。这样一来,队友可以旁观甚至介入AI的编码过程,共享上下文和运行状态,而底层文件系统与命令执行仍被隔离在沙盒内,降低了让Agent直接接触主机的风险。",
+      "该发布切中当前AI结对编程的痛点:主流Coding Agent大多是单人单会话,团队难以围观和纠偏。Hoop用协作外壳加沙盒隔离两条思路回应了社区对可观测、可协作、可控AI编码的呼声。作为刚上线的早期项目,它更像一个方向性尝试,能否形成实际工作流仍有待社区在Issue与实践中检验。"
     ]
   },
   {
-    "id": "2026-07-21_vibecoding_2",
-    "date": "2026-07-21",
+    "id": "2026-07-22_vibecoding_2",
+    "date": "2026-07-22",
     "category": "VibeCoding",
-    "subcat": "AI编程工具",
-    "platform": "GitHub",
+    "subcat": "VibeCoding",
+    "platform": "Hacker News",
     "platform_color": "#2563EB",
-    "title": "code-review-graph登顶Trending",
-    "url": "https://github.com/tirth8205/code-review-graph",
-    "image": "images/2026-07-21/2026-07-21_vibecoding_2.jpg",
+    "title": "Jaybase:AI代理的只读事实账本",
+    "url": "https://github.com/kyle-visner/jaybase",
+    "image": "images/2026-07-22/2026-07-22_vibecoding_2.jpg",
     "detail": [
-      "code-review-graph(CRG)是一款「本地优先」的代码智能图谱工具,专为给 AI 编码助手「省 token」而生。它在 7 月 21 日登上 GitHub Trending 总榜第一,单日新增约 1,833 星,累计突破 2.3 万星,近期热度集中爆发。核心思路针对一个真实痛点:AI 编码工具在做 code review 时常反复重读整个仓库,浪费大量上下文与费用,CRG 让 Agent 只读「真正相关」的文件。",
-      "技术上,CRG 用 Tree-sitter 把仓库解析成 AST,构建由节点(函数、类、导入)和边(调用、继承、测试覆盖)组成的图,并通过 MCP 协议在审查时向 AI 精确投喂最小必要上下文。它的「爆炸半径分析」能在文件改动时追踪所有调用方、依赖方和相关测试;增量更新极快,一个 2,900 文件的项目重新索引不到 2 秒。在大型 monorepo 场景下,它可以把 27,700 多个文件排除在审查上下文之外,实际只读约 15 个文件。",
-      "一条命令即可完成安装:CRG 会自动探测本机装了哪些 AI 编码工具,并为 Codex、Cursor、Claude Code、Gemini CLI、Kiro、GitHub Copilot、CodeBuddy 等分别写好 MCP 配置、注入图谱感知规则。语言覆盖极广,包含 Python、JS/TS、Go、Rust、Java、C/C++、Ruby、Kotlin、Swift、Solidity、Jupyter Notebook 等数十种,还支持通过 languages.toml 自助扩展。开发者社区普遍认可其「减少 token 浪费」的定位,尤其在 monorepo 与大仓审查工作流中被视为实用性很强的补充工具。"
+      "定制AI Agent开发者Kyle Visner于北京时间7月22日凌晨发布Show HN,推出开源项目Jaybase,一个面向Agent关键业务工作流的仅追加(append-only)事实存储。作者指出,大家都想让AI干真正重要的活,却又不敢,因为Agent偶尔会跑偏,没人愿意让它误删客户数据或搞乱账目。",
+      "Jaybase的核心在于底层采用Merkle有向无环图(Merkle DAG),这也是Git和区块链背后的技术。由此每一次写入都可审计、可回放、可回滚:即便Agent失控污染了数据,也能轻松恢复并追查出错环节。它还没有固定Schema,随着Agent增多或技能扩展,可自然地追加新类型数据。",
+      "该项目回应了AI代理非确定性、机器速度运行与传统人类或确定性软件数据存储假设之间的错位。作者强调笔记、表格乃至数据库都是为人类或确定性系统设计的,并不适配Agent。作为刚亮相的早期作品,它把可信可追溯作为让Agent承担关键业务的前提,契合社区对Agent安全落地的关注。"
     ]
   },
   {
-    "id": "2026-07-21_vibecoding_3",
-    "date": "2026-07-21",
+    "id": "2026-07-22_vibecoding_3",
+    "date": "2026-07-22",
     "category": "VibeCoding",
-    "subcat": "开发框架",
-    "platform": "GitHub",
+    "subcat": "VibeCoding",
+    "platform": "Hacker News",
     "platform_color": "#2563EB",
-    "title": "wigolo:给编码 Agent 的本地零成本联网层",
-    "url": "https://github.com/KnockOutEZ/wigolo",
-    "image": "images/2026-07-21/2026-07-21_vibecoding_3.jpg",
+    "title": "Headroom:给编码Agent压缩输入省token",
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "image": "images/2026-07-22/2026-07-22_vibecoding_3.jpg",
     "detail": [
-      "wigolo 是一款主打「本地优先、零 API Key、零云端、每次查询 $0」的联网工具,为 AI 编码 Agent 提供统一的搜索、抓取、爬取、提取、缓存、相似检索与自动研究能力。项目于 7 月 20 日仍在密集更新,当日新增约 689 星,累计约 2,500 星,目前处于公开 Beta 阶段,是本周开发者圈新冒头的 MCP 生态工具。",
-      "它的最大卖点是「无需密钥、无云端账单」:核心工具全部在本地运行,浏览器引擎和端上模型都下载到本机,任何数据都不离开 ~/.wigolo/ 目录,Agent 无论「想」多少次都不会产生费用。安装极简,`npx wigolo init` 即可搭好本地引擎并完成健康检查,`--agents=claude-code,cursor` 可一条命令同时接入常用 Agent。目前支持 Claude Code、Cursor、Codex、Gemini CLI、VS Code、Windsurf、Zed、Antigravity 等主流编码工具,并可作为 MCP 服务器、REST/MCP 端点或 SDK 嵌入自建 Agent。",
-      "wigolo 同时兼容 LangChain、CrewAI、LlamaIndex、Vercel AI SDK、n8n 等框架,只要是 MCP 客户端就能注册使用。搜索、抓取、爬取等基础能力完全免密钥,只有 research、agent 等需要合成带引用答案的高级功能才需要一枚免费 Gemini Key,否则会退化为返回原始证据供 Agent 自行组装。对于关注隐私、想摆脱按量计费联网 API 的独立开发者和自托管团队,wigolo 提供了一个成本可控、离线可用的「Agent 上网」方案,社区对其「$0/query」定位反响积极。"
+      "Headroom Labs于北京时间7月22日凌晨在Hacker News发布开源项目Headroom,主打在数据抵达大模型之前对其瘦身。它能压缩工具输出、日志、文件以及RAG检索片段等进入上下文窗口的内容,从源头削减无谓的token消耗,而项目宣称此举不会损害模型输出质量。",
+      "官方给出的数据颇具吸引力:面向编码Agent可减少约20%的token,而针对JSON等结构化数据的压缩幅度可达60%到95%。Headroom提供三种接入形态——可直接调用的库、可透明拦截的代理(proxy),以及MCP服务器,方便开发者按需嵌入现有的Agent与工具链。",
+      "在Coding Agent动辄吞噬海量上下文、token成本高企的当下,输入侧压缩正成为热门优化方向,与近期社区里各类上下文治理、记忆压缩工具形成呼应。作为刚上线的早期项目,其真实压缩率与对输出质量的影响仍需社区在多样场景中验证,但方向切中了成本与上下文膨胀的核心痛点。"
     ]
   },
   {
-    "id": "2026-07-21_vibecoding_4",
-    "date": "2026-07-21",
+    "id": "2026-07-22_vibecoding_4",
+    "date": "2026-07-22",
     "category": "VibeCoding",
-    "subcat": "GitHub新项目",
-    "platform": "GitHub",
+    "subcat": "VibeCoding",
+    "platform": "Hacker News",
     "platform_color": "#2563EB",
-    "title": "Vercel开源deepsec助Agent找漏洞",
-    "url": "https://github.com/vercel-labs/deepsec",
-    "image": "images/2026-07-21/2026-07-21_vibecoding_4.jpg",
+    "title": "Superserve:给长时运行Agent的微虚机",
+    "url": "https://www.superserve.ai/",
+    "image": "images/2026-07-22/2026-07-22_vibecoding_4.jpg",
     "detail": [
-      "deepsec 是 Vercel 官方实验室(vercel-labs)推出的开源安全工具,定位为「由编码 Agent 驱动的安全 harness」,用来在代码库中自动发现漏洞。项目本周持续升温,近期单日新增约 249 星,累计已突破 6,000 星,最近代码更新在 7 月 19 日,是大厂官方下场做「Agent + 安全」方向的又一代表作。",
-      "与传统静态扫描器不同,deepsec 把「编码 Agent」当作核心引擎:它让 AI Agent 像安全研究员一样去主动阅读、理解代码逻辑,推理潜在攻击面并定位漏洞,而不是只做基于规则的模式匹配。这与近期 GitHub 上 usestrix/strix 等「AI 渗透测试 Agent」共同构成了一股「Agent 化安全」浪潮——把大模型的推理能力接入 DevSecOps 流程,弥补规则引擎难以理解业务上下文的短板。作为 TypeScript 项目,它天然贴合前端与全栈团队的技术栈。",
-      "背靠 Vercel 的品牌与生态,deepsec 一经开源便获得较高关注度。开发者社区讨论主要围绕两点:一是 AI 驱动的安全审查能否在准确率与误报之间取得平衡,二是把代码交给 Agent 分析所带来的隐私与信任边界问题。也有工程师看好它与 CI/CD 结合、在合并前自动做安全体检的落地价值。整体来看,deepsec 反映出 2026 年「vibe coding」向纵深发展的一个趋势:AI Agent 不再只负责写代码,也开始承担审查、加固与安全防护的职责。"
+      "开发者Pavitra Bhalla于北京时间7月22日凌晨发布Show HN,推出Superserve,一个让AI Agent运行在隔离的Firecracker微虚拟机(microVM)中、且没有会话时长限制的计算层。作者称最初的痛点是:多数沙盒提供商会在24小时后强杀Agent,导致跑重构、循环测试等长任务时不断与超时和状态重建搏斗。",
+      "Superserve允许在任意时刻对运行中的虚拟机做快照,将其分叉为多个并行分支,并从中断处精确恢复。每个Agent独享自己的VM、不共享内核;还内置凭证代理(credentials broker),使Agent无需直接接触原始API密钥,同时把出站流量锁定到指定URL,提升安全性。",
+      "它采取自带Agent的思路,兼容Claude Code、Codex等,由Superserve负责底层持久化计算,提供TypeScript与Python SDK及MCP支持,且开源、可自托管。在自主Agent走向长时任务的趋势下,这类耐久沙盒回应了社区对稳定性、隔离性与凭证安全的共同诉求,作者也特别邀请长时运行Agent的构建者反馈。"
     ]
   },
   {
-    "id": "2026-07-21_gaming_1",
-    "date": "2026-07-21",
-    "category": "Gaming",
-    "subcat": "Steam新游/抢先体验",
-    "platform": "Worthplaying / Steam",
-    "platform_color": "#F59E0B",
-    "title": "科幻RTS《ZeroSpace》登陆Steam抢先体验",
-    "url": "https://www.worthplaying.com/article/2026/7/20/news/150498-zerospace-available-through-steam-early-access-kicks-off-first-contact-invitational-event-trailer/",
-    "image": "images/2026-07-21/2026-07-21_gaming_1.jpg",
+    "id": "2026-07-22_vibecoding_5",
+    "date": "2026-07-22",
+    "category": "VibeCoding",
+    "subcat": "VibeCoding",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "Redential:把私活变NDA安全的能力凭证",
+    "url": "https://github.com/redential/redential-cli",
+    "image": "images/2026-07-22/2026-07-22_vibecoding_5.jpg",
     "detail": [
-      "《ZeroSpace》是由Starlance Studios与Ironward联合开发的科幻即时战略新作,历经Kickstarter众筹支持后终于面世。游戏设定在公元4050年的猎户座星区,玩家将扮演「保护者联盟」的指挥官,在群星之间统领舰队与部队,故事融合了策略与角色扮演元素,野心不小。",
-      "本作已于7月20日正式登陆Steam抢先体验阶段。它主打「混合玩法」:单人战役借鉴《质量效应》的互动式过场叙事,让指挥官在剧情中做出选择;而三人合作模式则致敬《星际争霸II》的合作任务设计,强调分工与配合。开发团队同时开启了「First Contact邀请赛」活动,为竞技向玩家提供舞台,展现RTS的对抗深度。",
-      "社区对这款「老派RTS复兴之作」反应热烈,不少星际与红警老玩家在讨论区表示久违了这种硬核操作与运营的乐趣,称赞其单位设计与美术风格有辨识度。也有玩家提醒抢先体验阶段内容尚未完整,期待后续战役章节与平衡性调整,整体氛围偏向鼓励与期待。"
+      "开发者Jperalbelmont于北京时间7月22日凌晨发布Show HN,推出开源命令行工具Redential,主题是证明你能造什么且对NDA安全。它试图把开发者的私有工作转化为一种NDA安全的能力凭证,在不泄露受保密协议约束的具体代码与客户信息的前提下,向外界展示真实的构建能力。",
+      "官方描述强调,这种凭证展示的是你能做什么,并且据称比一份传统简历(CV)更值得企业信任。对大量从事保密项目、无法公开作品集的工程师而言,这提供了一条既合规又可验证的自我证明路径,也为招聘方提供了比自述更硬的参考信号。",
+      "作为一款开源CLI,Redential切中了开发者求职与信任评估中的老难题:最能体现水平的工作往往恰恰是不能拿出来展示的私有项目。它把可验证的能力证明这一命题工具化,契合当下社区对开发者信誉、作品可信度的讨论。作为刚上线的早期项目,其凭证的可信机制与被招聘方接受程度,仍有待实际使用中检验。"
     ]
   },
   {
-    "id": "2026-07-21_gaming_2",
-    "date": "2026-07-21",
+    "id": "2026-07-22_gaming_1",
+    "date": "2026-07-22",
     "category": "Gaming",
-    "subcat": "掌机/主机",
-    "platform": "GamesRadar",
+    "subcat": "Gaming",
+    "platform": "Eurogamer",
     "platform_color": "#F59E0B",
-    "title": "V社确认Steam Machine不做独占游戏",
-    "url": "https://www.gamesradar.com/games/the-steam-machine-isnt-doing-exclusives-because-valve-thinks-restricting-where-people-can-play-doesnt-work/",
-    "image": "images/2026-07-21/2026-07-21_gaming_2.jpg",
+    "title": "《暗黑地牢》时隔多年首发新DLC",
+    "url": "https://www.eurogamer.net/darkest-dungeon-the-fires-edge-dlc-reveal",
+    "image": "images/2026-07-22/2026-07-22_gaming_1.jpg",
     "detail": [
-      "在Valve公布新一代客厅主机Steam Machine后,关于它是否会推出独占大作的猜测甚嚣尘上,尤其不少人幻想《半衰期3》会成为其「杀手级独占」。对此,Valve工程师Pierre-Loup Griffais与设计师Greg Coomer在近日采访中给出了明确否定的答复,为传闻降温。",
-      "据7月20日的报道,Valve方面直言「限制人们在哪里玩游戏,我不认为这是个好模式」,并强调他们把「整个PC游戏库当作自家的『首发独占』」。也就是说,Steam Machine不会有专属独占游戏,也不会捆绑强制订阅服务,一切延续开放的PC生态思路,与主流主机的独占策略划清界限。",
-      "玩家社区对此普遍表示欢迎,认为开放不锁区的理念正是PC平台的核心价值,不必为一台设备重复购买游戏。不过也有观点认为,缺乏独占招牌作可能让Steam Machine在与传统主机竞争时缺少吸引眼球的爆点,后续能否靠硬件体验与生态取胜,仍需市场检验。"
+      "开发商Red Hook Studios突然宣布,为初代《暗黑地牢》推出多年来的首个大型追加内容《The Fire's Edge》,以此庆祝这款哥特风回合制RPG诞生十周年。初代于2016年1月19日发售,口碑远胜评价两极的续作,此次回归让老玩家倍感惊喜。",
+      "新DLC把《暗黑地牢2》的两名英雄带回一代:决斗者(Duelist)是在队伍站位间灵活穿梭、攻防姿态切换的复杂输出;逃亡者(Runaway)则是运用独特灼烧伤害的位置型输出。逃亡者还引入了全新的燃烧战斗机制,饰品系统也随之重做,并新增学院、工坊、考古营地三个村镇区域。",
+      "玩家无需久等,《The Fire's Edge》将于8月18日上线,正好赶在一代十周年节点。此举也引发外界猜测:工作室是否重新调整了系列优先级?Red Hook此前已预告《暗黑地牢2》的新DLC将在2027年初到来,显示两代作品仍会并行更新,让长期支持者吃下定心丸。"
     ]
   },
   {
-    "id": "2026-07-21_gaming_3",
-    "date": "2026-07-21",
+    "id": "2026-07-22_gaming_2",
+    "date": "2026-07-22",
     "category": "Gaming",
-    "subcat": "主机游戏",
-    "platform": "VGChartz",
+    "subcat": "Gaming",
+    "platform": "Eurogamer",
     "platform_color": "#F59E0B",
-    "title": "《星球工匠》登陆PS5与Xbox首发进Game Pass",
-    "url": "https://www.vgchartz.com/article/468229/the-planet-crafter-launches-july-21-for-ps5-xbox-series-and-game-pass/",
-    "image": "images/2026-07-21/2026-07-21_gaming_3.jpg",
+    "title": "《杀戮尖塔2》公布新三幕Boss设计",
+    "url": "https://www.eurogamer.net/slay-the-spire-2-aeonglass-design-process",
+    "image": "images/2026-07-22/2026-07-22_gaming_2.jpg",
     "detail": [
-      "《The Planet Crafter(星球工匠)》是由法国小型工作室Miju Games打造的非暴力生存建造游戏,全队仅约7人,由Amélie与Brice夫妇领衔。游戏主题是「地球化改造」——把一颗荒芜星球逐步改造成拥有大气、海洋与生命的宜居家园,此前在PC平台已卖出超过200万份,口碑扎实。",
-      "本作于7月21日正式登陆PS5与Xbox Series X|S,并同步加入Game Pass首发阵容,主机玩家当天即可畅玩。游戏支持最多8人在线合作,大家可以分工采集资源、建造设施、共同推进星球的生态进程。此前PC版累计推出了15次内容更新与2部DLC,内容量相当充实,主机版也将承接这些积累。",
-      "生存建造与合作玩法的爱好者对主机版的到来颇为期待,尤其是「无战斗、纯探索建造」的治愈式节奏吸引了不少想放松的玩家。社区中有人称其为「适合和朋友一起慢慢肝」的佳作,也有玩家关注主机版的操作适配与联机稳定性,希望首发体验不打折扣。"
+      "热门Roguelike卡牌构筑游戏《杀戮尖塔2》目前正处于Steam抢先体验阶段,开发商Mega Crit保持着稳定的更新节奏,并不断重做甚至替换Boss以打磨战斗循环与难度。第三幕此前已换过多达四个Boss,上月移除了Doormaker,改为全新Boss Aeonglass。",
+      "据Steam开发日志,动画师Chris Gortz透露团队曾探索多种概念,包括可旋转不同区块以展现不同能力的多面死亡之柱,最终从五套沙漏主题设计中选定B方案。他先做了2D模拟3D金属环旋转的技术验证,再通过涂鸦确定其大原子般的爆裂与切割攻击风格。",
+      "美术总监还要求沙漏内的物质像熔岩灯里的黏液而非传统沙粒流动,于是沿用了Living Smog的烟雾着色器,效果十分惊艳。最新Beta补丁已削弱Aeonglass的前置爆发伤害并调整动画,后续或仍有变动。本作预计最早2027年才会脱离抢先体验,主机版有望在1.0前后推出。"
     ]
   },
   {
-    "id": "2026-07-21_gaming_4",
-    "date": "2026-07-21",
+    "id": "2026-07-22_gaming_3",
+    "date": "2026-07-22",
     "category": "Gaming",
-    "subcat": "独立游戏/Steam新游",
-    "platform": "Steam",
+    "subcat": "Gaming",
+    "platform": "Eurogamer",
     "platform_color": "#F59E0B",
-    "title": "刺绣风叙事平台游戏《绯红鹿旅店》上线",
-    "url": "https://store.steampowered.com/app/1553260/Scarlet_Deer_Inn/",
-    "image": "images/2026-07-21/2026-07-21_gaming_4.jpg",
+    "title": "任天堂拒向玩家返还关税差价",
+    "url": "https://www.eurogamer.net/nintendo-us-tariffs-no-switch-refunds-class-action-lawsuit",
+    "image": "images/2026-07-22/2026-07-22_gaming_3.jpg",
     "detail": [
-      "《Scarlet Deer Inn(绯红鹿旅店)》是一款极具辨识度的独立叙事平台游戏,由捷克小工作室Attu Games的Eva与Lukas夫妇制作。它最大的特色在于美术——所有角色形象都是用真实的刺绣手工制作再数字化呈现,搭配斯拉夫民间传说的黑暗童话基调,营造出独一无二的手作质感与氛围。",
-      "游戏于7月21日正式在Steam上线,此前已积累约10万愿望单,人气可观。玩法上,它以故事驱动为核心,穿插解谜与平台跳跃;其中「火把」机制是重要玩法,玩家需借助光亮探索昏暗环境、揭开旅店背后的秘密,整体基调偏向氛围恐怖与叙事沉浸。",
-      "独立游戏爱好者对这款「刺绣做的游戏」表现出浓厚兴趣,不少人在社区盛赞其视觉呈现前所未见,是把传统工艺与电子游戏结合的大胆尝试。也有玩家关注游戏时长与谜题难度是否匹配定价,期待剧情能配得上这份惊艳的美术,首发反馈总体正向。"
+      "任天堂在一起集体诉讼中主张,自己没有义务向此前以更高价格购机的美国消费者返还任何差价。此前该公司因美国关税上调而提价,如今正寻求驳回这起要求企业把政府退税部分分给消费者的集体诉讼。据Game File获得的文件,任天堂称买家得到了自己议定并支付所换取的商品。",
+      "去年美国大范围加征关税后,任天堂上调了初代Switch(含OLED与Lite)以及Joy-Con 2等配件在美价格,但并未对Switch 2主机本体提价。今年美国最高法院裁定相关关税违法,促使众多企业向政府申请退税,任天堂自身也在3月起诉政府;这起面向消费者的集体诉讼则于4月提起。",
+      "任天堂辩称,它并未像同行那样把全额关税转嫁给消费者,而是有选择地做出温和的价格调整,并自行承担了旗舰主机等热门产品的关税成本,故无法精确计算每次涨价对应的关税金额。它还建议改用私下仲裁处理。类似诉讼也已针对索尼等公司提起,施压其向玩家退款,引发消费者广泛关注。"
+    ]
+  },
+  {
+    "id": "2026-07-22_gaming_4",
+    "date": "2026-07-22",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "IGN",
+    "platform_color": "#F59E0B",
+    "title": "Xbox金会员7月第二波阵容公布",
+    "url": "https://www.ign.com/articles/halo-campaign-evolved-and-game-freaks-beast-of-reincarnation-lead-xbox-game-pass-july-2026-wave-2-lineup",
+    "image": "images/2026-07-22/2026-07-22_gaming_4.jpg",
+    "detail": [
+      "微软公布了Xbox Game Pass 2026年7月下半月至8月初的第二波入库阵容,重磅作品当属《光环:战役进化(Halo: Campaign Evolved)》。作为微软第一方作品,它将于7月28日首发即进入Game Pass Ultimate与PC Game Pass,延续第一方新作首日入库的惯例。",
+      "另一款首日入库的是宝可梦开发商Game Freak打造的全新作品《转生野兽(Beast of Reincarnation)》,8月4日登陆Ultimate与PC订阅。其余首日阵容还包括线上合作侦探恐怖游戏《Shift at Midnight》(7月22日)与黑暗奇幻搜刮类ARPG《Mistfall Hunter》(7月30日),阵中还有《Hell is Us》《Corsair Cove》等。",
+      "本月同样有作品离开阵容,7月31日将下架《蔚蓝(Celeste)》《十字军之王3》《骑马与砍杀2》《雨世界》等八款游戏,玩家可趁在库期间折扣购入。这波公布正值Xbox大规模裁员、订阅数远低于预期的敏感时期,官方选择用重量级第一方大作稳住订阅玩家信心,反响颇受关注。"
+    ]
+  },
+  {
+    "id": "2026-07-22_gaming_5",
+    "date": "2026-07-22",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "Eurogamer",
+    "platform_color": "#F59E0B",
+    "title": "《幽灵行动:荒野》疑将推次世代版",
+    "url": "https://www.eurogamer.net/ghost-recon-wildlands-definitive-edition-leak",
+    "image": "images/2026-07-22/2026-07-22_gaming_5.jpg",
+    "detail": [
+      "育碧似乎正为2017年的开放世界合作大作《幽灵行动:荒野(Ghost Recon Wildlands)》准备一款决定版(Definitive Edition),登陆PS5与Xbox Series X/S。有玩家在Wildlands的Reddit版块分享了出现在该作Xbox游戏中心的宣传图,提前曝光了这一尚未正式官宣的版本。",
+      "据泄露信息,决定版将支持原生4K分辨率与60帧,并加入一段名为Last Rites的全新任务,同时打包两个年度季票内的全部既往追加内容。尽管本作目前已能在次世代主机上向下兼容运行,但原生版本才能真正带来更高的画面表现与帧数。据Insider Gaming报道,育碧还有多款经典作品在做类似升级,下一款疑为《看门狗:军团》。",
+      "该Xbox游戏中心的优惠据称将于8月7日到期,而这一时间点颇为微妙:育碧宣布将在8月6日为系列25周年公布更多《幽灵行动》消息。官方账号已发文预热称稍后会有更多要说。玩家也在讨论,这更像《全境封锁》决定版那样的DLC合集重发,而非真正的重制,期待与疑虑并存。"
     ]
   }
 ]
