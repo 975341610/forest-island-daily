@@ -3,8 +3,8 @@
   "repos": {
     "bojieli/ai-agent-book": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 6168,
+      "appearances": 3,
+      "total_today_stars": 10792,
       "language": "Python",
       "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1421793?v=4",
@@ -39,8 +39,8 @@
     },
     "KnockOutEZ/wigolo": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1284,
+      "appearances": 3,
+      "total_today_stars": 1926,
       "language": "TypeScript",
       "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/70368615?v=4",
@@ -57,8 +57,8 @@
     },
     "MoonshotAI/kimi-cli": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 820,
+      "appearances": 3,
+      "total_today_stars": 1149,
       "language": "Python",
       "description": "Kimi Code CLI is your next CLI agent.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/129152888?v=4",
@@ -102,8 +102,8 @@
     },
     "1jehuang/jcode": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 803,
+      "appearances": 3,
+      "total_today_stars": 1646,
       "language": "Rust",
       "description": "Coding Agent Harness",
       "owner_avatar": "https://avatars.githubusercontent.com/u/94247773?v=4",
@@ -111,8 +111,8 @@
     },
     "every-app/open-seo": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1161,
+      "appearances": 3,
+      "total_today_stars": 2010,
       "language": "TypeScript",
       "description": "Open source alternative to Semrush and Ahrefs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
@@ -200,9 +200,9 @@
       "html_url": "https://github.com/Flowseal/zapret-discord-youtube"
     },
     "AstrBotDevs/AstrBot": {
-      "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 400,
+      "best_rank": 11,
+      "appearances": 3,
+      "total_today_stars": 816,
       "language": "Python",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
       "owner_avatar": "https://avatars.githubusercontent.com/u/197911947?v=4",
@@ -228,8 +228,8 @@
     },
     "oblien/openship": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1641,
+      "appearances": 2,
+      "total_today_stars": 3203,
       "language": "TypeScript",
       "description": "Self-hosted deployment platform",
       "owner_avatar": "https://avatars.githubusercontent.com/u/195301136?v=4",
@@ -237,8 +237,8 @@
     },
     "microsoft/Ontology-Playground": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 464,
+      "appearances": 2,
+      "total_today_stars": 819,
       "language": "TypeScript",
       "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -255,8 +255,8 @@
     },
     "Alishahryar1/free-claude-code": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 313,
+      "appearances": 2,
+      "total_today_stars": 667,
       "language": "Python",
       "description": "Use claude code, codex or pi for free from the terminal, IDE, or you phone like OpenClaw (voice supported)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -264,8 +264,8 @@
     },
     "earthtojake/text-to-cad": {
       "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 297,
+      "appearances": 2,
+      "total_today_stars": 588,
       "language": "JavaScript",
       "description": "A collection of agent skills for CAD, robotics and hardware design",
       "owner_avatar": "https://avatars.githubusercontent.com/u/10742417?v=4",
@@ -342,6 +342,141 @@
       "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2390382?v=4",
       "html_url": "https://github.com/rmyndharis/OpenWA"
+    },
+    "ayghri/i-have-adhd": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1866,
+      "language": null,
+      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/32200675?v=4",
+      "html_url": "https://github.com/ayghri/i-have-adhd"
+    },
+    "stablyai/orca": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 1356,
+      "language": "TypeScript",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "html_url": "https://github.com/stablyai/orca"
+    },
+    "koala73/worldmonitor": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 1295,
+      "language": "TypeScript",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/996596?v=4",
+      "html_url": "https://github.com/koala73/worldmonitor"
+    },
+    "earendil-works/pi": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 1230,
+      "language": "TypeScript",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
+      "html_url": "https://github.com/earendil-works/pi"
+    },
+    "ruvnet/RuView": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 1114,
+      "language": "Rust",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "html_url": "https://github.com/ruvnet/RuView"
+    },
+    "ltaoo/wx_channels_download": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 381,
+      "language": "Go",
+      "description": "微信视频号下载器",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/15319872?v=4",
+      "html_url": "https://github.com/ltaoo/wx_channels_download"
+    },
+    "t8y2/dbx": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 341,
+      "language": "Rust",
+      "description": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
+      "html_url": "https://github.com/t8y2/dbx"
+    },
+    "agegr/pi-web": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 298,
+      "language": "TypeScript",
+      "description": "Web UI for the pi coding agent",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/12794925?v=4",
+      "html_url": "https://github.com/agegr/pi-web"
+    },
+    "rtk-ai/rtk": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 274,
+      "language": "Rust",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/258253854?v=4",
+      "html_url": "https://github.com/rtk-ai/rtk"
+    },
+    "practical-tutorials/project-based-learning": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 262,
+      "language": "Python",
+      "description": "Curated list of project-based tutorials",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/89421154?v=4",
+      "html_url": "https://github.com/practical-tutorials/project-based-learning"
+    },
+    "addyosmani/agent-skills": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 211,
+      "language": "JavaScript",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
+      "html_url": "https://github.com/addyosmani/agent-skills"
+    },
+    "langgenius/dify": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 157,
+      "language": "TypeScript",
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127165244?v=4",
+      "html_url": "https://github.com/langgenius/dify"
+    },
+    "tradesdontlie/tradingview-mcp": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 114,
+      "language": "JavaScript",
+      "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/196674484?v=4",
+      "html_url": "https://github.com/tradesdontlie/tradingview-mcp"
+    },
+    "maboloshi/github-chinese": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 102,
+      "language": "JavaScript",
+      "description": "GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/7850715?v=4",
+      "html_url": "https://github.com/maboloshi/github-chinese"
+    },
+    "CloakHQ/CloakBrowser": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 91,
+      "language": "Python",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/263128610?v=4",
+      "html_url": "https://github.com/CloakHQ/CloakBrowser"
     }
   }
 }

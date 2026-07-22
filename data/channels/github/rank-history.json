@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-21": {
-      "DeusData/codebase-memory-mcp": 1,
-      "palmier-io/palmier-pro": 2,
-      "tursodatabase/turso": 3,
-      "calesthio/OpenMontage": 4,
-      "koala73/worldmonitor": 5,
-      "Kilo-Org/kilocode": 6,
-      "google-research/timesfm": 7,
-      "penpot/penpot": 8,
-      "public-apis/public-apis": 9,
-      "Kong/insomnia": 10,
-      "yt-dlp/yt-dlp": 11,
-      "microsoft/presidio": 12,
-      "BuilderIO/agent-native": 13,
-      "Alishahryar1/free-claude-code": 14,
-      "everywall/ladder": 15,
-      "ruvnet/ruflo": 16,
-      "THUDM/slime": 17,
-      "n8n-io/n8n": 18,
-      "zubair-trabzada/geo-seo-claude": 19,
-      "mikumifa/biliTickerBuy": 20,
-      "n0-computer/iroh": 21,
-      "ruvnet/RuView": 22,
-      "Lightricks/LTX-2": 23,
-      "jamiepine/voicebox": 24,
-      "run-llama/liteparse": 25
-    },
     "2026-06-22": {
       "palmier-io/palmier-pro": 1,
       "penpot/penpot": 2,
@@ -836,6 +809,33 @@
       "browser-use/video-use": 23,
       "PrefectHQ/fastmcp": 24,
       "rmyndharis/OpenWA": 25
+    },
+    "2026-07-22": {
+      "bojieli/ai-agent-book": 1,
+      "ayghri/i-have-adhd": 2,
+      "oblien/openship": 3,
+      "stablyai/orca": 4,
+      "koala73/worldmonitor": 5,
+      "earendil-works/pi": 6,
+      "ruvnet/RuView": 7,
+      "every-app/open-seo": 8,
+      "1jehuang/jcode": 9,
+      "KnockOutEZ/wigolo": 10,
+      "AstrBotDevs/AstrBot": 11,
+      "ltaoo/wx_channels_download": 12,
+      "microsoft/Ontology-Playground": 13,
+      "Alishahryar1/free-claude-code": 14,
+      "t8y2/dbx": 15,
+      "MoonshotAI/kimi-cli": 16,
+      "agegr/pi-web": 17,
+      "earthtojake/text-to-cad": 18,
+      "rtk-ai/rtk": 19,
+      "practical-tutorials/project-based-learning": 20,
+      "addyosmani/agent-skills": 21,
+      "langgenius/dify": 22,
+      "tradesdontlie/tradingview-mcp": 23,
+      "maboloshi/github-chinese": 24,
+      "CloakHQ/CloakBrowser": 25
     }
   }
 }
