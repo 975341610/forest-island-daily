@@ -1,5 +1,289 @@
 [
   {
+    "id": "2026-07-23_vibecoding_5",
+    "date": "2026-07-23",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "Humalike:给AI代理补上社交智能的行为API",
+    "url": "https://www.producthunt.com/products/humalike-2",
+    "image": "images/2026-07-23/2026-07-23_vibecoding_5.jpg",
+    "detail": [
+      "Humalike 于 7 月 22 日拿下 Product Hunt 当日榜首(约 383 票),定位是「humanlike AI 代理的行为基础设施」。团队自述缘起:几个月前他们做了个 AI 社群管理员,一进群里所有人立刻看出是机器人——它抢话、不知道何时该闭嘴,加再多功能也修不好。结论是今天的模型「够聪明够快」,缺的不是智力而是「读空气」的社交能力,于是他们把这层做成了面向开发者的一组 API 与模型。",
+      "产品提供 7 个行为 API:旗舰的 Turn-Taking(判断何时开口、何时沉默,并打包其余能力)、Theory of Mind(揣摩他人真实想法)、Norms(读群体语气)、Persona(有观点、会站队)、Social Memory(记住人与在意的事)、Social Signals(捕捉发送前的停顿、撤回的表情、编辑过的消息)与 Social Observability(看谁投入、谁无聊、谁被惹恼)。它宣称模型/用例/技术栈无关、专为群聊而非 1:1 设计,可一键接入 Hermes、WhatsApp、Telegram,新用户送 20 美元 token,并配有自研基准 LoSoNA 与 HUMA。",
+      "评论区最戳中开发者的是「群聊而非 1:1」的框架:两人对话里的轮流发言主要是延迟问题,但四人以上时,代理必须结合自身性格、目标、与对方的关系与记忆来决定要不要开口。做语音陪伴老人的开发者也追问它如何处理长而不均的停顿。团队坦言 turn-taking 是业界尚未解决的难题,本次先攻文本与在线群聊,端到端语音仍在研发中——这标志着 agent 竞争正从「能力」转向「体验与社交得体度」。"
+    ]
+  },
+  {
+    "id": "2026-07-23_vibecoding_4",
+    "date": "2026-07-23",
+    "category": "VibeCoding",
+    "subcat": "AI编程",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "AgentManager:盯住多个Claude Code会话",
+    "url": "https://www.producthunt.com/products/agentmanager",
+    "image": "images/2026-07-23/2026-07-23_vibecoding_4.jpg",
+    "detail": [
+      "AgentManager 于 7 月 22 日登上 Product Hunt 开发者工具榜(第 12 位,约 122 票),解决一个 Claude Code 重度用户的具体痛点:当你同时并行跑多个代理会话时,总有某个会话停下来等你输入或审批,而你已经切到别的窗口,根本不知道它在干等。它给每个 Claude Code 会话配一个 macOS 悬浮窗,一旦某个会话需要你介入就自动浮现、全部就绪时又自动隐身,让「人在环上」的多代理编排不再靠人肉轮询。",
+      "从定位看,它对应 Claude Code 官方 Agent View 之外的第三方增强,把注意力管理做成了原生桌面体验。作者 simonstaton 的开源仓库显示这是一个较成熟的项目(200+ 提交、多分支),README 强调「大规模安全地指挥自主 Claude Code 代理」,并带有终止开关(kill switch)、成本追踪与代理间消息传递等编排能力,底层用 Next.js、Radix/shadcn,并支持本地 Docker 运行路径,本次是把桌面通知形态打包上架 PH 做了一次面向大众的发布。",
+      "社区对这类工具的共鸣很强:Claude Code 官方 issue 里「Claude 等待输入时缺少可挂钩事件」的功能请求获得大量点赞,说明「代理停下等人却没人知道」是普遍摩擦点。AgentManager 用悬浮窗 + 自动显隐把这条体验补齐,契合 2026 年开发者「一个人指挥一队代理」的工作方式转变——当并行度上去,真正稀缺的不再是算力,而是开发者的注意力调度。"
+    ]
+  },
+  {
+    "id": "2026-07-23_vibecoding_3",
+    "date": "2026-07-23",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "box:给AI代理的即用全VM云电脑",
+    "url": "https://www.producthunt.com/products/box-4",
+    "image": "images/2026-07-23/2026-07-23_vibecoding_3.jpg",
+    "detail": [
+      "box 于 7 月 22 日在 Product Hunt「Launching today」板块亮相并冲进当日前五(约 238 票),口号是「Simple computers for agent w/ full VMs」——为 AI 代理提供简单、即开即用、带完整虚拟机的云端电脑。随着编程代理与自主 agent 大规模跑长任务,「代理在哪台机器上执行」成为刚需痛点:直接给代理本机 shell 风险巨大,而临时、隔离、可弃的完整 VM 环境正好补上这块安全与可复现性的空缺。",
+      "与只提供受限容器或纯文件沙箱的方案不同,box 强调交付的是「完整 VM」,意味着代理可以安装系统级依赖、运行数据库、启动服务、执行需要真实操作系统能力的复杂任务,而不被裁剪过的运行时限制。这类「agent 计算机」思路,和同期社区里 madarco/agentbox(在个人电脑或云上并行跑多个沙箱 VM 代理)遥相呼应,共同勾勒出「一条命令给每个代理一台机器」的新基建形态,让并行、隔离、可回收成为默认。",
+      "开发者对这一品类的关注度快速升温,因为它直接决定了自主代理能否安全地「动真格」:一旦代理要跑迁移、装环境、连外部服务,一次性可弃的全 VM 比在开发者本机裸奔安全得多,出问题直接销毁重建即可。box 当日的高票也印证了 2026 年围绕「代理执行环境」的军备竞赛——从授权层(如 Kastra)到计算层(如 box),整个 vibe coding 生产化的配套栈正在被逐块补齐。"
+    ]
+  },
+  {
+    "id": "2026-07-23_vibecoding_2",
+    "date": "2026-07-23",
+    "category": "VibeCoding",
+    "subcat": "开源工具",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "Arkor:用编程代理微调开源模型的TS框架",
+    "url": "https://github.com/arkorlab/arkor",
+    "image": "images/2026-07-23/2026-07-23_vibecoding_2.jpg",
+    "detail": [
+      "Arkor(arkorlab/arkor)是一个「代理原生」的 TypeScript 框架,主打让开发者直接在编程代理里训练、部署并调用自己的开源权重模型,7 月 22 日登上 Product Hunt 开发者工具榜(第 11 位),同日仓库仍有多次提交,处于活跃 alpha 阶段。它的核心卖点是把过去属于 Python 与 ML 工程师专属的微调流程,搬进 TypeScript 生态和 Claude Code / Codex 这类编程代理的工作流,让全栈开发者也能「告诉代理去造一个定制模型」。",
+      "从技术形态看,Arkor 提供 create-arkor 脚手架、e2e 示例(如 doc-drift 文档漂移检测)以及一套「训练→部署→调用」闭环 API,强调开源、无需注册即可试用。仓库已累计约 1121 次提交、28 个分支与 12 个 tag,CI 里包含 CodeRabbit 评审、依赖自动升级(如 setup-node 6.4→7.0)、甚至有禁用 em-dash 的脚本校验,工程规范度较高。官网口号是「用你的编程代理构建一个定制模型」,把 fine-tuning 从命令行黑箱变成代理可编排的一等公民。",
+      "该项目踩中了 2026 年 GitHub Trending 的明确趋势:榜单主角从论文型仓库转向各类 agent 与其配套基础设施。开发者社区对「TypeScript 直接做微调」既兴奋又谨慎——兴奋在于降低了开源权重模型的落地门槛、契合前端团队的技术栈;谨慎在于 alpha 阶段的训练效果、成本与生产稳定性仍待检验。无论如何,它代表了一种把模型定制能力交还给应用层开发者、而非只留给专职 ML 团队的方向探索。"
+    ]
+  },
+  {
+    "id": "2026-07-23_vibecoding_1",
+    "date": "2026-07-23",
+    "category": "VibeCoding",
+    "subcat": "AI编程",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "Kastra:给AI编程代理装运行时授权层",
+    "url": "https://www.producthunt.com/products/kastra",
+    "image": "images/2026-07-23/2026-07-23_vibecoding_1.jpg",
+    "detail": [
+      "Kastra 于北京时间 7 月 22 日登上 Product Hunt 当日榜第三名(近 300 票、595 关注),定位为「AI 代理的运行时授权层」。创始人 Fernando 与 Carlos 的灵感来自一次惊魂:他们的 Cursor 代理差点对生产库执行 DELETE FROM customers WHERE status='test',虽被人工拦下,却暴露出整个技术栈里根本没有任何一层「决定代理被允许做什么」。他们认定,prompt 和规则只是影响模型行为的概率手段,而非确定性的权限系统,于是把授权判断彻底移到模型之外。",
+      "产品核心是一个策略决策点(PDP):它拦截 Claude Code、Cursor、Codex、OpenClaw 以及 Anthropic/OpenAI SDK 发出的每一次工具调用、shell 命令、文件写入、数据库查询与 API 请求,按用户用自然语言编写的策略在亚毫秒级(官方称 p99 0.8ms)返回 allow/hold/deny,并写入签名、可回放的不可篡改审计流,可推送到 Datadog、Splunk、S3。支持云端、自托管、气隙三种部署,覆盖 TS、Python、Go、Rust、Java、Swift。新功能 Recon 可扫描本地代理历史,列出已经发生过的高危动作并自动草拟对应策略,桌面 App、CLI、Dashboard 对开发者免费。",
+      "社区反应聚焦于一个尖锐命题:AI 代理进入真实系统后,好的 prompt 与 code review 不足以构成权限边界,必须有「模型之外」的确定性守卫,类比 AWS IAM。也有人反问「为什么代理会离生产数据这么近」,主张优先沙箱化、只读凭证与最小权限。Kastra 恰恰押注在「不纯是玩具沙箱」的中间地带——代理要看日志、开 PR、跑本地迁移、经 MCP 拉取上下文,一旦越过仓库边界,确定性策略检查就变得关键,这也让它成为 vibe coding 走向生产化过程中的一块基础设施拼图。"
+    ]
+  },
+  {
+    "id": "2026-07-23_gaming_5",
+    "date": "2026-07-23",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "官方",
+    "platform_color": "#F59E0B",
+    "title": "《光环:战役进化》23日抢先体验 首登PS5",
+    "url": "https://www.halowaypoint.com/news/early-access-primer",
+    "image": "images/2026-07-23/2026-07-23_gaming_5.jpg",
+    "detail": [
+      "《Halo: Campaign Evolved》(光环:战役进化)是Halo Studios基于虚幻引擎5重制的初代《光环:战斗进化》战役版本,不仅以现代画质重建了25年前的经典流程,还加入名为\"陨石行动\"(Operation: METEORITE)的全新前传任务、42个骷髅收集要素、战役Remix模式,以及主机双人分屏与四人跨平台合作。作为系列史上首次登陆PS5的正统作品,它承载着微软扩大光环品牌影响力的重要意义。",
+      "7月22日,Halo官方在Halo Waypoint发布\"抢先体验指南\",确认购买高级版(Premium)或典藏版的玩家将于7月23日8:00 AM PDT开启最多五天的抢先体验,全平台同步解锁;标准版及Game Pass Ultimate、PC Game Pass会员则于7月28日全球正式上线。预载方面,Xbox、PC与PS5高级/典藏版7月22日即可预下载,PS5标准版7月26日开放,PC约需100GB、主机约70GB空间。",
+      "官方特别说明,PS5与Steam玩家首次进入游戏需将账号关联至Microsoft账号,以实现好友列表互通与跨平台合作,并支持共享的剧情存档点、收集品与自定义进度,体现出微软\"跨平台Halo\"的战略布局。",
+      "对于光环老玩家而言,看到系列起点以现代姿态同时登陆Xbox与PS5令人激动,社区普遍期待其能为品牌带来新动力、甚至为《Halo Infinite》续作铺路;但也有声音对本作取消PvP多人对战、以及此前传出的生成式AI辅助开发争议表示遗憾与担忧,首发表现将直接影响这次\"跨平台回归\"的口碑成败。"
+    ]
+  },
+  {
+    "id": "2026-07-23_gaming_4",
+    "date": "2026-07-23",
+    "category": "Gaming",
+    "subcat": "单机",
+    "platform": "Gematsu",
+    "platform_color": "#F59E0B",
+    "title": "点击式宇宙恐怖《稗》7月22日发售",
+    "url": "https://www.gematsu.com/2026/07/the-dream-of-a-cockspur-launches-july-22",
+    "image": "images/2026-07-23/2026-07-23_gaming_4.jpg",
+    "detail": [
+      "《The Dream Of A Cockspur》(日文原名《稗》)是一款超现实主义点击式宇宙恐怖冒险游戏,由独立开发者roccay制作、知名独立发行商PLAYISM发行。游戏以文本错乱、反复重写的叙事手法营造克苏鲁式的诡异氛围,讲述六名调查员登上一座小岛,调查坠落于此的神秘天体,却在返程前夕遭遇意外、被迫滞留并逐步揭开真相的故事。",
+      "官方确认游戏已于7月22日通过Steam登陆PC平台,定价仅6.99美元/790日元,属于小体量、低门槛的独立作品。游戏主打大量点击解谜(以\"求生\"为主题)、可翻阅的众多书籍、一只治疗犬,以及以鼠标交互为核心的基础操作,发行方同步放出了英语、日语与繁简中文四版发售预告片,面向多语言玩家。",
+      "作为一款主打氛围与叙事的单机恐怖小品,本作以低价和超现实美术风格切入,试图在7月扎堆的独立新作中以\"故事+解谜+诡异文本\"的组合吸引硬核恐怖与解谜爱好者。",
+      "从早期社区讨论来看,喜爱克苏鲁题材与实验性叙事的玩家对这种\"文本不断被划掉重写\"的手法颇感兴趣,认为其价格亲民、氛围到位;也有玩家持观望态度,担心点击式解谜的体量与重复度。作为PLAYISM旗下的小众恐怖新作,它更像是给特定口味玩家准备的\"惊喜盒\",而非面向大众的爆款。"
+    ]
+  },
+  {
+    "id": "2026-07-23_gaming_3",
+    "date": "2026-07-23",
+    "category": "Gaming",
+    "subcat": "Steam",
+    "platform": "Gematsu",
+    "platform_color": "#F59E0B",
+    "title": "《Tears of Metal》抢先体验上线Steam",
+    "url": "https://www.gematsu.com/2026/06/tears-of-metal-launches-in-early-access-for-pc-on-july-22",
+    "image": "images/2026-07-23/2026-07-23_gaming_3.jpg",
+    "detail": [
+      "《Tears of Metal》是加拿大工作室Paper Cult Games打造的中世纪割草式合作Roguelike动作游戏,主打\"一人对千军\"的无双式战斗与肉鸽随机构筑的结合,在西方独立圈相对少见的割草题材上另辟蹊径。此前游戏放出的试玩demo积累了不小的关注度,开发团队也在正式上线前将过时的demo下架,以免影响玩家体验。",
+      "根据发行信息,游戏于7月22日通过Steam与微软商店登陆PC平台开启抢先体验(Early Access)。首发版本即包含完整的核心循环:三个各具独特敌人、精英与Boss的章节,三名可操作英雄,以及村庄升级、纹章、装备、随从等系统,官方强调\"从头到尾完整可玩\",并承诺在EA阶段持续追加新英雄、新装备、新伙伴与平衡性优化。",
+      "开发者表示选择抢先体验是为了在保证基础游戏完整的前提下,借助社区反馈进一步打磨内容,这也是近年独立动作游戏常见的发行策略。",
+      "玩家社区对本作评价整体积极:有人赞赏西方开发者难得尝试无双割草玩法,认为\"至少EA版本给的是完整基础游戏\"而非半成品;但也有玩家调侃\"如今什么都要抢先体验\",对EA模式表达疲惫。整体来看,首发内容诚意与后续更新节奏,将决定这款小体量割草肉鸽能否在拥挤的7月Steam新作潮中站稳脚跟。"
+    ]
+  },
+  {
+    "id": "2026-07-23_gaming_2",
+    "date": "2026-07-23",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Nintendo Life",
+    "platform_color": "#F59E0B",
+    "title": "《斯普拉遁 突袭》登陆Switch 2",
+    "url": "https://www.nintendolife.com/games/nintendo-switch-2/splatoon-raiders",
+    "image": "images/2026-07-23/2026-07-23_gaming_2.jpg",
+    "detail": [
+      "《斯普拉遁 突袭》(Splatoon Raiders)是任天堂旗下人气墨汁射击系列的全新衍生作品,也是该系列首款主打单人剧情的Switch 2独占游戏。与以往主打在线对战的正统作不同,本作把重心放到单人冒险与最多四人在线合作上,让玩家在充满涂料与海洋主题的世界里展开一场\"寻鲨\"式的探索,是Switch 2上半年最受关注的第一方新作之一。",
+      "任天堂在7月22日放出了发售日预告片,并确认游戏于7月23日正式登陆Switch 2,美区实体与数字版售价分别为59.99美元与49.99美元,欧区为49.99英镑/41.99英镑数字版,同步推出联动amiibo。这也是自公布以来玩家首次看到大量实际游戏内容,预告展示了新角色、关卡与合作玩法,信息量远超此前数月的\"沉默期\"。",
+      "作为Switch 2平台的独占作品,本作被视为任天堂拓展Splatoon品牌、验证单人化转型的重要一步,标准游戏卡带形式发售,支持单人与四人在线合作。",
+      "预告一出立即在社区引发热议:粉丝对系列终于尝试完整单人战役普遍表示期待,称美术风格与音乐依旧亮眼;不过也有玩家对\"预告即发售\"的极短周期感到意外,担心宣发不足、内容体量,并就定价与是否物有所值展开讨论,首发口碑将成为衡量Splatoon单人化能否立住脚的关键。"
+    ]
+  },
+  {
+    "id": "2026-07-23_gaming_1",
+    "date": "2026-07-23",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "官方",
+    "platform_color": "#F59E0B",
+    "title": "《NBA 2K27》公布三封面 9月4日发售",
+    "url": "https://newsroom.2k.com/news/nbar-2k27-cover-athletes-revealed-victor-wembanyama-caitlin-clark-and-derrick-rose",
+    "image": "images/2026-07-23/2026-07-23_gaming_1.jpg",
+    "detail": [
+      "《NBA 2K》是2K与Visual Concepts合作、每年一作的当家篮球模拟游戏,涵盖NBA与WNBA全部球队,并加入经典球队与欧洲豪门,配合MyCAREER、MyTEAM等长青模式,是全球主机与PC篮球玩家每年最期待的体育大作之一。7月22日,2K正式揭晓了新作《NBA 2K27》的三位封面球星与发售信息,为今年的体育游戏季拉开序幕,官方同时预告完整实机演示将在7月28日放出。",
+      "官方确认《NBA 2K27》将于2026年9月4日在PS5、Xbox Series X|S、Switch 2以及PC(Steam)全平台同步发售,标准版售价69.99美元,豪华版99.99美元,限时至9月6日的Ultra版则为149.99美元;购买豪华或Ultra版可在8月28日抢先体验。三位封面分别为标准版的马刺中锋文班亚马、豪华版的印第安纳狂热后卫凯特琳·克拉克,以及Ultra版的公牛传奇德里克·罗斯。",
+      "值得一提的是,克拉克成为NBA 2K系列史上首位独占全球封面的WNBA球员,被官方视为女子篮球影响力扩张的标志。三人分别代表当代内线革新、外线射程革命与爆发型控卫,2K高管以\"从不关机的痴迷\"来诠释这一代主题。",
+      "消息公布后社区反应两极:不少玩家为克拉克登上封面、女篮首获全球独立封面感到振奋,认为具有里程碑意义;但也有老玩家吐槽定价再度上探、Ultra版内容偏向氪金,并对系列年货化、微交易与VC货币体系持续表达不满,呼吁2K在7月28日的实机演示中拿出真正的玩法革新。"
+    ]
+  },
+  {
+    "id": "2026-07-23_ai_7",
+    "date": "2026-07-23",
+    "category": "AI",
+    "subcat": "研究",
+    "platform": "Pillar Security",
+    "platform_color": "#8ED16D",
+    "title": "研究揭示 AI 编程工具沙箱逃逸新路径",
+    "url": "https://www.pillar.security/blog/the-week-of-sandbox-escapes",
+    "image": "images/2026-07-23/2026-07-23_ai_7.jpg",
+    "detail": [
+      "安全公司 Pillar Security 于本周公布题为《The Week of Sandbox Escapes》的研究，系统披露了在 Cursor、OpenAI Codex、Google Gemini CLI 与 Google Antigravity 等主流 AI 编程助手中发现的一系列沙箱边界绕过漏洞。研究由 Eilon Cohen、Dan Lisichkin 与 Ariel Fogel 三位研究员完成，相关问题已通过协同披露流程被各厂商修复或处于争议处理中。",
+      "与传统「直接攻破沙箱」的思路不同，研究人员指出这是一种更根本的「信任问题」：AI 智能体本身始终在沙箱约束内运行，但它写出的文件会被主机上受信任的外部工具——如 Git 集成、Python 扩展、VS Code 任务运行器——在稍后自动执行，从而在沙箱之外实现代码执行。攻击者无需砸开笼子，只需让智能体「写下」某样东西即可。",
+      "具体案例包括：Cursor 中由工作区控制的 hook 配置漏洞(CVE-2026-48124，已在 v3.0.0 修复)、Codex CLI v0.95.0 的允许列表绕过(获颁高危漏洞赏金)、影响 Gemini CLI 与 Cursor 的共享 Docker socket 缺陷，以及 Antigravity 中的 macOS Seatbelt 拒绝列表绕过。多家科技媒体在 7 月 21 日跟进报道了这批发现。",
+      "研究强调，随着智能体编程工具被广泛集成进开发流水线，「智能体安全需要自己独立的威胁模型」，不能简单套用传统应用安全思路。社区反应认为，这类「借道可信组件」的攻击面在自动化程度越来越高的 AI 编码生态中被严重低估，厂商在追求自动执行、并行 worker 和持久化能力的同时，必须重新审视文件写入与外部工具链之间的信任边界。"
+    ]
+  },
+  {
+    "id": "2026-07-23_ai_6",
+    "date": "2026-07-23",
+    "category": "AI",
+    "subcat": "融资",
+    "platform": "Humanoid 官方",
+    "platform_color": "#8ED16D",
+    "title": "英国 Humanoid 融资 1.52 亿美元晋级独角兽",
+    "url": "https://thehumanoid.ai/humanoid-raises-152-million-at-1-35-billion-post-money-valuation-becoming-europes-first-pure-play-humanoid-robotics-unicorn/",
+    "image": "images/2026-07-23/2026-07-23_ai_6.jpg",
+    "detail": [
+      "北京时间 7 月 21 日，英国 AI 与机器人公司 Humanoid 宣布完成 1.52 亿美元 A 轮融资，投后估值达 13.5 亿美元，成为欧洲首家纯粹专注人形机器人的独角兽企业。这距离公司成立仅两年，也刷新了欧洲人形机器人公司有史以来最大的 A 轮融资纪录，累计融资额达到 2.7 亿美元。",
+      "本轮融资由专注突破性科学创业的风投 Prime Movers Lab 领投，舍弗勒(Schaeffler)、博世(Bosch)、富邦金控创投以及 Aglaé Ventures 等产业与财务投资方跟投。多家全球工业巨头既是投资人也是商业合作伙伴，其中 Humanoid 近期与舍弗勒签下业内公开规模最大的商业协议，将在制造环境中大规模部署数千台人形机器人。",
+      "新资金将用于下一代人形机器人平台的研发与发布、在物流制造零售等客户现场的长期商业部署(计划 Q4 2026 起铺开 Beta 版机器人)、启动轮式人形机器人的量产，以及推进公司自研 AI 大脑 KinetIQ 的迭代。公司已与 SAP、英伟达、博世、西门子等财富 500 强建立合作。",
+      "创始人兼 CEO Artem Sokolov 表示，两年内从一个想法成长为欧洲首家纯人形机器人独角兽，通常需要十年才能完成。此次融资被视为欧洲科技生态的标志性时刻——此前「物理 AI」的势头主要集中在美国和中国，而这笔投资证明欧洲同样能孵化并规模化具备全球竞争力的物理 AI 公司。"
+    ]
+  },
+  {
+    "id": "2026-07-23_ai_5",
+    "date": "2026-07-23",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "东方财富",
+    "platform_color": "#8ED16D",
+    "title": "英伟达 Vera Rubin 平台全球扩大部署",
+    "url": "https://wap.eastmoney.com/a/202607213816062080.html",
+    "image": "images/2026-07-23/2026-07-23_ai_5.jpg",
+    "detail": [
+      "北京时间 7 月 21 日深夜，英伟达宣布面向「千兆级 AI 工厂」打造的 Vera Rubin 平台正在全球范围内扩大部署，CoreWeave、谷歌云、微软 Azure、甲骨文云等主流云厂商均已开始采用 Vera Rubin NVL72 系统。这标志着这一新一代 AI 超算平台从量产阶段迈向大规模商业化落地，成为支撑下一代智能体工作负载的核心基础设施。",
+      "英伟达披露的关键数据显示，CoreWeave 的测试结果表明，Vera Rubin NVL72 相比上一代 Grace Blackwell NVL72，每兆瓦可实现高达 10 倍的 Token 吞吐提升。这一「单位功耗产出」的暴涨直指当前 AI 数据中心最核心的电力与能效瓶颈，意味着同样的电力预算下能服务多得多的推理请求。",
+      "该平台整合了 Vera CPU、Rubin GPU、NVLink 6、ConnectX-9 SuperNIC、BlueField-4 DPU 以及 Spectrum-6 交换系统等多个自研组件，构成面向智能体工作负载的一体化巨型系统，旨在同时提升 AI 训练和推理效率。英伟达还称 Vera CPU 速度是其他 CPU 的两倍多，能支持更多并发 AI 代理。",
+      "英伟达表示，凭借成熟且开源的 MGX 设计，其供应链生态已覆盖全球 30 个国家和地区、350 多家工厂节点加速量产，目标是降低 AI 基础设施成本并提高能源利用率。此次密集披露被视为英伟达在 AMD 等对手施压、以及 Kimi K3 引发「低成本模型冲击算力需求」担忧背景下的一次先发制人。"
+    ]
+  },
+  {
+    "id": "2026-07-23_ai_4",
+    "date": "2026-07-23",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "Ars Technica",
+    "platform_color": "#8ED16D",
+    "title": "谷歌一口气发三款 Gemini,旗舰 3.5 Pro 仍难产",
+    "url": "https://arstechnica.com/google/2026/07/google-reveals-faster-and-cheaper-gemini-3-6-flash-says-3-5-pro-is-still-in-testing/",
+    "image": "images/2026-07-23/2026-07-23_ai_4.jpg",
+    "detail": [
+      "北京时间 7 月 21 日，谷歌在一次公告中一次性推出三款新 Gemini 模型：Gemini 3.6 Flash、Gemini 3.5 Flash-Lite，以及首款面向网络安全、限政府与可信合作伙伴使用的 Gemini 3.5 Flash Cyber。引人注目的是，众人期待已久的旗舰 Gemini 3.5 Pro 依旧缺席，谷歌同时确认该旗舰仍未准备就绪，等于承认它再次跳票。",
+      "作为 I/O 上亮相的 3.5 Flash 的直接继任者，Gemini 3.6 Flash 在 Artificial Analysis 指数上以约少 17% 的输出 token 完成同等任务，多步骤作业所需的推理步数和工具调用也更少。定价为每百万输入 token 1.5 美元、输出 token 7.5 美元，较上一代 9 美元的输出价明显下调；知识截止时间从 2025 年 1 月大幅前移至 2026 年 3 月。",
+      "此外，3.5 Flash-Lite 以每百万 0.3/2.5 美元的更低价格主打超高并发的廉价场景；而 Flash Cyber 则是能发现、验证并修复漏洞的安全特调版，运行于 CodeMender 之中，仅作为面向政府与可信伙伴的限量试点，并非普遍开放。谷歌同时透露已启动迄今最雄心勃勃的 Gemini 4 预训练。",
+      "外界解读认为，在迟迟拿不出前沿旗舰的窘境下，谷歌选择在「Flash」这一承载了绝大多数企业生产调用量的中间层发力，用价格和 token 效率去正面挤压 GPT-5.6 Sol、Kimi K3 等对手，同时把叙事重心指向 Gemini 4。有评论称这是「一手烂牌下的理性打法」，Flash 的定价确实对竞品构成压力，但连续数月未交付旗舰也在消耗企业客户的耐心。"
+    ]
+  },
+  {
+    "id": "2026-07-23_ai_3",
+    "date": "2026-07-23",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "TechNews 科技新報",
+    "platform_color": "#8ED16D",
+    "title": "黄仁勋:Kimi、DeepSeek 非威胁反推升算力需求",
+    "url": "https://technews.tw/2026/07/22/jensen-huang-kimi-deepseek-not-threats-boost-ai-demand/",
+    "image": "images/2026-07-23/2026-07-23_ai_3.jpg",
+    "detail": [
+      "北京时间 7 月 22 日(美国中部时间 21 日)，英伟达执行长黄仁勋在出席纬创达拉斯 D1 新厂开幕典礼并接受采访时，公开回应外界对中国最新开源模型 Kimi K3 的担忧。他直言市场最大的误解在于认为低成本模型会削减 AI 投资需求，「这完全弄反了」——AI 模型越聪明、成本越低，使用者反而越多，最终会带动更庞大的算力需求。",
+      "黄仁勋称 Kimi K3 是一款相当优秀且聪明的 AI 模型，「当你拥有聪明的 AI，人们就会去使用它；而只要大家使用它，就需要电脑来运行它。」他强调这是极其合乎逻辑的正循环。他还回顾称市场当初也曾误判 DeepSeek 的影响，事实上 DeepSeek 与 Kimi 对整个 AI 产业都是正面的推动力量。",
+      "对于封闭与开源之争，黄仁勋表示市场既需要 Anthropic、OpenAI 这类提供封闭模型与现成服务的商业公司，也需要 Kimi、千问、Nemotron 等优秀的开源模型，二者共同推动产业成长。他甚至表态，美国政府不应禁止或限制像 Kimi K3 这样的中国 AI 模型，「应该使用优秀的开源模型」。",
+      "谈及云厂商将闲置算力转租的趋势，黄仁勋认为英伟达算力具备「通用可替换性」，能运行每一个 AI 模型，是「全世界最容易出租的电脑」。此番表态发生在 Kimi K3 发布后引发美股半导体板块震荡、英伟达单日市值一度大幅蒸发的背景下，被市场视为对「DeepSeek 时刻 2.0」恐慌情绪的正面回应。"
+    ]
+  },
+  {
+    "id": "2026-07-23_ai_2",
+    "date": "2026-07-23",
+    "category": "AI",
+    "subcat": "产品",
+    "platform": "Dataconomy",
+    "platform_color": "#8ED16D",
+    "title": "Claude 上线「录屏教技能」功能",
+    "url": "https://dataconomy.com/2026/07/22/anthropic-teach-claude-screen-recording-feature/",
+    "image": "images/2026-07-23/2026-07-23_ai_2.jpg",
+    "detail": [
+      "北京时间 7 月 21 日至 22 日，Anthropic 为 Claude 推出名为「Teach Claude a skill」(录屏教 Claude 一项技能) 的全新功能。用户可以一边录制自己的屏幕操作、一边口头讲解任务步骤，Claude 会把整段演示转化为一个可复用的「技能」，之后遇到同类重复任务时便能自动执行，从而大幅减少用户反复输入提示词的负担。",
+      "这项功能内置于 Claude 桌面应用的 Cowork 界面中，用户只需在加号菜单里点击「Record a skill」即可开始录制。它面向 Claude Pro、Max 与 Team 三档订阅计划的用户逐步开放。以往要让 AI 学会一个特定流程，往往需要冗长的文字说明或反复上传文档，执行时还常出错；现在 Claude 能直接观看完整操作过程，把流程沉淀为稳定可调用的技能。",
+      "官方举例的适用场景包括生成周期性报告、整理电子表格、批量组织文件等重复度高的日常工作。相比传统「写提示词」的交互方式，演示式教学更贴近人类师徒传授经验的直觉，也让非技术用户更容易把自己的工作方法「教」给 AI，降低了智能体自动化的使用门槛。",
+      "社区对该功能反响积极，认为它是把 Claude 从「对话助手」推向「可托管重复劳动的数字同事」的关键一步，与近期各家厂商争相强化的智能体、技能与工作流能力形成呼应。结合 Claude Code 等一系列更新，Anthropic 正持续把「让 AI 学会并稳定复现人类操作」作为其产品差异化的核心方向。"
+    ]
+  },
+  {
+    "id": "2026-07-23_ai_1",
+    "date": "2026-07-23",
+    "category": "AI",
+    "subcat": "产品",
+    "platform": "OpenAI 官方博客",
+    "platform_color": "#8ED16D",
+    "title": "OpenAI 发布企业智能体平台 Presence",
+    "url": "https://openai.com/index/introducing-openai-presence/",
+    "image": "images/2026-07-23/2026-07-23_ai_1.jpg",
+    "detail": [
+      "北京时间 7 月 22 日，OpenAI 正式推出面向企业的智能体部署平台 OpenAI Presence，将自己的能力从单纯提供 API 模型延伸到完整的企业客服与内部流程自动化领域。OpenAI 强调，Presence 并非一个独立的新模型，而是一套部署框架，帮助企业把 AI 智能体真正落地到语音和聊天渠道中的生产环境，覆盖客户支持、销售拓展、采购、IT 与人力资源等高价值场景。",
+      "Presence 把企业运行智能体所需的各类组件整合到一起：公司政策与标准操作流程、权限护栏、已审批的可执行动作、上线前模拟测试、评估工具，以及由 Codex 驱动的持续改进闭环。智能体只能访问完成特定工作流所需的数据与系统，上线前可针对常见请求、边缘情况和高风险场景反复演练，上线后系统会持续从真实会话与升级转人工中学习优化。",
+      "OpenAI 披露，该平台已在自家英文电话客服线上运行，可在无人工介入下解决约 75% 的来电，且在部署 10 天内把转人工比例降低了 15 个百分点。首批客户包括 BBVA 墨西哥、软银株式会社与澳大利亚 IAG 保险，部署由 OpenAI 的前沿部署工程师团队主导，背后依托今年 5 月成立、估值达 100 亿美元的 OpenAI Deployment Company 子公司。",
+      "业界普遍认为，Presence 的推出让 OpenAI 直接切入 Salesforce、ServiceNow、Zendesk 以及数百家 CX 创业公司的地盘，而这些厂商中许多本身就在租用 OpenAI 的基础模型。此次采取限量正式可用（limited GA）而非自助式开放的策略，也显示 OpenAI 希望通过重服务、深集成的方式抢占企业级智能体市场的话语权。"
+    ]
+  },
+  {
     "id": "2026-07-22_vibecoding_5",
     "date": "2026-07-22",
     "category": "VibeCoding",
