@@ -3,8 +3,8 @@
   "repos": {
     "bojieli/ai-agent-book": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 10792,
+      "appearances": 4,
+      "total_today_stars": 14089,
       "language": "Python",
       "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1421793?v=4",
@@ -30,8 +30,8 @@
     },
     "jamiepine/voicebox": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1431,
+      "appearances": 3,
+      "total_today_stars": 1988,
       "language": "TypeScript",
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/32987599?v=4",
@@ -39,8 +39,8 @@
     },
     "KnockOutEZ/wigolo": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1926,
+      "appearances": 4,
+      "total_today_stars": 2404,
       "language": "TypeScript",
       "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/70368615?v=4",
@@ -102,8 +102,8 @@
     },
     "1jehuang/jcode": {
       "best_rank": 6,
-      "appearances": 3,
-      "total_today_stars": 1646,
+      "appearances": 4,
+      "total_today_stars": 2148,
       "language": "Rust",
       "description": "Coding Agent Harness",
       "owner_avatar": "https://avatars.githubusercontent.com/u/94247773?v=4",
@@ -111,8 +111,8 @@
     },
     "every-app/open-seo": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 2010,
+      "appearances": 4,
+      "total_today_stars": 2604,
       "language": "TypeScript",
       "description": "Open source alternative to Semrush and Ahrefs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
@@ -201,8 +201,8 @@
     },
     "AstrBotDevs/AstrBot": {
       "best_rank": 11,
-      "appearances": 3,
-      "total_today_stars": 816,
+      "appearances": 4,
+      "total_today_stars": 1193,
       "language": "Python",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
       "owner_avatar": "https://avatars.githubusercontent.com/u/197911947?v=4",
@@ -228,8 +228,8 @@
     },
     "oblien/openship": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 3203,
+      "appearances": 3,
+      "total_today_stars": 4505,
       "language": "TypeScript",
       "description": "Self-hosted deployment platform",
       "owner_avatar": "https://avatars.githubusercontent.com/u/195301136?v=4",
@@ -263,9 +263,9 @@
       "html_url": "https://github.com/Alishahryar1/free-claude-code"
     },
     "earthtojake/text-to-cad": {
-      "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 588,
+      "best_rank": 9,
+      "appearances": 3,
+      "total_today_stars": 1209,
       "language": "JavaScript",
       "description": "A collection of agent skills for CAD, robotics and hardware design",
       "owner_avatar": "https://avatars.githubusercontent.com/u/10742417?v=4",
@@ -345,8 +345,8 @@
     },
     "ayghri/i-have-adhd": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1866,
+      "appearances": 2,
+      "total_today_stars": 3565,
       "language": null,
       "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/32200675?v=4",
@@ -354,17 +354,17 @@
     },
     "stablyai/orca": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 1356,
+      "appearances": 2,
+      "total_today_stars": 2627,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
       "html_url": "https://github.com/stablyai/orca"
     },
     "koala73/worldmonitor": {
-      "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 1295,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 5434,
       "language": "TypeScript",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "owner_avatar": "https://avatars.githubusercontent.com/u/996596?v=4",
@@ -372,8 +372,8 @@
     },
     "earendil-works/pi": {
       "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 1230,
+      "appearances": 2,
+      "total_today_stars": 2149,
       "language": "TypeScript",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
@@ -381,8 +381,8 @@
     },
     "ruvnet/RuView": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 1114,
+      "appearances": 2,
+      "total_today_stars": 1855,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -399,8 +399,8 @@
     },
     "t8y2/dbx": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 341,
+      "appearances": 2,
+      "total_today_stars": 710,
       "language": "Rust",
       "description": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
@@ -408,8 +408,8 @@
     },
     "agegr/pi-web": {
       "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 298,
+      "appearances": 2,
+      "total_today_stars": 612,
       "language": "TypeScript",
       "description": "Web UI for the pi coding agent",
       "owner_avatar": "https://avatars.githubusercontent.com/u/12794925?v=4",
@@ -417,8 +417,8 @@
     },
     "rtk-ai/rtk": {
       "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 274,
+      "appearances": 2,
+      "total_today_stars": 579,
       "language": "Rust",
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "owner_avatar": "https://avatars.githubusercontent.com/u/258253854?v=4",
@@ -453,8 +453,8 @@
     },
     "tradesdontlie/tradingview-mcp": {
       "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 114,
+      "appearances": 2,
+      "total_today_stars": 466,
       "language": "JavaScript",
       "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
       "owner_avatar": "https://avatars.githubusercontent.com/u/196674484?v=4",
@@ -477,6 +477,78 @@
       "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/263128610?v=4",
       "html_url": "https://github.com/CloakHQ/CloakBrowser"
+    },
+    "block/buzz": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 3252,
+      "language": "Rust",
+      "description": "A hive mind communication platform",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/185116535?v=4",
+      "html_url": "https://github.com/block/buzz"
+    },
+    "microsoft/SkillOpt": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 599,
+      "language": "Python",
+      "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/SkillOpt"
+    },
+    "facebook/astryx": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 432,
+      "language": "TypeScript",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/69631?v=4",
+      "html_url": "https://github.com/facebook/astryx"
+    },
+    "Julian-adv/OpenMMO": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 395,
+      "language": "Rust",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/140221601?v=4",
+      "html_url": "https://github.com/Julian-adv/OpenMMO"
+    },
+    "AdventDevInc/kudu": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 386,
+      "language": "TypeScript",
+      "description": "Free Windows, Mac and Linux cleaner, scanner, and more.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85504311?v=4",
+      "html_url": "https://github.com/AdventDevInc/kudu"
+    },
+    "dottxt-ai/outlines": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 364,
+      "language": "Python",
+      "description": "Structured Outputs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/142257755?v=4",
+      "html_url": "https://github.com/dottxt-ai/outlines"
+    },
+    "tonhowtf/omniget": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 357,
+      "language": "Rust",
+      "description": "Open-source desktop app for downloading, organizing and studying media. Native cross-platform (Tauri + Rust + Svelte). PDF/EPUB reader with focus mode, timestamped notes and spaced repetition. Media downloads via yt-dlp (1.800+ sites). Extensible plugin system.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/58658417?v=4",
+      "html_url": "https://github.com/tonhowtf/omniget"
+    },
+    "hyprwm/Hyprland": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 356,
+      "language": "C++",
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/107882187?v=4",
+      "html_url": "https://github.com/hyprwm/Hyprland"
     }
   }
 }

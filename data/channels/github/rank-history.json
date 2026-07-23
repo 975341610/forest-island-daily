@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-22": {
-      "palmier-io/palmier-pro": 1,
-      "penpot/penpot": 2,
-      "DeusData/codebase-memory-mcp": 3,
-      "calesthio/OpenMontage": 4,
-      "NousResearch/hermes-agent": 5,
-      "jamiepine/voicebox": 6,
-      "ZhuLinsen/daily_stock_analysis": 7,
-      "tursodatabase/turso": 8,
-      "firecrawl/firecrawl": 9,
-      "garrytan/gstack": 10,
-      "bytedance/deer-flow": 11,
-      "smicallef/spiderfoot": 12,
-      "Alishahryar1/free-claude-code": 13,
-      "tashfeenahmed/freellmapi": 14,
-      "ruvnet/ruflo": 15,
-      "public-apis/public-apis": 16,
-      "1jehuang/jcode": 17,
-      "koala73/worldmonitor": 18,
-      "stablyai/orca": 19,
-      "sartoopjj/thefeed": 20,
-      "everywall/ladder": 21,
-      "ruvnet/RuView": 22,
-      "run-llama/liteparse": 23,
-      "byoungd/English-level-up-tips": 24,
-      "modem-dev/hunk": 25
-    },
     "2026-06-23": {
       "calesthio/OpenMontage": 1,
       "palmier-io/palmier-pro": 2,
@@ -836,6 +809,33 @@
       "tradesdontlie/tradingview-mcp": 23,
       "maboloshi/github-chinese": 24,
       "CloakHQ/CloakBrowser": 25
+    },
+    "2026-07-23": {
+      "koala73/worldmonitor": 1,
+      "bojieli/ai-agent-book": 2,
+      "block/buzz": 3,
+      "ayghri/i-have-adhd": 4,
+      "oblien/openship": 5,
+      "stablyai/orca": 6,
+      "earendil-works/pi": 7,
+      "ruvnet/RuView": 8,
+      "earthtojake/text-to-cad": 9,
+      "microsoft/SkillOpt": 10,
+      "every-app/open-seo": 11,
+      "jamiepine/voicebox": 12,
+      "1jehuang/jcode": 13,
+      "KnockOutEZ/wigolo": 14,
+      "facebook/astryx": 15,
+      "Julian-adv/OpenMMO": 16,
+      "AdventDevInc/kudu": 17,
+      "AstrBotDevs/AstrBot": 18,
+      "t8y2/dbx": 19,
+      "dottxt-ai/outlines": 20,
+      "tonhowtf/omniget": 21,
+      "hyprwm/Hyprland": 22,
+      "tradesdontlie/tradingview-mcp": 23,
+      "agegr/pi-web": 24,
+      "rtk-ai/rtk": 25
     }
   }
 }
