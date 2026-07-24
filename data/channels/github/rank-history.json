@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-23": {
-      "calesthio/OpenMontage": 1,
-      "palmier-io/palmier-pro": 2,
-      "ZhuLinsen/daily_stock_analysis": 3,
-      "DeusData/codebase-memory-mcp": 4,
-      "bytedance/deer-flow": 5,
-      "penpot/penpot": 6,
-      "firecrawl/firecrawl": 7,
-      "garrytan/gstack": 8,
-      "tursodatabase/turso": 9,
-      "jamiepine/voicebox": 10,
-      "heygen-com/hyperframes": 11,
-      "smicallef/spiderfoot": 12,
-      "esengine/DeepSeek-Reasonix": 13,
-      "tashfeenahmed/freellmapi": 14,
-      "NVIDIA/skills": 15,
-      "stablyai/orca": 16,
-      "ruvnet/RuView": 17,
-      "HKUDS/Vibe-Trading": 18,
-      "vercel-labs/agent-browser": 19,
-      "corsairdev/corsair": 20,
-      "run-llama/liteparse": 21,
-      "immich-app/immich": 22,
-      "modem-dev/hunk": 23,
-      "vectorize-io/hindsight": 24,
-      "JCodesMore/ai-website-cloner-template": 25
-    },
     "2026-06-24": {
       "palmier-io/palmier-pro": 1,
       "DeusData/codebase-memory-mcp": 2,
@@ -836,6 +809,33 @@
       "tradesdontlie/tradingview-mcp": 23,
       "agegr/pi-web": 24,
       "rtk-ai/rtk": 25
+    },
+    "2026-07-24": {
+      "koala73/worldmonitor": 1,
+      "block/buzz": 2,
+      "ruvnet/RuView": 3,
+      "stablyai/orca": 4,
+      "earendil-works/pi": 5,
+      "oblien/openship": 6,
+      "ComposioHQ/awesome-claude-skills": 7,
+      "Automattic/harper": 8,
+      "every-app/open-seo": 9,
+      "shiyu-coder/Kronos": 10,
+      "tonhowtf/omniget": 11,
+      "microsoft/SkillOpt": 12,
+      "agegr/pi-web": 13,
+      "1jehuang/jcode": 14,
+      "citrolabs/ego-lite": 15,
+      "t8y2/dbx": 16,
+      "earthtojake/text-to-cad": 17,
+      "rtk-ai/rtk": 18,
+      "Wei-Shaw/sub2api": 19,
+      "can1357/oh-my-pi": 20,
+      "AstrBotDevs/AstrBot": 21,
+      "Fission-AI/OpenSpec": 22,
+      "alibaba/open-code-review": 23,
+      "vnpy/vnpy": 24,
+      "gastownhall/beads": 25
     }
   }
 }

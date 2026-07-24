@@ -102,8 +102,8 @@
     },
     "1jehuang/jcode": {
       "best_rank": 6,
-      "appearances": 4,
-      "total_today_stars": 2148,
+      "appearances": 5,
+      "total_today_stars": 2446,
       "language": "Rust",
       "description": "Coding Agent Harness",
       "owner_avatar": "https://avatars.githubusercontent.com/u/94247773?v=4",
@@ -111,8 +111,8 @@
     },
     "every-app/open-seo": {
       "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 2604,
+      "appearances": 5,
+      "total_today_stars": 3012,
       "language": "TypeScript",
       "description": "Open source alternative to Semrush and Ahrefs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
@@ -201,8 +201,8 @@
     },
     "AstrBotDevs/AstrBot": {
       "best_rank": 11,
-      "appearances": 4,
-      "total_today_stars": 1193,
+      "appearances": 5,
+      "total_today_stars": 1385,
       "language": "Python",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
       "owner_avatar": "https://avatars.githubusercontent.com/u/197911947?v=4",
@@ -228,8 +228,8 @@
     },
     "oblien/openship": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 4505,
+      "appearances": 4,
+      "total_today_stars": 5249,
       "language": "TypeScript",
       "description": "Self-hosted deployment platform",
       "owner_avatar": "https://avatars.githubusercontent.com/u/195301136?v=4",
@@ -264,8 +264,8 @@
     },
     "earthtojake/text-to-cad": {
       "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 1209,
+      "appearances": 4,
+      "total_today_stars": 1439,
       "language": "JavaScript",
       "description": "A collection of agent skills for CAD, robotics and hardware design",
       "owner_avatar": "https://avatars.githubusercontent.com/u/10742417?v=4",
@@ -354,8 +354,8 @@
     },
     "stablyai/orca": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 2627,
+      "appearances": 3,
+      "total_today_stars": 3934,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -363,26 +363,26 @@
     },
     "koala73/worldmonitor": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 5434,
+      "appearances": 3,
+      "total_today_stars": 8609,
       "language": "TypeScript",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "owner_avatar": "https://avatars.githubusercontent.com/u/996596?v=4",
       "html_url": "https://github.com/koala73/worldmonitor"
     },
     "earendil-works/pi": {
-      "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 2149,
+      "best_rank": 5,
+      "appearances": 3,
+      "total_today_stars": 2965,
       "language": "TypeScript",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
       "html_url": "https://github.com/earendil-works/pi"
     },
     "ruvnet/RuView": {
-      "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 1855,
+      "best_rank": 3,
+      "appearances": 3,
+      "total_today_stars": 3563,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -399,26 +399,26 @@
     },
     "t8y2/dbx": {
       "best_rank": 15,
-      "appearances": 2,
-      "total_today_stars": 710,
+      "appearances": 3,
+      "total_today_stars": 957,
       "language": "Rust",
       "description": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
       "html_url": "https://github.com/t8y2/dbx"
     },
     "agegr/pi-web": {
-      "best_rank": 17,
-      "appearances": 2,
-      "total_today_stars": 612,
+      "best_rank": 13,
+      "appearances": 3,
+      "total_today_stars": 927,
       "language": "TypeScript",
       "description": "Web UI for the pi coding agent",
       "owner_avatar": "https://avatars.githubusercontent.com/u/12794925?v=4",
       "html_url": "https://github.com/agegr/pi-web"
     },
     "rtk-ai/rtk": {
-      "best_rank": 19,
-      "appearances": 2,
-      "total_today_stars": 579,
+      "best_rank": 18,
+      "appearances": 3,
+      "total_today_stars": 805,
       "language": "Rust",
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "owner_avatar": "https://avatars.githubusercontent.com/u/258253854?v=4",
@@ -479,9 +479,9 @@
       "html_url": "https://github.com/CloakHQ/CloakBrowser"
     },
     "block/buzz": {
-      "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 3252,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 5414,
       "language": "Rust",
       "description": "A hive mind communication platform",
       "owner_avatar": "https://avatars.githubusercontent.com/u/185116535?v=4",
@@ -489,8 +489,8 @@
     },
     "microsoft/SkillOpt": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 599,
+      "appearances": 2,
+      "total_today_stars": 936,
       "language": "Python",
       "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -533,9 +533,9 @@
       "html_url": "https://github.com/dottxt-ai/outlines"
     },
     "tonhowtf/omniget": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 357,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 744,
       "language": "Rust",
       "description": "Open-source desktop app for downloading, organizing and studying media. Native cross-platform (Tauri + Rust + Svelte). PDF/EPUB reader with focus mode, timestamped notes and spaced repetition. Media downloads via yt-dlp (1.800+ sites). Extensible plugin system.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/58658417?v=4",
@@ -549,6 +549,96 @@
       "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/107882187?v=4",
       "html_url": "https://github.com/hyprwm/Hyprland"
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 636,
+      "language": "Python",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
+      "html_url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    "Automattic/harper": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 624,
+      "language": "Rust",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/887802?v=4",
+      "html_url": "https://github.com/Automattic/harper"
+    },
+    "shiyu-coder/Kronos": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 401,
+      "language": "Python",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/65760973?v=4",
+      "html_url": "https://github.com/shiyu-coder/Kronos"
+    },
+    "citrolabs/ego-lite": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 247,
+      "language": "JavaScript",
+      "description": "The best browser for both you and your AI agents work in parallel.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
+      "html_url": "https://github.com/citrolabs/ego-lite"
+    },
+    "Wei-Shaw/sub2api": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 221,
+      "language": "Go",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/26101719?v=4",
+      "html_url": "https://github.com/Wei-Shaw/sub2api"
+    },
+    "can1357/oh-my-pi": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 196,
+      "language": "TypeScript",
+      "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11807264?v=4",
+      "html_url": "https://github.com/can1357/oh-my-pi"
+    },
+    "Fission-AI/OpenSpec": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 191,
+      "language": "TypeScript",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/203414896?v=4",
+      "html_url": "https://github.com/Fission-AI/OpenSpec"
+    },
+    "alibaba/open-code-review": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 180,
+      "language": "Go",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
+      "html_url": "https://github.com/alibaba/open-code-review"
+    },
+    "vnpy/vnpy": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 129,
+      "language": "Python",
+      "description": "基于Python的开源量化交易平台开发框架",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11263900?v=4",
+      "html_url": "https://github.com/vnpy/vnpy"
+    },
+    "gastownhall/beads": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 95,
+      "language": "Go",
+      "description": "Beads - A memory upgrade for your coding agent",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/255961667?v=4",
+      "html_url": "https://github.com/gastownhall/beads"
     }
   }
 }
