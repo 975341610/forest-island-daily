@@ -1,5 +1,316 @@
 [
   {
+    "id": "2026-07-24_vibecoding_6",
+    "date": "2026-07-24",
+    "category": "VibeCoding",
+    "subcat": "VibeCoding",
+    "platform": "GitHub Blog",
+    "platform_color": "#2563EB",
+    "title": "GitHub Copilot上线影响力度量看板",
+    "url": "https://github.blog/changelog/2026-07-22-new-copilot-usage-metrics-impact-dashboard",
+    "image": "images/2026-07-24/2026-07-24_vibecoding_6.jpg",
+    "detail": [
+      "GitHub于7月22日为企业管理员与组织所有者推出全新的Copilot使用度量影响力看板，目标是让团队讲出更深入的Copilot价值故事，而不只是展示谁在用、用了多少，把观测重点从单纯用量转向对业务与工程效率的实际影响，帮助企业更好衡量AI投入回报。",
+      "该看板延续GitHub近期在Copilot度量上的密集投入：此前已开放仓库级使用度量正式版、每计费周期AI额度消耗查询，以及成本中心AI额度池管理，逐步形成从用量到影响的完整观测链路与治理体系，方便管理者统一核算。",
+      "对采购与工程管理者而言，把AI编码工具的产出与业务影响量化，是企业持续投入的关键依据。社区认为这反映AI编程助手正从能力比拼走向ROI证明阶段，度量与治理正成为企业落地的重点课题，也预示相关工具竞争进入价值验证的深水区，谁能讲清价值谁就更易续费。"
+    ]
+  },
+  {
+    "id": "2026-07-24_vibecoding_5",
+    "date": "2026-07-24",
+    "category": "VibeCoding",
+    "subcat": "VibeCoding",
+    "platform": "Codeberg",
+    "platform_color": "#2563EB",
+    "title": "Codeberg拟全面禁止加密货币项目",
+    "url": "https://codeberg.org/Codeberg/org/pulls/1254",
+    "image": "images/2026-07-24/2026-07-24_vibecoding_5.jpg",
+    "detail": [
+      "开源代码托管平台Codeberg于7月23日成为HN热议焦点：一项Assembly 2026提案要将加密货币类项目整体列入禁止范围，并归类到损害Codeberg声誉的内容条款之下，触及平台内容边界与治理原则的敏感议题，迅速引发开源圈的广泛关注与激烈讨论。",
+      "此举紧随6月底刚落地的LLM相关内容禁令，两条限制相隔仅数日。支持者称加密领域欺诈与高风险投资泛滥，给平台带来声誉与法律压力；相关域名也被指与诈骗活动强关联，封禁有助净化生态、保护普通用户免受割韭菜项目侵扰，也降低平台被滥用的合规风险。",
+      "反对者则认为因个别坏行为者就封禁整个软件品类过于极端，会误伤有真实技术价值的健康项目，如钱包与密码学研究，并担忧平台可随意改写服务条款、缺乏用户参与，树立令人不安的先例。评论区就自由软件托管的中立性与治理边界激辩不休，暂无定论。"
+    ]
+  },
+  {
+    "id": "2026-07-24_vibecoding_4",
+    "date": "2026-07-24",
+    "category": "VibeCoding",
+    "subcat": "VibeCoding",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "GigaToken:分词速度快近千倍",
+    "url": "https://news.ycombinator.com/item?id=49010167",
+    "image": "images/2026-07-24/2026-07-24_vibecoding_4.jpg",
+    "detail": [
+      "在斯坦福CS336课程背景下，开发者Marcel Rød发布开源分词器GigaToken，主打把大语言模型的tokenization做到GB/s级吞吐，成为7月23日HN热帖，获约375赞、73条评论，讨论集中在预训练成本与工程实现细节，反响热烈。",
+      "据作者介绍，GigaToken比HuggingFace快约500到1000倍，比OpenAI的tiktoken快约100倍，而这些基线本身已是多线程Rust实现；在双路AMD Epyc服务器上可达24GB/s，理论上不到7小时就能分词整个Common Crawl，规模效应惊人。",
+      "核心优化来自把预分词从正则引擎改为手写SIMD状态机，并引入高效缓存层复用已见pretoken，灵感源自simdjson与Handmade软件运动。社区讨论聚焦其对大规模预训练数据处理成本的潜在削减与工程价值，也有人追问精度对齐与边界情况。"
+    ]
+  },
+  {
+    "id": "2026-07-24_vibecoding_3",
+    "date": "2026-07-24",
+    "category": "VibeCoding",
+    "subcat": "VibeCoding",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "Bento:整个PPT装进单个HTML文件",
+    "url": "https://news.ycombinator.com/item?id=49008211",
+    "image": "images/2026-07-24/2026-07-24_vibecoding_3.jpg",
+    "detail": [
+      "开发者近来越来越多用Claude Code等编码工具以前端技术做幻灯片，痛点是改一处小细节还要回到代码里手动改，编辑与呈现割裂。作者由此打造Bento，把演示文稿变成一个可自我改写的单HTML文件，把编辑闭环彻底收进浏览器，兼顾代码可控与所见即所得。",
+      "这个约560KB的.bento.html同时是文档、查看器与编辑器：浏览器打开即可编辑、演示、打印、保存，支持形变动画、演讲者视图、PDF导出与端到端加密的实时协作。所有数据全程不经过云端服务器，纯本地运行，隐私友好，也便于离线携带与版本管理。",
+      "帖子登上HN首页获超660赞、150多条评论，并采用MIT开源。它还提供Claude Code插件与agents.md，可直接让Claude、Codex、本地Ollama把现有pptx转成Bento，被视为用代码做PPT思路的自然延伸。社区讨论聚焦其协作加密方案与单文件体积的可扩展性。"
+    ]
+  },
+  {
+    "id": "2026-07-24_vibecoding_2",
+    "date": "2026-07-24",
+    "category": "VibeCoding",
+    "subcat": "VibeCoding",
+    "platform": "explainx",
+    "platform_color": "#2563EB",
+    "title": "OpenAI预告7月24日Codex新动作",
+    "url": "https://explainx.ai/blog/openai-codex-july-24-reveal-tibo-sottiaux-teaser-2026",
+    "image": "images/2026-07-24/2026-07-24_vibecoding_2.jpg",
+    "detail": [
+      "7月23日，OpenAI Codex工程师Tibo Sottiaux在X发帖放出一句刻意含糊的预告：为即将到来的东西感到难以置信的兴奋，并称明天很有codex味，把外界的期待精准锁定在7月24日这一时间点。这类由一线工程师亲自下场吊胃口的预热方式，近来已成OpenAI造势的惯用手法。",
+      "帖子未确认具体内容，没有截图、版本号或基准数据。开发者社区据此猜测方向，包括新Codex模型、原生Linux应用、语音控制、UI工作流更新或又一次用量额度重置，但这些均属推测而非官方口径。也有开发者提醒不要被含糊措辞过度带动预期，以免落差反噬。",
+      "背景是Codex七月异常密集：GPT-5.6 Sol/Terra/Luna已于7月9日全面可用，Codex与ChatGPT Work活跃用户突破800万，期间因需求激增多次调整用量上限。此次预告再度点燃社区对下一步的关注与讨论热情，也折射出AI编码工具的迭代节奏正被大厂显著提速。"
+    ]
+  },
+  {
+    "id": "2026-07-24_vibecoding_1",
+    "date": "2026-07-24",
+    "category": "VibeCoding",
+    "subcat": "VibeCoding",
+    "platform": "The Verge",
+    "platform_color": "#2563EB",
+    "title": "Claude语音模式接入Opus与Sonnet",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/970065/anthropic-voice-mode-claude-opus-sonnet-haiku-ai",
+    "image": "images/2026-07-24/2026-07-24_vibecoding_1.jpg",
+    "detail": [
+      "7月23日，Anthropic为Claude语音模式带来重大升级。此前语音对话只能跑在更快但更浅的Haiku模型上，主打即时问答与最小延迟，难以处理复杂的多步业务推理与工具调用，长期被用户视为语音体验的最大短板，也让Claude在与ChatGPT语音、Gemini Live的竞争中处于下风。",
+      "本次更新首次把Opus与Sonnet两款更强模型接入语音模式，并配备模型选择器与思考等级(thinking level)控制，文本转语音继续由ElevenLabs提供。用户可在通话过程中直接在深浅推理之间切换，让语音助手既能应付闲聊式快问快答，也能承接需要长链条思考的严肃分析任务，体验更接近文本对话。",
+      "同时语音模式新增法语、德语、西班牙语、日语、韩语等多语言支持，并扩展至Gmail、Slack、Canva等应用集成，可在通话中直接读写邮件、查日程、操作文档。社区普遍认为这让语音交互能力向Claude文本级智能看齐，可承接多步工具调用与深度分析，标志着语音正从玩具式功能升级为Agent的一等入口。"
+    ]
+  },
+  {
+    "id": "2026-07-24_gaming_6",
+    "date": "2026-07-24",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "Eurogamer",
+    "platform_color": "#F59E0B",
+    "title": "Bethesda工会怒斥裁员遣散费最低标准",
+    "url": "https://www.eurogamer.net/bethesda-montreal-smallest-severance-possible",
+    "image": "images/2026-07-24/2026-07-24_gaming_6.jpg",
+    "detail": [
+      "在微软7月对Xbox展开波及约3200个岗位的大规模重组后，余波持续发酵。7月23日，代表Bethesda员工的工会公开发声，称蒙特利尔工作室受影响员工拿到的是尽可能最低的遣散费、最基本的赔付，并誓言为员工争取权益、继续抗争到底，措辞相当强硬。",
+      "本轮Xbox裁员对个别工作室冲击尤为惨烈，《毁灭战士》开发商id Software据WARN文件被裁去185人中的136人、约74%，且裁员发生在其DOOM: The Dark Ages付费DLC上线前一天，时机残酷，已引发通讯业工人工会(CWA)提起不当劳动行为指控。",
+      "多名受影响的Xbox开发者批评微软，认为再出色的工作也保不住饭碗，担忧此举将削弱旗下多家工作室的研发能力与士气。事件叠加Xbox硬件营收持续下滑的背景，再度点燃业界对游戏行业裁员潮与工会化进程的讨论，也让从业者对行业前景更趋悲观。"
+    ]
+  },
+  {
+    "id": "2026-07-24_gaming_5",
+    "date": "2026-07-24",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "Eurogamer",
+    "platform_color": "#F59E0B",
+    "title": "Steam更新愿望单分类与跨账号赠礼",
+    "url": "https://www.eurogamer.net/steam-wishlists-gifting-big-updates",
+    "image": "images/2026-07-24/2026-07-24_gaming_5.jpg",
+    "detail": [
+      "Valve于7月23日为Steam推送愿望单与赠礼功能的重要更新，针对多年累积、庞杂难理的愿望单，新增自定义分类(类似文件夹/标签)功能：玩家可从商店页或愿望单为游戏归类，按分类筛选，并对特定分类单独开关降价通知，管理效率大幅提升。",
+      "赠礼方面同样大幅简化：访客结算(guest checkout)从此前仅限硬件与礼品卡扩展至任意游戏，允许无Steam账号者直接购买；还支持通过邮件发送游戏链接，收礼人即使邮箱未绑定账号也能领取，30天未领将自动退款，跨国赠礼会自动按对方区域计价。",
+      "此外还有一批小改进：可生成愿望单或某一分类的分享链接、显示收藏游戏是否有试玩Demo、悬停即可播放预告片。分享的愿望单链接还能被直接用于购买，被玩家戏称为旁敲侧击地暗示他人送礼的贴心设计，整体被认为显著改善了长期以来的愿望单与赠礼体验。"
+    ]
+  },
+  {
+    "id": "2026-07-24_gaming_4",
+    "date": "2026-07-24",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "VGC",
+    "platform_color": "#F59E0B",
+    "title": "《降世神通》格斗游戏Xbox版发售前跳票",
+    "url": "https://www.videogameschronicle.com/news/the-xbox-series-x-s-version-of-avatar-legends-the-fighting-game-has-been-delayed-just-hours-before-release/",
+    "image": "images/2026-07-24/2026-07-24_gaming_4.jpg",
+    "detail": [
+      "改编自《降世神通:最后的气宗》与《科拉传奇》的2D手绘格斗游戏《Avatar Legends: The Fighting Game》于7月23日在PS5、PC与Nintendo Switch如期发售，售价29.99美元，登场12名角色，含索卡、虚子、赫子等，并配备为格斗新手设计的引导模式。",
+      "然而就在发售前数小时，开发商Gameplay Group International通过官方X账号宣布，Xbox Series X|S版因后端功能出现意外状况被迫延期至9月3日，足足推迟约42天；已有预购不会被取消。业界普遍推测是Xbox跨平台联机认证未通过所致。",
+      "同日Switch版也仅推出标准版，发售时暂不支持跨平台联机及英语以外的语言，后续将补齐，印证问题出在跨平台网络后端。此次临门跳票令Xbox玩家措手不及，而9月3日新档期又与《The Blood of Dawnwalker》撞车，竞争更趋激烈。"
+    ]
+  },
+  {
+    "id": "2026-07-24_gaming_3",
+    "date": "2026-07-24",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "Eurogamer",
+    "platform_color": "#F59E0B",
+    "title": "《光环:战役进化》抢先体验开启口碑出炉",
+    "url": "https://www.eurogamer.net/halo-campaign-evolved-review",
+    "image": "images/2026-07-24/2026-07-24_gaming_3.jpg",
+    "detail": [
+      "为纪念《光环》系列25周年、也是自2021年《光环:无限》以来的首款新作，初代《光环:战斗进化》的重制版《Halo: Campaign Evolved》于7月23日8点(PDT)在PC、PS5、Xbox Series开启抢先体验，预购高级版(70美元)玩家可提前最多5天游玩，7月28日正式全平台上线。",
+      "媒体评测同步解禁，呈现分平台差异：Metacritic上PS5约80分、Xbox Series X达86分、PC为77分，OpenCritic综合约84分。评论称赞画面大幅提升、四人合作模式出色、新增骷髅增强重玩性，但吐槽三段新增前传任务偏短、友军AI有限且缺乏竞技多人对战。",
+      "本作在原版战役基础上重制关卡，加入更多Flood变种敌人与新武器，并新增聚焦Sgt.Johnson的前传章节。Game Pass Ultimate订阅用户需等到7月28日才能通过标准版体验，外界也借此再度关注微软对《光环》系列未来方向的模糊态度。"
+    ]
+  },
+  {
+    "id": "2026-07-24_gaming_2",
+    "date": "2026-07-24",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "Forbes",
+    "platform_color": "#F59E0B",
+    "title": "《斯普拉遁 突袭》Switch2独占开卖",
+    "url": "https://www.forbes.com/sites/brianmazique/2026/07/22/splatoon-raiders-release-time-when-can-you-start-playing/",
+    "image": "images/2026-07-24/2026-07-24_gaming_2.jpg",
+    "detail": [
+      "任天堂旗下《斯普拉遁》系列首款真正意义上的单人向衍生作《Splatoon Raiders(斯普拉遁 突袭)》于7月23日作为Nintendo Switch 2独占正式发售，数字版售价49.99美元，实体版59.99美元，下载体积仅13.1GB，美东午夜零点全区同步解锁。",
+      "本作抛开传统的占地对战，改以单人剧情为核心，玩家扮演一名机械师，与《斯普拉遁3》登场的音乐组合Deep Cut一同登陆Spirhalite群岛搜寻宝藏，并对抗鲑鱼军团Salmonids，支持最多四人合作，难度随人数动态调整。",
+      "媒体评价正面，Metacritic均分81、OpenCritic 80，与正传作品持平，IGN与Nintendo Life均给出9/10。同日还推出三款Deep Cut amiibo及Shiver与Frye联名Joy-Con 2套装，被视为Switch 2暑期阵容的重要一环。"
+    ]
+  },
+  {
+    "id": "2026-07-24_gaming_1",
+    "date": "2026-07-24",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "Tech Times",
+    "platform_color": "#F59E0B",
+    "title": "涨价后Steam Deck销量暴跌约82%",
+    "url": "https://www.techtimes.com/articles/321427/20260723/steam-deck-sales-slid-estimated-82-after-valves-price-hike-analysis-shows.htm",
+    "image": "images/2026-07-24/2026-07-24_gaming_1.jpg",
+    "detail": [
+      "Valve今年5月27日因全球内存涨价与元件短缺，对Steam Deck全系列大幅提价：512GB OLED从549美元涨至789美元，涨幅44%，1TB版从649涨到949美元，同时停售更便宜的LCD机型，平均售价从约540美元飙升至835美元左右。",
+      "据行业追踪机构Boiling Steam于7月23日发布的分析，涨价直接导致周销量近乎崩塌：从2025年的每周1.1万至1.8万台，骤降至2026年年中的1400至3000台，降幅约72%至82%；在Steam全球周销榜上，Deck也从常年第4、5位跌至约第14位。",
+      "对比之下，6月末上市、售价1049美元的Steam Machine每周约售1.2万至1.5万台，是Deck当前销量的4至5倍。玩家与分析人士普遍认为，内存危机同样冲击了PS5等硬件，便携掌机市场格局正在重塑，ROG Xbox Ally等竞品因暂未涨价而更具性价比。"
+    ]
+  },
+  {
+    "id": "2026-07-24_ai_7",
+    "date": "2026-07-24",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "Samsung官方Newsroom",
+    "platform_color": "#8ED16D",
+    "title": "三星发Galaxy Z Fold8系列，深绑Gemini",
+    "url": "https://news.samsung.com/global/galaxy-unpacked-july-2026-a-first-look-at-galaxy-z-fold8-ultra-galaxy-z-fold8-and-galaxy-z-flip8",
+    "image": "images/2026-07-24/2026-07-24_ai_7.jpg",
+    "detail": [
+      "7月22日，三星在伦敦Galaxy Unpacked发布会上推出第八代Galaxy Z折叠系列，包括首款Ultra折叠机Galaxy Z Fold8 Ultra、全新形态的Galaxy Z Fold8与更轻薄的Galaxy Z Flip8，以能理解用户的Agentic AI搭配差异化硬件，提供三种折叠体验。",
+      "Fold8 Ultra展开厚度仅4.1毫米、重215克，配8英寸主屏、Snapdragon 8 Elite Gen 5 for Galaxy芯片与5000mAh电池，采用Flex Titanium技术减轻折痕。AI多任务是核心卖点，Now Nudge会在需要时自动打开分屏，Gemini Notebook可把会议材料转成视频、幻灯片、播客与测验。",
+      "三款设备均集成面向不同形态优化的Galaxy AI，新增Now Brief、Now Nudge以及可跨40多个应用自动化的Gemini智能，One UI 9还带来AI助手活动面板与隐私提醒。设备7月22日起在部分市场开启预订，8月7日正式开售，购机附赠六个月Google AI Pro。",
+      "三星DX部门CEO卢泰文表示，随着AI日益具备Agentic能力，移动设备将成为最个人化的智能入口。此次通过Ultra定位、全新宽高比与轻量化设计，三星意在巩固折叠屏领导地位，并借与谷歌Gemini的深度绑定，把端侧智能体体验带向更多用户。"
+    ]
+  },
+  {
+    "id": "2026-07-24_ai_6",
+    "date": "2026-07-24",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "36氪",
+    "platform_color": "#8ED16D",
+    "title": "字节启动Seed STEM计划，邀百位科学家攻AI4S",
+    "url": "https://www.36kr.com/newsflashes/3907903336387973",
+    "image": "images/2026-07-24/2026-07-24_ai_6.jpg",
+    "detail": [
+      "7月23日，字节跳动Seed Edge团队正式发布Seed STEM科学家计划，拟邀请100位前沿科学领域学者，与Seed团队围绕真实科研问题展开合作，聚焦AI在科学发现中的加速作用，进一步突破智能的边界与上限。学者可以科学家顾问或博士实习生身份加入。",
+      "计划为参与学者提供充足的算力资源、先进的模型体验及专业AI研究团队支持，并给出业界具竞争力的薪酬回报。首期约持续6个月，学者需到北京海淀区的Seed办公区现场协作，申请截止时间为2026年9月30日。这是字节继设立3年期Seed Edge研究计划后的又一AI4S布局。",
+      "背景在于AI在编程领域成功率已从不足5%飙升至逾88%，但在端到端科学发现任务上，最先进模型完成率始终停留在3%左右。上海AI实验室主任周伯文认为，Coding反馈及时、边界清晰易被攻克，而科研是开放任务、反馈周期长，如何让AI从重述已知跨越到产出未知是终极考题。",
+      "全球顶尖实验室已纷纷押注科学发现：Anthropic推出AI for Science与Claude for Life Sciences并招揽AlphaFold之父John Jumper，OpenAI发布GPT-Rosalind，阿里达摩院发布超导材料智能体。字节此前已构建Protenix蛋白质预测等多条AI4S技术线，此番加码显示国产厂商正加速抢占科学智能高地。"
+    ]
+  },
+  {
+    "id": "2026-07-24_ai_5",
+    "date": "2026-07-24",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "上海证券报/东方财富",
+    "platform_color": "#8ED16D",
+    "title": "月之暗面拟启动Pre-IPO轮，估值冲500亿美元",
+    "url": "https://finance.eastmoney.com/a/202607223816985768.html",
+    "image": "images/2026-07-24/2026-07-24_ai_5.jpg",
+    "detail": [
+      "7月22日，多家媒体从参投机构人士处获悉，国内大模型独角兽月之暗面计划于8月启动上市前最后一轮融资谈判，目标投前估值高达500亿美元(约合3400亿元人民币)。截至6月底，公司最近一轮公开融资投前估值为315亿美元，新一轮估值将再涨近六成。",
+      "这意味着月之暗面估值将在不到一年内从2025年底的43亿美元跃升至500亿美元，涨幅超十倍。据披露，公司预计未来几天完成Kimi K3发布前启动的315亿美元轮融资，随后立即启动Pre-IPO轮，这将是赴港上市前最后一次私募股权融资，最快或于6个月内登陆港股。",
+      "估值跳涨的直接催化剂是7月17日发布的开源模型Kimi K3，2.8万亿参数、百万token上下文，权重将于7月27日前完整开放，在Arena代码榜上超越Claude Fable 5与GPT-5.6 Sol。K3发布后企业ARR数倍增长，公司ARR已从3月的1亿美元涨至6月的3亿美元，API收入占比超七成。",
+      "月之暗面上市筹备已进入实质阶段，已向投资者分发股东决议文件并与高盛、中金洽谈承销角色，同时着手拆除红筹架构。这条以API为主、开发者驱动、海外拉动的路线被资本视为中国版Anthropic，其冲刺正值智谱、MiniMax、DeepSeek等国产大模型集中登陆资本市场的窗口期。"
+    ]
+  },
+  {
+    "id": "2026-07-24_ai_4",
+    "date": "2026-07-24",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "OpenAI官方博客",
+    "platform_color": "#8ED16D",
+    "title": "OpenAI斥资超300亿建佐治亚超大数据中心",
+    "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community/",
+    "image": "images/2026-07-24/2026-07-24_ai_4.jpg",
+    "detail": [
+      "7月22日，OpenAI宣布代号Project Camellia的3.2吉瓦数据中心园区，落址佐治亚州埃芬厄姆县萨凡纳门户工业区，占地约1400英亩，包含四栋建筑，至少投入200亿美元私人资本，是迄今披露规模最大的单一AI算力设施之一，属Stargate基础设施计划的一部分。",
+      "OpenAI已与佐治亚电力签署25年供电协议，电力将于2028至2032年分阶段交付，公司承担全部电力基础设施与服务成本。计算战略副总裁Sachin Katti向彭博社表示，项目全面建成后总成本或超过300亿美元，目前仍在寻找融资与建设合作伙伴。",
+      "与以往强调算力的公告不同，本次OpenAI把重点放在社区利益上，提出四点承诺：满负荷前主动降低用电、采用闭环冷却减少水耗、承诺8000万美元社区回馈，以及向佐治亚州学生提供最多7100万美元的Codex额度，项目预计创造400至1000个永久岗位。",
+      "分析指出，这套社区叙事意在平息各地对数据中心的反对声浪，但部分承诺更像是对既有法规的确认而非额外让利，具体的削峰机制、水资源风险与8000万美元的分摊周期尚缺细节。此举凸显AI巨头在算力扩张中面临的能源与社区双重压力。"
+    ]
+  },
+  {
+    "id": "2026-07-24_ai_3",
+    "date": "2026-07-24",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "Axios",
+    "platform_color": "#8ED16D",
+    "title": "黄仁勋:华尔街又误读Kimi，中国模型很优秀",
+    "url": "https://www.axios.com/2026/07/22/nvidia-jensen-huang-china-open-source-ai",
+    "image": "images/2026-07-24/2026-07-24_ai_3.jpg",
+    "detail": [
+      "7月22日，英伟达CEO黄仁勋在接受Axios独家专访时公开为中国开源AI辩护，称在华盛顿因Kimi K3爆发而恐慌之际，美国不应封禁这些高性价比的开源模型。他直言这是主要美国科技高管对中国AI最强有力的公开支持，与特朗普政府的收紧方向背道而驰。",
+      "黄仁勋点名DeepSeek、阿里巴巴、腾讯、MiniMax、百度等厂商，称这些中国模型非常优秀，优秀的开源模型就应该被使用。他还表示市场第一次误读了DeepSeek的影响，这次又误读了Kimi的影响，并称中国把美国公司挤下赛道零可能。",
+      "他把关于中国模型充当政府后门的担忧斥为误解，强调这些模型可下载、护栏可自定义。其表态与财政部长贝森特形成直接对立——后者威胁制裁被发现窃取美国知识产权的海外AI开发者，国会两党推动的No Adversarial AI Act则拟禁止联邦机构使用中国模型。",
+      "评论指出黄仁勋在为自己的生意站台：免费开源模型会推动对英伟达芯片和数据中心的需求。Kimi K3拥有2.8万亿参数与百万token上下文，其发布触发了自2025年初DeepSeek以来最剧烈的一轮AI恐慌，半导体股较6月高点回落逾20%。"
+    ]
+  },
+  {
+    "id": "2026-07-24_ai_2",
+    "date": "2026-07-24",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "Cryptobriefing",
+    "platform_color": "#8ED16D",
+    "title": "白宫指控月之暗面蒸馏Anthropic模型造K3",
+    "url": "https://cryptobriefing.com/moonshot-ai-distillation-allegations/",
+    "image": "images/2026-07-24/2026-07-24_ai_2.jpg",
+    "detail": [
+      "7月22日，白宫科技政策办公室(OSTP)主任Michael Kratsios在X上公开表示，掌握信息显示中国AI初创公司月之暗面在开发Kimi K3过程中蒸馏了Anthropic的Fable模型。这是首次有美国高级官员直接点名指控某家中国实验室复制某款具体的美国模型。",
+      "Kratsios称，月之暗面建立了一套隐蔽的内部平台，可对多个美国模型进行大规模蒸馏，并在多种访问方式间快速切换以规避检测。他将其与合法蒸馏区分开来，称隐蔽的工业级窃取专有技术不可接受。Anthropic此前也曾指控月之暗面通过欺诈账户生成逾340万次Claude交互。",
+      "技术佐证包括Kimi K3在部分对话中自称是Anthropic的Claude，以及Redwood Research首席科学家Ryan Greenblatt的交叉熵分析——K3在被问及身份时异常频繁地自称Claude。不过证明蒸馏在技术上极难，公开指控的证据标准也低于法律认定标准。",
+      "月之暗面企业业务负责人黄震昕7月21日已回应，称K3性能跃升源自底层原创架构创新，并非蒸馏复刻，公司对指控予以否认。这场争议把中美AI竞争从跑分对决推向了技术窃取的指控层面，成为本周最具影响力的行业事件。"
+    ]
+  },
+  {
+    "id": "2026-07-24_ai_1",
+    "date": "2026-07-24",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "AMD官方/GlobeNewswire",
+    "platform_color": "#8ED16D",
+    "title": "AMD发布MI400，OpenAI预订12GW算力",
+    "url": "https://www.globenewswire.com/news-release/2026/07/23/3332491/0/en/AAI-2026-AMD-Delivers-Full-Stack-Compute-for-the-Agentic-AI-Era.html",
+    "image": "images/2026-07-24/2026-07-24_ai_1.jpg",
+    "detail": [
+      "7月23日，AMD在旧金山Moscone中心举行的Advancing AI 2026大会上，从路线图正式迈入量产交付阶段。CEO苏姿丰在主题演讲中公布了Instinct MI400系列加速器、围绕其打造的Helios机架级系统，以及采用台积电2nm工艺的第六代EPYC Venice处理器，被称为业界首款2nm x86服务器芯片。",
+      "AMD同时确认OpenAI与Meta合计预订了12吉瓦的AMD加速器产能，微软Azure与甲骨文成为Helios首批客户。OpenAI CEO奥尔特曼登台与苏姿丰对谈，MI450级部署预计将于2026下半年落地。EPYC 9006系列最高提供256核，宣称较上代性能提升最多70%，在Agentic AI负载中较英特尔旗舰至强快最多245%。",
+      "软件层面，AMD推出ROCm 7开源栈，宣称性能达ROCm 6的3.5倍，并深化与vLLM、SGLang等开源推理框架的集成，直指英伟达CUDA护城河。此外还发布ROCm Enterprise AI与AMD开发者云，为中小开发者提供在Instinct硬件上测试的入口。",
+      "业界普遍认为，这是AMD追赶英伟达的关键节点。能否真正缩小与CUDA的生态差距，仍要看未来几个季度的独立基准测试，而非发布会幻灯片。但拿下OpenAI、Meta的巨额订单，标志着AMD在AI训练与推理市场的话语权显著抬升。"
+    ]
+  },
+  {
     "id": "2026-07-23_vibecoding_5",
     "date": "2026-07-23",
     "category": "VibeCoding",
