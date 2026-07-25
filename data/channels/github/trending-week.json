@@ -264,8 +264,8 @@
     },
     "earthtojake/text-to-cad": {
       "best_rank": 9,
-      "appearances": 4,
-      "total_today_stars": 1439,
+      "appearances": 5,
+      "total_today_stars": 1921,
       "language": "JavaScript",
       "description": "A collection of agent skills for CAD, robotics and hardware design",
       "owner_avatar": "https://avatars.githubusercontent.com/u/10742417?v=4",
@@ -363,8 +363,8 @@
     },
     "koala73/worldmonitor": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 8609,
+      "appearances": 4,
+      "total_today_stars": 10793,
       "language": "TypeScript",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "owner_avatar": "https://avatars.githubusercontent.com/u/996596?v=4",
@@ -372,8 +372,8 @@
     },
     "earendil-works/pi": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 2965,
+      "appearances": 4,
+      "total_today_stars": 3746,
       "language": "TypeScript",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
@@ -381,8 +381,8 @@
     },
     "ruvnet/RuView": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 3563,
+      "appearances": 4,
+      "total_today_stars": 4585,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -399,8 +399,8 @@
     },
     "t8y2/dbx": {
       "best_rank": 15,
-      "appearances": 3,
-      "total_today_stars": 957,
+      "appearances": 4,
+      "total_today_stars": 1129,
       "language": "Rust",
       "description": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
@@ -408,17 +408,17 @@
     },
     "agegr/pi-web": {
       "best_rank": 13,
-      "appearances": 3,
-      "total_today_stars": 927,
+      "appearances": 4,
+      "total_today_stars": 1235,
       "language": "TypeScript",
       "description": "Web UI for the pi coding agent",
       "owner_avatar": "https://avatars.githubusercontent.com/u/12794925?v=4",
       "html_url": "https://github.com/agegr/pi-web"
     },
     "rtk-ai/rtk": {
-      "best_rank": 18,
-      "appearances": 3,
-      "total_today_stars": 805,
+      "best_rank": 17,
+      "appearances": 4,
+      "total_today_stars": 1105,
       "language": "Rust",
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "owner_avatar": "https://avatars.githubusercontent.com/u/258253854?v=4",
@@ -444,8 +444,8 @@
     },
     "langgenius/dify": {
       "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 157,
+      "appearances": 2,
+      "total_today_stars": 312,
       "language": "TypeScript",
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127165244?v=4",
@@ -479,9 +479,9 @@
       "html_url": "https://github.com/CloakHQ/CloakBrowser"
     },
     "block/buzz": {
-      "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 5414,
+      "best_rank": 1,
+      "appearances": 3,
+      "total_today_stars": 8684,
       "language": "Rust",
       "description": "A hive mind communication platform",
       "owner_avatar": "https://avatars.githubusercontent.com/u/185116535?v=4",
@@ -552,17 +552,17 @@
     },
     "ComposioHQ/awesome-claude-skills": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 636,
+      "appearances": 2,
+      "total_today_stars": 1299,
       "language": "Python",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "owner_avatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
       "html_url": "https://github.com/ComposioHQ/awesome-claude-skills"
     },
     "Automattic/harper": {
-      "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 624,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 1500,
       "language": "Rust",
       "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
       "owner_avatar": "https://avatars.githubusercontent.com/u/887802?v=4",
@@ -570,17 +570,17 @@
     },
     "shiyu-coder/Kronos": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 401,
+      "appearances": 2,
+      "total_today_stars": 900,
       "language": "Python",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65760973?v=4",
       "html_url": "https://github.com/shiyu-coder/Kronos"
     },
     "citrolabs/ego-lite": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 247,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1127,
       "language": "JavaScript",
       "description": "The best browser for both you and your AI agents work in parallel.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
@@ -588,8 +588,8 @@
     },
     "Wei-Shaw/sub2api": {
       "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 221,
+      "appearances": 2,
+      "total_today_stars": 416,
       "language": "Go",
       "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/26101719?v=4",
@@ -614,9 +614,9 @@
       "html_url": "https://github.com/Fission-AI/OpenSpec"
     },
     "alibaba/open-code-review": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 180,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 1246,
       "language": "Go",
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -639,6 +639,96 @@
       "description": "Beads - A memory upgrade for your coding agent",
       "owner_avatar": "https://avatars.githubusercontent.com/u/255961667?v=4",
       "html_url": "https://github.com/gastownhall/beads"
+    },
+    "firecrawl/firecrawl": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 522,
+      "language": "TypeScript",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
+      "html_url": "https://github.com/firecrawl/firecrawl"
+    },
+    "Panniantong/Agent-Reach": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 477,
+      "language": "Python",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
+      "html_url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    "Pumpkin-MC/Pumpkin": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 473,
+      "language": "Rust",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/193089026?v=4",
+      "html_url": "https://github.com/Pumpkin-MC/Pumpkin"
+    },
+    "yorukot/superfile": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 338,
+      "language": "Go",
+      "description": "Pretty fancy and modern terminal file manager",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/107802416?v=4",
+      "html_url": "https://github.com/yorukot/superfile"
+    },
+    "Lordog/dive-into-llms": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 328,
+      "language": "Jupyter Notebook",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/59903352?v=4",
+      "html_url": "https://github.com/Lordog/dive-into-llms"
+    },
+    "browser-use/browser-use": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 264,
+      "language": "Python",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "html_url": "https://github.com/browser-use/browser-use"
+    },
+    "pingdotgg/t3code": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 184,
+      "language": "TypeScript",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
+      "html_url": "https://github.com/pingdotgg/t3code"
+    },
+    "cheahjs/free-llm-api-resources": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 164,
+      "language": "Python",
+      "description": "A list of free LLM inference resources accessible via API.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/818368?v=4",
+      "html_url": "https://github.com/cheahjs/free-llm-api-resources"
+    },
+    "multica-ai/multica": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 157,
+      "language": "Go",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/multica"
+    },
+    "Anil-matcha/Open-Generative-AI": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 156,
+      "language": "JavaScript",
+      "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 500+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
+      "html_url": "https://github.com/Anil-matcha/Open-Generative-AI"
     }
   }
 }

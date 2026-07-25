@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-24": {
-      "palmier-io/palmier-pro": 1,
-      "DeusData/codebase-memory-mcp": 2,
-      "firecrawl/firecrawl": 3,
-      "ZhuLinsen/daily_stock_analysis": 4,
-      "jamiepine/voicebox": 5,
-      "garrytan/gstack": 6,
-      "NousResearch/hermes-agent": 7,
-      "JCodesMore/ai-website-cloner-template": 8,
-      "heygen-com/hyperframes": 9,
-      "bytedance/deer-flow": 10,
-      "tursodatabase/turso": 11,
-      "BuilderIO/agent-native": 12,
-      "anthropics/skills": 13,
-      "alibaba/page-agent": 14,
-      "shanraisshan/claude-code-best-practice": 15,
-      "esengine/DeepSeek-Reasonix": 16,
-      "koala73/worldmonitor": 17,
-      "stablyai/orca": 18,
-      "Tencent/WeKnora": 19,
-      "Crosstalk-Solutions/project-nomad": 20,
-      "karpathy/autoresearch": 21,
-      "multica-ai/multica": 22,
-      "truelockmc/streambert": 23,
-      "ruvnet/RuView": 24,
-      "revfactory/harness": 25
-    },
     "2026-06-25": {
       "apple/container": 1,
       "ZhuLinsen/daily_stock_analysis": 2,
@@ -836,6 +809,33 @@
       "alibaba/open-code-review": 23,
       "vnpy/vnpy": 24,
       "gastownhall/beads": 25
+    },
+    "2026-07-25": {
+      "block/buzz": 1,
+      "koala73/worldmonitor": 2,
+      "alibaba/open-code-review": 3,
+      "ruvnet/RuView": 4,
+      "citrolabs/ego-lite": 5,
+      "Automattic/harper": 6,
+      "earendil-works/pi": 7,
+      "ComposioHQ/awesome-claude-skills": 8,
+      "firecrawl/firecrawl": 9,
+      "shiyu-coder/Kronos": 10,
+      "earthtojake/text-to-cad": 11,
+      "Panniantong/Agent-Reach": 12,
+      "Pumpkin-MC/Pumpkin": 13,
+      "yorukot/superfile": 14,
+      "Lordog/dive-into-llms": 15,
+      "agegr/pi-web": 16,
+      "rtk-ai/rtk": 17,
+      "browser-use/browser-use": 18,
+      "Wei-Shaw/sub2api": 19,
+      "pingdotgg/t3code": 20,
+      "t8y2/dbx": 21,
+      "cheahjs/free-llm-api-resources": 22,
+      "multica-ai/multica": 23,
+      "Anil-matcha/Open-Generative-AI": 24,
+      "langgenius/dify": 25
     }
   }
 }
