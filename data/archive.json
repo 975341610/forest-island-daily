@@ -1,5 +1,321 @@
 [
   {
+    "id": "2026-07-25_vibecoding_6",
+    "date": "2026-07-25",
+    "category": "VibeCoding",
+    "subcat": "AI编程",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "AI编程Agent控制工具集中上新",
+    "url": "https://www.producthunt.com/leaderboard/daily/2026/7/24",
+    "image": "images/2026-07-25/2026-07-25_vibecoding_6.jpg",
+    "detail": [
+      "7 月 24 日的 Product Hunt 日榜呈现出一个鲜明趋势:围绕 AI 编程 Agent 的“调度、控制与后端”类工具集中涌现。当天登榜的 Pushary(锁屏审批 Agent)、HarnessRouter(一个 API 集成 Codex/Claude Code/Hermes)等,共同指向同一个方向——让自主编程 Agent 更可控、更易被产品集成。",
+      "这批产品的共性,是把过去要开发者自己搭的能力做成即用服务:权限审批、任务追踪、多 Agent 编排、沙箱与成本控制。它们几乎都原生支持 Claude Code、Codex、Cursor、Gemini CLI、Hermes 等主流编程 Agent,反映出这些工具已成为事实上的接入标准。",
+      "背后的逻辑是,vibe coding 走向生产后,“一个人盯一个 Agent”已不够用,开发者往往同时跑多个 Agent、自动改文件跑命令,于是“控制面板”“统一后端”“审批流”这类中间层需求被迅速放大,成为 Product Hunt 上的新热点品类。",
+      "对关注 AI 编程的开发者来说,这一天的榜单值得当作风向标:模型和终端工具的竞争之外,围绕 Agent 的治理与集成正形成新的创业机会带。谁能让多 Agent 协作既高效又可控,谁就可能在下一阶段的 AI 编程生态里占住关键位置。"
+    ]
+  },
+  {
+    "id": "2026-07-25_vibecoding_5",
+    "date": "2026-07-25",
+    "category": "VibeCoding",
+    "subcat": "开发者动态",
+    "platform": "BigDATAwire",
+    "platform_color": "#2563EB",
+    "title": "Fluree AI:为智能体提供可信上下文",
+    "url": "https://www.bigdatawire.com/this-just-in/fluree-launches-fluree-ai-to-transform-data-siloes-into-institutional-memory/",
+    "image": "images/2026-07-25/2026-07-25_vibecoding_5.jpg",
+    "detail": [
+      "7 月 23 日,数据基础设施公司 Fluree 发布 Fluree AI,目标是把企业内部散落在各处的数据孤岛,转化为 AI Agent 可以信任、可以追溯的“机构记忆”。随着越来越多团队让自主 Agent 直接操作真实业务数据,“上下文从哪来、可不可信”正成为落地的关键卡点。",
+      "Fluree 的技术底座是基于 W3C RDF 标准的知识图谱数据库,强调数据的语义关联、来源可追溯与细粒度权限。Fluree AI 在此之上,为 Agent 提供带治理与出处信息的可信上下文,试图解决大模型接入企业数据时常见的幻觉、越权和口径不一致等问题。",
+      "对开发者与数据工程师而言,这类产品把“给 Agent 喂什么数据、如何证明这份数据可信”变成了可工程化的能力,而不是靠 prompt 硬拼。它与近期一批“Agent 上下文层”“可信记忆”工具一起,构成了 AI 应用栈里迅速升温的新赛道。",
+      "从行业视角看,当编程与业务 Agent 越来越多地被托付真实决策,数据可信与可审计正从“锦上添花”变成“准入门槛”。Fluree AI 的发布是这一趋势的又一注脚,也提醒开发者:模型之外,数据治理同样是 Agent 能否落地的胜负手。"
+    ]
+  },
+  {
+    "id": "2026-07-25_vibecoding_4",
+    "date": "2026-07-25",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Firecrawl",
+    "platform_color": "#2563EB",
+    "title": "Firecrawl成为Replit官方连接器",
+    "url": "https://www.firecrawl.dev/blog/category/product-updates",
+    "image": "images/2026-07-25/2026-07-25_vibecoding_4.jpg",
+    "detail": [
+      "面向 AI Agent 的网页数据抓取平台 Firecrawl 于 7 月 23 日宣布,已成为 Replit 的官方连接器(Official Connector)。开发者现在可以在 Replit 里一键接入 Firecrawl 最新的网页搜索、抓取与浏览器交互能力,把“实时网页进、干净上下文出”直接带进自己的应用与 Agent 项目。",
+      "Firecrawl 的核心是一整套面向 Agent 的网页上下文 API:Search 是入口,Scrape 与 Parse 把网页转成干净的、按 token 优化的 Markdown,Interact 处理动态页面,Crawl 与 Map 则做深度抓取。它主打用一个 API、一种输出格式取代 Puppeteer、Playwright、Bright Data、SerpAPI 等多厂商拼装的老栈。",
+      "此前 Firecrawl 已陆续推出 Keyless 免密钥模式(每月 1000 次免费额度)、更精准的搜索与 Research Index,并原生集成到 Vercel Marketplace、n8n Cloud 等。这次接入 Replit,进一步把它铺进了在线编程与 vibe coding 的主流工作流。",
+      "对用 Claude Code、Cursor、Antigravity、Lovable 等工具的开发者而言,一键连接意味着更低的接入摩擦。其官方 MCP Server 已累积超过 7000 星,显示出“给 Agent 喂干净网页上下文”正成为 AI 应用开发中一块高频刚需的基础设施。"
+    ]
+  },
+  {
+    "id": "2026-07-25_vibecoding_3",
+    "date": "2026-07-25",
+    "category": "VibeCoding",
+    "subcat": "开发者动态",
+    "platform": "HarnessRouter",
+    "platform_color": "#2563EB",
+    "title": "HarnessRouter:一个API集成编程Agent",
+    "url": "https://harnessrouter.ai",
+    "image": "images/2026-07-25/2026-07-25_vibecoding_3.jpg",
+    "detail": [
+      "由 Y Combinator 支持的 HarnessRouter 于 7 月 24 日(周五)正式上线。它试图解决一个工程难题:开发者若想在自己产品里内置能“生成整套代码库”的 AI Agent 后端,往往要花数月自建沙箱、Agent 运行时、工具编排、会话流式、权限与成本控制等一整套基础设施。",
+      "HarnessRouter 把这些复杂度收敛成一个 API:开发者只需接入,就能把 Codex、Claude Code、Hermes 等业界领先的编程 Agent 作为产品后端直接运行,升级、修复与维护都由平台代劳。官网演示只需三步——把 AGENTS.md 拖进编程 Agent、描述想法、配置 API Key,即可发布。",
+      "平台强调“可控性”:每个任务都能被逐步追踪,提供沙箱隔离、重试超时、成本上限等企业级能力,还列出了网站生成、数字员工、模型评测、法务、游戏、影视等多种落地场景,并预告将接入 Pi 编程 Agent。发布材料显示 Stanford Medicine 等已在试用。",
+      "对独立开发者和初创团队来说,这类“Agent 即后端”服务降低了把前沿编程能力嵌入自家产品的门槛,让“用一个 API 调度多种编程 Agent”成为现实,也反映出 AI 编程基础设施正从工具层向平台层快速下沉。"
+    ]
+  },
+  {
+    "id": "2026-07-25_vibecoding_2",
+    "date": "2026-07-25",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "Pushary:手机锁屏审批AI代理",
+    "url": "https://www.producthunt.com/products/pushary",
+    "image": "images/2026-07-25/2026-07-25_vibecoding_2.jpg",
+    "detail": [
+      "7 月 24 日登上 Product Hunt 当日榜第 2 名的 Pushary,瞄准了 AI 编程 Agent 的一个真实痛点:当 Claude Code、Codex、Cursor、Gemini CLI 等工具跑到一半需要权限或需要回答问题时,任务就会卡住等待。Pushary 把这个“是或否”的抉择直接推送到你的手机锁屏上,让你人不在电脑前也能让工作继续推进。",
+      "本次发布带来了原生 iPhone 与 Android 应用。用户只需一条命令,通过扫描二维码即可把终端与手机配对,无需复制粘贴任何密钥。来自 Claude Code、Codex、Cursor、Gemini CLI、Hermes、Claude Cowork 的授权请求、追问和任务完成提醒都会汇聚到同一个收件箱中。",
+      "更进一步,Pushary 支持按工具设置策略:安全的操作可以自动批准,敏感操作则弹出询问,并为每一次决策保留完整的审计记录。这种最小权限加人工兜底的设计,契合了当下开发者对自主 Agent“既想放手又怕失控”的矛盾心理。",
+      "在多个编程 Agent 并行运行、动辄自动改文件跑命令的今天,Pushary 代表了一类新兴的“Agent 控制面板”工具趋势。社区反响积极,325 个赞背后是许多开发者对“离开工位时 Agent 仍能安全推进”的现实需求。"
+    ]
+  },
+  {
+    "id": "2026-07-25_vibecoding_1",
+    "date": "2026-07-25",
+    "category": "VibeCoding",
+    "subcat": "AI编程",
+    "platform": "Tech Insider",
+    "platform_color": "#2563EB",
+    "title": "小米MiMo Code免费期7月26日结束",
+    "url": "https://tech-insider.org/ie/xiaomi-mimo-code-2026/",
+    "image": "images/2026-07-25/2026-07-25_vibecoding_1.jpg",
+    "detail": [
+      "小米在6月11日开源了终端 AI 编程助手 MiMo Code V0.1.0,基于 OpenCode 打造并以 MIT 协议发布,主打长程自动化编程任务。近日官方确认,其免费无限用量的窗口将在北京时间 7 月 26 日 18:00 关闭,首批约 45 天的免费期即将到期,开发者只剩两三天时间决定是否迁移到付费方案。",
+      "需要付费的并非终端工具本身,而是背后 MiMo-V2.5 模型的推理资源。免费期结束后,用户需在小米 MiMo 开放平台订阅 Token Plan 或按量付费,首次订阅可享 12% 折扣。方案分 Lite、Standard、Pro、Max 四档,配额还能通过 Claude Code、OpenCode、Kilo Code、Cline 等兼容工具调用。",
+      "小米在发布材料中宣称 MiMo Code 在 SWE-Bench Pro 上得分 62%,比其标注的 Claude Code 高出约 5 分,并支持一键从 Claude Code 导入配置,多模型可接入 DeepSeek、Kimi、GLM 等。不过该分数为自评,尚无独立实验室验证,多家媒体在报道时都对自报成绩打上了问号。",
+      "对开发者而言,这标志着又一款中国厂商的开源编程 Agent 从拉新走向商业化验证。免费期收尾引发社区讨论:一部分人认可其长程任务能力与开放生态,另一部分则观望付费性价比与安全性,毕竟一个全新 Agent 的权限与代码执行边界仍需时间检验。"
+    ]
+  },
+  {
+    "id": "2026-07-25_gaming_7",
+    "date": "2026-07-25",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "The PC Enthusiast",
+    "platform_color": "#F59E0B",
+    "title": "《光环:战役进化》抢先体验开启",
+    "url": "https://thepcenthusiast.com/halo-campaign-evolved-early-access-launch/",
+    "image": "images/2026-07-25/2026-07-25_gaming_7.jpg",
+    "detail": [
+      "备受期待的《光环:战役进化》(Halo: Campaign Evolved)抢先体验已于北京时间7月24日前后正式开放,高级版与典藏版持有者得以抢先游玩这款经典重制。抢先体验于太平洋时间7月23日上午8点解锁,对应香港时间当晚11点、日本7月24日零点,游戏将于7月28日全面登陆Xbox、PS5与PC。",
+      "作为自2021年《光环:无限》以来系列首款全新作品,本作并未续写故事,而是回到初代《战斗进化》的起点进行现代化重制。士官长如今可以冲刺、劫持敌方载具,并使用后续作品中登场的新装备;玩家还能在原版几乎没有载具的段落里驾驶如\"恶灵\"等机甲,让战斗节奏明显加快。",
+      "剧情方面,新增任务聚焦士官长与Johnson中士在UNSC深入敌后行动中的经历,为两人在《战斗进化》正传相遇前的关系补足背景。早期上手反馈普遍认为,重制在提速的同时较好保留了光环招牌的枪械、手雷与近战\"黄金三角\"节奏。此作在Halo与Xbox都处于微妙时刻登场,被视为系列重回巅峰、稳住核心玩家的一次关键尝试。"
+    ]
+  },
+  {
+    "id": "2026-07-25_gaming_6",
+    "date": "2026-07-25",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "OpenCritic",
+    "platform_color": "#F59E0B",
+    "title": "PS5推送7月系统更新 优化消息界面",
+    "url": "https://opencritic.com/news/35018/ps5-gets-a-brand-new-update-for-july-2026",
+    "image": "images/2026-07-25/2026-07-25_gaming_6.jpg",
+    "detail": [
+      "索尼于7月23日向PlayStation 5主机推送了一次新的系统软件更新,并在7月24日被媒体广泛报道。这是2026年PS5的第六次系统更新,不过本次内容相对低调,官方补丁说明只有一句话:\"我们改进了部分界面上的消息与可用性\",聚焦于优化消息服务在特定画面中的显示体验。",
+      "相较之下,PS5今年的更新节奏其实相当密集,通常每月至少一到两次,内容有大有小。3月17日的更新曾为PS5 Pro增强PSSR画质并为欢迎中心加入新功能,属于\"大版本\";而7月1日与本次7月23日的更新则明显偏向单点打磨,针对性地修补系统性能、稳定性或界面细节,属于典型的\"小步快跑\"式维护。",
+      "对普通玩家而言,这类维护型更新虽不带来惊艳新功能,却是保持主机长期流畅、稳定运行的关键。社区对本次更新反应平淡,多数人一键安装后并未察觉明显变化,也有玩家借此追问索尼何时能带来更实质的社交、界面与个性化升级,期待下半年伴随大作发售能有更有分量的系统迭代。"
+    ]
+  },
+  {
+    "id": "2026-07-25_gaming_5",
+    "date": "2026-07-25",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "OpenCritic",
+    "platform_color": "#F59E0B",
+    "title": "GTA6发售仍在轨:内部人士称延期概率极低",
+    "url": "https://opencritic.com/news/35027/trusted-insider-gives-update-on-gta-6s-release-date",
+    "image": "images/2026-07-25/2026-07-25_gaming_5.jpg",
+    "detail": [
+      "北京时间7月24日,彭博社知名记者、业界公认的可靠爆料人Jason Schreier就《侠盗猎车手6》(GTA6)的发售进度发表最新看法,表示游戏定档的11月19日基本\"步入正轨\",再次延期的可能性很小。这一表态为近期因营销沉寂而焦虑不安的粉丝群体注入了一剂强心针。",
+      "许多玩家的担忧并非空穴来风:Take-Two此前承诺夏季全面铺开营销,然而自6月25日GTA6开启预售、公布79.99美元标准版与99.99美元终极版定价以来,官方几乎再无重大动作,期待已久的第三支预告也迟迟未见踪影。第二支预告距今已超过一年,这种\"静默\"让不少人开始猜测是否又要跳票。",
+      "Schreier分析认为,Rockstar当前的沉默可能是刻意为之的营销策略——预售本身已带来巨大热度,\"子弹\"不必急着打光,把第三预告留到临近发售再引爆,反而能制造又一轮销售高潮。Take-Two已将创纪录的FY2027营收预期(约80至82亿美元)押注在这款游戏上,业界普遍相信11月这一档期含金量十足,众多发行商也早已主动避让。"
+    ]
+  },
+  {
+    "id": "2026-07-25_gaming_4",
+    "date": "2026-07-25",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "IGN",
+    "platform_color": "#F59E0B",
+    "title": "金刚狼与《漫威斗魂》联动 互换战衣",
+    "url": "https://me.ign.com/en/marvel-wolverine/246556/everything-announced-at-the-marvels-wolverine-deep-cuts-sdcc-panel-comic-con-2026",
+    "image": "images/2026-07-25/2026-07-25_gaming_4.jpg",
+    "detail": [
+      "在圣地亚哥动漫展(SDCC)的\"Marvel's Wolverine: Deep Cuts\"专场上,Insomniac Games公布了PS5独占大作《漫威金刚狼》的全新预告,并抛出重磅惊喜:与Arc System Works的格斗新作《漫威斗魂:格斗之魂》达成跨作品联动。开发团队、原声作曲以及配音演员悉数登台,还宣布了一部揭示Logan前史的前传漫画。",
+      "两款游戏将互换标志性战衣:Insomniac在看到《漫威斗魂》里的金刚狼造型后深受启发,为《漫威金刚狼》专门制作了一套\"斗魂\"灵感战衣,玩家通过进入游戏中的日本街机厅即可解锁。反向联动同样成立——《漫威金刚狼》的\"Battle Reborn\"战衣将于9月1日进驻《漫威斗魂》,让两边粉丝都能收集到对方作品的元素。",
+      "面板还确认游戏原声由知名作曲David Fleming掌舵,完整专辑将于8月28日发行;前传漫画则讲述Logan为何不辞而别离开Team X,首章已登陆Marvel Unlimited。这波双向联动被社区视为索尼与格斗厂商深度绑定的巧妙营销,粉丝纷纷调侃\"金刚狼确认是矮个头\",同时对这款\"毫不妥协\"的暴力向独占更添期待。"
+    ]
+  },
+  {
+    "id": "2026-07-25_gaming_3",
+    "date": "2026-07-25",
+    "category": "Gaming",
+    "subcat": "掌机",
+    "platform": "Boiling Steam",
+    "platform_color": "#F59E0B",
+    "title": "涨价后遗症:Steam Deck周销量暴跌约82%",
+    "url": "https://boilingsteam.com/the-great-steam-deck-volume-crash/",
+    "image": "images/2026-07-25/2026-07-25_gaming_3.jpg",
+    "detail": [
+      "分析媒体Boiling Steam于近日发布深度报告,指出Valve在2026年5月对Steam Deck的大幅涨价已带来\"近乎崩塌\"的销量后果。此次调价被内部定性为对全球内存涨价潮的回应,OLED机型价格上调幅度高达约40%,更彻底砍掉了此前售价399美元的入门LCD版本,让掌机整体门槛陡然抬高。",
+      "报告基于Steam全球每周畅销榜的营收权重排名进行反推:Steam Deck在2025年长期稳居榜单前五,而涨价并重新上架后,近两周已从前五一路滑落至第14位。换算成实际出货量,团队估算这代表周销量约暴跌82%——从2025年每周约1.1万至1.8万台,骤降至7月以来的每周仅约1400至3000台。",
+      "这一数据在社区与硬件圈引发广泛讨论,Ars Technica、Kotaku等多家媒体跟进转载。虽然有观点认为最新榜单显示跌势已趋缓、Deck小幅回升至第九位,但普遍共识是价格弹性效应真实存在。分析者担忧,如此剧烈的需求萎缩不仅冲击Deck本身,也为Valve整条Steam硬件产品线的长期前景蒙上阴影。"
+    ]
+  },
+  {
+    "id": "2026-07-25_gaming_2",
+    "date": "2026-07-25",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "games.gg",
+    "platform_color": "#F59E0B",
+    "title": "PSN大规模宕机 撞上《漫威斗魂》公测",
+    "url": "https://games.gg/news/psn-down-marvel-tokon-fighting-souls/",
+    "image": "images/2026-07-25/2026-07-25_gaming_2.jpg",
+    "detail": [
+      "就在《漫威斗魂:格斗之魂》公测上线的同一天,PlayStation Network(PSN)于北京时间7月24日午间起遭遇大规模宕机。PS5与PC玩家在尝试登录时纷纷撞上错误代码WS-116486-6,提示与索尼中央服务器连接失败,而由于该公测在Steam端也强制要求PSN账号登录,PC玩家同样被挡在门外无法进入游戏。",
+      "Downdetector上的故障报告从当天中午起急剧攀升,索尼官方支持页面一度也无法正常加载。r/PlayStation版块置顶帖不得不打出\"服务器宕机,你的账号没事\"来安抚大量担心被盗号的玩家。《漫威斗魂》开发团队随后在X发文致歉,确认登录与网络问题,并引导受影响玩家前往官方Discord获取后续进展。",
+      "这次宕机的时机对新作而言堪称雪上加霜:格斗游戏社区通常习惯在周末组织公测约战、切磋角色对位,而PSN恰在周末前夕掉线,直接打击了发售前的势头。截至报道时索尼官方社媒仍未正面回应故障原因,也未给出修复时间表,让本应火热的开局蒙上一层阴影,不少玩家只能转向不受影响的Steam端游玩。"
+    ]
+  },
+  {
+    "id": "2026-07-25_gaming_1",
+    "date": "2026-07-25",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "PC Gamer",
+    "platform_color": "#F59E0B",
+    "title": "《漫威斗魂》公测开打 15角色免费试玩",
+    "url": "https://www.pcgamer.com/games/fighting/marvel-tokon-fighting-souls-beta-dates/",
+    "image": "images/2026-07-25/2026-07-25_gaming_1.jpg",
+    "detail": [
+      "由《罪恶装备》缔造者Arc System Works开发、索尼互动娱乐发行的4v4团队格斗游戏《漫威斗魂:格斗之魂》(Marvel Tokon: Fighting Souls)于北京时间7月24日晚正式开启限时公测。这款采用虚幻5引擎打造的漫威主题格斗新作,由漫画名家Kieron Gillen操刀剧本,阵容包括金刚狼、蜘蛛侠、暴风女等经典角色,是近年格斗圈最受瞩目的大厂新IP之一。",
+      "本次公测从7月24日持续至7月26日,横跨周末三天,同步登陆PS5与Steam平台,并首次开放多达15名角色的完整试玩名单,让玩家提前体验其独特的双人配合连段系统与索敌机制。开发方希望借这段窗口收集网络对战与平衡性反馈,为8月6日的全球正式发售做最后打磨,这也是索尼2026下半年格斗线上的重要一环。",
+      "公测消息一出立刻点燃格斗社区热情:据统计游戏在Steam端工作日上午即冲上约2.2万同时在线,虽尚未逼近《街头霸王6》公测约3.2万的峰值,但周末尚未真正到来,玩家普遍看好数字继续攀升。不少老玩家称赞其手感扎实、上手门槛友好,认为它有望成为新一代团队格斗的搅局者,同时也期待正式版能补足单人内容与联机稳定性。"
+    ]
+  },
+  {
+    "id": "2026-07-25_ai_6",
+    "date": "2026-07-25",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "Yahoo Finance",
+    "platform_color": "#8ED16D",
+    "title": "Opus 5 取消30天数据保留",
+    "url": "https://ca.finance.yahoo.com/news/anthropic-debuts-opus-5-model-as-company-preps-for-ipo-later-this-year-170000070.html",
+    "image": "images/2026-07-25/2026-07-25_ai_6.jpg",
+    "detail": [
+      "据 Yahoo Finance 报道,Anthropic 于 7 月 24 日推出 Claude Opus 5,这是 Claude 5 家族的第四款模型,与更强大的 Mythos 5、Fable 5 并列。公司将 Opus 5 定位为面向知识工作与自动化等大多数任务的首选模型,官方称其能力已接近 Fable 5,而成本仅为一半,主打日常高频使用场景。",
+      "一个值得关注的隐私差异是:与 Fable 5 不同,Opus 5 不再对用户数据进行 30 天保留。Anthropic 解释称,之所以对 Fable 5 保留用户输入与输出 30 天,是出于安全考量、以防未来被滥用;而 Opus 5 取消这一保留,被外界视为在能力与用户隐私之间做出的新平衡,也回应了企业对数据合规的关切。",
+      "报道将此次发布置于激烈的行业竞争背景下:OpenAI 本月早些时候已推出 GPT-5.6 家族,谷歌则准备发布 Gemini 3.5 Pro,但据彭博社消息该模型因未达内部目标而被推迟。三大巨头你追我赶,Opus 5 的低成本、日常型定位正是 Anthropic 争夺企业市场份额的关键武器。",
+      "文章特别点出,Opus 5 的登场正值 Anthropic 备战年内 IPO 的敏感时点。在国产开源模型以极低价格冲击定价权、Kimi K3 引发市场震荡的当下,持续快速推出兼顾性能与性价比的新模型,对支撑公司估值、向投资者证明技术与商业化能力都至关重要,被解读为上市前的重要铺垫。"
+    ]
+  },
+  {
+    "id": "2026-07-25_ai_5",
+    "date": "2026-07-25",
+    "category": "AI",
+    "subcat": "AI算力",
+    "platform": "新浪财经",
+    "platform_color": "#8ED16D",
+    "title": "阿里云超节点跑2.4万亿Qwen3.8",
+    "url": "http://finance.sina.com.cn/jjxw/2026-07-24/doc-iniiwvke9319860.shtml",
+    "image": "images/2026-07-25/2026-07-25_ai_5.jpg",
+    "detail": [
+      "AI 大模型的竞争正迈入新阶段。据《中国经营报》报道,7 月 23 日阿里云宣布,搭载真武 M890 芯片的超节点已完成对 2.4 万亿参数模型 Qwen3.8 的适配,并上线百炼平台提供模型推理服务。这也是国内首个成功运行超 2 万亿参数大模型的超节点,标志着国产算力与超大参数模型的协同能力迈上新台阶。",
+      "阿里云方面表示,通过芯片、云平台、模型的协同优化,在 Agentic 推理场景中,该超节点性能最高可提升 1.5 倍。不过官方也坦言,实际表现仍会受到上下文长度、并发量及模型精度等多重因素影响,并非在所有场景都能达到理论峰值,需结合具体业务负载评估。",
+      "这一发布让 AI 产业竞争的新逻辑浮出水面:随着 Qwen、Kimi、GLM 等模型参数规模冲向数万亿级别,单纯堆参数已不足够,如何用自研芯片和超节点架构把巨型模型高效“跑起来”、把推理成本压下来,正成为国产厂商比拼的新战场,软硬件一体化优化的价值日益凸显。",
+      "结合此前动态看,阿里通义一周内密集迭代,配合真武自研芯片的落地,显示出阿里云打造从芯片到平台再到模型全栈闭环的意图。在国产大模型集群式崛起、算力自主可控诉求不断增强的背景下,超节点成功承载 2.4 万亿参数模型,被业界解读为国产 AI 基础设施成熟度提升的重要标志。"
+    ]
+  },
+  {
+    "id": "2026-07-25_ai_4",
+    "date": "2026-07-25",
+    "category": "AI",
+    "subcat": "AI编程",
+    "platform": "DeepSeek Docs",
+    "platform_color": "#8ED16D",
+    "title": "DeepSeek 旧版 API 今日停用",
+    "url": "https://api-docs.deepseek.com/",
+    "image": "images/2026-07-25/2026-07-25_ai_4.jpg",
+    "detail": [
+      "北京时间 7 月 24 日成为 DeepSeek 开发者的关键节点:两个沿用已久的旧模型别名 deepseek-chat 与 deepseek-reasoner 于当日 15:59(UTC)正式停用。此前它们分别对应 DeepSeek-V4-Flash 的非思考模式与思考模式,自 4 月 24 日 V4 系列上线以来给出的三个月过渡期到此结束,未迁移的调用将直接中断。",
+      "官方文档明确指出,开发者需将模型参数迁移到新命名:deepseek-chat 对应 deepseek-v4-flash,deepseek-reasoner 则需根据需求选择 deepseek-v4-flash(预算优先)或 deepseek-v4-pro(质量优先)。base_url 保持不变,DeepSeek API 仍兼容 OpenAI 与 Anthropic 两种接口格式,可直接沿用相应 SDK 接入。",
+      "社区反复提醒开发者注意两处“陷阱”:其一,deepseek-reasoner 默认并不会自动映射到能力更强的 v4-pro,而是落到 v4-flash;其二,V4-Flash 默认开启思考模式,对延迟敏感的任务需手动关闭,否则可能拖慢响应、增加消耗,迁移时务必逐项核对配置。",
+      "此次别名下线正值国产大模型密集迭代的当口。DeepSeek 于 7 月 20 日将 V4 推至正式可用,主打 1M 上下文与极致性价比;而同期 Kimi K3、通义千问、GLM-5.2 等接连发力。API 命名的规范化被视为 DeepSeek 收敛产品线、为长期商业化与更大规模调用做准备的一步,也提醒生态尽快完成技术栈对齐。"
+    ]
+  },
+  {
+    "id": "2026-07-25_ai_3",
+    "date": "2026-07-25",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "TechFundingNews",
+    "platform_color": "#8ED16D",
+    "title": "AMD 斥资50亿投资 Anthropic",
+    "url": "https://techfundingnews.com/nvidia-challenger-amd-commits-5b-to-anthropic-and-wins-microsoft-in-the-same-week/",
+    "image": "images/2026-07-25/2026-07-25_ai_3.jpg",
+    "detail": [
+      "AMD 在同一周内接连拿下两大 AI 客户,发起了对英伟达在 AI 算力领域统治地位迄今最严肃的挑战。据报道,AMD 将向 Anthropic 投资至多 50 亿美元,作为战略合作的一部分,Anthropic 将部署最多 2 吉瓦的 AMD Helios AI 基础设施,双方已联合确认这一合作,标志着 AMD 机架级 AI 系统正获得前沿实验室的重量级背书。",
+      "该合作紧随微软数日前宣布将部署同款 Helios 平台以支撑 Azure AI 工作负载与内部推理任务之后落地。在 Helios 尚未正式商用(预计 2026 下半年 GA)之际,AMD 在极短时间内连续锁定微软与 Anthropic 两大标杆客户,同时向超大规模云厂商和前沿实验室证明了自身实力,竞争态势陡然升温。",
+      "从技术方案看,Anthropic 的部署将结合 Instinct MI450 系列 GPU、EPYC “Venice” CPU 与 Pensando 网络,首个吉瓦预计于 2027 年上半年上线。AMD 董事长兼 CEO 苏姿丰表示“很高兴深化与 Anthropic 的合作,以吉瓦级规模部署 Helios”,并称此次协作确立了 Helios 作为下一代 AI 基础设施主力平台的地位。",
+      "Anthropic 联合创始人、首席算力官 Tom Brown 指出,获取算力是保持 Claude 处于前沿、满足客户需求的核心。苏姿丰随后在 X 上发文,感谢 Brown 与联合创始人 Dario Amodei,表示很高兴 Helios 能以吉瓦级规模助力 Claude 运行。这笔交易也被视为 AI 军备竞赛向底层算力与硬件加速下沉的又一强烈信号。"
+    ]
+  },
+  {
+    "id": "2026-07-25_ai_2",
+    "date": "2026-07-25",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "Fortune",
+    "platform_color": "#8ED16D",
+    "title": "Opus 5 加成本能力调节开关",
+    "url": "https://fortune.com/2026/07/24/anthropic-debuts-claude-opus-5-with-feature-that-lets-users-toggle-between-cost-and-capability/",
+    "image": "images/2026-07-25/2026-07-25_ai_2.jpg",
+    "detail": [
+      "据《财富》7 月 24 日报道,Anthropic 当天发布的 Claude Opus 5 主打面向日常商业需求,最大亮点是一个允许用户在成本与能力之间切换的档位开关。在企业客户日益担忧 AI 账单高企的背景下,用户可选择模型投入 low、medium 或 high 三档“努力”来完成任务,从而在花费与效果之间取得平衡,官方称新模型更易用、无需反复来回沟通。",
+      "报道回顾了此前争议:Fable 5 曾因亚马逊研究人员报告可绕过其安全防护,被美国政府一度实施出口管制,Anthropic 于 6 月 12 日下架、6 月 30 日加固安全后重新上线。此外 Fable 5 因 token 消耗过高、烧钱严重饱受开发者批评,不少用户很快烧光配额或收到巨额账单,Opus 5 的档位设计正是针对这一痛点。",
+      "在安全策略上,Anthropic 试图在“足够安全”与“不过度谨慎”之间走钢丝。此前有用户批评 Fable 5 护栏过严,在编程、网络安全乃至部分生物研究与 AI 研发任务上变得不够好用。Opus 5 的防护大体与 Opus 4.8 相当,唯独在网络安全领域护栏更强;官方称模型并非专门为网络安全训练,而是随整体能力提升自然变强。",
+      "文章还提到,Opus 5“接近”Fable 5 的能力但价格减半,不过对于可能连续自主运行数天的高级项目,公司仍推荐使用 Fable 5。值得注意的是,与 Fable 5 会保留用户数据 30 天不同,Opus 5 不做此项保留。此番强调经济型 token 使用,也与 OpenAI 在 7 月 9 日推出 GPT-5.6 时的营销口径遥相呼应。"
+    ]
+  },
+  {
+    "id": "2026-07-25_ai_1",
+    "date": "2026-07-25",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "Anthropic Blog",
+    "platform_color": "#8ED16D",
+    "title": "Anthropic 发布 Claude Opus 5",
+    "url": "https://www.anthropic.com/news/claude-opus-5",
+    "image": "images/2026-07-25/2026-07-25_ai_1.jpg",
+    "detail": [
+      "北京时间 7 月 24 日,Anthropic 正式发布 Claude Opus 5,这是继 Mythos 5、Fable 5、Sonnet 5 之后不到两个月内推出的第四款 Claude 5 系列模型。官方将其定位为一款“深思熟虑且主动”的日常型模型,宣称其智能水平已逼近当前最强的 Fable 5,但价格仅为后者的一半,同时成为 Claude Max 的新默认模型和 Claude Pro 上最强的可用模型。",
+      "在具体性能上,Opus 5 表现相当亮眼。官方数据显示,在 Frontier-Bench v0.1 编程评测中它超越所有其他模型,较前代 Opus 4.8 性能翻倍且单任务成本更低;在 CursorBench 3.2 最高档下得分与 Fable 5 峰值仅差 0.5%,成本却减半。在 ARC-AGI 3 新问题解决评测中,Opus 5 得分是次优模型的三倍,在 OSWorld 2.0 电脑操作等多项基准上也取得性价比最优。",
+      "Opus 5 最受关注的是引入了 low/medium/high 的“努力档位”(effort)设置,让用户在智能表现与 token 消耗之间自由权衡,直接回应了此前企业客户对 Fable 5 高“燃烧率”和账单飙升的抱怨。它还能自我校验结果、从错误中自动恢复,减少反复沟通;当因安全顾虑拒答时,API 会自动回退到其他模型返回答案而非报错。",
+      "社区与媒体反应热烈,官方 X 帖子迅速收获超四万点赞和数千条回复。分析普遍认为,Opus 5 是 Anthropic 在国产开源模型 Kimi K3、GLM-5.2 以低价冲击、OpenAI GPT-5.6 与谷歌 Gemini 施压之际的关键落子,主打“高智能、低成本、日常可用”,也被视为公司为年内 IPO 铺路的重要产品动作。"
+    ]
+  },
+  {
     "id": "2026-07-24_vibecoding_6",
     "date": "2026-07-24",
     "category": "VibeCoding",
