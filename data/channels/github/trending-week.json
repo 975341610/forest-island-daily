@@ -255,8 +255,8 @@
     },
     "Alishahryar1/free-claude-code": {
       "best_rank": 14,
-      "appearances": 2,
-      "total_today_stars": 667,
+      "appearances": 3,
+      "total_today_stars": 880,
       "language": "Python",
       "description": "Use claude code, codex or pi for free from the terminal, IDE, or you phone like OpenClaw (voice supported)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -363,8 +363,8 @@
     },
     "koala73/worldmonitor": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 10793,
+      "appearances": 5,
+      "total_today_stars": 11834,
       "language": "TypeScript",
       "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
       "owner_avatar": "https://avatars.githubusercontent.com/u/996596?v=4",
@@ -372,8 +372,8 @@
     },
     "earendil-works/pi": {
       "best_rank": 5,
-      "appearances": 4,
-      "total_today_stars": 3746,
+      "appearances": 5,
+      "total_today_stars": 4269,
       "language": "TypeScript",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
@@ -381,8 +381,8 @@
     },
     "ruvnet/RuView": {
       "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 4585,
+      "appearances": 5,
+      "total_today_stars": 5144,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -408,8 +408,8 @@
     },
     "agegr/pi-web": {
       "best_rank": 13,
-      "appearances": 4,
-      "total_today_stars": 1235,
+      "appearances": 5,
+      "total_today_stars": 1367,
       "language": "TypeScript",
       "description": "Web UI for the pi coding agent",
       "owner_avatar": "https://avatars.githubusercontent.com/u/12794925?v=4",
@@ -417,8 +417,8 @@
     },
     "rtk-ai/rtk": {
       "best_rank": 17,
-      "appearances": 4,
-      "total_today_stars": 1105,
+      "appearances": 5,
+      "total_today_stars": 1284,
       "language": "Rust",
       "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
       "owner_avatar": "https://avatars.githubusercontent.com/u/258253854?v=4",
@@ -480,8 +480,8 @@
     },
     "block/buzz": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 8684,
+      "appearances": 4,
+      "total_today_stars": 11175,
       "language": "Rust",
       "description": "A hive mind communication platform",
       "owner_avatar": "https://avatars.githubusercontent.com/u/185116535?v=4",
@@ -551,9 +551,9 @@
       "html_url": "https://github.com/hyprwm/Hyprland"
     },
     "ComposioHQ/awesome-claude-skills": {
-      "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 1299,
+      "best_rank": 6,
+      "appearances": 3,
+      "total_today_stars": 1876,
       "language": "Python",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "owner_avatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
@@ -561,8 +561,8 @@
     },
     "Automattic/harper": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 1500,
+      "appearances": 3,
+      "total_today_stars": 2003,
       "language": "Rust",
       "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
       "owner_avatar": "https://avatars.githubusercontent.com/u/887802?v=4",
@@ -570,17 +570,17 @@
     },
     "shiyu-coder/Kronos": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 900,
+      "appearances": 3,
+      "total_today_stars": 1219,
       "language": "Python",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65760973?v=4",
       "html_url": "https://github.com/shiyu-coder/Kronos"
     },
     "citrolabs/ego-lite": {
-      "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1127,
+      "best_rank": 4,
+      "appearances": 3,
+      "total_today_stars": 2113,
       "language": "JavaScript",
       "description": "The best browser for both you and your AI agents work in parallel.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
@@ -615,8 +615,8 @@
     },
     "alibaba/open-code-review": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1246,
+      "appearances": 3,
+      "total_today_stars": 1677,
       "language": "Go",
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -660,26 +660,26 @@
     },
     "Pumpkin-MC/Pumpkin": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 473,
+      "appearances": 2,
+      "total_today_stars": 831,
       "language": "Rust",
       "description": "Empowering everyone to host fast and efficient Minecraft servers.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/193089026?v=4",
       "html_url": "https://github.com/Pumpkin-MC/Pumpkin"
     },
     "yorukot/superfile": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 338,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 924,
       "language": "Go",
       "description": "Pretty fancy and modern terminal file manager",
       "owner_avatar": "https://avatars.githubusercontent.com/u/107802416?v=4",
       "html_url": "https://github.com/yorukot/superfile"
     },
     "Lordog/dive-into-llms": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 328,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 736,
       "language": "Jupyter Notebook",
       "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
       "owner_avatar": "https://avatars.githubusercontent.com/u/59903352?v=4",
@@ -695,9 +695,9 @@
       "html_url": "https://github.com/browser-use/browser-use"
     },
     "pingdotgg/t3code": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 184,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 386,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
@@ -714,8 +714,8 @@
     },
     "multica-ai/multica": {
       "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 157,
+      "appearances": 2,
+      "total_today_stars": 313,
       "language": "Go",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
@@ -729,6 +729,78 @@
       "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 500+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
       "html_url": "https://github.com/Anil-matcha/Open-Generative-AI"
+    },
+    "permissionlesstech/bitchat": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1720,
+      "language": "Swift",
+      "description": "bluetooth mesh chat, IRC vibes",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/220183803?v=4",
+      "html_url": "https://github.com/permissionlesstech/bitchat"
+    },
+    "pbakaus/impeccable": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 471,
+      "language": "JavaScript",
+      "description": "The design language that makes your AI harness better at design.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
+      "html_url": "https://github.com/pbakaus/impeccable"
+    },
+    "palmier-io/palmier-pro": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 412,
+      "language": "Swift",
+      "description": "macOS video editor built for AI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/173962009?v=4",
+      "html_url": "https://github.com/palmier-io/palmier-pro"
+    },
+    "OtterMind/Chat2DB": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 360,
+      "language": "Java",
+      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/131834193?v=4",
+      "html_url": "https://github.com/OtterMind/Chat2DB"
+    },
+    "usestrix/strix": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 210,
+      "language": "Python",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
+      "html_url": "https://github.com/usestrix/strix"
+    },
+    "heygen-com/hyperframes": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 183,
+      "language": "TypeScript",
+      "description": "Write HTML. Render video. Built for agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
+      "html_url": "https://github.com/heygen-com/hyperframes"
+    },
+    "n8n-io/n8n": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 170,
+      "language": "TypeScript",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/45487711?v=4",
+      "html_url": "https://github.com/n8n-io/n8n"
+    },
+    "anthropics/claude-cookbooks": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 132,
+      "language": "Jupyter Notebook",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-cookbooks"
     }
   }
 }
