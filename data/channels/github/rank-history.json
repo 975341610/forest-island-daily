@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-26": {
-      "Panniantong/Agent-Reach": 1,
-      "google-labs-code/design.md": 2,
-      "apple/container": 3,
-      "ZhuLinsen/daily_stock_analysis": 4,
-      "JCodesMore/ai-website-cloner-template": 5,
-      "kunchenguid/no-mistakes": 6,
-      "garrytan/gstack": 7,
-      "stablyai/orca": 8,
-      "interviewstreet/hiring-agent": 9,
-      "opendatalab/MinerU": 10,
-      "googleworkspace/cli": 11,
-      "jamiepine/voicebox": 12,
-      "NVIDIA/SkillSpector": 13,
-      "pbakaus/impeccable": 14,
-      "xbtlin/ai-berkshire": 15,
-      "openai/codex": 16,
-      "shanraisshan/claude-code-best-practice": 17,
-      "bytedance/deer-flow": 18,
-      "mauriceboe/TREK": 19,
-      "IceWhaleTech/CasaOS": 20,
-      "rust-lang/rust": 21,
-      "zarazhangrui/frontend-slides": 22,
-      "microsoft/vscode": 23,
-      "QuantumNous/new-api": 24,
-      "alibaba/page-agent": 25
-    },
     "2026-06-27": {
       "google-labs-code/design.md": 1,
       "xbtlin/ai-berkshire": 2,
@@ -836,6 +809,33 @@
       "multica-ai/multica": 23,
       "anthropics/claude-cookbooks": 24,
       "agegr/pi-web": 25
+    },
+    "2026-07-27": {
+      "block/buzz": 1,
+      "permissionlesstech/bitchat": 2,
+      "citrolabs/ego-lite": 3,
+      "alibaba/open-code-review": 4,
+      "ComposioHQ/awesome-claude-skills": 5,
+      "pbakaus/impeccable": 6,
+      "OtterMind/Chat2DB": 7,
+      "anthropics/claude-cookbooks": 8,
+      "Pumpkin-MC/Pumpkin": 9,
+      "Automattic/harper": 10,
+      "shiyu-coder/Kronos": 11,
+      "permissionlesstech/bitchat-android": 12,
+      "andrewyng/aisuite": 13,
+      "xbtlin/ai-berkshire": 14,
+      "pingdotgg/t3code": 15,
+      "yorukot/superfile": 16,
+      "tashfeenahmed/freellmapi": 17,
+      "decolua/9router": 18,
+      "fqscfqj/Y2A-Auto": 19,
+      "byoungd/up": 20,
+      "BuilderIO/agent-native": 21,
+      "Crosstalk-Solutions/project-nomad": 22,
+      "ollama/ollama": 23,
+      "huggingface/speech-to-speech": 24,
+      "wailsapp/wails": 25
     }
   }
 }
