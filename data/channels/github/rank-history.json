@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-27": {
-      "google-labs-code/design.md": 1,
-      "xbtlin/ai-berkshire": 2,
-      "Panniantong/Agent-Reach": 3,
-      "JCodesMore/ai-website-cloner-template": 4,
-      "mauriceboe/TREK": 5,
-      "opendatalab/MinerU": 6,
-      "garrytan/gstack": 7,
-      "ZhuLinsen/daily_stock_analysis": 8,
-      "IceWhaleTech/CasaOS": 9,
-      "every-app/open-seo": 10,
-      "stablyai/orca": 11,
-      "tashfeenahmed/freellmapi": 12,
-      "alibaba/page-agent": 13,
-      "kunchenguid/no-mistakes": 14,
-      "esengine/DeepSeek-Reasonix": 15,
-      "zarazhangrui/frontend-slides": 16,
-      "googleworkspace/cli": 17,
-      "aws/agent-toolkit-for-aws": 18,
-      "multica-ai/multica": 19,
-      "alchaincyf/zhangxuefeng-skill": 20,
-      "QuantumNous/new-api": 21,
-      "vercel-labs/agent-browser": 22,
-      "remotion-dev/remotion": 23,
-      "vercel-labs/skills": 24,
-      "ripienaar/free-for-dev": 25
-    },
     "2026-06-28": {
       "google-labs-code/design.md": 1,
       "Panniantong/Agent-Reach": 2,
@@ -836,6 +809,33 @@
       "ollama/ollama": 23,
       "huggingface/speech-to-speech": 24,
       "wailsapp/wails": 25
+    },
+    "2026-07-28": {
+      "permissionlesstech/bitchat": 1,
+      "citrolabs/ego-lite": 2,
+      "alibaba/open-code-review": 3,
+      "pbakaus/impeccable": 4,
+      "yorukot/superfile": 5,
+      "moeru-ai/airi": 6,
+      "amnezia-vpn/amnezia-client": 7,
+      "usestrix/strix": 8,
+      "shiyu-coder/Kronos": 9,
+      "bradautomates/claude-video": 10,
+      "pascalorg/editor": 11,
+      "Pumpkin-MC/Pumpkin": 12,
+      "mvanhorn/last30days-skill": 13,
+      "Wei-Shaw/sub2api": 14,
+      "andrewyng/aisuite": 15,
+      "jenkinsci/jenkins": 16,
+      "ruvnet/ruflo": 17,
+      "Anil-matcha/Open-Generative-AI": 18,
+      "XiaoYouChR/Ghost-Downloader-3": 19,
+      "666ghj/MiroFish": 20,
+      "immich-app/immich": 21,
+      "different-ai/openwork": 22,
+      "Crosstalk-Solutions/project-nomad": 23,
+      "tashfeenahmed/freellmapi": 24,
+      "aaif-goose/goose": 25
     }
   }
 }
