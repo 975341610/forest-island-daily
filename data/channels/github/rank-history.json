@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-29": {
-      "DeusData/codebase-memory-mcp": 1,
-      "xbtlin/ai-berkshire": 2,
-      "JCodesMore/ai-website-cloner-template": 3,
-      "google-labs-code/design.md": 4,
-      "ripienaar/free-for-dev": 5,
-      "HKUDS/Vibe-Trading": 6,
-      "every-app/open-seo": 7,
-      "opendatalab/MinerU": 8,
-      "Anil-matcha/Open-Generative-AI": 9,
-      "Robbyant/lingbot-map": 10,
-      "IceWhaleTech/CasaOS": 11,
-      "canopy-network/canopy": 12,
-      "tinyhumansai/openhuman": 13,
-      "TauricResearch/TradingAgents": 14,
-      "commaai/openpilot": 15,
-      "ByteByteGoHq/system-design-101": 16,
-      "vercel-labs/skills": 17,
-      "mauriceboe/TREK": 18,
-      "browser-use/video-use": 19,
-      "dbt-labs/dbt-core": 20,
-      "rust-lang/rust": 21,
-      "pandas-dev/pandas": 22,
-      "usestrix/strix": 23,
-      "sherlock-project/sherlock": 24,
-      "Gentleman-Programming/gentle-ai": 25
-    },
     "2026-06-30": {
       "ripienaar/free-for-dev": 1,
       "xbtlin/ai-berkshire": 2,
@@ -836,6 +809,33 @@
       "andrewyng/aisuite": 23,
       "ovexro/dockpanel": 24,
       "astral-sh/uv": 25
+    },
+    "2026-07-30": {
+      "pascalorg/editor": 1,
+      "paperswithbacktest/awesome-systematic-trading": 2,
+      "huggingface/speech-to-speech": 3,
+      "moeru-ai/airi": 4,
+      "1jehuang/jcode": 5,
+      "yorukot/superfile": 6,
+      "microsoft/agent-governance-toolkit": 7,
+      "earthtojake/text-to-cad": 8,
+      "pbakaus/impeccable": 9,
+      "alibaba/open-code-review": 10,
+      "microsoft/VibeVoice": 11,
+      "kangarooking/cangjie-skill": 12,
+      "grokability/snipe-it": 13,
+      "pingdotgg/t3code": 14,
+      "remotion-dev/remotion": 15,
+      "ollama/ollama": 16,
+      "JOYCEQL/magic-resume": 17,
+      "Crosstalk-Solutions/project-nomad": 18,
+      "different-ai/openwork": 19,
+      "MoonshotAI/FlashKDA": 20,
+      "vercel-labs/agent-browser": 21,
+      "getarcaneapp/arcane": 22,
+      "certimate-go/certimate": 23,
+      "astral-sh/uv": 24,
+      "microsoft/flint-chart": 25
     }
   }
 }

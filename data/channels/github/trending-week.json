@@ -30,8 +30,8 @@
     },
     "alibaba/open-code-review": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 2729,
+      "appearances": 4,
+      "total_today_stars": 3088,
       "language": "Go",
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -48,8 +48,8 @@
     },
     "pbakaus/impeccable": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 2087,
+      "appearances": 4,
+      "total_today_stars": 2474,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -128,9 +128,9 @@
       "html_url": "https://github.com/xbtlin/ai-berkshire"
     },
     "pingdotgg/t3code": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 149,
+      "best_rank": 14,
+      "appearances": 2,
+      "total_today_stars": 309,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
@@ -138,8 +138,8 @@
     },
     "yorukot/superfile": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1393,
+      "appearances": 4,
+      "total_today_stars": 1941,
       "language": "Go",
       "description": "Pretty fancy and modern terminal file manager",
       "owner_avatar": "https://avatars.githubusercontent.com/u/107802416?v=4",
@@ -192,26 +192,26 @@
     },
     "Crosstalk-Solutions/project-nomad": {
       "best_rank": 16,
-      "appearances": 3,
-      "total_today_stars": 346,
+      "appearances": 4,
+      "total_today_stars": 448,
       "language": "TypeScript",
       "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/105950641?v=4",
       "html_url": "https://github.com/Crosstalk-Solutions/project-nomad"
     },
     "ollama/ollama": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 83,
+      "best_rank": 16,
+      "appearances": 2,
+      "total_today_stars": 194,
       "language": "Go",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
       "html_url": "https://github.com/ollama/ollama"
     },
     "huggingface/speech-to-speech": {
-      "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 308,
+      "best_rank": 3,
+      "appearances": 3,
+      "total_today_stars": 1135,
       "language": "Python",
       "description": "Build local voice agents with open-source models",
       "owner_avatar": "https://avatars.githubusercontent.com/u/25720743?v=4",
@@ -228,8 +228,8 @@
     },
     "moeru-ai/airi": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1369,
+      "appearances": 3,
+      "total_today_stars": 2051,
       "language": "TypeScript",
       "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/165476306?v=4",
@@ -263,9 +263,9 @@
       "html_url": "https://github.com/bradautomates/claude-video"
     },
     "pascalorg/editor": {
-      "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 753,
+      "best_rank": 1,
+      "appearances": 3,
+      "total_today_stars": 1775,
       "language": "TypeScript",
       "description": "Create and share 3D architectural projects.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/214160140?v=4",
@@ -344,9 +344,9 @@
       "html_url": "https://github.com/immich-app/immich"
     },
     "different-ai/openwork": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 88,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 185,
       "language": "TypeScript",
       "description": "The open-source alternative to Claude Cowork (powered by opencode)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118544361?v=4",
@@ -380,9 +380,9 @@
       "html_url": "https://github.com/firecrawl/firecrawl"
     },
     "paperswithbacktest/awesome-systematic-trading": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 309,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 1254,
       "language": "Python",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/154981318?v=4",
@@ -417,8 +417,8 @@
     },
     "microsoft/flint-chart": {
       "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 115,
+      "appearances": 2,
+      "total_today_stars": 189,
       "language": "TypeScript",
       "description": "🪄 Flint is a visualization language that lets AI agents reliably create expressive, good-looking charts from simple, human-editable chart specs.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -443,13 +443,121 @@
       "html_url": "https://github.com/ovexro/dockpanel"
     },
     "astral-sh/uv": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 59,
+      "best_rank": 24,
+      "appearances": 2,
+      "total_today_stars": 134,
       "language": "Rust",
       "description": "An extremely fast Python package and project manager, written in Rust.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/115962839?v=4",
       "html_url": "https://github.com/astral-sh/uv"
+    },
+    "1jehuang/jcode": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 640,
+      "language": "Rust",
+      "description": "The most RAM efficient harness",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/94247773?v=4",
+      "html_url": "https://github.com/1jehuang/jcode"
+    },
+    "microsoft/agent-governance-toolkit": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 442,
+      "language": "Python",
+      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/agent-governance-toolkit"
+    },
+    "earthtojake/text-to-cad": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 397,
+      "language": "JavaScript",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/10742417?v=4",
+      "html_url": "https://github.com/earthtojake/text-to-cad"
+    },
+    "microsoft/VibeVoice": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 336,
+      "language": "Python",
+      "description": "Open-Source Frontier Voice AI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/VibeVoice"
+    },
+    "kangarooking/cangjie-skill": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 182,
+      "language": "Python",
+      "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/52196004?v=4",
+      "html_url": "https://github.com/kangarooking/cangjie-skill"
+    },
+    "grokability/snipe-it": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 164,
+      "language": "PHP",
+      "description": "A free open source IT asset/license management system",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/18605133?v=4",
+      "html_url": "https://github.com/grokability/snipe-it"
+    },
+    "remotion-dev/remotion": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 133,
+      "language": "TypeScript",
+      "description": "🎥      Make videos programmatically with React",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85344006?v=4",
+      "html_url": "https://github.com/remotion-dev/remotion"
+    },
+    "JOYCEQL/magic-resume": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 107,
+      "language": "TypeScript",
+      "description": "free online AI resume editor，the only official website is  https://magicv.art",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/34961949?v=4",
+      "html_url": "https://github.com/JOYCEQL/magic-resume"
+    },
+    "MoonshotAI/FlashKDA": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 91,
+      "language": "Cuda",
+      "description": "FlashKDA: high-performance Kimi Delta Attention kernels",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/129152888?v=4",
+      "html_url": "https://github.com/MoonshotAI/FlashKDA"
+    },
+    "vercel-labs/agent-browser": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 86,
+      "language": "Rust",
+      "description": "Browser automation CLI for AI agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "html_url": "https://github.com/vercel-labs/agent-browser"
+    },
+    "getarcaneapp/arcane": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 83,
+      "language": "Go",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
+      "html_url": "https://github.com/getarcaneapp/arcane"
+    },
+    "certimate-go/certimate": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 83,
+      "language": "Go",
+      "description": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, renewal, and monitoring visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期、监控全流程自动化可视化，支持各大主流云厂商。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/200544471?v=4",
+      "html_url": "https://github.com/certimate-go/certimate"
     }
   }
 }
