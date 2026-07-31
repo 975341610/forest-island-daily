@@ -1,0 +1,252 @@
+[
+  {
+    "id": "2026-07-31_vibecoding_5",
+    "date": "2026-07-31",
+    "category": "VibeCoding",
+    "subcat": "开发者生产力工具",
+    "platform": "PRNewswire",
+    "platform_color": "#2563EB",
+    "title": "MESCIUS 推出开发工具 MCP 服务器",
+    "url": "https://www.prnewswire.com/news-releases/mescius-usa-inc-launches-ai-coding-assistant-for-developer-tools-302838478.html",
+    "image": "images/2026-07-31/2026-07-31_vibecoding_5.jpg",
+    "detail": [
+      "企业级开发组件厂商 MESCIUS 于北京时间 7 月 30 日发布 MESCIUS MCP Server,让 AI 编程 Agent 能直接访问其开发工具的可信产品知识。首批接入 SpreadJS、ActiveReports.NET 与 Document Solutions 等 JavaScript 产品线,把 MCP 协议引入组件文档与 API 生态。",
+      "该服务器不只暴露文档,而是让 AI 助手直接检索始终最新的产品知识,包括 API、最佳实践、示例代码、CDN 资源与实现指南。开发者无需在文档、API 参考、示例应用、GitHub 与搜索引擎间反复切换,只需向编程助手描述想做什么,即可在编码环境内获得答案。",
+      "MESCIUS 首席技术架构师表示目标是「少花时间搜索、多花时间构建」,希望 AI 把可信的产品知识带进开发者工作流。此举被视为 MCP 协议在企业组件市场落地的又一案例,反映出越来越多厂商把「让 Agent 理解自家产品」作为提升上手速度与代码质量的标准化入口。"
+    ]
+  },
+  {
+    "id": "2026-07-31_vibecoding_4",
+    "date": "2026-07-31",
+    "category": "VibeCoding",
+    "subcat": "AI Agent框架",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "agentOS 用 WebAssembly 取代沙箱",
+    "url": "https://www.producthunt.com/products/agentos-3",
+    "image": "images/2026-07-31/2026-07-31_vibecoding_4.jpg",
+    "detail": [
+      "由 Rivet 团队打造的 agentOS 于 7 月 30 日在 Product Hunt 上线,定位为「以库的形式给 Agent 一套操作系统」,主打比传统沙箱便宜 254 倍。它基于 WebAssembly 与 V8 隔离技术,让每个 Agent 在你现有后端进程内获得轻量虚拟操作系统,无需额外的沙箱服务、VM 或 SaaS。",
+      "agentOS 内置对 Claude Code、Codex、OpenCode、Pi 等 Agent 的统一 API 支持,提供代码执行、文件存储、编排、权限与可跨重启的持久状态,并宣称冷启动约快 92 倍、内存占用约少 47 倍。它可在 Node.js、Bun、Deno 及 Rivet、Railway、Kubernetes、Vercel 等平台运行。",
+      "发布当日评论区就安全模型展开激烈讨论:有开发者质疑「进程内 WASM」是否会让宿主桥接层的漏洞波及后端,团队回应称采用进程隔离并经 UDS 通信、后续将加入进程 jail 作为第三层防护,还援引 microVM 的 CVE 案例佐证。开源与高性价比定位获得不少并发 Agent 重度用户的青睐。"
+    ]
+  },
+  {
+    "id": "2026-07-31_vibecoding_3",
+    "date": "2026-07-31",
+    "category": "VibeCoding",
+    "subcat": "开发者平台",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "GitHub Models 正式退役下线",
+    "url": "https://github.blog/changelog/2026-07-30-github-models-is-now-retired/",
+    "image": "images/2026-07-31/2026-07-31_vibecoding_3.jpg",
+    "detail": [
+      "GitHub 于 7 月 30 日正式宣布 GitHub Models 全面退役。自当日起,其在线试验场、模型目录、推理 API 以及「自带密钥」(BYOK) 端点对所有客户不再可用,包含仍有活跃用量的存量客户,相关界面也一并移除。",
+      "此次退役是既定时间表的收尾:GitHub 六月起停止向新客户开放该服务,七月一日公布最终关停日期,并在 7 月 16 日与 23 日安排了短暂的服务中断演练以提醒用户迁移。官方建议需要模型访问的项目改用 Microsoft Foundry 的模型目录,或直接通过 GitHub Copilot 获取多模型能力。",
+      "对开发者而言,这标志着 GitHub 把 AI 模型入口进一步收拢到 Copilot 与 Azure/Foundry 生态。社区讨论多聚焦于依赖 GitHub Models 做原型或推理的项目需尽快切换供应商,以及 BYOK 场景下的迁移成本,反映出大厂在整合自家 AI 产品线时对独立模型服务的取舍。"
+    ]
+  },
+  {
+    "id": "2026-07-31_vibecoding_2",
+    "date": "2026-07-31",
+    "category": "VibeCoding",
+    "subcat": "AI编程工具",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "VS 版 Copilot 七月更新上新 Agent",
+    "url": "https://github.blog/changelog/2026-07-30-github-copilot-in-visual-studio-july-update/",
+    "image": "images/2026-07-31/2026-07-31_vibecoding_2.jpg",
+    "detail": [
+      "GitHub 于 7 月 30 日发布 Visual Studio 2026 中 GitHub Copilot 的七月更新,带来一个基于 Copilot SDK 构建的全新 Agent,与驱动 GitHub Copilot CLI 的底层技术同源,现已进入公开预览,可在 Copilot Chat 底部的 Agent 选择器中选用。",
+      "官方称新 Agent 更容易「一次做对」,减少来回沟通,回复更短更易扫读。更新还内置了由 .NET 与 Azure 团队编写的专家技能,默认关闭以便按需启用;新增「选中代码交给 Copilot 评审」的右键菜单,以及面向组织所有者的组织级自定义指令,让共享偏好无需逐个开发者配置。",
+      "部分能力按套餐区分:组织级自定义指令需 Copilot Business 或 Enterprise,而新 Agent、内置技能与选中代码评审对所有套餐开放。此次更新延续了 Copilot 向「可定制的智能体化工作流」演进的路线,社区关注点集中在 SDK 化 Agent 是否能带来更稳定的一次成功率与更强的团队级治理能力。"
+    ]
+  },
+  {
+    "id": "2026-07-31_vibecoding_1",
+    "date": "2026-07-31",
+    "category": "VibeCoding",
+    "subcat": "AI编程工具",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "SKI 让编程 Agent 与你语音对话",
+    "url": "https://www.producthunt.com/products/ski",
+    "image": "images/2026-07-31/2026-07-31_vibecoding_1.jpg",
+    "detail": [
+      "语音编程工具 SKI 于北京时间 7 月 30 日登顶 Product Hunt 当日榜首。它把语音层接入 Claude Code、Codex、Cursor、Gemini CLI 等六款以上编程 Agent，用户开口说需求，Agent 就动手写代码，并用自然的合成语音把结果念出来，形成完整的「你说—它做—它答」闭环。",
+      "与传统只做「语音转文字」的听写工具不同，SKI 强调全双工回声消除,你可以在它说话中途打断并被听到。核心卖点是隐私:语音识别与神经语音全部在本机运行,官方标注上传字节数为零、录音无限期本地保留,并提供「发送前审批」模式让每条转写先进可编辑气泡再交给 Agent。",
+      "产品支持 macOS 与 Windows,Mac 端会驻留在刘海区、Windows 端为悬浮胶囊,宣称从安装到对话不到两分钟且无需信用卡。社区对「本地优先、免费终身」的定位反响热烈,不少开发者认为语音交互能显著降低长时间与编程 Agent 协作时的手部疲劳,是 Agent 化开发潮流下的自然延伸。"
+    ]
+  },
+  {
+    "id": "2026-07-31_gaming_5",
+    "date": "2026-07-31",
+    "category": "Gaming",
+    "subcat": "Switch/eShop",
+    "platform": "Nintendo Switch / Switch 2",
+    "platform_color": "#F59E0B",
+    "title": "任天堂7月30日eShop新作一览",
+    "url": "https://nintendoeverything.com/nintendo-download-july-30-2026-north-america-xenoblade-2-nintendo-switch-2-edition-big-walk-lies-of-p-more/",
+    "image": "images/2026-07-31/2026-07-31_gaming_5.jpg",
+    "detail": [
+      "北京时间7月30日，任天堂公布了北美地区当周eShop新作清单(Nintendo Download)，本周阵容以《异度神剑2 Nintendo Switch 2 版》领衔，售价69.99美元的实体版同步上架。这份榜单覆盖Switch 2与初代Switch两条产品线，从大作移植到独立小品一应俱全，是观察平台当周发行节奏的重要窗口。",
+      "Switch 2下载专区亮点颇多，包括《蓝色反射 四重奏》(49.99美元)、《Constance》(19.99美元)、《约顿弑神者:地狱军团》(19.99美元)与《特鲁顿 极限》等，《谎言之躯:完整版》(69.99美元)则将于8月5日跟进。初代Switch下载区则有《库山:狼之城》《Neko Odyssey》《Volcano Princess》等作，以及将于7月31日推出的实体版《汪汪队立大功:恐龙世界》。",
+      "值得一提的是，《大步走》(Big Walk，19.99美元)、《Kynseed》与《Parkasaurus:豪华恐龙版》等数款作品虽列入本周清单，但实际解锁时间被安排在8月上旬，形成「预告先行、错峰上线」的排布。清单还附带本周eShop促销与《大金刚 蕉力全开》DLC的限时活动信息。",
+      "整体来看，7月末的任天堂平台呈现「一大带多小」的格局:以《异度神剑2》Switch 2版这样的重量级升级移植为核心，辅以大量独立与合家欢作品填充。对Switch 2早期用户而言，这批同时覆盖两代主机的新作，也进一步检验着新平台的软件生态成熟度与向下兼容体验。"
+    ]
+  },
+  {
+    "id": "2026-07-31_gaming_4",
+    "date": "2026-07-31",
+    "category": "Gaming",
+    "subcat": "主机/发行",
+    "platform": "Nintendo Switch 2",
+    "platform_color": "#F59E0B",
+    "title": "王国之心合集封面AI争议官方回应",
+    "url": "https://nintendoeverything.com/kingdom-hearts-collection-1-3-nintendo-switch-2-boxart-replaced-following-ai-usage-accusations/",
+    "image": "images/2026-07-31/2026-07-31_gaming_4.jpg",
+    "detail": [
+      "《王国之心 合集[1-3]》Nintendo Switch 2版此前因封面涉嫌使用生成式AI而陷入争议。事件起于6月，粉丝发现合集封面存在诸多细节不一致与画面扭曲之处，随即质疑其为AI生成。有社媒用户推测，原画或为系列创作者野村哲也所绘，之后被输入AI以调整角色站位，随后史克威尔艾尼克斯悄然将封面更换回更接近野村原作的版本。",
+      "北京时间7月30日，事件迎来官方正式回应。GameSpot取得史克威尔艾尼克斯声明，明确否认使用生成式AI:公司称相关素材由开发团队制作、未借助生成式AI，出现的问题源于「人为失误」，并强调品质对其至关重要，已在适当处更新了素材。这一表态试图为持续数周的舆论争议画上句号。",
+      "抛开AI争议，这套合集对系列粉丝仍是极具意义的一次发布。多年来玩家一直呼吁系列以原生方式登陆任天堂平台，此前史克威尔艾尼克斯仅提供需联网游玩的云版本。如今整个系列将以原生形式登陆Switch 2，原版Switch也将获得《王国之心 HD 1.5+2.5 ReMIX》。",
+      "包含《王国之心 HD 1.5+2.5 ReMIX》《2.8 最终章前奏》与《王国之心3》的整套合集计划于2026年10月8日在任天堂平台推出，此外《王国之心4》也已确认登陆Switch 2。此次封面风波虽被官方定性为人为失误，但也折射出玩家群体对游戏美术是否掺入AI日益敏感的态度。"
+    ]
+  },
+  {
+    "id": "2026-07-31_gaming_3",
+    "date": "2026-07-31",
+    "category": "Gaming",
+    "subcat": "主机/移植",
+    "platform": "Nintendo Switch 2",
+    "platform_color": "#F59E0B",
+    "title": "《异度神剑2》Switch2版首发即现问题",
+    "url": "https://nintendoeverything.com/xenoblade-chronicles-2s-switch-2-edition-already-has-some-issues/",
+    "image": "images/2026-07-31/2026-07-31_gaming_3.jpg",
+    "detail": [
+      "北京时间7月30日，《异度神剑2 Nintendo Switch 2 版》全球正式发售。作为对原版的重大技术升级，本作可在Switch 2上以最高4K分辨率与60帧运行，并加入一项此前未预告的体验优化，画面与流畅度提升明显。然而上线首日玩家与媒体便发现若干问题，已有声音呼吁开发组尽快推出补丁修复。",
+      "首要问题出在音频混音上:据报告脚步声被调得过响，而战斗音乐则明显偏轻，除非手动切换到特定音频设置，否则战斗BGM几乎会被角色语音完全盖过。Nintendo Everything表示自家实机也确认了战斗音乐过小这一现象，认为是移植过程中混音参数调整失当所致。",
+      "更值得注意的是「新游戏+」中的一处漏洞。正常情况下玩家可为驭剑者购买第三个饰品槽，但有玩家(推特用户Enel最早发现)指出Switch 2版有时会清空该第三槽位，另有用户推测使用amiibo并获得WP奖励可能是触发原因。媒体建议玩家暂缓建立新游戏+存档，改用第二个用户档案规避风险。",
+      "尽管存在上述缺陷，媒体仍强调本次移植在技术层面亮点十足，值得体验。不过外界担心修复未必及时:负责这批升级的团队可能已转向《异度神剑3》，而《异度神剑X》自身的问题至今尚未获得更新，这或许预示着《异度神剑2》Switch 2版的补丁支持同样存在不确定性。"
+    ]
+  },
+  {
+    "id": "2026-07-31_gaming_2",
+    "date": "2026-07-31",
+    "category": "Gaming",
+    "subcat": "单机/独立",
+    "platform": "PC (Steam / Game Pass)",
+    "platform_color": "#F59E0B",
+    "title": "海盗建造模拟《海盗湾》今日发售",
+    "url": "https://store.steampowered.com/app/1368140/Corsair_Cove/",
+    "image": "images/2026-07-31/2026-07-31_gaming_2.jpg",
+    "detail": [
+      "由《英雄无敌:世代》开发商Limbic Entertainment制作、发行商Hooded Horse发行的海盗题材城市建造模拟游戏《海盗湾》(Corsair Cove)于7月31日正式发售，登陆Steam、Epic与微软商店，并首发即加入PC Game Pass。SteamDB显示Steam解锁时间为UTC 15:00，因此在部分东部时区实际会落到8月1日。这是又一款Hooded Horse旗下的深度策略作品，此前发行阵容包括《庄园领主》《逆潮》等。",
+      "与传统海盗游戏侧重海战或冒险不同，《海盗湾》把一座海盗据点的存续与壮大作为核心挑战。玩家需在王权势力步步紧逼、试图铲除海盗庇护所的时代背景下，采集资源、搭建复杂生产链、满足不断增长的人口，并发展舰队与军事实力抵御外部压力，整体更接近以物流驱动的殖民地经营，而非动作冒险。",
+      "本作最大特色在于地形:据点建于崎岖多岩的海岛上，可用平地极为有限，玩家被迫沿悬崖峭壁与山顶纵向扩建，「垂直度」由此从装饰性地貌变成实打实的经营约束。游戏含两种模式与三座热带岛屿，并支持包含简繁中文在内的多语言，发售前免费试玩Demo已长期开放。",
+      "早期媒体评价方面，本作首波Metacritic均分为79/100(11家评测)，好评集中于密集的环境设计、纵向建造系统、成长结构与氛围营造，但对性能表现、Bug、海战与探索环节的批评也在一定程度上冲淡了热情。评论普遍建议玩家在购买前先体验免费Demo，以确认自身配置能否承载数千居民与庞大运输网络的运算负担。"
+    ]
+  },
+  {
+    "id": "2026-07-31_gaming_1",
+    "date": "2026-07-31",
+    "category": "Gaming",
+    "subcat": "主机/DLC",
+    "platform": "PS5 / Xbox Series X|S / PC",
+    "platform_color": "#F59E0B",
+    "title": "《龙珠 电光炸裂ZERO》NEO大型DLC上线",
+    "url": "https://en.bandainamcoent.eu/dragon-ball/news/super-limit-breaking-neo-dlc-the-biggest-additional-content-dragon-ball-sparking",
+    "image": "images/2026-07-31/2026-07-31_gaming_1.jpg",
+    "detail": [
+      "万代南梦宫于北京时间7月30日正式推出《龙珠 电光炸裂ZERO》迄今体量最大的追加内容「超限突破NEO」DLC，登陆PlayStation 5、Xbox Series X|S与PC平台，Nintendo Switch及Switch 2版本则延期至2027年。这款以《武道会天下一》玩法为根基、由虚幻5引擎驱动的格斗大作，借此次更新迎来发售以来内容最丰厚的一次扩充，官方称其为「本作最大规模的追加内容」。",
+      "DLC核心是全新单人模式「极限突破旅程」，玩家可选定爱用角色，通过在地图上选择目的地、迎战强度不一的对手来逐步培养成长。模式引入体力系统，移动会消耗体力并降低开战血量，但低体力状态下取胜可获更高经验，形成风险与收益的取舍。内容还包含横跨初代、Z、超与GT的33名新角色、四场剧情战与四张全新舞台。",
+      "与DLC同步推送的免费更新面向全体玩家，新增两项战斗机制:「闪光爆发」允许在闪光模式下消耗大量技能槽换取攻击力骤增,代价是效果结束后属性短暂下降;「连锁爆能」则可在击飞对手后切换替补队友衔接追击，打出高额连段伤害。此外还追加三张既有舞台的变体版本。",
+      "对于自2024年10月发售后一度被诟病内容更新节奏的本作而言，这次NEO DLC是分量最重的一次回应。玩家社区对新增的超17、GT贝吉塔、天下一武道会悟空等复古角色反响热烈，单人养成模式也被视为延长游戏寿命的重要补充，不过Switch双平台推迟到2027年令掌机玩家颇感遗憾。"
+    ]
+  },
+  {
+    "id": "2026-07-31_ai_5",
+    "date": "2026-07-31",
+    "category": "AI",
+    "subcat": "安全",
+    "platform": "CTGT",
+    "platform_color": "#8ED16D",
+    "title": "研究：蒸馏DeepSeek不会继承审查",
+    "url": "https://www.ctgt.ai/research/distillation-censorship-transfer",
+    "image": "images/2026-07-31/2026-07-31_ai_5.jpg",
+    "detail": [
+      "北京时间7月30日前后，AI安全公司CTGT发布一项研究，探讨一个备受争议的问题：当把中国模型DeepSeek V4 Flash的输出蒸馏进美国开源模型GPT-OSS-120B时，其在政治话题上的审查倾向是否会一并「继承」过去。研究采用纯金融训练语料进行蒸馏，以隔离出意识形态约束的传递效应。",
+      "团队为此构建了名为LineageEval的评测框架，包含304条提示、152对结构对照组，专门覆盖涉华敏感话题，并请来自四家美国前沿实验室的四名独立评审打分。结果显示，作为教师模型的DeepSeek V4 Flash在涉华问题与结构相同的非涉华对照问题之间，存在高达45.45分的选择性回避差距。",
+      "然而，被蒸馏出的学生模型与其未经改动的基线相比，偏离幅度仅在0.26到1.39分之间。也就是说，当蒸馏数据本身不含任何政治材料时，能力可以随蒸馏迁移，而意识形态层面的审查约束却几乎没有跟着「搭便车」传递过去，这一发现对开源蒸馏的安全担忧提供了实证反驳。",
+      "CTGT同时公开了完整实验装置，包括304条提示、匹配对照、评审细则、评测代码以及模型本身，供社区复现。研究还观察到一个有趣现象：在放宽到10万token预算时，大模型在原始准确率上重新领先，Kimi K3达89.92%、Inkling达88.24%、DeepSeek V4 Flash达85.71%，均高于自蒸馏的120B模型。"
+    ]
+  },
+  {
+    "id": "2026-07-31_ai_4",
+    "date": "2026-07-31",
+    "category": "AI",
+    "subcat": "开源模型",
+    "platform": "Thinking Machines Lab官方博客",
+    "platform_color": "#8ED16D",
+    "title": "Murati实验室开源Inkling-Small",
+    "url": "https://thinkingmachines.ai/news/inkling-small/",
+    "image": "images/2026-07-31/2026-07-31_ai_4.jpg",
+    "detail": [
+      "北京时间7月30日，由OpenAI前CTO Mira Murati创立的Thinking Machines Lab发布并开源了Inkling-Small模型，权重同步上传至Hugging Face。这是继7月15日旗舰开源模型Inkling之后的又一次重要发布，官方称其能以四分之一的规模达到与Inkling相当的性能表现，主打低成本与低延迟。",
+      "Inkling-Small是一款混合专家（MoE）架构的Transformer，总参数2760亿、激活参数120亿，在英伟达GB300 NVL72系统上训练。它与旗舰版一样支持对音频与图像的原生推理、可变的思考强度控制，以及最高100万token的上下文窗口，定位为在同参数量级里综合表现均衡的开源基座模型。",
+      "在多项基准上，Inkling-Small在effort=0.99设置下取得SWEBench-Verified 80.2%、GPQA Diamond 89.5%、Terminal Bench 2.1达64.7%、纯文本版Humanity's Last Exam 31.6%的成绩。官方强调其在智能体工具使用、推理和指令遵循三类评测上，都以更低的算力做到与更大模型相竞争，性价比曲线更优。",
+      "在对比图表中，Thinking Machines直接把Inkling-Small与DeepSeek V4 Flash、Kimi K2.6、GLM 5.2、Qwen3.5、gpt-oss-120b等一众开源权重模型同台比较，凸显其在同量级里的竞争力。模型即刻可在其微调平台Tinker上使用，输出定价为每百万token 1.20美元，延续了该实验室以可定制开源模型服务开发者的路线。"
+    ]
+  },
+  {
+    "id": "2026-07-31_ai_3",
+    "date": "2026-07-31",
+    "category": "AI",
+    "subcat": "xAI",
+    "platform": "xAI官方博客",
+    "platform_color": "#8ED16D",
+    "title": "xAI发布Grok语音模型2.0登顶",
+    "url": "https://x.ai/news/grok-voice-think-fast-2",
+    "image": "images/2026-07-31/2026-07-31_ai_3.jpg",
+    "detail": [
+      "北京时间7月30日，xAI发布其最强语音对话模型Grok Voice Think Fast 2.0。在第三方评测机构Artificial Analysis的语音到语音综合质量指数上，新模型拿下82.9%的总分，较上一代1.0版的75.7%大幅提升，并超越OpenAI的GPT-Realtime-2.1（79.1%）和谷歌Gemini 3.1 Flash（69.5%），登顶该榜单。",
+      "该模型主打「边说边想」的并行推理特性——在开口说话的同时完成推理，从而在不增加延迟的前提下显著提升智能。2.0版首次响应音频的时间从1.25秒缩短到0.70秒，而推理token消耗相比1.0版下降约60%，意味着工具调用往往在agent说完第一句话之前就已执行完毕，对话更流畅自然。",
+      "转录准确率同样亮眼。在覆盖24种语言的数千条短语评测中，新模型的词错误率相比Deepgram Nova 3和ElevenLabs Scribe v2这类专用转写模型有1.5至2倍提升，较自家1.0版提升约1.4倍；在带背景噪音和电话压缩的真实嘈杂环境下，与专用语音转文字模型的差距进一步拉大到约10倍。",
+      "定价方面，xAI延续透明策略，Think Fast 2.0定价为每分钟音频0.08美元。迁移路径也已明确：8月5日起，grok-voice-latest别名将自动从1.0切换到2.0，无需任何操作即可升级；希望继续使用旧版的开发者需在此之前手动锁定grok-voice-think-fast-1.0。xAI称在Starlink客服线的A/B测试中，新模型显著提升了销售转化率与问题自助解决率。"
+    ]
+  },
+  {
+    "id": "2026-07-31_ai_2",
+    "date": "2026-07-31",
+    "category": "AI",
+    "subcat": "OpenAI",
+    "platform": "OpenAI官方博客",
+    "platform_color": "#8ED16D",
+    "title": "OpenAI大砍GPT-5.6价格加Sol快速档",
+    "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/",
+    "image": "images/2026-07-31/2026-07-31_ai_2.jpg",
+    "detail": [
+      "北京时间7月31日，OpenAI宣布对GPT-5.6家族大幅降价：距离三款模型正式GA仅约三周，最快最便宜的Luna档输入价从每百万token 1美元砍到0.2美元、输出价从6美元降到1.2美元，降幅高达80%；中端Terra档输入价降至2美元、输出价降至12美元，降幅约20%。旗舰Sol维持5美元/30美元不变，改动自即日起生效。",
+      "更值得关注的是降价背后的工程故事。OpenAI披露，他们在Sol达到GA后让其在自家Codex环境中自我优化，用Triton和Gluon两种开源GPU编程语言重写并优化底层推理内核，并借助开源的FpSan浮点校验工具验证模型生成代码的数学正确性，整体端到端服务成本因此下降约20%。",
+      "Sol还重新设计了自己的推测解码草稿模型。推测解码是一种标准推理加速手段：小型草稿模型先预测候选token，再由大模型并行校验。Sol跑了数百轮实验提升草稿模型命中率，使token生成效率再提升逾15%。两项改进叠加，最终转化为Luna这一薄利档位80%的惊人降价空间。",
+      "OpenAI同时为旗舰Sol新增了Fast快速模式，运行速度最高可达标准档的2.5倍，价格为标准档的两倍（输入10美元、输出60美元）。新的低价与快速档同样贯通到Codex与ChatGPT Work的用量计费。对那些把生产流量跑在Luna上做分类、文档抽取、请求路由和长链路agent循环的开发者而言，成本一夜之间被重构。"
+    ]
+  },
+  {
+    "id": "2026-07-31_ai_1",
+    "date": "2026-07-31",
+    "category": "AI",
+    "subcat": "Gemini",
+    "platform": "Google DeepMind官方博客",
+    "platform_color": "#8ED16D",
+    "title": "DeepMind发布Gemini Robotics 2",
+    "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+    "image": "images/2026-07-31/2026-07-31_ai_1.jpg",
+    "detail": [
+      "北京时间7月31日凌晨，Google DeepMind正式发布Gemini Robotics 2，被定位为驱动下一代通用机器人的「智能层」。DeepMind机器人负责人Carolina Parada表示，团队目标是把AI带入物理世界，并构建一套可供任何机器人复用的智能底座。此次更新是继首代Gemini Robotics之后的一次重大跃迁，主打整机全身控制、高级灵巧操作以及多机器人协同三大能力。",
+      "此次发布实为三个模型组成的体系。Gemini Robotics 2是视觉-语言-动作（VLA）模型，把机器人所见所听直接转成电机指令，可从脚到指尖控制完整人形机器人；Gemini Robotics ER 2是具身推理模型，充当机器人的高层大脑，负责多步规划、与人对话并协调多台机器人协作；On-Device 2则能在本地断网运行，用不到200个示例、几小时训练即可适配全新机器人本体。",
+      "在灵巧度上，新模型可驱动Apollo机器人五指22自由度的机械手完成打结、密封保鲜袋等精细动作，也能操作双指夹爪完成紧密打包。VLA模型已通过Gemini API和Google AI Studio面向开发者开放。DeepMind同时罕见坦承局限：在最刁钻的任务上，机器人动作仍显缓慢笨拙，「物理AI」距离人类级灵巧仍有明显差距。",
+      "DeepMind还发布了名为ASIMOV-Agentic的安全基准，用于测试推理模型能否拒绝动作模型发出的危险指令、能否在任务不可能完成时求助人类。以科幻作家阿西莫夫命名颇具寓意，其背后担忧——机器依据有缺陷指令行动——却相当现实。社区反响热烈，Hacker News相关讨论在发布数小时内已达179点、140条评论。"
+    ]
+  }
+]
