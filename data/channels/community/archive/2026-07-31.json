@@ -1,0 +1,116 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T08:25:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Hacker News",
+      "author": "Cider9986",
+      "title": "KOReader",
+      "url": "https://news.ycombinator.com/item?id=49095865",
+      "detail": [
+        "KOReader 是一款面向电子墨水屏阅读器的开源阅读软件，7 月 31 日凌晨冲上 Hacker News 首页第一名。它支持 Kindle、Kobo、PocketBook、reMarkable、Onyx 等几乎所有主流墨水屏设备，能打开 PDF、EPUB、DjVu、漫画等多种格式，是折腾派电子书玩家心中的「瑞士军刀」。",
+        "本次讨论的热点源于其最新 2026.07「Sailing Walrus」版本，新增了针对 Archive.org 扫描 PDF 的 Mask/SMask 背景清理、Kobo v5 设备支持、单键快捷键、以及取代旧同步服务的全新云存储插件与 OPDS 2.0 支持。这些更新让老旧墨水屏也能流畅翻页，戳中了大量硬件被官方放弃的用户痛点。",
+        "值得关注在于它代表了「拒绝硬件淘汰、用开源软件延续设备寿命」的社区精神。评论区里读者热烈分享自己让廉价二手 Kindle 焕发新生的经历，也有人对比官方固件的封闭与臃肿，KOReader 的高度可定制成为墨水屏爱好者反抗厂商生态锁定的象征。"
+      ],
+      "heat": "HN 首页第一 183 点 / 67 评论"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "Canopy9560",
+      "title": "Document-borne AI worms can self-propagate through Copilot for Word",
+      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+      "detail": [
+        "这是安全研究者 Håkon Måløy「Context Collapse」系列的第三篇，7 月 28 日发布，7 月 31 日登上 HN 首页第二名。文章披露了一种通过 Microsoft Copilot for Word 自我传播的「文档型 AI 蠕虫」，攻击者把隐藏指令以白底白字藏进 Word 文档，即可污染 Copilot 的生成流程。",
+        "核心机制在于：当受害者让 Copilot 起草报告时，它会自动检索 OneDrive 里的相关文档，一旦读到被投毒的「市场分析」文件，隐藏指令就会被当作用户请求执行——不仅篡改财务数字，还会把整段攻击提示复制进新生成的文档，使后者成为新的传播载体，从而像蠕虫一样在企业文档流中扩散。",
+        "值得关注是因为这是首个在主流商业办公套件中公开演示的文档型 AI 蠕虫自传播案例，与经典的 Morris II 邮件蠕虫遥相呼应。Simon Willison 也在其链接博客转发点评。社区讨论集中在间接提示注入的信任边界失效问题，普遍认为应把外部文档一律视为不可信输入。"
+      ],
+      "heat": "HN 首页第二 107 点 / 79 评论"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "Error6571",
+      "title": "More Tailscale tricks for your jailbroken Kindle",
+      "url": "https://tailscale.com/blog/jailbroken-kindle-proxy-tun-modes",
+      "detail": [
+        "这是 Tailscale 官方博客的一篇折腾向教程，7 月 30 日发布，当日冲上 HN 首页，收获 276 点。文章延续了此前「让越狱 Kindle 跑 Tailscale」的话题，进一步分享了在越狱墨水屏设备上运行 Tailscale 的新玩法，包括代理模式与 TUN 模式的自定义网络配置技巧。",
+        "内容上聚焦于如何绕过 Kindle 受限的系统环境，把这块电子墨水屏变成一个随身可访问内网服务的终端——例如通过 Tailscale 组网直接读取家中 NAS 上的电子书库，或让老旧设备安全接入私有网络。作者也坦言这些方法仍属实验性质，存在稳定性与安全边界的取舍。",
+        "值得关注的是它和当天首页的 KOReader 形成呼应，共同构成了「墨水屏硬件改造」的社区小高潮。评论区里既有硬核玩家讨论 TUN 模式的路由细节，也有人感慨大厂官方博客居然认真教用户越狱自家生态外的设备，体现出 Tailscale 亲极客的品牌调性。"
+      ],
+      "heat": "HN 首页 276 点 / 94 评论"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "OpenAI Developer Community",
+      "author": "VeitB",
+      "title": "Introducing the Open-Source Codex Security CLI",
+      "url": "https://community.openai.com/t/introducing-the-open-source-codex-security-cli/1388319",
+      "detail": [
+        "OpenAI 于 7 月 31 日在开发者社区发布了开源的 Codex Security CLI，同一话题也以 GitHub 仓库形式登上 HN 前一日首页。它定位为「像安全研究员一样工作」的漏洞挖掘工具，可扫描你拥有权限的代码仓库，随时间追踪并在改动落地前做审查。",
+        "其工作流分为识别、验证、修复三阶段：连接 GitHub 仓库后逆序扫描提交历史、构建针对该代码库的威胁模型，探索真实攻击路径；再在隔离沙箱中尝试复现以确认漏洞可利用性；最后生成最小化补丁供人工审查，绝不自动改代码，形成从检测到修复的闭环。可通过 npx @openai/codex-security 直接体验。",
+        "该话题之所以引爆讨论，是因为它把「AI 安全代理」从概念推向可落地的命令行工具，正好与当天 HN 首页那篇 Copilot 文档蠕虫形成攻防两端的对照。社区一方面欢迎自动化威胁建模能减轻小团队安全负担，另一方面也担忧误报率、以及让模型深度读取私有代码库的隐私与合规风险。"
+      ],
+      "heat": "HN 首页 539 点 / 社区 92 浏览增长中"
+    },
+    {
+      "platform": "科技博客/媒体",
+      "author": "Wan 2.7 Blog",
+      "title": "GLM-5.5 拟于 2026 年 8 月发布：智谱万亿参数开源模型冲击前沿",
+      "url": "https://wan27.org/blog/glm-5-5",
+      "detail": [
+        "进入 7 月下旬，开发者与本地大模型圈最热议的话题之一就是智谱 AI（Z.ai）即将发布的 GLM-5.5。据 CGTN 引述 Reuters/JPMorgan 的研究，该模型瞄准 8 月发布，参数总量预计超过一万亿，延续 GLM-5.2 的百万 token 上下文，并大概率沿用 MIT 开源许可。",
+        "最受关注的信号来自创始人唐杰 7 月 20 日的公开表态：他把下一代模型称为「史诗级 plus 升级」，并直接从 5.2 跳到 5.5、跳过 5.3 与 5.4，社区普遍解读为这意味着一次更大规模的预训练而非小修小补。GLM-5.2 此前已在智能指数上以约五分之一成本逼近 Anthropic 前沿模型，让这份期待显得可信。",
+        "这一话题之所以在 r/LocalLLaMA 等社区持续发酵，是因为它踩在「开源权重模型集体爆发」的浪潮上——Kimi、Qwen、DeepSeek V4、新 Mistral 与 Liquid 模型接连传出消息。网友戏称「开源 AI 正在大快朵颐」，也有人担忧一切规格目前仍是泄露与推测，尚无官方基准与模型卡佐证。"
+      ],
+      "heat": "Reddit 讨论 440+ 赞 / 多媒体跟进"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "tomzorz",
+      "title": "Stacked PRs are now live on GitHub",
+      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/",
+      "detail": [
+        "GitHub 在 7 月 30 日正式把「堆叠式 Pull Request」推入公开预览，这项能力此前长期只存在于 Meta、Google 等公司的内部工具链中。它把一个庞大的改动拆成一串有依赖顺序的小 PR，每一层都能独立评审、独立通过检查，再一键合并整条栈，试图解决「巨型 PR 没人愿意 review」的老大难问题。",
+        "官方给出了配套的 CLI 扩展 gh-stack，开发者用一行 gh extension install 即可上手，也能在 github.com、移动端或配合 Copilot 的 agent skill 中操作。原有的分支保护、必需检查与合并队列规则全部沿用;合并低层 PR 后，上层会自动 rebase 并重定向。Vercel、jQuery 作者 John Resig、TED 等团队均给出正面背书。",
+        "这条讨论迅速冲上 Hacker News 前排，积累约 432 个赞与 152 条评论，X 上相关话题浏览量超过 21 万。社区整体偏正面，认为它「终于像 GitHub 原生功能而非外挂」;但也有不少人吐槽整栈自动合并在 squash 模式下频繁失效、每个 PR 都要重新审批，并翻出 gh-stack 仓库 #212 号 issue 佐证其仍有明显 bug。"
+      ],
+      "heat": "432 points, 152 comments"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "Substack",
+      "name": "Zvi Mowshowitz (@thezvi)",
+      "url": "https://thezvi.substack.com/",
+      "detail": [
+        "Zvi Mowshowitz 以公开笔名 @thezvi 运营 Substack 通讯《Don't Worry About the Vase》，拥有数万订阅者，是 AI 圈公认最勤奋的「信息聚合与解读者」之一。他每周产出高密度的 AI 进展汇编，把散落在论文、发布会、推文与政策文件里的信号整理成可读的世界模型。",
+        "他的内容特点是「速度溢价 + 长期世界观建构」并行：既做快速的每周 AI 动态梳理，也深入 AI 安全、政策、理性主义、医疗与教育等议题。文风信息量极大、观点鲜明，常对前沿实验室的发布做逐条点评，是许多研究者和从业者追踪行业全貌的必读来源。",
+        "值得关注在于，在模型发布节奏空前密集的 2026 年，Zvi 的每周汇编几乎成了社区的「行业索引」——当 GLM、Kimi、DeepSeek 等开源权重模型接连轰炸时，他的梳理帮读者不至于淹没在噪声里。他也长期在 LessWrong 与 X 上活跃，是 AI 安全讨论的重要声音。"
+      ],
+      "heat": "Substack 数万订阅 / 单篇常 290+ 赞"
+    },
+    {
+      "platform": "Substack",
+      "name": "Sebastian Raschka (@rasbt / Ahead of AI)",
+      "url": "https://magazine.sebastianraschka.com/",
+      "detail": [
+        "Sebastian Raschka 以公开账号 @rasbt 运营技术通讯《Ahead of AI》，是深度学习与大模型架构领域最受尊敬的科普与教学作者之一。他擅长把复杂的 LLM 架构、注意力变体、推理机制等前沿话题，拆解成配有清晰图解的长文，兼顾深度与可读性。",
+        "近期内容极其贴合社区热点：7 月发表《Controlling Reasoning Effort in LLMs》讲解模型如何学习低中高不同强度的推理模式；6 月的《Using Local Coding Agents》系统对比用开源权重模型替代 Claude Code、Codex 订阅的本地编码方案；还有备受好评的《Components of a Coding Agent》与 2026 年 LLM 论文精选清单。",
+        "值得关注是因为在编码代理与本地大模型井喷的当下，他的文章成了开发者理解「新模型到底改了什么」的权威参照。其《My Workflow for Understanding LLM Architectures》提供了一套面向开源新模型的学习方法论，单篇动辄数百上千点赞，教学价值和时效性兼具。"
+      ],
+      "heat": "Substack 单篇 290–940 赞"
+    },
+    {
+      "platform": "个人博客 / X",
+      "name": "Andrej Karpathy (@karpathy)",
+      "url": "https://karpathy.bearblog.dev/sequoia-ascent-2026/",
+      "detail": [
+        "Andrej Karpathy 以公开账号 @karpathy 活跃于 X 与个人博客，是 AI 领域最具影响力的教育者与思想布道者之一。他提出的「Software 1.0/2.0/3.0」框架已成为业界通用词汇，最新在 Sequoia Ascent 2026 的炉边谈整理稿里，他进一步阐述了上下文窗口作为「新程序」的观点。",
+        "他的核心论点包括：Software 3.0 时代人类通过提示、上下文、工具与记忆来「编程」LLM，上下文窗口成为主要杠杆；传统软件自动化「可指定」的任务，而 LLM 与强化学习自动化「可验证」的任务，这解释了为何数学、编码、测试类能力进步最快。他还用 MenuGen 例子说明「有些 App 应当不再作为 App 存在」。",
+        "值得关注是因为他的表达兼具技术深度与传播力，2 月还发布了 200 行纯 Python 实现 GPT 训练与推理的 microgpt。作为 Eureka Labs 的创始人，他持续把前沿理念转译成开发者能立刻上手的心智模型，几乎每条 X 长推都会在社区引发广泛转发与讨论。"
+      ],
+      "heat": "X 百万级关注 / 长推常数千转发"
+    }
+  ]
+}
