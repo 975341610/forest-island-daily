@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-06-30": {
-      "ripienaar/free-for-dev": 1,
-      "xbtlin/ai-berkshire": 2,
-      "browser-use/video-use": 3,
-      "HKUDS/Vibe-Trading": 4,
-      "firecrawl/firecrawl": 5,
-      "JCodesMore/ai-website-cloner-template": 6,
-      "Robbyant/lingbot-map": 7,
-      "commaai/openpilot": 8,
-      "facebook/astryx": 9,
-      "TauricResearch/TradingAgents": 10,
-      "canopy-network/canopy": 11,
-      "0xNyk/council-of-high-intelligence": 12,
-      "vercel-labs/skills": 13,
-      "refactoringhq/tolaria": 14,
-      "yt-dlp/yt-dlp": 15,
-      "tinyhumansai/openhuman": 16,
-      "lumina-ai-inc/chunkr": 17,
-      "zarazhangrui/frontend-slides": 18,
-      "veracrypt/VeraCrypt": 19,
-      "drawdb-io/drawdb": 20,
-      "Anil-matcha/Open-Generative-AI": 21,
-      "gastownhall/beads": 22,
-      "firecrawl/open-lovable": 23,
-      "yikart/AiToEarn": 24,
-      "Unclecheng-li/VulnClaw": 25
-    },
     "2026-07-01": {
       "hasaneyldrm/exercises-dataset": 1,
       "Panniantong/Agent-Reach": 2,
@@ -836,6 +809,33 @@
       "certimate-go/certimate": 23,
       "astral-sh/uv": 24,
       "microsoft/flint-chart": 25
+    },
+    "2026-07-31": {
+      "bojieli/ai-agent-book": 1,
+      "different-ai/openwork": 2,
+      "1jehuang/jcode": 3,
+      "huggingface/speech-to-speech": 4,
+      "pascalorg/editor": 5,
+      "paperswithbacktest/awesome-systematic-trading": 6,
+      "Panniantong/Agent-Reach": 7,
+      "microsoft/VibeVoice": 8,
+      "microsoft/TRELLIS.2": 9,
+      "harry0703/MoneyPrinterTurbo": 10,
+      "mvanhorn/last30days-skill": 11,
+      "openai/codex": 12,
+      "microsoft/AI-For-Beginners": 13,
+      "JOYCEQL/magic-resume": 14,
+      "byoungd/up": 15,
+      "PaddlePaddle/PaddleOCR": 16,
+      "ChromeDevTools/chrome-devtools-mcp": 17,
+      "microsoft/PowerToys": 18,
+      "tinyhumansai/openhuman": 19,
+      "lllyasviel/Fooocus": 20,
+      "microsoft/agent-governance-toolkit": 21,
+      "clockworklabs/SpacetimeDB": 22,
+      "github/awesome-copilot": 23,
+      "astral-sh/uv": 24,
+      "nolabs-ai/nono": 25
     }
   }
 }
