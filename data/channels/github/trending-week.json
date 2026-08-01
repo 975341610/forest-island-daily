@@ -129,8 +129,8 @@
     },
     "pingdotgg/t3code": {
       "best_rank": 14,
-      "appearances": 2,
-      "total_today_stars": 309,
+      "appearances": 3,
+      "total_today_stars": 531,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
@@ -201,17 +201,17 @@
     },
     "ollama/ollama": {
       "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 194,
+      "appearances": 3,
+      "total_today_stars": 331,
       "language": "Go",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
       "html_url": "https://github.com/ollama/ollama"
     },
     "huggingface/speech-to-speech": {
-      "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 1763,
+      "best_rank": 2,
+      "appearances": 5,
+      "total_today_stars": 3038,
       "language": "Python",
       "description": "Build local voice agents with open-source models",
       "owner_avatar": "https://avatars.githubusercontent.com/u/25720743?v=4",
@@ -228,8 +228,8 @@
     },
     "moeru-ai/airi": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 2051,
+      "appearances": 4,
+      "total_today_stars": 2407,
       "language": "TypeScript",
       "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/165476306?v=4",
@@ -272,9 +272,9 @@
       "html_url": "https://github.com/pascalorg/editor"
     },
     "mvanhorn/last30days-skill": {
-      "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 618,
+      "best_rank": 5,
+      "appearances": 3,
+      "total_today_stars": 1276,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
@@ -345,8 +345,8 @@
     },
     "different-ai/openwork": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 1100,
+      "appearances": 4,
+      "total_today_stars": 1906,
       "language": "TypeScript",
       "description": "The open-source alternative to Claude Cowork (powered by opencode)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118544361?v=4",
@@ -381,8 +381,8 @@
     },
     "paperswithbacktest/awesome-systematic-trading": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 1875,
+      "appearances": 4,
+      "total_today_stars": 2638,
       "language": "Python",
       "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/154981318?v=4",
@@ -390,8 +390,8 @@
     },
     "t8y2/dbx": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 255,
+      "appearances": 2,
+      "total_today_stars": 519,
       "language": "Rust",
       "description": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
@@ -453,8 +453,8 @@
     },
     "1jehuang/jcode": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1452,
+      "appearances": 3,
+      "total_today_stars": 1979,
       "language": "Rust",
       "description": "The most RAM efficient harness",
       "owner_avatar": "https://avatars.githubusercontent.com/u/94247773?v=4",
@@ -488,9 +488,9 @@
       "html_url": "https://github.com/microsoft/VibeVoice"
     },
     "kangarooking/cangjie-skill": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 182,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 502,
       "language": "Python",
       "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/52196004?v=4",
@@ -570,8 +570,8 @@
     },
     "Panniantong/Agent-Reach": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 543,
+      "appearances": 2,
+      "total_today_stars": 1046,
       "language": "Python",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
@@ -579,8 +579,8 @@
     },
     "microsoft/TRELLIS.2": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 439,
+      "appearances": 2,
+      "total_today_stars": 606,
       "language": "Python",
       "description": "Native and Compact Structured Latents for 3D Generation",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -588,8 +588,8 @@
     },
     "harry0703/MoneyPrinterTurbo": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 403,
+      "appearances": 2,
+      "total_today_stars": 599,
       "language": "Python",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
@@ -597,17 +597,17 @@
     },
     "openai/codex": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 245,
+      "appearances": 2,
+      "total_today_stars": 544,
       "language": "Rust",
       "description": "Lightweight coding agent that runs in your terminal",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
       "html_url": "https://github.com/openai/codex"
     },
     "microsoft/AI-For-Beginners": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 155,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 1747,
       "language": "Jupyter Notebook",
       "description": "12 Weeks, 24 Lessons, AI for All!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -623,9 +623,9 @@
       "html_url": "https://github.com/PaddlePaddle/PaddleOCR"
     },
     "ChromeDevTools/chrome-devtools-mcp": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 80,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 398,
       "language": "TypeScript",
       "description": "Chrome DevTools for coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11260967?v=4",
@@ -684,6 +684,87 @@
       "description": "Sandbox any AI agent in seconds - zero setup, zero latency.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/289819636?v=4",
       "html_url": "https://github.com/nolabs-ai/nono"
+    },
+    "NousResearch/hermes-agent": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 568,
+      "language": "Python",
+      "description": "The agent that grows with you",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
+      "html_url": "https://github.com/NousResearch/hermes-agent"
+    },
+    "zhaoxuya520/reverse-skill": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 335,
+      "language": "PowerShell",
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/147215175?v=4",
+      "html_url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    "multica-ai/multica": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 274,
+      "language": "Go",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/multica"
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 250,
+      "language": "TypeScript",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
+      "html_url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    "public-apis/public-apis": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 208,
+      "language": "Python",
+      "description": "A collective list of free APIs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/51121562?v=4",
+      "html_url": "https://github.com/public-apis/public-apis"
+    },
+    "WhiskeySockets/Baileys": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 148,
+      "language": "JavaScript",
+      "description": "Socket-based TS/JavaScript API for WhatsApp Web",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/131354555?v=4",
+      "html_url": "https://github.com/WhiskeySockets/Baileys"
+    },
+    "openai/whisper": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 130,
+      "language": "Python",
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/whisper"
+    },
+    "langchain-ai/deepagents": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 111,
+      "language": "Python",
+      "description": "The batteries-included agent harness.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/126733545?v=4",
+      "html_url": "https://github.com/langchain-ai/deepagents"
+    },
+    "QuantumNous/new-api": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 110,
+      "language": "Go",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/205075698?v=4",
+      "html_url": "https://github.com/QuantumNous/new-api"
     }
   }
 }
