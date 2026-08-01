@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T08:25:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Hacker News",
+      "author": "Mitchell Hashimoto (@mitchellh)",
+      "title": "Superlogical——Ghostty 作者创办的新公司，首发终端多路复用器",
+      "url": "https://www.superlogical.com/",
+      "detail": [
+        "HashiCorp 联合创始人、开源终端 Ghostty 的作者 Mitchell Hashimoto 于 7 月 29 日宣布创办新公司 Superlogical，帖子迅速冲上 Hacker News 前列。他表示离开 HashiCorp 后一直以「为爱构建」的心态每天写代码，如今终于找到一个值得投入数年的问题、一个需要团队协作的规模，以及一群想同行的人，于是决定再度创业。",
+        "Superlogical 的第一款产品是终端多路复用器（terminal multiplexer），被定位为更大愿景的地基而非终点。Hashimoto 强调自己把多年打磨终端模拟器、研究 tmux 与 zellij 等工具优劣的经验，全部倾注进这款「新、强、快」的产品里，并承诺官网 newsletter 只推送产品更新与开发日志，用来发放 beta 内测资格。",
+        "社区反响相当热烈：Vercel 创始人 Guillermo Rauch、Danielle Fong 等一批工程师与创业者纷纷留言表示支持。有开发者认为其架构设计与清晰解释，让它成为 tmux、zellij 之外颇具吸引力的替代选择。值得一提的是，Hashimoto 已把 Ghostty 捐给非营利机构，明确表示永不商业化，Superlogical 才是他新的商业化载体。"
+      ],
+      "heat": "756 points, 449 comments"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "tnisonoff",
+      "title": "2x, not 10x: 2026 年用 LLM 写代码到底能提速多少",
+      "url": "https://obryant.dev/p/2x-not-10x/",
+      "detail": [
+        "这篇标题为「2x, not 10x: coding with LLMs in 2026」的博文在 7 月 31 日登上 Hacker News 头条，直接挑战「AI 让程序员效率提升十倍」的流行叙事。作者认为，在 2026 年真实的工程环境里，大模型带来的加速大约是两倍而非十倍，那些夸张的宣传更多来自演示场景，而非日复一日维护复杂系统的实际体验。",
+        "文章的核心论点是：LLM 在样板代码、脚手架搭建、探索陌生 API、写测试等环节确实能显著省时，但在需求澄清、架构权衡、调试疑难缺陷与代码评审这些真正吃时间的环节，人类工程师的判断仍不可替代。作者提醒读者，评估工具收益时要区分「写代码的时间」和「完成一个可上线特性的总时间」。",
+        "评论区争论激烈：一派工程师认同两倍已是巨大的生产力跃升，值得全面拥抱；另一派则分享了模型生成代码引入隐蔽 bug、反而拖慢排查节奏的案例。这场讨论呼应了近期 r/programming 对 LLM 内容的克制态度，也反映出开发者社区正从最初的狂热，逐步走向更冷静、更以证据为准的评估阶段。"
+      ],
+      "heat": "登上 7 月 31 日 HN 头条 (#1)"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "monneyboi",
+      "title": "Kimi K3-256k：月之暗面开放权重编码模型引爆开发者热议",
+      "url": "https://www.kimi.com/code/docs/en/kimi-code/models",
+      "detail": [
+        "月之暗面（Moonshot）Kimi K3 的编码专用版本 K3-256k 在 Hacker News 上收获 483 分与上百条评论。K3 是首个开放权重的 3T 参数级别模型，总参数约 2.8T、每次仅激活 896 位专家中的 16 位，并支持 1M 上下文窗口，其完整权重已于 7 月 27 日以定制开放权重许可证发布，被业界称为「开放权重的又一次升级」。",
+        "开发者最关注的是 K3 在前端编码竞技场（Frontend Code Arena）首秀即登顶、在综合智能指数上排名前三的表现。K3-256k 面向代码场景提供 256K 上下文，被不少人拿来与闭源前沿模型直接对比，讨论集中在其在真实仓库改造、长文件重构和多文件协同任务上的实测手感，以及本地或私有部署的可行性。",
+        "热度之高一度迫使 Moonshot 暂停新的 API 订阅以缓解压力。评论区既有对中国实验室开放权重路线的赞许，也有对「定制许可证并非 OSI 标准开源」的审慎提醒。围绕它是否会挤压闭源厂商定价空间、开放权重能否复刻 Kubernetes 式生态爆发的讨论，成为这两天开发者圈最具话题性的技术议题之一。"
+      ],
+      "heat": "483 points, 148 comments"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "Hacker News",
+      "author": "ajhai",
+      "title": "LearnVector：吴恩达新公司要把学习从「一对多」变成「一对一」",
+      "url": "https://learnvector.ai/",
+      "detail": [
+        "AI 领域标志性人物、Coursera 联合创始人吴恩达（Andrew Ng）新创办的 AI-native 学习公司 LearnVector 冲上 Hacker News 讨论热榜。据同期公告，Coursera 向其战略投资 1 亿美元并获得约三分之一的完全稀释股权，这一交易也被视为 Coursera 将 AI 全面嵌入平台战略的关键一步。",
+        "LearnVector 的核心主张是用 agentic AI 把学习从传统的「一对多」课堂，重构为「一对一」的个性化体验。吴恩达在官网写道，好的教学长期被成本、地理与时间所限；如今借助 AI，可以为每个人配一位会规划路径、适应学习方式、并耐心陪伴到真正掌握技能的私人导师，而不是给个答案就走人的聊天机器人。",
+        "讨论中开发者既兴奋又务实。支持者看好 Coursera 与 Udemy 合计触达三亿学习者的规模能加速落地；质疑者则援引研究指出，缺乏护栏的聊天机器人会因「认知卸载」反而让学生学得更少，因此关键在于 LearnVector 能否真正衡量掌握程度。公司称首批产品体验预计在 2027 年初亮相，社区正拭目以待。"
+      ],
+      "heat": "262 points, 170 comments"
+    },
+    {
+      "platform": "Hacker News / Hugging Face",
+      "author": "artninja1988",
+      "title": "前沿实验室 Agent 入侵事件：2026 年 7 月安全时间线复盘",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "detail": [
+        "一篇发布在 Hugging Face 博客的技术复盘《Anatomy of a Frontier Lab Agent Intrusion》在社区引发广泛关注，收获 451 分与两百多条评论。文章系统梳理了 2026 年 7 月一起针对前沿 AI 实验室的 agent 入侵事件时间线，把攻击如何借助自主智能体逐步渗透的每个环节，还原成可供防守方学习的完整叙事。",
+        "这篇复盘之所以引发共鸣，是因为它与近期多起 AI 安全议题形成呼应：同期 HN 上还有关于文档型 AI 蠕虫可通过 Copilot for Word 自我传播的讨论，以及一篇 arXiv 论文指出冗长的策略文档并不能可靠地约束 agent 行为。三者共同勾勒出「智能体越强，攻击面越大」的现实图景。",
+        "评论区里，安全研究者与工程师围绕如何为自主 agent 设计纵深防御展开辩论：有人主张最小权限与严格沙箱，有人强调需要可审计的行为日志与人类审批环节。这场讨论标志着开发者社区对 AI 安全的关注，正从模型对齐层面，进一步下沉到智能体在真实生产系统中的攻防工程实践。"
+      ],
+      "heat": "451 points, 252 comments"
+    },
+    {
+      "platform": "Hacker News / arXiv",
+      "author": "spIrr",
+      "title": "Handbook.md：为什么长篇策略文档管不住 AI Agent",
+      "url": "https://arxiv.org/abs/2607.25398",
+      "detail": [
+        "一篇题为「Handbook.md shows that long policy documents do not reliably govern agents」的 arXiv 论文登上 Hacker News，收获 317 分与近两百条评论。研究直指当下一种常见做法的软肋：许多团队试图靠一份冗长的规则手册或 policy 文档来约束 AI agent 的行为，但实验证明这种方式并不可靠。",
+        "论文的核心发现是，随着策略文档变长，agent 遵循规则的稳定性反而下降，模型容易忽略、误读或选择性执行其中的条款。这与开发者日常观感高度吻合：把一大堆约束一股脑塞进系统提示或 handbook，往往不如少量、结构化、可强制校验的规则来得有效，也解释了为何很多「护栏」在真实场景中形同虚设。",
+        "在评论区，工程师们把这项研究与「上下文工程」话题联系起来讨论：与其堆砌自然语言规则，不如通过工具权限、运行时校验、外部策略引擎等硬约束来兜底。也有人指出这对合规与安全设计的启示——真正能治理 agent 的，是可执行、可审计的机制，而非期望模型「读懂并自觉遵守」一份长文档。"
+      ],
+      "heat": "317 points, 198 comments"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "GitHub",
+      "name": "calesthio (OpenMontage)",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "detail": [
+        "开发者 calesthio 维护的 OpenMontage 近期在 GitHub 趋势榜强势霸榜，被冠以「世界首个开源、agentic 视频制作系统」之名。项目主打把 AI 编码助手改造成一整套视频制作工作室，内置 12 条制作流水线、上百个工具，以及 700 多个 agent skill 与制作知识文件，让自动化视频生产不再是闭源大厂的专利。",
+        "它的走红踩中了当下两大风口：一是 agent skill 生态的爆发，二是 AI 视频生成的持续升温。仓库通过 .claude、.codex、.cursor、.agents 等目录同时兼容多种编码 agent，近期提交里还能看到接入即梦（Jimeng）视频等能力，以及对 manimgl 场景模板中 shell 注入风险的安全修复，显示出活跃的社区协作与工程严谨度。",
+        "从趋势数据看，OpenMontage 单月新增数万 star，是 2026 年新晋的现象级开源项目之一。它代表了「把复杂创意流程封装成可复用 agent 技能」的新范式：用户无需精通剪辑软件，只要驱动 AI 助手调用这些流水线与技能，就能完成从脚本到成片的端到端制作，也因此吸引了大量创作者与工程师围观贡献。"
+      ],
+      "heat": "GitHub 趋势榜居前，单月新增数万 stars"
+    },
+    {
+      "platform": "个人博客 / Threads",
+      "name": "Christian Selig",
+      "url": "https://christianselig.com/2026/07/vision-pro-house/",
+      "detail": [
+        "Reddit 第三方客户端 Apollo 的作者、独立 iOS 开发者 Christian Selig，凭一篇《The coolest use for the Vision Pro》再度刷屏社区，帖子在 Hacker News 拿下约 728 分。他分享了自己为在建新房找到的意外用途：在一堵真实的墙还没砌起来之前，就戴上 Apple Vision Pro，以第一人称走进未来家的户型里。",
+        "这套工作流颇具极客精神：他用免费的 Fusion 360 把二维平面图建成三维模型，从开放素材库下载家具，再经由 GLB 转 OBJ、贴图并导出为 USDZ，最后传到 Vision Pro 中沉浸式漫游。相比只能盯着 PDF 图纸想象，能真正「走进去」感受层高、动线与家具尺度，对装修决策的帮助被许多同行称为「家庭版 BIM」。",
+        "作为长期活跃的独立开发者，Selig 此前还做过 visionOS 上的 YouTube 客户端 Juno 与 Pixel Pals 等应用，一贯擅长用巧思把消费级硬件玩出新花样。这条内容在 Threads 上同样获得大量转发与共鸣，不少人晒出自己用 SketchUp 加头显做房屋布局的类似经历，展现了空间计算在个人场景中的真实吸引力。"
+      ],
+      "heat": "HN 约 728 points；Threads 广泛转发"
+    },
+    {
+      "platform": "GitHub",
+      "name": "MadsLorentzen (ai-job-search)",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "detail": [
+        "开发者 MadsLorentzen 的开源项目 ai-job-search 近期在 GitHub 趋势榜名列前茅，单月新增两万多 star。它把 Claude Code 改造成一个「跑在你自己机器上」的全栈求职助手：Fork 仓库、填好个人档案后，就能让 AI 评估岗位匹配度、按职位定制简历、撰写求职信，并帮你准备面试。",
+        "项目的设计亮点在于「本地优先」与「语言/国家无关」。核心工作流——自我画像、匹配度评估、drafter-reviewer 的申请流水线——都可跨市场复用；虽然内置的职位门户搜索技能面向丹麦市场（Jobindex、Jobnet 等），但作者提供了 /add-portal 命令，可为任意公开招聘网站自动生成对应的 CLI 搜索技能并先跑一次实测再注册。",
+        "它还配备了一系列实用 skill：/upskill 分析你与目标岗位之间的技能差距并给出带学习资源的成长计划，/notion-sync 把整条求职流水线以只读视图同步到 Notion，/html-report 生成离线仪表盘。整个项目以 MIT 许可证开源，代表了 2026 年「个人把 AI 编码 agent 封装成生活工具」这一趋势的典型样本，颇受求职者与工程师欢迎。"
+      ],
+      "heat": "GitHub 趋势榜居前，单月新增约 2.2 万 stars"
+    }
+  ]
+}
