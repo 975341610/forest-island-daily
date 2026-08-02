@@ -1,0 +1,211 @@
+[
+  {
+    "id": "2026-08-02_vibecoding_5",
+    "date": "2026-08-02",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "NativeScope:开源RN调试工作室",
+    "url": "https://news.ycombinator.com/item?id=49130607",
+    "image": "images/2026-08-02/2026-08-02_vibecoding_5.jpg",
+    "detail": [
+      "NativeScope 是开发者于 8 月 1 日在 Hacker News 首发的开源「React Native 调试工作室」,官网 nativescope.dev。React Native 长期存在调试体验割裂的痛点:日志、网络请求、状态、性能分散在多处工具中,DevTools 与真机之间来回切换效率低。NativeScope 的目标是把这些调试能力收进一个统一的桌面工作室,给移动端开发者一个「一站式」观测台。",
+      "作为「studio」形态的工具,它面向 React Native 应用的运行时观测:集中查看渲染、网络、状态与日志等调试信号,让开发者在一个界面里定位问题,而不必在浏览器 DevTools、终端和模拟器之间频繁跳转。开源属性意味着团队可自托管、按需扩展,契合当下开发者对「可审计、可掌控」调试链路的偏好,也降低了依赖闭源调试服务的顾虑。",
+      "该项目当日进入 Show HN 榜单,评论区关注它与 Flipper、React Native DevTools 等既有方案的差异与定位。对每天与 React Native 打交道、被碎片化调试流程困扰的前端与移动端工程师来说,这类开源统一调试台值得 clone 试用;也提醒生态在 Flipper 逐步退场后,社区仍在持续填补跨平台调试工具的空白。"
+    ]
+  },
+  {
+    "id": "2026-08-02_vibecoding_4",
+    "date": "2026-08-02",
+    "category": "VibeCoding",
+    "subcat": "AI编程工具",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "Wienerdog:给Claude Code加记忆与技能",
+    "url": "https://news.ycombinator.com/item?id=49134381",
+    "image": "images/2026-08-02/2026-08-02_vibecoding_4.jpg",
+    "detail": [
+      "Wienerdog 是开发者于 8 月 1 日发布的开源工具(MIT 协议,github.com/wienerdog-ai/wienerdog),为 Claude Code 与 Codex 提供记忆与「自我进化的技能」。它源自作者自用的一套记忆、技能与 hooks 体系,在反复教朋友同事搭建的过程中不断自动化,最终打包成一行命令 npx wienerdog@latest init 即可安装。作者强调它「只是一堆文件」——无守护进程、无服务器、无遥测。",
+      "能力上,它会通过一次友好访谈生成 CLAUDE.md/AGENTS.md 基础信息文件(仅在自己标记的区块内写入,尊重既有文件);建立遵循 PARA 规范的 markdown 持久记忆库,类似很多人用的 Obsidian 库;通过 hooks 在每次会话自动注入「你是谁、你做什么」等关键信息并回存新事实;每日自动跑「做梦(dreaming)」消化前一天会话沉淀记忆;还能把重复出现的任务模式识别并转化为可自动改进的复用技能。",
+      "一个亮点是跨厂商共享:同时用 Claude Code 和 Codex 时,两者可读写同一记忆库,避免被单一厂商锁定;并提供可选的只读/仅草稿 Google 套件集成。作者坦言 Wienerdog 大部分代码由 AI 智能体依循其自身 spec 系统、借助仓库内记忆库写成(自举 dogfooding),项目尚早期。首帖获得关注,评论区围绕记忆持久化与「自进化技能」实际效果展开讨论。"
+    ]
+  },
+  {
+    "id": "2026-08-02_vibecoding_3",
+    "date": "2026-08-02",
+    "category": "VibeCoding",
+    "subcat": "Agent框架",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "Aurora:Go写的15MB无依赖AI网关",
+    "url": "https://news.ycombinator.com/item?id=49134502",
+    "image": "images/2026-08-02/2026-08-02_vibecoding_3.jpg",
+    "detail": [
+      "Aurora 是开发者于 8 月 1 日在 Hacker News 亮相的开源 AI 网关,采用 Go 编写,核心卖点是「约 15MB 单一二进制、零依赖」。作者观点鲜明:每个 AI 项目都要重复造同样的基础设施——API key 管理、各家 provider 的 SDK、重试逻辑、成本追踪,这些理应下沉成一层统一的 infra,而不是散落在每个后端里。",
+      "功能上,Aurora 作为代理把请求转发到 OpenAI、Anthropic、Gemini 等,并能在不同 wire format 之间自动转换:用 OpenAI SDK 发出的请求,可由 Aurora 翻译成 Anthropic 的协议格式,后端无需写任何转换代码。它还支持按客户或团队追踪成本、不改代码即可切换模型与厂商、精确与语义两种缓存降本,以及 provider 池自动故障切换、模型别名、区域化部署降延迟、内置护栏与可导出审计日志。",
+      "开源版采用 Apache 2.0,作者称已「包含全部功能」,企业版另加 SSO、RBAC 与租户隔离,安装方式为 npm 全局安装、官网 aurorallm.online。首帖开局收获关注,评论区把它与现有 LLM 网关做横向比较。对正在搭建多模型、多租户 AI 应用的团队,这类轻量自托管网关在成本可视化与厂商解耦上颇具吸引力,值得纳入选型清单评估。"
+    ]
+  },
+  {
+    "id": "2026-08-02_vibecoding_2",
+    "date": "2026-08-02",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "Wisp:用Lua脚本与结构化管道的新Shell",
+    "url": "https://news.ycombinator.com/item?id=49132146",
+    "image": "images/2026-08-02/2026-08-02_vibecoding_2.jpg",
+    "detail": [
+      "Wisp 是开发者于 8 月 1 日发布在 Hacker News 的开源 Linux Shell,仓库位于 github.com/Hinikaa/wisp。它最大的野心是把日常命令行体验从「一切皆纯文本字符串」升级为「结构化管道」,同时把脚本语言从晦涩的 Bash 语法换成更现代、更可读的 Lua,让写自动化脚本这件事对新手和老手都更友好。",
+      "技术亮点在于「结构化管道」:传统 Shell 里管道传递的是无类型文本,需要 awk、sed、cut 反复切割;Wisp 让管道在命令之间传递带结构的数据,配合 Lua 可以像操作对象一样过滤、映射、聚合,减少脆弱的文本解析。Lua 作为嵌入式脚本引擎轻量、启动快、生态成熟,把它作为交互 Shell 与脚本的统一语言,兼顾了即时命令行与复杂逻辑编排两种场景。",
+      "该帖首日进入当日 Show HN 榜前列,评论区讨论集中在与 Nushell、PowerShell 等「结构化 Shell」的路线对比,以及 Lua 相比专用 DSL 的取舍。对喜欢折腾终端、追求脚本可维护性的开发者,Wisp 提供了又一个在 PowerShell 与 Nushell 之外、以 Lua 为核心的实验性选择,适合尝鲜者克隆下来把玩并反馈体验。"
+    ]
+  },
+  {
+    "id": "2026-08-02_vibecoding_1",
+    "date": "2026-08-02",
+    "category": "VibeCoding",
+    "subcat": "AI编程工具",
+    "platform": "Hacker News",
+    "platform_color": "#2563EB",
+    "title": "Episko:Rust打造的Claude Code智能体座舱",
+    "url": "https://news.ycombinator.com/item?id=49137410",
+    "image": "images/2026-08-02/2026-08-02_vibecoding_1.jpg",
+    "detail": [
+      "Episko 是开发者于 8 月 1 日在 Hacker News 首发的开源项目(MIT 协议),用 Rust 编写,定位为「Claude Code 智能体座舱」。作者自述痛点很真实:同时开着一堆终端窗口跑 Claude,常常搞不清当前身处哪个 session、哪个 project、哪条 worktree。于是他做了一个统一驾驶舱,先在团队内部试用,如今成了每天离不开的效率工具。",
+      "核心功能围绕「多智能体编排」展开:一处总览所有项目及其分支、worktree;在内置终端里按指定分支或 worktree 直接开会话;自动发现并集中管理项目脚本;完整保留 Claude 历史便于随时续聊。舒适性上还提供提交、PR、笔记与带摘要的时间线,以及上下文用量、单次会话成本、全天费用聚合,并能基于 5 小时和 7 天窗口预测「照此消耗会不会撞到额度上限」。",
+      "项目地址为 github.com/respeak-io/episko,首帖开出即拿到关注,评论区聚焦于成本可视化对无订阅用户估算「本应支付多少」这一实用点。作者明确表示目前仅支持 Claude Code,Codex 支持「很快就来」。对重度使用 AI 编码智能体、被终端窗口淹没的工程师而言,这类把会话、成本、分支收进一块面板的桌面工具正切中当下 VibeCoding 工作流的组织难题。"
+    ]
+  },
+  {
+    "id": "2026-08-02_gaming_4",
+    "date": "2026-08-02",
+    "category": "Gaming",
+    "subcat": "主机/单机RPG",
+    "platform": "Xbox Wire",
+    "platform_color": "#F59E0B",
+    "title": "Game Freak新作转生之兽8月4日入库XGP",
+    "url": "https://news.xbox.com/en-us/2026/07/21/xbox-game-pass-july-2026-wave-2/",
+    "image": "images/2026-08-02/2026-08-02_gaming_4.jpg",
+    "detail": [
+      "《宝可梦》开发商Game Freak的全新原创IP动作RPG《Beast of Reincarnation》(转生之兽)确认于8月4日发售,同步登陆Xbox Series X|S、PC与云游戏,并首发当日加入Xbox Game Pass(含掌机优化),PS5版亦在列,低门槛尝鲜的方式让它成为八月开月最受期待的新作之一。",
+      "本作被Game Freak称为「一人一犬的动作RPG」,融合了实时与回合制的战斗设计。故事发生在末世后风景既壮美又严酷的日本,玩家将跟随一名少女与她的灵犬伙伴Koo踏上旅程,探寻二人旅途尽头究竟等待着什么样的真相,人与犬之间的羁绊被放在叙事与玩法的核心位置。",
+      "作为Game Freak在宝可梦之外最具野心的原创企划,这款新作在发售前已引发大量关注。有抢先体验的媒体在上手预览中重点讨论了「开场两小时」的叙事表现与战斗节奏,社区则对其独特的一人一犬羁绊设定与首发入库XGP的尝鲜方式表示欢迎,认为它是检验Game Freak原创功力的一块试金石。"
+    ]
+  },
+  {
+    "id": "2026-08-02_gaming_3",
+    "date": "2026-08-02",
+    "category": "Gaming",
+    "subcat": "PC/单机RPG",
+    "platform": "VGChartz",
+    "platform_color": "#F59E0B",
+    "title": "反常规无氪DragonSword热度延烧登Steam榜",
+    "url": "https://www.vgchartz.com/article/468587/steam-weekly-week-31-2026/",
+    "image": "images/2026-08-02/2026-08-02_gaming_3.jpg",
+    "detail": [
+      "由韩国工作室Hound13开发发行的动漫风开放世界动作RPG《DragonSword: Awakening》在最新一期Steam周销榜(截至7月28日的2026年第31周)以新作身份空降第三,热度在上线后持续延烧,成为暑期一匹黑马,登榜同期还与《光环:战役进化》预购、《战地6》回归等大作同台竞争。",
+      "该作原本计划以免费抽卡形式推出,后因与前发行商Webzen的合约纠纷,Hound13转而在Steam推出定价29.99美元的传统买断版。游戏以虚幻引擎5打造的Orbis大陆为舞台,主打伙伴招募、状态叠加与角色切换的爽快战斗,画面与打击感均维持在同类作品的中上水准。",
+      "去抽卡化的路线获得市场认可:发售首周末即冲上约两万的24小时在线峰值,Steam评价维持在85%「特别好评」。有玩家在评测中直言「去掉抽卡氪金、做成单机后,这套上瘾的战斗循环反而成就了一款好游戏」,不少人称其为「无氪版原神」,认为它给同类抽卡手游的端游化提供了一个正面样本。"
+    ]
+  },
+  {
+    "id": "2026-08-02_gaming_2",
+    "date": "2026-08-02",
+    "category": "Gaming",
+    "subcat": "PC/城建",
+    "platform": "Insert Coins",
+    "platform_color": "#F59E0B",
+    "title": "海盗立体城建Corsair Cove上线首发入库XGP",
+    "url": "https://insertcoins.press/en/articles/corsair-cove-test",
+    "image": "images/2026-08-02/2026-08-02_gaming_2.jpg",
+    "detail": [
+      "以「大海盗时代」为背景的城市建造游戏《Corsair Cove》于7月31日登陆PC,通过Steam、Epic商店与微软商店发售,并首发当日即加入PC版Xbox Game Pass,玩家可在一座孤岛上营建属于自己的海盗据点。首发即入库的策略也让它迅速积累了第一批体验人群,在城建爱好者圈子里获得不小关注。",
+      "该作最大特色是把城建带入罕见的「垂直维度」:不同于在平面地图铺开建筑,玩家需要顺着岛屿山势层层向上堆叠,每一处从岩壁夺来的平台都是一次有意义的规划抉择,配合资源管理与人口成长,构筑循环扎实耐玩,给传统城建玩法带来了新鲜的空间解谜感。",
+      "媒体评测综合评分约为Metacritic 79分。评测者盛赞其美术密度与氛围惊艳,称「它是我们见过最美的海盗城建之一」,但也指出海战与探索过于简化。玩家共识是冲着建造与欣赏而来会很满足,想大战四海则略感意犹未尽,总体仍被视为暑期一款值得一试的小而美建造游戏。"
+    ]
+  },
+  {
+    "id": "2026-08-02_gaming_1",
+    "date": "2026-08-02",
+    "category": "Gaming",
+    "subcat": "主机/会员",
+    "platform": "PlayStation官方博客",
+    "platform_color": "#F59E0B",
+    "title": "PS Plus八月会免公布 消逝的光芒2领衔",
+    "url": "https://blog.playstation.com/2026/07/28/playstation-plus-monthly-games-for-august-dying-light-2-stay-human-reloaded-edition-big-walk-signalis/",
+    "image": "images/2026-08-02/2026-08-02_gaming_1.jpg",
+    "detail": [
+      "索尼在PlayStation官方博客公布了八月的PlayStation Plus会员每月免费游戏阵容,由内容运营总监Adam Michel撰文介绍,面向PS5与PS4双平台会员开放,自8月4日起可领取并畅玩至8月31日。这份阵容在国产玩家社区被视为暑期档尾声一份分量十足的福利,尤其是重制版大作的加入让不少人提前锁定了本月的入库目标。",
+      "本次三款阵容各有侧重:《消逝的光芒2:人与仁之战 重制版》带来末世都市的跑酷生存与最多四人合作;《Big Walk》是一款结伴同行、边走边聊的解谜冒险;《Signalis》则是一段孤身深入反乌托邦未来的心理生存恐怖之旅,三者在题材与节奏上形成鲜明反差,兼顾了动作、社交与叙事恐怖不同口味。",
+      "官方将这套组合概括为「或独闯末世都市、或结伴解谜、或孤身直面反乌托邦的阴郁恐怖」。社区对《消逝的光芒2》重制版加入会免反响热烈,老玩家称其合作模式常玩常新、跑酷手感依旧顶尖,新玩家也把它列为本月首个入库目标,认为借会免补票是入坑这一系列的最佳时机。"
+    ]
+  },
+  {
+    "id": "2026-08-02_ai_4",
+    "date": "2026-08-02",
+    "category": "AI",
+    "subcat": "多模态",
+    "platform": "Crypto Briefing",
+    "platform_color": "#8ED16D",
+    "title": "xAI升级Grok Imagine支持原生1080p视频",
+    "url": "https://cryptobriefing.com/grok-imagine-voice-consistency-text-to-video/",
+    "image": "images/2026-08-02/2026-08-02_ai_4.jpg",
+    "detail": [
+      "北京时间8月1日,埃隆·马斯克旗下的xAI为内置于Grok聊天机器人的图像视频生成工具Grok Imagine推送了一次颇具分量的升级,版本被称为Grok Imagine Video 1.5。此次更新建立在xAI自研的Aurora模型之上,围绕声音一致性、原生高清输出与多参考稳定性三大痛点做了针对性改进,进一步把这家公司推向多模态创作的竞争核心。",
+      "最受关注的是全新的多通道音频参考系统,创作者可一次输入最多3条音频,将生成内容锚定到特定声音档案,避免角色嗓音在不同镜头间突然跑偏。同时工具支持最多7张图片参考以锁定角色、场景与物体的视觉一致性,并首次为文生视频与图生视频管线提供原生1080p输出,省去以往依赖后期插帧放大的步骤,画质与工作流同步提升。",
+      "不过这批新能力全部设在付费墙之后,仅面向订阅用户开放,X平台免费档用户的图像与视频生成权限已被明显收紧,被外界解读为xAI一次刻意的商业化押注。马斯克与xAI同时释放信号,表示迭代仍将保持稳定节奏,社区驱动的视频延长技巧与基于提示词的一致性控制已在路线图之中。"
+    ]
+  },
+  {
+    "id": "2026-08-02_ai_3",
+    "date": "2026-08-02",
+    "category": "AI",
+    "subcat": "AI编程",
+    "platform": "新浪科技",
+    "platform_color": "#8ED16D",
+    "title": "智谱GLM Coding Plan回归改透明积分制",
+    "url": "https://finance.sina.com.cn/tech/digi/2026-07-31/doc-iniksait1404603.shtml",
+    "image": "images/2026-08-02/2026-08-02_ai_3.jpg",
+    "detail": [
+      "7月31日,作为中国首家公开上市的基座大模型企业,智谱官宣其专为AI编码打造的GLM Coding Plan订阅服务正式回归,同时对套餐价格与规则做了系统性调整。此前该公司曾在4月停止老套餐自动续订,如今借重新上架统一套餐体系,为后续功能与权益升级铺路,也回应了大量编程用户对稳定编码订阅的持续需求。",
+      "新版套餐最大的变化是采用完全透明的积分制,输入、输出、缓存命中Token以及不同模型与MCP能力的使用,均按公开规则折算为积分,额度怎么算、用了多少、还剩多少都更加清晰可预期。价格方面每月118元起,即日起至8月15日订阅包年与包季套餐分别享七折与八折限时优惠,周末全天按低峰时段倍率抵扣额度。",
+      "智谱同时开放了高速版体验申请,老套餐用户可优先获得资格,持有当前套餐及团队套餐的用户价格、权益与算法均不受影响。这一调整发生在智谱旗舰模型持续走强的背景下,其此前开源的GLM系列已跻身全球开源模型第一梯队,透明计费被社区解读为国产厂商在编码Agent赛道上争夺开发者心智的关键一步。"
+    ]
+  },
+  {
+    "id": "2026-08-02_ai_2",
+    "date": "2026-08-02",
+    "category": "AI",
+    "subcat": "多模态",
+    "platform": "新浪科技",
+    "platform_color": "#8ED16D",
+    "title": "字节跳动正式发布视频模型Seedance 2.5",
+    "url": "https://finance.sina.com.cn/tech/shenji/2026-07-31/doc-iniksnxp1332658.shtml",
+    "image": "images/2026-08-02/2026-08-02_ai_2.jpg",
+    "detail": [
+      "7月31日午间,字节跳动正式发布新一代视频生成模型Seedance 2.5,并陆续上线即梦AI与豆包专业版,面向会员开放,API服务也将于近期登陆火山方舟。新模型延续了Seedance 2.0统一的多模态音视频联合生成架构,把突破重点放在长叙事能力、多模态参考能力与精准编辑三大方向,是国产视频大模型阵营的又一次重量级迭代。",
+      "核心亮点在于单次即可直出30秒高质量视频片段并支持多轮延长,最长可稳定生成约3分钟的长镜头,模型优化了镜头衔接与场景过渡,有效弱化了以往AI视频常见的油腻感。参考能力上,用户单次最多可输入30张图片、10段视频与10段音频作为素材,并支持白模、绿幕、运动与创意等多种参考,配合时间戳级别的精准编辑控制。",
+      "微博与哔哩哔哩上大量创作者第一时间放出实测,围绕30秒直出、长镜头一致性与秒级节奏控制展开热议,不少人评价AI视频正从「能生成」走向「可控制」,比单纯堆画质更实用。官方同时透露,Seedance 2.5已开始进入教育真实学习场景,并在工业制造、具身智能与自动驾驶等产业环节中寻找更具体的落地位置。"
+    ]
+  },
+  {
+    "id": "2026-08-02_ai_1",
+    "date": "2026-08-02",
+    "category": "AI",
+    "subcat": "前沿AI",
+    "platform": "OpenAI官方博客",
+    "platform_color": "#8ED16D",
+    "title": "OpenAI下代模型Astra攻克十道数学难题",
+    "url": "https://openai.com/index/ten-advances-in-mathematics/",
+    "image": "images/2026-08-02/2026-08-02_ai_1.jpg",
+    "detail": [
+      "8月1日,OpenAI发布博客《数学与理论计算机科学的十项进展》,首次正式公开其下一代主要模型系列的名称「Astra」。据介绍,Astra是一套能协调多个智能体、连续工作数小时乃至数天的模型家族,此前CEO奥尔特曼已在华盛顿向政策制定者做过演示,而这篇数学论文是它的正式亮相。",
+      "博客称Astra的内部版本在十道「至少十年、多数远不止十年」无实质进展的数学与理论计算机科学难题上取得新结果,涵盖高维几何、编码理论、群论、算子代数、量子计算复杂度与格密码等领域。代表性成果包括首次构造出「非索菲群」、反驳冯诺依曼代数中的Connes刚性猜想、将高维球堆积密度上界改进至Cohn–Elkies界,以及解决厄多斯183、146、180号问题。",
+      "OpenAI强调每个论证都由模型转写为Lean 4的机器可验证证书,并同步公开249页论文草稿与推理走查,直接回应「AI数学幻觉」质疑。研究员Noam Brown在X上坦言尚未攻克千禧年大奖难题,且每题投入算力有限,按API价格折算,这十道题的求解成本仅约2000美元。",
+      "消息在社区引发热议。运营erdosproblems.com的曼彻斯特大学数学家Thomas Bloom称其为「重大新闻」,但反对「AI取代数学家」的论调,指出该模型正是站在一个多世纪的数学积累之上。Astra究竟以GPT-6还是GPT-5.7的形态发布尚未确定,且将成为首个走完美国政府新审查流程后再公开的模型,发布时间仍未公布。"
+    ]
+  }
+]
