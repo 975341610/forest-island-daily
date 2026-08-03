@@ -1,0 +1,182 @@
+[
+  {
+    "id": "2026-08-03_vibecoding_5",
+    "date": "2026-08-03",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "GitHub / Show HN",
+    "platform_color": "#2563EB",
+    "title": "Align：统一配置的DSL与工具链",
+    "url": "https://github.com/The-Smith-Syndicate/align-config",
+    "image": "images/2026-08-03/2026-08-03_vibecoding_5.jpg",
+    "detail": [
+      "Align 是一款刚登上 Show HN 的领域专用配置语言与工具链，目标是终结项目里 .env、YAML、JSON、Kubernetes overrides 四处散落、互相打架的混乱局面。它用统一的 .align 文件作为单一事实源，让应用配置在开发、预发、生产等多环境之间变得安全、可预测且类型明确，数字就是数字、布尔就是布尔。",
+      "工具链通过 npm 安装的 align-config CLI 提供，命令覆盖 init 模板化建项、validate 校验、build 按环境产出配置、analyze 分析等；还能从现有 .env 或 Angular 的 environment.ts 迁移导入，并输出 Docker 兼容的 .env 文件，一行命令替换 CI/CD 里的手工拷贝。此外它内置安全分析（弱密钥、缺失 SSL 检测）、性能洞察，以及号称 20 项自动检查的 SOC 2 合规能力。",
+      "该项目已发布 1.0.6 版本上架 npm，面向 Angular 加 AWS Lambda 这类企业场景做了大量适配，强调渐进式迁移与向后兼容。配置漂移和「一个 typo 拖垮生产」是团队协作的常见隐患，社区认为把配置当成有类型、可校验、可审计的代码来管理，正好契合当前对交付安全性与可复现性的更高要求。"
+    ]
+  },
+  {
+    "id": "2026-08-03_vibecoding_4",
+    "date": "2026-08-03",
+    "category": "VibeCoding",
+    "subcat": "AI编程工具",
+    "platform": "GitHub / Show HN",
+    "platform_color": "#2563EB",
+    "title": "Hypersigil：可热替换的提示词管理网关",
+    "url": "https://github.com/hypersigilhq/hypersigil",
+    "image": "images/2026-08-03/2026-08-03_vibecoding_4.jpg",
+    "detail": [
+      "Hypersigil 是一个带 Web 界面的开源提示词（Prompt）管理网关，面向构建 AI 应用的团队。它把散落在代码里的提示词抽离出来，做成统一的单一事实源，让技术和非技术人员都能协作测试、打磨并动态部署提示词，而无需每次改动都重新发版上线，主打「提示词热替换」。",
+      "核心能力包括跨 OpenAI、Anthropic、Ollama 等多家提供商的统一网关，支持成本优化与自动故障切换；用 Mustache 模板做变量化提示词；提供测试数据分组、批量执行、结果对比的系统化测试流程，以及基于执行结果的 AI 提示词校准。技术栈为 Node.js/TypeScript + Express + SQLite 后端，配 Vue 3 加 shadcn/ui 的前端，可用 Docker 一键跑起。",
+      "项目目前约 27 star，仍处于「重度开发中」阶段，并公开征集功能需求与贡献。它采用 Apache 2.0 加 Commons Clause 许可，允许企业内部使用与二次开发但禁止直接售卖软件本身。随着越来越多产品把提示词当成需要版本管理与治理的「一等公民」，这类工具正被视为 AI 应用工程化的重要一环。"
+    ]
+  },
+  {
+    "id": "2026-08-03_vibecoding_3",
+    "date": "2026-08-03",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "GitHub / Show HN",
+    "platform_color": "#2563EB",
+    "title": "CR(D) Wizard：K8s CRD可视化仪表盘",
+    "url": "https://github.com/pehlicd/crd-wizard",
+    "image": "images/2026-08-03/2026-08-03_vibecoding_3.jpg",
+    "detail": [
+      "CR(D) Wizard 是一款专为 Kubernetes 自定义资源打造的可视化工具，同时提供网页仪表盘与 TUI 终端界面两种形态。它帮助开发者和集群管理员快速看清自定义资源定义（CRD）及其对应资源（CR）的状态，理解自研控制器到底管理着哪些对象，无论你偏好图形界面还是轻量的终端视图都能上手。",
+      "功能相当完整：支持 Krew、Homebrew、AUR、Go install 和一键脚本安装，能把 CRD 一键导出成 HTML 或 Markdown 文档、批量打包 ZIP，还内置多集群自动发现与即时切换。更贴合当下潮流的是它集成了 LLM 能力——默认接本地 Ollama，也支持 Google Gemini，在 TUI 里按一下键就能获得 AI 生成的 CRD schema 解读。",
+      "该项目已收获约 264 star，并提供 k9s 插件配置，可绑定快捷键直接调起。在 K8s 生态里 CRD 文档匮乏、结构晦涩一直是老大难问题，社区反馈认为它把「探索 CRD」这件苦差事做得既直观又现代，AI 解读功能尤其受到运维和平台工程师的欢迎。"
+    ]
+  },
+  {
+    "id": "2026-08-03_vibecoding_2",
+    "date": "2026-08-03",
+    "category": "VibeCoding",
+    "subcat": "AI编程工具",
+    "platform": "GitHub / Show HN",
+    "platform_color": "#2563EB",
+    "title": "Slupe：让网页版LLM安全改本地文件",
+    "url": "https://github.com/stuartcrobinson/slupe",
+    "image": "images/2026-08-03/2026-08-03_vibecoding_2.jpg",
+    "detail": [
+      "Slupe（Sandboxed LLM oUtput Processing Engine）是一个刚在 Show HN 亮相的开源小工具，解决的问题很实际：如何让浏览器里的 ChatGPT、Claude 等网页版大模型安全地编辑你本地的代码文件，而不必接入官方 API 或订阅昂贵的 Agent 套餐。它把「任意能生成文本的模型」都变成了可用的编程助手。",
+      "它的关键是自研的 NESL（No Escape Syntax Language）语法：让 LLM 用一种无转义、抗冲突的块状格式输出文件读写、移动、删除、文本替换等操作，Slupe 监听输入文件或剪贴板后自动执行。作者实测称 NESL 比 JSON、YAML、heredoc 乃至 aider 的搜索替换格式都更可靠，并配有路径白名单、动作允许列表和 Git 自动提交等安全护栏。",
+      "目前项目 star 数还不高（十余颗），属于典型的早期个人开源项目，但思路戳中了不少开发者的痛点——很多人不愿为 API token 付费，却想用网页端的强模型改代码。评论区围绕「剪贴板双拷贝触发执行」的交互巧思和安全边界展开讨论，被看作一种低成本的 Vibe Coding 折中方案。"
+    ]
+  },
+  {
+    "id": "2026-08-03_vibecoding_1",
+    "date": "2026-08-03",
+    "category": "VibeCoding",
+    "subcat": "Agent框架",
+    "platform": "GitHub / Show HN",
+    "platform_color": "#2563EB",
+    "title": "InsForge：面向AI编程的开源后端",
+    "url": "https://github.com/InsForge/InsForge",
+    "image": "images/2026-08-03/2026-08-03_vibecoding_1.jpg",
+    "detail": [
+      "InsForge 是一个「Agent 原生」的开源后端平台，定位为 Supabase 的替代品，专门服务于 AI 编程 Agent。它把数据库、认证、存储、边缘函数、部署与模型网关打包成一整套后端能力，让 Claude Code、Cursor 等编程助手能像后端工程师一样，端到端地把全栈应用真正跑起来、部署上线。",
+      "它的核心在于两种接入方式：一是 MCP Server，把建表、跑数据库迁移、部署函数等操作暴露成任何 MCP Agent 可调用的工具；二是 CLI 加 Skills，让 Agent 直接在终端里操作后端。Agent 能读取 schema、日志、运行时状态来自检与调试，也能直接配置 Postgres、S3 兼容存储与 OAuth 认证，支持 Docker Compose 自托管与一键云部署。",
+      "该项目在 GitHub 上已积累约 1.26 万 star、超过 1.1k fork，社区热度相当高。开发者普遍认为它填补了「Agent 写完前端却卡在后端」的空档——过去 Agent 生成代码后仍要人工配数据库和部署，如今这条链路被打通，被视为 Vibe Coding 走向「全自动出应用」的关键基础设施拼图之一。"
+    ]
+  },
+  {
+    "id": "2026-08-03_gaming_4",
+    "date": "2026-08-03",
+    "category": "Gaming",
+    "subcat": "Steam",
+    "platform": "GameGrin",
+    "platform_color": "#F59E0B",
+    "title": "本周 Steam 新游 TOP25 8月新作扎堆登场",
+    "url": "https://www.gamegrin.com/news/top-25-new-steam-games-this-week-3rd9th-of-august-2026",
+    "image": "images/2026-08-03/2026-08-03_gaming_4.jpg",
+    "detail": [
+      "进入 8 月首个完整发售周，Steam 平台再次迎来新游井喷，媒体 GameGrin 于 8 月 3 日整理发布了「本周 Steam 新游 TOP25(8 月 3 日至 9 日)」榜单，为在海量上架作品中挑花眼的玩家梳理出本周最值得关注的重点新作。",
+      "本周榜单横跨多种类型，从动作角色扮演、独立肉鸽到模拟经营与策略等应有尽有，既有备受期待的话题大作，也不乏体量精巧却创意十足的独立黑马。榜单以发售日与关注度为线索，帮助玩家在纷繁的新品中快速定位符合口味的作品。",
+      "每逢暑期档，Steam 新游数量都会明显攀升，这类每周精选榜也成为玩家规划购物车的重要风向标。许多人表示与其被算法推荐淹没，不如按周榜按图索骥，本周榜单再度点燃了社区对 8 月新作阵容的讨论热情。",
+      "值得一提的是，本周榜单中不乏由 Game Freak《转生兽》领衔的重磅新作，也覆盖了动作、模拟、策略与恐怖等多元品类，既照顾追新的核心玩家，也为随便逛逛的休闲用户提供了低成本试水的清单。媒体在榜单中通常会标注各作的抢先体验状态、是否登陆 Game Pass 及大致价位，方便玩家结合钱包与时间做取舍。对独立开发者而言，能挤进这类周榜也意味着一次宝贵的曝光机会，可能直接左右首发周的销量表现。"
+    ]
+  },
+  {
+    "id": "2026-08-03_gaming_3",
+    "date": "2026-08-03",
+    "category": "Gaming",
+    "subcat": "独立游戏",
+    "platform": "游民星空",
+    "platform_color": "#F59E0B",
+    "title": "《异常总统》上线 白天拉票夜晚变身战士",
+    "url": "https://store.steampowered.com/app/2806050",
+    "image": "images/2026-08-03/2026-08-03_gaming_3.jpg",
+    "detail": [
+      "由独立工作室 Phew Phew Games 打造的肉鸽新作《Anomaly President》(异常总统)于 8 月 3 日在 Steam 正式发售，凭借「白天竞选、夜晚厮杀」的双面玩法在独立圈迅速引发讨论，成为本周独立游戏中的一匹黑马。",
+      "游戏的核心创意在于昼夜循环的机制割裂:白天玩家化身候选人四处奔走、发表演讲、拉拢选民争取选票;夜幕降临后画风突变，总统摇身成为战士，面对涌来的异常敌潮展开生存战斗，将策略经营与动作肉鸽巧妙缝合在一起。",
+      "这种把政治竞选包装进 roguelike 的荒诞设定，让不少玩家直呼脑洞清奇又上头。独立游戏本就以创意取胜，本作用极低的门槛与强烈的黑色幽默风格吸引了大量尝鲜者，上线首日便收获社区不少好评，被认为是近期最具话题性的小体量惊喜之作。",
+      "从玩法深度看，昼与夜两套系统并非割裂，而是相互喂养:白天积累的选票、资源与人脉会转化为夜晚战斗的强化道具与被动增益，夜晚的生存表现又反过来影响次日的支持率，构成一套「经营驱动战斗、战斗回馈经营」的正向循环。据玩家反馈，这种滚雪球式的成长节奏配合肉鸽随机词条，让每一局的构筑思路都不尽相同，重玩价值可观。价格亲民加上支持中文，也降低了国内玩家的尝鲜门槛。"
+    ]
+  },
+  {
+    "id": "2026-08-03_gaming_2",
+    "date": "2026-08-03",
+    "category": "Gaming",
+    "subcat": "掌机",
+    "platform": "Nintendo",
+    "platform_color": "#F59E0B",
+    "title": "两款尘封 Virtual Boy 游戏本周登陆 NSO",
+    "url": "https://www.vgchartz.com/article/468631/virtual-boys-d-hopper-and-zero-racers-coming-to-nintendo-switch-online-on-august-4/",
+    "image": "images/2026-08-03/2026-08-03_gaming_2.jpg",
+    "detail": [
+      "任天堂宣布，两款从未正式发售的 Virtual Boy 尘封之作《D-HOPPER》与《ZERO RACERS》将于 8 月 4 日加入 Nintendo Switch Online + 扩充包会员的 Virtual Boy 经典游戏阵容，让玩家首次得以体验这些当年被砍掉的红黑立体游戏。",
+      "《D-HOPPER》前身正是 1996 年由 Intelligent Systems 开发、最终取消的动作冒险游戏《Dragon Hopper》，此次因商标缘故更名重现;而《ZERO RACERS》则是当年夭折的《F-ZERO》系列 Virtual Boy 外传，倘若当年顺利发售，本可能成为系列史上首款真正意义上的 3D 竞速作品。",
+      "对老玩家与游戏史爱好者而言，能亲手玩到这两款「胎死腹中」近三十年的作品意义非凡。任天堂近来持续为 Switch 2 时代补完 Virtual Boy 这一冷门主机的遗产，玩家纷纷感慨这是主机考古的珍贵机会，也让这台命运多舛的立体主机重新回到聚光灯下。"
+    ]
+  },
+  {
+    "id": "2026-08-03_gaming_1",
+    "date": "2026-08-03",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "Steam",
+    "platform_color": "#F59E0B",
+    "title": "《转生兽》全球同步解锁 一人一狗末世冒险",
+    "url": "https://store.steampowered.com/app/2001760/Beast_of_Reincarnation",
+    "image": "images/2026-08-03/2026-08-03_gaming_1.jpg",
+    "detail": [
+      "由《宝可梦》缔造者 Game Freak 携旗下 Fictions 工作室打造的动作角色扮演新作《Beast of Reincarnation》(转生兽)本周正式登场,全球于协调世界时 8 月 4 日零点同步解锁,对应北美地区正是 8 月 3 日晚间揭幕。故事设定在毁灭后的公元 4026 年日本,少女艾玛与灵兽犬「库」组成「一人一狗」搭档，踏上寻找失落文明的旅程。",
+      "本作采用虚幻引擎 5 打造，主打实时与回合制融合的混合战斗系统:玩家可自由切换灵活走位与策略指令，灵兽「库」既是探索伙伴也是并肩作战的战友。游戏首发即登陆 Xbox Game Pass 会员库，Steam 版售价约 248 元人民币(59.99 美元)，同步支持中文，主机端覆盖 PS5 与 Xbox Series 平台。",
+      "作为 Game Freak 罕见的原创大型单机项目，本作在上线前已积攒不小人气，Steam 关注人数逼近四万，近一周涨幅超过三千七。玩家普遍看好这家老牌工作室跳出宝可梦框架后的表现，也期待其对末世废土与人兽羁绊题材的诠释，被视为本周最受瞩目的主机大作首发。"
+    ]
+  },
+  {
+    "id": "2026-08-03_ai_2",
+    "date": "2026-08-03",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "新浪科技",
+    "platform_color": "#8ED16D",
+    "title": "小米MiMo-V2.5全球调用量登顶OpenRouter",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-08-02/doc-inikwzci3012146.shtml",
+    "image": "images/2026-08-03/2026-08-03_ai_2.jpg",
+    "detail": [
+      "8月2日,据央视新闻报道,全球多模型聚合平台OpenRouter公布的最新一周AI大模型调用量榜单中,排名前五的模型全部由中国企业研发。其中小米MiMo-V2.5以单周10.5万亿Tokens的调用量登顶榜首,环比增长12%,登上央视新闻引发广泛关注。OpenRouter汇聚了OpenAI、Anthropic、Google等几乎所有主流厂商的模型,第三方开发者通过它统一调用不同模型API,在这个「模型超市」登顶意味着真实市场的认可。",
+      "据小米MiMo大模型团队产品经理介绍,该模型单周调用量已从1.5万亿Tokens一路攀升至10.5万亿Tokens,两个月内增长超过6倍,同时拿下OpenRouter周榜和月榜的双料第一。MiMo-V2.5于今年4月23日正式开启公测,并在4月底完成全系列开源;随着流量快速上涨,小米集团AI实验室的技术人员正在针对激增的调用量进行新一轮系统调试。",
+      "从下载用户结构看,使用该模型的主要是独立个人开发者、三到五人规模的初创团队,以及大量专注AI编程、智能体工具开发的中小厂商。榜单第二和第五名均来自DeepSeek,形成高低搭配覆盖不同需求;位列第三的腾讯混元Hy3在7月6日才正式开源,单周环比增幅超过999%,是榜单上增长势头最猛的模型,显示国产开源模型正在完全市场化的第三方渠道实现领先。",
+      "在推理速度方面,小米今年6月联合TileRT推出MiMo-V2.5-Pro-UltraSpeed,官方称这是全球首个在通用GPU上推理速度突破1000 tokens/s的万亿参数模型,刷新了旗舰模型的全球最快推理纪录。不过业内也指出该榜单存在局限:企业私有化部署与美国封闭API的流量并未纳入统计,而调用量的暴涨如何转化为可持续的商业收入,仍是所有国产模型共同面对的课题。"
+    ]
+  },
+  {
+    "id": "2026-08-03_ai_1",
+    "date": "2026-08-03",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "the-decoder",
+    "platform_color": "#8ED16D",
+    "title": "OpenAI公布下一代模型Astra攻克十道数学难题",
+    "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/",
+    "image": "images/2026-08-03/2026-08-03_ai_1.jpg",
+    "detail": [
+      "OpenAI首次正式披露了代号「Astra」的下一代旗舰模型家族,并以一份罕见的方式为其揭幕:不是发布产品,而是甩出十道悬而未决的数学与理论计算机科学难题的解答。这些问题的核心结论此前至少十年、多数长达数十年都没有人取得实质进展,涵盖高维几何、编码理论、群论、算子代数、量子复杂度与极值组合等多个领域。",
+      "在十项成果中,最受关注的是首次显式构造出「非索菲群」,回答了自1999年Gromov提出该概念以来悬置27年的核心问题;此外还推翻了Connes刚性猜想,证明了Ehrhart体积猜想,并解决了包括第183号在内的三个厄多斯问题。每项结果都附带一份可机器校验的Lean 4形式化证书,发布在GitHub仓库上,同时公开249页手稿与模型推理过程的完整走查。",
+      "OpenAI称,由Astra内部版本生成全部十道解答所消耗的算力,按Sol的API价格折算约为2000美元,意味着攻克一道十年老难题的成本已接近一张云账单。参与研发的Noam Brown在社交平台上称这是「科学推理的重要一步」,但也坦言尚未攻克任何千禧年大奖难题;运营erdosproblems.com的数学家Thomas Bloom则评价这批成果是「重大新闻」。",
+      "值得注意的是,Astra被定位为可协调多个智能体、面向长周期复杂任务的模型家族,能持续工作数小时乃至数天,官方尚未公布公开发布时间、定价与架构细节。此次成果发布正值AI公司与数学界关系紧张之际——今年6月学界发布了由国际数学联盟背书的莱顿宣言,批评企业绕过同行评审、以新闻稿方式宣布成果,Lean证书的引入正是对这一质疑的直接回应。"
+    ]
+  }
+]
