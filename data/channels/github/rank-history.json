@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-05": {
-      "usestrix/strix": 1,
-      "facebook/astryx": 2,
-      "alibaba/page-agent": 3,
-      "openai/codex-plugin-cc": 4,
-      "harvard-edge/cs249r_book": 5,
-      "rommapp/romm": 6,
-      "anthropics/claude-code": 7,
-      "agentskills/agentskills": 8,
-      "ChromeDevTools/chrome-devtools-mcp": 9,
-      "pbakaus/impeccable": 10,
-      "immich-app/immich": 11,
-      "TencentCloud/CubeSandbox": 12,
-      "chthollyphile/folia-major": 13,
-      "openai/codex": 14,
-      "tt-a1i/archify": 15,
-      "ruvnet/ruflo": 16,
-      "alirezarezvani/claude-skills": 17,
-      "ruvnet/RuView": 18,
-      "AgentWrapper/agent-orchestrator": 19,
-      "huggingface/speech-to-speech": 20,
-      "ai-boost/awesome-harness-engineering": 21,
-      "yorukot/superfile": 22,
-      "ModernRelay/omnigraph": 23,
-      "paper-design/shaders": 24,
-      "langflow-ai/langflow": 25
-    },
     "2026-07-06": {
       "openai/codex-plugin-cc": 1,
       "usestrix/strix": 2,
@@ -836,6 +809,33 @@
       "iptv-org/iptv": 23,
       "SillyTavern/SillyTavern": 24,
       "gitroomhq/postiz-app": 25
+    },
+    "2026-08-05": {
+      "firecrawl/pdf-inspector": 1,
+      "zhaoxuya520/reverse-skill": 2,
+      "TencentCloud/TencentDB-Agent-Memory": 3,
+      "usestrix/strix": 4,
+      "Panniantong/Agent-Reach": 5,
+      "esengine/DeepSeek-Reasonix": 6,
+      "microsoft/generative-ai-for-beginners": 7,
+      "donnemartin/system-design-primer": 8,
+      "NousResearch/hermes-agent": 9,
+      "huangruiteng/loopx": 10,
+      "jamiepine/voicebox": 11,
+      "Alishahryar1/free-claude-code": 12,
+      "livekit/agents": 13,
+      "multica-ai/multica": 14,
+      "Shubhamsaboo/awesome-llm-apps": 15,
+      "browser-use/video-use": 16,
+      "byoungd/up": 17,
+      "FalkorDB/FalkorDB": 18,
+      "superplanehq/superplane": 19,
+      "facebook/astryx": 20,
+      "openai/codex-plugin-cc": 21,
+      "uber/ADR": 22,
+      "K-Dense-AI/scientific-agent-skills": 23,
+      "gastownhall/beads": 24,
+      "alirezarezvani/claude-skills": 25
     }
   }
 }
