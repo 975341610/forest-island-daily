@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-05",
-  "generated_at": "2026-08-05T03:41:37.934118+00:00",
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T03:47:14.283232+00:00",
   "source": "rss-auto",
   "releases": [
     {
@@ -227,111 +227,139 @@
   ],
   "hot": [
     {
-      "title": "Steam's Cyberpunk Fest means big savings on games about high",
+      "title": "Can you play Big Walk alone or with randoms?",
       "category": "重磅新闻",
-      "summary": "Steam finds its own use for things.",
+      "summary": "The most widely adored co-op game of 2026 is a bit tough on loners.",
       "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/gaming-industry/steams-cyberpunk-fest-means-big-savings-on-games-about-high-tech-lowlifes/"
+      "url": "https://www.pcgamer.com/games/adventure/can-you-play-big-walk-alone-or-with-randoms/"
     },
     {
-      "title": "August is the calm before the storm for this year's new game",
+      "title": "Nintendo Donating 50 Million Yen To Assist Kumamoto Earthqua",
       "category": "重磅新闻",
-      "summary": "It's Star Wars Zero Company, Metal Gear Solid 4, and Gamescom month.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/pc-game-release-dates-august-2026/"
-    },
-    {
-      "title": "Pokémon Pokopia Updated To Version 2.0.0, Here Are The Full ",
-      "category": "游戏更新",
-      "summary": "Bubbly Basin, free updates and much more.The anticipated update for Pokémon Pokopia arrives on the Switch 2 today. It includes not only a free update, but also 'Bubbly Basin' - the first part of the game's Expansion Pass DLC.As for what you can expect, there's the new move Dive, ",
+      "summary": "It will also offer free repair services.Following the devastating Kumamoto earthquake in Japan last week, Nintendo has announced it will be donating 50 million yen (about 317,000 USD) to the local Red Cross Society.Additionally, the video game company will also be providing free ",
       "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/08/pokemon-pokopia-updated-to-version-2-0-0-here-are-the-full-patch-notes"
+      "url": "https://www.nintendolife.com/news/2026/08/nintendo-donating-50-million-yen-to-assist-kumamoto-earthquake-relief-efforts"
     },
     {
-      "title": "Warhammer 40,000: Dark Heresy will let us recruit a space el",
-      "category": "重磅新闻",
-      "summary": "What fun!",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/rpg/warhammer-40-000-dark-heresy-will-let-us-recruit-a-space-elf-pirate-and-one-of-the-holy-psychics-whose-lives-are-nasty-brutish-and-short/"
+      "title": "Rumour: Diablo IV Is Reportedly Coming To Switch 2 \"Very Soo",
+      "category": "爆料",
+      "summary": "According to a new \"exclusive\".Rumours about Blizzard's action-RPG Diablo IV coming to the Switch 2 have once again resurfaced. The latest update comes from an \"exclusive\" report by 'billbil-kun' of Dealabs.The website claims the Nintendo version of the game will arrive in the se",
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/08/rumour-diablo-iv-is-reportedly-coming-to-switch-2-very-soon"
     },
     {
-      "title": "Chris Pratt's 157-Minute Action Thriller Changed Hollywood F",
+      "title": "Marvel Tokon: Fighting Souls Review So Far",
       "category": "重磅新闻",
-      "summary": "Before Guardians of the Galaxy, Chris Pratt proved his action-star potential in Zero Dark Thirty, now streaming on Netflix.",
+      "summary": "Tokon seems primed to live up to the legacy of Marvel fighting.",
+      "source": "IGN",
+      "url": "https://www.ign.com/articles/marvel-tokon-fighting-souls-review"
+    },
+    {
+      "title": "Minecraft Arrives On Switch 2 This October, Digital Upgrade ",
+      "category": "重磅新闻",
+      "summary": "Featuring the Vibrant Visuals graphics upgrade.If you've been eager to revisit the blocky world of Minecraft on Switch 2, Mojang has now confirmed this version will be arriving on 27th October 2026.Once again, the Switch 2 release will support the Vibrant Visuals graphics upgrade",
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/08/minecraft-arrives-on-switch-2-this-october-digital-upgrade-path-confirmed"
+    },
+    {
+      "title": "Halo 4 Still Holds Up As The Best Halo Game Ever, 14 Years L",
+      "category": "重磅新闻",
+      "summary": "Halo 4 is still the best game in the series, despite never getting the full reappraisal Halo games typically do in years after their release.",
       "source": "Polygon",
-      "url": "https://www.polygon.com/chris-pratt-zero-dark-thirty-netflix-august-2026/"
+      "url": "https://www.polygon.com/halo-4-best-halo-game/"
     },
     {
-      "title": "Director Eli Roth seems to think the Borderlands movie sucke",
-      "category": "行业活动",
-      "summary": "The budget blew out, and so did the scrutiny of executives.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/movies-tv/director-eli-roth-seems-to-think-the-borderlands-movie-sucked-too-you-got-something-that-belonged-to-nobody/"
+      "title": "Christopher Nolan Reveals Genius Reason He Cast Tom Holland ",
+      "category": "重磅新闻",
+      "summary": "In a new behind-the-scenes book, Christopher Nolan reveals why he chose Peter Parker to play the prince of Ithaca",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/the-odyssey-christopher-nolan-book-casting-interviews/"
     },
     {
-      "title": "PSA: Final Fantasy XIV Getting Switch 2 Update To Address Pr",
-      "category": "发售定档",
-      "summary": "An updated version is already in testing.Final Fantasy XIV Online is out now for the Switch 2, and like all good MMO launches, it seems there are some teething issues.Square Enix has identified a prolonged loading bug in this version of the game, with a notice on the official gam",
+      "title": "Virtual Boy Cardboard Model Gets A Limited-Time Discount In ",
+      "category": "游戏更新",
+      "summary": "Update: Discount now live in the UK and Europe.:Following the news that two previously unreleased Virtual Boy titles would be joining the 'Nintendo Classics' service next week, Nintendo has now announced a limited-time discount on its cardboard headset in select locations.Read th",
       "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/08/psa-final-fantasy-xiv-getting-switch-2-update-to-address-prolonged-loading"
+      "url": "https://www.nintendolife.com/news/2026/08/virtual-boy-cardboard-model-gets-a-limited-time-discount-in-select-locations"
     },
     {
-      "title": "These Lord of the Rings 3D Maps Are an Incredible Gift Idea ",
+      "title": "Another Way To Play Big Walk Is Already In The Works",
       "category": "重磅新闻",
-      "summary": "These Lord of the Rings 3D Maps Are an Incredible Gift Idea for Tolkien Fans",
-      "source": "IGN",
-      "url": "https://www.ign.com/articles/lord-of-the-rings-3d-maps-of-middle-earth-gift-idea-2026"
+      "summary": "House House's critically acclaimed co-op puzzle-solving game Big Walk has only been out for two days, but one modder is taking it upon themselves to add a new dimension to the gameplay. Independent solo developer CircuitLord has announced that they are developing a VR mod for Big",
+      "source": "GameSpot",
+      "url": "https://www.gamespot.com/articles/another-way-to-play-big-walk-is-already-in-the-works/"
     },
     {
-      "title": "Embrace the great Tech Pause",
+      "title": "Kingdom Come: Deliverance star is opening a real 'medieval-i",
       "category": "重磅新闻",
-      "summary": "It's a great time to enjoy the stuff we already have.",
+      "summary": "Nobleman—proprietor Hans Capon, aka Luke Dale—will open to the public in October.",
       "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/gaming-industry/embrace-the-great-tech-pause/"
+      "url": "https://www.pcgamer.com/games/rpg/kingdom-come-deliverance-star-is-opening-a-real-medieval-inspired-bar-in-prague/"
     },
     {
-      "title": "Halo: Campaign Evolved Reportedly Had a Troubled Development",
+      "title": "GTA 5 Actor Auditioned for 60 Roles in GTA 6, But Heard Noth",
       "category": "重磅新闻",
-      "summary": "A new report suggests that Halo: Campaign Evolved had a fairly troubled development.",
+      "summary": "Actor Robert Bogue, who played FIB agent Steve Haines in Grand Theft Auto 5, says he auditioned for 60 roles in GTA 6, but he was ultimately ignored by Rockstar Games.",
       "source": "IGN",
-      "url": "https://www.ign.com/articles/halo-campaign-evolved-reportedly-had-a-troubled-development-that-impacted-a-now-canceled-multiplayer-project"
+      "url": "https://www.ign.com/articles/gta-5-actor-auditioned-for-60-roles-in-gta-6-but-heard-nothing-from-rockstar"
     },
     {
-      "title": "'I was this close': Teenage dev's $200 joke game made nearly",
+      "title": "Beast Of Reincarnation Isn’t A Pokémon Game, But It Kind Of ",
       "category": "重磅新闻",
-      "summary": "Game dev Michael Major ultimately ended up with a little over $2,000 for his efforts, which still isn't bad for a teenager's gag.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/i-was-this-close-teenage-devs-usd200-joke-game-made-nearly-usd1-4-million-on-steam-before-the-refunds-came-flooding-in/"
-    },
-    {
-      "title": "PSA: Final Fantasy 14 Is Out Now On Nintendo Switch 2 But Yo",
-      "category": "发售定档",
-      "summary": "Hope you have that meme memorized because it's relevant again; something something free trial something something",
+      "summary": "The themes of the Pokémon universe are still very much present in Game Freak’s latest",
       "source": "Kotaku",
-      "url": "https://kotaku.com/final-fantasy-14-free-trial-nintendo-switch-2-2000721658"
+      "url": "https://kotaku.com/beast-of-reincarnation-creatures-animals-pokemon-rpg-2000722004"
     }
   ],
   "studios": [
     {
       "company": "任天堂",
-      "title": "Super Mario 40th Anniversary Gift Card & Collectible Case No",
-      "summary": "Includes a $100 eShop card.Nintendo's 40th anniversary celebrations for Super Mario continue, with a new item now available on its store in the US.Read the full article on nintendolife.com",
+      "title": "Fire Emblem: Fortune's Weave Is Getting A Manga Series, Here",
+      "summary": "The game arrives on Switch 2 this September.Promotional artwork for the gameFollowing the Direct this week, Nintendo has announced Fire Emblem: Fortune's Weave will be getting its own manga adaptation.Read the full article on nintendolife.com",
       "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/08/super-mario-40th-anniversary-gift-card-and-collectible-case-now-available-on-nintendo-store-us"
+      "url": "https://www.nintendolife.com/news/2026/08/fire-emblem-fortunes-weave-is-getting-a-manga-series-heres-the-key-art"
     },
     {
-      "company": "索尼 / SIE",
-      "title": "Big Walk Just Hit A Major Milestone On PS Plus",
-      "summary": "It's been nearly seven years since developer House House released its breakthrough title, Untitled Goose Game. The company's follow-up, a co-op puzzle-solving game called Big Walk, is out now, and it's already achieved an unexpected critical milestone on PlayStation Plus Essentia",
-      "source": "GameSpot",
-      "url": "https://www.gamespot.com/articles/big-walk-just-hit-a-major-milestone-on-ps-plus/"
+      "company": "微软 / Xbox",
+      "title": "Former Bethesda lead artist is looking forward to Fallout 3'",
+      "summary": "\"And you could only place so many lights.\"",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/fallout/former-bethesda-lead-artist-is-looking-forward-to-fallout-3s-remaster-because-the-game-they-released-was-100-percent-not-what-we-intended-and-it-was-very-very-constrained/"
+    },
+    {
+      "company": "Take-Two / Rockstar",
+      "title": "What happens after GTA 6?",
+      "summary": "With the industry in flux, will Rockstar's big one create more chaos or calm things down? Probably neither.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/what-happens-after-gta-6/"
     },
     {
       "company": "EA / 美国艺电",
-      "title": "The deal is done: Electronic Arts is now officially owned by",
-      "summary": "Right on schedule.",
+      "title": "The guy in charge of EA Sports is now in charge of EA everyt",
+      "summary": "With EA's acquisition by Saudi Arabia now complete, there have been a couple changes at the top.",
       "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/gaming-industry/the-deal-is-done-electronic-arts-is-now-officially-owned-by-saudi-arabia/"
+      "url": "https://www.pcgamer.com/gaming-industry/the-guy-in-charge-of-ea-sports-is-now-in-charge-of-ea-everything/"
+    },
+    {
+      "company": "索尼 / SIE",
+      "title": "Halo On PS5 Is Off To A Slow Start, Expert Says",
+      "summary": "For the first time ever, a Halo game is available on PlayStation with Halo: Campaign Evolved. The game is having a \"notably slow start\" on Sony's console in terms of sales, however, according to gaming analyst Rhys Elliott. He estimated that Campaign Evolved sold 351,000 copies o",
+      "source": "GameSpot",
+      "url": "https://www.gamespot.com/articles/halo-on-ps5-is-off-to-a-slow-start-expert-says/"
+    },
+    {
+      "company": "育碧 / Ubisoft",
+      "title": "Assassin's Creed Valhalla director comes back to Ubisoft to ",
+      "summary": "Eric Baptizat is back.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/assassins-creed/assassins-creed-valhalla-director-comes-back-to-ubisoft-to-be-game-director-for-the-entire-brand/"
+    },
+    {
+      "company": "Epic Games",
+      "title": "The Ironmouse Sprite Is Live Now In Fortnite, But It Seems T",
+      "summary": "Ironmouse's Sprite is now available to claim in Fortnite, but it seems there could be more on the way as the popular VTuber teased some further content for September. On a recent stream, when asked about whether she would be releasing a Fortnite skin, Ironmouse said, \"Just a Spri",
+      "source": "GameSpot",
+      "url": "https://www.gamespot.com/articles/the-ironmouse-sprite-is-live-now-in-fortnite-but-it-seems-theres-more-to-come/"
     },
     {
       "company": "Valve",
@@ -341,25 +369,11 @@
       "url": "https://www.pcgamer.com/games/moba/deadlocks-new-ranked-mode-is-driving-players-mad-as-they-try-to-escape-the-casual-modes-and-climb-back-to-where-they-were/"
     },
     {
-      "company": "Take-Two / Rockstar",
-      "title": "'Grand Theft Auto 6' Is to Blame for 'Danganronpa 2x2's Dela",
-      "summary": "A developer on Spike Chunsoft's remake of the cult mystery visual novel says the game was delayed so he could play the next Grand Theft Auto",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/danganronpa-2x2-writer-delayed-game-to-play-grand-theft-auto-6/"
-    },
-    {
       "company": "卡普空 / Capcom",
       "title": "Capcom Is Making a Life-Sized Leon Kennedy Statue for Reside",
       "summary": "Capcom is preparing for Resident Evil’s 30th anniversary exhibition in Shibuya, and to celebrate, it’s commissioning a life-sized statue of the beloved horror series’ poster boy, Leon S. Kennedy.",
       "source": "IGN",
       "url": "https://www.ign.com/articles/capcom-is-making-a-life-sized-leon-kennedy-statue-for-resident-evils-30th-anniversary-and-of-course-the-internet-is-being-totally-normal-about-it"
-    },
-    {
-      "company": "微软 / Xbox",
-      "title": "Gears of War: E-Day Open Beta Leads Xbox Game Pass August 20",
-      "summary": "The first half of August will see a long list of games join Xbox Game Pass, as well as the Gears of War: E-Day open beta for Game Pass Ultimate or PC Game Pass subscribers.",
-      "source": "IGN",
-      "url": "https://www.ign.com/articles/gears-of-war-e-day-open-beta-leads-xbox-game-pass-august-2026-lineup"
     }
   ]
 }
