@@ -38,9 +38,9 @@
       "html_url": "https://github.com/Panniantong/Agent-Reach"
     },
     "TencentCloud/TencentDB-Agent-Memory": {
-      "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 2803,
+      "best_rank": 1,
+      "appearances": 4,
+      "total_today_stars": 4695,
       "language": "TypeScript",
       "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
@@ -57,8 +57,8 @@
     },
     "NousResearch/hermes-agent": {
       "best_rank": 7,
-      "appearances": 3,
-      "total_today_stars": 1706,
+      "appearances": 4,
+      "total_today_stars": 2307,
       "language": "Python",
       "description": "The agent that grows with you",
       "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
@@ -92,9 +92,9 @@
       "html_url": "https://github.com/abus-aikorea/voice-pro"
     },
     "esengine/DeepSeek-Reasonix": {
-      "best_rank": 6,
-      "appearances": 3,
-      "total_today_stars": 2138,
+      "best_rank": 5,
+      "appearances": 4,
+      "total_today_stars": 2885,
       "language": "Go",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18465053?v=4",
@@ -155,9 +155,9 @@
       "html_url": "https://github.com/yt-dlp/yt-dlp"
     },
     "can1357/oh-my-pi": {
-      "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 516,
+      "best_rank": 10,
+      "appearances": 3,
+      "total_today_stars": 879,
       "language": "TypeScript",
       "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11807264?v=4",
@@ -209,9 +209,9 @@
       "html_url": "https://github.com/decolua/9router"
     },
     "multica-ai/multica": {
-      "best_rank": 14,
-      "appearances": 2,
-      "total_today_stars": 549,
+      "best_rank": 13,
+      "appearances": 3,
+      "total_today_stars": 881,
       "language": "Go",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
@@ -228,8 +228,8 @@
     },
     "firecrawl/pdf-inspector": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 4239,
+      "appearances": 3,
+      "total_today_stars": 5821,
       "language": "Rust",
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
@@ -246,8 +246,8 @@
     },
     "Alishahryar1/free-claude-code": {
       "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 729,
+      "appearances": 3,
+      "total_today_stars": 941,
       "language": "Python",
       "description": "Use Claude Code, Codex and Pi for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -255,8 +255,8 @@
     },
     "donnemartin/system-design-primer": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 874,
+      "appearances": 3,
+      "total_today_stars": 1177,
       "language": "Python",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5458997?v=4",
@@ -336,8 +336,8 @@
     },
     "usestrix/strix": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 984,
+      "appearances": 2,
+      "total_today_stars": 1873,
       "language": "Python",
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
@@ -345,8 +345,8 @@
     },
     "huangruiteng/loopx": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 585,
+      "appearances": 2,
+      "total_today_stars": 911,
       "language": "Python",
       "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14976749?v=4",
@@ -362,9 +362,9 @@
       "html_url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
     },
     "browser-use/video-use": {
-      "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 320,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 925,
       "language": "Python",
       "description": "Edit videos with coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
@@ -372,8 +372,8 @@
     },
     "byoungd/up": {
       "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 205,
+      "appearances": 2,
+      "total_today_stars": 325,
       "language": "JavaScript",
       "description": "An advanced guide which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语",
       "owner_avatar": "https://avatars.githubusercontent.com/u/16145783?v=4",
@@ -390,8 +390,8 @@
     },
     "superplanehq/superplane": {
       "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 177,
+      "appearances": 2,
+      "total_today_stars": 275,
       "language": "Go",
       "description": "The open source control plane for agentic engineering.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/210748804?v=4",
@@ -407,9 +407,9 @@
       "html_url": "https://github.com/facebook/astryx"
     },
     "uber/ADR": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 148,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 502,
       "language": "Python",
       "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/538264?v=4",
@@ -432,6 +432,105 @@
       "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5697919?v=4",
       "html_url": "https://github.com/alirezarezvani/claude-skills"
+    },
+    "cloudflare/computer": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 891,
+      "language": "TypeScript",
+      "description": "Give your agent a computer 👾",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
+      "html_url": "https://github.com/cloudflare/computer"
+    },
+    "pbakaus/impeccable": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 645,
+      "language": "JavaScript",
+      "description": "The design language that makes your AI harness better at design.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
+      "html_url": "https://github.com/pbakaus/impeccable"
+    },
+    "tailwindlabs/tailwindcss": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 408,
+      "language": "TypeScript",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/67109815?v=4",
+      "html_url": "https://github.com/tailwindlabs/tailwindcss"
+    },
+    "blader/humanizer": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 355,
+      "language": "Python",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1672?v=4",
+      "html_url": "https://github.com/blader/humanizer"
+    },
+    "openai/codex": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 268,
+      "language": "Rust",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/codex"
+    },
+    "Comfy-Org/ComfyUI": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 237,
+      "language": "Python",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/166579949?v=4",
+      "html_url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    "addyosmani/agent-skills": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 226,
+      "language": "JavaScript",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
+      "html_url": "https://github.com/addyosmani/agent-skills"
+    },
+    "cypress-io/cypress": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 200,
+      "language": "TypeScript",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/8908513?v=4",
+      "html_url": "https://github.com/cypress-io/cypress"
+    },
+    "angular/angular": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 197,
+      "language": "TypeScript",
+      "description": "Deliver web apps with confidence 🚀",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/139426?v=4",
+      "html_url": "https://github.com/angular/angular"
+    },
+    "roboflow/supervision": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 146,
+      "language": "Python",
+      "description": "We write your reusable computer vision tools. 💜",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/53104118?v=4",
+      "html_url": "https://github.com/roboflow/supervision"
+    },
+    "rust-lang/rust": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 96,
+      "language": "Rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5430905?v=4",
+      "html_url": "https://github.com/rust-lang/rust"
     }
   }
 }

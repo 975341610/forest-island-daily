@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-06": {
-      "openai/codex-plugin-cc": 1,
-      "usestrix/strix": 2,
-      "alibaba/page-agent": 3,
-      "facebook/astryx": 4,
-      "cheahjs/free-llm-api-resources": 5,
-      "immich-app/immich": 6,
-      "rommapp/romm": 7,
-      "alirezarezvani/claude-skills": 8,
-      "bradautomates/claude-video": 9,
-      "public-apis/public-apis": 10,
-      "harvard-edge/cs249r_book": 11,
-      "TauricResearch/TradingAgents": 12,
-      "ChromeDevTools/chrome-devtools-mcp": 13,
-      "dotnet/skills": 14,
-      "karpathy/nanoGPT": 15,
-      "mvanhorn/last30days-skill": 16,
-      "pbakaus/impeccable": 17,
-      "ruvnet/RuView": 18,
-      "anthropics/claude-code": 19,
-      "can1357/oh-my-pi": 20,
-      "Comfy-Org/ComfyUI": 21,
-      "HalFrgrd/flyline": 22,
-      "Wei-Shaw/sub2api": 23,
-      "esengine/DeepSeek-Reasonix": 24,
-      "ollama/ollama": 25
-    },
     "2026-07-07": {
       "addyosmani/agent-skills": 1,
       "openai/codex-plugin-cc": 2,
@@ -836,6 +809,33 @@
       "K-Dense-AI/scientific-agent-skills": 23,
       "gastownhall/beads": 24,
       "alirezarezvani/claude-skills": 25
+    },
+    "2026-08-06": {
+      "TencentCloud/TencentDB-Agent-Memory": 1,
+      "firecrawl/pdf-inspector": 2,
+      "cloudflare/computer": 3,
+      "usestrix/strix": 4,
+      "esengine/DeepSeek-Reasonix": 5,
+      "pbakaus/impeccable": 6,
+      "browser-use/video-use": 7,
+      "NousResearch/hermes-agent": 8,
+      "tailwindlabs/tailwindcss": 9,
+      "can1357/oh-my-pi": 10,
+      "blader/humanizer": 11,
+      "uber/ADR": 12,
+      "multica-ai/multica": 13,
+      "huangruiteng/loopx": 14,
+      "donnemartin/system-design-primer": 15,
+      "openai/codex": 16,
+      "Comfy-Org/ComfyUI": 17,
+      "addyosmani/agent-skills": 18,
+      "Alishahryar1/free-claude-code": 19,
+      "cypress-io/cypress": 20,
+      "angular/angular": 21,
+      "roboflow/supervision": 22,
+      "byoungd/up": 23,
+      "superplanehq/superplane": 24,
+      "rust-lang/rust": 25
     }
   }
 }
