@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-07": {
-      "addyosmani/agent-skills": 1,
-      "openai/codex-plugin-cc": 2,
-      "alibaba/page-agent": 3,
-      "firecrawl/firecrawl": 4,
-      "alirezarezvani/claude-skills": 5,
-      "immich-app/immich": 6,
-      "ruvnet/RuView": 7,
-      "mvanhorn/last30days-skill": 8,
-      "bradautomates/claude-video": 9,
-      "cheahjs/free-llm-api-resources": 10,
-      "alibaba/zvec": 11,
-      "public-apis/public-apis": 12,
-      "TauricResearch/TradingAgents": 13,
-      "decolua/9router": 14,
-      "gastownhall/gastown": 15,
-      "kenn-io/agentsview": 16,
-      "karakeep-app/karakeep": 17,
-      "Alishahryar1/free-claude-code": 18,
-      "microsoft/qlib": 19,
-      "rust-lang/rust": 20,
-      "crynta/terax-ai": 21,
-      "golang/go": 22,
-      "ChromeDevTools/chrome-devtools-mcp": 23,
-      "anthropics/financial-services": 24,
-      "ComposioHQ/awesome-claude-skills": 25
-    },
     "2026-07-08": {
       "MadsLorentzen/ai-job-search": 1,
       "addyosmani/agent-skills": 2,
@@ -836,6 +809,33 @@
       "byoungd/up": 23,
       "superplanehq/superplane": 24,
       "rust-lang/rust": 25
+    },
+    "2026-08-07": {
+      "cloudflare/computer": 1,
+      "firecrawl/pdf-inspector": 2,
+      "TencentCloud/TencentDB-Agent-Memory": 3,
+      "esengine/DeepSeek-Reasonix": 4,
+      "huangruiteng/loopx": 5,
+      "donnemartin/system-design-primer": 6,
+      "NousResearch/hermes-agent": 7,
+      "addyosmani/agent-skills": 8,
+      "usestrix/strix": 9,
+      "freestylefly/awesome-gpt-image-2": 10,
+      "CherryHQ/cherry-studio": 11,
+      "uber/ADR": 12,
+      "multica-ai/multica": 13,
+      "vercel/next.js": 14,
+      "browser-use/video-use": 15,
+      "TapXWorld/ChinaTextbook": 16,
+      "iOfficeAI/AionUi": 17,
+      "K-Dense-AI/scientific-agent-skills": 18,
+      "SimplifyJobs/Summer2027-Internships": 19,
+      "ComposioHQ/awesome-claude-skills": 20,
+      "makeplane/plane": 21,
+      "KnockOutEZ/wigolo": 22,
+      "microsoft/vscode": 23,
+      "infiniflow/ragflow": 24,
+      "Unclecheng-li/VulnClaw": 25
     }
   }
 }

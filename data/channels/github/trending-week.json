@@ -39,8 +39,8 @@
     },
     "TencentCloud/TencentDB-Agent-Memory": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 4695,
+      "appearances": 5,
+      "total_today_stars": 5752,
       "language": "TypeScript",
       "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
@@ -57,8 +57,8 @@
     },
     "NousResearch/hermes-agent": {
       "best_rank": 7,
-      "appearances": 4,
-      "total_today_stars": 2307,
+      "appearances": 5,
+      "total_today_stars": 2917,
       "language": "Python",
       "description": "The agent that grows with you",
       "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
@@ -92,9 +92,9 @@
       "html_url": "https://github.com/abus-aikorea/voice-pro"
     },
     "esengine/DeepSeek-Reasonix": {
-      "best_rank": 5,
-      "appearances": 4,
-      "total_today_stars": 2885,
+      "best_rank": 4,
+      "appearances": 5,
+      "total_today_stars": 3773,
       "language": "Go",
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18465053?v=4",
@@ -210,8 +210,8 @@
     },
     "multica-ai/multica": {
       "best_rank": 13,
-      "appearances": 3,
-      "total_today_stars": 881,
+      "appearances": 4,
+      "total_today_stars": 1155,
       "language": "Go",
       "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
@@ -228,8 +228,8 @@
     },
     "firecrawl/pdf-inspector": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 5821,
+      "appearances": 4,
+      "total_today_stars": 7011,
       "language": "Rust",
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
@@ -254,9 +254,9 @@
       "html_url": "https://github.com/Alishahryar1/free-claude-code"
     },
     "donnemartin/system-design-primer": {
-      "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 1177,
+      "best_rank": 6,
+      "appearances": 4,
+      "total_today_stars": 1910,
       "language": "Python",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5458997?v=4",
@@ -299,9 +299,9 @@
       "html_url": "https://github.com/livekit/agents"
     },
     "K-Dense-AI/scientific-agent-skills": {
-      "best_rank": 22,
-      "appearances": 2,
-      "total_today_stars": 233,
+      "best_rank": 18,
+      "appearances": 3,
+      "total_today_stars": 334,
       "language": "Python",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 170,000+ scientists worldwide. 158 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
@@ -336,17 +336,17 @@
     },
     "usestrix/strix": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1873,
+      "appearances": 3,
+      "total_today_stars": 2365,
       "language": "Python",
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
       "html_url": "https://github.com/usestrix/strix"
     },
     "huangruiteng/loopx": {
-      "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 911,
+      "best_rank": 5,
+      "appearances": 3,
+      "total_today_stars": 1758,
       "language": "Python",
       "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14976749?v=4",
@@ -363,8 +363,8 @@
     },
     "browser-use/video-use": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 925,
+      "appearances": 3,
+      "total_today_stars": 1110,
       "language": "Python",
       "description": "Edit videos with coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
@@ -408,8 +408,8 @@
     },
     "uber/ADR": {
       "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 502,
+      "appearances": 3,
+      "total_today_stars": 791,
       "language": "Python",
       "description": "ADR secures enterprise AI agents through observability, security benchmarking, and threat detection. Deployed at Uber.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/538264?v=4",
@@ -434,9 +434,9 @@
       "html_url": "https://github.com/alirezarezvani/claude-skills"
     },
     "cloudflare/computer": {
-      "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 891,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 3693,
       "language": "TypeScript",
       "description": "Give your agent a computer 👾",
       "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -488,9 +488,9 @@
       "html_url": "https://github.com/Comfy-Org/ComfyUI"
     },
     "addyosmani/agent-skills": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 226,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 819,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -531,6 +531,114 @@
       "description": "Empowering everyone to build reliable and efficient software.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5430905?v=4",
       "html_url": "https://github.com/rust-lang/rust"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 457,
+      "language": "JavaScript",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43960064?v=4",
+      "html_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    "CherryHQ/cherry-studio": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 328,
+      "language": "TypeScript",
+      "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to frontier LLMs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/187777663?v=4",
+      "html_url": "https://github.com/CherryHQ/cherry-studio"
+    },
+    "vercel/next.js": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 228,
+      "language": "JavaScript",
+      "description": "The React Framework",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14985020?v=4",
+      "html_url": "https://github.com/vercel/next.js"
+    },
+    "TapXWorld/ChinaTextbook": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 134,
+      "language": "Roff",
+      "description": "所有小初高、大学PDF教材。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/3353541?v=4",
+      "html_url": "https://github.com/TapXWorld/ChinaTextbook"
+    },
+    "iOfficeAI/AionUi": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 105,
+      "language": "TypeScript",
+      "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up ｜Star if you like it!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/145246968?v=4",
+      "html_url": "https://github.com/iOfficeAI/AionUi"
+    },
+    "SimplifyJobs/Summer2027-Internships": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 97,
+      "language": "Python",
+      "description": "Summer 2026 software engineering, data science, AI, quant, product management, and hardware internship postings. Updated daily by Simplify and Pitt CSC.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/63759855?v=4",
+      "html_url": "https://github.com/SimplifyJobs/Summer2027-Internships"
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 96,
+      "language": "Python",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
+      "html_url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    "makeplane/plane": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 95,
+      "language": "TypeScript",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/115727700?v=4",
+      "html_url": "https://github.com/makeplane/plane"
+    },
+    "KnockOutEZ/wigolo": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 88,
+      "language": "TypeScript",
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/70368615?v=4",
+      "html_url": "https://github.com/KnockOutEZ/wigolo"
+    },
+    "microsoft/vscode": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 86,
+      "language": "TypeScript",
+      "description": "Visual Studio Code",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/vscode"
+    },
+    "infiniflow/ragflow": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 75,
+      "language": "Go",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/69962740?v=4",
+      "html_url": "https://github.com/infiniflow/ragflow"
+    },
+    "Unclecheng-li/VulnClaw": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 64,
+      "language": "Python",
+      "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/55303635?v=4",
+      "html_url": "https://github.com/Unclecheng-li/VulnClaw"
     }
   }
 }
