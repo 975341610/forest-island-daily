@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-08": {
-      "MadsLorentzen/ai-job-search": 1,
-      "addyosmani/agent-skills": 2,
-      "ruvnet/RuView": 3,
-      "bradautomates/claude-video": 4,
-      "iOfficeAI/OfficeCLI": 5,
-      "NousResearch/hermes-agent": 6,
-      "TencentCloud/CubeSandbox": 7,
-      "mvanhorn/last30days-skill": 8,
-      "TencentCloud/TencentDB-Agent-Memory": 9,
-      "kyutai-labs/pocket-tts": 10,
-      "openai/codex-plugin-cc": 11,
-      "alirezarezvani/claude-skills": 12,
-      "karakeep-app/karakeep": 13,
-      "anthropics/skills": 14,
-      "cheahjs/free-llm-api-resources": 15,
-      "decolua/9router": 16,
-      "alibaba/page-agent": 17,
-      "gastownhall/gastown": 18,
-      "immich-app/immich": 19,
-      "Wei-Shaw/sub2api": 20,
-      "t8y2/dbx": 21,
-      "tonhowtf/omniget": 22,
-      "n8n-io/n8n": 23,
-      "kenn-io/agentsview": 24,
-      "lessweb/deepcode-cli": 25
-    },
     "2026-07-09": {
       "MadsLorentzen/ai-job-search": 1,
       "iOfficeAI/OfficeCLI": 2,
@@ -836,6 +809,33 @@
       "microsoft/vscode": 23,
       "infiniflow/ragflow": 24,
       "Unclecheng-li/VulnClaw": 25
+    },
+    "2026-08-08": {
+      "PrimeIntellect-ai/prime-agent": 1,
+      "TencentCloud/TencentDB-Agent-Memory": 2,
+      "addyosmani/agent-skills": 3,
+      "cloudflare/computer": 4,
+      "esengine/DeepSeek-Reasonix": 5,
+      "huangruiteng/loopx": 6,
+      "firecrawl/firecrawl": 7,
+      "denoland/celld": 8,
+      "earendil-works/pi": 9,
+      "pbakaus/impeccable": 10,
+      "Significant-Gravitas/AutoGPT": 11,
+      "Comfy-Org/ComfyUI": 12,
+      "google/skills": 13,
+      "donnemartin/system-design-primer": 14,
+      "openai/codex": 15,
+      "freestylefly/awesome-gpt-image-2": 16,
+      "Wei-Shaw/sub2api": 17,
+      "google/guava": 18,
+      "666ghj/MiroFish": 19,
+      "t8y2/dbx": 20,
+      "anthropics/claude-code": 21,
+      "tashfeenahmed/freellmapi": 22,
+      "K2SOsint/Legendary_OSINT": 23,
+      "CodebuffAI/freebuff": 24,
+      "agent-substrate/substrate": 25
     }
   }
 }
