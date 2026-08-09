@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-09": {
-      "MadsLorentzen/ai-job-search": 1,
-      "iOfficeAI/OfficeCLI": 2,
-      "addyosmani/agent-skills": 3,
-      "Diolinux/PhotoGIMP": 4,
-      "bradautomates/claude-video": 5,
-      "Graphify-Labs/graphify": 6,
-      "ruvnet/RuView": 7,
-      "kyutai-labs/pocket-tts": 8,
-      "TencentCloud/CubeSandbox": 9,
-      "yt-dlp/yt-dlp": 10,
-      "decolua/9router": 11,
-      "vxcontrol/pentagi": 12,
-      "pbakaus/impeccable": 13,
-      "alibaba/zvec": 14,
-      "mvanhorn/last30days-skill": 15,
-      "Egonex-AI/Understand-Anything": 16,
-      "TencentCloud/TencentDB-Agent-Memory": 17,
-      "microsoft/SkillOpt": 18,
-      "anthropics/claude-code": 19,
-      "alirezarezvani/claude-skills": 20,
-      "NVIDIA/SkillSpector": 21,
-      "jingyaogong/minimind": 22,
-      "byoungd/up": 23,
-      "dream-num/univer": 24,
-      "tinyhumansai/openhuman": 25
-    },
     "2026-07-10": {
       "MadsLorentzen/ai-job-search": 1,
       "addyosmani/agent-skills": 2,
@@ -836,6 +809,33 @@
       "K2SOsint/Legendary_OSINT": 23,
       "CodebuffAI/freebuff": 24,
       "agent-substrate/substrate": 25
+    },
+    "2026-08-09": {
+      "PrimeIntellect-ai/prime-agent": 1,
+      "cloudflare/computer": 2,
+      "addyosmani/agent-skills": 3,
+      "firecrawl/firecrawl": 4,
+      "google/skills": 5,
+      "denoland/celld": 6,
+      "666ghj/MiroFish": 7,
+      "huangruiteng/loopx": 8,
+      "can1357/oh-my-pi": 9,
+      "Significant-Gravitas/AutoGPT": 10,
+      "practical-tutorials/project-based-learning": 11,
+      "pingdotgg/t3code": 12,
+      "malisper/pgrust": 13,
+      "heygen-com/hyperframes": 14,
+      "TauricResearch/TradingAgents": 15,
+      "drawdb-io/drawdb": 16,
+      "TapXWorld/ChinaTextbook": 17,
+      "chenyme/grok2api": 18,
+      "rivet-dev/rivet": 19,
+      "bannedbook/fanqiang": 20,
+      "AgriciDaniel/claude-seo": 21,
+      "google/guava": 22,
+      "tashfeenahmed/freellmapi": 23,
+      "sysadminsmedia/homebox": 24,
+      "Wei-Shaw/sub2api": 25
     }
   }
 }
