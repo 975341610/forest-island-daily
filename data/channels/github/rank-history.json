@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-10": {
-      "MadsLorentzen/ai-job-search": 1,
-      "addyosmani/agent-skills": 2,
-      "iOfficeAI/OfficeCLI": 3,
-      "jamiepine/voicebox": 4,
-      "Graphify-Labs/graphify": 5,
-      "stablyai/orca": 6,
-      "bradautomates/claude-video": 7,
-      "ruvnet/RuView": 8,
-      "TencentCloud/TencentDB-Agent-Memory": 9,
-      "vxcontrol/pentagi": 10,
-      "SmartlyDressedGames/U3-SDK": 11,
-      "TencentCloud/CubeSandbox": 12,
-      "pbakaus/impeccable": 13,
-      "prisma/prisma": 14,
-      "openai/codex": 15,
-      "decolua/9router": 16,
-      "microsoft/SkillOpt": 17,
-      "can1357/oh-my-pi": 18,
-      "kyutai-labs/pocket-tts": 19,
-      "wealthfolio/wealthfolio": 20,
-      "fqscfqj/Y2A-Auto": 21,
-      "roboflow/supervision": 22,
-      "anthropics/claude-cookbooks": 23,
-      "t8y2/dbx": 24,
-      "bytedance/deer-flow": 25
-    },
     "2026-07-11": {
       "iOfficeAI/OfficeCLI": 1,
       "addyosmani/agent-skills": 2,
@@ -836,6 +809,33 @@
       "tashfeenahmed/freellmapi": 23,
       "sysadminsmedia/homebox": 24,
       "Wei-Shaw/sub2api": 25
+    },
+    "2026-08-10": {
+      "PrimeIntellect-ai/prime-agent": 1,
+      "addyosmani/agent-skills": 2,
+      "TauricResearch/TradingAgents": 3,
+      "google/skills": 4,
+      "cloudflare/computer": 5,
+      "denoland/celld": 6,
+      "Comfy-Org/ComfyUI": 7,
+      "ZhuLinsen/daily_stock_analysis": 8,
+      "garrytan/gstack": 9,
+      "pingdotgg/t3code": 10,
+      "ruvnet/RuView": 11,
+      "stanfordnlp/dspy": 12,
+      "CodebuffAI/freebuff": 13,
+      "google-deepmind/weathernext": 14,
+      "ollama/ollama": 15,
+      "Mininglamp-OSS/octo-web": 16,
+      "Anil-matcha/Open-Generative-AI": 17,
+      "vectorize-io/hindsight": 18,
+      "rorkai/App-Store-Connect-CLI": 19,
+      "browseros-ai/BrowserOS": 20,
+      "aceberg/WatchYourLAN": 21,
+      "sysadminsmedia/homebox": 22,
+      "malisper/pgrust": 23,
+      "drawdb-io/drawdb": 24,
+      "funstory-ai/BabelDOC": 25
     }
   }
 }
