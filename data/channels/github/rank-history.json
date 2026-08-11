@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-11": {
-      "iOfficeAI/OfficeCLI": 1,
-      "addyosmani/agent-skills": 2,
-      "vxcontrol/pentagi": 3,
-      "jamiepine/voicebox": 4,
-      "iptv-org/iptv": 5,
-      "openai/codex": 6,
-      "pbakaus/impeccable": 7,
-      "TencentCloud/CubeSandbox": 8,
-      "prisma/prisma": 9,
-      "mvanhorn/last30days-skill": 10,
-      "decolua/9router": 11,
-      "t8y2/dbx": 12,
-      "roboflow/supervision": 13,
-      "oven-sh/bun": 14,
-      "juanfont/headscale": 15,
-      "golang/go": 16,
-      "kubernetes/kubernetes": 17,
-      "vercel/next.js": 18,
-      "huggingface/speech-to-speech": 19,
-      "microsoft/TypeScript": 20,
-      "rust-lang/rust": 21,
-      "hashicorp/terraform": 22,
-      "vuejs/vue": 23,
-      "ChromeDevTools/chrome-devtools-mcp": 24,
-      "tailscale/tailscale": 25
-    },
     "2026-07-12": {
       "malisper/pgrust": 1,
       "oven-sh/bun": 2,
@@ -836,6 +809,33 @@
       "malisper/pgrust": 23,
       "drawdb-io/drawdb": 24,
       "funstory-ai/BabelDOC": 25
+    },
+    "2026-08-11": {
+      "PrimeIntellect-ai/prime-agent": 1,
+      "Comfy-Org/ComfyUI": 2,
+      "firecrawl/firecrawl": 3,
+      "ZhuLinsen/daily_stock_analysis": 4,
+      "addyosmani/agent-skills": 5,
+      "google/skills": 6,
+      "brightdata/cli": 7,
+      "pingdotgg/t3code": 8,
+      "3b1b/manim": 9,
+      "google-deepmind/weathernext": 10,
+      "heygen-com/hyperframes": 11,
+      "paperclipai/paperclip": 12,
+      "byoungd/up": 13,
+      "stanfordnlp/dspy": 14,
+      "TauricResearch/TradingAgents": 15,
+      "denoland/celld": 16,
+      "drawdb-io/drawdb": 17,
+      "ruvnet/RuView": 18,
+      "vercel-labs/skills": 19,
+      "opa334/Dopamine": 20,
+      "ruvnet/ruflo": 21,
+      "ollama/ollama": 22,
+      "Anil-matcha/Open-Generative-AI": 23,
+      "reacherhq/check-if-email-exists": 24,
+      "cobusgreyling/loop-engineering": 25
     }
   }
 }
