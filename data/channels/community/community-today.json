@@ -1,116 +1,116 @@
 {
-  "date": "2026-08-11",
-  "generated_at": "2026-08-11T08:10:00+08:00",
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T08:10:00+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
-      "platform": "Hacker News",
-      "author": "riordan",
-      "title": "Meta 开源 Muse Glimmer:30B 本地智能体模型",
-      "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "platform": "HN",
+      "author": "nateb2022",
+      "title": "LFM2.5-2.6B端侧智能体比肩4倍大模型",
+      "url": "https://news.ycombinator.com/item?id=49173107",
       "detail": [
-        "这条帖子指向 Meta 研究博客发布的 Muse Glimmer——一款 300 亿参数、专为“常驻本地智能体工作流”优化的开源模型。官方强调它针对端侧长时间运行、低延迟的 agent 场景做了调优,采用 Apache-2.0 许可,可在消费级显卡上部署,定位为兼顾工具调用与多轮推理的实用型开放权重模型。",
-        "帖子核心观点在于:Meta 高调回归“开放权重”阵营,并把重点从堆参数转向“可本地长驻运行的智能体能力”。社区讨论聚焦其在 HuggingFace 的 benchmark 表现、量化后显存占用,以及与 Qwen、Gemma 等开源系的正面竞争,不少人认为这是端侧 agent 生态的重要一步。",
-        "在 Hacker News 上该帖冲到约 1003 分,成为当日头条级热帖,评论区既有对 Meta 战略转向的赞赏,也有对“always-on 本地 agent”隐私与能耗的质疑。r/LocalLLaMA 等社区同步热议其实际可用性,多数人期待第三方独立评测来验证官方 benchmark 的水分。"
+        "Liquid AI在Hugging Face发布并登上Hacker News讨论的LFM2.5-2.6B,是一款主打完全在设备端运行的智能体模型,支持工具调用与多步工作流,却小到足以跑在笔记本乃至手机上。它基于高效的LFM2架构,预训练约34万亿tokens,中期训练把上下文窗口扩展到128K,后训练则通过监督微调、教师专精、多域策略蒸馏与真实智能体环境中的强化学习四阶段,把基座打磨成可靠的端侧智能体。",
+        "官方给出的基准显示,这个26亿参数模型在指令遵循与工具使用上全面压制约两倍于己的Gemma-4-E4B(8B),多数榜单甚至逼近9.7B的Qwen3.5:IFBench得59.17、Multi-IF达80.07、ToolSandbox为77.83。推理效率同样亮眼,苹果M5 Max上CPU解码220 tokens/秒,Ryzen AI上113 tokens/秒,仅需不到2.5GB内存;单张H100高并发下可达近1.5万tokens/秒,首日即支持llama.cpp、MLX、vLLM、SGLang与ONNX。",
+        "该发布在开发者社区引发关于端侧智能体经济性的讨论:数据隐私留在本地、免去云端推理账单,让高频智能体负载得以规模化,被视为把智能体框架塞进手机的关键一步。也有评论指出其唯一明显短板是编程能力仍落后于更大模型,官方坦承代码任务应改用更大模型,凸显小模型在agentic coding上的能力边界与取舍。"
       ],
-      "heat": "HN 约 1003 points"
+      "heat": "127 收藏 / HF 47.4k 下载"
     },
     {
-      "platform": "Hacker News",
-      "author": "root-parent",
-      "title": "扎克伯格抨击“封闭”AI 对手,Meta 重回开源",
-      "url": "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "platform": "HN",
+      "author": "frabonacci",
+      "title": "llama.cpp在macOS虚拟机提速11-16倍",
+      "url": "https://news.ycombinator.com/item?id=49259339",
       "detail": [
-        "这是《金融时报》报道,标题为扎克伯格公开抨击 OpenAI 等“封闭”AI 对手,宣布 Meta 重新押注开放权重模型路线。文章把此番表态与 Muse Glimmer 等新一轮开源发布联系起来,视为 Meta 在经历一段闭源摇摆后,重新以“开放”作为差异化竞争与生态号召的战略叙事。",
-        "帖子的核心争议点在于 Meta “开放”的真实动机:是理念坚持,还是商业上打不过闭源前沿模型后的策略性选择。评论区不少人指出,Llama 系列许可其实并非完全 OSI 意义上的开源,扎克伯格的“开放”更多是市场话术,用来对冲 OpenAI、Anthropic 在前沿模型上的领先。",
-        "在 HN 上该帖获得约 335 分、上百条评论,讨论从企业战略延伸到开源许可定义、监管与算力成本。支持者认为开放权重能加速端侧与研究生态,怀疑者则担心大厂用“开源”一词做营销,呼吁社区区分“开放权重”与“真正开源”的边界。"
+        "Cua团队(trycua)发布一项研究成果:苹果Virtualization.framework虚拟机里的macOS客户机,其虚拟GPU只上报保守的Metal能力档位,导致llama.cpp选择了较慢的内核路径。团队做了一个进程级的Metal能力垫片,只改写单个客户机进程读取到的能力应答,从而解锁更新的GPU执行路径,让本地大模型推理在虚拟机内大幅提速。",
+        "团队在M1 Ultra上实测:垫片把supportsFamily从苹果5族改报为9族,并把线程组内存上限从32KB提到64KB,启用了SIMD-group矩阵与bfloat16路径。TinyLlama 1.1B提示处理提速11.08倍、生成提速16.36倍;Gemma 4 12B分别提速7.20倍与14.54倍,提示速度达到裸机的99.59%,源码与原始基准日志全部开源可复现。",
+        "社区讨论热烈,有人率先指出该优化只对这种虚拟机内运行的llama.cpp有效,裸机不受影响,作者frabonacci确认并补充是虚拟机能力上报问题。有人追问苹果为何要限制虚拟GPU的Metal档位,也有人借机讨论CPU大内存与AMD 395+等本地推理硬件路线,帖子获得约258分、近40条评论。"
       ],
-      "heat": "HN 约 335 points，110+ 评论"
+      "heat": "258 分 / 39 评论"
     },
     {
-      "platform": "Hacker News",
-      "author": "kuberwastaken",
-      "title": "把 LLM 输出“伪装成人类”是愚蠢的",
-      "url": "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+      "platform": "HN",
+      "author": "HenryNdubuaku",
+      "title": "Needle2:14MB端侧智能体大模型开源",
+      "url": "https://news.ycombinator.com/item?id=49246804",
       "detail": [
-        "这是 19 岁 AI 开发者 Kuber Mehta 在个人博客 MindDump 发表的观点文,标题直言“把 LLM 输出人类化是愚蠢的”。他反对用 system prompt、skills 或规则强行让模型说话“更像人”、去除 AI 腔,认为这在编程 agent 等严肃场景里会掩盖模型真实能力,属于治标不治本的“创可贴”。",
-        "文章核心论点是:所谓“人类化”常常掩盖了失败信号(failure masking)与子智能体抽象带来的问题,让开发者误判模型状态。他主张与其粉饰输出风格,不如正视模型的错误与不确定性,把工程精力放在真正的可靠性与可观测性上,而非表面的语气包装。",
-        "该帖冲上 HN 首页约 141 分,引发关于“AI 味”、写作风格与产品体验的激辩。支持者认同过度拟人化是自欺欺人;反对者则认为在面向普通用户的产品中,可读性与语气仍有价值。作者本人也在 X 上同步分享,评论区延伸到 coding harness 的设计取舍。"
+        "Cactus团队创始人Henry在Hacker News发布Show HN,推出Needle 2——一个仅14MB、参数量4500万的开源智能体模型,专为手机、可穿戴设备、智能家居、机器人乃至微控制器等超低算力终端打造。它延续了团队此前26M版本的Simple Attention Network架构,整个模型是自包含的单文件二进制,无需运行时、无需联网下载,可跑在ARM64、x86、RISC-V及WebAssembly等平台上。",
+        "核心数据令人瞩目:模型经CQ2两比特量化,完整会话仅占28MB内存,在树莓派5上解码达500 tokens/秒,在Meta Quest 3S、Vision Pro等VR设备上跑到400至1500 tokens/秒,200美元以下的低端安卓机也能有300到700 tokens/秒。它在工具调用与设备操作基准上与体积大5到70倍的模型互有胜负,还内置了置信度门控与工具检索头,可按需升级到云端大模型。",
+        "帖子迅速冲上前排,收获120分与62条评论,社区热议其把边缘AI从Mac/PC拓展到全球数十亿台IoT设备的野心。有开发者惊叹能在ESP32微控制器上以11MB内存运行,也有人质疑45M参数是否只是花哨的函数调用器而非真正的智能体。作者强调工具调用本质是检索与拼装,无需世界知识,因此小模型足矣,并邀请大家本地微调验证。"
       ],
-      "heat": "HN 约 141 points"
+      "heat": "120 分 / 62 评论"
     }
   ],
   "topics": [
     {
-      "platform": "Hacker News",
-      "author": "Shrivu Shankar",
-      "title": "探测 Claude/GPT 的知识截止与预训练时间线",
-      "url": "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
+      "platform": "HN",
+      "author": "mikeayles",
+      "title": "250美元FPGA跑出2.1万tok/s微型LLM",
+      "url": "https://news.ycombinator.com/item?id=49242475",
       "detail": [
-        "Shrivu Shankar 在其 Substack 发表长文,通过“探测(probing)”前沿模型来反推它们的训练细节。他用维基百科每日事件构造多选题测知识截止、用分词行为推断数据混合、用自我认知问题估计训练时间线,把黑箱模型当作可实验的对象来逆向分析,方法论新颖且可复现。",
-        "核心发现颇具话题性:他推测 Anthropic 的 Opus 4.7 之后模型可能共享同一个截止约 2025 年底的预训练 run;OpenAI GPT-5.6 家族来自另一独立检查点;而 Opus 5 官方标称截止到 5 月却在探测中表现得像 1 月截止,存在“反常”。他还观察到 Claude 会自称是 GPT-4,暗示训练数据中混入了大量 ChatGPT 对话。",
-        "帖子在 HN 获得约 92 分并引发讨论,读者盛赞“仅靠推理就能榨出这么多信息”的巧思,也有人追问能否按医疗、编程等垂直领域分层分析新鲜度。评论区把话题延伸到模型身份污染、蒸馏与“训练于用户聊天记录”的行业惯例,兼具娱乐性与严肃的方法论价值。"
+        "独立开发者mikeayles受Taalas把Llama 8B烧进定制芯片的demo启发,用一块约250美元的赛灵思FPGA做了一次极限实验:把整个模型的权重全部塞进片上SRAM,彻底不碰DRAM,验证'推理瓶颈是读权重、那就别去远处取'这一核心论点在消费级硬件上能走多远。",
+        "受限于芯片仅约3MB片上空间,模型只有316万参数、按字符建模,单用户吞吐冲到约2.1万tok/s;作者实测p50延迟约23ms,压测2000并发时退化为可预期的排队而非崩塌,唯一异常是模型热切换需约25秒重新配置FPGA,期间请求被迫等待。",
+        "帖子登上HN Show版拿到74分、24条评论,讨论迅速聚焦FPGA与GPU、ASIC的能效之争:多数人认可这是对存内计算路线的精彩概念验证,也有人直言该模型输出基本是乱码、实用性存疑,作者坦承交付物是推理引擎本身而非模型。"
       ],
-      "heat": "HN 约 92 points，14 评论"
+      "heat": "74 分 / 24 评论"
     },
     {
-      "platform": "Hacker News",
-      "author": "danluu",
-      "title": "编程 Agent 最适合用哪种编程语言?",
-      "url": "http://danluu.com/pl-tokens/",
+      "platform": "博客",
+      "author": "Modular Team",
+      "title": "Mojo 1.0 正式发布",
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
       "detail": [
-        "知名工程博主 Dan Luu 发表长文,系统探讨“coding agent 最适合的编程语言”这一被反复引用的话题。他质疑此前流传的“动态语言 / 表达更简洁的语言更省 token”的结论,通过让 LLM 实现 Zstd 解码器、Pandoc 等较大规模真实任务来做实证评测,而非小型基准题。",
-        "文章的核心观点是:语言选择对 agent 的成败与成本影响很复杂。例如 C/C++ 版本容易出现越界读取等隐患,虽然模型几十秒就能发现,但修复要消耗大量 token,使其综合成本反超 Rust。他强调很多耗时其实来自反复调用工具(如 cargo 参数用错)被纠正的循环,而不只是语言本身。",
-        "该话题在 HN 引发讨论,读者围绕“静态 vs 动态”“token 效率 vs 正确性成本”争论。有预注册读者猜测“小规模动态占优、大规模静态反超”,与实测部分吻合。评论区普遍认可 Dan Luu 用真实大任务而非玩具基准的严谨态度,认为这类评测才更贴近日常 agent 编程的实际开销。"
+        "Modular于8月11日随26.5版本正式发布Mojo 1.0,标志着这门自2023年首次亮相、面向AI时代的系统级编程语言达到里程碑。官方称Mojo已从一门在内部快速迭代的语言,成长为支撑其商业基础设施MAX与Modular Cloud的生产级基石,如今终于向社区承诺一个稳定、可长期依赖的语言基础。",
+        "官方强调1.0进入稳定期后改动将以增量为主,破坏性变更会像C++等成熟语言那样谨慎管理。自标准库开源以来,近200名贡献者提交了逾1100个PR、改动超20万行代码。26.5还带来Python风格lambda内联闭包、更稳定的Mojo LSP、统一的var声明与单一Pointer类型,并新增对引用失效等内存安全问题的诊断。",
+        "消息在Hacker News上获得269分、120条评论,社区围绕Mojo能否兼顾Python易用性与系统级性能、其与Rust/C++的定位差异、以及闭源编译器与开源标准库的关系展开讨论。支持者视其为AI与GPU编程的重要基础设施,也有人对语言生态成熟度和长期治理保持观望。"
       ],
-      "heat": "HN 约 35 points，15 评论"
+      "heat": "269 分 / 120 评论"
     },
     {
-      "platform": "Hacker News",
-      "author": "cactuscompute",
-      "title": "Show HN:Needle2——14MB 手机端智能体 LLM",
-      "url": "https://cactuscompute.com/needle",
+      "platform": "博客",
+      "author": "NVIDIA",
+      "title": "NVIDIA助推开源本地AI模型与智能体",
+      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
       "detail": [
-        "Cactus Compute 在 Show HN 发布 Needle2,一款仅 14MB 的超小型智能体 LLM,主打在手机、可穿戴设备、智能家居和机器人等极端资源受限的端侧运行。它建立在 Cactus 的边缘推理引擎之上,支持工具调用,目标是在几乎无云依赖的情况下完成本地 agent 任务。",
-        "帖子的核心卖点是“把可用的 agent 能力压缩到 14MB”,并配合 Cactus 自研的旋转+码本量化(可低至 1-4bit)、零拷贝计算图与 ARM NEON 内核,实现低延迟、高隐私的本地推理。团队还提出本地模型“知道自己何时出错”并按置信度把难题路由到云端的 hybrid 思路。",
-        "在 HN 上该帖约 123 分、60+ 评论,社区对“14MB 到底能做多少事”既好奇又存疑,讨论集中在实际质量、量化损失与真实设备上的表现。Cactus 系 YC S25 项目,创始人 Henry Ndubuaku,其开源引擎在 GitHub 与 HuggingFace 都有活跃发布,端侧 AI 方向持续受关注。"
+        "NVIDIA于8月11日更新其Local AI专栏,盘点整个八月开源生态在本地AI上的最新进展,强调开源社区正让爱好者与开发者更容易在本地构建、定制并运行日益强大的智能体。文章一次性汇总了当下可用的多款开放权重模型、软件与开发工具,并配以加速计算库与教育资源,官方称八月将是属于智能体的大月份。",
+        "专栏中最受关注的agentic coding亮点是Poolside AI发布的Laguna S 2.1——一个约118B总参数、每token仅激活约8.5B的MoE开放权重编码智能体模型,支持最高100万token上下文和长达数小时的长程任务。它采用滑动窗口与全局注意力3:1混合布局、KV缓存FP8量化,NVFP4权重约71GB,可在单台NVIDIA DGX Spark上本地运行,并在llama.cpp、Ollama、vLLM等生态即取即用。",
+        "文中同时列出MiniMax-H3视频音频模型、Thinking Machines的Inkling-Small以及即将上线的Unsloth Desktop等一连串开源发布,勾勒出本地智能体百花齐放的格局。Laguna S 2.1宣称在Terminal-Bench 2.1拿到70.2、SWE-Bench Multilingual达78.5,以远小的体积对标数倍于己的模型,被视为本地agentic coding'越级挑战'的代表。"
       ],
-      "heat": "HN 约 123 points，63 评论"
+      "heat": "NVIDIA官方博客 / 8月11日更新"
     }
   ],
   "creators": [
     {
+      "platform": "GitHub",
+      "name": "antirez",
+      "url": "https://github.com/antirez/h3.c",
+      "detail": [
+        "Salvatore Sanfilippo,网名antirez,是意大利传奇程序员、Redis的创造者。以偏爱纯C、追求极简与可读性著称,他近年重返底层系统与AI推理领域,常以单人之力手写高性能引擎,在开源社区拥有极高声望;h3.c正是他最新的个人力作,延续了此前项目的交互式体验与工程审美。",
+        "h3.c是一个专为苹果Silicon打造的原生MiniMax-H3推理引擎,让Mac用户可在本地由文本、图像、视频、音频生成带同步立体声的视频。项目以纯C加Metal逐步搭建垂直切片,支持首末帧锚定与Ref2VA有序参考,并做了大量M3/M5 Max专属优化:int8 MLP让512×512、50层去噪从36.3秒降到25.8秒,SSD流式把DiT显存从约36.5GiB压到2.0GiB。",
+        "该仓库已收获约1.2k星、58个分叉,值得关注之处在于它把动辄需要集群的33B视频模型带到了一台Mac上端到端运行,128GB M5 Max上图像加音频渲染约74.6秒、峰值仅约40GB且零交换。antirez以近乎偏执的A/B诊断和逐字节对齐MLX参考实现的态度,展示了个人开发者在消费级硬件上压榨生成式AI性能的极限工程范例。"
+      ],
+      "heat": "1.2k stars / 58 forks"
+    },
+    {
       "platform": "博客",
-      "name": "Maxime Labonne",
-      "url": "https://mlabonne.github.io/blog/",
+      "name": "Sebastian Raschka",
+      "url": "https://magazine.sebastianraschka.com/",
       "detail": [
-        "Maxime Labonne 是一位法国机器学习科学家、作家与博主,现任 Liquid AI 的后训练负责人(Head of Post-Training),主导该公司自研架构的 LFM2 等基础模型的后训练工作。此前他长期活跃在开源大模型社区,是 Hugging Face 生态中知名的模型微调与合并实践者,并在 GitHub、X(@maximelabonne)、Hugging Face、Substack 与个人博客上持续输出高质量技术内容,兼具工业界一线经验与开源社区影响力,长期专注大模型工程化落地方向。",
-        "他最具代表性的作品是 GitHub 上的《The LLM Course》,一套面向大模型入门与工程实践的学习路线图和 Colab 笔记合集,星标已超过 8 万,是全球最受欢迎的 LLM 学习资源之一。他还与 Paul Iusztin 合著了《LLM Engineer's Handbook》一书,系统讲解从概念到生产的 LLM 工程全流程。博客内容覆盖模型微调、量化(GPTQ、GGUF)、模型合并 MergeKit、abliteration 去审查,以及对 Qwen、GLM、Kimi、MiniMax 等最新开源模型的深度评测。",
-        "值得关注的原因在于他真正站在开源大模型训练与工程化的最前沿:既能训练和后训练真实的前沿模型,又擅长把复杂概念拆解成可动手复现的教程,是连接研究与工程的稀缺型创作者。他的博客更新频繁(2026 年 2 月仍在持续发布新模型评测),内容既有时效性又有工程深度,对想深入理解 LLM 微调、量化与最新开源模型格局的开发者极具参考价值,是 AI 工程方向高信噪比的信息源。"
+        "Sebastian Raschka博士是知名机器学习教育者、畅销书作者与研究员,其Substack专栏《Ahead of AI》聚焦机器学习与AI研究,已被超过20.5万名研究者与从业者订阅。他以把前沿论文与工程实践拆解得深入浅出著称,是众多开发者跟进大模型架构演进的重要信源。",
+        "专栏近期内容延续了他一贯的深度技术解析风格,围绕大语言模型的架构设计、训练方法与推理效率展开,常配以从零实现的代码与逐步图解,帮助读者理解Transformer变体、注意力机制优化及后训练范式等主题的来龙去脉。他还持续更新对当下开源模型与研究趋势的评述,把散落的论文脉络整理成清晰的知识地图。",
+        "值得关注的是,Raschka不满足于转述新闻,而是坚持亲手复现关键方法并给出可运行范例,把'读懂'与'做出来'结合,这种教学与研究并重的姿态使其内容在信息过载的AI浪潮中尤显稀缺。对于希望系统跟进ML工程而非碎片追热点的读者,他的长文是稳定且高信噪比的参照。"
       ],
-      "heat": "GitHub《The LLM Course》星标超 8.1 万(fork 9.5k),GitHub 粉丝 7.1k+;《LLM Engineer's Handbook》图书作者;Liquid AI 后训练负责人,在 X、Hugging Face、Substack、Medium 多平台活跃,开源大模型社区高影响力创作者。"
+      "heat": "20.5万+ 订阅"
     },
     {
-      "platform": "GitHub",
-      "name": "Kuber Mehta (Kuberwastaken)",
-      "url": "https://github.com/kuberwastaken",
+      "platform": "HuggingFace",
+      "name": "Liquid AI",
+      "url": "https://huggingface.co/LiquidAI",
       "detail": [
-        "Kuber Mehta 是来自印度新德里的 19 岁 AI 开发者,GitHub 账号 Kuberwastaken,自称“I build (& break) stuff”。他一年内开源了 50 多个项目,代表作包括把 Claude Code 移植到 Rust 的 Claurst(首周 7k star、现已破万并登 GitHub trending)、把 DOOM 塞进二维码的 Backdooms,以及 PicoGPT 等极限压缩实验。",
-        "他的内容方向聚焦小语言模型(SLM)、agentic LLM 管线、本地 RAG 优化与资源受限下的极客项目,同时在 kuber.studio 上写博客 MindDump,产出如“把 LLM 输出人类化是愚蠢的”等观点文,常登上 HN 首页,被 PC Gamer、The Independent、Decrypt 等媒体报道过。",
-        "值得关注的原因在于其罕见的高产与话题性:既能做底层压缩与移植的硬核工程,又擅长把 AI 争议话题写成传播力强的文章。作为 BITS Pilani 在读本科生已在 Razorpay 参与 AI 项目,并在 YC Startup School 等场合活跃,是观察年轻一代独立 AI 开发者的典型样本。"
+        "Liquid AI是一家主打'从第一性原理出发的新一代基础模型'的团队,在Hugging Face上拥有超过4800名关注者、94名成员,发布了约160个模型、19个Space与多个数据集。其核心理念是打造高效、可在设备端运行的基础模型,LFM系列正是这一方向的集中体现,近来在端侧智能体赛道声量迅速攀升。",
+        "组织近期最受瞩目的发布是LFM2.5系列:主力LFM2.5-2.6B五天内在HF下载约9.37万次、获550赞,还配套推出230M、350M以及8B-A1B等多种规格,并提供GGUF、MLX及nvfp4/mxfp4/mxfp8等丰富量化版本。团队近期发表专栏《Deploy local agents everywhere with LFM2.5-2.6B》,并上线可在浏览器用WebGPU本地运行的LFM2.5 Edge Research Agent。",
+        "值得关注的是Liquid AI把'小而强'的端侧路线做到了产品化闭环:除聊天基座外,还围绕LFM2.5-Encoder推出拼写纠错、PII检测、提示路由、策略检查等一系列CPU上即可运行的任务型Space与Nanos模型,展示了在不依赖云端的前提下,把隐私敏感的智能体能力下沉到本地设备的完整愿景。"
       ],
-      "heat": "GitHub 700+ followers，多项目登 trending"
-    },
-    {
-      "platform": "GitHub",
-      "name": "Cactus Compute (Henry Ndubuaku)",
-      "url": "https://github.com/cactus-compute/cactus",
-      "detail": [
-        "Cactus Compute 是 YC S25 孵化的团队,由 Henry Ndubuaku 等人创立,专注为手机与可穿戴设备打造低延迟、on-device 的 AI 推理引擎。其开源项目 Cactus 在 GitHub 与 HuggingFace 上活跃维护,提供从引擎、计算图、内核到自研量化的完整端侧推理栈,支持 Swift、Kotlin、Flutter、React Native、Rust 等多语言绑定。",
-        "内容与技术方向上,Cactus 主打“把 agent 能力塞进极小体积”,近期发布仅 14MB 的 Needle2 智能体模型,并提出旋转+码本量化(1-4bit)、零拷贝 Cactus Graph、ARM NEON 内核,以及本地模型按置信度把难题路由到云端的 hybrid edge-cloud 架构,提供 OpenAI 兼容 API,覆盖文本、语音、视觉与 RAG。",
-        "值得关注的原因在于端侧/边缘 AI 正成为热点,而 Cactus 是该赛道少数把工程做扎实并持续开源的团队。其 Show HN 帖屡获数百分讨论,GitHub 仓库与 r/cactuscompute 社区活跃,是追踪“手机与机器人本地大模型部署”前沿实践的重要一手来源。"
-      ],
-      "heat": "YC S25，Needle2 Show HN 约 123 points"
+      "heat": "HF 4834 关注 / LFM2.5-2.6B 93.7k 下载"
     }
   ]
 }
