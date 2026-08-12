@@ -1,184 +1,194 @@
 [
   {
-    "id": "2026-08-11_ai_1",
-    "date": "2026-08-11",
+    "id": "2026-08-12_ai_1",
+    "date": "2026-08-12",
+    "category": "AI",
+    "subcat": "AI产品",
+    "platform": "MacRumors",
+    "platform_color": "#8ED16D",
+    "title": "马斯克xAI推Grok Bot常驻智能体",
+    "url": "https://www.macrumors.com/2026/08/11/grok-bot-macos-ios/",
+    "image": "images/2026-08-12/2026-08-12_ai_1.jpg",
+    "detail": [
+      "马斯克旗下xAI在8月11日推出全新的Grok Bot功能，把原本只存在于对话窗口里的AI助手升级为常驻macOS与iOS系统的桌面级智能体。用户无需反复打开App，Grok Bot会以悬浮小组件形式停留在屏幕角落，随时接收语音或文字指令，并能读取剪贴板、当前窗口截图等上下文，主打把大模型从聊天框里解放出来、真正嵌入日常工作流。",
+      "据发布信息，Grok Bot深度整合了xAI最新的模型能力，支持跨应用操作、自动整理邮件与日程、以及对屏幕内容的实时问答，在Mac上还能调用系统快捷指令完成多步任务。它对SuperGrok订阅用户开放更高的调用额度与更强的推理模式，免费用户则有基础功能与每日次数限制，定位与苹果系统级AI、以及ChatGPT桌面版形成正面竞争。",
+      "该功能一经上线便在开发者与Mac用户社区引发热议，不少人认为这是xAI从'聊天机器人'转向'系统智能体'的关键一步，也有人担忧常驻读取屏幕内容带来的隐私与安全风险。马斯克本人在X上转发并强调Grok Bot会持续快速迭代，将成为其'万能助手'愿景的核心载体，进一步加剧了几家AI巨头在端侧助手赛道的军备竞赛。"
+    ]
+  },
+  {
+    "id": "2026-08-12_ai_2",
+    "date": "2026-08-12",
+    "category": "AI",
+    "subcat": "AI安全",
+    "platform": "CNET",
+    "platform_color": "#8ED16D",
+    "title": "Anthropic给Claude输出加隐形水印",
+    "url": "https://www.cnet.com/tech/services-and-software/anthropics-claude-will-add-watermarks-to-ai-generated-text-and-files/",
+    "image": "images/2026-08-12/2026-08-12_ai_2.jpg",
+    "detail": [
+      "Anthropic在8月11日宣布，将为旗下Claude模型生成的文本与文件加入隐形水印，用来标记内容源自AI。该水印通过在字符间嵌入人眼不可见的特殊编码实现，正常阅读、复制粘贴时不会察觉，但可借助官方或第三方检测工具还原出'由Claude生成'的溯源信息，目标是在AI内容泛滥的当下提供一种可验证的来源标签。",
+      "据公司说明，水印会应用于通过Claude生成的长文、代码文件及导出文档，并计划逐步覆盖API输出。Anthropic强调该方案设计上要兼顾稳健性与隐蔽性——既要在轻度编辑、格式转换后仍可检出，又不能明显破坏文本可读性或影响下游使用，同时承认任何水印都无法做到百分之百不可去除，只能提高伪造与冒用的成本。",
+      "此举被视为AI厂商在监管压力与信任危机下的主动应对，教育、出版、招聘等领域对'如何辨别AI代笔'的需求正快速上升。社区反应两极：支持者认为这有助于打击学术作弊与虚假信息，反对者则担心水印可能被用于追踪用户、或在跨平台复制后误伤正常创作，也有人质疑竞品若不跟进、标准不统一将难以形成真正有效的溯源生态。"
+    ]
+  },
+  {
+    "id": "2026-08-12_ai_3",
+    "date": "2026-08-12",
     "category": "AI",
     "subcat": "AI芯片",
     "platform": "CNBC",
     "platform_color": "#8ED16D",
-    "title": "英伟达联手华尔街撬动5000亿AI算力融资",
-    "url": "https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html",
-    "image": "images/2026-08-11/2026-08-11_ai_1.jpg",
+    "title": "黄仁勋5000亿AI融资遇中国风险",
+    "url": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
+    "image": "images/2026-08-12/2026-08-12_ai_3.jpg",
     "detail": [
-      "北京时间8月11日凌晨,英伟达在周一(8月10日)正式宣布,与阿波罗(Apollo)、贝莱德(BlackRock)、黑石(Blackstone)、Brookfield、高盛(Goldman Sachs)和KKR六家全球顶级资产管理机构签署谅解备忘录,共同设立独立的算力融资平台,目标撬动超过5000亿美元第三方资本,用于AI基础设施的长期建设。这是英伟达首次尝试把自家AI芯片打造成可被华尔街承销、抵押、投资的全新资产类别。",
-      "该计划的核心逻辑是让超大规模云厂商、前沿AI实验室和企业无需动用自身资产负债表,即可通过机构信贷、保险资金和私募资本为GPU与数据中心融资。创始人兼CEO黄仁勋在接受CNBC采访时称,这是技术芯片首次成为可投资的资产类别,它们如今是能产生收入、寿命长、可替换、可流转的生产性资产。他将AI工厂比作电力、收费公路一样的基础设施。",
-      "这一表态意在挑战市场对GPU快速贬值硬件的传统认知。黄仁勋此前预测,到本十年末AI基础设施年度投入可能达到3至4万亿美元,仅超大规模厂商2027年的资本支出就将超过1万亿美元。高盛CEO所罗门、贝莱德CEO Larry Fink均现身背书,称愿为由英伟达算力背书的信贷创造新市场。",
-      "业内对此反应两极。支持者认为这为AI建设开辟了不占用现金流的融资通道,能显著加速全球数据中心扩张;质疑者则担忧一旦新一代芯片问世,旧GPU的抵押价值能否维持,以及把AI算力过度金融化可能放大整个行业的杠杆风险。多家媒体将其视为AI基建融资模式的一次关键转折。"
+      "英伟达CEO黄仁勋近期力推的一项规模高达5000亿美元的AI基础设施融资与投资计划，正遭遇来自中国市场的不确定性风险。据CNBC 8月11日报道，这项旨在联合华尔街资管巨头把AI数据中心打造成'可投资的基础设施资产'的宏大布局，因中美在先进芯片出口管制上的持续拉锯，其在华收入预期与供应链安排面临重新评估。",
+      "报道指出，中国市场此前长期是英伟达数据中心业务的重要增长极，但在出口限制、以及国产替代芯片加速崛起的双重挤压下，英伟达对华高端GPU销售前景转趋谨慎。黄仁勋多次公开表示希望继续留在中国市场，然而地缘政治变量使得这笔5000亿美元级别的资金能否顺利部署、以及回报模型是否成立，都被机构投资者打上问号。",
+      "这一消息让市场对AI基础设施投资的'确定性叙事'产生动摇，部分华尔街分析师认为，把AI算力包装成类似房地产、能源的长期资产虽有想象空间，但高度依赖单一供应商与敏感的中美关系，风险敞口不容忽视。社区讨论也聚焦于：一旦对华业务进一步收缩，英伟达是否需要在中东、东南亚等新市场寻找算力需求承接，以支撑这场资本豪赌。"
     ]
   },
   {
-    "id": "2026-08-11_ai_2",
-    "date": "2026-08-11",
+    "id": "2026-08-12_ai_4",
+    "date": "2026-08-12",
     "category": "AI",
-    "subcat": "大模型",
-    "platform": "TechCrunch",
+    "subcat": "AI融资",
+    "platform": "The Information",
     "platform_color": "#8ED16D",
-    "title": "Meta开源Muse Glimmer 单卡可跑的智能体模型",
-    "url": "https://techcrunch.com/2026/08/10/metas-new-glimmer-ai-model-offers-a-hint-at-zuckerbergs-personal-intelligence-vision/",
-    "image": "images/2026-08-11/2026-08-11_ai_2.jpg",
+    "title": "Trajectory获红杉4000万领投融资",
+    "url": "https://www.theinformation.com/newsletters/ai-agenda/trajectory-founded-ex-google-apple-researchers-raises-funding-sequoia-back-back-round",
+    "image": "images/2026-08-12/2026-08-12_ai_4.jpg",
     "detail": [
-      "Meta于8月10日(周一)正式发布开源权重模型Muse Glimmer,这被视为迄今为止最能体现CEO扎克伯格个人超级智能愿景的落地产品。Glimmer是一个300亿参数模型,可看作Meta最强闭源模型Muse Spark的开源版本,以宽松的Apache 2.0许可证在Hugging Face上开放下载,开发者可自由下载并按需修改微调。",
-      "与追求云端巨无霸不同,Glimmer专为在消费级硬件上本地运行AI智能体而设计。它支持文本与图像输入,训练覆盖100多种语言,可调用工具、编写调试代码、处理文件与截图,并在长任务中持续执行。4-bit量化压缩后所需内存低于20GB,能在一台MacBook或单张RTX 5090显卡上运行,并获得Ollama、LM Studio、vLLM等本地工具的首日支持。",
-      "Meta设想Glimmer被用于日程管理、消息起草、文件整理等需要大量个人数据访问的场景。通过在设备端而非云端处理信息,Meta试图为更注重隐私的个人智能体铺路,并强调其可始终在线、无论有无网络都能运行。基准测试上,Meta刻意选择与谷歌Gemma、阿里Qwen等同量级模型对比,而非前沿巨头。",
-      "发布同时,扎克伯格公开向华盛顿喊话,主张美国政策必须改变才能让本土开源模型长期领先,并抱怨美国实验室在训练数据上面临比外国对手更多的限制。此举也让Meta在开源立场上与坚持闭源的OpenAI、Anthropic、谷歌形成鲜明对比,预计将进一步点燃关于AI是否应开放的政策辩论。"
+      "据The Information 8月11日报道，AI初创公司Trajectory完成一轮由红杉资本领投的4000万美元融资。这家公司由多位前谷歌与苹果的研究员创立，团队背景横跨大模型训练、端侧推理与人机交互，成立时间不长却因创始阵容豪华、方向踩中当前最热的AI智能体赛道，迅速获得顶级风投的连续加注。",
+      "报道称，Trajectory聚焦于构建面向真实生产环境的AI智能体系统，试图解决当前Agent普遍存在的可靠性差、长任务易崩、难以嵌入企业既有工作流等痛点。红杉此番领投属于对该团队的连续押注，显示出头部机构对'能真正干活的智能体'这一细分方向的强烈信心，资金将主要用于扩张研发团队与打磨核心产品。",
+      "在整体融资环境趋于理性的背景下，Trajectory能拿下红杉领投的4000万美元，被业内视为AI智能体赛道仍是资本最愿意下注的领域之一。社区讨论既有对'前大厂研究员创业+顶级VC背书'这一经典成功范式的看好，也有声音提醒，智能体创业公司数量激增、同质化严重，最终能否兑现估值仍取决于产品在企业级场景的真实落地效果。"
     ]
   },
   {
-    "id": "2026-08-11_ai_3",
-    "date": "2026-08-11",
-    "category": "AI",
-    "subcat": "AI安全",
-    "platform": "Times of India",
-    "platform_color": "#8ED16D",
-    "title": "OpenAI推GPT-5.6-Cyber赋能网络防御者",
-    "url": "https://timesofindia.indiatimes.com/technology/tech-news/openai-launches-gpt-5-6-cyber-as-companies-prepare-for-ai-agents-hacking/articleshow/133125914.cms",
-    "image": "images/2026-08-11/2026-08-11_ai_3.jpg",
-    "detail": [
-      "8月10日,OpenAI推出面向网络安全领域的特化模型GPT-5.6-Cyber,向经过审核的防御性安全团队开放高级工具,以应对由AI智能体发起的自主网络攻击。此次发布正值OpenAI因内部安全评估发现下一代Astra模型具备关键级自动化黑客能力而暂停其上线之后,凸显了模型能力与安全边界之间的紧张关系。",
-      "长期以来,安全防御者在使用标准商用AI模型时面临极高的拒绝率,为防止恶意黑客行为而设的安全护栏,往往连合法的安全研究请求也一并拦截。为化解这一摩擦,OpenAI将Daybreak防御性安全专项计划拆分为两档:Daybreak Blue提供护栏放宽的GPT-5.6 Sol基础模型用于代码漏洞分析;Daybreak Red则授予GPT-5.6-Cyber,支持验证复杂漏洞利用、模拟攻击链和高级漏洞测试。",
-      "内部测试显示,GPT-5.6-Cyber对涉及权限提升、认证绕过、多步漏洞利用链等复杂网络安全任务的响应率高达95%,而标准GPT-5.6 Sol因内置安全过滤器仅回应约1.5%。OpenAI强调,该模型虽远比标准模型强大,但在其Preparedness框架下仅达到High能力阈值,未像Astra那样触及更高风险类别。",
-      "在更新后的Daybreak框架下,埃森哲、IBM、CrowdStrike、思科和Palo Alto Networks等主要网络安全与企业服务商可将GPT-5.6-Cyber直接集成进商用安全产品、托管威胁检测服务及客户咨询业务。业界普遍认为,这标志着AI在攻防对抗中正从被限制转向被武装,但也引发关于双刃剑效应的持续讨论。"
-    ]
-  },
-  {
-    "id": "2026-08-11_vibecoding_1",
-    "date": "2026-08-11",
-    "category": "VibeCoding",
-    "subcat": "开发工具",
-    "platform": "Product Hunt",
-    "platform_color": "#2563EB",
-    "title": "Paritok:给编程Agent省85%Token",
-    "url": "https://www.producthunt.com/products/paritok",
-    "image": "images/2026-08-11/2026-08-11_vibecoding_1.jpg",
-    "detail": [
-      "8月10日,面向AI编程Agent的开源上下文压缩网关Paritok登陆Product Hunt首发,当日冲上榜单前列,收获两百余个赞。它主打一个痛点:如今Claude Code、Cursor、Codex等编程Agent每一轮对话都要把几十个工具schema、不断膨胀的历史记录和大段文件读取重新发给大模型,输入Token账单飞涨。Paritok作为Agent与大模型API之间的中间层代理,专门为这条链路瘦身。",
-      "在技术实现上,Paritok通过三个独立机制叠加省钱:过滤臃肿的工具schema(在接入70多个MCP工具时,单轮可从约2.9万Token压到8千)、压缩工具结果与文件读取内容、以及对陈旧历史做摘要。关键是它宣称做到\"非破坏性\",被压缩或过滤掉的内容随时可按需精确还原,即所谓\"传输时有损、需要时无损\"。官方数据称首轮即省约25%,在长时间、上下文饱和的会话中可省超85%,同一上下文窗口能多塞进约3倍的对话轮次。",
-      "Paritok的引擎是团队号称\"首个专为编程Agent训练的开源4B压缩模型\",基于Qwen3-4B骨架、用4.5万条真实Agent轨迹蒸馏而来,已在Hugging Face开放,并配套完成SWE-bench Lite端到端评测。使用上是纯drop-in:只要Agent支持自定义BASE_URL,把请求指向Paritok即可,无需改动一行Agent代码,兼容Claude Code、Cursor、Codex、OpenHands等主流工具。",
-      "这一发布正好踩在2026年\"Token账单\"成为行业焦虑的节点上——企业全面押注agentic AI后,高昂的推理成本让不少团队肉疼。相比厂商侧的模型路由(如按难度切换便宜模型)方案,Paritok选择在请求链路做无损压缩,给开发者提供了一条自托管、可控成本的新路径,在社区引发关于\"省钱是否会牺牲效果\"的讨论。"
-    ]
-  },
-  {
-    "id": "2026-08-11_vibecoding_2",
-    "date": "2026-08-11",
-    "category": "VibeCoding",
-    "subcat": "开发工具",
-    "platform": "Product Hunt",
-    "platform_color": "#2563EB",
-    "title": "oqoqo:给Agent做真实任务基准评测",
-    "url": "https://www.producthunt.com/products/oqoqo",
-    "image": "images/2026-08-11/2026-08-11_vibecoding_2.jpg",
-    "detail": [
-      "8月10日,面向AI Agent的评测与自定义基准平台oqoqo在Product Hunt首发,当日拿下约309个赞、近30条评论,成为当天开发者工具类的热门。团队直指行业痛点:现有基准大多存在于精心搭建的封闭环境里,与真实世界脱节,既无法帮产品团队评估\"自家产品在Agent眼中好不好用\",也难以反映用户实际会执行的任务。oqoqo正是为弥合这道鸿沟而生。",
-      "在能力上,oqoqo的核心是自动拉起隔离沙箱,把用户定义的真实任务丢给指定的Agent执行,并完整编目Agent走的每一步——包括工具调用、重试、探索循环等,同时记录Token消耗、成本,再依据用户设定的成功标准判定成败。它支持对接Codex、Claude Code、OpenClaw、Hermes、Pi、Opencode、Cursor、GitHub Copilot等多种Agent,可回归测试MCP、CLI、Skills、SDK等各类面向Agent的接口。",
-      "官方一个有意思的卖点是:配置过程可以直接交给你的Agent自动完成,降低了上手门槛,当前提供免费试用。团队还表示自己也在持续用oqoqo做\"dogfooding\",反过来打磨自家的MCP和CLI。定位上,它同时服务两类人:一是打造\"Agent愿意用\"的产品表面的团队,二是把Agent真正塞进日常工作流的团队。",
-      "这款产品切中的是2026年一个愈发关键的命题:当AI系统从demo走向生产,评测(evaluation)成为最大挑战之一,而\"Agent体验\"(agent experience)正被视为继用户体验之后的新维度。随着越来越多产品需要被Agent发现和调用,像oqoqo这样面向真实任务、可复现、带成本核算的评测基础设施,正成为Agent生态里被低估但刚需的一环。"
-    ]
-  },
-  {
-    "id": "2026-08-11_vibecoding_3",
-    "date": "2026-08-11",
+    "id": "2026-08-12_vibecoding_1",
+    "date": "2026-08-12",
     "category": "VibeCoding",
     "subcat": "AI Coding",
-    "platform": "官方博客",
+    "platform": "Microsoft",
     "platform_color": "#2563EB",
-    "title": "GitHub Copilot网页版新增会话控制",
-    "url": "https://github.blog/changelog/2026-08-10-copilot-on-web-expands-conversation-controls/",
-    "image": "images/2026-08-11/2026-08-11_vibecoding_3.jpg",
+    "title": "微软发布MAI-Code-1.1-Flash模型",
+    "url": "https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/",
+    "image": "images/2026-08-12/2026-08-12_vibecoding_1.jpg",
     "detail": [
-      "8月10日,GitHub在官方Changelog宣布,github.com网页版的Copilot Chat迎来一批会话控制改进,让开发者在浏览器里与Copilot协作时更顺手。这轮更新聚焦两件事:一是更方便地访问和延续最近的对话,二是把\"聊天窗口\"变得更像可随时收起、随时回来的工作台,同时新增了Token用量的可视化提示,直面2026年开发者对Agent花费的普遍关注。",
-      "具体来看,新版会话叠层(chat overlay)支持在对话进行中把聊天窗口最小化,这样在等待Copilot响应时,用户可以继续自由浏览GitHub其他页面,不必干等;同时也能更轻松地查看并继续此前的历史对话,避免上下文丢失。这些交互看似细碎,却是长会话、多任务场景下的高频刚需。",
-      "更受关注的是Token用量指示器:GitHub在聊天界面加入了Token花费图标,点击后可查看每一次会话与每一条消息的配额情况,让开发者对自己的Copilot Token开销与预算有更清晰的掌控。这与近期GitHub陆续推出的Copilot影响力仪表盘ROI板块、CLI侧的Token/AI额度展示等一脉相承,反映出\"用量透明化\"正成为AI编程工具的标配。",
-      "官方表示,上述功能已面向所有Copilot套餐用户全面开放,可直接在github.com/copilot体验。在Claude Code、Cursor、Codex等竞品密集迭代的当下,GitHub选择打磨网页端的日常交互与成本可见性,而非堆砌大功能,凸显出\"agentic编程\"进入普及阶段后,厂商开始把重心转向体验细节与开销管理这些真正影响留存的地方。"
+      "微软AI在8月11日正式发布面向编程场景的新模型MAI-Code-1.1-Flash，官方口号是'更强、更快、成本只有四分之一'。作为MAI-Code系列的迭代版本，Flash主打在保持高代码质量的同时大幅压低推理成本与延迟，定位为可大规模部署到日常开发工作流中的轻量高效编码模型，是微软自研模型路线在AI Coding赛道的又一次发力。",
+      "据发布博客，MAI-Code-1.1-Flash在多项编程基准上相比前代取得明显提升，代码补全与多步任务的准确率更高，而单位token成本降至此前的约四分之一，响应速度也显著加快。微软强调该模型针对真实仓库级别的代码理解、跨文件重构与调试场景做了专门优化，目标是让高频调用的AI编码助手在企业和个人开发者手中都变得更划算。",
+      "此次发布凸显微软在减少对单一模型供应商依赖、构建自有模型矩阵上的决心。开发者社区普遍关注其性价比是否真如宣传所言，也有人期待它与GitHub Copilot的深度整合。结合同日Copilot全平台上线该模型的动作，业界认为微软正试图用'自研+低成本'组合拳，重新掌握AI编程助手在成本与性能之间的定价主动权。"
     ]
   },
   {
-    "id": "2026-08-11_gaming_1",
-    "date": "2026-08-11",
+    "id": "2026-08-12_vibecoding_2",
+    "date": "2026-08-12",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "MAI-Code-1.1-Flash登陆Copilot",
+    "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot/",
+    "image": "images/2026-08-12/2026-08-12_vibecoding_2.jpg",
+    "detail": [
+      "GitHub在8月11日的更新日志中宣布，微软最新发布的MAI-Code-1.1-Flash模型已正式接入GitHub Copilot，成为可在模型选择器中直接选用的选项之一。这意味着开发者无需切换工具，就能在熟悉的Copilot Chat、代码补全及Agent模式中调用这款主打低成本高速度的新模型，进一步丰富了Copilot多模型并存的能力矩阵。",
+      "根据变更说明，MAI-Code-1.1-Flash在Copilot中面向付费计划用户开放，覆盖VS Code、Visual Studio及Web端等多个入口，用户可按任务复杂度在不同模型间灵活切换。官方指出该模型特别适合高频、对延迟敏感的日常编码场景，如快速补全、小范围重构和即时问答，而复杂推理任务仍可切换到更大的模型，形成成本与能力的分层使用策略。",
+      "这次上线延续了GitHub把更多模型快速纳入Copilot的开放策略，让开发者拥有更大的选择权。社区反馈中，不少人对'自研模型+更低单价'带来的额度优化表示欢迎，认为高频调用场景能显著省钱；也有开发者希望官方尽快给出Flash与其他主力模型在真实项目中的横向对比数据，以便判断在哪些任务上切换到Flash最为划算。"
+    ]
+  },
+  {
+    "id": "2026-08-12_vibecoding_3",
+    "date": "2026-08-12",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "Copilot JetBrains版上新记忆功能",
+    "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+    "image": "images/2026-08-12/2026-08-12_vibecoding_3.jpg",
+    "detail": [
+      "GitHub在8月11日宣布，面向JetBrains系列IDE的GitHub Copilot迎来两项重要更新：新增记忆（Memory）功能，以及对本地模型运行框架Ollama的支持。这让IntelliJ IDEA、PyCharm等JetBrains用户在编码助手体验上进一步向VS Code看齐，也把'个性化上下文'与'本地模型'两大能力带入了更广的开发者群体。",
+      "其中记忆功能允许Copilot在多次会话之间保留开发者的偏好、项目约定与此前交流的关键信息，从而在后续对话中给出更贴合个人风格与项目上下文的建议，减少重复解释的成本。而Ollama支持则意味着开发者可以在本地运行开源模型并接入Copilot，满足对数据隐私、离线可用及成本控制有更高要求的团队与个人。",
+      "这次更新被视为GitHub缩小不同IDE间Copilot功能差距、并拥抱本地化部署趋势的信号。JetBrains社区对记忆功能能否真正提升长期协作效率抱有期待，同时也有人关注隐私边界——记忆存储在哪、如何清除；而Ollama支持则受到注重数据合规开发者的欢迎，认为这为在敏感代码库中安全使用AI助手提供了更多可能。"
+    ]
+  },
+  {
+    "id": "2026-08-12_vibecoding_4",
+    "date": "2026-08-12",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "Copilot用量报告细化到token",
+    "url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
+    "image": "images/2026-08-12/2026-08-12_vibecoding_4.jpg",
+    "detail": [
+      "GitHub在8月11日更新了Copilot的用量报告（Usage Report），新增按模型拆分的token消耗明细。此前用量报告只能给出较为笼统的整体调用情况，如今管理员和开发者可以清楚看到每个模型分别消耗了多少token，从而对不同模型的使用分布与成本构成一目了然，是Copilot在计量透明化上的一次实用升级。",
+      "据变更说明，新的per-model token breakdown会在报告中列出各模型的输入与输出token用量，帮助团队识别高消耗模型、评估不同任务切换模型带来的成本差异。对于按token计费、多模型并存的Copilot使用场景，这一细化数据让企业能够更精准地做预算分配与用量治理，也便于开发者据此优化自己的模型选择习惯。",
+      "这项改进直接回应了社区长期以来对'账单不够透明'的抱怨，尤其在Copilot引入越来越多可选模型、且部分模型按token计费之后，精细化的用量可见性变得愈发重要。管理员群体普遍表示欢迎，认为这让成本可控性大幅提升；也有开发者建议后续能进一步支持按仓库、按团队维度的下钻分析，让用量治理更加立体。"
+    ]
+  },
+  {
+    "id": "2026-08-12_gaming_1",
+    "date": "2026-08-12",
     "category": "Gaming",
     "subcat": "主机",
-    "platform": "Nintendo Switch 2",
+    "platform": "Nintendo Life",
     "platform_color": "#F59E0B",
-    "title": "《上古卷轴4:湮没》重制版登陆Switch2",
-    "url": "https://elderscrolls.bethesda.net/en-US/news/2AQF1Pmy3m8GGT8s0RTkJT/the-elder-scrolls-iv-oblivion-remastered-nintendo-switch-2-launch-date",
-    "image": "images/2026-08-11/2026-08-11_gaming_1.jpg",
+    "title": "《中土世界:北方战争》传奇版突袭",
+    "url": "https://www.nintendolife.com/news/2026/08/the-lord-of-the-rings-war-in-the-north-shadow-drops-on-switch-1-and-2",
+    "image": "images/2026-08-12/2026-08-12_gaming_1.jpg",
     "detail": [
-      "贝塞斯达经典开放世界角色扮演游戏《上古卷轴4:湮没》重制版于2026年8月11日正式登陆任天堂Switch 2平台。这款2006年原作的重制版此前已在PC、Xbox与PS5发售,如今借助Switch 2硬件登上任天堂掌机/主机,让玩家可以随身探索广袤的塞洛迪尔行省,踏入湮没位面并直面米瑞克·达冈的势力。这是继《夺宝奇兵:古老之圈》之后,贝塞斯达又一款重要的Switch 2移植作。",
-      "本次Switch 2版本包含完整正作内容,并整合了《颤栗之岛》与《九武神骑士团》两大故事资料片,以及骑士要塞、法术书卷、恶徒巢穴等大量附加下载内容。标准版与豪华版同步推出,其中豪华版更提供实体卡带,内含完整正作,呼应了近期玩家对实体收藏的强烈需求。版本还专门为Switch 2设计了体感操作,让战斗代入感更强。",
-      "由于原作与其他平台重制版长期存在优化与稳定性争议,不少玩家对Switch 2版本的运行表现保持谨慎观望,评论区出现建议等首发评测再入手的声音。但贝塞斯达坚持推出实体卡带的做法赢得大量好评,尤其是在索尼宣布将于2028年逐步取消PlayStation光盘实体发行的背景下,这一举动被视为对实体游戏爱好者的诚意回应,也为Switch 2的软件阵容再添重量级RPG。"
+      "8月11日，经典动作角色扮演游戏《指环王：北方战争》（The Lord of the Rings: War in the North）的传奇复刻版以'影子发售'（shadow-drop）方式毫无预警地登陆Nintendo Switch与Switch 2平台，玩家在得知消息的当天即可在eShop直接下载游玩。这款2011年初代作品的重制回归，让不少中土世界与老牌ARPG粉丝倍感惊喜。",
+      "本次登陆Switch的版本对画面与操作做了适配优化，保留了原作三人小队合作闯关、围绕北方战线展开的原创剧情设定，玩家可扮演人类、矮人与精灵组成的英雄小队，在托尔金笔下的中土北境迎战索伦势力。Switch 2版本进一步利用新主机机能提升了分辨率与帧数表现，让这款十余年前的作品在掌机上焕发新生。",
+      "突袭发售的策略在社区引发热烈讨论，许多玩家惊叹于'早上醒来就能玩'的惊喜感，也让这款一度被低估的合作ARPG重新回到大众视野。有老玩家追忆其扎实的战斗手感与合作乐趣，也有新玩家借掌机契机首次体验中土冒险，普遍认为影子发售为经典IP复刻提供了一种低成本、高话题度的市场打法。"
     ]
   },
   {
-    "id": "2026-08-11_gaming_2",
-    "date": "2026-08-11",
+    "id": "2026-08-12_gaming_2",
+    "date": "2026-08-12",
+    "category": "Gaming",
+    "subcat": "掌机",
+    "platform": "Nintendo Life",
+    "platform_color": "#F59E0B",
+    "title": "《艾尔登法环》NS2版新故事预告",
+    "url": "https://www.nintendolife.com/news/2026/08/elden-ring-for-switch-2-is-looking-pretty-slick-in-new-story-trailer",
+    "image": "images/2026-08-12/2026-08-12_gaming_2.jpg",
+    "detail": [
+      "8月11日，FromSoftware旗下现象级魂系大作《艾尔登法环》（Elden Ring）公布了Nintendo Switch 2版本的全新故事预告片，展示了这款以硬核难度和宏大开放世界著称的游戏在新掌机上的运行表现。预告中的画面表现被媒体评价为'相当流畅精致'，让此前担忧移植质量的玩家吃下一颗定心丸。",
+      "从预告内容看，Switch 2版本较好地还原了'交界地'广袤的开放世界、标志性的Boss战与阴郁厚重的美术风格，帧数与加载表现在掌机形态下达到了可接受甚至超出预期的水准。新故事预告也重新梳理了游戏的世界观与主线脉络，既服务于首次接触该系列的Switch 2新玩家，也为老玩家在掌机上重温经典提供了理由。",
+      "这段预告在魂系社区与任天堂玩家群体中引发广泛讨论，核心焦点在于'能把《艾尔登法环》塞进掌机并保持体面表现'本身就是对Switch 2机能的一次有力证明。不少玩家表示期待随时随地挑战'交界地'的自由，也有人谨慎观望正式发售后的实际优化与稳定性，认为最终口碑仍要以真机长时间游玩体验为准。"
+    ]
+  },
+  {
+    "id": "2026-08-12_gaming_3",
+    "date": "2026-08-12",
     "category": "Gaming",
     "subcat": "主机",
-    "platform": "PS5",
+    "platform": "ComicBook",
     "platform_color": "#F59E0B",
-    "title": "《禁闭求生2》登陆PS5并推深渊更新",
-    "url": "https://www.gematsu.com/2026/06/grounded-2-early-access-coming-to-ps5-on-august-11-alongside-into-the-abyss-update",
-    "image": "images/2026-08-11/2026-08-11_gaming_2.jpg",
+    "title": "塞尔达40周年限定NS2主机疑曝光",
+    "url": "https://comicbook.com/gaming/news/zelda-switch-2-console-leak-images/",
+    "image": "images/2026-08-12/2026-08-12_gaming_3.jpg",
     "detail": [
-      "由黑曜石工作室开发、Xbox游戏工作室发行的缩小求生续作《禁闭求生2》于2026年8月11日正式登陆PlayStation 5,采用抢先体验版本发售。本作原于2025年7月29日在Xbox Series与Steam抢先体验上线,首发当日Steam最高在线人数逼近五万,如今登陆PS5相当于一次全新的平台首发,把更多玩家带进比一代大三倍的90年代郊区主题地图布鲁克霍洛公园。",
-      "与PS5首发同一天,游戏在全平台推送迄今最大的内容更新Into the Abyss(深入深渊)。此次更新彻底开放了公园里的池塘生态区,分为山地、沼泽与水下深处三大子区域;玩家可制作潜水服延长水下停留时间,抵达此前无法到达的深处。更新还带回一代的锦鲤与潜水钟蜘蛛等强敌,并新增可水陆两栖行驶的座驾Toe-biter,大幅提升探索效率。",
-      "标准版售价29.99美元,创始人版39.99美元,PS5玩家的存档进度会延续到深渊更新中。该作在Steam保持87%的多半好评,玩家普遍称赞其内容量与联机合作的乐趣,主要批评集中在技术问题与抢先体验阶段内容尚未完整。黑曜石强调完整1.0版本预计要到2027年,而这次跨平台大更新被视为为登陆PS5造势、扩大玩家基础的关键一步。"
+      "8月11日，网络上流出了疑似《塞尔达传说》40周年纪念限定版Nintendo Switch 2主机的图片，迅速在玩家社区引发热议。据ComicBook报道，这批泄露图展示了一台以塞尔达系列标志性元素为主题的定制配色主机与手柄，包括海拉鲁徽记、三角之力等经典符号，做工与设计风格被指高度贴合任天堂过往的纪念版产品。",
+      "由于《塞尔达传说》初代于1986年问世，2026年恰逢系列40周年这一重要节点，因此推出纪念限定主机的传闻本就有据可循，此番泄露图进一步点燃了粉丝的期待。图片中的机身与Joy-Con采用了金绿相间的主题配色，并疑似带有专属图案雕刻，不过任天堂官方尚未对这批图片的真实性作出任何确认或回应。",
+      "面对泄露，社区反应呈现两极：塞尔达死忠粉对可能到来的收藏级硬件兴奋不已，纷纷讨论定价与购买渠道；也有资深玩家保持谨慎，提醒在官方公布前应把这类'泄露图'视为传闻甚至可能的粉丝渲染图。无论真假，围绕40周年限定机的讨论都再次印证了塞尔达IP在玩家心中的号召力与收藏价值。"
     ]
   },
   {
-    "id": "2026-08-11_gaming_3",
-    "date": "2026-08-11",
-    "category": "Gaming",
-    "subcat": "单机",
-    "platform": "PC / PS5",
-    "platform_color": "#F59E0B",
-    "title": "《漫威斗魂》紧急更新救火PC版",
-    "url": "https://www.pushsquare.com/news/2026/08/does-marvel-tokons-new-update-fix-the-game-on-pc-results-seem-to-be-mixed",
-    "image": "images/2026-08-11/2026-08-11_gaming_3.jpg",
-    "detail": [
-      "由Arc System Works开发、索尼互动娱乐发行的漫威组队格斗游戏《漫威斗魂:格斗之魂》于8月6日发售后,PC版因严重的性能与卡顿问题引发大量玩家不满,Steam一度出现约60%差评。开发商在2026年8月10日让服务器下线维护,并在恢复后推送了一个约10GB的补丁,专门针对PC端的延迟、掉帧与稳定性问题进行修复。",
-      "官方公布的完整补丁说明显示,本次更新通过修复启动过程CPU占用过高、比赛中周期性音频处理等问题来降低CPU负载;并解决了游戏频繁检测音频输入导致的突发帧率骤降,以及特定分辨率下的掉帧。PC版还会提示玩家重新预热着色器,并改进了自动画质检测,以匹配更合适的图形配置。",
-      "补丁效果呈现两极。许多玩家反馈更新后帧率更平顺、联机对战体验改善,但仍有部分玩家表示情况变化不大。此前知名格斗游戏主播Maximilian Dood更曾在直播中因卡顿愤而卸载PC版。整体来看,这次更新对多数人是明显改善,但要让所有配置都流畅运行仍有工作要做,也再度暴露了索尼发行游戏在PC移植上的老问题。"
-    ]
-  },
-  {
-    "id": "2026-08-11_gaming_4",
-    "date": "2026-08-11",
-    "category": "Gaming",
-    "subcat": "单机",
-    "platform": "PC / PS5",
-    "platform_color": "#F59E0B",
-    "title": "《影之刃零》开启预购放出11分钟预告",
-    "url": "https://www.gematsu.com/2026/08/phantom-blade-zero-pre-orders-open-august-11",
-    "image": "images/2026-08-11/2026-08-11_gaming_4.jpg",
-    "detail": [
-      "国产动作角色扮演游戏《影之刃零》(Phantom Blade Zero)由S-GAME开发,官方宣布将于2026年8月11日太平洋时间晚7点(美东晚10点)正式开启预购,并同步放出一段长达11分钟的全新预告片。开发团队表示游戏开发工作现已完成,这段预告将展示全新的剧情内容、角色、战斗以及一个出乎意料的惊喜。",
-      "这款主打武侠动作的作品被官方称为功夫朋克(Kungfupunk)风格,基于虚幻引擎5打造,拥有极具观赏性的武术连招与丰富的武器体系。故事聚焦一位被陷害、仅剩66天寿命的战士Soul,在黑暗奇幻世界中一路厮杀求生。游戏预定于2026年10月29日登陆PlayStation 5及PC平台,通过Steam与Epic游戏商店发售。",
-      "作为近年备受海外玩家关注的中国单机动作游戏之一,《影之刃零》自公布以来凭借流畅的战斗演示积累了大量期待。此次确认开发完成并进入预购阶段,意味着距正式发售仅剩两个多月,标志着项目已进入冲刺收尾。11分钟长预告的规格也显示厂商希望在发售前用高信息量内容进一步点燃社区热度。"
-    ]
-  },
-  {
-    "id": "2026-08-11_gaming_5",
-    "date": "2026-08-11",
+    "id": "2026-08-12_gaming_4",
+    "date": "2026-08-12",
     "category": "Gaming",
     "subcat": "行业",
-    "platform": "PC / 主机",
+    "platform": "Eurogamer",
     "platform_color": "#F59E0B",
-    "title": "《刺客信条:黑旗》重制战斗更硬核",
-    "url": "https://www.pcgamer.com/games/assassins-creed/assassins-creed-black-flag-resynced-combat-will-be-more-demanding-than-the-original/",
-    "image": "images/2026-08-11/2026-08-11_gaming_5.jpg",
+    "title": "《小小梦魇3》开发商宣布裁员",
+    "url": "https://www.eurogamer.net/little-nightmares-3-dark-pictures-supermassive-layoffs",
+    "image": "images/2026-08-12/2026-08-12_gaming_4.jpg",
     "detail": [
-      "育碧近日公布了《刺客信条4:黑旗 Resynced》的首个战斗系统深度解析,创意总监、也是原作老兵Paul Fu详细介绍了这次从零重建的战斗设计。核心结论是:这不再是2013年那种靠格挡刷通关的节奏,新版会主动惩罚重复套路的玩家,战斗强度明显比原作更高、更硬核。这款重制并非单纯的画面翻新,而是使用为《刺客信条:影》开发的Anvil引擎技术全面重构。",
-      "最大的变化是敌人具备自适应行为:如果玩家过度依赖格挡,敌人会施展无法格挡的必杀攻击;如果一味踢击,敌人则会开始闪避。育碧鼓励玩家在踢击、扫堂、绳镖、手枪与重击之间轮换来迷惑敌人。战斗围绕触发处决状态构建,包含暗杀、完美格挡、撞墙与倒地四种处决方式,而绳镖也从原作的第11章大幅提前到第3章解锁,改变了前期战斗流程。",
-      "对老玩家而言,这意味着熟悉的反击节奏将被打破,需要更主动、更多变的进攻思路。玩家社区反应不一:有人肯定加入闪避与招架系统是正向进步,认为整体优于此前RPG化的刺客信条战斗;也有人担心移除隐藏刃缠斗、缴械夺武等旧机制略显可惜,并质疑其能否达到现代动作游戏的深度。育碧表示接下来还会公布海战玩法的深度解析。"
+      "8月11日，据Eurogamer报道，《小小梦魇3》与《黑相集》系列的开发商Supermassive Games宣布了新一轮裁员，最多将裁减75个岗位。这家以叙事恐怖与互动电影式游戏闻名的英国工作室，在经历近年多个项目周期后，成为游戏行业持续动荡与降本浪潮中又一家受到冲击的知名开发商。",
+      "根据报道，本次裁员波及工作室内多个部门，公司方面将其归因于市场环境变化与项目结构调整的需要，并表示会为受影响员工提供相应支持。Supermassive近年来同时推进《小小梦魇3》及《黑相集》等多条产品线，人力与研发投入较大，此番收缩被解读为在项目交付与运营成本之间做出的艰难权衡。",
+      "消息传出后在游戏行业与玩家社区引发关注与惋惜，许多人对又一家擅长叙事体验的工作室遭遇裁员感到痛心，并再次将话题引向2025至2026年间席卷全球游戏业的裁员潮。有从业者担忧人才流失会影响在研作品质量，也有玩家表达了对《小小梦魇3》能否如期高质量交付的关切，希望工作室能挺过这段调整期。"
     ]
   }
 ]
