@@ -3,8 +3,8 @@
   "repos": {
     "PrimeIntellect-ai/prime-agent": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 4998,
+      "appearances": 3,
+      "total_today_stars": 6136,
       "language": "TypeScript",
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/148051844?v=4",
@@ -12,8 +12,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 1339,
+      "appearances": 3,
+      "total_today_stars": 1917,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -66,8 +66,8 @@
     },
     "ZhuLinsen/daily_stock_analysis": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1037,
+      "appearances": 3,
+      "total_today_stars": 1280,
       "language": "Python",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/42829555?v=4",
@@ -75,8 +75,8 @@
     },
     "garrytan/gstack": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 204,
+      "appearances": 2,
+      "total_today_stars": 437,
       "language": "TypeScript",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
@@ -84,17 +84,17 @@
     },
     "pingdotgg/t3code": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 552,
+      "appearances": 3,
+      "total_today_stars": 858,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
       "html_url": "https://github.com/pingdotgg/t3code"
     },
     "ruvnet/RuView": {
-      "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 310,
+      "best_rank": 10,
+      "appearances": 3,
+      "total_today_stars": 714,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -120,8 +120,8 @@
     },
     "google-deepmind/weathernext": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 411,
+      "appearances": 3,
+      "total_today_stars": 597,
       "language": "Python",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8596759?v=4",
@@ -129,8 +129,8 @@
     },
     "ollama/ollama": {
       "best_rank": 15,
-      "appearances": 2,
-      "total_today_stars": 178,
+      "appearances": 3,
+      "total_today_stars": 271,
       "language": "Go",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
@@ -228,8 +228,8 @@
     },
     "firecrawl/firecrawl": {
       "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 835,
+      "appearances": 2,
+      "total_today_stars": 1769,
       "language": "TypeScript",
       "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
@@ -246,8 +246,8 @@
     },
     "3b1b/manim": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 381,
+      "appearances": 2,
+      "total_today_stars": 578,
       "language": "Python",
       "description": "Animation engine for explanatory math videos",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11601040?v=4",
@@ -263,9 +263,9 @@
       "html_url": "https://github.com/heygen-com/hyperframes"
     },
     "paperclipai/paperclip": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 198,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 946,
       "language": "TypeScript",
       "description": "The open-source app everyone uses to manage agents at work",
       "owner_avatar": "https://avatars.githubusercontent.com/u/264498616?v=4",
@@ -317,13 +317,130 @@
       "html_url": "https://github.com/reacherhq/check-if-email-exists"
     },
     "cobusgreyling/loop-engineering": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 65,
+      "best_rank": 24,
+      "appearances": 2,
+      "total_today_stars": 162,
       "language": "JavaScript",
       "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/7868717?v=4",
       "html_url": "https://github.com/cobusgreyling/loop-engineering"
+    },
+    "earendil-works/pi": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 990,
+      "language": "TypeScript",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
+      "html_url": "https://github.com/earendil-works/pi"
+    },
+    "stablyai/orca": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 875,
+      "language": "TypeScript",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "html_url": "https://github.com/stablyai/orca"
+    },
+    "HKUDS/DeepTutor": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 812,
+      "language": "Python",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/DeepTutor"
+    },
+    "corsairdev/corsair": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 683,
+      "language": "TypeScript",
+      "description": "Your Agent's Integration Layer",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/238079011?v=4",
+      "html_url": "https://github.com/corsairdev/corsair"
+    },
+    "anthropics/skills": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 485,
+      "language": "Python",
+      "description": "Public repository for Agent Skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/skills"
+    },
+    "practical-tutorials/project-based-learning": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 401,
+      "language": "Python",
+      "description": "Curated list of project-based tutorials",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/89421154?v=4",
+      "html_url": "https://github.com/practical-tutorials/project-based-learning"
+    },
+    "multica-ai/multica": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 310,
+      "language": "Go",
+      "description": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/multica"
+    },
+    "cactus-compute/needle": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 248,
+      "language": "Python",
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/196640840?v=4",
+      "html_url": "https://github.com/cactus-compute/needle"
+    },
+    "macro-inc/macro": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 248,
+      "language": "Rust",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/65687018?v=4",
+      "html_url": "https://github.com/macro-inc/macro"
+    },
+    "shiyu-coder/Kronos": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 238,
+      "language": "Python",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/65760973?v=4",
+      "html_url": "https://github.com/shiyu-coder/Kronos"
+    },
+    "n8n-io/n8n": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 160,
+      "language": "TypeScript",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/45487711?v=4",
+      "html_url": "https://github.com/n8n-io/n8n"
+    },
+    "AWeirdDev/flights": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 159,
+      "language": "Python",
+      "description": "Fast, robust Google Flights scraper (API) for Python. (Probably)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/90096971?v=4",
+      "html_url": "https://github.com/AWeirdDev/flights"
+    },
+    "krillinai/KrillinAI": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 155,
+      "language": "Go",
+      "description": "AI video translation & dubbing tool for humans and AI Agents, powered by LLMs. Full pipeline: download, transcribe, translate, TTS dub, reformat, cover generation. 100+ languages, optimized for YouTube, TikTok, Bilibili, Douyin, and more.AI视频翻译配音工具，面向人类与AI Agent，100+语言全链路，CLI分阶段调用，适配抖音、小红书、哔哩哔哩、视频号、TikTok、YouTube",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2386538?v=4",
+      "html_url": "https://github.com/krillinai/KrillinAI"
     }
   }
 }

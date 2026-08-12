@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-12": {
-      "malisper/pgrust": 1,
-      "oven-sh/bun": 2,
-      "Shubhamsaboo/awesome-llm-apps": 3,
-      "stablyai/orca": 4,
-      "tailscale/tailscale": 5,
-      "google-labs-code/stitch-skills": 6,
-      "vercel/next.js": 7,
-      "pbakaus/impeccable": 8,
-      "yt-dlp/yt-dlp": 9,
-      "tt-a1i/archify": 10,
-      "davila7/claude-code-templates": 11,
-      "hashicorp/terraform": 12,
-      "FoundationAgents/OpenManus": 13,
-      "openai/codex": 14,
-      "anthropics/claude-cookbooks": 15,
-      "anthropics/claude-code": 16,
-      "microsoft/TypeScript": 17,
-      "harry0703/MoneyPrinterTurbo": 18,
-      "abseil/abseil-cpp": 19,
-      "langflow-ai/langflow": 20,
-      "Alishahryar1/free-claude-code": 21,
-      "ATH-MaaS/Pixelle-Video": 22,
-      "catchorg/Catch2": 23,
-      "rowboatlabs/rowboat": 24,
-      "zeux/meshoptimizer": 25
-    },
     "2026-07-13": {
       "HKUDS/Vibe-Trading": 1,
       "k1tbyte/Wand-Enhancer": 2,
@@ -836,6 +809,33 @@
       "Anil-matcha/Open-Generative-AI": 23,
       "reacherhq/check-if-email-exists": 24,
       "cobusgreyling/loop-engineering": 25
+    },
+    "2026-08-12": {
+      "PrimeIntellect-ai/prime-agent": 1,
+      "earendil-works/pi": 2,
+      "firecrawl/firecrawl": 3,
+      "stablyai/orca": 4,
+      "HKUDS/DeepTutor": 5,
+      "paperclipai/paperclip": 6,
+      "corsairdev/corsair": 7,
+      "addyosmani/agent-skills": 8,
+      "anthropics/skills": 9,
+      "ruvnet/RuView": 10,
+      "practical-tutorials/project-based-learning": 11,
+      "multica-ai/multica": 12,
+      "pingdotgg/t3code": 13,
+      "cactus-compute/needle": 14,
+      "macro-inc/macro": 15,
+      "ZhuLinsen/daily_stock_analysis": 16,
+      "shiyu-coder/Kronos": 17,
+      "garrytan/gstack": 18,
+      "3b1b/manim": 19,
+      "google-deepmind/weathernext": 20,
+      "n8n-io/n8n": 21,
+      "AWeirdDev/flights": 22,
+      "krillinai/KrillinAI": 23,
+      "cobusgreyling/loop-engineering": 24,
+      "ollama/ollama": 25
     }
   }
 }
