@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T08:10:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "HN",
+      "author": "nateb2022",
+      "title": "LFM2.5-2.6B端侧智能体比肩4倍大模型",
+      "url": "https://news.ycombinator.com/item?id=49173107",
+      "detail": [
+        "Liquid AI在Hugging Face发布并登上Hacker News讨论的LFM2.5-2.6B,是一款主打完全在设备端运行的智能体模型,支持工具调用与多步工作流,却小到足以跑在笔记本乃至手机上。它基于高效的LFM2架构,预训练约34万亿tokens,中期训练把上下文窗口扩展到128K,后训练则通过监督微调、教师专精、多域策略蒸馏与真实智能体环境中的强化学习四阶段,把基座打磨成可靠的端侧智能体。",
+        "官方给出的基准显示,这个26亿参数模型在指令遵循与工具使用上全面压制约两倍于己的Gemma-4-E4B(8B),多数榜单甚至逼近9.7B的Qwen3.5:IFBench得59.17、Multi-IF达80.07、ToolSandbox为77.83。推理效率同样亮眼,苹果M5 Max上CPU解码220 tokens/秒,Ryzen AI上113 tokens/秒,仅需不到2.5GB内存;单张H100高并发下可达近1.5万tokens/秒,首日即支持llama.cpp、MLX、vLLM、SGLang与ONNX。",
+        "该发布在开发者社区引发关于端侧智能体经济性的讨论:数据隐私留在本地、免去云端推理账单,让高频智能体负载得以规模化,被视为把智能体框架塞进手机的关键一步。也有评论指出其唯一明显短板是编程能力仍落后于更大模型,官方坦承代码任务应改用更大模型,凸显小模型在agentic coding上的能力边界与取舍。"
+      ],
+      "heat": "127 收藏 / HF 47.4k 下载"
+    },
+    {
+      "platform": "HN",
+      "author": "frabonacci",
+      "title": "llama.cpp在macOS虚拟机提速11-16倍",
+      "url": "https://news.ycombinator.com/item?id=49259339",
+      "detail": [
+        "Cua团队(trycua)发布一项研究成果:苹果Virtualization.framework虚拟机里的macOS客户机,其虚拟GPU只上报保守的Metal能力档位,导致llama.cpp选择了较慢的内核路径。团队做了一个进程级的Metal能力垫片,只改写单个客户机进程读取到的能力应答,从而解锁更新的GPU执行路径,让本地大模型推理在虚拟机内大幅提速。",
+        "团队在M1 Ultra上实测:垫片把supportsFamily从苹果5族改报为9族,并把线程组内存上限从32KB提到64KB,启用了SIMD-group矩阵与bfloat16路径。TinyLlama 1.1B提示处理提速11.08倍、生成提速16.36倍;Gemma 4 12B分别提速7.20倍与14.54倍,提示速度达到裸机的99.59%,源码与原始基准日志全部开源可复现。",
+        "社区讨论热烈,有人率先指出该优化只对这种虚拟机内运行的llama.cpp有效,裸机不受影响,作者frabonacci确认并补充是虚拟机能力上报问题。有人追问苹果为何要限制虚拟GPU的Metal档位,也有人借机讨论CPU大内存与AMD 395+等本地推理硬件路线,帖子获得约258分、近40条评论。"
+      ],
+      "heat": "258 分 / 39 评论"
+    },
+    {
+      "platform": "HN",
+      "author": "HenryNdubuaku",
+      "title": "Needle2:14MB端侧智能体大模型开源",
+      "url": "https://news.ycombinator.com/item?id=49246804",
+      "detail": [
+        "Cactus团队创始人Henry在Hacker News发布Show HN,推出Needle 2——一个仅14MB、参数量4500万的开源智能体模型,专为手机、可穿戴设备、智能家居、机器人乃至微控制器等超低算力终端打造。它延续了团队此前26M版本的Simple Attention Network架构,整个模型是自包含的单文件二进制,无需运行时、无需联网下载,可跑在ARM64、x86、RISC-V及WebAssembly等平台上。",
+        "核心数据令人瞩目:模型经CQ2两比特量化,完整会话仅占28MB内存,在树莓派5上解码达500 tokens/秒,在Meta Quest 3S、Vision Pro等VR设备上跑到400至1500 tokens/秒,200美元以下的低端安卓机也能有300到700 tokens/秒。它在工具调用与设备操作基准上与体积大5到70倍的模型互有胜负,还内置了置信度门控与工具检索头,可按需升级到云端大模型。",
+        "帖子迅速冲上前排,收获120分与62条评论,社区热议其把边缘AI从Mac/PC拓展到全球数十亿台IoT设备的野心。有开发者惊叹能在ESP32微控制器上以11MB内存运行,也有人质疑45M参数是否只是花哨的函数调用器而非真正的智能体。作者强调工具调用本质是检索与拼装,无需世界知识,因此小模型足矣,并邀请大家本地微调验证。"
+      ],
+      "heat": "120 分 / 62 评论"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "HN",
+      "author": "mikeayles",
+      "title": "250美元FPGA跑出2.1万tok/s微型LLM",
+      "url": "https://news.ycombinator.com/item?id=49242475",
+      "detail": [
+        "独立开发者mikeayles受Taalas把Llama 8B烧进定制芯片的demo启发,用一块约250美元的赛灵思FPGA做了一次极限实验:把整个模型的权重全部塞进片上SRAM,彻底不碰DRAM,验证'推理瓶颈是读权重、那就别去远处取'这一核心论点在消费级硬件上能走多远。",
+        "受限于芯片仅约3MB片上空间,模型只有316万参数、按字符建模,单用户吞吐冲到约2.1万tok/s;作者实测p50延迟约23ms,压测2000并发时退化为可预期的排队而非崩塌,唯一异常是模型热切换需约25秒重新配置FPGA,期间请求被迫等待。",
+        "帖子登上HN Show版拿到74分、24条评论,讨论迅速聚焦FPGA与GPU、ASIC的能效之争:多数人认可这是对存内计算路线的精彩概念验证,也有人直言该模型输出基本是乱码、实用性存疑,作者坦承交付物是推理引擎本身而非模型。"
+      ],
+      "heat": "74 分 / 24 评论"
+    },
+    {
+      "platform": "博客",
+      "author": "Modular Team",
+      "title": "Mojo 1.0 正式发布",
+      "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+      "detail": [
+        "Modular于8月11日随26.5版本正式发布Mojo 1.0,标志着这门自2023年首次亮相、面向AI时代的系统级编程语言达到里程碑。官方称Mojo已从一门在内部快速迭代的语言,成长为支撑其商业基础设施MAX与Modular Cloud的生产级基石,如今终于向社区承诺一个稳定、可长期依赖的语言基础。",
+        "官方强调1.0进入稳定期后改动将以增量为主,破坏性变更会像C++等成熟语言那样谨慎管理。自标准库开源以来,近200名贡献者提交了逾1100个PR、改动超20万行代码。26.5还带来Python风格lambda内联闭包、更稳定的Mojo LSP、统一的var声明与单一Pointer类型,并新增对引用失效等内存安全问题的诊断。",
+        "消息在Hacker News上获得269分、120条评论,社区围绕Mojo能否兼顾Python易用性与系统级性能、其与Rust/C++的定位差异、以及闭源编译器与开源标准库的关系展开讨论。支持者视其为AI与GPU编程的重要基础设施,也有人对语言生态成熟度和长期治理保持观望。"
+      ],
+      "heat": "269 分 / 120 评论"
+    },
+    {
+      "platform": "博客",
+      "author": "NVIDIA",
+      "title": "NVIDIA助推开源本地AI模型与智能体",
+      "url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron/",
+      "detail": [
+        "NVIDIA于8月11日更新其Local AI专栏,盘点整个八月开源生态在本地AI上的最新进展,强调开源社区正让爱好者与开发者更容易在本地构建、定制并运行日益强大的智能体。文章一次性汇总了当下可用的多款开放权重模型、软件与开发工具,并配以加速计算库与教育资源,官方称八月将是属于智能体的大月份。",
+        "专栏中最受关注的agentic coding亮点是Poolside AI发布的Laguna S 2.1——一个约118B总参数、每token仅激活约8.5B的MoE开放权重编码智能体模型,支持最高100万token上下文和长达数小时的长程任务。它采用滑动窗口与全局注意力3:1混合布局、KV缓存FP8量化,NVFP4权重约71GB,可在单台NVIDIA DGX Spark上本地运行,并在llama.cpp、Ollama、vLLM等生态即取即用。",
+        "文中同时列出MiniMax-H3视频音频模型、Thinking Machines的Inkling-Small以及即将上线的Unsloth Desktop等一连串开源发布,勾勒出本地智能体百花齐放的格局。Laguna S 2.1宣称在Terminal-Bench 2.1拿到70.2、SWE-Bench Multilingual达78.5,以远小的体积对标数倍于己的模型,被视为本地agentic coding'越级挑战'的代表。"
+      ],
+      "heat": "NVIDIA官方博客 / 8月11日更新"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "GitHub",
+      "name": "antirez",
+      "url": "https://github.com/antirez/h3.c",
+      "detail": [
+        "Salvatore Sanfilippo,网名antirez,是意大利传奇程序员、Redis的创造者。以偏爱纯C、追求极简与可读性著称,他近年重返底层系统与AI推理领域,常以单人之力手写高性能引擎,在开源社区拥有极高声望;h3.c正是他最新的个人力作,延续了此前项目的交互式体验与工程审美。",
+        "h3.c是一个专为苹果Silicon打造的原生MiniMax-H3推理引擎,让Mac用户可在本地由文本、图像、视频、音频生成带同步立体声的视频。项目以纯C加Metal逐步搭建垂直切片,支持首末帧锚定与Ref2VA有序参考,并做了大量M3/M5 Max专属优化:int8 MLP让512×512、50层去噪从36.3秒降到25.8秒,SSD流式把DiT显存从约36.5GiB压到2.0GiB。",
+        "该仓库已收获约1.2k星、58个分叉,值得关注之处在于它把动辄需要集群的33B视频模型带到了一台Mac上端到端运行,128GB M5 Max上图像加音频渲染约74.6秒、峰值仅约40GB且零交换。antirez以近乎偏执的A/B诊断和逐字节对齐MLX参考实现的态度,展示了个人开发者在消费级硬件上压榨生成式AI性能的极限工程范例。"
+      ],
+      "heat": "1.2k stars / 58 forks"
+    },
+    {
+      "platform": "博客",
+      "name": "Sebastian Raschka",
+      "url": "https://magazine.sebastianraschka.com/",
+      "detail": [
+        "Sebastian Raschka博士是知名机器学习教育者、畅销书作者与研究员,其Substack专栏《Ahead of AI》聚焦机器学习与AI研究,已被超过20.5万名研究者与从业者订阅。他以把前沿论文与工程实践拆解得深入浅出著称,是众多开发者跟进大模型架构演进的重要信源。",
+        "专栏近期内容延续了他一贯的深度技术解析风格,围绕大语言模型的架构设计、训练方法与推理效率展开,常配以从零实现的代码与逐步图解,帮助读者理解Transformer变体、注意力机制优化及后训练范式等主题的来龙去脉。他还持续更新对当下开源模型与研究趋势的评述,把散落的论文脉络整理成清晰的知识地图。",
+        "值得关注的是,Raschka不满足于转述新闻,而是坚持亲手复现关键方法并给出可运行范例,把'读懂'与'做出来'结合,这种教学与研究并重的姿态使其内容在信息过载的AI浪潮中尤显稀缺。对于希望系统跟进ML工程而非碎片追热点的读者,他的长文是稳定且高信噪比的参照。"
+      ],
+      "heat": "20.5万+ 订阅"
+    },
+    {
+      "platform": "HuggingFace",
+      "name": "Liquid AI",
+      "url": "https://huggingface.co/LiquidAI",
+      "detail": [
+        "Liquid AI是一家主打'从第一性原理出发的新一代基础模型'的团队,在Hugging Face上拥有超过4800名关注者、94名成员,发布了约160个模型、19个Space与多个数据集。其核心理念是打造高效、可在设备端运行的基础模型,LFM系列正是这一方向的集中体现,近来在端侧智能体赛道声量迅速攀升。",
+        "组织近期最受瞩目的发布是LFM2.5系列:主力LFM2.5-2.6B五天内在HF下载约9.37万次、获550赞,还配套推出230M、350M以及8B-A1B等多种规格,并提供GGUF、MLX及nvfp4/mxfp4/mxfp8等丰富量化版本。团队近期发表专栏《Deploy local agents everywhere with LFM2.5-2.6B》,并上线可在浏览器用WebGPU本地运行的LFM2.5 Edge Research Agent。",
+        "值得关注的是Liquid AI把'小而强'的端侧路线做到了产品化闭环:除聊天基座外,还围绕LFM2.5-Encoder推出拼写纠错、PII检测、提示路由、策略检查等一系列CPU上即可运行的任务型Space与Nanos模型,展示了在不依赖云端的前提下,把隐私敏感的智能体能力下沉到本地设备的完整愿景。"
+      ],
+      "heat": "HF 4834 关注 / LFM2.5-2.6B 93.7k 下载"
+    }
+  ]
+}
