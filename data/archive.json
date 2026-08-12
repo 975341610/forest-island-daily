@@ -1,5 +1,197 @@
 [
   {
+    "id": "2026-08-12_vibecoding_4",
+    "date": "2026-08-12",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "Copilot用量报告细化到token",
+    "url": "https://github.blog/changelog/2026-08-11-per-model-token-breakdown-in-the-usage-report",
+    "image": "images/2026-08-12/2026-08-12_vibecoding_4.jpg",
+    "detail": [
+      "GitHub在8月11日更新了Copilot的用量报告（Usage Report），新增按模型拆分的token消耗明细。此前用量报告只能给出较为笼统的整体调用情况，如今管理员和开发者可以清楚看到每个模型分别消耗了多少token，从而对不同模型的使用分布与成本构成一目了然，是Copilot在计量透明化上的一次实用升级。",
+      "据变更说明，新的per-model token breakdown会在报告中列出各模型的输入与输出token用量，帮助团队识别高消耗模型、评估不同任务切换模型带来的成本差异。对于按token计费、多模型并存的Copilot使用场景，这一细化数据让企业能够更精准地做预算分配与用量治理，也便于开发者据此优化自己的模型选择习惯。",
+      "这项改进直接回应了社区长期以来对'账单不够透明'的抱怨，尤其在Copilot引入越来越多可选模型、且部分模型按token计费之后，精细化的用量可见性变得愈发重要。管理员群体普遍表示欢迎，认为这让成本可控性大幅提升；也有开发者建议后续能进一步支持按仓库、按团队维度的下钻分析，让用量治理更加立体。"
+    ]
+  },
+  {
+    "id": "2026-08-12_vibecoding_3",
+    "date": "2026-08-12",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "Copilot JetBrains版上新记忆功能",
+    "url": "https://github.blog/changelog/2026-08-11-copilot-memory-and-ollama-in-github-copilot-for-jetbrains",
+    "image": "images/2026-08-12/2026-08-12_vibecoding_3.jpg",
+    "detail": [
+      "GitHub在8月11日宣布，面向JetBrains系列IDE的GitHub Copilot迎来两项重要更新：新增记忆（Memory）功能，以及对本地模型运行框架Ollama的支持。这让IntelliJ IDEA、PyCharm等JetBrains用户在编码助手体验上进一步向VS Code看齐，也把'个性化上下文'与'本地模型'两大能力带入了更广的开发者群体。",
+      "其中记忆功能允许Copilot在多次会话之间保留开发者的偏好、项目约定与此前交流的关键信息，从而在后续对话中给出更贴合个人风格与项目上下文的建议，减少重复解释的成本。而Ollama支持则意味着开发者可以在本地运行开源模型并接入Copilot，满足对数据隐私、离线可用及成本控制有更高要求的团队与个人。",
+      "这次更新被视为GitHub缩小不同IDE间Copilot功能差距、并拥抱本地化部署趋势的信号。JetBrains社区对记忆功能能否真正提升长期协作效率抱有期待，同时也有人关注隐私边界——记忆存储在哪、如何清除；而Ollama支持则受到注重数据合规开发者的欢迎，认为这为在敏感代码库中安全使用AI助手提供了更多可能。"
+    ]
+  },
+  {
+    "id": "2026-08-12_vibecoding_2",
+    "date": "2026-08-12",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "MAI-Code-1.1-Flash登陆Copilot",
+    "url": "https://github.blog/changelog/2026-08-11-mai-code-1-1-flash-available-in-github-copilot/",
+    "image": "images/2026-08-12/2026-08-12_vibecoding_2.jpg",
+    "detail": [
+      "GitHub在8月11日的更新日志中宣布，微软最新发布的MAI-Code-1.1-Flash模型已正式接入GitHub Copilot，成为可在模型选择器中直接选用的选项之一。这意味着开发者无需切换工具，就能在熟悉的Copilot Chat、代码补全及Agent模式中调用这款主打低成本高速度的新模型，进一步丰富了Copilot多模型并存的能力矩阵。",
+      "根据变更说明，MAI-Code-1.1-Flash在Copilot中面向付费计划用户开放，覆盖VS Code、Visual Studio及Web端等多个入口，用户可按任务复杂度在不同模型间灵活切换。官方指出该模型特别适合高频、对延迟敏感的日常编码场景，如快速补全、小范围重构和即时问答，而复杂推理任务仍可切换到更大的模型，形成成本与能力的分层使用策略。",
+      "这次上线延续了GitHub把更多模型快速纳入Copilot的开放策略，让开发者拥有更大的选择权。社区反馈中，不少人对'自研模型+更低单价'带来的额度优化表示欢迎，认为高频调用场景能显著省钱；也有开发者希望官方尽快给出Flash与其他主力模型在真实项目中的横向对比数据，以便判断在哪些任务上切换到Flash最为划算。"
+    ]
+  },
+  {
+    "id": "2026-08-12_vibecoding_1",
+    "date": "2026-08-12",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "Microsoft",
+    "platform_color": "#2563EB",
+    "title": "微软发布MAI-Code-1.1-Flash模型",
+    "url": "https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/",
+    "image": "images/2026-08-12/2026-08-12_vibecoding_1.jpg",
+    "detail": [
+      "微软AI在8月11日正式发布面向编程场景的新模型MAI-Code-1.1-Flash，官方口号是'更强、更快、成本只有四分之一'。作为MAI-Code系列的迭代版本，Flash主打在保持高代码质量的同时大幅压低推理成本与延迟，定位为可大规模部署到日常开发工作流中的轻量高效编码模型，是微软自研模型路线在AI Coding赛道的又一次发力。",
+      "据发布博客，MAI-Code-1.1-Flash在多项编程基准上相比前代取得明显提升，代码补全与多步任务的准确率更高，而单位token成本降至此前的约四分之一，响应速度也显著加快。微软强调该模型针对真实仓库级别的代码理解、跨文件重构与调试场景做了专门优化，目标是让高频调用的AI编码助手在企业和个人开发者手中都变得更划算。",
+      "此次发布凸显微软在减少对单一模型供应商依赖、构建自有模型矩阵上的决心。开发者社区普遍关注其性价比是否真如宣传所言，也有人期待它与GitHub Copilot的深度整合。结合同日Copilot全平台上线该模型的动作，业界认为微软正试图用'自研+低成本'组合拳，重新掌握AI编程助手在成本与性能之间的定价主动权。"
+    ]
+  },
+  {
+    "id": "2026-08-12_gaming_4",
+    "date": "2026-08-12",
+    "category": "Gaming",
+    "subcat": "行业",
+    "platform": "Eurogamer",
+    "platform_color": "#F59E0B",
+    "title": "《小小梦魇3》开发商宣布裁员",
+    "url": "https://www.eurogamer.net/little-nightmares-3-dark-pictures-supermassive-layoffs",
+    "image": "images/2026-08-12/2026-08-12_gaming_4.jpg",
+    "detail": [
+      "8月11日，据Eurogamer报道，《小小梦魇3》与《黑相集》系列的开发商Supermassive Games宣布了新一轮裁员，最多将裁减75个岗位。这家以叙事恐怖与互动电影式游戏闻名的英国工作室，在经历近年多个项目周期后，成为游戏行业持续动荡与降本浪潮中又一家受到冲击的知名开发商。",
+      "根据报道，本次裁员波及工作室内多个部门，公司方面将其归因于市场环境变化与项目结构调整的需要，并表示会为受影响员工提供相应支持。Supermassive近年来同时推进《小小梦魇3》及《黑相集》等多条产品线，人力与研发投入较大，此番收缩被解读为在项目交付与运营成本之间做出的艰难权衡。",
+      "消息传出后在游戏行业与玩家社区引发关注与惋惜，许多人对又一家擅长叙事体验的工作室遭遇裁员感到痛心，并再次将话题引向2025至2026年间席卷全球游戏业的裁员潮。有从业者担忧人才流失会影响在研作品质量，也有玩家表达了对《小小梦魇3》能否如期高质量交付的关切，希望工作室能挺过这段调整期。"
+    ]
+  },
+  {
+    "id": "2026-08-12_gaming_3",
+    "date": "2026-08-12",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "ComicBook",
+    "platform_color": "#F59E0B",
+    "title": "塞尔达40周年限定NS2主机疑曝光",
+    "url": "https://comicbook.com/gaming/news/zelda-switch-2-console-leak-images/",
+    "image": "images/2026-08-12/2026-08-12_gaming_3.jpg",
+    "detail": [
+      "8月11日，网络上流出了疑似《塞尔达传说》40周年纪念限定版Nintendo Switch 2主机的图片，迅速在玩家社区引发热议。据ComicBook报道，这批泄露图展示了一台以塞尔达系列标志性元素为主题的定制配色主机与手柄，包括海拉鲁徽记、三角之力等经典符号，做工与设计风格被指高度贴合任天堂过往的纪念版产品。",
+      "由于《塞尔达传说》初代于1986年问世，2026年恰逢系列40周年这一重要节点，因此推出纪念限定主机的传闻本就有据可循，此番泄露图进一步点燃了粉丝的期待。图片中的机身与Joy-Con采用了金绿相间的主题配色，并疑似带有专属图案雕刻，不过任天堂官方尚未对这批图片的真实性作出任何确认或回应。",
+      "面对泄露，社区反应呈现两极：塞尔达死忠粉对可能到来的收藏级硬件兴奋不已，纷纷讨论定价与购买渠道；也有资深玩家保持谨慎，提醒在官方公布前应把这类'泄露图'视为传闻甚至可能的粉丝渲染图。无论真假，围绕40周年限定机的讨论都再次印证了塞尔达IP在玩家心中的号召力与收藏价值。"
+    ]
+  },
+  {
+    "id": "2026-08-12_gaming_2",
+    "date": "2026-08-12",
+    "category": "Gaming",
+    "subcat": "掌机",
+    "platform": "Nintendo Life",
+    "platform_color": "#F59E0B",
+    "title": "《艾尔登法环》NS2版新故事预告",
+    "url": "https://www.nintendolife.com/news/2026/08/elden-ring-for-switch-2-is-looking-pretty-slick-in-new-story-trailer",
+    "image": "images/2026-08-12/2026-08-12_gaming_2.jpg",
+    "detail": [
+      "8月11日，FromSoftware旗下现象级魂系大作《艾尔登法环》（Elden Ring）公布了Nintendo Switch 2版本的全新故事预告片，展示了这款以硬核难度和宏大开放世界著称的游戏在新掌机上的运行表现。预告中的画面表现被媒体评价为'相当流畅精致'，让此前担忧移植质量的玩家吃下一颗定心丸。",
+      "从预告内容看，Switch 2版本较好地还原了'交界地'广袤的开放世界、标志性的Boss战与阴郁厚重的美术风格，帧数与加载表现在掌机形态下达到了可接受甚至超出预期的水准。新故事预告也重新梳理了游戏的世界观与主线脉络，既服务于首次接触该系列的Switch 2新玩家，也为老玩家在掌机上重温经典提供了理由。",
+      "这段预告在魂系社区与任天堂玩家群体中引发广泛讨论，核心焦点在于'能把《艾尔登法环》塞进掌机并保持体面表现'本身就是对Switch 2机能的一次有力证明。不少玩家表示期待随时随地挑战'交界地'的自由，也有人谨慎观望正式发售后的实际优化与稳定性，认为最终口碑仍要以真机长时间游玩体验为准。"
+    ]
+  },
+  {
+    "id": "2026-08-12_gaming_1",
+    "date": "2026-08-12",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Nintendo Life",
+    "platform_color": "#F59E0B",
+    "title": "《中土世界:北方战争》传奇版突袭",
+    "url": "https://www.nintendolife.com/news/2026/08/the-lord-of-the-rings-war-in-the-north-shadow-drops-on-switch-1-and-2",
+    "image": "images/2026-08-12/2026-08-12_gaming_1.jpg",
+    "detail": [
+      "8月11日，经典动作角色扮演游戏《指环王：北方战争》（The Lord of the Rings: War in the North）的传奇复刻版以'影子发售'（shadow-drop）方式毫无预警地登陆Nintendo Switch与Switch 2平台，玩家在得知消息的当天即可在eShop直接下载游玩。这款2011年初代作品的重制回归，让不少中土世界与老牌ARPG粉丝倍感惊喜。",
+      "本次登陆Switch的版本对画面与操作做了适配优化，保留了原作三人小队合作闯关、围绕北方战线展开的原创剧情设定，玩家可扮演人类、矮人与精灵组成的英雄小队，在托尔金笔下的中土北境迎战索伦势力。Switch 2版本进一步利用新主机机能提升了分辨率与帧数表现，让这款十余年前的作品在掌机上焕发新生。",
+      "突袭发售的策略在社区引发热烈讨论，许多玩家惊叹于'早上醒来就能玩'的惊喜感，也让这款一度被低估的合作ARPG重新回到大众视野。有老玩家追忆其扎实的战斗手感与合作乐趣，也有新玩家借掌机契机首次体验中土冒险，普遍认为影子发售为经典IP复刻提供了一种低成本、高话题度的市场打法。"
+    ]
+  },
+  {
+    "id": "2026-08-12_ai_4",
+    "date": "2026-08-12",
+    "category": "AI",
+    "subcat": "AI融资",
+    "platform": "The Information",
+    "platform_color": "#8ED16D",
+    "title": "Trajectory获红杉4000万领投融资",
+    "url": "https://www.theinformation.com/newsletters/ai-agenda/trajectory-founded-ex-google-apple-researchers-raises-funding-sequoia-back-back-round",
+    "image": "images/2026-08-12/2026-08-12_ai_4.jpg",
+    "detail": [
+      "据The Information 8月11日报道，AI初创公司Trajectory完成一轮由红杉资本领投的4000万美元融资。这家公司由多位前谷歌与苹果的研究员创立，团队背景横跨大模型训练、端侧推理与人机交互，成立时间不长却因创始阵容豪华、方向踩中当前最热的AI智能体赛道，迅速获得顶级风投的连续加注。",
+      "报道称，Trajectory聚焦于构建面向真实生产环境的AI智能体系统，试图解决当前Agent普遍存在的可靠性差、长任务易崩、难以嵌入企业既有工作流等痛点。红杉此番领投属于对该团队的连续押注，显示出头部机构对'能真正干活的智能体'这一细分方向的强烈信心，资金将主要用于扩张研发团队与打磨核心产品。",
+      "在整体融资环境趋于理性的背景下，Trajectory能拿下红杉领投的4000万美元，被业内视为AI智能体赛道仍是资本最愿意下注的领域之一。社区讨论既有对'前大厂研究员创业+顶级VC背书'这一经典成功范式的看好，也有声音提醒，智能体创业公司数量激增、同质化严重，最终能否兑现估值仍取决于产品在企业级场景的真实落地效果。"
+    ]
+  },
+  {
+    "id": "2026-08-12_ai_3",
+    "date": "2026-08-12",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "CNBC",
+    "platform_color": "#8ED16D",
+    "title": "黄仁勋5000亿AI融资遇中国风险",
+    "url": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
+    "image": "images/2026-08-12/2026-08-12_ai_3.jpg",
+    "detail": [
+      "英伟达CEO黄仁勋近期力推的一项规模高达5000亿美元的AI基础设施融资与投资计划，正遭遇来自中国市场的不确定性风险。据CNBC 8月11日报道，这项旨在联合华尔街资管巨头把AI数据中心打造成'可投资的基础设施资产'的宏大布局，因中美在先进芯片出口管制上的持续拉锯，其在华收入预期与供应链安排面临重新评估。",
+      "报道指出，中国市场此前长期是英伟达数据中心业务的重要增长极，但在出口限制、以及国产替代芯片加速崛起的双重挤压下，英伟达对华高端GPU销售前景转趋谨慎。黄仁勋多次公开表示希望继续留在中国市场，然而地缘政治变量使得这笔5000亿美元级别的资金能否顺利部署、以及回报模型是否成立，都被机构投资者打上问号。",
+      "这一消息让市场对AI基础设施投资的'确定性叙事'产生动摇，部分华尔街分析师认为，把AI算力包装成类似房地产、能源的长期资产虽有想象空间，但高度依赖单一供应商与敏感的中美关系，风险敞口不容忽视。社区讨论也聚焦于：一旦对华业务进一步收缩，英伟达是否需要在中东、东南亚等新市场寻找算力需求承接，以支撑这场资本豪赌。"
+    ]
+  },
+  {
+    "id": "2026-08-12_ai_2",
+    "date": "2026-08-12",
+    "category": "AI",
+    "subcat": "AI安全",
+    "platform": "CNET",
+    "platform_color": "#8ED16D",
+    "title": "Anthropic给Claude输出加隐形水印",
+    "url": "https://www.cnet.com/tech/services-and-software/anthropics-claude-will-add-watermarks-to-ai-generated-text-and-files/",
+    "image": "images/2026-08-12/2026-08-12_ai_2.jpg",
+    "detail": [
+      "Anthropic在8月11日宣布，将为旗下Claude模型生成的文本与文件加入隐形水印，用来标记内容源自AI。该水印通过在字符间嵌入人眼不可见的特殊编码实现，正常阅读、复制粘贴时不会察觉，但可借助官方或第三方检测工具还原出'由Claude生成'的溯源信息，目标是在AI内容泛滥的当下提供一种可验证的来源标签。",
+      "据公司说明，水印会应用于通过Claude生成的长文、代码文件及导出文档，并计划逐步覆盖API输出。Anthropic强调该方案设计上要兼顾稳健性与隐蔽性——既要在轻度编辑、格式转换后仍可检出，又不能明显破坏文本可读性或影响下游使用，同时承认任何水印都无法做到百分之百不可去除，只能提高伪造与冒用的成本。",
+      "此举被视为AI厂商在监管压力与信任危机下的主动应对，教育、出版、招聘等领域对'如何辨别AI代笔'的需求正快速上升。社区反应两极：支持者认为这有助于打击学术作弊与虚假信息，反对者则担心水印可能被用于追踪用户、或在跨平台复制后误伤正常创作，也有人质疑竞品若不跟进、标准不统一将难以形成真正有效的溯源生态。"
+    ]
+  },
+  {
+    "id": "2026-08-12_ai_1",
+    "date": "2026-08-12",
+    "category": "AI",
+    "subcat": "AI产品",
+    "platform": "MacRumors",
+    "platform_color": "#8ED16D",
+    "title": "马斯克xAI推Grok Bot常驻智能体",
+    "url": "https://www.macrumors.com/2026/08/11/grok-bot-macos-ios/",
+    "image": "images/2026-08-12/2026-08-12_ai_1.jpg",
+    "detail": [
+      "马斯克旗下xAI在8月11日推出全新的Grok Bot功能，把原本只存在于对话窗口里的AI助手升级为常驻macOS与iOS系统的桌面级智能体。用户无需反复打开App，Grok Bot会以悬浮小组件形式停留在屏幕角落，随时接收语音或文字指令，并能读取剪贴板、当前窗口截图等上下文，主打把大模型从聊天框里解放出来、真正嵌入日常工作流。",
+      "据发布信息，Grok Bot深度整合了xAI最新的模型能力，支持跨应用操作、自动整理邮件与日程、以及对屏幕内容的实时问答，在Mac上还能调用系统快捷指令完成多步任务。它对SuperGrok订阅用户开放更高的调用额度与更强的推理模式，免费用户则有基础功能与每日次数限制，定位与苹果系统级AI、以及ChatGPT桌面版形成正面竞争。",
+      "该功能一经上线便在开发者与Mac用户社区引发热议，不少人认为这是xAI从'聊天机器人'转向'系统智能体'的关键一步，也有人担忧常驻读取屏幕内容带来的隐私与安全风险。马斯克本人在X上转发并强调Grok Bot会持续快速迭代，将成为其'万能助手'愿景的核心载体，进一步加剧了几家AI巨头在端侧助手赛道的军备竞赛。"
+    ]
+  },
+  {
     "id": "2026-08-11_vibecoding_3",
     "date": "2026-08-11",
     "category": "VibeCoding",
