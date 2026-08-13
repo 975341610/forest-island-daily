@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-13": {
-      "HKUDS/Vibe-Trading": 1,
-      "k1tbyte/Wand-Enhancer": 2,
-      "malisper/pgrust": 3,
-      "anthropics/claude-cookbooks": 4,
-      "Shubhamsaboo/awesome-llm-apps": 5,
-      "home-assistant/core": 6,
-      "public-apis/public-apis": 7,
-      "par274/sharpemu": 8,
-      "pbakaus/impeccable": 9,
-      "iptv-org/iptv": 10,
-      "hmjz100/LinkSwift": 11,
-      "openai/codex": 12,
-      "vercel/next.js": 13,
-      "heygen-com/hyperframes": 14,
-      "oven-sh/bun": 15,
-      "Nutlope/hallmark": 16,
-      "chen08209/FlClash": 17,
-      "naptha/tesseract.js": 18,
-      "ruvnet/ruflo": 19,
-      "gitroomhq/postiz-app": 20,
-      "Crosstalk-Solutions/project-nomad": 21,
-      "Comfy-Org/ComfyUI": 22,
-      "virattt/ai-hedge-fund": 23,
-      "cypress-io/cypress": 24,
-      "react/react": 25
-    },
     "2026-07-14": {
       "HKUDS/Vibe-Trading": 1,
       "Graphify-Labs/graphify": 2,
@@ -836,6 +809,33 @@
       "krillinai/KrillinAI": 23,
       "cobusgreyling/loop-engineering": 24,
       "ollama/ollama": 25
+    },
+    "2026-08-13": {
+      "cathrynlavery/diagram-design": 1,
+      "stablyai/orca": 2,
+      "earendil-works/pi": 3,
+      "HKUDS/DeepTutor": 4,
+      "firecrawl/firecrawl": 5,
+      "practical-tutorials/project-based-learning": 6,
+      "paperclipai/paperclip": 7,
+      "anthropics/skills": 8,
+      "ZhuLinsen/daily_stock_analysis": 9,
+      "3b1b/manim": 10,
+      "hugohe3/ppt-master": 11,
+      "NVIDIA-NeMo/Switchyard": 12,
+      "huggingface/transformers": 13,
+      "cactus-compute/needle": 14,
+      "shiyu-coder/Kronos": 15,
+      "holaboss-ai/holaOS": 16,
+      "sherlock-project/sherlock": 17,
+      "macro-inc/macro": 18,
+      "openai/codex": 19,
+      "localsend/localsend": 20,
+      "1jehuang/jcode": 21,
+      "omnigent-ai/omnigent": 22,
+      "ruvnet/RuView": 23,
+      "t8y2/dbx": 24,
+      "AntigmaLabs/ante": 25
     }
   }
 }

@@ -66,8 +66,8 @@
     },
     "ZhuLinsen/daily_stock_analysis": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 1280,
+      "appearances": 4,
+      "total_today_stars": 1839,
       "language": "Python",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/42829555?v=4",
@@ -93,8 +93,8 @@
     },
     "ruvnet/RuView": {
       "best_rank": 10,
-      "appearances": 3,
-      "total_today_stars": 714,
+      "appearances": 4,
+      "total_today_stars": 879,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -228,8 +228,8 @@
     },
     "firecrawl/firecrawl": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1769,
+      "appearances": 3,
+      "total_today_stars": 2410,
       "language": "TypeScript",
       "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
@@ -246,8 +246,8 @@
     },
     "3b1b/manim": {
       "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 578,
+      "appearances": 3,
+      "total_today_stars": 1084,
       "language": "Python",
       "description": "Animation engine for explanatory math videos",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11601040?v=4",
@@ -264,8 +264,8 @@
     },
     "paperclipai/paperclip": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 946,
+      "appearances": 3,
+      "total_today_stars": 1517,
       "language": "TypeScript",
       "description": "The open-source app everyone uses to manage agents at work",
       "owner_avatar": "https://avatars.githubusercontent.com/u/264498616?v=4",
@@ -327,26 +327,26 @@
     },
     "earendil-works/pi": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 990,
+      "appearances": 2,
+      "total_today_stars": 1946,
       "language": "TypeScript",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
       "html_url": "https://github.com/earendil-works/pi"
     },
     "stablyai/orca": {
-      "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 875,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 2110,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
       "html_url": "https://github.com/stablyai/orca"
     },
     "HKUDS/DeepTutor": {
-      "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 812,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 1463,
       "language": "Python",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -362,18 +362,18 @@
       "html_url": "https://github.com/corsairdev/corsair"
     },
     "anthropics/skills": {
-      "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 485,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 1054,
       "language": "Python",
       "description": "Public repository for Agent Skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
       "html_url": "https://github.com/anthropics/skills"
     },
     "practical-tutorials/project-based-learning": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 401,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 974,
       "language": "Python",
       "description": "Curated list of project-based tutorials",
       "owner_avatar": "https://avatars.githubusercontent.com/u/89421154?v=4",
@@ -390,8 +390,8 @@
     },
     "cactus-compute/needle": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 248,
+      "appearances": 2,
+      "total_today_stars": 563,
       "language": "Python",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/196640840?v=4",
@@ -399,17 +399,17 @@
     },
     "macro-inc/macro": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 248,
+      "appearances": 2,
+      "total_today_stars": 475,
       "language": "Rust",
       "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65687018?v=4",
       "html_url": "https://github.com/macro-inc/macro"
     },
     "shiyu-coder/Kronos": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 238,
+      "best_rank": 15,
+      "appearances": 2,
+      "total_today_stars": 504,
       "language": "Python",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65760973?v=4",
@@ -441,6 +441,114 @@
       "description": "AI video translation & dubbing tool for humans and AI Agents, powered by LLMs. Full pipeline: download, transcribe, translate, TTS dub, reformat, cover generation. 100+ languages, optimized for YouTube, TikTok, Bilibili, Douyin, and more.AI视频翻译配音工具，面向人类与AI Agent，100+语言全链路，CLI分阶段调用，适配抖音、小红书、哔哩哔哩、视频号、TikTok、YouTube",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2386538?v=4",
       "html_url": "https://github.com/krillinai/KrillinAI"
+    },
+    "cathrynlavery/diagram-design": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 2855,
+      "language": "HTML",
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/50469282?v=4",
+      "html_url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    "hugohe3/ppt-master": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 476,
+      "language": "Python",
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/188330578?v=4",
+      "html_url": "https://github.com/hugohe3/ppt-master"
+    },
+    "NVIDIA-NeMo/Switchyard": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 421,
+      "language": "Rust",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/213689629?v=4",
+      "html_url": "https://github.com/NVIDIA-NeMo/Switchyard"
+    },
+    "huggingface/transformers": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 376,
+      "language": "Python",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "html_url": "https://github.com/huggingface/transformers"
+    },
+    "holaboss-ai/holaOS": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 258,
+      "language": "TypeScript",
+      "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/180552290?v=4",
+      "html_url": "https://github.com/holaboss-ai/holaOS"
+    },
+    "sherlock-project/sherlock": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 235,
+      "language": "Python",
+      "description": "Hunt down social media accounts by username across social networks",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/48293496?v=4",
+      "html_url": "https://github.com/sherlock-project/sherlock"
+    },
+    "openai/codex": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 216,
+      "language": "Rust",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/codex"
+    },
+    "localsend/localsend": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 213,
+      "language": "Dart",
+      "description": "An open-source cross-platform alternative to AirDrop",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/120677616?v=4",
+      "html_url": "https://github.com/localsend/localsend"
+    },
+    "1jehuang/jcode": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 212,
+      "language": "Rust",
+      "description": "The most RAM efficient harness",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/94247773?v=4",
+      "html_url": "https://github.com/1jehuang/jcode"
+    },
+    "omnigent-ai/omnigent": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 173,
+      "language": "Python",
+      "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/292215228?v=4",
+      "html_url": "https://github.com/omnigent-ai/omnigent"
+    },
+    "t8y2/dbx": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 156,
+      "language": "Rust",
+      "description": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
+      "html_url": "https://github.com/t8y2/dbx"
+    },
+    "AntigmaLabs/ante": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 154,
+      "language": "Rust",
+      "description": "Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/173536004?v=4",
+      "html_url": "https://github.com/AntigmaLabs/ante"
     }
   }
 }
