@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-14": {
-      "HKUDS/Vibe-Trading": 1,
-      "Graphify-Labs/graphify": 2,
-      "Shubhamsaboo/awesome-llm-apps": 3,
-      "Nutlope/hallmark": 4,
-      "github/spec-kit": 5,
-      "hasaneyldrm/exercises-dataset": 6,
-      "malisper/pgrust": 7,
-      "Crosstalk-Solutions/project-nomad": 8,
-      "public-apis/public-apis": 9,
-      "virattt/ai-hedge-fund": 10,
-      "heygen-com/hyperframes": 11,
-      "PrefectHQ/prefect": 12,
-      "TauricResearch/TradingAgents": 13,
-      "pingdotgg/t3code": 14,
-      "Augani/openreel-video": 15,
-      "ColeMurray/background-agents": 16,
-      "practical-tutorials/project-based-learning": 17,
-      "simonlin1212/TradingAgents-astock": 18,
-      "zarazhangrui/frontend-slides": 19,
-      "ruvnet/ruflo": 20,
-      "3b1b/manim": 21,
-      "FoundationAgents/OpenManus": 22,
-      "Anil-matcha/Open-Generative-AI": 23,
-      "gitroomhq/postiz-app": 24,
-      "IceWhaleTech/CasaOS": 25
-    },
     "2026-07-15": {
       "Graphify-Labs/graphify": 1,
       "HKUDS/Vibe-Trading": 2,
@@ -836,6 +809,33 @@
       "ruvnet/RuView": 23,
       "t8y2/dbx": 24,
       "AntigmaLabs/ante": 25
+    },
+    "2026-08-14": {
+      "cathrynlavery/diagram-design": 1,
+      "macro-inc/macro": 2,
+      "stablyai/orca": 3,
+      "hugohe3/ppt-master": 4,
+      "earendil-works/pi": 5,
+      "cactus-compute/needle": 6,
+      "NousResearch/hermes-agent": 7,
+      "infiniflow/ragflow": 8,
+      "paperclipai/paperclip": 9,
+      "NVIDIA-NeMo/Switchyard": 10,
+      "ZuodaoTech/everyone-can-use-english": 11,
+      "koala73/worldmonitor": 12,
+      "anthropics/skills": 13,
+      "smicallef/spiderfoot": 14,
+      "HKUDS/DeepTutor": 15,
+      "holaboss-ai/holaOS": 16,
+      "practical-tutorials/project-based-learning": 17,
+      "shiyu-coder/Kronos": 18,
+      "Lightricks/LTX-2": 19,
+      "megadose/holehe": 20,
+      "ZhuLinsen/daily_stock_analysis": 21,
+      "3b1b/manim": 22,
+      "t8y2/dbx": 23,
+      "ruvnet/RuView": 24,
+      "apify/apify-mcp-server": 25
     }
   }
 }
