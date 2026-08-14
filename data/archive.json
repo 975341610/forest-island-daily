@@ -1,5 +1,201 @@
 [
   {
+    "id": "2026-08-14_vibecoding_4",
+    "date": "2026-08-14",
+    "category": "VibeCoding",
+    "subcat": "AI代码评审",
+    "platform": "Product Hunt",
+    "platform_color": "#2563EB",
+    "title": "Ito登场:会跑起来再评审的AI",
+    "url": "https://www.producthunt.com/products/ito-ai-code-review-that-runs-code",
+    "image": "images/2026-08-14/2026-08-14_vibecoding_4.jpg",
+    "detail": [
+      "8月13日,由8位MIT工程师打造的AI代码评审工具Ito登陆Product Hunt首发。联合创始人Evan Marshall在发布帖中直言痛点:编码智能体产出的代码量已远超人工审阅上限,而现有评审工具「只盯着diff看」,只能靠人硬审或自建复杂验证系统,团队要么盲目合并、要么变成瓶颈。",
+      "Ito的差异化在于「先运行、再评审」:每个PR它都会在单次性隔离容器里真实构建应用,配好凭证与种子数据、调用外部服务,再用一群智能体像工程师一样点击、导航、发API、校验数据库,专抓并发、失败处理、数据迁移、鉴权等运行时缺陷,最后把视频、日志、截图作为证据回贴到PR上,而非仅凭静态分析臆测。",
+      "定价上前100次评审免费无需信用卡,之后每月40美元,开源项目永久免费,官方称已支持超10万星的仓库。发布首日获得数百关注与踊跃互动,有用户追问构建脚本损坏时的自愈能力,Marshall回应称Ito会尽力自动修复并维护环境。它被业内榜单列为「唯一在评审前真正运行代码」的工具,主打合并前的行为确定性。"
+    ]
+  },
+  {
+    "id": "2026-08-14_vibecoding_3",
+    "date": "2026-08-14",
+    "category": "VibeCoding",
+    "subcat": "开源Agent框架",
+    "platform": "GitHub / VentureBeat",
+    "platform_color": "#2563EB",
+    "title": "DeepSeek开源Harness叫板Claude Code",
+    "url": "https://github.com/deepseek-ai/deepseek-harness",
+    "image": "images/2026-08-14/2026-08-14_vibecoding_3.jpg",
+    "detail": [
+      "8月13日,DeepSeek在发布新旗舰模型V4-Pro的同时,罕见地把手伸向了「模型之外」的开发者工具层,以MIT许可证开源了名为DeepSeek Harness(命令行代号dsh)的智能体运行框架,直接对标Anthropic的Claude Code与OpenAI的Codex所依赖的Agent基础设施。这标志着DeepSeek不再只拼模型智能与token价格。",
+      "Harness最激进的设计理念是「一切皆插件」:模型、工具、技能、会话状态、沙箱、文件系统、Agent循环、编排乃至Web界面全部构建在可组合的Cordis服务之上,开发者可以随意替换、扩展甚至改写驱动决策的循环本身。它模型无关,官方文档同时支持DeepSeek、Anthropic、OpenAI及自定义OpenAI兼容端点,一行「npx @deepseek-ai/dsh web」即可在本地启动。",
+      "项目当前定位为开发者预览版,README明确警告「将会有破坏兼容性的变更」,尚非稳定的生产级替代品。上线当天GitHub即冲上约41.3k星、3.3k fork,社区热度爆表。有开发者认为对企业而言,这个可自由拼装Agent系统的开放框架,可能比V4-Pro本身更具长远意义;但也有人提醒它更像「可魔改的底座」而非成熟产品。"
+    ]
+  },
+  {
+    "id": "2026-08-14_vibecoding_2",
+    "date": "2026-08-14",
+    "category": "VibeCoding",
+    "subcat": "工具更新",
+    "platform": "Anthropic官方博客",
+    "platform_color": "#2563EB",
+    "title": "Claude Code 自动模式成默认",
+    "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+    "image": "images/2026-08-14/2026-08-14_vibecoding_2.jpg",
+    "detail": [
+      "Anthropic 宣布自 8 月 14 日起,「自动模式(auto mode)」将成为 Claude Code 在 Pro、Max 与 Team 计划新会话中的默认权限模式。该模式此前为可选项,通过一个安全分类器实时判断命令风险,自动放行安全操作、拦截危险操作,减少开发者被反复弹窗打断审批的疲劳。企业版、API 及云端场景暂仍保持手动开启(opt-in)。",
+      "官方给出的数据颇具说服力:自动模式能标记出「89%」的危险命令,而人工审批仅能识别约「13.6%」,且在连续处理 50 多个提示后,人工的识别率会进一步跌至约 5%。同时用户实际批准了「97%」的提示,说明弹窗大多为无谓打断。当分类器拦截某操作时,Claude 会自动改走更安全的路径或转而询问用户。",
+      "为防止失控,自动模式设有回退机制:连续被拦截 3 次、或单次会话累计拦截达 20 次后,将自动回落到手动审批。官方称启用该模式的 Teams 与 Enterprise 团队多产出约「25%」的 PR,Adobe、Nuro、Gusto、Garner Health 等已将其作为生产环境默认配置。Anthropic 还宣布不再向 Pro、Max、Team 用户收取分类器所消耗的 token 费用。"
+    ]
+  },
+  {
+    "id": "2026-08-14_vibecoding_1",
+    "date": "2026-08-14",
+    "category": "VibeCoding",
+    "subcat": "工具更新",
+    "platform": "GitHub",
+    "platform_color": "#2563EB",
+    "title": "Gemini 3.7 Flash 登陆 Copilot",
+    "url": "https://github.blog/changelog/2026-08-13-gemini-3-7-flash-is-now-available-in-github-copilot/",
+    "image": "images/2026-08-14/2026-08-14_vibecoding_1.jpg",
+    "detail": [
+      "GitHub 于 8 月 13 日宣布 Google 的「Gemini 3.7 Flash」模型正式登陆 GitHub Copilot,面向开发者提供一款主打速度与低成本的新选择。该模型即日起在 VS Code、Visual Studio、Copilot CLI、云端编码代理、Copilot 移动应用,以及 JetBrains、Xcode、Eclipse 等多个 IDE 插件中同步可用,覆盖 Copilot 几乎全部客户端生态。",
+      "从计划权限看,「Gemini 3.7 Flash」向 Copilot Pro、Pro+、Max、Business 与 Enterprise 各档订阅开放,采用按量计费(usage-based billing),以模型提供方的标准 API 列表价结算,而非固定倍率消耗,方便团队按实际调用量核算成本。对于 Business 与 Enterprise 客户,管理员需先在后台启用「Gemini 3.7 Flash Preview」策略,组织成员才能在模型选择器中看到并调用该模型。",
+      "此次接入延续了 Copilot 近来快速纳入多家厂商模型的多模型策略,让开发者能在同一编辑器内按任务在不同模型间灵活切换。社区普遍关注 Flash 系列在补全与轻量代理任务上的「性价比」表现——更快的响应与更低的单价,适合高频、批量的日常编码场景,而将更强推理模型留给复杂重构与调试。"
+    ]
+  },
+  {
+    "id": "2026-08-14_gaming_4",
+    "date": "2026-08-14",
+    "category": "Gaming",
+    "subcat": "新作发售",
+    "platform": "Gematsu",
+    "platform_color": "#F59E0B",
+    "title": "3D动作平台《Duskfade》多平台发售",
+    "url": "https://www.gematsu.com/2026/06/duskfade-adds-switch-2-version-launches-august-13",
+    "image": "images/2026-08-14/2026-08-14_gaming_4.jpg",
+    "detail": [
+      "由Weird Beluga Studio开发、Fireshine Games发行的3D动作平台游戏《Duskfade》于8月13日同步登陆PlayStation 5、Xbox Series、Nintendo Switch 2以及Steam平台,定价29.99美元。这是一封写给PS2黄金时代3D平台跳跃游戏的「情书」,主打轻快明亮的钟表朋克(clockpunk)美术风格。",
+      "剧情讲述世界被永夜吞没、少年主角Zirian的妹妹被囚禁于神秘的「钟塔」之中。玩家将操控Zirian与机械伙伴布谷鸟Cuckoo,穿越空灵森林、水下国度、烈日沙丘与云端高地,通过跳跃、冲刺、抓钩与滑翔解开「制钟大师」的古老秘密,把倒转停滞的时间重新拨动。",
+      "游戏此前已在PS5与PC开放试玩demo,凭鲜活画风与流畅手感积攒了不少人气,单人流程约90分钟的试玩体验被玩家评价「物有所值」。Switch 2版为较晚追加的平台,登陆当周正逢北美eShop「新游扎堆」的一周,与《CloverPit》《Skatesterre》等独立作一同上架,成为暑期尾声的一抹亮色。"
+    ]
+  },
+  {
+    "id": "2026-08-14_gaming_3",
+    "date": "2026-08-14",
+    "category": "Gaming",
+    "subcat": "经典重启",
+    "platform": "Nintendo Life",
+    "platform_color": "#F59E0B",
+    "title": "《马力欧阳光》登陆Switch 2会员服务",
+    "url": "https://www.nintendolife.com/news/2026/08/nintendo-expands-switch-2s-gamecube-library-with-another-game-this-week",
+    "image": "images/2026-08-14/2026-08-14_gaming_3.jpg",
+    "detail": [
+      "8月13日上午9点,任天堂的Switch Online + 扩充包「Nintendo Classics」正式在Switch 2上线了GameCube经典作《超级马力欧阳光》(Super Mario Sunshine)。这款2002年首发的3D动作游戏,此前仅收录于已下架的《超级马力欧3D全明星》合集,如今终于以独立形式回归。",
+      "游戏讲述马力欧一行来到南国度假岛「多尔皮克岛」,却被误认为用涂鸦破坏了岛屿。为洗清冤屈,马力欧背上会喷水的清洁泵FLUDD,一边清理污渍一边追查真凶,凭借标志性的水枪喷射与空中滑翔玩法找回失落的太阳能量「shine」。玩家需持有扩充包会员方可畅玩。",
+      "与本体同步,任天堂当天还把《马力欧阳光》原声带上架Nintendo Music,共58首、总时长约1小时34分钟。社区反应两极:老玩家为经典回归欢呼,却又调侃拍子机关卡、沙鸟关等「劝退名场面」;也有已购3D全明星的玩家吐槽再次付费,并催促《激流快感》等其他GC名作尽快跟进。"
+    ]
+  },
+  {
+    "id": "2026-08-14_gaming_2",
+    "date": "2026-08-14",
+    "category": "Gaming",
+    "subcat": "发售延期",
+    "platform": "IGN",
+    "platform_color": "#F59E0B",
+    "title": "《战锤40K:战争黎明4》跳票至12月3日",
+    "url": "https://www.ign.com/articles/warhammer-40000-dawn-of-war-4-delayed-out-of-the-september-crush-dev-updates-roadmap-of-dlc",
+    "image": "images/2026-08-14/2026-08-14_gaming_2.jpg",
+    "detail": [
+      "IGN于8月13日凌晨报道,即时战略续作《战锤40K:战争黎明4》(Dawn of War IV)确认跳票两个半月,从原定的9月17日推迟至12月3日发售,持有指挥官版(Commander Edition)的玩家可从11月30日提前进入游戏。开发商King Art Games借此把新作挪出拥挤的9月档期。",
+      "创意总监Jan Theysen表示:「在进入开发最后阶段时,我们看到了进一步打磨《战争黎明4》、交付我们始终期望的品质体验的机会。」他强调多出来的时间将用于优化性能、修复Bug并进一步润色,力求让玩家从第一天起就获得最佳体验。",
+      "官方同日更新了首年路线图:免费的战役模式、多张地图包及两场「最后一战」内容顺延至2027年陆续推出;付费部分则包含春季的血鸦前传剧情与夏季的资料片战役。避开9月扎堆、抢在11月GTA6之前的一众大作(如金刚狼、寂静岭等)后,社区普遍认为延期换品质是稳妥之举。"
+    ]
+  },
+  {
+    "id": "2026-08-14_gaming_1",
+    "date": "2026-08-14",
+    "category": "Gaming",
+    "subcat": "生态调整",
+    "platform": "Nintendo Life",
+    "platform_color": "#F59E0B",
+    "title": "《宝可梦银行》2027年2月停服",
+    "url": "https://www.nintendolife.com/news/2026/08/pokemon-bank-is-shutting-down-in-february-2027",
+    "image": "images/2026-08-14/2026-08-14_gaming_1.jpg",
+    "detail": [
+      "宝可梦公司于8月13日正式宣布,运行多年的3DS配套应用《宝可梦银行》(Pokémon Bank)将于2027年2月27日(美西时间2月25日晚7点)终止服务。作为连接3DS时代与现役主机的关键中转站,它长期承担着把老世代宝可梦「搬家」到《宝可梦Home》的桥梁职责,停服意味着这条通道即将永久关闭。",
+      "官方强调,停服当天起将同步关闭「从银行向Home转移」的功能,提醒所有仍把宝可梦寄存在银行里的玩家务必在截止前完成迁移。配套消息还包括:《Home》的付费扩容上限将在10月提升至最多9,000只,同月《火红/叶绿》也将支持接入《Home》,为老玩家保留后路。",
+      "由于目前《宝可梦银行》已无法重新下载,错过迁移窗口的玩家将彻底失去把珍藏宝可梦带向新作的机会,社区因此掀起「抢救老档」热潮。不少人把2月27日(3DS于2011年在日本发售的纪念日)解读为任天堂正式与3DS时代切割的信号,也有人猜测这与传闻中新世代正传的发售节奏相呼应。"
+    ]
+  },
+  {
+    "id": "2026-08-14_ai_4",
+    "date": "2026-08-14",
+    "category": "AI",
+    "subcat": "融资",
+    "platform": "CNBC",
+    "platform_color": "#8ED16D",
+    "title": "Databricks完成50亿美元融资 估值达1900亿",
+    "url": "https://www.cnbc.com/2026/08/13/databricks-funding-round-190-billion-valuation.html",
+    "image": "images/2026-08-14/2026-08-14_ai_4.jpg",
+    "detail": [
+      "8月13日,企业数据与AI软件公司Databricks宣布完成一轮50亿美元融资,投后估值达1900亿美元,用于加码企业级AI能力建设。这距其半年前以1340亿美元估值完成的50亿美元融资(外加20亿债务额度)仅过去六个月,估值大幅跃升,公司也因此加入了长期推迟IPO的高估值科技企业行列。",
+      "公司披露第二季度营收年化运行率已突破70亿美元,同比增长逾80%。CEO Ali Ghodsi在CNBC节目中直言「需求疯狂」,称全世界都聚焦于AI智能体。其面向AI智能体的Lakebase数据库已超1亿美元年化收入,Lakehouse数据仓库工具则突破15亿美元运行率,Genie业务智能体与AI Gateway亦表现强劲。",
+      "Ghodsi特别提到,飙升的AI(token)成本正推动客户拥抱其AI Gateway平台与开源工具,以控制模型使用与开支。他还观察到,尽管此前存在顾虑,越来越多客户开始采用中国模型:「一两年前大家的态度是只要前沿闭源模型、可以忽略中国模型;而如今这种token maxing把CFO们吓坏了。」这一表态折射出企业AI成本焦虑与开源、国产模型的崛起。",
+      "创立于2013年的Databricks帮助企业基于自有数据构建AI应用与智能体,曾位列CNBC 2026 Disruptor 50榜单第三,市值已超越公开市场竞争对手Snowflake,并向网络安全等新垂直领域扩张。同日CNBC还报道了Anthropic启动IPO早期会谈、SK海力士7200亿美元AI存储扩建等消息,显示AI基础设施与资本热潮持续升温。"
+    ]
+  },
+  {
+    "id": "2026-08-14_ai_3",
+    "date": "2026-08-14",
+    "category": "AI",
+    "subcat": "IPO动态",
+    "platform": "CNBC",
+    "platform_color": "#8ED16D",
+    "title": "Anthropic CFO启动IPO早期投资者会谈",
+    "url": "https://www.cnbc.com/2026/08/13/anthropic-cfo-early-ipo-meetings-valuation.html",
+    "image": "images/2026-08-14/2026-08-14_ai_3.jpg",
+    "detail": [
+      "8月13日,CNBC记者David Faber援引知情人士报道,Anthropic在潜在历史性IPO前已开始与准投资者进行初步会谈,由首席财务官Krishna Rao主导。此前该公司已于6月向美国证券交易委员会秘密递交招股书,为备受期待的公开上市铺路,但尚未披露正式上市时间表,近期一直在与部分投资者「投石问路」。",
+      "据知情人士透露,这些早期会谈仍停留在高层面,尚未涉及具体财务数据或估值,主要围绕Claude系列模型、编程助手Claude Code的研发历程、其在企业市场的定位、管理团队及发布节奏等大方向话题展开。Anthropic方面未立即回应置评请求。这种「先讲故事、后谈数字」的策略显示其上市筹备仍处早期阶段。",
+      "Anthropic由2021年从OpenAI出走的一批研究者与高管创立,如今是OpenAI的头号竞争对手。今年5月底其以9650亿美元估值完成融资,超过OpenAI在3月底的8520亿美元估值。凭借据称已突破470亿美元的年化收入(2025全年约100亿美元),部分投资者预计其IPO估值可能达到2万亿美元或更高,但该数字源自投资者自行测算,并非Anthropic官方口径。",
+      "同期OpenAI也在筹备潜在的大规模IPO,同样在Anthropic之后不久秘密递表,但截至6月底尚未启动路演。而马斯克旗下已收购xAI的SpaceX于6月登陆纳斯达克创纪录首秀,上市两个月股价波动剧烈,较盘中高点回落约38%。业界视Anthropic此举为AI巨头竞相冲刺资本市场的又一信号,社区高度关注其最终估值与时点。"
+    ]
+  },
+  {
+    "id": "2026-08-14_ai_2",
+    "date": "2026-08-14",
+    "category": "AI",
+    "subcat": "大模型发布",
+    "platform": "Google官方博客",
+    "platform_color": "#8ED16D",
+    "title": "谷歌发布Gemini 3.7 Flash 主打编程与智能体",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+    "image": "images/2026-08-14/2026-08-14_ai_2.jpg",
+    "detail": [
+      "8月13日,Google DeepMind正式推出Gemini 3.7 Flash,称其为「迄今最智能的主力(workhorse)模型」,专为编程和智能体任务打造。距上一代3.6 Flash仅隔三周,延续了谷歌高速迭代节奏。官方强调这并非全新预训练,而是基于开发者反馈与算法创新对核心推理基础的优化升级,同时旗舰级Gemini 3.5 Pro仍处于延期状态未见踪影。",
+      "新模型在软件工程、知识工作和网页开发三大方向提升明显:WebDev Arena的Elo从1538升至1588,居谷歌对比表首位;FrontierCode 1.1 Main达43.6%,AutomationBench企业自动化得分30.4%接近3.6 Flash的两倍。在Artificial Analysis智能指数上得56分,超Claude Sonnet 5(55),略低于GPT-5.6 Terra与Muse Spark 1.2(均57)。它支持1M上下文、64K输出,知识截止仍为2026年3月。",
+      "定价成为最锋利的武器。Gemini 3.7 Flash推出每百万token输入0.75美元、输出3.75美元的引导价,为3.6 Flash原价的一半,大幅低于Claude Sonnet 5和GPT-5.6 Terra(均约2/10-12美元)。引导价将于2026年12月31日到期,之后涨至1.5/7.5美元。模型已上线API、AI Studio、Antigravity及企业平台。",
+      "谷歌个人智能体Gemini Spark自当日起改由3.7 Flash驱动,面向逾160个国家的AI Pro与Ultra订阅用户,可更高效地整理文件、起草邮件、更新文档。产品负责人Logan Kilpatrick在社交平台称三周内实现了「强劲的智能提升」。The Verge、路透社等媒体均予以报道,社区普遍认为谷歌正以低价高速策略在编程赛道加压竞争对手。"
+    ]
+  },
+  {
+    "id": "2026-08-14_ai_1",
+    "date": "2026-08-14",
+    "category": "AI",
+    "subcat": "大模型发布",
+    "platform": "36氪/极客公园",
+    "platform_color": "#8ED16D",
+    "title": "DeepSeek V4 Pro正式版上线不到24小时遭撤回",
+    "url": "https://www.36kr.com/p/3937317630147971",
+    "image": "images/2026-08-14/2026-08-14_ai_1.jpg",
+    "detail": [
+      "8月12日深夜11点半,DeepSeek没有预告、没有倒计时,甚至更新日志都没写好,就悄悄在官网、网页端和API同步上线了全网期待已久的V4 Pro大语言模型正式版,模型名仍为deepseek-v4-pro,指纹变为fp_v4pro_20260812,官方命名DeepSeek-V4-Pro-0813。消息一出,AI社区瞬间炸开,被视为对标顶级模型的国产重磅升级。",
+      "正式版沿用预览版1.6T总参数、49B激活参数的MoE架构,支持1M上下文与384K最大输出,核心变化在后训练:Agent能力大幅增强,原生适配Responses API与Codex,思考档位新增low/high/max三级。官方给出的评测中Terminal Bench 2.1达87.9、DeepSWE 62.7、NL2Repo 61.5,多项接近Anthropic的Fable 5,并首次原生支持图像推理,被称「几乎全方位碾压Opus 4.8」。",
+      "然而戏剧性反转随之而来。8月13日,据快科技、界面新闻等报道,DeepSeek官网发布横幅与开放平台公告被悄然撤下,距静默发布不到24小时,仅模型与价格页面仍保留DeepSeek-V4-Pro-0813字样。社区实测口碑迅速逆转,不少用户反映thinking模式在复杂代码场景下推理token占比过高、综合表现「拉跨」,让这次发布经历了全网欢呼到突遭撤回的过山车。",
+      "此次波折也牵出DeepSeek的Agent野心:Flash正式版更新日志中提到的「DeepSeek Harness极简模式(即将发布)」,加上新注册的Harness团队公众号,显示其正准备将模型与Agent运行框架打包推出。此外V4系列API价格将于8月16日16点(UTC)调整并启用高峰/低谷分时计费,低谷价为高峰半价。"
+    ]
+  },
+  {
     "id": "2026-08-13_vibecoding_4",
     "date": "2026-08-13",
     "category": "VibeCoding",
