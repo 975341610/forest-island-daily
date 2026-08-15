@@ -129,8 +129,8 @@
     },
     "ollama/ollama": {
       "best_rank": 15,
-      "appearances": 3,
-      "total_today_stars": 271,
+      "appearances": 4,
+      "total_today_stars": 387,
       "language": "Go",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
@@ -327,8 +327,8 @@
     },
     "earendil-works/pi": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 2975,
+      "appearances": 4,
+      "total_today_stars": 3899,
       "language": "TypeScript",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
@@ -336,8 +336,8 @@
     },
     "stablyai/orca": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 3267,
+      "appearances": 4,
+      "total_today_stars": 4080,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -381,8 +381,8 @@
     },
     "multica-ai/multica": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 310,
+      "appearances": 2,
+      "total_today_stars": 488,
       "language": "Go",
       "description": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
@@ -390,8 +390,8 @@
     },
     "cactus-compute/needle": {
       "best_rank": 6,
-      "appearances": 3,
-      "total_today_stars": 1332,
+      "appearances": 4,
+      "total_today_stars": 1994,
       "language": "Python",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/196640840?v=4",
@@ -399,8 +399,8 @@
     },
     "macro-inc/macro": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 1714,
+      "appearances": 4,
+      "total_today_stars": 2150,
       "language": "Rust",
       "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65687018?v=4",
@@ -444,8 +444,8 @@
     },
     "cathrynlavery/diagram-design": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 7330,
+      "appearances": 3,
+      "total_today_stars": 10976,
       "language": "HTML",
       "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/50469282?v=4",
@@ -453,8 +453,8 @@
     },
     "hugohe3/ppt-master": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1540,
+      "appearances": 3,
+      "total_today_stars": 1922,
       "language": "Python",
       "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
       "owner_avatar": "https://avatars.githubusercontent.com/u/188330578?v=4",
@@ -462,8 +462,8 @@
     },
     "NVIDIA-NeMo/Switchyard": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 829,
+      "appearances": 3,
+      "total_today_stars": 1174,
       "language": "Rust",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/213689629?v=4",
@@ -479,9 +479,9 @@
       "html_url": "https://github.com/huggingface/transformers"
     },
     "holaboss-ai/holaOS": {
-      "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 499,
+      "best_rank": 5,
+      "appearances": 3,
+      "total_today_stars": 1268,
       "language": "TypeScript",
       "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/180552290?v=4",
@@ -561,8 +561,8 @@
     },
     "infiniflow/ragflow": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 465,
+      "appearances": 2,
+      "total_today_stars": 938,
       "language": "Go",
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/69962740?v=4",
@@ -588,8 +588,8 @@
     },
     "smicallef/spiderfoot": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 283,
+      "appearances": 2,
+      "total_today_stars": 576,
       "language": "Python",
       "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1687345?v=4",
@@ -597,17 +597,17 @@
     },
     "Lightricks/LTX-2": {
       "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 205,
+      "appearances": 2,
+      "total_today_stars": 366,
       "language": "Python",
       "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/3170348?v=4",
       "html_url": "https://github.com/Lightricks/LTX-2"
     },
     "megadose/holehe": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 195,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 622,
       "language": "Python",
       "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/51822495?v=4",
@@ -621,6 +621,105 @@
       "description": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/24586296?v=4",
       "html_url": "https://github.com/apify/apify-mcp-server"
+    },
+    "github/spec-kit": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1160,
+      "language": "Python",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
+      "html_url": "https://github.com/github/spec-kit"
+    },
+    "vercel-labs/deepsec": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 579,
+      "language": "TypeScript",
+      "description": "Deepsec is a security harness for finding vulnerabilities in your codebase powered by coding agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "html_url": "https://github.com/vercel-labs/deepsec"
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 470,
+      "language": "Python",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    "pacifio/atlas": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 311,
+      "language": "TypeScript",
+      "description": "Source control for agents. Use multiple coding agents, track they change, and query them in one place",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/32670628?v=4",
+      "html_url": "https://github.com/pacifio/atlas"
+    },
+    "can1357/oh-my-pi": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 291,
+      "language": "TypeScript",
+      "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11807264?v=4",
+      "html_url": "https://github.com/can1357/oh-my-pi"
+    },
+    "deepseek-ai/awesome-deepseek-agent": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 222,
+      "language": null,
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/148330874?v=4",
+      "html_url": "https://github.com/deepseek-ai/awesome-deepseek-agent"
+    },
+    "every-app/open-seo": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 185,
+      "language": "TypeScript",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
+      "html_url": "https://github.com/every-app/open-seo"
+    },
+    "citrolabs/ego-lite": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 165,
+      "language": "JavaScript",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
+      "html_url": "https://github.com/citrolabs/ego-lite"
+    },
+    "darkzOGx/youtube-automation-agent": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 164,
+      "language": "JavaScript",
+      "description": "🎬 Fully automated YouTube channel management with AI agents. Creates, optimizes & publishes videos 24/7. Works with FREE Gemini API or OpenAI. No coding required!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/128010917?v=4",
+      "html_url": "https://github.com/darkzOGx/youtube-automation-agent"
+    },
+    "longbridge/gpui-component": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 123,
+      "language": "Rust",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/68419756?v=4",
+      "html_url": "https://github.com/longbridge/gpui-component"
+    },
+    "upscayl/upscayl": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 117,
+      "language": "TypeScript",
+      "description": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/112148288?v=4",
+      "html_url": "https://github.com/upscayl/upscayl"
     }
   }
 }

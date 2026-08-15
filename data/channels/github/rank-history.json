@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-15": {
-      "Graphify-Labs/graphify": 1,
-      "HKUDS/Vibe-Trading": 2,
-      "Shubhamsaboo/awesome-llm-apps": 3,
-      "Nutlope/hallmark": 4,
-      "hasaneyldrm/exercises-dataset": 5,
-      "github/spec-kit": 6,
-      "openinterpreter/openinterpreter": 7,
-      "earendil-works/pi": 8,
-      "moeru-ai/airi": 9,
-      "microsoft/markitdown": 10,
-      "penpot/penpot": 11,
-      "openai/codex": 12,
-      "heygen-com/hyperframes": 13,
-      "par274/sharpemu": 14,
-      "Fission-AI/OpenSpec": 15,
-      "Wei-Shaw/sub2api": 16,
-      "multica-ai/multica": 17,
-      "browseros-ai/BrowserOS": 18,
-      "chenyme/grok2api": 19,
-      "millionco/react-doctor": 20,
-      "google/skills": 21,
-      "kangarooking/cangjie-skill": 22,
-      "Anil-matcha/Open-Generative-AI": 23,
-      "QuantumNous/new-api": 24,
-      "Augani/openreel-video": 25
-    },
     "2026-07-16": {
       "Graphify-Labs/graphify": 1,
       "Nutlope/hallmark": 2,
@@ -836,6 +809,33 @@
       "t8y2/dbx": 23,
       "ruvnet/RuView": 24,
       "apify/apify-mcp-server": 25
+    },
+    "2026-08-15": {
+      "cathrynlavery/diagram-design": 1,
+      "github/spec-kit": 2,
+      "earendil-works/pi": 3,
+      "stablyai/orca": 4,
+      "holaboss-ai/holaOS": 5,
+      "cactus-compute/needle": 6,
+      "vercel-labs/deepsec": 7,
+      "infiniflow/ragflow": 8,
+      "harry0703/MoneyPrinterTurbo": 9,
+      "macro-inc/macro": 10,
+      "megadose/holehe": 11,
+      "hugohe3/ppt-master": 12,
+      "NVIDIA-NeMo/Switchyard": 13,
+      "pacifio/atlas": 14,
+      "smicallef/spiderfoot": 15,
+      "can1357/oh-my-pi": 16,
+      "deepseek-ai/awesome-deepseek-agent": 17,
+      "every-app/open-seo": 18,
+      "multica-ai/multica": 19,
+      "citrolabs/ego-lite": 20,
+      "darkzOGx/youtube-automation-agent": 21,
+      "Lightricks/LTX-2": 22,
+      "longbridge/gpui-component": 23,
+      "upscayl/upscayl": 24,
+      "ollama/ollama": 25
     }
   }
 }
