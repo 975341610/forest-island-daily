@@ -111,8 +111,8 @@
     },
     "CodebuffAI/freebuff": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 93,
+      "appearances": 2,
+      "total_today_stars": 275,
       "language": "TypeScript",
       "description": "The free coding agent",
       "owner_avatar": "https://avatars.githubusercontent.com/u/189203002?v=4",
@@ -129,8 +129,8 @@
     },
     "ollama/ollama": {
       "best_rank": 15,
-      "appearances": 4,
-      "total_today_stars": 387,
+      "appearances": 5,
+      "total_today_stars": 504,
       "language": "Go",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
@@ -327,8 +327,8 @@
     },
     "earendil-works/pi": {
       "best_rank": 2,
-      "appearances": 4,
-      "total_today_stars": 3899,
+      "appearances": 5,
+      "total_today_stars": 4417,
       "language": "TypeScript",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
@@ -390,8 +390,8 @@
     },
     "cactus-compute/needle": {
       "best_rank": 6,
-      "appearances": 4,
-      "total_today_stars": 1994,
+      "appearances": 5,
+      "total_today_stars": 2541,
       "language": "Python",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/196640840?v=4",
@@ -399,8 +399,8 @@
     },
     "macro-inc/macro": {
       "best_rank": 2,
-      "appearances": 4,
-      "total_today_stars": 2150,
+      "appearances": 5,
+      "total_today_stars": 2475,
       "language": "Rust",
       "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65687018?v=4",
@@ -444,8 +444,8 @@
     },
     "cathrynlavery/diagram-design": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 10976,
+      "appearances": 4,
+      "total_today_stars": 12583,
       "language": "HTML",
       "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/50469282?v=4",
@@ -462,8 +462,8 @@
     },
     "NVIDIA-NeMo/Switchyard": {
       "best_rank": 10,
-      "appearances": 3,
-      "total_today_stars": 1174,
+      "appearances": 4,
+      "total_today_stars": 1302,
       "language": "Rust",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/213689629?v=4",
@@ -533,9 +533,9 @@
       "html_url": "https://github.com/omnigent-ai/omnigent"
     },
     "t8y2/dbx": {
-      "best_rank": 23,
-      "appearances": 2,
-      "total_today_stars": 309,
+      "best_rank": 16,
+      "appearances": 3,
+      "total_today_stars": 496,
       "language": "Rust",
       "description": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
@@ -561,8 +561,8 @@
     },
     "infiniflow/ragflow": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 938,
+      "appearances": 3,
+      "total_today_stars": 1184,
       "language": "Go",
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/69962740?v=4",
@@ -588,8 +588,8 @@
     },
     "smicallef/spiderfoot": {
       "best_rank": 14,
-      "appearances": 2,
-      "total_today_stars": 576,
+      "appearances": 3,
+      "total_today_stars": 821,
       "language": "Python",
       "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1687345?v=4",
@@ -606,8 +606,8 @@
     },
     "megadose/holehe": {
       "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 622,
+      "appearances": 3,
+      "total_today_stars": 1004,
       "language": "Python",
       "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/51822495?v=4",
@@ -624,8 +624,8 @@
     },
     "github/spec-kit": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1160,
+      "appearances": 2,
+      "total_today_stars": 2052,
       "language": "Python",
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
@@ -633,8 +633,8 @@
     },
     "vercel-labs/deepsec": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 579,
+      "appearances": 2,
+      "total_today_stars": 698,
       "language": "TypeScript",
       "description": "Deepsec is a security harness for finding vulnerabilities in your codebase powered by coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
@@ -642,8 +642,8 @@
     },
     "harry0703/MoneyPrinterTurbo": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 470,
+      "appearances": 2,
+      "total_today_stars": 873,
       "language": "Python",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
@@ -651,8 +651,8 @@
     },
     "pacifio/atlas": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 311,
+      "appearances": 2,
+      "total_today_stars": 434,
       "language": "TypeScript",
       "description": "Source control for agents. Use multiple coding agents, track they change, and query them in one place",
       "owner_avatar": "https://avatars.githubusercontent.com/u/32670628?v=4",
@@ -686,9 +686,9 @@
       "html_url": "https://github.com/every-app/open-seo"
     },
     "citrolabs/ego-lite": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 165,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 710,
       "language": "JavaScript",
       "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
@@ -720,6 +720,87 @@
       "description": "🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/112148288?v=4",
       "html_url": "https://github.com/upscayl/upscayl"
+    },
+    "public-apis/public-apis": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 2260,
+      "language": "Python",
+      "description": "A collective list of free APIs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/51121562?v=4",
+      "html_url": "https://github.com/public-apis/public-apis"
+    },
+    "cordiverse/cordis": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 599,
+      "language": "TypeScript",
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/152786899?v=4",
+      "html_url": "https://github.com/cordiverse/cordis"
+    },
+    "liustack/modlens": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 590,
+      "language": "TypeScript",
+      "description": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an image, get structured JSON evidence (OCR, layout, semantics). | 全网第一个 DeepSeek Harness 视觉插件，为 DeepSeek、GLM 等纯文本模型外挂视觉能力，粘贴图片即得结构化 JSON 证据（OCR、版面、语义）。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/83945823?v=4",
+      "html_url": "https://github.com/liustack/modlens"
+    },
+    "titanwings/colleague-skill": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 435,
+      "language": "Python",
+      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85022018?v=4",
+      "html_url": "https://github.com/titanwings/colleague-skill"
+    },
+    "MakazhanAlpamys/Soup": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 297,
+      "language": "Python",
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/188336071?v=4",
+      "html_url": "https://github.com/MakazhanAlpamys/Soup"
+    },
+    "whiteguo233/OpenBiliClaw": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 184,
+      "language": "Python",
+      "description": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin）",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/3350171?v=4",
+      "html_url": "https://github.com/whiteguo233/OpenBiliClaw"
+    },
+    "cursor/plugins": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 149,
+      "language": "TypeScript",
+      "description": "Cursor plugin specification and official plugins",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
+      "html_url": "https://github.com/cursor/plugins"
+    },
+    "kenn-io/agentsview": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 129,
+      "language": "Go",
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/259885253?v=4",
+      "html_url": "https://github.com/kenn-io/agentsview"
+    },
+    "HKUDS/CLI-Anything": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 118,
+      "language": "Python",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/CLI-Anything"
     }
   }
 }
