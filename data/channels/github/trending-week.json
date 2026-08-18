@@ -3,8 +3,8 @@
   "repos": {
     "public-apis/public-apis": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 1588,
+      "appearances": 2,
+      "total_today_stars": 3495,
       "language": "Python",
       "description": "A collective list of free APIs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/51121562?v=4",
@@ -12,8 +12,8 @@
     },
     "usestrix/strix": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 856,
+      "appearances": 2,
+      "total_today_stars": 1454,
       "language": "Python",
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
@@ -21,8 +21,8 @@
     },
     "cordiverse/cordis": {
       "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 720,
+      "appearances": 2,
+      "total_today_stars": 1677,
       "language": "TypeScript",
       "description": "Meta-Framework of Spatiotemporal Composability",
       "owner_avatar": "https://avatars.githubusercontent.com/u/152786899?v=4",
@@ -38,18 +38,18 @@
       "html_url": "https://github.com/citrolabs/ego-lite"
     },
     "harry0703/MoneyPrinterTurbo": {
-      "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 494,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 1683,
       "language": "Python",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
       "html_url": "https://github.com/harry0703/MoneyPrinterTurbo"
     },
     "cactus-compute/needle": {
-      "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 443,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 1103,
       "language": "Python",
       "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/196640840?v=4",
@@ -57,8 +57,8 @@
     },
     "MakazhanAlpamys/Soup": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 443,
+      "appearances": 2,
+      "total_today_stars": 615,
       "language": "Python",
       "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/188336071?v=4",
@@ -66,8 +66,8 @@
     },
     "HKUDS/CLI-Anything": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 384,
+      "appearances": 2,
+      "total_today_stars": 503,
       "language": "Python",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -92,9 +92,9 @@
       "html_url": "https://github.com/megadose/holehe"
     },
     "yt-dlp/yt-dlp": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 216,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 485,
       "language": "Python",
       "description": "A feature-rich command-line audio/video downloader",
       "owner_avatar": "https://avatars.githubusercontent.com/u/79589310?v=4",
@@ -129,8 +129,8 @@
     },
     "ollama/ollama": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 127,
+      "appearances": 2,
+      "total_today_stars": 262,
       "language": "Go",
       "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
@@ -147,8 +147,8 @@
     },
     "Gitlawb/zero": {
       "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 89,
+      "appearances": 2,
+      "total_today_stars": 161,
       "language": "Go",
       "description": "The coding agent that answers to you, your model, your machine, your rules.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/268502891?v=4",
@@ -183,17 +183,17 @@
     },
     "jundot/omlx": {
       "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 60,
+      "appearances": 2,
+      "total_today_stars": 138,
       "language": "Python",
       "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
       "owner_avatar": "https://avatars.githubusercontent.com/u/64250138?v=4",
       "html_url": "https://github.com/jundot/omlx"
     },
     "nautechsystems/nautilus_trader": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 58,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 178,
       "language": "Rust",
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "owner_avatar": "https://avatars.githubusercontent.com/u/33360632?v=4",
@@ -225,6 +225,123 @@
       "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/17523360?v=4",
       "html_url": "https://github.com/sxyazi/yazi"
+    },
+    "liustack/modlens": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 441,
+      "language": "TypeScript",
+      "description": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an image, get structured JSON evidence (OCR, layout, semantics). | 全网最强 DeepSeek Harness 外挂视觉插件，为 DeepSeek、GLM 等纯文本模型外挂视觉能力，粘贴图片即得结构化 JSON 证据（OCR、版面、语义）。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/83945823?v=4",
+      "html_url": "https://github.com/liustack/modlens"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 409,
+      "language": "JavaScript",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43960064?v=4",
+      "html_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    "titanwings/colleague-skill": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 358,
+      "language": "Python",
+      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85022018?v=4",
+      "html_url": "https://github.com/titanwings/colleague-skill"
+    },
+    "agalwood/Motrix": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 344,
+      "language": "TypeScript",
+      "description": "A full-featured download manager.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1032175?v=4",
+      "html_url": "https://github.com/agalwood/Motrix"
+    },
+    "byoungd/up": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 259,
+      "language": "JavaScript",
+      "description": "An advanced guide which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/16145783?v=4",
+      "html_url": "https://github.com/byoungd/up"
+    },
+    "volcengine/OpenViking": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 239,
+      "language": "Python",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/67365215?v=4",
+      "html_url": "https://github.com/volcengine/OpenViking"
+    },
+    "akitaonrails/ai-memory": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 207,
+      "language": "Rust",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2840?v=4",
+      "html_url": "https://github.com/akitaonrails/ai-memory"
+    },
+    "immich-app/immich": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 175,
+      "language": "TypeScript",
+      "description": "High performance self-hosted photo and video management solution.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/109746326?v=4",
+      "html_url": "https://github.com/immich-app/immich"
+    },
+    "microsoft/qlib": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 133,
+      "language": "Python",
+      "description": "Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped with https://github.com/microsoft/RD-Agent to automate R&D process.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/qlib"
+    },
+    "anthropics/defending-code-reference-harness": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 122,
+      "language": "Python",
+      "description": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/defending-code-reference-harness"
+    },
+    "mvanhorn/last30days-skill": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 98,
+      "language": "Python",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
+      "html_url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    "SlimeBoyOwO/LingChat": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 82,
+      "language": "Rust",
+      "description": "Immersive AI-driven Galgame chat with emotional expressions, desktop pet, scheduling, and interactive story modules. / 一款沉浸式 AI-Galgame 聊天软件，附带桌宠，日程，剧情功能",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85441945?v=4",
+      "html_url": "https://github.com/SlimeBoyOwO/LingChat"
+    },
+    "Sollimann/bonsai": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 61,
+      "language": "Rust",
+      "description": "Rust implementation of behavior trees for deterministic AI (now with Python bindings)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/25263842?v=4",
+      "html_url": "https://github.com/Sollimann/bonsai"
     }
   }
 }

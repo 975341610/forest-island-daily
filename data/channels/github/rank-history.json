@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-18": {
-      "Nutlope/hallmark": 1,
-      "Graphify-Labs/graphify": 2,
-      "codecrafters-io/build-your-own-x": 3,
-      "Shubhamsaboo/awesome-llm-apps": 4,
-      "HKUDS/DeepTutor": 5,
-      "PostHog/posthog": 6,
-      "openinterpreter/openinterpreter": 7,
-      "FB208/OpenBidKit_Yibiao": 8,
-      "openai/codex": 9,
-      "firecrawl/open-lovable": 10,
-      "RyanCodrai/turbovec": 11,
-      "PrismML-Eng/Bonsai-demo": 12,
-      "github/copilot-sdk": 13,
-      "n8n-io/n8n": 14,
-      "NomaDamas/k-skill": 15,
-      "docusealco/docuseal": 16,
-      "chenyme/grok2api": 17,
-      "poteto/hiring-without-whiteboards": 18,
-      "screenpipe/screenpipe": 19,
-      "safing/portmaster": 20,
-      "EKKOLearnAI/hermes-studio": 21,
-      "superplanehq/superplane": 22,
-      "SillyTavern/SillyTavern": 23,
-      "rustfs/rustfs": 24,
-      "Tencent/WeKnora": 25
-    },
     "2026-07-19": {
       "codecrafters-io/build-your-own-x": 1,
       "Robbyant/lingbot-map": 2,
@@ -836,6 +809,33 @@
       "superplanehq/superplane": 23,
       "smicallef/spiderfoot": 24,
       "sxyazi/yazi": 25
+    },
+    "2026-08-18": {
+      "public-apis/public-apis": 1,
+      "harry0703/MoneyPrinterTurbo": 2,
+      "cordiverse/cordis": 3,
+      "cactus-compute/needle": 4,
+      "usestrix/strix": 5,
+      "liustack/modlens": 6,
+      "freestylefly/awesome-gpt-image-2": 7,
+      "titanwings/colleague-skill": 8,
+      "agalwood/Motrix": 9,
+      "yt-dlp/yt-dlp": 10,
+      "byoungd/up": 11,
+      "volcengine/OpenViking": 12,
+      "akitaonrails/ai-memory": 13,
+      "immich-app/immich": 14,
+      "MakazhanAlpamys/Soup": 15,
+      "ollama/ollama": 16,
+      "microsoft/qlib": 17,
+      "anthropics/defending-code-reference-harness": 18,
+      "nautechsystems/nautilus_trader": 19,
+      "HKUDS/CLI-Anything": 20,
+      "mvanhorn/last30days-skill": 21,
+      "SlimeBoyOwO/LingChat": 22,
+      "jundot/omlx": 23,
+      "Gitlawb/zero": 24,
+      "Sollimann/bonsai": 25
     }
   }
 }
