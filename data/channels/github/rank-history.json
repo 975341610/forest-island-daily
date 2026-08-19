@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-19": {
-      "codecrafters-io/build-your-own-x": 1,
-      "Robbyant/lingbot-map": 2,
-      "SigNoz/signoz": 3,
-      "openinterpreter/openinterpreter": 4,
-      "HKUDS/DeepTutor": 5,
-      "PostHog/posthog": 6,
-      "anthropics/skills": 7,
-      "KnockOutEZ/wigolo": 8,
-      "anthropics/cwc-workshops": 9,
-      "datawhalechina/hello-agents": 10,
-      "rivet-dev/agentos": 11,
-      "firecrawl/open-lovable": 12,
-      "FB208/OpenBidKit_Yibiao": 13,
-      "OpenSenseNova/SenseNova-U1": 14,
-      "tldraw/tldraw": 15,
-      "microsoft/agent-framework-go": 16,
-      "tursodatabase/turso": 17,
-      "elder-plinius/G0DM0D3": 18,
-      "MoonshotAI/kimi-cli": 19,
-      "warpdotdev/warp": 20,
-      "andrewrabert/jellium-desktop": 21,
-      "cocoindex-io/cocoindex": 22,
-      "apache/ossie": 23,
-      "outsourc-e/hermes-workspace": 24,
-      "greensock/GSAP": 25
-    },
     "2026-07-20": {
       "bojieli/ai-agent-book": 1,
       "Robbyant/lingbot-map": 2,
@@ -836,6 +809,33 @@
       "jundot/omlx": 23,
       "Gitlawb/zero": 24,
       "Sollimann/bonsai": 25
+    },
+    "2026-08-19": {
+      "harry0703/MoneyPrinterTurbo": 1,
+      "usestrix/strix": 2,
+      "public-apis/public-apis": 3,
+      "akitaonrails/ai-memory": 4,
+      "agalwood/Motrix": 5,
+      "cordiverse/cordis": 6,
+      "genlayerlabs/genlayer-project-boilerplate": 7,
+      "nautechsystems/nautilus_trader": 8,
+      "jundot/omlx": 9,
+      "cactus-compute/needle": 10,
+      "basecamp/omarchy": 11,
+      "chaitanyagiri/munder-difflin": 12,
+      "multica-ai/multica": 13,
+      "freestylefly/awesome-gpt-image-2": 14,
+      "volcengine/OpenViking": 15,
+      "NawfalMotii79/PLFM_RADAR": 16,
+      "docling-project/docling": 17,
+      "Wei-Shaw/sub2api": 18,
+      "mvanhorn/last30days-skill": 19,
+      "anthropics/claude-code": 20,
+      "browser-use/video-use": 21,
+      "QuantumNous/new-api": 22,
+      "jlcodes99/cockpit-tools": 23,
+      "Gaurav-Gosain/tuios": 24,
+      "liyupi/ai-guide": 25
     }
   }
 }
