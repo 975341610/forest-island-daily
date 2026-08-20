@@ -12,8 +12,8 @@
     },
     "usestrix/strix": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 2604,
+      "appearances": 4,
+      "total_today_stars": 3197,
       "language": "Python",
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
@@ -39,8 +39,8 @@
     },
     "harry0703/MoneyPrinterTurbo": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 3987,
+      "appearances": 4,
+      "total_today_stars": 6208,
       "language": "Python",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
@@ -101,9 +101,9 @@
       "html_url": "https://github.com/yt-dlp/yt-dlp"
     },
     "chaitanyagiri/munder-difflin": {
-      "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 487,
+      "best_rank": 4,
+      "appearances": 3,
+      "total_today_stars": 1282,
       "language": "TypeScript",
       "description": "local multi-agent harness",
       "owner_avatar": "https://avatars.githubusercontent.com/u/26071627?v=4",
@@ -183,8 +183,8 @@
     },
     "jundot/omlx": {
       "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 508,
+      "appearances": 4,
+      "total_today_stars": 980,
       "language": "Python",
       "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
       "owner_avatar": "https://avatars.githubusercontent.com/u/64250138?v=4",
@@ -255,8 +255,8 @@
     },
     "agalwood/Motrix": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 953,
+      "appearances": 3,
+      "total_today_stars": 1518,
       "language": "TypeScript",
       "description": "A full-featured download manager.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1032175?v=4",
@@ -272,9 +272,9 @@
       "html_url": "https://github.com/byoungd/up"
     },
     "volcengine/OpenViking": {
-      "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 452,
+      "best_rank": 3,
+      "appearances": 3,
+      "total_today_stars": 1256,
       "language": "Python",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/67365215?v=4",
@@ -291,8 +291,8 @@
     },
     "immich-app/immich": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 175,
+      "appearances": 2,
+      "total_today_stars": 303,
       "language": "TypeScript",
       "description": "High performance self-hosted photo and video management solution.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/109746326?v=4",
@@ -318,8 +318,8 @@
     },
     "mvanhorn/last30days-skill": {
       "best_rank": 19,
-      "appearances": 2,
-      "total_today_stars": 242,
+      "appearances": 3,
+      "total_today_stars": 371,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
@@ -345,8 +345,8 @@
     },
     "genlayerlabs/genlayer-project-boilerplate": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 535,
+      "appearances": 2,
+      "total_today_stars": 965,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/126566998?v=4",
@@ -407,9 +407,9 @@
       "html_url": "https://github.com/browser-use/video-use"
     },
     "QuantumNous/new-api": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 115,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 247,
       "language": "Go",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
       "owner_avatar": "https://avatars.githubusercontent.com/u/205075698?v=4",
@@ -417,8 +417,8 @@
     },
     "jlcodes99/cockpit-tools": {
       "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 111,
+      "appearances": 2,
+      "total_today_stars": 202,
       "language": "Rust",
       "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
       "owner_avatar": "https://avatars.githubusercontent.com/u/224477852?v=4",
@@ -441,6 +441,132 @@
       "description": "程序员鱼皮的 AI 资源大全 + Vibe Coding 零基础教程，分享 OpenClaw 保姆级教程、大模型玩法（DeepSeek / GPT / Gemini / Claude / GLM）、最新 AI 资讯、Prompt 提示词大全、AI 知识百科（Agent Skills / RAG / MCP / A2A）、AI 编程教程（Harness Engineering）、AI 工具用法（Cursor / Claude Code / TRAE / Codex / Copilot）、AI 开发框架教程（Spring AI / LangChain）、AI 产品变现指南，帮你快速掌握 AI 技术，走在时代前沿。本项目为开源文档 aiguide，已升级为鱼皮 AI 导航网站",
       "owner_avatar": "https://avatars.githubusercontent.com/u/26037703?v=4",
       "html_url": "https://github.com/liyupi/ai-guide"
+    },
+    "amadeusprotocol/node": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1397,
+      "language": "Rust",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/162590184?v=4",
+      "html_url": "https://github.com/amadeusprotocol/node"
+    },
+    "RyanCodrai/turbovec": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 736,
+      "language": "Rust",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/10856497?v=4",
+      "html_url": "https://github.com/RyanCodrai/turbovec"
+    },
+    "NousResearch/hermes-agent": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 558,
+      "language": "Python",
+      "description": "The agent that grows with you",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
+      "html_url": "https://github.com/NousResearch/hermes-agent"
+    },
+    "Graphify-Labs/graphify": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 470,
+      "language": "Python",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
+      "html_url": "https://github.com/Graphify-Labs/graphify"
+    },
+    "t8y2/dbx": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 303,
+      "language": "Rust",
+      "description": "20 MB lightweight cross-platform database client for 80+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 80+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
+      "html_url": "https://github.com/t8y2/dbx"
+    },
+    "block/buzz": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 301,
+      "language": "Rust",
+      "description": "A hive mind communication platform",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/185116535?v=4",
+      "html_url": "https://github.com/block/buzz"
+    },
+    "ruvnet/RuView": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 264,
+      "language": "Rust",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "html_url": "https://github.com/ruvnet/RuView"
+    },
+    "pingdotgg/t3code": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 226,
+      "language": "TypeScript",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
+      "html_url": "https://github.com/pingdotgg/t3code"
+    },
+    "heygen-com/hyperframes": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 163,
+      "language": "TypeScript",
+      "description": "Write HTML. Render video. Built for agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
+      "html_url": "https://github.com/heygen-com/hyperframes"
+    },
+    "ruvnet/ruflo": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 142,
+      "language": "TypeScript",
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "html_url": "https://github.com/ruvnet/ruflo"
+    },
+    "DrewThomasson/ebook2audiobook": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 141,
+      "language": "Python",
+      "description": "Generate audiobooks from e-books, voice cloning & 1158+ languages!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/126999465?v=4",
+      "html_url": "https://github.com/DrewThomasson/ebook2audiobook"
+    },
+    "darkzOGx/youtube-automation-agent": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 93,
+      "language": "JavaScript",
+      "description": "🎬 Fully automated YouTube channel management with AI agents. Creates, optimizes & publishes videos 24/7. Works with FREE Gemini API or OpenAI. No coding required!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/128010917?v=4",
+      "html_url": "https://github.com/darkzOGx/youtube-automation-agent"
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 92,
+      "language": "Python",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
+      "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    "longbridge/gpui-component": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 90,
+      "language": "Rust",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/68419756?v=4",
+      "html_url": "https://github.com/longbridge/gpui-component"
     }
   }
 }

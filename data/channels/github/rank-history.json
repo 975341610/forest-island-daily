@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-20": {
-      "bojieli/ai-agent-book": 1,
-      "Robbyant/lingbot-map": 2,
-      "codecrafters-io/build-your-own-x": 3,
-      "jamiepine/voicebox": 4,
-      "KnockOutEZ/wigolo": 5,
-      "PostHog/posthog": 6,
-      "MoonshotAI/kimi-cli": 7,
-      "kvcache-ai/ktransformers": 8,
-      "SigNoz/signoz": 9,
-      "garrytan/gstack": 10,
-      "HKUDS/DeepTutor": 11,
-      "1jehuang/jcode": 12,
-      "every-app/open-seo": 13,
-      "elder-plinius/G0DM0D3": 14,
-      "openinterpreter/openinterpreter": 15,
-      "pocketbase/pocketbase": 16,
-      "ruvnet/ruflo": 17,
-      "Comfy-Org/ComfyUI": 18,
-      "PKUFlyingPig/cs-self-learning": 19,
-      "XiaoYouChR/Ghost-Downloader-3": 20,
-      "Canner/WrenAI": 21,
-      "Flowseal/zapret-discord-youtube": 22,
-      "AstrBotDevs/AstrBot": 23,
-      "ollama/ollama": 24,
-      "esengine/DeepSeek-Reasonix": 25
-    },
     "2026-07-21": {
       "bojieli/ai-agent-book": 1,
       "oblien/openship": 2,
@@ -836,6 +809,33 @@
       "jlcodes99/cockpit-tools": 23,
       "Gaurav-Gosain/tuios": 24,
       "liyupi/ai-guide": 25
+    },
+    "2026-08-20": {
+      "harry0703/MoneyPrinterTurbo": 1,
+      "amadeusprotocol/node": 2,
+      "volcengine/OpenViking": 3,
+      "chaitanyagiri/munder-difflin": 4,
+      "RyanCodrai/turbovec": 5,
+      "usestrix/strix": 6,
+      "agalwood/Motrix": 7,
+      "NousResearch/hermes-agent": 8,
+      "jundot/omlx": 9,
+      "Graphify-Labs/graphify": 10,
+      "genlayerlabs/genlayer-project-boilerplate": 11,
+      "t8y2/dbx": 12,
+      "block/buzz": 13,
+      "ruvnet/RuView": 14,
+      "pingdotgg/t3code": 15,
+      "heygen-com/hyperframes": 16,
+      "ruvnet/ruflo": 17,
+      "DrewThomasson/ebook2audiobook": 18,
+      "QuantumNous/new-api": 19,
+      "mvanhorn/last30days-skill": 20,
+      "immich-app/immich": 21,
+      "darkzOGx/youtube-automation-agent": 22,
+      "K-Dense-AI/scientific-agent-skills": 23,
+      "jlcodes99/cockpit-tools": 24,
+      "longbridge/gpui-component": 25
     }
   }
 }
