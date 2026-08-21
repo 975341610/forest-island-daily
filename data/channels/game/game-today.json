@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-20",
-  "generated_at": "2026-08-20T01:56:37.281377+00:00",
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T02:03:37.453058+00:00",
   "source": "rss-auto",
   "releases": [
     {
@@ -227,125 +227,132 @@
   ],
   "hot": [
     {
-      "title": "Video: Call Of Duty: Modern Warfare 4 Drops Official Multipl",
+      "title": "Steam Makes Two Games Completely Free To Play Until Aug. 4",
       "category": "重磅新闻",
-      "summary": "\"Weapons hot\".Ahead of the Call of Duty: Modern Warfare 4 early access beta this week, Activision and Infinity Ward have released the game's official multiplayer trailer.It highlights all-new 6v6 maps, the modular multiplayer battleground Kill Block, the expansive Ground War mode",
+      "summary": "Steam is offering a 200-player World War I shooter and a tactical mech RPG as free-to-play titles for a limited time.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/steam-free-games-weekend-august-21-2026/"
+    },
+    {
+      "title": "Zelda: Ocarina of Time Mod Remakes the N64 Classic in True 3",
+      "category": "重磅新闻",
+      "summary": "Zelda: Ocarina of Time fan mod for original Nintendo 64 hardware turns the game's pre-rendered backgrounds into 3D",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/zelda-ocarina-of-time-mod-nintendo-64-replaces-games-fake-3d/"
+    },
+    {
+      "title": "Video: Minecraft Dungeons II Official Gameplay Trailer Relea",
+      "category": "重磅新闻",
+      "summary": "\"Enter the Sift\".Minecraft Dungeons II is gearing up for its official launch on the Switch and Switch 2 next month.Ahead of release, the team at Mojang has released an official gameplay trailer showcasing this new action-packed experience, as well as mysterious rifts, which lead ",
       "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/08/video-call-of-duty-modern-warfare-4-drops-official-multiplayer-trailer"
+      "url": "https://www.nintendolife.com/news/2026/08/video-minecraft-dungeons-ii-official-gameplay-trailer-released"
     },
     {
-      "title": "32 Years Later, The Best 'Calvin and Hobbes' Quote About Why",
-      "category": "重磅新闻",
-      "summary": "Calvin and Hobbes on working to live, vs. living to work",
+      "title": "Netflix’s Near-Perfect Revenge Thriller Blue Eye Samurai Is ",
+      "category": "游戏更新",
+      "summary": "Mizu arrives in London for season 2 in January",
       "source": "Polygon",
-      "url": "https://www.polygon.com/calvin-and-hobbes-best-quote-on-work/"
+      "url": "https://www.polygon.com/blue-eye-samurai-season-3-announced/"
     },
     {
-      "title": "Steam Sale Includes Indie Horror Hit Carrion for 80% Off",
+      "title": "One Piece Returns to Netflix With A New Special and a New Lo",
       "category": "重磅新闻",
-      "summary": "The acclaimed reverse-horror game Carrion is just $3.99 during Devolver Digital’s latest Steam sale.",
+      "summary": "'Lego One Piece' just got a new trailer featuring swashbuckling adventures.",
       "source": "Polygon",
-      "url": "https://www.polygon.com/steam-sale-carrion-steam-sale-80-percent-off-august-2026/"
+      "url": "https://www.polygon.com/lego-one-piece-sets-sail-with-charming-new-trailer/"
     },
     {
-      "title": "Director of Marvel’s Wolverine Responds After Extended Gamep",
-      "category": "行业活动",
-      "summary": "The director of Marvel’s Wolverine, Mike Daly, opened up about the recent backlash toward the game after its extended gameplay showcase drew criticism online.",
-      "source": "IGN",
-      "url": "https://www.ign.com/articles/director-of-marvels-wolverine-responds-after-extended-gameplay-footage-sparks-backlash"
+      "title": "'Cyberpunk: Edgerunners' Gets Official Return Date With Brut",
+      "category": "发售定档",
+      "summary": "'Cyberpunk: Edgerunners 2' is right around the corner, and we got a grisly new trailer that announced the anime's release date.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/cyberpunk-edgerunners-2-release-date-announced-new-trailer/"
     },
     {
-      "title": "Modern Warfare 4 Beta Reveals Multiplayer Matchmaking Plans,",
+      "title": "‘God of War’ TV Show Officially Recasts Its New Kratos",
+      "category": "游戏更新",
+      "summary": "Production on God of War is expected to resume this fall after filming was halted, with the Prime Video series still carrying a two-season order.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/dave-bautista-kratos-god-of-war-tv-series-official-recast/"
+    },
+    {
+      "title": "Insidious: Out of the Further' Post-Credits Scene Explained:",
       "category": "重磅新闻",
-      "summary": "Call of Duty: Modern Warfare 4's beta will utilize a divisive new matchmaking system in addition to the open matchmaking introduced last year.",
-      "source": "IGN",
-      "url": "https://www.ign.com/articles/modern-warfare-4-beta-reveals-multiplayer-matchmaking-plans-will-continue-to-use-divisive-new-matchmaking-system"
+      "summary": "Insidious: Out of the Further premiered in theaters on August 21st. It features a post-credit scene that teases the fate of its lead demon villain.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/insidious-out-of-the-further-post-credits-scene-explained-spoilers/"
     },
     {
-      "title": "Pokémon’s 30th Anniversary Set Might Be Making A Mysterious ",
-      "category": "爆料",
-      "summary": "A new rumor claims the card will have a 1 in 20,000 pull rate",
+      "title": "Tomb Raider I-III Remastered Update Adds Three New Features,",
+      "category": "游戏更新",
+      "summary": "A patch focused on \"community requested features\".Aspyr recently revived The Lord of the Rings: War in the North, and this week it returns to Tomb Raider I-III Remastered with a community patch, adding some requested features.This update includes three new features across all ver",
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/08/tomb-raider-i-iii-remastered-update-adds-three-new-features-includes-60fps-in-classic-graphics-mode"
+    },
+    {
+      "title": "US Army Is Officially Using 'GTA 6' Time as a Reenlistment I",
+      "category": "重磅新闻",
+      "summary": "The unusual perk comes as anticipation around Rockstar’s long-awaited sequel reaches fever pitch.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/gta-6-us-army-reenlistment-rockstar-games-release-date/"
+    },
+    {
+      "title": "Star of Unfairly Canceled Masterpiece Marvel Series Calls Ou",
+      "category": "重磅新闻",
+      "summary": "Wonder Man star Yahya Abdul-Mateen II responds to his Marvel TV show's cancellation alongside Blade's axing.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/marvel-wonder-man-blade-canceled-yahya-abdul-mateen-interview/"
+    },
+    {
+      "title": "Darth Vader Wants Flock Surveillance Cameras In Cities To ‘F",
+      "category": "重磅新闻",
+      "summary": "\"We all know that the Flock cameras are not only following the license plate readers; they are following children\"",
       "source": "Kotaku",
-      "url": "https://kotaku.com/pokemons-30th-anniversary-set-might-be-making-a-mysterious-new-mew-card-the-rarest-ever-2000725936"
-    },
-    {
-      "title": "Pokémon Halloween 2026 Merch Is Here So Ditch The 12-foot Ho",
-      "category": "重磅新闻",
-      "summary": "The Pokémon Center just released its Halloween 2026 merchandise. It includes Pokémon yard statues, Gengar sleepwear, and more.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/pokemon-center-new-halloween-merchandise-2026/"
-    },
-    {
-      "title": "The Last of Us Online Was Not a 'Side Project,' Majority of ",
-      "category": "重磅新闻",
-      "summary": "Naughty Dog's The Last of Us Online was more than just a \"side project\" and is a big reason why the studio hasn't had a brand new game since 2020.",
-      "source": "IGN",
-      "url": "https://www.ign.com/articles/the-last-of-us-online-was-not-a-side-project-majority-of-intergalactics-team-came-over-after-multiplayer-game-was-scrapped"
-    },
-    {
-      "title": "5 Short Games Under 20 Hours",
-      "category": "重磅新闻",
-      "summary": "If you don't have time for 80-plus-hour epics, these 5 games under 20 hours are perfect for you.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/best-games-under-20-hours/"
-    },
-    {
-      "title": "Magic’s Leaked Secret Lair Commander Deck Includes an Overpo",
-      "category": "爆料",
-      "summary": "Magic's leaked Odds and Ends Secret Lair deck offers huge value, including a $60 Esper Sentinel in a deck focused on odd-cost cards.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/mtg-secret-lair-odds-and-ends-commander-decklist-leak/"
-    },
-    {
-      "title": "MrBeast Meets 'Battle Royale' In New Thriller From GenZ's Ne",
-      "category": "行业活动",
-      "summary": "The director of Hollywood's next Gen Z horror hit has already finished filming his next movie",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/alex-ullom-4-x-4-the-event-movie-plot-cast/"
-    },
-    {
-      "title": "Witcher 3 Dev Explains How Ultra Realistic NPCs Created Weir",
-      "category": "重磅新闻",
-      "summary": "A commitment to realism had some unintended consequences",
-      "source": "Kotaku",
-      "url": "https://kotaku.com/witcher-3-dev-explains-how-ultra-realistic-npcs-created-weird-problems-women-were-just-dropping-their-babies-left-and-right-2000725923"
+      "url": "https://kotaku.com/darth-vader-wants-flock-surveillance-cameras-2000726326"
     }
   ],
   "studios": [
     {
       "company": "任天堂",
-      "title": "Splatoon 3 Ver. 11.3.0 Update Out Now, Here Are The Full Pat",
-      "summary": "Claim a new weapon with Splatoon Raiders save data.: Nintendo has continued to release new updates for the Switch multiplayer Splatoon 3, and the next update is out this week.This will bump the game up to Version 11.3.0, and the changes will be applied to both the Switch and Swit",
+      "title": "Another Crab's Treasure Scores A Switch 2 Edition And Free U",
+      "summary": "Higher fps, enhanced resolution and more.The soulslike Another Crab's Treasure has this week cooked up a surprise Switch 2 Edition, including a free upgrade.If you already own the Switch version, you can download the update right now and experience \"smooth performance\". The offic",
       "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/08/splatoon-3-ver-11-3-0-update-out-now-here-are-the-full-patch-notes"
-    },
-    {
-      "company": "微软 / Xbox",
-      "title": "RuneScape: Dragonwilds is coming to XBOX Game Pass | 15 Sept",
-      "summary": "The post RuneScape: Dragonwilds is coming to XBOX Game Pass | 15 September appeared first on XBOX Wire.",
-      "source": "Xbox Wire",
-      "url": "https://news.xbox.com/en-us/2026/08/19/runescape-dragonwilds-coming-to-game-pass/"
-    },
-    {
-      "company": "索尼 / SIE",
-      "title": "The Marvel Movie That Killed Sony's Spider-Man Universe Is C",
-      "summary": "Sony's Spider-Man Universe is on hold, in part thanks to 2024's disastrous Kraven the Hunter, which is finally coming to Disney Plus.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/kraven-the-hunter-streaming-date-disney-plus-september-2026/"
+      "url": "https://www.nintendolife.com/news/2026/08/another-crabs-treasure-scores-a-switch-2-edition-and-free-upgrade"
     },
     {
       "company": "Take-Two / Rockstar",
-      "title": "GTA 6 Is Too Big For These Leaks To Hurt It",
-      "summary": "New GTA 6 leaks may be insulting to developer Rockstar Games, but the open-world crime epic is too big to field much damage.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/gta-6-leaks-rockstar-games-impact/"
+      "title": "OK, Vice City does look pretty damn impressive from the air",
+      "summary": "If the latest GTA 6 leak is legit, its world is clearly unprecedented in scale and density.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/ok-vice-city-does-look-pretty-damn-impressive-from-the-air/"
     },
     {
-      "company": "Valve",
-      "title": "The Pokémon Center Was Hit By Same Data Breach As Valve, And",
-      "summary": "Leave it to Pokémon to find a way to rub salt in the wound",
+      "company": "Epic Games",
+      "title": "All match overrides and console locations in Fortnite Chapte",
+      "summary": "Match overrides change the way you play Fortnite in Chapter 7 Season 4. Here are all the match overrides and where to find override consoles.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/fortnite-chapter-7-season-4-match-overrides-console-locations-c7s4/"
+    },
+    {
+      "company": "微软 / Xbox",
+      "title": "Xbox And EA Aren’t Sharing U.S. Digital Sales Data With Circ",
+      "summary": "The industry gets a little less transparent",
       "source": "Kotaku",
-      "url": "https://kotaku.com/pokemon-center-hack-data-breach-valve-orders-cancelled-ceva-2000725795"
+      "url": "https://kotaku.com/xbox-isnt-sharing-us-digital-sales-data-anymore-2000726257"
+    },
+    {
+      "company": "索尼 / SIE",
+      "title": "A cracked version of Marvel Tōkon is reigniting questions ar",
+      "summary": "Marvel Tōkon: Fighting Soul is reigniting the debate around DRM, amid reports a new DRM-free cracked version is performing better than Sony's widely lambasted official PC version. Read more",
+      "source": "Eurogamer",
+      "url": "https://www.eurogamer.net/marvel-tokon-fighting-souls-crack-drm-performance"
+    },
+    {
+      "company": "EA / 美国艺电",
+      "title": "\"I don't know if they will keep funding that one\" - Former E",
+      "summary": "Inside and outside Electronic Arts, everyone is bracing for what's sure to be a very different company now that it's fully owned by Saudi Arabia's Public Investment Fund. But the fate of one game in particular may be more perilous than any other: the next Mass Effect. Read more",
+      "source": "Eurogamer",
+      "url": "https://www.eurogamer.net/next-mass-effect-ea-bioware-saudi-ownership"
     }
   ]
 }
