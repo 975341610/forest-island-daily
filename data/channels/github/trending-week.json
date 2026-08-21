@@ -12,8 +12,8 @@
     },
     "usestrix/strix": {
       "best_rank": 2,
-      "appearances": 4,
-      "total_today_stars": 3197,
+      "appearances": 5,
+      "total_today_stars": 3729,
       "language": "Python",
       "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
@@ -39,8 +39,8 @@
     },
     "harry0703/MoneyPrinterTurbo": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 6208,
+      "appearances": 5,
+      "total_today_stars": 8969,
       "language": "Python",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
@@ -93,8 +93,8 @@
     },
     "yt-dlp/yt-dlp": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 485,
+      "appearances": 3,
+      "total_today_stars": 743,
       "language": "Python",
       "description": "A feature-rich command-line audio/video downloader",
       "owner_avatar": "https://avatars.githubusercontent.com/u/79589310?v=4",
@@ -102,17 +102,17 @@
     },
     "chaitanyagiri/munder-difflin": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 1282,
+      "appearances": 4,
+      "total_today_stars": 1789,
       "language": "TypeScript",
       "description": "local multi-agent harness",
       "owner_avatar": "https://avatars.githubusercontent.com/u/26071627?v=4",
       "html_url": "https://github.com/chaitanyagiri/munder-difflin"
     },
     "cursor/plugins": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 144,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 593,
       "language": "TypeScript",
       "description": "Cursor plugin specification and official plugins",
       "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
@@ -183,8 +183,8 @@
     },
     "jundot/omlx": {
       "best_rank": 9,
-      "appearances": 4,
-      "total_today_stars": 980,
+      "appearances": 5,
+      "total_today_stars": 1312,
       "language": "Python",
       "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
       "owner_avatar": "https://avatars.githubusercontent.com/u/64250138?v=4",
@@ -192,8 +192,8 @@
     },
     "nautechsystems/nautilus_trader": {
       "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 700,
+      "appearances": 4,
+      "total_today_stars": 1057,
       "language": "Rust",
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "owner_avatar": "https://avatars.githubusercontent.com/u/33360632?v=4",
@@ -255,26 +255,26 @@
     },
     "agalwood/Motrix": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1518,
+      "appearances": 4,
+      "total_today_stars": 1671,
       "language": "TypeScript",
       "description": "A full-featured download manager.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1032175?v=4",
       "html_url": "https://github.com/agalwood/Motrix"
     },
     "byoungd/up": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 259,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 796,
       "language": "JavaScript",
       "description": "An advanced guide which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语",
       "owner_avatar": "https://avatars.githubusercontent.com/u/16145783?v=4",
       "html_url": "https://github.com/byoungd/up"
     },
     "volcengine/OpenViking": {
-      "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 1256,
+      "best_rank": 2,
+      "appearances": 4,
+      "total_today_stars": 2206,
       "language": "Python",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/67365215?v=4",
@@ -282,8 +282,8 @@
     },
     "akitaonrails/ai-memory": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 855,
+      "appearances": 3,
+      "total_today_stars": 1187,
       "language": "Rust",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2840?v=4",
@@ -381,8 +381,8 @@
     },
     "Wei-Shaw/sub2api": {
       "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 147,
+      "appearances": 2,
+      "total_today_stars": 300,
       "language": "Go",
       "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/26101719?v=4",
@@ -390,8 +390,8 @@
     },
     "anthropics/claude-code": {
       "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 139,
+      "appearances": 2,
+      "total_today_stars": 292,
       "language": "Python",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -444,8 +444,8 @@
     },
     "amadeusprotocol/node": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1397,
+      "appearances": 2,
+      "total_today_stars": 2214,
       "language": "Rust",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/162590184?v=4",
@@ -453,8 +453,8 @@
     },
     "RyanCodrai/turbovec": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 736,
+      "appearances": 2,
+      "total_today_stars": 966,
       "language": "Rust",
       "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/10856497?v=4",
@@ -507,8 +507,8 @@
     },
     "pingdotgg/t3code": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 226,
+      "appearances": 2,
+      "total_today_stars": 449,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
@@ -567,6 +567,87 @@
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/68419756?v=4",
       "html_url": "https://github.com/longbridge/gpui-component"
+    },
+    "mahlernim/google-timeline-visualizer": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 657,
+      "language": "Kotlin",
+      "description": "Visualize your year in travel using your Google Location History (Timeline) data",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/33252024?v=4",
+      "html_url": "https://github.com/mahlernim/google-timeline-visualizer"
+    },
+    "apache/maka": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 460,
+      "language": "TypeScript",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/47359?v=4",
+      "html_url": "https://github.com/apache/maka"
+    },
+    "pbakaus/impeccable": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 410,
+      "language": "JavaScript",
+      "description": "The design language that makes your AI harness better at design.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
+      "html_url": "https://github.com/pbakaus/impeccable"
+    },
+    "modular/modular": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 268,
+      "language": "Mojo",
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/150859076?v=4",
+      "html_url": "https://github.com/modular/modular"
+    },
+    "chuspeeism/dashi-ppt-skill": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 251,
+      "language": "JavaScript",
+      "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/70992554?v=4",
+      "html_url": "https://github.com/chuspeeism/dashi-ppt-skill"
+    },
+    "bookorbit/bookorbit": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 248,
+      "language": "TypeScript",
+      "description": "BookOrbit: Your Reading Space",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/279911312?v=4",
+      "html_url": "https://github.com/bookorbit/bookorbit"
+    },
+    "garrytan/gstack": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 166,
+      "language": "TypeScript",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
+      "html_url": "https://github.com/garrytan/gstack"
+    },
+    "Osmantic/ODS": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 162,
+      "language": "Python",
+      "description": "Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/262014141?v=4",
+      "html_url": "https://github.com/Osmantic/ODS"
+    },
+    "tashfeenahmed/freellmapi": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 159,
+      "language": "TypeScript",
+      "description": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
+      "html_url": "https://github.com/tashfeenahmed/freellmapi"
     }
   }
 }
