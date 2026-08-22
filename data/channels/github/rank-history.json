@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-22": {
-      "bojieli/ai-agent-book": 1,
-      "ayghri/i-have-adhd": 2,
-      "oblien/openship": 3,
-      "stablyai/orca": 4,
-      "koala73/worldmonitor": 5,
-      "earendil-works/pi": 6,
-      "ruvnet/RuView": 7,
-      "every-app/open-seo": 8,
-      "1jehuang/jcode": 9,
-      "KnockOutEZ/wigolo": 10,
-      "AstrBotDevs/AstrBot": 11,
-      "ltaoo/wx_channels_download": 12,
-      "microsoft/Ontology-Playground": 13,
-      "Alishahryar1/free-claude-code": 14,
-      "t8y2/dbx": 15,
-      "MoonshotAI/kimi-cli": 16,
-      "agegr/pi-web": 17,
-      "earthtojake/text-to-cad": 18,
-      "rtk-ai/rtk": 19,
-      "practical-tutorials/project-based-learning": 20,
-      "addyosmani/agent-skills": 21,
-      "langgenius/dify": 22,
-      "tradesdontlie/tradingview-mcp": 23,
-      "maboloshi/github-chinese": 24,
-      "CloakHQ/CloakBrowser": 25
-    },
     "2026-07-23": {
       "koala73/worldmonitor": 1,
       "bojieli/ai-agent-book": 2,
@@ -836,6 +809,33 @@
       "anthropics/claude-code": 23,
       "agalwood/Motrix": 24,
       "Wei-Shaw/sub2api": 25
+    },
+    "2026-08-22": {
+      "openai/codex": 1,
+      "harry0703/MoneyPrinterTurbo": 2,
+      "mahlernim/google-timeline-visualizer": 3,
+      "modular/modular": 4,
+      "stablyai/orca": 5,
+      "Wei-Shaw/sub2api": 6,
+      "volcengine/OpenViking": 7,
+      "makeplane/plane": 8,
+      "akitaonrails/ai-memory": 9,
+      "Tencent/AI-Infra-Guard": 10,
+      "cursor/plugins": 11,
+      "RyanCodrai/turbovec": 12,
+      "PostHog/posthog": 13,
+      "pbakaus/impeccable": 14,
+      "nautechsystems/nautilus_trader": 15,
+      "agent-substrate/substrate": 16,
+      "n8n-io/n8n": 17,
+      "garrytan/gstack": 18,
+      "anthropics/claude-code": 19,
+      "Alishahryar1/free-claude-code": 20,
+      "apache/maka": 21,
+      "kubernetes/kubernetes": 22,
+      "ruvnet/ruflo": 23,
+      "QuantumNous/new-api": 24,
+      "byoungd/up": 25
     }
   }
 }

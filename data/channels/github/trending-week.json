@@ -39,8 +39,8 @@
     },
     "harry0703/MoneyPrinterTurbo": {
       "best_rank": 1,
-      "appearances": 5,
-      "total_today_stars": 8969,
+      "appearances": 6,
+      "total_today_stars": 10170,
       "language": "Python",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
@@ -111,8 +111,8 @@
     },
     "cursor/plugins": {
       "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 593,
+      "appearances": 3,
+      "total_today_stars": 981,
       "language": "TypeScript",
       "description": "Cursor plugin specification and official plugins",
       "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
@@ -192,8 +192,8 @@
     },
     "nautechsystems/nautilus_trader": {
       "best_rank": 8,
-      "appearances": 4,
-      "total_today_stars": 1057,
+      "appearances": 5,
+      "total_today_stars": 1357,
       "language": "Rust",
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "owner_avatar": "https://avatars.githubusercontent.com/u/33360632?v=4",
@@ -264,8 +264,8 @@
     },
     "byoungd/up": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 796,
+      "appearances": 3,
+      "total_today_stars": 925,
       "language": "JavaScript",
       "description": "An advanced guide which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语",
       "owner_avatar": "https://avatars.githubusercontent.com/u/16145783?v=4",
@@ -273,8 +273,8 @@
     },
     "volcengine/OpenViking": {
       "best_rank": 2,
-      "appearances": 4,
-      "total_today_stars": 2206,
+      "appearances": 5,
+      "total_today_stars": 2860,
       "language": "Python",
       "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/67365215?v=4",
@@ -282,8 +282,8 @@
     },
     "akitaonrails/ai-memory": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 1187,
+      "appearances": 4,
+      "total_today_stars": 1654,
       "language": "Rust",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2840?v=4",
@@ -380,18 +380,18 @@
       "html_url": "https://github.com/docling-project/docling"
     },
     "Wei-Shaw/sub2api": {
-      "best_rank": 18,
-      "appearances": 2,
-      "total_today_stars": 300,
+      "best_rank": 6,
+      "appearances": 3,
+      "total_today_stars": 973,
       "language": "Go",
       "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/26101719?v=4",
       "html_url": "https://github.com/Wei-Shaw/sub2api"
     },
     "anthropics/claude-code": {
-      "best_rank": 20,
-      "appearances": 2,
-      "total_today_stars": 292,
+      "best_rank": 19,
+      "appearances": 3,
+      "total_today_stars": 462,
       "language": "Python",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -408,8 +408,8 @@
     },
     "QuantumNous/new-api": {
       "best_rank": 19,
-      "appearances": 2,
-      "total_today_stars": 247,
+      "appearances": 3,
+      "total_today_stars": 378,
       "language": "Go",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management. 🍥",
       "owner_avatar": "https://avatars.githubusercontent.com/u/205075698?v=4",
@@ -453,8 +453,8 @@
     },
     "RyanCodrai/turbovec": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 966,
+      "appearances": 3,
+      "total_today_stars": 1316,
       "language": "Rust",
       "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/10856497?v=4",
@@ -525,8 +525,8 @@
     },
     "ruvnet/ruflo": {
       "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 142,
+      "appearances": 2,
+      "total_today_stars": 282,
       "language": "TypeScript",
       "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -569,9 +569,9 @@
       "html_url": "https://github.com/longbridge/gpui-component"
     },
     "mahlernim/google-timeline-visualizer": {
-      "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 657,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 1710,
       "language": "Kotlin",
       "description": "Visualize your year in travel using your Google Location History (Timeline) data",
       "owner_avatar": "https://avatars.githubusercontent.com/u/33252024?v=4",
@@ -579,8 +579,8 @@
     },
     "apache/maka": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 460,
+      "appearances": 2,
+      "total_today_stars": 608,
       "language": "TypeScript",
       "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/47359?v=4",
@@ -588,17 +588,17 @@
     },
     "pbakaus/impeccable": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 410,
+      "appearances": 2,
+      "total_today_stars": 739,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
       "html_url": "https://github.com/pbakaus/impeccable"
     },
     "modular/modular": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 268,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 1181,
       "language": "Mojo",
       "description": "The Modular Platform (includes MAX & Mojo)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/150859076?v=4",
@@ -623,9 +623,9 @@
       "html_url": "https://github.com/bookorbit/bookorbit"
     },
     "garrytan/gstack": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 166,
+      "best_rank": 18,
+      "appearances": 2,
+      "total_today_stars": 358,
       "language": "TypeScript",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
@@ -648,6 +648,87 @@
       "description": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
       "html_url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    "openai/codex": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 4159,
+      "language": "Rust",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/codex"
+    },
+    "stablyai/orca": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 724,
+      "language": "TypeScript",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "html_url": "https://github.com/stablyai/orca"
+    },
+    "makeplane/plane": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 579,
+      "language": "TypeScript",
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/115727700?v=4",
+      "html_url": "https://github.com/makeplane/plane"
+    },
+    "Tencent/AI-Infra-Guard": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 434,
+      "language": "Python",
+      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
+      "html_url": "https://github.com/Tencent/AI-Infra-Guard"
+    },
+    "PostHog/posthog": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 335,
+      "language": "Python",
+      "description": ":hedgehog: PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/60330232?v=4",
+      "html_url": "https://github.com/PostHog/posthog"
+    },
+    "agent-substrate/substrate": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 243,
+      "language": "Go",
+      "description": "Agent Substrate: the core system",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/280516639?v=4",
+      "html_url": "https://github.com/agent-substrate/substrate"
+    },
+    "n8n-io/n8n": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 193,
+      "language": "TypeScript",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/45487711?v=4",
+      "html_url": "https://github.com/n8n-io/n8n"
+    },
+    "Alishahryar1/free-claude-code": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 166,
+      "language": "Python",
+      "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
+      "html_url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    "kubernetes/kubernetes": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 147,
+      "language": "Go",
+      "description": "Production-Grade Container Scheduling and Management",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/13629408?v=4",
+      "html_url": "https://github.com/kubernetes/kubernetes"
     }
   }
 }
