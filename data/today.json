@@ -1,247 +1,252 @@
 [
   {
-    "id": "2026-08-21_ai_1",
-    "date": "2026-08-21",
+    "id": "2026-08-22_ai_1",
+    "date": "2026-08-22",
     "category": "AI",
-    "subcat": "国产大模型",
-    "platform": "IT之家",
+    "subcat": "大模型",
+    "platform": "机器之心",
     "platform_color": "#7C9EF6",
-    "title": "MiniMax 发布创作 Agent Design",
-    "url": "https://www.ithome.com/0/992/095.htm",
-    "image": "images/2026-08-21/2026-08-21_ai_1.jpg",
+    "title": "DeepSeek多模态视觉模型上线",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-08-21/doc-iniparan1353447.shtml",
+    "image": "images/2026-08-22/2026-08-22_ai_1.jpg",
     "detail": [
-      "MiniMax 于 8 月 20 日正式发布多模态创作 Agent 工作台「MiniMax Design」,将此前推出的 H3 大模型生产力首次释放到商业化内容生产场景。该产品定位为一站式创意工作台,面向设计师、内容团队与中小商家,主打从创意构思到成品交付的全流程自动化,是公司在 Agent 化产品线上的又一次关键落子。",
-      "作为核心亮点,MiniMax Design 内置了「3D导演台」功能,用户可通过自然语言描述场景、镜头与运镜方式,由底层 H3 多模态模型自动生成分镜与三维画面,并支持对光影、材质与构图进行细粒度调整。官方演示中,一句提示词即可产出可直接商用的海报、短视频分镜与三维产品展示,大幅压缩了传统设计外包的时间与成本。",
-      "消息发布后在国内 AI 圈引发广泛讨论,不少从业者认为这标志着国产多模态模型正从「能生成」迈向「能交付」的实用阶段。也有设计师担忧此类工具会挤压初级创意岗位,但更多观点认为它更适合作为提效助手,把人从重复性执行中解放出来,专注创意与审美决策,长期来看有望重塑内容生产协作方式。"
+      "8月21日,DeepSeek官方宣布全新的多模态视觉理解模型DeepSeek-V4-Flash-Vision-Exp正式上线DeepSeek API平台,补齐了外界等待最久的一块拼图。模型名末尾的「Exp」表明这是一个实验性版本,而非V4-Flash的多模态正式版,开发者只需把请求中的model参数设为deepseek-v4-flash-vision-exp即可调用。距离DeepSeek在4月发布V4系列预览版并开源,已过去将近四个月。",
+      "据官方公布的基准测试,V4-Flash-Vision-Exp在纯文本能力(Agent、推理、世界知识等)方面与V4-Flash正式版持平;而在需要视觉理解的Agent Benchmark上,相比V4-Flash实现大幅跃升,多模态Agent能力已接近Claude Opus-4.8。计费上,图片会先转换为token计入用量,单张最多按384 tokens计算,价格与V4-Flash一致,高峰时段理解一张图最高仅约0.001152元,极具性价比。",
+      "官方给出了三个能力示例:在Agent框架下生成面向高净值客户的西藏自驾游定制PPT、对DeepSeek Harness官网做深海黑蓝加玻璃UI风格的二次创作,以及制作黏土怪物风格的动态特效前端Demo。这套多模态API同时兼容Chat Completions、Messages、Responses三种格式,支持图文混合输入与base64、URL两种传图方式,方便接入各类Agent工具。",
+      "值得一提的是,DeepSeek同步上线了免费的Files API,开发者可先把图片上传平台,后续凭file_id直接引用,避免同一张图片重复传输的开销。两小时前刚更新的DeepSeek Harness也已新增该模型选项。业内认为,这标志着DeepSeek终于补齐多模态理解能力,进一步夯实其面向Agent时代的技术版图。"
     ]
   },
   {
-    "id": "2026-08-21_ai_2",
-    "date": "2026-08-21",
+    "id": "2026-08-22_ai_2",
+    "date": "2026-08-22",
     "category": "AI",
-    "subcat": "国产大模型",
-    "platform": "量子位",
+    "subcat": "商业",
+    "platform": "凤凰网科技/极数",
     "platform_color": "#7C9EF6",
-    "title": "千问办公实测夺 Agent 综合第一",
-    "url": "https://www.qbitai.com/2026/08/476070.html",
-    "image": "images/2026-08-21/2026-08-21_ai_2.jpg",
+    "title": "GLM-5.3与DeepSeek-V4-Pro接入千问",
+    "url": "https://www.ifastdata.com/2026/08/21/glm-5-3-deepseek-v4-pro-qianwen/",
+    "image": "images/2026-08-22/2026-08-22_ai_2.jpg",
     "detail": [
-      "8 月 20 日,华尔街知名投行杰富瑞(Jefferies)发布了一份针对 8 款主流办公 Agent 的实测评测报告,阿里旗下的「千问办公」以 95 分的综合成绩位列第一,成为本次测试中唯一在各个能力维度得分均超过 90 分的产品,引发国内外 AI 从业者高度关注。",
-      "据报告披露,千问办公在文档处理、表格分析、跨应用协作与复杂任务规划等维度表现均衡,综合分领先于 Claude Cowork 的 94 分与 Codex 的 92 分。测试同时指出,其底层 Qwen3.8-Max 的 API 调用成本更低,在同等任务质量下具备明显的性价比优势,这被视为国产大模型在商业化竞争中的重要砝码。",
-      "这份来自华尔街投行的第三方评测,被业界解读为国产 Agent 首次在国际专业机构的横向对比中登顶。社区讨论普遍认为,评测维度贴近真实办公场景,含金量高于以往的单点跑分。也有声音提醒,单次测评样本有限,实际企业落地仍需在稳定性与生态集成上持续验证,但这一结果无疑提振了市场对国产模型的信心。"
+      "8月21日,据阿里云消息,阿里云MaaS再次扩充模型服务矩阵:智谱GLM-5.3与DeepSeek-V4-Pro两款前沿大模型的正式版现已接入千问AI平台,相关API服务同步开放,开发者可直接调用。这是阿里云平台层面对第三方竞品模型的又一次开放接入,进一步丰富了千问平台的模型选择维度。",
+      "据介绍,DeepSeek-V4-Pro作为DeepSeek最新旗舰模型,支持百万token上下文及最高384K输出,显著强化了Agent任务串联能力,在长程任务与自动化工作流基准中名列前茅;GLM-5.3则是智谱最新旗舰,通过后训练Scaling技术较GLM-5.2实现约50%性能提升,在白盒代码审查与漏洞发现等安全场景中表现突出。用户订阅套餐后,可在Qoder、Codex等AI工具中按需切换模型。",
+      "此次更新标志着企业级AI应用正从单一模型依赖向多模型路由策略转型。千问平台同时接入两款竞品旗舰,实际上是在应用层构建了一个模型调度层,允许用户在极致长上下文推理(DeepSeek)与代码工程安全(GLM)之间自由选择,降低了企业构建自动化工作流的技术门槛。",
+      "社区观点认为,办公与开发平台接入竞品模型已成趋势,软件生态正从「单一模型自研」转向「支持多模型路由的智能化作业平台」演进。加之DeepSeek同日发布多模态模型、GLM系列密集迭代,国产大模型在Agent与编码赛道的竞争正持续白热化,也推动API市场从价格战转向「智价比」的比拼。"
     ]
   },
   {
-    "id": "2026-08-21_ai_3",
-    "date": "2026-08-21",
+    "id": "2026-08-22_ai_3",
+    "date": "2026-08-22",
     "category": "AI",
-    "subcat": "Claude/Anthropic",
-    "platform": "新浪财经",
+    "subcat": "产品发布",
+    "platform": "新智元/思否",
     "platform_color": "#7C9EF6",
-    "title": "Anthropic 冲刺史上最大 IPO",
-    "url": "https://finance.sina.com.cn/roll/2026-08-21/doc-ininzprc1600566.shtml",
-    "image": "images/2026-08-21/2026-08-21_ai_3.jpg",
+    "title": "OpenAI全面开源Codex Harness",
+    "url": "https://segmentfault.com/a/1190000048185190",
+    "image": "images/2026-08-22/2026-08-22_ai_3.jpg",
     "detail": [
-      "据 8 月 21 日多方财经媒体报道,AI 独角兽 Anthropic 正加速推进上市进程,拟最快于 8 月底向监管机构秘密(confidential)递交 S-1 招股文件,目标估值高达 1.5 万亿至 2 万亿美元,若成行将有望成为史上规模最大的 IPO 之一,消息一出迅速点燃资本市场情绪。",
-      "报道援引知情人士称,Anthropic 在最新季度业绩表现强劲,第二季度营收超过 115 亿美元,年化经常性收入(ARR)突破 650 亿美元,并首次实现经营层面盈利。更受关注的是,在核心经营指标上,该公司据称首次实现了对老对手 OpenAI 的反超,增长曲线陡峭。",
-      "这一系列数字让市场对 Anthropic 的高估值有了更强支撑。业界普遍认为,如此激进的上市时间表反映出公司希望在 AI 资本热潮尚未退去时抢占窗口。也有分析师提醒,万亿级估值对未来增长与盈利可持续性提出极高要求,一旦大模型竞争格局或商业化节奏生变,估值回调风险不容忽视,后续 S-1 披露的真实财务细节将成为关键看点。"
+      "近日OpenAI宣布,将驱动Codex App、CLI和IDE扩展运行的底层执行框架Codex agent harness以Apache-2.0协议全面开源,发布地址为github.com/openai/codex。此前该仓库仅开放CLI前端源码,而底层Rust核心codex-rs和app-server驱动层一直属于内部实现,这次的关键变化是app-server协议与SDK集成接口的完整开放。截至发布时,仓库已累计逾10.7万Star、1.6万Fork。",
+      "此次开源的核心是harness的三层集成接口:轻量非交互调用codex exec、程序化编排Codex SDK,以及持久会话驱动Codex app-server,覆盖从CI脚本到产品级Agent的全场景构建需求。其设计哲学「Everything through the harness」与近期DeepSeek Harness高度呼应——模型不直接面向用户,而是被harness封装后以可控、可审批、可持久化的方式对外提供能力。",
+      "harness的model-provider模块支持任意OpenAI兼容端点,开发者现在可以把Codex Agent嵌入自己的产品、替换底层模型提供方,或在CI/CD流水线中无人工干预地运行Agent任务。官方给出的ARC-AGI-3数据显示,通过retained reasoning和context compaction优化后,同一模型不同harness策略下得分可从13.3%跃升至38.3%,输出token消耗减少六倍。",
+      "同步上线的v0.149.0稳定版新增了codex agents交互式仪表盘与codex queue消息队列等功能,直接体现「可编排Agent生命周期」的设计理念。业界认为,OpenAI把驱动自家商业产品的Agent运行时底层完全开放,意义不在于「又一个开源工具」,而在于开发者第一次能用与Codex App完全相同的harness构建自己的Agent产品。"
     ]
   },
   {
-    "id": "2026-08-21_ai_4",
-    "date": "2026-08-21",
+    "id": "2026-08-22_ai_4",
+    "date": "2026-08-22",
     "category": "AI",
-    "subcat": "Codex/OpenAI",
-    "platform": "The Next Web",
+    "subcat": "产品发布",
+    "platform": "机器之心/36氪",
     "platform_color": "#7C9EF6",
-    "title": "OpenAI 预览私密安全处理",
-    "url": "https://thenextweb.com/news/openai-zero-data-retention-private-safety-processing",
-    "image": "images/2026-08-21/2026-08-21_ai_4.jpg",
+    "title": "豆包桌面端上线虚拟桌面操作",
+    "url": "https://www.36kr.com/p/3948580299848840",
+    "image": "images/2026-08-22/2026-08-22_ai_4.jpg",
     "detail": [
-      "8 月 20 日,OpenAI 对外预览了一项名为「Private Safety Processing」(私密安全处理)的新机制,并承诺将其零数据保留(Zero Data Retention)的隐私标准延续到下一代前沿模型。该功能主要面向对数据合规要求严苛的企业客户,旨在缓解外界对模型安全审查与用户数据留存之间矛盾的担忧。",
-      "按照官方说明,这一机制允许在不长期存储用户数据的前提下完成必要的安全检测与滥用防护,即模型在处理输入时进行安全判断,但相关内容不会被保留或用于训练。OpenAI 表示该能力计划于 9 月面向更多企业客户扩大推出,现阶段先以预览形式提供给部分合作方验证。",
-      "此举被业界视为 OpenAI 在企业级市场应对隐私与合规压力的重要一步。支持者认为,零数据保留叠加安全处理有助于金融、医疗等敏感行业放心接入大模型;也有安全研究者指出,如何在不留存数据的同时保证滥用追溯与审计能力,仍是技术与制度上的难题,具体实现细节还需等待更完整的文档披露。"
+      "8月21日,围绕字节跳动豆包工作任务模式的重磅升级持续发酵:全新的豆包虚拟桌面已在Windows版本上线,豆包也被机器之心编辑部戏称为新来的「实习生」。此前的AI助手一般止步于写报告、生成图片,而这次豆包开始真正「动手」,从对话式助手迈向能在电脑前把事情做完的任务执行代理。",
+      "具体来看,用户在豆包电脑端选择「工作任务模式」和「本地电脑」,在技能栏选择「操作电脑」并完成授权后,豆包就能在虚拟桌面里像人一样查看屏幕、移动鼠标、点击按钮、敲键盘,持续推进复杂任务。该能力基于更通用的GUI图形界面能力,模型在没有MCP、API、插件和CLI的情况下也能看懂界面并完成操作,同时不会抢占用户的真实鼠标键盘。",
+      "官方强调,虚拟桌面在本地环境完成,屏幕信息与操作行为无需上传远程服务器,在安全性与功能性之间取得务实平衡;用户还能实时查看操作过程,并随时暂停、接管任务。选择率先落地Windows,是因为它仍是全球办公场景的主流系统,拥有更丰富的软件生态。",
+      "外界认为,这是AI代理时代的一个标志节点,豆包让AI「长出了手脚」,人机分工、软件界面乃至劳动力定义都可能随之改变。当然,业内也提醒稳定性与授权透明度仍是挑战:面对千差万别的软件界面、弹窗逻辑和跨系统协作,AI在罕见场景下出错概率不低,从「能用」到「好用」仍有一段路要走。"
     ]
   },
   {
-    "id": "2026-08-21_ai_5",
-    "date": "2026-08-21",
+    "id": "2026-08-22_ai_5",
+    "date": "2026-08-22",
     "category": "AI",
-    "subcat": "AI硬件/机器人",
-    "platform": "网易科技",
+    "subcat": "研究",
+    "platform": "OpenAI官方博客",
     "platform_color": "#7C9EF6",
-    "title": "天工 Omni 人形机器人亮相 WRC",
-    "url": "https://www.163.com/dy/article/L4PLNJOV0519860S.html",
-    "image": "images/2026-08-21/2026-08-21_ai_5.jpg",
+    "title": "OpenAI成立战略未来团队推AI Futures",
+    "url": "https://openai.com/index/introducing-ai-futures/",
+    "image": "images/2026-08-22/2026-08-22_ai_5.jpg",
     "detail": [
-      "在 8 月 20 日开幕的 2026 世界机器人大会(WRC)上,北京人形机器人创新中心带来了新一代通用人形机器人「天工 Omni」,凭借流畅的行走、稳定的抓取与多场景交互能力成为现场焦点,吸引大量观众围观体验,再度点燃公众对具身智能的热情。",
-      "据介绍,天工 Omni 在运动控制与多模态感知上均有升级,能够完成复杂地形行走、精细物品操作以及与人的自然语言交互,并接入了大模型作为其「大脑」进行任务理解与规划。相比前代,新机型在续航、关节自由度与整机稳定性上都有明显提升,面向工业巡检、公共服务等场景展示了落地潜力。",
-      "作为国内具身智能的代表性成果之一,天工 Omni 的亮相被视为国产人形机器人从实验室走向实用化的又一信号。现场观众与业内人士普遍给予好评,认为其完成度较高;不过也有工程师指出,人形机器人在成本、可靠性与规模化量产上仍面临挑战,真正走进工厂与家庭还需要时间,但大会上密集的新品发布无疑显示出行业正在加速前行。"
+      "OpenAI正式推出全新博客与研究方向「AI Futures」,由前白宫幕僚、AI政策学者Dean Ball领衔,背后是新组建的Strategic Futures(战略未来)团队。该团队向首席战略官Jason Kwon汇报,是一支小而高能动性的团队,核心命题是在机器智能快速演进的过程中如何保护人类自由,并思考前沿实验室、政府与社会之间的关系。",
+      "团队关注的议题涵盖灾难性风险、递归自我改进、劳动力市场影响,以及前沿实验室的内部治理。OpenAI提出,AI将在结构层面改变企业组织,类似工业革命(尤其是铁路)催生了现代管理型公司;因此在思考未来的政治经济与权力平衡时,必须先理解企业、政府机构乃至公民社会的结构本身会如何被重塑。",
+      "Strategic Futures团队计划以博客、论文、视频和播客等多种形式分享成果,并强调迭代、辩论与开放接受反馈。Ball在个人表态中称,当前AI治理已从2022年底至2025年的「简单模式」进入一个政治性更强、利害关系更高的新阶段,他保留了对外发声的独立性,可在必要时公开偏离OpenAI及其领导层的立场。",
+      "这一动作在社区引发关注:一方面被视为OpenAI在IPO冲刺与高管变动背景下、系统性布局前沿AI政策话语权的举措;另一方面,也有评论(如MIT Technology Review)提醒警惕将AI描绘为「先进到无法控制」的叙事,认为这类宏大叙事可能让开发公司回避对现实损害的责任。"
     ]
   },
   {
-    "id": "2026-08-21_vibecoding_1",
-    "date": "2026-08-21",
+    "id": "2026-08-22_vibecoding_1",
+    "date": "2026-08-22",
     "category": "VibeCoding",
-    "subcat": "开发工具",
-    "platform": "Rust Blog",
+    "subcat": "AI编程工具",
+    "platform": "Google Cloud官方博客",
     "platform_color": "#F6A07C",
-    "title": "Rust arrayref 供应链攻击爆发",
-    "url": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/",
-    "image": "images/2026-08-21/2026-08-21_vibecoding_1.jpg",
+    "title": "谷歌Antigravity面向企业开放",
+    "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-google-antigravity-for-enterprise-customers",
+    "image": "images/2026-08-22/2026-08-22_vibecoding_1.jpg",
     "detail": [
-      "2026 年 8 月 20 日,Rust 生态遭遇一次典型的供应链投毒事件。攻击者盗用了热门 crate「arrayref」维护者 droundy 的账号,发布了带毒的 0.3.10 版本,并让它依赖一个仿冒「proc-macro2」的 typosquat 包「proc-macro1」。该包的构建脚本会在项目编译期间悄悄下载并执行远程二进制,单是编译就足以触发,危害极大。",
-      "攻击手法相当狡猾:攻击者先把 arrayref 的 0.3.5 至 0.3.9 旧版本全部 yank,利用 Cargo「建议升级到未被撤回版本」的提示,诱导开发者升级到唯一可用却带毒的 0.3.10。恶意 build.rs 用 base64 拼出一个硬编码的 C2 服务器地址,通过一个对任何证书都放行的 TLS 客户端拉取平台专属载荷,在 Unix 写入临时目录并分离执行。arrayref 历史下载量约 2.45 亿次。",
-      "由于 arrayref 经 tiny-skia、winit 等深藏在 egui、iced 等 GUI 依赖链中,波及面覆盖大量 Rust 桌面项目。crates.io 团队在恶意版本上线 86 分钟后将其删除,并锁定了该作者的 internment、append-only-vec 等关联包。安全团队呼吁开发者检查本地 cargo registry 缓存。",
-      "值得关注的是,RustSec advisory 一度被标记为「not planned」关闭,引发社区争论:因为版本已从 registry 删除,cargo audit 对已缓存该 crate 的 CI 项目将报告为「clean」,自动化检测出现盲区,凸显了投毒删除后的取证难题。"
+      "谷歌在8月21日宣布,将其agent编程平台Antigravity正式纳入Gemini Enterprise订阅,面向企业客户全面开放。Antigravity最早在5月的I/O大会上作为Gemini Enterprise Agent Platform的一部分亮相,此次升级回应了企业在过去几个月提出的诉求:开发者希望在各类界面便捷调用编程agent,治理团队要安全管控与许可管理,财务团队则希望预付token不被浪费。",
+      "新版本的核心是「打包进订阅」:管理员可为持有Gemini Enterprise Standard、Plus及新兴市场版许可的用户一键启用Antigravity与Android Studio,无需单独管理附加许可、发票或计费台。配套能力包括项目级月度预算上限、团队共享的token池(pooled quotas)、可选的超额消费开关,以及集中式用量指标,覆盖token消耗、API调用与开发者活动。",
+      "在安全侧,Antigravity被纳入Google Cloud标准安全与合规框架,支持工作区访问边界、完整审计日志与数据隐私强制策略,并可配置工作区沙箱、浏览器及MCP服务器访问的安全策略,确保agent在授权环境内运行。谷歌援引印度IT服务商Datamatics的案例,称其团队已用Antigravity快速构建并部署多个应用。此举被视为谷歌与Cursor、GitHub Copilot、Claude Code在企业agent编程市场正面交锋的关键一步。"
     ]
   },
   {
-    "id": "2026-08-21_vibecoding_2",
-    "date": "2026-08-21",
+    "id": "2026-08-22_vibecoding_2",
+    "date": "2026-08-22",
     "category": "VibeCoding",
-    "subcat": "AI编程",
-    "platform": "Show HN",
+    "subcat": "开发者工具",
+    "platform": "Hacker News",
     "platform_color": "#F6A07C",
-    "title": "Huzzah:声明式 AI 编程新范式",
-    "url": "https://danielvaughn.dev/posts/huzzah",
-    "image": "images/2026-08-21/2026-08-21_vibecoding_2.jpg",
+    "title": "Vendo让用户给SaaS自建功能",
+    "url": "https://news.ycombinator.com/item?id=49376038",
+    "image": "images/2026-08-22/2026-08-22_vibecoding_2.jpg",
     "detail": [
-      "2026 年 8 月 20 日,设计工程师 Daniel Vaughn 发布实验性编辑器「Huzzah」并登上 Hacker News。他坦言经历了年初编码智能体的蜜月期后陷入「疲劳」,厌倦了用冗长英文描述每一处代码改动,却也不愿回到纯手写代码的繁琐,于是尝试探索一种兼顾掌控力与效率的第三条路。",
-      "Huzzah 的核心理念是把提示词从「长篇、命令式、易丢弃」转变为「伪代码、声明式、持久化」。开发者在 .hz 文件里写下简洁伪代码,保存后 Huzzah 自动生成真实代码;需要修改时直接改文件,工具捕获 diff 作为提示重新生成受影响的源码,伪代码本身则沉淀为记录人类意图的文档。",
-      "Vaughn 以 fizz buzz、购物车、待办列表为例展示了这套写法,并指出其优势:伪代码比自然语言更精炼易读,写作时更像在「设计代码形状」,还能作为语言无关的规格用于多目标生成。他也诚实列出局限,如大规模场景、跨文件依赖表达与缺乏 LSP 等特性支持。",
-      "该项目触及了当下开发者对 AI 编程的普遍焦虑:提示词被丢弃导致人类意图无从追溯,以及命令式对话反复消耗 token 的低效。目前 Huzzah 仍处实验阶段并已开源,作者邀请社区试用反馈,HN 评论区就「声明式提示」是否可行展开热烈讨论。"
+      "YC S26批次创业公司Vendo于8月20日在Hacker News发布Launch HN,主打一个长期困扰SaaS行业的痛点:每一位客户都需要略有不同的东西——有人想要新报表,有人需要一个只属于自己的工作流。Vendo让终端用户用自然语言描述并直接在既有SaaS产品之上构建新功能,背后调用的正是该产品自身的数据与API。",
+      "与传统的「提需求、排期、等版本」模式不同,Vendo把「扩展产品」的能力交到用户与agent手中:用户描述想要的功能,系统基于产品已有的数据模型与接口自动生成对应的报表、工作流或视图。对SaaS厂商而言,这意味着无需为每个长尾定制需求投入工程资源,也能满足客户的个性化诉求,降低流失、提升粘性。",
+      "在Hacker News社区,Vendo引发了关于「用户自建功能」边界与安全性的讨论:既有对生产力提升的期待,也有对权限隔离、数据越权和维护成本的担忧。它与当天同批亮相的Shape、Aloud、Checksum AI一道,被评论者视为「agentic工作流」浪潮的代表——软件的下一个竞争前沿,不只是它能做什么,而是它允许用户和agent把它重塑到什么程度。"
     ]
   },
   {
-    "id": "2026-08-21_vibecoding_3",
-    "date": "2026-08-21",
+    "id": "2026-08-22_vibecoding_3",
+    "date": "2026-08-22",
     "category": "VibeCoding",
-    "subcat": "AI编程",
-    "platform": "GitHub",
+    "subcat": "AI编程工具",
+    "platform": "Product Hunt",
     "platform_color": "#F6A07C",
-    "title": "Vomit:本地 LLM 翻译 Claude 输出",
-    "url": "https://github.com/zachahn/vomit",
-    "image": "images/2026-08-21/2026-08-21_vibecoding_3.jpg",
+    "title": "Checksum AI给编程agent做测试搭子",
+    "url": "https://www.producthunt.com/products/checksum-ai",
+    "image": "images/2026-08-22/2026-08-22_vibecoding_3.jpg",
     "detail": [
-      "2026 年 8 月 20 日,开发者 zachahn 的开源小工具「Vomit」在 Hacker News 引发热议,当日收获 169 分与 184 条评论。项目名与标语颇为戏谑,直指 Claude 5 的 token 输出过于冗余,主张用一个独立的本地 LLM 把这些「token 呕吐物」重新翻译回可读的英文,帮开发者节省阅读成本。",
-      "Vomit 的设计强调完全本地运行、无遥测、无外部依赖,它通过管道把 Claude 的输出喂给本地模型再转写。作者也坦率给出免责声明:本地 LLM 只能看到 Claude 试图传达的内容,无法访问具体操作或文件,因此会有一定幻觉;速度偏慢;项目本身是「纯 vibe-coded」,仅在 Mac 上测试过。",
-      "这款工具用 Go 编写,仓库包含 scrub、printer、tail 等模块与测试文件,采用 GPL-3.0 协议,已获得约 42 个 star。作者提醒存在完全错过 Claude 真实消息的可能,并建议搭配 AgentsView 等工具获取原始消息,因为 Vomit 在运行时不改动任何东西(仅向临时目录写文件)。",
-      "该项目走红折射出社区对新一代大模型「话痨」倾向的调侃与不满,不少开发者认为模型输出的冗长解释挤占了注意力和上下文预算。HN 上关于「用一个模型清理另一个模型输出」是否本末倒置、以及 token 效率的讨论,成为当天颇具话题性的开发者茶余谈资。"
+      "AI原生持续测试平台Checksum AI于本周(8月21日登上Product Hunt)正式亮相,定位是「编程agent的测试搭子」,当日排名第三、获得约229个赞。它面向那些交付速度已经超过人工QA承载能力的工程团队,在每一个pull request上自动生成、运行并自愈端到端与API测试,且全部以标准Playwright代码形式落在团队自己的仓库里,不存在私有格式或厂商锁定。",
+      "与Cursor、Claude Code这类「你问它才写」的copilot不同,Checksum是一个后台agent:你给它一个任务(生成20个或200个测试),它便独立完成,无需来回prompt。官方称其建立在超150万次测试运行的微调数据之上,约70%的失败可自动修复,24小时能产出200个测试,相当于人工400小时的工作量;当测试失败时,它会判断是真bug还是过时用例,并修复误报。",
+      "Checksum原生集成Cursor、Claude Code及100多个编程agent,通过「/checksum」斜杠命令在代码进入人工评审之前就完成测试,且生成与自愈在Checksum云端完成、不消耗用户的LLM token。在AI大量产出代码的当下,「AI写了代码,谁来验证」成为团队的现实焦虑,Checksum试图把质量保障从独立的门禁环节,变成嵌入CI/CD的持续流程。"
     ]
   },
   {
-    "id": "2026-08-21_vibecoding_4",
-    "date": "2026-08-21",
+    "id": "2026-08-22_vibecoding_4",
+    "date": "2026-08-22",
     "category": "VibeCoding",
-    "subcat": "开发工具",
-    "platform": "Show HN",
+    "subcat": "AI编程工具",
+    "platform": "Product Hunt",
     "platform_color": "#F6A07C",
-    "title": "RollTab:125M 钢琴自动补全模型",
-    "url": "https://simedw.com/posts/roll-tab",
-    "image": "images/2026-08-21/2026-08-21_vibecoding_4.jpg",
+    "title": "Shape:设计师程序员共用的agent IDE",
+    "url": "https://www.producthunt.com/products/shape-5",
+    "image": "images/2026-08-22/2026-08-22_vibecoding_4.jpg",
     "detail": [
-      "2026 年 8 月 20 日,V7 联合创始人 Simon Edwardsson 发布博客文章介绍其新作「RollTab」,并登上 Show HN 收获 479 分。RollTab 是一个实时钢琴 MIDI 自动补全模型与配套 iPhone 应用,把开发者熟悉的代码「自动补全」体验迁移到音乐创作场景,让用户弹奏时获得 AI 续写的旋律建议。",
-      "项目最引人注目之处在于其小巧:仅 1.25 亿参数的模型即可实现实时补全,并强调设备端运行的低延迟体验。这延续了作者一贯的技术路线,他此前还训练过 900 万参数的普通话发音评测模型、Magic Eye 生成器等,专注于把模型做小、跑在本地设备上。",
-      "作者 Simon 长期在个人博客分享「主观上很酷」的概念验证项目,内容多围绕 LLM 与计算机视觉。RollTab 把序列建模与自动补全的思路应用到符号音乐,展示了小模型在垂直创意领域的可玩性,也让不少开发者好奇其训练数据与 MIDI 表征的具体做法。",
-      "在 AI 普遍追求大参数量的当下,RollTab 这类端侧小模型作品持续吸引开发者社区关注。HN 评论区围绕模型如何编码钢琴指法、实时性如何保证、以及能否扩展到其他乐器等技术细节展开讨论,体现了社区对「小而美」创意工程的偏爱。"
+      "面向设计师与程序员协作的agent式IDE「Shape」于8月21日在Product Hunt迎来「Launching Today」,这是Shape的第二次发布。它把设计、编码、Git与AI对话整合进同一个桌面应用,提供快速代码编辑器、内置AI agent、深度Git集成、实时预览、Tailwind支持,以及对主流现代编程语言与框架的一等公民支持,目前提供Windows版下载且免费。",
+      "Shape的差异化在于「在实时页面上做可视化设计」:用户可以像在设计工具里那样,点选预览中的任意元素,在侧边栏调整布局、填充、字体、圆角等token,改动会写回你正在编辑的源文件。同时其内置agent能在同一个线程里搜索、读取文件、查文档、编辑并运行检查,改动以diff形式落到项目中,而不是往聊天窗口里粘一大段代码。",
+      "在Git体验上,Shape把分支拓扑、提交、PR讨论、CI检查乃至逐块(hunk)暂存都放进同一个工作台,让开发者无需离开编辑器即可完成从设计到发布的全流程。它与Vendo、Checksum AI等当日发布共同印证了一个趋势:agent正在重构「软件如何被构建与扩展」,而设计与代码的边界也在这类工具中被进一步打通。"
     ]
   },
   {
-    "id": "2026-08-21_vibecoding_5",
-    "date": "2026-08-21",
+    "id": "2026-08-22_vibecoding_5",
+    "date": "2026-08-22",
     "category": "VibeCoding",
-    "subcat": "开发工具",
-    "platform": "GitHub Blog",
+    "subcat": "开源项目",
+    "platform": "Product Hunt",
     "platform_color": "#F6A07C",
-    "title": "GitHub 复盘 8 月 17 日大宕机",
-    "url": "https://github.blog/news-insights/company-news/the-august-17-outage-and-the-work-ahead/",
-    "image": "images/2026-08-21/2026-08-21_vibecoding_5.jpg",
+    "title": "Block开源桌面agent应用Berd",
+    "url": "https://www.producthunt.com/products/berd",
+    "image": "images/2026-08-22/2026-08-22_vibecoding_5.jpg",
     "detail": [
-      "2026 年 8 月 20 日,GitHub 官方博客发布了针对 8 月 17 日大规模服务中断的事故复盘文章,并登上 Hacker News 收获 264 分与近 300 条评论。作为全球开发者赖以协作的核心平台,GitHub 的每一次宕机都会波及海量 CI/CD 流水线、代码托管与协作流程,因此这份 postmortem 备受关注。",
-      "文章围绕事故的成因、影响范围以及后续改进计划展开,GitHub 在标题中即点明「the work ahead」,表明重点不仅在于解释发生了什么,更在于承诺后续将采取的可靠性加固措施。此类事故透明复盘已成为大型基础设施服务对开发者社区应尽的责任。",
-      "对依赖 GitHub 的团队而言,平台可用性直接关系到发布节奏与生产安全。近期 GitHub 在 AI 功能(如 Copilot app、MCP Registry)上快速扩张的同时,底层稳定性也成为开发者持续关注的焦点,这次复盘正是在这一背景下引发广泛讨论。",
-      "HN 评论区中,开发者围绕单点依赖风险、平台架构韧性以及是否应为关键工作流准备备用方案等话题展开激烈交流。许多人借此重申「不要把所有鸡蛋放在一个篮子里」,也有人肯定 GitHub 公开复盘的坦诚态度。"
+      "由支付与开发工具公司Block打造的开源桌面应用「Berd」于8月21日登上Product Hunt,以「古怪、好玩」的风格吸引关注,当日获得约84个赞、排名第12。Berd定位为「用任何模型把活干完」的桌面工具,被社区描述为一个充满「trippy agentoids(会替你干活的小agent)」的无限空间界面,是继Buzz之后Block又一次风格鲜明的开源发布。",
+      "技术上,Berd基于Tauri 2与React 19构建,通过ACP WebSocket与上游Goose后端通信,由「goose serve」sidecar驱动,代码托管在GitHub(block/berd,采用Apache-2.0协议),已有约300颗star、91位贡献者,TypeScript与Rust为主力语言,最新版本v0.6.2于8月18日发布。仓库既构建通用公开发行版,也为企业留出「分发缝隙」,允许在不污染公开源码的前提下叠加托管的模型配置与私有资源。",
+      "值得注意的是,Berd采用了一种特别的开源治理方式:源码可读、可构建、可自由fork,但不接受外部贡献者的pull request,外部PR会被自动关闭,官方鼓励用户以「提交结构良好的issue」方式参与,认为可复现的bug报告比补丁更有价值。这种「在开放中由小团队打造」的模式,也在开发者圈引发了关于开源协作边界的讨论。"
     ]
   },
   {
-    "id": "2026-08-21_gaming_1",
-    "date": "2026-08-21",
+    "id": "2026-08-22_gaming_1",
+    "date": "2026-08-22",
     "category": "Gaming",
-    "subcat": "PS5",
-    "platform": "Eurogamer",
-    "platform_color": "#7CF6A0",
-    "title": "《007 首光》销量突破 400 万套",
-    "url": "https://www.eurogamer.net/james-bond-007-first-light-sales",
-    "image": "images/2026-08-21/2026-08-21_gaming_1.jpg",
-    "detail": [
-      "IO Interactive 开发的詹姆斯·邦德新作《007 First Light》于北京时间 8 月 20 日再度传出捷报。工作室通过官方社交媒体宣布,这款间谍动作游戏自约三个月前发售以来,全球累计销量已正式突破 400 万套,CEO 兼游戏总监 Hakan Abrak 向所有支持玩家致谢。该作是 IOI 在《杀手》系列之外首次挑战正统邦德题材的原创作品。",
-      "此次 400 万的数字相较此前公布的成绩有大幅跃升。上一次销量更新还是在发售后一周多,当时游戏刚刚越过 270 万套门槛。短短不到三个月便再增加逾百万销量,显示出这款单机剧情向大作在 PS5、Xbox Series 与 PC 平台上持续保持了稳健的长尾表现,口碑与销量形成正向循环。",
-      "这一里程碑对 IOI 而言意义尤为特殊。此前工作室因微软取消《Project Fantasy》发行合约而陷入裁员风波,《007 First Light》的商业成功无疑为团队与整个丹麦独立工作室注入一剂强心针。玩家社区普遍认为,这证明了高质量单机叙事作品在当下市场依然拥有强大号召力,也为 IOI 后续的免费首年内容更新计划赢得了更充足底气。"
-    ]
-  },
-  {
-    "id": "2026-08-21_gaming_2",
-    "date": "2026-08-21",
-    "category": "Gaming",
-    "subcat": "单机",
-    "platform": "STALKER 2官网",
-    "platform_color": "#7CF6A0",
-    "title": "《潜行者2》希望代价 DLC 与 2.0 上线",
-    "url": "https://www.stalker2.com/news/cost-of-hope-update-2-0-everything-to-know",
-    "image": "images/2026-08-21/2026-08-21_gaming_2.jpg",
-    "detail": [
-      "乌克兰工作室 GSC Game World 的《S.T.A.L.K.E.R. 2: Heart of Chornobyl》于 8 月 20 日迎来重磅时刻。首个大型剧情 DLC「Cost of Hope(希望的代价)」正式上线,同步推出的还有面向全体玩家免费开放的「Back to the Zone」2.0 大版本更新,登陆 PC、Xbox Series X|S 与 PS5|PS5 Pro 平台。",
-      "「希望的代价」以主角 Skif 为核心,剧情与本篇平行展开,官方称通关需数十小时。DLC 加入了两大全新区域——传说中的切尔诺贝利核电站与「铁森林」,并围绕 Duty 与 Freedom 两大派系因 D4 条约崩塌而起的冲突展开。免费 2.0 更新则将引擎从 UE5.1 升级至 5.5,带来植被光照重制、新装备、双筒望远镜与自定义难度等大量长期呼声内容。",
-      "对于这款 2024 年 11 月带着争议发售、后经多次补丁修复的游戏而言,2.0 被媒体视为迄今最完整干净的版本。所有存档均兼容更新,Ultimate 版与季票用户可自动获得 DLC。玩家社区对「重返禁区」反响热烈,不少老玩家表示这是重新开档、再度探索禁区的最佳时机,也让因战争影响开发的 GSC 团队收获了久违的正面口碑回响。"
-    ]
-  },
-  {
-    "id": "2026-08-21_gaming_3",
-    "date": "2026-08-21",
-    "category": "Gaming",
-    "subcat": "单机",
-    "platform": "OpenCritic",
-    "platform_color": "#7CF6A0",
-    "title": "《凡人之壳2》全球发售 均分 85",
-    "url": "https://opencritic.com/game/20988/mortal-shell-ii/reviews",
-    "image": "images/2026-08-21/2026-08-21_gaming_3.jpg",
-    "detail": [
-      "由 Cold Symmetry 开发、Playstack 发行的魂系动作 RPG 续作《Mortal Shell II(凡人之壳2)》于 8 月 20 日全球正式发售,登陆 PC(Steam)、PS5 与 Xbox Series X|S,标准版售价 49.99 美元。这是团队时隔多年打磨的野心之作,规模较前作大幅扩张。",
-      "据 OpenCritic 汇总,游戏媒体均分达到 85 分,位列该平台游戏第 93 百分位。续作在几乎每个维度上都实现扩张:可玩「躯壳」从 4 具增至 8 具,拥有超过 60 个地牢,并以一片共享的空中地景连接起各个区域构成紧凑开放世界。最引人注目的是彻底移除了体力条设计,让战斗更流畅、更具侵略性。IGN、GameSpot、Giant Bomb 等均给出正面评价。",
-      "发行商 Playstack 公开表示这是其「史上规模最大、量级远超以往的一次投资」,而口碑证明投资物有所值。相较前作,续作均分实现了 9 分的提升,媒体普遍认为 Cold Symmetry「从自身失败中汲取了教训」。魂系玩家社区对无体力条战斗系统的革新讨论热烈,认为它为整个类型的设计思路提供了新的可能。"
-    ]
-  },
-  {
-    "id": "2026-08-21_gaming_4",
-    "date": "2026-08-21",
-    "category": "Gaming",
-    "subcat": "Switch2",
-    "platform": "Nintendo Everything",
-    "platform_color": "#7CF6A0",
-    "title": "《1000xRESIST》Switch2 版今日上线",
-    "url": "https://nintendoeverything.com/nintendo-download-august-20-2026-north-america-dayz-1000xresist-and-wobbly-life-for-switch-2-more/",
-    "image": "images/2026-08-21/2026-08-21_gaming_4.jpg",
-    "detail": [
-      "获奖科幻叙事冒险游戏《1000xRESIST》的 Nintendo Switch 2 版本于 8 月 20 日随本周北美 eShop 下载更新正式上线,售价 19.99 美元,与《DayZ: Cool Edition》《Wobbly Life》等一同出现在 Switch 2 下载列表中。该作由温哥华独立工作室 sunset visitor 斜陽過客开发,Fellow Traveller 发行。",
-      "本作曾斩获多项年度游戏奖项及皮博迪奖,讲述在异族「占据者」几乎令人类灭绝后的遥远未来,玩家扮演生活在 ALLMOTHER 统治下地下社会的克隆人 Watcher,通过重历千年记忆逐步揭开一个被埋藏的谎言。Switch 2 版针对新硬件优化,带来更高帧率与分辨率,被官方称为在任天堂平台上体验本作的「决定性版本」,首发周 eShop 享 40% 折扣。",
-      "值得一提的是,原 Switch 版玩家可免费升级至 Switch 2 版,享受更清晰画质与流畅性能。原初代 Switch 版曾因硬件限制做出诸多技术妥协,此次升级让游戏得以「以原本设想的方式呈现」。玩家社区对免费升级政策与画质提升普遍赞赏,不少此前因性能问题搁置的玩家表示将借此机会重新体验这款叙事佳作。"
-    ]
-  },
-  {
-    "id": "2026-08-21_gaming_5",
-    "date": "2026-08-21",
-    "category": "Gaming",
-    "subcat": "Switch2",
+    "subcat": "主机",
     "platform": "VGChartz",
     "platform_color": "#7CF6A0",
-    "title": "《女巫的面包坊》多平台同步发售",
-    "url": "https://www.vgchartz.com/article/468323/the-witchs-bakery-launches-august-20-for-switch-2-ps5-xbox-series-switch-and-pc/",
-    "image": "images/2026-08-21/2026-08-21_gaming_5.jpg",
+    "title": "《iRacing竞技场》登陆PS5与Xbox",
+    "url": "https://www.vgchartz.com/article/468763",
+    "image": "images/2026-08-22/2026-08-22_gaming_1.jpg",
     "detail": [
-      "发行商 Silver Lining Interactive 与开发商 Sunny Lab 打造的 2D 冒险 RPG《The Witch's Bakery(女巫的面包坊)》于 8 月 20 日在 Nintendo Switch 2、PS5、Xbox Series X|S、Nintendo Switch 及 PC(Steam)全平台同步发售,并公开了发售日预告片。",
-      "游戏讲述一位开朗的女巫 Lunne 在现代巴黎开设面包坊的故事,她拥有窥探人心、以魔法治愈情绪的特殊能力。每天分为三个阶段:白天经营面包坊、与伙伴一同接待顾客;傍晚探索巴黎街区、结交朋友并走进他们困扰的内心;夜晚则休息、精进魔法、装点面包坊与惬意的工作室。随剧情推进,玩家将赚取经验、金钱与名望。",
-      "游戏最具特色的机制是「心之宫殿」:面对情绪封闭的角色,Lunne 需进入其内心的魔法空间,将拟人化的情绪引导回归,并在其中发现制作治愈面包的关键食材。巴黎六区的塞纳河畔旧书商街等真实地标也被细致还原,每个街区都有专属角色、活动与店铺。这款主打治愈、情感与温柔叙事的作品,吸引了大批喜爱慢节奏生活模拟 RPG 的玩家关注。"
+      "《iRacing竞技场》(iRacing Arcade)由发行商iRacing Studios与开发商Original Fire Games联合打造,是知名硬核模拟赛车品牌iRacing面向大众玩家推出的入门级街机竞速作品。该作已于2026年3月率先在PC平台的Steam上线,如今正式将战场拓展至家用主机领域。",
+      "本作于2026年8月21日登陆PlayStation 5与Xbox Series X|S,售价24.99美元,无需订阅即可一次买断,仅用标准手柄即可游玩。它以「易上手难精通」的物理模型为核心,保留了轮胎磨损、燃油消耗与进站策略等真实元素,并收录了保时捷、宝马、法拉利等授权车辆与多条经典赛道。",
+      "主机版最大亮点是加入了本地分屏多人模式,最多支持四名玩家同机竞速,这在如今的赛车游戏中已相当罕见;线上模式则支持至多十一人同场对战。深度的生涯模式让玩家从草根车队一路经营至顶级赛事,打造属于自己的赛车帝国。",
+      "值得一提的是,PC版玩家在同日也将收到一份免费更新,新增四款授权赛车、五条赛道布局及分屏功能,直接回应了此前首发时车辆阵容偏少的批评。此举标志着iRacing正从单一PC模拟器,稳步转型为覆盖多平台的综合赛车游戏发行商。"
+    ]
+  },
+  {
+    "id": "2026-08-22_gaming_2",
+    "date": "2026-08-22",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "VGChartz",
+    "platform_color": "#7CF6A0",
+    "title": "7月全球主机销量PS5反超Switch2",
+    "url": "https://www.vgchartz.com/article/468786",
+    "image": "images/2026-08-22/2026-08-22_gaming_2.jpg",
+    "detail": [
+      "据市场调研机构VGChartz公布的最新估算数据,2026年7月全球家用主机硬件销量出现格局变化:此前长期领跑的任天堂Switch 2遭遇PlayStation 5反超,索尼阵营重新登上单月销量榜首,为本世代主机竞争增添了新的看点。",
+      "具体来看,PS5以约784,102台的单月销量成为7月全球最畅销主机,累计销量达9,409万台;Switch 2则以约707,158台位居次席,累计销量为2,255万台。环比来看,Switch 2销量骤降近28.6万台,而PS5逆势增长约6.3万台,此消彼长促成了本次反超。",
+      "不过从年度累计数据看,发售时间更短的Switch 2依旧保持领先——2026年内已售出696万台,高于PS5的466万台,后劲仍不可小觑。至于Xbox Series X|S,由于微软已不再对外公开硬件与数字软件销量,相关数字仅为机构推算,参考价值有限。",
+      "社区普遍认为,PS5的强势表现与《GTA6》等重磅大作临近发售带动的换机需求密切相关,绝大多数玩家倾向在PS5上入手这类3A游戏。而Switch 2销量的季节性回落,则被视为新机首发热潮退去后的正常调整。"
+    ]
+  },
+  {
+    "id": "2026-08-22_gaming_3",
+    "date": "2026-08-22",
+    "category": "Gaming",
+    "subcat": "PC",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "跑酷新作《VHOLUME》今日Steam发售",
+    "url": "https://store.steampowered.com/news/app/4131730/view/689763250409047806",
+    "image": "images/2026-08-22/2026-08-22_gaming_3.jpg",
+    "detail": [
+      "第一人称跑酷冒险游戏《VHOLUME》于2026年8月21日正式在Steam发售。它由Nathan Grange、Léonard Lemaitre与Niels Tiercelin共同开发,发行商为IronEqual;其中Lemaitre曾参与打造广受好评的《Babbdi》与《Straftat》,团队履历备受期待。",
+      "游戏设定在一座反乌托邦式的粗野主义混凝土都市中,主角Robert为找回家庭被吊销的「配给票」,不得不在层层官僚机构间奔走,一场简单的办事之旅演变成漫长的城市冒险。玩法以移动为核心,玩家可自由地奔跑、跳跃、攀爬与滑铲,在错综复杂的关卡中寻找最快捷径。",
+      "本作被媒体广泛拿来与《镜之边缘》对比,并因其忧郁的合成器配乐、孤独的脚步声与写实喘息声而独树一帜,营造出强烈的氛围感与「阈限空间」美学,被Rock Paper Shotgun称为「简化版镜之边缘」。",
+      "游戏售价约7美元出头,亲民定价加上首发即支持Steam创意工坊社区自制关卡,令玩家反响热烈——Steam评测保持在「特别好评」区间,好评率高达96%。此外它还支持单人与多人合作模式,让玩家可结伴挑战跑酷路线。"
+    ]
+  },
+  {
+    "id": "2026-08-22_gaming_4",
+    "date": "2026-08-22",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "VGChartz",
+    "platform_color": "#7CF6A0",
+    "title": "Xbox 25周年半透明主机售价泄露",
+    "url": "https://www.vgchartz.com/article/468801/xbox-25th-anniversary-console-and-controller-prices-have-leaked/",
+    "image": "images/2026-08-22/2026-08-22_gaming_4.jpg",
+    "detail": [
+      "为纪念Xbox品牌诞生25周年,微软此前公布了限量版「X25」纪念主机与手柄套装,整体采用致敬初代Xbox的半透明「OG绿」外观,机身与手柄上还藏有若干彩蛋细节,被官方定位为回馈玩家社区的特别纪念收藏品。",
+      "据知名爆料者Dealabs旗下billbil-kun泄露,X25限量版Xbox Series X主机将于黑色星期五11月27日发售,欧洲定价899.99欧元,推测美区约为899.99美元,比降价后799.99美元的标准版整整贵出约100美元;配套的限量手柄则于10月20日上市,售价79.99美元。",
+      "这一价格意味着X25与索尼PS5 Pro处在同一档位,但它保留了光驱,这一点被不少玩家视为相较无光驱PS5 Pro的加分项。评论区限量版收藏爱好者纷纷表示已经为抢购腾出预算,社交平台讨论热度居高不下。",
+      "值得注意的是官方尚未正式确认价格与发售日,外界普遍预期微软会在下周Gamescom开幕之夜前后的直播中揭晓X25的正式定价、发售与预购信息,届时或将同步公布更多25周年活动内容。"
+    ]
+  },
+  {
+    "id": "2026-08-22_gaming_5",
+    "date": "2026-08-22",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Eurogamer",
+    "platform_color": "#7CF6A0",
+    "title": "T2起诉微软与Discord追查GTA6泄露者",
+    "url": "https://www.eurogamer.net/take-two-legal-action-gta-6-leeks-cyberleek",
+    "image": "images/2026-08-22/2026-08-22_gaming_5.jpg",
+    "detail": [
+      "在《GTA6》游戏实机片段接连遭泄露后,Rockstar母公司Take-Two正式动用法律手段追查泄露源头,向纽约南区联邦地区法院提交多份传票,要求微软与Discord交出可能指向泄露者的账号与数据信息。",
+      "据Kotaku报道,这份8月20日提交的传票要求两家平台交出与化名「CyberLeek」相关的一切资料,涵盖OneDrive数据、Xbox账号、Discord用户身份等,包括账号ID、注册邮箱、IP地址、电话号码及关联账号,微软与Discord须在9月4日前提交。",
+      "Take-Two在宣誓声明中强调,申请该DMCA传票的唯一目的是查明涉嫌侵权者身份,且相关信息仅用于保护自身版权。此次行动被业界视为对平台匿名性的一次压力测试,引发玩家与隐私社区的广泛讨论。",
+      "外界注意到Rockstar原计划在8月27日通过Netflix释出《GTA6》官方「深入展示」,而泄露片段抢先曝光打乱了这一节奏。传票措辞直指「被盗内容」,也间接印证了部分流出画面确属真实素材。"
     ]
   }
 ]
