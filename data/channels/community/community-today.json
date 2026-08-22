@@ -1,120 +1,119 @@
 {
-  "date": "2026-08-21",
-  "generated_at": "2026-08-21T08:10:00+08:00",
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T08:10:00+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
       "platform": "Hacker News",
-      "author": "pjerem",
-      "title": "别把 AI 回复直接甩给我",
-      "url": "https://news.ycombinator.com/item?id=49371857",
+      "author": "bandarlabs",
+      "title": "Kobo电子书阅读器能跑应用了",
+      "url": "https://news.ycombinator.com/item?id=49390427",
       "detail": [
-        "这条帖子把一个静态站点 dontpastetheai.com 推上 HN 首页,核心观点极简:你可以用 AI 起草内容,但请先自己读懂、再用自己的话重写,而不是把大段模型输出原样粘贴到 Slack、邮件或评论区里,当一个「中间人」。评论区在一天内堆到五百多条,足见共鸣之强。",
-        "作者认为「甩 AI 原文」等于把理解和核验的负担转嫁给对方,因为读者看不到你的检索与判断过程,只能被迫重新验证每一句话是否属实,这在专业协作里尤其令人反感,消解了本该由你贡献的专业价值。",
-        "争论也很激烈:一派认为只要答案有用,来源是记忆、搜索还是 LLM 并不重要;另一派坚持粘贴未加工的模型文本是一种不尊重。帖子还被译成多种语言、衍生出 dontquotetheai.com 镜像站,俨然成了 AI 协作礼仪的一面旗帜。不少人分享了自己在团队里收到整段 AI 原文的窘境,认为这类做法正在悄悄侵蚀同事间的协作信任,值得每个团队正视。"
+        "开发者BandarLabs在Hacker News上发布了开源项目Cobalt,把亚马逊之外最受欢迎的电子墨水阅读器Kobo变成了一个真正的应用平台。项目面向Kobo Clara BW(N365)机型,提供一个启动器、一个带签名校验的应用商店、一套Rust SDK,以及让每个应用运行在各自「非特权进程」里的隔离运行时。整个安装流程只需一次USB连接,之后所有应用都通过Wi-Fi下发,无需再插线。",
+        "技术上,Cobalt的每个应用都是独立的静态ARM二进制,跑在原厂固件之上,以能力隔离的方式相互不干扰,安全模型比传统越狱方案更干净。作者强调它「只认Clara BW,不去猜其他机型」,宁可拒绝也不冒险,这种保守的硬件白名单策略反而赢得了不少信任。演示视频以三倍速在真机上录制,展示了从启动器进入各应用的流畅体验。",
+        "帖子迅速冲上HN首页高位,收获大量讨论。老玩家在评论区提到已存在多年的NickelMenu、Plato等生态,认为Cobalt把Kobo的可玩性推到了新高度;也有人追问其他型号支持、续航影响与商店审核机制。整体氛围偏兴奋——在电子墨水设备逐渐被视为「专注、护眼、低功耗」理想计算终端的当下,一个正经的应用平台恰好戳中了社区的心。"
       ],
-      "heat": "🔥 HN 986 points / 537 comments"
+      "heat": "🔥 HN 首页高位 / 500+ points / 数百条评论"
     },
     {
       "platform": "Hacker News",
-      "author": "emctech",
-      "title": "AliExpress 静默音频指纹追踪",
-      "url": "https://news.ycombinator.com/item?id=49372583",
+      "author": "The Economist",
+      "title": "AI提高作业分却拉低考试分",
+      "url": "https://news.ycombinator.com/item?id=49390206",
       "detail": [
-        "一位开发者发现 AliExpress 网页在后台悄悄运行 WebAudio 指纹采集,通过让浏览器播放并分析一段几乎听不见的音频来生成设备指纹。副作用是它会抢占音频输出,导致蓝牙耳机的多点连接 multipoint 被反复打断,用户在毫不知情下体验受损。",
-        "帖子在 HN 半天内冲到 851 分、两百多条评论,讨论迅速从「隐私追踪」延伸到浏览器音频 API 的滥用问题。很多人分享了自己蓝牙设备莫名断连的经历,原来根源可能就是这类隐蔽的指纹脚本在偷偷触发音频栈。",
-        "评论区还挖出更深的层面:WebAudio 指纹早已是成熟的追踪手段,却几乎不受权限约束,难以被普通用户察觉或拦截。有人呼吁浏览器厂商对音频上下文的自动创建加以限制,也有人推荐用扩展或 flags 主动关闭相关 API 以自保。还有人指出这类静默采集可能触碰 GDPR 等隐私法规的红线,呼吁监管介入,讨论热度因此持续攀升。"
+        "《经济学人》报道的一项研究在Hacker News引爆讨论。研究跟踪了约2.7万名中国高中生,发现使用AI工具的学生作业成绩在半年内平均提升了18%,作业耗时下降约30%——从「更快拿到更好分数」的角度看,这是任何教育者都乐见的结果。然而故事的另一面令人不安。",
+        "同一批学生在不允许使用AI的闭卷考试中,成绩在六个月内下滑了约20%;高考类入学考试成绩下降18%至24%,且在使用AI约两年后跌幅最大。研究者把约80%的下滑归因于那些把作业「外包」给AI、却没有真正从中学习的学生。心理学称之为「认知卸载」:当被卸载的恰恰是本该锻炼思维的任务时,危害就显现了。",
+        "评论区争论激烈。一派认为这印证了教育者长期的担忧,把作业完成率当KPI恰恰在优化「错误的指标」;另一派则质疑研究设计、样本地域局限与因果推断。还有开发者把话题引向自身:天天用Copilot、Cursor写代码,是否也在悄悄透支自己独立解决问题的能力?这种延迟数月才暴露的「学习陷阱」让不少人后背发凉。"
       ],
-      "heat": "🔥 HN 851 points / 280 comments"
+      "heat": "🔥 HN 首页 Top / 1500+ points 级别热度"
     },
     {
       "platform": "Hacker News",
-      "author": "simedw",
-      "title": "125M 小模型端上自动补全钢琴",
-      "url": "https://news.ycombinator.com/item?id=49373456",
+      "author": "pablo24602",
+      "title": "Show HN:开源自托管版Codex",
+      "url": "https://news.ycombinator.com/item?id=49390739",
       "detail": [
-        "Simon Edwardsson 展示了他训练的 1.25 亿参数 Transformer,把 GitHub Copilot 的思路搬到钢琴上:你在 MIDI 键盘上弹几个音,模型就实时续写旋律,全程在设备端运行,iPhone 15 上能跑到约每秒 108 个音符。配套 App 名为 RollTab,免费提供。",
-        "这个 Show HN 半天拿下 479 分、上百条评论。作者坦言最大的收益不是堆参数,而是找对 MIDI 的 token 表示、激进清洗训练数据,以及加入 DPO 后训练。他试过多种表示法,note-on/note-off 容易「漏关音」导致挂起音符,最终选了显式时长的方案。",
-        "评论区把话题引向音乐史:这种「自动补全」其实与古典作曲家的即兴训练一脉相承,有人贴出拉赫玛尼诺夫等人玩模式续接游戏的轶事,也有人讨论贝多芬即兴碾压对手的故事,让技术帖多了一层人文味道,互动格外热烈。"
+        "YC S25创始人Pablo在Show HN发布了Proliferate——一个开源、可自托管的「AI IDE」,让你在一个界面里同时调度Claude Code、Codex、OpenCode、Cursor和Grok等多种编码智能体。作者说团队接入OpenAI Codex后,几乎所有工作都搬进了这个桌面应用:用computer use代替手动操作网站,让Codex协调其他agent,并把重复性工作做成自动化。",
+        "Proliferate的核心卖点是「不被单一厂商锁定」。它支持各家agent的原生推理与配置,包括Bedrock、Azure和自托管推理;支持agent间通信与管理,一个父agent可以派生并指挥子agent;还能把「agent会话+人工审批闸口」串成可复用的工作流,用来自动化代码评审、QA和PR构建。全部代码以AGPL-3.0开源。",
+        "帖子在7小时内拿到数十points与十余条评论。热门追问是它与t3code、paseo等一众「coding agent harness」有何区别——有人感叹这类工具泛滥,连一份靠谱的「awesome索引」都难找。也有人肯定其自托管与多模型策略,认为在Cursor、OpenAI都在往「everything app」演进的当口,保留可切换性是明智的对冲。"
       ],
-      "heat": "🔥 HN 479 points / 105 comments"
+      "heat": "💬 HN Show HN / 36 points / 14 comments"
     }
   ],
   "topics": [
     {
-      "platform": "Modular Blog",
-      "author": "Modular Team",
-      "title": "Mojo 语言正式全面开源",
-      "url": "https://www.modular.com/blog/mojo-open-source",
+      "platform": "TechCrunch / 官方博客",
+      "author": "Cursor (Anysphere)",
+      "title": "Cursor推出代码托管平台Origin",
+      "url": "https://techcrunch.com/2026/08/18/cursor-capitalizes-on-github-frustration-launches-rival-hosting-platform/",
       "detail": [
-        "Modular 宣布 Mojo🔥 语言在 Apache 2.0(含 LLVM 例外)下完全开源,编译器、工具链和构建所需的一切都进入了 github.com/modular/modular 仓库。此前四年 Mojo 一直是「开放社区、闭源编译器」,上周刚发布带源码稳定性的 1.0,如今终于把整套编译器和工具彻底开放。",
-        "Mojo 的野心在于做一门面向现代算力的通用语言,融合最新编译器研究,直接解锁 GPU、AI 加速器等硬件。团队解释其一贯策略:先开源标准库,再放出数十万行用 Mojo 写的 kernel 代码,如今补上编译器这块最后拼图,让开发者能从源码构建并跑测试。",
-        "开源消息在 HN 与开发者圈引发广泛讨论,叠加此前 Mojo 加入高通生态的传闻,关注度更高。仓库已积累约两万六千颗星,近两百名贡献者提交了上千个 PR。社区既兴奋于终于能审阅编译器,也在追问语言治理、许可细节与长期路线图。"
+        "AI编程工具Cursor于8月17-18日向所有付费用户开放了内测的代码托管平台Origin,首次把「代码本体」也纳入自家版图,直接对标微软旗下的GitHub。在此之前,Cursor只是坐在别人代码之上的编辑器,而仓库、PR、提交历史、权限都属于GitHub;Origin让Cursor成为代码真正存放的地方。此举距离SpaceX以600亿美元全股票收购其母公司Anysphere仅四天。",
+        "Origin藏在编辑器新增的「Codebase」标签页里,提供仓库存储、PR、代码浏览与搜索,首发集成Vercel、Buildkite、Depot三家CI/部署伙伴。它不强迫迁移,而是与GitHub实时双向同步——评论、审阅、合并都能在Cursor内完成,把GitHub当作「事实源」。更关键的是agent原生:开发者可把一条评审意见直接交给agent,让它在同一窗口内修改PR。",
+        "戏剧性的是,Origin上线当天GitHub恰好发生长达约六小时的全球宕机,错误率一度逼近20%,被开发者做成了梗——Cursor团队成员甚至调侃「我们本想更早发,但GitHub挂了」。社区分成两派:一派认为在「agent写大部分代码」的时代,代码托管值得被重新定义;另一派则质疑护城河深度,以及把代码交给SpaceX系公司的信任问题。"
       ],
-      "heat": "⭐ GitHub 26.6k stars(modular/modular)"
+      "heat": "🔥 TechCrunch/InfoWorld/Slashdot 多家跟进 + X 高热讨论"
     },
     {
-      "platform": "Hacker News",
-      "author": "mariuz",
-      "title": "Linux 7.2 内核正式发布",
-      "url": "https://www.igalia.com/2026/08/19/Linux-72-Released.html",
+      "platform": "GitHub",
+      "author": "volcengine",
+      "title": "OpenViking:AI Agent上下文数据库",
+      "url": "https://github.com/volcengine/OpenViking",
       "detail": [
-        "Igalia 发布博文详解本周正式发版的 Linux 7.2 内核,称这是史上最繁忙的开发周期之一,仅次于 6.7 版本。文章指出,最近三四个周期都异常密集,尤其在缺陷修复方面,这已被视为「新常态」。本次亮点集中在 CPU 与 GPU 调度两大方向,涉及缓存感知调度、MGLRU 内存回收改进、sched_ext 子调度器概念以及多尺寸透明大页的自动创建等。",
-        "Igalia 作为长期贡献者,本轮主打 DRM 调度器的「公平策略」,它能在多客户端共享 GPU、或轻量交互程序与重负载程序争抢 GPU 时带来显著提升。然而在 7.2-rc7 阶段的最后关头收到回归报告,因此默认策略仍保留旧的先进先出(FIFO)机制,公平策略只能作为可选项开启。团队表示修复方案已明确,早期测试乐观,有望在下个版本重新默认启用。",
-        "此外,团队为树莓派 4 与 5 引入了 GPU 运行时电源管理,并修复了困扰 RetroPie 用户多年的树莓派 3 GPU 驱动缺陷——该问题会在 GPU 处理帧时内存耗尽,导致随机挂起与系统崩溃。在 sched_ext 方面则强化了可观测性:当自定义调度器出现运行时错误被内核弹出时,会转储各 CPU 状态以辅助诊断,并优先保证退出 CPU 信息完整。",
-        "评论区围绕内核调度演进展开热烈讨论,不少人对缓存感知调度在高核心数系统上的实测收益表示期待,也有开发者惋惜公平 GPU 调度因末期回归被迫降级为可选项。还有用户借树莓派老驱动被修复的案例,感慨社区维护对长尾硬件的价值,认为这类「多年顽疾终获修复」正是开源协作长期投入的体现。"
+        "火山引擎开源的OpenViking近期在开发者圈快速升温,定位是「面向AI Agent的自进化上下文数据库」,把散落在向量库、代码和各类模块中的记忆、资源与技能统一成一个可导航的目录,让上下文成为可复用的资产。项目用viking://这类统一URI组织共享资源、用户记忆、会话上下文和共享技能,把网页、GitHub仓库、文档都变成agent可浏览的目录结构。",
+        "它的生态兼容性很广:Claude Code支持自动召回与捕获,Codex通过hooks加内置MCP接入,OpenCode、Hermes、OpenClaw等也有对应插件,还提供Python / LangChain / LangGraph的SDK。官方给出的LoCoMo基准很亮眼——接入OpenViking后,Claude Code、Hermes、OpenClaw的任务完成率普遍被抬到80%以上,同时大幅压低了输入token成本。",
+        "仓库热度持续走高,star已接近3万,当日新增数百星,提交极其活跃,近期几乎每小时都有PR合入(如支持远程技能、把recall整合进context search等)。社区把它视作「agent记忆/上下文工程」赛道里国内厂商的一次有力开源,也有人拿它与Mem0、SuperMemory等第三方记忆方案对比,关注其自托管与多harness通吃的路线能否成为事实标准。"
       ],
-      "heat": "🔥 HN 186 points / 63 comments"
+      "heat": "⭐ GitHub ~28.9K stars / 单日 +800 星 / 提交极活跃"
     },
     {
-      "platform": "Web / Cloudflare",
-      "author": "khaosdoctor",
-      "title": "dontpastetheai.com 反 AI 甩锅站",
-      "url": "https://dontpastetheai.com/",
+      "platform": "个人博客 (Hacker News)",
+      "author": "pointinthecloud",
+      "title": "我在0.6英镑芯片上跑Photoshop",
+      "url": "https://news.ycombinator.com/item?id=49390066",
       "detail": [
-        "这是一个极简单页站点,主张「别把 AI 原文甩给别人」,精神上继承自广为流传的 nohello.net。页面用一句话点题:你被雇来是因为你的专业和洞察,请直接表达,把 Claude 之类的回复原样粘进 Slack 或邮件,只是把理解的负担转嫁给了对方。",
-        "站点贴心地给出正确做法:尽管用 AI 起草,但要先读懂它给的内容,再写出你自己的版本或润色文字,别在它和答案之间当传声筒。它还准备了一个「愤怒版」页面,供被 AI 甩锅惹恼的人转发,语气更直接。",
-        "随着 HN 首页的传播,这个页面被译成多种语言,并有 dontpastetheai.com 与 dontquotetheai.com 双域名镜像,复制按钮会自动识别访客所在域名。它已经从一个吐槽小站,演变为开发者圈关于 AI 协作礼仪的一种共识符号,被反复在群聊里转发。"
+        "一篇题为《我在一枚0.6英镑的芯片上跑起了Photoshop》的博文冲上HN首页。作者长期痴迷「更简单、更低功耗的计算」,这次用一枚仅售60便士的微控制器搭配pico-mac模拟器,以VGA输出模拟出一台经典Apple Macintosh,并在上面跑起了老版Photoshop和WordPerfect 1.0,单色屏上作画毫无违和感。",
+        "作者顺手做了个对比:按通胀换算,当年那台被模拟的Macintosh SE放到今天约值9554英镑,而现在只需一枚不到一英镑的芯片就能复现其体验。这引出一连串思考:一台超薄超轻的笔记本能长什么样?能否用电子纸屏幕护眼、太阳能供电、界面更克制不分散注意力、软件可靠到不必几年就被扔进垃圾填埋场?",
+        "帖子拿下数百points和百余条评论,技术细节区尤其热闹。有人追问pico-mac的移植与显示时序细节,有人讨论e-paper计算终端的可行性与生态,也有人被「用一英镑复刻万元古董机」的反差戳中,借题发挥吐槽现代软硬件的臃肿与短命。整体是一场关于「计算本该有多简单」的怀旧又前瞻的集体畅想。"
       ],
-      "heat": "💬 衍生自 HN 986 分热帖"
+      "heat": "🔥 HN 首页 / 300+ points / 150+ comments"
     }
   ],
   "creators": [
     {
-      "platform": "Personal Blog",
-      "name": "simedw (RollTab 作者)",
-      "author": "Simon Edwardsson",
-      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "platform": "GitHub",
+      "name": "mattpocock/skills",
+      "author": "Matt Pocock",
+      "url": "https://github.com/mattpocock/skills",
       "detail": [
-        "Simon Edwardsson(ID simedw)是这两天开发者圈最受关注的独立创作者之一。他花了近一年、做了十四轮实验,把一个 1.25 亿参数的 Transformer 训练成能实时续写钢琴演奏的端上模型,并做成免费 App RollTab,配套技术博客细致到 token 表示与训练取舍。",
-        "他的博客把整个「踩坑」过程写得极其透明:如何处理 MIDI 事件与多音轨、如何在词表爆炸与漂移之间权衡不同 tokenize 方案、为什么最终选择显式时长表示,以及 Core ML 落地端侧、加入 DPO 后训练带来的音乐性提升,几乎是一份可复现的实战手册。",
-        "这种「一个人把研究、工程和产品全链路做通」的风格正是 HN 社区偏爱的类型,帖子迅速冲上 479 分。评论里既有音乐理论爱好者补充古典即兴的历史,也有工程师追问模型细节,作者本人也在积极答疑,个人影响力因此进一步放大。"
+        "TypeScript社区知名布道者Matt Pocock的开源项目skills近日在GitHub与Trendshift上强势蹿红,单日新增近1900星。项目副标题「Skills for Real Engineers. Straight from my .agents directory.」直白地把作者自己.agents目录里的一整套AI编码「技能」开放出来,让开发者可以直接复用他打磨过的工作流。",
+        "仓库已积累400多次提交,内容围绕如何让编码agent更靠谱地做需求拆解、领域建模、规划(to-spec / to-tickets)、代码评审等真实工程动作,以changeset方式持续版本化维护,并打包成Claude插件形式分发。它顺应了2026年「Agent Skills」标准化的大潮——把提示词与方法论沉淀成可安装、可组合的技能包。",
+        "作为长期以高质量TypeScript教程著称的独立创作者,Matt Pocock这次把注意力从「教人写类型」转向「教agent干活」,精准踩中当下开发者对「怎么把AI编码用对」的焦虑。社区反响热烈,不少人把它与各家官方skills仓库对比,认为出自一线工程师之手的实战技能更接地气,是理解「skill工程」的优质范本。"
       ],
-      "heat": "🔥 HN 479 points / 105 comments"
+      "heat": "⭐ GitHub 单日 +1894 星 / Trendshift 榜单热门"
     },
     {
       "platform": "GitHub",
-      "name": "modular/modular (Mojo & MAX)",
-      "author": "Modular",
-      "url": "https://github.com/modular/modular",
+      "name": "santifer/career-ops",
+      "author": "santifer",
+      "url": "https://github.com/santifer/career-ops",
       "detail": [
-        "Modular 是 Mojo🔥 语言和 MAX 平台背后的团队,本周把整套 Mojo 编译器与工具链以 Apache 2.0 许可开源到 github.com/modular/modular 仓库,成为关注焦点。这个 monorepo 同时包含 MAX 与 Mojo,提交数已超过三万七千次,是活跃度极高的大型开源项目。",
-        "团队的开源节奏很有章法:先开放标准库,再释出数十万行用 Mojo 写的 kernel 代码与工具,如今补齐编译器。开发者可以直接 git clone 后用 Bazel 一条命令从源码构建 Mojo 编译器并跑通标准库测试,门槛被刻意降到很低。",
-        "仓库目前约两万六千六百颗星,近两百名贡献者提交了上千个 PR、改动超二十万行代码。伴随 Mojo 1.0 的源码稳定承诺,社区对这门面向 GPU 与 AI 加速器的通用语言给予厚望,围绕治理、路线图与生态库的讨论持续升温。"
+        "开发者santifer的新项目career-ops在Trendshift的2026新项目榜单上被频繁提及,主打「开源的AI求职助手」。它能扫描招聘门户、用一套A-F结构化评分标准把职位打成1.0-5.0分、按岗位定制简历,并跟踪投递进度——最大的特点是全部在本地的AI编码CLI里运行。",
+        "它不绑定单一工具,而是可跑在Claude Code、Codex、OpenCode、Antigravity等多种本地agent CLI之上,把「找工作」这件高度私密、又极度重复的事情做成了可编排的agent工作流。数据留在本地、评分标准透明可改,契合了越来越多开发者「不想把简历和求职意向上传到黑箱SaaS」的隐私诉求。",
+        "在当前科技行业招聘波动、开发者对求职效率与信息不对称格外敏感的背景下,career-ops精准踩点,收获社区不少点赞与关注。讨论集中在评分rubric的合理性、如何避免被招聘平台风控,以及能否扩展到内推、面试准备等环节。作为一个把agent用在「个人职业运营」这一新场景的小众项目,它展示了本地agent CLI生态的想象空间。"
       ],
-      "heat": "⭐ GitHub 26.6k stars"
+      "heat": "💬 Trendshift「New 2026」热门 / 社区多次提及"
     },
     {
       "platform": "GitHub",
-      "name": "khaosdoctor/dontquotetheai",
-      "author": "khaosdoctor",
-      "url": "https://github.com/khaosdoctor/dontquotetheai",
+      "name": "AprilNEA/OpenLogi",
+      "author": "AprilNEA",
+      "url": "https://github.com/AprilNEA/OpenLogi",
       "detail": [
-        "khaosdoctor 是 dontpastetheai.com / dontquotetheai.com 这个反「AI 甩锅」单页站的作者与维护者,随着站点在 HN 走红,其开源仓库也获得大量关注。整个项目用 HTML、少量 JavaScript 和 CSS 构成,部署在 Cloudflare Workers Assets 上,推送到 main 即自动上线。",
-        "仓库设计相当工程化:复制按钮读取 location.hostname,同一份代码在两个域名下都能工作;可翻译文案通过按钮上的 data 属性注入,CI 会自动同步 hreflang 并渲染 OG 图片。作者明确把「多语言翻译」作为项目最能帮到人的贡献方式,并写好了贡献指南。",
-        "这种「小而美、社区可协作」的定位,让它在 AI 协作礼仪话题里成为一个可参与的载体:开发者不必碰复杂配置,只需翻译文本并提 PR。项目由此从个人吐槽演变为一场跨语言的社区共建,创作者的影响力也随热帖水涨船高。"
+        "独立开发者AprilNEA的OpenLogi近期登上Trendshift热门,是一个用Rust编写、原生且本地优先的罗技Logitech Options+替代品。它通过HID++协议直接与鼠标通信,支持重映射按键、调节DPI以及SmartShift等功能,主打「无需账号、无遥测」,把被官方臃肿驱动困扰已久的用户拉回到轻量、可控的体验。",
+        "项目切中了外设玩家长期的痛点:官方配套软件往往体积庞大、常驻后台、强制登录甚至收集数据,而OpenLogi用一个纯Rust的原生程序把最常用的自定义能力还给用户,启动快、占用低、隐私友好。这类「用Rust重写臃肿官方软件」的社区项目,近来在开发者圈几乎成了一种潮流。",
+        "凭借鲜明的「local-first、无遥测」定位,OpenLogi在榜单上收获了可观关注与讨论。用户热切追问它对不同型号鼠标/键盘的兼容范围、跨平台支持进度,以及能否覆盖手势、宏等进阶功能。作为一个由个人开发者发起、精准解决日常痛点的小工具,它再次印证了「开源+Rust+隐私」组合在当下社区的号召力。"
       ],
-      "heat": "💬 关联 HN 986 分热帖"
+      "heat": "⭐ Trendshift「New 2026」热门 / 社区讨论活跃"
     }
   ]
 }
