@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-23": {
-      "koala73/worldmonitor": 1,
-      "bojieli/ai-agent-book": 2,
-      "block/buzz": 3,
-      "ayghri/i-have-adhd": 4,
-      "oblien/openship": 5,
-      "stablyai/orca": 6,
-      "earendil-works/pi": 7,
-      "ruvnet/RuView": 8,
-      "earthtojake/text-to-cad": 9,
-      "microsoft/SkillOpt": 10,
-      "every-app/open-seo": 11,
-      "jamiepine/voicebox": 12,
-      "1jehuang/jcode": 13,
-      "KnockOutEZ/wigolo": 14,
-      "facebook/astryx": 15,
-      "Julian-adv/OpenMMO": 16,
-      "AdventDevInc/kudu": 17,
-      "AstrBotDevs/AstrBot": 18,
-      "t8y2/dbx": 19,
-      "dottxt-ai/outlines": 20,
-      "tonhowtf/omniget": 21,
-      "hyprwm/Hyprland": 22,
-      "tradesdontlie/tradingview-mcp": 23,
-      "agegr/pi-web": 24,
-      "rtk-ai/rtk": 25
-    },
     "2026-07-24": {
       "koala73/worldmonitor": 1,
       "block/buzz": 2,
@@ -836,6 +809,33 @@
       "ruvnet/ruflo": 23,
       "QuantumNous/new-api": 24,
       "byoungd/up": 25
+    },
+    "2026-08-23": {
+      "openai/codex": 1,
+      "ripienaar/free-for-dev": 2,
+      "freestylefly/awesome-gpt-image-2": 3,
+      "block/buzz": 4,
+      "Graphify-Labs/graphify": 5,
+      "NousResearch/hermes-agent": 6,
+      "mahlernim/google-timeline-visualizer": 7,
+      "modular/modular": 8,
+      "nautechsystems/nautilus_trader": 9,
+      "multica-ai/andrej-karpathy-skills": 10,
+      "Panniantong/Agent-Reach": 11,
+      "cursor/plugins": 12,
+      "PostHog/posthog": 13,
+      "Wei-Shaw/sub2api": 14,
+      "makeplane/plane": 15,
+      "can1357/oh-my-pi": 16,
+      "anthropics/claude-plugins-community": 17,
+      "apache/maka": 18,
+      "Tencent/AI-Infra-Guard": 19,
+      "n8n-io/n8n": 20,
+      "react/react": 21,
+      "anthropics/claude-code": 22,
+      "debpalash/VoiceStudio": 23,
+      "tashfeenahmed/freellmapi": 24,
+      "microsoft/TypeScript": 25
     }
   }
 }
