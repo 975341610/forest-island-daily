@@ -1,125 +1,116 @@
 {
-  "date": "2026-08-24",
-  "generated_at": "2026-08-24T08:10:00+08:00",
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T08:10:00+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
       "platform": "Hacker News",
-      "author": "felineflock",
-      "title": "为什么你本地跑的 LLM 感觉更笨",
-      "url": "https://news.ycombinator.com/item?id=49402232",
+      "author": "ssx360",
+      "title": "单个 HTML 文件里的 techno 音乐机",
+      "url": "https://news.ycombinator.com/item?id=49419351",
       "detail": [
-        "一篇探讨\"为什么本地部署的大模型感觉比云端版本更笨\"的文章冲上 Hacker News 首页,由用户 felineflock 提交后迅速引发大量共鸣。很多开发者都有类似体感:同一个开源模型,自己在本地跑出来的效果,似乎远不如官方 API 或在线 Demo 里那么聪明,这背后的原因终于被系统性地拆解。",
-        "文章指出,核心差距往往并非模型本身,而在于量化精度、上下文长度、采样参数和提示词模板等一系列容易被忽视的配置。本地运行为了塞进有限显存,通常会采用激进的低比特量化,这会显著削弱模型的推理与长文本能力;而聊天模板拼接方式若与训练时不一致,也会让输出质量大打折扣。",
-        "评论区聚集了大量本地推理爱好者,纷纷分享自己的踩坑经验。有人强调 llama.cpp、Ollama 等工具默认参数并非最优,需要手动调校温度、重复惩罚和上下文窗口;也有人指出云端服务往往叠加了检索增强、系统提示优化等\"隐形加成\",让直接对比变得并不公平。",
-        "这篇帖子之所以引发热议,是因为它戳中了开源模型落地中一个普遍却少被正视的痛点:\"能跑\"和\"跑好\"之间存在巨大鸿沟。截至抓取时该帖已收获约 417 points 与 171 条评论,不少人认为它是本地 LLM 玩家值得反复对照的排错清单。"
+        "8 月 24 日 ssx360 在 Show HN 发布了 Rack-02——一台完整的模块化 techno 合成器/音序器，全部塞进一个 HTML 文件里。页面自带时钟、Kick、Rumble、Bassline、Hats 等模块，支持场景切换、ratchet 触发、条件概率步进，还能拖入 wav 采样叠加人声，几乎是把一台硬件 groovebox 复刻进了浏览器。",
+        "作者主打的技术点是「verifiable renders(可验证渲染)」:同一个 seed 会产出确定性的音频结果，任何人都能复现出一模一样的 patch，配合内置的 Mutate/Reroll 与 auto-mutate 机制，让生成式编曲既随机又可回溯。整个应用零外部依赖,不引用任何库、字体或图标,把文件下载到本地断网也能完整运行,是单文件 Web App 理念的极致实践。",
+        "帖子迅速冲到约 150 分、29 条评论。热评者盛赞「这才是软件该有的样子——可移植、免安装、丢到任何地方都能跑」,有人实测下载后本地依旧工作;也有人调侃「它仍然需要一整个浏览器」。讨论顺带引出同期上榜的 GlassBox 等单页项目,掀起一波对「一个 HTML 文件能做多少事」的技术乐观情绪。"
       ],
-      "heat": "HN 约 417 points / 171 comments"
+      "heat": "HN 约 150 points / 29 comments"
     },
     {
       "platform": "Hacker News",
-      "author": "tosh",
-      "title": "什么是 Agent Harness(线束)?",
-      "url": "https://news.ycombinator.com/item?id=49409092",
+      "author": "tke248",
+      "title": "GlassBox:浏览器暴露了你多少身份信息",
+      "url": "https://news.ycombinator.com/item?id=49421948",
       "detail": [
-        "一篇科普性质的文章《什么是 Agent Harness》被用户 tosh 提交到 Hacker News 后登上首页,系统性地解释了近来在 AI 智能体圈高频出现的\"harness(线束)\"这一概念。随着 Agent 应用爆发,这个原本略显生僻的术语正成为开发者理解智能体架构的关键词。",
-        "文章将 Agent Harness 定义为包裹在大模型外层的一整套支撑框架,负责工具调用、上下文管理、循环控制、错误处理和结果校验等\"脏活累活\"。作者形象地比喻:模型是引擎,而 harness 才是让引擎真正驱动整辆车跑起来的传动系统与线束,决定了 Agent 能否稳定、可靠地完成复杂任务。",
-        "评论区就\"harness 与模型能力孰轻孰重\"展开了激烈讨论。一派认为随着基座模型越来越强,厚重的 harness 会逐渐被模型内化、变得多余;另一派则坚持,真实生产环境中大量可靠性来自精心设计的外层框架,harness 工程化能力才是拉开产品差距的护城河。",
-        "这篇文章之所以受欢迎,在于它为一个正在快速演化、却缺乏统一定义的概念提供了清晰的框架。截至抓取时该帖约 272 points、129 条评论,不少人表示它帮助自己厘清了\"模型\"与\"智能体系统\"之间的边界,是入门 Agent 工程的一篇优质读物。"
+        "8 月 24 日 tke248 提交的 Show HN 项目 GlassBox 主打一件事:直观展示「浏览器到底把你出卖到什么程度」。打开页面即时列出 UA、屏幕参数、字体、WebGL/Canvas 指纹、时区、语言等信号,并据此估算你在全网有多「可识别」,把抽象的指纹追踪概念变成一目了然的仪表盘。",
+        "技术上它把各类被动指纹向量集中在一个本地页面里计算,不上传数据,让用户亲眼看到熵值如何叠加成一个近乎唯一的标识。它延续了当天另一个热帖单文件应用的思路——纯前端、可自行审计、无账号无后端,契合社区对隐私工具「代码即可信任」的期待。",
+        "帖子累计约 80 分、39 条评论,讨论集中在指纹防护的现实困境:关闭 JS、用 Tor、装反指纹插件反而可能让你更显眼(熵更高)。也有人拿它和同日上榜的 techno HTML 机器并列,认为单页可审计应用正在成为一种潮流。整体反响体现了开发者对追踪透明化工具的持续兴趣。"
       ],
-      "heat": "HN 约 272 points / 129 comments"
+      "heat": "HN 约 80 points / 39 comments"
     },
     {
       "platform": "Hacker News",
-      "author": "zX41ZdbW",
-      "title": "在 5 微秒内完成 JIT 编译",
-      "url": "https://news.ycombinator.com/item?id=49406387",
+      "author": "adesh_nalpet",
+      "title": "PicoMQ:跑在对象存储上的持久化流",
+      "url": "https://news.ycombinator.com/item?id=49421806",
       "detail": [
-        "一篇题为《在 5 微秒内完成 JIT 编译》的深度技术文章在 Hacker News 上引发工程师群体的浓厚兴趣,由用户 zX41ZdbW 提交。文章展示了一种极致轻量的即时编译方案,能够在微秒级别完成代码编译,颠覆了人们对 JIT 通常\"重且慢\"的刻板印象。",
-        "作者详细拆解了如何通过极简的代码生成路径、预分配缓冲区和避免昂贵的优化 pass,把编译延迟压缩到 5 微秒量级。这种设计特别适合需要频繁生成并立即执行小段代码的场景,如数据库查询执行、正则匹配、动态表达式求值等对启动延迟极度敏感的领域。",
-        "评论区聚集了不少编译器与数据库领域的资深从业者,围绕\"极速 JIT 与传统优化编译的取舍\"展开讨论。有人赞叹这种\"够用就好、极致压榨延迟\"的工程哲学,也有人提醒在追求编译速度的同时,生成代码的运行时性能可能有所牺牲,需要根据具体负载权衡。",
-        "这篇文章之所以受到技术圈青睐,在于它用扎实的实现细节证明了 JIT 编译的延迟仍有巨大压缩空间。截至抓取时该帖约 123 points、78 条评论,被不少系统程序员收藏为高性能代码生成的参考范例。"
+        "8 月 24 日 adesh_nalpet 发布 PicoMQ:一个用 Rust 写的持久化流服务器,把每条记录(含 WAL)都写到 S3 兼容对象存储,集群协调交给 Postgres/SQLite 的命令日志。每个流像 URL 路径一样被命名、一次请求即可创建,空闲时几乎零成本,一个部署可以从十个流扩展到上百万个,粒度细到「一订单一流、一会话一流」。",
+        "核心设计是节点无本地状态:任何节点都能随时停机替换,持久性不依赖单机磁盘,也没有共识协议和 broker 磁盘。作者指出其存储引擎 S3Stream 从零为流式负载构建(而非套用通用 KV),并对比了闭源的 S2 与被收购后前景不明的 ElectricSQL Durable Streams,强调 PicoMQ 全开源、不做功能阉割、支持多节点集群。",
+        "帖子约 76 分、13 条评论,讨论聚焦「对象存储做流后端」的写入性能:作者解释靠共享 WAL、服务端批处理与 HTTP/2 客户端流水线来摊薄延迟。有人把它类比为「架在 S3 上的 Kafka」,也有人追问与 SlateDB、Ursula 等方案的取舍,气氛偏工程务实。"
       ],
-      "heat": "HN 约 123 points / 78 comments"
+      "heat": "HN 约 76 points / 13 comments"
     }
   ],
   "topics": [
     {
-      "platform": "Hacker News / GitHub",
-      "author": "dbalsom",
-      "title": "MartyPC:Rust 写的周期精确 PC 模拟器",
-      "url": "https://news.ycombinator.com/item?id=49405816",
+      "platform": "Vanilla OS Blog",
+      "author": "Vanilla OS Team",
+      "title": "Vanilla OS 3 Reunion 正式发布",
+      "url": "https://vanillaos.org/blog/article/2026-08-24/vanilla-os-3-reunion---stable-release",
       "detail": [
-        "由开发者 dbalsom 打造的开源项目 MartyPC 近日在 Hacker News 上引发怀旧与技术双重讨论。这是一个用 Rust 编写的\"周期精确(cycle-accurate)\"早期 IBM PC 模拟器,目标是在指令与硬件时序层面高度还原上世纪 80 年代初的原始 PC,让老程序和游戏得以纤毫毕现地运行。",
-        "所谓\"周期精确\",意味着模拟器不只是让程序跑起来,而是精确复现 CPU、显卡、总线在每个时钟周期上的行为。这对于运行那些依赖极端底层时序技巧的老游戏、demo 和测试程序至关重要——很多此类软件在普通模拟器上会出现画面撕裂或直接崩溃,而 MartyPC 追求的正是这种像素级、周期级的忠实还原。",
-        "选择 Rust 作为实现语言也是社区讨论的热点。支持者认为 Rust 兼顾了高性能与内存安全,非常适合编写这类对性能敏感又逻辑复杂的模拟器;项目的代码质量和文档也获得了不少称赞,被视为学习模拟器实现与底层硬件原理的优秀范本。",
-        "这个项目触动了大量对早期 PC 硬件抱有情怀的开发者。截至抓取时,相关 HN 帖登上首页,收获约 154 points 与 55 条评论;GitHub 仓库也积累了约 891 Star、47 Fork,不少人表示既是技术欣赏,也是对那个 8088 时代的一次集体致敬。"
+        "8 月 24 日,基于 Debian 的不可变发行版 Vanilla OS 迎来两年来的大版本 3「Reunion」。它沿用 ABRoot 原子更新(系统保留两份,改动写入非活动版再重启切换),这次最大亮点是终于加入官方 ARM64 支持——所有镜像改为多架构、每个软件包都提供 ARM64 构建,把单板机到 ARM 笔电全部纳入。",
+        "版本还带来 GNOME 50「Tokyo」纯 Wayland 会话、Linux 7.1.3 内核,以及自研快照备份工具 Vanilla Continuity(可备份 home、Flatpak 清单、ABRoot 元数据并推到 SFTP/FTP/NFS)。团队重写了 Apx 与 VSO,基于全新 Vanilla OS SDK,并强调「可复现构建」:除 NVIDIA 镜像外,大多数镜像能从相同源逐位重建,让镜像可信度不再只靠 GitHub Actions。",
+        "发布在 Hacker News、DistroWatch、9to5Linux、Linuxiac 等多处被同步报道,当日即成为 Linux 社区热点。讨论集中在 ARM64 与可复现构建对不可变发行版透明度的意义,也有老用户关心从 Orchid 1.4.0 的平滑升级路径与破坏性变更(命令结构、默认应用替换如 Ptyxis/Papers/Resources)带来的迁移成本。"
       ],
-      "heat": "HN 首页约 154 points / 55 comments;GitHub 约 891 Star、47 Fork"
+      "heat": "DistroWatch/9to5Linux/HN 多平台同步报道,当日热点"
+    },
+    {
+      "platform": "Rust Glancer Blog",
+      "author": "Rust Glancer",
+      "title": "Rust Glancer:省 100 倍内存的 Rust LSP",
+      "url": "https://rust-glancer.github.io/blog/hello-world/",
+      "detail": [
+        "近日一个名为 Rust Glancer 的项目在社区引爆讨论:它是一个可用的 Rust 语言服务器(LSP),声称内存占用比主流的 rust-analyzer 低约两个数量级(100x)。对于动辄索引成千上万个依赖项符号的大型 Rust 工程,LSP 的内存膨胀一直是痛点,Glancer 主打「轻量、够用」,用极简数据结构换取巨大的常驻内存下降。",
+        "rust-analyzer 原作者 Alex Kladov(matklad)专门撰文点评,认可其思路:99% 的场景是那些「你永远不会翻看、但必须浅层分析的 6666 个依赖」,主 AST 结构其实做成数组列表即可;真正昂贵的是 proc macro 展开——要跑真实代码、生成大量代码,他回忆当年正是加入宏支持后 rust-analyzer 才开始变臃肿。他还建议对函数体分析做惰性化以兼顾两端。",
+        "该话题登上 Hacker News 约 392 分、96 条评论,并在 lobste.rs 延伸。开发者热议在内存与「查找全部引用」等重功能之间如何取舍,以及能否用 Sorbet 式「解释宏效果而不执行宏」的技巧绕开 proc macro 开销。整体反映出社区对更轻量 IDE 工具链的强烈需求。"
+      ],
+      "heat": "HN 约 392 points / 96 comments,含 matklad 长文点评"
     },
     {
       "platform": "Hacker News",
-      "author": "stared",
-      "title": "NanoGPT Speedrun:18 个前沿模型竞速",
-      "url": "https://news.ycombinator.com/item?id=49404380",
+      "author": "Jach",
+      "title": "软件没理由再慢下去了",
+      "url": "https://news.ycombinator.com/item?id=49395628",
       "detail": [
-        "一个名为 NanoGPT Speedrun 的评测项目在 Hacker News 上引发热议,由用户 stared 提交。该项目让多达 18 个当前主流的前沿大模型充当\"AI 研究员\",在同一套 NanoGPT 训练任务上同台竞速,比拼谁能更快、更好地自主完成小型语言模型的训练与优化。",
-        "与传统只考察单点问答或代码补全的评测不同,NanoGPT Speedrun 强调端到端的自主科研能力:模型需要自己设计实验、编写训练脚本、调试超参数、分析损失曲线并迭代改进。这种\"AI 训练 AI\"的设定,直观地暴露了各家模型在长链条任务规划与自我纠错上的真实差距。",
-        "评论区围绕\"这类基准能否代表真实科研能力\"展开辩论。有人认为它比刷题式榜单更贴近实际工程场景,是衡量智能体成色的好方法;也有人质疑 NanoGPT 任务相对标准化,可能被模型\"背题\"或过拟合特定套路,呼吁引入更多样化、更开放的研究任务。",
-        "该项目的走红折射出社区对\"自主 AI 研究员\"这一前沿方向的高度关注。截至抓取时该帖约 127 points、31 条评论,不少人认为随着智能体能力增强,这类竞速式基准有望成为观察 AI 科研自动化进展的一个直观窗口。"
+        "Dan Luu 的长文《There's no reason for software to be slow anymore》近两日在 Hacker News 强势霸榜。文章的核心论点是:现代硬件已经快到离谱,绝大多数日常软件之所以卡顿,不是物理限制,而是层层抽象、臃肿框架和对性能的普遍漠视所致,「慢」在今天基本是一种可以避免的选择。",
+        "作者用大量实测数据拆解从输入延迟到应用启动的各类场景,指出很多看似「必须」的开销其实来自默认配置、过度工程与缺乏基准测量的开发文化,并给出优化空间的量化估计。这类以数据说话、直指行业惰性的风格,正是 danluu.com 一贯被开发者追捧的原因。",
+        "帖子冲到约 618 分、479 条评论,成为近两天讨论最激烈的话题之一。评论区分成两派:一派认同「性能是可以设计出来的」,分享自己把应用提速数倍的经验;另一派则为抽象层辩护,认为开发效率、可维护性与团队协作同样重要。争论围绕「快 vs 可维护」的经典权衡展开,热度持续发酵。"
       ],
-      "heat": "HN 约 127 points / 31 comments"
-    },
-    {
-      "platform": "GitHub Trending",
-      "author": "basecamp / DHH",
-      "title": "Omarchy:DHH 打造的现代 Linux 发行版",
-      "url": "https://github.com/basecamp/omarchy",
-      "detail": [
-        "由 Ruby on Rails 之父、Basecamp 联合创始人 David Heinemeier Hansson(DHH)主导的开源项目 Omarchy 近日登上 GitHub Trending 榜单。这是一套基于 Arch Linux、开箱即用的现代化桌面发行版配置,旨在把繁琐的 Arch 安装与调优过程,打包成一份优雅、高效、面向开发者的即用方案。",
-        "Omarchy 预置了精心调校的窗口管理器、终端、编辑器和一整套开发工具链,追求极简、快速与美观的统一。DHH 一贯以强烈的技术审美和\"约定优于配置\"的理念著称,这套发行版延续了他的风格:替开发者做好大量默认选择,让人无需在无穷的配置项里反复折腾,开机即进入高效工作状态。",
-        "项目在社区引发了关于\"精心策划的 Linux 桌面体验\"的广泛讨论。喜爱者认为它极大降低了 Arch 的上手门槛,把发烧友级的定制化沉淀成了普通开发者也能享用的成品;也有硬核用户认为过度预设会牺牲 Arch 的自由度,但普遍承认其作为一份高质量参考配置的价值。",
-        "借助 DHH 的个人号召力与项目本身的实用性,Omarchy 的 Star 数快速攀升。截至抓取时,仓库约有 29.1k stars,单日新增约 750,持续位居 Trending 前列,成为近期开发者圈关于 Linux 桌面话题的一个焦点。"
-      ],
-      "heat": "GitHub 约 29.1k stars,单日新增约 750,位居 Trending 前列"
+      "heat": "HN 约 618 points / 479 comments"
     }
   ],
   "creators": [
     {
       "platform": "GitHub",
-      "name": "David Heinemeier Hansson (DHH)",
-      "url": "https://github.com/dhh",
+      "name": "Ginger Bill",
+      "url": "https://github.com/gingerBill",
       "detail": [
-        "David Heinemeier Hansson,人称 DHH,是 Web 开发领域最具影响力的技术人物之一。他是 Ruby on Rails 框架的创造者,也是项目管理工具 Basecamp 及邮件服务 HEY 背后公司 37signals 的联合创始人兼 CTO,数十年来深刻塑造了现代 Web 开发的范式与文化。",
-        "Rails 所倡导的\"约定优于配置\"和\"不要重复自己(DRY)\"理念,极大提升了 Web 应用的开发效率,催生了一整套影响深远的工程哲学,GitHub、Shopify 等众多知名产品早期都构建于 Rails 之上。DHH 本人也因此成为开源社区极具号召力的意见领袖。",
-        "近期他将精力投入到 Linux 桌面与开发者体验领域,主导的 Omarchy 发行版登上 GitHub Trending,延续了他一贯\"替开发者做好默认选择\"的产品思路。他还长期公开倡导远程办公、反对臃肿技术栈,观点鲜明且常常引发行业辩论。",
-        "作为一位以直言不讳著称的技术布道者,DHH 在 GitHub 上拥有约 26.1k followers,其言论和项目往往能迅速点燃社区讨论。无论是框架设计、公司经营还是开发文化,他的观点都持续对广大开发者产生着实实在在的影响。"
+        "Ginger Bill(本名常以 gingerBill 示人)是 Odin 编程语言的创造者,一位专注系统级编程的开发者,现于 JangaFX 从事 EmberGen/LiquiGen 等图形仿真产品的底层开发。他自 2015 年起活跃于 Handmade Network 社区,长期在个人站 gingerbill.org 撰写关于语言设计、内存管理与工程哲学的深度文章。",
+        "他的代表作 Odin 是一门面向现代硬件与程序员的开源系统语言,已积累完整生态,包括社区成员 Karl Zylinski 出版的《Understanding the Odin Programming Language》。除语言本体外,他还维护 gb 单文件 C/C++ 库,并以「基于语法选语言是否明智」「包管理器是邪恶的」等犀利博文在圈内引发讨论。",
+        "近期他正深耕 Odin 的内联汇编器:8 月 20 日的文章《Everyone says assembly is untyped—everyone is wrong》登上 Hacker News 约 145 分,8 月 24 日前后他在 X(@TheGingerBill,约 1.6 万粉丝)连续更新,刚为内联汇编器实现了 CFG(控制流图)以获得更好的分析,展现出持续高频的工程产出与影响力。"
       ],
-      "heat": "GitHub 约 26.1k followers,Rails 生态影响深远"
+      "heat": "GitHub gingerBill;X @TheGingerBill 约 16.1K followers"
     },
     {
       "platform": "GitHub",
-      "name": "Lucas (AprilNEA)",
-      "url": "https://github.com/AprilNEA",
+      "name": "Mirko Brombin",
+      "url": "https://github.com/mirkobrombin",
       "detail": [
-        "AprilNEA 是一位活跃的中国开源开发者,近期因其项目 OpenLogi 登上 GitHub Trending 而受到社区关注。他专注于 AI 应用、开发者工具与全栈项目,作品兼具工程实用性与较高的完成度,在中文开发者圈中积累了不错的口碑。",
-        "他的代表项目 OpenLogi 短时间内收获了约 14.9k stars,展现出较强的技术号召力。从其公开仓库可以看出,他对 AI 与 Web 结合、开发者效率工具等方向有持续投入,并乐于将实践成果开源分享,推动相关工具在社区中的传播与迭代。",
-        "作为一名年轻的开源贡献者,AprilNEA 保持着较高的项目产出与更新频率,积极响应社区反馈。他的实践体现了新一代中国开发者在全球开源舞台上的活跃身影——既善于借助 AI 提升开发效率,也注重把成果沉淀为可复用的开源资产。",
-        "目前他在 GitHub 上约有 486 followers,随着 OpenLogi 等项目热度上升,其影响力也在稳步扩大。对于关注 AI 应用与开发者工具的社区成员而言,他是一位值得持续留意的新锐创作者。"
+        "Mirko Brombin 是一位 1994 年出生的意大利 UX 设计师与开源开发者,fabricators.ltd 创始人。他在 Linux 桌面圈以两大项目闻名:让 Windows 软件/游戏在 Linux 上运行的 Bottles,以及不可变发行版 Vanilla OS 的创始人;他还创办了面向 Linux 与开源教育的门户 linuxhub.it。",
+        "他的代表作 Bottles 在 GitHub 已获约 8.7k 星,是 Linux 游戏与兼容层领域的明星工具;Vanilla OS 则以 ABRoot 原子更新、Apx 容器化包管理等创新著称,推动了「不可变桌面」这一理念的普及。他在 GitHub 拥有约 442 名关注者、154 个仓库,长期以设计驱动的产品思维影响开源社区。",
+        "就在 8 月 24 日,他所主导的 Vanilla OS 3「Reunion」正式发布,带来 ARM64 支持、GNOME 50、可复现构建与自研备份工具 Continuity,并在 DistroWatch、9to5Linux 等多家媒体同步报道。这一里程碑版本让他和团队重回社区聚光灯,成为当日 Linux 话题的中心人物之一。"
       ],
-      "heat": "GitHub 约 486 followers,OpenLogi 约 14.9k stars"
+      "heat": "GitHub 约 442 followers / 154 repos;Bottles 约 8.7k stars"
     },
     {
       "platform": "GitHub",
-      "name": "Armin Ronacher (mitsuhiko)",
-      "url": "https://github.com/mitsuhiko",
+      "name": "Adesh Nalpet Adimurthy",
+      "url": "https://github.com/addu390",
       "detail": [
-        "Armin Ronacher,GitHub ID 为 mitsuhiko,是 Python 生态中举足轻重的开源开发者。他最广为人知的作品是轻量级 Web 框架 Flask,以及模板引擎 Jinja2,这两个项目多年来一直是 Python Web 开发的基石级工具,被全球无数项目所依赖。",
-        "Flask 以其简洁、灵活、可扩展的设计哲学赢得了广泛喜爱,GitHub 仓库长期保持在 60k+ stars 的量级。除 Flask 外,Armin 还创建和参与了 Click、Werkzeug、Sentry SDK 等众多知名开源项目,在 Web 框架、命令行工具和错误监控等多个领域都留下了深刻印记。",
-        "近年来他的关注点逐渐延伸到 Rust 语言以及开发者工具与工程效率领域,时常在个人博客上分享对编程语言设计、软件架构和 AI 编程趋势的深度思考,观点富有洞见,常被社区广泛转载和讨论。",
-        "作为一位跨越 Python 与 Rust 两大生态、著作等身的资深开源作者,Armin 在 GitHub 上拥有数万名 followers,是社区公认的技术标杆之一。他的项目选择与技术判断,往往能对相关领域的走向产生风向标式的影响。"
+        "Adesh Nalpet Adimurthy(GitHub ID:addu390,HN 用户 adesh_nalpet)是一位专注分布式系统与流式存储的独立开发者。他近期把精力投入到 PicoMQ 项目上,亲自设计并用 Rust 实现了一个「跑在对象存储之上的持久化流」服务器,是这一波单人打造基础设施型开源项目的代表。",
+        "他的代表作 PicoMQ 主打把持久化流做到极简运维:每条记录写入 S3 兼容存储,协调走 Postgres 命令日志,节点无本地状态可随时替换。其底层存储引擎 S3Stream 借鉴 AutoMQ 的核心原语从零构建,而非套用 SlateDB;项目仓库位于 PicoMQ/picomq,8 月 21 日初始提交后持续高频迭代,几天内已加入认证、Terraform 部署示例等。",
+        "8 月 24 日他在 Show HN 发布 PicoMQ,当天即获约 76 分、13 条评论,并亲自在评论区细致回应与 S2、SlateDB、ElectricSQL 等方案的差异及写入性能设计。虽然个人 GitHub 关注者不多(约 39),但凭借这个技术密度很高的项目在 HN 获得了可观的工程口碑与关注度。"
       ],
-      "heat": "GitHub 数万 followers,Flask 60k+ stars"
+      "heat": "GitHub addu390 约 39 followers;PicoMQ HN 约 76 points"
     }
   ]
 }
