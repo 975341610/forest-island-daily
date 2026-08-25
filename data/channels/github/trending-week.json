@@ -3,8 +3,8 @@
   "repos": {
     "openai/codex": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 2715,
+      "appearances": 2,
+      "total_today_stars": 4709,
       "language": "Rust",
       "description": "Lightweight coding agent that runs in your terminal",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -12,8 +12,8 @@
     },
     "Alishahryar1/free-claude-code": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1081,
+      "appearances": 2,
+      "total_today_stars": 1972,
       "language": "Python",
       "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -21,8 +21,8 @@
     },
     "basecamp/omarchy": {
       "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 750,
+      "appearances": 2,
+      "total_today_stars": 1806,
       "language": "Shell",
       "description": "Beautiful, Modern & Opinionated Linux",
       "owner_avatar": "https://avatars.githubusercontent.com/u/13131?v=4",
@@ -47,9 +47,9 @@
       "html_url": "https://github.com/n8n-io/n8n"
     },
     "NousResearch/hermes-agent": {
-      "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 454,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1350,
       "language": "Python",
       "description": "The agent that grows with you",
       "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
@@ -66,17 +66,17 @@
     },
     "byoungd/up": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 405,
+      "appearances": 2,
+      "total_today_stars": 723,
       "language": "JavaScript",
       "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 离谱的人生/人生进阶 离谱的英语学习指南/英语学习教程/英语学习/学英语",
       "owner_avatar": "https://avatars.githubusercontent.com/u/16145783?v=4",
       "html_url": "https://github.com/byoungd/up"
     },
     "freestylefly/awesome-gpt-image-2": {
-      "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 401,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 2850,
       "language": "JavaScript",
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43960064?v=4",
@@ -84,8 +84,8 @@
     },
     "makeplane/plane": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 390,
+      "appearances": 2,
+      "total_today_stars": 633,
       "language": "TypeScript",
       "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/115727700?v=4",
@@ -93,8 +93,8 @@
     },
     "anthropics/claude-code": {
       "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 361,
+      "appearances": 2,
+      "total_today_stars": 510,
       "language": "Python",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -119,18 +119,18 @@
       "html_url": "https://github.com/Wei-Shaw/sub2api"
     },
     "can1357/oh-my-pi": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 229,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 642,
       "language": "TypeScript",
       "description": "⌥ Coding agent with the IDE wired in",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11807264?v=4",
       "html_url": "https://github.com/can1357/oh-my-pi"
     },
     "anthropics/claude-plugins-community": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 225,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 714,
       "language": "Python",
       "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -146,9 +146,9 @@
       "html_url": "https://github.com/bookorbit/bookorbit"
     },
     "Comfy-Org/ComfyUI": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 201,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 741,
       "language": "Python",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/166579949?v=4",
@@ -165,8 +165,8 @@
     },
     "heygen-com/hyperframes": {
       "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 176,
+      "appearances": 2,
+      "total_today_stars": 366,
       "language": "TypeScript",
       "description": "Write HTML. Render video. Built for agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
@@ -210,8 +210,8 @@
     },
     "bytedance/deer-flow": {
       "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 115,
+      "appearances": 2,
+      "total_today_stars": 253,
       "language": "Python",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4158466?v=4",
@@ -225,6 +225,114 @@
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
       "html_url": "https://github.com/ruvnet/RuView"
+    },
+    "stablyai/orca": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 982,
+      "language": "TypeScript",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "html_url": "https://github.com/stablyai/orca"
+    },
+    "multica-ai/andrej-karpathy-skills": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 588,
+      "language": null,
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    "tinyhumansai/openhuman": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 515,
+      "language": "Rust",
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
+      "html_url": "https://github.com/tinyhumansai/openhuman"
+    },
+    "apache/maka": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 411,
+      "language": "TypeScript",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/47359?v=4",
+      "html_url": "https://github.com/apache/maka"
+    },
+    "Panniantong/Agent-Reach": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 373,
+      "language": "Python",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
+      "html_url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    "pbakaus/impeccable": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 361,
+      "language": "JavaScript",
+      "description": "The design language that makes your AI harness better at design.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
+      "html_url": "https://github.com/pbakaus/impeccable"
+    },
+    "AgriciDaniel/claude-obsidian": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 310,
+      "language": "Python",
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
+      "html_url": "https://github.com/AgriciDaniel/claude-obsidian"
+    },
+    "marin-community/marin": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 214,
+      "language": "Python",
+      "description": "Open-source framework for the research and development of foundation models.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/210491432?v=4",
+      "html_url": "https://github.com/marin-community/marin"
+    },
+    "langchain-ai/deepagents": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 175,
+      "language": "Python",
+      "description": "The batteries-included agent harness.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/126733545?v=4",
+      "html_url": "https://github.com/langchain-ai/deepagents"
+    },
+    "tashfeenahmed/freellmapi": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 174,
+      "language": "TypeScript",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
+      "html_url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    "garrytan/gstack": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 149,
+      "language": "TypeScript",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
+      "html_url": "https://github.com/garrytan/gstack"
+    },
+    "lfnovo/open-notebook": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 138,
+      "language": "TypeScript",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/579178?v=4",
+      "html_url": "https://github.com/lfnovo/open-notebook"
     }
   }
 }
