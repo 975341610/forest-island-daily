@@ -1,0 +1,252 @@
+[
+  {
+    "id": "2026-08-26_vibecoding_5",
+    "date": "2026-08-26",
+    "category": "VibeCoding",
+    "subcat": "开发者动态",
+    "platform": "Product Hunt",
+    "platform_color": "#F6A07C",
+    "title": "Agnost AI:揪出评测漏掉的Agent故障",
+    "url": "https://www.producthunt.com/products/agnost-ai",
+    "image": "images/2026-08-26/2026-08-26_vibecoding_5.jpg",
+    "detail": [
+      "北京时间8月25日,YC S26 批次的初创公司 Agnost AI 在 Product Hunt 首发(当日日榜前三,归类分析/开发者工具/AI),切入一个正被越来越多团队重视的问题:你的评测(evals)通过了,生产环境里的Agent却依然失败。Agnost 的口号正是「Catch agent failures your evals miss」。",
+      "它的做法是持续分析真实的生产对话(支持文本与语音),找出用户在哪里卡住、产生挫败感或未能转化,再把最高影响的失败模式提炼成可供团队 review 的修复方案,甚至自动生成 PR。产品宣称与任何 LLM、任何框架兼容,原生支持 OpenTelemetry,约 2 分钟即可接入。官网展示的数据包括「从用户对话中挖出 1247 条功能需求」「18 个自主 PR 中 16 个被合并」,并援引来自 Google、Exa 等公司工程师的背书,其中一位 CTO 称「Agnost 让我发现用户在索要我们根本没有的功能,而这些反馈一直躺在既有对话里」。",
+      "定价上,Agnost 提供免费的 Starter(每月 1000 条消息、7 天留存)、$499/月的 Pro(10 万条消息、90 天留存)以及可自托管 VPC 的 Enterprise 方案。随着编码与对话类Agent大规模进入生产,「eval 通过但线上仍翻车」成为普遍痛点,Agnost 把「可观测性」进一步推向「自动定位失败并产出修复 PR」的闭环,代表了 Agent 质量保障工具从被动监控走向主动改进的一个新方向,发布当日在开发者社区引发不少讨论。"
+    ]
+  },
+  {
+    "id": "2026-08-26_vibecoding_4",
+    "date": "2026-08-26",
+    "category": "VibeCoding",
+    "subcat": "AI Coding 工具",
+    "platform": "Product Hunt",
+    "platform_color": "#F6A07C",
+    "title": "coolplugz:给Claude Code的编排层",
+    "url": "https://www.producthunt.com/products/coolplugz",
+    "image": "images/2026-08-26/2026-08-26_vibecoding_4.jpg",
+    "detail": [
+      "北京时间8月25日,开发者 Tasos 在 Product Hunt 发布 coolplugz,一款面向 Claude Code 的「编排层(orchestration layer)」,主打让 Claude Code 在无需人工时刻盯守的情况下,自动、可靠地交付编码任务,当日进入日榜前列(开发/AI 分类)。",
+      "它的核心是一个自定义的 MCP 编排工具:能自动从 Jira、GitHub、Notion 和 Slack 抓取任务上下文,替你撰写并组织好提示词,再驱动 Claude Code 执行,最后验证任务是否被正确完成。作者解释,自己每天都在重复同一套繁琐流程——从 Jira 工单和 Notion 文档里搜集背景、把 CI 报错复制粘贴回编码Agent、反复引导 Claude Code 使用正确的 GitHub 仓库、认真 review PR;而每开一个新任务或新项目,这套流程又得从头再来一遍。",
+      "coolplugz 的价值主张就是把这些「每 5 秒就要重复一次的指令」固化成自动化编排,确保 Claude Code 手上始终握有完成工程任务所需的全部上下文,从而高效交付。它采用 Freemium 定价模式。对于正在把编码Agent推向「半自主/无人值守」工作流的团队而言,这类围绕主力Agent做上下文聚合、提示词生成与结果校验的编排层,正在成为一个明显的新兴品类——它不替代 Claude Code,而是让其更少跑偏、更少需要人类反复介入,契合当前「Agent as a system」的演进方向。"
+    ]
+  },
+  {
+    "id": "2026-08-26_vibecoding_3",
+    "date": "2026-08-26",
+    "category": "VibeCoding",
+    "subcat": "开源新工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "session-indexer:语义检索会话历史",
+    "url": "https://github.com/valpere/session-indexer",
+    "image": "images/2026-08-26/2026-08-26_vibecoding_3.jpg",
+    "detail": [
+      "北京时间8月25日,开发者 Valentyn Solomko 发布开源工具 session-indexer 并同步登陆 Product Hunt(标注「今日发布」),定位是「对你自己的 Claude Code 会话历史做语义检索」。作者的动机很具体:在长期项目里,他总记不清过去为什么做出某个决策——已有的 session-end 能告诉你「上次做到哪」,却答不上「三周前关于 X 我们到底决定了什么」,session-indexer 正是来补这个缺口。",
+      "技术实现上,它把 Claude Code 的 JSONL 会话转录索引进一个本地 SQLite 文件,通过 bge-m3 向量嵌入(基于 Ollama)进行语义检索,并内置 FTS5 的 BM25 关键词回退机制——因此即便没有 Ollama 也能正常工作,不存在硬依赖。它复用与 session-end 相同的 Stop/SessionStart 钩子,会在会话开始时自动注入相关的历史上下文;两个工具可以同时运行,无需额外配置。项目强调「按项目」本地存储,而非共享或中心化的记忆库,隐私边界清晰。",
+      "工程细节上,session-indexer 采用 Apache 2.0 许可证,go install 即可安装,「没有任何东西需要部署」,并附带 75 个通过的测试。它与 session-end 形成互补:后者给出「我上次停在哪」,前者给出「我们当时决定了什么」。在Agent编码普及、单个项目动辄积累海量会话记录的当下,这类「把Agent对话变成可检索长期记忆」的轻量本地方案,正好命中开发者对上下文连续性与决策可追溯的强需求,发布后迅速获得社区关注。"
+    ]
+  },
+  {
+    "id": "2026-08-26_vibecoding_2",
+    "date": "2026-08-26",
+    "category": "VibeCoding",
+    "subcat": "开源新工具",
+    "platform": "Product Hunt",
+    "platform_color": "#F6A07C",
+    "title": "Flare:图优先的Agentic编码IDE",
+    "url": "https://www.producthunt.com/products/flare-11",
+    "image": "images/2026-08-26/2026-08-26_vibecoding_2.jpg",
+    "detail": [
+      "北京时间8月25日,一款名为 Flare 的开源工具登陆 Product Hunt,归类于「Vibe coding / 开发者工具」,主打「图优先(graph-first)」的Agentic编码体验,试图解决多Agent协作时开发者「看不清Agent到底在干什么」的痛点。作者在发布帖里直言:大多数Agentic工具只丢给你一份聊天记录,而 Flare 给你一张地图。",
+      "它的核心思路是「读仓库而不是读对话」:把每个文件抽象成节点、每条 import 抽象成边,构建出一张随Agent编辑实时更新的项目关系图;底层挂着一个真实终端,你可以直接跑 claude、codex 或 opencode。地图会为每一次写入标注归属者,当两个Agent同时改到同一文件时,你会当场看到「地图上的交叉」,而不是留到第二天才爆发的合并冲突。变更以「change burst」形式快照进本地历史,可 diff、可回滚;Agent 通过 MCP 从任务看板领取工作。",
+      "值得强调的是三点定位:终端是真终端,自带Agent(bring your own agent),Flare 不做封装、不做代理、不碰你的密钥;完全本地运行,无需账号;采用 MIT 许可证开源。作者表示做这个是因为总在长任务里丢失Agent的行动轨迹——它不会告诉你某个文件被另外九个文件引用,也不会提醒你那个「没测试覆盖」的改动恰恰是支撑整个应用的关键。对越来越多同时驱动多个编码Agent的开发者来说,这种把依赖关系与改动归属可视化的思路,提供了一条区别于「聊天流」的新交互范式。"
+    ]
+  },
+  {
+    "id": "2026-08-26_vibecoding_1",
+    "date": "2026-08-26",
+    "category": "VibeCoding",
+    "subcat": "AI Coding 工具",
+    "platform": "Product Hunt",
+    "platform_color": "#F6A07C",
+    "title": "akta.pro 发布面向Agent的公司数据API",
+    "url": "https://www.producthunt.com/products/akta-pro",
+    "image": "images/2026-08-26/2026-08-26_vibecoding_1.jpg",
+    "detail": [
+      "北京时间8月25日,数据初创公司 akta.pro 在 Product Hunt 首发,并当日冲上日榜第一(近350点赞),成为「Agent经济」基础设施赛道的新焦点。它把私有公司数据与实时事件信号打包成一套结构化API,自称覆盖度是 PitchBook 的两倍、数据深度是四倍,主打为AI Agent和自动化工作流提供可直接调用的商业情报。",
+      "核心能力上,akta.pro 覆盖全球 2000 万+ 家公司的 70+ 数据字段,并附带 100+ 种实时事件信号——包括融资、招聘、裁员、合作、领导层变动、业务扩张等,新闻信号经过实体解析与去重,历史可回溯 6 个月至 15 年。产品采用按量付费($0.05/credit 起),不收席位费,并原生支持通过 MCP 或 CLI 接入 Claude、ChatGPT、VS Code 等Agent环境,可让Agent「一口气」拉取某公司的完整画像与最新动态。",
+      "对开发者而言,这类API的意义在于把「事件发生了」升级为「事件发生了且能立刻拿到公司全貌并触发下一步动作」,直接服务于自动化外呼、尽调、GTM 名单生成等场景。联合创始人 Sid 在评论区强调团队之所以同时做数据与信号,就是不想让用户在两类割裂的数据产品间来回拼接。榜单当日大量开发者关注其 100+ 事件类型的精度与召回基准,认为这类「Agent 可消费」的结构化数据源,正在成为 Agent 应用落地的关键一环。"
+    ]
+  },
+  {
+    "id": "2026-08-26_gaming_5",
+    "date": "2026-08-26",
+    "category": "Gaming",
+    "subcat": "PC/MMO",
+    "platform": "MassivelyOP",
+    "platform_color": "#7CF6A0",
+    "title": "《永恒之塔2》定档 10月5日全球首发",
+    "url": "https://massivelyop.com/2026/08/25/gamescom-2026-aion-2-makes-its-global-debut-october-5-following-stress-test-and-headstart/",
+    "image": "images/2026-08-26/2026-08-26_gaming_5.jpg",
+    "detail": [
+      "《永恒之塔2》(Aion 2)是 NC(原 NCSOFT)基于经典 MMORPG 系列打造的次世代续作,采用虚幻引擎 5 开发,主打陆、海、空全方位探索、深度角色捏脸、可收集宠物以及丰富的 PvP 与 PvE 体验。据官方介绍,新作的世界规模达到初代的约 36 倍,是韩系厂商冲击全球开放世界 MMO 市场的重要一步。",
+      "北京时间 8 月 26 日凌晨的 Gamescom 开幕之夜,NC 携带新预告登场,并正式公布了全球首发日期:2026 年 10 月 5 日(周一),登陆 PC 平台(Steam 与自家 PURPLE),覆盖北美、南美、欧洲与亚洲。此前官方曾笼统称「9 月上线」,如今给出了明确的正式服日期。",
+      "发售节奏方面,NC 安排了循序渐进的里程碑:9 月 17 至 18 日进行「大规模上线压力测试」(Launch Scale Test),搭建接近正式服的环境检验服务器与基础设施稳定性;购买了创始者礼包(Founder's Pack)的玩家可从 9 月 30 日至 10 月 4 日享受五天抢先体验,随后 10 月 5 日正式开服。同场 NC 还公布了《Cinder City》与团队生存作品《Like or Die》两支新预告。",
+      "MMO 社区对定档反应积极,不少老玩家期待系列招牌的飞行战斗与空中景观回归;不过也有声音关注全球同步运营下的本地化与付费模式,能否在竞争激烈的 MMO 市场站稳脚跟仍待验证。"
+    ]
+  },
+  {
+    "id": "2026-08-26_gaming_4",
+    "date": "2026-08-26",
+    "category": "Gaming",
+    "subcat": "策略/新作",
+    "platform": "Game Informer",
+    "platform_color": "#7CF6A0",
+    "title": "《彩虹六号:战术》公布 回合制策略新方向",
+    "url": "https://gameinformer.com/gamescom-2026/2026/08/25/ubisoft-announces-rainbow-six-tactics-a-single-player-turn-based-spin-off",
+    "image": "images/2026-08-26/2026-08-26_gaming_4.jpg",
+    "detail": [
+      "《彩虹六号:战术》(Rainbow Six Tactics)是育碧在 Gamescom 开幕之夜突袭公布的全新作品,由育碧巴黎工作室开发。它把一贯以射击见长的《彩虹六号》系列带向截然不同的方向——一款单人回合制战术策略游戏,玩法被广泛类比为经典的《幽浮》(XCOM),却保留了系列标志性的干员体系与可破坏环境。",
+      "据官方介绍,玩家将扮演「Six」指挥官,率领最多四名干员执行全球范围的高风险任务,包括人质救援、拆除炸弹与目标清除等手工设计的关卡。行动前需在彩虹总部整备:研判情报、编排干员、升级基地;进入战场后每一步走位与协同都至关重要。本作收录了《彩虹六号:围攻》中的 15 名知名干员(如 Ash、Glaz、Doc、Sledge、Twitch 等),每人拥有独立的技能树、装备与技能路径,可自由搭配四人小队。",
+      "特色系统「Breach」允许全体干员脱离常规回合节奏、同步发起协同突入,打破墙体、开辟新路线,重现系列一贯的破门突袭张力。游戏预计 2027 年登陆 PS5、Xbox Series X/S 与 PC,是自 2022 年《彩虹六号:异种》以来系列首款登陆主机的新作。",
+      "在育碧经历项目取消、裁员与工作室关闭的动荡之年,这次转型尝试引发热议:有玩家欢迎系列大胆求变、注入策略深度,也有硬核粉丝担忧偏离射击本源,但整体被视为育碧为核心 IP 争取正向声量的一次尝试。"
+    ]
+  },
+  {
+    "id": "2026-08-26_gaming_3",
+    "date": "2026-08-26",
+    "category": "Gaming",
+    "subcat": "主机大作",
+    "platform": "Final Weapon",
+    "platform_color": "#7CF6A0",
+    "title": "《战争机器:E日》故事预告 10月6日发售",
+    "url": "https://finalweapon.net/2026/08/25/gears-of-war-e-day-story-trailer-gamescom/",
+    "image": "images/2026-08-26/2026-08-26_gaming_3.jpg",
+    "detail": [
+      "《战争机器:E日》(Gears of War: E-Day)是 The Coalition 工作室打造的系列前传,时间线设定在初代《战争机器》事件前 14 年,聚焦年轻的马库斯·菲尼克斯与多姆·圣地亚哥,讲述兽族(Locust Horde)首次从塞拉星地底涌出、人类陷入生死存亡之战的「紧急日」(Emergence Day)。本作采用虚幻引擎 5 重建,回归更黑暗、更具氛围感的系列基调。",
+      "北京时间 8 月 26 日凌晨的开幕之夜,Xbox 放出了约两分钟的官方故事预告,细致刻画了紧急日当晚的混乱与残酷,展现敌人如潮水般涌入城市、猝不及防的守军节节败退,以及 Bravo 小队的成立与主角二人组情谊的起点。官方同时确认,游戏将于 2026 年 10 月 6 日发售,登陆 Xbox Series X/S 与 PC,作为主机独占并首发加入 Game Pass。",
+      "玩法层面,本作保留标志性的掩体战斗,并加入现代化的移动与垂直度机动;多人方面推出规模更大的 PvE 模式「Horde Siege」以及重做的 4v4 竞技对抗与全新地图。作为 Xbox Play Anywhere 作品,一次购买即可在主机与 PC 通用。",
+      "粉丝对这段回到系列起源的故事叙事反响积极,尤其是马库斯与多姆的年轻形象唤起大量情怀;首发登陆 Game Pass 也被视为 Xbox 稳固订阅生态、力推第一方大作的关键一步。"
+    ]
+  },
+  {
+    "id": "2026-08-26_gaming_2",
+    "date": "2026-08-26",
+    "category": "Gaming",
+    "subcat": "重制/重置",
+    "platform": "CBR",
+    "platform_color": "#7CF6A0",
+    "title": "《巫师3》重制版突袭公布 老玩家免费升级",
+    "url": "https://www.cbr.com/witcher-3-remastered-free-upgrade-release-date/",
+    "image": "images/2026-08-26/2026-08-26_gaming_2.jpg",
+    "detail": [
+      "《巫师3:狂猎》(The Witcher 3: Wild Hunt)是 CD Projekt Red 于 2015 年推出的开放世界 RPG 里程碑,十余年来长盛不衰。本届 Gamescom 开幕之夜,原本大家期待的是其新资料片《往日之歌》(Songs of the Past)的更多情报,结果 CDPR 在直播压轴环节甩出重磅惊喜——正式公布了从底层重做的《巫师3:狂猎 重制版》。",
+      "据官方确认,重制版将于 2026 年 9 月 29 日登陆 PS5、Xbox Series X/S、Switch 2 及 PC(Steam、Epic、GOG、Battle.net),最关键的是:所有已拥有《巫师3》的玩家均可免费升级。公布预告展示了显著提升的画面与植被密度、改良光照与 HDR、支持 DLSS 4.5 与 FSR 4,还包含重做的战斗手感、更流畅的移动与骑马操控、法印视觉特效翻新、技能树重构、盔甲幻化以及全新处决动作。",
+      "此外,《石之心》与《血与酒》两部经典资料片将随重制版一并免费开放给所有玩家,让新老玩家在 2027 年《往日之歌》上线前先补齐前情。对于一款已 11 岁高龄的作品,先追加新资料片、再送上完整重制且免费升级的组合拳,远超外界预期。",
+      "玩家社区一片沸腾,不少人调侃「杰洛特又要重走威伦、诺维格瑞和史凯利杰了」;由于《巫师4》将换主角为希里,这次重制被视作对杰洛特时代的一次盛大致敬与告别。"
+    ]
+  },
+  {
+    "id": "2026-08-26_gaming_1",
+    "date": "2026-08-26",
+    "category": "Gaming",
+    "subcat": "主机大作",
+    "platform": "PlayStation Blog",
+    "platform_color": "#7CF6A0",
+    "title": "《鬼武者:剑之道》试玩更新+新预告",
+    "url": "https://blog.playstation.com/2026/08/25/onimusha-way-of-the-sword-interview-demo-update-detailed-new-trailer-revealed/",
+    "image": "images/2026-08-26/2026-08-26_gaming_1.jpg",
+    "detail": [
+      "《鬼武者:剑之道》(Onimusha: Way of the Sword)是卡普空睽违多年重启的动作冒险系列新作,故事设定在江户时代初期的京都,玩家扮演传奇剑豪宫本武藏,借助超自然的「鬼」之力,对抗从地狱涌入人间的妖魔「幻魔」。为致敬经典,武藏的面部模型直接取材自日本电影巨匠三船敏郎,团队更与京都市深度合作还原清水寺、建仁寺等真实古建的细节。",
+      "北京时间 8 月 26 日凌晨的 Gamescom 开幕之夜直播(Opening Night Live),卡普空公布了第 6 支预告片,展示了对阵全新强敌的凌厉剑戟与武藏释放内在鬼之力的「鬼觉醒」演出。官方同时宣布本作将于 9 月 4 日正式发售,登陆 PS5、Xbox Series X/S、Switch 2 与 PC。制作人门胁明仁与总监仁井谷聪在采访中透露游戏做了「无前作知识也能上手」的重构,并针对 PS5 深度适配了触觉反馈、自适应扳机与 3D 音效。",
+      "更值得玩家立刻行动的是,PlayStation 商店上的免费试玩 Demo 已同步更新,新增可探索区域并加入巨型 Boss「大太郎」(Daidara)的对决。官方特别说明:试玩进度虽不会带入正式版,但通关可解锁「首明かり」护符并提升武藏属性,算是给早鸟玩家的实打实福利。",
+      "社区反应相当热烈,系列老粉对三船敏郎「复活」登场倍感情怀,而新玩家则被「一刀両断」的爽快斩击手感吸引;考虑到距发售仅一周,这波试玩更新被视为发售前最强的一次「催单」操作。"
+    ]
+  },
+  {
+    "id": "2026-08-26_ai_5",
+    "date": "2026-08-26",
+    "category": "AI",
+    "subcat": "投融资",
+    "platform": "AIbase",
+    "platform_color": "#7C9EF6",
+    "title": "英伟达洽谈投资Perplexity估值超300亿",
+    "url": "https://news.aibase.com/zh/news/30591",
+    "image": "images/2026-08-26/2026-08-26_ai_5.jpg",
+    "detail": [
+      "据《The Information》报道并经路透社等跟进,英伟达正洽谈投资AI搜索与智能体公司Perplexity,此轮股权融资规模达数十亿美元,交易对应估值有望突破300亿美元,较该公司一年前上一轮融资时的约200亿美元估值上涨逾50%。消息自8月24日起在中英文媒体持续发酵,成为AI投融资领域的焦点话题。",
+      "Perplexity的年化收入已从年初不足2.5亿美元猛增至超过7.5亿美元,增长两倍以上,其中相当一部分增长来自AI智能体产品\"Perplexity Computer\"——一款云端AI代理,可帮助专业人士自动执行多步骤的电脑任务,而智能体应用更高的Token消耗也可能进一步推高营收。",
+      "英伟达此前已是Perplexity投资方,今年3月Perplexity还加入了英伟达主导的Nemotron开放模型联盟;据报道英伟达曾一度考虑直接收购该公司以获取技术与人才。近期英伟达在AI软硬件赛道频频出手,涉及Poolside、Groq、Enfabrica等交易,意在打通硬件与应用端、完善全产业链布局。",
+      "业内分析认为,随着AI应用从聊天工具加速向智能体演进,英伟达正通过资本与算力生态双重布局强化其核心地位;被投企业往往也会回过头采购其GPU,形成收入回流的正循环。截至发稿,Perplexity与英伟达均未就该报道正式置评,交易能否落地仍待观察。"
+    ]
+  },
+  {
+    "id": "2026-08-26_ai_4",
+    "date": "2026-08-26",
+    "category": "AI",
+    "subcat": "芯片硬件",
+    "platform": "OpenAI",
+    "platform_color": "#7C9EF6",
+    "title": "OpenAI自研推理芯片Jalapeño首秀",
+    "url": "https://openai.com/index/jalapeno-first-results/",
+    "image": "images/2026-08-26/2026-08-26_ai_4.jpg",
+    "detail": [
+      "8月25日,OpenAI在斯坦福举行的Hot Chips芯片大会上,首次公布自研推理芯片Jalapeño的详细基准测试结果,官方称其在速度与能效上实现\"显著领先\",标志着OpenAI摆脱对第三方GPU依赖、迈向软硬件协同自研的关键一步。该芯片由OpenAI与博通合作研发,甚至用自家AI模型辅助设计,九个月即完成从概念到流片。",
+      "在SemiAnalysis的公开基准InferenceX上,Jalapeño与英伟达Blackwell等主流商用系统对比,端到端响应延迟降低1.7至3.6倍,每瓦完成的工作量提升1.5至1.9倍,面向AI智能体的实时交互场景性能更提升2.1至4.1倍。在万亿参数的Kimi K2.5模型上,其响应速度比对手快3.4倍且功耗更低,热设计功耗700瓦、实测常在550瓦以下。",
+      "OpenAI硬件副总裁Richard Ho表示,Jalapeño兼顾低延迟与高吞吐,\"提供两全其美\",其增益源于把芯片、内存、网络、软件与机架级系统围绕真实语言模型负载协同设计,尤其针对prefill与通信等常见瓶颈优化。芯片预计2026年底小批量出货,2027年规模部署。",
+      "The Verge、The Register等媒体注意到,此举呼应了谷歌TPU、亚马逊Trainium、微软Maia等自研浪潮,AI公司正加速摆脱对英伟达GPU的单一依赖。不过分析也提醒,基准对比的是英伟达现役Blackwell,待Jalapeño 2027年放量时,英伟达新架构或已缩小差距,长期竞争格局仍不明朗。"
+    ]
+  },
+  {
+    "id": "2026-08-26_ai_3",
+    "date": "2026-08-26",
+    "category": "AI",
+    "subcat": "芯片硬件",
+    "platform": "Apple",
+    "platform_color": "#7C9EF6",
+    "title": "苹果发布M6与M5 Ultra芯片",
+    "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+    "image": "images/2026-08-26/2026-08-26_ai_3.jpg",
+    "detail": [
+      "8月25日,苹果正式发布两款全新芯片——M6与M5 Ultra,分别首发于新款Mac mini与Mac Studio,主打性能与AI计算能力的\"巨大飞跃\"。M6是苹果首款采用2纳米制程的芯片,M5 Ultra则是苹果史上最强、首个四晶粒架构的M系列芯片。此次在9月发布会前突然更新,凸显桌面Mac已成为苹果押注本地AI的重要阵地。",
+      "M6配备12核CPU、12核GPU以及全新的双16核神经网络引擎,峰值算力较上代翻倍,统一内存带宽最高170GB/s,官方称其AI性能相比M4 Mac mini最高快4倍。M5 Ultra通过新一代UltraFusion技术将两枚M5 Max拼合为四晶粒,最高36核CPU、80核GPU,统一内存带宽达1.2TB/s,比M3 Ultra高出50%,可流畅运行本地大模型。",
+      "据CNBC、Engadget、WIRED等报道,越来越多AI爱好者与研究者购买Mac mini与Mac Studio在本地跑模型、训练与部署,苹果此番将神经加速器引入GPU、强调\"可在Mac上本地运行并微调大模型\",明显是在争夺AI开发者生态的落脚点。",
+      "不过价格也随之上涨:Mac mini起售价升至899美元,较上代贵100美元、较年初599美元版本贵了300美元,Mac Studio起售2499美元,搭载M5 Ultra版本至少5499美元。外媒普遍将涨价归因于内存成本飙升(业内戏称\"AI RAMaggedon\"),新品将于9月22日上市。"
+    ]
+  },
+  {
+    "id": "2026-08-26_ai_2",
+    "date": "2026-08-26",
+    "category": "AI",
+    "subcat": "产品发布",
+    "platform": "字节跳动",
+    "platform_color": "#7C9EF6",
+    "title": "字节发布\"豆包工作\"办公智能体",
+    "url": "https://www.donews.com/news/detail/1/845761.html",
+    "image": "images/2026-08-26/2026-08-26_ai_2.jpg",
+    "detail": [
+      "8月25日,字节跳动正式发布面向办公场景的智能体产品\"豆包工作\",主打自主拆解任务、自动调用工具、多智能体协作,试图把AI从\"问答助手\"升级为能独立完成复杂工作的\"数字同事\"。原飞书内的豆包企业版入口同步升级为\"豆包工作\",并提供30天免费试用。",
+      "产品最大亮点是与飞书深度打通:豆包工作可继承企业上下文,调用聊天记录、文档、会议纪要与日程等信息,从而更懂团队与业务背景。它还支持AI协同编辑(框选修改)、浏览器与电脑操作、云端电脑长任务执行、手机远程操控,并具备技能、连接器与工作伙伴生态,能编排多智能体团队协同办公。",
+      "据界面新闻、证券时报、光明网等多家媒体报道,豆包工作被定位为国内首个通过双重认证的办公智能体,直接对标腾讯WorkBuddy、阿里千问办公与百度等竞品。当日上午10点多DoNews、界面新闻率先披露,随后新华财经、证券时报等跟进,形成较高热度。",
+      "分析指出,随着大模型能力趋同,办公Agent正成为国内厂商争夺企业市场的新战场。字节依托飞书庞大的企业用户基础与协同数据优势,有望在这一赛道快速铺开,但能否真正提升生产力、并跨越企业数据合规与员工信任门槛,仍需在真实办公流程中接受检验。"
+    ]
+  },
+  {
+    "id": "2026-08-26_ai_1",
+    "date": "2026-08-26",
+    "category": "AI",
+    "subcat": "产品发布",
+    "platform": "OpenAI",
+    "platform_color": "#7C9EF6",
+    "title": "OpenAI推出ChatGPT Work管理员插件",
+    "url": "https://openai.com/index/introducing-admin-plugin/",
+    "image": "images/2026-08-26/2026-08-26_ai_1.jpg",
+    "detail": [
+      "8月25日,OpenAI正式发布面向ChatGPT Work与Codex的管理员插件(Admin plugin),让企业工作区管理员可以在一次对话中完成信息分析、设置更新与请求处理,把原本分散在管理控制台里的操作,转化为自然语言驱动的智能任务。这被视为OpenAI推动企业级AI从\"聊天\"走向\"自动化管理\"的重要一步。",
+      "据官方介绍,该插件会把管理员的指令映射到相应的读或写操作,并返回结构化结果,同时严格遵守工作区策略与审批要求。管理员可借此了解各团队的采用与积分使用情况、增删成员与用户组、审阅权限与诊断访问问题、调整用量与支出上限并审批相关请求,实现\"权限感知\"的安全操作。",
+      "在官方演示中,OpenAI员工Aarti Bagul模拟月度AI推广复盘:她询问过去30天各团队的采用与积分变化,要求生成对比图表,随后审批用量请求,最终让ChatGPT自动生成演示文稿并分享到Slack频道,全程无需切换后台。该插件现已在ChatGPT Work的插件目录中上线。",
+      "业内认为,这一功能瞄准企业IT运维与合规痛点,把管理动作嵌入员工日常已在使用的对话入口,有望降低大规模部署AI的门槛。9to5Mac、Investing.com与路透社均在当日跟进报道,凸显OpenAI在企业市场与Anthropic、谷歌激烈竞争下持续加码办公场景的战略意图。"
+    ]
+  }
+]
