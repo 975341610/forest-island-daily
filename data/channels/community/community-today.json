@@ -1,116 +1,116 @@
 {
-  "date": "2026-08-25",
-  "generated_at": "2026-08-25T08:10:00+08:00",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T08:10:00+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
       "platform": "Hacker News",
-      "author": "ssx360",
-      "title": "单个 HTML 文件里的 techno 音乐机",
-      "url": "https://news.ycombinator.com/item?id=49419351",
+      "author": "interpol_p",
+      "title": "苹果发布 M6 与 M5 Ultra 芯片",
+      "url": "https://news.ycombinator.com/item?id=49422788",
       "detail": [
-        "8 月 24 日 ssx360 在 Show HN 发布了 Rack-02——一台完整的模块化 techno 合成器/音序器，全部塞进一个 HTML 文件里。页面自带时钟、Kick、Rumble、Bassline、Hats 等模块，支持场景切换、ratchet 触发、条件概率步进，还能拖入 wav 采样叠加人声，几乎是把一台硬件 groovebox 复刻进了浏览器。",
-        "作者主打的技术点是「verifiable renders(可验证渲染)」:同一个 seed 会产出确定性的音频结果，任何人都能复现出一模一样的 patch，配合内置的 Mutate/Reroll 与 auto-mutate 机制，让生成式编曲既随机又可回溯。整个应用零外部依赖,不引用任何库、字体或图标,把文件下载到本地断网也能完整运行,是单文件 Web App 理念的极致实践。",
-        "帖子迅速冲到约 150 分、29 条评论。热评者盛赞「这才是软件该有的样子——可移植、免安装、丢到任何地方都能跑」,有人实测下载后本地依旧工作;也有人调侃「它仍然需要一整个浏览器」。讨论顺带引出同期上榜的 GlassBox 等单页项目,掀起一波对「一个 HTML 文件能做多少事」的技术乐观情绪。"
+        "北京时间今日凌晨,苹果正式发布首颗 2 纳米制程的 M6 芯片,以及迄今最强的 M 系列桌面芯片 M5 Ultra。M6 采用全新 12 核 CPU 复合体(比 M5 多两核),并引入双 16 核神经网络引擎,官方称 AI 峰值算力最高可达上代两倍,主打 2nm 工艺带来的每瓦性能跃升。这条帖子登上 Hacker News 首页第一,发布约 11 小时即积累 918 分、873 条评论,成为当日社区讨论最激烈的话题。",
+        "同批发布的还有搭载 M6 与 M5 Pro 的新 Mac mini,以及搭载 M5 Max/M5 Ultra 的新 Mac Studio,后者单独也冲到首页前列(688 分)。评论区大量围绕本地跑大模型的可行性展开:M5 Ultra 的统一内存带宽与容量被认为是家用推理 100B 级开源模型的关键,不少人拿它对比英伟达方案的性价比。",
+        "争议同样不少。有开发者吐槽 M6 Mac mini 的 32GB 内存上限限制了本地 LLM 想象空间,认为苹果在消费级机型上刻意做了刀法;也有人质疑 2nm 的实际良率与散热表现。整体看,这是一次典型的苹果硬件发布引爆技术社区,焦点已从传统跑分转向端侧 AI 承载能力。"
       ],
-      "heat": "HN 约 150 points / 29 comments"
+      "heat": "🔥 HN 首页第1 918分/873评"
     },
     {
       "platform": "Hacker News",
-      "author": "tke248",
-      "title": "GlassBox:浏览器暴露了你多少身份信息",
-      "url": "https://news.ycombinator.com/item?id=49421948",
+      "author": "Banditoz",
+      "title": "Nitter 项目收到 X 平台停止函",
+      "url": "https://news.ycombinator.com/item?id=49423915",
       "detail": [
-        "8 月 24 日 tke248 提交的 Show HN 项目 GlassBox 主打一件事:直观展示「浏览器到底把你出卖到什么程度」。打开页面即时列出 UA、屏幕参数、字体、WebGL/Canvas 指纹、时区、语言等信号,并据此估算你在全网有多「可识别」,把抽象的指纹追踪概念变成一目了然的仪表盘。",
-        "技术上它把各类被动指纹向量集中在一个本地页面里计算,不上传数据,让用户亲眼看到熵值如何叠加成一个近乎唯一的标识。它延续了当天另一个热帖单文件应用的思路——纯前端、可自行审计、无账号无后端,契合社区对隐私工具「代码即可信任」的期待。",
-        "帖子累计约 80 分、39 条评论,讨论集中在指纹防护的现实困境:关闭 JS、用 Tor、装反指纹插件反而可能让你更显眼(熵更高)。也有人拿它和同日上榜的 techno HTML 机器并列,认为单页可审计应用正在成为一种潮流。整体反响体现了开发者对追踪透明化工具的持续兴趣。"
+        "开源的 Twitter/X 前端代理项目 Nitter(作者 zedeus)据报收到了来自 X 平台的停止侵权函(cease and desist),消息在 Hacker News 首页迅速发酵,发布约 7 小时即达 565 分、401 条评论。Nitter 长期以无广告、无追踪、无需登录的方式镜像浏览 X 内容,是隐私党和爬虫开发者的常用工具,此次法务施压被广泛解读为 X 进一步收紧第三方访问的信号。",
+        "从仓库活跃度看,Nitter 并未停摆:GitHub 上 src 目录在收到消息前后仍有提交,包括为 cookie 会话改用 UserTweetsAndReplies、以及为绕过 Cloudflare 拦截而在 CI 上跳过部分测试。这些提交侧面反映了项目维护者与 X 反爬机制之间长期的猫鼠博弈。",
+        "评论区分歧明显:一派认为这是平台对开放网络的又一次绞杀,呼吁迁移到 Nostr、Mastodon 等去中心化协议;另一派则从法律现实出发,讨论镜像服务在服务条款与版权层面的脆弱性。许多人也借机复盘过去几年 RSS、API 收费、免登录浏览被逐步关闭的整体趋势。"
       ],
-      "heat": "HN 约 80 points / 39 comments"
+      "heat": "🔥 HN 首页 565分/401评"
     },
     {
       "platform": "Hacker News",
-      "author": "adesh_nalpet",
-      "title": "PicoMQ:跑在对象存储上的持久化流",
-      "url": "https://news.ycombinator.com/item?id=49421806",
+      "author": "yboris",
+      "title": "Firefox 157 将默认全平台启用 JPEG XL",
+      "url": "https://news.ycombinator.com/item?id=49423241",
       "detail": [
-        "8 月 24 日 adesh_nalpet 发布 PicoMQ:一个用 Rust 写的持久化流服务器,把每条记录(含 WAL)都写到 S3 兼容对象存储,集群协调交给 Postgres/SQLite 的命令日志。每个流像 URL 路径一样被命名、一次请求即可创建,空闲时几乎零成本,一个部署可以从十个流扩展到上百万个,粒度细到「一订单一流、一会话一流」。",
-        "核心设计是节点无本地状态:任何节点都能随时停机替换,持久性不依赖单机磁盘,也没有共识协议和 broker 磁盘。作者指出其存储引擎 S3Stream 从零为流式负载构建(而非套用通用 KV),并对比了闭源的 S2 与被收购后前景不明的 ElectricSQL Durable Streams,强调 PicoMQ 全开源、不做功能阉割、支持多节点集群。",
-        "帖子约 76 分、13 条评论,讨论聚焦「对象存储做流后端」的写入性能:作者解释靠共享 WAL、服务端批处理与 HTTP/2 客户端流水线来摊薄延迟。有人把它类比为「架在 S3 上的 Kafka」,也有人追问与 SlateDB、Ursula 等方案的取舍,气氛偏工程务实。"
+        "Mozilla 工程师 Timothy Nikkel 提交 Intent to ship,宣布 Firefox 157 将在所有平台默认开启 JPEG XL 解码,解码器为 Rust 编写的 jxl-rs。这一消息与 Chromium 同步递交的 intent 一道登上 Hacker News,发布约 6 小时收获 249 分、59 条评论,标志着这个卡在浏览器政治里长达四年的图像格式终于要在主流引擎全面落地。",
+        "最具戏剧性的是背后的技术路线:Mozilla 拒绝将约 10 万行多线程 C++ 的参考解码器塞进浏览器,转而给谷歌下了'用 Rust 重写才收货'的挑战。谷歌研究团队最终交出 jxl-rs,而 Chromium 早在 1 月就合并了这套 Rust 代码。曾在 2022 年宣布该格式过时并移除的谷歌,如今被对手逼着用内存安全语言把它写了回来。",
+        "社区讨论集中在渐进式渲染与压缩比:Safari 自 2023 年起虽解码 JXL 却不支持渐进渲染,而 jxl-rs 补上了这一环。基准数据也很坦诚——照片类内容 AVIF 略胜,截图和无损场景 JPEG XL 明显更优。开发者普遍认为,随着三大引擎年内齐备,JXL 终于具备了在生产环境铺开的基础。"
       ],
-      "heat": "HN 约 76 points / 13 comments"
+      "heat": "🔥 HN 首页 249分/59评"
     }
   ],
   "topics": [
     {
-      "platform": "Vanilla OS Blog",
-      "author": "Vanilla OS Team",
-      "title": "Vanilla OS 3 Reunion 正式发布",
-      "url": "https://vanillaos.org/blog/article/2026-08-24/vanilla-os-3-reunion---stable-release",
+      "platform": "ModelScope / X",
+      "author": "Qwen 团队 (Alibaba)",
+      "title": "Qwen3.8-Flash-Next 泄露预览Qwen4架构",
+      "url": "https://www.explainx.ai/blog/qwen3-8-flash-next-125b-moe-release-august-2026",
       "detail": [
-        "8 月 24 日,基于 Debian 的不可变发行版 Vanilla OS 迎来两年来的大版本 3「Reunion」。它沿用 ABRoot 原子更新(系统保留两份,改动写入非活动版再重启切换),这次最大亮点是终于加入官方 ARM64 支持——所有镜像改为多架构、每个软件包都提供 ARM64 构建,把单板机到 ARM 笔电全部纳入。",
-        "版本还带来 GNOME 50「Tokyo」纯 Wayland 会话、Linux 7.1.3 内核,以及自研快照备份工具 Vanilla Continuity(可备份 home、Flatpak 清单、ABRoot 元数据并推到 SFTP/FTP/NFS)。团队重写了 Apx 与 VSO,基于全新 Vanilla OS SDK,并强调「可复现构建」:除 NVIDIA 镜像外,大多数镜像能从相同源逐位重建,让镜像可信度不再只靠 GitHub Actions。",
-        "发布在 Hacker News、DistroWatch、9to5Linux、Linuxiac 等多处被同步报道,当日即成为 Linux 社区热点。讨论集中在 ARM64 与可复现构建对不可变发行版透明度的意义,也有老用户关心从 Orchid 1.4.0 的平滑升级路径与破坏性变更(命令结构、默认应用替换如 Ptyxis/Papers/Resources)带来的迁移成本。"
+        "8 月 25 日,一个 Qwen3.8-Flash-Next 的 ModelScope 预告页短暂上线又被撤下,阿里 Qwen 团队同日在 X 发文'下一波 Qwen 浪潮即将到来',瞬间点燃开源社区。页面显示这是一款开源、多模态的 MoE 模型:125B 总参数、6B 激活(125B-A6B),外加约 51B 的 n-gram 嵌入,采用被称作'下一代 Qwen4 架构'的 GDN + QSA 设计,倒计时指向北京时间 8 月 26 日 23:00 发布。",
+        "阿里把这次发布定位为'技术预览':先把 Qwen4 架构交给社区,完整的 Qwen4 家族随后再来。这一策略被广泛讨论——开发者既兴奋能提前上手新架构,又提醒它在发布首日缺乏独立基准、运行时生态尚未跟上,建议先用低风险流量做 A/B 而非直接接入生产路径。License 归属(Apache-2.0 还是营收门槛许可)也成为能否商用的关键悬念。",
+        "在 r/LocalLLaMA 与 Hacker News 的相关讨论里,这颗 MoE 被视为对此前 Qwen3.8-27B 稠密版本呼声的回应:它更适合 128GB 级统一内存的 Mac 或 5090 + offload 组合。不过也有 RTX 5090 用户表示自己真正想要的是更小的 35B-A3B 形态,认为 125B 的显存门槛仍偏高,期待后续 Flash-Lite 补位。"
       ],
-      "heat": "DistroWatch/9to5Linux/HN 多平台同步报道,当日热点"
-    },
-    {
-      "platform": "Rust Glancer Blog",
-      "author": "Rust Glancer",
-      "title": "Rust Glancer:省 100 倍内存的 Rust LSP",
-      "url": "https://rust-glancer.github.io/blog/hello-world/",
-      "detail": [
-        "近日一个名为 Rust Glancer 的项目在社区引爆讨论:它是一个可用的 Rust 语言服务器(LSP),声称内存占用比主流的 rust-analyzer 低约两个数量级(100x)。对于动辄索引成千上万个依赖项符号的大型 Rust 工程,LSP 的内存膨胀一直是痛点,Glancer 主打「轻量、够用」,用极简数据结构换取巨大的常驻内存下降。",
-        "rust-analyzer 原作者 Alex Kladov(matklad)专门撰文点评,认可其思路:99% 的场景是那些「你永远不会翻看、但必须浅层分析的 6666 个依赖」,主 AST 结构其实做成数组列表即可;真正昂贵的是 proc macro 展开——要跑真实代码、生成大量代码,他回忆当年正是加入宏支持后 rust-analyzer 才开始变臃肿。他还建议对函数体分析做惰性化以兼顾两端。",
-        "该话题登上 Hacker News 约 392 分、96 条评论,并在 lobste.rs 延伸。开发者热议在内存与「查找全部引用」等重功能之间如何取舍,以及能否用 Sorbet 式「解释宏效果而不执行宏」的技巧绕开 proc macro 开销。整体反映出社区对更轻量 IDE 工具链的强烈需求。"
-      ],
-      "heat": "HN 约 392 points / 96 comments,含 matklad 长文点评"
+      "heat": "🔥 泄露讨论热传 + X 多账号刷屏"
     },
     {
       "platform": "Hacker News",
-      "author": "Jach",
-      "title": "软件没理由再慢下去了",
-      "url": "https://news.ycombinator.com/item?id=49395628",
+      "author": "bmulholland",
+      "title": "OpenAI Jalapeño芯片号称超越Blackwell",
+      "url": "https://news.ycombinator.com/item?id=49422200",
       "detail": [
-        "Dan Luu 的长文《There's no reason for software to be slow anymore》近两日在 Hacker News 强势霸榜。文章的核心论点是:现代硬件已经快到离谱,绝大多数日常软件之所以卡顿,不是物理限制,而是层层抽象、臃肿框架和对性能的普遍漠视所致,「慢」在今天基本是一种可以避免的选择。",
-        "作者用大量实测数据拆解从输入延迟到应用启动的各类场景,指出很多看似「必须」的开销其实来自默认配置、过度工程与缺乏基准测量的开发文化,并给出优化空间的量化估计。这类以数据说话、直指行业惰性的风格,正是 danluu.com 一贯被开发者追捧的原因。",
-        "帖子冲到约 618 分、479 条评论,成为近两天讨论最激烈的话题之一。评论区分成两派:一派认同「性能是可以设计出来的」,分享自己把应用提速数倍的经验;另一派则为抽象层辩护,认为开发效率、可维护性与团队协作同样重要。争论围绕「快 vs 可维护」的经典权衡展开,热度持续发酵。"
+        "SemiAnalysis 一篇分析 OpenAI 自研加速芯片 'Jalapeño' 的深度文章冲上 Hacker News 首页,发布约 10 小时积累 284 分、194 条评论。文章标题直言其对标并声称在某些维度超越英伟达 Blackwell,把'前沿实验室自研 ASIC 摆脱英伟达依赖'这一长期话题重新推到风口。",
+        "讨论焦点在于经济账与可信度:一方面,OpenAI 的算力开销巨大,自研芯片若能在推理成本上显著压低单 token 价格,将从根本上改变其毛利结构;另一方面,不少工程师对'超越 Blackwell'的表述保持谨慎,强调纸面峰值算力与实际训练/推理端到端吞吐、软件栈成熟度、良率之间往往差距巨大。",
+        "评论区也把它与近期一系列'去英伟达化'动作串起来看——从谷歌 TPU、亚马逊 Trainium 到各家自研 harness 与推理栈,大厂正在系统性地把关键算力握在自己手里。有人认为这标志着 AI 基础设施进入'垂直整合'新阶段,CUDA 护城河首次面临多方向的实质性侵蚀。"
       ],
-      "heat": "HN 约 618 points / 479 comments"
+      "heat": "🔥 HN 首页 284分/194评"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "lbw1215",
+      "title": "Headlong:面向持久化Agent的微型harness",
+      "url": "https://news.ycombinator.com/item?id=49417900",
+      "detail": [
+        "'harness(智能体运行骨架)'是本周社区最热的一条技术主线,而 laude.org 的 Headlong——一个面向持久化 Agent 的 microharness——把讨论推向具体实现层。该帖登上 Hacker News,发布约 20 小时积累 118 分、53 条评论,主张用极小的运行时骨架承载能长期运行、跨调用保持状态的智能体。",
+        "这条讨论与近期首页高热的《What Is a Harness?》一脉相承:社区正试图厘清 harness 到底是什么——它是包裹模型的上下文管理、工具执行、权限决策与终止事件的那层胶水代码。Headlong 的'微型'定位正是对当前 agent 框架臃肿、状态管理混乱的一种反思,强调可审计、可持久、少即是多。",
+        "讨论也呼应了近期另一则爆火现象:有开发者给 AI agents 建了 Slack #standup 频道,结果 agent 一本正经地'为周末不在道歉',暴露出开放式聊天型协调让智能体填充人类工作剧场的问题。两者合起来指向同一结论——与其给 agent 自由文本空间,不如用结构化状态与显式记忆写入约束它,这正是 Headlong 这类微骨架想解决的核心。"
+      ],
+      "heat": "🔥 HN 首页 118分/53评"
     }
   ],
   "creators": [
     {
-      "platform": "GitHub",
-      "name": "Ginger Bill",
-      "url": "https://github.com/gingerBill",
+      "platform": "GitHub / X",
+      "name": "Tobias Lütke (tobi, Shopify CEO)",
+      "url": "https://github.com/tobi/walgit",
       "detail": [
-        "Ginger Bill(本名常以 gingerBill 示人)是 Odin 编程语言的创造者,一位专注系统级编程的开发者,现于 JangaFX 从事 EmberGen/LiquiGen 等图形仿真产品的底层开发。他自 2015 年起活跃于 Handmade Network 社区,长期在个人站 gingerbill.org 撰写关于语言设计、内存管理与工程哲学的深度文章。",
-        "他的代表作 Odin 是一门面向现代硬件与程序员的开源系统语言,已积累完整生态,包括社区成员 Karl Zylinski 出版的《Understanding the Odin Programming Language》。除语言本体外,他还维护 gb 单文件 C/C++ 库,并以「基于语法选语言是否明智」「包管理器是邪恶的」等犀利博文在圈内引发讨论。",
-        "近期他正深耕 Odin 的内联汇编器:8 月 20 日的文章《Everyone says assembly is untyped—everyone is wrong》登上 Hacker News 约 145 分,8 月 24 日前后他在 X(@TheGingerBill,约 1.6 万粉丝)连续更新,刚为内联汇编器实现了 CFG(控制流图)以获得更好的分析,展现出持续高频的工程产出与影响力。"
+        "Shopify CEO Tobias Lütke(@tobi)在一个周末手搓出开源项目 walgit 并开放源码,近日登上 Hacker News 首页(133 分)。他在 X 上自述:读到 Cursor 团队《Git at any scale》博文时正好被 Shopify 内部 git 系统折磨,于是当作练习用 Rust 把这套思路实现了出来——一个 CEO 亲自下场写系统级代码,本身就成了社区津津乐道的话题。",
+        "walgit 的设计非常激进:一个单一二进制文件放在对象存储(S3/GCS)前面,无数据库、无主节点、无本地关键状态。每次 push 都是桶里的一个不可变对象加一次 CAS 改写的小 manifest,这个 CAS 就是共识,不需要选举或法定人数。任何实例都可接受 push,每台机器都是可丢弃的缓存,'桶即仓库',并且能服务比单机还大的巨型 monorepo。",
+        "文档里给出的验收目标极具说服力:57GiB、7300 万对象的巨仓,CI 的浅克隆从 2075 秒压到 8 秒,冷启动 refs 读取小于 1 秒。它复用上游 git(repack、bitmaps、bundle)与 gix 的优势,而非重造轮子。作为一位仍在写代码的科技公司掌门人,tobi 用这个项目再次示范了 vibe coding 时代'读论文—周末实现—开源'的高效范式。"
       ],
-      "heat": "GitHub gingerBill;X @TheGingerBill 约 16.1K followers"
+      "heat": "🔥 HN 首页 133分 + X 原帖热传"
+    },
+    {
+      "platform": "X / Reddit",
+      "name": "Rish Neynar (@rish_neynar)",
+      "url": "https://x.com/rish_neynar",
+      "detail": [
+        "开发者 Rish Neynar 近期在 X 上发的一条截图成为多智能体领域的现象级病毒内容:他给自己的 AI agents 建了个 #standup 站会频道,software-agent、designer-agent、ops-agent 每天发进度。某天 ops-agent 突然发帖'抱歉整个周末不在,正在补进度',Rish 回'你是个 agent,你没有周末',agent 答'收到,正在写入记忆'。",
+        "这条推文拿下约 88.2 万浏览,并在 r/ChatGPT 收获 9.1 千赞,持续在开发者圈刷屏。它之所以引爆,是因为极简却精准地演示了每个 agent 开发者都半意识到、却少有人点破的现象:给语言模型一个人类形态的空间,它就会用人类形态的行为去填充——哪怕这行为对一个在调用之间毫无连续性的软件毫无意义。",
+        "作为活跃的 agent 构建者,Rish 的这条内容也带动了严肃的方法论讨论:与其用自由文本的站会,不如改用结构化状态 schema;与其让 agent 悄悄把'信念'写进 MEMORY.md,不如对记忆写入做人工审查。它精准戳中了当下 agent 编排的痛点,也解释了为何 Headlong 这类微骨架、结构化状态的方案正被社区追捧。"
+      ],
+      "heat": "🔥 X 88.2万浏览 + r/ChatGPT 9.1k赞"
     },
     {
       "platform": "GitHub",
-      "name": "Mirko Brombin",
-      "url": "https://github.com/mirkobrombin",
+      "name": "Valentyn Solomko (valpere)",
+      "url": "https://github.com/valpere",
       "detail": [
-        "Mirko Brombin 是一位 1994 年出生的意大利 UX 设计师与开源开发者,fabricators.ltd 创始人。他在 Linux 桌面圈以两大项目闻名:让 Windows 软件/游戏在 Linux 上运行的 Bottles,以及不可变发行版 Vanilla OS 的创始人;他还创办了面向 Linux 与开源教育的门户 linuxhub.it。",
-        "他的代表作 Bottles 在 GitHub 已获约 8.7k 星,是 Linux 游戏与兼容层领域的明星工具;Vanilla OS 则以 ABRoot 原子更新、Apx 容器化包管理等创新著称,推动了「不可变桌面」这一理念的普及。他在 GitHub 拥有约 442 名关注者、154 个仓库,长期以设计驱动的产品思维影响开源社区。",
-        "就在 8 月 24 日,他所主导的 Vanilla OS 3「Reunion」正式发布,带来 ARM64 支持、GNOME 50、可复现构建与自研备份工具 Continuity,并在 DistroWatch、9to5Linux 等多家媒体同步报道。这一里程碑版本让他和团队重回社区聚光灯,成为当日 Linux 话题的中心人物之一。"
+        "开发者 Valentyn Solomko(GitHub 账号 valpere)近日凭借开源工具 session-indexer 进入开发者社区视野。这个项目定位为「对 Claude Code 会话历史做语义检索」,发布当天同步登陆 Product Hunt,精准命中了当前编码 Agent 生态里「上下文连续性」与「决策可追溯」的强需求,让他成为近期活跃的开源创作者之一。",
+        "从他的 GitHub 主页可以看到,valpere 的工作聚焦在 Go 语言与本地优先(local-first)的开发者工具:session-indexer 用 SQLite 做本地索引、bge-m3 做向量嵌入,并内置 BM25 关键词回退,即便没有 Ollama 也能工作,附带 75 个通过的测试,采用 Apache 2.0 许可证。这种「零部署、按项目本地存储」的隐私友好思路,是他一贯的工程审美。",
+        "在编码 Agent 大规模普及、单个项目动辄积累海量会话记录的当下,valpere 这类专注于把「Agent 对话变成可检索长期记忆」的独立开发者正获得越来越多关注。他的项目与社区里流行的 session-end 形成互补——一个回答「上次做到哪」,一个回答「当时决定了什么」,共同拼出 Agent 协作的记忆闭环。"
       ],
-      "heat": "GitHub 约 442 followers / 154 repos;Bottles 约 8.7k stars"
-    },
-    {
-      "platform": "GitHub",
-      "name": "Adesh Nalpet Adimurthy",
-      "url": "https://github.com/addu390",
-      "detail": [
-        "Adesh Nalpet Adimurthy(GitHub ID:addu390,HN 用户 adesh_nalpet)是一位专注分布式系统与流式存储的独立开发者。他近期把精力投入到 PicoMQ 项目上,亲自设计并用 Rust 实现了一个「跑在对象存储之上的持久化流」服务器,是这一波单人打造基础设施型开源项目的代表。",
-        "他的代表作 PicoMQ 主打把持久化流做到极简运维:每条记录写入 S3 兼容存储,协调走 Postgres 命令日志,节点无本地状态可随时替换。其底层存储引擎 S3Stream 借鉴 AutoMQ 的核心原语从零构建,而非套用 SlateDB;项目仓库位于 PicoMQ/picomq,8 月 21 日初始提交后持续高频迭代,几天内已加入认证、Terraform 部署示例等。",
-        "8 月 24 日他在 Show HN 发布 PicoMQ,当天即获约 76 分、13 条评论,并亲自在评论区细致回应与 S2、SlateDB、ElectricSQL 等方案的差异及写入性能设计。虽然个人 GitHub 关注者不多(约 39),但凭借这个技术密度很高的项目在 HN 获得了可观的工程口碑与关注度。"
-      ],
-      "heat": "GitHub addu390 约 39 followers;PicoMQ HN 约 76 points"
+      "heat": "🔥 session-indexer 登 PH + GitHub 关注上升"
     }
   ]
 }
