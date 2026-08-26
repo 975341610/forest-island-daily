@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-26": {
-      "block/buzz": 1,
-      "permissionlesstech/bitchat": 2,
-      "koala73/worldmonitor": 3,
-      "citrolabs/ego-lite": 4,
-      "yorukot/superfile": 5,
-      "ComposioHQ/awesome-claude-skills": 6,
-      "ruvnet/RuView": 7,
-      "earendil-works/pi": 8,
-      "Automattic/harper": 9,
-      "pbakaus/impeccable": 10,
-      "alibaba/open-code-review": 11,
-      "palmier-io/palmier-pro": 12,
-      "Lordog/dive-into-llms": 13,
-      "OtterMind/Chat2DB": 14,
-      "Pumpkin-MC/Pumpkin": 15,
-      "shiyu-coder/Kronos": 16,
-      "Alishahryar1/free-claude-code": 17,
-      "usestrix/strix": 18,
-      "pingdotgg/t3code": 19,
-      "heygen-com/hyperframes": 20,
-      "rtk-ai/rtk": 21,
-      "n8n-io/n8n": 22,
-      "multica-ai/multica": 23,
-      "anthropics/claude-cookbooks": 24,
-      "agegr/pi-web": 25
-    },
     "2026-07-27": {
       "block/buzz": 1,
       "permissionlesstech/bitchat": 2,
@@ -836,6 +809,33 @@
       "garrytan/gstack": 23,
       "bytedance/deer-flow": 24,
       "lfnovo/open-notebook": 25
+    },
+    "2026-08-26": {
+      "freestylefly/awesome-gpt-image-2": 1,
+      "openai/codex": 2,
+      "basecamp/omarchy": 3,
+      "Alishahryar1/free-claude-code": 4,
+      "stablyai/orca": 5,
+      "multica-ai/andrej-karpathy-skills": 6,
+      "AgriciDaniel/claude-obsidian": 7,
+      "NousResearch/hermes-agent": 8,
+      "apache/maka": 9,
+      "tinyhumansai/openhuman": 10,
+      "makeplane/plane": 11,
+      "tashfeenahmed/freellmapi": 12,
+      "anthropics/claude-plugins-community": 13,
+      "can1357/oh-my-pi": 14,
+      "addyosmani/agent-skills": 15,
+      "block/buzz": 16,
+      "rust-lang/rust": 17,
+      "marin-community/marin": 18,
+      "TauricResearch/TradingAgents": 19,
+      "byoungd/up": 20,
+      "Shubhamsaboo/awesome-llm-apps": 21,
+      "QuantumNous/new-api": 22,
+      "openai/codex-plugin-cc": 23,
+      "shy3130/tick-stock-panel": 24,
+      "decolua/9router": 25
     }
   }
 }
