@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-27": {
-      "block/buzz": 1,
-      "permissionlesstech/bitchat": 2,
-      "citrolabs/ego-lite": 3,
-      "alibaba/open-code-review": 4,
-      "ComposioHQ/awesome-claude-skills": 5,
-      "pbakaus/impeccable": 6,
-      "OtterMind/Chat2DB": 7,
-      "anthropics/claude-cookbooks": 8,
-      "Pumpkin-MC/Pumpkin": 9,
-      "Automattic/harper": 10,
-      "shiyu-coder/Kronos": 11,
-      "permissionlesstech/bitchat-android": 12,
-      "andrewyng/aisuite": 13,
-      "xbtlin/ai-berkshire": 14,
-      "pingdotgg/t3code": 15,
-      "yorukot/superfile": 16,
-      "tashfeenahmed/freellmapi": 17,
-      "decolua/9router": 18,
-      "fqscfqj/Y2A-Auto": 19,
-      "byoungd/up": 20,
-      "BuilderIO/agent-native": 21,
-      "Crosstalk-Solutions/project-nomad": 22,
-      "ollama/ollama": 23,
-      "huggingface/speech-to-speech": 24,
-      "wailsapp/wails": 25
-    },
     "2026-07-28": {
       "permissionlesstech/bitchat": 1,
       "citrolabs/ego-lite": 2,
@@ -836,6 +809,33 @@
       "openai/codex-plugin-cc": 23,
       "shy3130/tick-stock-panel": 24,
       "decolua/9router": 25
+    },
+    "2026-08-27": {
+      "freestylefly/awesome-gpt-image-2": 1,
+      "tt-a1i/archify": 2,
+      "basecamp/omarchy": 3,
+      "AgriciDaniel/claude-obsidian": 4,
+      "TauricResearch/TradingAgents": 5,
+      "anthropics/claude-plugins-community": 6,
+      "Alishahryar1/free-claude-code": 7,
+      "tinyhumansai/openhuman": 8,
+      "marin-community/marin": 9,
+      "apache/maka": 10,
+      "tashfeenahmed/freellmapi": 11,
+      "Panniantong/Agent-Reach": 12,
+      "anthropics/claude-plugins-official": 13,
+      "github/spec-kit": 14,
+      "addyosmani/agent-skills": 15,
+      "can1357/oh-my-pi": 16,
+      "browser-use/browser-use": 17,
+      "K-Dense-AI/scientific-agent-skills": 18,
+      "every-app/open-seo": 19,
+      "makeplane/plane": 20,
+      "tickernelz/opencode-mem": 21,
+      "ConardLi/garden-skills": 22,
+      "RizRiyz/luvus": 23,
+      "HKUDS/CLI-Anything": 24,
+      "poteto/hiring-without-whiteboards": 25
     }
   }
 }

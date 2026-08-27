@@ -12,8 +12,8 @@
     },
     "Alishahryar1/free-claude-code": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 3019,
+      "appearances": 4,
+      "total_today_stars": 3555,
       "language": "Python",
       "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -21,8 +21,8 @@
     },
     "basecamp/omarchy": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 2889,
+      "appearances": 4,
+      "total_today_stars": 3913,
       "language": "Shell",
       "description": "Beautiful, Modern & Opinionated Linux",
       "owner_avatar": "https://avatars.githubusercontent.com/u/13131?v=4",
@@ -75,8 +75,8 @@
     },
     "freestylefly/awesome-gpt-image-2": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 4548,
+      "appearances": 4,
+      "total_today_stars": 8598,
       "language": "JavaScript",
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43960064?v=4",
@@ -84,8 +84,8 @@
     },
     "makeplane/plane": {
       "best_rank": 10,
-      "appearances": 3,
-      "total_today_stars": 1141,
+      "appearances": 4,
+      "total_today_stars": 1275,
       "language": "TypeScript",
       "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/115727700?v=4",
@@ -120,17 +120,17 @@
     },
     "can1357/oh-my-pi": {
       "best_rank": 11,
-      "appearances": 3,
-      "total_today_stars": 949,
+      "appearances": 4,
+      "total_today_stars": 1220,
       "language": "TypeScript",
       "description": "⌥ Coding agent with the IDE wired in",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11807264?v=4",
       "html_url": "https://github.com/can1357/oh-my-pi"
     },
     "anthropics/claude-plugins-community": {
-      "best_rank": 10,
-      "appearances": 3,
-      "total_today_stars": 1065,
+      "best_rank": 6,
+      "appearances": 4,
+      "total_today_stars": 1603,
       "language": "Python",
       "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -245,9 +245,9 @@
       "html_url": "https://github.com/multica-ai/andrej-karpathy-skills"
     },
     "tinyhumansai/openhuman": {
-      "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 1057,
+      "best_rank": 8,
+      "appearances": 3,
+      "total_today_stars": 1582,
       "language": "Rust",
       "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
@@ -255,17 +255,17 @@
     },
     "apache/maka": {
       "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 954,
+      "appearances": 3,
+      "total_today_stars": 1363,
       "language": "TypeScript",
       "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/47359?v=4",
       "html_url": "https://github.com/apache/maka"
     },
     "Panniantong/Agent-Reach": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 373,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 740,
       "language": "Python",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
@@ -281,18 +281,18 @@
       "html_url": "https://github.com/pbakaus/impeccable"
     },
     "AgriciDaniel/claude-obsidian": {
-      "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 1123,
+      "best_rank": 4,
+      "appearances": 3,
+      "total_today_stars": 1933,
       "language": "Python",
       "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
       "html_url": "https://github.com/AgriciDaniel/claude-obsidian"
     },
     "marin-community/marin": {
-      "best_rank": 18,
-      "appearances": 2,
-      "total_today_stars": 445,
+      "best_rank": 9,
+      "appearances": 3,
+      "total_today_stars": 886,
       "language": "Python",
       "description": "Open-source framework for the research and development of foundation models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/210491432?v=4",
@@ -308,9 +308,9 @@
       "html_url": "https://github.com/langchain-ai/deepagents"
     },
     "tashfeenahmed/freellmapi": {
-      "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 674,
+      "best_rank": 11,
+      "appearances": 3,
+      "total_today_stars": 1071,
       "language": "TypeScript",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -336,8 +336,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 280,
+      "appearances": 2,
+      "total_today_stars": 552,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -353,9 +353,9 @@
       "html_url": "https://github.com/rust-lang/rust"
     },
     "TauricResearch/TradingAgents": {
-      "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 218,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 925,
       "language": "Python",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192884433?v=4",
@@ -405,6 +405,105 @@
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8282593?v=4",
       "html_url": "https://github.com/decolua/9router"
+    },
+    "tt-a1i/archify": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1035,
+      "language": "JavaScript",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
+      "html_url": "https://github.com/tt-a1i/archify"
+    },
+    "anthropics/claude-plugins-official": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 308,
+      "language": "Python",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    "github/spec-kit": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 301,
+      "language": "Python",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
+      "html_url": "https://github.com/github/spec-kit"
+    },
+    "browser-use/browser-use": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 149,
+      "language": "Python",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "html_url": "https://github.com/browser-use/browser-use"
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 138,
+      "language": "Python",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
+      "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    "every-app/open-seo": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 135,
+      "language": "TypeScript",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
+      "html_url": "https://github.com/every-app/open-seo"
+    },
+    "tickernelz/opencode-mem": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 120,
+      "language": "TypeScript",
+      "description": "OpenCode plugin that gives coding agents persistent memory using local vector database",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/10543415?v=4",
+      "html_url": "https://github.com/tickernelz/opencode-mem"
+    },
+    "ConardLi/garden-skills": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 113,
+      "language": "CSS",
+      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/30708545?v=4",
+      "html_url": "https://github.com/ConardLi/garden-skills"
+    },
+    "RizRiyz/luvus": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 97,
+      "language": "Rust",
+      "description": "Mission control for your AI agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2667489?v=4",
+      "html_url": "https://github.com/RizRiyz/luvus"
+    },
+    "HKUDS/CLI-Anything": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 95,
+      "language": "Python",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    "poteto/hiring-without-whiteboards": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 85,
+      "language": "JavaScript",
+      "description": "⭐️  Companies that don't have a broken hiring process",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1390709?v=4",
+      "html_url": "https://github.com/poteto/hiring-without-whiteboards"
     }
   }
 }
