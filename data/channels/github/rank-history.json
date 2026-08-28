@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-28": {
-      "permissionlesstech/bitchat": 1,
-      "citrolabs/ego-lite": 2,
-      "alibaba/open-code-review": 3,
-      "pbakaus/impeccable": 4,
-      "yorukot/superfile": 5,
-      "moeru-ai/airi": 6,
-      "amnezia-vpn/amnezia-client": 7,
-      "usestrix/strix": 8,
-      "shiyu-coder/Kronos": 9,
-      "bradautomates/claude-video": 10,
-      "pascalorg/editor": 11,
-      "Pumpkin-MC/Pumpkin": 12,
-      "mvanhorn/last30days-skill": 13,
-      "Wei-Shaw/sub2api": 14,
-      "andrewyng/aisuite": 15,
-      "jenkinsci/jenkins": 16,
-      "ruvnet/ruflo": 17,
-      "Anil-matcha/Open-Generative-AI": 18,
-      "XiaoYouChR/Ghost-Downloader-3": 19,
-      "666ghj/MiroFish": 20,
-      "immich-app/immich": 21,
-      "different-ai/openwork": 22,
-      "Crosstalk-Solutions/project-nomad": 23,
-      "tashfeenahmed/freellmapi": 24,
-      "aaif-goose/goose": 25
-    },
     "2026-07-29": {
       "bradautomates/claude-video": 1,
       "alibaba/open-code-review": 2,
@@ -836,6 +809,33 @@
       "RizRiyz/luvus": 23,
       "HKUDS/CLI-Anything": 24,
       "poteto/hiring-without-whiteboards": 25
+    },
+    "2026-08-28": {
+      "tt-a1i/archify": 1,
+      "freestylefly/awesome-gpt-image-2": 2,
+      "bilawalsidhu/gods-eye-view": 3,
+      "AgriciDaniel/claude-obsidian": 4,
+      "K-Dense-AI/scientific-agent-skills": 5,
+      "ConardLi/garden-skills": 6,
+      "tinyhumansai/openhuman": 7,
+      "tashfeenahmed/freellmapi": 8,
+      "addyosmani/agent-skills": 9,
+      "JetBrains/go-modern-guidelines": 10,
+      "anthropics/claude-plugins-official": 11,
+      "anthropics/skills": 12,
+      "marin-community/marin": 13,
+      "AgriciDaniel/claude-seo": 14,
+      "TauricResearch/TradingAgents": 15,
+      "garrytan/gstack": 16,
+      "ZhuLinsen/daily_stock_analysis": 17,
+      "1weiho/open-slide": 18,
+      "htdt/godogen": 19,
+      "ComposioHQ/awesome-claude-skills": 20,
+      "hmjz100/LinkSwift": 21,
+      "infiniflow/ragflow": 22,
+      "poteto/hiring-without-whiteboards": 23,
+      "langchain-ai/deepagents": 24,
+      "n0-computer/iroh": 25
     }
   }
 }

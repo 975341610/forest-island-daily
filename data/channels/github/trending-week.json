@@ -75,8 +75,8 @@
     },
     "freestylefly/awesome-gpt-image-2": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 8598,
+      "appearances": 5,
+      "total_today_stars": 10694,
       "language": "JavaScript",
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43960064?v=4",
@@ -245,9 +245,9 @@
       "html_url": "https://github.com/multica-ai/andrej-karpathy-skills"
     },
     "tinyhumansai/openhuman": {
-      "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 1582,
+      "best_rank": 7,
+      "appearances": 4,
+      "total_today_stars": 1993,
       "language": "Rust",
       "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
@@ -282,8 +282,8 @@
     },
     "AgriciDaniel/claude-obsidian": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 1933,
+      "appearances": 4,
+      "total_today_stars": 2567,
       "language": "Python",
       "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
@@ -291,8 +291,8 @@
     },
     "marin-community/marin": {
       "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 886,
+      "appearances": 4,
+      "total_today_stars": 1141,
       "language": "Python",
       "description": "Open-source framework for the research and development of foundation models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/210491432?v=4",
@@ -300,26 +300,26 @@
     },
     "langchain-ai/deepagents": {
       "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 175,
+      "appearances": 2,
+      "total_today_stars": 240,
       "language": "Python",
       "description": "The batteries-included agent harness.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/126733545?v=4",
       "html_url": "https://github.com/langchain-ai/deepagents"
     },
     "tashfeenahmed/freellmapi": {
-      "best_rank": 11,
-      "appearances": 3,
-      "total_today_stars": 1071,
+      "best_rank": 8,
+      "appearances": 4,
+      "total_today_stars": 1476,
       "language": "TypeScript",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
       "html_url": "https://github.com/tashfeenahmed/freellmapi"
     },
     "garrytan/gstack": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 149,
+      "best_rank": 16,
+      "appearances": 2,
+      "total_today_stars": 369,
       "language": "TypeScript",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
@@ -335,9 +335,9 @@
       "html_url": "https://github.com/lfnovo/open-notebook"
     },
     "addyosmani/agent-skills": {
-      "best_rank": 15,
-      "appearances": 2,
-      "total_today_stars": 552,
+      "best_rank": 9,
+      "appearances": 3,
+      "total_today_stars": 857,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -354,8 +354,8 @@
     },
     "TauricResearch/TradingAgents": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 925,
+      "appearances": 3,
+      "total_today_stars": 1154,
       "language": "Python",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192884433?v=4",
@@ -407,18 +407,18 @@
       "html_url": "https://github.com/decolua/9router"
     },
     "tt-a1i/archify": {
-      "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1035,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 5274,
       "language": "JavaScript",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
       "html_url": "https://github.com/tt-a1i/archify"
     },
     "anthropics/claude-plugins-official": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 308,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 600,
       "language": "Python",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -443,9 +443,9 @@
       "html_url": "https://github.com/browser-use/browser-use"
     },
     "K-Dense-AI/scientific-agent-skills": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 138,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 636,
       "language": "Python",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
@@ -470,9 +470,9 @@
       "html_url": "https://github.com/tickernelz/opencode-mem"
     },
     "ConardLi/garden-skills": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 113,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 528,
       "language": "CSS",
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/30708545?v=4",
@@ -497,13 +497,112 @@
       "html_url": "https://github.com/HKUDS/CLI-Anything"
     },
     "poteto/hiring-without-whiteboards": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 85,
+      "best_rank": 23,
+      "appearances": 2,
+      "total_today_stars": 153,
       "language": "JavaScript",
       "description": "⭐️  Companies that don't have a broken hiring process",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1390709?v=4",
       "html_url": "https://github.com/poteto/hiring-without-whiteboards"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 1984,
+      "language": "JavaScript",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/106619546?v=4",
+      "html_url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    "JetBrains/go-modern-guidelines": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 300,
+      "language": "Go",
+      "description": "Help AI coding agents write modern Go",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/878437?v=4",
+      "html_url": "https://github.com/JetBrains/go-modern-guidelines"
+    },
+    "anthropics/skills": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 274,
+      "language": "Python",
+      "description": "Public repository for Agent Skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/skills"
+    },
+    "AgriciDaniel/claude-seo": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 245,
+      "language": "Python",
+      "description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
+      "html_url": "https://github.com/AgriciDaniel/claude-seo"
+    },
+    "ZhuLinsen/daily_stock_analysis": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 148,
+      "language": "Python",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/42829555?v=4",
+      "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    "1weiho/open-slide": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 142,
+      "language": "TypeScript",
+      "description": "A slide framework built for agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/75478661?v=4",
+      "html_url": "https://github.com/1weiho/open-slide"
+    },
+    "htdt/godogen": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 131,
+      "language": "Python",
+      "description": "Autonomous game development for Godot, Bevy, and Babylon.js with Claude Code and Codex",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5243839?v=4",
+      "html_url": "https://github.com/htdt/godogen"
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 130,
+      "language": "Python",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
+      "html_url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    "hmjz100/LinkSwift": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 83,
+      "language": "JavaScript",
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/98228280?v=4",
+      "html_url": "https://github.com/hmjz100/LinkSwift"
+    },
+    "infiniflow/ragflow": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 80,
+      "language": "Go",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/69962740?v=4",
+      "html_url": "https://github.com/infiniflow/ragflow"
+    },
+    "n0-computer/iroh": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 60,
+      "language": "Rust",
+      "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/101023307?v=4",
+      "html_url": "https://github.com/n0-computer/iroh"
     }
   }
 }
