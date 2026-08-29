@@ -1,0 +1,242 @@
+[
+  {
+    "id": "2026-08-29_vibecoding_5",
+    "date": "2026-08-29",
+    "category": "VibeCoding",
+    "subcat": "AI编程工具",
+    "platform": "Product Hunt",
+    "platform_color": "#F6A07C",
+    "title": "Crew:给Claude Code配像素小怪兽",
+    "url": "https://www.producthunt.com/products/crew-a-tiny-crew-for-claude-code",
+    "image": "images/2026-08-29/2026-08-29_vibecoding_5.jpg",
+    "detail": [
+      "一款名为Crew的macOS小工具在Product Hunt发布,主打给每个Claude Code会话和子智能体\"一具身体\"——一只沿屏幕底部行走的像素小怪兽:干活时挖土、写代码时涂画、空闲时睡觉、完成时挥手,让开发者一眼看清多个AI会话正处于什么状态。作者是一名设计师,称自己常年同时开着四五个Claude Code窗口却\"看不见它们在做什么\",于是做了这个可视化外设。",
+      "工具完全免费,支持macOS 13及以上(Apple Silicon与Intel均可),仅依赖Claude Code,无需Homebrew、命令行或终端;下载拖入点击Connect即可自动接管Claude Code的hooks(并备份原有配置)。子智能体会像小家庭一样跟在父进程身后;当会话需要授权执行命令时,对应小怪兽会举牌显示命令和Allow/Deny按钮,可就地批准。全程数据不出本机,无账号、无网络请求、无遥测。",
+      "发布后在社区引发讨论,不少重度Claude Code用户表示\"终于不用来回alt-tab确认AI状态了\",这种把抽象的AI运行过程拟物化为可爱桌宠的思路广受好评。作者透露六种怪兽形象均为纯代码逐像素手绘,整个应用用Swift、借助Claude Code在数周晚间独立完成,后续计划推出付费层但承诺现有可见功能保持免费。"
+    ]
+  },
+  {
+    "id": "2026-08-29_vibecoding_4",
+    "date": "2026-08-29",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "Visa开源VVAH升级:AI自动修漏洞",
+    "url": "https://github.com/visa/visa-vulnerability-agentic-harness",
+    "image": "images/2026-08-29/2026-08-29_vibecoding_4.jpg",
+    "detail": [
+      "支付巨头Visa本周正式发布其开源项目VVAH(Visa Vulnerability Agentic Harness)的重大升级版本。该框架脱胎于Visa参与Anthropic「Project Glasswing」前沿AI安全研究的经验,主打让AI智能体自主完成代码漏洞的发现、修复与验证全流程,是一款面向安全开发者的、与具体模型无关的开源工具。",
+      "新版本把工作流从单纯的\"发现\"推进到\"闭环修复+验证\":VVAH现以四阶段、十一步的流水线运行,从代码接入一直跑到验证通过的补丁;引入闭环修复、多模型自由切换(仅改配置无需改代码,支持Claude、OpenAI兼容接口及开源权重模型)、实时进度视图等能力。GitHub仓库已达约2600 star、367 fork,采用Apache 2.0协议,当前版本v1.2.0。",
+      "Visa称核心指标为MTTA(平均适应时间),部分修复已从数周缩短到数小时;自2026年6月开源以来,VVAH已被全球数万名开发者下载。此次发布在开发者与安全圈引发热议,不少人惊叹\"AI在人工评审前就先改了生产代码\",也有声音提醒生成的补丁未经充分编译测试,仍需人工复核后再合并,以防引入新问题。"
+    ]
+  },
+  {
+    "id": "2026-08-29_vibecoding_3",
+    "date": "2026-08-29",
+    "category": "VibeCoding",
+    "subcat": "开发者热议",
+    "platform": "Hacker News",
+    "platform_color": "#F6A07C",
+    "title": "反对Cloudflare签名智能体:Web不需守门人",
+    "url": "https://news.ycombinator.com/item?id=45066258",
+    "image": "images/2026-08-29/2026-08-29_vibecoding_3.jpg",
+    "detail": [
+      "8月28日,开发者positiveblue发表的一篇Substack长文在Hacker News上引发热议,获得454个赞和489条评论。文章旗帜鲜明地反对Cloudflare推行的\"签名智能体\"(signed agents)机制,认为这种做法会把原本开放的Web逐步变成一个需要身份验证才能访问的封闭系统。",
+      "作者担忧,一旦大型基础设施厂商掌握了给智能体\"发放通行证\"的权力,开放Web的核心精神——任何人、任何程序都能自由访问公开信息——将受到侵蚀。他把这种签名验证机制比作变相的\"访问税\"和权力集中,警告这可能让少数守门人决定谁有资格访问互联网。",
+      "评论区观点激烈交锋。一部分人认为,面对日益猖獗的恶意爬虫和滥用流量,某种形式的智能体验证机制在现实中几乎不可避免,Cloudflare的方案是务实之举;另一部分人则坚定站在作者一边,认为解决滥用不应以牺牲Web的开放性为代价,呼吁探索更去中心化的方案。这场辩论触及了AI智能体时代Web治理的深层命题。"
+    ]
+  },
+  {
+    "id": "2026-08-29_vibecoding_2",
+    "date": "2026-08-29",
+    "category": "VibeCoding",
+    "subcat": "开发者热议",
+    "platform": "Hacker News",
+    "platform_color": "#F6A07C",
+    "title": "《做能跑通的最简单的事》登顶 HN 获 1111 赞",
+    "url": "https://news.ycombinator.com/item?id=45068091",
+    "image": "images/2026-08-29/2026-08-29_vibecoding_2.jpg",
+    "detail": [
+      "8月28日,开发者Sean Goedecke的一篇博客文章被提交到Hacker News后迅速登顶,累计获得1111个赞和387条评论。文章重提极限编程(XP)中的经典箴言——\"做能跑通的最简单的事\"(Do the simplest thing that could possibly work),引发开发者群体的强烈共鸣。",
+      "作者主张,在动手实现功能时应优先选择最直接、最简单的方案,而不是一上来就追求完美的抽象与架构。他特别指出,在AI辅助编程日益普及的今天,这条原则反而更加重要:当AI能够快速生成大量代码时,克制过度设计、保持代码简单可控,成了避免复杂度失控的关键。",
+      "评论区出现了明显分歧。支持者认为过早抽象是效率的头号杀手,简单方案更利于快速验证和后续迭代;反对者则担心\"最简单\"这个说法容易被误读为敷衍了事、堆砌临时代码,反而埋下技术债。这场关于\"简单\"与\"周全\"之间平衡的老话题,在AI时代被赋予了新的讨论价值。"
+    ]
+  },
+  {
+    "id": "2026-08-29_vibecoding_1",
+    "date": "2026-08-29",
+    "category": "VibeCoding",
+    "subcat": "AI编程工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "Codex 0.151 alpha 上线交互式智能体面板",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.9",
+    "image": "images/2026-08-29/2026-08-29_vibecoding_1.jpg",
+    "detail": [
+      "8月28日,OpenAI的开源命令行编程助手Codex连续发布了rust-v0.151.0的alpha.8与alpha.9两个预览版本。作为近期AI编程工具中的热门项目,Codex的GitHub仓库总星标已突破12万,Fork数达到约1.83万,社区活跃度持续走高。",
+      "本次更新的核心亮点是大幅强化了交互式agents(智能体)面板:开发者可以直接在面板中搜索、启动、重命名和停止各个任务,多智能体协作的可视化管理体验明显提升。此外还新增了 /cd、/pwd、/cwd 等目录操作命令,以及 codex queue 任务队列功能,让复杂工作流的编排更加顺手。alpha.9版本一次性带来了多达162个构建产物,覆盖各平台。",
+      "社区对这些交互式改进整体持正面态度,认为面板化管理显著降低了同时驾驭多个AI编程会话的心智负担。不过也有开发者对alpha版本高频发布节奏下的稳定性表示担忧,提醒生产环境使用者谨慎跟进预览版,等待更稳定的正式版本发布后再升级。"
+    ]
+  },
+  {
+    "id": "2026-08-29_gaming_5",
+    "date": "2026-08-29",
+    "category": "Gaming",
+    "subcat": "单机大作",
+    "platform": "IGN",
+    "platform_color": "#7CF6A0",
+    "title": "《GTA6》地图规模公布 三倍于《大镖客2》",
+    "url": "https://www.ign.com/articles/how-the-gta-6-map-size-stacks-up-to-other-rockstar-games-like-rdr2-and-gta-5",
+    "image": "images/2026-08-29/2026-08-29_gaming_5.jpg",
+    "detail": [
+      "IGN在8月28日整理了《侠盗猎车手6》(GTA6)地图规模的最新对比信息,结论令玩家震撼:GTA6的可探索世界据估算约为《荒野大镖客:救赎2》(RDR2)的三倍之大,一举刷新Rockstar开放世界作品的体量纪录。",
+      "报道将GTA6与Rockstar历代招牌作品逐一横向对比,包括GTA5的洛圣都以及RDR2广袤的西部荒野。GTA6以虚构的Leonida州为舞台,重现了灵感源自迈阿密的Vice City都会区,并向外延伸出湿地、乡镇、海岸线等丰富多样的地貌,城乡与荒野的过渡极大拓展了纵深感。",
+      "如此庞大的地图规模意味着更海量的支线活动、随机事件与可交互场景,也为玩家自由探索提供了前所未有的空间。不过也有玩家担心,过大的世界是否会带来内容填充与探索节奏的挑战。结合此前确认的主机30帧、悬赏系统重做等信息,Rockstar在GTA6上展现出的技术与设计野心,让这款作品的期待值持续攀升。"
+    ]
+  },
+  {
+    "id": "2026-08-29_gaming_4",
+    "date": "2026-08-29",
+    "category": "Gaming",
+    "subcat": "行业动态",
+    "platform": "Games Done Quick",
+    "platform_color": "#7CF6A0",
+    "title": "GDQ首登欧洲 科隆慈善速通马拉松开跑",
+    "url": "https://gamesdonequick.com/schedule",
+    "image": "images/2026-08-29/2026-08-29_gaming_4.jpg",
+    "detail": [
+      "知名游戏慈善速通组织Games Done Quick(GDQ)迎来历史性时刻,首次将其标志性的速通马拉松活动带到欧洲,选址在正在举办Gamescom的科隆开跑。这场直播活动汇聚了来自世界各地的顶尖速通玩家,他们以极限技巧快速通关各类经典与新锐游戏,全程为慈善事业募集善款。",
+      "GDQ多年来以\"边玩边做公益\"的独特形式闻名,此前的主要活动如AGDQ与SGDQ均在北美举办,累计为多家慈善机构筹集了数千万美元。此次首登欧洲,不仅拉近了与庞大欧洲玩家群体的距离,也借助Gamescom的巨大人气与人流,进一步扩大了活动的国际影响力。",
+      "本届欧洲站的节目单涵盖了速通经典项目与近期热门新作,观众可以通过官方直播实时观看高手们行云流水的操作,并在过程中自由捐款。速通社区对GDQ走向国际化反响积极,认为这有助于推动速通文化在全球范围内的普及,也让更多玩家感受到游戏与公益结合所带来的温暖与热血。"
+    ]
+  },
+  {
+    "id": "2026-08-29_gaming_3",
+    "date": "2026-08-29",
+    "category": "Gaming",
+    "subcat": "单机大作",
+    "platform": "Eurogamer",
+    "platform_color": "#7CF6A0",
+    "title": "R星确认《GTA6》主机锁30帧 悬赏系统大改",
+    "url": "https://www.eurogamer.net/gta-6-frame-rate-ps5-xbox-series-x-s",
+    "image": "images/2026-08-29/2026-08-29_gaming_3.jpg",
+    "detail": [
+      "据Eurogamer 8月28日报道,Rockstar Games正式确认,备受期待的《侠盗猎车手6》(GTA6)在PS5与Xbox Series X/S现世代主机上将锁定30帧运行。这一消息在玩家社区引发热议,不少期待60帧流畅体验的玩家表达了失望,但也有人认为为了追求更宏大的世界规模与更精细的画面细节,锁帧是合理的技术取舍。",
+      "Rockstar解释称,GTA6拥有前所未有的场景密度、动态天气系统和海量NPC同屏,现世代主机在保证画面表现与世界模拟深度的前提下,30帧是能够稳定交付高质量体验的选择。厂商也暗示未来在更强机能的硬件或PC版本上,有望解锁更高帧率。",
+      "除帧率外,报道还透露GTA6对经典的悬赏(Wanted)通缉系统进行了大幅重做,警方追捕的逻辑、通缉星级的升降机制以及玩家甩脱追捕的方式都将更加拟真和多样化。这些系统层面的革新显示Rockstar在打磨核心玩法上的野心,玩家对完整实机演示与最终发售表现的关注度持续走高。"
+    ]
+  },
+  {
+    "id": "2026-08-29_gaming_2",
+    "date": "2026-08-29",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "任天堂官网",
+    "platform_color": "#7CF6A0",
+    "title": "《艾尔登法环:褪色者版》登陆Switch 2首发",
+    "url": "https://www.nintendo.com/us/whatsnew/rise-with-elden-ring-tarnished-edition-launching-aug-28-on-nintendo-switch-2/",
+    "image": "images/2026-08-29/2026-08-29_gaming_2.jpg",
+    "detail": [
+      "任天堂官网8月28日宣布,FromSoftware的现象级动作角色扮演大作《艾尔登法环》以\"褪色者版\"(Tarnished Edition)的形态正式登陆Nintendo Switch 2平台,并于当日开售。这意味着Switch 2用户终于可以在掌机与主机切换模式下体验这款斩获无数年度游戏奖项的经典之作。",
+      "褪色者版基于Switch 2更强的机能进行了针对性优化,在保持原作宏大开放世界\"交界地\"探索体验的同时,兼顾了掌机模式下的画面表现与帧数稳定性。该版本还整合了此前发布的DLC内容,让新玩家能够一站式体验完整的游戏旅程,老玩家也可在便携设备上重温这段魂系冒险。",
+      "作为Switch 2首发阵容中分量十足的第三方大作,《艾尔登法环》的登陆进一步印证了新平台吸引重量级3A作品的能力。玩家社区对能够随时随地进行\"褪色者\"冒险反响热烈,同时也期待更多FromSoftware及其他厂商的硬核作品跟进移植,充实Switch 2的游戏库。"
+    ]
+  },
+  {
+    "id": "2026-08-29_gaming_1",
+    "date": "2026-08-29",
+    "category": "Gaming",
+    "subcat": "发布会",
+    "platform": "GoNintendo",
+    "platform_color": "#7CF6A0",
+    "title": "科隆游戏展2026大奖揭晓 《巫师3》三奖领跑",
+    "url": "https://gonintendo.com/contents/64332-gamescom-awards-2026-winners-revealed",
+    "image": "images/2026-08-29/2026-08-29_gaming_1.jpg",
+    "detail": [
+      "8月28日,备受瞩目的科隆游戏展(Gamescom)2026大奖正式揭晓,组委会公布了本届展会各奖项的最终归属。作为欧洲规模最大的游戏盛会,Gamescom大奖被视为年度游戏风向标,今年的评选结果由现场媒体、观众与专业评审共同投票产生。",
+      "本届最大赢家当属重制升级后的《巫师3》相关内容,一举拿下三项大奖领跑全场,充分显示出这一经典IP在玩家心中的持久号召力。除此之外,多款在展前发布会上高光亮相的新作也分获最佳主机游戏、最佳PC游戏、最受期待游戏等细分奖项,涵盖了动作、角色扮演与独立游戏等多个品类。",
+      "从获奖名单来看,今年Gamescom延续了3A大作与独立佳作并重的评选思路,既肯定了成熟IP的重制与续作,也给予创新玩法的新团队足够曝光。业内人士指出,这份榜单基本勾勒出2026年下半年至2027年主机与PC平台的重点发行阵容,玩家社区对多款获奖作品的后续实机演示与发售日期表达了强烈期待。"
+    ]
+  },
+  {
+    "id": "2026-08-29_ai_5",
+    "date": "2026-08-29",
+    "category": "AI",
+    "subcat": "AI产品",
+    "platform": "The Verge",
+    "platform_color": "#7C9EF6",
+    "title": "Meta修复AI智能眼镜偷录漏洞 隐私争议升温",
+    "url": "https://www.theverge.com/tech/985851/meta-privacy-loophole-fix-marketing-campaign",
+    "image": "images/2026-08-29/2026-08-29_ai_5.jpg",
+    "detail": [
+      "据The Verge 8月28日报道,Meta修改了旗下AI智能眼镜的软件,修复了一个此前存在的隐私漏洞:用户只要遮挡住摄像头旁的录制指示灯,设备仍可持续录制画面而不被周围人察觉。修复后,遮挡指示灯将无法再绕过录制提示机制。",
+      "这一漏洞再次把智能眼镜\"随时在场\"的隐私难题推到台前。与手机不同,佩戴式摄像头可以在被拍摄者毫不知情的情况下完成拍摄,叠加日益成熟的人脸识别能力,潜在的滥用风险让公众与监管者高度警惕,相关讨论在社交媒体上持续发酵。",
+      "为回应外界质疑,Meta同时启动了一轮面向公众的宣传活动,专门解释录制指示灯的工作原理、亮起时机以及用户应如何识别附近设备是否正在录制。不过不少隐私倡导者认为,仅靠一盏小小的指示灯远不足以解决可穿戴摄像头带来的系统性隐私隐患,呼吁厂商在硬件设计与默认设置层面提供更强的保护。"
+    ]
+  },
+  {
+    "id": "2026-08-29_ai_4",
+    "date": "2026-08-29",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "TechCrunch",
+    "platform_color": "#7C9EF6",
+    "title": "云厂商Lambda再融10亿美元债务疯抢英伟达芯片",
+    "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
+    "image": "images/2026-08-29/2026-08-29_ai_4.jpg",
+    "detail": [
+      "AI云计算厂商Lambda于8月28日完成一笔10亿美元的短期债务融资,由摩根大通牵头。这笔资金将用于采购更多英伟达芯片,再转租给微软等大客户,是典型的\"以债养卡、以卡收租\"新云(neocloud)商业模式。",
+      "这已不是Lambda近期第一次大手笔融资。公司5月刚刚完成一笔10亿美元信贷,本周又敲定9.26亿美元贷款专门用于采购英伟达最新的GB300芯片。与此同时,Lambda正在洽谈一笔30亿美元的Pre-IPO融资;去年公司以54.3亿美元估值募集了15亿美元,资本运作节奏相当密集。",
+      "把视野拉大,2026年全球围绕AI基础设施的债务融资规模已超过4000亿美元,新云厂商正成为英伟达高端芯片的重要买家和杠杆玩家。分析人士警示,这种高度依赖债务与单一客户租约的模式在需求旺盛时利润丰厚,但一旦芯片供给宽松或租约生变,潜在的财务风险也不容小觑。"
+    ]
+  },
+  {
+    "id": "2026-08-29_ai_3",
+    "date": "2026-08-29",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "TechCrunch",
+    "platform_color": "#7C9EF6",
+    "title": "a16z设11亿美元\"机器时代\"基金押注AI硬件",
+    "url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
+    "image": "images/2026-08-29/2026-08-29_ai_3.jpg",
+    "detail": [
+      "知名风投机构a16z于8月28日宣布设立全新的Machine Age(机器时代)基金,首期规模达11亿美元,专门投向AI的物理基础设施建设。这只基金瞄准的是AI浪潮中往往被忽视但又至关重要的\"硬骨头\"——从芯片、数据中心到电力与散热等实体环节。",
+      "a16z给出了一组直观的数据来解释布局逻辑:从H100时代到即将到来的Rubin架构,单机架的计算密度提升了约28倍,而单机架功耗则从5-10kW飙升至100-250kW。这意味着传统数据中心的供电、散热与选址方案都需要彻底重构,硬件与基础设施已占到AI项目资金流向的20%以上。",
+      "近期a16z已密集出手,投资了Unconventional AI、Nexthop、Volta、Heron Power以及Mind Robotics等一批硬件与能源相关公司。叠加今年1月已设立的150亿美元大基金,a16z正加码押注AI的\"重资产\"侧。业内认为,这反映出资本对AI竞争焦点从软件模型向物理算力底座转移的判断。"
+    ]
+  },
+  {
+    "id": "2026-08-29_ai_2",
+    "date": "2026-08-29",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "量子位",
+    "platform_color": "#7C9EF6",
+    "title": "智谱GLM-5.3-Flash上线 商汤大装置供国产算力",
+    "url": "https://www.qbitai.com/2026/08/480223.html",
+    "image": "images/2026-08-29/2026-08-29_ai_2.jpg",
+    "detail": [
+      "智谱正式上线并开源GLM-5.3-Flash,该模型采用320B总参数、A18B激活的MoE架构,是GLM-5系列中首个原生多模态版本。在权威的AA综合指数评测中,GLM-5.3-Flash拿下57分,与Claude Opus 4.8基本持平,展现出国产开源大模型在多模态能力上的快速追赶态势。",
+      "值得关注的是其训练背后的算力故事。该模型此前曾以匿名代号Ox-Alpha(\"牛来\")参与盲测,悄然刷出62分的成绩,而支撑其训练的62T token全部由国产芯片承载,整体性能相比上一代提升约3倍。这标志着国产算力在超大规模模型训练中已具备实战能力,不再只是概念验证。",
+      "算力供给方面,商汤大装置的性价比已达到NVIDIA H系列的1.25倍。数据显示,商汤大装置7月日均处理量已达2.42万亿token,并定下年底日均10万亿token的激进目标。国产模型与国产算力的深度绑定,正在形成一条相对独立的AI基础设施链条,引发行业对算力自主化前景的热烈讨论。"
+    ]
+  },
+  {
+    "id": "2026-08-29_ai_1",
+    "date": "2026-08-29",
+    "category": "AI",
+    "subcat": "AI安全",
+    "platform": "TechCrunch",
+    "platform_color": "#7C9EF6",
+    "title": "Anthropic告赢五角大楼 供应链风险标签被判违法",
+    "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+    "image": "images/2026-08-29/2026-08-29_ai_1.jpg",
+    "detail": [
+      "8月28日,加州联邦地区法院法官Rita Lin作出裁定,认为特朗普政府此前将Anthropic列为\"供应链风险\"企业的做法违法。法院认定该行政行为违反了宪法第一修正案,构成对企业言论的报复性打击,同时也剥夺了Anthropic在第五修正案下应享有的正当程序权利。这是这家AI公司在与国防部长期博弈中拿下的首个法庭胜利。",
+      "事件根源在于Anthropic坚持划定的产品红线:公司拒绝将自家模型用于全自动致命武器系统,以及大规模无差别监控用途。这一立场与部分政府机构的采购意向产生冲突,进而被贴上风险标签。讽刺的是,国防部一边给Anthropic贴标签,一边又在推进相关合同并与Mythos等项目展开合作,前后矛盾成为庭审焦点之一。",
+      "Anthropic早在今年3月就分别在加州和华盛顿特区提起两起诉讼。此次加州案率先获得有利裁定,特区案目前仍在审理中。业界普遍认为,这一判决为AI企业依据自身伦理原则设定使用边界、并对抗政府不当施压提供了重要的司法先例,社区对Anthropic坚守红线的做法给予了广泛好评。"
+    ]
+  }
+]
