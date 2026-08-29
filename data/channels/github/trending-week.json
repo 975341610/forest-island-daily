@@ -75,8 +75,8 @@
     },
     "freestylefly/awesome-gpt-image-2": {
       "best_rank": 1,
-      "appearances": 5,
-      "total_today_stars": 10694,
+      "appearances": 6,
+      "total_today_stars": 12381,
       "language": "JavaScript",
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43960064?v=4",
@@ -246,8 +246,8 @@
     },
     "tinyhumansai/openhuman": {
       "best_rank": 7,
-      "appearances": 4,
-      "total_today_stars": 1993,
+      "appearances": 5,
+      "total_today_stars": 2199,
       "language": "Rust",
       "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
@@ -273,8 +273,8 @@
     },
     "pbakaus/impeccable": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 361,
+      "appearances": 2,
+      "total_today_stars": 694,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -291,8 +291,8 @@
     },
     "marin-community/marin": {
       "best_rank": 9,
-      "appearances": 4,
-      "total_today_stars": 1141,
+      "appearances": 5,
+      "total_today_stars": 1377,
       "language": "Python",
       "description": "Open-source framework for the research and development of foundation models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/210491432?v=4",
@@ -309,8 +309,8 @@
     },
     "tashfeenahmed/freellmapi": {
       "best_rank": 8,
-      "appearances": 4,
-      "total_today_stars": 1476,
+      "appearances": 5,
+      "total_today_stars": 1909,
       "language": "TypeScript",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -336,8 +336,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 857,
+      "appearances": 4,
+      "total_today_stars": 1096,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -372,8 +372,8 @@
     },
     "QuantumNous/new-api": {
       "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 130,
+      "appearances": 2,
+      "total_today_stars": 240,
       "language": "Go",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/205075698?v=4",
@@ -408,17 +408,17 @@
     },
     "tt-a1i/archify": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 5274,
+      "appearances": 3,
+      "total_today_stars": 9836,
       "language": "JavaScript",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
       "html_url": "https://github.com/tt-a1i/archify"
     },
     "anthropics/claude-plugins-official": {
-      "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 600,
+      "best_rank": 9,
+      "appearances": 3,
+      "total_today_stars": 1057,
       "language": "Python",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -444,8 +444,8 @@
     },
     "K-Dense-AI/scientific-agent-skills": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 636,
+      "appearances": 3,
+      "total_today_stars": 1356,
       "language": "Python",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
@@ -506,18 +506,18 @@
       "html_url": "https://github.com/poteto/hiring-without-whiteboards"
     },
     "bilawalsidhu/gods-eye-view": {
-      "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 1984,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 5813,
       "language": "JavaScript",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/106619546?v=4",
       "html_url": "https://github.com/bilawalsidhu/gods-eye-view"
     },
     "JetBrains/go-modern-guidelines": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 300,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 874,
       "language": "Go",
       "description": "Help AI coding agents write modern Go",
       "owner_avatar": "https://avatars.githubusercontent.com/u/878437?v=4",
@@ -569,9 +569,9 @@
       "html_url": "https://github.com/htdt/godogen"
     },
     "ComposioHQ/awesome-claude-skills": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 130,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 473,
       "language": "Python",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "owner_avatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
@@ -603,6 +603,114 @@
       "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/101023307?v=4",
       "html_url": "https://github.com/n0-computer/iroh"
+    },
+    "tailscale/tailcat": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 965,
+      "language": "Go",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/48932923?v=4",
+      "html_url": "https://github.com/tailscale/tailcat"
+    },
+    "workweave/router": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 693,
+      "language": "Go",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/174961884?v=4",
+      "html_url": "https://github.com/workweave/router"
+    },
+    "Graphify-Labs/graphify": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 514,
+      "language": "Python",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
+      "html_url": "https://github.com/Graphify-Labs/graphify"
+    },
+    "t8y2/dbx": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 420,
+      "language": "Rust",
+      "description": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
+      "html_url": "https://github.com/t8y2/dbx"
+    },
+    "mvanhorn/last30days-skill": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 394,
+      "language": "Python",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
+      "html_url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    "cursor/plugins": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 246,
+      "language": "TypeScript",
+      "description": "Cursor plugin specification and official plugins",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
+      "html_url": "https://github.com/cursor/plugins"
+    },
+    "NationalSecurityAgency/ghidra": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 191,
+      "language": "Java",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11298292?v=4",
+      "html_url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    "OpenHands/OpenHands": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 166,
+      "language": "TypeScript",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/225919603?v=4",
+      "html_url": "https://github.com/OpenHands/OpenHands"
+    },
+    "google/googletest": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 156,
+      "language": "C++",
+      "description": "GoogleTest - Google Testing and Mocking Framework",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "html_url": "https://github.com/google/googletest"
+    },
+    "HKUDS/AI-Trader": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 154,
+      "language": "Python",
+      "description": "\"AI-Trader: 100% Fully-Automated Agent-Native Trading\"  ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/AI-Trader"
+    },
+    "koala73/worldmonitor": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 151,
+      "language": "TypeScript",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/996596?v=4",
+      "html_url": "https://github.com/koala73/worldmonitor"
+    },
+    "MakazhanAlpamys/Soup": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 141,
+      "language": "Python",
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/188336071?v=4",
+      "html_url": "https://github.com/MakazhanAlpamys/Soup"
     }
   }
 }

@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-29": {
-      "bradautomates/claude-video": 1,
-      "alibaba/open-code-review": 2,
-      "pbakaus/impeccable": 3,
-      "moeru-ai/airi": 4,
-      "agentscope-ai/QwenPaw": 5,
-      "yorukot/superfile": 6,
-      "firecrawl/firecrawl": 7,
-      "usestrix/strix": 8,
-      "pascalorg/editor": 9,
-      "paperswithbacktest/awesome-systematic-trading": 10,
-      "citrolabs/ego-lite": 11,
-      "t8y2/dbx": 12,
-      "huggingface/speech-to-speech": 13,
-      "jenkinsci/jenkins": 14,
-      "xbtlin/ai-berkshire": 15,
-      "Crosstalk-Solutions/project-nomad": 16,
-      "volcengine/OpenViking": 17,
-      "openai/codex-plugin-cc": 18,
-      "microsoft/flint-chart": 19,
-      "BuilderIO/agent-native": 20,
-      "basketikun/infinite-canvas": 21,
-      "aaif-goose/goose": 22,
-      "andrewyng/aisuite": 23,
-      "ovexro/dockpanel": 24,
-      "astral-sh/uv": 25
-    },
     "2026-07-30": {
       "pascalorg/editor": 1,
       "paperswithbacktest/awesome-systematic-trading": 2,
@@ -836,6 +809,33 @@
       "poteto/hiring-without-whiteboards": 23,
       "langchain-ai/deepagents": 24,
       "n0-computer/iroh": 25
+    },
+    "2026-08-29": {
+      "tt-a1i/archify": 1,
+      "bilawalsidhu/gods-eye-view": 2,
+      "freestylefly/awesome-gpt-image-2": 3,
+      "tailscale/tailcat": 4,
+      "K-Dense-AI/scientific-agent-skills": 5,
+      "workweave/router": 6,
+      "JetBrains/go-modern-guidelines": 7,
+      "Graphify-Labs/graphify": 8,
+      "anthropics/claude-plugins-official": 9,
+      "tashfeenahmed/freellmapi": 10,
+      "t8y2/dbx": 11,
+      "mvanhorn/last30days-skill": 12,
+      "ComposioHQ/awesome-claude-skills": 13,
+      "pbakaus/impeccable": 14,
+      "cursor/plugins": 15,
+      "addyosmani/agent-skills": 16,
+      "marin-community/marin": 17,
+      "tinyhumansai/openhuman": 18,
+      "NationalSecurityAgency/ghidra": 19,
+      "OpenHands/OpenHands": 20,
+      "google/googletest": 21,
+      "HKUDS/AI-Trader": 22,
+      "koala73/worldmonitor": 23,
+      "MakazhanAlpamys/Soup": 24,
+      "QuantumNous/new-api": 25
     }
   }
 }
