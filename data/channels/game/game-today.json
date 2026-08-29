@@ -1,6 +1,6 @@
 {
-  "date": "2026-08-28",
-  "generated_at": "2026-08-28T11:34:23.091775+00:00",
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T07:12:37.665081+00:00",
   "source": "rss-auto",
   "releases": [
     {
@@ -227,125 +227,132 @@
   ],
   "hot": [
     {
-      "title": "Prime Video Is Adapting Stephen King’s 1980 Underrated Horro",
+      "title": "Tom Cruise's 10/10 Action Movie That Saved a Struggling Fran",
       "category": "重磅新闻",
-      "summary": "Stephen King fans rejoice: a Lovecraftian crime-thriller epic is on the way with Crouch End, a new miniseries from Prime Video.",
+      "summary": "The Mission Impossible movie that saved the franchise is free to stream on Tubi",
       "source": "Polygon",
-      "url": "https://www.polygon.com/crouch-end-stephen-king-prime-video/"
+      "url": "https://www.polygon.com/mission-impossible-3-free-streaming-august-2026/"
     },
     {
-      "title": "Star Citizen’s Slippery Squadron 42 Delayed Yet Another Six ",
+      "title": "What we've been playing - \"Forget the classics: remaster the",
       "category": "重磅新闻",
-      "summary": "Mmmm hmmmm. Yup. That's the reason. It's definitely that",
-      "source": "Kotaku",
-      "url": "https://kotaku.com/star-citizen-squadron-42-delay-gta-6-chris-roberts-rockstar-billion-dollars-2000729284"
-    },
-    {
-      "title": "\"Somebody will make the Half-Life 2 of AI\" - after the Rides",
-      "category": "重磅新闻",
-      "summary": "Saber Interactive made headlines recently when its boss had an ugly spat with a former employee about the company's use of gen-AI in taxi game Rideshare Stimulator. Matthew Karch, Saber's co-founder and CEO, since apologised, and made sure Rideshare got proper AI disclosure label",
+      "summary": "Hello and welcome back to our regular feature where we write a little about the games we've been playing. This week, Kelsey didn't have to sacrifice a limb to play Elden Ring for the first time again; Bertie mucks around in the Prancing Pony with edgy Aragorn; and... Read more",
       "source": "Eurogamer",
-      "url": "https://www.eurogamer.net/saber-half-life-2-gen-ai-rideshare-controversy"
+      "url": "https://www.eurogamer.net/what-weve-been-playing-forget-the-classics-remaster-the-duds"
     },
     {
-      "title": "Transformers Actors Reflect on Death of Optimus Prime actor ",
+      "title": "Pokémon Announces Global Streaming Deal With Disney+",
       "category": "重磅新闻",
-      "summary": "Transformers voice actors pay tribute to Peter Cullen, the voice actor behind Optimus Prime for over 40 years.",
+      "summary": "Includes Aardman's stop-motion series & the original animation.During Pokémon XP this week, it was announced the new stop-motion series 'Pokémon Tales: The Misadventures of Sirfetch’d & Pichu' by Aardman (Wallace & Gromit) would be a Disney exclusive.This included a new look teas",
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/08/pokemon-announces-global-streaming-deal-with-disneyplus"
+    },
+    {
+      "title": "Hit Survival Game Rust Releases Major Overhaul to 2026 Roadm",
+      "category": "游戏更新",
+      "summary": "Facepunch has stealth-updated the Rust roadmap, delaying anticipated features and seemingly canceling others, like the controversial Battle Pass.",
       "source": "Polygon",
-      "url": "https://www.polygon.com/peter-cullen-optimus-prime-death-transformers-actors-respond/"
+      "url": "https://www.polygon.com/rust-roadmap-changes-2026/"
     },
     {
-      "title": "Resonance: A Plague Tale Legacy Got Good Once I Could Finall",
+      "title": "Henry Cavill's New Action Thriller From Guy Ritchie Is Offic",
       "category": "重磅新闻",
-      "summary": "Resonance: A Plague Tale Legacy has a rough opening hours. I'm glad I stuck with it because Sophia's kick ability makes combat so much fun.",
+      "summary": "Guy Ritchie and Henry Cavill have collaborated a few times in their career but their latest film is a streaming success.",
       "source": "Polygon",
-      "url": "https://www.polygon.com/resonance-a-plague-tale-legacy-best-weapon-kick-thesus-flashback/"
+      "url": "https://www.polygon.com/henry-cavill-guy-ritchie-in-the-grey-streaming-success/"
     },
     {
-      "title": "Netflix is likely pleased as punch with the GTA 6 extended l",
+      "title": "You Need to Watch Netflix's 7 Best Original Anime At Least O",
       "category": "重磅新闻",
-      "summary": "Done deal.",
+      "summary": "Dystopian worlds often end up being the most riveting settings.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/best-netflix-original-anime-everyone-needs-to-watch-stream/"
+    },
+    {
+      "title": "The Best Sci-Fi Action Epic of All Time Is About to Be Strea",
+      "category": "重磅新闻",
+      "summary": "James Cameron's Aliens is the still the greatest sequel ever because it gives you more than you could expect from a sequel to Ridley Scott's Alien",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/james-cameron-aliens-on-netflix/"
+    },
+    {
+      "title": "Magic’s Next Set Is Caught in a ‘Naval Snarl’ at the Panama ",
+      "category": "重磅新闻",
+      "summary": "A Panama Canal traffic jam may cause a shortage of Magic: The Gathering’s Reality Fracture Play Boosters after the set’s October launch.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/mtg-reality-fracture-shipping-delay-panama-canal-explained/"
+    },
+    {
+      "title": "'Star Wars' Officially Returns to Disney Plus Next Week with",
+      "category": "重磅新闻",
+      "summary": "The Mandalorian and Grogu revived Star Wars in 2026, now it's coming home to Disney Plus.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/star-wars-mandalorian-and-grogu-streaming-date-disney-plus/"
+    },
+    {
+      "title": "The Pokémon Company Looks to Smart Device Integrations as Fu",
+      "category": "重磅新闻",
+      "summary": "President and CEO of The Pokémon Company, Tsunekazu Ishihara, shared a small bit of insight about the company’s possible future plans with wearable technology during a panel discussion at the inaugural PokémonXP.",
+      "source": "IGN",
+      "url": "https://www.ign.com/articles/the-pokemon-company-looks-to-smart-device-integrations-as-future-targets"
+    },
+    {
+      "title": "'Claude Strife': DLSS 5 has escaped into the wild, and thing",
+      "category": "重磅新闻",
+      "summary": "The controversial generative AI tech can look alright when used subtly, but the 'AI look' seems to be inescapable.",
       "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/grand-theft-auto/netflix-is-likely-pleased-as-punch-with-the-gta-6-extended-look-which-more-than-doubled-its-web-traffic/"
+      "url": "https://www.pcgamer.com/software/ai/claude-strife-dlss-5-has-escaped-into-the-wild-and-things-are-immediately-weird/"
     },
     {
-      "title": "Looks like you can try DLSS 5 out today yourself",
+      "title": "Indie Dev Posts Video Reporting Stolen Laptops at gamescom a",
       "category": "重磅新闻",
-      "summary": "Nvidia might also be doing the smart thing a rebranding the whole DLSS 5 pitch as DLSS Neural Rendering",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/hardware/graphics-cards/looks-like-you-can-try-dlss-5-out-today-yourself/"
-    },
-    {
-      "title": "Rockstar Snuck Red Dead Redemption 2 Into Its GTA 6 Extended",
-      "category": "重磅新闻",
-      "summary": "Did you spot the world of Red Dead Redemption 2 in last night's GTA 6 Extended Look? Rockstar's cowboy epic made a brief appearance — and, of course, some fans spotted it immediately.",
+      "summary": "Ryan Laley, the solo indie developer behind upcoming asymmetrical horror game Mimic, has shared a video confirming his gamescom was \"cut short\" after he and other developers had their laptops stolen.",
       "source": "IGN",
-      "url": "https://www.ign.com/articles/rockstar-snuck-red-dead-redemption-2-into-its-gta-6-extended-look-and-of-course-fans-spotted-it-immediately"
-    },
-    {
-      "title": "GTA 6 Has ‘Big and Small Choices’ in Its Story, As Rockstar ",
-      "category": "重磅新闻",
-      "summary": "Rockstar took things to the next level with Red Dead Redemption 2’s story, and now it’s building on that for GTA 6’s story, which will feature “big and small choices” that impact Jason and Lucia’s journey.",
-      "source": "IGN",
-      "url": "https://www.ign.com/articles/gta-6-story-choices-explained"
-    },
-    {
-      "title": "Grand Theft Auto 6: Extended Look Sparks Netflix Viewership ",
-      "category": "重磅新闻",
-      "summary": "Netflix US viewership spiked by 50% yesterday as Rockstar debuted its Grand Theft Auto 6: Extended Look.",
-      "source": "IGN",
-      "url": "https://www.ign.com/articles/grand-theft-auto-6-extended-look-sparks-netflix-viewership-spike-as-streamer-experiences-momentary-wobble"
-    },
-    {
-      "title": "The Official Pokémon Account Was Hacked to Pull a Memecoin S",
-      "category": "重磅新闻",
-      "summary": "The Pokémon X account was hacked for about 30 minutes, and during this time, the hackers took advantage of it to promote their memecoin.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/pokemon-account-hacked-crypto-memecoin-scam/"
-    },
-    {
-      "title": "'We Just Have to Be Careful What We Pick': GTA 6 Won't Inclu",
-      "category": "重磅新闻",
-      "summary": "Rockstar has discussed the need to \"be careful\" with its satirical take on American culture in GTA 6, when asked about including references to recent events such as the Covid pandemic and Donald Trump's presidency.",
-      "source": "IGN",
-      "url": "https://www.ign.com/articles/we-just-have-to-be-careful-what-we-pick-gta-6-wont-include-covid-or-trump-references-that-could-become-dated-rockstar-says"
+      "url": "https://www.ign.com/articles/indie-dev-posts-video-reporting-stolen-laptops-at-gamescom-as-cd-projekt-red-and-more-step-in-to-help"
     }
   ],
   "studios": [
     {
-      "company": "Take-Two / Rockstar",
-      "title": "GTA 6 is adding a more nuanced version of Red Dead Redemptio",
-      "summary": "Careful when you're in Leonida, it's on sight.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-is-adding-a-more-nuanced-version-of-red-dead-redemption-2s-honor-system-to-ensure-player-characters-arent-too-all-powerful/"
+      "company": "任天堂",
+      "title": "Pokémon World Championships Teases Special Pokémon Pokopia A",
+      "summary": "Update: Cloud island is now available, here's the code.:The Pokémon World Championships is taking place later this month, and as usual, there'll be some game-related announcements.Read the full article on nintendolife.com",
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/08/pokemon-world-championships-teases-special-pokemon-pokopia-announcement"
     },
     {
-      "company": "任天堂",
-      "title": "PSA: It's Your Last Chance To Pick Up A Switch 2 Before The ",
-      "summary": "Numbers go up.Nintendo is raising the price of Switch 2 outside Japan on Tuesday 1st September.The price increase took effect soon after the May announcement in Nintendo's home territory, but everywhere else is following suit next week.Read the full article on nintendolife.com",
-      "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/08/psa-its-your-last-chance-to-pick-up-a-switch-2-before-the-price-goes-up"
+      "company": "Take-Two / Rockstar",
+      "title": "Rockstar Is Using One Of Its Old Tricks To Create GTA 6 TV S",
+      "summary": "A commercial in GTA 6's extended look was filmed in Red Dead Redemption II",
+      "source": "Kotaku",
+      "url": "https://kotaku.com/rockstar-is-using-one-of-its-old-tricks-to-create-gta-6-tv-shows-2000729503"
     },
     {
       "company": "索尼 / SIE",
-      "title": "Crunchyroll Anime App For Switch Shuts Down This October",
-      "summary": "\"Thank you for being part of the Crunchyroll community\".The anime streaming service Crunchyroll has announced its app for the Nintendo Switch will no longer be available as of 30th October 2026.This app originally arrived on the eShop in 2022, the year after Sony's acquisition of",
-      "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/08/crunchyroll-anime-app-for-switch-shuts-down-this-october"
+      "title": "Save 42% Off the PS Portal, the Only Way You'll Be Able to P",
+      "summary": "Forget the price hike.GTA 6 will only be available on PlayStation 5 and Xbox, to start out.",
+      "source": "IGN",
+      "url": "https://www.ign.com/articles/ps-portal-deal-august-2026"
     },
     {
       "company": "微软 / Xbox",
-      "title": "Five Key Takeaways From the New Alien Deathstorm Trailer",
-      "summary": "Rebellion just released a brand-new trailer for its forthcoming action horror shooter Alien Deathstorm and Rebellion’s Head of Design Ben Fisher has highlighted five key takeaways about what you can expect from the game… Since we announced Alien Deathstorm in March at the Xbox Pa",
-      "source": "Xbox Wire",
-      "url": "https://news.xbox.com/en-us/2026/08/27/five-key-takeaways-new-alien-deathstorm-trailer/"
+      "title": "Fable Dev Happy About Delay To 2027 To Avoid “Chaotic Window",
+      "summary": "Microsoft's new Fable game was supposed to launch this year, but it was delayed to February 2027. The game's director, Ralph Fulton, said in an interview that he feels \"great\" about the launch timing for Fable, adding that shifting to 2027 helps the game avoid the \"chaotic window",
+      "source": "GameSpot",
+      "url": "https://www.gamespot.com/articles/fable-dev-happy-about-delay-to-2027-to-avoid-chaotic-window-and-we-all-know-that-means-gta-6/"
+    },
+    {
+      "company": "卡普空 / Capcom",
+      "title": "Capcom Is Making Life-Sized Statues of Lady Dimitrescu and A",
+      "summary": "Capcom is making thirsty fans’ dreams come true for Resident Evil’s 30th anniversary exhibition, revealing that it will display life-sized statues of Lady Dimitrescu and Albert Wesker.",
+      "source": "IGN",
+      "url": "https://www.ign.com/articles/capcom-is-making-life-sized-statues-of-lady-dimitrescu-and-albert-wesker-and-the-internet-is-being-totally-normal-about-it"
     },
     {
       "company": "Valve",
-      "title": "Almost 20 years later, Arkane's founder says he understands ",
-      "summary": "\"We grew up and got a little bit more mature about it.\"",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/fps/almost-20-years-later-arkanes-founder-says-he-understands-why-valve-cancelled-the-ravenholm-game-that-never-was-it-all-came-down-to-the-economics/"
+      "title": "Steam’s Decision To Brand His Open-World Adventure About A C",
+      "summary": "Valve's decision to slap the PEGI 12-rated indie game Future? No Thanks! with an adults-only rating on Steam has led its developer to seek support from 'top German regulators'",
+      "source": "Kotaku",
+      "url": "https://kotaku.com/steams-decision-to-brand-his-open-world-adventure-about-a-cranky-old-boomer-pornography-is-humiliating-and-surreal-developer-says-2000729298"
     }
   ]
 }
