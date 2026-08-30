@@ -308,9 +308,9 @@
       "html_url": "https://github.com/langchain-ai/deepagents"
     },
     "tashfeenahmed/freellmapi": {
-      "best_rank": 8,
-      "appearances": 5,
-      "total_today_stars": 1909,
+      "best_rank": 6,
+      "appearances": 6,
+      "total_today_stars": 2531,
       "language": "TypeScript",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -336,8 +336,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 9,
-      "appearances": 4,
-      "total_today_stars": 1096,
+      "appearances": 5,
+      "total_today_stars": 1292,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -408,8 +408,8 @@
     },
     "tt-a1i/archify": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 9836,
+      "appearances": 4,
+      "total_today_stars": 13738,
       "language": "JavaScript",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
@@ -417,8 +417,8 @@
     },
     "anthropics/claude-plugins-official": {
       "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 1057,
+      "appearances": 4,
+      "total_today_stars": 1415,
       "language": "Python",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -443,18 +443,18 @@
       "html_url": "https://github.com/browser-use/browser-use"
     },
     "K-Dense-AI/scientific-agent-skills": {
-      "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1356,
+      "best_rank": 3,
+      "appearances": 4,
+      "total_today_stars": 2943,
       "language": "Python",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
       "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
     },
     "every-app/open-seo": {
-      "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 135,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 652,
       "language": "TypeScript",
       "description": "Open source alternative to Semrush and Ahrefs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
@@ -507,8 +507,8 @@
     },
     "bilawalsidhu/gods-eye-view": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 5813,
+      "appearances": 3,
+      "total_today_stars": 7668,
       "language": "JavaScript",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/106619546?v=4",
@@ -516,8 +516,8 @@
     },
     "JetBrains/go-modern-guidelines": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 874,
+      "appearances": 3,
+      "total_today_stars": 1177,
       "language": "Go",
       "description": "Help AI coding agents write modern Go",
       "owner_avatar": "https://avatars.githubusercontent.com/u/878437?v=4",
@@ -570,8 +570,8 @@
     },
     "ComposioHQ/awesome-claude-skills": {
       "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 473,
+      "appearances": 3,
+      "total_today_stars": 546,
       "language": "Python",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "owner_avatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
@@ -588,8 +588,8 @@
     },
     "infiniflow/ragflow": {
       "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 80,
+      "appearances": 2,
+      "total_today_stars": 153,
       "language": "Go",
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/69962740?v=4",
@@ -606,8 +606,8 @@
     },
     "tailscale/tailcat": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 965,
+      "appearances": 2,
+      "total_today_stars": 1754,
       "language": "Go",
       "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "owner_avatar": "https://avatars.githubusercontent.com/u/48932923?v=4",
@@ -615,8 +615,8 @@
     },
     "workweave/router": {
       "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 693,
+      "appearances": 2,
+      "total_today_stars": 977,
       "language": "Go",
       "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/174961884?v=4",
@@ -633,8 +633,8 @@
     },
     "t8y2/dbx": {
       "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 420,
+      "appearances": 2,
+      "total_today_stars": 539,
       "language": "Rust",
       "description": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
@@ -650,9 +650,9 @@
       "html_url": "https://github.com/mvanhorn/last30days-skill"
     },
     "cursor/plugins": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 246,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 506,
       "language": "TypeScript",
       "description": "Cursor plugin specification and official plugins",
       "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
@@ -677,9 +677,9 @@
       "html_url": "https://github.com/OpenHands/OpenHands"
     },
     "google/googletest": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 156,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 284,
       "language": "C++",
       "description": "GoogleTest - Google Testing and Mocking Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
@@ -711,6 +711,96 @@
       "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/188336071?v=4",
       "html_url": "https://github.com/MakazhanAlpamys/Soup"
+    },
+    "THU-MAIC/OpenMAIC": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 907,
+      "language": "TypeScript",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/163809488?v=4",
+      "html_url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 385,
+      "language": "Python",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    "livekit/agents": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 254,
+      "language": "Python",
+      "description": "A framework for building realtime voice AI agents 🤖🎙️📹 ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/69438833?v=4",
+      "html_url": "https://github.com/livekit/agents"
+    },
+    "ayghri/i-have-adhd": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 254,
+      "language": "Python",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/32200675?v=4",
+      "html_url": "https://github.com/ayghri/i-have-adhd"
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 216,
+      "language": "TypeScript",
+      "description": "Chrome DevTools for coding agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11260967?v=4",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    "vercel-labs/vgpu": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 203,
+      "language": "TypeScript",
+      "description": "Modular cross-runtime WebGPU library for shaders, 3D scenes, GPU tensors, neural networks, and math viz",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "html_url": "https://github.com/vercel-labs/vgpu"
+    },
+    "p-e-w/heretic": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 150,
+      "language": "Python",
+      "description": "Fully automatic censorship removal for language models",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2702526?v=4",
+      "html_url": "https://github.com/p-e-w/heretic"
+    },
+    "yifanfeng97/Hyper-Extract": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 118,
+      "language": "Python",
+      "description": "Hypergraph is more powerful. Transform unstructured text into structured knowledge with LLMs. Graphs, hypergraphs, and spatio-temporal extractions — with one command.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/15007108?v=4",
+      "html_url": "https://github.com/yifanfeng97/Hyper-Extract"
+    },
+    "chuspeeism/dashi-ppt-skill": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 98,
+      "language": "JavaScript",
+      "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/70992554?v=4",
+      "html_url": "https://github.com/chuspeeism/dashi-ppt-skill"
+    },
+    "alchaincyf/nuwa-skill": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 76,
+      "language": "Python",
+      "description": "你想蒸馏的下一个员工，何必是同事。蒸馏任何人的思维方式——心智模型、决策启发式、表达DNA。Distill how anyone thinks.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
+      "html_url": "https://github.com/alchaincyf/nuwa-skill"
     }
   }
 }

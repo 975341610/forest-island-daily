@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-30": {
-      "pascalorg/editor": 1,
-      "paperswithbacktest/awesome-systematic-trading": 2,
-      "huggingface/speech-to-speech": 3,
-      "moeru-ai/airi": 4,
-      "1jehuang/jcode": 5,
-      "yorukot/superfile": 6,
-      "microsoft/agent-governance-toolkit": 7,
-      "earthtojake/text-to-cad": 8,
-      "pbakaus/impeccable": 9,
-      "alibaba/open-code-review": 10,
-      "microsoft/VibeVoice": 11,
-      "kangarooking/cangjie-skill": 12,
-      "grokability/snipe-it": 13,
-      "pingdotgg/t3code": 14,
-      "remotion-dev/remotion": 15,
-      "ollama/ollama": 16,
-      "JOYCEQL/magic-resume": 17,
-      "Crosstalk-Solutions/project-nomad": 18,
-      "different-ai/openwork": 19,
-      "MoonshotAI/FlashKDA": 20,
-      "vercel-labs/agent-browser": 21,
-      "getarcaneapp/arcane": 22,
-      "certimate-go/certimate": 23,
-      "astral-sh/uv": 24,
-      "microsoft/flint-chart": 25
-    },
     "2026-07-31": {
       "bojieli/ai-agent-book": 1,
       "different-ai/openwork": 2,
@@ -836,6 +809,33 @@
       "koala73/worldmonitor": 23,
       "MakazhanAlpamys/Soup": 24,
       "QuantumNous/new-api": 25
+    },
+    "2026-08-30": {
+      "tt-a1i/archify": 1,
+      "bilawalsidhu/gods-eye-view": 2,
+      "K-Dense-AI/scientific-agent-skills": 3,
+      "THU-MAIC/OpenMAIC": 4,
+      "tailscale/tailcat": 5,
+      "tashfeenahmed/freellmapi": 6,
+      "every-app/open-seo": 7,
+      "harry0703/MoneyPrinterTurbo": 8,
+      "anthropics/claude-plugins-official": 9,
+      "JetBrains/go-modern-guidelines": 10,
+      "workweave/router": 11,
+      "cursor/plugins": 12,
+      "livekit/agents": 13,
+      "ayghri/i-have-adhd": 14,
+      "ChromeDevTools/chrome-devtools-mcp": 15,
+      "vercel-labs/vgpu": 16,
+      "addyosmani/agent-skills": 17,
+      "p-e-w/heretic": 18,
+      "google/googletest": 19,
+      "t8y2/dbx": 20,
+      "yifanfeng97/Hyper-Extract": 21,
+      "chuspeeism/dashi-ppt-skill": 22,
+      "alchaincyf/nuwa-skill": 23,
+      "ComposioHQ/awesome-claude-skills": 24,
+      "infiniflow/ragflow": 25
     }
   }
 }
