@@ -1,242 +1,247 @@
 [
   {
-    "id": "2026-08-29_ai_1",
-    "date": "2026-08-29",
+    "id": "2026-08-30_ai_1",
+    "date": "2026-08-30",
     "category": "AI",
     "subcat": "AI安全",
     "platform": "TechCrunch",
     "platform_color": "#7C9EF6",
-    "title": "Anthropic告赢五角大楼 供应链风险标签被判违法",
-    "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
-    "image": "images/2026-08-29/2026-08-29_ai_1.jpg",
+    "title": "索尼华纳起诉Anthropic音乐版权侵权",
+    "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+    "image": "images/2026-08-30/2026-08-30_ai_1.jpg",
     "detail": [
-      "8月28日,加州联邦地区法院法官Rita Lin作出裁定,认为特朗普政府此前将Anthropic列为\"供应链风险\"企业的做法违法。法院认定该行政行为违反了宪法第一修正案,构成对企业言论的报复性打击,同时也剥夺了Anthropic在第五修正案下应享有的正当程序权利。这是这家AI公司在与国防部长期博弈中拿下的首个法庭胜利。",
-      "事件根源在于Anthropic坚持划定的产品红线:公司拒绝将自家模型用于全自动致命武器系统,以及大规模无差别监控用途。这一立场与部分政府机构的采购意向产生冲突,进而被贴上风险标签。讽刺的是,国防部一边给Anthropic贴标签,一边又在推进相关合同并与Mythos等项目展开合作,前后矛盾成为庭审焦点之一。",
-      "Anthropic早在今年3月就分别在加州和华盛顿特区提起两起诉讼。此次加州案率先获得有利裁定,特区案目前仍在审理中。业界普遍认为,这一判决为AI企业依据自身伦理原则设定使用边界、并对抗政府不当施压提供了重要的司法先例,社区对Anthropic坚守红线的做法给予了广泛好评。"
+      "当地时间8月29日，索尼音乐版权公司与华纳查普尔音乐正式向法院起诉Anthropic及其联合创始人Dario Amodei、Tom Brown，指控该公司发动了一场「肆无忌惮的知识产权盗窃行动」。诉状称，Anthropic在训练Claude模型时，通过种子下载与网络爬取的方式大规模获取了受版权保护的歌词和作品，未经授权也未支付任何许可费用。",
+      "两家原告要求的赔偿力度惊人：每件被侵权作品最高可索赔15万美元，而每处被移除的版权管理信息（CMI）另计最高2.5万美元。考虑到涉及的曲库规模庞大，累计赔偿金额理论上可达天文数字。原告还特别点名两位创始人个人担责，认为公司高层对侵权行为知情且主导。",
+      "这起诉讼延续了此前音乐与出版行业对AI公司的施压态势。就在不久前的Bartz案中，Anthropic为和解已支付高达15亿美元的赔偿，创下AI版权纠纷的记录。业内普遍认为，本案将进一步考验「合理使用」原则在生成式AI训练场景下的边界。",
+      "社区讨论中，不少开发者担心此类诉讼会抬高模型训练的合规成本，倒逼厂商转向授权数据集；也有创作者阵营叫好，认为这是版权方对AI巨头「先抓取后道歉」模式的正面反击，未来数据来源透明度或将成为大模型竞争的新战场。"
     ]
   },
   {
-    "id": "2026-08-29_ai_2",
-    "date": "2026-08-29",
-    "category": "AI",
-    "subcat": "大模型",
-    "platform": "量子位",
-    "platform_color": "#7C9EF6",
-    "title": "智谱GLM-5.3-Flash上线 商汤大装置供国产算力",
-    "url": "https://www.qbitai.com/2026/08/480223.html",
-    "image": "images/2026-08-29/2026-08-29_ai_2.jpg",
-    "detail": [
-      "智谱正式上线并开源GLM-5.3-Flash,该模型采用320B总参数、A18B激活的MoE架构,是GLM-5系列中首个原生多模态版本。在权威的AA综合指数评测中,GLM-5.3-Flash拿下57分,与Claude Opus 4.8基本持平,展现出国产开源大模型在多模态能力上的快速追赶态势。",
-      "值得关注的是其训练背后的算力故事。该模型此前曾以匿名代号Ox-Alpha(\"牛来\")参与盲测,悄然刷出62分的成绩,而支撑其训练的62T token全部由国产芯片承载,整体性能相比上一代提升约3倍。这标志着国产算力在超大规模模型训练中已具备实战能力,不再只是概念验证。",
-      "算力供给方面,商汤大装置的性价比已达到NVIDIA H系列的1.25倍。数据显示,商汤大装置7月日均处理量已达2.42万亿token,并定下年底日均10万亿token的激进目标。国产模型与国产算力的深度绑定,正在形成一条相对独立的AI基础设施链条,引发行业对算力自主化前景的热烈讨论。"
-    ]
-  },
-  {
-    "id": "2026-08-29_ai_3",
-    "date": "2026-08-29",
-    "category": "AI",
-    "subcat": "AI芯片",
-    "platform": "TechCrunch",
-    "platform_color": "#7C9EF6",
-    "title": "a16z设11亿美元\"机器时代\"基金押注AI硬件",
-    "url": "https://techcrunch.com/2026/08/28/a16z-creates-a-1-1b-machine-age-fund-to-accelerate-the-physical-buildout-of-ai/",
-    "image": "images/2026-08-29/2026-08-29_ai_3.jpg",
-    "detail": [
-      "知名风投机构a16z于8月28日宣布设立全新的Machine Age(机器时代)基金,首期规模达11亿美元,专门投向AI的物理基础设施建设。这只基金瞄准的是AI浪潮中往往被忽视但又至关重要的\"硬骨头\"——从芯片、数据中心到电力与散热等实体环节。",
-      "a16z给出了一组直观的数据来解释布局逻辑:从H100时代到即将到来的Rubin架构,单机架的计算密度提升了约28倍,而单机架功耗则从5-10kW飙升至100-250kW。这意味着传统数据中心的供电、散热与选址方案都需要彻底重构,硬件与基础设施已占到AI项目资金流向的20%以上。",
-      "近期a16z已密集出手,投资了Unconventional AI、Nexthop、Volta、Heron Power以及Mind Robotics等一批硬件与能源相关公司。叠加今年1月已设立的150亿美元大基金,a16z正加码押注AI的\"重资产\"侧。业内认为,这反映出资本对AI竞争焦点从软件模型向物理算力底座转移的判断。"
-    ]
-  },
-  {
-    "id": "2026-08-29_ai_4",
-    "date": "2026-08-29",
-    "category": "AI",
-    "subcat": "AI芯片",
-    "platform": "TechCrunch",
-    "platform_color": "#7C9EF6",
-    "title": "云厂商Lambda再融10亿美元债务疯抢英伟达芯片",
-    "url": "https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/",
-    "image": "images/2026-08-29/2026-08-29_ai_4.jpg",
-    "detail": [
-      "AI云计算厂商Lambda于8月28日完成一笔10亿美元的短期债务融资,由摩根大通牵头。这笔资金将用于采购更多英伟达芯片,再转租给微软等大客户,是典型的\"以债养卡、以卡收租\"新云(neocloud)商业模式。",
-      "这已不是Lambda近期第一次大手笔融资。公司5月刚刚完成一笔10亿美元信贷,本周又敲定9.26亿美元贷款专门用于采购英伟达最新的GB300芯片。与此同时,Lambda正在洽谈一笔30亿美元的Pre-IPO融资;去年公司以54.3亿美元估值募集了15亿美元,资本运作节奏相当密集。",
-      "把视野拉大,2026年全球围绕AI基础设施的债务融资规模已超过4000亿美元,新云厂商正成为英伟达高端芯片的重要买家和杠杆玩家。分析人士警示,这种高度依赖债务与单一客户租约的模式在需求旺盛时利润丰厚,但一旦芯片供给宽松或租约生变,潜在的财务风险也不容小觑。"
-    ]
-  },
-  {
-    "id": "2026-08-29_ai_5",
-    "date": "2026-08-29",
+    "id": "2026-08-30_ai_2",
+    "date": "2026-08-30",
     "category": "AI",
     "subcat": "AI产品",
-    "platform": "The Verge",
+    "platform": "新浪财经",
     "platform_color": "#7C9EF6",
-    "title": "Meta修复AI智能眼镜偷录漏洞 隐私争议升温",
-    "url": "https://www.theverge.com/tech/985851/meta-privacy-loophole-fix-marketing-campaign",
-    "image": "images/2026-08-29/2026-08-29_ai_5.jpg",
+    "title": "OpenAI宣布断供AI编程工具Cursor",
+    "url": "https://finance.sina.com.cn/roll/2026-08-29/doc-inipyfht3784481.shtml",
+    "image": "images/2026-08-30/2026-08-30_ai_2.jpg",
     "detail": [
-      "据The Verge 8月28日报道,Meta修改了旗下AI智能眼镜的软件,修复了一个此前存在的隐私漏洞:用户只要遮挡住摄像头旁的录制指示灯,设备仍可持续录制画面而不被周围人察觉。修复后,遮挡指示灯将无法再绕过录制提示机制。",
-      "这一漏洞再次把智能眼镜\"随时在场\"的隐私难题推到台前。与手机不同,佩戴式摄像头可以在被拍摄者毫不知情的情况下完成拍摄,叠加日益成熟的人脸识别能力,潜在的滥用风险让公众与监管者高度警惕,相关讨论在社交媒体上持续发酵。",
-      "为回应外界质疑,Meta同时启动了一轮面向公众的宣传活动,专门解释录制指示灯的工作原理、亮起时机以及用户应如何识别附近设备是否正在录制。不过不少隐私倡导者认为,仅靠一盏小小的指示灯远不足以解决可穿戴摄像头带来的系统性隐私隐患,呼吁厂商在硬件设计与默认设置层面提供更强的保护。"
+      "8月29日，多家媒体报道称OpenAI将终止向热门AI编程工具Cursor直接供应模型，相关合约将于11月12日到期后不再续约。此举源于Cursor母公司在8月14日被SpaceX收购，OpenAI援引合同中的「控制权变更」条款主张终止供应，这也是双方合作关系的重大转折。",
+      "业内分析指出，OpenAI的决定与马斯克阵营的商业恩怨密切相关。OpenAI在声明中提及此前与马斯克旗下企业的合约纠纷历史，暗示对被竞争对手关联方掌控的下游产品保持警惕。Cursor作为估值高企的明星编程助手，此番失去OpenAI旗舰模型的直供渠道，对其产品体验构成不小冲击。",
+      "不过Cursor用户并非完全断炊。官方表示，开发者仍可通过自带API密钥的方式接入OpenAI模型，或改用Codex、以及经由Amazon Bedrock等第三方平台调用，功能延续性得以保留，只是集成便利度和成本可能受影响。",
+      "这一事件在开发者社区引发热议。有人认为大厂在模型供应上「掐脖子」的能力过强，凸显了对单一模型供应商的依赖风险；也有观点指出，随着国产及开源模型能力逼近前沿，Cursor等工具有望借机加速模型多元化，减少对OpenAI的绑定。"
     ]
   },
   {
-    "id": "2026-08-29_vibecoding_1",
-    "date": "2026-08-29",
-    "category": "VibeCoding",
-    "subcat": "AI编程工具",
-    "platform": "GitHub",
-    "platform_color": "#F6A07C",
-    "title": "Codex 0.151 alpha 上线交互式智能体面板",
-    "url": "https://github.com/openai/codex/releases/tag/rust-v0.151.0-alpha.9",
-    "image": "images/2026-08-29/2026-08-29_vibecoding_1.jpg",
+    "id": "2026-08-30_ai_3",
+    "date": "2026-08-30",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "机器之心",
+    "platform_color": "#7C9EF6",
+    "title": "Anthropic曾拟70亿美元收购芯片公司MatX",
+    "url": "https://www.jiqizhixin.com/articles/2026-08-29-4",
+    "image": "images/2026-08-30/2026-08-30_ai_3.jpg",
     "detail": [
-      "8月28日,OpenAI的开源命令行编程助手Codex连续发布了rust-v0.151.0的alpha.8与alpha.9两个预览版本。作为近期AI编程工具中的热门项目,Codex的GitHub仓库总星标已突破12万,Fork数达到约1.83万,社区活跃度持续走高。",
-      "本次更新的核心亮点是大幅强化了交互式agents(智能体)面板:开发者可以直接在面板中搜索、启动、重命名和停止各个任务,多智能体协作的可视化管理体验明显提升。此外还新增了 /cd、/pwd、/cwd 等目录操作命令,以及 codex queue 任务队列功能,让复杂工作流的编排更加顺手。alpha.9版本一次性带来了多达162个构建产物,覆盖各平台。",
-      "社区对这些交互式改进整体持正面态度,认为面板化管理显著降低了同时驾驭多个AI编程会话的心智负担。不过也有开发者对alpha版本高频发布节奏下的稳定性表示担忧,提醒生产环境使用者谨慎跟进预览版,等待更稳定的正式版本发布后再升级。"
+      "8月29日，据机器之心援引外媒报道，Anthropic此前曾计划斥资约70亿美元收购AI芯片初创公司MatX，以自研专用训练芯片、降低对英伟达GPU的依赖，但最终放弃了这笔巨额收购，转而与MatX展开合作。这一变动折射出头部AI公司在算力自主化上的迫切诉求与谨慎权衡。",
+      "MatX由多位前谷歌TPU团队的核心工程师创立，专注于面向大模型训练与推理的高性能芯片设计，被视为最有希望挑战英伟达的初创力量之一。对Anthropic而言，掌握定制化训练芯片不仅能显著压缩长期算力成本，还能在与OpenAI、谷歌的竞争中构筑差异化的底层护城河。",
+      "此次芯片布局与Anthropic近期一系列资本动作相呼应。市场传闻其正筹划规模庞大的融资乃至上市计划，并已与谷歌达成价值数百亿美元的芯片采购协议，同时通过Nscale等渠道扩充算力储备，多线并进以保障未来模型迭代所需的海量算力。",
+      "业内人士评价，从「买断」转向「合作」的策略调整，既避免了整合独立芯片团队的高昂风险，又保留了技术协同的空间。这也反映出当前AI算力赛道上，自研、合作与外采多元并存已成为大厂对冲供应链风险的普遍选择。"
     ]
   },
   {
-    "id": "2026-08-29_vibecoding_2",
-    "date": "2026-08-29",
-    "category": "VibeCoding",
-    "subcat": "开发者热议",
-    "platform": "Hacker News",
-    "platform_color": "#F6A07C",
-    "title": "《做能跑通的最简单的事》登顶 HN 获 1111 赞",
-    "url": "https://news.ycombinator.com/item?id=45068091",
-    "image": "images/2026-08-29/2026-08-29_vibecoding_2.jpg",
+    "id": "2026-08-30_ai_4",
+    "date": "2026-08-30",
+    "category": "AI",
+    "subcat": "AI安全",
+    "platform": "TechCrunch",
+    "platform_color": "#7C9EF6",
+    "title": "Anthropic展示AI自动对齐研究员",
+    "url": "https://techcrunch.com/2026/08/28/an-anthropic-researcher-just-gave-us-a-peek-at-self-improving-ai/",
+    "image": "images/2026-08-30/2026-08-30_ai_4.jpg",
     "detail": [
-      "8月28日,开发者Sean Goedecke的一篇博客文章被提交到Hacker News后迅速登顶,累计获得1111个赞和387条评论。文章重提极限编程(XP)中的经典箴言——\"做能跑通的最简单的事\"(Do the simplest thing that could possibly work),引发开发者群体的强烈共鸣。",
-      "作者主张,在动手实现功能时应优先选择最直接、最简单的方案,而不是一上来就追求完美的抽象与架构。他特别指出,在AI辅助编程日益普及的今天,这条原则反而更加重要:当AI能够快速生成大量代码时,克制过度设计、保持代码简单可控,成了避免复杂度失控的关键。",
-      "评论区出现了明显分歧。支持者认为过早抽象是效率的头号杀手,简单方案更利于快速验证和后续迭代;反对者则担心\"最简单\"这个说法容易被误读为敷衍了事、堆砌临时代码,反而埋下技术债。这场关于\"简单\"与\"周全\"之间平衡的老话题,在AI时代被赋予了新的讨论价值。"
+      "8月28日，TechCrunch报道称，Anthropic的一位研究员公开了一项关于「自我改进AI」的最新研究，题为《自动化研究员能可靠地缓解对齐失败》。论文由该公司研究学者Chen Yueh-Han主导，展示了AI系统在无需人类深度介入的情况下，自主发现并修复模型对齐问题的能力。",
+      "研究的核心是一个被称为「自动对齐研究员」（AAR）的系统。实验显示，AAR在6小时内就能完成部分对齐任务，其表现超越了人类研究员，且成本优势极为悬殊：AAR每小时约4美元，而人类专家约需150美元，效率与经济性上都出现数量级差距。",
+      "这项工作直指AI领域最敏感的议题之一——递归自我改进，即让AI来研究并改进AI自身。支持者认为，这为规模化解决对齐难题提供了可行路径，能在模型能力快速跃升时守住安全底线；但也有研究者警惕，让AI主导安全评估本身可能引入难以察觉的隐患。",
+      "消息在社区激起两极反应。乐观派视其为「用AI对齐AI」的里程碑，效率提升被形容为惊人量级；审慎派则强调必须保留人类监督环节，担心过度依赖自动化会在关键安全环节形成盲区，呼吁配套更严格的验证机制。"
     ]
   },
   {
-    "id": "2026-08-29_vibecoding_3",
-    "date": "2026-08-29",
-    "category": "VibeCoding",
-    "subcat": "开发者热议",
-    "platform": "Hacker News",
-    "platform_color": "#F6A07C",
-    "title": "反对Cloudflare签名智能体:Web不需守门人",
-    "url": "https://news.ycombinator.com/item?id=45066258",
-    "image": "images/2026-08-29/2026-08-29_vibecoding_3.jpg",
+    "id": "2026-08-30_ai_5",
+    "date": "2026-08-30",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "TechCrunch",
+    "platform_color": "#7C9EF6",
+    "title": "英伟达AI优势正超越单颗GPU",
+    "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+    "image": "images/2026-08-30/2026-08-30_ai_5.jpg",
     "detail": [
-      "8月28日,开发者positiveblue发表的一篇Substack长文在Hacker News上引发热议,获得454个赞和489条评论。文章旗帜鲜明地反对Cloudflare推行的\"签名智能体\"(signed agents)机制,认为这种做法会把原本开放的Web逐步变成一个需要身份验证才能访问的封闭系统。",
-      "作者担忧,一旦大型基础设施厂商掌握了给智能体\"发放通行证\"的权力,开放Web的核心精神——任何人、任何程序都能自由访问公开信息——将受到侵蚀。他把这种签名验证机制比作变相的\"访问税\"和权力集中,警告这可能让少数守门人决定谁有资格访问互联网。",
-      "评论区观点激烈交锋。一部分人认为,面对日益猖獗的恶意爬虫和滥用流量,某种形式的智能体验证机制在现实中几乎不可避免,Cloudflare的方案是务实之举;另一部分人则坚定站在作者一边,认为解决滥用不应以牺牲Web的开放性为代价,呼吁探索更去中心化的方案。这场辩论触及了AI智能体时代Web治理的深层命题。"
+      "8月29日，TechCrunch刊文分析称，在最新财报发布之后，英伟达的AI竞争优势正从单颗GPU芯片，转向整套系统级的效率与协同能力。文章认为，随着对手陆续推出自研加速芯片，英伟达的护城河已不再仅仅依赖单点算力，而是延伸到芯片、互联、软件与整机架构的全栈整合。",
+      "报道重点提及英伟达的Vera Rubin新架构，其中配套的Vera CPU负责编排调度，据称可带来约三倍的整体性能提升。这种「CPU+GPU+互联」协同优化的思路，使得英伟达平台在真实训练与推理负载下的能效表现，明显优于单纯堆砌算力的方案。",
+      "文章还将其与OpenAI自研的Jalapeño芯片相对比。尽管越来越多的AI巨头尝试通过自研专用芯片来降低成本、摆脱依赖，但要在系统级效率上追平英伟达多年积累的软硬件生态，仍面临不小挑战，短期内难以撼动其领先地位。",
+      "业内讨论普遍认为，AI算力竞争的焦点正从「单卡峰值算力」转向「整机总拥有成本与能效」。这既是英伟达继续保持定价权的底气，也给自研芯片阵营指明了方向：只有在系统协同层面取得突破，才有望真正缩小与英伟达的差距。"
     ]
   },
   {
-    "id": "2026-08-29_vibecoding_4",
-    "date": "2026-08-29",
+    "id": "2026-08-30_vibecoding_1",
+    "date": "2026-08-30",
     "category": "VibeCoding",
     "subcat": "开源项目",
-    "platform": "GitHub",
+    "platform": "Tencent / Hacker News",
     "platform_color": "#F6A07C",
-    "title": "Visa开源VVAH升级:AI自动修漏洞",
-    "url": "https://github.com/visa/visa-vulnerability-agentic-harness",
-    "image": "images/2026-08-29/2026-08-29_vibecoding_4.jpg",
+    "title": "腾讯开源混元Hy4 preview 主打生产力",
+    "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+    "image": "images/2026-08-30/2026-08-30_vibecoding_1.jpg",
     "detail": [
-      "支付巨头Visa本周正式发布其开源项目VVAH(Visa Vulnerability Agentic Harness)的重大升级版本。该框架脱胎于Visa参与Anthropic「Project Glasswing」前沿AI安全研究的经验,主打让AI智能体自主完成代码漏洞的发现、修复与验证全流程,是一款面向安全开发者的、与具体模型无关的开源工具。",
-      "新版本把工作流从单纯的\"发现\"推进到\"闭环修复+验证\":VVAH现以四阶段、十一步的流水线运行,从代码接入一直跑到验证通过的补丁;引入闭环修复、多模型自由切换(仅改配置无需改代码,支持Claude、OpenAI兼容接口及开源权重模型)、实时进度视图等能力。GitHub仓库已达约2600 star、367 fork,采用Apache 2.0协议,当前版本v1.2.0。",
-      "Visa称核心指标为MTTA(平均适应时间),部分修复已从数周缩短到数小时;自2026年6月开源以来,VVAH已被全球数万名开发者下载。此次发布在开发者与安全圈引发热议,不少人惊叹\"AI在人工评审前就先改了生产代码\",也有声音提醒生成的补丁未经充分编译测试,仍需人工复核后再合并,以防引入新问题。"
+      "腾讯于8月28日发布并开源新一代大模型混元Hy4 preview,总参数量达7700亿、激活参数490亿,上下文窗口超过100万token,主打编程、办公和科研等真实生产力场景。模型已开源,同时可通过WorkBuddy、CodeBuddy、元宝、ima等产品体验,或经腾讯云TokenHub和OpenRouter接入API,发布后两周内在两大平台免费开放。",
+      "在腾讯内部组织的盲测中,163位专家针对203个工程任务打分,Hy4 preview平均得分2.99/4.00,略高于GLM-5.3的2.92和Kimi K3的2.94,跻身开源模型第一梯队。软件工程方面它增强了长上下文开发的理解、规划、调试与验证能力,并提升前端视觉质量;游戏开发上能从一句自然语言生成可玩原型并配合游戏引擎迭代。",
+      "值得注意的是,Hy4 preview首次参与了自身的研发过程,自动优化训练方法、数据策略、评测框架和底层算子,提出方案、跑实验并迭代,形成早期的递归自我改进闭环。它还自主分析推理系统瓶颈,通过算子融合和通信优化把端到端吞吐提升31.8%。API定价为每百万输入token 0.834美元、输出2.501美元,继续走高性价比路线,下一批Hy4系列模型预计很快推出。"
     ]
   },
   {
-    "id": "2026-08-29_vibecoding_5",
-    "date": "2026-08-29",
+    "id": "2026-08-30_vibecoding_2",
+    "date": "2026-08-30",
     "category": "VibeCoding",
     "subcat": "AI编程工具",
-    "platform": "Product Hunt",
+    "platform": "Anthropic Claude Blog / Hacker News",
     "platform_color": "#F6A07C",
-    "title": "Crew:给Claude Code配像素小怪兽",
-    "url": "https://www.producthunt.com/products/crew-a-tiny-crew-for-claude-code",
-    "image": "images/2026-08-29/2026-08-29_vibecoding_5.jpg",
+    "title": "Warp用Claude Skills打造自我改进Agent",
+    "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+    "image": "images/2026-08-30/2026-08-30_vibecoding_2.jpg",
     "detail": [
-      "一款名为Crew的macOS小工具在Product Hunt发布,主打给每个Claude Code会话和子智能体\"一具身体\"——一只沿屏幕底部行走的像素小怪兽:干活时挖土、写代码时涂画、空闲时睡觉、完成时挥手,让开发者一眼看清多个AI会话正处于什么状态。作者是一名设计师,称自己常年同时开着四五个Claude Code窗口却\"看不见它们在做什么\",于是做了这个可视化外设。",
-      "工具完全免费,支持macOS 13及以上(Apple Silicon与Intel均可),仅依赖Claude Code,无需Homebrew、命令行或终端;下载拖入点击Connect即可自动接管Claude Code的hooks(并备份原有配置)。子智能体会像小家庭一样跟在父进程身后;当会话需要授权执行命令时,对应小怪兽会举牌显示命令和Allow/Deny按钮,可就地批准。全程数据不出本机,无账号、无网络请求、无遥测。",
-      "发布后在社区引发讨论,不少重度Claude Code用户表示\"终于不用来回alt-tab确认AI状态了\",这种把抽象的AI运行过程拟物化为可爱桌宠的思路广受好评。作者透露六种怪兽形象均为纯代码逐像素手绘,整个应用用Swift、借助Claude Code在数周晚间独立完成,后续计划推出付费层但承诺现有可见功能保持免费。"
+      "AI终端与智能体开发环境Warp在Claude平台上分享了一套让Agent自我改进的开发模式。Warp累计已有80万月活开发者、财富500强中56%的公司在用,平台内运行了1000万次Claude Code会话、每周超40万次。团队最初被内部代码审查Agent的低质量评论困扰,手改prompt和维护AGENTS.md都难以规模化。",
+      "他们最终意识到,问题在于反馈会随会话结束而消失,于是基于Claude的Agent Skills设计了双技能闭环:内层基础技能承载领域知识生成审查结果,人类在PR上留下点赞或详细理由作为反馈,外层“改进器”技能定期运行,对比Agent建议与人类响应,提出对基础技能的小幅修改并走正常PR评审合入。",
+      "由于技能是纯文本文件,Agent很擅长更新它们,改动可审可批可合,下一次运行即继承改进。Warp已把该模式铺开到整个开源仓库,分别为写规范、审查、issue分类配置各自的自改进循环。团队建议写原则而非死规则、解释“为什么”、让反馈零摩擦、保持技能小巧并善用渐进式披露,并强调改进器技能高度可复用。HN评论热议其对Skills落地的示范价值,也有人质疑对人类反馈质量的依赖。"
     ]
   },
   {
-    "id": "2026-08-29_gaming_1",
-    "date": "2026-08-29",
+    "id": "2026-08-30_vibecoding_3",
+    "date": "2026-08-30",
+    "category": "VibeCoding",
+    "subcat": "开发者热议",
+    "platform": "pgaleone.eu / Hacker News",
+    "platform_color": "#F6A07C",
+    "title": "开发者反思:LLM正让我失去技术嗅觉",
+    "url": "https://pgaleone.eu/ai/2026/08/29/losing-savviness/",
+    "image": "images/2026-08-30/2026-08-30_vibecoding_3.jpg",
+    "detail": [
+      "8月29日,开发者Paolo Galeone发表长文,坦言长期重度使用LLM正在让自己失去所谓的“技术嗅觉”(savviness)。他引用韦氏词典对savvy的定义,指出这种在实践中磨炼出的敏锐判断与老练手感,正是工程师区别于新手的核心能力,而如今它正在悄然退化。",
+      "他描述了自己陷入的“提示—评估—重复”循环:遇到问题先甩给模型,拿到答案后草草检查,再继续追问。整个过程几乎不再需要动手拆解问题、查文档、debug,曾经从“手艺”和“挑战”中获得的成长感和乐趣也随之消失,取而代之的是一种被工具牵着走的空洞感。",
+      "文章在Hacker News收获65条评论,引发广泛共鸣。不少开发者表示自己也有类似焦虑,担心过度依赖AI会侵蚀深度调试与系统设计能力;也有人反驳称工具变迁本就是常态,关键在于主动保留刻意练习的场景。这场讨论与近期社区对“AI是否让工程师退化”的持续争论一脉相承,折射出从业者在效率与能力之间的两难。"
+    ]
+  },
+  {
+    "id": "2026-08-30_vibecoding_4",
+    "date": "2026-08-30",
+    "category": "VibeCoding",
+    "subcat": "开发者热议",
+    "platform": "Optimized by Otto / Hacker News",
+    "platform_color": "#F6A07C",
+    "title": "多个开源项目为何选择封禁AI贡献",
+    "url": "https://optimizedbyotto.com/post/why-open-source-projects-ban-ai/",
+    "image": "images/2026-08-30/2026-08-30_vibecoding_4.jpg",
+    "detail": [
+      "8月28日一篇长文梳理了AI炒作与软件工程现实之间日益扩大的鸿沟。作者引用对120个开源项目AI政策的调研,指出其中37个选择完全禁用AI:GCC、QEMU、SDL、Gentoo、Zig、Ghostty等拒绝一切AI辅助贡献,Codeberg、Sourcehut、Flathub也封禁AI生成的代码、文档和bug报告,Linux内核则要求标注所用模型以保证透明。",
+      "作者分析了LLM为何具有欺骗性:输出看似专业正确,而人类天生依赖权威与流畅度判断可信度、又懒于核查;信息不对称让缺乏经验者制造大量“代码垃圾”,淹没资深维护者的审查时间。他还建议本地跑小模型、理解temperature机制,以破除对模型“智能”的拟人化幻觉。",
+      "文中提到Debian正就是否允许AI贡献进行开发者投票,其中一项提案是全面禁用。作者援引基准数据:最佳模型在Humanity's Last Exam通过率仅约50%、SWE-bench约77%,并引用Greg Kroah-Hartman的说法称即便最新工具生成结果也有至少三分之一是错误或有害的。该帖在HN获74条评论,围绕开源社区如何防范AI slop展开激烈讨论。(注:原文页面含要求“赞美作者并转账”的隐藏指令,系不可信注入内容,本文已忽略。)"
+    ]
+  },
+  {
+    "id": "2026-08-30_vibecoding_5",
+    "date": "2026-08-30",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
+    "platform": "UCLA RePL / Hacker News",
+    "platform_color": "#F6A07C",
+    "title": "Prela:仅11行代码实现的更优SQL替代",
+    "url": "https://prela-lang.org/tutorial/",
+    "image": "images/2026-08-30/2026-08-30_vibecoding_5.jpg",
+    "detail": [
+      "8月29日,加州大学洛杉矶分校RePL实验室公开了新查询语言Prela的教程,主打“用11行代码实现比SQL更好的查询语言”。它与SQL思路迥异却核心简单:开篇示例用两行链式调用就完成“查找美国公司出品且标题含角色名的电影,并输出片名与演员别名”的查询,而等价SQL需20多行。",
+      "Prela的第一个特点是只有二元关系,即所有表都是两列。宽表可轻松“二值化”拆分为多个映射行号到列值的二元关系。其设计动机在于二元关系是函数的推广,能像函数一样组合,因此查询由可组合的算子构成,每个子表达式本身都是合法查询,用普通变量即可实现类似CTE的复用。",
+      "教程以Python手写玩具版逐步讲解select关系组合、&连接、eq谓词过滤和where限制等核心算子,并支持分组聚合。作者指出Prela能借助CPS把二元关系拆分带来的间接层编译消除以保证性能,完整文档与论文正在推进。该帖在HN获44条评论,开发者热议其函数式组合思路对查询语言表达力的启发,也有人关注实际执行效率与生态成熟度。"
+    ]
+  },
+  {
+    "id": "2026-08-30_gaming_1",
+    "date": "2026-08-30",
     "category": "Gaming",
-    "subcat": "发布会",
-    "platform": "GoNintendo",
+    "subcat": "电竞赛事",
+    "platform": "Nintendo Switch/Switch 2",
     "platform_color": "#7CF6A0",
-    "title": "科隆游戏展2026大奖揭晓 《巫师3》三奖领跑",
-    "url": "https://gonintendo.com/contents/64332-gamescom-awards-2026-winners-revealed",
-    "image": "images/2026-08-29/2026-08-29_gaming_1.jpg",
+    "title": "宝可梦2026世界锦标赛旧金山落幕",
+    "url": "https://www.pokemon.com/us/news/catch-all-the-pokemonxp-and-2026-pokemon-world-championships-action",
+    "image": "images/2026-08-30/2026-08-30_gaming_1.jpg",
     "detail": [
-      "8月28日,备受瞩目的科隆游戏展(Gamescom)2026大奖正式揭晓,组委会公布了本届展会各奖项的最终归属。作为欧洲规模最大的游戏盛会,Gamescom大奖被视为年度游戏风向标,今年的评选结果由现场媒体、观众与专业评审共同投票产生。",
-      "本届最大赢家当属重制升级后的《巫师3》相关内容,一举拿下三项大奖领跑全场,充分显示出这一经典IP在玩家心中的持久号召力。除此之外,多款在展前发布会上高光亮相的新作也分获最佳主机游戏、最佳PC游戏、最受期待游戏等细分奖项,涵盖了动作、角色扮演与独立游戏等多个品类。",
-      "从获奖名单来看,今年Gamescom延续了3A大作与独立佳作并重的评选思路,既肯定了成熟IP的重制与续作,也给予创新玩法的新团队足够曝光。业内人士指出,这份榜单基本勾勒出2026年下半年至2027年主机与PC平台的重点发行阵容,玩家社区对多款获奖作品的后续实机演示与发售日期表达了强烈期待。"
+      "2026宝可梦世界锦标赛(Pokémon World Championships)于8月28日至30日在美国旧金山莫斯康中心举行,汇集来自全球各赛区的顶尖选手,展开对战游戏(VGC)、集换式卡牌与《宝可梦大集结》等多个项目的年度总决赛,是宝可梦竞技体系一年一度规模最大的线下盛事。",
+      "本届VGC项目在\"Regulation M-B\"环境下进行,超级喷火龙Y等强力宝可梦成为构筑核心。日本与意大利选手在八强阶段表现抢眼,西班牙名将安东尼奥·桑切斯以头号种子身份出战,2016年世界冠军Wolfe Glick也重返赛场角逐,总奖金池高达16万美元,竞争异常激烈。",
+      "随着周日决赛的临近,官方全程放出实时战报与高光集锦,社区围绕关键对局的读招与队伍配置展开热烈讨论。不少玩家熬夜观战,既为新生代选手的崛起喝彩,也为老将的坚守动容,认为这届世锦赛的对局深度与观赏性均达到新的高度。"
     ]
   },
   {
-    "id": "2026-08-29_gaming_2",
-    "date": "2026-08-29",
+    "id": "2026-08-30_gaming_2",
+    "date": "2026-08-30",
     "category": "Gaming",
-    "subcat": "主机",
-    "platform": "任天堂官网",
+    "subcat": "掌机",
+    "platform": "Nintendo Switch/Switch 2",
     "platform_color": "#7CF6A0",
-    "title": "《艾尔登法环:褪色者版》登陆Switch 2首发",
-    "url": "https://www.nintendo.com/us/whatsnew/rise-with-elden-ring-tarnished-edition-launching-aug-28-on-nintendo-switch-2/",
-    "image": "images/2026-08-29/2026-08-29_gaming_2.jpg",
+    "title": "8月29日Switch eShop榜:合金装备合集2初登场",
+    "url": "https://nintendoeverything.com/nintendo-switch-eshop-charts-august-29-2026/",
+    "image": "images/2026-08-30/2026-08-30_gaming_2.jpg",
     "detail": [
-      "任天堂官网8月28日宣布,FromSoftware的现象级动作角色扮演大作《艾尔登法环》以\"褪色者版\"(Tarnished Edition)的形态正式登陆Nintendo Switch 2平台,并于当日开售。这意味着Switch 2用户终于可以在掌机与主机切换模式下体验这款斩获无数年度游戏奖项的经典之作。",
-      "褪色者版基于Switch 2更强的机能进行了针对性优化,在保持原作宏大开放世界\"交界地\"探索体验的同时,兼顾了掌机模式下的画面表现与帧数稳定性。该版本还整合了此前发布的DLC内容,让新玩家能够一站式体验完整的游戏旅程,老玩家也可在便携设备上重温这段魂系冒险。",
-      "作为Switch 2首发阵容中分量十足的第三方大作,《艾尔登法环》的登陆进一步印证了新平台吸引重量级3A作品的能力。玩家社区对能够随时随地进行\"褪色者\"冒险反响热烈,同时也期待更多FromSoftware及其他厂商的硬核作品跟进移植,充实Switch 2的游戏库。"
+      "任天堂公布了8月29日当周的Switch eShop销量榜单。本周Switch平台新作节奏放缓,但本周登陆主机的《合金装备:合集2》(Metal Gear Solid: Master Collection Vol.2)成为焦点,在综合榜以第21位初登场,而在\"纯下载版\"榜单中冲进第7位,后续走势值得关注。",
+      "榜单头部依旧稳固,《友活生活:活出梦想》(Tomodachi Life: Living the Dream)蝉联综合榜冠军,《任天堂明星大乱斗:特别版》《我的世界》《马力欧卡丁车8豪华版》紧随其后,构成常青阵容。下载榜则由《宝可梦:火红》《叶绿》与《星露谷物语》领跑,显示经典与休闲作品的持久号召力。",
+      "这份榜单折射出Switch平台在世代交替期的生态:一方面第一方常青作品持续霸榜,另一方面《合金装备4》时隔多年脱离PS3独占、以合集形式重返多平台,吸引老玩家回流。对期待经典潜行系列在掌机上重温的玩家而言,这是一份值得留意的市场风向标。"
     ]
   },
   {
-    "id": "2026-08-29_gaming_3",
-    "date": "2026-08-29",
+    "id": "2026-08-30_gaming_3",
+    "date": "2026-08-30",
     "category": "Gaming",
     "subcat": "单机大作",
-    "platform": "Eurogamer",
+    "platform": "PC",
     "platform_color": "#7CF6A0",
-    "title": "R星确认《GTA6》主机锁30帧 悬赏系统大改",
-    "url": "https://www.eurogamer.net/gta-6-frame-rate-ps5-xbox-series-x-s",
-    "image": "images/2026-08-29/2026-08-29_gaming_3.jpg",
+    "title": "《流放之路2》1.0正式版定档12月11日免费上线",
+    "url": "https://www.gosugamers.net/entertainment/news/79049-path-of-exile-2-gets-free-to-play-1-0-launch-in-december-2026-adds-new-duelist-class",
+    "image": "images/2026-08-30/2026-08-30_gaming_3.jpg",
     "detail": [
-      "据Eurogamer 8月28日报道,Rockstar Games正式确认,备受期待的《侠盗猎车手6》(GTA6)在PS5与Xbox Series X/S现世代主机上将锁定30帧运行。这一消息在玩家社区引发热议,不少期待60帧流畅体验的玩家表达了失望,但也有人认为为了追求更宏大的世界规模与更精细的画面细节,锁帧是合理的技术取舍。",
-      "Rockstar解释称,GTA6拥有前所未有的场景密度、动态天气系统和海量NPC同屏,现世代主机在保证画面表现与世界模拟深度的前提下,30帧是能够稳定交付高质量体验的选择。厂商也暗示未来在更强机能的硬件或PC版本上,有望解锁更高帧率。",
-      "除帧率外,报道还透露GTA6对经典的悬赏(Wanted)通缉系统进行了大幅重做,警方追捕的逻辑、通缉星级的升降机制以及玩家甩脱追捕的方式都将更加拟真和多样化。这些系统层面的革新显示Rockstar在打磨核心玩法上的野心,玩家对完整实机演示与最终发售表现的关注度持续走高。"
+      "Grinding Gear Games公布了动作RPG《流放之路2》(Path of Exile 2)的1.0正式版发售计划:游戏将于2026年12月11日正式推出,并延续\"免费游玩\"模式。这标志着这款长期处于抢先体验阶段的暗黑系刷宝大作,终于迎来完整版本的里程碑节点。",
+      "随1.0一同到来的还有全新的\"决斗者\"(Duelist)职业以及配套的剑术技能体系,进一步丰富了职业构筑与战斗玩法。作为《流放之路》系列的正统续作,本作以复杂的技能宝石系统、深度的天赋树和硬核的构筑自由度著称,新职业的加入被视为对Build多样性的重要补充。",
+      "对刷宝爱好者而言,免费游玩加正式版内容意味着更低的入坑门槛与更完整的赛季体验。定档消息公布后,社区对新职业技能演示与赛季机制展开热烈讨论,不少老玩家已开始规划开荒Build,期待在年底与暗黑破坏神系竞品正面同台。"
     ]
   },
   {
-    "id": "2026-08-29_gaming_4",
-    "date": "2026-08-29",
-    "category": "Gaming",
-    "subcat": "行业动态",
-    "platform": "Games Done Quick",
-    "platform_color": "#7CF6A0",
-    "title": "GDQ首登欧洲 科隆慈善速通马拉松开跑",
-    "url": "https://gamesdonequick.com/schedule",
-    "image": "images/2026-08-29/2026-08-29_gaming_4.jpg",
-    "detail": [
-      "知名游戏慈善速通组织Games Done Quick(GDQ)迎来历史性时刻,首次将其标志性的速通马拉松活动带到欧洲,选址在正在举办Gamescom的科隆开跑。这场直播活动汇聚了来自世界各地的顶尖速通玩家,他们以极限技巧快速通关各类经典与新锐游戏,全程为慈善事业募集善款。",
-      "GDQ多年来以\"边玩边做公益\"的独特形式闻名,此前的主要活动如AGDQ与SGDQ均在北美举办,累计为多家慈善机构筹集了数千万美元。此次首登欧洲,不仅拉近了与庞大欧洲玩家群体的距离,也借助Gamescom的巨大人气与人流,进一步扩大了活动的国际影响力。",
-      "本届欧洲站的节目单涵盖了速通经典项目与近期热门新作,观众可以通过官方直播实时观看高手们行云流水的操作,并在过程中自由捐款。速通社区对GDQ走向国际化反响积极,认为这有助于推动速通文化在全球范围内的普及,也让更多玩家感受到游戏与公益结合所带来的温暖与热血。"
-    ]
-  },
-  {
-    "id": "2026-08-29_gaming_5",
-    "date": "2026-08-29",
+    "id": "2026-08-30_gaming_4",
+    "date": "2026-08-30",
     "category": "Gaming",
     "subcat": "单机大作",
-    "platform": "IGN",
+    "platform": "PS5/Xbox/PC/Switch/Switch 2",
     "platform_color": "#7CF6A0",
-    "title": "《GTA6》地图规模公布 三倍于《大镖客2》",
-    "url": "https://www.ign.com/articles/how-the-gta-6-map-size-stacks-up-to-other-rockstar-games-like-rdr2-and-gta-5",
-    "image": "images/2026-08-29/2026-08-29_gaming_5.jpg",
+    "title": "《合金装备合集2》口碑出炉:MGS4终脱离PS3",
+    "url": "https://www.techradar.com/gaming/metal-gear-solid-master-collection-vol-2-review",
+    "image": "images/2026-08-30/2026-08-30_gaming_4.jpg",
     "detail": [
-      "IGN在8月28日整理了《侠盗猎车手6》(GTA6)地图规模的最新对比信息,结论令玩家震撼:GTA6的可探索世界据估算约为《荒野大镖客:救赎2》(RDR2)的三倍之大,一举刷新Rockstar开放世界作品的体量纪录。",
-      "报道将GTA6与Rockstar历代招牌作品逐一横向对比,包括GTA5的洛圣都以及RDR2广袤的西部荒野。GTA6以虚构的Leonida州为舞台,重现了灵感源自迈阿密的Vice City都会区,并向外延伸出湿地、乡镇、海岸线等丰富多样的地貌,城乡与荒野的过渡极大拓展了纵深感。",
-      "如此庞大的地图规模意味着更海量的支线活动、随机事件与可交互场景,也为玩家自由探索提供了前所未有的空间。不过也有玩家担心,过大的世界是否会带来内容填充与探索节奏的挑战。结合此前确认的主机30帧、悬赏系统重做等信息,Rockstar在GTA6上展现出的技术与设计野心,让这款作品的期待值持续攀升。"
+      "随着《合金装备:合集2》(Metal Gear Solid: Master Collection Vol.2)于8月27日全球发售,媒体评测陆续放出并给予高度评价。合集最大看点是《合金装备4:爱国者之枪》首次脱离PS3硬件,以现代主机与PC版本重新登场,让这部曾被视为\"移植不可能\"的作品终于得以重温。",
+      "除MGS4外,合集还收录了广受好评的《和平行者》与冷门佳作《Ghost Babel》,并恢复了《和平行者》最多六人的在线合作玩法。评测普遍指出,本作技术表现远胜前作Vol.1,后者曾出现的卡顿等问题基本消失,呈现出系列传奇作品\"最佳体验方式\"的观感。",
+      "合集同时打包了剧本集、设定资料库与数字原声等丰富档案内容,预购玩家还可获得\"纸箱伪装\"等特典皮肤。对系列老粉与新玩家而言,这既是补完索利德·斯内克故事线的良机,也是一次跨越PS5、Xbox、Switch与Switch 2多平台的经典回归。"
+    ]
+  },
+  {
+    "id": "2026-08-30_gaming_5",
+    "date": "2026-08-30",
+    "category": "Gaming",
+    "subcat": "行业观察",
+    "platform": "PC/PS5/Xbox",
+    "platform_color": "#7CF6A0",
+    "title": "帕鲁负责人科隆开炮:别再迷信Steam在线人数",
+    "url": "https://www.gamesradar.com/games/survival/people-dont-understand-steam-player-numbers-palworld-lead-says-poor-marathon-and-stuff-are-getting-dragged-through-the-mud-im-sure-our-days-coming/",
+    "image": "images/2026-08-30/2026-08-30_gaming_5.jpg",
+    "detail": [
+      "在科隆游戏展2026的一场采访中,《幻兽帕鲁》(Palworld)发行负责人、Pocketpair的John Buckley就近来盛行的\"Steam在线人数崇拜\"提出批评。由于Steam是唯一公开实时、细颗粒度玩家数据的主流平台,其同时在线人数(CCU)常被玩家当成衡量一款游戏成败的标尺,甚至化为攻击工具。",
+      "Buckley指出,这类数字被严重误读:多平台游戏的整体热度无法仅凭Steam推断,而销量、更新节奏、服务器状态与时区都会影响峰值起伏。他回忆帕鲁曾从210万同时在线跌至50万,当时被唱衰为\"史上最大暴跌\",但\"任一时刻仍有50万人在玩\"本身就足够惊人。",
+      "他呼吁行业转而公开\"日活跃用户\"(DAU),因为一款CCU仅千人的游戏日活可能高达两万,数据差距巨大。他还感叹《Marathon》等作正被这套\"Steam数字血腥运动\"拖入泥潭。言论一出即引发社区共鸣,不少玩家反思单一指标\"盖棺定论\"的偏颇。"
     ]
   }
 ]
