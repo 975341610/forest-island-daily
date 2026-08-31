@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-07-31": {
-      "bojieli/ai-agent-book": 1,
-      "different-ai/openwork": 2,
-      "1jehuang/jcode": 3,
-      "huggingface/speech-to-speech": 4,
-      "pascalorg/editor": 5,
-      "paperswithbacktest/awesome-systematic-trading": 6,
-      "Panniantong/Agent-Reach": 7,
-      "microsoft/VibeVoice": 8,
-      "microsoft/TRELLIS.2": 9,
-      "harry0703/MoneyPrinterTurbo": 10,
-      "mvanhorn/last30days-skill": 11,
-      "openai/codex": 12,
-      "microsoft/AI-For-Beginners": 13,
-      "JOYCEQL/magic-resume": 14,
-      "byoungd/up": 15,
-      "PaddlePaddle/PaddleOCR": 16,
-      "ChromeDevTools/chrome-devtools-mcp": 17,
-      "microsoft/PowerToys": 18,
-      "tinyhumansai/openhuman": 19,
-      "lllyasviel/Fooocus": 20,
-      "microsoft/agent-governance-toolkit": 21,
-      "clockworklabs/SpacetimeDB": 22,
-      "github/awesome-copilot": 23,
-      "astral-sh/uv": 24,
-      "nolabs-ai/nono": 25
-    },
     "2026-08-01": {
       "microsoft/AI-For-Beginners": 1,
       "huggingface/speech-to-speech": 2,
@@ -836,6 +809,33 @@
       "alchaincyf/nuwa-skill": 23,
       "ComposioHQ/awesome-claude-skills": 24,
       "infiniflow/ragflow": 25
+    },
+    "2026-08-31": {
+      "tt-a1i/archify": 1,
+      "THU-MAIC/OpenMAIC": 2,
+      "bilawalsidhu/gods-eye-view": 3,
+      "K-Dense-AI/scientific-agent-skills": 4,
+      "tailscale/tailcat": 5,
+      "martin-olivier/airgorah": 6,
+      "tashfeenahmed/freellmapi": 7,
+      "every-app/open-seo": 8,
+      "workweave/router": 9,
+      "firecrawl/firecrawl": 10,
+      "p-e-w/heretic": 11,
+      "Osmantic/ODS": 12,
+      "rust-lang/rust": 13,
+      "addyosmani/agent-skills": 14,
+      "kubernetes/kubernetes": 15,
+      "mvanhorn/last30days-skill": 16,
+      "yt-dlp/yt-dlp": 17,
+      "NationalSecurityAgency/ghidra": 18,
+      "pollen-robotics/microduck_rl": 19,
+      "vercel-labs/vgpu": 20,
+      "kenn-io/agentsview": 21,
+      "cursor/plugins": 22,
+      "livekit/agents": 23,
+      "corsairdev/corsair": 24,
+      "darkzOGx/youtube-automation-agent": 25
     }
   }
 }
