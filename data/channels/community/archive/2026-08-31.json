@@ -1,0 +1,116 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T08:20:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Hacker News",
+      "author": "blenderob",
+      "title": "“It works better in the app”",
+      "url": "https://news.ycombinator.com/item?id=49477600",
+      "detail": [
+        "这是一篇来自 shkspr.mobi 的博客文章，作者吐槽如今越来越多网站刻意把移动端网页做得又慢又难用，然后弹窗劝你\"下载 App，体验更好\"。文章一针见血地指出:网页并非天生不如 App，而是被平台方有意做残，以驱赶用户进入可被追踪、可被推送的原生应用。",
+        "文章的亮点在于把这种\"App 更好用\"的话术拆解为一场商业博弈:App 能拿到更多权限、更精细的行为数据和更强的留存钩子，因此厂商有充足动机去劣化 Web 体验。作者用大量日常案例说明，所谓的\"体验差\"往往是产品与增长团队的刻意选择，而非技术限制。",
+        "帖子在 HN 拿下约 703 分、477 条评论，共鸣极强。评论区里开发者们纷纷分享自己被强推 App 的经历，围绕开放 Web 的衰退、隐私追踪、以及\"是否该抵制这类反模式\"展开激辩，成为近两日关于 Web 与原生生态之争最热的讨论之一。"
+      ],
+      "heat": "🔥高热 703分/477评论"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "meetpateltech",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "url": "https://news.ycombinator.com/item?id=49486172",
+      "detail": [
+        "这是 OpenAI 官方博客发布的一则声明，回应 AI 编程编辑器 Cursor 被 SpaceX 收购后 OpenAI 将如何处理相关合作与集成的问题，戏剧性的收购组合本身就极具话题性。帖子迅速登顶 HN，成为近两日最受关注的讨论之一。",
+        "声明触及了当前 AI 编码工具生态的核心张力:模型提供方、编辑器产品与大型科技公司之间错综复杂的竞合关系。开发者们尤其关心自己日常依赖的工具在资本运作后会不会变味、数据与隐私如何保障。",
+        "该帖收获约 832 分、525 条评论，是当日热度最高的条目。评论区既有对行业整合趋势的冷静分析，也充斥着对巨头掌控开发者工具链的担忧，折射出社区对 AI 工具主权的集体焦虑。"
+      ],
+      "heat": "🔥高热 832分/525评论"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "pluc",
+      "title": "Debian votes to allow \"responsible use of generative AI\"",
+      "url": "https://news.ycombinator.com/item?id=49489982",
+      "detail": [
+        "LWN 报道了 Debian 项目通过一般决议（GR）表决，正式允许在项目中\"负责任地使用生成式 AI\"，这是这家历史悠久、以严谨著称的自由软件社区在 AI 议题上的一次重要表态。作为许多 Linux 发行版的上游，Debian 的政策取向具有风向标意义。",
+        "决议本身经过漫长辩论，核心争议在于生成式 AI 产出的版权归属、许可证合规性，以及对贡献者协作文化的潜在冲击。表决结果被视为务实派对\"全面禁止\"与\"完全放任\"之间的折中。",
+        "帖子拿下约 495 分、465 条评论，讨论极为深入。支持者认为明确规则好过灰色地带，反对者担忧此举会侵蚀 Debian 长期坚守的自由软件原则，双方就 AI 与开源伦理的边界展开了高质量的交锋。"
+      ],
+      "heat": "🔥高热 495分/465评论"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "GitHub",
+      "author": "unclecode/crawl4ai",
+      "title": "Crawl4AI:面向 LLM 的开源友好网页爬虫与抓取工具",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "detail": [
+        "Crawl4AI 是一个专为大模型场景设计的开源网页爬虫与抓取框架，目标是把杂乱的网页内容转化为干净、结构化、适合喂给 LLM 的数据。它当前 star 数已突破 8 万，是 GitHub 上最受欢迎的 AI 数据管道工具之一。",
+        "项目主打\"LLM friendly\":内置对 Markdown 提取、语义分块、异步高并发抓取的支持，让开发者能低成本地为 RAG、Agent 和数据集构建喂料通道。在 Agent 与知识库需求激增的当下，这类高质量取数工具正成为刚需基础设施。",
+        "近期它持续位居 GitHub Trending，社区活跃度很高，作者还在 README 中挂出 Discord 邀请鼓励参与。用户普遍称赞其上手简单、输出质量高，是自建 AI 数据流水线时绕不开的选择之一。"
+      ],
+      "heat": "🔥高热 80k+ stars"
+    },
+    {
+      "platform": "GitHub",
+      "author": "mvanhorn/last30days-skill",
+      "title": "last30days:跨 Reddit/X/YouTube/HN 的 AI 智能体调研 Skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "detail": [
+        "last30days 是一个 AI Agent Skill，能在 Reddit、X、YouTube、Hacker News、Polymarket 乃至整个网络上并行检索某个话题，再由 Agent 综合成一份\"由真实用户投票加权\"的调研简报。它一天内暴涨数百 star，目前已超过 6 万 star。",
+        "它的核心卖点是\"按人而非按 SEO 排序\":用点赞、点击、真金白银的预测市场赔率来衡量信号强弱，试图给出比传统搜索更接近社区真实共识的结论。免费即可用 Reddit、HN、Polymarket、GitHub 等来源，X/YouTube 等则通过自带密钥解锁。",
+        "项目兼容 Claude Code、Codex、Cursor、Gemini CLI 等 50 多个 Agent Skills 宿主，社区贡献极其活跃——README 提到累计 175 个合并 PR、其中 122 个来自 52 位社区贡献者。它是近期\"Agent Skill\"这一新兴生态爆发的典型代表。"
+      ],
+      "heat": "🔥高热 60.5k stars"
+    },
+    {
+      "platform": "GitHub",
+      "author": "every-app/open-seo",
+      "title": "OpenSEO:Semrush 与 Ahrefs 的开源替代品",
+      "url": "https://github.com/every-app/open-seo",
+      "detail": [
+        "OpenSEO 定位为 Semrush、Ahrefs 这类昂贵 SEO 套件的开源替代方案，主打\"按量付费、你自己掌控\"。它覆盖关键词研究、排名追踪、竞品洞察、外链分析、站点审计与 AI 可见性等主流 SEO 工作流，当日新增约 469 star，总量已达 1.5 万。",
+        "项目最大的特色是深度拥抱 AI Agent:内置 MCP server 与 Agent Skills，能让 Claude Code、OpenClaw、Hermes 等智能体直接调用你的 SEO 数据。用户自带 DataForSEO API key，只为实际用量付费，避免了传统工具的高额订阅。",
+        "OpenSEO 支持 Docker 与 Cloudflare 两种自托管路径，并提供 $10/月 的托管版。社区反响热烈，开发者尤其欣赏其\"可 fork、可 vibe code 定制\"的开放理念，视其为 AI 时代下 SEO 工具去中心化的一次有趣尝试。"
+      ],
+      "heat": "🔥高热 15.1k stars"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "GitHub",
+      "name": "unclecode (UncleCode)",
+      "url": "https://github.com/unclecode",
+      "detail": [
+        "UncleCode 是开源明星项目 Crawl4AI 的作者，个人简介自称\"Crawl4AI 作者（GitHub Trending 第一）\"，同时是东南亚最大科技与商业学校 Kidocode 的创始人，常年活跃于合成数据方向的 AI 研究，人在新加坡。",
+        "他的 GitHub 账号拥有约 1.9k 关注者、135 个仓库，除了旗舰的 Crawl4AI，还维护 groqcall、promptuner、groqchat 等围绕 LLM 工具链的实用项目，产出覆盖爬虫、提示工程、推理加速等多个热门领域。",
+        "凭借 Crawl4AI 长期霸榜 GitHub Trending，他成为近期 AI 数据基础设施赛道最受瞩目的独立开发者之一。社区既认可他在\"为 LLM 供料\"这一刚需上的敏锐嗅觉，也欣赏他把研究与开源工具紧密结合的务实风格。"
+      ],
+      "heat": "🔥高热 1.9k followers"
+    },
+    {
+      "platform": "GitHub",
+      "name": "mvanhorn",
+      "url": "https://github.com/mvanhorn",
+      "detail": [
+        "mvanhorn 是近期爆火的 AI 调研 Skill \"last30days\" 的作者与维护者。他打造这个工具的初衷是为了跟上日新月异的 AI 领域——用他自己的话说，Reddit 和 X 上的极客们总是最先掌握最新玩法，而模型训练数据永远滞后于社区。",
+        "在他的主导下，last30days 已发展成一个跨 50 多个 Agent 宿主、聚合十余个社交与信息平台的开源研究引擎，累计合并 175 个 PR，其中大量来自社区贡献者，形成了健康活跃的协作生态。",
+        "该项目单日即冲上 GitHub Trending 前列，总 star 数突破 6 万。有社区成员评价\"今日 GitHub 十大热门仓库有 5 个是 Claude 工具，第一名就是 mvanhorn/last30days-skill\"，足见其作为\"Agent Skill\"浪潮代表作者的影响力。"
+      ],
+      "heat": "🔥高热 last30days 60.5k stars"
+    },
+    {
+      "platform": "GitHub",
+      "name": "colinhacks (Colin McDonnell)",
+      "url": "https://github.com/colinhacks",
+      "detail": [
+        "Colin McDonnell 是 TypeScript 生态的核心开源作者，最广为人知的身份是 Zod 的创建者与维护者——这个\"TypeScript 优先、带静态类型推断\"的模式校验库如今已有约 4.4 万 star，是现代前端与全栈项目的事实标准之一。",
+        "他同时写下了 tRPC 的最初概念验证（现由 @katt 主导维护），并在持续推进 nubjs/nub（Rust 编写的一体化 Node.js 工具链）、pullfrog 等新项目，长期站在 TypeScript 开发者体验的前沿，个人拥有约 4k 关注者、198 个仓库。",
+        "本次 Zod 再度登上 GitHub Trending，让这位\"ride-or-die TypeScripter\"重回社区视野中心。开发者们普遍把他视为提升 TS 类型安全与工程效率的关键人物，其项目的每一次更新都能在前端圈引发广泛讨论。"
+      ],
+      "heat": "🔥高热 4k followers / Zod 43.6k stars"
+    }
+  ]
+}
