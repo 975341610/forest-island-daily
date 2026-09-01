@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-01": {
-      "microsoft/AI-For-Beginners": 1,
-      "huggingface/speech-to-speech": 2,
-      "different-ai/openwork": 3,
-      "paperswithbacktest/awesome-systematic-trading": 4,
-      "mvanhorn/last30days-skill": 5,
-      "NousResearch/hermes-agent": 6,
-      "1jehuang/jcode": 7,
-      "Panniantong/Agent-Reach": 8,
-      "moeru-ai/airi": 9,
-      "zhaoxuya520/reverse-skill": 10,
-      "kangarooking/cangjie-skill": 11,
-      "ChromeDevTools/chrome-devtools-mcp": 12,
-      "openai/codex": 13,
-      "multica-ai/multica": 14,
-      "t8y2/dbx": 15,
-      "TencentCloud/TencentDB-Agent-Memory": 16,
-      "pingdotgg/t3code": 17,
-      "public-apis/public-apis": 18,
-      "harry0703/MoneyPrinterTurbo": 19,
-      "microsoft/TRELLIS.2": 20,
-      "WhiskeySockets/Baileys": 21,
-      "ollama/ollama": 22,
-      "openai/whisper": 23,
-      "langchain-ai/deepagents": 24,
-      "QuantumNous/new-api": 25
-    },
     "2026-08-02": {
       "zhaoxuya520/reverse-skill": 1,
       "microsoft/AI-For-Beginners": 2,
@@ -836,6 +809,33 @@
       "livekit/agents": 23,
       "corsairdev/corsair": 24,
       "darkzOGx/youtube-automation-agent": 25
+    },
+    "2026-09-01": {
+      "tt-a1i/archify": 1,
+      "THU-MAIC/OpenMAIC": 2,
+      "K-Dense-AI/scientific-agent-skills": 3,
+      "zhaoxuya520/reverse-skill": 4,
+      "laoma2053/awesome-zhuiju-free": 5,
+      "tashfeenahmed/freellmapi": 6,
+      "every-app/open-seo": 7,
+      "browser-use/video-use": 8,
+      "k1tbyte/Wand-Enhancer": 9,
+      "handsomestWei/patent-disclosure-skill": 10,
+      "p-e-w/heretic": 11,
+      "tailscale/tailcat": 12,
+      "debpalash/VoiceStudio": 13,
+      "jingyaogong/minimind": 14,
+      "mvanhorn/last30days-skill": 15,
+      "pollen-robotics/microduck_rl": 16,
+      "majd/ipatool": 17,
+      "hieunc229/mailflare": 18,
+      "MakazhanAlpamys/Soup": 19,
+      "pbakaus/impeccable": 20,
+      "workweave/router": 21,
+      "kunchenguid/no-mistakes": 22,
+      "firecrawl/pdf-inspector": 23,
+      "addyosmani/agent-skills": 24,
+      "checkstyle/checkstyle": 25
     }
   }
 }
