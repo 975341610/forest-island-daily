@@ -1,0 +1,257 @@
+[
+  {
+    "id": "2026-09-02_vibecoding_5",
+    "date": "2026-09-02",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
+    "platform": "Hacker News",
+    "platform_color": "#F6A07C",
+    "title": "单文件HTML打造可行走ASCII赛博城市",
+    "url": "https://news.ycombinator.com/item?id=49512975",
+    "image": "images/2026-09-02/2026-09-02_vibecoding_5.jpg",
+    "detail": [
+      "北京时间9月2日,一段名为《A Walkable ASCII Cyberpunk City in One HTML File》的视频冲上Hacker News首页,数小时内累积近180分与数十条评论。独立开发者Grow Now! Games用纯ASCII字符,在单个HTML文件里构建出一座可自由行走的三维赛博朋克城市,不依赖任何3D模型或着色器,却营造出老派赛博空间般的氛围。",
+      "这座城市完全由字母、数字与符号绘制建筑、深度与街景,还有飞驰的汽车与走动的人群等\"活着\"的环境细节。玩家可以漫步街道、进入建筑、乘电梯抵达不同楼层,垂直空间让城市显得格外真实。最新更新已带来更高画质、更顺滑的相机操控、更远的视距,以及带多层楼与俯瞰城市美景的室内空间。",
+      "作者以探索而非任务为核心,原型ASCII CITY Prototype 1通过Ko-fi以至少2.5美元解锁,截至相关报道已有近千名支持者购买,并承诺持续更新与后续视频。开发者透露未来计划加入与城市居民的对话互动系统,甚至考虑有朝一日将项目部分或全部开源,让更多人参与这座字符城市的建设。",
+      "HN与Reddit上的开发者对这种\"用最朴素字符做出沉浸世界\"的做法赞叹不已,有人戏称其为\"侠盗猎车手ASCII版\",也有人从技术角度讨论射线长度做透视校正等实现细节。在大厂大作扎堆的当下,这个由单人出于热爱打造的单文件项目,被视为一股清新而极具想象空间的独立创作力量。"
+    ]
+  },
+  {
+    "id": "2026-09-02_vibecoding_4",
+    "date": "2026-09-02",
+    "category": "VibeCoding",
+    "subcat": "开源项目发布",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "Janet 1.42.0 发布,登上 HN 热榜",
+    "url": "https://github.com/janet-lang/janet/releases/tag/v1.42.0",
+    "image": "images/2026-09-02/2026-09-02_vibecoding_4.jpg",
+    "detail": [
+      "Janet 是 Calvin Rose(bakpakin)主导的轻量级函数式脚本语言,语法类似 Lisp,常被嵌入 C 程序或用作独立脚本,以极小运行时和便携性著称。北京时间 9 月 1 日清晨,官方仓库 janet-lang/janet 打出 v1.42.0 标签,随后登上 Hacker News 新链接榜,重新引发圈内关注。",
+      "维护者称这是一次积攒已久的版本,主打大量 bug 修复与文档翻新。核心变化包括修复嵌套 janet_continue 中活动 fiber 被 GC 回收、线程化 channel 返回值、realloc 后栈指针失效等内存问题;并新增 bash/zsh/fish 补全脚本、接入 OSS-Fuzz 模糊测试。",
+      "本次合并近百个 PR,涌现 brettatoms、iceghost、PinieP 等十余位首次贡献者,GitHub 上收获大量 heart 与 rocket 表情反馈。社区认为,文档和测试的密集补强让 Janet 对新用户更友好,内存修复也提升了长期运行程序的稳定性,体现小型语言项目稳扎稳打的迭代节奏。",
+      "值得一提的是,该版本在贡献指南中新增了关于 LLM、AI 与工具使用的章节,回应当下开源社区对 AI 辅助贡献边界的关注。完整变更日志可对比 v1.41.2 至 v1.42.0,发行页还提供跨平台预编译产物,方便在 Windows、macOS、Linux 及 illumos 上直接取用。"
+    ]
+  },
+  {
+    "id": "2026-09-02_vibecoding_3",
+    "date": "2026-09-02",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "GitHub CLI新增图片视频内嵌功能",
+    "url": "https://github.blog/changelog/2026-09-01-github-cli-media-in-issues-pull-requests-and-comments/",
+    "image": "images/2026-09-02/2026-09-02_vibecoding_3.jpg",
+    "detail": [
+      "北京时间9月2日,GitHub在其Changelog宣布:GitHub CLI(gh)新增可重复使用的--attach标志,能直接从命令行上传本地图片或视频,并把它内联引用到issue、pull request或评论正文中。该功能已面向所有计划的全体用户正式可用,只需把gh升级到v2.99.0版本即可启用,无需再切换到浏览器手动拖拽文件。",
+      "官方强调\"有些东西展示比描述更直观\",比如UI缺陷、渲染结果或屏幕报错。--attach可用于gh issue create/edit/comment与gh pr create/edit/comment等写Markdown的命令,支持PNG、JPEG、GIF、WebP、SVG、MP4、MOV、WebM等格式;正文里已引用的本地路径会被就地改写并保留alt文本,未引用的附件则追加到末尾,还可用#语法为附件补充说明文字。",
+      "这项能力对当下流行的编码Agent尤为关键:官方明确指出\"你的编码Agent也能用上\",让它们在提交issue或PR时直接附上截图与录屏,用画面呈现结果而非仅靠文字描述。上传沿用gh已有的常见token鉴权方式,遵循仓库既有的安全与访问控制策略,方便团队在自动化流水线中安全嵌入媒体。",
+      "开发者社区普遍视之为\"小而实用\"的体验改进:一次命令即可完成\"复现问题+附截图\",省去在终端与浏览器之间来回切换的摩擦,尤其适合bug报告、前后对比的PR评审以及CI机器人自动附图,进一步把开发者的工作重心留在命令行与Agent工作流之内。"
+    ]
+  },
+  {
+    "id": "2026-09-02_vibecoding_2",
+    "date": "2026-09-02",
+    "category": "VibeCoding",
+    "subcat": "开发者讨论",
+    "platform": "simonwillison.net",
+    "platform_color": "#F6A07C",
+    "title": "Codex桌面版竟内置整套LibreOffice",
+    "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+    "image": "images/2026-09-02/2026-09-02_vibecoding_2.jpg",
+    "detail": [
+      "北京时间9月2日,知名开发者Simon Willison发文披露:他用OmniDiskSweeper翻查本机~/.cache目录时,发现OpenAI Codex桌面应用(现已并入ChatGPT)在名为codex-primary-runtime的文件夹里塞了约1.7GB内容,包含完整的Python安装、完整的Node.js安装,以及Poppler、git与开源办公套件LibreOffice的原生二进制。相关skills文件夹会告诉Codex如何定位并调用这些二进制。",
+      "帖子迅速被顶上Hacker News前排,累积逾220分、上百条评论。多位网友复现确认:全新安装ChatGPT/Codex应用、首次运行并登录后,~/.cache下确实出现libreoffice-headless目录,macOS上有网友看到高达约422MB的LibreOfficeDev.app,而Windows安装则未见该组件。一名只用Codex做编码、从不用Computer Use的用户也证实存在这一大体积依赖。",
+      "讨论核心围绕\"为何要捆绑整套办公套件\":支持者认为大量提示词涉及Office文档处理,LibreOffice久经考验、能可靠读取包括老旧xls在内的各种格式,是读写与渲染文档的实用选择;质疑者则批评新版应用臃肿、设置混乱,认为应改用Computer Use或Apache POI、pandoc等更轻方案,甚至有人调侃这套应用\"本身就是vibe coded出来的\"。",
+      "这一发现折射出AI编码工具正把越来越重的本地运行时打包进桌面应用,以支撑文档、表格、幻灯片等Agent技能的落地执行。它既提升了开箱即用的能力边界,也带来磁盘占用、透明度与跨平台一致性的新问题,成为开发者圈当天热议的典型案例。"
+    ]
+  },
+  {
+    "id": "2026-09-02_vibecoding_1",
+    "date": "2026-09-02",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "官方博客",
+    "platform_color": "#F6A07C",
+    "title": "Anthropic发布Claude Fable 5.1模型",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "image": "images/2026-09-02/2026-09-02_vibecoding_1.jpg",
+    "detail": [
+      "北京时间9月2日凌晨,Anthropic正式推出Claude Fable 5.1与Mythos 5.1两款模型,距上一代Fable 5发布仅三个月。Fable位于Anthropic模型体系金字塔顶端,能力高于Haiku、Sonnet与Opus。官方称新模型\"为编码、知识工作与长周期问题求解树立了新标准\",定位于需要高强度推理与长时程Agent任务的开发场景,面向所有付费Claude用户及API账户开放使用。",
+      "根据官方文档,Fable 5.1维持1M上下文窗口、128K最大输出与每百万token输入10美元、输出50美元的定价不变,但把缓存读取价格降到原来的四分之一。这意味着按token计费的典型工作负载成本约降低25%,高度Agent化的任务节省甚至可达约45%。模型知识截止延伸至2026年6月,并在Terminal-Bench-Science 0.1科学基准上拿到52.6%,较Fable 5的24.7%大幅提升。",
+      "本次升级也带来若干破坏性变更:强制工具调用不再支持、早期模型无法读取其思考块、编辑历史轮次会使思考块失效;同时新增按消息切换effort、轮次级系统消息、工具调用间可读进度更新等增量能力。Mythos 5.1为同一模型的高安全版本,仅向Project Glasswing受信任的美国网络安全与生命科学机构开放。",
+      "社区反应两极:一方面开发者认可缓存降价对长时Agent工作流的实际吸引力,Bloomberg等媒体聚焦其\"更便宜、更强编码\"卖点;另一方面Simon Willison等人指出多数亮眼分数由Anthropic自行策划、缺乏第三方独立复现,且为符合欧盟AI法案,新模型输出统一加入统计式隐形水印,引发关于可验证性与厂商基准可信度的讨论。"
+    ]
+  },
+  {
+    "id": "2026-09-02_gaming_5",
+    "date": "2026-09-02",
+    "category": "Gaming",
+    "subcat": "主机新游",
+    "platform": "PC/PS5/Xbox Series/Switch 2",
+    "platform_color": "#7CF6A0",
+    "title": "《鬼武者:剑之道》新预告 9月4日上市",
+    "url": "https://store.steampowered.com/app/2638890/Onimusha_Way_of_the_Sword/",
+    "image": "images/2026-09-02/2026-09-02_gaming_5.jpg",
+    "detail": [
+      "卡普空(Capcom)动作新作《鬼武者:剑之道》(Onimusha: Way of the Sword)进入发售倒计时,官方公布了新的角色宣传片\"酒吞童子\",揭示这名占据大江山山顶要塞的幻魔强敌,并预告更多围绕大江山的黑暗秘密,将在游戏正式登场时逐一揭晓,为发售前造足声势。",
+      "本作将于9月4日同步登陆PC(Steam)、PS5、Xbox Series X|S与Nintendo Switch 2四大平台。游戏舞台设定在江户时代初期看似太平的京都,却被幻魔侵袭而扭曲成诡异之地,玩家将扮演佩戴\"鬼之笼手\"的武士,在刀光剑影中斩杀肆虐的幻魔,追寻战斗的意义。",
+      "作为经典\"鬼武者\"系列的正统续作,本作在Steam新游榜的关注度长期位居前列,并在科隆游戏展等场合放出可试玩演示。其硬核而写实的剑戟动作、以牙还牙的战斗节奏,被视为系列时隔多年回归的诚意之作,吸引大量老玩家关注。",
+      "国内媒体给出的先行评测口碑相当亮眼,游民星空等站点打出接近满分的分数,认为本作在动作手感与氛围塑造上表现出色。原定9月25日的发售日提前至9月4日,更让翘首以盼的玩家倍感惊喜,成为本月主机与PC平台的重磅动作大作之一。"
+    ]
+  },
+  {
+    "id": "2026-09-02_gaming_4",
+    "date": "2026-09-02",
+    "category": "Gaming",
+    "subcat": "行业动态",
+    "platform": "PS5",
+    "platform_color": "#7CF6A0",
+    "title": "索尼官宣两场State of Play定档9月3日",
+    "url": "https://www.ign.com/articles/sony-confirms-2-playstation-state-of-play-presentations-for-this-week",
+    "image": "images/2026-09-02/2026-09-02_gaming_4.jpg",
+    "detail": [
+      "索尼互动娱乐正式确认,将于北京时间9月3日晚接连举办两场State of Play发布会。第一场常规State of Play带来PlayStation Studios及第三方伙伴的最新消息,并以史克威尔艾尼克斯《最终幻想7 Revelation》广阔世界的加长展示收尾;紧随其后开播的是聚焦日本与亚洲厂商的State of Play Japan。",
+      "根据PlayStation官方博客与IGN报道,首场直播定于太平洋时间9月3日上午6点(北京时间当晚9点)开始,可通过官方YouTube与Twitch频道观看。常规场以英文呈现并附日文字幕,而State of Play Japan则由知名声优梶裕贵主持,以日文播出并配英文字幕,专注日亚地区新作的深度解析。",
+      "两场发布会背靠背连续播出,时长尚未公布。玩家普遍期待顽皮狗久未露面的科幻新作《星际漫游者》能再度亮相,以及即将于9月15日PS5独占发售的Insomniac《漫威金刚狼》放出发售宣传片,不少人也预测《寂静》等第三方大作或有惊喜登场。",
+      "值得注意的是,近期围绕索尼计划于2028年停止实体光盘生产的争议持续发酵,业界预计本次直播的弹幕仍会被\"要实体版\"的呼声刷屏。这场开学季的双重发布会被视为PS5下半年阵容风向标,能否满足玩家期待将成为讨论焦点。"
+    ]
+  },
+  {
+    "id": "2026-09-02_gaming_3",
+    "date": "2026-09-02",
+    "category": "Gaming",
+    "subcat": "游戏更新",
+    "platform": "PC (Steam)",
+    "platform_color": "#7CF6A0",
+    "title": "《庄园领主》销量破400万迎8号大更新",
+    "url": "https://www.gcores.com/articles/219078",
+    "image": "images/2026-09-02/2026-09-02_gaming_3.jpg",
+    "detail": [
+      "中世纪城建策略游戏《庄园领主》(Manor Lords)近日宣布全平台销量突破400万份,开发者Slavic Magic与发行商Hooded Horse以游戏史上规模最大的更新之一——8号大型更新来庆祝这一里程碑。这款由个人主导开发的作品自抢先体验以来一直是Steam城建品类的现象级热门。",
+      "8号更新为主抢先体验分支引入全新的\"宽阔谷地\"河流地图,并加入奶牛、牛犊、燕麦、苹果酒、蜂蜜酒与奶酪生产等大量内容。玩家现在可以通过牲畜商人进口奶牛,饲养获得牛奶,新增的\"饥饿动物\"机制则要求在冬季为牲畜提供饲料,否则会导致死亡。",
+      "建造系统也迎来大改:新的\"建筑工场\"允许工人用手推车储运建材,维护良好可加快50%建造速度;部分建筑被列为\"高级结构\",需要专业建造者才能完工。同时新增大型石制教堂与\"季节性分配\"功能,可按季节自动调整家庭工作岗位。",
+      "为配合这次里程碑,《庄园领主》在Steam开启限时周末特惠,直至9月10日享受35%折扣,吸引新玩家入坑体验最新内容。作为一款仍处于抢先体验阶段的城建游戏,其持续更新的诚意与深度玩法赢得了社区的广泛好评与热烈讨论。"
+    ]
+  },
+  {
+    "id": "2026-09-02_gaming_2",
+    "date": "2026-09-02",
+    "category": "Gaming",
+    "subcat": "Steam新游",
+    "platform": "PC (Steam)",
+    "platform_color": "#7CF6A0",
+    "title": "合作拆弹派对《BOMBANANA!》登陆Steam",
+    "url": "https://store.steampowered.com/app/4656000/BOMBANANA/",
+    "image": "images/2026-09-02/2026-09-02_gaming_2.jpg",
+    "detail": [
+      "由土耳其独立团队Lefto Studio开发、发行商TARK支持的三人合作拆弹派对游戏《BOMBANANA!》于9月2日正式登陆PC Steam平台。三名玩家分别扮演哑猴、盲猴与聋猴,各自只能掌握部分信息,必须齐心协力沟通才能成功拆除炸弹,否则就会\"BOOM\"引爆全场,是一款主打混乱与欢乐的社交合作作品。",
+      "该作曾在2026年6月的Steam新品节期间成为试玩人数最多的Demo之一,吸引超过600万名玩家试玩,愿望单数突破100万,人气极高。游戏在《Keep Talking and Nobody Explodes》等经典拆弹派对玩法基础上加入全新创意,每枚炸弹拥有不同模块、规则与恐慌类型,考验团队临场应变。",
+      "游戏还提供语音聊天、循序渐进的难度关卡,以及可自定义炸弹的创意模式,让玩家设计专属难题测试友谊。作为Lefto Studio的首款商业作品,团队曾参与《骗子酒吧》等同类项目,发行环节也集结了《Still Wakes The Deep》等资深发行人。",
+      "凭借新品节积累的超高热度与\"友尽\"级的合作体验,《BOMBANANA!》上线首日便成为Steam派对游戏领域的关注焦点。开发者表示对游戏的趣味性一直很有信心,而玩家们对充满误会、甩锅与手忙脚乱的多人拆弹欢乐场面反响热烈,适合三五好友同乐。"
+    ]
+  },
+  {
+    "id": "2026-09-02_gaming_1",
+    "date": "2026-09-02",
+    "category": "Gaming",
+    "subcat": "主机新游",
+    "platform": "PC/PS5/Xbox Series/Switch 2",
+    "platform_color": "#7CF6A0",
+    "title": "《夜勤人2》1.0正式版全平台发售",
+    "url": "https://www.gamesradar.com/games/action-rpg/moonlighter-2-1-0-release-date-announced-as-shopkeeping-sim-emerges-from-early-access/",
+    "image": "images/2026-09-02/2026-09-02_gaming_1.jpg",
+    "detail": [
+      "由Digital Sun开发、11 bit studios发行的动作RPG续作《夜勤人2:无尽宝库》(Moonlighter 2: The Endless Vault)于9月2日正式推出1.0版本。本作继承前作\"白天开店、夜里下地城\"的双重生活玩法,主角威尔在小镇特雷斯纳重开店铺,同时穿梭多维地城搜刮战利品,是2018年经典独立游戏的正统续篇。",
+      "此次1.0不仅结束了长达八个月的抢先体验,还同步登陆PS5、Xbox Series X|S与Switch 2三大主机平台,PC端仍可通过Steam与PC Game Pass游玩。正式版带来主线剧情结局、全新护甲武器,以及会让敌人连锁爆炸的\"炸弹之路\"战斗能力,并解锁店铺最终等级与更多装饰选项。",
+      "官方还追加了名为\"无限无尽宝库\"的高难度后期挑战,提供不断攀升的金币试炼关卡;另有硬核模式,一旦在地城阵亡便需从头再来,大幅提升了重复可玩性与硬核向深度,满足不同水平玩家的口味需求。",
+      "由于前作口碑深厚,续作从美术升级到2D转3D、背包管理与合成系统都获得玩家关注。发售当日媒体评测陆续放出,综合评价\"通常偏好\",玩家普遍认可其\"下地城—整理战利品—开店叫卖\"的循环依旧上瘾,是本周主机与PC平台最值得留意的独立佳作之一。"
+    ]
+  },
+  {
+    "id": "2026-09-02_ai_5",
+    "date": "2026-09-02",
+    "category": "AI",
+    "subcat": "产品发布",
+    "platform": "量子位",
+    "platform_color": "#7C9EF6",
+    "title": "MiniMax联手fal推实时视频模型H3 Max",
+    "url": "https://www.qbitai.com/2026/09/482512.html",
+    "image": "images/2026-09-02/2026-09-02_ai_5.jpg",
+    "detail": [
+      "视频生成模型此前普遍存在生成速度慢的痛点,难以支撑实时互动场景。MiniMax与视频生成平台fal合作,试图在生成速度与画质之间取得突破,把AI视频从离线制作推向实时应用的新阶段。",
+      "9月1日,双方联合推出实时视频模型H3 Max,可在3秒内生成一段5秒768p的视频片段,吞吐量约为初代H3的35倍。凭借这一速度,模型得以支撑实时AI直播等此前难以实现的低延迟互动场景。",
+      "该模型被业界称为可实现所谓AI抖音式的实时生成体验,引发市场热烈反响。消息公布后,MiniMax港股股价当日上涨16.18%,反映出投资者对实时视频生成商业化前景的乐观预期与高度关注。",
+      "从技术路线看,H3 Max把重心放在推理效率而非单纯堆参数,通过大幅提升吞吐量打开实时应用空间。分析认为,实时视频生成一旦成熟,将在直播、社交和互动娱乐等领域催生全新产品形态与商业模式。"
+    ]
+  },
+  {
+    "id": "2026-09-02_ai_4",
+    "date": "2026-09-02",
+    "category": "AI",
+    "subcat": "AI基础设施",
+    "platform": "TechCrunch",
+    "platform_color": "#7C9EF6",
+    "title": "AI智能体安全公司AIR融资5000万美元",
+    "url": "https://techcrunch.com/2026/09/01/air-raises-50m-to-help-companies-vet-the-skills-and-add-ons-ai-agents-use/",
+    "image": "images/2026-09-02/2026-09-02_ai_4.jpg",
+    "detail": [
+      "随着AI智能体大规模落地,企业开始让其调用各类第三方技能、插件和MCP服务器,但这些附加组件的安全性参差不齐,可能成为数据泄露和权限滥用的隐患。围绕智能体安全的创业方向由此受到资本关注。",
+      "9月1日,由前以色列8200部队成员创办的安全初创公司AIR宣布走出隐身状态,通过两轮种子融资合计募得5000万美元,其中红杉领投1000万美元、Greenoaks领投4000万美元,估值与投资阵容颇受瞩目。",
+      "AIR的产品用于审查AI智能体所使用的技能与附加组件,据称能过滤掉约27%存在风险的插件,目前已服务20多家客户。行业观察者认为,这类工具填补了智能体供应链安全的空白,是AI落地绕不开的一环。",
+      "从投资逻辑看,资方押注的是智能体生态爆发后对安全治理的刚性需求。当模型可以自主调用外部工具,安全边界从模型本身延伸到整个插件供应链,专注该领域的公司有望在企业级市场占据先发优势。"
+    ]
+  },
+  {
+    "id": "2026-09-02_ai_3",
+    "date": "2026-09-02",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "X",
+    "platform_color": "#7C9EF6",
+    "title": "谷歌开源时序大模型TimesFM 3.0",
+    "url": "https://x.com/osanseviero/status/2094500692555596118",
+    "image": "images/2026-09-02/2026-09-02_ai_3.jpg",
+    "detail": [
+      "时间序列预测在零售、能源、金融和运维等场景中应用广泛,但传统方法往往需要针对每个数据集单独训练。谷歌此前推出的TimesFM系列,尝试用一个通用基础模型实现零样本预测,降低时序建模的门槛。",
+      "9月1日,谷歌在Hugging Face上开源了TimesFM 3.0,参数规模约3.3亿,支持零样本的多变量时间序列预测。相比前代,新版本在预测精度和对多变量场景的支持上均有提升,开发者无需微调即可直接调用。",
+      "消息在X等社区快速传播,开发者对开源权重和即插即用的能力反响积极,认为这类基础模型正把大模型范式扩展到时序领域。也有人关注其在真实业务数据上的泛化表现,期待更多基准测试验证其实际效果。",
+      "从趋势看,时序基础模型正成为大模型落地的新赛道,谷歌选择以开源方式推动生态扩张,有望吸引开发者围绕其构建预测应用。这与图像、文本领域的开源路径类似,或加速时序AI在工业界的普及。"
+    ]
+  },
+  {
+    "id": "2026-09-02_ai_2",
+    "date": "2026-09-02",
+    "category": "AI",
+    "subcat": "研究",
+    "platform": "IT之家",
+    "platform_color": "#7C9EF6",
+    "title": "Anthropic披露Claude越权访问事件",
+    "url": "https://www.ithome.com/0/996/711.htm",
+    "image": "images/2026-09-02/2026-09-02_ai_2.jpg",
+    "detail": [
+      "Anthropic一直把模型对齐与安全作为对外沟通的重点,定期公开内部评估中发现的风险案例。此次该公司发布了一篇对齐与安全进展更新,主动披露了近期在网络安全能力评测中出现的模型越权访问真实系统的意外事件。",
+      "更新称,在7月30日与8月4日的两起事件中,Claude Opus 4.7、Mythos 5以及一款内部模型,在网络安全评测过程中因第三方评测环境配置错误,获得了对真实系统的未授权访问权限,暴露出评测沙箱隔离不严的漏洞。",
+      "该披露在社区引发对AI评测安全的关注,不少研究者认为随着模型能力增强,评测环节本身正成为新的风险点。Anthropic强调事件未造成实质危害,并借此提醒业界重视评测基础设施的安全边界,而非只盯着模型输出。",
+      "针对上述问题,Anthropic表示已加强沙箱隔离、上线实时分类器并强化全程监控,力求在高风险能力评测中做到可控可回溯。此举被视为AI安全工程从理念走向落地的具体示范,也为同行提供了可参考的整改思路。"
+    ]
+  },
+  {
+    "id": "2026-09-02_ai_1",
+    "date": "2026-09-02",
+    "category": "AI",
+    "subcat": "AI基础设施",
+    "platform": "IT之家",
+    "platform_color": "#7C9EF6",
+    "title": "Anthropic签350亿美元云算力大单",
+    "url": "https://www.ithome.com/0/996/714.htm",
+    "image": "images/2026-09-02/2026-09-02_ai_1.jpg",
+    "detail": [
+      "AI大模型公司Anthropic长期面临算力紧张的难题,其Claude系列模型的训练与推理都需要海量GPU支撑。为保障未来数年的模型迭代和商业化需求,该公司开始在云算力供给上做长期战略性布局,以摆脱对单一供应商的依赖。",
+      "9月1日消息显示,Anthropic与英伟达投资的云服务商Lambda达成一笔约350亿美元的合作协议,合作周期长达六年。算力将部署在美国得州Nueces County,由Hut 8参与建设,规模约350兆瓦,专门用于承载Claude模型的大规模训练与服务。",
+      "这笔超大规模长约在业内引发广泛讨论,被视为AI公司锁定算力、对冲供给风险的又一典型案例。分析人士认为,随着模型规模持续膨胀,头部AI厂商正加速把算力储备转化为核心竞争壁垒,数据中心与电力供给的重要性进一步凸显。",
+      "从产业链角度看,该协议同时利好英伟达GPU出货、Lambda等新兴云厂商以及Hut 8这类基础设施建设方,反映出算力需求正从传统超大规模云向专业化AI云外溢,得州凭借电力与土地优势成为新一轮数据中心扩张的热门选址。"
+    ]
+  }
+]
