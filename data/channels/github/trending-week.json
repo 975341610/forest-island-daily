@@ -3,8 +3,8 @@
   "repos": {
     "tt-a1i/archify": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 7713,
+      "appearances": 3,
+      "total_today_stars": 11409,
       "language": "JavaScript",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
@@ -12,8 +12,8 @@
     },
     "THU-MAIC/OpenMAIC": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 4194,
+      "appearances": 3,
+      "total_today_stars": 7322,
       "language": "TypeScript",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "owner_avatar": "https://avatars.githubusercontent.com/u/163809488?v=4",
@@ -30,8 +30,8 @@
     },
     "K-Dense-AI/scientific-agent-skills": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 3094,
+      "appearances": 3,
+      "total_today_stars": 4006,
       "language": "Python",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
@@ -66,8 +66,8 @@
     },
     "every-app/open-seo": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 1079,
+      "appearances": 3,
+      "total_today_stars": 1539,
       "language": "TypeScript",
       "description": "Open source alternative to Semrush and Ahrefs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
@@ -101,9 +101,9 @@
       "html_url": "https://github.com/p-e-w/heretic"
     },
     "Osmantic/ODS": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 331,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 828,
       "language": "Python",
       "description": "Turn your PC, Mac, or Linux box into an AI server.  LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/262014141?v=4",
@@ -119,18 +119,18 @@
       "html_url": "https://github.com/rust-lang/rust"
     },
     "addyosmani/agent-skills": {
-      "best_rank": 14,
-      "appearances": 2,
-      "total_today_stars": 479,
+      "best_rank": 13,
+      "appearances": 3,
+      "total_today_stars": 782,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
       "html_url": "https://github.com/addyosmani/agent-skills"
     },
     "kubernetes/kubernetes": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 244,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 555,
       "language": "Go",
       "description": "Production-Grade Container Scheduling and Management",
       "owner_avatar": "https://avatars.githubusercontent.com/u/13629408?v=4",
@@ -237,8 +237,8 @@
     },
     "laoma2053/awesome-zhuiju-free": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 920,
+      "appearances": 2,
+      "total_today_stars": 1186,
       "language": "JavaScript",
       "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/169715751?v=4",
@@ -246,8 +246,8 @@
     },
     "browser-use/video-use": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 591,
+      "appearances": 2,
+      "total_today_stars": 1063,
       "language": "Python",
       "description": "Edit videos with coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
@@ -263,9 +263,9 @@
       "html_url": "https://github.com/k1tbyte/Wand-Enhancer"
     },
     "handsomestWei/patent-disclosure-skill": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 571,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 1072,
       "language": "Python",
       "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/36500279?v=4",
@@ -281,9 +281,9 @@
       "html_url": "https://github.com/debpalash/VoiceStudio"
     },
     "jingyaogong/minimind": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 495,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 1500,
       "language": "Python",
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/62287848?v=4",
@@ -308,9 +308,9 @@
       "html_url": "https://github.com/hieunc229/mailflare"
     },
     "MakazhanAlpamys/Soup": {
-      "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 326,
+      "best_rank": 14,
+      "appearances": 2,
+      "total_today_stars": 606,
       "language": "Python",
       "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/188336071?v=4",
@@ -335,9 +335,9 @@
       "html_url": "https://github.com/kunchenguid/no-mistakes"
     },
     "firecrawl/pdf-inspector": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 228,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 769,
       "language": "Rust",
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
@@ -351,6 +351,114 @@
       "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5179750?v=4",
       "html_url": "https://github.com/checkstyle/checkstyle"
+    },
+    "stablyai/orca": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 883,
+      "language": "TypeScript",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "html_url": "https://github.com/stablyai/orca"
+    },
+    "iv-org/invidious": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 577,
+      "language": "Crystal",
+      "description": "Invidious is an alternative front-end to YouTube",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/68407447?v=4",
+      "html_url": "https://github.com/iv-org/invidious"
+    },
+    "golang/go": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 245,
+      "language": "Go",
+      "description": "The Go programming language",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4314092?v=4",
+      "html_url": "https://github.com/golang/go"
+    },
+    "HKUDS/DeepTutor": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 197,
+      "language": "Python",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/DeepTutor"
+    },
+    "Imbad0202/academic-research-skills": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 193,
+      "language": "Python",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/132531341?v=4",
+      "html_url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    "anthropics/claude-code": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 130,
+      "language": "Python",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-code"
+    },
+    "Ed1s0nZ/CyberStrikeAI": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 121,
+      "language": "Go",
+      "description": "The system of action for AI-native cybersecurity—where intent becomes governed execution, evidence becomes operational memory, and every operation improves the next.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/83812544?v=4",
+      "html_url": "https://github.com/Ed1s0nZ/CyberStrikeAI"
+    },
+    "apurvsinghgautam/robin": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 113,
+      "language": "Python",
+      "description": "AI-Powered Dark Web OSINT Tool",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20106707?v=4",
+      "html_url": "https://github.com/apurvsinghgautam/robin"
+    },
+    "NVIDIA/SkillSpector": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 113,
+      "language": "Python",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
+      "html_url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    "langgenius/dify": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 113,
+      "language": "TypeScript",
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127165244?v=4",
+      "html_url": "https://github.com/langgenius/dify"
+    },
+    "apache/iggy": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 91,
+      "language": "Rust",
+      "description": "Apache Iggy: Hyper-Efficient Message Streaming at Laser Speed",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/47359?v=4",
+      "html_url": "https://github.com/apache/iggy"
+    },
+    "alphaXiv/OpenResearch": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 90,
+      "language": "Rust",
+      "description": "Run parallel research agents with any model",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/153782766?v=4",
+      "html_url": "https://github.com/alphaXiv/OpenResearch"
     }
   }
 }

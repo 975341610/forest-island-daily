@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-02": {
-      "zhaoxuya520/reverse-skill": 1,
-      "microsoft/AI-For-Beginners": 2,
-      "mvanhorn/last30days-skill": 3,
-      "different-ai/openwork": 4,
-      "paperswithbacktest/awesome-systematic-trading": 5,
-      "NousResearch/hermes-agent": 6,
-      "huggingface/speech-to-speech": 7,
-      "iv-org/invidious": 8,
-      "esengine/DeepSeek-Reasonix": 9,
-      "TencentCloud/TencentDB-Agent-Memory": 10,
-      "multica-ai/multica": 11,
-      "bytedance/deer-flow": 12,
-      "openai/codex": 13,
-      "github/copilot-sdk": 14,
-      "kangarooking/cangjie-skill": 15,
-      "addyosmani/agent-skills": 16,
-      "microsoft/generative-ai-for-beginners": 17,
-      "microsoft/TRELLIS.2": 18,
-      "karpathy/autoresearch": 19,
-      "ashishpatel26/500-AI-Agents-Projects": 20,
-      "ChromeDevTools/chrome-devtools-mcp": 21,
-      "gitroomhq/postiz-app": 22,
-      "abus-aikorea/voice-pro": 23,
-      "Narcooo/inkos": 24,
-      "NomaDamas/k-skill": 25
-    },
     "2026-08-03": {
       "microsoft/AI-For-Beginners": 1,
       "zhaoxuya520/reverse-skill": 2,
@@ -836,6 +809,33 @@
       "firecrawl/pdf-inspector": 23,
       "addyosmani/agent-skills": 24,
       "checkstyle/checkstyle": 25
+    },
+    "2026-09-02": {
+      "tt-a1i/archify": 1,
+      "THU-MAIC/OpenMAIC": 2,
+      "jingyaogong/minimind": 3,
+      "K-Dense-AI/scientific-agent-skills": 4,
+      "stablyai/orca": 5,
+      "iv-org/invidious": 6,
+      "firecrawl/pdf-inspector": 7,
+      "handsomestWei/patent-disclosure-skill": 8,
+      "Osmantic/ODS": 9,
+      "browser-use/video-use": 10,
+      "every-app/open-seo": 11,
+      "kubernetes/kubernetes": 12,
+      "addyosmani/agent-skills": 13,
+      "MakazhanAlpamys/Soup": 14,
+      "laoma2053/awesome-zhuiju-free": 15,
+      "golang/go": 16,
+      "HKUDS/DeepTutor": 17,
+      "Imbad0202/academic-research-skills": 18,
+      "anthropics/claude-code": 19,
+      "Ed1s0nZ/CyberStrikeAI": 20,
+      "apurvsinghgautam/robin": 21,
+      "NVIDIA/SkillSpector": 22,
+      "langgenius/dify": 23,
+      "apache/iggy": 24,
+      "alphaXiv/OpenResearch": 25
     }
   }
 }
