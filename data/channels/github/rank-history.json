@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-03": {
-      "microsoft/AI-For-Beginners": 1,
-      "zhaoxuya520/reverse-skill": 2,
-      "codecrafters-io/build-your-own-x": 3,
-      "Panniantong/Agent-Reach": 4,
-      "TencentCloud/TencentDB-Agent-Memory": 5,
-      "microsoft/generative-ai-for-beginners": 6,
-      "NousResearch/hermes-agent": 7,
-      "sherlock-project/sherlock": 8,
-      "bytedance/deer-flow": 9,
-      "abus-aikorea/voice-pro": 10,
-      "esengine/DeepSeek-Reasonix": 11,
-      "iv-org/invidious": 12,
-      "microsoft/flint-chart": 13,
-      "different-ai/openwork": 14,
-      "harry0703/MoneyPrinterTurbo": 15,
-      "jamiepine/voicebox": 16,
-      "yt-dlp/yt-dlp": 17,
-      "can1357/oh-my-pi": 18,
-      "mvanhorn/last30days-skill": 19,
-      "garrytan/gstack": 20,
-      "NomaDamas/k-skill": 21,
-      "github/gh-stack": 22,
-      "decolua/9router": 23,
-      "multica-ai/multica": 24,
-      "openai/codex-plugin-cc": 25
-    },
     "2026-08-04": {
       "zhaoxuya520/reverse-skill": 1,
       "microsoft/AI-For-Beginners": 2,
@@ -836,6 +809,33 @@
       "langgenius/dify": 23,
       "apache/iggy": 24,
       "alphaXiv/OpenResearch": 25
+    },
+    "2026-09-03": {
+      "tt-a1i/archify": 1,
+      "THU-MAIC/OpenMAIC": 2,
+      "pacifio/atlas": 3,
+      "jingyaogong/minimind": 4,
+      "debpalash/VoiceStudio": 5,
+      "stablyai/orca": 6,
+      "Imbad0202/academic-research-skills": 7,
+      "Gitlawb/openclaude": 8,
+      "browser-use/video-use": 9,
+      "firecrawl/pdf-inspector": 10,
+      "slackhq/nebula": 11,
+      "NousResearch/hermes-agent": 12,
+      "earendil-works/pi": 13,
+      "arcboxlabs/arcbox": 14,
+      "datawhalechina/hello-agents": 15,
+      "3b1b/manim": 16,
+      "blader/humanizer": 17,
+      "google-research/timesfm": 18,
+      "pbakaus/impeccable": 19,
+      "addyosmani/agent-skills": 20,
+      "github/spec-kit": 21,
+      "p-e-w/heretic": 22,
+      "ChromeDevTools/chrome-devtools-mcp": 23,
+      "anthropics/claude-code": 24,
+      "heygen-com/hyperframes": 25
     }
   }
 }

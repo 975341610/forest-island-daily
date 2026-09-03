@@ -3,8 +3,8 @@
   "repos": {
     "tt-a1i/archify": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 11409,
+      "appearances": 4,
+      "total_today_stars": 13603,
       "language": "JavaScript",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
@@ -12,8 +12,8 @@
     },
     "THU-MAIC/OpenMAIC": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 7322,
+      "appearances": 4,
+      "total_today_stars": 8577,
       "language": "TypeScript",
       "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
       "owner_avatar": "https://avatars.githubusercontent.com/u/163809488?v=4",
@@ -93,8 +93,8 @@
     },
     "p-e-w/heretic": {
       "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 906,
+      "appearances": 3,
+      "total_today_stars": 1116,
       "language": "Python",
       "description": "Fully automatic censorship removal for language models",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2702526?v=4",
@@ -120,8 +120,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 13,
-      "appearances": 3,
-      "total_today_stars": 782,
+      "appearances": 4,
+      "total_today_stars": 1062,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -246,8 +246,8 @@
     },
     "browser-use/video-use": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 1063,
+      "appearances": 3,
+      "total_today_stars": 1796,
       "language": "Python",
       "description": "Edit videos with coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
@@ -272,9 +272,9 @@
       "html_url": "https://github.com/handsomestWei/patent-disclosure-skill"
     },
     "debpalash/VoiceStudio": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 509,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1341,
       "language": "Python",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4178343?v=4",
@@ -282,8 +282,8 @@
     },
     "jingyaogong/minimind": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1500,
+      "appearances": 3,
+      "total_today_stars": 2360,
       "language": "Python",
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/62287848?v=4",
@@ -317,9 +317,9 @@
       "html_url": "https://github.com/MakazhanAlpamys/Soup"
     },
     "pbakaus/impeccable": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 322,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 658,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -336,8 +336,8 @@
     },
     "firecrawl/pdf-inspector": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 769,
+      "appearances": 3,
+      "total_today_stars": 1355,
       "language": "Rust",
       "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
@@ -354,8 +354,8 @@
     },
     "stablyai/orca": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 883,
+      "appearances": 2,
+      "total_today_stars": 1695,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -389,9 +389,9 @@
       "html_url": "https://github.com/HKUDS/DeepTutor"
     },
     "Imbad0202/academic-research-skills": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 193,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 992,
       "language": "Python",
       "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "owner_avatar": "https://avatars.githubusercontent.com/u/132531341?v=4",
@@ -399,8 +399,8 @@
     },
     "anthropics/claude-code": {
       "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 130,
+      "appearances": 2,
+      "total_today_stars": 275,
       "language": "Python",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -459,6 +459,123 @@
       "description": "Run parallel research agents with any model",
       "owner_avatar": "https://avatars.githubusercontent.com/u/153782766?v=4",
       "html_url": "https://github.com/alphaXiv/OpenResearch"
+    },
+    "pacifio/atlas": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 888,
+      "language": "Rust",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/32670628?v=4",
+      "html_url": "https://github.com/pacifio/atlas"
+    },
+    "Gitlawb/openclaude": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 775,
+      "language": "TypeScript",
+      "description": "runs anywhere. uses anything",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/268502891?v=4",
+      "html_url": "https://github.com/Gitlawb/openclaude"
+    },
+    "slackhq/nebula": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 561,
+      "language": "Go",
+      "description": "A scalable overlay networking tool with a focus on performance, simplicity and security",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6911160?v=4",
+      "html_url": "https://github.com/slackhq/nebula"
+    },
+    "NousResearch/hermes-agent": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 533,
+      "language": "Python",
+      "description": "The agent that grows with you",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
+      "html_url": "https://github.com/NousResearch/hermes-agent"
+    },
+    "earendil-works/pi": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 521,
+      "language": "TypeScript",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
+      "html_url": "https://github.com/earendil-works/pi"
+    },
+    "arcboxlabs/arcbox": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 511,
+      "language": "Rust",
+      "description": "Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/252897422?v=4",
+      "html_url": "https://github.com/arcboxlabs/arcbox"
+    },
+    "datawhalechina/hello-agents": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 446,
+      "language": "Python",
+      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/46047812?v=4",
+      "html_url": "https://github.com/datawhalechina/hello-agents"
+    },
+    "3b1b/manim": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 405,
+      "language": "Python",
+      "description": "Animation engine for explanatory math videos",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11601040?v=4",
+      "html_url": "https://github.com/3b1b/manim"
+    },
+    "blader/humanizer": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 374,
+      "language": "Python",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1672?v=4",
+      "html_url": "https://github.com/blader/humanizer"
+    },
+    "google-research/timesfm": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 343,
+      "language": "Python",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43830688?v=4",
+      "html_url": "https://github.com/google-research/timesfm"
+    },
+    "github/spec-kit": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 224,
+      "language": "Python",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
+      "html_url": "https://github.com/github/spec-kit"
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 148,
+      "language": "TypeScript",
+      "description": "Chrome DevTools for coding agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11260967?v=4",
+      "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    "heygen-com/hyperframes": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 141,
+      "language": "TypeScript",
+      "description": "Write HTML. Render video. Built for agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
+      "html_url": "https://github.com/heygen-com/hyperframes"
     }
   }
 }
