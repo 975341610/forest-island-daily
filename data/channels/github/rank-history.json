@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-04": {
-      "zhaoxuya520/reverse-skill": 1,
-      "microsoft/AI-For-Beginners": 2,
-      "firecrawl/pdf-inspector": 3,
-      "TencentCloud/TencentDB-Agent-Memory": 4,
-      "Panniantong/Agent-Reach": 5,
-      "esengine/DeepSeek-Reasonix": 6,
-      "Graphify-Labs/graphify": 7,
-      "microsoft/generative-ai-for-beginners": 8,
-      "NousResearch/hermes-agent": 9,
-      "jamiepine/voicebox": 10,
-      "iv-org/invidious": 11,
-      "can1357/oh-my-pi": 12,
-      "Alishahryar1/free-claude-code": 13,
-      "donnemartin/system-design-primer": 14,
-      "sherlock-project/sherlock": 15,
-      "shiyu-coder/Kronos": 16,
-      "bytedance/deer-flow": 17,
-      "chaitin/SafeLine": 18,
-      "microsoft/TRELLIS.2": 19,
-      "livekit/agents": 20,
-      "NomaDamas/k-skill": 21,
-      "K-Dense-AI/scientific-agent-skills": 22,
-      "iptv-org/iptv": 23,
-      "SillyTavern/SillyTavern": 24,
-      "gitroomhq/postiz-app": 25
-    },
     "2026-08-05": {
       "firecrawl/pdf-inspector": 1,
       "zhaoxuya520/reverse-skill": 2,
@@ -836,6 +809,33 @@
       "ChromeDevTools/chrome-devtools-mcp": 23,
       "anthropics/claude-code": 24,
       "heygen-com/hyperframes": 25
+    },
+    "2026-09-04": {
+      "debpalash/VoiceStudio": 1,
+      "google-research/timesfm": 2,
+      "blader/humanizer": 3,
+      "fmtlib/fmt": 4,
+      "stablyai/orca": 5,
+      "NousResearch/hermes-agent": 6,
+      "arcboxlabs/arcbox": 7,
+      "bannedbook/fanqiang": 8,
+      "sngyai/Sequoia-X": 9,
+      "jingyaogong/minimind": 10,
+      "Imbad0202/academic-research-skills": 11,
+      "earendil-works/pi": 12,
+      "Gitlawb/openclaude": 13,
+      "vercel-labs/portless": 14,
+      "firecrawl/pdf-inspector": 15,
+      "pacifio/atlas": 16,
+      "Graphify-Labs/graphify": 17,
+      "OpenWhispr/openwhispr": 18,
+      "pbakaus/impeccable": 19,
+      "garrytan/gstack": 20,
+      "ChromeDevTools/chrome-devtools-mcp": 21,
+      "anthropics/skills": 22,
+      "addyosmani/agent-skills": 23,
+      "MakazhanAlpamys/Soup": 24,
+      "eneskirca/nodeterm": 25
     }
   }
 }
