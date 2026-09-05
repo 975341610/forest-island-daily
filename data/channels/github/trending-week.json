@@ -120,8 +120,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 13,
-      "appearances": 5,
-      "total_today_stars": 1326,
+      "appearances": 6,
+      "total_today_stars": 1657,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -273,8 +273,8 @@
     },
     "debpalash/VoiceStudio": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 3013,
+      "appearances": 4,
+      "total_today_stars": 4358,
       "language": "Python",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4178343?v=4",
@@ -282,8 +282,8 @@
     },
     "jingyaogong/minimind": {
       "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 2870,
+      "appearances": 5,
+      "total_today_stars": 3167,
       "language": "Python",
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/62287848?v=4",
@@ -317,9 +317,9 @@
       "html_url": "https://github.com/MakazhanAlpamys/Soup"
     },
     "pbakaus/impeccable": {
-      "best_rank": 19,
-      "appearances": 3,
-      "total_today_stars": 990,
+      "best_rank": 15,
+      "appearances": 4,
+      "total_today_stars": 1296,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -354,8 +354,8 @@
     },
     "stablyai/orca": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 2609,
+      "appearances": 4,
+      "total_today_stars": 3440,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -425,9 +425,9 @@
       "html_url": "https://github.com/apurvsinghgautam/robin"
     },
     "NVIDIA/SkillSpector": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 113,
+      "best_rank": 20,
+      "appearances": 2,
+      "total_today_stars": 367,
       "language": "Python",
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
@@ -471,8 +471,8 @@
     },
     "Gitlawb/openclaude": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 1226,
+      "appearances": 3,
+      "total_today_stars": 1507,
       "language": "TypeScript",
       "description": "runs anywhere. uses anything",
       "owner_avatar": "https://avatars.githubusercontent.com/u/268502891?v=4",
@@ -489,8 +489,8 @@
     },
     "NousResearch/hermes-agent": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 1307,
+      "appearances": 3,
+      "total_today_stars": 2027,
       "language": "Python",
       "description": "The agent that grows with you",
       "owner_avatar": "https://avatars.githubusercontent.com/u/134168893?v=4",
@@ -507,8 +507,8 @@
     },
     "arcboxlabs/arcbox": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 1054,
+      "appearances": 3,
+      "total_today_stars": 1621,
       "language": "Rust",
       "description": "Run AI agents on real and isolated machines — own kernel, filesystem, and network — with <100ms boot. Local first, OCI compatible, pure Rust.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/252897422?v=4",
@@ -516,8 +516,8 @@
     },
     "datawhalechina/hello-agents": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 446,
+      "appearances": 2,
+      "total_today_stars": 655,
       "language": "Python",
       "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
       "owner_avatar": "https://avatars.githubusercontent.com/u/46047812?v=4",
@@ -534,8 +534,8 @@
     },
     "blader/humanizer": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1582,
+      "appearances": 3,
+      "total_today_stars": 2712,
       "language": "Python",
       "description": "Agent skill that removes signs of AI-generated writing from text",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1672?v=4",
@@ -543,8 +543,8 @@
     },
     "google-research/timesfm": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 1961,
+      "appearances": 3,
+      "total_today_stars": 2303,
       "language": "Python",
       "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43830688?v=4",
@@ -552,8 +552,8 @@
     },
     "github/spec-kit": {
       "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 224,
+      "appearances": 2,
+      "total_today_stars": 418,
       "language": "Python",
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
@@ -579,17 +579,17 @@
     },
     "fmtlib/fmt": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 963,
+      "appearances": 2,
+      "total_today_stars": 1651,
       "language": "C++",
       "description": "A modern formatting library",
       "owner_avatar": "https://avatars.githubusercontent.com/u/7280830?v=4",
       "html_url": "https://github.com/fmtlib/fmt"
     },
     "bannedbook/fanqiang": {
-      "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 522,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 1252,
       "language": "Kotlin",
       "description": "翻墙-科学上网",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4361923?v=4",
@@ -624,8 +624,8 @@
     },
     "OpenWhispr/openwhispr": {
       "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 375,
+      "appearances": 2,
+      "total_today_stars": 637,
       "language": "JavaScript",
       "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254803777?v=4",
@@ -633,17 +633,17 @@
     },
     "garrytan/gstack": {
       "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 300,
+      "appearances": 2,
+      "total_today_stars": 499,
       "language": "TypeScript",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
       "html_url": "https://github.com/garrytan/gstack"
     },
     "anthropics/skills": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 281,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 792,
       "language": "Python",
       "description": "Public repository for Agent Skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -657,6 +657,69 @@
       "description": "Node-based terminal manager for AI coding agents — tmux-backed terminals and parallel agent sessions as draggable nodes on an infinite pan/zoom canvas. macOS, Linux, and a browser Server Edition.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/39504888?v=4",
       "html_url": "https://github.com/eneskirca/nodeterm"
+    },
+    "humanlayer/skills": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1141,
+      "language": "TypeScript",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/177409041?v=4",
+      "html_url": "https://github.com/humanlayer/skills"
+    },
+    "sgl-project/sglang": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 836,
+      "language": "Python",
+      "description": "SGLang is a high-performance serving framework for large language models and multimodal models.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/147780389?v=4",
+      "html_url": "https://github.com/sgl-project/sglang"
+    },
+    "cathrynlavery/diagram-design": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 437,
+      "language": "HTML",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/50469282?v=4",
+      "html_url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    "magnitudedev/magnitude": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 391,
+      "language": "TypeScript",
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/199500616?v=4",
+      "html_url": "https://github.com/magnitudedev/magnitude"
+    },
+    "clshortfuse/renodx": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 261,
+      "language": "HLSL",
+      "description": "Renovation Engine for DirectX Games",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9271155?v=4",
+      "html_url": "https://github.com/clshortfuse/renodx"
+    },
+    "longbridge/gpui-kit": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 179,
+      "language": "Rust",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/68419756?v=4",
+      "html_url": "https://github.com/longbridge/gpui-kit"
+    },
+    "citrolabs/ego-lite": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 161,
+      "language": "JavaScript",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
+      "html_url": "https://github.com/citrolabs/ego-lite"
     }
   }
 }
