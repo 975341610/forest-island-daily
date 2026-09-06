@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-06": {
-      "TencentCloud/TencentDB-Agent-Memory": 1,
-      "firecrawl/pdf-inspector": 2,
-      "cloudflare/computer": 3,
-      "usestrix/strix": 4,
-      "esengine/DeepSeek-Reasonix": 5,
-      "pbakaus/impeccable": 6,
-      "browser-use/video-use": 7,
-      "NousResearch/hermes-agent": 8,
-      "tailwindlabs/tailwindcss": 9,
-      "can1357/oh-my-pi": 10,
-      "blader/humanizer": 11,
-      "uber/ADR": 12,
-      "multica-ai/multica": 13,
-      "huangruiteng/loopx": 14,
-      "donnemartin/system-design-primer": 15,
-      "openai/codex": 16,
-      "Comfy-Org/ComfyUI": 17,
-      "addyosmani/agent-skills": 18,
-      "Alishahryar1/free-claude-code": 19,
-      "cypress-io/cypress": 20,
-      "angular/angular": 21,
-      "roboflow/supervision": 22,
-      "byoungd/up": 23,
-      "superplanehq/superplane": 24,
-      "rust-lang/rust": 25
-    },
     "2026-08-07": {
       "cloudflare/computer": 1,
       "firecrawl/pdf-inspector": 2,
@@ -836,6 +809,33 @@
       "github/spec-kit": 23,
       "longbridge/gpui-kit": 24,
       "citrolabs/ego-lite": 25
+    },
+    "2026-09-06": {
+      "debpalash/VoiceStudio": 1,
+      "blader/humanizer": 2,
+      "cathrynlavery/diagram-design": 3,
+      "sgl-project/sglang": 4,
+      "magnitudedev/magnitude": 5,
+      "NousResearch/hermes-agent": 6,
+      "anthropics/skills": 7,
+      "humanlayer/skills": 8,
+      "earendil-works/pi": 9,
+      "OpenWhispr/openwhispr": 10,
+      "pbakaus/impeccable": 11,
+      "openai/codex": 12,
+      "bikini/exploitarium": 13,
+      "can1357/oh-my-pi": 14,
+      "addyosmani/agent-skills": 15,
+      "NVIDIA/SkillSpector": 16,
+      "Imbad0202/academic-research-skills": 17,
+      "ruvnet/ruflo": 18,
+      "fmtlib/fmt": 19,
+      "radixark/miles": 20,
+      "k2-fsa/OmniVoice": 21,
+      "iptv-org/iptv": 22,
+      "multica-ai/multica": 23,
+      "sngyai/Sequoia-X": 24,
+      "Wei-Shaw/sub2api": 25
     }
   }
 }
