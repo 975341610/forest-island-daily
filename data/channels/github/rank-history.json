@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-07": {
-      "cloudflare/computer": 1,
-      "firecrawl/pdf-inspector": 2,
-      "TencentCloud/TencentDB-Agent-Memory": 3,
-      "esengine/DeepSeek-Reasonix": 4,
-      "huangruiteng/loopx": 5,
-      "donnemartin/system-design-primer": 6,
-      "NousResearch/hermes-agent": 7,
-      "addyosmani/agent-skills": 8,
-      "usestrix/strix": 9,
-      "freestylefly/awesome-gpt-image-2": 10,
-      "CherryHQ/cherry-studio": 11,
-      "uber/ADR": 12,
-      "multica-ai/multica": 13,
-      "vercel/next.js": 14,
-      "browser-use/video-use": 15,
-      "TapXWorld/ChinaTextbook": 16,
-      "iOfficeAI/AionUi": 17,
-      "K-Dense-AI/scientific-agent-skills": 18,
-      "SimplifyJobs/Summer2027-Internships": 19,
-      "ComposioHQ/awesome-claude-skills": 20,
-      "makeplane/plane": 21,
-      "KnockOutEZ/wigolo": 22,
-      "microsoft/vscode": 23,
-      "infiniflow/ragflow": 24,
-      "Unclecheng-li/VulnClaw": 25
-    },
     "2026-08-08": {
       "PrimeIntellect-ai/prime-agent": 1,
       "TencentCloud/TencentDB-Agent-Memory": 2,
@@ -836,6 +809,33 @@
       "multica-ai/multica": 23,
       "sngyai/Sequoia-X": 24,
       "Wei-Shaw/sub2api": 25
+    },
+    "2026-09-07": {
+      "blader/humanizer": 1,
+      "experientiallabs/experiential": 2,
+      "cathrynlavery/diagram-design": 3,
+      "magnitudedev/magnitude": 4,
+      "public-apis/public-apis": 5,
+      "NousResearch/hermes-agent": 6,
+      "humanlayer/skills": 7,
+      "BraveOPotato/FckSignups": 8,
+      "AdventDevInc/kudu": 9,
+      "arcboxlabs/arcbox": 10,
+      "WorldFlowAI/everything-claude-code": 11,
+      "ruvnet/ruflo": 12,
+      "browser-use/browser-use": 13,
+      "yt-dlp/yt-dlp": 14,
+      "heygen-com/hyperframes": 15,
+      "donnemartin/system-design-primer": 16,
+      "bikini/exploitarium": 17,
+      "can1357/oh-my-pi": 18,
+      "aipoch/open-science": 19,
+      "The-Swarm-Corporation/AutoHedge": 20,
+      "Comfy-Org/ComfyUI": 21,
+      "nklmilojevic/sofka": 22,
+      "Stremio/stremio-web": 23,
+      "Anil-matcha/Open-Generative-AI": 24,
+      "OpenWhispr/openwhispr": 25
     }
   }
 }
