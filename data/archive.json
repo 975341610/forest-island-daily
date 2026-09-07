@@ -1,5 +1,233 @@
 [
   {
+    "id": "2026-09-07_vibecoding_4",
+    "date": "2026-09-07",
+    "category": "VibeCoding",
+    "subcat": "GitHub Trending",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "mattpocock/skills登顶：给真正工程师的技能库",
+    "url": "https://github.com/mattpocock/skills",
+    "image": "images/2026-09-07/2026-09-07_vibecoding_4.jpg",
+    "detail": [
+      "TypeScript 社区知名教育者 Matt Pocock 的开源项目 mattpocock/skills 今日登上 GitHub Trending 榜首，单日新增两千余星，累计星标已达十余万。它的定位很直接——「给真正工程师用的技能（Skills for Real Engineers），直接来自我的 .agents 目录」，收录的是作者自己每天用来做真实工程、而非「氛围编程」的一整套 Agent Skills。",
+      "项目的价值主张带有明显的立场：作者认为 GSD、BMAD、Spec-Kit 这类方法论试图通过「接管流程」来帮开发者，但代价是夺走了控制权，让流程里的 bug 难以排查。相比之下，这些 skills 以更细粒度、可组合、可读的方式提供能力，开发者保留对每一步的掌控。仓库结构包含 .claude-plugin、.agents、skills 等目录，并以 changeset 管理版本，可作为 Claude 插件分发。",
+      "值得注意的是，今天的 Trending 榜几乎被「Agent Skills / 代理框架」类项目占据：anthropics/skills、humanlayer/skills、affaan-m/ECC 等同台竞技，反映出 Claude Skills 生态在 2026 年下半年的爆发式扩张。mattpocock/skills 能在其中拔得头筹，很大程度归功于作者长期在教学内容上积累的信任，以及「反对过度自动化、强调工程师主导」的鲜明主张，恰好击中大量对纯 vibe coding 感到疲惫的开发者。",
+      "社区讨论集中在其 issue 区（超过四百条），围绕具体 skill 的适用边界与最佳实践展开，显示出它不只是被收藏，而是被真正拿去用。"
+    ]
+  },
+  {
+    "id": "2026-09-07_vibecoding_3",
+    "date": "2026-09-07",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Product Hunt",
+    "platform_color": "#F6A07C",
+    "title": "HyperProbe：让编程代理免部署调试线上",
+    "url": "https://www.producthunt.com/products/hyperprobe",
+    "image": "images/2026-09-07/2026-09-07_vibecoding_3.jpg",
+    "detail": [
+      "HyperProbe 是 Y Combinator 支持的初创产品，刚在 Product Hunt 上线并进入当日榜单前列。创始人 Shailendra Singh 与 Karan Raina 此前做过测试工具 HyperTest，如今瞄准一个新痛点：AI 写下了大半代码，写代码不再是瓶颈，调试才是。当线上凌晨崩溃、且无法在本地复现时，代理只能靠日志和 trace 猜测，而恰恰是解释故障的关键变量从未被记录。",
+      "它的做法是让 Claude Code、Codex、Cursor 等代理通过 MCP 协议，向正在运行的服务里投放只读「探针」（虚拟断点），在故障发生的那一刻直接从内存读取精确的变量状态，无需重新部署或重启服务。SDK 在 Node、Python 中进程内挂钩，在 Java 中以 JVM agent 做字节码级注入；探针异步触发、执行后即消失，官方称 3000 RPS 下额外开销低于 1%，并在进程内完成 PII 脱敏。",
+      "据官方数据，它把过去 3 到 4 小时、需要 2 到 3 名资深工程师的生产事故排查，压缩到 10 分钟内、零次重新部署；有用户把原本耗时 4 小时的支付问题在 9.5 分钟内定位。它专门覆盖那些「不报警」的隐性故障：返回 200 却携带错误数据、异常点远离真正病灶、被吞掉的异常、竞态与重复处理等。",
+      "评论区里工程师追问性能开销、数据安全和多应用支持，团队回应可自托管于私有 VPC、探针只读且有不可篡改审计轨迹，并透露 Go 支持将于月底上线。这一「按需可观测性」思路被不少人视为代理时代运维的新范式。"
+    ]
+  },
+  {
+    "id": "2026-09-07_vibecoding_2",
+    "date": "2026-09-07",
+    "category": "VibeCoding",
+    "subcat": "AI Coding工具",
+    "platform": "Product Hunt",
+    "platform_color": "#F6A07C",
+    "title": "Reflexio：让AI代理从错误中自我进化",
+    "url": "https://www.producthunt.com/products/reflexio-2",
+    "image": "images/2026-09-07/2026-09-07_vibecoding_2.jpg",
+    "detail": [
+      "Reflexio 是一个刚在 Product Hunt 上线的「AI 代理学习平台」，当日拿下第二名。它由 ReflexioAI 团队开发，核心主张是：静态的 AI 代理应当变得可以自我改进。Reflexio 会把用户的纠正、失败的路径和成功的结果转化为代理可复用的行为改变，而且每一条「学习」都可见、可审计、可撤销。官方演示中，一个客服代理原本只退了一笔陌生扣款，接入后学会「先检索最近全部扣款，再一次性呈现所有异常项」，把两轮对话压缩成一轮。",
+      "技术上它提供一个自我改进闭环：代理把发生的事情发布出来，Reflexio 抽取「下次该怎么做不同」，下一次运行再读回。系统会持续观察某条学习的实际表现，在有新会话与旧结论矛盾时自动淘汰过时经验，并基于真实案例不断重写，是一套研究支撑的持续优化过程，而非一次性设定。",
+      "它对编程代理格外友好，提供一个可移植的 integrate-reflexio Skill：只需把 SKILL.md 的链接丢给 Codex、Claude Code 或 Cursor，代理就能自动检查现有生命周期、实现 retrieve-and-publish 循环并验证改动路径；也支持 Python、REST、CLI 三种接入方式。评估维度直指业务价值：问题是否解决、用户是否需要纠正、是否转人工。",
+      "开发者普遍认为，随着代理承担越来越多真实任务，「记忆」和「持续学习」成为差异化关键。Reflexio 把这套能力做成可审计、可回滚的产品，缓解了团队对「黑盒自学习」失控的担忧，因此在评论区收获大量正面反馈。"
+    ]
+  },
+  {
+    "id": "2026-09-07_vibecoding_1",
+    "date": "2026-09-07",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "Product Hunt",
+    "platform_color": "#F6A07C",
+    "title": "dif.sh：把A/B实验和特性开关写进代码仓库",
+    "url": "https://www.producthunt.com/products/dif-sh",
+    "image": "images/2026-09-07/2026-09-07_vibecoding_1.jpg",
+    "detail": [
+      "dif.sh 是一款刚在 Product Hunt 登顶当日榜首的开发者工具，主打「特性开关与 A/B 实验属于代码仓库」的理念。它由独立团队打造，通过 npm 安装 @dif.sh/cli 和 @dif.sh/sdk，把每一个特性开关或实验都写成一个位于 dif/ 目录下的 Markdown 文件，随代码一起进 git、在 PR 里被评审。灰度发布、Holdout、分阶段放量共用同一种 frontmatter 格式，概念更少、写错的机会也更少。",
+      "它最大的亮点是为 AI 编程代理量身设计。每次执行 dif build 都会重新生成 dif/context.json，把当前生效的开关、变体和最近学到的结论汇总进去；Claude Code、Codex、Cursor 等代理在会话启动时会像读取 CLAUDE.md 一样自动读取它，从而让「之前实验教会我们什么」这类经验随工作一起流转，不会因换一个会话而丢失。守护规则（互斥组、冲突检测）在 dif build 阶段编译成极小的客户端，让实验只在 CI 里出错、而非在生产环境爆炸。",
+      "数据侧同样贴合现有工作流：接入 Dif Cloud key 后，dif.track() 会自动计算实验提升值，无需额外 join 代码；也支持 dif init --events custom 把事件转发到 Segment、Amplitude 或自建数仓。实验结束时用 dif conclude 归档到 concluded/ 目录并自动起草决策结论。",
+      "开发者反应热烈，当日获得三百余票登顶。许多人认为这是「配置即代码」理念在 AI 编程时代的自然延伸——当代理写下大半代码时，实验上下文能否被机器读懂、能否随 PR 审阅，正成为团队工程化的新分水岭。"
+    ]
+  },
+  {
+    "id": "2026-09-07_gaming_5",
+    "date": "2026-09-07",
+    "category": "Gaming",
+    "subcat": "Steam新游",
+    "platform": "PC (Steam)",
+    "platform_color": "#7CF6A0",
+    "title": "《万圣节:游戏》登陆Steam口碑两极",
+    "url": "https://store.steampowered.com/app/3219630/Halloween_The_Game/",
+    "image": "images/2026-09-07/2026-09-07_gaming_5.jpg",
+    "detail": [
+      "《Halloween: The Game(万圣节:游戏)》是一款改编自经典恐怖电影《月光光心慌慌》系列的非对称多人生存恐怖游戏,让玩家分别扮演试图逃生的普通角色与追捕者,主打紧张刺激的猫鼠对抗体验,借万圣节档期登陆Steam平台,吸引大量恐怖游戏爱好者关注。",
+      "据Steam商店页面显示,该作已进入抢先体验阶段并临近数字版正式上线,售价与内容随更新推进逐步开放。截至查询时,玩家评价呈现「多半好评/褒贬不一」状态,约2524条评测中好评率约69%,玩家在打磨程度、匹配与优化上意见分歧明显。",
+      "社区反馈呈两极分化:喜欢的玩家称其还原了电影的恐怖氛围与追猎快感,和好友联机时氛围拉满;批评者则集中吐槽服务器与优化问题、平衡性以及内容量不足,认为抢先体验阶段仍显粗糙。开发方表示会持续更新迭代,能否借万圣节热度站稳脚跟,成为近期非对称恐怖品类的一大看点。"
+    ]
+  },
+  {
+    "id": "2026-09-07_gaming_4",
+    "date": "2026-09-07",
+    "category": "Gaming",
+    "subcat": "周边新闻",
+    "platform": "PlayStation",
+    "platform_color": "#7CF6A0",
+    "title": "首款乐高PlayStation主机套装公布",
+    "url": "https://www.lego.com/en-us/aboutus/news/2026/september/first-ever-lego-playstation-set-revealed",
+    "image": "images/2026-09-07/2026-09-07_gaming_4.jpg",
+    "detail": [
+      "乐高与索尼互动娱乐合作已久,此前推出过多款PlayStation相关IP套装,而这一次双方带来了粉丝期待已久的作品——史上首款「乐高版PlayStation主机」正式登场,把玩家最熟悉的游戏机变成可拼搭的收藏摆件,面向广大主机与积木双料爱好者。",
+      "据乐高官方公布,这款套装还原了经典PlayStation主机造型,共计1911块零件,官方定价179.99美元,将于10月初上市(10月1日会员优先、10月4日全面开售)。套装在细节还原上颇下功夫,力求高度还原主机的外观质感与标志性设计,主打展示与收藏价值。",
+      "消息公布后迅速在社交平台发酵,不少玩家表示这是「情怀收割机」,勾起了对PlayStation品牌的回忆,也有人讨论近1900块的拼搭体量与定价是否值回票价。作为乐高游戏机主题的又一次尝试,这款套装被视为面向成年积木玩家与主机粉丝的节日档收藏首选,预购热度可观。"
+    ]
+  },
+  {
+    "id": "2026-09-07_gaming_3",
+    "date": "2026-09-07",
+    "category": "Gaming",
+    "subcat": "单机新闻",
+    "platform": "PC/主机",
+    "platform_color": "#7CF6A0",
+    "title": "《空洞骑士:丝之歌》新扩展与新版官宣",
+    "url": "https://www.teamcherry.com.au/blog/holiday2025",
+    "image": "images/2026-09-07/2026-09-07_gaming_3.jpg",
+    "detail": [
+      "《空洞骑士:丝之歌》(Hollow Knight: Silksong)作为独立神作《空洞骑士》的续作,自发售以来热度爆棚,开发商Team Cherry披露游戏销量已突破700万份,加上Xbox Game Pass上的数百万玩家,首发甚至一度挤爆各大商店平台,成为年度现象级独立作品。",
+      "在最新官方博客中,Team Cherry一口气公布多项重磅计划:首个大型免费扩展《Sea of Sorrow(悲伤之海)》已在开发中,主打全新航海主题区域、Boss、道具等内容,预计明年上线并对所有玩家免费。同时宣布《空洞骑士》本体将推出Nintendo Switch 2版本,支持高帧率、更高分辨率与增强画面效果,Switch老玩家可免费升级。",
+      "此外,PC玩家现在即可通过Steam与GOG的公开测试分支体验本体更新,新增完整16:10与21:9宽屏支持,惠及Steam Deck与带鱼屏用户。Team Cherry还联手Fangamer推出Hornet及好友、劲敌造型的迷你手办系列,现已开启预购。免费扩展加免费升级的诚意组合让社区一片叫好,再度巩固了工作室的口碑。"
+    ]
+  },
+  {
+    "id": "2026-09-07_gaming_2",
+    "date": "2026-09-07",
+    "category": "Gaming",
+    "subcat": "单机评测",
+    "platform": "PS5/Xbox/PC",
+    "platform_color": "#7CF6A0",
+    "title": "《鬼武者:决战之刃》口碑分化引热议",
+    "url": "https://www.reddit.com/r/Games/comments/1w3gewv/onimusha_way_of_the_sword_review_thread/",
+    "image": "images/2026-09-07/2026-09-07_gaming_2.jpg",
+    "detail": [
+      "《鬼武者:决战之刃》是卡普空时隔约20年重启的招牌动作系列续作,由江篠聪英执导、基于RE引擎打造,继《生化危机:安魂曲》《怪物猎人物语3》后延续卡普空2026年的强势产品线,发售平台涵盖PS5、Xbox Series、Switch 2与PC。",
+      "媒体评价整体亮眼:Metacritic约86分、OpenCritic约85分,约94%评论者推荐,更拿下IGN系列史上首个满分,战斗手感、怪物设计与战国和风美术备受称赞。然而随着9月4日正式发售、玩家大量上手,Steam社区口碑出现明显分化。",
+      "在Steam差评区,多位玩家在9月4日与9月6日发文吐槽:敌人过于「被动」、会排队挨打,导致华丽连招缺乏交手快感,被戏称为「一拳超人模拟器」;同时缺少FOV与镜头距离调节,在带鱼屏上视野受限,锁定系统偶有卡顿。玩家普遍认可Boss战与打击感,但认为69美元定价下开放世界杂兵体验拖了后腿,建议等打折或更新后再入。这种「媒体高分、玩家分歧」的反差成为社区近日热点话题。"
+    ]
+  },
+  {
+    "id": "2026-09-07_gaming_1",
+    "date": "2026-09-07",
+    "category": "Gaming",
+    "subcat": "主机新闻",
+    "platform": "Switch 2",
+    "platform_color": "#7CF6A0",
+    "title": "塞尔达40周年任天堂直面会定档9月8日",
+    "url": "https://www.ign.com/articles/how-to-watch-the-september-2026-nintendo-direct-and-zelda-40th-anniversary-direct",
+    "image": "images/2026-09-07/2026-09-07_gaming_1.jpg",
+    "detail": [
+      "《塞尔达传说》系列自1986年初代问世以来,已成为任天堂最具代表性的招牌IP之一,四十年间从俯视角探险一路进化到《旷野之息》《王国之泪》的开放世界巅峰。为庆祝这一里程碑,任天堂正式宣布将于9月8日举办一场专属的「塞尔达传说40周年纪念直面会」,专门回顾并展望这一传奇系列。",
+      "据官方与IGN汇总,本次纪念直面会定于太平洋时间上午7点(北京时间9月8日晚间)开播,时长约30分钟。紧接着9月9日还将追加一场约45分钟的常规任天堂直面会,并接续Treehouse: Live实机演示环节。目前官方仅以「40周年庆典」定调,尚未确认是否会公布新作、重制或复刻,悬念被刻意保留。",
+      "消息一出立刻点燃社区,玩家纷纷猜测会否揭晓传闻已久的系列新作或经典作品高清复刻,相关讨论迅速登上各大论坛热榜。两场连续的直面会安排也被视为任天堂为Switch 2护航、冲刺年末档期的重要信号,期待值被拉满。"
+    ]
+  },
+  {
+    "id": "2026-09-07_ai_5",
+    "date": "2026-09-07",
+    "category": "AI",
+    "subcat": "开源",
+    "platform": "IT之家",
+    "platform_color": "#7C9EF6",
+    "title": "阿里千问开源自动驾驶模型Qwen-Drive",
+    "url": "https://www.ithome.com/0/998/997.htm",
+    "image": "images/2026-09-07/2026-09-07_ai_5.jpg",
+    "detail": [
+      "9月6日,IT之家报道阿里千问团队开源了Qwen-Drive-1.0-4B,官方称其为首个面向自动驾驶的视觉语言基础模型。该模型基于通义千问Qwen3.5-4B多模态底座构建,论文技术报告已发布于arXiv(编号2609.00111),代码与权重同步开放在GitHub仓库QwenLM/Qwen-Drive-1.0及Hugging Face,采用Apache-2.0宽松协议。",
+      "技术上,Qwen-Drive-1.0在一个统一框架内整合了3D感知、视觉问答与运动规划三大能力:共享的Qwen3.5-4B作为VLM主干,外挂BEV感知头完成3D目标检测、语义占据预测与地图分割,并由规划专家模块基于流匹配生成自车未来轨迹。官方数据显示,其在驾驶场景问答与空间理解上相比基座模型显著提升,同时完整保留了通用视觉语言能力,做到专精与通用兼得。",
+      "开源后该模型在开发者与自动驾驶社区引发关注,不少人认为把成熟的通用大模型能力迁移到驾驶决策,并以4B级别的小尺寸开放,极大降低了智能驾驶研究与落地的门槛。评论指出,国产大模型厂商正加速把VLM推向具身与出行等垂直场景,这类开箱即用的基础模型有望催生更多低成本自动驾驶方案,推动行业从闭源黑箱走向开放协作。"
+    ]
+  },
+  {
+    "id": "2026-09-07_ai_4",
+    "date": "2026-09-07",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "IT之家",
+    "platform_color": "#7C9EF6",
+    "title": "黄仁勋称AGI已到来引马库斯质疑",
+    "url": "https://www.ithome.com/0/999/069.htm",
+    "image": "images/2026-09-07/2026-09-07_ai_4.jpg",
+    "detail": [
+      "9月7日,IT之家报道英伟达CEO黄仁勋在近期公开场合抛出重磅论断,直言在他看来通用人工智能AGI某种意义上已经到来,理由是当今大模型在编程、科研、内容创作等诸多任务上已能达到甚至超越人类专家水平,AI正以前所未有的速度渗透进各行各业的实际工作流。",
+      "然而这一乐观宣言迅速招致业内针锋相对的回应。知名AI批评者、认知科学家加里·马库斯直接表达质疑,认为现有模型仍存在幻觉、缺乏稳健推理与真正理解等根本缺陷,把当前系统等同于AGI是言过其实;而OpenAI掌门人奥尔特曼此前的表态也相对审慎,强调通往AGI仍有关键难题待解。三方观点的碰撞把AGI定义之争再度推向台前。",
+      "这场隔空辩论在社交平台掀起热烈讨论,支持者认为黄仁勋站在算力供应链最前沿,对AI能力跃迁的感知更为敏锐;反对者则担忧过度渲染AGI已至会助长泡沫与炒作。评论普遍指出,分歧的根源在于业界对AGI始终缺乏统一衡量标准,这场争论短期内难有定论,却真实反映出当下大模型能力边界的模糊与产业心态的躁动。"
+    ]
+  },
+  {
+    "id": "2026-09-07_ai_3",
+    "date": "2026-09-07",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "IT之家",
+    "platform_color": "#7C9EF6",
+    "title": "努比亚NaviX Ultra携长鑫国产内存首秀",
+    "url": "https://www.ithome.com/0/998/949.htm",
+    "image": "images/2026-09-07/2026-09-07_ai_3.jpg",
+    "detail": [
+      "9月6日,IT之家报道全球首款AI智能体手机努比亚NaviX Ultra公布合作商名单,长鑫存储、三星半导体、高通、京东方等悉数在列,新机将于9月内正式上市。作为中兴与字节跳动联合打造的旗舰,该机主打AI智能体体验,深度集成字节旗下豆包助手,力图把手机从工具升级为能自主执行任务的智能伙伴。",
+      "最受关注的硬件亮点是内存:NaviX Ultra搭载长鑫存储速率高达10667Mbps的LPDDR5X内存,标志着国产移动DRAM首次进入顶级速率商用阶段,打破了海外厂商在高端手机内存上的长期垄断。此外该机有望配备骁龙8 Elite Gen5处理器与7000mAh大电池,为端侧大模型与智能体长时间运行提供充足算力和续航支撑。",
+      "业内普遍认为,国产内存首次以最高速率登陆顶级旗舰,是中国存储产业链的一次重要突破,对提升供应链自主可控意义重大。社区网友则对这台由中兴与字节联手、以AI智能体为核心卖点的手机充满好奇,期待其在真实场景中的智能体表现能否兑现宣传,同时也关注长鑫内存量产的良率与后续能否规模化铺开到更多机型。"
+    ]
+  },
+  {
+    "id": "2026-09-07_ai_2",
+    "date": "2026-09-07",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "新智元",
+    "platform_color": "#7C9EF6",
+    "title": "浙大港大开源视频记忆路由器LayerRecall",
+    "url": "https://c.m.163.com/news/a/L63PRJIU0511ABV6.html",
+    "image": "images/2026-09-07/2026-09-07_ai_2.jpg",
+    "detail": [
+      "9月6日,新智元报道浙江大学与香港大学联合团队开源了名为LayerRecall的视频记忆路由器,论文已上传arXiv(编号2608.28460),代码托管于GitHub仓库Yixuan-Ding-ZJU/LayerRecall。该工作瞄准长视频理解中记忆检索低效、显存开销大的痛点,提出一种可插拔的轻量级记忆路由机制,为多模态大模型处理超长视频提供了新思路。",
+      "技术层面,LayerRecall的核心亮点在于极致的轻量化:整个路由模块仅约6.6MB、参数量1,648,416个,却能在不同网络层之间动态调度历史帧记忆,精准召回与当前问题最相关的视觉信息。团队在多个长视频问答基准上验证,该方法能在大幅降低计算与显存成本的同时保持甚至提升问答准确率,展现出很强的即插即用特性。",
+      "开源消息一出便在AI研究社区获得关注,不少开发者认为如此小的参数量却能承担关键的记忆路由角色,对边缘设备与低成本部署长视频应用极具吸引力。有评论指出,这类由国内高校主导的高效多模态基础组件正不断涌现,为视频理解、具身智能等长上下文场景提供了可复用的开源积木,后续社区有望基于该框架衍生出更多轻量记忆方案。"
+    ]
+  },
+  {
+    "id": "2026-09-07_ai_1",
+    "date": "2026-09-07",
+    "category": "AI",
+    "subcat": "产品发布",
+    "platform": "中新网",
+    "platform_color": "#7C9EF6",
+    "title": "国家反诈AI App正式上线运行",
+    "url": "https://www.chinanews.com.cn/sh/2026/09-06/10691365.shtml",
+    "image": "images/2026-09-07/2026-09-07_ai_1.jpg",
+    "detail": [
+      "9月6日,国家反诈中心正式对外推出全新升级的国家反诈AI App,这是国内首个将大模型能力深度嵌入反诈全流程的官方应用。该App由公安部刑侦局牵头研发,依托海量涉诈样本训练的专用风控模型,面向公众提供来电预警、短信识别、App安全检测与一键举报等核心功能,上线首日即登上多个应用商店热榜。",
+      "据官方介绍,新版App最大的变化在于内置的AI智能识别引擎,可对陌生来电、可疑链接和转账请求进行实时语义分析与风险评分,遇到高风险场景会即时弹窗拦截并语音提醒用户。相比旧版依赖黑名单库的被动防护,新引擎能识别话术不断翻新的新型骗局,官方称其对刷单返利、虚假投资等高发诈骗的识别准确率显著提升。",
+      "消息发布后在社交平台引发广泛讨论,不少用户表示已第一时间下载体验,认为把AI用在守护老百姓钱袋子上是技术向善的正面案例。也有安全专家提醒,AI反诈虽能大幅降低受骗概率,但仍需与个人警惕意识相结合,官方后续还将持续迭代模型并接入更多金融、通信数据源,进一步织密全民反诈防护网。"
+    ]
+  },
+  {
     "id": "2026-09-05_vibecoding_5",
     "date": "2026-09-05",
     "category": "VibeCoding",
@@ -3714,16 +3942,17 @@
     "id": "2026-08-14_vibecoding_3",
     "date": "2026-08-14",
     "category": "VibeCoding",
-    "subcat": "开源Agent框架",
-    "platform": "GitHub / VentureBeat",
-    "platform_color": "#2563EB",
-    "title": "DeepSeek开源Harness叫板Claude Code",
+    "subcat": "AI Coding工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "DeepSeek开源Harness：一切皆插件的代理框架",
     "url": "https://github.com/deepseek-ai/deepseek-harness",
-    "image": "images/2026-08-14/2026-08-14_vibecoding_3.jpg",
+    "image": "images/2026-09-07/2026-09-07_vibecoding_5.jpg",
     "detail": [
-      "8月13日,DeepSeek在发布新旗舰模型V4-Pro的同时,罕见地把手伸向了「模型之外」的开发者工具层,以MIT许可证开源了名为DeepSeek Harness(命令行代号dsh)的智能体运行框架,直接对标Anthropic的Claude Code与OpenAI的Codex所依赖的Agent基础设施。这标志着DeepSeek不再只拼模型智能与token价格。",
-      "Harness最激进的设计理念是「一切皆插件」:模型、工具、技能、会话状态、沙箱、文件系统、Agent循环、编排乃至Web界面全部构建在可组合的Cordis服务之上,开发者可以随意替换、扩展甚至改写驱动决策的循环本身。它模型无关,官方文档同时支持DeepSeek、Anthropic、OpenAI及自定义OpenAI兼容端点,一行「npx @deepseek-ai/dsh web」即可在本地启动。",
-      "项目当前定位为开发者预览版,README明确警告「将会有破坏兼容性的变更」,尚非稳定的生产级替代品。上线当天GitHub即冲上约41.3k星、3.3k fork,社区热度爆表。有开发者认为对企业而言,这个可自由拼装Agent系统的开放框架,可能比V4-Pro本身更具长远意义;但也有人提醒它更像「可魔改的底座」而非成熟产品。"
+      "DeepSeek AI 近日开源了 DeepSeek Harness（简称 dsh），一款进入开发者预览、并在本周 GitHub 星标增长榜高居前列的开源代理框架，源码完整放出。它提出的核心理念是「一切皆插件」（Everything is a Plugin）：模型、工具、技能、会话、沙箱、存储、循环、调度乃至 UI，每一项能力都是可替换、可重组的插件，开发者只需改配置就能选择、替换或扩展任意能力，而不必改动框架源码。",
+      "它建立在 DeepSeek 自研的 Cordis 插件系统之上，通过 Cordis 的服务与事件让各插件协同工作，并强调「每一次运行都可追溯」。上手极简：一条 npx @deepseek-ai/dsh web 即可在本地 127.0.0.1:3080 启动 Web UI；也可 clone 源码后用 pnpm 构建运行。框架提供多种预设模式，包括暴露 Code Mode SDK、让模型在一段 TypeScript 程序里组合多步操作的模式，只有 bash 和 str_replace_editor 两个工具的 Minimal 模式，以及支持运行时检查与预设创作的 Creator 模式。",
+      "作为一家以模型著称的团队推出的自研 harness，它的意义在于把「Agent = 模型 + Harness」这一命题落到可复用、可组合的开源基础设施上，与 opencode、ruflo、Hermes 等社区代理框架直接同场竞争。项目明确标注仍处开发者预览、会有破坏性变更，并附带 SAFETY.md 安全须知。",
+      "开发者社区在 GitHub Discussions 和 Discord 展开热烈讨论，一方面惊讶于 DeepSeek 从模型延伸到框架层的野心，另一方面关注其插件生态能否吸引第三方共建——这被视为决定其长期竞争力的关键。"
     ]
   },
   {

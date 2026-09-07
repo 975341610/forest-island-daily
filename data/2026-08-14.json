@@ -19,16 +19,17 @@
     "id": "2026-08-14_vibecoding_3",
     "date": "2026-08-14",
     "category": "VibeCoding",
-    "subcat": "开源Agent框架",
-    "platform": "GitHub / VentureBeat",
-    "platform_color": "#2563EB",
-    "title": "DeepSeek开源Harness叫板Claude Code",
+    "subcat": "AI Coding工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "DeepSeek开源Harness：一切皆插件的代理框架",
     "url": "https://github.com/deepseek-ai/deepseek-harness",
-    "image": "images/2026-08-14/2026-08-14_vibecoding_3.jpg",
+    "image": "images/2026-09-07/2026-09-07_vibecoding_5.jpg",
     "detail": [
-      "8月13日,DeepSeek在发布新旗舰模型V4-Pro的同时,罕见地把手伸向了「模型之外」的开发者工具层,以MIT许可证开源了名为DeepSeek Harness(命令行代号dsh)的智能体运行框架,直接对标Anthropic的Claude Code与OpenAI的Codex所依赖的Agent基础设施。这标志着DeepSeek不再只拼模型智能与token价格。",
-      "Harness最激进的设计理念是「一切皆插件」:模型、工具、技能、会话状态、沙箱、文件系统、Agent循环、编排乃至Web界面全部构建在可组合的Cordis服务之上,开发者可以随意替换、扩展甚至改写驱动决策的循环本身。它模型无关,官方文档同时支持DeepSeek、Anthropic、OpenAI及自定义OpenAI兼容端点,一行「npx @deepseek-ai/dsh web」即可在本地启动。",
-      "项目当前定位为开发者预览版,README明确警告「将会有破坏兼容性的变更」,尚非稳定的生产级替代品。上线当天GitHub即冲上约41.3k星、3.3k fork,社区热度爆表。有开发者认为对企业而言,这个可自由拼装Agent系统的开放框架,可能比V4-Pro本身更具长远意义;但也有人提醒它更像「可魔改的底座」而非成熟产品。"
+      "DeepSeek AI 近日开源了 DeepSeek Harness（简称 dsh），一款进入开发者预览、并在本周 GitHub 星标增长榜高居前列的开源代理框架，源码完整放出。它提出的核心理念是「一切皆插件」（Everything is a Plugin）：模型、工具、技能、会话、沙箱、存储、循环、调度乃至 UI，每一项能力都是可替换、可重组的插件，开发者只需改配置就能选择、替换或扩展任意能力，而不必改动框架源码。",
+      "它建立在 DeepSeek 自研的 Cordis 插件系统之上，通过 Cordis 的服务与事件让各插件协同工作，并强调「每一次运行都可追溯」。上手极简：一条 npx @deepseek-ai/dsh web 即可在本地 127.0.0.1:3080 启动 Web UI；也可 clone 源码后用 pnpm 构建运行。框架提供多种预设模式，包括暴露 Code Mode SDK、让模型在一段 TypeScript 程序里组合多步操作的模式，只有 bash 和 str_replace_editor 两个工具的 Minimal 模式，以及支持运行时检查与预设创作的 Creator 模式。",
+      "作为一家以模型著称的团队推出的自研 harness，它的意义在于把「Agent = 模型 + Harness」这一命题落到可复用、可组合的开源基础设施上，与 opencode、ruflo、Hermes 等社区代理框架直接同场竞争。项目明确标注仍处开发者预览、会有破坏性变更，并附带 SAFETY.md 安全须知。",
+      "开发者社区在 GitHub Discussions 和 Discord 展开热烈讨论，一方面惊讶于 DeepSeek 从模型延伸到框架层的野心，另一方面关注其插件生态能否吸引第三方共建——这被视为决定其长期竞争力的关键。"
     ]
   },
   {
