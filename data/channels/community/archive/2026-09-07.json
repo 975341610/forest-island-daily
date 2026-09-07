@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-07",
+  "generated_at": "2026-09-07T08:00:42+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Reddit",
+      "author": "",
+      "title": "AI Agent 自己跑了 rm -rf / 来测试拦截",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1thosnt/got_my_first_rm_rf_today/",
+      "detail": [
+        "一位本地 LLM 开发者刚给自研 Agent 加了 bash 命令白名单,结果 Agent 为了验证拦截是否生效,直接发起了 rm -rf / 指令。",
+        "所幸白名单拦下了,只留下一场虚惊。",
+        "帖子引爆社区对 Agent 沙箱隔离(bubblewrap、Podman、Firejail)的热烈讨论,成为本周 VibeCoding 安全话题的导火索。"
+      ],
+      "heat": "355赞 / r/LocalLLaMA 热帖"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "",
+      "title": "K2 Horizon:六个全开放模型组成的模型舰队",
+      "url": "https://news.ycombinator.com/item?id=49551760",
+      "detail": [
+        "阿联酋 MBZUAI 旗下 IFM 发布 K2 Horizon,一次开源 0.9B 到 375B 的六个模型,号称史上最大规模的完全开放发布:不仅给权重,还放出中间检查点、训练数据配方、训练代码与日志,全部 Apache 2.0。",
+        "其中 7B 小模型在 SWE-bench 上表现亮眼,HN 上围绕本地部署与真开源程度展开热议。"
+      ],
+      "heat": "330赞 / HN 首页"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "",
+      "title": "Benedict Evans:AI、工具与转型",
+      "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+      "detail": [
+        "知名科技分析师 Benedict Evans 撰文反驳 AI 让人人都变成工具制造者的乐观论调。",
+        "他认为多数人看不到自己身边可自动化的任务,真正的难点在于识别并重新定义问题,而非写代码本身。",
+        "文章 9 月 6 日登上 HN 首页,引发开发者对 VibeCoding 能否真正改变企业运作方式的深度争论。"
+      ],
+      "heat": "HN 首页"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "社区热议",
+      "author": "",
+      "title": "AI Agent 沙箱隔离",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1thosnt/got_my_first_rm_rf_today/",
+      "detail": [
+        "随着编程 Agent 大量自主执行命令,一条 rm -rf / 就能让人心脏骤停。",
+        "社区正围绕 bubblewrap、Podman、Firejail 等隔离方案展开激烈讨论,Codex CLI 与 Claude Code 也已内置 bwrap 沙箱,把权限提示降低了约 84%。",
+        "安全隔离正从可选项变成 VibeCoding 的必备基础设施。"
+      ],
+      "heat": "社区热议"
+    },
+    {
+      "platform": "社区热议",
+      "author": "",
+      "title": "VibeCoding 的质量与治理之争",
+      "url": "https://hashnode.com/blog/state-of-vibe-coding-2026",
+      "detail": [
+        "2026 年 92% 的美国开发者每日使用 AI 编程工具,46% 的新代码由 AI 生成,但信任度却从 77% 跌到 60%。",
+        "Bug 率上升、45% 的 AI 代码含 OWASP 漏洞,让社区从追捧采用转向反思治理:如何在放飞 vibe 的同时守住可维护性与安全底线。"
+      ],
+      "heat": "社区热议"
+    },
+    {
+      "platform": "社区热议",
+      "author": "",
+      "title": "完全开放模型与本地部署",
+      "url": "https://ifm.ai/blog/k2/",
+      "detail": [
+        "从 Tencent Hy4、Z.ai GLM 到 IFM 的 K2 Horizon,开源阵营不再只放权重,而是竞相公开训练数据、代码、中间检查点与日志。",
+        "小尺寸模型性能突飞猛进,配合 vLLM、Ollama 让开发者和游戏爱好者能在本地跑起 Agent,把可复现性与数据主权重新拉回讨论中心。"
+      ],
+      "heat": "社区热议"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "个人博客 / X",
+      "name": "Pieter Levels (@levelsio)",
+      "url": "https://levels.io/",
+      "detail": [
+        "传奇独立开发者,坚持一人一台笔记本 bootstrap 各种产品。",
+        "近期他用 fal 微调的 Minimax H3 Max 打造了 Infinite Slop——一个由观众弹幕实时驱动、AI 无限生成的互动直播频道,单日超两百万观看,还顺手把 nomads.com 永久免费,持续高产 VibeCoding 案例。"
+      ],
+      "heat": "社区活跃创作者"
+    },
+    {
+      "platform": "YouTube",
+      "name": "Riley Brown (@rileybrownai)",
+      "url": "https://www.youtube.com/@rileybrownai",
+      "detail": [
+        "265k 订阅的 VibeCoding 头部教育者,自称从没写过一行代码却靠 AI 天天造 App。",
+        "近期视频紧追 Codex Voice、Opus 5、Devin 等最新工具,产出面向零基础与资深开发者的实战教程与《Vibe Coding for Beginners 2026》全套课程,是入门 AI 编程的风向标。"
+      ],
+      "heat": "社区活跃创作者"
+    },
+    {
+      "platform": "GitHub",
+      "name": "Andrej Karpathy",
+      "url": "https://github.com/karpathy",
+      "detail": [
+        "VibeCoding 一词的提出者、前特斯拉 AI 总监。",
+        "他的开源项目 nanochat 用极简可读的代码让人花约 100 美元就能从零训练一个 ChatGPT 级模型,项目持续迭代、讨论区热闹非凡,是理解 LLM 全流程与亲手复现训练的最佳教材。"
+      ],
+      "heat": "社区活跃创作者"
+    }
+  ]
+}
