@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-08": {
-      "PrimeIntellect-ai/prime-agent": 1,
-      "TencentCloud/TencentDB-Agent-Memory": 2,
-      "addyosmani/agent-skills": 3,
-      "cloudflare/computer": 4,
-      "esengine/DeepSeek-Reasonix": 5,
-      "huangruiteng/loopx": 6,
-      "firecrawl/firecrawl": 7,
-      "denoland/celld": 8,
-      "earendil-works/pi": 9,
-      "pbakaus/impeccable": 10,
-      "Significant-Gravitas/AutoGPT": 11,
-      "Comfy-Org/ComfyUI": 12,
-      "google/skills": 13,
-      "donnemartin/system-design-primer": 14,
-      "openai/codex": 15,
-      "freestylefly/awesome-gpt-image-2": 16,
-      "Wei-Shaw/sub2api": 17,
-      "google/guava": 18,
-      "666ghj/MiroFish": 19,
-      "t8y2/dbx": 20,
-      "anthropics/claude-code": 21,
-      "tashfeenahmed/freellmapi": 22,
-      "K2SOsint/Legendary_OSINT": 23,
-      "CodebuffAI/freebuff": 24,
-      "agent-substrate/substrate": 25
-    },
     "2026-08-09": {
       "PrimeIntellect-ai/prime-agent": 1,
       "cloudflare/computer": 2,
@@ -836,6 +809,33 @@
       "Stremio/stremio-web": 23,
       "Anil-matcha/Open-Generative-AI": 24,
       "OpenWhispr/openwhispr": 25
+    },
+    "2026-09-08": {
+      "blader/humanizer": 1,
+      "microsoft/markitdown": 2,
+      "NousResearch/hermes-agent": 3,
+      "The-Swarm-Corporation/AutoHedge": 4,
+      "BraveOPotato/FckSignups": 5,
+      "heygen-com/hyperframes": 6,
+      "ruvnet/ruflo": 7,
+      "openai/skills": 8,
+      "vinta/awesome-python": 9,
+      "browser-use/browser-use": 10,
+      "k2-fsa/OmniVoice": 11,
+      "Stremio/stremio-web": 12,
+      "nklmilojevic/sofka": 13,
+      "garrytan/gstack": 14,
+      "MoonTechLab/LunaTV": 15,
+      "bytedance/deer-flow": 16,
+      "Comfy-Org/ComfyUI": 17,
+      "pascalorg/editor": 18,
+      "Tencent/WeKnora": 19,
+      "Anil-matcha/Open-Generative-AI": 20,
+      "Yu9191/wloc": 21,
+      "jo-inc/camofox-browser": 22,
+      "nautechsystems/nautilus_trader": 23,
+      "ruvnet/RuView": 24,
+      "Nutlope/logocreator": 25
     }
   }
 }
