@@ -1,5 +1,250 @@
 [
   {
+    "id": "2026-09-09_vibecoding_5",
+    "date": "2026-09-09",
+    "category": "VibeCoding",
+    "subcat": "开发者圈热议",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "OpenAI弃用skills仓库转向plugins",
+    "url": "https://github.com/openai/skills",
+    "image": "images/2026-09-09/2026-09-09_vibecoding_5.jpg",
+    "detail": [
+      "作为Codex技能生态的重要一环,OpenAI官方的openai/skills仓库近日正式挂上“This repository is deprecated(本仓库已弃用)”标记,引导开发者改用新的openai/plugins仓库,这一动向在开发者圈引发关注与讨论。该仓库此前是Codex的“Skills Catalog”,累计约2.65万Star、1.8k Fork,收录了可被AI智能体发现并调用的指令、脚本与资源包,理念是“Write once, use everywhere”——技能一次编写、到处复用。",
+      "按原有机制,位于.system目录下的技能会随最新版Codex自动安装,而.curated与.experimental目录中的技能则通过Codex内的\\$skill-installer按名称或GitHub目录URL安装。如今OpenAI明确表示,当前的Codex技能与插件示例应以OpenAI Plugins仓库为准,若开发者想给Codex添加自定义技能,应遵循官方“Build plugins”指南,其中包含创建“仅技能插件(skill-only plugin)”的说明。",
+      "这次调整意味着OpenAI正把此前相对松散的“技能目录”收敛进更规范、更完整的“插件”体系,以统一分发、版本管理与安全边界。值得注意的是,“Agent Skills”作为一种开放标准(agentskills.io)仍在延续,Anthropic的Claude Code、各类第三方harness也都在围绕“技能”做文章,而OpenAI从skills到plugins的迁移,某种程度上是对整个AI编程Agent生态“能力封装标准化”竞赛的一次官方回应,也提醒依赖旧仓库的开发者及时迁移工作流,避免因弃用而踩坑。"
+    ]
+  },
+  {
+    "id": "2026-09-09_vibecoding_4",
+    "date": "2026-09-09",
+    "category": "VibeCoding",
+    "subcat": "Product Hunt",
+    "platform": "Product Hunt",
+    "platform_color": "#F6A07C",
+    "title": "Switch登顶PH让任意Agent进IM",
+    "url": "https://www.producthunt.com/products/switch",
+    "image": "images/2026-09-09/2026-09-09_vibecoding_4.jpg",
+    "detail": [
+      "9月8日,开源开发者工具Switch以约417点、63条评论的成绩登上Product Hunt当日榜首,归入Open Source、Developer Tools与Artificial Intelligence三大分类。Switch要解决的痛点是“如何把任意AI智能体接入团队日常沟通场景”,其核心能力用一句话说就是“Bring any AI agent into Slack, Teams & Discord”——让开发者构建的agent不必各自造轮子,就能统一投放到Slack、Microsoft Teams和Discord等主流即时通讯平台里与人协作。",
+      "对企业与团队而言,这意味着无需针对每个IM单独开发机器人集成,即可让研究、客服、运营、编码等各类agent直接在员工已有的工作群里响应指令,大幅降低落地门槛。作为开源项目,Switch的吸引力还在于可自托管、可审计、避免供应商锁定,这与当天榜单上另一批开源产品(如带审批门控AI写入的开源CRM Relaticle、开源录屏提词器Jupitrr Cut)一同凸显出Product Hunt社区对“开源+AI Agent”组合的持续偏好。",
+      "9月8日的开发者向榜单整体相当热闹,除Switch外还有面向agent与人类的两万多套UI设计库Kombai Gallery、以证明结果决胜的多agent市场OpenMarket、给AI生成应用做自动渗透测试的Replay QA Security Scan,以及主打AI编程智能体空间画布IDE的Catenary等同场竞技。Switch能从中脱颖而出登顶,说明“让agent无缝进入现有协作工具”正成为开发者工具赛道当下最被看好的方向之一。"
+    ]
+  },
+  {
+    "id": "2026-09-09_vibecoding_3",
+    "date": "2026-09-09",
+    "category": "VibeCoding",
+    "subcat": "AI Coding工具",
+    "platform": "Hacker News",
+    "platform_color": "#F6A07C",
+    "title": "Speakeasy推Kit号称更精简的编程Agent",
+    "url": "https://news.ycombinator.com/item?id=49537801",
+    "image": "images/2026-09-09/2026-09-09_vibecoding_3.jpg",
+    "detail": [
+      "API工具公司Speakeasy本周推出的编程智能体运行时Kit在Hacker News以“Show HN: Kit. Claude Code but Concise”为题登场并引发讨论,同时登上Product Hunt当周开发者工具榜。Kit把自己定位为“coding agent runtime”,口号是“Claude but fast, cheap, concise”——只给模型一个用于编写和运行程序的统一工具,以此换取更快、更省token、更简洁的输出。它最大的卖点是把终端客户端、Agent Client Protocol(ACP)服务端、A2A端点以及子智能体编排器统统打包进单个静态二进制文件,零依赖即可运行。",
+      "其中ACP协议将agent客户端与运行时解耦,使Kit既能嵌入兼容的编辑器,又能在不做定制集成的情况下编排其它harness。GitHub仓库显示项目用Rust为主,已有300多次提交,近期还在9月初持续合入MCP工具分发修复、发布公告格式改进等更新,活跃度很高。在Product Hunt评论区,开发者对“单静态二进制、开箱即用”给予好评,有人表示打算直接把它换成日常主力工具;也有人追问其子智能体编排在把子agent输出合并回主会话时是否有校验步骤,还是直接当作顶层agent自己写的内容放行,反映出社区对多agent协作可信度的普遍关切。",
+      "作为切入“更省、更快、更聚焦”细分定位的新一代编程运行时,Kit与ECC、ruflo等harness共同构成了当前AI编程工具围绕“运行时与编排层”竞争的最新样本。"
+    ]
+  },
+  {
+    "id": "2026-09-09_vibecoding_2",
+    "date": "2026-09-09",
+    "category": "VibeCoding",
+    "subcat": "GitHub Trending",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "编辑级绘图技能diagram-design刷屏",
+    "url": "https://github.com/cathrynlavery/diagram-design",
+    "image": "images/2026-09-09/2026-09-09_vibecoding_2.jpg",
+    "detail": [
+      "由BestSelf.co创始人Cathryn Lavery开发的开源项目diagram-design在9月8日强势登上GitHub每日热榜,当日新增约1020颗Star,总星标已冲到约3.48万,分叉2.2千,采用MIT协议,主体由HTML+SVG构成,累计提交148次。它是一套面向AI编程助手的“编辑级绘图技能”,口号直白:“Editorial diagrams your designer won't hate.”——让Claude Code、Codex、Factory Droid、Pi等兼容Agent Skills的宿主一句话生成杂志质感的架构图、流程图、时序图、象限图等图表,拒绝“圆角方块”和“Mermaid slop”。作者称当初每次向Claude要图都得到千篇一律的通用样式,于是把它做成了技能。",
+      "项目当天恰逢v2.5.10版本发布,一口气新增Sankey、鱼骨图、Wardley地图、看板、用户旅程、部署图、依赖图、UML类图、故事地图与数据库schema共10种布局语法,图表类型累计达到39种,每种都提供极简亮色、极简暗色与完整编辑三种静态变体,可直接在浏览器离线打开,零构建步骤、无JavaScript依赖。技术上它主打“品牌自适应”:只需一句“onboard到我的网站”,技能便会抓取主页配色与字体栈,映射到paper/ink/accent等语义令牌,60秒内让全部图表匹配品牌,并自动做WCAG AA对比度校验、给每张SVG注入无障碍标题与描述。项目还内置严格的CI门禁,用无头Chromium按真实渲染像素检测裁切、几何标签重叠、Treemap面积编码是否与数值一致,并把设计决策沉淀为ADR。",
+      "这类“把设计规范封装成技能”的开源实践,连同同期热榜上的marketingskills、i-have-adhd等,折射出AI编程Agent生态正从“写代码”向“出高质量交付物”纵深扩展。"
+    ]
+  },
+  {
+    "id": "2026-09-09_vibecoding_1",
+    "date": "2026-09-09",
+    "category": "VibeCoding",
+    "subcat": "GitHub Trending",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "ECC登顶GitHub今日热榜引争议",
+    "url": "https://github.com/affaan-m/ECC",
+    "image": "images/2026-09-09/2026-09-09_vibecoding_1.jpg",
+    "detail": [
+      "由开发者Affaan Mustafa维护的开源项目ECC(Everything Claude Code)在9月8日再度霸占GitHub每日热榜榜首,当日新增约1900颗Star,累计星标已逼近25.3万,成为平台上被标星最多的AI编程配置类仓库之一。项目定位为“智能体框架性能优化系统”,打包了技能(Skills)、本能(instincts)、记忆、安全审计与研究优先的开发流程,声称同时适配Claude Code、Codex、OpenCode、Cursor乃至Gemini、Zed等多种编程助手。",
+      "据其官网披露,OSS层已收录约286个技能、68个智能体与94个命令兼容层,并内置102条安全规则在每次会话中扫描配置,还配套AgentShield安全审计与GitHub App自动化。项目起源于团队在Anthropic与Forum Ventures的黑客松上用Claude Code八小时搭出zenith.chat并夺冠,随后作者在X发布“Claude Code速查指南”长文获得约90万浏览,顺势开源整套配置。",
+      "不过高热度也伴随强烈争议:一方面社区质疑其25万Star增长过快、疑似刷量;另一方面已有安全研究者发现网络上出现伪装成ECC的恶意克隆仓库,README被替换成“点此下载”钓鱼页并附带可自动执行的hook脚本,官方因此在多个渠道反复强调“仅从GitHub官方仓库、ecc-universal与ecc-agentshield等npm包及ecc.tools官网安装”,提醒开发者警惕第三方镜像携带的木马风险。这场围绕“配置即产品”的讨论,也折射出AI编程harness生态在爆发期的信任与安全难题。"
+    ]
+  },
+  {
+    "id": "2026-09-09_gaming_5",
+    "date": "2026-09-09",
+    "category": "Gaming",
+    "subcat": "限定主机",
+    "platform": "Nintendo Switch 2",
+    "platform_color": "#7CF6A0",
+    "title": "塞尔达40周年直面会公布限定Switch 2",
+    "url": "https://en.as.com/meristation/news/the-legend-of-zelda-40th-anniversary-direct-on-september-8-2026-anniversary-concert-ocarina-of-time-and-amiibo-everything-announced-f202609-n/",
+    "image": "images/2026-09-09/2026-09-09_gaming_5.jpg",
+    "detail": [
+      "9月8日的《塞尔达传说》40周年直面会不仅带来软件与影视消息，也在硬件与周边层面给出重磅公布。为庆祝系列40周年，任天堂宣布将推出一款塞尔达主题的特别版Nintendo Switch 2主机，套装包含专属配色的主机本体、Joy-Con手柄与底座，定于10月29日开始发售，正好赶在11月5日《时之笛》重制版上市前夕，为年末销售季蓄势。配合《时之笛》重制版，任天堂还公布了Young Link（少年林克）与Young Zelda（少年塞尔达）两款amiibo手办，这些amiibo可在游戏中用于解锁特殊面具等内容，进一步强化了收藏与游玩的联动。",
+      "此外，为呼应《时之笛》标志性的陶埙玩法，官方宣布将在任天堂官方商店销售一款可实际演奏的陶埙实体周边，玩家甚至能用它来演奏系列乐曲，配件厂商Hori也参与了相关电子陶埙的设计。直面会还提到，为纪念40周年，任天堂博物馆将于9月9日起调整门票价格，并新增一块专门展示系列历代作品的区域。这一系列硬件与实体周边的集中公布，与《时之笛》重制版、真人电影及全球音乐会巡演共同构成了塞尔达40周年庆典的完整版图。",
+      "对于系列粉丝与收藏者而言，限定主机、amiibo与可演奏陶埙都极具吸引力，也再次体现出任天堂围绕核心IP打造硬件、软件、周边联动生态的成熟打法。"
+    ]
+  },
+  {
+    "id": "2026-09-09_gaming_4",
+    "date": "2026-09-09",
+    "category": "Gaming",
+    "subcat": "独立游戏",
+    "platform": "PS5/Xbox/Switch 2",
+    "platform_color": "#7CF6A0",
+    "title": "《以撒》作者新作《Mewgenics》登陆主机",
+    "url": "https://www.gematsu.com/2026/08/mewgenics-coming-to-ps5-xbox-series-and-switch-2-on-september-8",
+    "image": "images/2026-09-09/2026-09-09_gaming_4.jpg",
+    "detail": [
+      "由《以撒的结合》《肉食男孩》创作者Edmund McMillen与Tyler Glaiel联合打造的策略Roguelike新作《Mewgenics!》，于9月8日正式登陆PlayStation 5、Xbox Series X/S与Nintendo Switch 2三大主机平台。该作最早于2012年作为《超级肉食男孩》的后续作品公布，历经长达十余年的开发，终于在2026年2月10日率先登陆PC平台，如今主机版如期而至，由曾操刀《以撒》系列移植的Nicalis负责发行。",
+      "《Mewgenics》是一款以“繁育猫咪”为核心机制的回合制战术游戏：玩家通过跨代交配猫咪来堆叠有利的遗传特性，再将它们派往程序生成的网格战场作战。由于每只猫都是程序化随机生成，正面与负面特质并存，结果充满不可预测性。",
+      "游戏拥有超过200小时的游玩内容、200多种敌人与900余件道具，单局可解锁上千种能力，这种深度与重玩性正是其口碑爆棚的关键。该作PC版发售后表现惊人，上线三小时即收回全部开发成本，24小时内登顶Steam同时在线榜，力压《地狱潜兵2》与《CS2》，首周销量突破百万份，Metacritic评分约90分，一度是2026年评分最高的作品。",
+      "主机数字版售价39.99美元，较PC版29.99美元贵出10美元；实体版售价49.99美元，PS5与Switch 2版将于2027年第一季度发售。凭借前作积累的超高人气与“随身繁育噩梦猫咪”的独特体验，主机版发售被众多媒体与玩家视为补票良机。"
+    ]
+  },
+  {
+    "id": "2026-09-09_gaming_3",
+    "date": "2026-09-09",
+    "category": "Gaming",
+    "subcat": "音乐/周边",
+    "platform": "多平台",
+    "platform_color": "#7CF6A0",
+    "title": "塞尔达40周年全球音乐会巡演官宣",
+    "url": "https://www.videogameschronicle.com/news/nintendo-is-touring-a-zelda-40th-anniversary-concert-first-dates-and-venues-confirmed/",
+    "image": "images/2026-09-09/2026-09-09_gaming_3.jpg",
+    "detail": [
+      "作为《塞尔达传说》40周年直面会庆典的一环，任天堂在9月8日宣布将举办“The Legend of Zelda 40th Anniversary Concert”全球管弦乐音乐会巡演。系列音乐总监近藤浩治在直面会中亲自介绍，音乐会将涵盖从NES三音轨时代到现代管弦乐编曲的系列经典曲目，从怀旧旋律到现代乐章一应俱全，旨在让全球玩家能现场感受塞尔达系列的音乐魅力。",
+      "巡演将于2027年拉开帷幕，首站定于1月23日在日本东京Tokyo Garden Theater举行，随后在日本多地巡回；北美巡演2月22日于芝加哥Symphony Center启动，欧洲巡演4月3日在伦敦皇家阿尔伯特音乐厅开演，澳洲巡演则于5月13日在墨尔本Hamer Hall开始。目前已确认的场次覆盖日本、北美、欧洲（含英国伦敦、爱丁堡、格拉斯哥及瑞典斯德哥尔摩等）与澳洲的众多城市，官方表示后续还将追加更多城市与国家。",
+      "任天堂同时确认，音乐会门票将于2026年9月内开始发售，具体开售日期因场馆而异，官方专属网站已同步上线并放出部分加场信息。此举延续了任天堂近年为经典IP举办周年庆典的传统，配合《时之笛》重制版、真人电影、限定Switch 2主机及Young Link与Young Zelda的amiibo等一系列公布，共同构成了塞尔达40周年的庆祝矩阵，获得系列粉丝的广泛好评与抢票期待。"
+    ]
+  },
+  {
+    "id": "2026-09-09_gaming_2",
+    "date": "2026-09-09",
+    "category": "Gaming",
+    "subcat": "厂商动态",
+    "platform": "多平台",
+    "platform_color": "#7CF6A0",
+    "title": "塞尔达真人电影定名并官宣档期",
+    "url": "https://www.theverge.com/games/991322/the-title-is-the-legend-of-zelda",
+    "image": "images/2026-09-09/2026-09-09_gaming_2.jpg",
+    "detail": [
+      "同样在9月8日的《塞尔达传说》40周年直面会上，任天堂代表人物宫本茂亲自登场，公布了筹备已久的真人电影相关信息。宫本茂宣布，这部改编自任天堂招牌IP的真人电影正式定名为《The Legend of Zelda》（塞尔达传说），不带任何副标题，并确认将于2027年4月30日在北美院线上映。这是任天堂首次以品牌化的完整直面会形式庆祝塞尔达系列，将游戏、硬件、音乐与电影信息集中释出，电影部分成为压轴亮点之一。",
+      "宫本茂在直面会中透露，电影将是一个基于系列40年来理念与叙事打造的原创故事，而非直接改编某一部作品；他还特别暗示“三角力量”将在影片中扮演重要角色。该片由执导过《猩球崛起》系列的Wes Ball导演，T. S. Nowlin担任编剧，宫本茂与Avi Arad共同担任制片人，由哥伦比亚影业与任天堂等联合出品、索尼影业负责发行。主演阵容包括Benjamin Evan Ainsworth饰演林克、Bo Bragason饰演塞尔达公主。",
+      "本次直面会仅放出了极为简短的先导预告，尚未公布完整正式预告片。尽管信息克制，但“电影名就叫《塞尔达传说》”这一略显朴实的命名方式在社交媒体上引发大量玩家调侃与讨论。作为继《超级马力欧兄弟大电影》后任天堂又一部重磅IP改编真人电影，塞尔达电影承载着粉丝对系列世界观影像化的高度期待，同时也是任天堂持续推进IP多媒体化战略的关键一步。"
+    ]
+  },
+  {
+    "id": "2026-09-09_gaming_1",
+    "date": "2026-09-09",
+    "category": "Gaming",
+    "subcat": "重制新作",
+    "platform": "Nintendo Switch 2",
+    "platform_color": "#7CF6A0",
+    "title": "《塞尔达时之笛》重制版11月5日发售",
+    "url": "https://www.theverge.com/games/991218/zelda-ocarina-of-time-remake-release-date-trailer",
+    "image": "images/2026-09-09/2026-09-09_gaming_1.jpg",
+    "detail": [
+      "在北京时间9月8日晚举行的《塞尔达传说》40周年直面会上，任天堂正式公布了备受期待的《塞尔达传说：时之笛》重制版发售日，确定将于2026年11月5日登陆Nintendo Switch 2平台，这也是首款Switch 2独占的塞尔达作品。该作最早在今年6月直面会首次亮相，但此前信息寥寥，本次直面会才真正揭示了任天堂对这款影响深远、系列首部3D冒险作品的重制思路。系列制作人青沼英二将本作形容为“运用现代技术进行的忠实再现”，力求在唤起怀旧感的同时呈现焕然一新的海拉鲁世界。",
+      "从公布的实机演示看，重制版画面相比N64原版有翻天覆地的提升，包括更具压迫感的德库树造型与林克更精致的服饰，并加入了自由视角移动。玩法层面新增了名为“时之丝线”的功能，帮助玩家更直观地掌握下一个目的地的位置与时间线；此外还支持用麦克风哼唱来演奏乐曲而非用手柄操作，林克也终于可以按键跳跃。这些操作层面的现代化改动均沿袭自近年《旷野之息》《王国之泪》的设计理念。",
+      "定价方面，数字版售价59.99美元，实体版售价69.99美元。值得注意的是，11月5日的档期使《时之笛》重制版成为少数与《侠盗猎车手6》同月发售的重量级大作之一，凸显任天堂对Switch 2年末阵容的信心。玩家反应整体热烈，作为N64时代神作与无数玩家的童年记忆，重制版被视为Switch 2年末最具号召力的第一方作品之一，有望配合塞尔达主题新配色主机进一步拉动硬件销量。"
+    ]
+  },
+  {
+    "id": "2026-09-09_ai_5",
+    "date": "2026-09-09",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "量子位",
+    "platform_color": "#7C9EF6",
+    "title": "深度智控获宁德时代沙特阿美战投加码",
+    "url": "https://www.qbitai.com/2026/09/485784.html",
+    "image": "images/2026-09-09/2026-09-09_ai_5.jpg",
+    "detail": [
+      "9月8日,量子位披露,物理AI企业深度智控(DeepCtrls)完成新一轮B+轮数亿元融资。本轮由全球新能源龙头宁德时代领投,阿美投资(Aramco Ventures)、太平创新投资、广发信德、复星创富跟投,源码资本、光远资本等老股东持续追加。过去两个月内,公司已连续完成三轮融资,产业资本密集加码。",
+      "资本扎堆背后,是对AI从数字世界走向物理世界这一趋势的共同判断:能源与算力基础设施正成为AI产业持续发展的关键底座,而物理AI被视为重构这一底座的关键技术路径。深度智控被称为全球物理AI在能源领域落地的开创者,早在2018年便聚焦AI与物理机理的深度融合,构建了以PhyAI物理AI引擎为核心的技术体系,让AI在真实物理环境中实现感知、预测、自主决策与实时寻优控制,且过程可解释、可预测、高安全可靠。随着AI算力需求持续增长,深度智控的物理AI正从工业场景延伸至算力基础设施,其液冷智控、算电协同等产品,为AI算力与能源的双向协同与可持续发展提供\"物理AI智能中枢\"。",
+      "宁德时代既是领投方,也是公司长期合作的集团客户,此次战略合作将进一步深化双方在物理AI与能源领域的产业协同;Aramco Ventures的入局则被视为对其技术的认可,并将助力全球化拓展。创始人兼CEO李辉表示,AI发展下半场正从数字世界的\"会思考\"转向物理世界的\"会控制\",谁能实现对真实物理世界的自主优化决策与闭环控制,谁就能掌握主动权。算力与能源是AI发展的两大关键基础设施,深度智控以物理AI引擎为核心,打造算力与能源基础设施的\"AI大脑\",推动算力、电力、冷却与能源系统迈向自主智能。",
+      "这轮融资也折射出宁德时代等能源巨头持续加码\"算电协同\"、抢占AI能源底座的产业风向。"
+    ]
+  },
+  {
+    "id": "2026-09-09_ai_4",
+    "date": "2026-09-09",
+    "category": "AI",
+    "subcat": "开源模型",
+    "platform": "NVIDIA Research",
+    "platform_color": "#7C9EF6",
+    "title": "MiniMax Sol-H3推理栈 视频生成快过播放",
+    "url": "https://nvlabs.github.io/Sana/Sol-Engine/Sol-H3/",
+    "image": "images/2026-09-09/2026-09-09_ai_4.jpg",
+    "detail": [
+      "北京时间9月8日,英伟达研究院高效AI团队与新加坡实验室联合MiniMax发布Sol-H3——面向MiniMax-H3(海螺3.0)视频生成模型的端到端推理栈,并由团队成员谢恩泽在X上公布。其最亮眼的成绩是:在一台8卡英伟达B300 Blackwell系统上,仅需1.653秒即可生成5秒、1344×768分辨率、带立体声音频的视频,首次实现\"生成快于播放\"。性能提升幅度惊人。",
+      "相比同样8卡B300上跑50步的Base H3 Dense,四步的Sol-H3在5秒/10秒/15秒视频上分别实现11.04倍、13.57倍、15.05倍加速;在4卡B300上最高可达15.54倍加速。Sol-H3将Sol-Engine与Sol-Attn统一进一套全栈运行时,集成了无需重训练的动态稀疏注意力、融合算子、跨GPU的INT8/FP8通信、并行批量VAE解码及预计算AdaLN缓存等优化,其中VAE解码从7.55秒压缩到0.602秒,每卡还释放约24GB显存。值得注意的是,MiniMax-H3是一个330亿参数的稠密全模态生成模型,可将文本、图像、视频、音频作为统一上下文,输出最长15秒、最高2K/24fps并带原生32kHz立体声的视频片段——对白、音效与画面在同一次前向中生成。",
+      "任何MiniMax-H3的少步LoRA都能直接接入同一引擎,代码以Apache 2.0协议开源,部署友好。团队与Reactor合作,在发布当天即以API形式上线Sol-H3,可在Reactor沙盒直接试用。研究者强调,这次真正的里程碑是从\"快速生成\"跨越到\"快于播放\",为持续24fps实时生成和真正可交互的视频系统铺平了道路。",
+      "社区反应热烈,该推文获超13万浏览,不少开发者调侃\"谁家里随便就有一套8卡B300\",也侧面反映出顶级推理性能对硬件的高门槛。"
+    ]
+  },
+  {
+    "id": "2026-09-09_ai_3",
+    "date": "2026-09-09",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "OpenAI官方博客",
+    "platform_color": "#7C9EF6",
+    "title": "OpenAI发布ChatGPT Images 2.5图像模型",
+    "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+    "image": "images/2026-09-09/2026-09-09_ai_3.jpg",
+    "detail": [
+      "9月8日,OpenAI正式发布新一代图像模型ChatGPT Images 2.5,主打更锐利的细节、更快的生成速度、更精准的编辑,以及更好的创作与分享工具。OpenAI披露,目前每周有超过30亿张图片通过ChatGPT Images及API中的GPT-Image系列模型生成,规模庞大。",
+      "新模型面向所有ChatGPT、ChatGPT Work和Codex用户开放,覆盖桌面端、移动端与网页端的全部套餐档位。面向开发者,OpenAI在API中同步推出两款新模型:GPT-Image-2.5 Flare被定位为大多数应用的默认选择,在质量、编辑与速度上全面提升,官方称其图像质量高于GPT-Image-2的同时延迟降低50%,适合创作、社交内容、产品体验、视觉搜索与高并发生成;GPT-Image-2.5 Sunburst则以更长的生成时间换取更高的精度,面向精细创意工作。",
+      "此版距离4月推出的Images 2仅五个月,新增了多轮指令、参考图工作流中更强的主体保持能力,UI层面加入通过@Sketch触发的草图功能、预设模板以及可复用生成逻辑的提示分享工具。定价方面,两款API模型价格一致且与被替代型号持平:图像输入每百万token 8美元(缓存2美元),图像输出30美元,文本输入5美元。",
+      "第三方评测方Manus表示,Flare在其测试中以GPT-Image-2的2至4倍速度输出高质量图像,透明背景生成也有改进;Higgsfield AI产品负责人则称模型在多次编辑中能较好保持原图的角色、构图与视觉一致性。OpenAI同时发布了系统卡,披露对抗性安全评估结果:Sunburst与Flare的不安全生成率分别为1.09%和1.41%,均低于Images 2.0的1.64%基线,显示安全防护有所增强。"
+    ]
+  },
+  {
+    "id": "2026-09-09_ai_2",
+    "date": "2026-09-09",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "第一财经",
+    "platform_color": "#7C9EF6",
+    "title": "DeepSeek V4.1 Flash限时内测 速度暴涨",
+    "url": "https://www.yicai.com/news/103356428.html",
+    "image": "images/2026-09-09/2026-09-09_ai_2.jpg",
+    "detail": [
+      "9月8日,DeepSeek在官方群宣布开始V4.1 Flash中间版本内测。据第一财经报道,该版本采用了全新的模型结构,原生支持多模态,官方称\"能力更强、速度更快、成本更低\"。开发者只需保持base_url不变,将模型名设为deepseek-v4.1-flash-expires-on-0910即可调用,每账号限流20并发,从模型名可见此次内测将于9月10日自动过期下线,留给体验的时间仅两天。",
+      "由于接口、模型名称与价格均已公开,有开发者认为这次\"内测\"更接近一次面向开发者的小范围公开测试。首批反馈中最直观的变化是\"太快了\":有开发者实测同一任务端到端,新模型全面碾压V4 Flash Vision-Exp,SVG代码生成快6倍,长上下文检索快5倍多,并兼顾了多模态与速度,并非小修小补。不过针对官方所称的\"成本更低\",部分开发者反馈并未直接感受到,出现\"5分钟10块钱\"\"瞬间几十块没了\"的吐槽。",
+      "有观点分析,由于速度更快、相同时间内token消耗也更快,单token价格实际并未下降,官方所说的成本更低更可能指底层推理效率提升或完成相同任务所需算力与token数量下降,能否转化为账单减少仍需验证。近两个月DeepSeek迭代明显加速:7月31日V4 Flash正式版上线,8月13日V4 Pro发布并大幅调整API价格,同期开源Harness开发者预览版,到9月8日采用新结构的V4.1 Flash进入内测。据Artificial Analysis数据,DeepSeek当前智能指数36分,排名第15位,落后于Claude、GPT-6及国内的智谱、Kimi、千问,外界因此对这次疑似重做预训练的新架构能否带来能力跃升抱有较高期待。"
+    ]
+  },
+  {
+    "id": "2026-09-09_ai_1",
+    "date": "2026-09-09",
+    "category": "AI",
+    "subcat": "融资",
+    "platform": "Euronews",
+    "platform_color": "#7C9EF6",
+    "title": "Mistral融资30亿欧元 三星领投估值超210亿",
+    "url": "https://www.euronews.com/business/2026/09/08/mistral-ai-raises-record-3-billion-in-samsung-led-funding-round",
+    "image": "images/2026-09-09/2026-09-09_ai_1.jpg",
+    "detail": [
+      "9月8日,法国AI公司Mistral宣布完成30亿欧元(约35亿美元)D轮融资,由存储芯片巨头三星电子领投,欧盟背景的Scaleup Europe Fund(由EQT管理)与老股东PSG Equity联合领投,新投资方包括Advent、贝莱德管理的基金及卢森堡大公国,英伟达、ASML、a16z、General Catalyst、Lightspeed、Salesforce Ventures等老股东跟投。此轮后估值超过210亿欧元,较一年前的117亿欧元几乎翻倍,Mistral称这是欧洲科技公司迄今完成的最大一笔股权融资。CEO Arthur Mensch表示,新资金将大量投入到数据中心与自有算力建设,而非仅用于模型研发。",
+      "他透露公司未来五年自有算力规模将增长约100%,以支撑训练\"更大更快的模型\",长期目标是完全依赖自建产能。Mistral目前已在法国和欧洲投入40亿欧元建设数据中心,一处已在巴黎郊外运行,另一处在瑞典在建,并计划将业务扩展到国际市场。Mistral定位为独立的\"欧洲主权AI\"选项,主打开放权重模型,强调将数据、基础设施与部署决策留在客户手中。",
+      "公司称已在20个国家为超过125家企业(含空客、ASML、汇丰)提供服务,预计年底年度经常性收入将突破10亿美元。三星的战略入股则意在把高效开放权重模型整合进Galaxy AI硬件生态,以对抗苹果Intelligence与谷歌Gemini。不过外界也指出,欧洲整体AI产业仍显著落后于美国,企业采用率约13.5%,Mistral估值也远低于OpenAI和Anthropic。",
+      "这轮巨额融资被视为欧洲以\"算力主权\"为核心叙事、试图缩小与美国差距的一次关键押注,也反映出前沿AI竞争正从人才软件转向对物理算力基础设施的争夺。"
+    ]
+  },
+  {
     "id": "2026-09-08_vibecoding_5",
     "date": "2026-09-08",
     "category": "VibeCoding",
