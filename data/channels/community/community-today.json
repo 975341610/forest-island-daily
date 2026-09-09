@@ -1,114 +1,113 @@
 {
-  "date": "2026-09-08",
-  "generated_at": "2026-09-08T08:00:51+08:00",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T08:00:14+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
       "platform": "Hacker News",
-      "author": "zplizzi",
-      "title": "Cloud in a Bottle: making self-hosting accessible to everyone",
-      "url": "https://news.ycombinator.com/item?id=49582000",
+      "author": "domhudson (repo by ayghri)",
+      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+      "url": "https://news.ycombinator.com/item?id=49610631",
       "detail": [
-        "Imbue 工程师 Zack Polizzi 发布的开源项目「Cloud in a Bottle」冲上 HN 前列,主张让自托管像用智能手机一样简单。它的内核是一台跑着 Web 服务器的 Ubuntu 机器,把容器化应用挂到统一面板上并做 HTTP(s) 路由;所有 App 都跑在 rootless、加固过的沙箱容器里,既能几乎零改动地运行现有软件,又能保证相对安全的隔离。",
-        "作者在帖子里痛陈当下软件被云端集中化后普遍「广告化、追踪化、成瘾化」,而个人缺乏把软件放进自己云端的顺手途径。项目提供统一登录(登录实例即自动登录所有 App)、App 之间的受限数据与能力互通,类比 Android/iOS 给应用提供的传感器、通知、健康数据等系统 API。",
-        "开源、可自托管、零遥测,采用 AGPL-3.0,同时提供 Imbue 托管版作为商业模式。HN 评论区围绕它与 sandstorm、nextcloud、yunohost、coolify 等既有方案的差异,以及沙箱安全模型、生态可持续性展开了激烈讨论。"
+        "这是9月8日冲上HN前排的帖子(293分/230条评论),介绍开源项目 ayghri/i-have-adhd —— 一个给编码助手(Claude Code/Codex/Cursor/Gemini/Kimi 等)加载的通用 skill/plugin,强制 AI 输出遵守10条规则:先给下一步动作、多步任务编号、结尾只留一个明确 next step、砍掉题外话、每轮重述状态、给具体分钟级时间估计、列表最多5项、不要开场白/复盘/结束语。",
+        "README 用 auth 修改的 before/after 对比展示效果:把冗长的'Great question! Let me think...'压缩成三步可执行清单。",
+        "讨论区就 AI 是否应该'话痨'、上下文噪声、以及这种 prompt 工程能否稳定生效展开激辩,不少人贴出自己的类似规则和翻车案例,也有人质疑评测的可复现性,人气高涨。"
       ],
-      "heat": 605
+      "heat": "HN 293分 / 230评论"
     },
     {
       "platform": "Hacker News",
-      "author": "mraniki",
-      "title": "qBittorrent breaks out of sandbox to commit crimes",
-      "url": "https://news.ycombinator.com/item?id=49586171",
+      "author": "animeshchouhan",
+      "title": "Show HN: Copperhead – Cursor for circuit boards",
+      "url": "https://news.ycombinator.com/item?id=49610059",
       "detail": [
-        "一条来自 Mastodon(beige.party)的吐槽帖被搬上 HN 后瞬间引爆,拿下 1200+ 分,成为当日热度最高的讨论。帖子以戏谑口吻描述 qBittorrent「越狱出沙箱去犯罪」的荒诞场景,标题本身就极具传播力,精准戳中了开发者对沙箱隔离、权限边界与软件行为不可预期的集体焦虑。",
-        "评论区从一个段子迅速发散成严肃技术讨论:桌面应用的沙箱机制(Flatpak、Snap、macOS App Sandbox)到底隔离了什么、又漏了什么;BT 客户端这类需要大量网络与磁盘权限的软件如何在可用性和安全性之间取舍;以及当下操作系统权限模型的种种缺陷。不少人借题发挥,分享自己被「行为异常」的开源软件坑过的经历,也有人为 qBittorrent 正名、澄清标题的夸张成分。",
-        "高互动量说明这类兼具幽默与技术痛点的帖子最容易在 HN 社区形成病毒式讨论。"
+        "9月8日的 Show HN,标题'硬件像软件一样快',把 AI 编码助手 Cursor 的交互范式搬到 PCB/电路板设计领域(201分/77评论)。作者想解决硬件迭代慢、原理图与布线工具割裂的痛点,让工程师用自然语言+AI 辅助完成从原理图到布线的快速迭代,像写软件一样'编译-运行-修改'电路板。",
+        "评论区聚焦几个热点:传统 EDA 工具(KiCad/Altium)的学习曲线与锁定问题、AI 生成电路的可靠性与可制造性(DFM)校验、以及硬件领域是否真能复刻软件的快速迭代节奏。有资深硬件工程师泼冷水,认为布线约束和物理规则远比代码复杂;也有独立硬件创客表示期待,认为降低门槛能让更多人做硬件原型。",
+        "整体讨论体现了'AI 编码范式向非软件领域外溢'的社区兴趣。"
       ],
-      "heat": 1206
+      "heat": "HN 201分 / 77评论"
     },
     {
       "platform": "Hacker News",
-      "author": "chmaynard",
-      "title": "The revolt of the reader",
-      "url": "https://news.ycombinator.com/item?id=49580939",
+      "author": "alixanderwang",
+      "title": "TALA Is Open-Source(Terrastruct 的图表自动布局算法开源)",
+      "url": "https://news.ycombinator.com/item?id=49604150",
       "detail": [
-        "Oxide Computer 联合创始人兼 CTO Bryan Cantrill(@bcantrill)在个人博客发表的长文「The revolt of the reader」被推上 HN 高位,获得 560+ 分与近 280 条评论。文章从他本人对长篇阅读的珍视出发,探讨在 LLM 大规模生成内容的时代,读者对充斥「AI 味」文字的反感与抵制。",
-        "Cantrill 近期在 X 上持续抨击 100% 由大模型生成、自己却从不通读的文章,认为这是对读者的不尊重,并盛赞 Pangram 等 AI 文本检测工作的重要性。这篇博客正是这一立场的系统化表达,触及写作伦理、内容真实性与注意力经济等广泛议题。",
-        "HN 评论区就「AI 写作是否必然低质」「检测工具是否可靠」「读者该如何自处」展开多方交锋,既有认同者也有反对者,讨论热度和分歧度都很高,是近两天技术圈最具话题性的观点长文之一。"
+        "9月7日登上 HN 前排的技术帖(301分/23评论):Terrastruct 宣布把自研的自动布局算法 TALA 以 MPL-2.0 协议开源,并随 D2 v0.9.0 一起发布,用 --layout=tala 即可启用。TALA 是一款面向软件架构图的正交布局引擎,更贴近白板上手绘架构图的样子,而非 Dagre/ELK 那种单向生长的 DAG 布局,它融合了多篇图绘制论文的思路并加入对称性、流向、同类节点聚类等多目标'美学'评分。",
+        "作者特别点出一个和 AI 相关的亮点:TALA 支持锁定部分节点坐标、其余交给引擎自动布线——这非常契合 agentic 场景,因为模型擅长在二维空间里摆放节点,却不擅长走线,正好让 AI 负责摆位、TALA 负责路由。博文里的多组示例图正是 AI 生成的。",
+        "讨论区里开发者热议它与 Graphviz/Mermaid/ELK 的对比、随机种子导致'加一个节点整图重排'的取舍,以及'图即代码'在 AI 时代的价值,是本周开发者工具圈关注度很高的开源事件。"
       ],
-      "heat": 567
+      "heat": "HN 301分 / 23评论"
     }
   ],
   "topics": [
     {
-      "platform": "GitHub",
-      "author": "heygen-com",
-      "title": "HyperFrames:用 HTML 写、渲染成视频,为 AI Agent 而生",
-      "url": "https://github.com/heygen-com/hyperframes",
+      "platform": "GitHub / startupcorners",
+      "author": "社区(stablyai/pacifio/eneskirca 等)",
+      "title": "并行编码 Agent 的'舰队管理'与专属版本控制成新赛道",
+      "url": "https://startupcorners.com/digest/devtools-digest-2026-09-04",
       "detail": [
-        "HeyGen 开源的 HyperFrames 近日在 GitHub Trending 上飙升,星标已达约 4.59 万。它是一个把 HTML、CSS、媒体和可 seek 动画转成确定性 MP4 视频的框架,核心卖点是「Write HTML. Render video. Built for agents.」——用 AI 编程 Agent 只需描述想要的视频,配套 skills 就能教 Agent 走完规划、写 HTML、接动画、加媒体、lint、预览、渲染的全流程。",
-        "与灵感来源 Remotion 相比,HyperFrames 押注的是「纯 HTML」而非 React 组件:无需构建步骤,index.html 可直接在浏览器播放;动画层支持 GSAP、CSS、Lottie、Three.js、Anime.js、WAAPI 等适配器;渲染上兼顾本地 headless Chrome + FFmpeg 与 AWS Lambda 分布式方案,且采用 Apache 2.0 许可、无按次渲染费。它已在 HeyGen 生产环境使用,tldraw、TanStack 等团队也在 ADOPTERS 名单中。",
-        "对「Agent 生成营销视频、PR 讲解、数据可视化」这类自动化内容管线,这个项目提供了很有想象力的底座。"
+        "9月初 GitHub Trending 最集中的主题,是围绕'如何运行、管理、扩展一群编码 Agent'的工具爆发。代表项目包括:stablyai/orca(跨桌面/移动/远程运行时的并行 Agent ADE,当日+914 star)、pacifio/atlas(专为多编码 Agent 做的'版本控制层',把每次 Agent 运行的 commit 连回其 prompt/工具调用/推理链)、eneskirca/nodeterm(用 tmux 把并行 Agent 会话画成可缩放画布上的节点)、earendil-works/pi(统一 LLM API+agent loop+TUI 一体化 CLI)。",
+        "社区讨论点在于:当开发者同时开多个 Agent 干活时,如何审计'哪个 Agent 改了什么、为什么改'、如何回滚、如何在一个界面里编排 Codex/Claude Code/opencode 等异构 Agent。反映出'从单 Agent 提效'走向'多 Agent 编排与治理'的工程化拐点,是 vibe coding 走向生产化的关键基础设施话题。"
       ],
-      "heat": 45900
+      "heat": "多项目单日 +400~900 star"
     },
     {
-      "platform": "GitHub",
-      "author": "coreyhaines31",
-      "title": "Marketing Skills:给 AI 编码 Agent 装上一整套营销技能库",
-      "url": "https://github.com/coreyhaines31/marketingskills",
+      "platform": "Hacker News",
+      "author": "rpgbr(原文 manualdousuario.net)",
+      "title": "LibreOffice 宣称'零 AI 功能'后下载量破纪录——AI 到底是不是刚需?",
+      "url": "https://news.ycombinator.com/item?id=49610538",
       "detail": [
-        "由营销人 Corey Haines 开源的「Marketing Skills」近两天在 GitHub Trending 上强势霸榜,星标已冲到约 4.81 万、Fork 超 7400,单日新增数百星,是当前 Agent Skills 生态里最出圈的营销向项目。它把转化率优化(CRO)、文案写作、SEO、投放广告、数据分析、增长工程等一整套营销工作流,拆成了近五十个标准化的 Skill,面向懂技术的营销人与创始人,让 AI 编码 Agent 能像专业营销顾问一样干活。",
-        "项目采用 MIT 许可,兼容 Claude Code、OpenAI Codex、Cursor、Windsurf 等任何支持 Agent Skills 规范的工具。所有 Skill 以 Markdown 编写并相互引用:「product-marketing」作为地基被其它技能优先读取,再由 seo-audit、cro、copywriting、ads、ab-testing 等分门别类地协作,还内置了 npx skills、Claude Code 插件市场等多种安装方式。",
-        "它的走红也折射出一个趋势——「Agent Skills」正从代码领域外溢到营销、增长等更广的专业场景,把领域知识沉淀成可复用、可分发的能力包,成为开发者社区热议的方向。"
+        "9月8日 HN 高热话题(645分/217评论):报道称 LibreOffice 在公开强调自己'没有塞进任何 AI 功能'之后,下载量反而创下新高。这条帖子在'言必称 AI'的2026年语境下,精准戳中了一大批用户对'AI 塞进一切软件'的反感情绪,迅速引爆讨论。",
+        "评论区分成鲜明两派:一派叫好,认为大量厂商把 AI 当营销噱头强行捆绑、拖慢软件、制造隐私与联网顾虑,LibreOffice 的克制反而成了差异化卖点,'我只想安静地写文档';另一派则冷静指出,下载量增长未必真由'无 AI'驱动,也可能来自对微软 365 涨价与云端锁定的逃离,呼吁不要过度归因。还有开发者延伸讨论开源办公软件的可持续性、本地优先与数据主权,以及'什么才是用户真正需要的功能'。",
+        "这条帖子折射出社区对'AI 泛滥/AI 疲劳'的集体情绪,是当下技术圈关于'AI 是否被过度添加'最具代表性的辩论样本。"
       ],
-      "heat": 48100
+      "heat": "HN 645分 / 217评论"
     },
     {
-      "platform": "Reddit",
-      "author": "joorklee",
-      "title": "DeepSeek-V4-Flash-0731:本地可跑模型逼近半年前顶级前沿模型智能分",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vchoua/deepseekv4flash0731_models_you_can_run_locally/",
+      "platform": "V2EX",
+      "author": "gitxuzan 等",
+      "title": "'从2026年后就没手写过代码了,全靠 AI 写'——程序员身份焦虑持续发酵",
+      "url": "https://www.v2ex.com/t/1209740",
       "detail": [
-        "r/LocalLLaMA 上一条关于 DeepSeek-V4-Flash-0731 的帖子引爆本地大模型圈。发帖人指出,2026 年 3 月 6 日前沿模型的最高智能指数得分为 51,而如今能在本地运行的 DeepSeek-V4-Flash-0731 智能分已达 50——也就是说,用不到 8000 美元的硬件就能跑出接近五个月前顶级闭源模型的水平。",
-        "帖子迅速衍生出一整套「本地部署实战」讨论:有人在 AMD Ryzen AI MAX+ 395、Strix Halo 平台上用 Vulkan + DSpark drafter 做投机解码跑到 27+ tok/s;有人在 128GB Mac、MacBook M5 Pro 上通过 SSD streaming 运行;还有人晒出自己冲动购入 128GB DDR4 搭配 4 张 5060 Ti(共 64GB 显存)的配置。这条讨论集中体现了开源社区对「消费级硬件追平前沿闭源模型」这一趋势的兴奋,也带动了量化方案、KV 精度、上下文窗口等一系列硬核技术交流。"
+        "这是 V2EX 程序员板块一条持续高热、被反复顶起的'日经'讨论(9000+ 浏览、73+ 回复),楼主是有8年经验的开发者,自述已经 all in AI 编程,日常工作变成'盯着 AI 写、反复对齐计划',并直言感到自己的能力开始跟不上 AI 产出、担心职业前景。回帖迅速分裂成两派:一派认同生产力已经碾压传统需求量,'但凡真用 AI 的都知道';另一派强调 vibe coding 黑盒化严重、复杂系统一旦出问题很难兜底,代码本质是对现实业务的建模,系统设计与需求抽象才是人类护城河。",
+        "还有人延伸吐槽 B 站大量视频配音/素材/文案已被 AI 批量生产、内容真实性存疑。整条帖子折射出中文开发者社区在 AI 编程时代典型的'焦虑与希望并存'情绪,是国内技术圈最具代表性的讨论样本之一。"
       ],
-      "heat": 1200
+      "heat": "V2EX 9000+浏览 / 73+回复"
     }
   ],
   "creators": [
     {
-      "platform": "YouTube",
-      "name": "Fireship (Jeff Delaney)",
-      "url": "https://www.youtube.com/c/fireship",
-      "detail": [
-        "Jeff Delaney 运营的 Fireship 是全球最具影响力的技术科普频道之一,订阅数约 426 万、视频超 830 条,以「高强度」几分钟讲透一个技术点的风格著称。",
-        "最近他更新极为活跃:7 小时前发布「5 个开源工具替换我每月 320 美元的 AI 栈」,3 天前的「Did OpenAI actually build AGI? GPT-6 Astra first look」已破 340 万播放,持续追踪 GPT-6 Astra、DeepSeek 回归等最新 AI 热点,是观察开发者社区风向的绝佳窗口。"
-      ],
-      "heat": "4.26M subscribers"
-    },
-    {
       "platform": "GitHub",
-      "name": "Affaan Mustafa (affaan-m)",
-      "url": "https://github.com/affaan-m",
+      "name": "pacifio (Atlas 作者)",
+      "url": "https://github.com/pacifio/atlas",
       "detail": [
-        "Affaan Mustafa(affaan-m)是 GitHub 上人气极高的 AI Agent 开发者,坐标纽约,GitHub 粉丝约 1.03 万。",
-        "他是开源项目 ECC 的作者——号称 GitHub 上最多星标的 AI Agent 工具箱,主打为 Claude Code、Codex、Cursor 等打造「Agent 性能优化 meta-harness」,近两天 ECC 在 Trending 上单日新增上千星,热度惊人。",
-        "他还是算力交易平台 Itô Markets 联合创始人,并写过多篇广为流传的 Claude Code 与 Agent 安全指南,全网曝光数千万,是观察 AI 编码 Agent 前沿玩法的活跃风向标。"
+        "pacifio 是本周窜红的开源项目 Atlas 的作者。Atlas 定位为'编码 Agent 的版本控制系统':每次 Agent 运行都会产生 checkpoints,把生成的 commit 连回对应会话的 prompt、工具调用和推理过程,让你清楚看到'哪个 Agent 具体做了什么、为什么这么做'。",
+        "它支持并排跑 Claude Code、Codex、Atlas 自带 Agent 或任何 ACP registry 里的 Agent,基于 Tauri(Rust+Bun)构建、本地优先(会话记录默认只存本机 .atlas/sessions.db,不联网、无需账号)。9月初单日 +419 star 冲上 Trending。",
+        "值得关注的原因:他精准踩中了'多 Agent 协作时缺乏可审计、可追溯的版本管理'这一真实痛点,是把 vibe coding 推向可控工程化的代表性独立开发者。"
       ],
-      "heat": "10.3K followers"
+      "heat": "Atlas 单日 +419 star"
     },
     {
-      "platform": "X",
-      "name": "Bryan Cantrill (@bcantrill)",
-      "url": "https://twitter.com/bcantrill",
+      "platform": "YouTube",
+      "name": "IndyDevDan",
+      "url": "https://www.youtube.com/@indydevdan",
       "detail": [
-        "Bryan Cantrill 是 Oxide Computer 联合创始人兼 CTO、DTrace 的作者之一,在系统软件圈极具声望,X 上拥有约 5.18 万粉丝、发帖过万。",
-        "最近他极为活跃:9 月 5 日发布长文「The revolt of the reader」谈 AI 时代的阅读与写作伦理,单条曝光近 29 万;此前连续开炮抨击「100% 由 LLM 生成却从不通读」的文章,力挺 Pangram 的 AI 文本检测工作。",
-        "他犀利、直接又不失幽默的技术观点,常常成为开发者社区的讨论引爆点。"
+        "IndyDevDan(约13.5万订阅)是被开发者社区反复推荐的'反炒作'Agentic Coding 教学创作者,专注 Claude Code 及多 Agent 编排的实战工程方法。他的内容不停留在'输入 prompt 看 AI 写代码'的表面演示,而是讲清底层工程纪律:如何把 prompt 结构化为可复用 skill、如何用 validator 子 Agent 让 Agent 自检产出、构建 builder-validator 组合、并行执行、meta-agent 与编排层,以及如何避免上下文污染、处理长程任务。",
+        "代表视频如《Claude Code Task System: ANTI-HYPE Agentic Coding》《One Agent Is NOT ENOUGH》。在'Agent 可靠性'和'多 Agent 编排'成为2026社区核心议题的当下,他是少数持续输出可落地、面向资深工程师的高质量方法论创作者,值得长期关注。"
       ],
-      "heat": "51.8K followers"
+      "heat": "YouTube ~13.5万订阅"
+    },
+    {
+      "platform": "bilibili",
+      "name": "深究AI的阿辰",
+      "url": "https://space.bilibili.com/1853983863/",
+      "detail": [
+        "深究AI的阿辰是 B 站近期在 AI 编程教学赛道热度很高的 UP 主,以'胎教级/保姆级'Claude Code 全栈教程走红,内容覆盖从安装、配置(含 Git、Node、阿里百炼等国内可用的多种接入模式)到实战开发的完整链路,主打'小白10分钟上手、全程干货无废话',并沉淀了如'11个技巧让 Claude Code 成功率翻倍'等实用要点。",
+        "在国内开发者因网络与账号门槛难以直接上手海外 AI 编码工具的背景下,他把国内可行的接入与实战路径讲得系统清晰,视频获得大量收藏三连。",
+        "随着 Claude Code、Hermes Agent 等工具在中文圈快速普及,这类做本地化落地教程的创作者正成为国内 AI 编程普及的重要推手,值得关注。"
+      ],
+      "heat": "B站 AI编程教程高收藏"
     }
   ]
 }
