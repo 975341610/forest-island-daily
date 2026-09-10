@@ -12,17 +12,17 @@
     },
     "experientiallabs/experiential": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 1172,
+      "appearances": 3,
+      "total_today_stars": 1858,
       "language": "Python",
       "description": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/233532581?v=4",
       "html_url": "https://github.com/experientiallabs/experiential"
     },
     "cathrynlavery/diagram-design": {
-      "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1330,
+      "best_rank": 2,
+      "appearances": 3,
+      "total_today_stars": 3579,
       "language": "HTML",
       "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/50469282?v=4",
@@ -39,8 +39,8 @@
     },
     "public-apis/public-apis": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 590,
+      "appearances": 2,
+      "total_today_stars": 1170,
       "language": "Python",
       "description": "A collective list of free APIs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/51121562?v=4",
@@ -102,17 +102,17 @@
     },
     "ruvnet/ruflo": {
       "best_rank": 7,
-      "appearances": 3,
-      "total_today_stars": 1046,
+      "appearances": 4,
+      "total_today_stars": 1207,
       "language": "TypeScript",
       "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
       "html_url": "https://github.com/ruvnet/ruflo"
     },
     "browser-use/browser-use": {
-      "best_rank": 10,
-      "appearances": 3,
-      "total_today_stars": 789,
+      "best_rank": 6,
+      "appearances": 4,
+      "total_today_stars": 1494,
       "language": "Python",
       "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
@@ -129,8 +129,8 @@
     },
     "heygen-com/hyperframes": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 3321,
+      "appearances": 4,
+      "total_today_stars": 4155,
       "language": "TypeScript",
       "description": "Write HTML. Render video. Built for agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
@@ -174,8 +174,8 @@
     },
     "The-Swarm-Corporation/AutoHedge": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 1153,
+      "appearances": 4,
+      "total_today_stars": 1528,
       "language": "Python",
       "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/167784574?v=4",
@@ -237,8 +237,8 @@
     },
     "openai/skills": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 841,
+      "appearances": 3,
+      "total_today_stars": 1222,
       "language": "Python",
       "description": "Skills Catalog for Codex",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -273,8 +273,8 @@
     },
     "MoonTechLab/LunaTV": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 702,
+      "appearances": 3,
+      "total_today_stars": 982,
       "language": "TypeScript",
       "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源",
       "owner_avatar": "https://avatars.githubusercontent.com/u/226115334?v=4",
@@ -318,8 +318,8 @@
     },
     "jo-inc/camofox-browser": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1006,
+      "appearances": 3,
+      "total_today_stars": 1457,
       "language": "JavaScript",
       "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/226147249?v=4",
@@ -354,17 +354,17 @@
     },
     "Tencent/teamai-cli": {
       "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 1083,
+      "appearances": 2,
+      "total_today_stars": 1639,
       "language": "TypeScript",
       "description": "Make Every Team AI Native",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
       "html_url": "https://github.com/Tencent/teamai-cli"
     },
     "ayghri/i-have-adhd": {
-      "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 656,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 5306,
       "language": "Python",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/32200675?v=4",
@@ -372,8 +372,8 @@
     },
     "decolua/9router": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 647,
+      "appearances": 2,
+      "total_today_stars": 833,
       "language": "JavaScript",
       "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8282593?v=4",
@@ -381,8 +381,8 @@
     },
     "TauricResearch/TradingAgents": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 506,
+      "appearances": 2,
+      "total_today_stars": 873,
       "language": "Python",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192884433?v=4",
@@ -408,8 +408,8 @@
     },
     "superplanehq/superplane": {
       "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 294,
+      "appearances": 2,
+      "total_today_stars": 545,
       "language": "Go",
       "description": "Open source factory for one-shot engineering",
       "owner_avatar": "https://avatars.githubusercontent.com/u/210748804?v=4",
@@ -443,13 +443,94 @@
       "html_url": "https://github.com/hpcaitech/Open-Sora"
     },
     "viarotel-org/escrcpy": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 178,
+      "best_rank": 17,
+      "appearances": 2,
+      "total_today_stars": 484,
       "language": "JavaScript",
       "description": "📱 Display and control your Android device graphically with scrcpy.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/131328070?v=4",
       "html_url": "https://github.com/viarotel-org/escrcpy"
+    },
+    "liquidslr/system-design-notes": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 1397,
+      "language": null,
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/26876811?v=4",
+      "html_url": "https://github.com/liquidslr/system-design-notes"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 705,
+      "language": "JavaScript",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43960064?v=4",
+      "html_url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    "openai/plugins": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 498,
+      "language": "JavaScript",
+      "description": "OpenAI Plugins",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/plugins"
+    },
+    "vastsa/PI-Desktop": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 417,
+      "language": "TypeScript",
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/48862574?v=4",
+      "html_url": "https://github.com/vastsa/PI-Desktop"
+    },
+    "github/spec-kit": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 311,
+      "language": "Python",
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
+      "html_url": "https://github.com/github/spec-kit"
+    },
+    "t8y2/dbx": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 304,
+      "language": "Rust",
+      "description": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
+      "html_url": "https://github.com/t8y2/dbx"
+    },
+    "supermemoryai/supermemory": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 276,
+      "language": "TypeScript",
+      "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/171979587?v=4",
+      "html_url": "https://github.com/supermemoryai/supermemory"
+    },
+    "Alishahryar1/free-claude-code": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 214,
+      "language": "Python",
+      "description": "Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
+      "html_url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    "OpenHands/OpenHands": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 186,
+      "language": "TypeScript",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/225919603?v=4",
+      "html_url": "https://github.com/OpenHands/OpenHands"
     }
   }
 }

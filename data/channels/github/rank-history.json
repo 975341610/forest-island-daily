@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-10": {
-      "PrimeIntellect-ai/prime-agent": 1,
-      "addyosmani/agent-skills": 2,
-      "TauricResearch/TradingAgents": 3,
-      "google/skills": 4,
-      "cloudflare/computer": 5,
-      "denoland/celld": 6,
-      "Comfy-Org/ComfyUI": 7,
-      "ZhuLinsen/daily_stock_analysis": 8,
-      "garrytan/gstack": 9,
-      "pingdotgg/t3code": 10,
-      "ruvnet/RuView": 11,
-      "stanfordnlp/dspy": 12,
-      "CodebuffAI/freebuff": 13,
-      "google-deepmind/weathernext": 14,
-      "ollama/ollama": 15,
-      "Mininglamp-OSS/octo-web": 16,
-      "Anil-matcha/Open-Generative-AI": 17,
-      "vectorize-io/hindsight": 18,
-      "rorkai/App-Store-Connect-CLI": 19,
-      "browseros-ai/BrowserOS": 20,
-      "aceberg/WatchYourLAN": 21,
-      "sysadminsmedia/homebox": 22,
-      "malisper/pgrust": 23,
-      "drawdb-io/drawdb": 24,
-      "funstory-ai/BabelDOC": 25
-    },
     "2026-08-11": {
       "PrimeIntellect-ai/prime-agent": 1,
       "Comfy-Org/ComfyUI": 2,
@@ -836,6 +809,33 @@
       "hpcaitech/Open-Sora": 23,
       "viarotel-org/escrcpy": 24,
       "Tencent/WeKnora": 25
+    },
+    "2026-09-10": {
+      "ayghri/i-have-adhd": 1,
+      "cathrynlavery/diagram-design": 2,
+      "liquidslr/system-design-notes": 3,
+      "heygen-com/hyperframes": 4,
+      "freestylefly/awesome-gpt-image-2": 5,
+      "browser-use/browser-use": 6,
+      "experientiallabs/experiential": 7,
+      "public-apis/public-apis": 8,
+      "Tencent/teamai-cli": 9,
+      "openai/plugins": 10,
+      "jo-inc/camofox-browser": 11,
+      "vastsa/PI-Desktop": 12,
+      "openai/skills": 13,
+      "The-Swarm-Corporation/AutoHedge": 14,
+      "TauricResearch/TradingAgents": 15,
+      "github/spec-kit": 16,
+      "viarotel-org/escrcpy": 17,
+      "t8y2/dbx": 18,
+      "MoonTechLab/LunaTV": 19,
+      "supermemoryai/supermemory": 20,
+      "superplanehq/superplane": 21,
+      "Alishahryar1/free-claude-code": 22,
+      "OpenHands/OpenHands": 23,
+      "decolua/9router": 24,
+      "ruvnet/ruflo": 25
     }
   }
 }
