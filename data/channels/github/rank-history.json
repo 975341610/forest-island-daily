@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-11": {
-      "PrimeIntellect-ai/prime-agent": 1,
-      "Comfy-Org/ComfyUI": 2,
-      "firecrawl/firecrawl": 3,
-      "ZhuLinsen/daily_stock_analysis": 4,
-      "addyosmani/agent-skills": 5,
-      "google/skills": 6,
-      "brightdata/cli": 7,
-      "pingdotgg/t3code": 8,
-      "3b1b/manim": 9,
-      "google-deepmind/weathernext": 10,
-      "heygen-com/hyperframes": 11,
-      "paperclipai/paperclip": 12,
-      "byoungd/up": 13,
-      "stanfordnlp/dspy": 14,
-      "TauricResearch/TradingAgents": 15,
-      "denoland/celld": 16,
-      "drawdb-io/drawdb": 17,
-      "ruvnet/RuView": 18,
-      "vercel-labs/skills": 19,
-      "opa334/Dopamine": 20,
-      "ruvnet/ruflo": 21,
-      "ollama/ollama": 22,
-      "Anil-matcha/Open-Generative-AI": 23,
-      "reacherhq/check-if-email-exists": 24,
-      "cobusgreyling/loop-engineering": 25
-    },
     "2026-08-12": {
       "PrimeIntellect-ai/prime-agent": 1,
       "earendil-works/pi": 2,
@@ -836,6 +809,33 @@
       "OpenHands/OpenHands": 23,
       "decolua/9router": 24,
       "ruvnet/ruflo": 25
+    },
+    "2026-09-11": {
+      "ayghri/i-have-adhd": 1,
+      "bilawalsidhu/gods-eye-view": 2,
+      "cathrynlavery/diagram-design": 3,
+      "freestylefly/awesome-gpt-image-2": 4,
+      "liquidslr/system-design-notes": 5,
+      "Tencent/teamai-cli": 6,
+      "THU-MAIC/OpenMAIC": 7,
+      "TauricResearch/TradingAgents": 8,
+      "vastsa/PI-Desktop": 9,
+      "heygen-com/hyperframes": 10,
+      "superplanehq/superplane": 11,
+      "openai/codex": 12,
+      "alsk1992/CloddsBot": 13,
+      "datawhalechina/hello-agents": 14,
+      "openai/plugins": 15,
+      "t8y2/dbx": 16,
+      "akitaonrails/ai-memory": 17,
+      "alphaXiv/OpenResearch": 18,
+      "decolua/9router": 19,
+      "Wei-Shaw/sub2api": 20,
+      "citrolabs/ego-lite": 21,
+      "nashsu/llm_wiki": 22,
+      "jamiepine/voicebox": 23,
+      "cursor/plugins": 24,
+      "vercel-labs/skills": 25
     }
   }
 }
