@@ -35,16 +35,16 @@
     "id": "2026-07-22_vibecoding_3",
     "date": "2026-07-22",
     "category": "VibeCoding",
-    "subcat": "VibeCoding",
-    "platform": "Hacker News",
-    "platform_color": "#2563EB",
-    "title": "Headroom:给编码Agent压缩输入省token",
+    "subcat": "开发者工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "headroom 走红 主攻智能体 token 压缩",
     "url": "https://github.com/headroomlabs-ai/headroom",
-    "image": "images/2026-07-22/2026-07-22_vibecoding_3.jpg",
+    "image": "images/2026-09-11/2026-09-11_vibecoding_5.jpg",
     "detail": [
-      "Headroom Labs于北京时间7月22日凌晨在Hacker News发布开源项目Headroom,主打在数据抵达大模型之前对其瘦身。它能压缩工具输出、日志、文件以及RAG检索片段等进入上下文窗口的内容,从源头削减无谓的token消耗,而项目宣称此举不会损害模型输出质量。",
-      "官方给出的数据颇具吸引力:面向编码Agent可减少约20%的token,而针对JSON等结构化数据的压缩幅度可达60%到95%。Headroom提供三种接入形态——可直接调用的库、可透明拦截的代理(proxy),以及MCP服务器,方便开发者按需嵌入现有的Agent与工具链。",
-      "在Coding Agent动辄吞噬海量上下文、token成本高企的当下,输入侧压缩正成为热门优化方向,与近期社区里各类上下文治理、记忆压缩工具形成呼应。作为刚上线的早期项目,其真实压缩率与对输出质量的影响仍需社区在多样场景中验证,但方向切中了成本与上下文膨胀的核心痛点。"
+      "开源项目 headroom 近期在 GitHub 上持续走热,星标数已攀升至约 7.1 万,仓库在北京时间 9 月 11 日凌晨(UTC 9 月 10 日 18:16)仍有活跃提交,采用 Apache-2.0 许可证、以 Python 编写。它切入的是编程智能体一个越来越昂贵的痛点:上下文中塞满工具输出、日志和 RAG 片段,导致 token 消耗和费用飙升。",
+      "headroom 的做法是在这些内容抵达大模型之前先行压缩:官方称对编码代理可减少约 20% 的 token,对 JSON 类结构化数据更能节省 60% 到 95%,同时保持答案质量不变。它提供了库、代理(proxy)和 MCP server 三种接入形态,方便开发者按需嵌入到 Claude Code、Codex 等基于 MCP 的智能体链路中。",
+      "随着 agent 任务越跑越长、上下文越吃越大,token 成本与上下文窗口限制成了实际工程中的硬约束,headroom 这类「上下文瘦身」工具因此备受青睐。开发者尤其看重它在不牺牲准确率前提下压缩数据的能力,多形态接入也降低了落地门槛。它的走红说明,围绕降本增效的智能体基础设施正成为 vibe coding 生态的新热点。"
     ]
   },
   {

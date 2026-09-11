@@ -1,5 +1,229 @@
 [
   {
+    "id": "2026-09-11_vibecoding_4",
+    "date": "2026-09-11",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "腾讯开源 teamai-cli 主打团队 AI 原生",
+    "url": "https://github.com/Tencent/teamai-cli",
+    "image": "images/2026-09-11/2026-09-11_vibecoding_4.jpg",
+    "detail": [
+      "腾讯的开源命令行工具 teamai-cli 在北京时间 9 月 10 日跻身 GitHub 趋势榜,当日新增约 837 颗星,总星标突破 3,700,项目在同日(UTC 09:35)仍有活跃代码推送,以 TypeScript 编写。它的口号「Make Every Team AI Native」直接点明目标:帮助研发团队整体迈向 AI 原生的协作方式。",
+      "与面向个人的编码代理不同,teamai-cli 更强调团队层面的 AI 能力整合,试图把 AI 助手嵌入到团队的日常工程流程与协作规范中,而非停留在单人使用的问答场景。作为大厂出品的 CLI,它天然带有对企业级工作流、规范化与可复用性的考量,这也是它区别于众多个人向工具的关键卖点。",
+      "国内大厂密集下场开源 AI 编程与协作工具,反映出 vibe coding 的竞争已从单点工具延伸到团队工作流的争夺。开发者对腾讯这类工具的关注点在于它能否真正落地到多人协作场景、与现有 CI/研发平台的集成度如何。短期涨星显示出社区的好奇与期待,但能否沉淀为长期采用仍取决于实际体验。"
+    ]
+  },
+  {
+    "id": "2026-09-11_vibecoding_3",
+    "date": "2026-09-11",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "i-have-adhd 登顶趋势榜 单日涨星近四千",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "image": "images/2026-09-11/2026-09-11_vibecoding_3.jpg",
+    "detail": [
+      "一个名为 i-have-adhd 的开源项目在北京时间 9 月 10 日强势登顶 GitHub 单日趋势榜,当天新增约 3,854 颗星,总星标数迅速攀升至约 3.8 万,成为当日最受瞩目的黑马仓库。项目仓库在 9 月 10 日仍有活跃提交(UTC 15:48 推送),采用 MIT 许可证,以 Python 编写。",
+      "它的定位相当巧妙:一款为编程智能体设计的 skill(技能),用一句话概括就是「阻止你的编码 agent 把答案埋起来」,主打 ADHD 友好的输出风格。它通过约束 AI 助手先给结论、再给细节的方式,让 Claude Code、Codex 等工具的冗长回答变得直击要点,减少开发者在大段解释中反复翻找关键信息的认知负担。",
+      "该项目的爆火折射出 vibe coding 时代一个真实痛点:AI 编程助手越来越强,但输出啰嗦、重点淹没的问题让人抓狂。社区开发者纷纷点赞其解决了「刚需小事」,评论区不乏「相见恨晚」的共鸣。这也说明围绕主流 agent 构建的轻量 skill 生态正快速兴起,一个恰到好处的小工具就能收获巨大关注。"
+    ]
+  },
+  {
+    "id": "2026-09-11_vibecoding_2",
+    "date": "2026-09-11",
+    "category": "VibeCoding",
+    "subcat": "AI编程工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "OpenAI Codex 发布 0.155 预览版",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.2",
+    "image": "images/2026-09-11/2026-09-11_vibecoding_2.jpg",
+    "detail": [
+      "OpenAI 的开源终端编程代理 Codex 于北京时间 9 月 11 日凌晨(UTC 9 月 10 日 18:02)发布了 rust-v0.155.0-alpha.2 预览版,标志着继稳定版 0.154.0 之后,团队已快速进入下一个 0.155 系列的滚动开发。Codex 是一款轻量级、可在终端中运行的编码智能体,目前仓库星标数已达约 12.3 万,是与 Claude Code 正面竞争的主力开源方案之一。",
+      "作为 Rust 主线的第二个 alpha 构建,该版本在同一天内紧随 alpha.1(UTC 11:53 发布)推出,显示团队在核心引擎层面正密集打磨。同日 OpenAI 还发布了 python-v0.154.0 的 Python SDK 版本,进一步完善多语言接入能力,让开发者可以在脚本与自动化流水线中直接调用 Codex 的代理能力。",
+      "这种 Rust 核心加 Python SDK 双线并进的策略,反映出 Codex 正试图同时覆盖命令行重度用户与需要嵌入式集成的工程团队。开发者普遍关注 alpha 版本的性能与工具调用准确率,预览通道的高频更新也让尝鲜者能第一时间体验新特性,但也需自行承担预览版潜在的不稳定风险。"
+    ]
+  },
+  {
+    "id": "2026-09-11_vibecoding_1",
+    "date": "2026-09-11",
+    "category": "VibeCoding",
+    "subcat": "AI编程工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "Claude Code 发布 v2.1.268 版本更新",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+    "image": "images/2026-09-11/2026-09-11_vibecoding_1.jpg",
+    "detail": [
+      "Anthropic 旗下的终端智能编程助手 Claude Code 于北京时间 9 月 11 日凌晨(UTC 9 月 10 日 20:30)推送了 v2.1.268 版本,延续其近乎每日一更的高频迭代节奏。作为一款直接运行在命令行、能理解整个代码库并自主执行多步骤任务的 agentic 工具,它已成为大量开发者日常编码链路中的核心一环,当前 GitHub 星标数已突破 14.4 万。",
+      "本次更新聚焦于稳定性与交互体验的打磨,涵盖会话上下文管理、工具调用可靠性以及权限提示流程等方面的修复,进一步降低了长会话中断线与状态错乱的概率。对于依赖 Claude Code 跑长任务、做大规模重构的团队而言,这类高频小步快跑式的补丁能显著减少中途卡壳的挫败感。",
+      "社区对这一发布节奏反应两极:一部分开发者赞赏官方响应问题迅速、修复到位;也有人吐槽版本号增长太快、难以追踪具体变更,呼吁提供更清晰的变更日志分级。无论如何,v2.1.268 都再次印证了 AI 编程工具正进入以天为单位快速演进的新常态,开发者需要习惯持续更新的工作流。"
+    ]
+  },
+  {
+    "id": "2026-09-11_gaming_5",
+    "date": "2026-09-11",
+    "category": "Gaming",
+    "subcat": "行业动态",
+    "platform": "Variety",
+    "platform_color": "#7CF6A0",
+    "title": "首届纽约游戏周10月登场",
+    "url": "https://variety.com/2026/gaming/news/new-york-games-week-launches-2026-1236857222/",
+    "image": "images/2026-09-11/2026-09-11_gaming_5.jpg",
+    "detail": [
+      "北京时间2026年9月10日,据Variety报道,首届「纽约游戏周」(New York Games Week)正式官宣,将于10月4日至11日在纽约市五大行政区举办,成为纽约首个全市级别的电子游戏产业盛会。活动内容涵盖行业主题展会、展示会、大会、电竞赛事、峰会、专业交流酒会与聚会等多种形式。",
+      "该活动由游戏产业资深人士Guy Blomberg(Games Industry Gathering)、Krysti Pryde(PlayNYC)与Amit Hossain(IGDA NYC)共同发起,并获得纽约市长媒体与娱乐办公室(MOME)的支持。主办方表示,这一年度城市庆典旨在为全球游戏产业提供与本地产业和社区连接的商业机会与娱乐平台。MOME目前还主导着纽约市游戏设计四年制公立学位、NYC电子游戏节、「Made in NY」开发者资助等一系列产业扶持计划。",
+      "此次官宣正值游戏业秋季大作扎堆的关键节点。据Variety另一篇报道,业界正押注《GTA6》11月19日发售带动整个市场回暖,首周营收预计超30亿美元,《漫威金刚狼》《使命召唤》新作等秋季大作也将陆续登场。在这一被形容为「产业复兴前夜」的氛围下,纽约游戏周的落地被视为北美游戏产业版图扩张与城市经济布局的重要一步。"
+    ]
+  },
+  {
+    "id": "2026-09-11_gaming_4",
+    "date": "2026-09-11",
+    "category": "Gaming",
+    "subcat": "新游发售",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "心理恐怖《BrokenLore: DON'T LIE》发售",
+    "url": "https://gamelevate.com/brokenlore-dont-lie-launches-september-10/",
+    "image": "images/2026-09-11/2026-09-11_gaming_4.jpg",
+    "detail": [
+      "北京时间2026年9月10日,由日本工作室Serafini Productions开发、Wired Productions与其共同发行的第一人称心理恐怖新作《BrokenLore: DON'T LIE》正式登陆PC(Steam)、PlayStation 5与Xbox Series X|S平台。该作是恐怖系列《BrokenLore》的衍生作品,延续了此前《DON'T WATCH》的世界观,主打谎言、药物与脆弱羁绊模糊现实与噩梦边界的压抑体验。",
+      "游戏聚焦名为Junko的年轻蛰居族(hikikomori),她多年将自己与外界隔绝。随着她精心维持的生活逐渐崩塌,熟悉的场景开始扭曲成过往记忆的变形版本,被深埋的往事纷纷浮现。玩法结合探索与调查,环境会随Junko的感知与恐惧实时变化,还有一股看不见的存在会对玩家行为作出反应。本作配有日语语音,主题涉及创伤、孤独与破碎的记忆。据IsThereAnyDeal数据,Steam首发售价约63元人民币(首发九折56.7元),并提供多个捆绑包。",
+      "作为Steam新品节期间放出试玩的独立恐怖作品,本作凭借浓厚的日式心理恐怖氛围吸引了一批直播主试玩,Twitch上多位主播开播。对于偏好叙事驱动、氛围向恐怖体验的玩家而言,这是9月密集档期中一款值得关注的中小成本佳作。"
+    ]
+  },
+  {
+    "id": "2026-09-11_gaming_3",
+    "date": "2026-09-11",
+    "category": "Gaming",
+    "subcat": "游戏更新",
+    "platform": "PlayStation Blog",
+    "platform_color": "#7CF6A0",
+    "title": "《无人深空》十周年「宇宙」大更新上线",
+    "url": "https://blog.playstation.com/2026/09/09/introducing-no-mans-sky-cosmos-update-live-on-ps5-today/",
+    "image": "images/2026-09-11/2026-09-11_gaming_3.jpg",
+    "detail": [
+      "北京时间2026年9月10日前后,Hello Games为太空探索游戏《无人深空》推出十周年重磅免费更新「宇宙」(Cosmos),面向PC、PS4/PS5、Switch 1/2、Mac及Xbox全平台玩家开放。创始人Sean Murray表示,这是游戏发售十年来对「太空」本身规模最大的一次全面重构,旨在让曾经空旷的宇宙虚空真正「充满生机、更有家的感觉」。",
+      "更新内容极为丰富:新增小行星带重制,同时包含岩石与冰层结构并蕴藏珍贵晶体资源;玩家可用新推出的重力工具拆解回收废弃巨舰,但过度贪心会导致残骸熔毁爆炸。此外,玩家终于能购买并入住专属空间站、在太空任意位置搭建自由漂浮的模块化基地,还可组建联盟冲击全新排行榜,甚至首次尝试飞向恒星系中央的恒星。同步上线的周年远征活动,每个里程碑都对应过去十年40次大型更新之一。",
+      "《无人深空》从2016年发售初期因「过度宣传、内容缺失」而暴雷、被称为游戏史最大争议之一,到如今Steam评价稳居「特别好评」、斩获TGA与BAFTA「最佳持续运营游戏」奖项,完成了游戏史上最惊人的口碑逆袭。玩家社区对本次更新一致好评,视其为开发者诚意与长线运营标杆的又一次印证。"
+    ]
+  },
+  {
+    "id": "2026-09-11_gaming_2",
+    "date": "2026-09-11",
+    "category": "Gaming",
+    "subcat": "新游发售",
+    "platform": "Siliconera",
+    "platform_color": "#7CF6A0",
+    "title": "《零之轨迹/碧之轨迹》登陆Switch 2与PS5",
+    "url": "https://www.siliconera.com/trails-from-zero-and-to-azure-switch-2-and-ps5-release-dates-set/",
+    "image": "images/2026-09-11/2026-09-11_gaming_2.jpg",
+    "detail": [
+      "北京时间2026年9月10日,日本Falcom与发行商NIS America共同推出的经典JRPG《英雄传说:零之轨迹》与《碧之轨迹》正式登陆Nintendo Switch 2与PlayStation 5平台。这两部作品构成了《轨迹》系列著名的「克洛斯贝尔篇」,讲述主角罗伊德·班宁斯与特务支援课调查腐败、化解城邦危机的故事,此前已在PC、PS4与初代Switch上发售。",
+      "此次新版带来多项性能升级,最高支持4K分辨率与120帧画面输出,Switch 2版本还额外支持鼠标输入操作。购买方式上,玩家可在PSN与eShop分别购买数字版,标准数字版售价39.99美元;也可选择包含两部作品、原声音乐数字版及角色美术卡的实体豪华合集,定价69.99美元,收录洛伊德、艾莉、蓝迪、缇欧、KeA等主要角色。",
+      "对于系列粉丝而言,本次移植意义重大:过去PS4版在画面上存在缺陷,而PS5版首次获得与其他平台一致的升级视觉效果。玩家如今可以在同一世代硬件上体验更完整的相互关联的轨迹剧情线。社区反响热烈,Reddit相关帖获得大量讨论与点赞,老玩家纷纷表示这是补票或重温克洛斯贝尔篇的绝佳时机。"
+    ]
+  },
+  {
+    "id": "2026-09-11_gaming_1",
+    "date": "2026-09-11",
+    "category": "Gaming",
+    "subcat": "行业动态",
+    "platform": "GameSpot",
+    "platform_color": "#7CF6A0",
+    "title": "小岛《Physint》被索尼放弃转投Xbox",
+    "url": "https://www.gamespot.com/articles/kojimas-physint-dropped-by-playstation-rescued-by-xbox/",
+    "image": "images/2026-09-11/2026-09-11_gaming_1.jpg",
+    "detail": [
+      "北京时间2026年9月10日,游戏业迎来重磅消息:索尼旗下PlayStation Studios正式宣布终止与小岛工作室(KOJIMA PRODUCTIONS)在潜入动作新作《Physint》上的合作,而小岛秀夫同步确认Xbox已接盘该项目。这款曾被视为PS5独占的动作谍报大作,就此转换阵营,成为继《OD》之后小岛与微软的第二次深度携手。",
+      "据小岛本人在社交平台披露,早在今年6月中旬,PlayStation Studios便突然通知取消《Physint》立项,令团队措手不及。他强调这一项目对他个人及工作室都意义非凡,因此他积极寻求新的合作方,最终Xbox挺身而出。Xbox CEO Asha Sharma表示,很荣幸小岛选择Xbox来共同打造《Physint》,其挑战常规的雄心正是微软想要支持的创造力。双方合作还将延伸至影视领域。",
+      "消息一出,玩家社区瞬间炸锅。相关推文在X平台数小时内浏览量突破六百万,点赞逾十三万。不少玩家将其解读为小岛与索尼渐行渐远的信号,甚至有人猜测《死亡搁浅》系列未来是否也会登陆Xbox。对于长期陷入第一方阵容争议的Xbox而言,拿下小岛无疑是提振声势的一次关键胜利,也让本已激烈的主机大战再添话题。"
+    ]
+  },
+  {
+    "id": "2026-09-11_ai_5",
+    "date": "2026-09-11",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "量子位",
+    "platform_color": "#7C9EF6",
+    "title": "京东发布JoyAI世界模型规划十万卡算力",
+    "url": "https://www.qbitai.com/2026/09/486436.html",
+    "image": "images/2026-09-11/2026-09-11_ai_5.jpg",
+    "detail": [
+      "9月9日,以\"JoyAI·跃迁物理世界\"为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行。京东全面展示建设\"全球最大物理世界运营中心\"的战略,官宣启动\"物理AI加速计划\",提出在具身智能领域实现六项\"全球第一\",并公布了算力、数据、模型三大AI基建的最新进展。京东集团技术委员会主席、京东云总裁曹鹏强调,京东的AI是在生产线、仓库、配送站等供应链全流程中\"一单一单磨出来的\"。",
+      "模型方面,京东发布了实时可交互的世界模型JoyAI-Echo WM,在面向交互式世界模型的权威公开评测WBench Navigation中以81.6分排名第一,达到行业顶尖水平;同时发布京东物流\"超脑\"3.0、京东工业JoyIndustrial2.0、京东健康京医千询3.0等垂域大模型。算力方面,京东云已与摩尔线程等合作打造国产万卡集群,并规划建设十万卡全功能GPU集群,构建自主可控的超大规模国产智算底座。数据方面,1000万小时人类真实场景数据采集正在推进,首批开源数据集EgoLive已获超8个国家、上百所机构申请使用。",
+      "此次大会释放出中国厂商押注\"物理AI\"与国产算力自主可控的强烈信号。京东规划五年内部署300万台机器人、100万台无人车及10万架无人机,\"狼族\"机器人军团亮相并新增多个版本,物流具身模型多任务执行成功率达96.7%。业界认为,京东以\"云、数、模、端、场、链\"六大模块和\"智能飞轮+产业飞轮\"双轮驱动,试图把AI从数字世界推向真实产业场景,为国产算力在产业落地提供样本。"
+    ]
+  },
+  {
+    "id": "2026-09-11_ai_4",
+    "date": "2026-09-11",
+    "category": "AI",
+    "subcat": "AI产品",
+    "platform": "NVIDIA Blog",
+    "platform_color": "#7C9EF6",
+    "title": "Skild AI机器人看一段视频即学会新任务",
+    "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+    "image": "images/2026-09-11/2026-09-11_ai_4.jpg",
+    "detail": [
+      "9月10日,英伟达详细披露了与机器人公司Skild AI的合作:Skild全新的S1机器人基础模型能够仅凭\"一段视频演示\"学会此前未见过的长程任务,无需更新权重或进行任务专属的后训练——这一技术被称为\"上下文学习\"。该模型于上周发布,研究与训练均在英伟达AI基础设施上完成,合作横跨合成数据生成、模型训练、仿真到真实世界的物理AI部署。",
+      "操作员只需录制一段任务视频作为提示,S1即可理解演示中的意图、物体与步骤,并映射为机器人的动作。它能完成长达10分钟、涉及数十个操作步骤的陌生任务,如种植盆栽、做煎饼、手冲咖啡和套件组装。在一次盆栽测试中,团队从录制演示到硬件自主执行仅用11分钟。据Skild测试,S1在新的多步任务中每步成功率约66%,而同类AI系统仅9%,提升超过七倍;一段短视频示范约相当于380次人工示教。",
+      "这项合作依托英伟达Isaac Lab仿真与Cosmos合成数据技术。伴随发布,Skild在首次商业部署10个月后达到1亿美元年化营收运行率,建立了超过60个部署合作,覆盖制造、物流、巡检、安防与餐饮等场景。Skild、英伟达与富士康已在双臂机械臂上部署Skild Brain,用于英伟达Blackwell系统的高精度装配。业界认为,\"以经验学习而非预编程\"正在成为机器人领域的关键范式转变,让适应性机器智能从实验室走向多变的工厂环境。"
+    ]
+  },
+  {
+    "id": "2026-09-11_ai_3",
+    "date": "2026-09-11",
+    "category": "AI",
+    "subcat": "AI基础设施",
+    "platform": "NVIDIA Newsroom",
+    "platform_color": "#7C9EF6",
+    "title": "英伟达联手Palantir为供应链打造主权AI",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-and-palantir-bring-sovereign-intelligence-to-critical-supply-chains",
+    "image": "images/2026-09-11/2026-09-11_ai_3.jpg",
+    "detail": [
+      "9月10日,英伟达与数据分析巨头Palantir宣布合作,将\"主权AI\"引入关键供应链,并率先应用于英伟达自身运营。该合作构建了一套AI技术栈,把英伟达Nemotron开源模型接入Palantir Foundry与人工智能平台(AIP),并以Palantir本体论(Ontology)为基础,旨在实现前所未有的供应链可视化、识别约束、持续沉淀运营专长,并以机器速度指导决策,同时让企业保留对专有数据的控制与所有权。",
+      "英伟达拥有全球最复杂的供应链之一,涵盖数百万零部件、数千家供应商和全球制造伙伴网络。将一套机架级AI系统投入量产,需要算力、内存、网络、电力、散热与机械部件的协同保障——每个Vera Rubin机架就包含约130万个零件。Palantir的cuOpt软件可在AIP内实现优化与情景规划,帮助团队建模供应约束、评估权衡并理解分配决策的运营影响;经后训练的Nemotron模型则可推荐行动、解释权衡并预警风险,而供应链专家保留最终决策权。",
+      "Palantir CEO Alex Karp称,这套主权栈交付了\"超越前沿\"的能力;英伟达CEO黄仁勋则表示,供应链是实体经济的操作系统,AI工厂是人类建造的最复杂系统之一,双方正把庞大的运营图谱转化为主权智能。该合作面向农业、制造、制药、零售、科技与政府等复杂行业开放,可通过云端或本地部署,被视为主权AI在企业级落地的又一标志性案例。"
+    ]
+  },
+  {
+    "id": "2026-09-11_ai_2",
+    "date": "2026-09-11",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "Unite.AI",
+    "platform_color": "#7C9EF6",
+    "title": "光互连公司Ayar Labs再融1.5亿美元",
+    "url": "https://www.unite.ai/ayar-labs-secures-additional-150m-lifting-2026-capital-to-650m/",
+    "image": "images/2026-09-11/2026-09-11_ai_2.jpg",
+    "detail": [
+      "9月10日,共封装光学(CPO)技术公司Ayar Labs宣布再获1.5亿美元融资,使其2026年累计募集的一级资本达到6.5亿美元。此前公司已在3月完成由Neuberger Berman领投的5亿美元E轮融资,当时估值37.5亿美元。同时,云基础设施系统商纬颖科技(Wiwynn)于今年早些时候完成了对Ayar Labs的战略投资,加入了包括Alchip、AMD、Intel、联发科和英伟达在内的战略股东阵营。",
+      "Ayar Labs专注于用光互连替代铜互连,以突破AI系统在带宽密度、传输距离和功耗上的瓶颈。其核心产品TeraPHY光引擎与SuperNova远程光源可将光连接置于计算芯片近旁,支撑从单加速器到多机架的规模化架构。公司CEO兼联合创始人Mark Wade表示,铜互连正成为AI scale-up的限制因素,本轮资金将加速可量产CPO的制造推进,并深化在晶圆代工与封装生态中的布局。公司还将在印度班加罗尔设立新的设计中心。",
+      "业界分析认为,本轮融资的意义不在规模,而在于资金投向:制造就绪、验证与量产产能。CPO已从光子学研究问题快速演变为半导体制造与系统集成问题,涉及硅光制造、先进封装、光纤耦合、外部激光源、散热与测试等多环节协同。随着Oracle等云厂商资本开支激增、AI数据中心互连成为最关键瓶颈,Ayar Labs正进入以商业化落地为核心的新执行阶段。"
+    ]
+  },
+  {
+    "id": "2026-09-11_ai_1",
+    "date": "2026-09-11",
+    "category": "AI",
+    "subcat": "融资",
+    "platform": "SiliconANGLE",
+    "platform_color": "#7C9EF6",
+    "title": "AI推理芯片公司Positron融资8.75亿美元",
+    "url": "https://siliconangle.com/2026/09/10/chipmaker-positron-nabs-875m-to-speed-up-inference-with-consumer-grade-memory/",
+    "image": "images/2026-09-11/2026-09-11_ai_1.jpg",
+    "detail": [
+      "9月10日,总部位于美国内华达州里诺市的AI推理芯片初创公司Positron AI宣布完成8.75亿美元融资,由NEA、Andra Capital、Atreides Management、Valor Equity Partners与SemiAnalysis Capital联合领投,投后估值达50亿美元。这是C轮与C-1轮的合并融资,较其今年2月约10.6亿美元的B轮估值暴涨约4.7倍,七个月内实现估值跳升,并将其2026年累计股权融资推高至逾11亿美元。",
+      "Positron主打\"内存优先\"的推理专用芯片路线,核心差异化在于用消费级LPDDR5X内存取代供应紧张且昂贵的HBM高带宽内存。公司称,多数AI加速器仅能利用不到30%的HBM带宽,而其推理设备可释放超过90%的LPDDR5X吞吐能力;单台Titan设备最高搭载18.4TB内存、提供23.68Tbps带宽,足以运行32万亿参数、上下文窗口达100亿token的大模型。本轮资金将支持下一代自研芯片Asimov流片,该芯片计划采用台积电N3P工艺,2026年底流片、2027年下半年量产。",
+      "这笔巨额融资折射出AI芯片竞争重心正从训练GPU转向推理成本与内存容量。随着企业从\"造模型\"转向\"大规模部署模型\",内存带宽、数据搬运、延迟与功耗成为独立的投资赛道。社区与分析人士普遍将Positron视为对英伟达HBM生态的一次正面挑战,主权基金的参与也显示出对英伟达体系之外推理基础设施的兴趣;但也有观点指出,其芯片尚未流片量产,执行风险与时间表仍是最大不确定性。"
+    ]
+  },
+  {
     "id": "2026-09-10_vibecoding_5",
     "date": "2026-09-10",
     "category": "VibeCoding",
@@ -9541,16 +9765,16 @@
     "id": "2026-07-22_vibecoding_3",
     "date": "2026-07-22",
     "category": "VibeCoding",
-    "subcat": "VibeCoding",
-    "platform": "Hacker News",
-    "platform_color": "#2563EB",
-    "title": "Headroom:给编码Agent压缩输入省token",
+    "subcat": "开发者工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "headroom 走红 主攻智能体 token 压缩",
     "url": "https://github.com/headroomlabs-ai/headroom",
-    "image": "images/2026-07-22/2026-07-22_vibecoding_3.jpg",
+    "image": "images/2026-09-11/2026-09-11_vibecoding_5.jpg",
     "detail": [
-      "Headroom Labs于北京时间7月22日凌晨在Hacker News发布开源项目Headroom,主打在数据抵达大模型之前对其瘦身。它能压缩工具输出、日志、文件以及RAG检索片段等进入上下文窗口的内容,从源头削减无谓的token消耗,而项目宣称此举不会损害模型输出质量。",
-      "官方给出的数据颇具吸引力:面向编码Agent可减少约20%的token,而针对JSON等结构化数据的压缩幅度可达60%到95%。Headroom提供三种接入形态——可直接调用的库、可透明拦截的代理(proxy),以及MCP服务器,方便开发者按需嵌入现有的Agent与工具链。",
-      "在Coding Agent动辄吞噬海量上下文、token成本高企的当下,输入侧压缩正成为热门优化方向,与近期社区里各类上下文治理、记忆压缩工具形成呼应。作为刚上线的早期项目,其真实压缩率与对输出质量的影响仍需社区在多样场景中验证,但方向切中了成本与上下文膨胀的核心痛点。"
+      "开源项目 headroom 近期在 GitHub 上持续走热,星标数已攀升至约 7.1 万,仓库在北京时间 9 月 11 日凌晨(UTC 9 月 10 日 18:16)仍有活跃提交,采用 Apache-2.0 许可证、以 Python 编写。它切入的是编程智能体一个越来越昂贵的痛点:上下文中塞满工具输出、日志和 RAG 片段,导致 token 消耗和费用飙升。",
+      "headroom 的做法是在这些内容抵达大模型之前先行压缩:官方称对编码代理可减少约 20% 的 token,对 JSON 类结构化数据更能节省 60% 到 95%,同时保持答案质量不变。它提供了库、代理(proxy)和 MCP server 三种接入形态,方便开发者按需嵌入到 Claude Code、Codex 等基于 MCP 的智能体链路中。",
+      "随着 agent 任务越跑越长、上下文越吃越大,token 成本与上下文窗口限制成了实际工程中的硬约束,headroom 这类「上下文瘦身」工具因此备受青睐。开发者尤其看重它在不牺牲准确率前提下压缩数据的能力,多形态接入也降低了落地门槛。它的走红说明,围绕降本增效的智能体基础设施正成为 vibe coding 生态的新热点。"
     ]
   },
   {
