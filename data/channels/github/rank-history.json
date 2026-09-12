@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-12": {
-      "PrimeIntellect-ai/prime-agent": 1,
-      "earendil-works/pi": 2,
-      "firecrawl/firecrawl": 3,
-      "stablyai/orca": 4,
-      "HKUDS/DeepTutor": 5,
-      "paperclipai/paperclip": 6,
-      "corsairdev/corsair": 7,
-      "addyosmani/agent-skills": 8,
-      "anthropics/skills": 9,
-      "ruvnet/RuView": 10,
-      "practical-tutorials/project-based-learning": 11,
-      "multica-ai/multica": 12,
-      "pingdotgg/t3code": 13,
-      "cactus-compute/needle": 14,
-      "macro-inc/macro": 15,
-      "ZhuLinsen/daily_stock_analysis": 16,
-      "shiyu-coder/Kronos": 17,
-      "garrytan/gstack": 18,
-      "3b1b/manim": 19,
-      "google-deepmind/weathernext": 20,
-      "n8n-io/n8n": 21,
-      "AWeirdDev/flights": 22,
-      "krillinai/KrillinAI": 23,
-      "cobusgreyling/loop-engineering": 24,
-      "ollama/ollama": 25
-    },
     "2026-08-13": {
       "cathrynlavery/diagram-design": 1,
       "stablyai/orca": 2,
@@ -836,6 +809,33 @@
       "jamiepine/voicebox": 23,
       "cursor/plugins": 24,
       "vercel-labs/skills": 25
+    },
+    "2026-09-12": {
+      "bilawalsidhu/gods-eye-view": 1,
+      "ayghri/i-have-adhd": 2,
+      "github/spec-kit": 3,
+      "nashsu/llm_wiki": 4,
+      "alsk1992/CloddsBot": 5,
+      "freestylefly/awesome-gpt-image-2": 6,
+      "k2-fsa/OmniVoice": 7,
+      "vastsa/PI-Desktop": 8,
+      "Tencent/teamai-cli": 9,
+      "golang/go": 10,
+      "vercel-labs/skills": 11,
+      "react/react": 12,
+      "superplanehq/superplane": 13,
+      "armory3d/armorpaint": 14,
+      "bojieli/ai-agent-book": 15,
+      "donnemartin/system-design-primer": 16,
+      "t8y2/dbx": 17,
+      "vxcontrol/pentagi": 18,
+      "Tencent/WeKnora": 19,
+      "volcengine/OpenViking": 20,
+      "p1neappleXpress/OpenFlux": 21,
+      "Sonarr/Sonarr": 22,
+      "jordan-gibbs/hyperresearch": 23,
+      "melgarafael/DeskcommCRM": 24,
+      "jihe520/MathModelAgent": 25
     }
   }
 }

@@ -138,8 +138,8 @@
     },
     "donnemartin/system-design-primer": {
       "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 217,
+      "appearances": 2,
+      "total_today_stars": 485,
       "language": "Python",
       "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5458997?v=4",
@@ -254,9 +254,9 @@
       "html_url": "https://github.com/vinta/awesome-python"
     },
     "k2-fsa/OmniVoice": {
-      "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 609,
+      "best_rank": 7,
+      "appearances": 3,
+      "total_today_stars": 1181,
       "language": "Python",
       "description": "High-Quality Voice Cloning TTS for 600+ Languages",
       "owner_avatar": "https://avatars.githubusercontent.com/u/71431748?v=4",
@@ -300,8 +300,8 @@
     },
     "Tencent/WeKnora": {
       "best_rank": 19,
-      "appearances": 2,
-      "total_today_stars": 312,
+      "appearances": 3,
+      "total_today_stars": 538,
       "language": "Go",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -354,8 +354,8 @@
     },
     "Tencent/teamai-cli": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 2480,
+      "appearances": 4,
+      "total_today_stars": 2994,
       "language": "TypeScript",
       "description": "Make Every Team AI Native",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -363,8 +363,8 @@
     },
     "ayghri/i-have-adhd": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 9188,
+      "appearances": 4,
+      "total_today_stars": 12651,
       "language": "Python",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/32200675?v=4",
@@ -408,8 +408,8 @@
     },
     "superplanehq/superplane": {
       "best_rank": 11,
-      "appearances": 3,
-      "total_today_stars": 901,
+      "appearances": 4,
+      "total_today_stars": 1278,
       "language": "Go",
       "description": "Open source factory for one-shot engineering",
       "owner_avatar": "https://avatars.githubusercontent.com/u/210748804?v=4",
@@ -462,8 +462,8 @@
     },
     "freestylefly/awesome-gpt-image-2": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1667,
+      "appearances": 3,
+      "total_today_stars": 2252,
       "language": "JavaScript",
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43960064?v=4",
@@ -479,18 +479,18 @@
       "html_url": "https://github.com/openai/plugins"
     },
     "vastsa/PI-Desktop": {
-      "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 1041,
+      "best_rank": 8,
+      "appearances": 3,
+      "total_today_stars": 1593,
       "language": "TypeScript",
       "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
       "owner_avatar": "https://avatars.githubusercontent.com/u/48862574?v=4",
       "html_url": "https://github.com/vastsa/PI-Desktop"
     },
     "github/spec-kit": {
-      "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 311,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 1326,
       "language": "Python",
       "description": "💫 Toolkit to help you get started with Spec-Driven Development",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
@@ -498,8 +498,8 @@
     },
     "t8y2/dbx": {
       "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 536,
+      "appearances": 3,
+      "total_today_stars": 795,
       "language": "Rust",
       "description": "20 MB lightweight cross-platform database client for 90+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 90+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
@@ -533,9 +533,9 @@
       "html_url": "https://github.com/OpenHands/OpenHands"
     },
     "bilawalsidhu/gods-eye-view": {
-      "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1762,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 5442,
       "language": "JavaScript",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/106619546?v=4",
@@ -551,9 +551,9 @@
       "html_url": "https://github.com/THU-MAIC/OpenMAIC"
     },
     "alsk1992/CloddsBot": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 277,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 903,
       "language": "TypeScript",
       "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans    for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/193760801?v=4",
@@ -605,9 +605,9 @@
       "html_url": "https://github.com/citrolabs/ego-lite"
     },
     "nashsu/llm_wiki": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 142,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 789,
       "language": "TypeScript",
       "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2127280?v=4",
@@ -632,13 +632,112 @@
       "html_url": "https://github.com/cursor/plugins"
     },
     "vercel-labs/skills": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 122,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 539,
       "language": "TypeScript",
       "description": "The open agent skills tool - npx skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
       "html_url": "https://github.com/vercel-labs/skills"
+    },
+    "golang/go": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 424,
+      "language": "Go",
+      "description": "The Go programming language",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4314092?v=4",
+      "html_url": "https://github.com/golang/go"
+    },
+    "react/react": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 404,
+      "language": "JavaScript",
+      "description": "The library for web and native user interfaces.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/102812?v=4",
+      "html_url": "https://github.com/react/react"
+    },
+    "armory3d/armorpaint": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 350,
+      "language": "C",
+      "description": "Graphics Creation Tools",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20436620?v=4",
+      "html_url": "https://github.com/armory3d/armorpaint"
+    },
+    "bojieli/ai-agent-book": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 301,
+      "language": "Python",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1421793?v=4",
+      "html_url": "https://github.com/bojieli/ai-agent-book"
+    },
+    "vxcontrol/pentagi": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 250,
+      "language": "Go",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/39194251?v=4",
+      "html_url": "https://github.com/vxcontrol/pentagi"
+    },
+    "volcengine/OpenViking": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 200,
+      "language": "Python",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/67365215?v=4",
+      "html_url": "https://github.com/volcengine/OpenViking"
+    },
+    "p1neappleXpress/OpenFlux": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 198,
+      "language": "Go",
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/146814998?v=4",
+      "html_url": "https://github.com/p1neappleXpress/OpenFlux"
+    },
+    "Sonarr/Sonarr": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 191,
+      "language": "C#",
+      "description": "Smart PVR for newsgroup and bittorrent users.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1082903?v=4",
+      "html_url": "https://github.com/Sonarr/Sonarr"
+    },
+    "jordan-gibbs/hyperresearch": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 153,
+      "language": "Python",
+      "description": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/139834037?v=4",
+      "html_url": "https://github.com/jordan-gibbs/hyperresearch"
+    },
+    "melgarafael/DeskcommCRM": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 152,
+      "language": "TypeScript",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/119944436?v=4",
+      "html_url": "https://github.com/melgarafael/DeskcommCRM"
+    },
+    "jihe520/MathModelAgent": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 129,
+      "language": "Python",
+      "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/36144612?v=4",
+      "html_url": "https://github.com/jihe520/MathModelAgent"
     }
   }
 }
