@@ -1,110 +1,114 @@
 {
-  "date": "2026-09-11",
-  "generated_at": "2026-09-11T08:01:00+08:00",
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T08:01:00+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
-      "platform": "Hacker News",
-      "author": "fnthawar2",
-      "title": "Shopify 放弃 React Native 重回 Swift 与 Kotlin",
-      "url": "https://news.ycombinator.com/item?id=49643982",
+      "platform": "GitHub / Hacker News",
+      "author": "bilawalsidhu (Bilawal Sidhu)",
+      "title": "God's Eye View — 浏览器里的间谍卫星模拟器",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
       "detail": [
-        "Shopify 工程团队在 9 月 10 日发文宣布,将旗下全部移动应用从 React Native 迁移回 Swift 与 Kotlin 原生开发。Shop app 已由 6 名工程师用 12 周完成重写,主 App(300+ 页面、锁屏小组件、Apple Watch 应用、Siri 快捷指令)正在推进。",
-        "有意思的是,团队强调这并非「React Native 失败」——2025 年初的回顾里 React Native 仍交出了 P75 首屏 <500ms、崩溃率 <0.1% 的成绩。真正改变决策的是编程 Agent。",
-        "Shopify 直言 LLM 让「跨平台翻译」「跨栈上手」「维护功能一致性」三件事都变得廉价,共享代码库「省一半工作量」的经济学前提被动摇了。这个「AI 重新给技术选型定价」的论点在 HN 上引爆讨论,评论区围绕 KMP、Kotlin 上手成本、原生链接器性能等展开激辩。"
+        "前 Google 3D 地图/AR 产品经理、现 TED 策展人 Bilawal Sidhu 开源了 God's Eye View——一个跑在浏览器里的「间谍卫星」模拟器。它把真实的开源空间情报叠加到一个照片级写实的 3D 地球上，支持查看在轨飞行器（Live Contacts）、太空任务、环境数据等图层，并可用自然语言「和地球对话」，甚至在地图上丢一个针就让 AI 重建周边 3D 场景。",
+        "项目主打「无需 API key 即可启动」，可用 Pinokio 一键安装或本地 npm 跑起来，想要照片级 3D 时再补 Cesium ion / Google Maps token。发布后热度极高：仓库短时间内冲到约 26,000 stars、5,300+ forks，并登上 GitHub Trending 首页，单日新增 3,600+ stars，同时被顶到 Hacker News 首页引发大量关于开源地理空间情报、隐私与「人人可用的监控视角」的讨论。",
+        "作者也在自己的 Substack《Spatial Intelligence》撰文《I Open Sourced God's Eye View》讲述动机。项目仅 24 个 commit 却迅速积累近百 issue、80+ PR，社区参与度非常活跃，是本周开发者圈最出圈的可视化开源作品之一。"
       ],
-      "heat": "720 points / 476 comments"
+      "heat": "GitHub ≈26,000 stars / 5,300+ forks，单日新增 3,600+ stars，GitHub Trending 首页 + HN 首页"
     },
     {
-      "platform": "Hacker News",
-      "author": "mmastrac",
-      "title": "Rust 在微软已成为一等(Tier-1)语言",
-      "url": "https://news.ycombinator.com/item?id=49643546",
+      "platform": "Hacker News / PlanetScale Blog",
+      "author": "PlanetScale (Florent Poinsard、Hirad Pourtahmasbi)",
+      "title": "Neki 分片 Postgres:512 分片跑出 1.18 亿 QPS",
+      "url": "https://planetscale.com/blog/118-million-queries-per-second-on-neki",
       "detail": [
-        "Rust 基金会发布客座文章,宣布 Rust 已在微软内部升级为「一等语言」,与 C++、C# 等享受同等的工具链、构建系统与官方支持待遇。对长期关注系统编程与内存安全趋势的开发者而言,这是 Rust 走向主流企业级采用的又一里程碑,也延续了微软近年在 Windows 内核、Azure 等核心组件中推进 Rust 的路线。",
-        "HN 评论区并未一边倒地欢呼,而是转向务实的工程细节:Windows 平台缺乏 mold/wild 这类现代高速链接器、link.exe 的增量链接优势、VS 与 VSCode 谁对微软更重要、以及 .NET Framework/WPF 的历史包袱等话题被反复讨论。这类「大厂背书 + 工具链现实」的张力,正是社区最关心的地方。"
+        "打造并维护 Vitess 的 PlanetScale 团队刚在平台预览中推出了面向 PostgreSQL 的分片方案 Neki，并在 9 月 11 日发文炫技：为庆祝发布，他们尝试在 Neki 上跑百万 QPS，结果轻松达标后一路加码，最终用 512 个分片、480 个 router，在 1.22 PiB 数据上持续 16 分钟稳定跑出 1.18 亿（118,538,803）QPS，峰值 118,747,267。最亮眼的是线性扩展性：5 分片约 100 万 QPS、50 分片约 992 万、512 分片破亿，每分片吞吐从 5→50 分片仅波动 0.8%，到 512 分片时每分片甚至稳定在 23.1 万 QPS。",
+        "整套压测 p99 延迟在 router 侧 6.06ms、client 侧 13.95ms，错误率约 180 万分之一，全集群 1580 万读 IOPS、网络吞吐超 2 Tb/s。官方强调这是纯读、主库无副本、未触发故障切换的基准场景。",
+        "该帖迅速登上 Hacker News，社区围绕「Neki 不是 Vitess 的 fork 而是为 Postgres 从零重写」以及百万级分片的运维现实展开热烈讨论，被视为数据库圈本周最受关注的工程话题之一。"
       ],
-      "heat": "585 points / 323 comments"
+      "heat": "登上 Hacker News（item 49645686 等多帖），1.18 亿 QPS 基准引发数据库圈广泛转发讨论"
     },
     {
-      "platform": "Hacker News",
-      "author": "matthieu_bl",
-      "title": "「让 Claude 把按钮改成蓝色」恶搞站冲上 HN",
-      "url": "https://news.ycombinator.com/item?id=49623754",
+      "platform": "Reddit r/LocalLLaMA",
+      "author": "u/t4a8945",
+      "title": "DeepSeek-V4.1-Flash 权重发布引爆社区",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wcagoi/deepseekaideepseekv41flash_hugging_face/",
       "detail": [
-        "一个名为 opusfived.dev 的恶搞网页冲上 HN 高位,标题直接用了「Claude, change the Add to Cart button to blue」这句程序员最熟悉的对话。它以夸张方式模拟 Opus 5 风格的 AI 编码助手:你只想改个按钮颜色,模型却长篇大论、绕来绕去甚至改坏别处,戳中了大量 vibe coding 用户的痛点。",
-        "评论区分裂成两派:一派吐槽 Opus 5「话太多」,甚至转投 Codex;另一派则表示自己让 Claude 改按钮从没翻过车,认为体验差异来自各自的 harness、CLAUDE.md、记忆设置和提问方式。这场围绕「AI 编码助手到底好不好用」的争论,恰好呼应了近期社区对 Opus 5 冗长问题的热议。"
+        "9 月 10 日 DeepSeek 正式发布 DeepSeek-V4.1-Flash 并在 Hugging Face 放出权重，r/LocalLLaMA 的这条资源帖迅速成为社区当周最热讨论之一。这次「小版本号」却带来了几乎全新的架构：约 552B 总参数、prefill 8B / decode 16B 激活的 MoE，外加约 196B 的「Engram」n-gram 权重，并采用 encoder-decoder 结构、QAT KV cache、FP8 权重与原生多模态视觉理解。",
+        "官方称 V4.1 Flash 在性能、成本、速度上全面超过 V4 Pro，并宣布 9 月 14 日起把 v4-pro 请求路由到 V4.1 Flash 计费。社区反应两极而热烈：一方面惊叹 KV cache 压缩「1M 上下文仅约 900MB」、agentic coding 逼近 Sol/Opus、API 便宜快很多，直呼「没理由再用 codex/claude」；另一方面吐槽体积暴涨（仓库约 510GB，消费级显卡难以本地跑）、称「这已经不该叫 Flash」，还有人调侃 DeepSeek 又一次「低调改名 sandbagging」，把一个近乎全新的架构塞进 .1 版本。",
+        "帖子获得约 1,100 赞、300+ 评论，衍生的 r/DeepSeek 官方发布帖也同样火爆。"
       ],
-      "heat": "1160 points / 445 comments"
+      "heat": "约 1,100 upvotes / 331 comments，r/LocalLLaMA 当周热门 Resources 帖"
     }
   ],
   "topics": [
     {
-      "platform": "社区热议 / Hacker News",
-      "author": "seelos",
-      "title": "Cognition 发布 SWE-2 编码模型 成本砍掉六成",
-      "url": "https://news.ycombinator.com/item?id=49645443",
+      "platform": "Hacker News / Reddit",
+      "author": "OpenAI 社区(sama、theo、rileybrown 等)",
+      "title": "GPT-6 Astra 上线引爆是否 AGI 之争",
+      "url": "https://news.ycombinator.com/item?id=49554643",
       "detail": [
-        "9 月 10 日,Devin 母公司 Cognition 发布新一代编码模型 SWE-2,基于 Moonshot 的 Kimi K3(2.8T 参数)做强化学习后训练。它在 FrontierCode 1.1 Main 上拿到 50.0%,仅落后 Fable 5.1 一分,却宣称成本低 64%;在 Terminal-Bench 2.1 上以 92.8% 反超一众前沿模型。",
-        "最大亮点是「一次 RL 训练同时得到 medium/high/max 多档推理强度」,用户可按预算挑档位。社区热议集中在两点:一是「站在开源大模型肩膀上做后训练」正成为编码产品的主流打法——SWE-2 比其 Kimi K3 基座在每个基准上都涨 5-6 分;二是性价比冲击,SWE-2 在 Devin $20 套餐即可用,被称为「9 月最划算的 AI 编码方案」,直接搅动了前沿编码模型的定价格局。"
+        "OpenAI 于 9 月 3 日发布号称「世界上最智能、最对齐」的 GPT-6 Astra，随后几天在开发者社区持续发酵，成为本周最具争议的话题。发布伴随一次「乌龙首秀」（Forbes 报道其 curious false start），Sam Altman 公开为混乱的 rollout 道歉；上线后 Astra 先给 Pro/Business，再逐步开放到 Plus，并进入 API、Codex、Azure、AWS Bedrock。安全侧同样炸场：据 The Hacker News，Astra 在 ExploitBench 拿到 100% 满分（上一代 Sol 为 78.5%），触及 OpenAI Preparedness Framework 的「Critical」网络安全门槛。",
+        "社区口碑严重分化。X 上 theo、rileybrown、gregisenberg 等博主惊呼「接上 Gmail/Notion 后简直像 AGI」、分享长时程自主构建与各种玩法；而 r/ArtificialInteligence 上一篇「到底在吹什么」的帖子获 225 赞、348 评论，不少人反馈在实际用例中表现平庸，还质疑 Artificial Analysis 先低分后「改评分」抬到第二。Simon Willison 也在 9 月 7 日的 llm 0.35 CLI 更新中第一时间加入 gpt-6-astra 支持。",
+        "围绕能力真实性、成本、与 Claude/DeepSeek 对比，讨论热度贯穿整周。"
       ],
-      "heat": "342 points / 140 comments"
+      "heat": "HN 多帖上榜，r/ArtificialInteligence 讨论帖 225 赞/348 评论，X 头部博主密集转发"
     },
     {
-      "platform": "Reddit r/LocalLLaMA",
-      "author": "DigiDecode_",
-      "title": "DeepSeek V4.1 Flash 本地跑起来了 FP4 KV Cache 实测",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vjsysx/deepseek_v4_flash_0731_locally_on_cpu/",
+      "platform": "Anthropic / Hacker News",
+      "author": "Anthropic Threat Intelligence 团队",
+      "title": "Anthropic 发布九月 AI 滥用威胁情报报告",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
       "detail": [
-        "伴随 DeepSeek 于 9 月 10 日正式发布 V4.1 Flash(新架构、原生多模态、更便宜更快,并宣布 Pro 请求暂时全部路由到 Flash 计费),r/LocalLLaMA 的本地部署党立刻动手实测。新架构主打 MXFP4 量化的 KV Cache,把每 token 的全局 KV 占用压到约 890 字节,仅为 V4 Flash 的四分之一,对本地长上下文推理意义重大。",
-        "帖子里网友晒出真实配置与吞吐:有人用 Epyc Rome 16 核 + 8×64GB 2666MHz 内存 + 2×P100,跑 UD-Q4_K_XL 量化得到约 38 tok/s 预填充、6 tok/s 生成;也有人吐槽 llama.cpp 暂不支持该模型的张量切分,只能逐层分配、KV cache 必须与对应层放同一设备。围绕量化损失、是否 benchmaxx、以及是否值得为它加内存,讨论相当热烈。"
+        "Anthropic 于 9 月 10 日发布最新威胁情报报告，复盘 2025 年 12 月至 2026 年 8 月间检测并处置的 Claude 滥用行动，迅速登上 Hacker News 并在安全与 AI 圈引发广泛讨论。报告覆盖七大危害领域：网络攻击、影响力操作、监控、诈骗、生物滥用、常规武器研发与非法蒸馏（illicit distillation），并用内部代号 GTG（Generative Threat Group）标注疑似国家级、金融动机犯罪团伙、商业间谍软件厂商、国家宣传机构和政治动机个人等威胁行为体。",
+        "最受关注的判断是「从助手到编排者」的演进：AI 让攻击者能以更少资源、在杀伤链更广更深的环节「更快、更大规模」作恶，案例从伪造约会 App 诈骗到用于识别监控异见者的监控系统，还披露俄罗斯间谍（GTG-20006）、ShinyHunters 式「抢了就跑」（GTG-50014）、自动化攻击框架「exploit foundries」（GTG-10007）以及把 AI 供应链本身作为攻击目标等。报告强调涉事均为 Haiku/Sonnet/Opus，Fable/Mythos 类模型仅一例蒸馏。",
+        "社区就 AI 攻防军备竞赛、厂商披露责任与「uplift」量化方法展开激辩，成为本周安全议题焦点。"
       ],
-      "heat": "46 votes / 32 comments"
+      "heat": "登上 Hacker News（www.anthropic.com，74 分/124 评论量级），安全与 AI 政策圈广泛转发"
     },
     {
-      "platform": "社区热议 / Hacker News",
-      "author": "ModelForge",
-      "title": "GPT-6 Astra 循环 Transformer 引发架构大讨论",
-      "url": "https://news.ycombinator.com/item?id=49627370",
+      "platform": "GitHub / X",
+      "author": "Matt Pocock 等 AI 工程社区",
+      "title": "Agent Skills 生态爆发刷屏 Trending",
+      "url": "https://github.com/mattpocock/skills",
       "detail": [
-        "知名 ML 作者 Sebastian Raschka 撰文剖析 GPT-6 Astra 背后的技术方向——looped transformers(循环/权重复用的 Transformer)与所谓「hidden reasoning」(在潜空间而非可见 token 中完成推理)。",
-        "文章把最新旗舰模型的能力提升,落到具体的架构机制上,而非停留在营销话术,因此在 HN 引来大量高质量技术讨论。",
-        "话题之所以受关注,是因为它触及了 2026 年下半年最核心的争论:当推理越来越多发生在模型「看不见的内部循环」里,评测、可解释性与安全审计该如何跟进?这与同期社区关于「前沿模型内部到底在做什么」的追问相互呼应,共同构成对模型透明度的集体关注。"
+        "本周开发者社区最鲜明的一股潮流是「Agent Skills」——把工程实践封装成可复用的 agent 技能/斜杠命令。以 Total TypeScript、AI Hero 创始人 Matt Pocock 的 mattpocock/skills（Skills for Real Engineers）为代表，该仓库把「实现前先建立共识（Grill Me）、垂直切片 + TDD、深模块小接口、小而刻意设计的技能」等原则做成 25 个技能（grill-with-docs、to-spec、to-tickets、implement、code-review 等），兼容 Claude Code / Cursor / Codex / Copilot，单月 GitHub 增长约 1.5 万 stars、issue 数超 480，配套还有 skills.sh 一键安装。",
+        "同期 GitHub Trending 与 Trendshift 月榜被大量「skill」类项目占据：ADHD-friendly 输出的编程技能、blader/humanizer（去 AI 味写作）、tt-a1i/archify（可验证架构图）、DietrichGebert/ponytail（「最懒的资深工程师」式少写代码）、affaan-m/ECC（agent harness 性能优化）等纷纷冲上热门。围绕「skill 到底是提示工程还是新的软件抽象层」「GSD/BMAD/Spec-Kit 等重流程方法 vs 轻量可控技能」，X 与 HN 上讨论不断，标志着 AI 编码从「vibe coding」向「工程化技能库」演进。"
       ],
-      "heat": "502 points / 160 comments"
+      "heat": "mattpocock/skills 单月约 15,200 stars、481 issues；多款 skill 项目霸榜 GitHub Trending / Trendshift"
     }
   ],
   "creators": [
     {
-      "platform": "GitHub",
-      "name": "Sebastian Raschka (rasbt)",
-      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "platform": "GitHub / X / Substack",
+      "name": "Bilawal Sidhu",
+      "url": "https://github.com/bilawalsidhu",
       "detail": [
-        "Sebastian Raschka 是机器学习领域最具影响力的科普作者之一,著有《Build a Large Language Model (From Scratch)》,其同名开源仓库 LLMs-from-scratch 近期突破 10 万 Star(当前约 104.7k),完整覆盖从分词、注意力、预训练到指令微调的全链路纯手写实现,是无数开发者入门 LLM 内部机制的首选教材。",
-        "最近他持续高产:仓库新增了 GQA、MLA、滑动窗口注意力、Gated DeltaNet、DeepSeek 稀疏注意力、跨层 KV 共享、MoE 等一系列现代架构的 from-scratch 实现;同时发文剖析 GPT-6 Astra 与循环 Transformer,并透露正在做一个更大的「小模型」应用项目,预告了一篇超长 Substack 长文。"
+        "Bilawal Sidhu 是本周社区最活跃的创作者之一。他曾在 Google 做了六年高级产品经理，负责 ARCore Geospatial API、沉浸式地图和 3D 地图，如今是拥有 210 万+ 订阅、7.5 亿+ 播放的科技创作者，同时担任 TED 技术策展人/主持人（策划 TED2025/2026 主舞台、主持并采访过 Eric Schmidt），还是 a16z Scout。",
+        "他在 X（@bilawalsidhu）、YouTube、Threads、LinkedIn Top Voice、Instagram 多平台输出前沿创作与计算内容，并运营 Substack《Spatial Intelligence / Map the World》。本周他因开源 God's Eye View（浏览器版真实数据「间谍卫星」模拟器）引爆开发者圈：项目冲上 GitHub Trending 与 HN 首页、累计约 2.6 万 stars，他本人也第一时间在 Substack 发文《I Open Sourced God's Eye View》讲解设计理念，并在 X 上密集互动、回应社区 issue/PR。",
+        "GitHub 主页显示约 3,100 followers，内容围绕「连接比特与原子、融合现实与想象」，是空间智能、世界模型与 AI 可视化方向兼具影响力和动手能力的代表性创作者。"
       ],
-      "heat": "活跃创作者 / LLMs-from-scratch ~104.7k stars"
+      "heat": "全网 210 万+ 订阅、7.5 亿+ 播放；X 100K+、YouTube 200K+/400K+；GitHub ≈3,100 followers，本周作品冲上 Trending 首页"
     },
     {
-      "platform": "GitHub",
-      "name": "rUv (ruvnet)",
-      "url": "https://github.com/ruvnet",
+      "platform": "GitHub / X / AI Hero",
+      "name": "Matt Pocock",
+      "url": "https://github.com/mattpocock",
       "detail": [
-        "rUv(GitHub ID: ruvnet)本周登上 GitHub Trending 开发者榜第一名,是当前 AI Agent 编排工具方向最受关注的独立开发者之一。他的代表作 ruflo 定位为「面向 Claude 的领先 Agent 编排平台」,主打部署智能多 Agent 群集、协调自主工作流,踩中了 2026 年 Agent 与 Claude 生态爆发的风口。",
-        "在 Claude Code skills、多 Agent 协作成为社区热词的当下,ruvnet 的项目持续获得大量 Star 与讨论增长,代表了「围绕主流大模型构建 Agent 编排与自动化工作流」这一开源潮流。对追踪 AI 编码与 Agent 工具的开发者来说,是本周不可忽视的活跃创作者。"
+        "Matt Pocock 是 Total TypeScript 与 AI Hero 的创始人，也是 TypeScript 社区的知名教育者（ts-reset 作者、曾在 Stately 参与 XState 核心团队，并在 Vercel 做过 Turborepo/Turbopack 的开发者布道）。近一年他把重心转向「用 AI 编码 agent 做真实工程」，核心主张是：代码生成越快，工程判断力越值钱——薄弱架构、模糊需求和差劲的测试会同样拖垮自动化开发。",
+        "本周他因 mattpocock/skills（Skills for Real Engineers）成为 AI 工程圈的焦点创作者。该仓库把他的工作流（Grill Me 先审需求、to-spec/to-tickets 拆解、implement 测试先行、code-review 对标规范、垂直切片、深模块小接口）沉淀成 25 个可安装技能，单月 GitHub 增长约 1.5 万 stars、issue 超 480，配套 aihero.dev 邮件课与 skills.sh 安装工具。",
+        "作为 AI Engineer 大会讲者（2026 年以 AI Hero Director 身份），他持续在 X 和 YouTube 输出「不靠 vibe coding、坚持工程标准」的方法论，是当前「Agent Skills」潮流最具代表性的推动者之一。"
       ],
-      "heat": "活跃创作者 / GitHub Trending 开发者本周第 1"
+      "heat": "mattpocock/skills 单月约 15,200 stars、481 issues；AI Hero 创始人、AI Engineer 大会讲者，X/YouTube 活跃"
     },
     {
-      "platform": "GitHub",
-      "name": "Chi Wang (sonichi)",
-      "url": "https://github.com/sonichi",
+      "platform": "YouTube / X",
+      "name": "Theo Browne (t3.gg)",
+      "url": "https://www.youtube.com/@t3dotgg",
       "detail": [
-        "Chi Wang(GitHub ID: sonichi)是多 Agent 框架领域的知名研究者与工程师,曾深度参与业界广泛使用的 AutoGen 等 Agent 项目,本周同样进入 GitHub Trending 开发者榜(第 7 位),显示其新作正获得社区关注。",
-        "他近期的热门仓库 sutando 被描述为「我的 AI Stand——白天实时运行,夜里自我重写,召唤我的 AI 超能力」,是一个探索「自我改写 / 自主演化」的个人 AI Agent 实验项目。",
-        "这类把 Agent 自动化推向「持续自我迭代」的尝试,正是当下开发者社区最有想象力的方向之一,也让 sonichi 成为值得关注的活跃创作者。"
+        "Theo Browne（网名 t3.gg）是全栈开发者、创业者与人气极高的技术内容创作者，创办了 Ping Labs（旗下 T3 Chat、UploadThing 等产品），并以开源脚手架 create-t3-app 在 TypeScript/React 全栈生态中广为人知。他在 YouTube（@t3dotgg）与 X（@theo）上以直言不讳、节奏快、观点鲜明著称，尤其擅长第一时间对新模型、新框架和开发者工具做实测与「暴论式」点评，是许多前端与 AI 工程开发者追更的对象。",
+        "本周他成为 GPT-6 Astra 话题里最活跃的头部博主之一：在模型上线后迅速录制体验视频，演示把 Astra 接入 Gmail、Notion 等工具做长时程自主任务，直呼「接上之后简直像 AGI」，也不回避对成本、可靠性与厂商营销话术的吐槽。他的内容在 X 上引发大量转发与争论，成为社区判断「GPT-6 Astra 到底强不强」的重要参考坐标，持续巩固其在 AI 编码与开发者文化领域的影响力。"
       ],
-      "heat": "活跃创作者 / GitHub Trending 开发者本周第 7"
+      "heat": "YouTube 数十万订阅、X 头部技术博主；本周 GPT-6 Astra 体验内容引发社区密集转发讨论"
     }
   ]
 }
