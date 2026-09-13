@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-13",
+  "generated_at": "2026-09-13T08:05:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "GitHub",
+      "author": "cathrynlavery（Cathryn Lavery）",
+      "title": "cathrynlavery/diagram-design：给编码代理配一套\"设计师不会嫌弃\"的编辑级作图技能",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "detail": [
+        "9 月 11 日前后 GitHub 热榜上冲得最猛的开源项目之一，是 Cathryn Lavery 做的 diagram-design。它是一个装进 Claude Code、Codex、Factory Droid、Pi 等 Agent Skills 兼容宿主里的\"编辑级画图\"技能：让编码代理不再吐出千篇一律的圆角方框，而是产出自包含的 HTML + SVG 图表——无阴影、无 Mermaid 那种\"糊弄式\"排版，也无需构建步骤、JavaScript 或外部图片依赖，直接在浏览器里打开即可。作者的动机很接地气：她自己写博客、做品牌站，每次让 AI 画架构图或流程图都得到\"跟网站风格完全不搭\"的通用图，只能花 30 分钟跟 Figma 死磕，索性做了这个技能，声称能读取你的网站、60 秒内匹配品牌风格。",
+        "项目的设计哲学也踩中了社区审美：\"最高级的操作往往是删除\"，每个节点都要挣得自己的位置，强调点色只留给读者最该先看的 1~2 处，目标密度控制在 4/10。到 2.5 版已经内置 39 种视觉类型，覆盖架构图、流程图、时序图、状态机、ER 数据模型、泳道、象限、雷达、飞轮、Sankey、鱼骨、Wardley 地图、看板、用户旅程、UML 类图、数据库 schema 等；每种都提供极简浅色、极简深色、完整编辑三套静态变体，还能把 draw.io / Mermaid / Excalidraw 的旧图按指定格式\"重绘\"成编辑级成品。热度方面，第三方 GitHub 热榜显示它当日 star 约 38.1k、单日新增约 +1.3k，稳居 AI 板块头部，并已挂上 Trendshift 榜单徽章。",
+        "仓库迭代极其活跃——159 次提交、30 个分支，插件清单在 9 月 10 日刚 bump 到 2.6.22，还同步支持了 GitHub Copilot 商店安装，说明这不是一次性玩票，而是被大量代理用户实际当作\"出图默认工具\"的持续工程。它精准回应了 2026 年 vibe-coding 圈的一个真实痛点：模型什么都能画，但\"画得能见人\"才是稀缺能力。"
+      ],
+      "heat": "GitHub 热榜当日 star 约 38.1k、单日 +1.3k，位列 AI 板块头部并挂 Trendshift 徽章；159 次提交 / 30 分支，插件 2.6.22 于 9 月 10 日更新；内置 39 种编辑级图表类型，MIT 开源"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "otherayden (Ayden Diel)",
+      "title": "Show HN: Hacker News, Without AI（unslop.news）",
+      "url": "https://news.ycombinator.com/item?id=49660783",
+      "detail": [
+        "9 月 12 日前后 Hacker News 首页最具话题性的一帖，是开发者 Ayden Diel（HN 用户名 otherayden）做的 unslop.news——一个\"去 AI 版的 Hacker News\"。它抓取 HN 原始信息流，用一套过滤器把所有关于 AI 的帖子剔除掉，只留下非 AI 的技术内容；作者在页面底部标注\"82 of 178 submissions survived the filter\"，也就是说当天近一半的 HN 提交都因涉及 AI 被过滤。这条帖子在 24 小时内冲到 192 分、80 条评论，直接引爆了社区对\"AI 内容疲劳\"的集体吐槽。",
+        "评论区极具戏剧性：热评第一指出\"讽刺的是，这个'去 AI'站点本身就是用 AI 做出来的、目标也靠 AI 实现\"，作者 otherayden 亲自下场承认页面署名\"made with <3 by Ayden\"里藏的这层反讽\"确实是故意的\"。还有人当场做了浏览器插件版 hnslop，有人吐槽\"过滤完几乎没剩下什么编程相关帖子了\"，也有人认真讨论到底该过滤\"关于 AI 的文章\"还是\"由 AI 写的文章\"。这帖之所以值得记入社区日报，是因为它是一个\"元现象\"：当天 HN 首页同时冒出多个\"HN without AI\"变体，jayGlow 评论说\"这已经是我今天看到的第四个类似站点了\"。",
+        "它精准捕捉到 2026 年技术社区一种普遍情绪——在 GPT-6、Claude Fable 5.1 密集轰炸后，一部分开发者开始主动为信息流\"降噪\"，用工具把 AI 话题隔离出去。"
+      ],
+      "heat": "HN 192 分、80 条评论（发布约 1 天）；作者标注当天 178 条提交中 82 条通过过滤，即约 54% 帖子涉 AI 被剔除；引发多个同类站点跟风"
+    },
+    {
+      "platform": "Reddit (r/LocalLLaMA)",
+      "author": "No_Afternoon_4260 / Z.ai",
+      "title": "[Megathread] GLM-5.3-Flash —— 原代号 ox-alpha 的开源多模态旗舰",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vyzzxu/megathread_glm53flash_former_oxalpha/",
+      "detail": [
+        "本地大模型社区 r/LocalLLaMA 过去两天最热的技术讨论，是围绕智谱 Z.ai 新开源的 GLM-5.3-Flash（发布前在竞技场上以匿名代号 ox-alpha 露面）而建立的官方 Megathread。它被社区称为 GLM-5 系列第一个原生多模态模型，也是 glm5_next 架构首次开源，MIT 许可，权重直接放出，成为本周\"你能在本地跑起来的\"最受关注模型。",
+        "技术规格是讨论焦点：总参数 320B、激活 18B 的 MoE，288 个路由专家 + 1 个共享专家；架构上采用\"混合稀疏 + 线性注意力\"，45 层里 34 层是 KDA 线性注意力、11 层是 DeepSeek 风格的稀疏注意力（配 lightning indexer、top-2048 预算），大幅压低长上下文的服务成本；还带了 24 层 ViT 视觉编码器做原生图像/视频 token、1 层 MTP 投机解码头，主仓库直接以 FP8 发布。Z.ai 的官方说法是\"以十分之一的价格超过 GLM-5.2，并在编码和 agentic 基准上逼近 Claude Opus 4.8\"，上下文长度标称 100 万 token。",
+        "这条 Megathread 集中承接了量化版本、微调/abliteration、聊天模板、vLLM/推理服务器配置以及大量民间跑分对比，是社区本周围绕开源模型协作最密集的据点。帖子本身获得约 270 赞、191 条评论，且已扩展到第二页，评论里对\"10 倍降价还能逼近闭源旗舰\"的性价比叙事既有惊叹也有严格的复现质疑，是 2026 年\"开源追赶闭源\"叙事的又一节点。"
+      ],
+      "heat": "Reddit 主帖约 270 upvotes、191 条评论并已分两页；聚合了量化/微调/推理配置/跑分等多路讨论；模型 320B-A18B MoE、100 万 token 上下文、MIT 开源"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "X / 多平台（Artificial Analysis、BenchLM、开发者博客）",
+      "author": "开发者社区",
+      "title": "GPT-6 Astra vs Claude Fable 5.1：本周开发者\"用哪个\"的正面对撞",
+      "url": "https://benchlm.ai/compare/claude-fable-5-1-vs-gpt-6-astra",
+      "detail": [
+        "9 月上旬两大旗舰几乎前后脚落地——Anthropic 9 月 1 日发布 Claude Fable 5.1、OpenAI 9 月 3 日发布 GPT-6 Astra（Greg Brockman 一句\"Welcome to the AGI era\"点火）——直接把社区推入本周最大的话题：到底用哪个。争论跨越 X、Reddit、Artificial Analysis、BenchLM 等多个平台同时发酵，核心不是\"谁更强\"这么简单，而是\"在什么任务、什么价位上更值\"。聚合评测给出的画面是\"两强几乎打平、各有侧重\"。",
+        "BenchLM 的对比页把 Claude Fable 5.1 综合分放在 84.61（公开榜第 1），GPT-6 Astra 84.08（第 2），差距在误差区间内；Astra 在计算机操作（OSWorld 2.0）、推理、长上下文（1M）上更亮眼，Fable 5.1 则在长程可读性、代码审查、科研\"灵光一现\"上被反复点名。价格是另一条主线：Astra API 定价 $10/$50 每百万 token，是上代 GPT-5.6 Sol 的 2.5 倍；而 Fable 5.1 靠新的 cache read 定价，被 Devin 团队公开表示\"终于让 Fable 级模型在代码审查这类工作负载上变得经济\"，宣布把 Opus 5 的流量迁到 Fable 5.1。社区的真实分歧体现在使用体感上：有人晒出\"Fable 5.1 找出了团队四五年没定位到的、百万分之一概率的崩溃 bug\"，也有人认为 Astra 在\"看图在画图软件里重画一个人\"这类计算机操作和创意任务上更利落高效。",
+        "X 上的趋势话题直接把问题抛给开发者——\"现在这一刻你更想用哪个，决定因素是什么\"，评论区从\"按 effort 档位算性价比\"吵到\"政企采购要不要走多模型路由\"，成为本周 AI 工程圈绕不开的对撞。"
+      ],
+      "heat": "两模型公开综合分 84.61 vs 84.08（BenchLM，误差区间重叠）；Astra 定价为上代 2.5 倍；Devin 等团队公开迁移决策；X 趋势话题 + 多篇对比长文同步发酵"
+    },
+    {
+      "platform": "X（simonwillison 等）",
+      "author": "Simon Willison 及跟随者",
+      "title": "\"鹈鹕骑自行车\"再成尺子：社区用它把 GPT-6 Astra 各 effort 档摆上台面",
+      "url": "https://x.com/simonw/status/2095996502913290422",
+      "detail": [
+        "每逢旗舰发布，社区都会掏出一把非官方却极具传播力的\"民间基准\"——Simon Willison 的\"让模型用 SVG 画一只骑自行车的鹈鹕\"。GPT-6 Astra 一拿到访问权，他就把 Astra 从 low 到 max 五个 reasoning effort 档位、和 GPT-5.6 的 Sol/Terra/Luna 三档拼成一张对比网格发到 X 上，配文\"想看鹈鹕吗？你当然想看鹈鹕\"，一天内浏览量冲到约 15.9 万，成为本周跨平台传播的\"轻量评测\"标杆。",
+        "之所以能成话题，是因为它把抽象的\"模型变强了多少\"翻译成所有人一眼能看懂的图像质量差异。结论也很直观：Astra 画出的鹈鹕明显比 GPT-5.6 好，且 effort 越高越精细——但代价被同步量化，AI 周报援引数据称 Astra 在 max effort 下单张鹈鹕渲染烧掉约 12,638 个输出 token、折合约 63 美分，把\"能力提升\"和\"推理成本膨胀\"这对本周社区最在意的矛盾摆到了明面上。",
+        "这个话题的意义超出一张搞笑图：它代表了 2026 年社区评测文化的一种范式——在厂商官方 benchmark 之外，开发者更信任这类\"可复现、可肉眼判断、还能横向拉通历代模型\"的民间尺子。围绕鹈鹕的讨论顺势延伸到\"effort 档位到底该怎么选\"\"高 effort 的 token 账单值不值\"，成为 Astra 发布后开发者社区自发组织的一场分布式压测。"
+      ],
+      "heat": "Simon Willison 原帖约 15.9 万浏览；对比覆盖 Astra 5 档 effort + GPT-5.6 三型号；max effort 单图约 12,638 输出 token、约 $0.63，被多家 AI 周报转引"
+    },
+    {
+      "platform": "Hacker News / 多平台",
+      "author": "开发者社区",
+      "title": "\"信息流反 AI 降噪\"成潮流：unslop.news 与一波\"去 AI 版 HN\"同时爆发",
+      "url": "https://www.unslop.news/",
+      "detail": [
+        "本周社区出现一个耐人寻味的跨平台趋势：越来越多开发者开始主动给自己的信息流\"去 AI 化\"。导火索是 Ayden Diel 的 unslop.news——一个把 Hacker News 里所有 AI 相关帖子过滤掉的镜像站；它一上线就登上 HN 首页高位，并在几乎同一时间催生出一批同类项目：浏览器插件版 hnslop、以及多个\"HN without AI\"变体，以至于有用户调侃\"我们是不是还需要一个专门聚合'去 AI 版 HN'的站点\"。",
+        "有意思的是这些站点过滤后的画面本身就是话题：unslop.news 显示当天 178 条 HN 提交里只有 82 条\"幸存\"，意味着超过一半的技术头条都在谈 AI；有人试用插件版后感叹\"过滤完几乎没剩下什么编程帖子了\"，反向印证了社区的信息过载感。争论也随之分层——到底该过滤\"关于 AI 的文章\"，还是过滤\"由 AI 生成的文章\"？后者被不少人认为更有价值，并牵出\"AI 生成内容是否该在上游 HN 被打标/flag\"的老议题。",
+        "这股潮流和同期\"GPT-6/Fable 5.1 密集轰炸\"形成鲜明张力：一边是模型能力狂飙、AI 帖子刷屏，一边是相当一部分开发者用工具主动\"隔离\"AI 噪音、回到纯技术阅读。它不是反对 AI 本身，更像社区对\"AI 叙事饱和\"的一次集体情绪释放，也是 2026 年下半年开发者内容消费习惯的一个真实切片。"
+      ],
+      "heat": "unslop.news 登 HN 首页高位、母帖 192 分 80 评；同期涌现 hnslop 等多个\"去 AI 版 HN\"；过滤显示约 54% 当日 HN 提交涉 AI"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "Substack / 播客 / YouTube（Latent.Space）",
+      "name": "swyx（Shawn Wang）",
+      "url": "https://www.latent.space/",
+      "detail": [
+        "在旗舰模型密集发布的这一周，最能帮开发者\"消化\"这些信息的社区创作者之一是 swyx（Shawn Wang）和他主理的 Latent.Space——面向\"AI Engineer\"这一新兴职业群体的技术媒体矩阵。它同时是 newsletter、播客和线上线下社区，定位于\"用 AI 工程师听得懂的语言，第一时间拆解每一个 Current Thing\"，在 GPT-6 Astra、Claude Fable 5.1 这类发布节点上，正是这类创作者把厂商公告翻译成\"我该不该迁移、怎么用\"的工程决策。",
+        "影响力数据相当硬核：Latent.Space 官方自述\"2025 年全渠道跨过 20 万订阅 / 千万级观看\"，播客在 Apple Podcasts 上评分 4.6、被列为 US Tech 榜前 10，音频与 YouTube 视频双形态更新，Discord 社区\"线上线下都非常活跃\"。它的采访名单几乎是一张 AI 半壁江山的通讯录——OpenAI、Anthropic、Gemini、Meta（Soumith Chintala）、Sierra（Bret Taylor）、tiny（George Hotz）、Modular（Chris Lattner）、Answer.ai（Jeremy Howard）等悉数上过节目。",
+        "swyx 之所以是\"本周最有影响力的创作者\"级别人物，是因为他不只是搬运新闻，而是持续输出\"Software 3.0\"\"AI Engineer\"这类被社区广泛采用的概念框架，并借由 AI Engineer 大会/媒体把一整个职业身份组织起来。在模型能力周更、开发者最需要\"信噪比\"的当下，这种\"给圈子提供解释框架和一手访谈\"的创作者，其社区权重远超单条爆款。"
+      ],
+      "heat": "Latent.Space 官方称 2025 年全渠道 20 万+ 订阅 / 千万级观看；Apple Podcasts 评分 4.6、US Tech 榜前 10；嘉宾覆盖 OpenAI/Anthropic/Meta/Modular 等头部实验室"
+    },
+    {
+      "platform": "X / GitHub（fast.ai、Answer.AI）",
+      "name": "Jeremy Howard（jph00）",
+      "url": "https://github.com/jph00",
+      "detail": [
+        "在\"开源能不能追上闭源\"成为本周主线（GLM-5.3-Flash 开源、模型民主化讨论升温）的背景下，Jeremy Howard 依旧是社区里\"平民化 AI\"最有分量的旗手。他是 fast.ai 的联合创始人、Answer.AI 的 CEO/研发负责人，Kaggle 前任主席，长期主张\"让普通开发者也能训练和使用前沿模型\"，其立场天然贴合本周围绕开源与低成本模型的热议。",
+        "影响力数据上，他在 X（@jeremyphoward）已累计约 6.56 万条发帖，是 AI 圈高频、高信噪比的技术意见领袖之一；GitHub 账号 jph00 有约 7.6k 关注者，个人主页仍持续维护\"我做过/共创过的东西\"清单，从 fast.ai 深度学习课程、fastai 库到近年的一系列开源工具。他的观点常被多份\"2026 最值得关注的 AI 人物\"榜单收录，横跨 X、LinkedIn 与个人站点。",
+        "把他列为本周社区创作者，是因为他代表了与\"旗舰军备竞赛\"相对的另一极——当 GPT-6 Astra 用 10 万+ GPU 训练、定价翻倍时，Jeremy Howard 这一派持续输出\"小模型、可自托管、教得会普通人\"的方法论和工具，正好呼应了 r/LocalLLaMA 上 GLM-5.3-Flash Megathread 那种\"我要能在本地自己跑起来\"的社区诉求，是开源阵营在创作者维度的代表性声音。"
+      ],
+      "heat": "X @jeremyphoward 约 6.56 万条发帖；GitHub jph00 约 7.6k 关注者；fast.ai/Answer.AI 联创、Kaggle 前主席，常年入选 AI 影响力人物榜"
+    },
+    {
+      "platform": "Hacker News（个人开发者）",
+      "name": "Ayden Diel（HN: otherayden）",
+      "url": "https://news.ycombinator.com/user?id=otherayden",
+      "detail": [
+        "如果说 swyx 和 Jeremy Howard 是\"体系级\"创作者，那本周社区\"最活跃、传播最猛\"的个人创作者当属独立开发者 Ayden Diel（HN 用户名 otherayden）。他做的 unslop.news——一个把 Hacker News 里 AI 相关帖子全部过滤掉的\"去 AI 版 HN\"——一天内冲到 HN 首页 192 分、80 条评论，并直接引爆了本周\"信息流反 AI 降噪\"的话题浪潮，甚至催生出一批 hnslop 等跟风项目。",
+        "他的\"影响力\"不体现在粉丝量，而在于精准戳中社区情绪的能力和亲自下场的社区参与度：面对热评第一\"这个去 AI 站点本身就是用 AI 做的\"的调侃，他亲口承认页面署名里藏的反讽\"是故意的\"；面对\"该过滤 AI 话题还是 AI 生成内容\"的争论，他补充说明 unslop.news 其实也会把这类\"元帖子\"过滤掉。这种\"一个周末小项目 + 作者在评论区的高互动\"正是 Hacker News 文化里最典型的高影响力时刻。",
+        "把他选入本周创作者，是因为他代表了社区里一股不容忽视的、来自基层的声音：在大厂旗舰和头部 KOL 主导的叙事之外，一个独立开发者用一个极简工具，把\"我们是不是被 AI 内容淹没了\"这个集体潜意识摆上桌面，并在 48 小时内组织起一场分布式的讨论与模仿。他的爆发是 2026 年 HN 生态\"个人创作者也能一夜点燃全站话题\"的鲜活样本。"
+      ],
+      "heat": "unslop.news 单帖 24 小时内 192 分 / 80 评并登 HN 首页；作者在评论区高频互动、亲自回应热评；催生 hnslop 等多个跟风项目"
+    }
+  ]
+}
