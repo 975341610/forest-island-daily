@@ -67,16 +67,17 @@
     "id": "2026-08-31_vibecoding_1",
     "date": "2026-08-31",
     "category": "VibeCoding",
-    "subcat": "开源项目",
-    "platform": "GitHub Trending",
+    "subcat": "AI Coding 工具",
+    "platform": "GitHub",
     "platform_color": "#F6A07C",
-    "title": "archify 冲上GitHub趋势榜第一",
+    "title": "Archify:AI Agent 一句话生成架构图",
     "url": "https://github.com/tt-a1i/archify",
-    "image": "images/2026-08-31/2026-08-31_vibecoding_1.jpg",
+    "image": "images/2026-09-13/2026-09-13_vibecoding_1.jpg",
     "detail": [
-      "archify 是一款面向 AI 编程智能体的\"Agent Skill\"工具，主打把代码库自动转成架构图、时序图、数据流图和生命周期图，产物是自带动画、可清晰导出的独立 HTML 文件，定位为 Mermaid 的升级替代方案，兼容 Claude Code、Codex、opencode 等主流编码代理生态。",
-      "项目在 8 月 30 日单日新增约 4562 颗星，冲上 GitHub 当日趋势榜首位，累计 star 已突破 3.4 万、fork 超 2100，采用 MIT 许可证，用 JavaScript 编写。仓库当天仍在高频推送更新，topics 覆盖 architecture-as-code、claude-skill、text-to-diagram 等热门标签。",
-      "它踩中了当下\"让 AI 代理输出可验证工程图\"的痛点，被开发者视为把杂乱代码快速可视化的利器。社区热议其能否真正取代 Mermaid，同时也有人担心自动生成图表的准确性，讨论区 issue 与 PR 数量快速攀升，成为 VibeCoding 圈近 24 小时最受关注的新星工具之一。"
+      "Archify 是面向 Cursor、Claude Code、Codex CLI 与 OpenCode 的 Agent Skill(智能体技能),9 月 12 日以约 1.1k 单日新增星标登上 GitHub Trending 第六位,累计已达 59.6k 星、3.9k fork,采用 MIT 许可。它把代码库或系统描述直接在聊天窗口里转成可交互的系统架构图。",
+      "核心机制是让 Agent 产出带类型的 JSON 中间表示(IR),Archify 再用 Node.js 引擎确定性地编译为 HTML/SVG,支持架构图、时序图、数据流图等五种图型与明暗主题。开发者只需 npx skills add tt-a1i/archify -g 即可全局安装,当前开发版本为 v2.17.0-dev.1。",
+      "最受关注的是「合并前审查」能力:它能把两份校验过的架构快照做成 Before/Delta/After 对比,精确标出新增、删除、变更、移动与重路由的节点事实,且每个交互都可回溯到源码,避免凭空杜撰拓扑。产物为单文件 HTML,附带 PNG、SVG 与分享卡。",
+      "社区因它把「架构可视化」纳入 Agent 工作流、且不依赖已有仓库(可纯靠对话描述系统)而热议,视其为 AI Coding 时代文档与设计环节的自动化补位。"
     ]
   },
   {
