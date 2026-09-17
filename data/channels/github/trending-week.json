@@ -12,8 +12,8 @@
     },
     "debpalash/VoiceStudio": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 7480,
+      "appearances": 4,
+      "total_today_stars": 8896,
       "language": "Python",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4178343?v=4",
@@ -21,8 +21,8 @@
     },
     "JustVugg/colibri": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 5067,
+      "appearances": 4,
+      "total_today_stars": 6613,
       "language": "C",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "owner_avatar": "https://avatars.githubusercontent.com/u/13022503?v=4",
@@ -39,8 +39,8 @@
     },
     "SnailSploit/Claude-Red": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1784,
+      "appearances": 4,
+      "total_today_stars": 2151,
       "language": "Python",
       "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/95986478?v=4",
@@ -48,8 +48,8 @@
     },
     "multimodal-art-projection/YuE": {
       "best_rank": 6,
-      "appearances": 3,
-      "total_today_stars": 1747,
+      "appearances": 4,
+      "total_today_stars": 2079,
       "language": "Python",
       "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/136257670?v=4",
@@ -66,8 +66,8 @@
     },
     "alibaba/open-code-review": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 4770,
+      "appearances": 4,
+      "total_today_stars": 8001,
       "language": "Go",
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -101,9 +101,9 @@
       "html_url": "https://github.com/max-sixty/worktrunk"
     },
     "alphaXiv/OpenResearch": {
-      "best_rank": 10,
-      "appearances": 3,
-      "total_today_stars": 1388,
+      "best_rank": 7,
+      "appearances": 4,
+      "total_today_stars": 2405,
       "language": "Rust",
       "description": "Run parallel research agents with any model",
       "owner_avatar": "https://avatars.githubusercontent.com/u/153782766?v=4",
@@ -182,9 +182,9 @@
       "html_url": "https://github.com/microsoft/AI-Engineering-Coach"
     },
     "Tencent/WeKnora": {
-      "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 905,
+      "best_rank": 4,
+      "appearances": 3,
+      "total_today_stars": 2102,
       "language": "Go",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -246,8 +246,8 @@
     },
     "Panniantong/Agent-Reach": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 1611,
+      "appearances": 3,
+      "total_today_stars": 2087,
       "language": "Python",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
@@ -255,8 +255,8 @@
     },
     "666ghj/MiroFish": {
       "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 1179,
+      "appearances": 3,
+      "total_today_stars": 1346,
       "language": "Python",
       "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110395318?v=4",
@@ -282,17 +282,17 @@
     },
     "ruvnet/RuView": {
       "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 804,
+      "appearances": 3,
+      "total_today_stars": 1000,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
       "html_url": "https://github.com/ruvnet/RuView"
     },
     "addyosmani/agent-skills": {
-      "best_rank": 20,
-      "appearances": 2,
-      "total_today_stars": 661,
+      "best_rank": 9,
+      "appearances": 3,
+      "total_today_stars": 1319,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -318,8 +318,8 @@
     },
     "reconurge/flowsint": {
       "best_rank": 17,
-      "appearances": 2,
-      "total_today_stars": 607,
+      "appearances": 3,
+      "total_today_stars": 817,
       "language": "TypeScript",
       "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/182449807?v=4",
@@ -345,8 +345,8 @@
     },
     "cloudflare/security-audit-skill": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 1434,
+      "appearances": 2,
+      "total_today_stars": 2361,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -362,9 +362,9 @@
       "html_url": "https://github.com/tt-a1i/archify"
     },
     "NationalSecurityAgency/ghidra": {
-      "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 725,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 1784,
       "language": "Java",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11298292?v=4",
@@ -416,9 +416,9 @@
       "html_url": "https://github.com/TencentCloud/CubeSandbox"
     },
     "roboflow/supervision": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 217,
+      "best_rank": 17,
+      "appearances": 2,
+      "total_today_stars": 477,
       "language": "Python",
       "description": "We write your reusable computer vision tools. 💜",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53104118?v=4",
@@ -432,6 +432,96 @@
       "description": "The Open Standard for Generative UI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/155424887?v=4",
       "html_url": "https://github.com/thesysdev/openui"
+    },
+    "abue-ammar/tinycast": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 1179,
+      "language": "Swift",
+      "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14371506?v=4",
+      "html_url": "https://github.com/abue-ammar/tinycast"
+    },
+    "block/buzz": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 498,
+      "language": "Rust",
+      "description": "A hive mind communication platform",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/185116535?v=4",
+      "html_url": "https://github.com/block/buzz"
+    },
+    "jamiepine/voicebox": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 417,
+      "language": "TypeScript",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/32987599?v=4",
+      "html_url": "https://github.com/jamiepine/voicebox"
+    },
+    "TencentCloud/Octop": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 396,
+      "language": "Python",
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
+      "html_url": "https://github.com/TencentCloud/Octop"
+    },
+    "volcengine/OpenViking": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 276,
+      "language": "Python",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/67365215?v=4",
+      "html_url": "https://github.com/volcengine/OpenViking"
+    },
+    "n8n-io/n8n": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 225,
+      "language": "TypeScript",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/45487711?v=4",
+      "html_url": "https://github.com/n8n-io/n8n"
+    },
+    "koala73/worldmonitor": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 181,
+      "language": "TypeScript",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/996596?v=4",
+      "html_url": "https://github.com/koala73/worldmonitor"
+    },
+    "cursor/plugins": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 171,
+      "language": "TypeScript",
+      "description": "Cursor plugin specification and official plugins",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
+      "html_url": "https://github.com/cursor/plugins"
+    },
+    "anthropics/claude-code": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 165,
+      "language": "TypeScript",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-code"
+    },
+    "rustfs/rustfs": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 156,
+      "language": "Rust",
+      "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/151849438?v=4",
+      "html_url": "https://github.com/rustfs/rustfs"
     }
   }
 }

@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-17": {
-      "public-apis/public-apis": 1,
-      "usestrix/strix": 2,
-      "cordiverse/cordis": 3,
-      "citrolabs/ego-lite": 4,
-      "harry0703/MoneyPrinterTurbo": 5,
-      "cactus-compute/needle": 6,
-      "MakazhanAlpamys/Soup": 7,
-      "HKUDS/CLI-Anything": 8,
-      "basecamp/omarchy": 9,
-      "megadose/holehe": 10,
-      "yt-dlp/yt-dlp": 11,
-      "chaitanyagiri/munder-difflin": 12,
-      "cursor/plugins": 13,
-      "CodebuffAI/freebuff": 14,
-      "ollama/ollama": 15,
-      "google-research/timesfm": 16,
-      "Gitlawb/zero": 17,
-      "remotion-dev/remotion": 18,
-      "putyy/res-downloader": 19,
-      "mnfst/awesome-free-llm-apis": 20,
-      "jundot/omlx": 21,
-      "nautechsystems/nautilus_trader": 22,
-      "superplanehq/superplane": 23,
-      "smicallef/spiderfoot": 24,
-      "sxyazi/yazi": 25
-    },
     "2026-08-18": {
       "public-apis/public-apis": 1,
       "harry0703/MoneyPrinterTurbo": 2,
@@ -836,6 +809,33 @@
       "roboflow/supervision": 23,
       "melgarafael/DeskcommCRM": 24,
       "thesysdev/openui": 25
+    },
+    "2026-09-17": {
+      "alibaba/open-code-review": 1,
+      "JustVugg/colibri": 2,
+      "debpalash/VoiceStudio": 3,
+      "Tencent/WeKnora": 4,
+      "abue-ammar/tinycast": 5,
+      "NationalSecurityAgency/ghidra": 6,
+      "alphaXiv/OpenResearch": 7,
+      "cloudflare/security-audit-skill": 8,
+      "addyosmani/agent-skills": 9,
+      "block/buzz": 10,
+      "Panniantong/Agent-Reach": 11,
+      "jamiepine/voicebox": 12,
+      "TencentCloud/Octop": 13,
+      "SnailSploit/Claude-Red": 14,
+      "multimodal-art-projection/YuE": 15,
+      "volcengine/OpenViking": 16,
+      "roboflow/supervision": 17,
+      "n8n-io/n8n": 18,
+      "reconurge/flowsint": 19,
+      "ruvnet/RuView": 20,
+      "koala73/worldmonitor": 21,
+      "cursor/plugins": 22,
+      "666ghj/MiroFish": 23,
+      "anthropics/claude-code": 24,
+      "rustfs/rustfs": 25
     }
   }
 }
