@@ -1,0 +1,215 @@
+[
+  {
+    "id": "2026-09-17_vibe_4",
+    "date": "2026-09-17",
+    "category": "VibeCoding",
+    "subcat": "AI编程",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "OpenAI Codex发布0.155 alpha.9版本",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.155.0-alpha.9",
+    "image": "images/2026-09-17/2026-09-17_vibe_4.jpg",
+    "detail": [
+      "OpenAI的开源编码智能体Codex在北京时间近期(UTC 9月16日01:34)发布了rust-v0.155.0-alpha.9预发布版本,延续其Rust重构版本的高频迭代节奏。作为OpenAI官方的命令行编码Agent,Codex仓库热度极高,当前星标约12.5万、分叉1.93万,是AI编程赛道最受关注的开源项目之一。",
+      "本次alpha.9距上一个发布仅相隔61次提交,属于快速滚动的预发布通道,随版本附带多达175个构建产物(Assets),覆盖各平台二进制,方便尝鲜用户直接下载体验最新特性与修复。这种\"alpha小步快跑\"的策略,让社区能第一时间获取Codex CLI的能力增强与稳定性改进。",
+      "Codex近期在0.154到0.155系列持续密集发版,反映出OpenAI对CLI编码Agent体验的高投入,与Claude Code、Cursor等形成正面竞争。发布页面下已有开发者以点赞、庆祝、火箭等表情积极互动,显示出社区对Codex快速演进的热切期待,进一步推动终端AI编程工具的白热化竞争。"
+    ]
+  },
+  {
+    "id": "2026-09-17_vibe_3",
+    "date": "2026-09-17",
+    "category": "VibeCoding",
+    "subcat": "AI编程",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "alphaXiv开源OpenResearch研究Agent",
+    "url": "https://github.com/alphaXiv/OpenResearch",
+    "image": "images/2026-09-17/2026-09-17_vibe_3.jpg",
+    "detail": [
+      "arXiv增强平台alphaXiv开源了OpenResearch,一个本地优先的研究智能体工作台,能把Claude Code、Codex、OpenCode或Cursor变成会查文献、提假设、跑实验、产出研究成果的研究Agent。项目采用Rust编写、MIT协议,开源后登上GitHub Trending,当前星标约4.4千、分叉273,支持macOS与Windows测试版。",
+      "工具通过一行安装脚本获得orx命令,orx up会在127.0.0.1:4791打开本地仪表盘,数据以SQLite本地存储、默认不上传代码。它为每个研究方向分配独立Agent会话与隔离的git worktree,用git原生的实验树追踪变体,每次运行都留存不可变的提交归档,把日志、diff、结果与产生它的工作牢牢绑定,保证可复现。",
+      "OpenResearch支持\"自动研究\"闭环:自主提出想法、修改代码、启动实验、检查证据并决定下一步,多个Agent可并行探索不同方向。同一份代码快照可在本地、SSH、Slurm、Kubernetes、Ray、Hugging Face Jobs、Modal等多种算力上运行。这种把编码Agent升级为科研Agent的思路,在开发者与AI研究者社区引发大量讨论。"
+    ]
+  },
+  {
+    "id": "2026-09-17_vibe_2",
+    "date": "2026-09-17",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "Cloudflare开源安全审计Agent技能",
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "image": "images/2026-09-17/2026-09-17_vibe_2.jpg",
+    "detail": [
+      "Cloudflare开源了security-audit-skill,这是一个能把编码Agent变成安全审计员的\"技能\"(Skill),项目正是Cloudflare内部漏洞发现流水线的最初单仓库版本,配套博客《Build your own vulnerability harness》一同发布,开源后迅速冲上GitHub Trending,当前星标约7.1千、分叉420,采用MIT协议。",
+      "该技能将安全审计拆解为六个阶段:侦察(绘制架构与信任边界)、覆盖驱动的漏洞狩猎、候选验证、结构化输出、独立记录复核、以及目标中立的报告生成。它通过隔离的子Agent协作,产出机器可读的findings.json,并附带零依赖的validate-findings.cjs等校验脚本,把结果严格区分为confirmed、needs_validation、rejected三类判定。",
+      "其核心设计原则强调对抗式验证——检查漏洞的Agent绝不能是发现它的那个Agent,且严重程度必须由\"可能性×影响\"决定而非清单偏差。安装只需一行npx skills add命令,兼容支持工具调用与并行子Agent的编码助手。官方测试显示多轮运行覆盖率显著优于单轮,为AI驱动的安全工具化提供了实战范式。"
+    ]
+  },
+  {
+    "id": "2026-09-17_gaming_5",
+    "date": "2026-09-17",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "PlayStation LifeStyle",
+    "platform_color": "#7CF6A0",
+    "title": "索尼推PS5/PS4 14.00系统更新 优化稳定性",
+    "url": "https://www.playstationlifestyle.net/2026/09/16/ps4-surprise-system-update-september-2026/",
+    "image": "images/2026-09-17/2026-09-17_gaming_5.jpg",
+    "detail": [
+      "索尼互动娱乐(SIE)于9月16日为主机玩家推送了新一轮系统软件更新,PS4获得版本14.00更新,同期PS5也升级至26.06-14.00.00版本。对已发售十余年的PS4而言,这是今年的第四次系统更新,上一次13.52版发布于6月16日。这类系统更新虽不常成为焦点,却是维系庞大主机生态稳定运行的日常一环,涉及全球数以亿计的主机用户。",
+      "PS4端14.00更新内容较为简洁,官方补丁说明仅写道\"改善了系统软件的性能与稳定性\",并未引入新功能,更多是维护性质的底层优化,玩家安装后不会立即感知明显变化。相比之下,PS5同期更新则加入了实质性新特性,包括全新的\"社区活动\"小组件、语音聊天时的说话者指示图标,以及默认开启的PSSR画质增强等,面向新主机持续加码功能体验。",
+      "作为2013年发售的老主机,PS4后续更新预计仍将以维持系统运行为主,而非新增功能。索尼提示玩家,虽然多数现有游戏无需安装该补丁即可游玩,但部分新作可能要求主机升级到最新系统版本才能运行,建议及时更新。玩家社区对此反应平淡,普遍视为例行维护,但PS5端新增的社区活动小组件与画质增强则获得了一定关注和讨论。"
+    ]
+  },
+  {
+    "id": "2026-09-17_gaming_4",
+    "date": "2026-09-17",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "Gaming.net",
+    "platform_color": "#7CF6A0",
+    "title": "《卧龙2:凤舞》定档明年3月4日 试玩上线",
+    "url": "https://www.gaming.net/wo-long-2-wings-of-ember-sets-march-4-2027-release-with-alpha-demo/",
+    "image": "images/2026-09-17/2026-09-17_gaming_4.jpg",
+    "detail": [
+      "光荣特库摩(Koei Tecmo)与开发团队Team NINJA于9月16日正式公布,黑暗三国动作RPG续作《卧龙2:凤舞之翼》(Wo Long 2: Wings of Ember)将于2027年3月4日全球发售,同步开启预购并上线限时免费Alpha试玩。系列前作《卧龙:苍天陨落》2023年发售,全球玩家已突破380万、销量过百万,本作最早于6月8日Xbox游戏展上亮相,此次终于敲定确切档期。",
+      "游戏将登陆Xbox Series X|S、PS5、Nintendo Switch 2、Xbox on PC与Steam,并首发即加入Xbox Game Pass。免费Alpha试玩现已在PS5、Xbox与PC开放,持续至9月30日(不含Switch 2与云游戏),包含开发中的角色创建系统和最多三人在线联机,内容覆盖长坂坡部分战场。制作人平山正和透露,通关击败Boss无支祁可获得\"雏凤头盔\"奖励,官方也将借试玩收集玩家反馈。",
+      "本作故事设定于公元208年赤壁之战前夕,承接前作剧情,主角与好友庞统的家乡遭曹操大军蹂躏,踏上复仇与助刘备开路之途。系列标志性的攻防一体快节奏战斗回归,并新增\"洞察技\"系统,可利用地形反击、将腾空之敌击落。玩家社区对定档与试玩反应积极,不少动作游戏爱好者已第一时间下载体验,期待这部三国题材魂like续作能延续前作口碑。"
+    ]
+  },
+  {
+    "id": "2026-09-17_gaming_3",
+    "date": "2026-09-17",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "CGMagazine",
+    "platform_color": "#7CF6A0",
+    "title": "卡普空TGS发布会 6款生化危机登陆Switch 2",
+    "url": "https://www.cgmagonline.com/news/capcom-spotlight-tgs-2026-all-reveals/",
+    "image": "images/2026-09-17/2026-09-17_gaming_3.jpg",
+    "detail": [
+      "东京电玩展(TGS)2026于9月16日晚正式拉开帷幕,卡普空(Capcom)率先举办\"Capcom Spotlight\"专场直播,一口气公布了旗下多款作品的最新进展。TGS是全球规模最大的游戏展会之一,今年适逢30周年,展期延长至史上最长的五天,卡普空作为日厂领头羊的发布会自然备受瞩目,共有多达58位主播联动共播,人气爆棚。",
+      "发布会最重磅消息是六款《生化危机》系列作品将登陆Nintendo Switch 2,包括《生化危机2/3/4重制版》以及《生化危机7/村庄/安魂曲》新三部曲,让掌机玩家得以随身体验现代生化全系列。此外,《龙之信条2:黑暗觉者》确认10月6日发售,新增遗弃领域、12个新地牢与全新角色创建器;《洛克人:双重覆写》原型人确认可玩,预定2027年春季;《怪物猎人:荒野》Switch 2版定档12月6日;全新手游《怪物猎人:域外》开放预注册。",
+      "作为压轴,《怪物猎人:荒野》大型扩展《Ascendance》放出新预告,展示了巨龙\"御龙\"降临引发的生态剧变、可探索的\"空中群岛\",以及全新Boost Bracer装备系统,扩展预定2027年推出。虽然本次没有全新IP或《逆转裁判》新作让部分论坛玩家略感遗憾,但生化全家桶登陆Switch 2与《龙之信条2》资料片仍点燃了社区热情,被视为本届TGS开幕的一记强音。"
+    ]
+  },
+  {
+    "id": "2026-09-17_gaming_2",
+    "date": "2026-09-17",
+    "category": "Gaming",
+    "subcat": "单机大作",
+    "platform": "Push Square",
+    "platform_color": "#7CF6A0",
+    "title": "《空之轨迹SC》重制版评测出炉 好评如潮",
+    "url": "https://www.pushsquare.com/reviews/ps5/trails-in-the-sky-2nd-chapter",
+    "image": "images/2026-09-17/2026-09-17_gaming_2.jpg",
+    "detail": [
+      "《空之轨迹SC》(Trails in the Sky 2nd Chapter)是日本Falcom社《英雄传说》系列经典作品的现代重制版,由GungHo发行。作为去年好评如潮的《空之轨迹FC》重制版的直接续作,本作延续艾丝蒂尔与约修亚的冒险故事,重制版采用全3D画面、全新过场动画与更精致的角色建模,将这部诞生于PSP时代的JRPG经典焕然一新,是系列老粉与新玩家都翘首以盼的重磅作品。",
+      "评测于9月16日解禁,媒体反响极为正面。Push Square给出9/10,称\"直系续作几乎不可能比这更好\",盛赞其情感真挚的角色驱动叙事、顶尖的世界观构建、精妙平衡的战斗和难忘的Boss战;PlayStation Universe给出9.5分\"又一记全垒打\";Noisy Pixel打出95分。评测普遍认为本作在剧情上远超前作,后半段剧情张力\"堪称一场狂欢\",目前更一度是Metacritic上2026年评分最高的游戏。",
+      "游戏将于9月17日登陆PS5、PC、Nintendo Switch与Switch 2平台。玩家社区一片沸腾,Push Square评论区大量粉丝直呼\"我们正身处系列的黄金时代\",不少人表示要同时入手PS5与Switch 2双版本。唯一被诟病的是开篇章节节奏偏慢、部分支线略显重复且重复利用了旧场景。作为与《火焰纹章》同日发售的JRPG,两部高分大作正面撞车,让玩家直呼\"钱包与时间都不够用\"。"
+    ]
+  },
+  {
+    "id": "2026-09-17_gaming_1",
+    "date": "2026-09-17",
+    "category": "Gaming",
+    "subcat": "单机大作",
+    "platform": "VICE",
+    "platform_color": "#7CF6A0",
+    "title": "《火焰纹章:命运之织》评测解禁 均分89",
+    "url": "https://www.vice.com/en/article/fire-emblem-fortunes-weave-reviews-scores/",
+    "image": "images/2026-09-17/2026-09-17_gaming_1.jpg",
+    "detail": [
+      "《火焰纹章:命运之织》(Fire Emblem: Fortune's Weave)是任天堂旗下策略RPG系列的最新正统续作,由老牌开发商Intelligent Systems操刀,作为Nintendo Switch 2独占大作推出。系列以深度回合制战棋和角色养成闻名,此前《风花雪月》曾创下销量佳绩,而本作被外界视为系列在新主机上的旗舰试金石,承载着任天堂在2026年下半年的重要期待,战前呼声极高。",
+      "评测解禁日期为北京时间9月16日,比正式发售提前一天。首波评测口碑近乎爆棚:在Metacritic上,基于53家媒体评分斩获89分均分,其中IGN、VGC、Eurogamer、TheGamer、Siliconera等多达13家媒体给出满分。IGN评价称本作\"在战术美学上以我无法预料的方式实现了突破\",Gamereactor更直言它是\"今年当之无愧的最佳作品之一\"。评测普遍称赞其深邃的战术战斗、庞大战役体量以及四条交织的故事线。",
+      "本作将于9月17日在Nintendo Switch 2平台独占发售,北美玩家可于当地时间前一晚9点(太平洋时间)解锁数字版。玩家社区反应热烈,不少人将其列为年度必玩,同时也有评测指出游戏节奏偏慢、内容量庞大到略显压迫,但即便偏中庸的评价也一致认可它是系列雄心勃勃的一步。在2026年这个大作扎堆的档期,能拿到如此高分实属难得,预示其有望冲击年度游戏奖项。"
+    ]
+  },
+  {
+    "id": "2026-09-17_ai_5",
+    "date": "2026-09-17",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "量子位",
+    "platform_color": "#7C9EF6",
+    "title": "量子位2026 AI年度榜单启动,连续九年",
+    "url": "https://www.qbitai.com/2026/09/490329.html",
+    "image": "images/2026-09-17/2026-09-17_ai_5.jpg",
+    "detail": [
+      "9月16日,科技媒体量子位正式启动2026年度人工智能榜单,报名通道同步开启。这已是量子位连续第九年推出该榜单,今年从企业、产品、人物三大维度设立五类奖项,试图为过去一年中国乃至全球AI行业的技术演进与产业实践提供一份系统的年度观察样本。",
+      "量子位在启动词中强调,2026年AI行业正行至从技术验证到规模化落地的分水岭。衡量技术的标尺不再只是参数规模,而是它能否在真实业务场景里交付结果。当行业从能想迈向能干,谁在用技术解决真问题、谁在建立新标准、谁让AI真正创造价值,成为本届榜单希望回答的核心命题。",
+      "这一评选恰逢国产大模型密集迭代的节点。近一个月内,DeepSeek发布V4.1 Flash并下调API定价,智谱通过配售新股和可转债完成约50亿美元融资,Kimi启动全球关键人才招聘,阿里通义、腾讯混元等也接连推出新模型。国产开源阵营正从追赶者向架构创新者转变,年度榜单被视为观察这一格局变化的重要窗口。",
+      "对行业而言,这类年度盘点不仅是荣誉性的评选,更被从业者当作一份坐标:它梳理技术路线、产品落地与商业化的真实进展,为决策者提供可参考的判断依据。在AI从概念走向大规模应用的关键年份,一份权威、连续的行业记录,对厘清泡沫与真实价值都具有现实意义。"
+    ]
+  },
+  {
+    "id": "2026-09-17_ai_4",
+    "date": "2026-09-17",
+    "category": "AI",
+    "subcat": "行业",
+    "platform": "Tech Startups",
+    "platform_color": "#7C9EF6",
+    "title": "AI减速之争白热化:巨头CEO与参议员交锋",
+    "url": "https://techstartups.com/2026/09/16/top-tech-news-today-september-16-2026-google-isomorphic-labs-meta-nvidia-openai-more/",
+    "image": "images/2026-09-17/2026-09-17_ai_4.jpg",
+    "detail": [
+      "9月16日,围绕AI是否应当放慢前沿研发的公开辩论进入白热化。此前Anthropic首席执行官Dario Amodei于9月12日发表长文《We Must Pace the Frontier》,呼吁各前沿实验室主动放缓能力竞速,给对齐、安全与评估工作留出追赶空间;文章警告若放任递归式自我改进,一个智能体集群可能在6到12个月内借助持久僵尸网络接管互联网,造成数千亿美元损失。",
+      "到本周,微软、OpenAI、xAI的首席执行官各自作出回应。微软CEO纳德拉表态欢迎为做好对齐所需的审慎节奏,并公布了针对MAI模型的行为准则;OpenAI的奥特曼同日承诺向独立评估机构开放类似员工的访问权限;马斯克则直接写道Dario是对的;谷歌DeepMind的哈萨比斯认为方向正确但细节仍需打磨。Amodei还请求华盛顿给予反垄断豁免,以便各实验室能够协调行动。",
+      "监管层面同步升温。参议员Bernie Sanders与众议员Greg Casar已于9月3日提出《禁止人工超级智能法案》,主张永久禁止开发和部署超级智能AI,并在联邦监管机构建立安全规则前暂停高级AI研发,还拟设立一个内阁级新机构。法案为违规者设置了最高20年监禁、企业面临吊销执照的严厉罚则,把AI风险与核武器开发相提并论。",
+      "值得玩味的是,呼吁踩刹车的同一批公司,却在同一新闻周期里加速融资、投产芯片、抢占算力。有分析指出,这场辩论本质上是第一次由真正握有决定权的人在公开场合争论AI的推进节奏,而现实中的建设脚步并没有因为争论而停下。社区对减速承诺能否落地普遍持观望态度。"
+    ]
+  },
+  {
+    "id": "2026-09-17_ai_3",
+    "date": "2026-09-17",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "The Robotics Media",
+    "platform_color": "#7C9EF6",
+    "title": "Meta三代自研AI芯片Iris本月投产",
+    "url": "https://theroboticsmedia.com/article/meta-mtia-v3-iris-custom-ai-chip-production-broadcom-tsmc-14gw-september-2026",
+    "image": "images/2026-09-17/2026-09-17_ai_3.jpg",
+    "detail": [
+      "据9月16日更新的报道,Meta已于本月开始量产其第三代自研AI加速器MTIA,代号Iris。该芯片由博通(Broadcom)联合设计、台积电3nm工艺制造,被视为Meta终结英伟达在其训练基础设施上垄断地位的一个里程碑,同时也让博通稳坐这家社交巨头首选芯片伙伴的位置。Meta称Iris在约六周内通过了缺陷测试阶段,基本没有发现重大问题。",
+      "Iris被设计成既能承担大规模训练,又能为Facebook和Instagram上的信息流排序、广告和生成式功能提供低延迟推理。Meta今年的AI基础设施支出预计将达到1450亿美元,公司在内部备忘录中提出分两步走的建设计划:2026年上线7吉瓦算力,到2027年翻倍至14吉瓦。Iris是MTIA四代规划芯片中的一环,核心目标是压低单token训练成本、降低对英伟达和AMD的依赖。",
+      "Iris的量产恰逢超大规模厂商集体绕开英伟达的关键时刻。这一策略与谷歌的TPUv6、亚马逊的Trainium 3以及微软的Maia如出一辙,反映出头部云与互联网公司都在把AI算力的命脉握回自己手中。分析指出,若博通再拿下这样一款定制旗舰芯片,其ASIC业务到2028年在超大规模客户累计收入上有望与英伟达分庭抗礼。",
+      "根据规划,Meta将在其位于路易斯安那州和犹他州的新一代AI超级集群中部署Iris,机架级部署预计从2026年第四季度开始,第四代MTIA已在博通进入流片阶段。这条消息强化了业界的一个共识:AI竞赛的重心正从模型本身,加速转向芯片、电力和基础设施的全面较量。"
+    ]
+  },
+  {
+    "id": "2026-09-17_ai_2",
+    "date": "2026-09-17",
+    "category": "AI",
+    "subcat": "融资",
+    "platform": "Tech Funding News",
+    "platform_color": "#7C9EF6",
+    "title": "AI编程公司Factory融2亿美元,估值翻三倍至50亿",
+    "url": "https://techfundingnews.com/factory-jumps-to-5b-in-5-months-with-200m-for-its-ai-droids/",
+    "image": "images/2026-09-17/2026-09-17_ai_2.jpg",
+    "detail": [
+      "9月16日,专注为大型工程团队打造自主编程智能体的初创公司Factory宣布完成2亿美元新一轮融资,公司估值随之升至50亿美元。这一数字相比五个月前它所持有的15亿美元估值翻了三倍多。本轮由Khosla Ventures、Blackstone和Sequoia Capital领投,另有三位天使投资人参与,Salesforce首席执行官Marc Benioff也在名单之列。",
+      "Factory的核心产品是名为Droids的自主编程智能体。与只做代码补全的助手不同,Droids能够规划任务、提交Pull Request、审查改动,并在多个代码仓库之间协同工作,目标是端到端地承担工程团队的日常开发流程。投资方如今把这类产品视为企业技术栈中一个独立的层,而不再是嵌在编辑器里的一项功能。",
+      "创始人Matan Grinberg曾是加州大学伯克利分校的物理学博士生,三年前因一封写给Sequoia合伙人Shaun Maguire的冷邮件而离开学术界投身AI编程。据《华尔街日报》报道,本轮融资落地时正值企业在AI辅助软件开发上的支出加速扩张,这一细分市场的增速在整个科技领域中都名列前茅。",
+      "这笔交易释放的信号在开发者社区中被反复讨论:自主编程智能体正从演示走向企业采购的正式预算项。大型工程组织在过去两年里测试了大量代码建议工具,如今更愿意为能真正接管完整任务的自治系统付费。五个月估值三级跳,也再次印证AI编程赛道当前的资本热度。"
+    ]
+  },
+  {
+    "id": "2026-09-17_ai_1",
+    "date": "2026-09-17",
+    "category": "AI",
+    "subcat": "融资",
+    "platform": "The New York Times",
+    "platform_color": "#7C9EF6",
+    "title": "OpenAI拟按1.5万亿美元估值启动上市前融资",
+    "url": "https://www.nytimes.com/2026/09/16/business/dealbook/openai-new-funding-round.html",
+    "image": "images/2026-09-17/2026-09-17_ai_1.jpg",
+    "detail": [
+      "9月16日,《纽约时报》援引知情人士报道,ChatGPT开发商OpenAI正与大型投资者进行早期磋商,计划在IPO之前再进行一轮私募融资,公司希望的估值至少达到1.5万亿美元。据悉是投资者主动接洽OpenAI,提出以约1.2万亿美元的估值注资,而OpenAI认为自身价值应比这一报价再高出3000亿美元,双方仍在谈判,尚未敲定规模与条款。",
+      "若这轮融资成行,OpenAI的估值将较其3月完成的那轮几乎翻倍。当时OpenAI以8520亿美元估值募得1220亿美元,创下硅谷史上单轮最大融资纪录。自2015年成立以来,OpenAI累计融资已超过1800亿美元。达成1.5万亿美元后,它将一举成为全球估值最高的非上市公司,把此前的私募纪录改写到一个新的量级。",
+      "OpenAI给出的估值依据集中在其快速增长的商业化产品线:编程工具Codex的客户群持续扩张,最新模型GPT-6 Astra与GPT-5.6 Sol带动收入,年化营收近期已跨过400亿美元关口。首席执行官山姆·奥特曼在9月12日对《财富》表示,考虑到当前围绕AI安全的种种争议,现在上市是一个不明智的时机,公司已将IPO推迟到2027年。",
+      "这条消息在社区引发两极反应。一部分投资人认为,资本仍愿意按万亿美元平台给AI龙头定价,说明市场对生成式AI的长期需求毫不动摇;但也有声音指出,同一批呼吁放慢前沿研发的实验室,却在争分夺秒地锁定巨额资本,这种反差本身就是当下AI泡沫争论的缩影。私募轮既能补足算力、人才和并购弹药,又能避开公开市场的严格审视。"
+    ]
+  }
+]
