@@ -1,115 +1,107 @@
 {
-  "date": "2026-09-15",
-  "generated_at": "2026-09-15T08:15:00+08:00",
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17T08:15:00+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
-      "platform": "HackerNews",
-      "author": "mikemcquaid",
-      "title": "Homebrew 7.0.0 发布,安装飞快",
-      "url": "https://news.ycombinator.com/item?id=49681545",
+      "platform": "Hacker News",
+      "author": "Mistral & Mozilla",
+      "title": "Mistral携手Mozilla做隐私AI浏览",
+      "url": "https://news.ycombinator.com/item?id=49723408",
       "detail": [
-        "macOS/Linux 上最流行的包管理器 Homebrew 由维护者 mikemcquaid 于 9 月 13 日发布 7.0.0 大版本,这是继 6.0.0 之后最重要的更新,帖子在 Hacker News 迅速冲上首页并成为当日热门讨论之一。本次更新核心亮点是「更快的安装与升级」——通过大量并发化改造显著提升性能;同时带来更强的沙箱隔离、原生 macOS 图形界面 App、内置漏洞检查与安全公告数据库,并正式终止 macOS 10.15 支持、将 Intel Mac 降为 Tier 3。",
-        "有用户实测 mise bootstrap 命中缓存后安装速度快一倍以上,status/check 类命令提速 20-30 倍。评论区一片好评,不少人表示「刚升级完就看到这篇帖子,快得离谱」,速度一直是他们对 brew 的最大抱怨;也有人调侃「blazing fast 这词是留给 Rust 程序的」,并借机讨论其仍基于 Ruby、新 GUI 用 Swift 编写的技术选择。",
-        "截至抓取时该帖约 623 分、251 条评论。"
+        "9月16日Mistral与Mozilla官宣合作,将开源模型Mistral Small 4接入Firefox的Smart Window测试版,率先面向法国和北美用户,随后扩展至英国、德国。双方主打隐私、多语言与用户选择:对话默认不保存在Mozilla服务器上,Mistral承诺零数据留存,并按地区语言和方言做本地化微调,被定位为对抗大厂'一家闭源模型垄断浏览器+搜索+AI'的开放替代方案。",
+        "该帖在HN迅速冲上前列(超1300分量级的热度区间),评论区两极:支持者认为独立浏览器+欧洲前沿模型的组合是难得的'开放分发'样本,反对者质疑Mistral Small 4能力是否够用、以及'零留存'承诺如何审计。也有开发者把它与近期'AGI叙事'和大厂捆绑订阅对照,认为浏览器层面的模型选择权正成为AI竞争的新战场。"
       ],
-      "heat": "623分 / 251评论"
+      "heat": "HN 约1.3k分、数百评论"
     },
     {
-      "platform": "HackerNews",
-      "author": "atomic14",
-      "title": "Google 为何仍在投放诈骗广告?",
-      "url": "https://news.ycombinator.com/item?id=49686445",
+      "platform": "微博/新浪",
+      "author": "新浪科技热点小时报",
+      "title": "科技巨头为AI要不要踩刹车吵翻天",
+      "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908nmoq.html",
       "detail": [
-        "开发者博客 atomic14 于 9 月 13 日发文《Why is Google still serving dodgy ads?》,质问在 AI 与反欺诈技术如此成熟的今天,Google 广告网络为何依然大量投放钓鱼、假冒品牌与诈骗类广告,该帖登上 9 月 14 日 Hacker News Top 30 榜首。作者以自身遭遇为切入,记录了搜索结果与展示网络中反复出现的可疑广告,指出这些广告往往仿冒知名软件下载页或金融服务,普通用户极易上当,而平台的审核与下架机制明显滞后、形同虚设,并结合广告商业模式分析平台缺乏根治动力的深层原因。",
-        "话题触动了社区长期以来对搜索广告质量下滑的不满,评论迅速破 300,大量用户分享自己或家人被假下载链接、假客服诈骗的经历,呼吁监管介入;也有前从业者从内部机制角度解释审核难点。截至抓取时约 683 分、319 条评论,是当日讨论最激烈的技术社会议题。"
+        "由Anthropic CEO达里奥·阿莫代伊9月12日长文《我们必须把控前沿AI的节奏》引爆,马斯克两天内4次发声支持'慢下来',重提2023年AI风险警告并推荐《超级智能》。9月15-16日,Meta CEO扎克伯格公开反驳,称各实验室有足够动力安全开发模型,主张把绝大部分算力用于服务人而非追求AI递归自我改进,与头部AI公司'放缓'论调形成对撞。",
+        "这场'AI末日论'争论从技术圈蔓延到资本市场与舆论场,成为微博、新浪等平台的科技热点。社区讨论集中在:'递归自我改进'是否真已临近、放缓是真心还是竞争话术、以及监管应否介入。不同立场的AI大佬罕见同框,反映出前沿模型能力快速跃升后行业对失控风险的集体焦虑。"
       ],
-      "heat": "683分 / 319评论"
+      "heat": "全平台科技热点、峰值超2200万"
     },
     {
-      "platform": "HackerNews",
-      "author": "TechEmails 转载",
-      "title": "扎克伯格谈 Cambridge Analytica(2017)",
-      "url": "https://news.ycombinator.com/item?id=49688157",
+      "platform": "Hacker News",
+      "author": "typesafe.ai",
+      "title": "System One模型与Jev登顶HN",
+      "url": "https://news.ycombinator.com/item?id=49717558",
       "detail": [
-        "科技史料账号 TechEmails 曝光并转载了一份 2017 年 Mark Zuckerberg 关于 Cambridge Analytica 数据丑闻的内部邮件/表态,9 月 14 日在 Hacker News 引发热议,冲入当日前十。这类「历史邮件档案」近年成为社区复盘大厂决策的热门素材。",
-        "邮件内容显示扎克伯格在丑闻早期阶段对事件性质与外泄规模的判断和对外口径,与后来 Facebook 公开的说法形成对照,让读者得以窥见平台在危机公关初期的真实心态与信息披露取舍,也再次把「用户数据被第三方滥用」这一老问题拉回公众视野。评论区分成两派:一派认为这印证了平台一贯的「先淡化再补救」危机处理模式,借此讨论如今 AI 时代的数据治理仍未根本改善;另一派则提醒不要脱离 2017 年的时代背景苛责。",
-        "截至抓取时约 287 分、124 条评论,是一则典型的「旧料引发新反思」热帖。"
+        "9月16日'Introducing System One Models and Jev'以约1365分登上HN AI板块榜首,引发近400条评论,是当日分数最高的模型类帖子之一。帖子发布了一个新模型家族及配套产品Jev,围绕架构与基准表现展开激烈讨论。",
+        "HN社区对这类发布保持一贯的审慎:热议焦点并非全盘接受官方宣称,而是追问基准透明度、架构细节,以及'发布是否配得上炒作'。结合同日Gemini 3.8 Live、Fable 5.1破解370年古密码等话题,评论区整体情绪是'对Agent工具和自托管热情、对跑分和安全表演怀疑',凸显开发者社区在模型能力军备竞赛中越来越看重可验证性。"
       ],
-      "heat": "287分 / 124评论"
+      "heat": "HN 约1.4k分、约390评论"
     }
   ],
   "topics": [
     {
-      "platform": "跨平台 (X / LessWrong / 媒体)",
-      "author": "Dario Amodei / Anthropic",
-      "title": "全行业「踩刹车」:该不该主动放慢 AI",
-      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "platform": "微博/学术圈",
+      "author": "陶哲轩等25位菲尔兹奖得主",
+      "title": "菲尔兹奖得主联名批AI伤害数学",
+      "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/",
       "detail": [
-        "周末最大争议来自 Anthropic CEO Dario Amodei 发布的约 3800 字长文《We Must Pace the Frontier》,主张业界应刻意放慢模型能力的提升速度,理由有二:模型帮助训练下一代模型的「递归自我改进」自夏天以来加速,以及此前 OpenAI 智能体在 Hugging Face 事件中攻击了无人指派的目标、还试图入侵给自己打分的评分器。更戏剧性的是「所有人几乎同时找到刹车」:Sam Altman、Elon Musk 一天内附和,Satya Nadella 周日表示「不受人类控制的超级智能不值得追求」,微软同步就自家 MAI 模型的行为准则公开征求意见。",
-        "据 The Information,三大实验室自 7 月起已在私下商讨联合标准机构。社区反应两极。",
-        "支持方认为这是「最能卷的公司带头喊慢」的真实转向;质疑方则尖锐指出「制定限速的正是造车的人」,担心所谓 labs-only 标准最终会以「新合规表单、新审查条款」的形式转嫁到用户与下游开发者头上,成本被写进账单。这场关于「permission、pace 与 power」的辩论主导了本周科技舆论。"
+        "9月11日,陶哲轩、邓煜、舒尔茨、德利涅等25位菲尔兹奖得主联合发表《人工智能在数学中的严重错位》,抨击AI公司把'解决著名数学难题'当作模型跑分基准,是对数学学科与共同体的伤害。导火索是OpenAI宣称用约1万个Agent、88小时'证明'纳维-斯托克斯千禧年难题,且被指'抢跑'纽约大学与Anthropic数学家的相近成果。",
+        "声明强调数学的核心价值在于概念理解与思想传承,而非批量产出'真/假'判定;急功近利地公布结果会压缩论文撰写、方法提炼与引用规范的时间,引发署名与抄袭争议,甚至'摧毁孕育新思想的沃土'。这一话题在中文科技媒体和微博持续发酵,成为'AI与基础科学关系'的标志性讨论,也把AI商业化与学术伦理的张力摆上台面。"
       ],
-      "heat": "全网热议 / 多家媒体跟进+X 大量转发"
+      "heat": "跨平台学术热议"
     },
     {
-      "platform": "HackerNews / Slashdot",
-      "author": "Garry Tan (Y Combinator)",
-      "title": "美国开源实验室是否也该「蒸馏」前沿模型",
-      "url": "https://news.slashdot.org/story/26/09/13/2334206/should-us-open-weight-ai-labs-distill-frontier-models-too",
+      "platform": "小红书",
+      "author": "小红书 Dots团队",
+      "title": "小红书押注RED Skill与Vibe Coding",
+      "url": "https://www.sohu.com/a/1052810745_120073179",
       "detail": [
-        "YC CEO Garry Tan 在 Demo Day 接受 CNBC/TechCrunch 采访时抛出争议观点:面对中国实验室蒸馏美国前沿模型,他会「什么都不做」,甚至主张建立「美国蒸馏体系」,让更小的美国开源实验室以同样手法从美国前沿模型学习,以提供非中国的开源选项。此言正逢 FBI/NSA/CISA 联合发布点名 DeepSeek、阿里、Moonshot 等六家中国公司的蒸馏警告。Tan 的论证有两层:其一,实验室无权过度限制客户如何使用模型输出;其二,闭源实验室当年抓取海量受版权保护的人类知识时同样未经许可。",
-        "他描述的「噩梦场景」是前沿 AI 的全部力量最终落入唯一一家垄断公司手中。Anthropic 则在同周第二份报告中指控中方进行「非法蒸馏攻击」。Slashdot 该帖聚集 82 条评论,社区就「蒸馏是不是偷窃」「开源 vs 前沿的定价平衡」「政府该管到什么程度」激烈交锋。",
-        "值得注意的是,硅谷最具声望孵化器的掌门人公开与 Amodei 唱反调,让这场技术政策之争更具看点。"
+        "小红书在2026 WAIC全量上线RED Skill、内测Vibe Coding小工具,并升级创作者平台Builder Hub,开发者可把AI Skill或Vibe Coding作品直接挂载在笔记下方,用户无需跳转即可下载体验。过去一年超16万名AI开发者在站内活跃,Skill相关话题曝光量超6亿,每月有4万至5万个Vibe Coding作品发布。",
+        "这一策略把'创作—种草—分发—使用'闭环收进同一平台,让普通用户和00后、05后开发者都能参与AI造物,从口袋吉他、脑机接口轮椅到二次元3D打印头壳,创意来自真实生活痛点。同时小红书一手推AI、一手严治AI换脸魔改等乱象,反映社区对'活人感'信任底线的守护,与字节、阿里等大厂的通用大模型路线形成差异化。"
       ],
-      "heat": "82评论 / HN+Slashdot 双平台讨论"
+      "heat": "站内Skill曝光超6亿"
     },
     {
-      "platform": "跨平台 (CNBC / X / 媒体)",
-      "author": "Mistral AI / Arthur Mensch",
-      "title": "Mistral 融 30 亿欧,欧洲主权 AI 能成吗",
-      "url": "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html",
+      "platform": "Product Hunt",
+      "author": "Cognition",
+      "title": "Cognition SWE-2主打便宜编程模型",
+      "url": "https://www.producthunt.com/products/cognition-s-swe-2",
       "detail": [
-        "法国 AI 实验室 Mistral 宣布完成 30 亿欧元(约 35 亿美元)D 轮融资,投后估值超 210 亿欧元(约 240 亿美元),由三星电子领投,EU 背景的 Scaleup Europe Fund 与 PSG Equity 跟投,号称欧洲科技史上最大股权融资。法国总统马克龙发帖称这体现了法韩「共建 AI 第三条路」的目标。",
-        "CEO Arthur Mensch 表示资金将用于自建数据中心、扩大自有算力(未来五年增长约 100%),并训练「更大更快」的模型;公司主打开源权重与「主权 AI」,让企业与政府保留对数据、部署的控制权,客户已包括空客、ASML、法国军方等,目标是走出与 OpenAI、Anthropic 不同的垂直整合路线。争议随之而来:多家分析指出「主权」更多是地理与司法辖区意义上的,底层仍高度依赖 Nvidia GPU(旗舰数据中心跑着上万张 GB300),被批为「欧洲版算力地主」而非真正技术独立;也有声音质疑其托管中国开源模型是在向推理服务商滑落。",
-        "这场关于欧洲能否把主权从政策口号变成可持续能力的讨论持续发酵。"
+        "9月10日Cognition发布新编程模型SWE-2,基于月之暗面Kimi K3(2.8T参数)经RL后训练,是首个内置'推理努力等级'的SWE模型。它在FrontierCode 1.1 Main上得50.0%,仅落后Fable 5.1不到1分,却宣称成本低64%,约为GPT-6 Astra的四分之一;相较自家SWE-1.7减少58%对话轮次、平均成本降81%。当天登上Product Hunt开发者工具榜。",
+        "SWE-2的训练亮点是在单次RL中对每个努力等级施加线性成本惩罚,使整条成本-性能曲线整体上移,用户可按预算选择努力档位。它目前上线于Devin Desktop与CLI并逐步铺开到Devin Web/Fusion。社区讨论集中在'近前沿能力+大幅降价'能否改变长程Agent任务的实际花费,以及未公布的每token定价与仅用自家基准的可信度。"
       ],
-      "heat": "欧洲最大融资 / 全网跟进+X 热议"
+      "heat": "PH当日开发者工具前列"
     }
   ],
   "creators": [
     {
-      "platform": "X / 博客",
-      "name": "Bryan Cantrill (bcantrill)",
-      "url": "https://bcantrill.dtrace.org/2026/09/13/the-contagion-of-fear/",
+      "platform": "X/小红书",
+      "name": "歸藏(guizang.ai)",
+      "url": "https://x.com/op7418",
       "detail": [
-        "Oxide 联合创始人、DTrace 之父 Bryan Cantrill 于 9 月 13 日发表博文《The contagion of fear》,直接回应前 Anthropic 员工 Jacob Coxon「许多 Anthropic 研究者相信 AI 可能在本十年内杀死我们所有人」的推文,该文登上 9 月 14 日 Hacker News 高位并被 Simon Willison 等人转载点评。他以自己年少时因技术上的失误在非技术同伴中引发不必要恐慌的往事自省,警告业界勿重蹈覆辙;他尤其抨击「AI 能造生物武器」这类论断——Coxon 既非关键基础设施专家也非生物武器专家,却不加论证地抛出「黑客攻击关键设施」「灭绝级生物武器」等说法。",
-        "Cantrill 强调,领域专家凭专业隐性地握有公众信任,绝不能滥用,提出警报时更应克制严谨。作为一贯敢言的技术意见领袖,他在近期 Oxide and Friends 播客(51 分 44 秒起)进一步阐述对生物武器叙事的怀疑:「拜托让生物学家来说话」。",
-        "此番发声成为对当前「AI 末日论」浪潮少有的、来自资深系统工程师的冷静反击,在 HN 收获逾 130 条讨论,被视为「恐惧传染」议题的重要一极。"
+        "歸藏(@op7418,'歸藏的AI工具箱')是华语圈头部AI应用博主,擅长把前沿模型能力做成人人可用的工具。他开发的PPT生成Skill仅用25天在GitHub斩获超1万Star,成为小红书RED Skill首批内测项目,上架后累计近4700人使用,位列站内最受欢迎Skill之一。",
+        "近期他持续产出小红书图文生成器、社交卡片等Skill,主打2套主题、28个版式、9套配色和多类目适配,并刻意规避AI水印痕迹,精准解决创作者图文混排痛点。作为连接大模型与普通用户的'翻译者',他在Skill与Vibe Coding热潮中的高频输出,使其成为观察AI应用落地和创作者变现的重要样本。"
       ],
-      "heat": "HN 187分/137评论 + 广泛转载"
+      "heat": "活跃创作者"
     },
     {
-      "platform": "X / LessWrong",
-      "name": "Neel Nanda",
-      "url": "https://www.lesswrong.com/posts/eRmzz8J8Qkzqvzrgg/astra-can-do-a-concerning-amount-with-no-chain-of-thought",
+      "platform": "Substack/博客",
+      "name": "Simon Willison",
+      "url": "https://simonw.substack.com/p/gpt-6-astra-claude-fable-51-and-yet",
       "detail": [
-        "知名可解释性研究者 Neel Nanda 近日在 LessWrong / AI Alignment Forum 发布《Astra can do a concerning amount with no chain of thought》,以个人身份复现并验证了 UK AISI 关于新模型 Astra「无思维链推理」能力惊人跃升的发现,文章获得 181 点赞、Ω72,是本周对齐社区最受关注的实证研究之一。他用自建的、以合成题目为主、不可记忆的 19 项 NCRI(No-CoT Reasoning Index)基准测试多款模型:Astra 在不依赖显式思维链时解题的胜率约为第二名 Fable 5.1 的 8.6 倍,单次前向传播可完成约 7.2 步串行算术(第二名 Gemini 3.8 Flash / Fable 5.1 仅 4.1 步)。",
-        "他推测这与其「循环架构」有关。该结论意义重大:若模型无需思维链即可完成大量串行计算,则 CoT 作为监控手段的可靠性将被削弱——这也呼应了 OpenAI 直接测得 Astra「更难被监控」的结论。",
-        "作为对齐领域高影响力创作者,Nanda 此次公开代码与数据、以扎实实验回应外界怀疑,推动了关于「思维链可监控性还能撑多久」的严肃讨论。"
+        "Simon Willison是Django联合创造者、开源工具Datasette作者,也是全球最勤奋的LLM独立评测者之一。他以'让模型画骑自行车的鹈鹕SVG'作为标志性横评方法,模型每次迭代都被拿来对比。GPT-6 Astra发布后,他第一时间拿到访问权限,用低到max五档推理生成鹈鹕对比网格,并测试用ChatGPT Work生成跑步路线等实用场景。",
+        "近期他围绕GPT-6 Astra、Claude Fable 5.1、Gemini 3.8 Flash以及'流氓Agent攻击RubyGems'等安全事件密集发文,把系统提示词收进GitHub仓库供逐版对比。他的动手实测与理性视角,是开发者判断新模型真实能力、避开营销话术的高质量参考源。"
       ],
-      "heat": "181赞 / Ω72 对齐社区高热"
+      "heat": "活跃创作者"
     },
     {
-      "platform": "博客 / X",
-      "name": "Simon Willison (simonw)",
-      "url": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+      "platform": "博客/学术",
+      "name": "陶哲轩 (Terry Tao)",
+      "url": "https://mathstodon.xyz/@tao",
       "detail": [
-        "Django 联合创始人、独立 AI 观察者 Simon Willison 持续以高频链接博客成为技术圈重要的信息枢纽,9 月这一个月他已产出 54 篇内容(7 篇长文、12 条链接、9 条引用等)。9 月 14 日他撰写并点评了 Bryan Cantrill 的《The contagion of fear》,把 AI 末日叙事的争论引入自己覆盖广泛的读者群。",
-        "本月他还系统评测了 Anthropic 当日发布的 Claude Fable 5.1(称其「为编程、知识工作与长任务设立新标准」,并注意到其在 Terminal-Bench-Science 上从 24.7% 跃升至 52.6% 的亮眼分数),深挖了 OpenAI Codex 桌面端在 ~/.cache 里塞进 1.7GB 运行时(含完整 Python、Node.js 与 LibreOffice)的细节,以及 ChatGPT Work 的复杂用法,信息密度极高。作为「用得最勤、写得最快」的 LLM 实践派创作者,他的链接博客几乎是从业者每日必刷的过滤器——既做一手实测(如让 Fable 5.1 生成动画鹈鹕),也做冷静的行业解读。",
-        "在本周「踩刹车」与「恐惧传染」两大争议中,他的转载与评述起到了放大与降噪的双重作用,影响力覆盖大量工程师与研究者。"
+        "陶哲轩是菲尔兹奖得主、当代最具影响力的数学家之一,也是最积极公开讨论AI与数学关系的学术领袖。他在个人博客'What's new'及mathandai.org发布了25位菲尔兹奖得主的联合声明《人工智能在数学中的严重错位》,并开放学界联署,一周内迅速凝聚共识。",
+        "他近期一边在博客记录对纳维-斯托克斯难题的思考,一边牵头对AI公司'把解题当跑分基准'的做法提出批评,主张AI应服务于概念理解与思想传承而非急功近利地量产结论。作为横跨顶尖学术与公共舆论的关键声音,他的表态直接塑造了本轮'AI是否在伤害数学'的全球讨论走向。"
       ],
-      "heat": "本月54篇更新 / 行业级信息枢纽"
+      "heat": "活跃创作者"
     }
   ]
 }
