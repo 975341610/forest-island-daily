@@ -21,8 +21,8 @@
     },
     "JustVugg/colibri": {
       "best_rank": 2,
-      "appearances": 4,
-      "total_today_stars": 6613,
+      "appearances": 5,
+      "total_today_stars": 7486,
       "language": "C",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "owner_avatar": "https://avatars.githubusercontent.com/u/13022503?v=4",
@@ -39,8 +39,8 @@
     },
     "SnailSploit/Claude-Red": {
       "best_rank": 5,
-      "appearances": 4,
-      "total_today_stars": 2151,
+      "appearances": 5,
+      "total_today_stars": 2591,
       "language": "Python",
       "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/95986478?v=4",
@@ -66,8 +66,8 @@
     },
     "alibaba/open-code-review": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 8001,
+      "appearances": 5,
+      "total_today_stars": 11287,
       "language": "Go",
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -101,9 +101,9 @@
       "html_url": "https://github.com/max-sixty/worktrunk"
     },
     "alphaXiv/OpenResearch": {
-      "best_rank": 7,
-      "appearances": 4,
-      "total_today_stars": 2405,
+      "best_rank": 5,
+      "appearances": 5,
+      "total_today_stars": 3344,
       "language": "Rust",
       "description": "Run parallel research agents with any model",
       "owner_avatar": "https://avatars.githubusercontent.com/u/153782766?v=4",
@@ -183,8 +183,8 @@
     },
     "Tencent/WeKnora": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 2102,
+      "appearances": 4,
+      "total_today_stars": 3227,
       "language": "Go",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -291,8 +291,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 1319,
+      "appearances": 4,
+      "total_today_stars": 1999,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -344,9 +344,9 @@
       "html_url": "https://github.com/localsend/localsend"
     },
     "cloudflare/security-audit-skill": {
-      "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 2361,
+      "best_rank": 1,
+      "appearances": 3,
+      "total_today_stars": 5968,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -363,8 +363,8 @@
     },
     "NationalSecurityAgency/ghidra": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 1784,
+      "appearances": 3,
+      "total_today_stars": 2696,
       "language": "Java",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11298292?v=4",
@@ -417,8 +417,8 @@
     },
     "roboflow/supervision": {
       "best_rank": 17,
-      "appearances": 2,
-      "total_today_stars": 477,
+      "appearances": 3,
+      "total_today_stars": 806,
       "language": "Python",
       "description": "We write your reusable computer vision tools. 💜",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53104118?v=4",
@@ -435,8 +435,8 @@
     },
     "abue-ammar/tinycast": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 1179,
+      "appearances": 2,
+      "total_today_stars": 1918,
       "language": "Swift",
       "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14371506?v=4",
@@ -444,17 +444,17 @@
     },
     "block/buzz": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 498,
+      "appearances": 2,
+      "total_today_stars": 912,
       "language": "Rust",
       "description": "A hive mind communication platform",
       "owner_avatar": "https://avatars.githubusercontent.com/u/185116535?v=4",
       "html_url": "https://github.com/block/buzz"
     },
     "jamiepine/voicebox": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 417,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 1084,
       "language": "TypeScript",
       "description": "The open-source AI voice studio. Clone, dictate, create.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/32987599?v=4",
@@ -462,8 +462,8 @@
     },
     "TencentCloud/Octop": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 396,
+      "appearances": 2,
+      "total_today_stars": 763,
       "language": "Python",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
@@ -480,8 +480,8 @@
     },
     "n8n-io/n8n": {
       "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 225,
+      "appearances": 2,
+      "total_today_stars": 506,
       "language": "TypeScript",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/45487711?v=4",
@@ -506,22 +506,103 @@
       "html_url": "https://github.com/cursor/plugins"
     },
     "anthropics/claude-code": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 165,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 703,
       "language": "TypeScript",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
       "html_url": "https://github.com/anthropics/claude-code"
     },
     "rustfs/rustfs": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 156,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 715,
       "language": "Rust",
       "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151849438?v=4",
       "html_url": "https://github.com/rustfs/rustfs"
+    },
+    "Tencent/BrowserSkill": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 1302,
+      "language": "TypeScript",
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
+      "html_url": "https://github.com/Tencent/BrowserSkill"
+    },
+    "ankitects/anki": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 430,
+      "language": "Rust",
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/42564322?v=4",
+      "html_url": "https://github.com/ankitects/anki"
+    },
+    "cline/cline": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 380,
+      "language": "TypeScript",
+      "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/184127137?v=4",
+      "html_url": "https://github.com/cline/cline"
+    },
+    "rowboatlabs/rowboat": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 304,
+      "language": "TypeScript",
+      "description": "The multiplayer personal assistant for work",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/172591271?v=4",
+      "html_url": "https://github.com/rowboatlabs/rowboat"
+    },
+    "anthropics/knowledge-work-plugins": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 287,
+      "language": "Python",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    "laoma2053/awesome-zhuiju-free": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 251,
+      "language": "JavaScript",
+      "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/169715751?v=4",
+      "html_url": "https://github.com/laoma2053/awesome-zhuiju-free"
+    },
+    "google-research/timesfm": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 248,
+      "language": "Python",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43830688?v=4",
+      "html_url": "https://github.com/google-research/timesfm"
+    },
+    "multica-ai/multica": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 205,
+      "language": "Go",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/multica"
+    },
+    "xuanyustudio/LocalMiniDrama": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 196,
+      "language": "JavaScript",
+      "description": "🎬 seedance2接入  开源本地 AI 短剧 & 漫剧生成工具 —— 从故事到成片一站式完成，数据不出本机，短剧工作流管理平台，高灵活度，AI真人剧，AI漫剧本地搞定。 Open-source local AI short drama maker: story → storyboard → video, fully offline, your data stays yours. 纳米流水线",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/208556008?v=4",
+      "html_url": "https://github.com/xuanyustudio/LocalMiniDrama"
     }
   }
 }
