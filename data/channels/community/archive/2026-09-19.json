@@ -1,0 +1,107 @@
+{
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T08:15:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Hacker News / overreacted.io",
+      "author": "Dan Abramov",
+      "title": "How I Vibed a Proof of Conway's Conjecture",
+      "url": "https://overreacted.io/how-i-vibed-a-proof-of-conways-conjecture/",
+      "detail": [
+        "前 React 核心团队成员 Dan Abramov 自称数学门外汉，却花了一个月业余时间和海量 token，让前沿模型帮他产出了一份 Lean 形式化证明，攻克了 John Conway 五十年前提出的超实数「细化猜想」。他坦言尚未经数学家独立验证，但证明已通过 Palomar 机械检查，且懂 Lean 的人认可命题正确，主动邀请大家来反驳。",
+        "帖子把「不懂题目实质也能解题」的荒诞感讲得津津有味，从超实数如何由一条规则逐日诞生讲起，示范了人类做裁判、AI 做证明的新范式。HN 上约 200 分、180 条评论，讨论集中在：这算不算真正的数学突破，Lean kernel 有没有可能被钻空子，以及 vibe coding 向严肃数学延伸的边界在哪。"
+      ],
+      "heat": "HN 约 202 分 / 180 评论"
+    },
+    {
+      "platform": "Hacker News / hawksley.dev",
+      "author": "Ethan Hawksley",
+      "title": "I don't like passkeys",
+      "url": "https://hawksley.dev/blog/i-dont-like-passkeys",
+      "detail": [
+        "作者承认 passkey 技术本身出色：绑定站点无法被钓鱼，非对称密钥即使服务端泄露也无法反推，因此非常适合企业环境。但他认为对个人而言这是错配——个人面临的最大风险不是中间人攻击，而是永久锁死账号、被自动封禁和设备丢失，passkey 恰恰放大了这些高概率场景。",
+        "文章进一步指出硬件密钥无法备份、只能逐站逐 key 录入，成本高且难以规模化；账号安全最终仍取决于最弱的恢复方式（短信、邮件链接、密保问题），passkey 反而制造虚假安全感。该帖在 HN 引爆约 718 分、710 条评论，密码学与产品阵营激烈交锋，是近期最火的安全话题之一。"
+      ],
+      "heat": "HN 约 718 分 / 710 评论"
+    },
+    {
+      "platform": "Hacker News / blog.ferstar.org",
+      "author": "ferstar",
+      "title": "Inside ZCode: Silently Uploading Your Entire Git History to the Cloud",
+      "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
+      "detail": [
+        "作者从一个卡在 pending 的 313MB 归档入手，通过日志和 asar 逆向拆解 GLM 系编码助手 ZCode，发现它会把工作区快照静默上传云端，其中近 90% 是 .git 目录，等于把完整 Git 历史外传。最讽刺的是加密所用的密钥竟归服务器所有，客户端形同虚设。",
+        "他还实测发现 UI 上的开关根本关不掉这一行为，删除文件如打地鼠，只能靠锁定目录来防御，并给出 macOS/Linux 的具体做法和回滚建议。帖子叠加同题材的「ZCode silently uploads your Git history」在 HN 双双上榜，约 248 分、89 评论，AI 编码工具的隐私与供应链信任成为焦点。"
+      ],
+      "heat": "HN 约 248 分 / 89 评论"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "Hacker News / bend-lang.com + blog.liampwll.com",
+      "author": "Victor Taelin vs Liam Powell",
+      "title": "Bend 2：用「证明」堵住 AI 错误的语言，是良药还是 vibe-coding 陷阱？",
+      "url": "https://bend-lang.com/",
+      "detail": [
+        "Higher Order Co 的 Victor Taelin 发布 Bend 2，主打「用证明阻止 AI 犯错」：人写 LAWS.bend 声明不可违反的法则，AI 写实现与证明，编译器像 Lean/Rocq 一样校验，合并 bug 在数学上不可能；同时兼具 C 级速度、CUDA 并行与 Python 语法，HN 约 589 分、302 评论。",
+        "反方以 Liam Powell 的「Bend 2 and the Vibe-Coding Trap」为代表(约 309 分/228 评论)：他指出光是首页 demo 声明「玩家永不获胜」就要写 58 行 LAWS.bend，证明负担沉重，且 LLM 仍能重定义子程序绕过约束，质疑这是把复杂度转嫁的 vibe-coding 陷阱。"
+      ],
+      "heat": "两帖合计 HN 约 900 分 / 530 评论"
+    },
+    {
+      "platform": "Hacker News / OpenAI",
+      "author": "OpenAI",
+      "title": "OpenAI 推出 Astra for Law：法律 AI 会颠覆律所还是只是插件生态？",
+      "url": "https://openai.com/index/astra-for-law/",
+      "detail": [
+        "OpenAI 把最新 GPT-6 Astra 配置为面向法律的版本 Astra for Law，内置覆盖 2.3 亿多个 URL 的美国判例检索索引，并集成 Thomson Reuters、Harvey、Legora 等 26 个合作插件，还对 Am Law 200 律所开放零数据留存的「Trusted Access」，HN 约 566 分、667 评论。",
+        "支持派认为这首次让法律检索与分析在「同一屋檐下」完成，Sullivan & Cromwell 等早期律所看好效率提升；质疑派则强调索引仅覆盖美国法、无与专业检索商的对比基准，且 OpenAI 自己也称只是「补充」而非替代 Westlaw 等，评论区围绕幻觉风险、责任归属和律师岗位冲击争论不休。"
+      ],
+      "heat": "HN 约 566 分 / 667 评论"
+    },
+    {
+      "platform": "Hacker News / CNN",
+      "author": "CNN(转载报道)",
+      "title": "美军因 AI 生成的「幻觉」情报报告险酿误判，AI 可靠性再受拷问",
+      "url": "https://www.cnn.com/2026/09/18/politics/us-military-ai-false-intelligence",
+      "detail": [
+        "CNN 报道称，美军在一次行动中依据 AI 生成的情报报告差点酿成误判，报告里含有被「幻觉」出来的内容。事件迅速登上 HN 首页(约 374 分、291 评论)，把大模型在高风险、关键决策场景中的可靠性问题推到风口浪尖。",
+        "一派观点认为这正是 LLM 不该被放进军事/情报闭环的铁证，置信度校准和事实核查远未成熟；另一派则强调问题在流程与人类把关缺失，而非技术本身，主张用检索增强与强制溯源来兜底。讨论与同期 martinfowler.com「I Don't Like LLMs」等反思帖形成呼应，构成本周社区对 AI 冷思考的主线。"
+      ],
+      "heat": "HN 约 374 分 / 291 评论"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "个人博客 overreacted.io / Bluesky",
+      "name": "Dan Abramov",
+      "url": "https://overreacted.io/",
+      "detail": [
+        "Dan Abramov 是前 Meta React 核心团队成员、Redux 与 Create React App 的作者，如今更多在个人博客 overreacted.io 上以第一性原理拆解前端与计算机科学，近一年密集产出 RSC(React Server Components)系列长文以及一批 Lean 形式化证明入门。",
+        "最新爆款是「How I Vibed a Proof of Conway's Conjecture」，展示他用前沿模型辅助产出超实数猜想的 Lean 证明，把「vibe coding」延伸到严肃数学。他的博客坚持「格式优于应用」的开放社交理念，在 HN 与前端社区长期具号召力，多篇文章都能登上头版。"
+      ],
+      "heat": "博客文章常登 HN 头版，前端圈头部影响力"
+    },
+    {
+      "platform": "GitHub / X @VictorTaelin",
+      "name": "Victor Taelin",
+      "url": "https://github.com/VictorTaelin",
+      "detail": [
+        "Victor Taelin 是巴西函数式编程研究者、Higher Order Company 创始人，代表作是最优归约运行时 HVM 和高级语言 Kind/Bend。他十年磨一剑，让高级语言真正跑在 GPU 上，2024 年的 Bend 首发推文播放量高达 340 万，GitHub 有 5.6k 关注、257 个仓库。",
+        "本周他发布 Bend 2，主打用 Lean 式证明「阻止 AI 犯错」，配套 LAWS.bend/PROOF.bend 工作流并接入 AGENTS.md，X 相关串文观看数超 26 万。他罕见地公开承认项目里 AI 生成内容偏多、仍在人工审计核心，坦诚态度与激进愿景并存，是 AI 时代编程语言讨论的核心人物。"
+      ],
+      "heat": "GitHub 5.6k 关注，Bend 发布推文播放百万级"
+    },
+    {
+      "platform": "个人博客 martinfowler.com / Thoughtworks",
+      "name": "Martin Fowler",
+      "url": "https://martinfowler.com/",
+      "detail": [
+        "Martin Fowler 是 Thoughtworks 首席科学家、重构与微服务领域的奠基性作者，其博客 martinfowler.com 二十余年来是软件工程方法论的风向标，任何新文都会被业界广泛引用与转发。",
+        "9 月 17 日他发表「I Don't Like LLMs」，坦言对 LLM 充满矛盾:既着迷于其对行业的冲击和生产力潜力，又厌恶那种「令人不适的 LLM 腔」和自信满满的胡编，还担忧 agent 群体接管基础设施的风险。文章在 HN 收获约 231 分、263 评论，成为本周资深工程师群体反思 AI 的代表性声音。"
+      ],
+      "heat": "HN 约 231 分 / 263 评论,软件工程界权威"
+    }
+  ]
+}
