@@ -1,0 +1,237 @@
+[
+  {
+    "id": "2026-09-19_vibe_3",
+    "date": "2026-09-19",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "媒体/开发社区",
+    "platform_color": "#F6A07C",
+    "title": "本地大模型最佳开源智能体框架盘点",
+    "url": "https://www.marktechpost.com/2026/09/18/best-open-source-agent-harnesses-for-local-llms-in-2026/",
+    "image": "images/2026-09-19/2026-09-19_vibe_3.jpg",
+    "detail": [
+      "MarkTechPost 于 9 月 18 日发布《2026 年本地大模型最佳开源智能体框架》盘点,系统梳理了 11 款可在本地 LLM 上运行的 agent harness,回应了近期开发者对「不上云、纯本地跑编码智能体」日益高涨的需求。",
+      "文章按开源许可证、本地运行时兼容性(Ollama、llama.cpp 等)、维护活跃度与安全性四大维度打分,覆盖 OpenCode、NVIDIA 系工具、Codex CLI 等主流项目,并对比了各框架在工具调用、多步任务与上下文管理上的取舍,给出选型建议。",
+      "此文迅速在开发者圈引发讨论,焦点集中在隐私敏感团队如何用本地 harness 替代云端 agent,以及本地模型在长任务下的可靠性边界。不少人把它当作年度选型清单收藏,认为本地优先的编码智能体正加速成熟,也有人补充 vLLM、TGI 等推理后端与量化方案对本地体验的影响,呼吁作者补齐硬件门槛与显存占用对照,让选型建议更贴近真实落地场景。"
+    ]
+  },
+  {
+    "id": "2026-09-19_vibe_2",
+    "date": "2026-09-19",
+    "category": "VibeCoding",
+    "subcat": "AI编程",
+    "platform": "官方博客/媒体",
+    "platform_color": "#F6A07C",
+    "title": "accessiBe 推出无障碍审查智能体",
+    "url": "https://www.martechcube.com/accessibe-announced-the-launch-of-code-agent/",
+    "image": "images/2026-09-19/2026-09-19_vibe_2.jpg",
+    "detail": [
+      "数字无障碍厂商 accessiBe 于 9 月 18 日发布全新 Code Agent,首次把无障碍合规检查以智能体形式嵌入开发者工作流。它目前面向符合条件的 accessFlow 客户开放 beta,专门审查 GitHub Pull Request 是否符合 WCAG 2.2 AA 标准。",
+      "与传统事后扫描不同,Code Agent 会在 PR 阶段直接定位到出问题的具体代码行,并在评论里给出可直接采纳的修复建议,支持 React、Next.js 以及原生 HTML/JS。它复用了 accessWidget、accessScan 同一套无障碍引擎,保证 PR 里的修复标准与线上实测口径一致。",
+      "CEO Robert Lopez 强调无障碍应是「软件构建的方式」而非事后补丁,越晚发现修复成本越高。开发者社区认为这标志着无障碍从合规负担变成 code review 环节的常驻能力,与近期涌现的各类 PR 审查 agent 形成呼应,让「左移」真正落到编码时刻。"
+    ]
+  },
+  {
+    "id": "2026-09-19_vibe_1",
+    "date": "2026-09-19",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "官方博客/媒体",
+    "platform_color": "#F6A07C",
+    "title": "VS Code 1.138 让编码智能体活过对话窗口",
+    "url": "https://adtmag.com/articles/2026/09/18/vs-code-wants-coding-agents-to-outlive-the-chat-window.aspx",
+    "image": "images/2026-09-19/2026-09-19_vibe_1.jpg",
+    "detail": [
+      "微软 VS Code 1.138 正式落地,核心思路是让编码智能体(Coding Agent)不再随聊天窗口关闭而消失。新引入的 Agent Host 与 Agent Host Protocol(AHP)把 agent 会话抽象成可持久化、可移植的独立进程,从此后台任务可以跨窗口、跨重启继续跑。",
+      "9 月 18 日媒体解读指出,此版本支持 Codex 会话跨应用迁移:在终端里发起的 agent 任务,可以无缝挪到编辑器界面继续查看和干预;同时新增 Dev Container 内运行 agent 的能力,让智能体在隔离的容器环境里安全执行长流程改造,而不污染本地环境。",
+      "开发者社区普遍认为这是 IDE 从「AI 补全」迈向「AI 常驻工作台」的关键一步。评论区讨论最多的是持久会话如何与 Claude Code、Codex CLI 等外部 harness 打通,以及 AHP 是否会成为多智能体互操作的事实标准,呼声颇高。"
+    ]
+  },
+  {
+    "id": "2026-09-19_gaming_5",
+    "date": "2026-09-19",
+    "category": "Gaming",
+    "subcat": "新游发布",
+    "platform": "Wikipedia",
+    "platform_color": "#7CF6A0",
+    "title": "《乐高蝙蝠侠:黑暗骑士传承》登陆Switch 2",
+    "url": "https://en.wikipedia.org/wiki/Lego_Batman:_Legacy_of_the_Dark_Knight",
+    "image": "images/2026-09-19/2026-09-19_gaming_5.jpg",
+    "detail": [
+      "由 Traveller's Tales(TT Games)开发、华纳兄弟游戏发行的《LEGO Batman: Legacy of the Dark Knight(乐高蝙蝠侠:黑暗骑士传承)》于北京时间 9 月 18 日正式登陆 Nintendo Switch 2。本作此前已于 5 月 22 日在 PS5、Xbox Series X|S 与 PC 发售,如今补齐 Switch 2 版本,让掌机玩家也能体验这部广受好评的乐高动作冒险大作。",
+      "游戏采用虚幻引擎 5 打造,以开放世界哥谭市为舞台,融合《阿卡姆》系列战斗手感与乐高一贯的诙谐幽默,重制并戏仿了几乎所有蝙蝠侠电影与漫画经典桥段。玩家可在城中收集数百件收藏品、解谜并使用各类角色能力,支持单人与多人合作模式,内容量与性价比都相当可观。",
+      "该作 PC/主机版发售时口碑亮眼:Gaming Bible 给出满分 10 分,GamingBolt 打出 9 分,Game Informer 8.75 分,Push Square、IGN、VGC 也普遍给予 8 分及以上,称其\"是 2026 年最有趣的乐高冒险之一\"。评论普遍赞赏其开放世界哥谭的细节密度与对蝙蝠侠影视史的致敬。",
+      "Switch 2 版本此前迟迟未定档,让不少任天堂玩家焦急等待,如今正式上线终于兑现承诺。社区对掌机版能否稳定运行(帧率表现)较为关注,但整体对能在掌机上随时畅玩这部\"合家欢+粉丝向\"双重满足的作品表示欢迎,视其为 Switch 2 秋季第三方阵容的一次重要补强。"
+    ]
+  },
+  {
+    "id": "2026-09-19_gaming_4",
+    "date": "2026-09-19",
+    "category": "Gaming",
+    "subcat": "新游发布",
+    "platform": "Gematsu",
+    "platform_color": "#7CF6A0",
+    "title": "复古FPS《Paperhead》登陆PC与主机",
+    "url": "https://www.gematsu.com/games/paperhead",
+    "image": "images/2026-09-19/2026-09-19_gaming_4.jpg",
+    "detail": [
+      "由 Paperhead te4m 开发、HypeTrain Digital 发行的快节奏复古风射击游戏《PAPERHEAD》于北京时间 9 月 18 日正式发售,登陆 PlayStation 5、Xbox Series 与 PC(Steam)。本作是一款主打高速移动的\"boomer shooter\"(复古式第一人称射击),以硬核工业风配乐和独特的纸板卡通世界观为卖点,带领玩家探索一座废弃研究设施,追寻\"为什么纸板会流血\"的诡异谜题。",
+      "游戏核心玩法围绕高速位移与硬核战斗展开:玩家可将敌人抛向空中、踢飞爆炸桶,或像水管工一样踩踏敌人,也能用霰弹枪直接轰碎它们。最具特色的机制是\"魔法铅笔\"——它不仅是武器,还能改写周围世界:玩家可以画出炸弹踢向敌人、画门破门而入,甚至在墙上涂写文字。可爱却惊悚的纸板世界搭配工业金属配乐,营造出反差鲜明的氛围。",
+      "本作自 2021 年 Realms Deep 首度亮相后经过数年打磨,历经多支预告片与试玩 Demo,最终于 6 月官宣锁定 9 月 18 日发售。作为近年复古 FPS 复兴浪潮中的独立新作,它延续了《DOOM》《Ultrakill》等作品强调的速度感与操作爽快度,同时以手绘纸板美术风格在同类作品中形成鲜明辨识度。",
+      "复古射击社区对这类高机动、强调连招与走位的作品向来热情。玩家在发售前的 Demo 阶段普遍称赞其移动手感顺滑、配乐带感,并对\"铅笔改写世界\"的解谜与战斗结合寄予期待。作为一款价格亲民的独立作品,它被视为秋季档中面向硬核 FPS 爱好者的高性价比之选。"
+    ]
+  },
+  {
+    "id": "2026-09-19_gaming_3",
+    "date": "2026-09-19",
+    "category": "Gaming",
+    "subcat": "新游发布",
+    "platform": "GamingTrend",
+    "platform_color": "#7CF6A0",
+    "title": "《行尸走肉:生存街头》清版动作游戏上线",
+    "url": "https://gamingtrend.com/reviews/the-walking-dead-streets-of-survival-review/",
+    "image": "images/2026-09-19/2026-09-19_gaming_3.jpg",
+    "detail": [
+      "由 Odaclick Game Studio 开发、Trailmark Games 发行的《The Walking Dead: Streets of Survival(行尸走肉:生存街头)》于北京时间 9 月 18 日正式发售,登陆 PC、PS5、Xbox Series 与 Switch 2/Switch。这是一款设定在 AMC 热门末世剧集《行尸走肉》世界观下的横版清版动作(beat 'em up)游戏,取材于漫画中人气极高的\"全面战争(All Out War)\"篇章。",
+      "玩家可操控瑞克、达里尔、米琼恩与尼根等标志性角色,穿越剧中多个经典场景,以救世军和丧尸为主要敌人层层推进。每名角色配有专属武器与手感:瑞克挥舞左轮与斧头、达里尔使用双刀与十字弓、米琼恩持武士刀、尼根挥动棒球棍\"露西尔\"。战斗融合近战与枪械,弹药稀缺且射击需把握准星收缩时机,关卡间可用\"知识点\"解锁技能升级。",
+      "媒体评价整体中肯。GamingTrend 与 GamesHedge 均在发售当日给出评测,认为本作角色手感区分度不错、忠实还原剧集氛围,是继 Telltale 系列与 VR《圣徒与罪人》之后少见的正统《行尸走肉》游戏尝试,但清版战斗缺乏足够独特性,翻滚冷却过长等设计影响长时间体验。",
+      "社区反应呈两极:剧集粉丝欢迎这次以熟悉角色重温\"全面战争\"剧情的机会,认为四人各异的打法与本地合作提供了怀旧乐趣;硬核清版玩家则希望战斗系统更有深度。整体被视为一款\"及格线以上\"的粉丝向作品,填补了该 IP 长期缺乏优质动作游戏的空白。"
+    ]
+  },
+  {
+    "id": "2026-09-19_gaming_2",
+    "date": "2026-09-19",
+    "category": "Gaming",
+    "subcat": "新游发布",
+    "platform": "Notebookcheck",
+    "platform_color": "#7CF6A0",
+    "title": "4X策略《无尽传奇2》正式解锁1.0版本",
+    "url": "https://www.notebookcheck.net/New-4X-grand-strategy-game-hits-1-0-on-Steam-with-big-50-launch-discount-Very-Positive-reviews.1402407.0.html",
+    "image": "images/2026-09-19/2026-09-19_gaming_2.jpg",
+    "detail": [
+      "巴黎工作室 Amplitude Studios 开发、Hooded Horse 发行的 4X 策略续作《ENDLESS Legend 2(无尽传奇2)》正式解锁 1.0 正式版,并于北京时间 9 月 18 日成为媒体报道焦点。游戏在近一年抢先体验后同步登陆 PC(Steam、Epic、微软商店)、PlayStation 5 与 Xbox Series X|S,首发享 50% 折扣,售价由 49.99 美元降至 24.99 美元,并获得 Steam Deck Verified 认证。",
+      "本作背景设定在濒临崩塌的海洋世界 Saiadha,核心机制\"退潮(Tidefall)\"是周期性大灾变,会排空海水、暴露出全新陆地、资源与入侵路线,专门为解决 4X 游戏后期玩家停止探索的痼疾而设计。游戏沿用 Amplitude 招牌的 FIDSI 经济系统(食物、工业、尘埃、科学、影响力),并配以规则各异的非对称派系与源自《人类》的战斗系统。",
+      "1.0 版本新增第六大派系\"塑沙者(Sandshapers)\"及与社区共创的\"和谐红树林\"小派系,各自拥有独立英雄、任务线、村庄与可招募单位,同时补齐了抢先体验期缺席的多人模式与两个流氓派系。目前 Steam 超过 1500 条英文评价维持\"特别好评\",近 206 条中 88% 为正面。",
+      "PC Gamer 给出 85 分,称其\"再次印证 Amplitude 为何深受 4X 玩家喜爱\"。社区普遍赞赏退潮机制为中后期带来的地理不确定性与探索新鲜感,认为它是初代经典的有力接棒者;也有资深玩家保持谨慎,认为派系深度与长期耐玩度仍需数月检验。折扣与好评双重加持,让本作成为秋季策略档热门。"
+    ]
+  },
+  {
+    "id": "2026-09-19_gaming_1",
+    "date": "2026-09-19",
+    "category": "Gaming",
+    "subcat": "新游发布",
+    "platform": "Impulse Gamer",
+    "platform_color": "#7CF6A0",
+    "title": "《格林奇2:拯救圣诞节》全平台发售",
+    "url": "https://www.impulsegamer.com/a-new-festive-journey-begins-as-the-grinch-2-saving-christmas-launches-today/",
+    "image": "images/2026-09-19/2026-09-19_gaming_1.jpg",
+    "detail": [
+      "Outright Games 与 Dr. Seuss Enterprises 于北京时间 9 月 18 日正式推出全新 3D 平台跳跃游戏《The Grinch 2: Saving Christmas(格林奇2:拯救圣诞节)》。游戏同步登陆 Nintendo Switch、PlayStation 4、PlayStation 5、Xbox Series X|S 与 PC(Steam),延续了 1957 年苏斯博士经典绘本中这只毛茸茸绿色角色的幽默与温情,面向全年龄家庭玩家打造节日主题合家欢体验。",
+      "本作让玩家扮演改过自新的格林奇,与忠犬 Max 一同踏上为呼呼镇筹备史上最壮观圣诞树的旅程。游戏共设 23 个节日关卡,横跨呼呼镇、克鲁皮特山、呼呼森林与格林奇洞穴四大奇幻世界。玩家可使用火箭滑轮加速、喷气背包越障、雪球发射器冻结敌人等三种小工具,并支持单人游玩或本地双人合作,由第二名玩家操控 Max。",
+      "发售预告片由辛迪·露·呼旁白,展示了收集装饰、解谜与探索的欢乐流程。Outright Games 集团 CEO Robin Flodin 表示,续作在初代基础上扩展为色彩缤纷的 3D 世界,充满节日惊喜,希望为家庭玩家带来欢笑与难忘的圣诞回忆。作为面向低龄与休闲玩家的合家欢平台跳跃作品,它填补了 2026 年秋季档轻松向新品的空缺。",
+      "在《血脉黎明行者》《寂静岭:小镇陨落》等硬核大作扎堆的 9 月发售潮中,《格林奇2》以温馨易上手的定位形成差异化。社区反馈显示,喜欢《乐高》系列合作模式的家庭玩家对本地双人协作尤为期待,也有玩家将其视为提前进入圣诞氛围的节日小品,适合亲子共玩。"
+    ]
+  },
+  {
+    "id": "2026-09-19_ai_6",
+    "date": "2026-09-19",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "CNBC",
+    "platform_color": "#7C9EF6",
+    "title": "黄仁勋:英伟达明年芯片销量将翻倍",
+    "url": "https://www.cnbc.com/2026/09/17/nvidia-huang-ai-chip-guidance.html",
+    "image": "images/2026-09-19/2026-09-19_ai_6.jpg",
+    "detail": [
+      "北京时间9月18日,英伟达CEO黄仁勋在英国国王查尔斯三世于苏格兰主办的AI峰会间隙对记者表示,他预计英伟达明年售出的芯片数量将是今年的两倍。这是他今年最大胆的增长表态之一,理由是AI正为各行业与各经济体带来巨大收益,几乎在英伟达所到的每个国家,人们都想投资AI。",
+      "这一预期建立在本已乐观的财务展望之上。英伟达上月指引截至2028年1月的财年营收将增长约70%,按市场估算约合6730亿美元。黄仁勋所说的翻倍以芯片出货数量而非营收计量;他去年曾透露公司在四个季度内出货了600万块Blackwell GPU。除数据中心GPU外,其产品线还涵盖CPU、交换芯片、光网络芯片及机器人车载用Jetson芯片。",
+      "在与Google DeepMind、OpenAI和Anthropic代表共同出席的AI安全讨论中,黄仁勋部分淡化了放慢AI发展的呼声。他称AI不同于社交媒体,应被监管的是产品而非AI技术本身,但强调企业须对发布前的严格测试负责:当产品不够安全时,就应推迟发布并继续打磨,可以尽量快,但不能快过安全允许的速度。",
+      "受此提振,英伟达股价当日盘中一度上涨约2.8%。分析师注意到,要支撑加速卡供给翻倍,三星与SK海力士的HBM及DRAM扩产节奏将成为关键变量。在有关前沿AI是否应降速的行业辩论升温之际,黄仁勋以维持强劲增长的姿态,为下一阶段全球AI基础设施投入再添一把火。"
+    ]
+  },
+  {
+    "id": "2026-09-19_ai_5",
+    "date": "2026-09-19",
+    "category": "AI",
+    "subcat": "AI产品",
+    "platform": "9to5Mac",
+    "platform_color": "#7C9EF6",
+    "title": "Safari 27 上线 MCP 接管浏览器",
+    "url": "https://9to5mac.com/2026/09/17/webkit-blog-breaks-down-whats-new-with-safari-27-for-developers-including-mcp-support/",
+    "image": "images/2026-09-19/2026-09-19_ai_5.jpg",
+    "detail": [
+      "北京时间9月17日,苹果随Safari 27.0正式版一并上线了Safari MCP服务器,允许开发者把浏览器窗口的控制权交给Claude Code、Codex等编码智能体,让它们能打开标签页、点击按钮、运行JavaScript并读取控制台,直接看到代码在真实浏览器中的渲染效果。以封闭著称的苹果亲手为第三方AI智能体铺设了这道接口,颇为罕见。",
+      "接入方式极简:开发者在Safari的开发者设置中勾选允许远程自动化与外部智能体,再在终端执行一条命令即可。WebKit官方博客给出了具体指令,例如claude mcp add safari-mcp指向safaridriver,Codex用户则改用codex mcp add,两个工具均被点名支持,苹果还邀请开发者反馈需求。",
+      "安全上,Safari MCP在本地运行、不发起自己的网络请求,也不会访问用户在Safari中的个人信息,需在Safari大于设置大于开发者中手动启用。该服务器可向MCP客户端暴露页面结构、网络活动、控制台消息与截图等调试信息,此前已在Safari 27 beta与Safari Technology Preview 247中提供。",
+      "对Web开发者而言,这意味着调试工作流可以更快更强——智能体不再盲写代码,而能直接观察渲染结果并自我纠正。社区惊讶于苹果一改保守默认的作风,主动把浏览器窗口交给Claude Code或Codex,普遍视其为编码智能体走进主流开发链路、与操作系统级工具深度融合的又一信号。"
+    ]
+  },
+  {
+    "id": "2026-09-19_ai_4",
+    "date": "2026-09-19",
+    "category": "AI",
+    "subcat": "AI产品",
+    "platform": "Ars Technica",
+    "platform_color": "#7C9EF6",
+    "title": "谷歌上线家庭AI管家CC 由Gemini驱动",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
+    "image": "images/2026-09-19/2026-09-19_ai_4.jpg",
+    "detail": [
+      "北京时间9月18日,Google Labs推出一款名为CC的实验性AI智能体,专为家庭打造,可为最多六位家庭成员协调日程、文档、邮件、提醒、表单与共享家务。与普通Gemini对话不同,CC拥有自己的Google账号,只能连接家庭成员明确选择分享的信息,用户可把特定邮件转给它、通过Google Chat与其交互,或授权它访问共享的Drive文件夹。",
+      "功能上,CC每天早晨可生成一份共享的Your Day Ahead简报,更新日历、追踪未完成任务、创建文档,甚至预填学校家长同意书这类表单。谷歌称每个CC实例都运行在隔离的云环境中,底层采用其Antigravity智能体架构与最新的Gemini模型,包括Gemini 3.8 Flash,并能在维护成员信息边界的前提下建立关于家庭偏好的共享记忆。",
+      "隐私控制是其重点:谷歌承诺CC在向家庭群组之外发送信息前会先请求确认。目前该实验仅面向使用个人Google账号的成年人开放,通过候补名单加入。产品清晰地指向消费级AI的下一步方向——从孤立的一问一答,走向具备记忆、权限、身份并能跨多个服务采取行动的持久化智能体。",
+      "评论普遍认为,谷歌是在验证下一代主流消费AI界面是否不再是又一个聊天机器人,而是一个嵌入日常家庭流程的持久数字管家。CC若跑通,记忆与权限治理将成为家庭场景AI落地的关键护栏,而这恰恰也是外界对家庭数据被智能体触达最担忧的地方。"
+    ]
+  },
+  {
+    "id": "2026-09-19_ai_3",
+    "date": "2026-09-19",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "Hacker News",
+    "platform_color": "#7C9EF6",
+    "title": "智谱GLM-5.3自建推理栈跑10万国产芯片",
+    "url": "https://aiweekly.co/alerts/zai-says-glm-53-built-the-inference-stack-that-now-serves-it-on-100000-chinese",
+    "image": "images/2026-09-19/2026-09-19_ai_3.jpg",
+    "detail": [
+      "北京时间9月17日,中国AI公司Z.ai(智谱)发布技术长文,称一个由GLM-5.3驱动的Infra Agent完成了将GLM-5.3-Flash推向生产的大部分工作,如今该模型已运行在一个由超过10万块国产加速卡组成的集群上,推理成本据称可与英伟达方案相当。这被外媒直接冠以RSI(递归自我改进)标签,认为它把行业焦点从AGI转向了模型自我构建。",
+      "GLM-5.3-Flash为320B总参数、18B激活参数、支持100万token上下文的模型,此前曾以匿名代号Ox Alpha在OpenCode与OpenRouter上测试,权重已按MIT许可开源。文章披露,智能体通过密集反馈在本地验证假设,而非每次改动都等待完整部署,并把一处KV Transfer瓶颈追溯到DeepEP某版本占用Python相关资源的问题。",
+      "对国产算力生态而言,这一案例的信号意义突出:在被列入美国实体清单的背景下,智谱以开源权重加智能体自建推理基础设施的组合,展示了绕开高端进口芯片、用规模化国产加速卡承接大模型服务的可行路径。今年1月智谱已成为全球首家上市的大语言模型公司。",
+      "社区反应两极。支持者认为让模型参与自身推理栈优化是工程效率的real leap,是国产软硬件协同的标志性一步;质疑者则担心成本可与英伟达相当这类表述缺乏可复现的第三方基准,呼吁公开更完整的吞吐、能耗与良率数据,而非仅凭厂商自述定论。"
+    ]
+  },
+  {
+    "id": "2026-09-19_ai_2",
+    "date": "2026-09-19",
+    "category": "AI",
+    "subcat": "AI产品",
+    "platform": "官方博客",
+    "platform_color": "#7C9EF6",
+    "title": "OpenAI推Astra for Law法律专用模型",
+    "url": "https://openai.com/index/astra-for-law/",
+    "image": "images/2026-09-19/2026-09-19_ai_2.jpg",
+    "detail": [
+      "北京时间9月18日,OpenAI正式发布面向法律行业的新平台Astra for Law,以其最新、最强模型GPT-6 Astra为核心,叠加为专业法律工作定制的设置、工具与上下文,供律所与法律科技公司围绕自身专长构建AI产品与工作流。Harvey、Legora等API客户将率先在其上开发,Latham & Watkins、Ropes & Gray、Cooley等头部律所已成为早期采用者。",
+      "平台亮点是一套全新的法律检索索引,可覆盖美国判例法、成文法、法规、法院规则与行政裁决,语料规模超过2.3亿个URL,并会持续新增材料。据报道,该系统在新的Legal Research Bench评测中得分54%,较普通检索高出约15个百分点。OpenAI同时推出26个生态插件,连接Relativity、Clio等律所常用的专业工具。",
+      "在隐私与治理方面,OpenAI表示为处理机密客户事务的律所提供了专门控制项,并强调会随前沿模型演进将法律能力迁移到更新的模型上。此举被视为OpenAI在企业垂直市场的又一次纵深卡位,与其此前面向金融服务市场的动作一脉相承。",
+      "业界评论认为,法律检索索引的价值不只在于检索广度,更在于把事实定位、找到相关且有约束力的权威条文这一律师核心动作交给模型辅助完成。不过也有分析师提醒,对与Claude等模型的对比数据,以及基准分数背后的口径,仍需比法律数字本身更严格的审视。"
+    ]
+  },
+  {
+    "id": "2026-09-19_ai_1",
+    "date": "2026-09-19",
+    "category": "AI",
+    "subcat": "AI研究",
+    "platform": "官方博客",
+    "platform_color": "#7C9EF6",
+    "title": "Anthropic首披露:Claude已主导26%自研",
+    "url": "https://www.anthropic.com/research/anthropic-rd-automation-index",
+    "image": "images/2026-09-19/2026-09-19_ai_1.jpg",
+    "detail": [
+      "北京时间9月18日,Anthropic首次对外公开一套名为R&D Automation Index(研发自动化指数)的内部原型指标,量化Claude在公司自身AI研发中承担的工作比例。这是继CEO Dario Amodei几天前发表《我们必须为前沿降速》长文、呼吁行业放慢步伐之后,Anthropic给出的第一份用数据说话的内部仪表盘,也被外媒评价为本月最重要的单一披露。",
+      "报告显示,截至2026年8月,Claude已在26%的AI研发工作中处于主导(AL4)地位,而2月时这一比例还不到1%;90%以上的研发任务已达到协作(AL3)或更高水平。指数依据Epoch AI的AL0至AL5六级自动化量表评定,Anthropic强调Claude目前在任何被测子领域都未达到完全自主的AL5级别,人类仍在关键10%的工作中独立承担。",
+      "指标构建过程同样透明:团队于7月随机抽样20%员工,从Slack与内部文档中梳理出约15000个细粒度研发任务,组织成542节点层级,由独立的Claude评审按人力时间加权打分。公司称约有3万个研发智能体同时运行,在线监控覆盖100%动作并拦截约1/47000,离线监控每周标记约10万条转录、约50条上升到人工处理。",
+      "社区认为这是所谓递归自我改进曲线首次由身处其中的实验室公开量化。半年从1%到26%的斜率若延续,春季或将逼近50%,恰是Amodei警告中六到十二个月内智能体或失控的时间尺度。也有批评者担心自评自证的方法论透明度,并期待METR等第三方独立复核尽快介入。"
+    ]
+  }
+]
