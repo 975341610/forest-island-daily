@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T08:20:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Hacker News",
+      "author": "datadrivenangel (提交)",
+      "title": "Claude Code 现在会在没有 Claude.md 时读取 AGENTS.md",
+      "url": "https://news.ycombinator.com/item?id=49760187",
+      "detail": [
+        "Anthropic 官方在 Claude Code v2.1.277 起加入对 AGENTS.md 的支持:当某个目录里没有 CLAUDE.md 时,Claude 会自动检查并使用 AGENTS.md,该行为可在 /config 中开关。这一改动上了 Hacker News 首页,短时间内积累近 500 分和 180 条评论,成为过去 24 小时里开发者社区讨论最热的技术更新之一。",
+        "值得关注的是,AGENTS.md 一直被 OpenAI Codex 等工具推动为跨厂商的通用 Agent 指令标准,此前各家各写各的项目说明文件让开发者苦不堪言。Anthropic 主动兼容竞品格式,被社区解读为 Agent 工具走向互操作的重要信号,也是其新推出的 Claude Code mods 定制机制的首个内置实例。",
+        "社区反应分两派:一派叫好,认为终于可以一份配置通吃 Claude、Codex 等多个 Agent,减少维护成本;另一派则担心标准碎片化和优先级冲突。项目负责人 Thariq 的相关推文在 X 上获得 320 万浏览,足见这类看似细小的工程改动在开发者群体中的号召力。"
+      ],
+      "heat": "高"
+    },
+    {
+      "platform": "Hacker News",
+      "author": "Hacktron AI (Harsh Jaiswal 等)",
+      "title": "用一张图片攻破 OpenAI:libheif 堆溢出 + SSO 配置错误链式利用",
+      "url": "https://news.ycombinator.com/item?id=49749656",
+      "detail": [
+        "安全团队 Hacktron AI 披露:三人小队在不到 72 小时内,借助 Anthropic 的 Claude 完成了一条从社区论坛到 OpenAI 内部代码仓库的完整攻击链。入口是 community.openai.com 上传的 HEIC 图片,经 ImageMagick 传入存在堆缓冲区溢出的 libheif 库触发 RCE,再叠加 OpenAI SSO 令牌复用漏洞,最终接管员工的 ChatGPT/Codex 账户并在内部 monorepo 提交了一个无害 PR。",
+        "帖子在 Hacker News 拿下约 469 分、近 200 条评论。最抓眼球的细节是:研究者最初用 Claude Opus 4.8 无法绕过 ASLR,而 Opus 5 发布后几小时内就跑出可用漏洞利用,整个项目 token 成本不到 3000 美元。这被社区视为 AI 正在急剧压低高级漏洞挖掘门槛的标志性案例。",
+        "社区讨论聚焦两点:一是媒体解析库(libheif)在 Slack、Meta、Next.js 等大量软件中的供应链风险,即 Hacktron 后续展开的 HEIF Heist 研究;二是 AI 攻防天平的倾斜。OpenAI 仅支付 6500 美元赏金并澄清测试论坛超出赏金范围,也引发关于赏金定价是否合理的争论。"
+      ],
+      "heat": "高"
+    },
+    {
+      "platform": "Hacker News / CNN",
+      "author": "CNN (提交至 HN)",
+      "title": "美军曾因 AI 幻觉情报差点拦截中国货船,险些引发冲突",
+      "url": "https://news.ycombinator.com/item?id=49757520",
+      "detail": [
+        "CNN 独家报道称,今年春季对伊冲突期间,美军特种部队一度准备登临一艘中国货船,依据是一份声称该船载有核武器组件的情报报告。行动在执行前被叫停,官员复查后发现报告出自分析员喂给聊天机器人后产生的幻觉,一名消息人士直言情报完全错误、险些引发战争。该帖在 HN 获约 385 分、300 多条评论,是社区里评论最密集的话题之一。",
+        "报道揭示美军内部 AI 工具常把开源情报与机密信号情报混合,营造出虚假的准确感。一名前高官讽刺内部工具不过是套了口红的商用产品,凸显军事场景缺乏统一的输出校验标准。这类将 LLM 用于目标选择的做法,正把技术界长期担忧的灾难性误判风险推向现实。",
+        "社区反应强烈,讨论从技术层面的幻觉不可控,延伸到 AI 在高风险决策中的问责机制。不少开发者结合同期曝光的 OpenAI 模型失控事件,认为业界在把不成熟的工具塞进关键流程,呼吁在军事与情报领域建立强制的人类可控标准。"
+      ],
+      "heat": "高"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "X / 404 Media / Engadget",
+      "author": "多家媒体 + 开发者",
+      "title": "微软高管私下称 AI 抓取是人类史上最大规模的劳动盗窃",
+      "url": "https://www.androidheadlines.com/2026/09/unsealed-filings-expose-microsoft-openai-executives-on-ai-scraping.html",
+      "detail": [
+        "9 月 17 日,《纽约时报》诉 OpenAI 和微软案的新解封法庭文件公开了一批内部言论:微软应用科学总监 Brent Hecht 早在 2023 年内部备忘录中称网络抓取是不可思议的巨额盗窃、人类史上最大规模的劳动盗窃。文件还显示研究者曾故意去除版权声明,内部指标记录用户改用 Copilot 后新闻网站点击率下降 83%到 93%。",
+        "这批猛料迅速在 X 和技术社区发酵,因为它与两家公司公开坚称抓取属合理使用的立场形成尖锐反差。文件还引用微软内部文档称大模型是一个摧毁自身供应链的产品,OpenAI 的 ChatGPT 负责人则称聊天机器人对出版商构成生存威胁,直接冲击了 fair use 的法律辩护根基。",
+        "话题为何持续发酵:它把创作者、出版商与 AI 公司之间的版权与利益冲突具象化,也让开发者重新审视训练数据来源的伦理与合规。结合 Cloudflare 去年默认拦截 AI 爬虫的内容独立日,社区普遍认为数据授权与付费机制之争已进入新阶段,这场官司预计要到 2027 年才决定是否开庭。"
+      ],
+      "heat": "高"
+    },
+    {
+      "platform": "X / 新京报 / 知乎",
+      "author": "海外开发者 + 中文社区",
+      "title": "号称欧洲最强的 Quasar 大模型被曝套壳智谱 GLM-5.2",
+      "url": "https://www.bjnews.com.cn/detail/1789722338129049.html",
+      "detail": [
+        "西班牙 AI 企业 Multiverse Computing 近期发布旗舰模型 Quasar 1.1 438B,宣称是欧洲最强 AI 模型、全球首款用量子生成数据训练。9 月 15 日推文发布后很快被海外开发者拆台,有人直接在评论区问抱歉 Quasar 不就是基于 GLM5.2 吗,第三方评测机构 Artificial Analysis 也明确标注该模型基于 GLM5.2。",
+        "争议核心不在于合规——GLM-5.2 以宽松的 MIT 协议开源,二次开发本身合法。真正点燃社区情绪的是营销叙事:面向大众的推文只强调欧洲本土研发和量子技术,却对底层基于中国开源模型只字不提,被网友讽刺为发布帖有空间放欧洲旗帜和量子处理器,却找不到位置提及基础模型。",
+        "该话题在 X、新京报及国内技术社区同步发酵,成为观察中国开源模型全球影响力的一个切口。一方面它印证了 GLM 等国产开源权重正被海外广泛采用,另一方面也引发关于开源二创署名规范、模型出处透明度的讨论,不少开发者呼吁建立更清晰的溯源标注习惯。"
+      ],
+      "heat": "中"
+    },
+    {
+      "platform": "Reddit (r/gamedev / r/IndieGaming)",
+      "author": "独立游戏开发者社区",
+      "title": "独立游戏圈激辩 AI:AI Free 标签兴起 vs 泡沫崩塌论",
+      "url": "https://www.reddit.com/r/gaming/comments/1p68oek/indie_game_developers_have_a_new_sales_pitch_ai/",
+      "detail": [
+        "游戏开发者社区最近围绕 AI 展开激烈拉锯。一边是独立开发者推出 AI Free 标签作为新卖点,与 Steam 的生成式 AI 披露规则唱反调,该 AI 无内容认证印章已出现在 Rosewater、Astral Ascent 等多款游戏商店页;相关帖在 r/gaming 拿下 1.2 万+ 点赞和近 800 条评论。",
+        "另一边,Epic CEO 称 Steam 式 AI 披露毫无意义,因为未来几乎所有游戏开发都会用到 AI;Nexon CEO 也表示应假设每家游戏公司现在都在用 AI。r/IndieGaming 上则流传着 2026 年独立游戏泡沫将因 AI 剧烈崩塌的悲观预言,情绪化程度很高。",
+        "这一话题值得关注,因为它折射出创作者身份认同与生产效率之间的深层撕裂:纯预算为零的个人开发者是否该用 AI、玩家是否会为 AI Free 付费、平台披露规则是否形同虚设,都在社区里没有共识。r/gamedev 甚至出现只要提到 AI 就被当成做 AI 游戏的过激氛围,反映出行业转型期的普遍焦虑。"
+      ],
+      "heat": "中"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "博客 / X (@simonw)",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+      "detail": [
+        "Simon Willison 是 Django 联合创始人、开源工具 Datasette 作者,近两年以高产的 LLM 实测博客成为开发者社区最受信赖的 AI 观察者之一。他持续更新的博客几乎每天记录模型动态,并以让 AI 画一只骑自行车的鹈鹕(pelican riding a bicycle)这一刁钻测试来横评各家模型,已成社区经典梗。",
+        "过去一两天他仍在保持更新,并在 PyCon US 的五分钟闪电演讲里用注释幻灯片总结近半年 LLM 进展,提出 2025 年 11 月拐点的说法——认为编码 Agent 正是在那时真正变得可用。他的判断因兼具工程细节与克制态度,常被社区当作降噪的信号源。",
+        "值得关注的原因在于:在充斥营销噪音的 AI 领域,他坚持亲手实测、公开方法、不夸大,为独立开发者提供了可复用的评测范式。无论是模型选型、Agent 工作流还是 prompt 技巧,他的第一手记录都被广泛引用,是社区里少见的长期高信誉个人创作者。"
+      ],
+      "heat": "高"
+    },
+    {
+      "platform": "X (@karpathy)",
+      "name": "Andrej Karpathy",
+      "url": "https://x.com/karpathy",
+      "detail": [
+        "Andrej Karpathy 曾任特斯拉 AI 总监、OpenAI 创始团队成员,如今创办 AI 教育公司 Eureka Labs,X 粉丝达 240 万。他是 vibe coding 一词的提出者,也留下了最热的新编程语言是英语这样被反复引用的金句,几乎每条发帖都能牵动整个开发者社区的讨论方向。",
+        "他近期一条长贴描述自己周末只用一句英文指令,就让 Agent 自动完成家用摄像头视频分析看板的搭建——登录、配 SSH、部署 vLLM、跑 Qwen3-VL、写 Web UI、测试并出报告,全程 30 分钟无需插手,该贴获 510 万浏览。他借此论断编程正在变得面目全非,人从敲代码转向用英语管理并行 Agent。",
+        "值得关注的是,Karpathy 的观点往往先于行业形成共识:从 vibe coding 到 agentic engineering,他的表述常被社区、媒体乃至工具厂商直接借用为叙事框架。作为兼具一线研究经验与极强传播力的创作者,他的每次发声都是观察 AI 编程范式迁移的重要风向标。"
+      ],
+      "heat": "高"
+    },
+    {
+      "platform": "GitHub / X (@op7418) / 小红书",
+      "name": "歸藏 (guizang)",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "detail": [
+        "歸藏是国内知名的前大厂 UI/UX 设计师、AI 博主,以深耕 AI 生图与 Agent 工作流著称。他开源的 guizang-ppt-skill 把 AI 做 PPT 从灵感型生成推进为可控的版式工程链路,内置电子杂志风与瑞士国际主义两套视觉系统、共 30 多个锁定版式,并配有校验脚本,交付物是单文件 HTML 网页 PPT。",
+        "该项目在 GitHub 迅速突破 1.16 万 Star、900+ Fork,是近期中文创作者在 Agent Skill 领域最具代表性的作品之一。它上架小红书新推出的 RED Skill 后,又获得数千人一键复制使用,成为站内最受欢迎的 Skill 之一,打通了创作—种草—分发—使用的闭环。",
+        "值得关注的原因在于,歸藏代表了一批从设计与内容出身、借 AI 转型为工具作者的新型创作者。他把踩过的坑写进 checklist,强调别让 Agent 跑偏而非炫技,这种工程化思路正影响大量个人开发者。他也是小红书 Vibe Coding、GitHub 与 X 三地联动分发的典型样本,是观察 Skill 生态的重要个体。"
+      ],
+      "heat": "中"
+    }
+  ]
+}
