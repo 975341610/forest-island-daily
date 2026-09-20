@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-20": {
-      "harry0703/MoneyPrinterTurbo": 1,
-      "amadeusprotocol/node": 2,
-      "volcengine/OpenViking": 3,
-      "chaitanyagiri/munder-difflin": 4,
-      "RyanCodrai/turbovec": 5,
-      "usestrix/strix": 6,
-      "agalwood/Motrix": 7,
-      "NousResearch/hermes-agent": 8,
-      "jundot/omlx": 9,
-      "Graphify-Labs/graphify": 10,
-      "genlayerlabs/genlayer-project-boilerplate": 11,
-      "t8y2/dbx": 12,
-      "block/buzz": 13,
-      "ruvnet/RuView": 14,
-      "pingdotgg/t3code": 15,
-      "heygen-com/hyperframes": 16,
-      "ruvnet/ruflo": 17,
-      "DrewThomasson/ebook2audiobook": 18,
-      "QuantumNous/new-api": 19,
-      "mvanhorn/last30days-skill": 20,
-      "immich-app/immich": 21,
-      "darkzOGx/youtube-automation-agent": 22,
-      "K-Dense-AI/scientific-agent-skills": 23,
-      "jlcodes99/cockpit-tools": 24,
-      "longbridge/gpui-component": 25
-    },
     "2026-08-21": {
       "harry0703/MoneyPrinterTurbo": 1,
       "volcengine/OpenViking": 2,
@@ -836,6 +809,33 @@
       "roboflow/supervision": 23,
       "every-app/open-seo": 24,
       "ankitects/anki": 25
+    },
+    "2026-09-20": {
+      "cloudflare/security-audit-skill": 1,
+      "alibaba/open-code-review": 2,
+      "Tencent/BrowserSkill": 3,
+      "vercel-labs/json-render": 4,
+      "addyosmani/agent-skills": 5,
+      "anthropics/claude-code": 6,
+      "Tencent/WeKnora": 7,
+      "Open-Dev-Society/OpenStock": 8,
+      "coder/coder": 9,
+      "supermemoryai/supermemory": 10,
+      "Fission-AI/OpenSpec": 11,
+      "rustfs/rustfs": 12,
+      "ahmedkhaleel2004/gitdiagram": 13,
+      "anthropics/knowledge-work-plugins": 14,
+      "TencentCloud/Octop": 15,
+      "cactus-compute/needle": 16,
+      "mcncarl/yichen-skills": 17,
+      "higgsfield-ai/higgsfield": 18,
+      "browser-use/browser-use": 19,
+      "tradesdontlie/tradingview-mcp": 20,
+      "byoungd/up": 21,
+      "yyjeqhc/webcodex": 22,
+      "docling-project/docling": 23,
+      "n8n-io/n8n": 24,
+      "WorldFlowAI/everything-claude-code": 25
     }
   }
 }

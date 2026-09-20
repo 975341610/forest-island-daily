@@ -66,8 +66,8 @@
     },
     "alibaba/open-code-review": {
       "best_rank": 1,
-      "appearances": 6,
-      "total_today_stars": 13991,
+      "appearances": 7,
+      "total_today_stars": 14976,
       "language": "Go",
       "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -183,8 +183,8 @@
     },
     "Tencent/WeKnora": {
       "best_rank": 4,
-      "appearances": 5,
-      "total_today_stars": 4085,
+      "appearances": 6,
+      "total_today_stars": 4563,
       "language": "Go",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -290,9 +290,9 @@
       "html_url": "https://github.com/ruvnet/RuView"
     },
     "addyosmani/agent-skills": {
-      "best_rank": 6,
-      "appearances": 5,
-      "total_today_stars": 2674,
+      "best_rank": 5,
+      "appearances": 6,
+      "total_today_stars": 3230,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -345,8 +345,8 @@
     },
     "cloudflare/security-audit-skill": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 8974,
+      "appearances": 5,
+      "total_today_stars": 12129,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -462,8 +462,8 @@
     },
     "TencentCloud/Octop": {
       "best_rank": 7,
-      "appearances": 3,
-      "total_today_stars": 1332,
+      "appearances": 4,
+      "total_today_stars": 1613,
       "language": "Python",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
@@ -480,8 +480,8 @@
     },
     "n8n-io/n8n": {
       "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 1064,
+      "appearances": 4,
+      "total_today_stars": 1190,
       "language": "TypeScript",
       "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/45487711?v=4",
@@ -506,9 +506,9 @@
       "html_url": "https://github.com/cursor/plugins"
     },
     "anthropics/claude-code": {
-      "best_rank": 11,
-      "appearances": 3,
-      "total_today_stars": 1147,
+      "best_rank": 6,
+      "appearances": 4,
+      "total_today_stars": 1630,
       "language": "TypeScript",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -516,8 +516,8 @@
     },
     "rustfs/rustfs": {
       "best_rank": 11,
-      "appearances": 3,
-      "total_today_stars": 982,
+      "appearances": 4,
+      "total_today_stars": 1277,
       "language": "Rust",
       "description": "🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151849438?v=4",
@@ -525,8 +525,8 @@
     },
     "Tencent/BrowserSkill": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 2608,
+      "appearances": 3,
+      "total_today_stars": 3220,
       "language": "TypeScript",
       "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -560,9 +560,9 @@
       "html_url": "https://github.com/rowboatlabs/rowboat"
     },
     "anthropics/knowledge-work-plugins": {
-      "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 586,
+      "best_rank": 14,
+      "appearances": 3,
+      "total_today_stars": 867,
       "language": "Python",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -614,9 +614,9 @@
       "html_url": "https://github.com/stablyai/orca"
     },
     "coder/coder": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 478,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 880,
       "language": "Go",
       "description": "Secure environments for developers and their agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/95932066?v=4",
@@ -650,9 +650,9 @@
       "html_url": "https://github.com/heygen-com/hyperframes"
     },
     "Fission-AI/OpenSpec": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 296,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 663,
       "language": "TypeScript",
       "description": "Spec-driven development (SDD) for AI coding assistants.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/203414896?v=4",
@@ -669,8 +669,8 @@
     },
     "yyjeqhc/webcodex": {
       "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 202,
+      "appearances": 2,
+      "total_today_stars": 339,
       "language": "Rust",
       "description": "Give cloud AI agents a real development environment on your own machines.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/51790758?v=4",
@@ -684,6 +684,114 @@
       "description": "Open source alternative to Semrush and Ahrefs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
       "html_url": "https://github.com/every-app/open-seo"
+    },
+    "vercel-labs/json-render": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 585,
+      "language": "TypeScript",
+      "description": "The Generative UI framework",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "html_url": "https://github.com/vercel-labs/json-render"
+    },
+    "Open-Dev-Society/OpenStock": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 472,
+      "language": "TypeScript",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/177231203?v=4",
+      "html_url": "https://github.com/Open-Dev-Society/OpenStock"
+    },
+    "supermemoryai/supermemory": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 392,
+      "language": "TypeScript",
+      "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/171979587?v=4",
+      "html_url": "https://github.com/supermemoryai/supermemory"
+    },
+    "ahmedkhaleel2004/gitdiagram": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 285,
+      "language": "TypeScript",
+      "description": "Free, simple, fast interactive diagrams for any GitHub repository",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/111161052?v=4",
+      "html_url": "https://github.com/ahmedkhaleel2004/gitdiagram"
+    },
+    "cactus-compute/needle": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 234,
+      "language": "Python",
+      "description": "Automation foundation model for tiny devices: 2-bit, 8-29 MB, tool calls, structured extraction and embeddings on phones, wearables, smart homes, robots, cars and microcontrollers.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/196640840?v=4",
+      "html_url": "https://github.com/cactus-compute/needle"
+    },
+    "mcncarl/yichen-skills": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 219,
+      "language": "Python",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/204130968?v=4",
+      "html_url": "https://github.com/mcncarl/yichen-skills"
+    },
+    "higgsfield-ai/higgsfield": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 196,
+      "language": "Jupyter Notebook",
+      "description": "Fault-tolerant, highly scalable GPU orchestration, and a machine learning framework designed for training models with billions to trillions of parameters",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/146205480?v=4",
+      "html_url": "https://github.com/higgsfield-ai/higgsfield"
+    },
+    "browser-use/browser-use": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 194,
+      "language": "Python",
+      "description": "Agents that use the browser.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "html_url": "https://github.com/browser-use/browser-use"
+    },
+    "tradesdontlie/tradingview-mcp": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 162,
+      "language": "JavaScript",
+      "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/196674484?v=4",
+      "html_url": "https://github.com/tradesdontlie/tradingview-mcp"
+    },
+    "byoungd/up": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 148,
+      "language": "JavaScript",
+      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/16145783?v=4",
+      "html_url": "https://github.com/byoungd/up"
+    },
+    "docling-project/docling": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 129,
+      "language": "Python",
+      "description": "Get your documents ready for gen AI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/188446108?v=4",
+      "html_url": "https://github.com/docling-project/docling"
+    },
+    "WorldFlowAI/everything-claude-code": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 99,
+      "language": "JavaScript",
+      "description": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/253326648?v=4",
+      "html_url": "https://github.com/WorldFlowAI/everything-claude-code"
     }
   }
 }
