@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-21": {
-      "harry0703/MoneyPrinterTurbo": 1,
-      "volcengine/OpenViking": 2,
-      "amadeusprotocol/node": 3,
-      "mahlernim/google-timeline-visualizer": 4,
-      "byoungd/up": 5,
-      "usestrix/strix": 6,
-      "chaitanyagiri/munder-difflin": 7,
-      "apache/maka": 8,
-      "cursor/plugins": 9,
-      "pbakaus/impeccable": 10,
-      "nautechsystems/nautilus_trader": 11,
-      "akitaonrails/ai-memory": 12,
-      "jundot/omlx": 13,
-      "modular/modular": 14,
-      "yt-dlp/yt-dlp": 15,
-      "chuspeeism/dashi-ppt-skill": 16,
-      "bookorbit/bookorbit": 17,
-      "RyanCodrai/turbovec": 18,
-      "pingdotgg/t3code": 19,
-      "garrytan/gstack": 20,
-      "Osmantic/ODS": 21,
-      "tashfeenahmed/freellmapi": 22,
-      "anthropics/claude-code": 23,
-      "agalwood/Motrix": 24,
-      "Wei-Shaw/sub2api": 25
-    },
     "2026-08-22": {
       "openai/codex": 1,
       "harry0703/MoneyPrinterTurbo": 2,
@@ -836,6 +809,33 @@
       "docling-project/docling": 23,
       "n8n-io/n8n": 24,
       "WorldFlowAI/everything-claude-code": 25
+    },
+    "2026-09-21": {
+      "cloudflare/security-audit-skill": 1,
+      "Open-Dev-Society/OpenStock": 2,
+      "addyosmani/agent-skills": 3,
+      "docling-project/docling": 4,
+      "higgsfield-ai/higgsfield": 5,
+      "anthropics/claude-code": 6,
+      "ZuodaoTech/everyone-can-use-english": 7,
+      "zhouxiaoka/autoclip": 8,
+      "cactus-compute/needle": 9,
+      "coder/coder": 10,
+      "Tencent/BrowserSkill": 11,
+      "vercel-labs/json-render": 12,
+      "FareedKhan-dev/train-llm-from-scratch": 13,
+      "krillinai/OpenCreator": 14,
+      "anthropics/financial-services": 15,
+      "cloudflare/quiche": 16,
+      "yynxxxxx/Codex-X": 17,
+      "mihail911/modern-software-dev-assignments": 18,
+      "supermemoryai/supermemory": 19,
+      "guohuiyuan/go-music-dl": 20,
+      "mnfst/awesome-free-llm-apis": 21,
+      "browserbase/stagehand": 22,
+      "ahmedkhaleel2004/gitdiagram": 23,
+      "akitaonrails/ai-memory": 24,
+      "byoungd/up": 25
     }
   }
 }
