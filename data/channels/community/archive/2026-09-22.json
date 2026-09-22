@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T08:00:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "HackerNews",
+      "author": "PBS NewsHour",
+      "title": "诉讼指控 Anthropic/OpenAI/Google 密谋放缓AI竞赛",
+      "url": "https://news.ycombinator.com/item?id=49775817",
+      "detail": [
+        "一起反垄断诉讼指控 Anthropic、OpenAI、xAI 与 Google 之间达成非法协议，合谋放缓 AI 竞赛节奏、默契控制模型发布与算力扩张速度，相关报道在过去24小时内冲上 Hacker News 首页高位。",
+        "社区围绕头部大厂是否形成事实垄断、开放模型阵营能否形成反制，以及监管介入是否会重塑前沿模型格局展开激烈辩论，成为当日热度最高的科技法律话题之一。",
+        "评论区既有对巨头协同的警惕，也有对诉讼举证难度的冷静分析。"
+      ],
+      "heat": "HN 首页高票热帖"
+    },
+    {
+      "platform": "Reddit",
+      "author": "u/rm-rf-rm",
+      "title": "r/LocalLLaMA 月度最佳本地模型巨帖持续升温",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkmhyl/best_local_llms_august_2026/",
+      "detail": [
+        "r/LocalLLaMA 每月例行的最佳本地模型投票帖在过去24小时仍有大量新回复涌入。",
+        "玩家按显存档位从入门到无上限分享实测结果：Qwen3.6-27b、Laguna S 2.1、DeepSeek v4 flash 等成为本地 Agentic 编程与创意写作的热门选择。",
+        "社区普遍感叹开源权重模型已逼近闭源前沿，讨论集中在量化取舍、显存占用与推理速度的平衡上，也有用户强调本地部署在隐私与成本上的长期优势。"
+      ],
+      "heat": "Megathread 数百条评论"
+    },
+    {
+      "platform": "HackerNews",
+      "author": "joshtronic",
+      "title": "《不再喝AI迷魂汤》引发开发者集体反思",
+      "url": "https://news.ycombinator.com/item?id=49776729",
+      "detail": [
+        "一篇个人博客《I stopped drinking the AI kool-aid》与ChatGPT 借广告采集器追踪用户跨站行为的报道同期登上 Hacker News 热榜，点燃了隐私与祛魅两条讨论主线。",
+        "评论区聚焦编程代理的真实生产力究竟几何、模型是否已触及扩展墙，以及有人把大模型比作冷读术的心理学解读，形成对当前 AI 狂热的一波集中反思。",
+        "支持与质疑两派观点交锋密集，热度居高不下。"
+      ],
+      "heat": "HN 高评论热帖"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "社区热议",
+      "author": "",
+      "title": "编程代理工作流编排",
+      "url": "https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions/",
+      "detail": [
+        "如何编排多个 Claude Code 会话协同工作，成为开发者社区当下的热议焦点。",
+        "参谋长模式（Chief of Staff）等方法论文章在 Hacker News 引发讨论，主张用一个主控代理调度多个子会话分工协作，把复杂项目拆解为可并行推进的子任务。",
+        "话题还延伸到自托管推理编排器的对比、沙箱安全隔离与本地算力自主等方向，反映出 vibecoding 正从能写代码迈向可工程化编排的新阶段，开发者对可控性与可观测性的诉求显著上升。"
+      ],
+      "heat": "社区热议"
+    },
+    {
+      "platform": "社区热议",
+      "author": "",
+      "title": "开源权重模型逼近闭源前沿",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vkmhyl/best_local_llms_august_2026/",
+      "detail": [
+        "社区普遍感受到开源阵营正进入最佳时期：已经可以在消费级硬件上跑起接近旗舰级别的开放模型，行业联盟也集体发声力挺开放 AI，以对抗闭源巨头的游说压力。",
+        "r/LocalLLaMA 用户热议 Qwen3.6、DeepSeek v4 flash、小米 MiMo 系列等新权重的表现，聚焦量化方案的取舍以及本地隐私优先的推理栈选择。",
+        "随着小米 MiMo-V2.6 等模型登顶开源智能指数，开源与闭源的能力差距成为最受关注的话题之一。"
+      ],
+      "heat": "社区热议"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "个人博客 / X",
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+      "detail": [
+        "知名开发者、Datasette 作者，持续高频输出 LLM 观察。",
+        "近期新贴以拒绝对 LLM 感兴趣就像遗传学家忽视 DNA作比，力挺 AI 辅助编程的实际价值，延续其年初关于 2026 年 LLM 写好代码将无可否认的预测，是 vibecoding 社区风向标式的声音，每篇长文都能在开发者圈引发广泛转发与讨论。"
+      ],
+      "heat": "社区活跃创作者"
+    },
+    {
+      "platform": "Reddit r/LocalLLaMA",
+      "name": "rm-rf-rm",
+      "url": "https://www.reddit.com/user/rm-rf-rm/",
+      "detail": [
+        "r/LocalLLaMA 月度最佳本地模型巨帖的组织者，近期主持了最新一期投票，按显存档位系统整理社区实测推荐，推动本地开源模型评测的规范化与可比化，是本地 AI 玩家圈里最具组织力的活跃贡献者之一，其汇总帖已成为许多人选型本地模型的重要参考。"
+      ],
+      "heat": "社区活跃创作者"
+    }
+  ]
+}
