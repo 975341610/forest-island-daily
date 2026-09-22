@@ -11,9 +11,9 @@
       "html_url": "https://github.com/cloudflare/security-audit-skill"
     },
     "Open-Dev-Society/OpenStock": {
-      "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 755,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 1599,
       "language": "TypeScript",
       "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/177231203?v=4",
@@ -21,8 +21,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 736,
+      "appearances": 2,
+      "total_today_stars": 1304,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -30,8 +30,8 @@
     },
     "docling-project/docling": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 585,
+      "appearances": 2,
+      "total_today_stars": 715,
       "language": "Python",
       "description": "Get your documents ready for gen AI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/188446108?v=4",
@@ -48,8 +48,8 @@
     },
     "anthropics/claude-code": {
       "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 419,
+      "appearances": 2,
+      "total_today_stars": 887,
       "language": "TypeScript",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -66,8 +66,8 @@
     },
     "zhouxiaoka/autoclip": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 395,
+      "appearances": 2,
+      "total_today_stars": 645,
       "language": "Python",
       "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
       "owner_avatar": "https://avatars.githubusercontent.com/u/78066887?v=4",
@@ -83,9 +83,9 @@
       "html_url": "https://github.com/cactus-compute/needle"
     },
     "coder/coder": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 379,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 839,
       "language": "Go",
       "description": "Secure environments for developers and their agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/95932066?v=4",
@@ -101,9 +101,9 @@
       "html_url": "https://github.com/Tencent/BrowserSkill"
     },
     "vercel-labs/json-render": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 291,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 1054,
       "language": "TypeScript",
       "description": "The Generative UI framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
@@ -120,17 +120,17 @@
     },
     "krillinai/OpenCreator": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 263,
+      "appearances": 2,
+      "total_today_stars": 396,
       "language": "TypeScript",
       "description": "Formerly KrillinAI. Open-source AI workspace for creators, powered by Codex. Create videos, images, voice, avatars, video translation, and edits with Agents in one place.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2386538?v=4",
       "html_url": "https://github.com/krillinai/OpenCreator"
     },
     "anthropics/financial-services": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 260,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 684,
       "language": "Python",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -209,9 +209,9 @@
       "html_url": "https://github.com/ahmedkhaleel2004/gitdiagram"
     },
     "akitaonrails/ai-memory": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 114,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 281,
       "language": "Rust",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2840?v=4",
@@ -225,6 +225,141 @@
       "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
       "owner_avatar": "https://avatars.githubusercontent.com/u/16145783?v=4",
       "html_url": "https://github.com/byoungd/up"
+    },
+    "BuilderIO/agent-native": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 607,
+      "language": "TypeScript",
+      "description": "A framework for building agentic apps",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/35700027?v=4",
+      "html_url": "https://github.com/BuilderIO/agent-native"
+    },
+    "agent-substrate/substrate": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 498,
+      "language": "Go",
+      "description": "Agent Substrate: the core system",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/280516639?v=4",
+      "html_url": "https://github.com/agent-substrate/substrate"
+    },
+    "earendil-works/pi": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 432,
+      "language": "TypeScript",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
+      "html_url": "https://github.com/earendil-works/pi"
+    },
+    "Crosstalk-Solutions/project-nomad": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 394,
+      "language": "TypeScript",
+      "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/105950641?v=4",
+      "html_url": "https://github.com/Crosstalk-Solutions/project-nomad"
+    },
+    "paperless-ngx/paperless-ngx": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 377,
+      "language": "Python",
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/99562962?v=4",
+      "html_url": "https://github.com/paperless-ngx/paperless-ngx"
+    },
+    "browser-use/browser-use": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 248,
+      "language": "Python",
+      "description": "Agents that use the browser.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "html_url": "https://github.com/browser-use/browser-use"
+    },
+    "laoma2053/awesome-zhuiju-free": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 235,
+      "language": "JavaScript",
+      "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/169715751?v=4",
+      "html_url": "https://github.com/laoma2053/awesome-zhuiju-free"
+    },
+    "bendlang/bend": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 193,
+      "language": "TypeScript",
+      "description": "Bend 2: a fast language that blocks AI mistakes via proof. Install: curl -fsSL https://bend-lang.com/install.sh | sh",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/330058878?v=4",
+      "html_url": "https://github.com/bendlang/bend"
+    },
+    "ruanyf/weekly": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 182,
+      "language": null,
+      "description": "科技爱好者周刊，每周五发布",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/905434?v=4",
+      "html_url": "https://github.com/ruanyf/weekly"
+    },
+    "mvt-project/mvt": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 169,
+      "language": "Python",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/87478403?v=4",
+      "html_url": "https://github.com/mvt-project/mvt"
+    },
+    "Jakubantalik/thinking-orbs": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 168,
+      "language": "TypeScript",
+      "description": "Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14873517?v=4",
+      "html_url": "https://github.com/Jakubantalik/thinking-orbs"
+    },
+    "multica-ai/multica": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 139,
+      "language": "Go",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/multica"
+    },
+    "yyjeqhc/webcodex": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 114,
+      "language": "Rust",
+      "description": "Give cloud AI agents a real development environment on your own machines.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/51790758?v=4",
+      "html_url": "https://github.com/yyjeqhc/webcodex"
+    },
+    "QuantumNous/new-api": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 101,
+      "language": "Go",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/205075698?v=4",
+      "html_url": "https://github.com/QuantumNous/new-api"
+    },
+    "yikart/AiToEarn": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 92,
+      "language": "TypeScript",
+      "description": "Let's use AI to Earn!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/194770693?v=4",
+      "html_url": "https://github.com/yikart/AiToEarn"
     }
   }
 }
