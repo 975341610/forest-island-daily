@@ -1,0 +1,223 @@
+[
+  {
+    "id": "2026-09-22_vibe_4",
+    "date": "2026-09-22",
+    "category": "VibeCoding",
+    "subcat": "编程工具",
+    "platform": "LLM Stats",
+    "platform_color": "#F6A07C",
+    "title": "Grok 4.7长任务基准公布引复核热议",
+    "url": "https://llm-stats.com/blog/research/grok-4-7-launch",
+    "image": "images/2026-09-22/2026-09-22_vibe_4.jpg",
+    "detail": [
+      "伴随Grok 4.7于9月21日发布，评测站点LLM Stats当日发出深度解读，聚焦这次同价升级的技术叙事：更大的基座、在偏向多小时难题的数据配比上做更长的强化学习、更强的自我验证，以及对Grok Bot harness的原生理解，而非新增价格档位。文章强调，买家买到的是长时程编码与Agent工作的更可靠推进，而非更贵的分层。",
+      "文中整理了xAI官方与模型卡的自评数据：CursorBench 4.0达46.3%（xhigh）、DeepSWE v1.1 71.0%（high）、Terminal-Bench 4.0 38.0%（在Grok Build harness下）、EEBench 66.0%，SWE-Marathon v1.1也从31.9%提升到46.0%。模型上下文属500k级别，预训练截止2026年6月、补充训练至8月，API id为grok-4.7，并提供仅限Cursor与Grok Build的双倍价Fast变体。",
+      "关键提醒是：上述分数全部为xAI自评、尚未经LLM Stats核验，且CursorBench 4.0的时程长于旧版，跨版本不可直接比较。文章建议开发者把effort阶梯当作成本与延迟的旋钮，务必用自己的每任务token数重新测量，并善用prompt cache key让同一会话命中缓存、避免按满价计费。",
+      "这种厂商放榜、第三方要求复核的张力，正是当前编程模型竞争的缩影。社区一方面欢迎同价换来的长任务稳定性提升，另一方面对自评基准保持警惕，呼吁Artificial Analysis等独立机构尽快给出可比的harness级结果——毕竟在同一模型跑进不同Agent会得出不同分数的年代，模型加harness才是有意义的评测单元。"
+    ]
+  },
+  {
+    "id": "2026-09-22_vibe_3",
+    "date": "2026-09-22",
+    "category": "VibeCoding",
+    "subcat": "开发者生态",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "9/21 Product Hunt开发者智能体工具霸榜",
+    "url": "https://github.com/duanyytop/agents-radar/issues/3402",
+    "image": "images/2026-09-22/2026-09-22_vibe_3.jpg",
+    "detail": [
+      "北京时间9月21日，开源雷达项目agents-radar自动汇总的当日Product Hunt AI榜单显示，当天11款上榜产品几乎被开发者向智能体工具占据——前六名中有五款直接面向程序员或技术用户，标志着AI正从消费级应用加速下沉到基础设施与Agent层。这份每日摘要成为观察VibeCoding风向的一个便捷切口。",
+      "当日领跑的是开源AI智能体Bolt Forge（约238赞），主打基于开源模型实现50倍更高效使用，定位轻量、高性能的自主工作流；开发者工具类目还有主打MCP替代的Ruby UTCP（约95赞），以及号称摆脱时钟压力、专注深度编码的AI编码环境LucentraCode。基础设施与模型类目同样被Bolt Forge与UTCP这类开源栈占据。",
+      "摘要给出的市场信号很清晰：开发者赋能、工作流自动化与开源透明成为当日三大主题。多款产品强调无缝集成与情境感知的环境式辅助，而Bolt Forge、UTCP等对开源模型与开放协议的偏好，反映出开发者在AI复杂度攀升之际，越来越看重可控性、性能与可审计性，而非封闭生态。",
+      "对国内关注AI Coding的团队而言，这份榜单的价值在于它以一天为切片呈现了工具竞争的密度：智能体框架、工具调用协议、编码环境三条赛道同日开火。它提示，纯模型能力之外，编排架构、执行环境与开放标准正成为新的差异化战场，也让今天又有哪些新玩具成为开发者社区的日常谈资。"
+    ]
+  },
+  {
+    "id": "2026-09-22_vibe_2",
+    "date": "2026-09-22",
+    "category": "VibeCoding",
+    "subcat": "MCP",
+    "platform": "Product Hunt",
+    "platform_color": "#F6A07C",
+    "title": "Ruby UTCP上线 主打MCP工具调用替代",
+    "url": "https://www.producthunt.com/products/utcp",
+    "image": "images/2026-09-22/2026-09-22_vibe_2.jpg",
+    "detail": [
+      "北京时间9月21日，通用工具调用协议UTCP（Universal Tool Calling Protocol）的Ruby官方实现Ruby UTCP登上Product Hunt开发者工具榜，被定位为安全、可扩展、可审计的MCP替代方案，当日拿下约95个赞，成为当天基础设施与模型类目的代表性发布。UTCP主张让AI Agent直接调用原生API、CLI与多种传输通道，消除MCP常见的包装层税以降低延迟。",
+      "与需要中间服务器包装的MCP不同，UTCP用一份简单的JSON manifest描述工具，让应用无论面对HTTP API、命令行还是其它传输方式都能以统一方式调用。此次Ruby SDK的推出，把这套直连、少glue code的理念带入Ruby生态，面向对合规、可审计性要求较高、且不希望被特定厂商锁定的团队，补齐了此前以Python、TypeScript为主的语言覆盖。",
+      "从项目积累看，UTCP已运营一段时间，累计逾千GitHub star、数千次下载，并维护着一份230多个工具的注册表，社区还推出过四行代码构建工具调用Agent的轻量SDK。此次Ruby版发布延续其插件式协议、精简内核的路线，强调把工具调用的安全边界和可观测性交回开发者手中。",
+      "在MCP已成为Agent数据与工具接入事实标准的背景下，UTCP代表了一股去中心化、直连优先的反思声音。支持者认为它在延迟、审计与厂商中立上更有优势；质疑者则指出MCP拥有更成熟的生态与厂商背书，UTCP要真正撼动格局仍需在企业级采用与工具丰富度上持续证明自己。"
+    ]
+  },
+  {
+    "id": "2026-09-22_vibe_1",
+    "date": "2026-09-22",
+    "category": "VibeCoding",
+    "subcat": "编程工具",
+    "platform": "Cursor官方论坛",
+    "platform_color": "#F6A07C",
+    "title": "xAI发布Grok 4.7 编程模型登陆Cursor",
+    "url": "https://forum.cursor.com/t/grok-4-7-is-now-live/172526",
+    "image": "images/2026-09-22/2026-09-22_vibe_1.jpg",
+    "detail": [
+      "北京时间9月21日，xAI正式发布面向编程与知识工作的旗舰模型Grok 4.7，并第一时间在AI编程编辑器Cursor及自家Grok Build中上线，同时开放Grok API、第三方编程harness与各大云平台。官方将其定位为迄今最强编程模型，主打在长时任务上工作更久、对自身产出的自检更严谨，且价格与速度都与上一代Grok 4.6持平。",
+      "从官方自评基准看，Grok 4.7在CursorBench 4.0上得46.3%，较4.6的40.4%明显提升；在Terminal-Bench 4.0上从20.3%近乎翻倍至38.0%，DeepSWE v1.1达71.0%。它还首次针对Grok Bot harness做原生适配，写文档、做演示等知识工作能力增强，并配备号称历代最强的安全护栏，在越狱抵抗与合法安全研究放行之间做了更细平衡。定价维持200k以内每百万token 2美元输入、6美元输出。",
+      "Cursor侧同步给出集成细节：Grok 4.7标准上下文256k、最长500k，支持xhigh/high/medium/low四档effort，默认high；在Pro及以上套餐中高速Fast档成为默认速度，以两倍token价换取更快推理。开发者可直接在Agent模式里调用其搜索、读写文件、跑命令、浏览器等全套工具，Grok 4.6与Composer仍作为日常低成本选项保留。",
+      "社区反应两极：一部分开发者肯定其在多小时长任务上的稳定性与同价升级的诚意，但第三方评测机构与媒体也指出其token消耗偏高、部分公开基准仍落后GPT-6与Claude系列，真实ROI有待独立验证，且当前自评分数尚未被LLM Stats、Artificial Analysis等第三方复核。"
+    ]
+  },
+  {
+    "id": "2026-09-22_gaming_4",
+    "date": "2026-09-22",
+    "category": "Gaming",
+    "subcat": "动作",
+    "platform": "Gematsu",
+    "platform_color": "#7CF6A0",
+    "title": "沙漠朋克动作《消散回响》登陆PS5与Xbox",
+    "url": "https://www.gematsu.com/2026/09/fading-echo-launches-september-17-for-switch-2-september-22-for-ps5-and-xbox-series",
+    "image": "images/2026-09-22/2026-09-22_gaming_4.jpg",
+    "detail": [
+      "由New Tales发行、旗下开发工作室Emeteria制作的快节奏沙漠朋克动作冒险游戏《消散回响》（Fading Echo）于北京时间9月22日登陆PlayStation 5与Xbox Series X|S，完成主机端的全面铺开。此前该作已于7月率先在PC（Steam与Epic商城）发售，并已在9月17日先行登陆Nintendo Switch 2，如今PS5与Xbox版的加入让这款作品真正实现全平台覆盖。",
+      "游戏以荒芜的沙漠废土为舞台，融合朋克美学与高速流畅的动作玩法，主打爽快的连招与机动性。玩家将在充满异域风情、粗粝苍凉的世界中穿行，一路推进冒险叙事。相较于许多先在主机独占、后才登陆PC的作品，《消散回响》走了一条PC先行、主机跟进的反向路线，体现出中小体量团队借助多平台梯次发售、逐步扩大受众的发行策略。",
+      "从关注度看，这款作品虽非顶级3A大作，但凭借鲜明的视觉风格与动作手感，在核心玩家群体中收获了一定口碑，被不少媒体列为本月值得留意的动作类新品之一。对于持有PS5或Xbox主机、偏好快节奏硬核动作体验的玩家而言，9月22日的主机首发提供了一个新的入坑时机。",
+      "伴随Switch 2、PS5与Xbox版陆续到位，本作也正式完成了从PC独占到全平台发行的过渡。这种以PC为起点、逐步向主机延伸的发行节奏，正在成为越来越多独立与中型团队平衡开发成本与市场覆盖的现实选择。"
+    ]
+  },
+  {
+    "id": "2026-09-22_gaming_3",
+    "date": "2026-09-22",
+    "category": "Gaming",
+    "subcat": "独立",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "暗黑童话银河城《井底居民》首发入库XGP",
+    "url": "https://store.steampowered.com/app/3699590/Well_Dweller/",
+    "image": "images/2026-09-22/2026-09-22_gaming_3.jpg",
+    "detail": [
+      "由《Crypt Custodian》《Islets》开发者Kyle Thompson打造、Top Hat Studios参与发行的暗黑童话风银河恶魔城《井底居民》（Well Dweller）于北京时间9月22日正式发售，登陆PC（Steam）、PlayStation 5、Xbox Series X|S以及Nintendo Switch与Switch 2。该作最早在任天堂Indie World独立游戏展上亮相，凭借手绘暗黑童话美术与古怪迷人的世界观积累了不少期待。",
+      "玩家将扮演一只名为Glimmer、仅以一根火柴为伙伴的小鸟，为了把家人从邪恶女王手中救出，深入一个腐朽衰败的地下王国展开冒险。游戏采用经典银河城结构：通过闯关击败凶猛的怪物、解锁新能力以进入此前无法抵达的区域，并在探索中结识各具性格的角色、破解隐藏谜题，逐步揭开王国与女王背后的秘密。点燃火柴既能照亮黑暗世界，也能在旅途中助攻。",
+      "值得一提的是，本作在Xbox Series X|S与PC平台作为首发首日（Day One）作品直接进入Xbox Game Pass订阅库，订阅玩家无需额外付费即可在发售当天完整游玩，这也是近期独立佳作借助订阅服务扩大触达的又一典型案例。开发者Kyle Thompson在Steam公告中难掩激动，称对这款游戏非常自豪，迫不及待想让大家上手。",
+      "前作《Crypt Custodian》曾在Steam获得好评如潮评价，令本作的口碑表现备受关注。凭借鲜明的手绘美术、扎实的银河城结构以及订阅首日入库带来的低门槛，《井底居民》被不少玩家与媒体列为本月最值得留意的独立新品之一。"
+    ]
+  },
+  {
+    "id": "2026-09-22_gaming_2",
+    "date": "2026-09-22",
+    "category": "Gaming",
+    "subcat": "独立",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "《守墓人2》全平台发售 媒体均分71",
+    "url": "https://store.steampowered.com/app/4358690/Graveyard_Keeper_2/",
+    "image": "images/2026-09-22/2026-09-22_gaming_2.jpg",
+    "detail": [
+      "由Lazy Bear Games开发、tinyBuild发行的经营模拟续作《守墓人2》（Graveyard Keeper 2）于北京时间9月22日正式登陆PC、PlayStation 5、PlayStation 4、Xbox Series X|S、Xbox One以及Nintendo Switch与Switch 2，几乎覆盖全部现役平台，首发定价24.99美元。作为2018年黑色幽默经典《守墓人》的正统续作，本作延续了最不严谨的中世纪墓地模拟器这一自嘲式定位。",
+      "玩法上，续作在管理墓地、耕作、钓鱼、制作与升级的传统框架之外，加入了全新的丧尸大军养成与塔防式战斗：玩家扮演新任大审判官，一边安葬尸体、一边收集心脏、骨头、脑髓与皮肤等阴森材料，组建并自动化自己的不死军团，抵御涌向城镇的丧尸潮。整座被亡灵侵袭的中世纪城镇可自由探索，玩家需一边重建家园一边发死人财。",
+      "据Metacritic收录，本作媒体综合评分约为71分，属于毁誉参半到中等偏上的区间——评论普遍称赞其怪诞幽默、美术风格与系统深度较前作显著扩展，但也有声音指出流程节奏偏拖沓、自动化前期较为繁琐。Steam预购玩家可获得桑拿建筑与大审判官专属服装等特典。",
+      "对于喜爱暗黑向经营与放置类玩法的独立游戏爱好者而言，这是本周颇具话题度的一款上新之作。凭借前作积累的口碑与全平台同步发售的策略，本作有望在中世纪经营题材中继续占据一席之地，也为独立厂商多平台铺开提供了又一范本。"
+    ]
+  },
+  {
+    "id": "2026-09-22_gaming_1",
+    "date": "2026-09-22",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "IGN",
+    "platform_color": "#7CF6A0",
+    "title": "《沙丘:觉醒》登陆PS5与Xbox 加入单人模式",
+    "url": "https://www.ign.com/games/dune-awakening",
+    "image": "images/2026-09-22/2026-09-22_gaming_1.jpg",
+    "detail": [
+      "开发商Funcom的开放世界生存网游《沙丘:觉醒》（Dune: Awakening）于北京时间9月22日迎来重大里程碑，正式登陆PlayStation 5与Xbox Series X|S主机平台，此前该作已于PC率先发售并收获好评。这次主机版并非简单移植，而是与一项玩家呼声极高的功能同步上线——全平台单人模式，让玩家无需依赖多人服务器即可独自体验整段剧情。",
+      "除主机首发外，本次更新还补完了游戏第一卷故事的最终章节，把剧情从开端一路推进到高潮结局。Funcom强调，无论玩家选择完全独自游玩、与好友在私人服务器合作，还是在大型公共服务器上与陌生人同场探索厄拉科斯星球的沙海，都能获得完整叙事体验。主机新玩家与PC新老玩家自登陆之日起，即可享受PC版发售以来累积的全部内容更新与优化，同日该作还进驻Xbox Game Pass Ultimate与PC Game Pass订阅阵容。",
+      "Metacritic收录的主机版媒体均分约为78分，IGN此前给出的评价将其形容为一款出色的生存MMO，极为出色地还原了厄拉科斯星球上的生存图景。对长期缺乏单机切入点、被网游门槛劝退的《沙丘》粉丝而言，这次单人加主机双管齐下的更新被视为该作真正走向大众市场的关键节点。",
+      "社区反响热烈，不少玩家表示终于等到了可以一个人静静玩沙丘的版本。伴随主机端与订阅服务的加入，本作的潜在受众进一步扩大，也为这一改编自经典科幻IP的生存网游注入了新的活力，被视为近期最值得关注的多平台大作之一。"
+    ]
+  },
+  {
+    "id": "2026-09-22_ai_5",
+    "date": "2026-09-22",
+    "category": "AI",
+    "subcat": "产品",
+    "platform": "财联社",
+    "platform_color": "#7C9EF6",
+    "title": "Meta智能体Muse登顶美区App Store",
+    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-09-21/doc-inisrhfx5919875.shtml",
+    "image": "images/2026-09-22/2026-09-22_ai_5.jpg",
+    "detail": [
+      "9月21日至22日，Meta在9月初推出的消费级AI智能体Muse成为市场焦点。据Sensor Tower数据，自上周登顶后，Muse已连续三天位居美国iPhone免费应用下载榜首，排名超过第二的ChatGPT；谷歌Gemini排第8，Anthropic的Claude已跌至第22位，显示出消费级智能体格局正在快速洗牌。",
+      "Muse的关键卖点在于它能代表用户在后台执行多步骤任务，包括预订旅行、管理日程和进行电商购物，可在Google Workspace、Spotify、OpenTable和Apple Health等一系列服务中管理长期目标。它运行在由Meta首席AI官Alexandr Wang领导开发的Muse Spark模型家族之上，每个实例运行在专用的Muse Secure VM虚拟机内以隔离用户数据，敏感操作前须获得明确授权。",
+      "这款应用通过独立App及muse.ai门户在美国上线，近日Meta还将其扩展至macOS平台，可直接整理文件、填写表单并读取Messages、日历与备忘录。Meta透露未来将集成AI眼镜，把Muse带入可穿戴设备领域。先在美国上线也反映出Meta对GDPR等欧洲监管的谨慎。",
+      "Muse的爆火直接点燃了资本市场对智能体普及的想象。因智能体广泛应用意味着推理与基础设施负载增加、利好CPU需求，当晚Meta股价大涨、AMD市值一举突破万亿美元。市场开始押注面向普通消费者的智能体正接近大规模普及的转折点，这也让Meta此前高达千亿美元级的AI资本开支获得了一个有说服力的落地注脚。"
+    ]
+  },
+  {
+    "id": "2026-09-22_ai_4",
+    "date": "2026-09-22",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "新智元",
+    "platform_color": "#7C9EF6",
+    "title": "GPT-6 Sol被曝即将发布 内部AGI浮现",
+    "url": "https://www.163.com/dy/article/L7DMKMJU0511ABV6.html",
+    "image": "images/2026-09-22/2026-09-22_ai_4.jpg",
+    "detail": [
+      "9月22日，据新智元报道，OpenAI的新模型GPT-6 Sol被曝即将全面发布。有开发者在英伟达的代码合并记录中发现了GPT-6 Sol medium字样，业内还出现了成熟的AI打工矩阵案例——由旗舰模型GPT-6 Astra负责编写代码，再直接交由GPT-6 Sol进行代码审查，X上关于OpenAI与Anthropic的爆料满天飞。",
+      "根据流出的信息，Sol并非最高端型号，而是一个能力介于GPT-5.6 Sol与最强旗舰GPT-6 Astra之间的中间款，但性价比惊人：它消耗Token显著更少、运行速度远快于Astra，体感类似Gemini 3.8 Flash，却在整体推理上形成降维打击，并提供从低到超高的多档推理选项。多个平台包括OpenAI API、Codex OAuth已在紧锣密鼓适配。",
+      "最令开发者兴奋的是价格。据泄露截图，GPT-6-Sol定价可能为2.50美元/15美元（输入/输出），仅为GPT-5.6-Sol的一半。传闻此次是GPT-6全家桶，包含旗舰Sol、均衡日常款Terra与又快又便宜的Luna，Plus用户有望直接在对话框体验。有爆料人卡点称将于本周二凌晨3点正式发布。",
+      "更引人遐想的是，传闻Sol之所以更便宜且更智能，是因为背后有一个代号Bel的更强内部模型作为导师，在OpenAI内部被视为AGI雏形。与此同时，Anthropic据称已拉响内部警报，准备将灰度测试中的Opus 5.5提前推出截胡。真伪尚待官方证实，但这一周的模型军备竞赛注定不平静。"
+    ]
+  },
+  {
+    "id": "2026-09-22_ai_3",
+    "date": "2026-09-22",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "格隆汇",
+    "platform_color": "#7C9EF6",
+    "title": "英伟达追投SB Energy 承诺增至30亿",
+    "url": "https://caifuhao.eastmoney.com/news/20260922064550103823170",
+    "image": "images/2026-09-22/2026-09-22_ai_3.jpg",
+    "detail": [
+      "9月22日，据美国证券交易委员会（SEC）文件，英伟达周一宣布将在软银支持的数据中心开发商SB Energy赴美IPO前，通过私募方式追加认购15亿美元的N类普通股，使其对该公司的股权投资承诺总额增至30亿美元。这是英伟达在AI基础设施上下游持续加码布局的又一动作。",
+      "SB Energy正推进数据中心及配套电力基础设施的建设，其位于俄亥俄州的大型数据中心项目将为OpenAI提供服务。随着大模型训练与推理算力需求飙升，电力供给和数据中心选址已成为AI产业链上的核心瓶颈，英伟达此举意在从芯片供应向能源与场地环节纵深绑定，锁定下游算力落地的确定性。",
+      "这笔投资延续了英伟达近年来以资本换生态的策略。通过旗下投资部门深度参与数据中心、电力、模型公司等多个环节的融资，英伟达不仅出资，更同步绑定GPU集群的优先供货权，形成硬件、软件与资本的闭环。SB Energy背靠软银，与OpenAI的服务合同又将其牢牢嵌入OpenAI的算力版图之中。",
+      "市场观察人士指出，英伟达对SB Energy的追加投资发生在AMD市值破万亿、半导体板块集体走强的同一时间窗口，凸显出资本正加速涌入AI基建的电力与数据中心侧。在算力即权力的逻辑下，谁能率先锁定电力与土地资源，谁就能在下一阶段的AI竞赛中占据主动，这也让英伟达的产业链话语权进一步巩固。"
+    ]
+  },
+  {
+    "id": "2026-09-22_ai_2",
+    "date": "2026-09-22",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "财联社",
+    "platform_color": "#7C9EF6",
+    "title": "AMD市值首破万亿美元创新高",
+    "url": "https://finance.sina.com.cn/stock/t/2026-09-22/doc-inisrnpx2569128.shtml",
+    "image": "images/2026-09-22/2026-09-22_ai_2.jpg",
+    "detail": [
+      "北京时间9月21日晚间至22日凌晨，AMD美股盘中一度大涨近10%，股价触及615.99美元，总市值首次突破1万亿美元，成为继英伟达、博通和美光之后第四家跨越这一门槛的美国芯片公司。该股9月迄今已上涨近30%，有望创下5月以来最大单月涨幅，年初至今累计涨幅高达约180%。",
+      "推动这轮上涨的催化剂来自AI应用端。Meta在9月初推出的消费级AI智能体Muse连续三天登顶美国iPhone免费应用下载榜首，排名超过ChatGPT，让投资者重新评估智能体普及带来的算力需求。Muse能够代表用户在后台执行预订旅行、管理日程、电商购物等多步骤任务，把AI使用场景从问答延伸到实际操作。",
+      "智能体的广泛应用意味着推理及基础设施工作负载增加，直接利好CPU需求，而AMD与Meta之间存在直接业务联系——数据显示Meta是AMD的第二大客户，贡献约5.5%的营收。此外AMD近期持续加码AI算力，与OpenAI、Anthropic、Meta等扩大合作，并推出MI400系列GPU和Helios机架级AI系统，数据中心业务快速增长。",
+      "当晚半导体板块整体走强，费城半导体指数涨超2%，英特尔亦大涨约9%。分析师共识评级为买入，Raymond James给予强力买入评级、目标价641美元。市场认为，AMD万亿市值的达成既是AI算力叙事的阶段性胜利，也反映出投资者对英伟达之外第二供应商价值的重新定价。"
+    ]
+  },
+  {
+    "id": "2026-09-22_ai_1",
+    "date": "2026-09-22",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "IT之家",
+    "platform_color": "#7C9EF6",
+    "title": "小米开源MiMo-V2.6 登顶开源智能榜",
+    "url": "https://www.ithome.com/1/005/496.htm",
+    "image": "images/2026-09-22/2026-09-22_ai_1.jpg",
+    "detail": [
+      "9月22日凌晨，小米正式发布并开源全新的Xiaomi MiMo-V2.6系列，包含Pro与Flash两个原生全模态模型。小米将其定位为探索RSI（递归自我改进）路径的关键一步，通过规模化扩展强化学习算力，让模型在持续探索与反馈中拓展智能边界，这也是当前国产开源阵营中在RL阶段投入算力最多的模型之一。",
+      "在核心成绩上，MiMo-V2.6-Pro在Artificial Analysis综合智能指数（v4.3.2）中取得46分，超过Kimi K3的44分与GLM-5.3的45分，成为当前AA指数上排名最高的开源权重模型，较前代MiMo-V2.5-Pro的26分整整高出20分；不过官方也坦言与Claude Fable 5.1、GPT-6 Astra（均为53分）等顶级闭源模型仍存在差距。",
+      "训练细节颇具看点：Pro与Flash训练历时不到6天，成本分别约262万美元与85万美元，各完成30步、累计约75万条轨迹。能力上融合了3D空间推理、多模态感知与计算机操作，可在游戏开发中拆解任务由多智能体协作搭建3D场景，也能以多视角相机画面闭环控制Franka Panda机械臂完成抓取与放置。",
+      "定价延续V2.5系列，Flash为每百万词元输入1元、输出2元，Pro为3元和6元并提供99%缓存折扣，同等智能水平下价格仅为海外模型的1/20到1/60。伴随发布，MiMo Desktop桌面客户端与会员订阅方案同步上线，并提供最高20倍推理速度的UltraSpeed模式，社区普遍认为小米在开源赛道实现了一次跨越式追赶。"
+    ]
+  }
+]
