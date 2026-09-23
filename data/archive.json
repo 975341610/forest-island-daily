@@ -1,5 +1,262 @@
 [
   {
+    "id": "2026-09-23_vibe_4",
+    "date": "2026-09-23",
+    "category": "VibeCoding",
+    "subcat": "Agent框架",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "ai-memory:给编码Agent的跨厂商长期记忆",
+    "url": "https://github.com/akitaonrails/ai-memory",
+    "image": "images/2026-09-23/2026-09-23_vibe_4.jpg",
+    "detail": [
+      "9月23日，akitaonrails/ai-memory在GitHub Trending单日新增约575 star，累计突破8000。它要解决的痛点很具体:LLM编码Agent在会话结束后会丢失所有上下文。ai-memory为这些Agent提供一个共享、持久的wiki——每一次prompt、工具调用和决策都会被自动捕获;会话结束时相关页面被改写成连贯叙事;下一个Agent（Claude Code、Codex、OpenCode等）启动时，会看到已经预置好的你上次做到哪里的交接说明。",
+      "架构上它采用瘦客户端CLI设计:status、bootstrap、checkpoints、restore-page、curator、auto-improve、backup等命令全部是运行中服务的HTTP客户端，永不直接触碰SQLite或wiki文件，服务端是唯一真相源。对于新项目有几个月历史的情况，ai-memory bootstrap会收集git log、README、docs和模块头，一次性总结为种子wiki页，后续会话在其上继续构建。",
+      "工具还支持跨厂商的记忆交接与自动改进:配置了LLM Provider后，后台会为新完成的会话跑自动改进调度器，把提议的wiki编辑记入待写审计轨迹;curator则以无LLM的规则化方式对冷门页、陈旧槽位、重复标题和悬空跨项目链接生成维护报告。它支持在homelab机器上起一个全家共享服务，按cwd路由让各项目页面干净隔离，还能通过restore-page精确回滚单个markdown文件而不必整体回退，颇受频繁切换编码CLI的开发者欢迎。"
+    ]
+  },
+  {
+    "id": "2026-09-23_vibe_3",
+    "date": "2026-09-23",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "Nasiko:治理AI Agent花费与权限的控制平面",
+    "url": "https://github.com/Nasiko-Labs/nasiko",
+    "image": "images/2026-09-23/2026-09-23_vibe_3.jpg",
+    "detail": [
+      "9月23日，Nasiko-Labs/nasiko在GitHub Trending单日新增约734 star。Nasiko自定位为AI Agent的开发者控制平面（Developer Control Plane），要解决判定Agent能否进入生产的三个核心问题:它花了多少钱、能碰哪些资源、如何跨模型与框架执行。项目把成本治理、策略权限和多Agent编排统一到同一平台，并从成本这个最先崩掉的环节切入。",
+      "在能力上，Nasiko的TokenOps可以在一次Agent运行开始前预测其花费、运行中实时监控，并在坏运行变成大账单前及时干预;Policy & Governance在网关层强制执行每个Agent可访问的工具权限——被禁工具压根不会出现在Agent的工具列表里;Multi-Agent Harness则支持跨已有的模型、Provider和框架编排工作流，在流程中途切换Provider、失败重路由，并让状态跨步骤存活、追踪每一次handoff。",
+      "官网展示的组织总览面板可跟踪如4.82万美元的支出、给出每月可节省额度建议，并覆盖390个技能、58个MCP server、148条工作流、42个项目等多租户规模。它强调与LLM网关/路由器的区别:路由器只挑模型，而Nasiko会预测成本、路由、实时监控并在出错时介入，把每个决策写入账本。开发者可通过一条curl命令部署控制平面、注册表和可观测性，体现出对企业级Agent治理场景的针对性。"
+    ]
+  },
+  {
+    "id": "2026-09-23_vibe_2",
+    "date": "2026-09-23",
+    "category": "VibeCoding",
+    "subcat": "AI编程",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "Codex CLI发布rust-v0.156.0稳定版",
+    "url": "https://github.com/openai/codex/releases/tag/rust-v0.156.0",
+    "image": "images/2026-09-23/2026-09-23_vibe_2.jpg",
+    "detail": [
+      "9月22日，OpenAI的终端编程助手Codex CLI发布了rust-v0.156.0稳定版（npm同步发布@openai/codex 0.156.0），从此前的0.155.1迭代而来。Codex CLI是一款轻量级、运行在终端里的编程Agent，近期版本节奏极为密集，几乎每天都有多个alpha预览滚动推进，0.156.0则是把这一轮预览收敛为正式稳定切分的里程碑版本。",
+      "从近期版本脉络看，Codex CLI持续强化开发者对工具链的掌控力:此前版本引入了让扩展在工具结果送达模型前进行检查和修改的能力、@提及任务引用、Markdown会话导出与会话分叉、交互式任务管理面板，以及针对GPT-6-Astra模型的接入与Fast层级2倍速优化。0.156.0延续了这一系列在MCP配置、技能插件、沙箱与权限规则上的打磨，进一步降低多模型协作与审批流程中的摩擦。",
+      "Codex CLI目前已累计约157个正式发布版本，是AI编程赛道更新最勤的工具之一。稳定版发布后，依赖它的下游生态迅速跟进:codex-nix等打包仓库在一小时内自动合并了升级到0.156.0的PR，多个AI更新监测机器人也在UTC时间当天同步抓取到该版本，显示出开发者社区对Codex每次稳定切分的高度关注与快速采用。"
+    ]
+  },
+  {
+    "id": "2026-09-23_vibe_1",
+    "date": "2026-09-23",
+    "category": "VibeCoding",
+    "subcat": "Agent框架",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "谷歌开源AX:K8s风格AI Agent运行时",
+    "url": "https://github.com/google/ax",
+    "image": "images/2026-09-23/2026-09-23_vibe_1.jpg",
+    "detail": [
+      "9月22日，谷歌正式开源了AX（agentexecutor.io，GitHub仓库google/ax），这是一款Apache-2.0许可的声明式智能体编排运行时，专门用于执行和扩展自主AI Agent工作负载。它构建在Agent Substrate之上，把Agent当作有状态的actor而非微服务或批处理任务来对待，融合了来自Google与Google DeepMind多个团队的系统研究成果，定位为面向大规模、长时运行智能体集群的底层算力原语。",
+      "AX提供四个K8s风格的声明式原语:Task定义执行生命周期与沙箱资源约束，Workspace负责执行前的环境组装，Gateway管理出站网络安全策略（基于主机名和端口白名单），Model声明模型接入。每个Agent会话运行在带严格CPU/内存边界的隔离actor沙箱中，空闲时（如等待推理或工具调用）会被检查点保存并挂起，可在亚秒级恢复且零冷启动延迟，把数十个任务复用到共享主机worker上以节省算力。",
+      "开发者通过Go编写的ax命令行交互，用ax apply注册清单、ax watch实时流式查看任务状态、ax ssh进入沙箱调试、ax suspend/resume手动控制执行。项目当天登上Hacker News首页榜首，GitHub单日暴涨逾2300 star冲上7495。社区评价其定位为底层执行运行时而非LangGraph、CrewAI那样的高层应用编排器；安全圈称赞gVisor隔离沙箱的爆炸半径控制，同时也指出出口代理断连、密钥管理粗糙等早期问题。"
+    ]
+  },
+  {
+    "id": "2026-09-23_gaming_5",
+    "date": "2026-09-23",
+    "category": "Gaming",
+    "subcat": "单机大作",
+    "platform": "维基百科",
+    "platform_color": "#7CF6A0",
+    "title": "《寂静岭:陷落》评测解禁引热议",
+    "url": "https://en.wikipedia.org/wiki/Silent_Hill:_Townfall",
+    "image": "images/2026-09-23/2026-09-23_gaming_5.jpg",
+    "detail": [
+      "《寂静岭:陷落》（Silent Hill: Townfall）是由Screen Burn Interactive开发，科乐美与Annapurna Interactive联合发行的《寂静岭》系列独立衍生作。故事设定在1996年虚构的苏格兰小镇圣阿米莉亚，主角西蒙·奥德尔在一个自己毫无关联的地方醒来，以第一人称视角展开求生。他可用木板、水管等近身道具防身，也能借助潜行躲避威胁，还配备一台CRT设备。",
+      "游戏定于北京时间9月24日在PS5与PC发售，而购买豪华版的玩家自9月22日起已可抢先进入这座迷雾小镇。发售在即，该作的评测节奏成为社区焦点:临近上市数日仍无正式评分放出，媒体禁令时间收得极紧，引发玩家对这款系列新方向作品品质的种种猜测与讨论。",
+      "作为系列近年在恐怖题材上的又一次大胆尝试，《陷落》采用虚幻引擎5打造，由Jon McKellan担任导演与编剧，Pilotpriest操刀配乐，延续了工作室在《观测者》等作中营造的迷离氛围。老玩家既期待它能重现寂静岭标志性的心理恐怖与异界转换，也担忧独立团队能否驾驭这一经典IP，发售前的热度与争议同步升温。"
+    ]
+  },
+  {
+    "id": "2026-09-23_gaming_4",
+    "date": "2026-09-23",
+    "category": "Gaming",
+    "subcat": "Steam新游",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "肉鸽动作《Ved: Recure》Steam发售",
+    "url": "https://store.steampowered.com/app/3255500/Ved_Recure/",
+    "image": "images/2026-09-23/2026-09-23_gaming_4.jpg",
+    "detail": [
+      "《Ved: Recure》是开发商SummerClip推出的快节奏动作肉鸽游戏，题材颇具巧思:玩家扮演一位连续加班27天的疲惫上班族，买下第1000款游戏却从未游玩，某夜昏睡后醒来竟被困进这款游戏所化的虚拟世界，须在游戏之神的塔中接受治疗，治愈名为V.E.D.的游戏倦怠症并重返现实。",
+      "游戏于北京时间9月22日在Steam发售（应用号3255500），限时首发九折，原价约18.99新元。其核心是独特的Buff Chain（增益连锁）系统，玩家可将超过150种独特增益直接映射到连招终结技、特殊攻击、闪避反击与格挡上，搭配9大核心属性构建千变万化的战斗流派。内容涵盖4大章节、16场Boss战、50余件装备，以及Boss Rush、无尽模式与训练场。",
+      "本作提供7名各具战斗风格的可操作角色，并邀来长谷川育美、高柳知叶、门胁舞以等声优献声日语配音，支持简繁中文界面。发售当日Steam峰值在线达1410人，197条评测中76%为好评，评价为多半好评。玩家普遍称赞其Buff连锁系统深度与自定义自由度，认为它跳出了传统数值堆叠的肉鸽框架，带来新鲜的战斗手感。"
+    ]
+  },
+  {
+    "id": "2026-09-23_gaming_3",
+    "date": "2026-09-23",
+    "category": "Gaming",
+    "subcat": "Steam新游",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "治愈系驾驶《Slow Roads》上架Steam",
+    "url": "https://store.steampowered.com/app/3431300/Slow_Roads/",
+    "image": "images/2026-09-23/2026-09-23_gaming_3.jpg",
+    "detail": [
+      "《Slow Roads》是独立开发者Anslo旗下Topograph Interactive打造的治愈系驾驶游戏，最初作为一款浏览器项目于2022年问世，凭借无广告、无目标的冥想式无尽驾驶体验积累了大量拥趸。开发者将其定义为一场穿越程序生成风景的漫长而抚慰人心的旅程，只需追逐地平线，配上喜欢的音乐，静静开车即可。",
+      "北京时间9月23日，游戏的Steam扩展版正式上线（应用号3431300）。相比免费的网页版，Steam版带来了大量独占内容:更多地点、车辆与道路类型，包括越野小径与多车道高速;新增内燃机与手动挡、车辆调校与外观自定义;还有本地音乐与公共电台播放界面、可配置交通模式、成就与保险杠贴纸，以及更高精度的画质选项。",
+      "该作定位为轻量、随开随玩的放松体验，Steam标签集中在驾驶、放松、程序生成、氛围与休闲。作为一名独立开发者的长期心血之作，发售当日尚无足够用户评测积累，但社区对这款把浏览器名作扩充成完整桌面版的作品充满期待，许多老玩家表示愿意支持这位坚持多年迭代的独立作者。"
+    ]
+  },
+  {
+    "id": "2026-09-23_gaming_2",
+    "date": "2026-09-23",
+    "category": "Gaming",
+    "subcat": "主机新作",
+    "platform": "ResetEra",
+    "platform_color": "#7CF6A0",
+    "title": "《沙丘:觉醒》登陆主机并加入XGP",
+    "url": "https://www.resetera.com/threads/dune-awakening-releases-on-ps5-and-xbox-series-s-x-september-22-2026-single-player-launches-same-day.1537270/",
+    "image": "images/2026-09-23/2026-09-23_gaming_2.jpg",
+    "detail": [
+      "Funcom开发的开放世界生存网游《沙丘:觉醒》（Dune: Awakening）于2025年6月率先登陆PC，如今终于迈向主机平台。北京时间9月22日，游戏正式在PlayStation 5与Xbox Series X|S发售，标准版售价49.99美元，豪华版69.99美元，终极版89.99美元，让主机玩家首次踏上厄拉科斯的黄沙世界。",
+      "本次更新远不止移植。Funcom为全平台同步加入了呼声最高的完整单人模式，玩家启动时可在单人与多人间选择，单人提供三档预设难度并支持全手动自定义，地图不再重置、建筑不会被清空。同时补上了第一卷故事的最终章节，让剧情从开端走向高潮。Xbox版首发即入库Game Pass Ultimate与PC Game Pass，并支持Xbox Play Anywhere跨平台存档与联机。",
+      "为配合主机上市，Steam版同步开启限时50%折扣，持续至10月8日。媒体综合评分Metacritic约78分，考虑到这是一款上线一年多、持续迭代的生存网游，口碑表现平稳。玩家社区对单人模式的加入普遍叫好，认为这大幅降低了入坑门槛，恰好赶在《沙丘3》电影上映前重返阿拉基斯，成为观影前的绝佳预热。"
+    ]
+  },
+  {
+    "id": "2026-09-23_gaming_1",
+    "date": "2026-09-23",
+    "category": "Gaming",
+    "subcat": "单机大作",
+    "platform": "GamesRadar",
+    "platform_color": "#7CF6A0",
+    "title": "Remedy《控制:共鸣》抢先体验开启",
+    "url": "https://www.gamesradar.com/games/action-rpg/control-resonant-metacritic-score-places-it-higher-than-its-predecessor-but-it-cant-touch-2026s-top-20-bangers-like-resident-evil-requiem-and-pokemon-pokopia/",
+    "image": "images/2026-09-23/2026-09-23_gaming_1.jpg",
+    "detail": [
+      "《控制:共鸣》（Control Resonant）是Remedy Entertainment为2019年《控制》打造的续作，故事聚焦初代配角迪伦·法登。他被联邦控制局释放，前往被异次元实体扭曲的曼哈顿市中心，寻找失散的姐姐杰西。与前作第三人称射击不同，本作转型为动作角色扮演，强调以能量近战为核心的战斗体系。",
+      "游戏将于9月24日在PS5、PC与Xbox Series X|S全球发售，而北京时间9月22日起，购买PS5数字豪华版的玩家已获得48小时抢先体验资格，提前踏入这座旧宅之外的诡谲世界。媒体评分同步解禁:Metacritic综合84分，略高于初代82分，其中PS5版84、PC版83、Xbox版81，OpenCritic亦为84。",
+      "评价呈现两极却整体积极的态势。IGN给出8分，称本作在几段略显平淡的流程之外，拥有堪比工作室代表作的大胆设计;Push Square同样8分，盛赞其为主机世代最出色的场景与利用重力位移的探索机制。Vice更打出满分10分，称赞悬浮、空中冲刺与念力融合的战斗令人兴奋。也有Polygon等媒体认为它中规中矩，玩家则围绕它能否冲击年度游戏展开热议。"
+    ]
+  },
+  {
+    "id": "2026-09-23_ai_7",
+    "date": "2026-09-23",
+    "category": "AI",
+    "subcat": "AI产品",
+    "platform": "新浪科技",
+    "platform_color": "#7C9EF6",
+    "title": "360纳米Work亮相云栖 主打交付结果",
+    "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908of1m.html",
+    "image": "images/2026-09-23/2026-09-23_ai_7.jpg",
+    "detail": [
+      "9月22日，360旗下AI办公品牌纳米Work在2026云栖大会亮相，围绕企业级安全管控、真实业务场景闭环及多模型调度等方向集中展示AI办公能力。其核心主张是推动AI从只会答问题，进化到能够直接交付结果，切中当前企业对AI真正落地生产力的核心诉求。",
+      "纳米Work强调多模型调度能力，可在同一平台内根据任务类型灵活调用不同大模型，并叠加企业级的安全与权限管控，让AI在真实业务场景中形成完整闭环，而非停留在单点问答或内容生成。这一定位与本届云栖大会阿里CEO吴泳铭提出的从Vibe Coding到Vibe Working趋势相互呼应，也体现出国内AI办公赛道正从对话助手向可交付成果的智能体演进。",
+      "在云栖大会这一以Agentic AI为核心的舞台上，360选择以企业级Agent产品切入，与阿里千问办公、Qoder等同台竞技，显示出AI办公与智能体应用已成为国产厂商争夺的关键落地场景。业内认为，谁能率先在安全合规前提下把AI从答问题真正做到交结果，谁就有望在企业AI市场建立差异化优势，纳米Work的亮相为这一竞争再添看点。"
+    ]
+  },
+  {
+    "id": "2026-09-23_ai_6",
+    "date": "2026-09-23",
+    "category": "AI",
+    "subcat": "融资",
+    "platform": "彭博社",
+    "platform_color": "#7C9EF6",
+    "title": "AI云初创Verda获1.89亿美元融资 估值超10亿",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-22/ai-cloud-startup-verda-raises-189-million-in-funding-round",
+    "image": "images/2026-09-23/2026-09-23_ai_6.jpg",
+    "detail": [
+      "9月22日，彭博社报道，AI云计算初创公司Verda宣布完成1.89亿美元新一轮融资，凸显投资者对支撑AI热潮的基础设施依旧保持强劲兴趣。这家总部位于芬兰的公司表示，本轮融资后其估值至少达到10亿美元，正式跻身独角兽行列，但未透露具体估值数字。",
+      "本轮融资由Emergence Capital领投，其他投资方包括三菱日联创新伙伴（MUFG Innovation Partners）、服务器与算力厂商美超微（Super Micro Computer）、芬兰养老保险机构Varma以及Lifeline Ventures等。产业资本与算力硬件厂商的共同加持，显示出资方希望绑定从底层硬件到云服务的AI算力链条。",
+      "Verda专注于为AI训练与推理提供云基础设施，此次融资正值全球AI算力需求持续爆发、数据中心建设军备竞赛升温之际。近期AI芯片与算力赛道融资活跃，2026年迄今AI芯片初创已披露融资约41.6亿美元。Verda以欧洲玩家身份拿下大额融资并跻身独角兽，被视为AI基础设施投资热潮从北美向全球扩散的又一例证，也反映出市场对非头部云厂商差异化算力供给的看好。"
+    ]
+  },
+  {
+    "id": "2026-09-23_ai_5",
+    "date": "2026-09-23",
+    "category": "AI",
+    "subcat": "AI治理",
+    "platform": "路透社",
+    "platform_color": "#7C9EF6",
+    "title": "DeepSeek将向联合国安理会通报AI风险",
+    "url": "https://www.straitstimes.com/asia/east-asia/deepseek-to-brief-un-security-council-on-ai-this-week-sources-say",
+    "image": "images/2026-09-23/2026-09-23_ai_5.jpg",
+    "detail": [
+      "9月22日，路透社援引两名知情人士独家报道称，中国AI初创企业深度求索（DeepSeek）将与多家公司一道，在本周向联合国安理会介绍AI带来的风险。安理会定于9月23日召开会议讨论AI与国际安全议题，正值各国领导人齐聚纽约参加第81届联合国大会。这是安理会自2023年首次讨论AI风险后再度将该议题摆上桌面。",
+      "报道称，OpenAI首席执行官萨姆·奥尔特曼计划在会上发言，Anthropic也将派高级代表参与；DeepSeek和月之暗面（Moonshot）等中国AI企业获邀作陈述，但DeepSeek创始人梁文锋不计划出席，相关安排仍可能变动。此次会议召开于多位AI业界人士呼吁协同放缓强大AI系统开发、警告其可能自我改进并脱离人类控制的数周之后。",
+      "中美在AI风险问题上态度分化明显：中国官媒将放缓开发的呼声斥为冷战思维，认为其意在维护华盛顿在尖端技术上的主导地位；美国总统特朗普则认为现有防护措施已足够。联合国秘书长古特雷斯上周警告世界领导人，快速发展的AI带来的风险不容忽视。美中高级官员9月21日已同意就AI安全举行进一步会谈，DeepSeek登上这一最高级别安全论坛，被视为AI治理全球化与中国角色上升的标志性事件。"
+    ]
+  },
+  {
+    "id": "2026-09-23_ai_4",
+    "date": "2026-09-23",
+    "category": "AI",
+    "subcat": "AI学术",
+    "platform": "官方博客",
+    "platform_color": "#7C9EF6",
+    "title": "OpenAI成立数学顾问委员会 九位数学家把关",
+    "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai/",
+    "image": "images/2026-09-23/2026-09-23_ai_4.jpg",
+    "detail": [
+      "9月22日，OpenAI宣布在美国普林斯顿高等研究院（IAS）成立独立的数学与人工智能顾问委员会（Advisory Group on Mathematics and AI）。这一举措发生在OpenAI宣称其内部模型自8月28日开始训练以来，已解决超过100个长期悬而未决的数学难题，并给出千禧年大奖难题之一纳维-斯托克斯方程解答的争议背景之下。",
+      "委员会由九位顶尖数学家组成，包括François Charles、Camillo De Lellis、Timothy Gowers、Martin Hairer、Nikhil Srivastava、Ulrike Tillmann、Ravi Vakil、爱德华·威滕和Melanie Matchett Wood，多人拥有菲尔兹奖。该组织将就成果的重要性评估、发布时机与学术规范提供建议，成员不领取OpenAI报酬、自行决定成员构成，并可公开发表对公司的独立看法。",
+      "值得注意的是，委员会明确表示无权干预OpenAI内部研究的推进节奏，决策责任仍完全归于公司。九名成员中有三位曾签署9月11日由25位菲尔兹奖得主发起的公开信《AI在数学领域的严重错位》，警告AI公司竞相攻克名题会危及数学界的智力工作。据报道，OpenAI的纳维-斯托克斯工作动用超过一万个AI智能体，耗时88小时、约130亿输出Token完成，其成果评估与署名方式引发数学界持续争论。"
+    ]
+  },
+  {
+    "id": "2026-09-23_ai_3",
+    "date": "2026-09-23",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "官方博客",
+    "platform_color": "#7C9EF6",
+    "title": "前OpenAI研究员推出决策模型Jev",
+    "url": "https://www.ndtvprofit.com/technology/what-is-jev-the-ultra-cheap-ai-model-from-chatgpt-s-creator-disrupting-costly-llm-agents-12081020",
+    "image": "images/2026-09-23/2026-09-23_ai_3.jpg",
+    "detail": [
+      "由前OpenAI研究员Diogo Almeida创办的TypeSafe AI推出全新AI模型Jev，并于9月21日起面向所有开发者开放、取消候补名单，相关报道于9月22日集中发酵。Almeida曾参与指令跟随系统与RLHF人类反馈强化学习的研究，此次带来一条与主流大语言模型截然不同的技术路线，主打为AI应用提供底层决策层。",
+      "与生成成段文字的LLM不同，Jev被定义为基于Transformer的System One模型，输入非结构化状态、输出带置信度的结构化决策。开发者预先定义可能的输出选项，Jev从中选择并给出概率，可用于判断智能体下一步该调用哪个工具、任务是否需要重试、输入应如何分类。官方称其能在0.5秒内给出判断，输入价格每百万Tokens仅0.042美元，输出Token免费。",
+      "由于不生成开放式文本，TypeSafe AI宣称Jev在传统意义上不会产生幻觉，速度比同类LLM工作流快约20到200倍、成本低40到400倍。目前该模型已被Vercel、Cloudflare、LangChain、Langfuse等平台集成，新用户可获5美元、约1.2亿Tokens的起步额度。产品在ProductHunt当周登上日榜第二，获得471个点赞与开发者社区的高度关注，被部分人视为智能体基础设施的新范式尝试。"
+    ]
+  },
+  {
+    "id": "2026-09-23_ai_2",
+    "date": "2026-09-23",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "量子位",
+    "platform_color": "#7C9EF6",
+    "title": "阿里公布Qwen自我进化进展 Qwen4已在训练",
+    "url": "https://www.qbitai.com/2026/09/493625.html",
+    "image": "images/2026-09-23/2026-09-23_ai_2.jpg",
+    "detail": [
+      "9月22日云栖大会开幕当天，阿里巴巴集中公布了通义千问大模型的最新进展。旗舰模型Qwen3.8-Max在编程与办公场景表现强劲，发布后拿下Artificial Analysis Agentic智能体第一、CodeArena前端编程第一；同时阿里宣布基于全新架构的Qwen4已投入训练，后续Qwen4.5、Qwen5的参数规模将扩展至5万亿到10万亿。",
+      "本次最受关注的是递归式自我改进RSI技术。阿里披露Qwen3.8-Max可在人类零参与情况下，自主搭建训练流程、构造数据、设计实验并定位缺陷，持续迭代超一个月完成33轮有效迭代，使其Artificial Analysis得分从40提升到45分、增幅12.5%，跻身与Claude、GPT同级的前沿梯队。芯片协同实验中，模型自主运行超60小时、调用EDA工具上万次，实现面积减少42%的物理设计优化。",
+      "多模态方面，阿里同步升级Qwen-Image-3.1、Qwen-Audio-3.1系列语音模型、Qwen3.8-LiveTranslate同传模型，并亮相世界模型HappyOyster 2.0 Preview和视频模型Wan3.0。官方称Qwen3.8系列开源一个月下载量已超5600万次，衍生模型超1900个，其中Qwen3.8-27B登顶Hugging Face历史最受欢迎大模型，Qwen累计开源460多个模型、下载量超30亿次。",
+      "社区反应热烈，Perplexity、Airbnb、Pinterest、路透社等海外公司被点名正在大规模采用Qwen模型以降低对闭源模型的依赖成本。RSI进入真实训练与芯片协同环节，被外界视为国产大模型从追赶走向自主进化的重要信号，也让Qwen在这轮开源竞争中进一步巩固了全球基座模型的地位。"
+    ]
+  },
+  {
+    "id": "2026-09-23_ai_1",
+    "date": "2026-09-23",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "新浪科技",
+    "platform_color": "#7C9EF6",
+    "title": "阿里平头哥发布最强国产AI芯片真武V900",
+    "url": "https://finance.sina.com.cn/tech/roll/2026-09-22/doc-inisspzi5670705.shtml",
+    "image": "images/2026-09-23/2026-09-23_ai_1.jpg",
+    "detail": [
+      "北京时间9月22日，2026杭州云栖大会开幕，阿里巴巴集团CEO吴泳铭发表主题演讲，正式官宣阿里旗下平头哥半导体推出新一代国产AI芯片真武V900。这是本届云栖大会最受关注的硬件发布之一，标志着阿里在AI芯片这条战略主线上再进一步，与AI模型、AI云共同构成其所说机器智能时代的三大基石。",
+      "据官方披露，真武V900的算力提升至前一代真武M890的三倍，依托该芯片搭建的单一集群最高可扩展至50万卡，足以支撑前沿大模型的训练与推理。平头哥已完成数据中心芯片全栈布局，产品线覆盖真武系列GPU、倚天系列CPU、磐脉智能网卡与ICN互联芯片，集齐搭建超大规模AI集群所需的核心芯片，官方预计其AI芯片年出货量将大幅提升。",
+      "吴泳铭把AI芯片列为通往超级智能ASI的关键底座，并承诺到2032年阿里云运营的全球数据中心规模将超过20GW，把AI云比作承载机器思考的超级电网。在英伟达高端芯片对华供应仍存不确定性的背景下，真武V900的算力跃升与大规模组网能力，为国产算力自主可控提供了新选项，直接呼应国内厂商减少对外部GPU依赖的迫切诉求，引发行业与投资者高度关注。"
+    ]
+  },
+  {
     "id": "2026-09-22_vibe_4",
     "date": "2026-09-22",
     "category": "VibeCoding",
