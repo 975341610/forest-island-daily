@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-23": {
-      "openai/codex": 1,
-      "ripienaar/free-for-dev": 2,
-      "freestylefly/awesome-gpt-image-2": 3,
-      "block/buzz": 4,
-      "Graphify-Labs/graphify": 5,
-      "NousResearch/hermes-agent": 6,
-      "mahlernim/google-timeline-visualizer": 7,
-      "modular/modular": 8,
-      "nautechsystems/nautilus_trader": 9,
-      "multica-ai/andrej-karpathy-skills": 10,
-      "Panniantong/Agent-Reach": 11,
-      "cursor/plugins": 12,
-      "PostHog/posthog": 13,
-      "Wei-Shaw/sub2api": 14,
-      "makeplane/plane": 15,
-      "can1357/oh-my-pi": 16,
-      "anthropics/claude-plugins-community": 17,
-      "apache/maka": 18,
-      "Tencent/AI-Infra-Guard": 19,
-      "n8n-io/n8n": 20,
-      "react/react": 21,
-      "anthropics/claude-code": 22,
-      "debpalash/VoiceStudio": 23,
-      "tashfeenahmed/freellmapi": 24,
-      "microsoft/TypeScript": 25
-    },
     "2026-08-24": {
       "openai/codex": 1,
       "Alishahryar1/free-claude-code": 2,
@@ -836,6 +809,33 @@
       "yyjeqhc/webcodex": 23,
       "QuantumNous/new-api": 24,
       "yikart/AiToEarn": 25
+    },
+    "2026-09-23": {
+      "google/ax": 1,
+      "stablyai/orca": 2,
+      "Open-Dev-Society/OpenStock": 3,
+      "Nasiko-Labs/nasiko": 4,
+      "hydra-db/hydradb": 5,
+      "BuilderIO/agent-native": 6,
+      "zhouxiaoka/autoclip": 7,
+      "akitaonrails/ai-memory": 8,
+      "Crosstalk-Solutions/project-nomad": 9,
+      "laoma2053/awesome-zhuiju-free": 10,
+      "mvt-project/mvt": 11,
+      "anthropics/financial-services": 12,
+      "coder/coder": 13,
+      "dream-num/univer": 14,
+      "cloudflare/quiche": 15,
+      "agent-substrate/substrate": 16,
+      "superdesigndev/treg": 17,
+      "yynxxxxx/Codex-X": 18,
+      "vercel-labs/json-render": 19,
+      "upscayl/upscayl": 20,
+      "anthropics/claude-code": 21,
+      "weave-os/router": 22,
+      "browser-use/video-use": 23,
+      "TNT-Likely/PanWatch": 24,
+      "krillinai/OpenCreator": 25
     }
   }
 }
