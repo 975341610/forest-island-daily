@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-24": {
-      "openai/codex": 1,
-      "Alishahryar1/free-claude-code": 2,
-      "basecamp/omarchy": 3,
-      "ripienaar/free-for-dev": 4,
-      "n8n-io/n8n": 5,
-      "NousResearch/hermes-agent": 6,
-      "block/buzz": 7,
-      "byoungd/up": 8,
-      "freestylefly/awesome-gpt-image-2": 9,
-      "makeplane/plane": 10,
-      "anthropics/claude-code": 11,
-      "PostHog/posthog": 12,
-      "Wei-Shaw/sub2api": 13,
-      "can1357/oh-my-pi": 14,
-      "anthropics/claude-plugins-community": 15,
-      "bookorbit/bookorbit": 16,
-      "Comfy-Org/ComfyUI": 17,
-      "debpalash/VoiceStudio": 18,
-      "heygen-com/hyperframes": 19,
-      "nautechsystems/nautilus_trader": 20,
-      "microsoft/TypeScript": 21,
-      "google/sam": 22,
-      "ruvnet/ruflo": 23,
-      "bytedance/deer-flow": 24,
-      "ruvnet/RuView": 25
-    },
     "2026-08-25": {
       "freestylefly/awesome-gpt-image-2": 1,
       "openai/codex": 2,
@@ -836,6 +809,33 @@
       "browser-use/video-use": 23,
       "TNT-Likely/PanWatch": 24,
       "krillinai/OpenCreator": 25
+    },
+    "2026-09-24": {
+      "google/ax": 1,
+      "dream-num/univer": 2,
+      "browser-use/video-use": 3,
+      "anthropics/financial-services": 4,
+      "flexprice/flexprice": 5,
+      "agent-substrate/substrate": 6,
+      "mvt-project/mvt": 7,
+      "superdesigndev/treg": 8,
+      "laoma2053/awesome-zhuiju-free": 9,
+      "can1357/oh-my-pi": 10,
+      "Open-Dev-Society/OpenStock": 11,
+      "hydra-db/hydradb": 12,
+      "pbakaus/impeccable": 13,
+      "Nasiko-Labs/nasiko": 14,
+      "browserbase/stagehand": 15,
+      "Comfy-Org/ComfyUI": 16,
+      "byoungd/up": 17,
+      "DeusData/codebase-memory-mcp": 18,
+      "weave-os/router": 19,
+      "akitaonrails/ai-memory": 20,
+      "zhouxiaoka/autoclip": 21,
+      "strands-agents/harness-sdk": 22,
+      "mnfst/awesome-free-llm-apis": 23,
+      "TNT-Likely/PanWatch": 24,
+      "BuilderIO/agent-native": 25
     }
   }
 }

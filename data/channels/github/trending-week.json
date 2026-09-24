@@ -12,8 +12,8 @@
     },
     "Open-Dev-Society/OpenStock": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 2431,
+      "appearances": 4,
+      "total_today_stars": 2775,
       "language": "TypeScript",
       "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/177231203?v=4",
@@ -66,8 +66,8 @@
     },
     "zhouxiaoka/autoclip": {
       "best_rank": 7,
-      "appearances": 3,
-      "total_today_stars": 1239,
+      "appearances": 4,
+      "total_today_stars": 1378,
       "language": "Python",
       "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
       "owner_avatar": "https://avatars.githubusercontent.com/u/78066887?v=4",
@@ -128,9 +128,9 @@
       "html_url": "https://github.com/krillinai/OpenCreator"
     },
     "anthropics/financial-services": {
-      "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 1122,
+      "best_rank": 4,
+      "appearances": 4,
+      "total_today_stars": 1786,
       "language": "Python",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -183,17 +183,17 @@
     },
     "mnfst/awesome-free-llm-apis": {
       "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 151,
+      "appearances": 2,
+      "total_today_stars": 249,
       "language": "JavaScript",
       "description": "List of Permanent Free LLM API  (API Keys)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/8403534?v=4",
       "html_url": "https://github.com/mnfst/awesome-free-llm-apis"
     },
     "browserbase/stagehand": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 126,
+      "best_rank": 15,
+      "appearances": 2,
+      "total_today_stars": 363,
       "language": "TypeScript",
       "description": "The SDK to extract data and interact with any site on the web. Get started with Claude Code, Codex, Eve, Mastra, and more.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/158221360?v=4",
@@ -210,17 +210,17 @@
     },
     "akitaonrails/ai-memory": {
       "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 801,
+      "appearances": 4,
+      "total_today_stars": 959,
       "language": "Rust",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2840?v=4",
       "html_url": "https://github.com/akitaonrails/ai-memory"
     },
     "byoungd/up": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 107,
+      "best_rank": 17,
+      "appearances": 2,
+      "total_today_stars": 304,
       "language": "JavaScript",
       "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
       "owner_avatar": "https://avatars.githubusercontent.com/u/16145783?v=4",
@@ -228,8 +228,8 @@
     },
     "BuilderIO/agent-native": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1216,
+      "appearances": 3,
+      "total_today_stars": 1303,
       "language": "TypeScript",
       "description": "A framework for building agentic apps",
       "owner_avatar": "https://avatars.githubusercontent.com/u/35700027?v=4",
@@ -237,8 +237,8 @@
     },
     "agent-substrate/substrate": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 743,
+      "appearances": 3,
+      "total_today_stars": 1301,
       "language": "Go",
       "description": "Agent Substrate: the core system",
       "owner_avatar": "https://avatars.githubusercontent.com/u/280516639?v=4",
@@ -281,9 +281,9 @@
       "html_url": "https://github.com/browser-use/browser-use"
     },
     "laoma2053/awesome-zhuiju-free": {
-      "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 680,
+      "best_rank": 9,
+      "appearances": 3,
+      "total_today_stars": 1112,
       "language": "JavaScript",
       "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/169715751?v=4",
@@ -308,9 +308,9 @@
       "html_url": "https://github.com/ruanyf/weekly"
     },
     "mvt-project/mvt": {
-      "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 610,
+      "best_rank": 7,
+      "appearances": 3,
+      "total_today_stars": 1153,
       "language": "Python",
       "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/87478403?v=4",
@@ -363,8 +363,8 @@
     },
     "google/ax": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 2305,
+      "appearances": 2,
+      "total_today_stars": 3848,
       "language": "Go",
       "description": "Google's open agentic orchestration runtime",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
@@ -381,8 +381,8 @@
     },
     "Nasiko-Labs/nasiko": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 766,
+      "appearances": 2,
+      "total_today_stars": 1054,
       "language": "Rust",
       "description": "Developer Control Plane for your AI Agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/259143031?v=4",
@@ -390,26 +390,26 @@
     },
     "hydra-db/hydradb": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 761,
+      "appearances": 2,
+      "total_today_stars": 1066,
       "language": "Rust",
       "description": "HydraDB - fast graph database on object storage",
       "owner_avatar": "https://avatars.githubusercontent.com/u/244433600?v=4",
       "html_url": "https://github.com/hydra-db/hydradb"
     },
     "dream-num/univer": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 255,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 1397,
       "language": "TypeScript",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/61444807?v=4",
       "html_url": "https://github.com/dream-num/univer"
     },
     "superdesigndev/treg": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 230,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 736,
       "language": "Python",
       "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
       "owner_avatar": "https://avatars.githubusercontent.com/u/217153862?v=4",
@@ -425,18 +425,18 @@
       "html_url": "https://github.com/upscayl/upscayl"
     },
     "weave-os/router": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 192,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 377,
       "language": "Go",
       "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/174961884?v=4",
       "html_url": "https://github.com/weave-os/router"
     },
     "browser-use/video-use": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 191,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 937,
       "language": "Python",
       "description": "Edit videos with coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
@@ -444,12 +444,66 @@
     },
     "TNT-Likely/PanWatch": {
       "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 175,
+      "appearances": 2,
+      "total_today_stars": 270,
       "language": "Python",
       "description": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9278923?v=4",
       "html_url": "https://github.com/TNT-Likely/PanWatch"
+    },
+    "flexprice/flexprice": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 617,
+      "language": "Go",
+      "description": "Usage-based pricing and billing for developers 🔓 Cloud or self-hosted ⚙️ No-code UI 💰 Realtime usage metering 🎟 Credits & top-ups 🔑 Control feature access",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/168305045?v=4",
+      "html_url": "https://github.com/flexprice/flexprice"
+    },
+    "can1357/oh-my-pi": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 371,
+      "language": "TypeScript",
+      "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11807264?v=4",
+      "html_url": "https://github.com/can1357/oh-my-pi"
+    },
+    "pbakaus/impeccable": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 304,
+      "language": "JavaScript",
+      "description": "The design language that makes your AI harness better at design.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
+      "html_url": "https://github.com/pbakaus/impeccable"
+    },
+    "Comfy-Org/ComfyUI": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 209,
+      "language": "Python",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/166579949?v=4",
+      "html_url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    "DeusData/codebase-memory-mcp": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 190,
+      "language": "C",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/81762164?v=4",
+      "html_url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    "strands-agents/harness-sdk": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 115,
+      "language": "Python",
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/209155962?v=4",
+      "html_url": "https://github.com/strands-agents/harness-sdk"
     }
   }
 }
