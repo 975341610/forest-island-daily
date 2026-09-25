@@ -129,8 +129,8 @@
     },
     "anthropics/financial-services": {
       "best_rank": 4,
-      "appearances": 4,
-      "total_today_stars": 1786,
+      "appearances": 5,
+      "total_today_stars": 2295,
       "language": "Python",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -237,8 +237,8 @@
     },
     "agent-substrate/substrate": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1301,
+      "appearances": 4,
+      "total_today_stars": 1658,
       "language": "Go",
       "description": "Agent Substrate: the core system",
       "owner_avatar": "https://avatars.githubusercontent.com/u/280516639?v=4",
@@ -309,8 +309,8 @@
     },
     "mvt-project/mvt": {
       "best_rank": 7,
-      "appearances": 3,
-      "total_today_stars": 1153,
+      "appearances": 4,
+      "total_today_stars": 1425,
       "language": "Python",
       "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/87478403?v=4",
@@ -363,8 +363,8 @@
     },
     "google/ax": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 3848,
+      "appearances": 3,
+      "total_today_stars": 5221,
       "language": "Go",
       "description": "Google's open agentic orchestration runtime",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
@@ -372,8 +372,8 @@
     },
     "stablyai/orca": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 944,
+      "appearances": 2,
+      "total_today_stars": 1878,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -381,17 +381,17 @@
     },
     "Nasiko-Labs/nasiko": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1054,
+      "appearances": 3,
+      "total_today_stars": 2214,
       "language": "Rust",
       "description": "Developer Control Plane for your AI Agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/259143031?v=4",
       "html_url": "https://github.com/Nasiko-Labs/nasiko"
     },
     "hydra-db/hydradb": {
-      "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1066,
+      "best_rank": 3,
+      "appearances": 3,
+      "total_today_stars": 2410,
       "language": "Rust",
       "description": "HydraDB - fast graph database on object storage",
       "owner_avatar": "https://avatars.githubusercontent.com/u/244433600?v=4",
@@ -399,8 +399,8 @@
     },
     "dream-num/univer": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 1397,
+      "appearances": 3,
+      "total_today_stars": 2479,
       "language": "TypeScript",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/61444807?v=4",
@@ -408,8 +408,8 @@
     },
     "superdesigndev/treg": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 736,
+      "appearances": 3,
+      "total_today_stars": 1204,
       "language": "Python",
       "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
       "owner_avatar": "https://avatars.githubusercontent.com/u/217153862?v=4",
@@ -426,8 +426,8 @@
     },
     "weave-os/router": {
       "best_rank": 19,
-      "appearances": 2,
-      "total_today_stars": 377,
+      "appearances": 3,
+      "total_today_stars": 531,
       "language": "Go",
       "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/174961884?v=4",
@@ -443,9 +443,9 @@
       "html_url": "https://github.com/browser-use/video-use"
     },
     "TNT-Likely/PanWatch": {
-      "best_rank": 24,
-      "appearances": 2,
-      "total_today_stars": 270,
+      "best_rank": 15,
+      "appearances": 3,
+      "total_today_stars": 597,
       "language": "Python",
       "description": "盯盘侠 PanWatch · 自托管 AI 盯盘助手，集成 TradingAgents 多 Agent 投资决策 | A股/港股/美股实时监控、持仓管理、智能分析、全渠道推送",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9278923?v=4",
@@ -462,17 +462,17 @@
     },
     "can1357/oh-my-pi": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 371,
+      "appearances": 2,
+      "total_today_stars": 572,
       "language": "TypeScript",
       "description": "⌥ Coding agent with the IDE wired in. Built by Stencil Labs.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11807264?v=4",
       "html_url": "https://github.com/can1357/oh-my-pi"
     },
     "pbakaus/impeccable": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 304,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 831,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -497,13 +497,112 @@
       "html_url": "https://github.com/DeusData/codebase-memory-mcp"
     },
     "strands-agents/harness-sdk": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 115,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 570,
       "language": "Python",
       "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/209155962?v=4",
       "html_url": "https://github.com/strands-agents/harness-sdk"
+    },
+    "vectorize-io/hindsight": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 1668,
+      "language": "Python",
+      "description": "Hindsight: Agent Memory That Learns",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/81837244?v=4",
+      "html_url": "https://github.com/vectorize-io/hindsight"
+    },
+    "experientiallabs/experiential": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 481,
+      "language": "Python",
+      "description": "Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and train a specialized model you own.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/233532581?v=4",
+      "html_url": "https://github.com/experientiallabs/experiential"
+    },
+    "every-app/open-seo": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 441,
+      "language": "TypeScript",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
+      "html_url": "https://github.com/every-app/open-seo"
+    },
+    "HKUDS/CLI-Anything": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 413,
+      "language": "Python",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    "Asymptote-Labs/agent-beacon": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 269,
+      "language": "Go",
+      "description": "The cross-harness self-improving memory layer for AI agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/235623239?v=4",
+      "html_url": "https://github.com/Asymptote-Labs/agent-beacon"
+    },
+    "op7418/Humanizer-zh": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 249,
+      "language": "Python",
+      "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/13505770?v=4",
+      "html_url": "https://github.com/op7418/Humanizer-zh"
+    },
+    "FxEmbed/FxEmbed": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 182,
+      "language": "TypeScript",
+      "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/109865441?v=4",
+      "html_url": "https://github.com/FxEmbed/FxEmbed"
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 178,
+      "language": "Python",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    "block/buzz": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 171,
+      "language": "Rust",
+      "description": "A hive mind communication platform",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/185116535?v=4",
+      "html_url": "https://github.com/block/buzz"
+    },
+    "juspay/hyperswitch": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 161,
+      "language": "Rust",
+      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11497632?v=4",
+      "html_url": "https://github.com/juspay/hyperswitch"
+    },
+    "anthropics/skills": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 155,
+      "language": "Python",
+      "description": "Public repository for Agent Skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/skills"
     }
   }
 }
