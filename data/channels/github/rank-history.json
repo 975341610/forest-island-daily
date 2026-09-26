@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-26": {
-      "freestylefly/awesome-gpt-image-2": 1,
-      "openai/codex": 2,
-      "basecamp/omarchy": 3,
-      "Alishahryar1/free-claude-code": 4,
-      "stablyai/orca": 5,
-      "multica-ai/andrej-karpathy-skills": 6,
-      "AgriciDaniel/claude-obsidian": 7,
-      "NousResearch/hermes-agent": 8,
-      "apache/maka": 9,
-      "tinyhumansai/openhuman": 10,
-      "makeplane/plane": 11,
-      "tashfeenahmed/freellmapi": 12,
-      "anthropics/claude-plugins-community": 13,
-      "can1357/oh-my-pi": 14,
-      "addyosmani/agent-skills": 15,
-      "block/buzz": 16,
-      "rust-lang/rust": 17,
-      "marin-community/marin": 18,
-      "TauricResearch/TradingAgents": 19,
-      "byoungd/up": 20,
-      "Shubhamsaboo/awesome-llm-apps": 21,
-      "QuantumNous/new-api": 22,
-      "openai/codex-plugin-cc": 23,
-      "shy3130/tick-stock-panel": 24,
-      "decolua/9router": 25
-    },
     "2026-08-27": {
       "freestylefly/awesome-gpt-image-2": 1,
       "tt-a1i/archify": 2,
@@ -836,6 +809,33 @@
       "juspay/hyperswitch": 23,
       "anthropics/skills": 24,
       "weave-os/router": 25
+    },
+    "2026-09-26": {
+      "paperclipai/paperclip": 1,
+      "vectorize-io/hindsight": 2,
+      "google/ax": 3,
+      "dream-num/univer": 4,
+      "hydra-db/hydradb": 5,
+      "stablyai/orca": 6,
+      "public-apis/public-apis": 7,
+      "NVIDIA/Model-Optimizer": 8,
+      "pbakaus/impeccable": 9,
+      "HKUDS/CLI-Anything": 10,
+      "browser-use/video-use": 11,
+      "superdesigndev/treg": 12,
+      "strands-agents/harness-sdk": 13,
+      "anthropics/financial-services": 14,
+      "every-app/open-seo": 15,
+      "anthropics/skills": 16,
+      "derv82/wifit3": 17,
+      "juspay/hyperswitch": 18,
+      "block/buzz": 19,
+      "google/langextract": 20,
+      "FxEmbed/FxEmbed": 21,
+      "kelseyhightower/kubernetes-the-hard-way": 22,
+      "ruvnet/RuView": 23,
+      "ollama/ollama": 24,
+      "Alishahryar1/free-claude-code": 25
     }
   }
 }

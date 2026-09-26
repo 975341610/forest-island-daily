@@ -129,8 +129,8 @@
     },
     "anthropics/financial-services": {
       "best_rank": 4,
-      "appearances": 5,
-      "total_today_stars": 2295,
+      "appearances": 6,
+      "total_today_stars": 2539,
       "language": "Python",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -363,8 +363,8 @@
     },
     "google/ax": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 5221,
+      "appearances": 4,
+      "total_today_stars": 6600,
       "language": "Go",
       "description": "Google's open agentic orchestration runtime",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
@@ -372,8 +372,8 @@
     },
     "stablyai/orca": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 1878,
+      "appearances": 3,
+      "total_today_stars": 2696,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -390,8 +390,8 @@
     },
     "hydra-db/hydradb": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 2410,
+      "appearances": 4,
+      "total_today_stars": 3459,
       "language": "Rust",
       "description": "HydraDB - fast graph database on object storage",
       "owner_avatar": "https://avatars.githubusercontent.com/u/244433600?v=4",
@@ -399,8 +399,8 @@
     },
     "dream-num/univer": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 2479,
+      "appearances": 4,
+      "total_today_stars": 3529,
       "language": "TypeScript",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/61444807?v=4",
@@ -408,8 +408,8 @@
     },
     "superdesigndev/treg": {
       "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 1204,
+      "appearances": 4,
+      "total_today_stars": 1494,
       "language": "Python",
       "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
       "owner_avatar": "https://avatars.githubusercontent.com/u/217153862?v=4",
@@ -435,8 +435,8 @@
     },
     "browser-use/video-use": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 937,
+      "appearances": 3,
+      "total_today_stars": 1238,
       "language": "Python",
       "description": "Edit videos with coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
@@ -471,8 +471,8 @@
     },
     "pbakaus/impeccable": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 831,
+      "appearances": 3,
+      "total_today_stars": 1137,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -498,8 +498,8 @@
     },
     "strands-agents/harness-sdk": {
       "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 570,
+      "appearances": 3,
+      "total_today_stars": 821,
       "language": "Python",
       "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/209155962?v=4",
@@ -507,8 +507,8 @@
     },
     "vectorize-io/hindsight": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 1668,
+      "appearances": 2,
+      "total_today_stars": 3321,
       "language": "Python",
       "description": "Hindsight: Agent Memory That Learns",
       "owner_avatar": "https://avatars.githubusercontent.com/u/81837244?v=4",
@@ -525,17 +525,17 @@
     },
     "every-app/open-seo": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 441,
+      "appearances": 2,
+      "total_today_stars": 650,
       "language": "TypeScript",
       "description": "Open source alternative to Semrush and Ahrefs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
       "html_url": "https://github.com/every-app/open-seo"
     },
     "HKUDS/CLI-Anything": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 413,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 719,
       "language": "Python",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -561,8 +561,8 @@
     },
     "FxEmbed/FxEmbed": {
       "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 182,
+      "appearances": 2,
+      "total_today_stars": 313,
       "language": "TypeScript",
       "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
       "owner_avatar": "https://avatars.githubusercontent.com/u/109865441?v=4",
@@ -578,31 +578,112 @@
       "html_url": "https://github.com/harry0703/MoneyPrinterTurbo"
     },
     "block/buzz": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 171,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 346,
       "language": "Rust",
       "description": "A hive mind communication platform",
       "owner_avatar": "https://avatars.githubusercontent.com/u/185116535?v=4",
       "html_url": "https://github.com/block/buzz"
     },
     "juspay/hyperswitch": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 161,
+      "best_rank": 18,
+      "appearances": 2,
+      "total_today_stars": 342,
       "language": "Rust",
       "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11497632?v=4",
       "html_url": "https://github.com/juspay/hyperswitch"
     },
     "anthropics/skills": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 155,
+      "best_rank": 16,
+      "appearances": 2,
+      "total_today_stars": 344,
       "language": "Python",
       "description": "Public repository for Agent Skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
       "html_url": "https://github.com/anthropics/skills"
+    },
+    "paperclipai/paperclip": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 2109,
+      "language": "TypeScript",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/264498616?v=4",
+      "html_url": "https://github.com/paperclipai/paperclip"
+    },
+    "public-apis/public-apis": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 360,
+      "language": "Python",
+      "description": "A collective list of free APIs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/51121562?v=4",
+      "html_url": "https://github.com/public-apis/public-apis"
+    },
+    "NVIDIA/Model-Optimizer": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 359,
+      "language": "Python",
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
+      "html_url": "https://github.com/NVIDIA/Model-Optimizer"
+    },
+    "derv82/wifit3": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 183,
+      "language": "Python",
+      "description": "Wifite but USB-only & cross-platform.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/993464?v=4",
+      "html_url": "https://github.com/derv82/wifit3"
+    },
+    "google/langextract": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 167,
+      "language": "Python",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "html_url": "https://github.com/google/langextract"
+    },
+    "kelseyhightower/kubernetes-the-hard-way": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 119,
+      "language": null,
+      "description": "Bootstrap Kubernetes the hard way. No scripts.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1123322?v=4",
+      "html_url": "https://github.com/kelseyhightower/kubernetes-the-hard-way"
+    },
+    "ruvnet/RuView": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 115,
+      "language": "Rust",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "html_url": "https://github.com/ruvnet/RuView"
+    },
+    "ollama/ollama": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 111,
+      "language": "Go",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
+      "html_url": "https://github.com/ollama/ollama"
+    },
+    "Alishahryar1/free-claude-code": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 95,
+      "language": "Python",
+      "description": "Use Claude Code, Codex, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
+      "html_url": "https://github.com/Alishahryar1/free-claude-code"
     }
   }
 }
