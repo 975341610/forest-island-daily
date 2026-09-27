@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-27": {
-      "freestylefly/awesome-gpt-image-2": 1,
-      "tt-a1i/archify": 2,
-      "basecamp/omarchy": 3,
-      "AgriciDaniel/claude-obsidian": 4,
-      "TauricResearch/TradingAgents": 5,
-      "anthropics/claude-plugins-community": 6,
-      "Alishahryar1/free-claude-code": 7,
-      "tinyhumansai/openhuman": 8,
-      "marin-community/marin": 9,
-      "apache/maka": 10,
-      "tashfeenahmed/freellmapi": 11,
-      "Panniantong/Agent-Reach": 12,
-      "anthropics/claude-plugins-official": 13,
-      "github/spec-kit": 14,
-      "addyosmani/agent-skills": 15,
-      "can1357/oh-my-pi": 16,
-      "browser-use/browser-use": 17,
-      "K-Dense-AI/scientific-agent-skills": 18,
-      "every-app/open-seo": 19,
-      "makeplane/plane": 20,
-      "tickernelz/opencode-mem": 21,
-      "ConardLi/garden-skills": 22,
-      "RizRiyz/luvus": 23,
-      "HKUDS/CLI-Anything": 24,
-      "poteto/hiring-without-whiteboards": 25
-    },
     "2026-08-28": {
       "tt-a1i/archify": 1,
       "freestylefly/awesome-gpt-image-2": 2,
@@ -836,6 +809,33 @@
       "ruvnet/RuView": 23,
       "ollama/ollama": 24,
       "Alishahryar1/free-claude-code": 25
+    },
+    "2026-09-27": {
+      "paperclipai/paperclip": 1,
+      "vectorize-io/hindsight": 2,
+      "hydra-db/hydradb": 3,
+      "dream-num/univer": 4,
+      "pbakaus/impeccable": 5,
+      "openbao/openbao": 6,
+      "NVIDIA/Model-Optimizer": 7,
+      "derv82/wifit3": 8,
+      "harry0703/MoneyPrinterTurbo": 9,
+      "block/buzz": 10,
+      "anthropics/claude-plugins-official": 11,
+      "androoAGI/starnet": 12,
+      "666ghj/MiroFish": 13,
+      "usestrix/strix": 14,
+      "mobile-next/mobile-mcp": 15,
+      "shy3130/tick-stock-panel": 16,
+      "juspay/hyperswitch": 17,
+      "putyy/res-downloader": 18,
+      "HKUDS/CLI-Anything": 19,
+      "microsoft/vscode": 20,
+      "sherlock-project/sherlock": 21,
+      "vercel-labs/scriptc": 22,
+      "MakazhanAlpamys/Soup": 23,
+      "Jakubantalik/Libraries.dev": 24,
+      "hmjz100/LinkSwift": 25
     }
   }
 }

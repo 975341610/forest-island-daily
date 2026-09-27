@@ -390,8 +390,8 @@
     },
     "hydra-db/hydradb": {
       "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 3459,
+      "appearances": 5,
+      "total_today_stars": 4646,
       "language": "Rust",
       "description": "HydraDB - fast graph database on object storage",
       "owner_avatar": "https://avatars.githubusercontent.com/u/244433600?v=4",
@@ -399,8 +399,8 @@
     },
     "dream-num/univer": {
       "best_rank": 2,
-      "appearances": 4,
-      "total_today_stars": 3529,
+      "appearances": 5,
+      "total_today_stars": 4378,
       "language": "TypeScript",
       "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/61444807?v=4",
@@ -470,9 +470,9 @@
       "html_url": "https://github.com/can1357/oh-my-pi"
     },
     "pbakaus/impeccable": {
-      "best_rank": 7,
-      "appearances": 3,
-      "total_today_stars": 1137,
+      "best_rank": 5,
+      "appearances": 4,
+      "total_today_stars": 1581,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -507,8 +507,8 @@
     },
     "vectorize-io/hindsight": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 3321,
+      "appearances": 3,
+      "total_today_stars": 5468,
       "language": "Python",
       "description": "Hindsight: Agent Memory That Learns",
       "owner_avatar": "https://avatars.githubusercontent.com/u/81837244?v=4",
@@ -534,8 +534,8 @@
     },
     "HKUDS/CLI-Anything": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 719,
+      "appearances": 3,
+      "total_today_stars": 816,
       "language": "Python",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -569,27 +569,27 @@
       "html_url": "https://github.com/FxEmbed/FxEmbed"
     },
     "harry0703/MoneyPrinterTurbo": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 178,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 527,
       "language": "Python",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
       "html_url": "https://github.com/harry0703/MoneyPrinterTurbo"
     },
     "block/buzz": {
-      "best_rank": 19,
-      "appearances": 2,
-      "total_today_stars": 346,
+      "best_rank": 10,
+      "appearances": 3,
+      "total_today_stars": 685,
       "language": "Rust",
       "description": "A hive mind communication platform",
       "owner_avatar": "https://avatars.githubusercontent.com/u/185116535?v=4",
       "html_url": "https://github.com/block/buzz"
     },
     "juspay/hyperswitch": {
-      "best_rank": 18,
-      "appearances": 2,
-      "total_today_stars": 342,
+      "best_rank": 17,
+      "appearances": 3,
+      "total_today_stars": 501,
       "language": "Rust",
       "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11497632?v=4",
@@ -606,8 +606,8 @@
     },
     "paperclipai/paperclip": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 2109,
+      "appearances": 2,
+      "total_today_stars": 4717,
       "language": "TypeScript",
       "description": "The open-source app everyone uses to manage agents at work",
       "owner_avatar": "https://avatars.githubusercontent.com/u/264498616?v=4",
@@ -623,18 +623,18 @@
       "html_url": "https://github.com/public-apis/public-apis"
     },
     "NVIDIA/Model-Optimizer": {
-      "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 359,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 716,
       "language": "Python",
       "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
       "html_url": "https://github.com/NVIDIA/Model-Optimizer"
     },
     "derv82/wifit3": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 183,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 540,
       "language": "Python",
       "description": "Wifite but USB-only & cross-platform.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/993464?v=4",
@@ -684,6 +684,132 @@
       "description": "Use Claude Code, Codex, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
       "html_url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    "openbao/openbao": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 364,
+      "language": "Go",
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/152585220?v=4",
+      "html_url": "https://github.com/openbao/openbao"
+    },
+    "anthropics/claude-plugins-official": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 253,
+      "language": "Python",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    "androoAGI/starnet": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 212,
+      "language": "JavaScript",
+      "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/224686490?v=4",
+      "html_url": "https://github.com/androoAGI/starnet"
+    },
+    "666ghj/MiroFish": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 211,
+      "language": "Python",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/110395318?v=4",
+      "html_url": "https://github.com/666ghj/MiroFish"
+    },
+    "usestrix/strix": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 196,
+      "language": "Python",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
+      "html_url": "https://github.com/usestrix/strix"
+    },
+    "mobile-next/mobile-mcp": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 168,
+      "language": "TypeScript",
+      "description": "Model Context Protocol Server for Mobile Automation and Scraping (iOS, Android, Emulators, Simulators and Real Devices)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/205340688?v=4",
+      "html_url": "https://github.com/mobile-next/mobile-mcp"
+    },
+    "shy3130/tick-stock-panel": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 162,
+      "language": "Python",
+      "description": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6329373?v=4",
+      "html_url": "https://github.com/shy3130/tick-stock-panel"
+    },
+    "putyy/res-downloader": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 142,
+      "language": "Go",
+      "description": "视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/31536789?v=4",
+      "html_url": "https://github.com/putyy/res-downloader"
+    },
+    "microsoft/vscode": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 95,
+      "language": "TypeScript",
+      "description": "Visual Studio Code",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/vscode"
+    },
+    "sherlock-project/sherlock": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 91,
+      "language": "Python",
+      "description": "Hunt down social media accounts by username across social networks",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/48293496?v=4",
+      "html_url": "https://github.com/sherlock-project/sherlock"
+    },
+    "vercel-labs/scriptc": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 76,
+      "language": "TypeScript",
+      "description": "TypeScript-to-Native Compiler",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "html_url": "https://github.com/vercel-labs/scriptc"
+    },
+    "MakazhanAlpamys/Soup": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 74,
+      "language": "Python",
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/188336071?v=4",
+      "html_url": "https://github.com/MakazhanAlpamys/Soup"
+    },
+    "Jakubantalik/Libraries.dev": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 72,
+      "language": "TypeScript",
+      "description": "High-crafted UI libraries for AI agents: Border beam, Orbs, Metal, Gooey, Voice, Image, Avatar bots",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14873517?v=4",
+      "html_url": "https://github.com/Jakubantalik/Libraries.dev"
+    },
+    "hmjz100/LinkSwift": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 68,
+      "language": "JavaScript",
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/98228280?v=4",
+      "html_url": "https://github.com/hmjz100/LinkSwift"
     }
   }
 }
