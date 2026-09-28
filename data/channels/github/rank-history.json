@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-28": {
-      "tt-a1i/archify": 1,
-      "freestylefly/awesome-gpt-image-2": 2,
-      "bilawalsidhu/gods-eye-view": 3,
-      "AgriciDaniel/claude-obsidian": 4,
-      "K-Dense-AI/scientific-agent-skills": 5,
-      "ConardLi/garden-skills": 6,
-      "tinyhumansai/openhuman": 7,
-      "tashfeenahmed/freellmapi": 8,
-      "addyosmani/agent-skills": 9,
-      "JetBrains/go-modern-guidelines": 10,
-      "anthropics/claude-plugins-official": 11,
-      "anthropics/skills": 12,
-      "marin-community/marin": 13,
-      "AgriciDaniel/claude-seo": 14,
-      "TauricResearch/TradingAgents": 15,
-      "garrytan/gstack": 16,
-      "ZhuLinsen/daily_stock_analysis": 17,
-      "1weiho/open-slide": 18,
-      "htdt/godogen": 19,
-      "ComposioHQ/awesome-claude-skills": 20,
-      "hmjz100/LinkSwift": 21,
-      "infiniflow/ragflow": 22,
-      "poteto/hiring-without-whiteboards": 23,
-      "langchain-ai/deepagents": 24,
-      "n0-computer/iroh": 25
-    },
     "2026-08-29": {
       "tt-a1i/archify": 1,
       "bilawalsidhu/gods-eye-view": 2,
@@ -836,6 +809,33 @@
       "MakazhanAlpamys/Soup": 23,
       "Jakubantalik/Libraries.dev": 24,
       "hmjz100/LinkSwift": 25
+    },
+    "2026-09-28": {
+      "vectorize-io/hindsight": 1,
+      "debpalash/VoiceStudio": 2,
+      "hydra-db/hydradb": 3,
+      "paperclipai/paperclip": 4,
+      "dream-num/univer": 5,
+      "juspay/hyperswitch": 6,
+      "pacifio/atlas": 7,
+      "mobile-next/mobile-mcp": 8,
+      "heygen-com/hyperframes": 9,
+      "NVIDIA/Model-Optimizer": 10,
+      "vercel/next.js": 11,
+      "derv82/wifit3": 12,
+      "InfinityLoop1308/PipePipe": 13,
+      "block/buzz": 14,
+      "openbao/openbao": 15,
+      "melgarafael/DeskcommCRM": 16,
+      "Gimanh/taskview-community": 17,
+      "mvschwarz/openrig": 18,
+      "microsoft/data-formulator": 19,
+      "vercel-labs/scriptc": 20,
+      "willfaust/Madeira": 21,
+      "putyy/res-downloader": 22,
+      "androoAGI/starnet": 23,
+      "feigeCode/navop": 24,
+      "pytorch/pytorch": 25
     }
   }
 }
