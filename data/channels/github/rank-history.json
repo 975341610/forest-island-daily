@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-29": {
-      "tt-a1i/archify": 1,
-      "bilawalsidhu/gods-eye-view": 2,
-      "freestylefly/awesome-gpt-image-2": 3,
-      "tailscale/tailcat": 4,
-      "K-Dense-AI/scientific-agent-skills": 5,
-      "workweave/router": 6,
-      "JetBrains/go-modern-guidelines": 7,
-      "Graphify-Labs/graphify": 8,
-      "anthropics/claude-plugins-official": 9,
-      "tashfeenahmed/freellmapi": 10,
-      "t8y2/dbx": 11,
-      "mvanhorn/last30days-skill": 12,
-      "ComposioHQ/awesome-claude-skills": 13,
-      "pbakaus/impeccable": 14,
-      "cursor/plugins": 15,
-      "addyosmani/agent-skills": 16,
-      "marin-community/marin": 17,
-      "tinyhumansai/openhuman": 18,
-      "NationalSecurityAgency/ghidra": 19,
-      "OpenHands/OpenHands": 20,
-      "google/googletest": 21,
-      "HKUDS/AI-Trader": 22,
-      "koala73/worldmonitor": 23,
-      "MakazhanAlpamys/Soup": 24,
-      "QuantumNous/new-api": 25
-    },
     "2026-08-30": {
       "tt-a1i/archify": 1,
       "bilawalsidhu/gods-eye-view": 2,
@@ -836,6 +809,33 @@
       "androoAGI/starnet": 23,
       "feigeCode/navop": 24,
       "pytorch/pytorch": 25
+    },
+    "2026-09-29": {
+      "vectorize-io/hindsight": 1,
+      "debpalash/VoiceStudio": 2,
+      "paperclipai/paperclip": 3,
+      "hydra-db/hydradb": 4,
+      "dream-num/univer": 5,
+      "mvschwarz/openrig": 6,
+      "t8y2/dbx": 7,
+      "mobile-next/mobile-mcp": 8,
+      "juspay/hyperswitch": 9,
+      "byoungd/up": 10,
+      "vercel-labs/scriptc": 11,
+      "moeru-ai/airi": 12,
+      "pacifio/atlas": 13,
+      "block/buzz": 14,
+      "practical-tutorials/project-based-learning": 15,
+      "cs341-illinois/coursebook": 16,
+      "NawfalMotii79/PLFM_RADAR": 17,
+      "alirezarezvani/claude-skills": 18,
+      "microsoft/SkillOpt": 19,
+      "ashhart/TensorFold": 20,
+      "ruvnet/RuView": 21,
+      "samugit83/redamon": 22,
+      "vercel/next.js": 23,
+      "guohuiyuan/go-music-dl": 24,
+      "Billionmail/BillionMail": 25
     }
   }
 }
