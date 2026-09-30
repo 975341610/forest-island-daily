@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-30": {
-      "tt-a1i/archify": 1,
-      "bilawalsidhu/gods-eye-view": 2,
-      "K-Dense-AI/scientific-agent-skills": 3,
-      "THU-MAIC/OpenMAIC": 4,
-      "tailscale/tailcat": 5,
-      "tashfeenahmed/freellmapi": 6,
-      "every-app/open-seo": 7,
-      "harry0703/MoneyPrinterTurbo": 8,
-      "anthropics/claude-plugins-official": 9,
-      "JetBrains/go-modern-guidelines": 10,
-      "workweave/router": 11,
-      "cursor/plugins": 12,
-      "livekit/agents": 13,
-      "ayghri/i-have-adhd": 14,
-      "ChromeDevTools/chrome-devtools-mcp": 15,
-      "vercel-labs/vgpu": 16,
-      "addyosmani/agent-skills": 17,
-      "p-e-w/heretic": 18,
-      "google/googletest": 19,
-      "t8y2/dbx": 20,
-      "yifanfeng97/Hyper-Extract": 21,
-      "chuspeeism/dashi-ppt-skill": 22,
-      "alchaincyf/nuwa-skill": 23,
-      "ComposioHQ/awesome-claude-skills": 24,
-      "infiniflow/ragflow": 25
-    },
     "2026-08-31": {
       "tt-a1i/archify": 1,
       "THU-MAIC/OpenMAIC": 2,
@@ -836,6 +809,33 @@
       "vercel/next.js": 23,
       "guohuiyuan/go-music-dl": 24,
       "Billionmail/BillionMail": 25
+    },
+    "2026-09-30": {
+      "debpalash/VoiceStudio": 1,
+      "vectorize-io/hindsight": 2,
+      "paperclipai/paperclip": 3,
+      "byoungd/up": 4,
+      "NVIDIA/OpenShell": 5,
+      "hydra-db/hydradb": 6,
+      "mvschwarz/openrig": 7,
+      "tt-a1i/archify": 8,
+      "dream-num/univer": 9,
+      "cs341-illinois/coursebook": 10,
+      "oblien/openship": 11,
+      "pbakaus/impeccable": 12,
+      "harry0703/MoneyPrinterTurbo": 13,
+      "heygen-com/hyperframes": 14,
+      "TencentCloud/Octop": 15,
+      "mobile-next/mobile-mcp": 16,
+      "t8y2/dbx": 17,
+      "Pumpkin-MC/Pumpkin": 18,
+      "juspay/hyperswitch": 19,
+      "Gaurav-Gosain/tuios": 20,
+      "moeru-ai/airi": 21,
+      "longbridge/gpui-kit": 22,
+      "magnitudedev/magnitude": 23,
+      "averygan/reclip": 24,
+      "multica-ai/multica": 25
     }
   }
 }
