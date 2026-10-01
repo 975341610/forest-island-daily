@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-08-31": {
-      "tt-a1i/archify": 1,
-      "THU-MAIC/OpenMAIC": 2,
-      "bilawalsidhu/gods-eye-view": 3,
-      "K-Dense-AI/scientific-agent-skills": 4,
-      "tailscale/tailcat": 5,
-      "martin-olivier/airgorah": 6,
-      "tashfeenahmed/freellmapi": 7,
-      "every-app/open-seo": 8,
-      "workweave/router": 9,
-      "firecrawl/firecrawl": 10,
-      "p-e-w/heretic": 11,
-      "Osmantic/ODS": 12,
-      "rust-lang/rust": 13,
-      "addyosmani/agent-skills": 14,
-      "kubernetes/kubernetes": 15,
-      "mvanhorn/last30days-skill": 16,
-      "yt-dlp/yt-dlp": 17,
-      "NationalSecurityAgency/ghidra": 18,
-      "pollen-robotics/microduck_rl": 19,
-      "vercel-labs/vgpu": 20,
-      "kenn-io/agentsview": 21,
-      "cursor/plugins": 22,
-      "livekit/agents": 23,
-      "corsairdev/corsair": 24,
-      "darkzOGx/youtube-automation-agent": 25
-    },
     "2026-09-01": {
       "tt-a1i/archify": 1,
       "THU-MAIC/OpenMAIC": 2,
@@ -836,6 +809,33 @@
       "magnitudedev/magnitude": 23,
       "averygan/reclip": 24,
       "multica-ai/multica": 25
+    },
+    "2026-10-01": {
+      "debpalash/VoiceStudio": 1,
+      "NVIDIA/OpenShell": 2,
+      "t8y2/dbx": 3,
+      "byoungd/up": 4,
+      "HunxByts/GhostTrack": 5,
+      "mvschwarz/openrig": 6,
+      "oblien/openship": 7,
+      "firecrawl/firecrawl": 8,
+      "pbakaus/impeccable": 9,
+      "harry0703/MoneyPrinterTurbo": 10,
+      "heygen-com/hyperframes": 11,
+      "ifixai-ai/iFixAi": 12,
+      "alphaXiv/OpenResearch": 13,
+      "TencentCloud/Octop": 14,
+      "NawfalMotii79/PLFM_RADAR": 15,
+      "ruvnet/RuView": 16,
+      "longbridge/gpui-kit": 17,
+      "github/spec-kit": 18,
+      "qbittorrent/search-plugins": 19,
+      "Pumpkin-MC/Pumpkin": 20,
+      "anthropics/claude-code": 21,
+      "alirezarezvani/claude-skills": 22,
+      "yorukot/superfile": 23,
+      "ComposioHQ/awesome-claude-skills": 24,
+      "colbymchenry/codegraph": 25
     }
   }
 }
