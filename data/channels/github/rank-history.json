@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-01": {
-      "tt-a1i/archify": 1,
-      "THU-MAIC/OpenMAIC": 2,
-      "K-Dense-AI/scientific-agent-skills": 3,
-      "zhaoxuya520/reverse-skill": 4,
-      "laoma2053/awesome-zhuiju-free": 5,
-      "tashfeenahmed/freellmapi": 6,
-      "every-app/open-seo": 7,
-      "browser-use/video-use": 8,
-      "k1tbyte/Wand-Enhancer": 9,
-      "handsomestWei/patent-disclosure-skill": 10,
-      "p-e-w/heretic": 11,
-      "tailscale/tailcat": 12,
-      "debpalash/VoiceStudio": 13,
-      "jingyaogong/minimind": 14,
-      "mvanhorn/last30days-skill": 15,
-      "pollen-robotics/microduck_rl": 16,
-      "majd/ipatool": 17,
-      "hieunc229/mailflare": 18,
-      "MakazhanAlpamys/Soup": 19,
-      "pbakaus/impeccable": 20,
-      "workweave/router": 21,
-      "kunchenguid/no-mistakes": 22,
-      "firecrawl/pdf-inspector": 23,
-      "addyosmani/agent-skills": 24,
-      "checkstyle/checkstyle": 25
-    },
     "2026-09-02": {
       "tt-a1i/archify": 1,
       "THU-MAIC/OpenMAIC": 2,
@@ -836,6 +809,33 @@
       "yorukot/superfile": 23,
       "ComposioHQ/awesome-claude-skills": 24,
       "colbymchenry/codegraph": 25
+    },
+    "2026-10-02": {
+      "NVIDIA/OpenShell": 1,
+      "ifixai-ai/iFixAi": 2,
+      "debpalash/VoiceStudio": 3,
+      "t8y2/dbx": 4,
+      "tt-a1i/archify": 5,
+      "mvschwarz/openrig": 6,
+      "heygen-com/hyperframes": 7,
+      "harry0703/MoneyPrinterTurbo": 8,
+      "bilawalsidhu/gods-eye-view": 9,
+      "magnitudedev/magnitude": 10,
+      "pbakaus/impeccable": 11,
+      "HunxByts/GhostTrack": 12,
+      "pablostanley/yoinks": 13,
+      "byoungd/up": 14,
+      "ComposioHQ/awesome-claude-skills": 15,
+      "earendil-works/pi": 16,
+      "tinyhumansai/openhuman": 17,
+      "Friedrich-M/UniMate": 18,
+      "addyosmani/agent-skills": 19,
+      "longbridge/gpui-kit": 20,
+      "modelcontextprotocol/servers": 21,
+      "TencentCloud/Octop": 22,
+      "Neet-Nestor/Telegram-Media-Downloader": 23,
+      "tile-ai/tilelang": 24,
+      "openai/codex": 25
     }
   }
 }

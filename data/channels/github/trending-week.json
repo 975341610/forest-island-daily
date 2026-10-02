@@ -12,8 +12,8 @@
     },
     "debpalash/VoiceStudio": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 14548,
+      "appearances": 5,
+      "total_today_stars": 15832,
       "language": "Python",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4178343?v=4",
@@ -74,9 +74,9 @@
       "html_url": "https://github.com/mobile-next/mobile-mcp"
     },
     "heygen-com/hyperframes": {
-      "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 977,
+      "best_rank": 7,
+      "appearances": 4,
+      "total_today_stars": 1604,
       "language": "TypeScript",
       "description": "Write HTML. Render video. Built for agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
@@ -156,8 +156,8 @@
     },
     "mvschwarz/openrig": {
       "best_rank": 6,
-      "appearances": 4,
-      "total_today_stars": 2209,
+      "appearances": 5,
+      "total_today_stars": 2851,
       "language": "TypeScript",
       "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
       "owner_avatar": "https://avatars.githubusercontent.com/u/171890339?v=4",
@@ -228,8 +228,8 @@
     },
     "t8y2/dbx": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 1830,
+      "appearances": 4,
+      "total_today_stars": 2569,
       "language": "Rust",
       "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
@@ -237,8 +237,8 @@
     },
     "byoungd/up": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 2172,
+      "appearances": 4,
+      "total_today_stars": 2514,
       "language": "JavaScript",
       "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
       "owner_avatar": "https://avatars.githubusercontent.com/u/16145783?v=4",
@@ -344,18 +344,18 @@
       "html_url": "https://github.com/Billionmail/BillionMail"
     },
     "NVIDIA/OpenShell": {
-      "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 2271,
+      "best_rank": 1,
+      "appearances": 3,
+      "total_today_stars": 4727,
       "language": "Rust",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
       "html_url": "https://github.com/NVIDIA/OpenShell"
     },
     "tt-a1i/archify": {
-      "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 714,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1371,
       "language": "JavaScript",
       "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
@@ -372,17 +372,17 @@
     },
     "pbakaus/impeccable": {
       "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 866,
+      "appearances": 3,
+      "total_today_stars": 1361,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
       "html_url": "https://github.com/pbakaus/impeccable"
     },
     "harry0703/MoneyPrinterTurbo": {
-      "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 769,
+      "best_rank": 8,
+      "appearances": 3,
+      "total_today_stars": 1345,
       "language": "Python",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
@@ -390,8 +390,8 @@
     },
     "TencentCloud/Octop": {
       "best_rank": 14,
-      "appearances": 2,
-      "total_today_stars": 563,
+      "appearances": 3,
+      "total_today_stars": 752,
       "language": "Python",
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20101770?v=4",
@@ -417,17 +417,17 @@
     },
     "longbridge/gpui-kit": {
       "best_rank": 17,
-      "appearances": 2,
-      "total_today_stars": 311,
+      "appearances": 3,
+      "total_today_stars": 513,
       "language": "Rust",
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/68419756?v=4",
       "html_url": "https://github.com/longbridge/gpui-kit"
     },
     "magnitudedev/magnitude": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 114,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 652,
       "language": "Rust",
       "description": "Open source inference engine for the hardware you already own. Profiles your machine, recommends the best open models for it, and tunes them for your exact hardware. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/199500616?v=4",
@@ -453,8 +453,8 @@
     },
     "HunxByts/GhostTrack": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 635,
+      "appearances": 2,
+      "total_today_stars": 1003,
       "language": "Python",
       "description": "Useful tool to track location or mobile number",
       "owner_avatar": "https://avatars.githubusercontent.com/u/130666567?v=4",
@@ -470,9 +470,9 @@
       "html_url": "https://github.com/firecrawl/firecrawl"
     },
     "ifixai-ai/iFixAi": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 340,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 1832,
       "language": "Python",
       "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/279006089?v=4",
@@ -524,9 +524,9 @@
       "html_url": "https://github.com/yorukot/superfile"
     },
     "ComposioHQ/awesome-claude-skills": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 123,
+      "best_rank": 15,
+      "appearances": 2,
+      "total_today_stars": 442,
       "language": "Python",
       "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
       "owner_avatar": "https://avatars.githubusercontent.com/u/128464815?v=4",
@@ -540,6 +540,96 @@
       "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18431132?v=4",
       "html_url": "https://github.com/colbymchenry/codegraph"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 546,
+      "language": "JavaScript",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/106619546?v=4",
+      "html_url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    "pablostanley/yoinks": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 361,
+      "language": "TypeScript",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/7430988?v=4",
+      "html_url": "https://github.com/pablostanley/yoinks"
+    },
+    "earendil-works/pi": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 298,
+      "language": "TypeScript",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
+      "html_url": "https://github.com/earendil-works/pi"
+    },
+    "tinyhumansai/openhuman": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 219,
+      "language": "Rust",
+      "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
+      "html_url": "https://github.com/tinyhumansai/openhuman"
+    },
+    "Friedrich-M/UniMate": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 217,
+      "language": "Python",
+      "description": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85838942?v=4",
+      "html_url": "https://github.com/Friedrich-M/UniMate"
+    },
+    "addyosmani/agent-skills": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 214,
+      "language": "JavaScript",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
+      "html_url": "https://github.com/addyosmani/agent-skills"
+    },
+    "modelcontextprotocol/servers": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 190,
+      "language": "TypeScript",
+      "description": "Model Context Protocol Servers",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/182288589?v=4",
+      "html_url": "https://github.com/modelcontextprotocol/servers"
+    },
+    "Neet-Nestor/Telegram-Media-Downloader": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 179,
+      "language": "JavaScript",
+      "description": "A script allowing you to download images and videos from Telegram web even if the group restricts downloading.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/23090573?v=4",
+      "html_url": "https://github.com/Neet-Nestor/Telegram-Media-Downloader"
+    },
+    "tile-ai/tilelang": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 163,
+      "language": "Python",
+      "description": " Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/183584698?v=4",
+      "html_url": "https://github.com/tile-ai/tilelang"
+    },
+    "openai/codex": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 157,
+      "language": "Rust",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/codex"
     }
   }
 }
