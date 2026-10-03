@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-02": {
-      "tt-a1i/archify": 1,
-      "THU-MAIC/OpenMAIC": 2,
-      "jingyaogong/minimind": 3,
-      "K-Dense-AI/scientific-agent-skills": 4,
-      "stablyai/orca": 5,
-      "iv-org/invidious": 6,
-      "firecrawl/pdf-inspector": 7,
-      "handsomestWei/patent-disclosure-skill": 8,
-      "Osmantic/ODS": 9,
-      "browser-use/video-use": 10,
-      "every-app/open-seo": 11,
-      "kubernetes/kubernetes": 12,
-      "addyosmani/agent-skills": 13,
-      "MakazhanAlpamys/Soup": 14,
-      "laoma2053/awesome-zhuiju-free": 15,
-      "golang/go": 16,
-      "HKUDS/DeepTutor": 17,
-      "Imbad0202/academic-research-skills": 18,
-      "anthropics/claude-code": 19,
-      "Ed1s0nZ/CyberStrikeAI": 20,
-      "apurvsinghgautam/robin": 21,
-      "NVIDIA/SkillSpector": 22,
-      "langgenius/dify": 23,
-      "apache/iggy": 24,
-      "alphaXiv/OpenResearch": 25
-    },
     "2026-09-03": {
       "tt-a1i/archify": 1,
       "THU-MAIC/OpenMAIC": 2,
@@ -836,6 +809,33 @@
       "Neet-Nestor/Telegram-Media-Downloader": 23,
       "tile-ai/tilelang": 24,
       "openai/codex": 25
+    },
+    "2026-10-03": {
+      "pbakaus/impeccable": 1,
+      "Panniantong/Agent-Reach": 2,
+      "mvschwarz/openrig": 3,
+      "pablostanley/yoinks": 4,
+      "NVIDIA/OpenShell": 5,
+      "heygen-com/hyperframes": 6,
+      "HunxByts/GhostTrack": 7,
+      "ayghri/i-have-adhd": 8,
+      "magnitudedev/magnitude": 9,
+      "Friedrich-M/UniMate": 10,
+      "tile-ai/tilelang": 11,
+      "FalkorDB/FalkorDB": 12,
+      "longbridge/gpui-kit": 13,
+      "addyosmani/agent-skills": 14,
+      "NVIDIA/SkillSpector": 15,
+      "mnfst/awesome-free-llm-apis": 16,
+      "cursor/plugins": 17,
+      "androoAGI/starnet": 18,
+      "garrytan/gstack": 19,
+      "LuxAlgo/Vela": 20,
+      "ruvnet/ruflo": 21,
+      "colbymchenry/codegraph": 22,
+      "n8n-io/n8n": 23,
+      "tailscale/tailcat": 24,
+      "MakazhanAlpamys/Soup": 25
     }
   }
 }
