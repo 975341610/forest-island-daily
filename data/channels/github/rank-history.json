@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-03": {
-      "tt-a1i/archify": 1,
-      "THU-MAIC/OpenMAIC": 2,
-      "pacifio/atlas": 3,
-      "jingyaogong/minimind": 4,
-      "debpalash/VoiceStudio": 5,
-      "stablyai/orca": 6,
-      "Imbad0202/academic-research-skills": 7,
-      "Gitlawb/openclaude": 8,
-      "browser-use/video-use": 9,
-      "firecrawl/pdf-inspector": 10,
-      "slackhq/nebula": 11,
-      "NousResearch/hermes-agent": 12,
-      "earendil-works/pi": 13,
-      "arcboxlabs/arcbox": 14,
-      "datawhalechina/hello-agents": 15,
-      "3b1b/manim": 16,
-      "blader/humanizer": 17,
-      "google-research/timesfm": 18,
-      "pbakaus/impeccable": 19,
-      "addyosmani/agent-skills": 20,
-      "github/spec-kit": 21,
-      "p-e-w/heretic": 22,
-      "ChromeDevTools/chrome-devtools-mcp": 23,
-      "anthropics/claude-code": 24,
-      "heygen-com/hyperframes": 25
-    },
     "2026-09-04": {
       "debpalash/VoiceStudio": 1,
       "google-research/timesfm": 2,
@@ -836,6 +809,33 @@
       "n8n-io/n8n": 23,
       "tailscale/tailcat": 24,
       "MakazhanAlpamys/Soup": 25
+    },
+    "2026-10-04": {
+      "Panniantong/Agent-Reach": 1,
+      "pbakaus/impeccable": 2,
+      "mvschwarz/openrig": 3,
+      "heygen-com/hyperframes": 4,
+      "pablostanley/yoinks": 5,
+      "earendil-works/pi": 6,
+      "Effect-TS/effect": 7,
+      "p-e-w/heretic": 8,
+      "pingdotgg/t3code": 9,
+      "addyosmani/agent-skills": 10,
+      "google/skills": 11,
+      "usestrix/strix": 12,
+      "getsentry/sentry": 13,
+      "cursor/plugins": 14,
+      "jamwithai/production-agentic-rag-course": 15,
+      "longbridge/gpui-kit": 16,
+      "FalkorDB/FalkorDB": 17,
+      "anthropics/claude-code": 18,
+      "mnfst/awesome-free-llm-apis": 19,
+      "handsomestWei/patent-disclosure-skill": 20,
+      "can1357/oh-my-pi": 21,
+      "cloudflare/cloudflare-os": 22,
+      "ruvnet/ruflo": 23,
+      "tailscale/tailcat": 24,
+      "WorldFlowAI/everything-claude-code": 25
     }
   }
 }
