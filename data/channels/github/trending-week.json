@@ -3,8 +3,8 @@
   "repos": {
     "pbakaus/impeccable": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 1171,
+      "appearances": 2,
+      "total_today_stars": 2118,
       "language": "JavaScript",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -12,8 +12,8 @@
     },
     "Panniantong/Agent-Reach": {
       "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 980,
+      "appearances": 2,
+      "total_today_stars": 2135,
       "language": "Python",
       "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
@@ -21,8 +21,8 @@
     },
     "pingdotgg/t3code": {
       "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 490,
+      "appearances": 2,
+      "total_today_stars": 975,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
@@ -56,9 +56,9 @@
       "html_url": "https://github.com/heygen-com/hyperframes"
     },
     "tester-army/e2e": {
-      "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 345,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 1743,
       "language": "TypeScript",
       "description": "Next generation e2e testing framework for web and mobile apps.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/252887899?v=4",
@@ -66,8 +66,8 @@
     },
     "anthropics/claude-code": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 337,
+      "appearances": 2,
+      "total_today_stars": 465,
       "language": "TypeScript",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -75,8 +75,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 336,
+      "appearances": 2,
+      "total_today_stars": 736,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -93,8 +93,8 @@
     },
     "zerx-lab/FluxDown": {
       "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 299,
+      "appearances": 2,
+      "total_today_stars": 451,
       "language": "Rust",
       "description": "Rust 驱动的多协议下载管理器，支持 HTTP/FTP/BitTorrent 磁力链接及 HLS/DASH 流媒体，智能多线程加速与浏览器无缝集成。精美界面，极致性能，永久免费，零广告。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/161401688?v=4",
@@ -129,8 +129,8 @@
     },
     "michael-denyer/pstack-claude": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 232,
+      "appearances": 2,
+      "total_today_stars": 455,
       "language": "JavaScript",
       "description": "Claude Code, Codex, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/97485362?v=4",
@@ -147,17 +147,17 @@
     },
     "p-e-w/heretic": {
       "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 171,
+      "appearances": 2,
+      "total_today_stars": 288,
       "language": "Python",
       "description": "Fully automatic censorship removal for language models",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2702526?v=4",
       "html_url": "https://github.com/p-e-w/heretic"
     },
     "FalkorDB/FalkorDB": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 164,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 555,
       "language": "Rust",
       "description": "A super fast Graph Database uses GraphBLAS under the hood for its sparse adjacency matrix graph representation. Our goal is to provide the best Knowledge Graph for LLM (GraphRAG).",
       "owner_avatar": "https://avatars.githubusercontent.com/u/140048192?v=4",
@@ -182,9 +182,9 @@
       "html_url": "https://github.com/kanoqwq/UFI-TOOLS"
     },
     "garrytan/gstack": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 125,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 411,
       "language": "TypeScript",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
@@ -225,6 +225,132 @@
       "description": "Collection of publicly available IPTV channels from all over the world",
       "owner_avatar": "https://avatars.githubusercontent.com/u/55937028?v=4",
       "html_url": "https://github.com/iptv-org/iptv"
+    },
+    "boykopovar/AnyPS5": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 997,
+      "language": "C++",
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/184076081?v=4",
+      "html_url": "https://github.com/boykopovar/AnyPS5"
+    },
+    "caddyserver/caddy": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 515,
+      "language": "Go",
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/12955528?v=4",
+      "html_url": "https://github.com/caddyserver/caddy"
+    },
+    "666ghj/MiroFish": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 485,
+      "language": "Python",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/110395318?v=4",
+      "html_url": "https://github.com/666ghj/MiroFish"
+    },
+    "earthtojake/text-to-cad": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 437,
+      "language": "Python",
+      "description": "Give your agent CAD superpowers.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/10742417?v=4",
+      "html_url": "https://github.com/earthtojake/text-to-cad"
+    },
+    "pablostanley/yoinks": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 355,
+      "language": "TypeScript",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/7430988?v=4",
+      "html_url": "https://github.com/pablostanley/yoinks"
+    },
+    "tashfeenahmed/freellmapi": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 321,
+      "language": "TypeScript",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
+      "html_url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    "ruvnet/RuView": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 225,
+      "language": "Rust",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "html_url": "https://github.com/ruvnet/RuView"
+    },
+    "storytold/artcraft": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 222,
+      "language": "Rust",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
+      "html_url": "https://github.com/storytold/artcraft"
+    },
+    "M-Abozaid/esp32-c3-adblock": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 196,
+      "language": "C++",
+      "description": "Pi-hole-class DNS ad-blocker on a $2 ESP32-C3 (no PSRAM): 537k domains as 40-bit FNV-1a hashes in flash, binary-searched. UDP DNS sinkhole + web dashboard. https://youtube.com/shorts/RaxszOUMi8E?feature=share",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/23200283?v=4",
+      "html_url": "https://github.com/M-Abozaid/esp32-c3-adblock"
+    },
+    "linshenkx/prompt-optimizer": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 146,
+      "language": "TypeScript",
+      "description": "An AI prompt optimizer for writing better prompts and getting better AI results.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/32978552?v=4",
+      "html_url": "https://github.com/linshenkx/prompt-optimizer"
+    },
+    "longbridge/gpui-kit": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 141,
+      "language": "Rust",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/68419756?v=4",
+      "html_url": "https://github.com/longbridge/gpui-kit"
+    },
+    "chthollyphile/folia-major": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 134,
+      "language": "TypeScript",
+      "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/30263107?v=4",
+      "html_url": "https://github.com/chthollyphile/folia-major"
+    },
+    "Alishahryar1/free-claude-code": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 120,
+      "language": "Python",
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
+      "html_url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    "laoma528/awesome-zhuiju-free": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 120,
+      "language": "JavaScript",
+      "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/169715751?v=4",
+      "html_url": "https://github.com/laoma528/awesome-zhuiju-free"
     }
   }
 }
