@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-06": {
-      "debpalash/VoiceStudio": 1,
-      "blader/humanizer": 2,
-      "cathrynlavery/diagram-design": 3,
-      "sgl-project/sglang": 4,
-      "magnitudedev/magnitude": 5,
-      "NousResearch/hermes-agent": 6,
-      "anthropics/skills": 7,
-      "humanlayer/skills": 8,
-      "earendil-works/pi": 9,
-      "OpenWhispr/openwhispr": 10,
-      "pbakaus/impeccable": 11,
-      "openai/codex": 12,
-      "bikini/exploitarium": 13,
-      "can1357/oh-my-pi": 14,
-      "addyosmani/agent-skills": 15,
-      "NVIDIA/SkillSpector": 16,
-      "Imbad0202/academic-research-skills": 17,
-      "ruvnet/ruflo": 18,
-      "fmtlib/fmt": 19,
-      "radixark/miles": 20,
-      "k2-fsa/OmniVoice": 21,
-      "iptv-org/iptv": 22,
-      "multica-ai/multica": 23,
-      "sngyai/Sequoia-X": 24,
-      "Wei-Shaw/sub2api": 25
-    },
     "2026-09-07": {
       "blader/humanizer": 1,
       "experientiallabs/experiential": 2,
@@ -836,6 +809,33 @@
       "Alishahryar1/free-claude-code": 23,
       "laoma528/awesome-zhuiju-free": 24,
       "p-e-w/heretic": 25
+    },
+    "2026-10-07": {
+      "morluto/rea": 1,
+      "tester-army/e2e": 2,
+      "boykopovar/AnyPS5": 3,
+      "Panniantong/Agent-Reach": 4,
+      "heygen-com/hyperframes": 5,
+      "earthtojake/text-to-cad": 6,
+      "pbakaus/impeccable": 7,
+      "caddyserver/caddy": 8,
+      "cloudflare/security-audit-skill": 9,
+      "addyosmani/agent-skills": 10,
+      "pingdotgg/t3code": 11,
+      "FalkorDB/FalkorDB": 12,
+      "p-e-w/heretic": 13,
+      "ayghri/i-have-adhd": 14,
+      "Joooook/12306-mcp": 15,
+      "storytold/artcraft": 16,
+      "kanoqwq/UFI-TOOLS": 17,
+      "Stremio/stremio-web": 18,
+      "deepseek-ai/DeepGEMM": 19,
+      "garrytan/gstack": 20,
+      "cursor/plugins": 21,
+      "anthropics/knowledge-work-plugins": 22,
+      "ollama/ollama": 23,
+      "eolix/photosuite": 24,
+      "Autumn-27/ARTEX": 25
     }
   }
 }
