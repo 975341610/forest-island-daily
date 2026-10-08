@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-07": {
-      "blader/humanizer": 1,
-      "experientiallabs/experiential": 2,
-      "cathrynlavery/diagram-design": 3,
-      "magnitudedev/magnitude": 4,
-      "public-apis/public-apis": 5,
-      "NousResearch/hermes-agent": 6,
-      "humanlayer/skills": 7,
-      "BraveOPotato/FckSignups": 8,
-      "AdventDevInc/kudu": 9,
-      "arcboxlabs/arcbox": 10,
-      "WorldFlowAI/everything-claude-code": 11,
-      "ruvnet/ruflo": 12,
-      "browser-use/browser-use": 13,
-      "yt-dlp/yt-dlp": 14,
-      "heygen-com/hyperframes": 15,
-      "donnemartin/system-design-primer": 16,
-      "bikini/exploitarium": 17,
-      "can1357/oh-my-pi": 18,
-      "aipoch/open-science": 19,
-      "The-Swarm-Corporation/AutoHedge": 20,
-      "Comfy-Org/ComfyUI": 21,
-      "nklmilojevic/sofka": 22,
-      "Stremio/stremio-web": 23,
-      "Anil-matcha/Open-Generative-AI": 24,
-      "OpenWhispr/openwhispr": 25
-    },
     "2026-09-08": {
       "blader/humanizer": 1,
       "microsoft/markitdown": 2,
@@ -836,6 +809,33 @@
       "ollama/ollama": 23,
       "eolix/photosuite": 24,
       "Autumn-27/ARTEX": 25
+    },
+    "2026-10-08": {
+      "morluto/rea": 1,
+      "boykopovar/AnyPS5": 2,
+      "storytold/artcraft": 3,
+      "tester-army/e2e": 4,
+      "anthropics/knowledge-work-plugins": 5,
+      "addyosmani/agent-skills": 6,
+      "ayghri/i-have-adhd": 7,
+      "cloudflare/security-audit-skill": 8,
+      "earthtojake/text-to-cad": 9,
+      "superdesigndev/treg": 10,
+      "xerj-org/xerj": 11,
+      "tinyhumansai/openhuman": 12,
+      "pingdotgg/t3code": 13,
+      "Autumn-27/ARTEX": 14,
+      "reconurge/flowsint": 15,
+      "Z4nzu/hackingtool": 16,
+      "smicallef/spiderfoot": 17,
+      "microsoft/markitdown": 18,
+      "anthropics/claude-code": 19,
+      "cursor/plugins": 20,
+      "ollama/ollama": 21,
+      "Joooook/12306-mcp": 22,
+      "caddyserver/caddy": 23,
+      "EpicGames/raddebugger": 24,
+      "kanoqwq/UFI-TOOLS": 25
     }
   }
 }

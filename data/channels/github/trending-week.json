@@ -21,8 +21,8 @@
     },
     "pingdotgg/t3code": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 1339,
+      "appearances": 4,
+      "total_today_stars": 1580,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
@@ -57,8 +57,8 @@
     },
     "tester-army/e2e": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 3468,
+      "appearances": 4,
+      "total_today_stars": 4858,
       "language": "TypeScript",
       "description": "Next generation e2e testing framework for web and mobile apps.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/252887899?v=4",
@@ -66,17 +66,17 @@
     },
     "anthropics/claude-code": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 465,
+      "appearances": 3,
+      "total_today_stars": 628,
       "language": "TypeScript",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
       "html_url": "https://github.com/anthropics/claude-code"
     },
     "addyosmani/agent-skills": {
-      "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 1189,
+      "best_rank": 6,
+      "appearances": 4,
+      "total_today_stars": 1866,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -174,8 +174,8 @@
     },
     "kanoqwq/UFI-TOOLS": {
       "best_rank": 17,
-      "appearances": 2,
-      "total_today_stars": 386,
+      "appearances": 3,
+      "total_today_stars": 472,
       "language": "JavaScript",
       "description": "A functional tools for z*e devices (F50 | U30 Air)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/33284465?v=4",
@@ -209,9 +209,9 @@
       "html_url": "https://github.com/LuxAlgo/Vela"
     },
     "tinyhumansai/openhuman": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 98,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 419,
       "language": "Rust",
       "description": "OpenHuman is the fastest, cheapest, most efficient open-source agent harness. Written in Rust",
       "owner_avatar": "https://avatars.githubusercontent.com/u/246003628?v=4",
@@ -227,9 +227,9 @@
       "html_url": "https://github.com/iptv-org/iptv"
     },
     "boykopovar/AnyPS5": {
-      "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1946,
+      "best_rank": 2,
+      "appearances": 3,
+      "total_today_stars": 4662,
       "language": "C++",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "owner_avatar": "https://avatars.githubusercontent.com/u/184076081?v=4",
@@ -237,8 +237,8 @@
     },
     "caddyserver/caddy": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1081,
+      "appearances": 3,
+      "total_today_stars": 1174,
       "language": "Go",
       "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
       "owner_avatar": "https://avatars.githubusercontent.com/u/12955528?v=4",
@@ -255,8 +255,8 @@
     },
     "earthtojake/text-to-cad": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 1056,
+      "appearances": 3,
+      "total_today_stars": 1503,
       "language": "Python",
       "description": "Give your agent CAD superpowers.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/10742417?v=4",
@@ -290,9 +290,9 @@
       "html_url": "https://github.com/ruvnet/RuView"
     },
     "storytold/artcraft": {
-      "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 524,
+      "best_rank": 3,
+      "appearances": 3,
+      "total_today_stars": 1989,
       "language": "Rust",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
@@ -354,26 +354,26 @@
     },
     "morluto/rea": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 2956,
+      "appearances": 2,
+      "total_today_stars": 7611,
       "language": "TypeScript",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
       "html_url": "https://github.com/morluto/rea"
     },
     "cloudflare/security-audit-skill": {
-      "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 538,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 1114,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
       "html_url": "https://github.com/cloudflare/security-audit-skill"
     },
     "ayghri/i-have-adhd": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 326,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 945,
       "language": "Python",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/32200675?v=4",
@@ -381,8 +381,8 @@
     },
     "Joooook/12306-mcp": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 320,
+      "appearances": 2,
+      "total_today_stars": 414,
       "language": "JavaScript",
       "description": "This is a 12306 ticket search server based on the Model Context Protocol (MCP).",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118427326?v=4",
@@ -407,27 +407,27 @@
       "html_url": "https://github.com/deepseek-ai/DeepGEMM"
     },
     "cursor/plugins": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 154,
+      "best_rank": 20,
+      "appearances": 2,
+      "total_today_stars": 295,
       "language": "TypeScript",
       "description": "Cursor plugin specification and official plugins",
       "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
       "html_url": "https://github.com/cursor/plugins"
     },
     "anthropics/knowledge-work-plugins": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 147,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 913,
       "language": "Python",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
       "html_url": "https://github.com/anthropics/knowledge-work-plugins"
     },
     "ollama/ollama": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 137,
+      "best_rank": 21,
+      "appearances": 2,
+      "total_today_stars": 267,
       "language": "Go",
       "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
@@ -443,13 +443,76 @@
       "html_url": "https://github.com/eolix/photosuite"
     },
     "Autumn-27/ARTEX": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 113,
+      "best_rank": 14,
+      "appearances": 2,
+      "total_today_stars": 349,
       "language": "Go",
       "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53844290?v=4",
       "html_url": "https://github.com/Autumn-27/ARTEX"
+    },
+    "superdesigndev/treg": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 416,
+      "language": "Python",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/217153862?v=4",
+      "html_url": "https://github.com/superdesigndev/treg"
+    },
+    "xerj-org/xerj": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 339,
+      "language": "Rust",
+      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/297525353?v=4",
+      "html_url": "https://github.com/xerj-org/xerj"
+    },
+    "reconurge/flowsint": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 215,
+      "language": "TypeScript",
+      "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/182449807?v=4",
+      "html_url": "https://github.com/reconurge/flowsint"
+    },
+    "Z4nzu/hackingtool": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 213,
+      "language": "Python",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/25708027?v=4",
+      "html_url": "https://github.com/Z4nzu/hackingtool"
+    },
+    "smicallef/spiderfoot": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 193,
+      "language": "Python",
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1687345?v=4",
+      "html_url": "https://github.com/smicallef/spiderfoot"
+    },
+    "microsoft/markitdown": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 188,
+      "language": "Python",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/markitdown"
+    },
+    "EpicGames/raddebugger": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 90,
+      "language": "C",
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6615685?v=4",
+      "html_url": "https://github.com/EpicGames/raddebugger"
     }
   }
 }
