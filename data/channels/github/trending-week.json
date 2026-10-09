@@ -57,8 +57,8 @@
     },
     "tester-army/e2e": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 4858,
+      "appearances": 5,
+      "total_today_stars": 5820,
       "language": "TypeScript",
       "description": "Next generation e2e testing framework for web and mobile apps.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/252887899?v=4",
@@ -75,8 +75,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 6,
-      "appearances": 4,
-      "total_today_stars": 1866,
+      "appearances": 5,
+      "total_today_stars": 2617,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -228,8 +228,8 @@
     },
     "boykopovar/AnyPS5": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 4662,
+      "appearances": 4,
+      "total_today_stars": 9331,
       "language": "C++",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "owner_avatar": "https://avatars.githubusercontent.com/u/184076081?v=4",
@@ -255,8 +255,8 @@
     },
     "earthtojake/text-to-cad": {
       "best_rank": 6,
-      "appearances": 3,
-      "total_today_stars": 1503,
+      "appearances": 4,
+      "total_today_stars": 1662,
       "language": "Python",
       "description": "Give your agent CAD superpowers.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/10742417?v=4",
@@ -272,9 +272,9 @@
       "html_url": "https://github.com/pablostanley/yoinks"
     },
     "tashfeenahmed/freellmapi": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 321,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 839,
       "language": "TypeScript",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -291,8 +291,8 @@
     },
     "storytold/artcraft": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 1989,
+      "appearances": 4,
+      "total_today_stars": 4092,
       "language": "Rust",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
@@ -354,17 +354,17 @@
     },
     "morluto/rea": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 7611,
+      "appearances": 3,
+      "total_today_stars": 15349,
       "language": "TypeScript",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
       "html_url": "https://github.com/morluto/rea"
     },
     "cloudflare/security-audit-skill": {
-      "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 1114,
+      "best_rank": 7,
+      "appearances": 3,
+      "total_today_stars": 1822,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -417,17 +417,17 @@
     },
     "anthropics/knowledge-work-plugins": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 913,
+      "appearances": 3,
+      "total_today_stars": 1305,
       "language": "Python",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
       "html_url": "https://github.com/anthropics/knowledge-work-plugins"
     },
     "ollama/ollama": {
-      "best_rank": 21,
-      "appearances": 2,
-      "total_today_stars": 267,
+      "best_rank": 17,
+      "appearances": 3,
+      "total_today_stars": 395,
       "language": "Go",
       "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
@@ -453,8 +453,8 @@
     },
     "superdesigndev/treg": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 416,
+      "appearances": 2,
+      "total_today_stars": 535,
       "language": "Python",
       "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
       "owner_avatar": "https://avatars.githubusercontent.com/u/217153862?v=4",
@@ -471,8 +471,8 @@
     },
     "reconurge/flowsint": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 215,
+      "appearances": 2,
+      "total_today_stars": 284,
       "language": "TypeScript",
       "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/182449807?v=4",
@@ -489,8 +489,8 @@
     },
     "smicallef/spiderfoot": {
       "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 193,
+      "appearances": 2,
+      "total_today_stars": 281,
       "language": "Python",
       "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1687345?v=4",
@@ -506,13 +506,112 @@
       "html_url": "https://github.com/microsoft/markitdown"
     },
     "EpicGames/raddebugger": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 90,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 369,
       "language": "C",
       "description": "A native, user-mode, multi-process, graphical debugger.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6615685?v=4",
       "html_url": "https://github.com/EpicGames/raddebugger"
+    },
+    "docker/docker-agent": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 766,
+      "language": "Go",
+      "description": "AI Agent Builder and Runtime by Docker Engineering",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5429470?v=4",
+      "html_url": "https://github.com/docker/docker-agent"
+    },
+    "liquidslr/system-design-notes": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 393,
+      "language": null,
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/26876811?v=4",
+      "html_url": "https://github.com/liquidslr/system-design-notes"
+    },
+    "DmNote-App/DmNote": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 263,
+      "language": "TypeScript",
+      "description": "Make it yours. A customizable key viewer for DJMAX RESPECT V and any game.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/245084610?v=4",
+      "html_url": "https://github.com/DmNote-App/DmNote"
+    },
+    "Vincentwei1021/video-shotcraft": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 241,
+      "language": "TypeScript",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/18239147?v=4",
+      "html_url": "https://github.com/Vincentwei1021/video-shotcraft"
+    },
+    "IAmTomShaw/f1-race-replay": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 148,
+      "language": "Python",
+      "description": "An interactive Formula 1 race visualisation and data analysis tool built with Python! 🏎️",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/73386292?v=4",
+      "html_url": "https://github.com/IAmTomShaw/f1-race-replay"
+    },
+    "microsoft/mxc": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 135,
+      "language": "Rust",
+      "description": "Policy-driven, layered isolation and containment ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/mxc"
+    },
+    "akitaonrails/ai-memory": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 123,
+      "language": "Rust",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2840?v=4",
+      "html_url": "https://github.com/akitaonrails/ai-memory"
+    },
+    "martin-olivier/airgorah": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 101,
+      "language": "Rust",
+      "description": "A WiFi security auditing software",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/58467105?v=4",
+      "html_url": "https://github.com/martin-olivier/airgorah"
+    },
+    "koala73/worldmonitor": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 89,
+      "language": "TypeScript",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/996596?v=4",
+      "html_url": "https://github.com/koala73/worldmonitor"
+    },
+    "Tracer-Cloud/opensre": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 81,
+      "language": "Python",
+      "description": "Build your own AI SRE agents. The open source toolkit for the AI era.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/196393879?v=4",
+      "html_url": "https://github.com/Tracer-Cloud/opensre"
+    },
+    "tabler/tabler-icons": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 69,
+      "language": "JavaScript",
+      "description": "A set of over 6200 free MIT-licensed high-quality SVG icons for you to use in your web projects.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/35471246?v=4",
+      "html_url": "https://github.com/tabler/tabler-icons"
     }
   }
 }
