@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-10",
+  "generated_at": "2026-10-10T00:00:00+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Hacker News",
+      "author": "Ryan Dahl / Cloudflare",
+      "title": "Deno Is Joining Cloudflare",
+      "url": "https://news.ycombinator.com/item?id=50019911",
+      "summary": "Node.js 之父 Ryan Dahl 宣布 Deno 团队并入 Cloudflare，Deno Deploy 将在 6 个月内下线并迁移到 Workers，Deno runtime 仅再维护一年。JSR 由 Cloudflare 接手。社区 515 分 275 条评论，讨论聚焦于 Workers + Durable Objects 对 Agent 架构的意义，被认为是今年 JS 运行时领域最大的并购。",
+      "engagement": "515 分 / 275 条评论",
+      "tags": [
+        "Cloudflare",
+        "Deno",
+        "Runtime",
+        "Agent"
+      ]
+    },
+    {
+      "platform": "Hacker News",
+      "author": "Bryan Cantrill / Steve Tuck",
+      "title": "Oxide 完成 4.45 亿美元 D 轮，构建企业自有云",
+      "url": "https://news.ycombinator.com/item?id=50020014",
+      "summary": "Oxide Computer 宣布 4.45 亿美元 D 轮由 Eclipse 领投，AMD Ventures、Atreides 新进入。公司今年已盈利并缴纳所得税，这轮融资用于扩充产能应对 20 倍增长的订单积压。帖子强调卖整机架让企业真正拥有自己的云。社区 278 分 94 条评论，被当作对公有云垄断的硬件反击。",
+      "engagement": "278 分 / 94 条评论",
+      "tags": [
+        "硬件",
+        "融资",
+        "基础设施",
+        "AMD"
+      ]
+    },
+    {
+      "platform": "Hacker News",
+      "author": "franzenzenhofer",
+      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
+      "url": "https://news.ycombinator.com/item?id=50018817",
+      "summary": "开发者 Franz Enzenhofer 开源 big-arrow-on-the-screen，一个让 Claude Code / Codex 等 Agent 在 Mac 屏幕上画大箭头、方框和文字的 CLI 技能，可点击穿透、自动消失。仓库 24 小时内 GitHub 冲上 366 Star，被誉为 Agent 时代的屏幕可视指引新范式。社区 235 分 94 条评论。",
+      "engagement": "235 分 / 94 条评论 / 366 Star",
+      "tags": [
+        "Agent",
+        "工具",
+        "开源",
+        "Claude Code"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "title": "PewDiePie 的 Ajax 本地模型让他被 OpenAI 封号两次",
+      "summary": "YouTuber Felix Kjellberg（PewDiePie）10 月 2 日发布基于 Qwen3.5-9B 微调的本地模型 Ajax，部署在自建 Odysseus 工作空间。因使用 OpenAI 输出做蒸馏数据被官方封号两次。事件在 10 日仍是 LocalLLaMA 与 HN 热门话题，社区戏称 PewDiePie 都成了独立 AI 开发者，象征本地推理与大厂 ToS 的直接冲突。",
+      "url": "https://www.reddit.com/r/LocalLLaMA/",
+      "tags": [
+        "LocalLLM",
+        "OpenAI",
+        "创作者",
+        "合规"
+      ],
+      "heat": "LocalLLaMA 子板块主帖 / 多家科技媒体跟进"
+    },
+    {
+      "title": "DeepSeek V4.1 Flash 为何没让业界恐慌？",
+      "summary": "博客文章 Why isn't the industry freaking out about DeepSeek 4.1 Flash 在 HN 停留多日仍居高位，941 分 861 评论。社区热议 V4.1 Flash 的 552B 骨干 + 196B Engram 结构，Agentic Coding 任务上甚至击败 GPT-5.6 Sol 与 Kimi K3。本地推理党吐槽 510GB 磁盘体积不再适合家用。",
+      "url": "https://news.ycombinator.com/item?id=50000488",
+      "tags": [
+        "DeepSeek",
+        "开源模型",
+        "Agentic Coding"
+      ],
+      "heat": "HN 941 分 / 861 评论"
+    },
+    {
+      "title": "Anthropic 新政：禁止用户虐待 Claude，违规封号",
+      "summary": "Anthropic 更新使用政策，自 11 月 12 日起禁止用户对 AI 模型实施持续且无谓的辱骂或残忍行为，违规面临限流至封号。10 日国内外媒体与 HN 继续发酵，社区分歧为 AI 伦理边界与用户体验侵蚀两派。被视为模型福利 model welfare 概念首次写入商业条款。",
+      "url": "https://k.sina.com.cn/article_7857201856_1d45362c001908qfvm.html",
+      "tags": [
+        "AI伦理",
+        "Anthropic",
+        "Claude",
+        "政策"
+      ],
+      "heat": "新浪/财联社/HN 并列热点"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Franz Enzenhofer",
+      "platform": "GitHub / X",
+      "url": "https://github.com/franzenzenhofer",
+      "summary": "维也纳独立开发者，近期代表作 big-arrow-on-the-screen 让 AI Agent 在 Mac 屏幕画箭头与标注，上线即冲上 HN 首页与 GitHub Trending。擅长把 Claude Code / Codex 的 Agent Skill 做成可点击穿透的桌面原生工具，产出节奏极快，10 月 9 日单天发布 v0.4.5 并连续合并 PR。",
+      "focus": "AI Agent 工具 / Claude Code Skill / 桌面可视化"
+    },
+    {
+      "name": "Ryan Dahl",
+      "platform": "Cloudflare Blog / X",
+      "url": "https://blog.cloudflare.com/author/ryan-dahl/",
+      "summary": "Node.js 与 Deno 的创造者，10 月 9 日官宣 Deno 并入 Cloudflare 并领衔 celld 项目，统一 Workers、Durable Objects 的分布式编程模型。他把 Durable Objects 定位为 Agent harness 的理想底座，这一叙事直接推高 HN 讨论，使其重回 JS 运行时与 Agent 基础设施的 C 位。",
+      "focus": "JS Runtime / Cloudflare Workers / Agent 基础设施"
+    },
+    {
+      "name": "Bryan Cantrill",
+      "platform": "Oxide Blog / X",
+      "url": "https://oxide.computer/blog/our-445m-series-d",
+      "summary": "Oxide Computer 联合创始人兼 CTO，10 月 9 日联署发文宣布 4.45 亿美元 D 轮并透露公司已盈利缴税。他长期在 X 与自己博客倡导企业自有云、Rust 系统编程与 illumos 复兴，是硬件创业圈最具辨识度的技术布道者，本轮融资使其言论再次成为开发者与投资人双向关注焦点。",
+      "focus": "系统软件 / Rust / 硬件创业 / 自有云"
+    }
+  ]
+}
