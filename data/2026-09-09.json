@@ -51,16 +51,17 @@
     "id": "2026-09-09_vibecoding_2",
     "date": "2026-09-09",
     "category": "VibeCoding",
-    "subcat": "GitHub Trending",
+    "subcat": "AI编程/Agent Skill",
     "platform": "GitHub",
     "platform_color": "#F6A07C",
-    "title": "编辑级绘图技能diagram-design刷屏",
+    "title": "Diagram Design 爆火:让AI画编辑风格图",
     "url": "https://github.com/cathrynlavery/diagram-design",
-    "image": "images/2026-09-09/2026-09-09_vibecoding_2.jpg",
+    "image": "images/2026-10-10/2026-10-10_vibe_2.jpg",
     "detail": [
-      "由BestSelf.co创始人Cathryn Lavery开发的开源项目diagram-design在9月8日强势登上GitHub每日热榜,当日新增约1020颗Star,总星标已冲到约3.48万,分叉2.2千,采用MIT协议,主体由HTML+SVG构成,累计提交148次。它是一套面向AI编程助手的“编辑级绘图技能”,口号直白:“Editorial diagrams your designer won't hate.”——让Claude Code、Codex、Factory Droid、Pi等兼容Agent Skills的宿主一句话生成杂志质感的架构图、流程图、时序图、象限图等图表,拒绝“圆角方块”和“Mermaid slop”。作者称当初每次向Claude要图都得到千篇一律的通用样式,于是把它做成了技能。",
-      "项目当天恰逢v2.5.10版本发布,一口气新增Sankey、鱼骨图、Wardley地图、看板、用户旅程、部署图、依赖图、UML类图、故事地图与数据库schema共10种布局语法,图表类型累计达到39种,每种都提供极简亮色、极简暗色与完整编辑三种静态变体,可直接在浏览器离线打开,零构建步骤、无JavaScript依赖。技术上它主打“品牌自适应”:只需一句“onboard到我的网站”,技能便会抓取主页配色与字体栈,映射到paper/ink/accent等语义令牌,60秒内让全部图表匹配品牌,并自动做WCAG AA对比度校验、给每张SVG注入无障碍标题与描述。项目还内置严格的CI门禁,用无头Chromium按真实渲染像素检测裁切、几何标签重叠、Treemap面积编码是否与数值一致,并把设计决策沉淀为ADR。",
-      "这类“把设计规范封装成技能”的开源实践,连同同期热榜上的marketingskills、i-have-adhd等,折射出AI编程Agent生态正从“写代码”向“出高质量交付物”纵深扩展。"
+      "cathrynlavery/diagram-design 今日入榜 GitHub Trending 第四位,单日 +1,739 stars,累计 Star 47.8k,Fork 3k。这是一款面向 Claude Code、Codex、GitHub Copilot、Factory Droid、Pi、Cursor 等 Agent Skill 宿主的\"编辑级制图\"skill,核心主张只有一句:让 AI 画出的架构图、流程图、象限图不再是千篇一律的 Mermaid 圆角盒子,而是和你博客、Keynote 同款气质的 editorial 风格。",
+      "技术上做了 3 件硬核事情:一是把设计规范\"写死\"进 skill——1px 发丝线、无阴影、4px 网格对齐、强调色只允许用在 1-2 个最关键节点,CI 会自动检查重叠和裁剪;二是支持 44 种图表(架构图、ER、Swimlane、Wardley Map、Sankey、Fishbone、Gantt、轴测图等),每种有 minimal light/dark 与 full-editorial 三套变体,输出一个自包含 HTML+SVG 文件,双击即可打开;三是品牌化 onboarding——给它一个官网 URL,会自动抓取主色、字体并写入 style-guide.md,后续所有图自动匹配品牌。",
+      "社区热度来自开发者对\"AI 制图审美\"的集体不满:Reddit 和 X 上多条帖子对比了同一 Prompt 下 Mermaid vs Diagram Design 的产出,前者是通用模板后者是编辑级完稿。它同时支持从 draw.io/Mermaid/Excalidraw 导入并\"重绘\",提供 doc-inline、slide-16x9、social-og、print-a4 等多种 viewBox 预设,并自带 WCAG AA 对比度校验,无障碍属性(role/aria-labelledby/title/desc)全部内置。",
+      "作者 Cathryn Lavery 来自 LittleMight,通过 `npx skills add cathrynlavery/diagram-design` 一键安装到任意 Agent Skills 宿主,也提供 Claude Code、Codex、Copilot、Factory Droid 的 marketplace plugin 包。MIT 协议,21 个 open issue、61 个 PR,代表了 Agent Skills 生态从\"写文档\"迈向\"品牌级产出\"的一次标杆实践。"
     ]
   },
   {

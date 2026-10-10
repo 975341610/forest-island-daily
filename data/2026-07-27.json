@@ -37,17 +37,17 @@
     "id": "2026-07-27_vibecoding_2",
     "date": "2026-07-27",
     "category": "VibeCoding",
-    "subcat": "开源框架",
+    "subcat": "AI编程/代码审查",
     "platform": "GitHub",
-    "platform_color": "#2563EB",
-    "title": "阿里开源open-code-review登顶趋势榜",
+    "platform_color": "#F6A07C",
+    "title": "阿里开源 Open Code Review CLI",
     "url": "https://github.com/alibaba/open-code-review",
-    "image": "images/2026-07-27/2026-07-27_vibecoding_2.jpg",
+    "image": "images/2026-10-10/2026-10-10_vibe_3.jpg",
     "detail": [
-      "阿里巴巴开源的 AI 代码评审工具 open-code-review 今日强势登上 GitHub Trending,当日新增数百 star,总量已冲到约 1.38 万、fork 逾 900。据官方介绍,它脱胎于阿里集团内部官方的 AI 代码评审助手,过去两年服务了数万名开发者、识别出数百万个代码缺陷,经过超大规模实战验证后才被孵化成面向社区的开源项目,可谓「大厂内部工具外放」的又一典型案例。",
-      "技术上,open-code-review 采用「确定性流水线 + LLM Agent」的混合架构:它读取 Git diff,把变更文件交给具备工具调用能力的 Agent,Agent 能读取完整文件内容、检索代码库、参照其他改动文件,从而给出行级精确的评审意见,而非停留在 diff 表面。项目用 Go 编写,内置针对 NPE、线程安全、XSS、SQL 注入等的微调规则集,并兼容 OpenAI 与 Anthropic 接口。",
-      "该工具提供 CLI、VS Code 扩展、GitHub Action、Claude Code 插件等多种接入方式,还支持全库扫描而不止于增量评审,README 更覆盖中英日韩俄五种语言,显示出冲击国际开源社区的野心。对于希望在合并前用 AI 兜底质量、又担心通用大模型评审「泛泛而谈」的团队,内置精调规则集是它区别于同类工具的关键卖点。",
-      "在 AI 代码评审赛道日益拥挤的当下,阿里选择以 Apache-2.0 协议、免费且经过集团级规模打磨的姿态入场,迅速吸引了大量开发者围观与试用。它也反映出国内大厂近期密集把内部 AI 工程工具开源、争夺开发者心智的趋势。"
+      "阿里巴巴在 10 月 10 日把内部服役两年的 AI 代码审查工具 Open Code Review(OCR)正式开源,今日 Trending 单日 +326 stars,目前累计 45.2k Star、3.3k Fork,采用 Apache-2.0 协议。官方说法是\"累计服务数万工程师、识别数百万缺陷\",上线 GitHub 首日就被社区当成\"中国版 Greptile+Qodo\"围观。",
+      "架构上 OCR 走的是\"确定性工程 × LLM Agent\"混合路线:精确文件选择、智能文件打包(例如把 message_en/zh.properties 自动打成一个 bundle 并并发审查)、细粒度规则匹配、外置定位与反思模块全部由工程代码处理,保证 review 流程不漂移;Agent 则专注动态决策和上下文检索。这样设计直接解决了 Claude Code 用 Skill 做 review 常见的三大痛点:大 changeset 漏文件、行号漂移、相同 prompt 产出不稳定。",
+      "官方放出的 AACR-Bench 由 50 个热门开源项目、200 个真实 PR、10 种语言、1,505 条人工标注缺陷组成,80+ 资深工程师交叉验证。基准结果显示 OCR 在同底座模型下 F1 与 Precision 均显著高于通用 Agent,平均 token 消耗仅为 Claude Code 的约 1/9,代价是 Recall 略低——官方说这是\"宁缺勿滥\"的刻意取舍,因为 CR 场景里 false alarm 的审查成本远高于漏报。",
+      "工程侧亮点:Go 语言 CLI,`npm install -g @alibaba-group/open-code-review` 全局安装 `ocr` 命令,支持 workspace / branch range / 单 commit / 全库 scan 四种模式,内置 NPE、线程安全、XSS、SQL 注入等多语言规则集,兼容 OpenAI、Anthropic、Claude Code、Codex、Cursor、Kimi Code、OpenCode 等 host 的插件接入,并提供 Delegation Mode——不用自带 LLM key,让宿主 Agent 自己掏钱跑审查。GitHub Actions、GitLab CI、Gerrit 的集成模板已随仓一起开源。"
     ]
   },
   {
