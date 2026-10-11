@@ -66,8 +66,8 @@
     },
     "anthropics/claude-code": {
       "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 628,
+      "appearances": 4,
+      "total_today_stars": 818,
       "language": "TypeScript",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -75,8 +75,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 6,
-      "appearances": 6,
-      "total_today_stars": 3053,
+      "appearances": 7,
+      "total_today_stars": 3692,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -228,8 +228,8 @@
     },
     "boykopovar/AnyPS5": {
       "best_rank": 2,
-      "appearances": 5,
-      "total_today_stars": 15199,
+      "appearances": 6,
+      "total_today_stars": 21004,
       "language": "C++",
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "owner_avatar": "https://avatars.githubusercontent.com/u/184076081?v=4",
@@ -291,8 +291,8 @@
     },
     "storytold/artcraft": {
       "best_rank": 3,
-      "appearances": 5,
-      "total_today_stars": 7844,
+      "appearances": 6,
+      "total_today_stars": 11066,
       "language": "Rust",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
@@ -354,8 +354,8 @@
     },
     "morluto/rea": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 30276,
+      "appearances": 5,
+      "total_today_stars": 56069,
       "language": "TypeScript",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
@@ -417,8 +417,8 @@
     },
     "anthropics/knowledge-work-plugins": {
       "best_rank": 5,
-      "appearances": 4,
-      "total_today_stars": 2014,
+      "appearances": 5,
+      "total_today_stars": 2639,
       "language": "Python",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -543,8 +543,8 @@
     },
     "Vincentwei1021/video-shotcraft": {
       "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 402,
+      "appearances": 3,
+      "total_today_stars": 544,
       "language": "TypeScript",
       "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18239147?v=4",
@@ -561,8 +561,8 @@
     },
     "microsoft/mxc": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 804,
+      "appearances": 3,
+      "total_today_stars": 1110,
       "language": "Rust",
       "description": "Policy-driven, layered isolation and containment ",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -615,8 +615,8 @@
     },
     "tt-a1i/archify": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 1358,
+      "appearances": 2,
+      "total_today_stars": 1891,
       "language": "JavaScript",
       "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
@@ -624,17 +624,17 @@
     },
     "hugohe3/ppt-master": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 372,
+      "appearances": 2,
+      "total_today_stars": 833,
       "language": "Python",
       "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
       "owner_avatar": "https://avatars.githubusercontent.com/u/188330578?v=4",
       "html_url": "https://github.com/hugohe3/ppt-master"
     },
     "alibaba/open-code-review": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 326,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1202,
       "language": "Go",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -660,8 +660,8 @@
     },
     "Tencent/WeKnora": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 217,
+      "appearances": 2,
+      "total_today_stars": 433,
       "language": "Go",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -678,8 +678,8 @@
     },
     "datawhalechina/hello-agents": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 205,
+      "appearances": 2,
+      "total_today_stars": 416,
       "language": "Python",
       "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
       "owner_avatar": "https://avatars.githubusercontent.com/u/46047812?v=4",
@@ -704,9 +704,9 @@
       "html_url": "https://github.com/Tencent-Hunyuan/Hy-MT2"
     },
     "Robbyant/lingbot-map": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 110,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 472,
       "language": "Python",
       "description": "[ECCV 2026 Best Paper Award Candidate] LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction",
       "owner_avatar": "https://avatars.githubusercontent.com/u/212647524?v=4",
@@ -722,9 +722,9 @@
       "html_url": "https://github.com/headroomlabs-ai/headroom"
     },
     "QuantumNous/new-api": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 102,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 237,
       "language": "Go",
       "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/205075698?v=4",
@@ -740,13 +740,94 @@
       "html_url": "https://github.com/multica-ai/multica"
     },
     "Wei-Shaw/sub2api": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 89,
+      "best_rank": 23,
+      "appearances": 2,
+      "total_today_stars": 177,
       "language": "Go",
       "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/26101719?v=4",
       "html_url": "https://github.com/Wei-Shaw/sub2api"
+    },
+    "debpalash/VoiceStudio": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 1065,
+      "language": "Python",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4178343?v=4",
+      "html_url": "https://github.com/debpalash/VoiceStudio"
+    },
+    "remotion-dev/remotion": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 283,
+      "language": "TypeScript",
+      "description": "🎥      Make videos programmatically with React",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85344006?v=4",
+      "html_url": "https://github.com/remotion-dev/remotion"
+    },
+    "multica-ai/andrej-karpathy-skills": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 278,
+      "language": null,
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    "microsoft/TRELLIS.2": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 202,
+      "language": "Python",
+      "description": "Native and Compact Structured Latents for 3D Generation",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/TRELLIS.2"
+    },
+    "huggingface/transformers": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 96,
+      "language": "Python",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/25720743?v=4",
+      "html_url": "https://github.com/huggingface/transformers"
+    },
+    "immich-app/immich": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 95,
+      "language": "TypeScript",
+      "description": "High performance self-hosted photo and video management solution.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/109746326?v=4",
+      "html_url": "https://github.com/immich-app/immich"
+    },
+    "flutter/flutter": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 88,
+      "language": "Dart",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14101776?v=4",
+      "html_url": "https://github.com/flutter/flutter"
+    },
+    "pytorch/pytorch": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 84,
+      "language": "Python",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/21003710?v=4",
+      "html_url": "https://github.com/pytorch/pytorch"
+    },
+    "BitterSecurity/Decepticon": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 81,
+      "language": "Python",
+      "description": "Autonomous Hacking Agent for Red Team",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/211282590?v=4",
+      "html_url": "https://github.com/BitterSecurity/Decepticon"
     }
   }
 }
