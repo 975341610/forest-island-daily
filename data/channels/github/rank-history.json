@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-11": {
-      "ayghri/i-have-adhd": 1,
-      "bilawalsidhu/gods-eye-view": 2,
-      "cathrynlavery/diagram-design": 3,
-      "freestylefly/awesome-gpt-image-2": 4,
-      "liquidslr/system-design-notes": 5,
-      "Tencent/teamai-cli": 6,
-      "THU-MAIC/OpenMAIC": 7,
-      "TauricResearch/TradingAgents": 8,
-      "vastsa/PI-Desktop": 9,
-      "heygen-com/hyperframes": 10,
-      "superplanehq/superplane": 11,
-      "openai/codex": 12,
-      "alsk1992/CloddsBot": 13,
-      "datawhalechina/hello-agents": 14,
-      "openai/plugins": 15,
-      "t8y2/dbx": 16,
-      "akitaonrails/ai-memory": 17,
-      "alphaXiv/OpenResearch": 18,
-      "decolua/9router": 19,
-      "Wei-Shaw/sub2api": 20,
-      "citrolabs/ego-lite": 21,
-      "nashsu/llm_wiki": 22,
-      "jamiepine/voicebox": 23,
-      "cursor/plugins": 24,
-      "vercel-labs/skills": 25
-    },
     "2026-09-12": {
       "bilawalsidhu/gods-eye-view": 1,
       "ayghri/i-have-adhd": 2,
@@ -836,6 +809,33 @@
       "Wei-Shaw/sub2api": 23,
       "pytorch/pytorch": 24,
       "BitterSecurity/Decepticon": 25
+    },
+    "2026-10-12": {
+      "morluto/rea": 1,
+      "boykopovar/AnyPS5": 2,
+      "storytold/artcraft": 3,
+      "debpalash/VoiceStudio": 4,
+      "hugohe3/ppt-master": 5,
+      "bilawalsidhu/gods-eye-view": 6,
+      "chthollyphile/folia-major": 7,
+      "Alishahryar1/free-claude-code": 8,
+      "huggingface/transformers": 9,
+      "anthropics/knowledge-work-plugins": 10,
+      "pytorch/pytorch": 11,
+      "alibaba/open-code-review": 12,
+      "CopilotKit/OpenIntelligentUI": 13,
+      "Shubhamsaboo/awesome-llm-apps": 14,
+      "HunxByts/GhostTrack": 15,
+      "agalwood/Motrix": 16,
+      "Tencent/WeKnora": 17,
+      "XiaoYouChR/Ghost-Downloader-3": 18,
+      "datawhalechina/hello-agents": 19,
+      "microsoft/TRELLIS.2": 20,
+      "denoland/celld": 21,
+      "langgenius/dify": 22,
+      "Wei-Shaw/sub2api": 23,
+      "QuantumNous/new-api": 24,
+      "multica-ai/multica": 25
     }
   }
 }
