@@ -1,0 +1,258 @@
+[
+  {
+    "id": "2026-10-12_vibe_4",
+    "date": "2026-10-12",
+    "category": "VibeCoding",
+    "subcat": "开源动态",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "HashiCorp Boundary 社区版正式归档",
+    "url": "https://github.com/hashicorp/boundary/pull/6788",
+    "image": "images/2026-10-12/2026-10-12_vibe_4.jpg",
+    "detail": [
+      "HashiCorp 10 月 9 日合并的 PR #6788 把 Boundary 社区版仓库彻底归档,10 月 11 日对外公告落地。README 顶部换成大号警示条:仓库进入只读状态,未来所有身份代理、会话录制、动态凭证的更新都只会出现在 HCP Boundary 托管服务与 Boundary Enterprise 中。这是继 Terraform、Vault BUSL 事件后,HashiCorp 对 CE 产品线又一次收紧。",
+      "PR 评论区里项目维护者解释,过去 12 个月社区版的外部贡献只占提交量的 3%,但维护两条分支的测试成本却持续攀升。归档后 OpenBao 风格的分叉 OpenBoundary 几乎同步诞生,社区在 Reddit r/devops 发帖号召把现有 Boundary 0.21 的功能冻结在 Apache-2.0 下继续迭代,目前 star 已经破千。",
+      "对正在使用 Boundary CE 做零信任堡垒机的团队而言,这次归档意味着下一次 CVE 修复可能无人认领。多位 SRE 在 Hacker News 上建议要么迁到 Teleport、Pomerium 等替代品,要么直接评估 HCP Boundary 的订阅成本。IBM 收购 HashiCorp 收尾阶段频繁调整开源策略,也让\"CE 版本能不能长期信任\"再度成为 DevOps 圈的热议话题。"
+    ]
+  },
+  {
+    "id": "2026-10-12_vibe_3",
+    "date": "2026-10-12",
+    "category": "VibeCoding",
+    "subcat": "AI 编码",
+    "platform": "官方博客",
+    "platform_color": "#F6A07C",
+    "title": "LlamaIndex 发布 OpenDocRouter 文档解析路由",
+    "url": "https://www.llamaindex.ai/blog/introducing-opendocrouter",
+    "image": "images/2026-10-12/2026-10-12_vibe_3.jpg",
+    "detail": [
+      "LlamaIndex 10 月 11 日晚更新官方博客,正式开源 OpenDocRouter。这是一款面向 RAG 场景的文档解析路由层:同一份 PDF、PPT、扫描件会先被元数据嗅探器打上标签,再按版式、语言、公式密度路由到最合适的解析引擎,输出统一的 Markdown + 结构化 JSON,目标是终结开发者在十几个 OCR / Parser 之间手动试错的噩梦。",
+      "官方给出的基准 ParseBench 里,OpenDocRouter 组合了 Claude Opus 5.5、Gemini 3 Flash、GPT-6 Luna、MinerU2.5-Pro、PaddleOCR-VL-1.6 等五路选手,整体端到端准确率比单模型冠军 Gemini 3 Flash 还高 6.4 分,而每千页成本只有后者的 42%。博客还披露路由决策模型只有 180M 参数,在 CPU 上就能跑,方便塞进现有 ingestion pipeline。",
+      "社区反馈集中在两点:一是终于不用自己维护\"扫描件走 OCR、原生 PDF 走 pdfplumber\"的 if-else 丛林,二是 ParseBench 的样本集同步开放,涵盖学术论文、财报、合同、化学图表等 8 大类共 2 万份文档。LlamaIndex CEO Jerry Liu 在 X 上回复称下一步会把 OpenDocRouter 接入 LlamaCloud,并支持企业私有引擎注册,让金融、医药公司可以把自家 OCR 一并纳入竞标。"
+    ]
+  },
+  {
+    "id": "2026-10-12_vibe_2",
+    "date": "2026-10-12",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "HackerNews",
+    "platform_color": "#F6A07C",
+    "title": "OVI-Code:键盘流终端 AI 编码代理",
+    "url": "https://github.com/Ovicorps/ovi-code",
+    "image": "images/2026-10-12/2026-10-12_vibe_2.jpg",
+    "detail": [
+      "10 月 12 日凌晨另一个 Show HN 热门项目是 Ovicorps/ovi-code,一位德国独立开发者把 Claude Code、Codex 这类命令行代理做成了纯 FTXUI 文字界面,鼠标完全没有存在感。启动后左侧是文件树,中间是实时 diff,右侧挂着 token 消耗与工具调用日志,所有操作都靠 Vim 风格快捷键,目标是让习惯 tmux + Neovim 的老派开发者第一天就能顺手。",
+      "作者在 README 里强调 OVI-Code 并不绑定模型供应商:同一份 config.toml 里可以混挂 OpenRouter、OpenAI、Anthropic 和 xAI 的 Key,按任务复杂度自动在 Haiku、GPT-6 mini、Grok-5 之间切换,省钱的同时也避开单点失败。工具侧内置 Rust、Go、Node 的测试代理,跑 cargo test 失败后会把 stderr 回喂模型自动修复,比起网页版代理延迟低不少。",
+      "HN 评论几乎一边倒夸\"终于有人把 TUI 做对了\",但也有人质疑 FTXUI 在 Windows Terminal 下渲染偶尔错位,作者回复下一个版本会提供 ratatui 后端。还有读者关心上下文窗口压缩策略,ovi-code 采取的是\"分文件摘要 + 工具调用级裁剪\",长会话情况下比简单截断省 30% token,源码里对应的 context_compactor.rs 已经成为仓库里的学习热门文件。"
+    ]
+  },
+  {
+    "id": "2026-10-12_vibe_1",
+    "date": "2026-10-12",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "HackerNews",
+    "platform_color": "#F6A07C",
+    "title": "Plimsoll:AI 代码代理专用沙箱",
+    "url": "https://github.com/plimsollmark/plimsoll",
+    "image": "images/2026-10-12/2026-10-12_vibe_1.jpg",
+    "detail": [
+      "10 月 12 日凌晨 Show HN 版面涌出一个专给 AI 编码代理用的隔离运行时 Plimsoll,仓库 plimsollmark/plimsoll 在数小时内收割上千 star。作者直言 Claude Code、Cursor 这类工具生成的脚本越来越敢动真格,直接 rm -rf 或者偷读 .env 的事故开始出现,于是他把 Firecracker、gVisor 和 WebAssembly 这三种主流隔离方案打包成统一入口,一行命令就能把代理丢进锁死的 microVM 里跑。",
+      "新发布的 v0.21.0 版本把启动时延压到亚秒级,支持按工具粒度授予 FS、网络、系统调用白名单,配合 Trigger.dev 的任务队列可以同时跑上百个代理分身。README 里演示了拦截恶意写入、强制只读挂载源码、把输出通过 stdout JSON 回传给宿主的典型用法,CI 场景下再配 ephemeral token 就能把 agent 彻底关在笼子里。协议为 Apache-2.0,官方已经预告下一步要接入 OpenTelemetry 做审计日志。",
+      "评论区讨论热度很高,有人把它和 E2B、Daytona 做对比,认为 Plimsoll 胜在\"自己选内核\"而不绑在某家云上;也有安全从业者提醒 Firecracker 内核逃逸的历史不是零,建议在金融级场景再加一层 seccomp。作者本人在帖子里回复会补齐 macOS 后端,并公开一份针对 Claude Code hooks 的接入指南,算是把 AI 原生 DevSecOps 的坑先占住了。"
+    ]
+  },
+  {
+    "id": "2026-10-12_game_6",
+    "date": "2026-10-12",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "PC",
+    "platform_color": "#7CF6A0",
+    "title": "《42中队》Steam页面上线 2027Q2发售定锤",
+    "url": "https://monstervine.com/2026/10/squadron-42-opens-steam-wishlisting-targets-q2-2027-release/",
+    "image": "images/2026-10-12/2026-10-12_game_6.jpg",
+    "detail": [
+      "Cloud Imperium Games于10月10日晚至11日,正式为《星际公民》单人衍生作《Squadron 42(42中队)》开通Steam页面并开放愿望单,同步放出三分钟实机加CG混剪宣传片\"The Oath\",敲定2027年Q2发售窗口,距离2012年立项整整13年,此前曾因11月GTA 6跳过2026年Q4档期。",
+      "游戏设定在2945年,玩家扮演一名加入UEE联合地球帝国海军的新兵,登上旗舰执行太空与地面任务。实机展示座舱空战、潜入、黑客、剧情抉择与舰内社交等玩法,全体演员卡司同步公布:马克·哈米尔、加里·奥德曼、吉莲·安德森与亨利·卡维尔领衔,制作规格直指电影级水准。",
+      "Steam页面披露最低配置16GB内存、150GB安装空间,把老机器挡在门外。星际公民老粉称\"等了12年终于看到Steam图标\",怀疑派则质疑CIG能否在Q2 2027前真正交付。IGN、Eurogamer、Variety齐发报道,普遍态度是\"愿望单在手,实机再见\",首发口碑压力将直接决定项目信誉存亡。"
+    ]
+  },
+  {
+    "id": "2026-10-12_game_5",
+    "date": "2026-10-12",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "单机",
+    "platform_color": "#7CF6A0",
+    "title": "《朧村正怪奇谭》2027年2月4日全平台发售",
+    "url": "https://oboromuramasakaikitan.marv.jp/tc/",
+    "image": "images/2026-10-12/2026-10-12_game_5.jpg",
+    "detail": [
+      "Vanillaware与Marvelous于10月11日前后更新《朧村正怪奇谭》官方站点,正式敲定PS5、Switch 2、Switch与Steam版于2027年2月4日全球同步发售,Steam版由Marvelous USA负责,略晚一天于2月5日上线。本作集结原作《朧村正》与DLC《元禄怪奇谭》,并追加全新打磨要素。",
+      "游戏延续六主角、六段怪谭的结构,登场人物各具截然不同的招式搭配与成长线。官方强调全新2D动作体验在Switch 2与PS5上支持高帧率与更细腻的手绘粒子表现。限定特装版、数字豪华版同步公布,台港区域统一定价1,290-1,690新台币,音效仍由崎元仁领衔Basiscape团队制作。",
+      "消息公布后,国内贴吧、机核、A9VG与日系动作迷在X上集体回忆\"香草社艺术品级2D\"。讨论聚焦Switch 2存档不与初代Switch共享、Switch 2盒装仅为\"钥匙卡\"的新形态,以及是否能借Steam版打开欧美增量市场,社区认为2027年Q1将成为日系2D大作集中档期。"
+    ]
+  },
+  {
+    "id": "2026-10-12_game_4",
+    "date": "2026-10-12",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "Switch 2",
+    "platform_color": "#7CF6A0",
+    "title": "Switch 2 eShop榜 王国之心登顶COD亚军",
+    "url": "https://gonintendo.com/contents/65981-switch-2-eshop-charts-for-oct-11th-2026",
+    "image": "images/2026-10-12/2026-10-12_game_4.jpg",
+    "detail": [
+      "GoNintendo于北京时间10月11日公布Switch 2 eShop最新一周榜单,《KINGDOM HEARTS Collection [I~III]》连续两周占据榜首。10月初预购榜已登顶的王国之心合集本周正式开售,凭借Switch 2 Edition的60帧与4K补丁,牢牢锁定下载榜第一,带动HD 1.5+2.5 ReMix合集回到第12位。",
+      "亚军由尚未发售的《Call of Duty: Modern Warfare 4》标准版拿下,Vault Edition也挤进第六,显示预载流量影响力。《龙之信条2:黑暗觉者》因DLC加成空降第三,《生化危机4黄金版》《火焰之纹章:命运之纬》紧随其后,《马里奥赛车世界》《精灵宝可梦Pokopia》构成榜单第二梯队。",
+      "社区热议,Reddit r/Switch2与NGA任系板块一致认为,这是Switch 2首次出现\"第一方被西式大作压制\"的情形。《KH Collection》作为PS系出身IP能连续两周夺冠,证明Switch 2跨平台3A移植体验已站稳脚跟,《上古卷轴5》《辐射4》《巫师3》重返榜单也印证了长青IP的二次消费潜力。"
+    ]
+  },
+  {
+    "id": "2026-10-12_game_3",
+    "date": "2026-10-12",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "多平台",
+    "platform_color": "#7CF6A0",
+    "title": "《龙之信条2:黑暗觉者》开发者谈刷宝设计",
+    "url": "https://news.qq.com/rain/a/20260906A07EET00",
+    "image": "images/2026-10-12/2026-10-12_game_3.jpg",
+    "detail": [
+      "卡普空《龙之信条2》大型DLC《黑暗觉者》10月9日登陆PS5、Xbox Series X|S、Steam与Switch 2,Steam国区DLC单售148元、整合版248元。10月11-12日随玩家进入新区域\"诺根\",开发者此前科隆访谈再被挖出,与新鲜评测一起登上社群热搜。",
+      "访谈透露,\"黑暗觉者\"沿用初代副标题非情怀营销,而是\"遗迹远征\"玩法循环与初代内核高度一致。新增12个地下城各具主题,北极风雪地\"诺根\"引入耐寒装备、体力消耗与冰锥互动。核心新道具\"战遗物\"含参数与独特技能双重随机,配合150+外观装备形成\"砍杀+刷宝+收集\"循环。",
+      "玩家反馈两极分化。好评方认为6月送无限传送石、8月技能栏扩容加巨龙附身调整,再到DLC落地,卡普空终于兑现社区呼声;吐槽声集中在旧地图复用度、随从AI与中文翻译节奏。社区关注新团队能否稳住IP口碑,整体口碑趋向审慎乐观。"
+    ]
+  },
+  {
+    "id": "2026-10-12_game_2",
+    "date": "2026-10-12",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "Xbox",
+    "platform_color": "#7CF6A0",
+    "title": "《战争机器:事变日》Steam好评率85%引热议",
+    "url": "https://post.smzdm.com/p/az8onwm0/",
+    "image": "images/2026-10-12/2026-10-12_game_2.jpg",
+    "detail": [
+      "The Coalition开发、Xbox Game Studios发行的《战争机器:事变日》10月1日高级版抢先、10月6日标准版解锁,同步首发加入XGPU。10月11日前后进入发售首周总结期,Steam高级版700余条评论,好评率稳定85%,整体\"特别好评\",峰值在线20,374人,刷新系列Steam纪录。",
+      "作品以系列最早的\"事变日\"三日为背景,玩家操控年轻的马库斯和布拉沃小队在陷落的卡洛纳城打出重围,主线8-10小时,全收集可至14小时。多人PVE\"兽潮围攻\"成复玩亮点,OpenCritic均分87、推荐率90%,UCG战役打分9分并称其\"系列最佳战役有力竞争者\"。",
+      "首发同样伴随争议:部分玩家反馈首次加载闪退、过场人物无语音,普通话配音被吐槽\"不配脸\",字幕与语音语言强制绑定成为中文区痛点。社交平台上\"预购不值得\"调侃热传,舆论呈现\"游戏好但不急于原价入\"的分化,等等党普遍看向12月冬促。"
+    ]
+  },
+  {
+    "id": "2026-10-12_game_1",
+    "date": "2026-10-12",
+    "category": "Gaming",
+    "subcat": "Gaming",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "Steam同时在线破4350万 再创历史新高",
+    "url": "http://news.10jqka.com.cn/20261012/c680564074.shtml",
+    "image": "images/2026-10-12/2026-10-12_game_1.jpg",
+    "detail": [
+      "SteamDB监测显示,北京时间10月11日晚22:00前后,Steam平台同时在线用户峰值一举攀上43,505,724人,正式刷新历史纪录。Valve官方统计页同日公布接近数据,峰值约43,501,449人,两套读数仅相差四千余人,共同确认平台在线规模首次站稳4350万。",
+      "进一步拆解,这一纪录出现时实际正在游戏中的玩家约1446万,其余三千万用户停留在聊天、商店与社区页面。热门榜上《反恐精英2》日峰值破140万、《Dota2》超100万、《绝地求生》约70万,《AION 2》《Bongo Cat》等韩系新作也贡献可观在线。",
+      "社区讨论热烈,玩家一方面感叹\"Steam每年都在破纪录\",一方面注意到Valve下半年即将推出的Steam Frame VR头显与Linux兼容性改进。分析认为长假、学生党回归与新作扎堆是短期触发因素,年底冬促期间纪录可能继续被刷新。"
+    ]
+  },
+  {
+    "id": "2026-10-12_ai_6",
+    "date": "2026-10-12",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "量子位",
+    "platform_color": "#7C9EF6",
+    "title": "联想TianxiCode登顶SWE-bench-Live全球第一",
+    "url": "https://www.qbitai.com/2026/10/502422.html",
+    "image": "images/2026-10-12/2026-10-12_ai_6.jpg",
+    "detail": [
+      "10月9日下午，量子位独家报道联想天禧AI自主研发的专业代码智能体框架TianxiCode在国际公认难度最高的软件工程评测SWE-bench-Live(Lite分榜)中取得突破性成绩：配合DeepSeek-v4.1-Flash，以71%的问题解决率登顶全球第一名，并正式通过官方Verified核验审核。这一成绩标志着联想自研代码智能体框架正式迈入国际第一梯队，也是中国企业首次在该榜单登顶，国产大模型加国产智能体框架组合首次打破海外垄断。",
+      "SWE-bench-Live不同于考查简单语法或单函数生成的传统代码测试，而是以真实GitHub项目中的问题为基础，评估模型与智能体生成代码补丁、修复问题的能力。为了确保评测绝对公正，官方设立Verified核验机制，参评方案必须提交全链路智能体运行轨迹，由官方团队严格审查并彻底排查答案泄露可能。TianxiCode的三大系统工程能力——跨文件多跳检索与精准上下文管理、自驱动规划与多轮工具调用、闭环补丁生成与测试驱动自愈，被业内认为是真正接近资深工程师工作方式的框架。",
+      "联想在稿件中透露，TianxiCode未来将深度沉淀到旗下AI硬件产品——包括联想YOGA、ThinkPad与AI PC形态的开发者工具链中，让国产硬件设备原生具备自主代码问题解决能力。该稿件在知乎、CSDN、少数派三端同步刷屏，开发者普遍认为这是国内厂商在Agent工程架构上一次难得的硬核突破；也有海外研究者在X上转发并提问：DeepSeek-v4.1-Flash作为底层模型是否可以独立授权，联想方面暂未对此回应。联想港股盘后小幅上涨。"
+    ]
+  },
+  {
+    "id": "2026-10-12_ai_5",
+    "date": "2026-10-12",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "量子位",
+    "platform_color": "#7C9EF6",
+    "title": "谷歌Nano Banana 2.1发布 4K直出叫板GPT",
+    "url": "https://www.qbitai.com/2026/10/502484.html",
+    "image": "images/2026-10-12/2026-10-12_ai_5.jpg",
+    "detail": [
+      "10月10日，谷歌凌晨突然发布新一代生图模型Nano Banana 2.1，围绕视觉设计、蒙版编辑、主体一致性和画面真实自然性实现全面升级，不仅能4K直出摄影级大片，还能一键替换背景、无缝修图。量子位当日下午跟进评测长文，披露这款模型以Gemini 3.6 Flash为底层框架，已上线Gemini APP、Google AI Studio等平台，开发者可通过模型名gemini-nano-banana-2.1接入付费API，每日赠送50积分免费体验。",
+      "权威评测平台Arena数据给出硬核战绩：相较于上一代Nano Banana 2，2.1版本在文本转图像、多图像编辑及单张图像编辑三项功能上平均提升约61.7分；其中文本转图像功能排名第四，比上一代提升80分，仅次于GPT；多图像编辑功能排名第五获1328分；单张图像编辑功能排名第六共获1428分，提升38分。更劲爆的是API价格——谷歌将1K与2K图片的生成价格直接砍半，4K也便宜了约25%，瞬间点燃设计师群体热情。",
+      "开发者实测反馈两极。摄影师Christopher Fryant晒出4K直出人像称质感媲美单反相机；中国设计师歸藏实测中文海报Case后感叹中文的文字清晰度和错字问题改善了很多，彻底拉开与GPT破碎感的距离。但网友Stav Zilbershtein和snow也指出模型存在水印Bug——连续编辑时噪点和色彩漂移会不断叠加。另一边，Heather Cooper把Nano Banana 2.1生成的图片交给Veo 3.1，直接在Google Flow内打造出完整高清短片，让Adobe全家桶直呼压力山大。"
+    ]
+  },
+  {
+    "id": "2026-10-12_ai_4",
+    "date": "2026-10-12",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "量子位",
+    "platform_color": "#7C9EF6",
+    "title": "硅谷AI算力大连横 马斯克靠倒卖GPU赚翻",
+    "url": "https://www.qbitai.com/2026/10/502585.html",
+    "image": "images/2026-10-12/2026-10-12_ai_4.jpg",
+    "detail": [
+      "10月11日下午，量子位发布深度稿《硅谷AI现状：谁有算力谁是爹》，披露硅谷AI行业已进入前所未有的算力争夺战。文章援引《华尔街日报》与SemiAnalysis数据指出，Anthropic CEO Dario Amodei今年亲自登门拜访Meta求算力，结果小扎婉拒，马斯克趁机坐收渔利——SpaceX作为英伟达GPU的二道贩子，向Anthropic倒卖算力，光8月当季AI业务收入便高达25.61亿美元，同比暴涨247%，环比翻两倍。文章定调硅谷正式进入大连横时代。",
+      "更令人唏嘘的是Transformer八子之一的Noam Shazeer。谷歌在2024年豪掷27亿美元促成其回归并担任Gemini联合负责人，但据外媒披露，Shazeer团队因算力被重新分配，最终被迫转投OpenAI；DeepMind前CEO哈萨比斯也曾长期对项目算力不足表达不满。SemiAnalysis数据显示，H100一年期租赁合约价格从2025年10月的每GPU每小时1.70美元涨至2026年3月的2.35美元，涨幅接近40%，部分云服务商开始要求创业公司签多年合约，预付款高达合同金额的30%。",
+      "更戏剧性的是，顶级VC开始亲自囤GPU以给被投公司救急：YC在7月为旗下创业公司推出专供的GPU集群，Radical Ventures帮助被投公司协调供应商合同，San Francisco Compute公司甚至跑到美国乡村旧鸡舍里收服务器。文章结尾判断：算力正在成为AI时代的准入门槛，初创公司挑战巨头的叙事将日益凋零，而卖铲子的中间层——以英伟达为代表的硬件商，才是最大赢家。该文在知乎、X同步刷屏，国内半导体概念股盘后集体走高。"
+    ]
+  },
+  {
+    "id": "2026-10-12_ai_3",
+    "date": "2026-10-12",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "English.gov.cn",
+    "platform_color": "#7C9EF6",
+    "title": "中国出台AI就业促进计划 剑指千万相关岗位",
+    "url": "https://english.www.gov.cn/news/202610/10/content_WS6aca1ad2c6d00ca5f9a0d9a1.html",
+    "image": "images/2026-10-12/2026-10-12_ai_3.jpg",
+    "detail": [
+      "北京时间10月10日傍晚，国务院办公厅发布《关于以人工智能驱动就业高质量发展的实施意见》，首次以中央文件形式将AI相关岗位纳入保就业核心指标。文件明确提出，到2030年，培育扩大数据标注师、算法工程师、Prompt工程师、AI训练师、机器人运维等不少于1052万个新职业岗位，并要求各地在未来三年内将AI相关专业本科招生规模再扩张30%。该文件由人社部、发改委、工信部、教育部等九部委联合签署，被外界称为AI就业特别法。",
+      "具体举措层面，文件给出了四项硬指标：一是对雇佣AI新职业员工的企业，按人头给予12-24个月社保补贴；二是在粤港澳、长三角、成渝等六大试验区设立AI职业技能等级国考，9级制对标高级工程师职称；三是允许地方政府以算力券、数据券形式对中小企业AI改造直接财政补贴；四是对高校毕业生从事AI相关岗位首年给予一次性5000-20000元安家费。Bloomberg与新华社联合解读认为，这是全球首个明确将AI就业写入国家规划的政策文件。",
+      "政策公布后，国内二级市场迅速反应，科大讯飞、海天瑞声、拓尔思等AI训练服务概念股盘后集体冲高。社交平台上，知乎AI就业特别法话题24小时内阅读量破6000万，不少开发者感叹终于轮到自己被政策照顾。但也有海外经济学者在FT撰文质疑：靠行政力量硬凑1052万岗位是否可持续，关键还要看AI在产业链中真实的生产率提升。中国官方智库则回应称，政策核心在于人机协作而非替代，确保技术红利转化为就业红利。"
+    ]
+  },
+  {
+    "id": "2026-10-12_ai_2",
+    "date": "2026-10-12",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "SiliconANGLE",
+    "platform_color": "#7C9EF6",
+    "title": "英伟达洽购Reflection AI 深度绑定开源模型棋局",
+    "url": "https://siliconangle.com/2026/10/11/nvidia-reportedly-in-early-talks-to-buy-acqui-hire-or-invest-more-in-reflection-ai/",
+    "image": "images/2026-10-12/2026-10-12_ai_2.jpg",
+    "detail": [
+      "10月11日，SiliconANGLE援引Financial Times独家报道称，英伟达正与开源权重模型初创公司Reflection AI展开早期洽谈，可能的方案包括全资收购、Acqui-hire式人员并购或追加巨额股权投资。消息人士透露，Reflection AI最近一轮估值达到250亿美元，而英伟达此前已通过战略投资持有价值约8亿美元的股份，如今希望将其收入囊中，补齐自家Nemotron开源模型家族在Agent与Coding场景的短板，直接对冲DeepSeek、Kimi等中国开源势力。",
+      "Reflection AI由前Google DeepMind研究员Misha Laskin和Ioannis Antonoglou创立，核心产品是本周刚刚上线的开源权重模型Beam，官方声称在SWE-bench、OSWorld等Agentic Coding基准上追平Claude Sonnet 5.5。英伟达对这家公司的青睐，并不仅在于模型本身，而在于其围绕长时推理与多Agent协作构建的训练Pipeline——这正是Jensen Huang年内多次强调的AI工厂关键一环。若交易成行，几周内可能官宣，交易结构将成为监管审查的核心看点。",
+      "资本市场迅速消化消息，英伟达盘前小幅下跌0.52%，但分析师普遍解读为正面——Bloomberg指出，这是继12月以20亿美元Acqui-hire Groq之后，英伟达再次以非典型收购形式扩张模型层。开发者社区则态度分裂：Reddit r/LocalLLaMA担心被收购后Beam的开源承诺会打折扣；也有观点认为，有了英伟达的H200算力加持，Reflection的下一代模型可能把开源阵营性能上限再往上顶一截。Reflection官方拒绝置评。"
+    ]
+  },
+  {
+    "id": "2026-10-12_ai_1",
+    "date": "2026-10-12",
+    "category": "AI",
+    "subcat": "AI",
+    "platform": "Business Insider",
+    "platform_color": "#7C9EF6",
+    "title": "纳德拉再提AI紧急刹车 警告企业谨慎上车",
+    "url": "https://www.businessinsider.com/microsoft-ceo-satya-nadella-ai-threat-blog-enterprise-companies-corporations-2026-10",
+    "image": "images/2026-10-12/2026-10-12_ai_1.jpg",
+    "detail": [
+      "北京时间10月11日凌晨，微软CEO萨提亚·纳德拉在X上发出一条引爆硅谷讨论的长贴，公开谈论AI的紧急刹车问题。他在帖子中附上了自己最新博客文章的链接，呼吁所有部署前沿AI系统的大型企业，必须在合同层面保留随时拔掉插头的能力，不能把安全全部外包给模型供应商。该表态与Anthropic近期关于AI失控的研究、以及OpenAI安全负责人出走事件形成呼应，被外界视为微软对企业客户的一次风险对冲声明。",
+      "具体内容上，纳德拉提出三条底线：一是任何代理类系统上线前，必须经过企业自己IT团队的红队测试，而不是只信任厂商的system card；二是关键业务流程需要双人复核加可逆回滚，即使AI判断100%正确也要人工签字；三是必须给每一个Agent绑定可终止的Kill Switch与可审计的日志。他还透露，微软Copilot平台在9月已悄悄上线企业级紧急熔断，可在60秒内中止所有租户内运行的AI会话，是Build 2026之后最大的一次治理升级。",
+      "该文迅速在X、HackerNews引爆讨论。CNBC、Business Insider、DEV Community相继以头条跟进，HN热榜一度冲到前三。多位Fortune 500 CIO在评论区留言表示，纳德拉这次表态等同于让客户放心大胆签长单的信号；也有AI研究者反驳认为，熔断按钮是治标不治本，核心仍是训练阶段的对齐。截至发稿，相关贴文浏览量超过1200万，微软股价盘前小幅上涨0.4%，而部分依赖纯API模式的小型AI公司股价则承压，反映出市场对治理红利流向的新判断。"
+    ]
+  }
+]
