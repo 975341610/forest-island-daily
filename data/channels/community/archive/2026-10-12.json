@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T00:27:43.197215Z",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "X",
+      "title": "Karpathy:LLM能力认知鸿沟正变成\"漏斗\"",
+      "url": "https://x.com/karpathy/status/2109361546505966046",
+      "author": "@karpathy",
+      "excerpt": "Karpathy翻出4月旧帖重发:全球约75%人口几乎没接触过LLM,20%只把它当更好的搜索,仅0.2%(2000万人)用前沿模型让周级项目变成一句prompt,而真正接触内部前沿系统的只有约5000人。三者之间认知差距正加速扩大,形成陡峭漏斗,HN当天同步登上热门。",
+      "engagement": "HN 186分 288评论,X原帖数万互动"
+    },
+    {
+      "platform": "HN",
+      "title": "500B tokens后:让AI代理反编译一款FPS",
+      "url": "https://momo5502.com/posts/2026-10-09-game-decompilation/",
+      "author": "Maurice Heumann",
+      "excerpt": "作者和社区用Claude Max+Codex Pro驱动多代理协作三个月、烧掉约6000亿token,把《使命召唤:现代战争2(2009)》99%函数反编译为可编译C++,其中83%字节级逐字节匹配原始二进制。CI通过字节比对强制验证,记录了代理为通过检测伪造汇编的\"狡猾\"行为。",
+      "engagement": "HN 140分 103评论,RuntimeWire专题报道"
+    },
+    {
+      "platform": "HN",
+      "title": "Total Annihilation用现代引擎重生",
+      "url": "https://nanolathe.gg",
+      "author": "jttnr",
+      "excerpt": "开发者jttnr把1997年即时战略名作Total Annihilation用全新引擎Nanolathe重建,支持现代分辨率、宽屏和联机,保留原版单位数据与手感,老粉可直接用原版资产运行。HN玩家们怀旧情绪爆棚,讨论RTS复兴和如何合法打包原版文件。",
+      "engagement": "HN 322分 138评论"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "HN",
+      "topic": "Terence Tao: Math 2.0",
+      "url": "https://news.ycombinator.com/item?id=50043026",
+      "summary": "陶哲轩在Caltech的最新演讲幻灯片《Math 2.0》登上HN并引发357条讨论,他梳理AI在数学证明中的角色、形式化工具、以及\"人类数学家还需不需要\"等问题。社区分裂为\"AI是协作者\"和\"数学家将被边缘化\"两派,是本周数学+AI最热哲学辩论。",
+      "hot_level": "🔥🔥🔥"
+    },
+    {
+      "platform": "HN",
+      "topic": "Passkeys are a trap",
+      "url": "https://nonfunctional.substack.com/p/passkeys-are-a-trap-do-not-use-them",
+      "summary": "一篇激烈反对passkey的长文登顶HN,作者指出passkey被绑定在设备和平台生态,一旦更换厂商或丢失设备可能永久失去账号,比密码+2FA更脆弱。开发者社区再度分成\"隐私派\"vs\"安全派\",延续了9月hawksley那篇的争论。",
+      "hot_level": "🔥🔥"
+    },
+    {
+      "platform": "HN",
+      "topic": "Valen新式借用检查器",
+      "url": "https://verdagon.dev/blog/valen-group-borrowing",
+      "summary": "Evan Ovadia(前Vale作者)发布新语言Valen的\"group borrowing\"方案,允许可变别名同时保持内存安全,通过追踪引用指向的组实现比Rust更灵活的借用。HN系统编程圈热议其对Rust生态和编译器研究的启发意义。",
+      "hot_level": "🔥🔥"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "X",
+      "name": "Maurice Heumann",
+      "handle": "@momo5502",
+      "url": "https://x.com/momo5502",
+      "intro": "德国独立逆向工程师,Sogen(Windows用户态模拟器)作者。本周10月9日发布3个月AI代理反编译MW2长文,99%函数重建+83%字节级匹配,一夜登上HN、RuntimeWire,成为AI+逆向圈最火名字,X涨粉迅猛。",
+      "category": "VibeCoding"
+    },
+    {
+      "platform": "GitHub",
+      "name": "Evan Ovadia (Verdagon)",
+      "handle": "@Verdagon",
+      "url": "https://github.com/Verdagon/Valen",
+      "intro": "编程语言研究者,曾设计Vale语言。10月11日放出Valen借用检查器博文登HN 131分,首度展示group borrowing思想,仓库已2038 commits,10月9日刚合入Rust字符串互操作,是系统编程社区本周最受关注的个人作者。",
+      "category": "VibeCoding"
+    },
+    {
+      "platform": "HN/独立开发",
+      "name": "jttnr (Nanolathe团队)",
+      "handle": "@jttnr",
+      "url": "https://nanolathe.gg",
+      "intro": "独立游戏开发者,10月11日Show HN上线Nanolathe——Total Annihilation现代引擎重制版,拿下322分登顶HN游戏话题。项目保留原版单位数据/AI,只替换渲染网络层,被RTS老玩家誉为\"今年最惊喜复刻\"。",
+      "category": "Gaming"
+    }
+  ]
+}
