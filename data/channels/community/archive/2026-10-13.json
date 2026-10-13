@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T00:20:50Z",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Hacker News",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://news.ycombinator.com/item?id=50047422",
+      "excerpt": "Karpathy抛出的论断在HN掀起819条评论的海啸：有人用Claude Code一天写完一个产品，有人连PPT都调不顺。热评把矛头指向结构性问题——地铁依旧晚点、房租照样涨、政治依旧闹腾，所谓的数据中心天才国似乎什么都没解决，LLM的能力分化正变成社会分化的新切面。",
+      "author": "albertzeyer (提交者) / @karpathy"
+    },
+    {
+      "platform": "Reddit",
+      "title": "GitHub project called REA (Reverse Engineer Anything) is currently the top trending repository",
+      "url": "https://www.reddit.com/r/tech_x/comments/1x2d66l/github_project_called_rea_reverse_engineer/",
+      "excerpt": "一个让AI Agent接管Ghidra、JADX、IDA Pro的开源工具24小时内冲上GitHub Trending第一，星数破10万。帖子讨论炸锅：有人惊呼软件时代结束，有人担心闭源商业模式会被反编译AI一夜拆穿，Amjad Masad直言未来软件会de facto开源。",
+      "author": "u/Bulky_Engineer_2534"
+    },
+    {
+      "platform": "Reddit",
+      "title": "Should you normalize RGB values by 255 or 256?",
+      "url": "https://www.reddit.com/r/programming/comments/1vdjt5i/should_you_normalize_rgb_values_by_255_or_256/",
+      "excerpt": "一个看似弱智的除法题在r/programming掀起数百条争论。原文从GPU浮点到色彩空间娓娓道来，证明不同场景答案不同：显示管线用255、纹理采样用256、合成alpha又要考虑端点保真。开发者感叹自己工作十几年都没想透这个细节。",
+      "author": "u/fagnerbrack"
+    }
+  ],
+  "topics": [
+    {
+      "platform": "知乎",
+      "title": "中文在线称中国55%的token消耗指向AI短剧，如何看待这一现象？",
+      "url": "https://www.zhihu.com/question/2092571772189153120",
+      "description": "587万热度的讨论话题。中文在线披露AI短剧与视频生成的Token消耗已达软件开发的两倍，位居国内第一大算力消耗场景。网友激辩：这是文化繁荣还是算力浪费？有分析指出该数据缺乏第三方校验，但不可否认AI短剧已成为B端大模型最大流量入口之一。"
+    },
+    {
+      "platform": "X/Twitter",
+      "title": "AI-powered reverse engineering is here",
+      "url": "https://x.com/i/trending/2108302228461080603",
+      "description": "由REA开源项目引爆的推特热门话题。Replit CEO Amjad Masad称AI反编译令人震惊，Naval接梗调侃Open-Source的Open指的是你的代码。开发者社区在讨论IP合规边界，而安全从业者认为这是继ARTEX韩国银行入侵事件后AI重塑攻防两端的又一节点。"
+    },
+    {
+      "platform": "Reddit",
+      "title": "What do you think about Tabular Foundation Models",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/",
+      "description": "r/MachineLearning本周争议最大的讨论。TabPFN-3和TabICL在小表数据上碾压传统ML，但要几GB模型、大显存GPU才能跑几MB数据。老派ML派追问：决策树+特征工程是不是被低估了？话题串出可解释性、工业落地、算力浪费多条支线。"
+    }
+  ],
+  "creators": [
+    {
+      "platform": "GitHub",
+      "name": "morluto",
+      "url": "https://github.com/morluto/rea",
+      "bio": "开发者morluto于10月上线开源项目REA（Reverse Engineer Anything），24h狂揽近3000星登顶Trending。项目把Ghidra、JADX、Binwalk包成MCP工具，让Claude Code或Cursor能直接反编译二进制和APK，改写逆向门槛。"
+    },
+    {
+      "platform": "Product Hunt",
+      "name": "SimpleSpread",
+      "url": "https://hunted.space/dashboard/simplespread",
+      "bio": "10月12日Product Hunt登顶的原生开源Mac表格应用。作者是一位独立开发者，坚持本地优先、不碰云端、完全开源，用Swift重写Numbers的轻量替代体验。社区对macOS原生生产力工具的渴求把它一天送上榜首，评论区满是Numbers太重、Excel太贵的共鸣。"
+    },
+    {
+      "platform": "B站",
+      "name": "文曰小强",
+      "url": "https://www.bilibili.com/video/BV11mFLziEyP",
+      "bio": "B站深度解析类头部UP主，《三体》小说解析系列累计播放超2117万，被誉为B站镇站之宝。10月参与B站AI创作大赛开放赛道，入围短片《牌子》延续其冷峻叙事风格，用AI工具把世界观设定实体化成影像，成为AI+剧情向创作的标杆案例。"
+    }
+  ]
+}
