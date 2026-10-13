@@ -1,5 +1,287 @@
 [
   {
+    "id": "2026-10-13_vibe_5",
+    "date": "2026-10-13",
+    "category": "VibeCoding",
+    "subcat": "框架更新",
+    "platform": "GitHub / DeepSeek",
+    "platform_color": "#181717",
+    "title": "DeepGEMM本周冲上GitHub Trending",
+    "url": "https://github.com/deepseek-ai/DeepGEMM",
+    "image": "images/2026-10-13/2026-10-13_vibe_5.jpg",
+    "detail": [
+      "DeepSeek开源算子库DeepGEMM本周强势霸榜GitHub Trending CUDA/AI分区,trending-watcher与web1992/github-trending双榜10月7日起持续追踪,日新增stars一度冲到8600+。所有kernel通过DeepJIT在运行时编译。",
+      "DeepGEMM把大模型核心计算原语——FP8/FP4/BF16 GEMM、融合通信的Mega MoE、MQA打分里的lightning indexer、HyperConnection——塞进一份干净CUDA代码库。9月30日合入的Public release 26/09/30带来一波硬核更新。",
+      "locality-aware Mega MoE支持权重局部化与domain-aware调度,重负载显卡功耗省100W、频率回升5-10%;新增epilogue里的Identity、Alpha、FP8Quantization与可选BF16StochasticRounding,SM100直接吐BF16。",
+      "破坏性改动不少:非paged的fp8_fp4_mqa_logits强制要求正的max_seqlen_k并返回压缩logits;SM100上Dense MQA统一走MXFP8/MXFP4+UE8M0 scales+BF16权重。DeepGEMM正从DeepSeek自用变成社区事实上的高性能kernel基石。"
+    ]
+  },
+  {
+    "id": "2026-10-13_vibe_4",
+    "date": "2026-10-13",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "GitHub / explainx.ai",
+    "platform_color": "#000000",
+    "title": "text-to-cad:给Coding Agent装CAD",
+    "url": "https://www.texttocad.dev/",
+    "image": "images/2026-10-13/2026-10-13_vibe_4.jpg",
+    "detail": [
+      "同样被explainx.ai选入10月12日头条的还有text-to-cad——一个MIT开源的插件和skill库,把CAD建模能力直接接入Claude Code、Codex、Cursor、Gemini CLI乃至Grok Build。开发者用自然语言描述零件就能本地出图。",
+      "agent会写build123d(基于OpenCascade)的Python脚本,本地跑出STEP/STL/DXF/GLB/URDF等格式,并自动做manufacturability检查。改一行Python就重算几何,skills/cad生成工件,skills/urdf做机器人装配。",
+      "本地viewer是React/Vite的CAD Explorer,支持@cad[part.step#face:top]语法把几何面喂给agent做精细修改。插件已支持Claude Code marketplace、Codex plugin registry原生安装。",
+      "配合3D打印、钣金、CNC加工服务接单接口,一句\"帮我做个托盘和支架\"真能从prompt走到物理件。开源仓库刚打到v0.7.6,是把vibe coding延伸到物理世界的典型案例,也让\"agent不止写软件\"从slogan变成了可操作选项。"
+    ]
+  },
+  {
+    "id": "2026-10-13_vibe_3",
+    "date": "2026-10-13",
+    "category": "VibeCoding",
+    "subcat": "开源项目",
+    "platform": "GitHub",
+    "platform_color": "#181717",
+    "title": "Replica Skill:11款技能克隆App",
+    "url": "https://github.com/Jakeschincariol/replica-skill",
+    "image": "images/2026-10-13/2026-10-13_vibe_3.jpg",
+    "detail": [
+      "10月12日GitHub上名为replica-skill的仓库被explainx.ai日报选为当日agents & developer tools头条。作者Schincariol以MIT协议开源了11款Claude Skills,整套不需任何付费API key,只要本地Python 3.8。",
+      "11个技能覆盖从侦察、净室重建、测试跑验到品牌替换、部署上线的完整创业链路。第一段抓目标App的公开行为与UI结构;第二段按净室规则用LLM重写代码避免直接抄袭;第三段跑E2E测试修\"用户最讨厌的那部分\"。",
+      "最后一段生成鲜明品牌皮肤并一键部署到Vercel或自建服务器。工具只是把Claude Skills和若干开源推理框架粘起来,但引发的讨论很现实:Claude Code让\"把现成产品再做一份\"的边际成本显著下降,法律与伦理会怎样跟上?",
+      "在TrendingLight与Hacker News,仓库被不少indie开发者当成\"vibe-coding×indie hacking\"的教学样本收藏,也被安全从业者标注为需要关注的新攻击面——克隆与仿冒的门槛被工具链再次拉低。"
+    ]
+  },
+  {
+    "id": "2026-10-13_vibe_2",
+    "date": "2026-10-13",
+    "category": "VibeCoding",
+    "subcat": "开发工具",
+    "platform": "Figma Blog",
+    "platform_color": "#F24E1E",
+    "title": "Figma画布全面向AI Agent开放",
+    "url": "https://www.figma.com/blog/the-figma-canvas-is-now-open-to-agents/",
+    "image": "images/2026-10-13/2026-10-13_vibe_2.jpg",
+    "detail": [
+      "Figma近日推出全新use_figma工具和Figma Agent体系,把设计画布开放给外部AI agent。此前generate_figma_design只能把活页HTML翻译成Figma图层,这次直接允许Claude Code、Codex等编码agent用自然语言在画布上生成和编辑设计。",
+      "配套Skills机制由Figma定义agent在画布上的工作流,规定步骤顺序和品牌约束,让agent在陌生design system里也能产出符合团队判断的结果。OpenAI Codex设计负责人Bayes表示Codex现在能读到Figma里完整上下文。",
+      "Claude Code产品负责人Cat Wu也背书称设计意图可以更完整地传到实现侧。开发者能在终端对Claude Code说一句\"按设计系统落地这块\",让它直接改Figma图层;MCP接入也让第三方agent可以挂进来。",
+      "这代表IDE-native agent的边界正从代码编辑器外溢到视觉工具。在coding agent benchmark激烈内卷的当下,设计×工程链路上一个新的事实接口标准正在成形,下一阶段的竞争焦点可能从编辑器扩展到整个产品工作流。"
+    ]
+  },
+  {
+    "id": "2026-10-13_vibe_1",
+    "date": "2026-10-13",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "Phoronix / kernel.org",
+    "platform_color": "#000000",
+    "title": "Torvalds用Claude Code写内核补丁",
+    "url": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
+    "image": "images/2026-10-13/2026-10-13_vibe_1.jpg",
+    "detail": [
+      "10月11日,Phoronix的Larabel刷新torvalds/linux.git时发现主仓库多出一条新分支noref-filemap-read-with-llm。8个补丁改写page cache在小粒度并发读场景下的folio引用计数路径。",
+      "Linus在cover letter罕见写明:代码、测试、问题review甚至首稿都由Claude Code在他指导下完成。方案让读路径不再对folio取引用,移除的页通过RCU grace period延迟释放,每CPU累积超过1024页时worker强制触发收尾。",
+      "效果惊人:4核8线程笔记本上,16字节pread对同页并行吞吐从约990万次/秒飙到3000-3300万次/秒,内核cycles/read从2950降到725,近4倍提升。但分支基于Linux 7.3-rc6,仍有缺页更贵、分配器统计不可见等遗留问题。",
+      "能否进入7.4合并窗口接下来几周见分晓,这也是Torvalds第一次把AI的参与度白纸黑字写进patch message,把测试与问题全部公开接受正常的kernel review流程,这种透明度本身就有意义。"
+    ]
+  },
+  {
+    "id": "2026-10-13_game_6",
+    "date": "2026-10-13",
+    "category": "Gaming",
+    "subcat": "行业动态",
+    "platform": "mp1st / 社群",
+    "platform_color": "#111827",
+    "title": "《战地6》一周年活动引玩家不满",
+    "url": "https://mp1st.com/news/battlefield-6-year-one-celebration-disappoints-fans-greediest-f2p-games-have-better-celebrations",
+    "image": "images/2026-10-13/2026-10-13_game_6.jpg",
+    "detail": [
+      "就在Season 5「维加斯之围」上线前一天,围绕《战地6》官方「一周年庆祝活动」的讨论在Reddit和社交媒体迅速发酵。EA在10月中旬公告中为满一岁的本体准备了一个限时登录礼与少量贴纸,社群玩家普遍评价「寒酸到不可置信」,热评标题直接写成「最抠门的F2P游戏都有更慷慨的周年活动」。",
+      "mp1st的综合报道列出了玩家对比的参照系:同为服务型射击的《使命召唤》《Apex英雄》,甚至此前被称为「氪金地狱」的若干免费吃鸡,在周年或赛季节点往往会放出带动态、通行证点数、真实货币代金券或传奇皮肤的奖励;而《战地6》作为60刀买断制、销量破2000万份的头部3A,仅提供静态贴纸,被认为与其商业成就严重不符。有分析者进一步指出EA可能是把节点礼包压缩进了S5战令,但官方并未公开承认这一策略。",
+      "值得注意的是,这场风波和Season 5上线、Rapid Royale高速吃鸡模式开放、同期进入Steam Cooking Fest期间叠加,让S5首日舆情显得微妙:一方面玩家对真正的内容更新评价积极,另一方面「周年翻车」事件被不少KOL拿来当作「EA又开始飘了」的例子。社群情绪将直接影响Steam评价曲线能否从「褒贬不一」回到此前的「多半好评」。"
+    ]
+  },
+  {
+    "id": "2026-10-13_game_5",
+    "date": "2026-10-13",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "Worthplaying",
+    "platform_color": "#6B8E23",
+    "title": "《龙之信条2:黑暗觉者》Switch 2版试水",
+    "url": "https://www.worthplaying.com/article/2026/10/9/reviews/151203-nintendo-switch-2-review-dragons-dogma-2-dark-arisen-dlc/",
+    "image": "images/2026-10-13/2026-10-13_game_5.jpg",
+    "detail": [
+      "Capcom《龙之信条2:黑暗觉者 Dragon's Dogma 2: Dark Arisen》10月9日作为Switch 2的首发阵容抵达任系新机,围绕这次登陆的集中评测在10月12日至13日陆续解禁,成为近日主机圈的话题中心。该版本整合了本体与大型资料片「黑暗觉者」,新增冰雪地区Norgan、不朽龙剧本线、新职业与新加入的「其他觉者」支线,存档不与PS5/Xbox互通。",
+      "作为Switch 2上第一款真正规模感的物理驱动开放世界日系3A,Worthplaying在10月9日的详尽评测中给出积极评价:在便携与主机底座两种模式下均稳定锁定30fps,支持可变帧和插帧,相对于PS5发行版的掉帧表现「几乎是奇迹」。Nintendo Life、Digitally Downloaded等多家媒体也集中点赞,认为Capcom的内部引擎移植质量明显高于近期《巫师3:重制版》的Switch 2失败案例。",
+      "玩法上,「黑暗觉者」最大的改进是对初代被诟病的小额氪金和异形任务结构做了平衡——所有付费道具改为可通过游戏流程自然获取,新「觉者之核」系统允许玩家使用多个Pawn职业混搭。随机遭遇依旧是本作灵魂:评测中多次提到被雪原巨魔突袭、怪物相互殴斗、Pawn把玩家当武器挥舞等名场面。考虑到Switch 2三方阵容偏弱,这款作品被普遍视为「验证Switch 2到底能跑多少3A」的关键样本。"
+    ]
+  },
+  {
+    "id": "2026-10-13_game_4",
+    "date": "2026-10-13",
+    "category": "Gaming",
+    "subcat": "行业动态",
+    "platform": "Steam",
+    "platform_color": "#1B2838",
+    "title": "Steam十月连办三Fest今日开跑",
+    "url": "https://partner.steamgames.com/doc/marketing/upcoming_events",
+    "image": "images/2026-10-13/2026-10-13_game_4.jpg",
+    "detail": [
+      "北京时间10月13日凌晨1点,Valve正式启动「Steam Cooking Fest 2026」,拉开10月连续三周主题特卖的序幕。本次Fest主题宽松地定义为「关于烹饪、给人做饭以及一切与之相关的游戏」,从《胡闹厨房》式手忙脚乱协作厨房、到餐厅经营模拟、再到带烹饪系统的RPG与种田冒险都在覆盖范围内。按Valve官方说法,整周将有大量折扣与「每天都有的demo试玩」。",
+      "紧随其后,10月19日起将迎来2026年秋季版「Steam Next Fest: October 2026」,数百款未上市游戏将集中放出可玩Demo并开启愿望单冲击;10月26日至11月2日则是年度大戏「Steam Scream V Fest」(第5届Steam惊叫节),官方指南显示该档期将主打恐怖/万圣节主题,配合各家开发商的新作首秀与季节性促销,是年底Winter Sale前最后一次大型主题活动。",
+      "三连Fest之间无缝衔接,Steam页面将连续三周把头条Banner让给相应主题,对中小开发者而言是本年度最后的高曝光窗口。市场分析机构Chris Zukowski此前统计显示,参与themed fest的游戏在一周内平均新增数千条愿望单。Valve另外提醒开发者,Fest折扣并不豁免30天折扣冷却期,从10月12日已停止报名,未提交折扣的参展商将只能靠demo流量参与。"
+    ]
+  },
+  {
+    "id": "2026-10-13_game_3",
+    "date": "2026-10-13",
+    "category": "Gaming",
+    "subcat": "PC游戏",
+    "platform": "Frontier 官方",
+    "platform_color": "#FF9900",
+    "title": "《动物园之星2》全平台今日发售",
+    "url": "https://one.planetzoogame.com/en-US/news/lanzamiento-de-planet-zoo-2-el-13-de-octubre-de-2026",
+    "image": "images/2026-10-13/2026-10-13_game_3.jpg",
+    "detail": [
+      "英国老牌模拟厂商Frontier Developments的招牌续作《动物园之星2 Planet Zoo 2》于北京时间10月13日正式登陆PC、PS5和Xbox Series X|S,这也是该系列首次登陆主机平台。本作在初代基础上做出被官方称为「跨世代」的升级,包括重做的毛发/羽毛/鳞片渲染、呼吸动作细节,以及真正可游泳的水族馆和真正会飞行的鸟类——礁鲨、玳瑁、巨嘴鸟、秘书鸟等全新物种首次加入系列。",
+      "全新「野生动物保护区」(Wildlife Reserves)系统将玩法从单纯「造动物园」扩展到全球性保护事业:玩家承接国际保育项目,把繁育成功的动物送回由自己设计的、生态真实的大型自然栖息地,保护区内的研究还能反哺本园发展,构成「养—放—研」循环。此外, Thriving系统取代了传统的100%福利目标,引入更复杂的多指标评估,让「让动物真正过得好」比以前更难达成。",
+      "评测方面,英国Unboxed Reviews等媒体在今日前后给出「系列最大一次跃进」的综合评价,PC版画面保留了Frontier典型的高细节建造工具,PS5/XSX版因保留了逐件搭建系统获得了大量正面反馈,被认为是模拟经营玩家年度最值得期待的作品之一。预购版自带限定玩具大嘴鸟商店、动物捐赠桶与老虎人形立牌等物品,豪华版额外解锁6种动物。"
+    ]
+  },
+  {
+    "id": "2026-10-13_game_2",
+    "date": "2026-10-13",
+    "category": "Gaming",
+    "subcat": "PC游戏",
+    "platform": "Rock Paper Shotgun",
+    "platform_color": "#B91C1C",
+    "title": "《不朽遗志》开评:拿破仑第一视角魂like",
+    "url": "https://www.rockpapershotgun.com/valor-mortis-review",
+    "image": "images/2026-10-13/2026-10-13_game_2.jpg",
+    "detail": [
+      "波兰One More Level(《Ghostrunner》原班团队)与Lyrical Games联合开发的《不朽遗志Valor Mortis》今日(10月13日)正式登陆Steam、Xbox和PC Game Pass,售价约$40。玩家扮演倒在拿破仑战场上的士兵William,被名为「Nephtoglobin」的奇幻瘟疫重新唤醒,在被僵尸化尸潮和异化怪物席卷的19世纪欧洲中,踏上一段揉合生存恐怖与魂like结构的复仇之旅。",
+      "海外评测今日集中解禁。Rock Paper Shotgun打出高分,称其是「近年最新鲜的魂like」,夸奖质感十足的近战/弹反机制与真诚的19世纪恐怖氛围;CGMagazine给出8.5/10,表扬像灯笼这样的「篝火变体」把Souls公式带入第一视角的手感改造;IGN则更保守,肯定其「许多有意思的想法」,但指出首人称视角在Boss战镜头拉近时仍会头晕、后期武器平衡不佳。",
+      "游戏意义除了评测本身,还在于品类:它是2026下半年魂类赛道上为数不多的第一视角新作,售价又明显低于3A同类,被不少评论形容为「《Lies of P》遇上《生化危机4》村民」。开发组官方表示登录当天将上线首个性能热修补,目标锁定AMD RX 9000系列的掉帧问题,配合Steam Cooking Fest开场的高流量窗口,首周销量和Mostly Positive评价能否维持成为关注焦点。"
+    ]
+  },
+  {
+    "id": "2026-10-13_game_1",
+    "date": "2026-10-13",
+    "category": "Gaming",
+    "subcat": "PC游戏",
+    "platform": "EA 官方",
+    "platform_color": "#FF4747",
+    "title": "《战地6》S5维加斯之围今日开打",
+    "url": "https://www.ea.com/games/battlefield/battlefield-6/news/battlefield-6-game-update-2-1-1-0",
+    "image": "images/2026-10-13/2026-10-13_game_1.jpg",
+    "detail": [
+      "北京时间10月13日,EA DICE为《战地6》正式上线2026年收官版本号2.1.1.0大型更新,带来主内容包「第五赛季：维加斯之围」(Siege of Vegas)。本季将战场从霓虹闪烁的拉斯维加斯大道推进到传说中的51区秘密军事基地,新加入「维加斯大道」和「Area 51」两张支持全兵种与载具的大型地图,配套四把新枪、全新战令、多人模式排行榜,以及和《死亡空间》联动的限时万圆节活动。",
+      "免费大逃杀模式REDSEC同步迎来重磅扩展,正式推出名为「Rapid Royale」的高速玩法:降低人数、更密集的空投箱,以及系列历史上最快的死亡缩圈,搭配可以让队友回归战场的 Redeploy 机制,官方宣称这是「迄今最具侵略性的战地吃鸡体验」。配合Season 5,排位大逃杀也脱离Battlefield Labs进入正式赛季,奖牌徽章全部重新设计。",
+      "作为预热,DICE于北京时间10月12日下午推出预加载包1.000.034,玩家可提前下载Season 5全部内容,等待10月13日服务器开门直接进场。《战地6》自2025年10月10日上线以来,根据分析机构Alinea Analytics的测算,基础版销量已突破2000万份,叠加免费REDSEC玩家合计超2600万,是EA Steam史上最大型发行,也让该系列在被《使命召唤》压制多年后首次夺回北美月度销冠。本次S5更新被视为「周年庆核心内容」,是能否稳住活跃人数曲线的关键一战。"
+    ]
+  },
+  {
+    "id": "2026-10-13_ai_6",
+    "date": "2026-10-13",
+    "category": "AI",
+    "subcat": "AI公司",
+    "platform": "微软",
+    "platform_color": "#555555",
+    "title": "微软发布自研AI芯片Maia 300",
+    "url": "https://www.geekwire.com/2026/microsoft-makes-biggest-bet-yet-on-its-own-silicon-unveils-new-ai-chip-to-reduce-reliance-on-nvidia/",
+    "image": "images/2026-10-13/2026-10-13_ai_6.jpg",
+    "detail": [
+      "10月12日，微软在Ignite前瞻活动上正式揭晓第二代自研AI加速器Maia 300，采用台积电N2工艺，单卡BF16算力达到2.4 PFLOPS，HBM4容量192GB、带宽7.2TB/s，整体规格首次全面追平英伟达B300。",
+      "Maia 300同时发布的还有名为Ares的机架级系统：72张Maia 300通过微软自研的全光互联背板组成一个超节点，整机柜功耗控制在145kW，训练GPT-6规模模型时相对H200集群功耗下降27%、总拥有成本下降34%。",
+      "萨提亚·纳德拉在博客中直言，Maia 300已经开始在Azure上承担Copilot三分之一的推理流量，Azure OpenAI服务下季度将把GPT-5.1 mini和Sora-2 Turbo默认切到Maia后端，「这是微软摆脱对单一供应商依赖的决定性一步」。",
+      "英伟达方面随即发表声明回应，强调自研芯片与通用GPU「并非零和」，但资本市场并不买账，当日英伟达盘后股价下跌3.8%，而AMD、博通反而因「ASIC化加速」预期各自上涨逾2%。"
+    ]
+  },
+  {
+    "id": "2026-10-13_ai_5",
+    "date": "2026-10-13",
+    "category": "AI",
+    "subcat": "AI模型",
+    "platform": "智谱AI",
+    "platform_color": "#555555",
+    "title": "智谱GLM-5.3极速版推理冲到490 tokens/s",
+    "url": "https://www.qbitai.com/2026/10/502649.html",
+    "image": "images/2026-10-13/2026-10-13_ai_5.jpg",
+    "detail": [
+      "10月12日，智谱AI在开放平台上线GLM-5.3-Highspeed极速版，官方实测在单张H200上实现490 tokens/s的解码速度，是同参数GLM-5.3标准版的3.1倍，首token延迟降至140毫秒，刷新国产200B级MoE模型的推理速度纪录。",
+      "极速版背后是智谱自研的「SpecDecode+MoE亲和调度」方案：用一个2.6B的草稿模型做推测解码，命中率稳定在78%以上，同时把专家路由改为静态分组，显存碎片下降40%，官方给出的API定价也顺势砍到0.5元/百万输出token。",
+      "更关键的是，GLM-5.3-Highspeed在SWE-bench Verified上取得62.4%的成绩，仅比标准版低0.8个百分点，但端到端跑通一次完整的Agentic Coding任务时间从47秒压缩到14秒，智谱宣布开放Claude Code兼容端点，Cursor和Cline用户可一行环境变量切换。"
+    ]
+  },
+  {
+    "id": "2026-10-13_ai_4",
+    "date": "2026-10-13",
+    "category": "AI",
+    "subcat": "AI模型",
+    "platform": "字节跳动",
+    "platform_color": "#555555",
+    "title": "字节Seed发布世界模型Seed-World 2",
+    "url": "https://www.qbitai.com/2026/10/502701.html",
+    "image": "images/2026-10-13/2026-10-13_ai_4.jpg",
+    "detail": [
+      "10月12日晚，抖音《2026美好奇妙夜》晚会直播中，字节跳动Seed团队首次向C端大规模曝光其第二代世界模型Seed-World 2，演员王一博在舞台上戴AR眼镜，与一只由模型实时生成的三维「数字麒麟」完成了近4分钟互动表演。",
+      "官方技术博客同步放出：Seed-World 2采用17B参数的DiT+状态空间混合架构，可在单张H20上以24fps实时生成1080P带物理反馈的三维场景，长时一致性相比初代提升2.3倍，首次支持用自然语言直接编辑场景中的物理属性。",
+      "Seed团队负责人朱文佳在博客里把Seed-World 2定位为「豆包多模态下一个战略底座」，宣布将在10月20日于火山引擎开放企业内测，首批合作方包括完美世界、米哈游、泡泡玛特，用于游戏资产和IP衍生品生成。",
+      "值得注意的是，字节此次把世界模型的首秀交给晚会而非技术发布会，被外界解读为对标谷歌Genie 3的「消费级抢位」：先用全民级综艺建立心智，再回头收割B端订单，节奏与去年抖音首发豆包1.5如出一辙。"
+    ]
+  },
+  {
+    "id": "2026-10-13_ai_3",
+    "date": "2026-10-13",
+    "category": "AI",
+    "subcat": "AI研究",
+    "platform": "Yann LeCun",
+    "platform_color": "#555555",
+    "title": "LeCun首尔演讲：LLM五年内被世界模型取代",
+    "url": "https://www.koreaherald.com/article/10899735",
+    "image": "images/2026-10-13/2026-10-13_ai_3.jpg",
+    "detail": [
+      "10月12日，Meta首席AI科学家Yann LeCun在首尔GITEX Korea 2026大会上发表主旨演讲，再次公开唱衰自回归大语言模型，断言「五年之内不会再有人认真训练LLM」，世界模型（World Model）才是通往AGI的唯一路径。",
+      "LeCun现场展示了Meta FAIR最新的V-JEPA 3研究进展：一个21亿参数的联合嵌入预测架构，仅用1500小时第一视角视频预训练，就能在未见过的厨房、办公室场景中零样本预测物体轨迹，MSE误差比Sora-2降低38%。",
+      "他还透露Meta已经把V-JEPA 3接入新一代Ray-Ban Meta眼镜的离线导航模块，用户在没有网络的室内环境下可以直接用自然语言询问「我的车钥匙在哪儿」，眼镜能基于空间记忆给出方向，预计今年年底随固件推送。",
+      "值得玩味的是，LeCun在Q&A环节被问及与扎克伯格的分歧时回应：「Mark仍在为LLM砸钱，这是他的自由，但FAIR的预算我说了算」，侧面证实了此前外媒关于Meta内部AI路线之争的报道。"
+    ]
+  },
+  {
+    "id": "2026-10-13_ai_2",
+    "date": "2026-10-13",
+    "category": "AI",
+    "subcat": "AI公司",
+    "platform": "墨智智能",
+    "platform_color": "#555555",
+    "title": "MOSS团队墨智智能融资10亿元",
+    "url": "https://www.mosi.cn/en/news/moss-ai-1b-pre-a-funding-all-modal-realtime-interaction-base",
+    "image": "images/2026-10-13/2026-10-13_ai_2.jpg",
+    "detail": [
+      "10月12日，复旦MOSS团队创立的墨智智能（Mosi Intelligence）官宣完成超10亿元Pre-A轮融资，由蚂蚁集团领投，米哈游、线性资本、启明创投跟投，公司投后估值约60亿元人民币。",
+      "墨智本次同步发布全模态实时交互底座MOSS-RT，支持语音、视觉、动作三路token在200ms内对齐输出，并开放了面向具身智能的MOSS-Embodied分支，已在特斯联、宇树的最新人形机器人上完成联调。",
+      "创始人邱锡鹏教授表示，本轮融资将主要用于全模态基座模型的持续预训练，以及把MOSS-RT推进到端侧2B参数版本，目标在2027年Q1让一款千元级AI眼镜跑通全链路实时对话。",
+      "值得注意的是，蚂蚁集团同时宣布将在支付宝「AI生活」入口接入MOSS-RT作为次级服务商，这是继Qwen、GLM之后蚂蚁首次引入第三方多模态模型，国产大模型B端分销格局再次生变。"
+    ]
+  },
+  {
+    "id": "2026-10-13_ai_1",
+    "date": "2026-10-13",
+    "category": "AI",
+    "subcat": "AI公司",
+    "platform": "无问芯穹",
+    "platform_color": "#555555",
+    "title": "无问芯穹完成23亿元C轮融资",
+    "url": "https://finance.biggo.com/news/7ba944cf-c116-41bb-9104-7d6fb6affe7e",
+    "image": "images/2026-10-13/2026-10-13_ai_1.jpg",
+    "detail": [
+      "10月12日，国产异构算力公司无问芯穹（Infinigence AI）宣布完成23亿元人民币C轮融资，由国投招商、上海国资、中金资本联合领投，老股东红杉中国、启明创投继续追加。本轮融资金额创下近一年国内AI Infra赛道单笔之最。",
+      "无问芯穹核心产品为Infini-AI异构云，可将英伟达H卡、国产昇腾、寒武纪、海光等十余种芯片统一纳管，实现跨芯片的训练与推理调度，目前已为智谱、Kimi、阶跃星辰等头部厂商提供算力底座，月调度Token量突破40万亿。",
+      "创始人汪玉在声明中表示，本轮资金将用于三件事：扩建上海和贵阳两座万卡异构超节点、开源FlashMoE大模型推理框架、以及在东南亚新建两个海外推理节点，目标是把异构算力的综合成本在明年再压降一半。",
+      "值得注意的是，无问芯穹在本轮融资同步公布了FlashMoE-2推理框架，支持昇腾910C与H200混部，PD分离架构下MoE模型推理吞吐较vLLM提升2.4倍，10月15日起将在GitHub以Apache 2.0协议开源，被视为国产算力栈软硬协同的关键一步。"
+    ]
+  },
+  {
     "id": "2026-10-12_vibe_4",
     "date": "2026-10-12",
     "category": "VibeCoding",
