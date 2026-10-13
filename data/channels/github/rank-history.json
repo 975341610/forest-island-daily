@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-12": {
-      "bilawalsidhu/gods-eye-view": 1,
-      "ayghri/i-have-adhd": 2,
-      "github/spec-kit": 3,
-      "nashsu/llm_wiki": 4,
-      "alsk1992/CloddsBot": 5,
-      "freestylefly/awesome-gpt-image-2": 6,
-      "k2-fsa/OmniVoice": 7,
-      "vastsa/PI-Desktop": 8,
-      "Tencent/teamai-cli": 9,
-      "golang/go": 10,
-      "vercel-labs/skills": 11,
-      "react/react": 12,
-      "superplanehq/superplane": 13,
-      "armory3d/armorpaint": 14,
-      "bojieli/ai-agent-book": 15,
-      "donnemartin/system-design-primer": 16,
-      "t8y2/dbx": 17,
-      "vxcontrol/pentagi": 18,
-      "Tencent/WeKnora": 19,
-      "volcengine/OpenViking": 20,
-      "p1neappleXpress/OpenFlux": 21,
-      "Sonarr/Sonarr": 22,
-      "jordan-gibbs/hyperresearch": 23,
-      "melgarafael/DeskcommCRM": 24,
-      "jihe520/MathModelAgent": 25
-    },
     "2026-09-13": {
       "ayghri/i-have-adhd": 1,
       "bilawalsidhu/gods-eye-view": 2,
@@ -836,6 +809,33 @@
       "Wei-Shaw/sub2api": 23,
       "QuantumNous/new-api": 24,
       "multica-ai/multica": 25
+    },
+    "2026-10-13": {
+      "morluto/rea": 1,
+      "storytold/artcraft": 2,
+      "bilawalsidhu/gods-eye-view": 3,
+      "debpalash/VoiceStudio": 4,
+      "hugohe3/ppt-master": 5,
+      "paperclipai/paperclip": 6,
+      "Alishahryar1/free-claude-code": 7,
+      "chthollyphile/folia-major": 8,
+      "tashfeenahmed/freellmapi": 9,
+      "pytorch/pytorch": 10,
+      "public-apis/public-apis": 11,
+      "OpenBMB/VoxCPM": 12,
+      "CopilotKit/OpenIntelligentUI": 13,
+      "multimodal-art-projection/YuE": 14,
+      "ranxianglei/billion-context": 15,
+      "Crosstalk-Solutions/project-nomad": 16,
+      "rmyndharis/OpenWA": 17,
+      "ollama/ollama": 18,
+      "agalwood/Motrix": 19,
+      "microsoft/BitNet": 20,
+      "huggingface/transformers": 21,
+      "gtsteffaniak/filebrowser": 22,
+      "greensock/GSAP": 23,
+      "Armur-Ai/Pentest-Swarm-AI": 24,
+      "JoeanAmier/TikTokDownloader": 25
     }
   }
 }

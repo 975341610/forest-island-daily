@@ -3,8 +3,8 @@
   "repos": {
     "morluto/rea": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 25599,
+      "appearances": 2,
+      "total_today_stars": 70926,
       "language": "TypeScript",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
@@ -20,9 +20,9 @@
       "html_url": "https://github.com/boykopovar/AnyPS5"
     },
     "storytold/artcraft": {
-      "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 2957,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 7052,
       "language": "Rust",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
@@ -30,8 +30,8 @@
     },
     "debpalash/VoiceStudio": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 1225,
+      "appearances": 2,
+      "total_today_stars": 2916,
       "language": "Python",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4178343?v=4",
@@ -39,17 +39,17 @@
     },
     "hugohe3/ppt-master": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 1104,
+      "appearances": 2,
+      "total_today_stars": 1890,
       "language": "Python",
       "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
       "owner_avatar": "https://avatars.githubusercontent.com/u/188330578?v=4",
       "html_url": "https://github.com/hugohe3/ppt-master"
     },
     "bilawalsidhu/gods-eye-view": {
-      "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 886,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 2781,
       "language": "JavaScript",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/106619546?v=4",
@@ -57,17 +57,17 @@
     },
     "chthollyphile/folia-major": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 555,
+      "appearances": 2,
+      "total_today_stars": 1111,
       "language": "TypeScript",
       "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
       "owner_avatar": "https://avatars.githubusercontent.com/u/30263107?v=4",
       "html_url": "https://github.com/chthollyphile/folia-major"
     },
     "Alishahryar1/free-claude-code": {
-      "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 506,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 1132,
       "language": "Python",
       "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -75,8 +75,8 @@
     },
     "huggingface/transformers": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 501,
+      "appearances": 2,
+      "total_today_stars": 596,
       "language": "Python",
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "owner_avatar": "https://avatars.githubusercontent.com/u/25720743?v=4",
@@ -92,9 +92,9 @@
       "html_url": "https://github.com/anthropics/knowledge-work-plugins"
     },
     "pytorch/pytorch": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 315,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 844,
       "language": "Python",
       "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
       "owner_avatar": "https://avatars.githubusercontent.com/u/21003710?v=4",
@@ -111,8 +111,8 @@
     },
     "CopilotKit/OpenIntelligentUI": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 278,
+      "appearances": 2,
+      "total_today_stars": 528,
       "language": "TypeScript",
       "description": "Open-Source Generative UI Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/131273140?v=4",
@@ -138,8 +138,8 @@
     },
     "agalwood/Motrix": {
       "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 158,
+      "appearances": 2,
+      "total_today_stars": 271,
       "language": "TypeScript",
       "description": "A full-featured download manager.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1032175?v=4",
@@ -225,6 +225,132 @@
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
       "html_url": "https://github.com/multica-ai/multica"
+    },
+    "paperclipai/paperclip": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 633,
+      "language": "TypeScript",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/264498616?v=4",
+      "html_url": "https://github.com/paperclipai/paperclip"
+    },
+    "tashfeenahmed/freellmapi": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 548,
+      "language": "TypeScript",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
+      "html_url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    "public-apis/public-apis": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 432,
+      "language": "Python",
+      "description": "A collective list of free APIs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/51121562?v=4",
+      "html_url": "https://github.com/public-apis/public-apis"
+    },
+    "OpenBMB/VoxCPM": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 290,
+      "language": "Python",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/89920203?v=4",
+      "html_url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    "multimodal-art-projection/YuE": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 216,
+      "language": "Python",
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/136257670?v=4",
+      "html_url": "https://github.com/multimodal-art-projection/YuE"
+    },
+    "ranxianglei/billion-context": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 216,
+      "language": "TypeScript",
+      "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/12445698?v=4",
+      "html_url": "https://github.com/ranxianglei/billion-context"
+    },
+    "Crosstalk-Solutions/project-nomad": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 213,
+      "language": "TypeScript",
+      "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/105950641?v=4",
+      "html_url": "https://github.com/Crosstalk-Solutions/project-nomad"
+    },
+    "rmyndharis/OpenWA": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 168,
+      "language": "TypeScript",
+      "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2390382?v=4",
+      "html_url": "https://github.com/rmyndharis/OpenWA"
+    },
+    "ollama/ollama": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 133,
+      "language": "Go",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
+      "html_url": "https://github.com/ollama/ollama"
+    },
+    "microsoft/BitNet": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 97,
+      "language": "C++",
+      "description": "Official inference framework for 1-bit LLMs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/BitNet"
+    },
+    "gtsteffaniak/filebrowser": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 64,
+      "language": "Go",
+      "description": "📂 Web File Browser",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/42989099?v=4",
+      "html_url": "https://github.com/gtsteffaniak/filebrowser"
+    },
+    "greensock/GSAP": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 56,
+      "language": "JavaScript",
+      "description": "GSAP (GreenSock Animation Platform), a JavaScript animation library for the modern web",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2386673?v=4",
+      "html_url": "https://github.com/greensock/GSAP"
+    },
+    "Armur-Ai/Pentest-Swarm-AI": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 50,
+      "language": "Go",
+      "description": "Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go and 7+ native security tools.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/119650378?v=4",
+      "html_url": "https://github.com/Armur-Ai/Pentest-Swarm-AI"
+    },
+    "JoeanAmier/TikTokDownloader": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 49,
+      "language": "JavaScript",
+      "description": "抖音 / TikTok 平台作品下载/数据采集工具",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/49263334?v=4",
+      "html_url": "https://github.com/JoeanAmier/TikTokDownloader"
     }
   }
 }
