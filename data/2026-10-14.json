@@ -1,0 +1,264 @@
+[
+  {
+    "id": "2026-10-14_vibe_6",
+    "date": "2026-10-14",
+    "category": "VibeCoding",
+    "subcat": "GitHub Trending",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "free-claude-code 浏览器多模型会话",
+    "url": "https://github.com/Alishahryar1/free-claude-code",
+    "image": "images/2026-10-14/2026-10-14_vibe_6.jpg",
+    "detail": [
+      "Alishahryar1/free-claude-code 把自己定位成 Claude Code / Codex / VSCode / Pi / OpenCode 等 11 种 harness 的免费代理，宣称已累计提供 13 亿免费 token，并最新加入了浏览器原生会话，可以直接在网页端跑多 harness + 多模型。",
+      "实现上是一层 Anthropic Messages API 代理，把 Claude Code 的客户端协议原封不动地转发到 NVIDIA NIM、OpenRouter、DeepSeek、LM Studio、llama.cpp 或 Ollama 等后端，Claude Code 2.1.126+ 还能通过 /v1/models 直接枚举代理里的所有模型，并支持 ToS 友好、语音输入、类似 OpenClaw 的浏览器会话编排。",
+      "仓库 10 月 13 日新增 626 Star，总 Star 冲到约 5.9 万，在 GitHub.hot 当日热榜稳居前三，被社区当作「白嫖党和多模型评测党的瑞士军刀」，但也引发关于订阅合规和 OpenAI Codex CLI 自动更新 daemon 的讨论。"
+    ]
+  },
+  {
+    "id": "2026-10-14_vibe_5",
+    "date": "2026-10-14",
+    "category": "VibeCoding",
+    "subcat": "开发者工具",
+    "platform": "ProductHunt",
+    "platform_color": "#F6A07C",
+    "title": "Edgee Mod 让 Claude Code 换任意模型",
+    "url": "https://orangebot.ai/product-hunt-today",
+    "image": "images/2026-10-14/2026-10-14_vibe_5.jpg",
+    "detail": [
+      "Edgee Mod for Claude Code 是 10 月 12 日登陆 Product Hunt 的开发者产品，主打一句话：在不放弃现有 Claude 订阅计划的前提下，让 Claude Code 内部可以切换任意第三方模型，解决付费用户想试 GPT-6.1 Sol、Grok 4.7 等外部模型的痛点。",
+      "产品以本地 Mod 形式接入 Claude Code 的消息协议，把 Anthropic Messages API 请求转发到 OpenRouter、DeepSeek、NVIDIA NIM、LM Studio 乃至 Ollama 等后端，同时保留 /model 选择器、流式输出和工具调用等客户端行为，不改前端只换路由层。",
+      "它和同日上榜的 Farol（显示哪个 coding agent 需要你介入的 macOS 终端）、DevTerminal（带 Run 按钮的项目感知终端）组成了 10 月 12 日 PH 上集中出现的「Claude Code / Codex 周边工具潮」，被评论区形容为给订阅党的「模型自由开关」。"
+    ]
+  },
+  {
+    "id": "2026-10-14_vibe_3",
+    "date": "2026-10-14",
+    "category": "VibeCoding",
+    "subcat": "Claude Code 更新",
+    "platform": "Anthropic",
+    "platform_color": "#F6A07C",
+    "title": "Claude Code 2.1.296 工作流级模型锁定",
+    "url": "https://tech-insider.org/codex-cli-0-162-vs-claude-code-2-1-296-2026/",
+    "image": "images/2026-10-14/2026-10-14_vibe_3.jpg",
+    "detail": [
+      "Anthropic 在 10 月 9 日推送 Claude Code 2.1.296，新增环境变量 CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL，可以把一条多步工作流里所有子 Agent 强制钉在同一个模型上，把模型选择从「每个 subagent 各自默认」抬成工作流级策略开关。",
+      "同版本还给每个子 Agent 增加独立的 autoCompactWindow 阈值，不再被全局配置绑死；并修复了一个 managed hook 拒绝工具调用后 Agent 回合没有结束的 bug，这对运行长链路、成本敏感的企业 pipeline 来说是直接可用的收敛能力。",
+      "Havoptic 数据显示 Claude Code 本月已发布 25+ 个版本、平均不到 1 天 1 版，GitHub 累计 15 万 Star、npm 周下载量 1250 万；外部评测把这次更新与 Codex CLI 0.162 的 Git worktree、任务 Pin 功能放在同一周对比，视为「终端编程 Agent 开始卷企业级工作流管线」的信号。"
+    ]
+  },
+  {
+    "id": "2026-10-14_vibe_2",
+    "date": "2026-10-14",
+    "category": "VibeCoding",
+    "subcat": "开源发布",
+    "platform": "OpenCode",
+    "platform_color": "#F6A07C",
+    "title": "OpenCode 2.0 终端桌面网页共享服务",
+    "url": "https://daily.dev/posts/a-major-overhaul-opencode-2-0-puts-its-terminal-desktop-and-web-apps-on-one-shared-service-n83yfv85z",
+    "image": "images/2026-10-14/2026-10-14_vibe_2.jpg",
+    "detail": [
+      "OpenCode 是最活跃的开源 AI 编程 Agent 之一，10 月 11 日正式从公测走向 2.0 稳定版，核心变化是让终端、桌面和 Web 三端共用同一个后台 service，开发者可以在 CLI 里起会话、再切到桌面或浏览器继续，而不是各开各的进程。",
+      "2.0 同时发布了重写的 API、@opencode/sdk 可嵌入 SDK，以及把 MCP 工具转成 JavaScript 可调用函数的 Code Mode，让 Agent 一次执行就能串多个 MCP、避免反复 round-trip 污染上下文；子 Agent 和 shell 命令也支持后台跑，边 review 边继续写代码。",
+      "升级要用 opencode upgrade --major 或 /update 手动触发，1.x 插件与旧 server API 均不兼容，社区在 X 上评价「从交互助手升级为可编程开发平台」，并把它视为 Claude Code 和 Codex CLI 的开源对位选择。"
+    ]
+  },
+  {
+    "id": "2026-10-14_game_6",
+    "date": "2026-10-14",
+    "category": "Gaming",
+    "subcat": "新游",
+    "platform": "PC",
+    "platform_color": "#7CF6A0",
+    "title": "《幕府将军2:完全版》今日上线",
+    "url": "https://www.sega.com/news/shogun-2-complete-edition-arrives-october-13-2026",
+    "image": "images/2026-10-14/2026-10-14_game_6.jpg",
+    "detail": [
+      "SEGA 与 Creative Assembly 的《全面战争:幕府将军2 - 完全版》10 月 13 日正式登陆 PC,打包 2011 年原作与全部三部战役以及所有 DLC 内容。老玩家可凭原版获得旧 DLC 免费继承及限时 75% 忠诚折扣。",
+      "完全版带来大量现代化升级:1440p/4K UI 缩放、超宽屏支持、64 位引擎升级、全新简体中文和日文语音文本、改进光影效果、Mod.io 社区集成,并开放 50 多个新派系。涵盖「幕府将军 2」「武士崛起」「武士之殇」三部战役,跨越日本 700 年历史。",
+      "老玩家对复活经典策略神作一片欢腾,Steam 评论首日好评涌入;但 Mod 社区颇有怨言——由于切换到 Mod.io,旧版 Mod 无法直接迁移,需开发者重建,社区正紧急呼吁热门 Mod 作者尽快适配新版本。"
+    ]
+  },
+  {
+    "id": "2026-10-14_game_5",
+    "date": "2026-10-14",
+    "category": "Gaming",
+    "subcat": "新游",
+    "platform": "PC/Xbox",
+    "platform_color": "#7CF6A0",
+    "title": "《深盘地牢》登陆XGP首发",
+    "url": "https://www.gamespress.com/Raw-Furys-Deep-Dish-Dungeon-Now-Available-on-XBOX-and-PC",
+    "image": "images/2026-10-14/2026-10-14_game_5.jpg",
+    "detail": [
+      "瑞典独立发行商 Raw Fury 与 Behold Studios 合作的地牢探索游戏《深盘地牢》(Deep Dish Dungeon)10 月 13 日正式发售,首发登陆 Xbox Game Pass 以及 PC Steam、Xbox 云游戏、Xbox 掌机。开发组曾打造《骑士纸笔RPG》《Chroma Squad》等独立佳作。",
+      "游戏采用手工打造的地牢关卡,融合类银河恶魔城探索与制作元素,支持最多 3 人在线合作。玩家需要在营地升级工具、烹饪料理补足属性,并通过耐心解谜揭开地牢深处的秘密,强调「好奇心与资源管理」的核心乐趣。",
+      "作为 Xbox Play Anywhere 支持游戏,《深盘地牢》首发即进 XGP 的策略广受好评,玩家点赞其温馨地牢氛围与料理养成系统;Steam 评论首波反馈集中夸赞美术风格可爱,但部分玩家吐槽联机匹配偶尔卡顿,期待后续补丁。"
+    ]
+  },
+  {
+    "id": "2026-10-14_game_4",
+    "date": "2026-10-14",
+    "category": "Gaming",
+    "subcat": "新游",
+    "platform": "PC",
+    "platform_color": "#7CF6A0",
+    "title": "《垃圾日》六人浣熊合作上线",
+    "url": "https://store.steampowered.com/news/app/3314580/view/670630562731396463",
+    "image": "images/2026-10-14/2026-10-14_game_4.jpg",
+    "detail": [
+      "物理合作游戏《垃圾日》(Trash Day)10 月 13 日 Steam 正式发售,支持最多 6 人联机。玩家化身浣熊小队,偷来购物车/马车,把城市垃圾一路运往「浣熊天堂」。开发商 Off By One Games 由前 Rocket League 团队组成,专注搞笑物理玩法。",
+      "游戏首发 10% 折扣,售价约 7.82 新币(约 1 美元出头)。相比 Demo 版本,正式版扩展到 6 大区域——从动物管制所到废品场,新增障碍与大量垃圾素材,22 首授权音乐全部免版权。Demo 期间曾杀入 Steam Next Fest Demo 人气榜前 50。",
+      "玩家反响极热烈,Steam 评论区首日涌入大量「好评」,社区称其为「浣熊版《胡闹厨房》」;Discord 被组队求友淹没,主播圈集体直播翻车场面,成为 10 月中旬最意外的黑马派对游戏之一。"
+    ]
+  },
+  {
+    "id": "2026-10-14_game_3",
+    "date": "2026-10-14",
+    "category": "Gaming",
+    "subcat": "评测",
+    "platform": "Switch/PC/PS5/Xbox",
+    "platform_color": "#7CF6A0",
+    "title": "《恶魔城:贝尔蒙特之咒》评测",
+    "url": "https://www.ign.com/articles/castlevania-belmonts-curse-review",
+    "image": "images/2026-10-14/2026-10-14_game_3.jpg",
+    "detail": [
+      "科乐美《恶魔城:贝尔蒙特之咒》由《死亡细胞》开发组 Evil Empire/Motion Twin 打造,10 月 15 日登陆 PS5/Xbox/PC/Switch。游戏时隔近二十年回归 2D 类银河恶魔城,主角 Rose Belmont 在 1499 年火海巴黎展开讨伐德古拉之旅。",
+      "IGN 已于 10 月 13 日放出评测,盛赞战斗系统爽快流畅、鞭索勾拉机制好评、Rose 角色塑造立体,塔罗牌召唤设定脑洞大开;但同时指出敌人种类偏少、支线武器消失、关卡存读加载过长,「更像一款披着《恶魔城》皮的优秀银河城」。Bloody Disgusting 则给予高分。",
+      "Famitsu 四位评审打出 32/40(8/8/8/8)稳健开局。玩家普遍期待度拉满,但对 Switch 平台无原生 Switch 2 版本颇有微词,呼吁后续追加 60 帧升级补丁;Demo 存档可继承至正式版的设计受到好评。"
+    ]
+  },
+  {
+    "id": "2026-10-14_game_2",
+    "date": "2026-10-14",
+    "category": "Gaming",
+    "subcat": "评测",
+    "platform": "PC/PS5/Xbox",
+    "platform_color": "#7CF6A0",
+    "title": "《动物园之星2》IGN获9分神作",
+    "url": "https://www.ign.com/articles/planet-zoo-2-review",
+    "image": "images/2026-10-14/2026-10-14_game_2.jpg",
+    "detail": [
+      "Frontier Developments 的管理模拟续作《动物园之星2》(Planet Zoo 2)10 月 13 日全平台数字发售,标准版 49.99 美元。新作首次加入全水生物种、飞行鸟类以及「野生动物保护区」玩法,支持生涯、经营和沙盒三大模式。",
+      "IGN 给予 9 分并授予编辑选择奖,盛赞其视觉升级、动物 AI 行为更拟真、工坊分享功能完善,堪称「活力四射的续作典范」。但 GameWatcher 仅给出 7.5 分,批评 UI 繁杂、首发 Bug 多、微操门槛过高,认为 Frontier 依旧偏向硬核老玩家而忽视休闲群体。",
+      "玩家社区热情高涨,Steam 工坊发售首日即涌入上千个自制蓝图,鲨鱼与红鹤的仿真动画获得玩家刷屏点赞;不过性能党抱怨开启光追后帧率骤降,帧生成功能存在 Bug,期待 Frontier 后续补丁优化。"
+    ]
+  },
+  {
+    "id": "2026-10-14_game_1",
+    "date": "2026-10-14",
+    "category": "Gaming",
+    "subcat": "评测",
+    "platform": "PC/PS5/Xbox",
+    "platform_color": "#7CF6A0",
+    "title": "IGN《战殁》评测:8分硬核魂系",
+    "url": "https://www.ign.com/articles/valor-mortis-review",
+    "image": "images/2026-10-14/2026-10-14_game_1.jpg",
+    "detail": [
+      "《战殁》(Valor Mortis)由《幽影行者》开发商 One More Level 打造,10 月 13 日登陆 PC/PS5/Xbox。游戏将魂系战斗、BioShock 式左手魔法与第一人称视角结合,背景设定在拿破仑战争时期一座被瘟疫吞噬的欧洲城市。",
+      "IGN 给出 8 分推荐,评价玩法混合剑斗、枪械与法术,20 小时流程让人印象深刻;但同时指出技术不稳定——频繁崩溃、不均衡的帧数以及部分 Boss 关卡设计粗糙,成了拖后腿的问题点。GamesRadar 仅给出中评,而 Insider Gaming 则打出 9 分,媒体口碑严重分裂。",
+      "玩家反馈同样两极化:支持者盛赞其大胆创新与「视觉冲击力」,Steam 评论区点赞第一人称跑酷与魔法连携;反对者则抱怨优化稀烂、新手劝退,呼吁开发商尽快推出首日补丁,目前 Steam 评价维持在「多半好评」。"
+    ]
+  },
+  {
+    "id": "2026-10-14_ai_6",
+    "date": "2026-10-14",
+    "category": "AI",
+    "subcat": "科研联盟",
+    "platform": "Science and Technology Daily",
+    "platform_color": "#7C9EF6",
+    "title": "丘成桐数学AI联盟成立",
+    "url": "https://www.stdaily.com/web/English/2026-10/13/content_594434.html",
+    "image": "images/2026-10-14/2026-10-14_ai_6.jpg",
+    "detail": [
+      "北京时间10月13日，由菲尔兹奖得主丘成桐领衔的「丘成桐数学与人工智能实验室联盟」在清华大学正式成立并被官方媒体广泛报道。联盟集结清华求真书院、数学科学中心、上海数学与跨学科科学研究院等八大顶尖机构，统筹约1000名数学家。",
+      "核心议程包括开发面向数学研究的专用AI大模型、AI辅助形式化证明与猜想生成、可解释AI、跨学科智能计算。规划在北京、上海、南京、深圳、香港五城布局共享实验室与算力资源，但资源仅限联盟成员使用，暂不公开。",
+      "丘成桐在成立仪式上将AI对数学的冲击形容为「海啸」，直言中国在前沿科学AI系统上与美国差距明显，与陶哲轩等建议AI配速论的西方学者立场相反。他点名OpenAI 10月6日发布的722篇AI数学论文虽有符号错误被撤回，但方向令人震撼。",
+      "联盟发布的首批成果涵盖退化Arnold猜想、极小修正有界性、7维同伦球等前沿课题，部分已借助AI探索证明策略并由计算机代数系统验证。社区认为这是中国举全国之力建立AI for Math研究网络的信号，与OpenAI、DeepMind形成直接对标。"
+    ]
+  },
+  {
+    "id": "2026-10-14_ai_5",
+    "date": "2026-10-14",
+    "category": "AI",
+    "subcat": "AI支付",
+    "platform": "explainx.ai",
+    "platform_color": "#7C9EF6",
+    "title": "Amex推Agent购物意图框架",
+    "url": "https://www.explainx.ai/blog/amex-intent-intelligence-framework-ai-agents-unauthorized-purchases-2026",
+    "image": "images/2026-10-14/2026-10-14_ai_5.jpg",
+    "detail": [
+      "美国运通（American Express）于10月13日正式发布Intent Intelligence Framework，旨在为AI Agent代付购物建立行业首个意图确权标准，解决Agent「擅自买错东西」的痛点。该框架要求消费者先确认Agent的购买意图并签发「意图令牌」（Proof of Intent Token）。",
+      "技术层面，消费者在确认Agent代购清单后，支付凭证会被包裹在意图令牌中，Agent仅能使用该令牌触发的支付通道完成交易，若超出意图范围则触发风控拦截。Amex称该方案与AWS AgentCore Payments、Anchor Browser等x402协议体系兼容。",
+      "同日AWS与Anchor Browser宣布，浏览器Agent可在单会话预算内支付受x402协议保护的页面，签名动作由AgentCore完成，私钥永远不进入Agent运行时。两项发布被视为AI代理商务（agentic commerce）迈入主流金融基础设施的标志。",
+      "社区解读指出，这是继Visa、Mastercard推Agent信用卡试点后，美国信用卡巨头首次把Agent支付纳入统一产品标准，预示着OpenAI Operator、Anthropic Claude Computer Use等Agent产品落地电商将进入合规加速期。"
+    ]
+  },
+  {
+    "id": "2026-10-14_ai_4",
+    "date": "2026-10-14",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "AI Weekly",
+    "platform_color": "#7C9EF6",
+    "title": "微博VibeThinker-3B冲榜",
+    "url": "https://aiweekly.co/alerts/weibo-vibethinker-3b-scores-943-on-aime-2026",
+    "image": "images/2026-10-14/2026-10-14_ai_4.jpg",
+    "detail": [
+      "微博AI团队10月13日发布推理模型VibeThinker-3B并开源权重，参数量仅30亿但在AIME 2026基准上拿下94.3高分，刷新小参数推理模型纪录。该模型以MIT许可证发布，开发者可自由商用，被社区誉为「小模型中的前沿级推理机」。",
+      "模型主打强化学习与过程监督的训练范式，使用3200条带outcome标签的数据训练出4B级Process Judge，在多个指标上击败GPT-5.4与Claude Opus。另一款4B GroundingPI模型在34个基准上超越GPT-6 Astra，物理机器人指标最高提升24.8%。",
+      "这是微博首次以AI实验室身份进入前沿模型行列，被视为中国「六小虎」之外的黑马。开源社区认为3B参数加94%AIME分数证明小模型路线仍有巨大潜力，Simon Willison等开发者已在MacBook上成功本地部署测试。",
+      "叠加小米MiMo-V2.6-Pro、Z.AI的GLM-5.3等近期动作，中国开源推理模型集群正在Artificial Analysis榜单上围攻美国闭源阵营。VibeThinker-3B的高性价比（约每百万token数美分）已吸引下游Agent工具快速接入。"
+    ]
+  },
+  {
+    "id": "2026-10-14_ai_3",
+    "date": "2026-10-14",
+    "category": "AI",
+    "subcat": "AI芯片",
+    "platform": "SCMP",
+    "platform_color": "#7C9EF6",
+    "title": "英伟达中国份额跌至34%",
+    "url": "https://www.scmp.com/tech/big-tech/article/3298765/nvidia-china-ai-chip-share-falls-domestic-rivals-close-gap-idc-report",
+    "image": "images/2026-10-14/2026-10-14_ai_3.jpg",
+    "detail": [
+      "路透社10月13日独家援引IDC未公开报告披露，英伟达在中国数据中心AI芯片市场的份额于2026年上半年骤降至34%，而华为凭借昇腾系列强势冲到28%，中美科技博弈下的国产替代进入新阶段。英伟达今年上半年在华出货678,000颗AI加速器，同比暴跌44%。",
+      "华为上半年出货572,000颗，比去年同期的30万颗翻近一倍。阿里T-Head占7%，寒武纪5%，百度昆仑芯4%，海光3%，IDC追踪的11家中国厂商中有9家出货同比上升。中国AI加速器总出货量首次突破200万颗，达到2,008,000颗。",
+      "更关键的结构性变化是GPU出货量同比下降26%至99.1万颗，而非GPU AI加速器大涨近80%至101.6万颗，首次在数量上超过GPU。华为、T-Head、昆仑芯、寒武纪合计占领非GPU赛道95%份额，政府机构、互联网公司与运营商成主要买家。",
+      "黄仁勋多次公开抱怨出口管制让英伟达丢掉价值500亿美元的中国市场。IDC预测今年中国加速器总出货量仍将增长19%，GPU出货量下滑9%，竞争焦点正从单芯片性能转向系统集群能力，这为国产AI基础设施厂商打开更大窗口。"
+    ]
+  },
+  {
+    "id": "2026-10-14_ai_2",
+    "date": "2026-10-14",
+    "category": "AI",
+    "subcat": "宏观",
+    "platform": "IMF官网",
+    "platform_color": "#7C9EF6",
+    "title": "IMF警告AI泡沫系统性风险",
+    "url": "https://www.imf.org/en/publications/gfsr/issues/2026/10/13/global-financial-stability-report-october-2026",
+    "image": "images/2026-10-14/2026-10-14_ai_2.jpg",
+    "detail": [
+      "国际货币基金组织于北京时间10月13日在曼谷年会发布《全球金融稳定报告》，正式将「AI驱动的市场修正」列为三大近期系统性风险之一，与主权债券收益率飙升、重大网络攻击并列。这是IMF首次把AI泡沫写入旗舰金融稳定报告的「显著风险」。",
+      "报告披露了触目惊心的数据，自2024年以来超大规模云厂商的投资级债券发行占比从不足1%暴涨到10%，对冲基金的毛股票敞口加保证金贷款占发达经济体GDP从10%升至约15%。更关键的是，自2023年至今14笔公开披露的「循环融资」交易涉及约3000亿美元股权与6500亿美元债务，换取1.4万亿美元未来收入承诺。",
+      "副司长Vamvakidis在新闻会强调「韧性不等于安全」，世界对美股特别是AI资产的敞口已达历史最高位。严重压力情景下，占全球银行资产22%的机构将落入弱势类别，高于去年的18%。先进亚洲市场、尤其是中国台湾与韩国受冲击敏感度最高。",
+      "消息发布后亚洲芯片股当日剧烈震荡，Kospi盘中跌超6%，SK海力士最深跌9.2%，三星电子跌8.8%，CXMT内存架构报告放大跌幅。社区解读认为IMF此番定性将推动监管层下场审视杠杆AI ETF与循环融资。"
+    ]
+  },
+  {
+    "id": "2026-10-14_ai_1",
+    "date": "2026-10-14",
+    "category": "AI",
+    "subcat": "Claude",
+    "platform": "Anthropic Blog",
+    "platform_color": "#7C9EF6",
+    "title": "Anthropic蒸馏防御砍90-99%",
+    "url": "https://www.anthropic.com/news/strengthening-defenses-against-distillation-attacks",
+    "image": "images/2026-10-14/2026-10-14_ai_1.jpg",
+    "detail": [
+      "Anthropic于10月12日发布研究博客，披露过去数月针对Claude的「蒸馏攻击」防御方法已取得显著成效，该议题随后在10月13日被IMF与多家媒体广泛讨论。蒸馏攻击指攻击者通过伪造账号网络大规模调用前沿模型，复刻其能力到自家模型中。",
+      "核心数据显示，新方案由「保留思考分类器」、使用限额与账户封禁三部分组成，可将蒸馏者获取的推理数据减少约90%至99%，推理窃取被下调10到100倍。两阶段分类器误报率低于0.1%，且禁止8月31日后新建的API账号编辑Claude历史上下文，部署两小时内即封禁上万账号。",
+      "Anthropic点名智谱(Zhipu)曾蒸馏Claude的网络能力用于GLM-4.5，这被视为中美AI能力追赶的关键手段。该博客公开后，社区关注「开源模型是否正在吃闭源模型红利」的讨论再度升温，分析认为此举或改变API商业模式与安全评估逻辑。",
+      "此次防御发布恰逢Anthropic筹备IPO敏感期，Bloomberg 13日评论指出，Claude被滥用、蒸馏攻击与模型行为规范是公司上市前最棘手议题，而非表面上的模型情感条款。"
+    ]
+  }
+]

@@ -43,20 +43,16 @@
     "id": "2026-09-08_vibecoding_3",
     "date": "2026-09-08",
     "category": "VibeCoding",
-    "subcat": "GitHub趋势",
+    "subcat": "AI 编程工具",
     "platform": "GitHub",
     "platform_color": "#F6A07C",
-    "title": "context-mode:上下文省98%",
+    "title": "context-mode 省 98% 上下文 MCP 插件",
     "url": "https://github.com/mksglu/context-mode",
-    "image": "images/2026-09-08/2026-09-08_vibecoding_3.jpg",
+    "image": "images/2026-10-14/2026-10-14_vibe_4.jpg",
     "detail": [
-      "开发者mksglu的开源项目context-mode冲上GitHub今日趋势榜，当日新增约85颗星。",
-      "这个工具专门解决AI编程代理的「上下文窗口爆炸」问题:每次MCP工具调用都会把原始数据灌进上下文，一张Playwright快照就要56KB、二十个GitHub issue要59KB，半小时后约40%的上下文就被吃光。",
-      "\n它的做法是把工具输出「沙箱化」，据称可减少98%的上下文占用，同时持久化会话记忆，让代理在压缩对话后仍记得正在编辑哪些文件、有哪些进行中的任务。",
-      "项目通过MCP加钩子的机制，在PreToolUse阶段拦截并路由数据，宣称支持包括Claude Code、Gemini CLI、GitHub Copilot CLI、Cursor等在内的17个平台。",
-      "作者特意强调工具只管「数据去哪」，不干预模型最终如何措辞。",
-      "\n项目仓库已累积2000多次提交，社区反响热烈。",
-      "它与Spotify的shunt方案思路相通，都指向同一趋势:随着AI编程代理长时间运行，如何精打细算地管理上下文与token成本，正成为2026年开发者工具竞争的新焦点。"
+      "mksglu/context-mode 把自己定位成「上下文问题的另一半」：Playwright 一次快照 56 KB、20 条 GitHub issue 59 KB，30 分钟就能吞掉 40% 的上下文，而这个 MCP 插件通过沙箱化工具输出把 315 KB 压到 5.4 KB，官方宣称减少 98%。",
+      "核心手法有四条：ctx_execute 让模型写 JS 跑分析而不是把文件读进上下文；所有文件编辑、git 操作、任务、错误都写进 SQLite 并用 FTS5 + BM25 检索；跨 Claude Code、Gemini CLI、Codex、Copilot、OpenCode 等 17 个平台通过 MCP + hooks 做路由；不强推 brevity prompt 以免拉低编码基准。",
+      "仓库 10 月 13 日新增 969 Star 冲到 GitHub.hot 第 7 位，当前 Star 约 2.7–2.8 万，npm 月下载 10 万+，并被 Hacker News 讨论为「MCP 时代第一个真正解决 context 爆炸的工具」。"
     ]
   },
   {
