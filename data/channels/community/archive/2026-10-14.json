@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T00:27:45Z",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "title": "Simon Willison: Codex 新玩法 + Tailscale 本地 LLM 工作流",
+      "platform": "HN",
+      "url": "https://simonwillison.net/2026/Oct/12/codex-tailscale/",
+      "summary": "Simon Willison 在博客连发两篇长文，分享自己用 OpenAI Codex 搭配 Tailscale 把本地 GPU 盒接入远程 agent 的工作流，详细记录了如何让 Codex 自主完成 SSH 配置、模型下载、服务起停与健康检查，全程 30 分钟零人工。帖子被 HN 首页收录，评论区围绕 vibecoding 工作流可复制性、远程 agent 安全边界、硬预算上限等话题展开激烈讨论，被多位开发者称为 2026 Q4 最具参考价值的 agent 实践笔记之一。",
+      "engagement": "HN 500+ 分 / 300+ 评论"
+    },
+    {
+      "title": "Show HN: 把 PS2 游戏静态重编译到 WebAssembly 的开源项目爆火",
+      "platform": "HN",
+      "url": "https://news.ycombinator.com/item?id=50052251",
+      "summary": "开发者 snuri00 公布一个把 PS2 原生 ELF 静态重编译成 WebAssembly 的工具链，首批演示跑《Ratchet & Clank》《Shadow of the Colossus》等经典作，直接在浏览器里以 60fps 运行且无需模拟器 JIT。帖子登上 HN 首页第三位，Reddit 游戏复古圈同步转载，被认为是继 N64 recomp 后又一次 \"把老主机释放到网页\" 的里程碑。评论聚焦兼容率、GPU 后端选型（WebGPU vs WebGL2）与法律灰区。",
+      "engagement": "268 points / 140 comments"
+    },
+    {
+      "title": "Planet Zoo 2 发售当天好评如潮，IGN/PushSquare 双 9 分",
+      "platform": "Reddit",
+      "url": "https://www.pushsquare.com/reviews/ps5/planet-zoo-2",
+      "summary": "Frontier 的《Planet Zoo 2》10/13 全球上线，新增水族馆、全飞行鸟舍、野生动物保护区自由摄影，130+ 物种与跨服动物交易系统获玩家一致好评。IGN、PushSquare 均给出 9/10，Steam 评论区首日 \"特别好评\"。r/pcgaming、r/gaming 的发售日感想贴涌入上千条玩家晒园区截图，讨论焦点是建造 UI 复杂度与保护区深度，被认为是本周最成功的管理模拟品类发售。",
+      "engagement": "Steam 首日好评率 92% / Reddit 1K+ 评论"
+    }
+  ],
+  "topics": [
+    {
+      "name": "Meta Muse Wonder 发布",
+      "summary": "Meta 10/13 公布代号 Watermelon 的全新前沿模型 Muse Wonder，由 AI 负责人 Alexandr Wang 亲自带队，宣称在代码、金融、法律等任务上对标 GPT-6 与 Claude Opus 5.5，并通过 Meta API/Muse Code 开放给开发者，不久将接入 Muse 订阅助手。X 和中文财经社区热议 Meta 是否终于补齐前沿模型短板。",
+      "url": "http://finance.sina.com.cn/7x24/2026-10-13/doc-iniuyxuw0465202.shtml"
+    },
+    {
+      "name": "丘成桐数学 × AI 实验室联盟",
+      "summary": "菲尔兹奖得主丘成桐 10/11 牵头在清华成立 \"数学与人工智能实验室联盟\"，联合八家顶级数学机构，目标是用 AI 加速数学研究、以数学理论反哺大模型，并计划聚集千名数学家共建 AI 数学科学模型。消息在国内学术圈与 X/知乎迅速发酵，被视为中国版 AlphaProof 布局的关键一步。",
+      "url": "http://finance.sina.com.cn/jjxw/2026-10-13/doc-iniuyxuw0461016.shtml"
+    },
+    {
+      "name": "Valor Mortis 第一人称魂系新秀",
+      "summary": "One More Level 开发、Lyrical Games 发行的《Valor Mortis》10/13 上线 Steam，拿破仑战争背景 + 第一人称魂系动作的组合在 Steam/Reddit/B 站引发大量试玩视频与剪辑，首日入围 Steam 热销榜前列，被玩家戏称 \"法兰西版黑暗之魂\"，带动一波第一人称 Soulslike 讨论。",
+      "url": "https://store.steampowered.com/app/2828710/Valor_Mortis/"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Simon Willison",
+      "platform": "个人博客 / HN",
+      "recent_work": "A new feature for my blog, built using my voice",
+      "url": "https://simonwillison.net/2026/Oct/9/voice-blog-feature/",
+      "summary": "LLM 工具链布道师，10 月连续产出 Codex、Claude Haiku 5.5、硬预算上限、语音编辑博客等高价值长文，是 vibecoding 圈最被信赖的实操来源，10/12 新发文被 HN 推上首页。"
+    },
+    {
+      "name": "技术爬爬虾",
+      "platform": "B站",
+      "recent_work": "Codex (APP) 保姆级全攻略，一期精通 Codex",
+      "url": "https://www.bilibili.com/video/BV13HEw6rEDa/",
+      "summary": "B 站头部 AI 编程 UP 主，本周围绕 Codex App 与 Claude Code 对比发布多期长视频，单条播放破百万，带动中文开发者社区对终端 agent 工作流的集中讨论。"
+    },
+    {
+      "name": "James Watson (PushSquare)",
+      "platform": "游戏媒体 / Reddit",
+      "recent_work": "Planet Zoo 2 Review (PS5) - 9/10",
+      "url": "https://www.pushsquare.com/reviews/ps5/planet-zoo-2",
+      "summary": "PushSquare 资深模拟经营评测人，10/13 首发 Planet Zoo 2 全面评测，围绕水族馆/保护区/摄影等新机制给出 9 分，评论和转载在 r/gaming、r/PlanetZoo 持续发酵，是本周管理模拟品类话题的主要引导者。"
+    }
+  ]
+}
