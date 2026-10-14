@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-13": {
-      "ayghri/i-have-adhd": 1,
-      "bilawalsidhu/gods-eye-view": 2,
-      "jordan-gibbs/hyperresearch": 3,
-      "stablyai/orca": 4,
-      "k2-fsa/OmniVoice": 5,
-      "melgarafael/DeskcommCRM": 6,
-      "nashsu/llm_wiki": 7,
-      "alphaXiv/OpenResearch": 8,
-      "pascalorg/editor": 9,
-      "alsk1992/CloddsBot": 10,
-      "github/spec-kit": 11,
-      "p1neappleXpress/OpenFlux": 12,
-      "vastsa/PI-Desktop": 13,
-      "Tencent/WeKnora": 14,
-      "alibaba/open-code-review": 15,
-      "jihe520/MathModelAgent": 16,
-      "armory3d/armorpaint": 17,
-      "Shubhamsaboo/awesome-llm-apps": 18,
-      "Sonarr/Sonarr": 19,
-      "multimodal-art-projection/YuE": 20,
-      "nab138/iloader": 21,
-      "vxcontrol/pentagi": 22,
-      "petergyang/no-ai-slop": 23,
-      "freestylefly/awesome-gpt-image-2": 24,
-      "yuliskov/SmartTube": 25
-    },
     "2026-09-14": {
       "bilawalsidhu/gods-eye-view": 1,
       "debpalash/VoiceStudio": 2,
@@ -836,6 +809,33 @@
       "greensock/GSAP": 23,
       "Armur-Ai/Pentest-Swarm-AI": 24,
       "JoeanAmier/TikTokDownloader": 25
+    },
+    "2026-10-14": {
+      "morluto/rea": 1,
+      "storytold/artcraft": 2,
+      "bilawalsidhu/gods-eye-view": 3,
+      "vxcontrol/pentagi": 4,
+      "debpalash/VoiceStudio": 5,
+      "Alishahryar1/free-claude-code": 6,
+      "xtool-org/xtool": 7,
+      "heygen-com/hyperframes": 8,
+      "tashfeenahmed/freellmapi": 9,
+      "alibaba/open-code-review": 10,
+      "harry0703/MoneyPrinterTurbo": 11,
+      "ruvnet/RuView": 12,
+      "Tencent/WeKnora": 13,
+      "baidu/Unlimited-OCR": 14,
+      "apify/apify-mcp-server": 15,
+      "vercel-labs/skills": 16,
+      "Crosstalk-Solutions/project-nomad": 17,
+      "CopilotKit/OpenIntelligentUI": 18,
+      "every-app/open-seo": 19,
+      "NVIDIA/personaplex": 20,
+      "krillinai/OpenCreator": 21,
+      "rommapp/romm": 22,
+      "multica-ai/multica": 23,
+      "citrolabs/ego-lite": 24,
+      "browser-use/video-use": 25
     }
   }
 }

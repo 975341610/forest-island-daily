@@ -3,8 +3,8 @@
   "repos": {
     "morluto/rea": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 70926,
+      "appearances": 3,
+      "total_today_stars": 125605,
       "language": "TypeScript",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
@@ -21,8 +21,8 @@
     },
     "storytold/artcraft": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 7052,
+      "appearances": 3,
+      "total_today_stars": 11133,
       "language": "Rust",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
@@ -30,8 +30,8 @@
     },
     "debpalash/VoiceStudio": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 2916,
+      "appearances": 3,
+      "total_today_stars": 4664,
       "language": "Python",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4178343?v=4",
@@ -48,8 +48,8 @@
     },
     "bilawalsidhu/gods-eye-view": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 2781,
+      "appearances": 3,
+      "total_today_stars": 4742,
       "language": "JavaScript",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/106619546?v=4",
@@ -65,9 +65,9 @@
       "html_url": "https://github.com/chthollyphile/folia-major"
     },
     "Alishahryar1/free-claude-code": {
-      "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 1132,
+      "best_rank": 6,
+      "appearances": 3,
+      "total_today_stars": 2593,
       "language": "Python",
       "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -101,9 +101,9 @@
       "html_url": "https://github.com/pytorch/pytorch"
     },
     "alibaba/open-code-review": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 294,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 675,
       "language": "Go",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -111,8 +111,8 @@
     },
     "CopilotKit/OpenIntelligentUI": {
       "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 528,
+      "appearances": 3,
+      "total_today_stars": 702,
       "language": "TypeScript",
       "description": "Open-Source Generative UI Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/131273140?v=4",
@@ -146,9 +146,9 @@
       "html_url": "https://github.com/agalwood/Motrix"
     },
     "Tencent/WeKnora": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 129,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 380,
       "language": "Go",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -218,9 +218,9 @@
       "html_url": "https://github.com/QuantumNous/new-api"
     },
     "multica-ai/multica": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 70,
+      "best_rank": 23,
+      "appearances": 2,
+      "total_today_stars": 180,
       "language": "Go",
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
@@ -237,8 +237,8 @@
     },
     "tashfeenahmed/freellmapi": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 548,
+      "appearances": 2,
+      "total_today_stars": 1328,
       "language": "TypeScript",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -282,8 +282,8 @@
     },
     "Crosstalk-Solutions/project-nomad": {
       "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 213,
+      "appearances": 2,
+      "total_today_stars": 392,
       "language": "TypeScript",
       "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/105950641?v=4",
@@ -351,6 +351,132 @@
       "description": "抖音 / TikTok 平台作品下载/数据采集工具",
       "owner_avatar": "https://avatars.githubusercontent.com/u/49263334?v=4",
       "html_url": "https://github.com/JoeanAmier/TikTokDownloader"
+    },
+    "vxcontrol/pentagi": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 1819,
+      "language": "Go",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/39194251?v=4",
+      "html_url": "https://github.com/vxcontrol/pentagi"
+    },
+    "xtool-org/xtool": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 1198,
+      "language": "Swift",
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/210473630?v=4",
+      "html_url": "https://github.com/xtool-org/xtool"
+    },
+    "heygen-com/hyperframes": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 873,
+      "language": "TypeScript",
+      "description": "Write HTML. Render video. Built for agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
+      "html_url": "https://github.com/heygen-com/hyperframes"
+    },
+    "harry0703/MoneyPrinterTurbo": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 341,
+      "language": "Python",
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
+      "html_url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    "ruvnet/RuView": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 261,
+      "language": "Rust",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "html_url": "https://github.com/ruvnet/RuView"
+    },
+    "baidu/Unlimited-OCR": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 225,
+      "language": "Python",
+      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/13245940?v=4",
+      "html_url": "https://github.com/baidu/Unlimited-OCR"
+    },
+    "apify/apify-mcp-server": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 200,
+      "language": "TypeScript",
+      "description": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/24586296?v=4",
+      "html_url": "https://github.com/apify/apify-mcp-server"
+    },
+    "vercel-labs/skills": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 190,
+      "language": "TypeScript",
+      "description": "The open agent skills tool - npx skills",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "html_url": "https://github.com/vercel-labs/skills"
+    },
+    "every-app/open-seo": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 170,
+      "language": "TypeScript",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/240383020?v=4",
+      "html_url": "https://github.com/every-app/open-seo"
+    },
+    "NVIDIA/personaplex": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 148,
+      "language": "Python",
+      "description": "PersonaPlex code.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
+      "html_url": "https://github.com/NVIDIA/personaplex"
+    },
+    "krillinai/OpenCreator": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 119,
+      "language": "TypeScript",
+      "description": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2386538?v=4",
+      "html_url": "https://github.com/krillinai/OpenCreator"
+    },
+    "rommapp/romm": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 111,
+      "language": "Python",
+      "description": "A beautiful, powerful, self-hosted ROM manager and player.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/164058018?v=4",
+      "html_url": "https://github.com/rommapp/romm"
+    },
+    "citrolabs/ego-lite": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 101,
+      "language": "JavaScript",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
+      "html_url": "https://github.com/citrolabs/ego-lite"
+    },
+    "browser-use/video-use": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 95,
+      "language": "Python",
+      "description": "Edit videos with coding agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
+      "html_url": "https://github.com/browser-use/video-use"
     }
   }
 }
