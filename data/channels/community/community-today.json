@@ -1,68 +1,68 @@
 {
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13T00:20:50Z",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T00:27:45Z",
   "source": "mira-research",
   "hot_posts": [
     {
-      "platform": "Hacker News",
-      "title": "The gap in shared understanding of LLM capability is widening",
-      "url": "https://news.ycombinator.com/item?id=50047422",
-      "excerpt": "Karpathy抛出的论断在HN掀起819条评论的海啸：有人用Claude Code一天写完一个产品，有人连PPT都调不顺。热评把矛头指向结构性问题——地铁依旧晚点、房租照样涨、政治依旧闹腾，所谓的数据中心天才国似乎什么都没解决，LLM的能力分化正变成社会分化的新切面。",
-      "author": "albertzeyer (提交者) / @karpathy"
+      "title": "Simon Willison: Codex 新玩法 + Tailscale 本地 LLM 工作流",
+      "platform": "HN",
+      "url": "https://simonwillison.net/2026/Oct/12/codex-tailscale/",
+      "summary": "Simon Willison 在博客连发两篇长文，分享自己用 OpenAI Codex 搭配 Tailscale 把本地 GPU 盒接入远程 agent 的工作流，详细记录了如何让 Codex 自主完成 SSH 配置、模型下载、服务起停与健康检查，全程 30 分钟零人工。帖子被 HN 首页收录，评论区围绕 vibecoding 工作流可复制性、远程 agent 安全边界、硬预算上限等话题展开激烈讨论，被多位开发者称为 2026 Q4 最具参考价值的 agent 实践笔记之一。",
+      "engagement": "HN 500+ 分 / 300+ 评论"
     },
     {
-      "platform": "Reddit",
-      "title": "GitHub project called REA (Reverse Engineer Anything) is currently the top trending repository",
-      "url": "https://www.reddit.com/r/tech_x/comments/1x2d66l/github_project_called_rea_reverse_engineer/",
-      "excerpt": "一个让AI Agent接管Ghidra、JADX、IDA Pro的开源工具24小时内冲上GitHub Trending第一，星数破10万。帖子讨论炸锅：有人惊呼软件时代结束，有人担心闭源商业模式会被反编译AI一夜拆穿，Amjad Masad直言未来软件会de facto开源。",
-      "author": "u/Bulky_Engineer_2534"
+      "title": "Show HN: 把 PS2 游戏静态重编译到 WebAssembly 的开源项目爆火",
+      "platform": "HN",
+      "url": "https://news.ycombinator.com/item?id=50052251",
+      "summary": "开发者 snuri00 公布一个把 PS2 原生 ELF 静态重编译成 WebAssembly 的工具链，首批演示跑《Ratchet & Clank》《Shadow of the Colossus》等经典作，直接在浏览器里以 60fps 运行且无需模拟器 JIT。帖子登上 HN 首页第三位，Reddit 游戏复古圈同步转载，被认为是继 N64 recomp 后又一次 \"把老主机释放到网页\" 的里程碑。评论聚焦兼容率、GPU 后端选型（WebGPU vs WebGL2）与法律灰区。",
+      "engagement": "268 points / 140 comments"
     },
     {
+      "title": "Planet Zoo 2 发售当天好评如潮，IGN/PushSquare 双 9 分",
       "platform": "Reddit",
-      "title": "Should you normalize RGB values by 255 or 256?",
-      "url": "https://www.reddit.com/r/programming/comments/1vdjt5i/should_you_normalize_rgb_values_by_255_or_256/",
-      "excerpt": "一个看似弱智的除法题在r/programming掀起数百条争论。原文从GPU浮点到色彩空间娓娓道来，证明不同场景答案不同：显示管线用255、纹理采样用256、合成alpha又要考虑端点保真。开发者感叹自己工作十几年都没想透这个细节。",
-      "author": "u/fagnerbrack"
+      "url": "https://www.pushsquare.com/reviews/ps5/planet-zoo-2",
+      "summary": "Frontier 的《Planet Zoo 2》10/13 全球上线，新增水族馆、全飞行鸟舍、野生动物保护区自由摄影，130+ 物种与跨服动物交易系统获玩家一致好评。IGN、PushSquare 均给出 9/10，Steam 评论区首日 \"特别好评\"。r/pcgaming、r/gaming 的发售日感想贴涌入上千条玩家晒园区截图，讨论焦点是建造 UI 复杂度与保护区深度，被认为是本周最成功的管理模拟品类发售。",
+      "engagement": "Steam 首日好评率 92% / Reddit 1K+ 评论"
     }
   ],
   "topics": [
     {
-      "platform": "知乎",
-      "title": "中文在线称中国55%的token消耗指向AI短剧，如何看待这一现象？",
-      "url": "https://www.zhihu.com/question/2092571772189153120",
-      "description": "587万热度的讨论话题。中文在线披露AI短剧与视频生成的Token消耗已达软件开发的两倍，位居国内第一大算力消耗场景。网友激辩：这是文化繁荣还是算力浪费？有分析指出该数据缺乏第三方校验，但不可否认AI短剧已成为B端大模型最大流量入口之一。"
+      "name": "Meta Muse Wonder 发布",
+      "summary": "Meta 10/13 公布代号 Watermelon 的全新前沿模型 Muse Wonder，由 AI 负责人 Alexandr Wang 亲自带队，宣称在代码、金融、法律等任务上对标 GPT-6 与 Claude Opus 5.5，并通过 Meta API/Muse Code 开放给开发者，不久将接入 Muse 订阅助手。X 和中文财经社区热议 Meta 是否终于补齐前沿模型短板。",
+      "url": "http://finance.sina.com.cn/7x24/2026-10-13/doc-iniuyxuw0465202.shtml"
     },
     {
-      "platform": "X/Twitter",
-      "title": "AI-powered reverse engineering is here",
-      "url": "https://x.com/i/trending/2108302228461080603",
-      "description": "由REA开源项目引爆的推特热门话题。Replit CEO Amjad Masad称AI反编译令人震惊，Naval接梗调侃Open-Source的Open指的是你的代码。开发者社区在讨论IP合规边界，而安全从业者认为这是继ARTEX韩国银行入侵事件后AI重塑攻防两端的又一节点。"
+      "name": "丘成桐数学 × AI 实验室联盟",
+      "summary": "菲尔兹奖得主丘成桐 10/11 牵头在清华成立 \"数学与人工智能实验室联盟\"，联合八家顶级数学机构，目标是用 AI 加速数学研究、以数学理论反哺大模型，并计划聚集千名数学家共建 AI 数学科学模型。消息在国内学术圈与 X/知乎迅速发酵，被视为中国版 AlphaProof 布局的关键一步。",
+      "url": "http://finance.sina.com.cn/jjxw/2026-10-13/doc-iniuyxuw0461016.shtml"
     },
     {
-      "platform": "Reddit",
-      "title": "What do you think about Tabular Foundation Models",
-      "url": "https://www.reddit.com/r/MachineLearning/comments/1thofoe/what_do_you_think_about_tabular_foundation_models/",
-      "description": "r/MachineLearning本周争议最大的讨论。TabPFN-3和TabICL在小表数据上碾压传统ML，但要几GB模型、大显存GPU才能跑几MB数据。老派ML派追问：决策树+特征工程是不是被低估了？话题串出可解释性、工业落地、算力浪费多条支线。"
+      "name": "Valor Mortis 第一人称魂系新秀",
+      "summary": "One More Level 开发、Lyrical Games 发行的《Valor Mortis》10/13 上线 Steam，拿破仑战争背景 + 第一人称魂系动作的组合在 Steam/Reddit/B 站引发大量试玩视频与剪辑，首日入围 Steam 热销榜前列，被玩家戏称 \"法兰西版黑暗之魂\"，带动一波第一人称 Soulslike 讨论。",
+      "url": "https://store.steampowered.com/app/2828710/Valor_Mortis/"
     }
   ],
   "creators": [
     {
-      "platform": "GitHub",
-      "name": "morluto",
-      "url": "https://github.com/morluto/rea",
-      "bio": "开发者morluto于10月上线开源项目REA（Reverse Engineer Anything），24h狂揽近3000星登顶Trending。项目把Ghidra、JADX、Binwalk包成MCP工具，让Claude Code或Cursor能直接反编译二进制和APK，改写逆向门槛。"
+      "name": "Simon Willison",
+      "platform": "个人博客 / HN",
+      "recent_work": "A new feature for my blog, built using my voice",
+      "url": "https://simonwillison.net/2026/Oct/9/voice-blog-feature/",
+      "summary": "LLM 工具链布道师，10 月连续产出 Codex、Claude Haiku 5.5、硬预算上限、语音编辑博客等高价值长文，是 vibecoding 圈最被信赖的实操来源，10/12 新发文被 HN 推上首页。"
     },
     {
-      "platform": "Product Hunt",
-      "name": "SimpleSpread",
-      "url": "https://hunted.space/dashboard/simplespread",
-      "bio": "10月12日Product Hunt登顶的原生开源Mac表格应用。作者是一位独立开发者，坚持本地优先、不碰云端、完全开源，用Swift重写Numbers的轻量替代体验。社区对macOS原生生产力工具的渴求把它一天送上榜首，评论区满是Numbers太重、Excel太贵的共鸣。"
-    },
-    {
+      "name": "技术爬爬虾",
       "platform": "B站",
-      "name": "文曰小强",
-      "url": "https://www.bilibili.com/video/BV11mFLziEyP",
-      "bio": "B站深度解析类头部UP主，《三体》小说解析系列累计播放超2117万，被誉为B站镇站之宝。10月参与B站AI创作大赛开放赛道，入围短片《牌子》延续其冷峻叙事风格，用AI工具把世界观设定实体化成影像，成为AI+剧情向创作的标杆案例。"
+      "recent_work": "Codex (APP) 保姆级全攻略，一期精通 Codex",
+      "url": "https://www.bilibili.com/video/BV13HEw6rEDa/",
+      "summary": "B 站头部 AI 编程 UP 主，本周围绕 Codex App 与 Claude Code 对比发布多期长视频，单条播放破百万，带动中文开发者社区对终端 agent 工作流的集中讨论。"
+    },
+    {
+      "name": "James Watson (PushSquare)",
+      "platform": "游戏媒体 / Reddit",
+      "recent_work": "Planet Zoo 2 Review (PS5) - 9/10",
+      "url": "https://www.pushsquare.com/reviews/ps5/planet-zoo-2",
+      "summary": "PushSquare 资深模拟经营评测人，10/13 首发 Planet Zoo 2 全面评测，围绕水族馆/保护区/摄影等新机制给出 9 分，评论和转载在 r/gaming、r/PlanetZoo 持续发酵，是本周管理模拟品类话题的主要引导者。"
     }
   ]
 }
