@@ -3,8 +3,8 @@
   "repos": {
     "morluto/rea": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 125605,
+      "appearances": 4,
+      "total_today_stars": 166639,
       "language": "TypeScript",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
@@ -21,17 +21,17 @@
     },
     "storytold/artcraft": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 11133,
+      "appearances": 4,
+      "total_today_stars": 14042,
       "language": "Rust",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
       "html_url": "https://github.com/storytold/artcraft"
     },
     "debpalash/VoiceStudio": {
-      "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 4664,
+      "best_rank": 2,
+      "appearances": 4,
+      "total_today_stars": 8202,
       "language": "Python",
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4178343?v=4",
@@ -48,8 +48,8 @@
     },
     "bilawalsidhu/gods-eye-view": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 4742,
+      "appearances": 4,
+      "total_today_stars": 6089,
       "language": "JavaScript",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/106619546?v=4",
@@ -66,8 +66,8 @@
     },
     "Alishahryar1/free-claude-code": {
       "best_rank": 6,
-      "appearances": 3,
-      "total_today_stars": 2593,
+      "appearances": 4,
+      "total_today_stars": 3133,
       "language": "Python",
       "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -147,8 +147,8 @@
     },
     "Tencent/WeKnora": {
       "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 380,
+      "appearances": 3,
+      "total_today_stars": 622,
       "language": "Go",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -281,9 +281,9 @@
       "html_url": "https://github.com/ranxianglei/billion-context"
     },
     "Crosstalk-Solutions/project-nomad": {
-      "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 392,
+      "best_rank": 15,
+      "appearances": 3,
+      "total_today_stars": 666,
       "language": "TypeScript",
       "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/105950641?v=4",
@@ -354,26 +354,26 @@
     },
     "vxcontrol/pentagi": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 1819,
+      "appearances": 2,
+      "total_today_stars": 2844,
       "language": "Go",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "owner_avatar": "https://avatars.githubusercontent.com/u/39194251?v=4",
       "html_url": "https://github.com/vxcontrol/pentagi"
     },
     "xtool-org/xtool": {
-      "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 1198,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 2700,
       "language": "Swift",
       "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/210473630?v=4",
       "html_url": "https://github.com/xtool-org/xtool"
     },
     "heygen-com/hyperframes": {
-      "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 873,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 1962,
       "language": "TypeScript",
       "description": "Write HTML. Render video. Built for agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
@@ -390,8 +390,8 @@
     },
     "ruvnet/RuView": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 261,
+      "appearances": 2,
+      "total_today_stars": 458,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -408,17 +408,17 @@
     },
     "apify/apify-mcp-server": {
       "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 200,
+      "appearances": 2,
+      "total_today_stars": 433,
       "language": "TypeScript",
       "description": "The Apify MCP server enables your AI agents to extract data from social media, search engines, maps, e-commerce sites, or any other website using thousands of ready-made scrapers, crawlers, and automation tools available on the Apify Store.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/24586296?v=4",
       "html_url": "https://github.com/apify/apify-mcp-server"
     },
     "vercel-labs/skills": {
-      "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 190,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 848,
       "language": "TypeScript",
       "description": "The open agent skills tool - npx skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
@@ -477,6 +477,114 @@
       "description": "Edit videos with coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192012301?v=4",
       "html_url": "https://github.com/browser-use/video-use"
+    },
+    "ifixai-ai/iFixAi": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 2109,
+      "language": "Python",
+      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/279006089?v=4",
+      "html_url": "https://github.com/ifixai-ai/iFixAi"
+    },
+    "NationalSecurityAgency/ghidra": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 1008,
+      "language": "Java",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11298292?v=4",
+      "html_url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    "stablyai/orca": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 919,
+      "language": "TypeScript",
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "html_url": "https://github.com/stablyai/orca"
+    },
+    "hmjz100/LinkSwift": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 620,
+      "language": "JavaScript",
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/98228280?v=4",
+      "html_url": "https://github.com/hmjz100/LinkSwift"
+    },
+    "t8y2/dbx": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 295,
+      "language": "Rust",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
+      "html_url": "https://github.com/t8y2/dbx"
+    },
+    "MakazhanAlpamys/Soup": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 247,
+      "language": "Python",
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/188336071?v=4",
+      "html_url": "https://github.com/MakazhanAlpamys/Soup"
+    },
+    "openai/codex": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 209,
+      "language": "Rust",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/codex"
+    },
+    "rust-lang/rust": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 207,
+      "language": "Rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5430905?v=4",
+      "html_url": "https://github.com/rust-lang/rust"
+    },
+    "p-e-w/heretic": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 181,
+      "language": "Python",
+      "description": "Fully automatic censorship removal for language models",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2702526?v=4",
+      "html_url": "https://github.com/p-e-w/heretic"
+    },
+    "anthropics/claude-plugins-official": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 181,
+      "language": "Python",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    "microsoft/vscode": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 169,
+      "language": "TypeScript",
+      "description": "Visual Studio Code",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/vscode"
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 163,
+      "language": "Python",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
+      "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
     }
   }
 }

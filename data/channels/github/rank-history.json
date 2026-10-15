@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-14": {
-      "bilawalsidhu/gods-eye-view": 1,
-      "debpalash/VoiceStudio": 2,
-      "JustVugg/colibri": 3,
-      "vxcontrol/pentagi": 4,
-      "SnailSploit/Claude-Red": 5,
-      "multimodal-art-projection/YuE": 6,
-      "jiji262/douyin-downloader": 7,
-      "alibaba/open-code-review": 8,
-      "melgarafael/DeskcommCRM": 9,
-      "Shubhamsaboo/awesome-llm-apps": 10,
-      "max-sixty/worktrunk": 11,
-      "alphaXiv/OpenResearch": 12,
-      "alsk1992/CloddsBot": 13,
-      "martin-olivier/airgorah": 14,
-      "tech-leads-club/agent-skills": 15,
-      "nashsu/llm_wiki": 16,
-      "jihe520/MathModelAgent": 17,
-      "yuliskov/SmartTube": 18,
-      "tashfeenahmed/freellmapi": 19,
-      "microsoft/AI-Engineering-Coach": 20,
-      "Tencent/WeKnora": 21,
-      "nab138/iloader": 22,
-      "jordan-gibbs/hyperresearch": 23,
-      "p1neappleXpress/OpenFlux": 24,
-      "huggingface/transformers": 25
-    },
     "2026-09-15": {
       "debpalash/VoiceStudio": 1,
       "JustVugg/colibri": 2,
@@ -836,6 +809,33 @@
       "multica-ai/multica": 23,
       "citrolabs/ego-lite": 24,
       "browser-use/video-use": 25
+    },
+    "2026-10-15": {
+      "morluto/rea": 1,
+      "debpalash/VoiceStudio": 2,
+      "storytold/artcraft": 3,
+      "ifixai-ai/iFixAi": 4,
+      "xtool-org/xtool": 5,
+      "bilawalsidhu/gods-eye-view": 6,
+      "heygen-com/hyperframes": 7,
+      "vxcontrol/pentagi": 8,
+      "NationalSecurityAgency/ghidra": 9,
+      "stablyai/orca": 10,
+      "vercel-labs/skills": 11,
+      "hmjz100/LinkSwift": 12,
+      "Alishahryar1/free-claude-code": 13,
+      "t8y2/dbx": 14,
+      "Crosstalk-Solutions/project-nomad": 15,
+      "MakazhanAlpamys/Soup": 16,
+      "Tencent/WeKnora": 17,
+      "apify/apify-mcp-server": 18,
+      "openai/codex": 19,
+      "rust-lang/rust": 20,
+      "ruvnet/RuView": 21,
+      "p-e-w/heretic": 22,
+      "anthropics/claude-plugins-official": 23,
+      "microsoft/vscode": 24,
+      "K-Dense-AI/scientific-agent-skills": 25
     }
   }
 }
