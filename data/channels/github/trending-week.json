@@ -3,8 +3,8 @@
   "repos": {
     "morluto/rea": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 166639,
+      "appearances": 5,
+      "total_today_stars": 198953,
       "language": "TypeScript",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
@@ -48,8 +48,8 @@
     },
     "bilawalsidhu/gods-eye-view": {
       "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 6089,
+      "appearances": 5,
+      "total_today_stars": 6620,
       "language": "JavaScript",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/106619546?v=4",
@@ -147,8 +147,8 @@
     },
     "Tencent/WeKnora": {
       "best_rank": 13,
-      "appearances": 3,
-      "total_today_stars": 622,
+      "appearances": 4,
+      "total_today_stars": 847,
       "language": "Go",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -219,8 +219,8 @@
     },
     "multica-ai/multica": {
       "best_rank": 23,
-      "appearances": 2,
-      "total_today_stars": 180,
+      "appearances": 3,
+      "total_today_stars": 288,
       "language": "Go",
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
@@ -228,8 +228,8 @@
     },
     "paperclipai/paperclip": {
       "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 633,
+      "appearances": 2,
+      "total_today_stars": 1210,
       "language": "TypeScript",
       "description": "The open-source app everyone uses to manage agents at work",
       "owner_avatar": "https://avatars.githubusercontent.com/u/264498616?v=4",
@@ -237,8 +237,8 @@
     },
     "tashfeenahmed/freellmapi": {
       "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 1328,
+      "appearances": 3,
+      "total_today_stars": 1849,
       "language": "TypeScript",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -282,8 +282,8 @@
     },
     "Crosstalk-Solutions/project-nomad": {
       "best_rank": 15,
-      "appearances": 3,
-      "total_today_stars": 666,
+      "appearances": 4,
+      "total_today_stars": 844,
       "language": "TypeScript",
       "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/105950641?v=4",
@@ -353,9 +353,9 @@
       "html_url": "https://github.com/JoeanAmier/TikTokDownloader"
     },
     "vxcontrol/pentagi": {
-      "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 2844,
+      "best_rank": 3,
+      "appearances": 3,
+      "total_today_stars": 4232,
       "language": "Go",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "owner_avatar": "https://avatars.githubusercontent.com/u/39194251?v=4",
@@ -372,17 +372,17 @@
     },
     "heygen-com/hyperframes": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 1962,
+      "appearances": 3,
+      "total_today_stars": 2820,
       "language": "TypeScript",
       "description": "Write HTML. Render video. Built for agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
       "html_url": "https://github.com/heygen-com/hyperframes"
     },
     "harry0703/MoneyPrinterTurbo": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 341,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 945,
       "language": "Python",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
@@ -417,8 +417,8 @@
     },
     "vercel-labs/skills": {
       "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 848,
+      "appearances": 3,
+      "total_today_stars": 1025,
       "language": "TypeScript",
       "description": "The open agent skills tool - npx skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
@@ -479,36 +479,36 @@
       "html_url": "https://github.com/browser-use/video-use"
     },
     "ifixai-ai/iFixAi": {
-      "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 2109,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 3696,
       "language": "Python",
       "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/279006089?v=4",
       "html_url": "https://github.com/ifixai-ai/iFixAi"
     },
     "NationalSecurityAgency/ghidra": {
-      "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 1008,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 2377,
       "language": "Java",
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11298292?v=4",
       "html_url": "https://github.com/NationalSecurityAgency/ghidra"
     },
     "stablyai/orca": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 919,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 1868,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
       "html_url": "https://github.com/stablyai/orca"
     },
     "hmjz100/LinkSwift": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 620,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 1212,
       "language": "JavaScript",
       "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
       "owner_avatar": "https://avatars.githubusercontent.com/u/98228280?v=4",
@@ -560,9 +560,9 @@
       "html_url": "https://github.com/p-e-w/heretic"
     },
     "anthropics/claude-plugins-official": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 181,
+      "best_rank": 16,
+      "appearances": 2,
+      "total_today_stars": 488,
       "language": "Python",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -578,13 +578,85 @@
       "html_url": "https://github.com/microsoft/vscode"
     },
     "K-Dense-AI/scientific-agent-skills": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 163,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1254,
       "language": "Python",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
       "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    "HKUDS/CLI-Anything": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 716,
+      "language": "Python",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    "xerj-org/xerj": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 715,
+      "language": "Rust",
+      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/297525353?v=4",
+      "html_url": "https://github.com/xerj-org/xerj"
+    },
+    "SegFault42/HeliosGen": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 331,
+      "language": "TypeScript",
+      "description": "🏆 Self Hosted Gen AI desktop app. Free alternative to Higgsfield, OpenArt, Freepik....",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9384676?v=4",
+      "html_url": "https://github.com/SegFault42/HeliosGen"
+    },
+    "laoma528/awesome-zhuiju-free": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 240,
+      "language": "JavaScript",
+      "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/169715751?v=4",
+      "html_url": "https://github.com/laoma528/awesome-zhuiju-free"
+    },
+    "cursor/plugins": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 214,
+      "language": "TypeScript",
+      "description": "Cursor plugin specification and official plugins",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
+      "html_url": "https://github.com/cursor/plugins"
+    },
+    "bojieli/ai-agent-book": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 204,
+      "language": "Python",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1421793?v=4",
+      "html_url": "https://github.com/bojieli/ai-agent-book"
+    },
+    "longbridge/gpui-kit": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 199,
+      "language": "Rust",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/68419756?v=4",
+      "html_url": "https://github.com/longbridge/gpui-kit"
+    },
+    "ruvnet/ruflo": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 147,
+      "language": "TypeScript",
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "html_url": "https://github.com/ruvnet/ruflo"
     }
   }
 }

@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-15": {
-      "debpalash/VoiceStudio": 1,
-      "JustVugg/colibri": 2,
-      "bilawalsidhu/gods-eye-view": 3,
-      "alibaba/open-code-review": 4,
-      "pacifio/atlas": 5,
-      "TauricResearch/TradingAgents": 6,
-      "vxcontrol/pentagi": 7,
-      "Panniantong/Agent-Reach": 8,
-      "SnailSploit/Claude-Red": 9,
-      "alphaXiv/OpenResearch": 10,
-      "666ghj/MiroFish": 11,
-      "multimodal-art-projection/YuE": 12,
-      "huggingface/transformers": 13,
-      "tech-leads-club/agent-skills": 14,
-      "harry0703/MoneyPrinterTurbo": 15,
-      "jiji262/douyin-downloader": 16,
-      "melgarafael/DeskcommCRM": 17,
-      "petergyang/no-ai-slop": 18,
-      "ruvnet/RuView": 19,
-      "addyosmani/agent-skills": 20,
-      "yt-dlp/yt-dlp": 21,
-      "rust-lang/rust": 22,
-      "reconurge/flowsint": 23,
-      "kubernetes/kubernetes": 24,
-      "localsend/localsend": 25
-    },
     "2026-09-16": {
       "alibaba/open-code-review": 1,
       "debpalash/VoiceStudio": 2,
@@ -836,6 +809,33 @@
       "anthropics/claude-plugins-official": 23,
       "microsoft/vscode": 24,
       "K-Dense-AI/scientific-agent-skills": 25
+    },
+    "2026-10-16": {
+      "morluto/rea": 1,
+      "ifixai-ai/iFixAi": 2,
+      "vxcontrol/pentagi": 3,
+      "NationalSecurityAgency/ghidra": 4,
+      "K-Dense-AI/scientific-agent-skills": 5,
+      "stablyai/orca": 6,
+      "heygen-com/hyperframes": 7,
+      "HKUDS/CLI-Anything": 8,
+      "xerj-org/xerj": 9,
+      "harry0703/MoneyPrinterTurbo": 10,
+      "hmjz100/LinkSwift": 11,
+      "paperclipai/paperclip": 12,
+      "bilawalsidhu/gods-eye-view": 13,
+      "tashfeenahmed/freellmapi": 14,
+      "SegFault42/HeliosGen": 15,
+      "anthropics/claude-plugins-official": 16,
+      "laoma528/awesome-zhuiju-free": 17,
+      "Tencent/WeKnora": 18,
+      "cursor/plugins": 19,
+      "bojieli/ai-agent-book": 20,
+      "longbridge/gpui-kit": 21,
+      "Crosstalk-Solutions/project-nomad": 22,
+      "vercel-labs/skills": 23,
+      "ruvnet/ruflo": 24,
+      "multica-ai/multica": 25
     }
   }
 }
