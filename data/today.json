@@ -1,302 +1,302 @@
 [
   {
-    "id": "2026-10-15_ai_1",
-    "date": "2026-10-15",
+    "id": "2026-10-16_ai_1",
+    "date": "2026-10-16",
     "category": "AI",
-    "subcat": "语音模型",
-    "platform": "xAI Blog",
+    "subcat": "开源模型",
+    "platform": "NVIDIA Blog",
     "platform_color": "#7C9EF6",
-    "title": "xAI发布Grok Voice 3.0登顶语音榜",
-    "url": "https://x.ai/news/grok-voice-3",
-    "image": "images/2026-10-15/2026-10-15_ai_1.jpg",
+    "title": "英伟达开源Nemotron 3.5 Super VL",
+    "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+    "image": "images/2026-10-16/2026-10-16_ai_1.jpg",
     "detail": [
-      "xAI于10月14日通过Voice Agent API上线端到端语音大模型Grok Voice 3.0,保留了与上一代相同的$0.08/分钟定价,主打把推理能力与自然打断、轮次管理融在一个模型里,面向客服、助手等场景。",
-      "Artificial Analysis 10月13日的独立评测给出Grok Voice 3.0在Speech-to-Speech Index上拿到86.9分,位列第一,超过GPT-Live-1的83.2和Gemini 3.8 Live的82.6,Full Duplex Bench达97%,τ-Voice为71.6%。",
-      "xAI在公告中披露该模型日均承载特斯拉与SpaceX的数百万通话,星链客服约70%的工单由其独立解决,无需人工接入,延迟稳定在一秒以内。",
-      "语音Agent被视为下一阶段AI商业化的关键入口,Grok Voice 3.0既不涨价又拉开能力差,预计会把Live API赛道的价格锚进一步压向OpenAI与Google。"
+      "北京时间10月15日,英伟达发布Nemotron 3.5开源家族新成员,一次性放出面向数据中心的Super VL与面向本地推理的Bolt两条产品线,把开放权重的智能体模型从服务器一路铺到桌面PC。此次更新由英伟达Nemotron Coalition联合研发,目标是让企业和开发者在不牺牲部署灵活性的前提下跑通端到端Agent工作流。",
+      "Super VL是一款1200亿参数多模态模型,官方声称其在指令跟随、工具调用、多步业务流程和视觉理解上接近公司最大推理模型水平,但参数量仅为后者的五分之一,在Artificial Analysis Intelligence Index榜单上吞吐速度比同级最佳快5倍。Bolt 74B-A9B则采用原生2bit量化压入24GB显存,可直接跑在RTX/DGX Spark上;更小的Bolt E4B仅需4GB,10月23日面向GeForce RTX与Jetson上线。",
+      "官方公布Scale AI、EY、Hebbia、AI21、Mercor、Ramp等数十家企业已在用Super VL做后训练定制,场景覆盖并购尽调、信贷审查、网络安全攻防和代码代理。社区关注点在于:英伟达再度把开源作为对抗GPT、Claude闭源的竞争抓手,同时为自家RTX Spark、DGX Spark本地算力生态提供旗舰级软件填充,进一步绑定硬件销售节奏。",
+      "技术层面,Bolt 74B-A9B在PinchBench开放模型榜单位列第一、BrowseComp位列第二,说明小尺寸本地模型已具备联网检索、长流程浏览能力;Super VL则强调可继续在企业内网做自主微调,解决闭源前沿模型无法本地化训练的痛点。整体来看,这是英伟达Agent时代「软硬一体」战略的关键一环。"
     ]
   },
   {
-    "id": "2026-10-15_ai_2",
-    "date": "2026-10-15",
+    "id": "2026-10-16_ai_2",
+    "date": "2026-10-16",
     "category": "AI",
-    "subcat": "开源基础设施",
-    "platform": "Anthropic Blog",
-    "platform_color": "#7C9EF6",
-    "title": "Anthropic落地新加坡签政府MOU",
-    "url": "https://www.anthropic.com/news/singapore-office-opening",
-    "image": "images/2026-10-15/2026-10-15_ai_2.jpg",
-    "detail": [
-      "Anthropic于10月14日在新加坡莱佛士坊正式开设其亚太区第五间办公室,并与新加坡数字发展与新闻部签署谅解备忘录,覆盖模型评测、测试标准制定和安全事件响应三条主线。",
-      "合作方包括GovTech、新加坡网络安全局与IMDA,官方披露新加坡的人均Claude.ai使用量全球第二,GovTech已有超过1,500名工程师日常用Claude Code辅助公共服务开发。",
-      "DBS、Grab、Sea、GIC等本地龙头被点名作为企业客户,Anthropic称此次合作会把前沿模型安全评测流程写进政府采购标准,这是其首次与东南亚国家达成这种政府级框架。",
-      "此举正值欧盟首次对Anthropic和OpenAI发起AI Act信息问询,被业界解读为Anthropic借亚太合规优势对冲欧洲监管风险、同时在东盟市场抢先建立品牌与政策护城河的战略卡位。"
-    ]
-  },
-  {
-    "id": "2026-10-15_ai_3",
-    "date": "2026-10-15",
-    "category": "AI",
-    "subcat": "模型发布",
-    "platform": "Winbuzzer",
-    "platform_color": "#7C9EF6",
-    "title": "Gemini 4 Argon面向付费用户开闸",
-    "url": "https://winbuzzer.com/2026/10/14/google-releases-gemini-4-argon-for-longer-ai-work-xcxwbn/",
-    "image": "images/2026-10-15/2026-10-15_ai_3.jpg",
-    "detail": [
-      "Google在10月13日把Gemini 4 Argon从9月底仅限Fairwind网络安全伙伴的灰度版推向全体付费开发者和AI Pro/Ultra订阅用户,通过AI Studio、企业Agent平台和Antigravity环境开放调用。",
-      "该模型支持1,048,576 tokens的统一上下文,输入、内部思考和输出共享预算,流式调用可一次吐出65,536个思考与输出token,长任务可跨请求继续推理数分钟。",
-      "官方给出的编码得分DeepSWE v1.1 pass@1达77.9%,领先GPT-6 Astra的74.1%与Claude Opus 5.5的74.2%,但FrontierSWE v2和Terminal-Bench 4.0仍落后于OpenAI和Anthropic旗舰。",
-      "引流价定为输入$2、输出$10每百万tokens,12月1日起翻倍;Google同时为10,000名科学家提供六个月Antigravity最高档免费额度抢占Agent生态。"
-    ]
-  },
-  {
-    "id": "2026-10-15_ai_4",
-    "date": "2026-10-15",
-    "category": "AI",
-    "subcat": "端侧AI",
-    "platform": "MLQ News",
-    "platform_color": "#7C9EF6",
-    "title": "DeepMind联手星洲做端侧反诈模型",
-    "url": "https://mlq.ai/news/google-deepmind-govtech-singapore-build-on-device-gemma-scam-detector/",
-    "image": "images/2026-10-15/2026-10-15_ai_4.jpg",
-    "detail": [
-      "Google DeepMind与新加坡GovTech在10月14日公布联合研发的端侧反诈模型,基于轻量版Gemma,用新加坡本地化骗局对话数据微调,整个推理链路跑在用户手机上,全程不回传云端。",
-      "系统采用两段式流水线:先用极轻量分类器做实时筛查,命中可疑对话再唤醒微调过的Gemma对更长上下文做语义分析,既压低了误报率,也规避了对话外发的隐私和合规风险。",
-      "训练在GovTech搭的\"主权沙盒\"里完成,匿名化样本来自新加坡警察部队和消费者协会真实骗局记录,DeepMind明确声明Google与新加坡政府在部署形态下都无法读取用户聊天内容。",
-      "该模型会先嵌入Pixel以及本地运营商侧产品灰度上线,外界视其为端侧小模型与政府数据合作模式的样板,也为后续Gemma Nano全球版反诈能力和跨国政企落地铺好了路。"
-    ]
-  },
-  {
-    "id": "2026-10-15_ai_5",
-    "date": "2026-10-15",
-    "category": "AI",
-    "subcat": "芯片与AI",
+    "subcat": "自动驾驶",
     "platform": "NVIDIA Newsroom",
     "platform_color": "#7C9EF6",
-    "title": "Nvidia联手EDA巨头打造AI晶圆厂",
-    "url": "https://nvidianews.nvidia.com/news/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-labs",
-    "image": "images/2026-10-15/2026-10-15_ai_5.jpg",
+    "title": "沃尔沃深化与英伟达合作押注全自动驾驶",
+    "url": "https://nvidianews.nvidia.com/news/volvo-cars-and-nvidia-expand-partnership-to-advance-safe-automated-driving",
+    "image": "images/2026-10-16/2026-10-16_ai_2.jpg",
     "detail": [
-      "Nvidia在10月14日联合Synopsys、Cadence、KLA、Lam Research、Applied Materials、Siemens、Teradyne和Advantest宣布推出\"AI-defined fabs\",把CUDA-X库嵌入芯片设计、量测与制造全链条。",
-      "同期发布的cuPotential CUDA-X库面向原子与分子尺度仿真Agent,早期测试显示GPU化工作流再提速2-3倍,Lam Research用NanoVDB把蚀刻仿真加速30倍,KLA用NPP把检测提效50倍。",
-      "方案把AI Agent引入光刻、沉积、量测、封装多个环节,目标是把工艺节点开发周期从年缩短到月;Nvidia把半导体产业从客户变成技术栈的二级分销商,护城河从GPU扩展到Fab软件。",
-      "消息同时推动Synopsys、Cadence盘中走高,被华尔街解读为Nvidia把Rubin之后的增长故事绑到EDA/制造侧,进一步稳住与台积电、三星生态的议价权。"
+      "北京时间10月15日,沃尔沃汽车宣布与英伟达进一步扩大合作,把英伟达Hyperion传感与算力架构、Halos操作系统以及Alpamayo驾驶软件栈同时引入下一代车型。两家公司十余年的合作关系升级至「全栈采购」,沃尔沃也成为英伟达汽车整条软硬件产品线的首批旗舰客户之一。",
+      "新技术将首发搭载于沃尔沃近期披露的「史上最大产品攻势」中的下一代车型,支持从高速公路、拥堵城市街道到停车场的「门到门」自动驾驶,并逐步引入eyes-off(目光可离开)与mind-off(注意力可离开)两级能力。英伟达CEO黄仁勲与沃尔沃CEO Håkan Samuelsson在声明中强调,双方将以沃尔沃近百年的安全数据为底座,结合英伟达加速计算提高系统可靠性。",
+      "行业观察人士认为,沃尔沃全面押注英伟达车端平台,反映出L3级以上自动驾驶行业正在从「自研芯片+算法」转向「车企 + Tier0.5 AI公司」的分工模式。叠加本周英伟达同时官宣与Adobe、Volvo、半导体联盟等多项合作,黄仁勲正把AI基础设施从云端数据中心扩展到车、PC、工厂等全部物理终端。",
+      "技术面,Hyperion是英伟达下一代参考传感器+Thor计算平台组合,Halos是围绕「安全优先」设计的车端操作系统,Alpamayo则是基于视觉-语言-动作VLA大模型的端到端驾驶软件。沃尔沃将把自家车辆动力学与碰撞数据灌入该栈,共同训练出一款「知道如何以人为本保护乘员」的大模型。"
     ]
   },
   {
-    "id": "2026-10-15_ai_6",
-    "date": "2026-10-15",
+    "id": "2026-10-16_ai_3",
+    "date": "2026-10-16",
     "category": "AI",
-    "subcat": "融资",
-    "platform": "Unite.AI",
+    "subcat": "企业AI",
+    "platform": "NVIDIA Newsroom",
     "platform_color": "#7C9EF6",
-    "title": "Zenzap获4400万美元押注Agent聊天",
-    "url": "https://www.unite.ai/zenzap-44m-total-funding-collaborative-ai-agents/",
-    "image": "images/2026-10-15/2026-10-15_ai_6.jpg",
+    "title": "Adobe与英伟达扩大合作加速创意Agent",
+    "url": "https://nvidianews.nvidia.com/news/adobe-and-nvidia-expand-collaboration-to-speed-agentic-creation",
+    "image": "images/2026-10-16/2026-10-16_ai_3.jpg",
     "detail": [
-      "AI原生工作沟通平台Zenzap于10月14日从隐身状态走出,宣布累计融资4400万美元,领投方为Bessemer Venture Partners与Lightspeed,Wix总裁Nir Zohar等天使跟投。",
-      "产品把群聊、任务、日历、AI语音、AI搜索与工作流Agent做在一个客户端里,目标是用Agent-first形态直接挑战WhatsApp Business、Slack和Microsoft Teams的入口位置。",
-      "官方披露FedEx、Dollar General、Taco Bell、星巴克、麦当劳的加盟商已在使用,付费起步价为20人以内$51/月,团队规模50人,把Agent嵌入到企业日常IM是其差异化卖点。",
-      "这是本周企业IM+Agent赛道继Slack对接ChatGPT后又一个风向信号,显示VC仍愿意为\"用AI改写企业消息入口\"的叙事下重注。"
+      "10月15日,Adobe宣布与英伟达进一步扩展战略合作,把Photoshop、Premiere、Substance 3D、Frame.io、Brand Concierge等旗舰工具与英伟达RTX Spark超级芯片及Nemotron开源模型深度结合,面向创作者和品牌提供端到端的「AI代理化」工作流。本次升级建立在今年3月双方公布的战略合作基础上。",
+      "官方数据显示,基于RTX Spark优化后,Photoshop、Premiere与Substance 3D的AI处理、剪辑、调色与特效速度最高提升2倍,帮助创作者在同一台工作站上完成生成、合成、输出全链路;而Adobe Brand Concierge则接入Nemotron开源模型,被英伟达选中为NVIDIA.com官网提供智能化客服与产品咨询体验。",
+      "此举释放了两个信号:一是Adobe开始把生成式AI从「插件级」推进到「系统级」,把Firefly以外的多个模型纳入统一代理框架;二是英伟达持续用自家Nemotron开源模型渗透到大客户生产线,与Google Gemini、OpenAI Agent等闭源方案形成差异化竞争。创意行业正加速进入「桌面级Agent」时代。",
+      "技术栈上,RTX Spark是英伟达本周新发布的桌面级AI超级芯片,拥有128GB统一内存与1 PFLOPS AI算力,可本地运行超大模型。Adobe侧则把Firefly、GenStudio、Experience Cloud等品牌营销资产与Nemotron协同使用,为B端大客户提供「安全可控」的创意Agent部署能力。"
     ]
   },
   {
-    "id": "2026-10-15_vibe_1",
-    "date": "2026-10-15",
+    "id": "2026-10-16_ai_4",
+    "date": "2026-10-16",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "TechNode",
+    "platform_color": "#7C9EF6",
+    "title": "DeepSeek全球宕机五小时紧急修复",
+    "url": "https://technode.com/2026/10/15/deepseek-implements-fix-after-partial-outage-affects-chat-and-api-services/",
+    "image": "images/2026-10-16/2026-10-16_ai_4.jpg",
+    "detail": [
+      "北京时间10月15日清晨8点11分,DeepSeek官方状态页显示网页端Chat与API出现部分不可用故障,大量用户反馈「服务器暂不可用」、对话被卡死。此次事件涉及旗下V4 Pro与V4.1 Flash两条主力API线,是DeepSeek近期罕见的全球级服务中断。",
+      "官方团队很快锁定故障原因并开始修复,12点49分将事件状态调整为「监控中」。前后持续约5小时的停摆导致大量套壳App、Cursor用户和企业内部工具瞬时掉线;与此同时,一个名为「Harness」的神秘账号也在同一时间短暂出现在社区,被外界猜测与新模型评测相关,进一步放大了舆论热度。",
+      "作为开源阵营目前估值最高的公司之一,DeepSeek最近两个月连续发布V4 Pro、V4.1 Flash、Flash Vision Exp与DeepGEMM等成果,服务规模急速放大。此次宕机被业内解读为开源巨头基础设施压力的一次集中暴露,也让「是否要为核心业务保留第二套LLM备选」再度成为企业CIO的热门议题。",
+      "技术层面,DeepSeek V4 Pro采用新一代MoE架构、原生支持Responses API并适配Codex;V4.1 Flash则主打多模态与低价。此次故障也暴露了纯依赖海外加速和自建GPU池的中国厂商在跨境流量调度上的脆弱性,量子位等中文媒体同步报道了Harness账号疑似指向下一代模型评测环境。"
+    ]
+  },
+  {
+    "id": "2026-10-16_ai_5",
+    "date": "2026-10-16",
+    "category": "AI",
+    "subcat": "AI终端",
+    "platform": "SCMP",
+    "platform_color": "#7C9EF6",
+    "title": "阿里通义千问获批接入苹果中国AI",
+    "url": "https://www.scmp.com/tech/big-tech/article/3370893/china-approves-alibaba-ai-models-use-iphone-duo-and-other-apple-handsets",
+    "image": "images/2026-10-16/2026-10-16_ai_5.jpg",
+    "detail": [
+      "10月15日,多家媒体同步证实中国监管部门已批准阿里巴巴旗下通义千问(Qwen)大模型及通义万相多模态模型作为苹果Apple Intelligence在中国大陆版的云端合作模型,预计12月随iPhone Duo等新机正式上线。该审批也让阿里成为继Google、OpenAI之后又一家进入苹果核心AI栈的供应商。",
+      "按照目前曝光的方案,苹果设备端模型仍由Apple自研,而需要联网处理的任务将路由到阿里云通义系列模型;Siri AI及部分最新能力首发不会包含在内。CEO库克此前已在致合作伙伴信中确认「苹果智能将接入阿里千问大模型」,10月底在中国发布测试版本,百度文心则承担辅助角色。",
+      "该消息直接推动阿里美股盘后再度拉升,苹果市值当周突破5万亿美元,成为仅次于英伟达的全球第二大上市公司。监管层面,外媒注意到云端查询需遵循中国数据合规要求,所有涉及用户隐私的推理请求都将在境内完成,这为跨国AI厂商落地中国提供了新的制度样本。",
+      "行业视角看,此次合作把「中国AI基础设施+美国终端生态」模式制度化:阿里获得海量苹果用户数据回路训练优势,苹果则补齐了国行版AI缺失的最后一块拼图。叠加本周苹果智能已完成国内上线最后阶段准备、12月随新品首发,中国大模型第一次大规模进入全球消费电子巨头产品线。"
+    ]
+  },
+  {
+    "id": "2026-10-16_ai_6",
+    "date": "2026-10-16",
+    "category": "AI",
+    "subcat": "时序预测",
+    "platform": "Mistral AI",
+    "platform_color": "#7C9EF6",
+    "title": "Mistral发布Timestral时序大模型",
+    "url": "https://mistral.ai/news/timestral/",
+    "image": "images/2026-10-16/2026-10-16_ai_6.jpg",
+    "detail": [
+      "北京时间10月15日,法国Mistral AI在官方博客推出全新的时序预测基础模型家族Timestral,主打仅用2.09亿参数(5M/50M/200M三种规格)实现零样本forecasting,性能在CPU上即可超越同类更大模型。这是继Mistral Large 4之后,公司本月第二款面向生产场景的旗舰开源发布。",
+      "官方Benchmark显示,Timestral在Monash、GIFT-Eval、Chronos等多个公开时序榜单上取得SOTA,首次让金融、能源、零售、运维等行业无需为每个数据集单独训练模型,就能直接零样本预测未来需求;最大的200M版本在CPU上单机即可部署,显著降低了AI预测的硬件门槛。",
+      "行业反馈,Timestral延续了Mistral一贯的「小而精、开放权重」路线,与Google TimesFM、AWS Chronos、Amazon Forecast构成直接竞争,但Mistral在欧盟数据主权与可本地部署上具备合规优势。Hugging Face上线首日Timestral-5M即获大量下载,社区关注其能否取代传统ARIMA、Prophet成为新一代时序基线。",
+      "技术层面,Timestral采用面向时间序列优化的Decoder-only Transformer加概率输出头,原生支持多变量、不等长输入与分位数预测;权重以Apache 2.0类协议发布,允许商业使用。Mistral表示未来将配套发布针对工业设备、金融交易高频数据的垂直版本,进一步补齐其企业AI产品矩阵。"
+    ]
+  },
+  {
+    "id": "2026-10-16_vibe_1",
+    "date": "2026-10-16",
     "category": "VibeCoding",
-    "subcat": "Trending",
-    "platform": "GitHub",
+    "subcat": "开发工具",
+    "platform": "官方博客",
     "platform_color": "#F6A07C",
-    "title": "VoiceStudio开源ElevenLabs替代冲榜",
-    "url": "https://github.com/debpalash/VoiceStudio",
-    "image": "images/2026-10-15/2026-10-15_vibe_1.jpg",
+    "title": "VS Code 1.142发布Canvases画布预览",
+    "url": "https://code.visualstudio.com/updates/v1_142",
+    "image": "images/2026-10-16/2026-10-16_vibe_1.jpg",
     "detail": [
-      "VoiceStudio是一款完全本地运行的开源ElevenLabs替代，覆盖声音克隆、语音设计、视频配音、听写、转录、有声书创作，支持646种语言，AGPL-3.0协议，可桌面安装或Docker部署，彻底不走云端。",
-      "今日GitHub Trending第二，单日新增3538颗星，仓库总数66,280星、Fork 7,312，Docker Hub下载逾10万次。最新v0.5.6版本补齐Linux ARM64运行时与MCP超时修复，发行页累计56万次下载。",
-      "海外开发者在X、HN大量热议其3秒克隆嗓音、本地跑模型保护隐私的能力，并对比云端服务74语言的局限；中文圈小红书有UP主拿来做B站有声书，收到大量跟做评论。",
-      "技术栈围绕本地GGUF推理+CosyVoice引擎，提供WorkflowStudio可视化流程、Voice Gallery现成音色与本地API，还集成Agent Skills框架，适合播客、自媒体、字幕组做批量配音。"
+      "微软在2026年10月14日发布Visual Studio Code 1.142稳定版，核心亮点是Canvases画布预览功能，让开发者可与AI代理超越聊天框进行可视化协作。画布在聊天侧边打开，二者可同时检视并更新同一产物。",
+      "典型场景是Kanban看板画布：开发者直接创建和移动卡片规划实现工作，代理则把功能拆分成任务、更新状态或补充新发现的工作项。1.142同时支持移动聊天，可把对话历史整体搬到另一个文件夹或新Git worktree继续推进。",
+      "企业管理方面新增代理沙箱和权限策略的强制执行，管理员可统一控制开发者可用的权限模式。配套终端沙箱可在Windows、macOS和Linux平台上限制代理对文件系统和网络的访问，大幅降低模型错误与提示注入的影响面。",
+      "Markdown编辑器扩展支持粘贴图片、重命名文件链接、面包屑导航；模型选择器重新设计，可快速在Copilot和BYOK模型间切换；Copilot harness开始作为新会话默认，Ask作为内置代理回归，整体朝多代理开发工作台演化。"
     ]
   },
   {
-    "id": "2026-10-15_vibe_2",
-    "date": "2026-10-15",
+    "id": "2026-10-16_vibe_2",
+    "date": "2026-10-16",
     "category": "VibeCoding",
-    "subcat": "工具",
-    "platform": "GitHub",
+    "subcat": "AI编辑器",
+    "platform": "官方博客",
     "platform_color": "#F6A07C",
-    "title": "Context Mode给Agent砍98%上下文",
-    "url": "https://github.com/mksglu/context-mode",
-    "image": "images/2026-10-15/2026-10-15_vibe_2.jpg",
+    "title": "Zed 1.24.2发布Git标签与代理终端拖拽",
+    "url": "https://zed.dev/releases/stable",
+    "image": "images/2026-10-16/2026-10-16_vibe_2.jpg",
     "detail": [
-      "Context Mode是一款MCP服务器，专治AI编码Agent上下文爆炸：把工具原始输出沙箱化，不入上下文窗口，315KB缩到5.4KB、减量98%，并用SQLite+FTS5把会话事件持久化，Compact后不丢记忆。",
-      "仓库今日Trending冲榜，29,100星、2,044 Fork，单日新增947颗星。核心能力含ctx_execute沙箱执行、BM25全文检索、PreToolUse钩子阻断curl/wget直取，兼容17个平台包括Claude Code、Cursor、Codex、Copilot、Gemini CLI。",
-      "开发者社区在HN与X评价\"47次Read→1次execute\"的脚本化思维非常上头，字节内部也有同学把它接到自家CLI做长会话。缺点是插件路径配置略繁，GitHub Issues提了不少平台适配请求。",
-      "典型用法npm全局安装后，用plugin install把钩子注入对应平台，适合跑长周期代码重构、仓库扫描、Playwright自动化等高上下文消耗任务。"
+      "Rust编辑器Zed在2026年10月14日发布稳定版1.24.2，重点优化AI代理面板的终端支持与Git工作流。新版允许开发者直接把终端Tab拖进Agent Panel，让代理读取终端输出并继续推理操作。",
+      "Git能力新增git: create tag at head命令，以及Git历史和Git Graph右键菜单中的Create Tag动作，可在选定提交上创建本地标签而不自动推送，适合先打tag再决定发布节奏的工作流。",
+      "AI部分改进自定义Amazon Bedrock模型支持，可配置工具使用、图片和thinking能力；长线程下代理响应时的内存和CPU占用显著下降，让使用AWS基础设施的团队能够更灵活地接入自建推理服务。",
+      "编辑器体验方面文件查找器会用编辑器或终端中选中的文本预填充查询，Linux x86_64发布二进制体积减少约23%，macOS Finder识别Zed为开发者工具分组，还有Git面板分区文件计数等琐碎但积累的改进。"
     ]
   },
   {
-    "id": "2026-10-15_vibe_3",
-    "date": "2026-10-15",
+    "id": "2026-10-16_vibe_3",
+    "date": "2026-10-16",
     "category": "VibeCoding",
-    "subcat": "工具",
-    "platform": "GitHub",
+    "subcat": "开发工具",
+    "platform": "Product Hunt",
     "platform_color": "#F6A07C",
-    "title": "xtool让Linux也能打iOS包",
-    "url": "https://github.com/xtool-org/xtool",
-    "image": "images/2026-10-15/2026-10-15_vibe_3.jpg",
+    "title": "Navige登陆PH榜二主打AI代理成本控制",
+    "url": "https://www.producthunt.com/products/navige",
+    "image": "images/2026-10-16/2026-10-16_vibe_3.jpg",
     "detail": [
-      "xtool是跨平台Xcode替代，基于SwiftPM在Linux、Windows WSL和macOS上编译、签名、安装iOS App，也能程序化调用Apple Developer Services，MIT协议开源，由Kabir Oberai独立开发维护。",
-      "今日GitHub Trending飙升，单日新增1,502颗星、总计10,777星、Fork 485，Swift占98.9%。最新commit打通Swift 6.4构建与自定义SwiftVersion解析，近期已把CI用xtool替换Xcode走通。",
-      "Swift Forums和HN开发者直呼\"iOS开发终于不被Mac绑架\"，Asahi Linux与双系统用户尤其兴奋；也有人提醒Apple开发者协议仍要留意合规边界，不是所有商用发布都能完全脱离macOS。",
-      "命令行xtool build+xtool run即可SwiftPM打包部署真机，xtool.yml声明式配置App，适合从Vim/VSCode写iOS App的极客，但SwiftData等专有宏、LLDB新协议、App Store上传仍待补齐。"
+      "针对AI代理普遍存在的token消耗失控问题，Navige于2026年10月15日登陆Product Hunt并冲到当日榜单第二，收获191个upvote和51条讨论，副标题直截了当：Cut AI agent costs，直指开发者痛点。",
+      "Navige面向越来越多公司把代理嵌入生产工作流后出现的token账单失控现象，提供精细化的成本可观测、预算守护和自动拦截能力，让团队在成本刚刚发生那一刻就立刻感知，而不是等到月底拿到账单时才震惊错愕。",
+      "当代码代理或分析代理在后台无人看管地长时间跑任务时，一旦提示注入、循环调用、大context外溢触发失控消耗，Navige可在接近预算阈值时自动限流、降级模型或直接中止任务，守住开发者的钱袋与整体预算。",
+      "挂钩方式类似AI版APM：接入OpenAI、Anthropic、Azure或自建推理网关后，Navige按团队、项目、代理甚至单会话维度切分指标，暴露按模型的token单价、每任务平均成本、异常高消耗Top榜。"
     ]
   },
   {
-    "id": "2026-10-15_vibe_4",
-    "date": "2026-10-15",
+    "id": "2026-10-16_vibe_4",
+    "date": "2026-10-16",
     "category": "VibeCoding",
-    "subcat": "插件",
-    "platform": "X",
+    "subcat": "AI编程",
+    "platform": "官方博客",
     "platform_color": "#F6A07C",
-    "title": "Cursor Origin应用市场开闸",
-    "url": "https://cursor.com/changelog/origin-app-marketplace",
-    "image": "images/2026-10-15/2026-10-15_vibe_4.jpg",
+    "title": "GitHub代理式Autofix代码扫描修复GA",
+    "url": "https://github.blog/changelog/2026-10-15-agentic-autofix-for-code-scanning-alerts-general-availability",
+    "image": "images/2026-10-16/2026-10-16_vibe_4.jpg",
     "detail": [
-      "Cursor在10月13日宣布代码托管平台Origin推出应用市场，并同步向第三方开发者开放提交通道。首批上架20余款应用，覆盖部署、CI、代码评审、安全、监控与项目管理六大类场景。",
-      "合作伙伴阵容硬核：部署含Cloudflare、Vercel、Netlify、Render，CI含Buildkite、CircleCI、Depot，代码评审含CodeRabbit、Greptile，安全含Semgrep、Socket Security、Upwind，监控是Sentry，项目管理挂Linear。",
-      "@cursor_ai官推文帖获2K点赞16.3万浏览，开发者讨论热议JWT鉴权+webhook+check runs的Origin API设计；也有人指出沙箱化Node运行时扩展才是真正瓶颈，期待后续补齐权限模型。",
-      "开发者可在自己命名空间创建App、对接Origin API开发，然后提交含安装/卸载demo视频审核过关即可公开上架；Cursor同步开放Origin Apps插件做在线API文档问答与迁移规划。"
+      "GitHub在2026年10月15日官方Changelog宣布Agentic Autofix for Code Scanning Alerts正式GA，从7月的Public Preview升级为生产可用，面向企业安全和开发团队，不再需要白名单即可默认启用。",
+      "与只给静态补丁片段的旧Autofix不同，代理式Autofix把漏洞修复变成多步自主工作流：Copilot会遍历仓库、生成候选补丁、用CodeQL与linter反复验证自己的工作，然后把结果打包成draft PR交人类审查。",
+      "触发方式灵活：直接把Code Scanning告警assign给Copilot，或通过Update a Code Scanning Alert REST API设assignees为copilot-swe-agent[bot]，便于DevSecOps团队把告警自动化triage到agent管线中。",
+      "GA版有明确前置：组织启用Advanced Security的Agentic autofix策略，仓库开启Code Security，并配置有效的Copilot usage-based计费；仅支持默认分支告警，消耗AI Credits与Actions分钟数。"
     ]
   },
   {
-    "id": "2026-10-15_vibe_5",
-    "date": "2026-10-15",
+    "id": "2026-10-16_vibe_5",
+    "date": "2026-10-16",
     "category": "VibeCoding",
-    "subcat": "SDK",
-    "platform": "GitHub",
+    "subcat": "编程语言",
+    "platform": "官方博客",
     "platform_color": "#F6A07C",
-    "title": "CLI-Anything让所有软件变Agent原生",
-    "url": "https://github.com/HKUDS/CLI-Anything",
-    "image": "images/2026-10-15/2026-10-15_vibe_5.jpg",
+    "title": "Node.js宣布改为每年一个Major发布",
+    "url": "https://nodejs.org/en/blog/announcements/evolving-the-nodejs-release-schedule",
+    "image": "images/2026-10-16/2026-10-16_vibe_5.jpg",
     "detail": [
-      "CLI-Anything由港大HKUDS团队发布，口号\"Making ALL Software Agent-Native\"，把任意桌面/服务端软件自动包装成可被AI Agent调用的CLI，并上线配套CLI-Hub市场站点clianything.cc。",
-      "仓库今日Trending上榜，总计52,473星、Fork 4,773，单日新增103颗星，Python主导。核心是统一命令抽象层+MCP桥，让Agent绕开GUI完成Figma、Blender、浏览器等软件的批量化操作。",
-      "海外HN和X Dev圈把它和Anthropic Agent Skills对标，评价为\"GUI软件给Agent开后门\"的新范式；国内qbitai与小红书技术博主在跟进试用，看好数据标注、设计自动化、科研工作流场景。",
-      "开发者可以Fork仓库里的skill模板写自己的CLI适配器，再上传到CLI-Hub分享；配合Claude Code、Codex、Cursor等Agent可以一键让非CLI软件也进入自动化编排流水线。"
+      "Node.js官方在2026年10月正式宣布改革存在十年的发布节奏：从Node.js 27开始，每年只发布一个Major版本（4月），6个月后在10月晋升为LTS，每一个Major版本都是LTS，不再区分奇偶号。",
+      "官方给出的理由非常务实：十年数据表明奇数版本几乎没人用，大部分组织都在等LTS；维护四到五条并发release line让志愿者的安全回传工作难以为继，一年一次Major远比半年一次更利于企业升级规划。",
+      "新模式下每版本30个月LTS支持，加上6个月Current和6个月Alpha共36个月生命周期。Alpha通道允许semver-major变更以替代奇数版的早期测试职责，CITGM会跑主流开源包测试提前检测生态破坏。",
+      "V8的采纳节奏保持不变，最新Node.js中V8版本不会超过6个月。Node.js 26按旧模式最后一次发布，Node.js 27成为新模式第一条release line。10月8日Node.js 26.11.1已发布，24仍是Active LTS支持到2029年4月。"
     ]
   },
   {
-    "id": "2026-10-15_vibe_6",
-    "date": "2026-10-15",
+    "id": "2026-10-16_vibe_6",
+    "date": "2026-10-16",
     "category": "VibeCoding",
-    "subcat": "框架",
-    "platform": "GitHub",
+    "subcat": "开源项目",
+    "platform": "Product Hunt",
     "platform_color": "#F6A07C",
-    "title": "iFixAi让Agent互审120秒出报告",
-    "url": "https://github.com/ifixai-ai/iFixAi",
-    "image": "images/2026-10-15/2026-10-15_vibe_6.jpg",
+    "title": "OpenMuse开源自托管个人代理助理登PH",
+    "url": "https://www.producthunt.com/products/openmuse",
+    "image": "images/2026-10-16/2026-10-16_vibe_6.jpg",
     "detail": [
-      "iFixAi定位\"AI Agent独立审计器\"，不管由人或者Agent自己触发，都能在120秒内回答AI Agent经济中最关键的问题——\"这个Agent在干它该干的事吗？\"，自动产出合规与行为审计报告。",
-      "仓库今日Trending飙升，单日新增2,109颗星，总计27,366星、Fork 1,502。Python实现，内置多Agent红蓝对抗测试、工具调用溯源、输出一致性评分和异常行为捕获，可嵌入CI。",
-      "海外开发者社区把它与Anthropic最新的Agent misalignment研究对照讨论；企业用户尤其关注，电商、金融场景下让Agent自动买东西/操作账户出事的恐慌正催生独立审计这条新赛道。",
-      "典型用法把Agent Harness接到iFixAi SDK，跑任务时产出trace，审计器自动比对任务规范与实际行为并输出可追责的证据链，适合企业内部AI治理与第三方合规审计。"
+      "由CopilotKit团队发布的OpenMuse在2026年10月15日Product Hunt日榜获得第五，141个upvote，副标题是Opensource, self hostable personal assistant for any harness，面向开发者个人代理场景。",
+      "它定位为开源可自托管的个人助理，适配任何代理harness，直接对标Claude Cowork、Cursor Agents、Codex等闭源私助理方案，差异化在于不绑定任何单一模型供应商或IDE，具备足够的工程中立性。",
+      "开发者可以把它接到Claude Code、Codex CLI、Cursor、Cline等现有代理harness上作为统一的记忆与工具中枢，让个人任务、文件、知识不再散落在各家闭源产品里，数据主权始终掌握在自己服务器上。",
+      "作为CopilotKit系列的新一员，它继承后者对代理UI、状态流转和tool call编排的理解，支持MCP生态复用现有工具服务器，具备跨会话长期记忆、技能即插即用、浏览器与终端操作等多种开箱即用能力。"
     ]
   },
   {
-    "id": "2026-10-15_game_1",
-    "date": "2026-10-15",
+    "id": "2026-10-16_game_1",
+    "date": "2026-10-16",
     "category": "Gaming",
-    "subcat": "新作",
-    "platform": "Pure Xbox",
-    "platform_color": "#7CF6A0",
-    "title": "战锤40K:螺栓枪2今日登陆主机PC",
-    "url": "https://www.purexbox.com/news/2026/10/10-xbox-games-are-available-today-including-a-retro-fps-sequel-worthy-of-the-imperium-october-14",
-    "image": "images/2026-10-15/2026-10-15_game_1.jpg",
-    "detail": [
-      "由Auroch Digital开发、Big Fan Games发行的《战锤40,000:螺栓枪2》于10月14日登陆Xbox Series X|S、PS5、Switch 2与PC Steam,同日入驻Xbox云游戏库。本作延续初代“复古Boomer Shooter”路线,保留像素美术与极速射击手感。",
-      "续作直接承接初代结局,玩家将操控星际战士在新的分支单人战役中追击异端。核心玩法升级了武器库与敌人多样性,引入可选分支地图,支持PS5和Xbox云端跨平台游玩。单价定于$29.99,首发同步登陆Xbox Game Pass订阅库。",
-      "社区在Reddit r/Games与Steam评论区反应热烈,大部分首波玩家给予“特别好评”评价,盛赞关卡节奏比初代更紧凑、BOSS设计更出彩。部分玩家吐槽Switch 2版本在高强度场景出现帧率波动,期待官方后续补丁优化掌机便携体验。"
-    ]
-  },
-  {
-    "id": "2026-10-15_game_2",
-    "date": "2026-10-15",
-    "category": "Gaming",
-    "subcat": "更新",
-    "platform": "官方",
-    "platform_color": "#7CF6A0",
-    "title": "GT7 Spec IV Part 1更新上线",
-    "url": "https://www.gran-turismo.com/gb/news/00_5741963.html",
-    "image": "images/2026-10-15/2026-10-15_game_2.jpg",
-    "detail": [
-      "Polyphony Digital于10月14日通过Gran Turismo官方博客正式公布《GT7》Spec IV Part 1重大免费更新,北美当地时间10月14日晚、日本时间10月15日下午正式推送。本次为PS4/PS5版累计第十余次大型升级,带来全新片头CG。",
-      "更新内容包括全新宫城赛道SUGO国际赛车场、六款新车(含雪铁龙2CV '86、法拉利F355 '94、本田思域Group A '87、小米Vision Gran Turismo等),新增Vintage专区、Car Concierge代购服务,并开放更多Collector Level上限。",
-      "PlayStation社区反响积极,Push Square评论区400+留言普遍称赞免费大版本更新诚意十足,F355与小米概念车成最大话题焦点。但老玩家批评内容仍采取碎片化节奏,部分期待Autumn Ring的玩家被告知需等到12月Part 2才能体验,引发些许不满。"
-    ]
-  },
-  {
-    "id": "2026-10-15_game_3",
-    "date": "2026-10-15",
-    "category": "Gaming",
-    "subcat": "硬件",
-    "platform": "Steam Deck HQ",
-    "platform_color": "#7CF6A0",
-    "title": "Steam Deck重大客户端更新上线",
-    "url": "https://steamdeckhq.com/news/massive-new-steam-deck-client-update-big-art/",
-    "image": "images/2026-10-15/2026-10-15_game_3.jpg",
-    "detail": [
-      "Valve于10月13-14日向稳定分支推送Steam Deck与Steam客户端重大更新,Steam Deck HQ在10月14日发布深度评测视频。此次更新把Beta分支一众实验功能一次性放出,被海外媒体称为“近一年最有感的掌机系统升级”。",
-      "重点新增主屏Big Art Mode大图模式、支持自定义屏保(游戏艺术幻灯片或经典反弹Logo)、个人日历推荐Tab、实验性Pyrowave视频编解码(远程串流更低延迟)、Steam Input配置多绑定可视化,以及Windows非Steam游戏默认用Proton启动。",
-      "Reddit r/SteamDeck与r/pcgaming社区好评一片,玩家特别欣赏Big Art Mode“让界面彻底变成游戏杂志封面”的沉浸体验;远程串流用户实测Pyrowave在千兆网环境下画质显著优于H.264。少数用户反馈部分控制器曲线需重新校准,属常规版本首发阵痛。"
-    ]
-  },
-  {
-    "id": "2026-10-15_game_4",
-    "date": "2026-10-15",
-    "category": "Gaming",
-    "subcat": "评测",
-    "platform": "CGMagazine",
-    "platform_color": "#7CF6A0",
-    "title": "《Ratatan》Switch 2评测9分",
-    "url": "https://www.cgmagonline.com/review/game/ratatan-nintendo-switch-2/",
-    "image": "images/2026-10-15/2026-10-15_game_4.jpg",
-    "detail": [
-      "《帕塔砰》原作者小谷浩之领衔Ratata Arts打造的节奏Roguelike《Ratatan》迎来1.0正式版,10月14-15日登陆Steam、PS5、Xbox Series X|S与Switch 2四大平台,售价$34.99(豪华版$39.99,首发限时九折)。",
-      "CGMagazine在10月12日给出9/10高分评价,盛赞游戏在保留Patapon节奏指令精髓的同时,大胆融入自由移动战场与Hades式Roguelike分支;八位可操控Ratatan指挥官搭配上百种Cobun小兵组合,配乐由前Patapon作曲安达贤明回归,被称为“精神续作做到位的典范”。",
-      "Steam抢先体验阶段近900则评论即维持90%好评,正式版发售后Twitter上日本玩家纷纷晒出4人线上合作截图。少数评测提到后期难度曲线陡峭、研磨量较大,但整体社区共识是“节奏游戏爱好者今年必玩之作”,被看作PSP经典IP成功现代化的样板。"
-    ]
-  },
-  {
-    "id": "2026-10-15_game_5",
-    "date": "2026-10-15",
-    "category": "Gaming",
-    "subcat": "新作",
-    "platform": "GamesComingOut",
-    "platform_color": "#7CF6A0",
-    "title": "《恶魔城:贝尔蒙特之咒》今日发售",
-    "url": "https://gamescomingout.com/games/castlevania-belmonts-curse",
-    "image": "images/2026-10-15/2026-10-15_game_5.jpg",
-    "detail": [
-      "《恶魔城:贝尔蒙特之咒》(Castlevania: Belmont's Curse)由Konami发行、Evil Empire(《死亡细胞》开发商)与Motion Twin联合开发,10月15日登陆PS5、Xbox Series X|S、Switch与PC,售价$39.99,是正统系列第26作。",
-      "故事设定在《恶魔城III:德古拉之咒》二十三年后的1499年,玩家操控Trevor Belmont之女Rose Belmont深入显现于巴黎心脏地带的德古拉城堡,玩法回归《月下夜想曲》式非线性探索,鞭子“吸血鬼杀手”兼具攻击与钩索移动机制。",
-      "海外媒体首发评测口碑分化但整体正面:多家外媒给出8-9分,肯定Evil Empire把《死亡细胞》式动作感融入经典Metroidvania框架的尝试。Reddit r/castlevania讨论区热度爆棚,老粉丝对系列时隔多年回归家用机单人大作表示激动,期待后续DLC路线图。"
-    ]
-  },
-  {
-    "id": "2026-10-15_game_6",
-    "date": "2026-10-15",
-    "category": "Gaming",
-    "subcat": "更新",
+    "subcat": "PC大作正式版",
     "platform": "Steam",
     "platform_color": "#7CF6A0",
-    "title": "《Dumb Ways to Build》3.0大更新",
-    "url": "https://steamcommunity.com/app/4412320",
-    "image": "images/2026-10-15/2026-10-15_game_6.jpg",
+    "title": "Enshrouded 1.0正式版今日登陆Steam",
+    "url": "https://store.steampowered.com/news/app/1203620/view/",
+    "image": "images/2026-10-16/2026-10-16_game_1.jpg",
     "detail": [
-      "混乱物理Co-op游戏《Dumb Ways to Build》于10月14日在Steam推出3.0版本“Beach Breach海滩危机”重大免费更新,由Metro Trains旗下PlaySide开发,是基于《Dumb Ways to Die》IP衍生的建造合作新作,原价约S$8。",
-      "更新新增全新Crisis Job“海滩泄漏”关卡,玩家需合作修复油井管道,躲避鲨鱼咬击、海浪冲击、螃蟹偷材料和海鸥叼工具。新增漂浮/下沉建材系统、Master Builder高难挑战、海滩主题皮肤与认证,以及一系列水面物理与Bug修复。",
-      "Steam评论区在上线数小时内涌入“特别好评”浪潮,很多玩家晒出4人团建“互相坑死”的爆笑剪辑;SubReddit r/CoopGaming称其是继《Lethal Company》后又一款“物理+混乱”派对标杆。开发组表示将根据社区反馈继续迭代Crisis Job关卡。"
+      "德国工作室Keen Games旗下的开放世界生存动作RPG《Enshrouded》(迷雾大陆) 在经历近两年零九个月的抢先体验后,于北京时间10月15日正式推出1.0版本,登陆Steam平台。开发组官方宣布完整版带来新主线章节扩充、战斗系统深度打磨、画面优化升级以及大量玩家反馈驱动的细节改进,游戏支持最多16人同世界联机。",
+      "本次1.0更新针对老玩家最在意的存档兼容问题也给出明确答案:所有抢先体验阶段的世界存档均可无缝继承到正式版,无需重开档,新增内容将直接接入现有世界;Keen承诺14日先行放出完整更新日志,15日发布游戏亮点视频同步正式解锁。开发组还提到跨平台联机、PS5版本等正在推进中,但暂未给出具体时间表,现阶段推荐全员固定在PC端联机游玩体验最稳定。",
+      "作为抢先体验期间已经积累下稳定长青用户群的联机生存佳作,《Enshrouded》此次1.0转正吸引大量老玩家回流,Steam近期在线数据明显回升。它融合了类银河恶魔城的建造、Soulslike风格的战斗以及开放世界探索,对喜欢《瓦尔海姆》《英灵神殿》《Palworld》等品类的玩家而言是本周PC平台不可错过的大型里程碑式发售。"
+    ]
+  },
+  {
+    "id": "2026-10-16_game_2",
+    "date": "2026-10-16",
+    "category": "Gaming",
+    "subcat": "桌游数字化",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "Frosthaven 1.0 Steam与Epic同步发售",
+    "url": "https://store.steampowered.com/news/app/2347080/view/694264948876903895",
+    "image": "images/2026-10-16/2026-10-16_game_2.jpg",
+    "detail": [
+      "由Snapshot Games(X-COM系列创始人Julian Gollop主导)与Arc Games联合开发的桌游数字化大作《Frosthaven》(霜寒之地),于北京时间10月15日正式结束长达数月的抢先体验,在Steam和Epic商城同步推出1.0版本。本作改编自Isaac Childres制作的同名获奖桌游续作,是继《Gloomhaven》之后又一款深度策略回合制战棋的高完成度数字化移植。",
+      "1.0版本一次性开放完整的《Frosthaven》剧情战役,包括桌游最终章的决战内容;17名可玩英雄全数登场,最后一位英雄随正式版解锁;新增独立试玩Demo \"Road to Frosthaven\",带入门玩家循序渐进理解复杂系统;针对联机进行了网络架构重做,支持更顺畅的多人合作;并引入可自定义的\"House Rules\"家规机制,让玩家按自己喜好调整难度与规则。",
+      "开发组还为正式版加入全新片头CG、英雄解锁视频、完整游戏内Codex百科,让新玩家无需记笔记就能跟上庞大的世界观。Snapshot CEO Julian Gollop表示:忠于桌游原作、同时为新老玩家优化上手体验是本次1.0的核心目标。对于桌游爱好者和SRPG策略玩家而言,这款耗时三年打磨的数字化作品,是本周PC最具话题度的硬核战棋发售之一。"
+    ]
+  },
+  {
+    "id": "2026-10-16_game_3",
+    "date": "2026-10-16",
+    "category": "Gaming",
+    "subcat": "跨平台登陆",
+    "platform": "PlayStation Blog",
+    "platform_color": "#7CF6A0",
+    "title": "合作攀登游戏《PEAK》10月22日登PS5",
+    "url": "https://blog.playstation.com/2026/10/15/peak-climbs-its-way-onto-ps5-october-22/",
+    "image": "images/2026-10-16/2026-10-16_game_3.jpg",
+    "detail": [
+      "由美国工作室Aggro Crab(《螃蟹大冒险Another Crab's Treasure》开发商)与瑞典Landfall(《Content Warning》《Totally Accurate Battle Simulator》开发商)联合组成的\"Team Peak\"于10月15日通过PlayStation官方博客正式宣布,合作攀登多人游戏《PEAK》将于10月22日登陆PS5,并支持跨平台联机。玩家可以与PC端最多三位好友一起组队登顶同一座雾山。",
+      "《PEAK》诞生自两家工作室2025年在韩国首尔举办的一个月Game Jam,三位Aggro Crab和四位Landfall开发者租下公寓,靠韩式烤肉和咖啡在限定时间内完成原型。游戏主题最初是在瑞典一次热水池聚会上确定的:你扮演一群迷失在神秘岛屿上的童军,唯一的获救方式就是攀登岛中央的巨大山峰,穿越四种生物群落,躲避致命陷阱、饥饿与浓雾。",
+      "游戏核心玩法鼓励\"永不抛下伙伴\",支持跨平台3人联机,PlayStation Plus会员和跨平台好友均可一起体验。作为Landfall《Content Warning》《Haste》系列后又一款聚焦\"友情协作+生存冒险\"的小而精品,《PEAK》此前在PC端已经积累了稳定口碑。本次PS5版本以跨平台联机作为主打卖点,预计会在主机派对联机圈引发新一波攀登热潮。"
+    ]
+  },
+  {
+    "id": "2026-10-16_game_4",
+    "date": "2026-10-16",
+    "category": "Gaming",
+    "subcat": "独立新作",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "太空鲸背建城《Beyond These Stars》今日发售",
+    "url": "https://store.steampowered.com/app/2295060/Beyond_These_Stars/",
+    "image": "images/2026-10-16/2026-10-16_game_4.jpg",
+    "detail": [
+      "由Balancing Monkey Games开发、Hooded Horse发行的科幻城市建造模拟新作《Beyond These Stars》(繁星之外) 于北京时间10月16日正式登陆Steam,同时作为首发日作品进入Xbox Game Pass Ultimate与PC Game Pass订阅库。游戏独特卖点是玩家需要在一头穿越宇宙的巨型太空鲸鱼背上搭建完整的城市文明,管理一切资源与补给链。",
+      "作为Balancing Monkey前作《Before We Leave》开发者的精神续作,本作延续其标志性的无压力城建风格:没有传统策略游戏的军事威胁,核心玩法围绕生态循环、宇宙探索与跨星际贸易展开。玩家需要照顾鲸鱼的健康、研究各种外星生物与资源、与一路遇到的其他飞船文明交易,并通过精心设计供应链让城市与巨兽建立真正共生关系。",
+      "游戏支持中文,画面采用柔和清新的卡通建模风格,整体节奏偏休闲放松,适合喜欢《Dorfromantik》《Before We Leave》《Terra Nil》等轻度策略建造类玩家。Steam上游戏首发已累积超过2.1万玩家关注,位列10月中旬最受期待的独立新作前列,与同日发售的恐怖游戏《Tenebris Somnia》形成鲜明反差。"
+    ]
+  },
+  {
+    "id": "2026-10-16_game_5",
+    "date": "2026-10-16",
+    "category": "Gaming",
+    "subcat": "复古恐怖独立",
+    "platform": "IGN",
+    "platform_color": "#7CF6A0",
+    "title": "阿根廷复古恐怖《Tenebris Somnia》今日上线",
+    "url": "https://store.steampowered.com/app/2121510/Tenebris_Somnia/",
+    "image": "images/2026-10-16/2026-10-16_game_5.jpg",
+    "detail": [
+      "由阿根廷电影人Andrés Borghi与Saibot Studios共同打造、New Blood Interactive发行的2D复古像素生存恐怖冒险游戏《Tenebris Somnia》于10月16日正式登陆Steam、GOG、PlayStation 5、Xbox Series、Nintendo Switch与Switch 2多平台。首发价格24.99美元,前期享20%限时折扣,持有《Faith: The Unholy Trinity》的玩家还可叠加额外折扣。",
+      "本作最大的卖点是像素化2D玩法与真人实拍电影化过场的混搭:开发团队本身是获奖电影剧组,把80年代录像带风格的真人表演穿插到谜题解锁和探索节奏中,玩家在推进像素画面主线的同时,会不断被拉入阴冷的实拍梦境序列,营造出一种\"这究竟是不是噩梦\"的心理压迫。游戏主打心理恐怖和解谜,女性主角视角,整体氛围偏向老派点击冒险。",
+      "《Tenebris Somnia》前期通过Day of the Devs、Latin American Games Showcase等多场独立展示节获得关注,实体版由Lost in Cult负责发行,售价根据平台与版本区间为29.99到59.99英镑不等。作为New Blood Interactive今年年末最重要的复古恐怖品牌推新,它面向喜欢《Faith》《Signalis》《Lunacid》等像素化恐怖独立作品的玩家。"
+    ]
+  },
+  {
+    "id": "2026-10-16_game_6",
+    "date": "2026-10-16",
+    "category": "Gaming",
+    "subcat": "主机移植",
+    "platform": "Capcom官方",
+    "platform_color": "#7CF6A0",
+    "title": "生化危机2/3/4今日同步登Switch 2",
+    "url": "https://www.residentevil.com/switch2/en-us/",
+    "image": "images/2026-10-16/2026-10-16_game_6.jpg",
+    "detail": [
+      "卡普空(Capcom)旗下《生化危机》系列三部重制版——《生化危机2 豪华版》《生化危机3》《生化危机4 黄金版》——于10月16日作为数字版正式登陆任天堂Switch 2平台(实体版将在2027年1月29日跟进)。此前这三款作品从未在初代Switch上原生运行过,如今在性能更强的Switch 2上得以首次完整体验RE Engine重制水准的画面与操作。",
+      "三款作品均提供早期购买折扣:截至11月7日,《生化4黄金版》享20%折扣,《生化2豪华版》与《生化3》各享33%优惠。本次Switch 2版本忠实保留原作完整的DLC内容,其中《生化4黄金版》包含《分道》外传剧情章节,《生化2豪华版》带全部造型与故事附加包。遗憾的是,Switch 1云端串流版的存档无法迁移到Switch 2原生版本。",
+      "三部曲登陆Switch 2是卡普空\"多平台最大化战略\"的关键一步,同步官网也将12月4日的《怪物猎人荒野》Switch 2版正式日期列入时间线。考虑到Switch 2本周六还有《使命召唤:现代战争4》等重磅加入,10月16日被玩家戏称为\"Switch 2最忙的一天\",三部《生化》与Capcom的多平台扩张战略一道,为任天堂新主机带来重要的第三方AAA补给。"
     ]
   }
 ]
