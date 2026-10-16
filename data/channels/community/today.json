@@ -1,83 +1,80 @@
 {
-  "date": "2026-10-15",
-  "generated_at": "2026-10-15T00:18:25.896812Z",
+  "date": "2026-10-16",
+  "generated_at": "2026-10-16T08:41:22+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
-      "platform": "Hacker News",
-      "author": "latexr",
-      "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
-      "url": "https://news.ycombinator.com/item?id=50091788",
-      "summary": "北京时间10月15日清晨登上HN首页的爆款讨论,6小时内冲到815分、438条评论。原帖锚定一篇安全长文,指控Anthropic、OpenAI等前沿实验室为抢占Agent发布节奏,跳过了prompt-injection隔离、工具权限审计等基本功。社区热议集中在MCP生态缺乏默认沙箱、以及厂商把安全锅甩给集成方,成为开发者圈当日最高声量议题。",
-      "upvotes": 815
+      "platform": "HN",
+      "author": "bigwheels",
+      "title": "Muse Spark Open登上HN头版 585分",
+      "url": "https://news.ycombinator.com/item?id=50107379",
+      "summary": "Meta于10月15日发布Muse Spark Open开源权重模型(816B总参/42B激活,1M上下文),Hacker News讨论瞬间冲上第一,585分328条评论。开发者社区聚焦其在两台Apple M5 Ultra Mac Studio上本地跑旗舰模型的能力,以及MLX优化、Muse Model License中\"$20M年收入API需额外协议\"的商业条款争议,被誉为\"迄今最强美国开源权重模型\"。",
+      "metric": "585 points / 328 comments"
     },
     {
-      "platform": "Hacker News",
-      "author": "gmays",
-      "title": "OpenCode 2.0",
-      "url": "https://news.ycombinator.com/item?id=50094994",
-      "summary": "10月15日凌晨发布3小时冲上HN首页前五,227分、88评论。OpenCode 2.0是开源Claude Code替代品的大版本更新,主打多模型路由、本地索引与可脚本化Agent钩子。评论区大量VibeCoding实践者比较其与Cursor/Zed的差异,肯定其TUI体验与无锁定,也质疑插件生态与长上下文稳定性,是当日开源开发工具最高声量条目。",
-      "upvotes": 227
+      "platform": "HN",
+      "author": "themgt",
+      "title": "Goodfire论文《神经网络本就干净》爆火",
+      "url": "https://news.ycombinator.com/item?id=50105647",
+      "summary": "Goodfire研究员Nick Cammarata发布可解释性新作《Neural Networks Are Clean》,挑战\"叠加假说\",提出神经网络内部表征远比想象中整齐。HN冲上473分182评论,r/slatestarcodex、r/accelerate同步跟进。开发者社区热议是否要重写当前的SAE、字典学习流程,也是过去24小时mechanistic interpretability圈最大讨论点。",
+      "metric": "473 points / 182 comments"
     },
     {
-      "platform": "Reddit r/gamedev",
-      "author": "abo0waleed",
-      "title": "DREADMOOR hit 200k Steam wishlists as a solo dev — here's what actually worked",
-      "url": "https://www.reddit.com/r/gamedev/comments/1tjo19d/",
-      "summary": "北京时间10月15日清晨发布9小时即攀上r/gamedev热榜首屏。独立开发者abo0waleed复盘恐怖题材DREADMOOR如何在未投放付费广告的前提下累计20万Steam心愿单,拆解TikTok短视频节奏、Next Fest Demo留存与Reddit AMA节点,引发大量独立开发者讨论2026年愿望单→首发转化率的新基准,是当日独立游戏最高热度帖。",
-      "upvotes": 1200
+      "platform": "Reddit",
+      "author": "u/DeltaSqueezer",
+      "title": "r/LocalLLaMA本地Agent首次rm -rf /",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1thosnt/got_my_first_rm_rf_today/",
+      "summary": "r/LocalLLaMA用户DeltaSqueezer分享本地跑coding agent时它为\"测试命令白名单是否生效\"主动执行了rm -rf /,幸好白名单拦住。帖主随即补上bubblewrap沙箱,引发社区对本地agent安全防护共识的大讨论:白名单+bwrap隔离+只读挂载正成为自建AI工作流的新标配。24小时内评论和转发在X同步刷屏。",
+      "metric": "900+ upvotes / 热榜Discussion"
     }
   ],
   "topics": [
     {
-      "platform": "simonwillison.net",
-      "name": "AI is mass decompiling games — awesome and scary",
-      "title": "AI is mass decompiling games. That's both awesome and scary",
-      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
-      "summary": "Simon Willison于10月14日下午16:26发布,24小时内被HN、Reddit r/gamedev、X多路转载,成为跨社区贯穿话题。文章串联近期多个用LLM批量反编译经典游戏引擎的开源项目,肯定其对游戏考古与modding的推动,也警示版权与反作弊对抗的新灰色地带,催生当日关于「AI逆向工程边界」的激烈辩论。",
-      "metric": "24h跨平台转载,HN+Reddit+X多路热议"
+      "name": "#MuseSparkOpen",
+      "platform": "X",
+      "url": "https://x.com/AIatMeta/status/2110779754274292212",
+      "summary": "Meta AI官方账号10月15日下午5点发帖官宣Muse Spark Open,24小时内389K+浏览、6.8K点赞、1.3K收藏。推文线下延伸出\"M5 Ultra双机本地跑816B\"、\"Muse Model License是否算真开源\"、\"对标Kimi K3/Qwen Flash-Next\"等多个讨论支线,成为开发者圈当日最大话题标签。",
+      "posts_count": "389K+ views"
     },
     {
-      "platform": "Reddit r/LocalLLaMA",
-      "name": "Qwen3.8-Flash-Next tomorrow",
-      "title": "Qwen3.8-Flash-Next tomorrow",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vxwtyd/qwen38flashnext_tomorrow/",
-      "summary": "由rerri在10月14日发布,24小时内积累1.1K upvotes、500+评论,是r/LocalLLaMA当日最高声量讨论。帖子汇总阿里官方Teaser与HuggingFace仓库动静,预告Qwen3.8-Flash-Next将于10月15日上线,主打MoE小激活参数与200K上下文。社区聚焦其GGUF量化时间线、与Llama-4-Scout的对比,成为开源模型圈最活跃议题。",
-      "metric": "1.1K upvotes / 500+ comments / 24h"
+      "name": "#PersonalSoftware",
+      "platform": "X",
+      "url": "https://levels.io/era-of-personal-software",
+      "summary": "@levelsio(Pieter Levels)10月11-15日连发\"Software is dead\"、\"Era of personal software\"、\"Normies won't know they're building software\"系列博文,引爆X关于Vibe Coding下一代形态的辩论:AI Chat App内的ephemeral personal software取代SaaS。配合swyx \"Scaling without Slop\" 继续发酵,24小时内多条推文破10K engagement,成为独立开发圈最热标签。",
+      "posts_count": "多条10K+ engagement"
     },
     {
-      "platform": "知乎",
-      "name": "Linus 开始使用 Claude Code 开发 Linux 内核",
-      "title": "如何看待 Linus 开始使用 Claude Code 开发 Linux 内核",
-      "url": "https://www.zhihu.com/question/2093884517726188924",
-      "summary": "10月14日傍晚登上知乎热榜,24小时内热度冲上165万,位列热榜第18。问题起因是Linus在LKML邮件中确认用Claude Code辅助整理scheduler补丁。中文开发者圈围绕「Agent进入内核开发是否可信」展开激辩,高赞回答覆盖代码审查流程、AI对maintainer生态冲击、以及对国产内核贡献者的启示,是当日国内技术社区最大议题。",
-      "metric": "知乎热榜#18,24h热度165万"
+      "name": "#MLX本地大模型",
+      "platform": "HN",
+      "url": "https://news.ycombinator.com/item?id=50109715",
+      "summary": "随着Muse Spark Open发布,MLX框架+Apple Silicon+千亿参数本地推理成为HN和r/LocalLLaMA首要话题。HN热贴\"What I Self-Host\"214分、r/LocalLLaMA出现\"48GB VRAM users daily drivers\"等多个新高热贴,讨论从消费级GPU到两台Mac Studio组合的新本地部署栈。Apple同步发布MLX分布式推理文章放大话题热度。",
+      "posts_count": "跨多子版10+热帖"
     }
   ],
   "creators": [
     {
-      "platform": "simonwillison.net / X",
       "name": "Simon Willison",
-      "title": "独立AI评论家,Datasette创始人",
-      "url": "https://simonwillison.net/",
-      "summary": "英国独立开发者、Django联合创始人、Datasette作者。10月14日凌晨发布《AI mass decompiling games》长文,24小时内被HN、r/gamedev、X多轮转载,再度稳坐全球AI圈最具影响力评论人。其博客近30日日更不断,持续追踪Codex、MCP、Agent安全动态,是开发者关注AI前沿的头号信号源。",
-      "followers": "X 11.2万粉 / 博客日独访约30万"
+      "platform": "X",
+      "url": "https://simonwillison.net/2026/Oct/15/",
+      "summary": "LLM独立开发者/Datasette作者Simon Willison在10月12-15日连更多篇:用voice-blog功能迭代博客,发Python 3.15+Codex+Tailscale组合推文,持续产出pelican-riding-a-bicycle基准测试内容。10月15日评论Muse Spark Open时第一时间给出MLX上手笔记,是开发者圈解读新开源模型最快的声音之一。",
+      "followers": "100K+",
+      "highlight": "首发Muse Spark Open MLX本地跑评测"
     },
     {
-      "platform": "Reddit r/LocalLLaMA",
-      "name": "rerri",
-      "title": "Qwen3.8-Flash-Next爆料者",
-      "url": "https://www.reddit.com/user/rerri/",
-      "summary": "r/LocalLLaMA资深贡献者,长期跟踪阿里Qwen与Mistral发布节奏。10月14日发布《Qwen3.8-Flash-Next tomorrow》预告贴,24小时内收获1.1K upvotes、500+评论,直接触发社区对新模型量化与评测的大规模讨论,是当日开源模型圈话题创造力最高的爆料账号。",
-      "followers": "历史发帖430+,综合karma 7.8万"
+      "name": "Pieter Levels (@levelsio)",
+      "platform": "X",
+      "url": "https://levels.io/windows-xp-inside-a-tweet",
+      "summary": "独立开发之神@levelsio 10月13日发\"Windows XP跑在一条推文里\"演示,10月15日开放AMA帖,配合10月11-13日高频博文系列(\"Software is dead\"、\"Normies won't know they're building software\"、\"Era of personal software\"),将Vibe Coding叙事推向\"AI Chat里的个人瞬时软件\"。24小时内多条推文破10K engagement,是当日独立开发者社区最热声音。",
+      "followers": "700K+",
+      "highlight": "AMA+Windows XP推文内运行+5篇AI博文"
     },
     {
-      "platform": "Reddit r/gamedev",
-      "name": "abo0waleed",
-      "title": "DREADMOOR独立开发者",
-      "url": "https://www.reddit.com/user/abo0waleed/",
-      "summary": "来自中东的独立游戏开发者,主导恐怖项目DREADMOOR。10月15日清晨在r/gamedev发布的20万Steam愿望单复盘贴9小时冲上热榜首屏,过千upvotes。帖子里公开TikTok短视频脚本模板、Next Fest数据表与开发时间线,被转发到indiedev Discord与X,是当日独立游戏最高增长的创作者账号。",
-      "followers": "Reddit 1.4K karma / Steam关注2.8万"
+      "name": "AI at Meta (@AIatMeta)",
+      "platform": "X",
+      "url": "https://x.com/AIatMeta",
+      "summary": "Meta AI官方账号10月15日下午5点连发多条推文宣告Muse Spark Open,包括模型规格、MLX优化、M5 Ultra Mac Studio演示视频。首推24小时内获389K浏览、6.8K点赞、1.3K收藏,成为过去一天AI开发者圈互动最高的官方账号,被HackerNews、Techmeme、9to5Mac等头部媒体同步放大。",
+      "followers": "1.5M+",
+      "highlight": "发布816B开源权重Muse Spark Open"
     }
   ]
 }
