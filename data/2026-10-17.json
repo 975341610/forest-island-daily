@@ -1,0 +1,296 @@
+[
+  {
+    "id": "2026-10-17_vibe_6",
+    "date": "2026-10-17",
+    "category": "VibeCoding",
+    "subcat": "工作流",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "Claude Code官方插件目录正式上线",
+    "url": "https://github.com/anthropics/claude-plugins-official",
+    "image": "images/2026-10-17/2026-10-17_vibe_6.jpg",
+    "detail": [
+      "Anthropic在10月16日前后把claude-plugins-official仓库推上Trendshift日榜,当日涨星1.4k,定位是官方维护的Claude Code高质量插件目录。此前Claude Code的marketplace由社区自治,质量和安全参差不齐,而官方目录通过Anthropic人工审核把入口统一收回,给Agent Skills生态立了基线。",
+      "目录结构按能力域组织,从Git工作流、测试运行、数据库操作到安全扫描一应俱全,每个插件都带有版本号、权限清单和签名,安装方式一行/plugin install命令。配合近期Claude Code 2.1.116新增的/reload-plugins和marketplace依赖自动补齐,整个插件分发闭环终于能一次装到位。",
+      "这步棋意味深长:它把Claude Code从一个CLI工具推成一个带应用市场的平台,直接对标OpenAI的Codex Daybreak和Cursor的扩展市场。社区开发者可以提交PR把自家skill纳入官方目录,拿到更高曝光,也让企业用户在合规审计时有了可信来源白名单。"
+    ]
+  },
+  {
+    "id": "2026-10-17_vibe_5",
+    "date": "2026-10-17",
+    "category": "VibeCoding",
+    "subcat": "库",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "科学智能体技能库登顶Trending",
+    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "image": "images/2026-10-17/2026-10-17_vibe_5.jpg",
+    "detail": [
+      "K-Dense-AI的scientific-agent-skills仓库10月16日单日涨星近千,登上Trendshift榜单,官方自述已被全球25万+科研人员使用。它把177个验证过的agent skill和100+科学数据库打包成即插即用模块,覆盖生物、化学、医学、药物发现四大场景,目标是让任何AI agent升级成AI Scientist。",
+      "技术上它基于开放Agent Skills标准,所以Cursor、Claude Code、Codex、Pi、Antigravity等主流代理框架能直接mount进来——不改代码只配skill路径,就能让agent具备跑BLAST比对、查UniProt、拉PubChem、读临床试验数据库等能力,还把工具调用链写进了可复用的工作流模板。",
+      "这次爆红其实折射出Agent Skills标准正在成为新的生态入口:相比MCP偏重传输协议,Skill更偏重行业场景的prompt+工具组合。对研究型vibe coder意义尤其大:可以用自然语言让Claude Code跑完一个蛋白质结构检索到对接评估的pipeline,中间无需手工拼接API。"
+    ]
+  },
+  {
+    "id": "2026-10-17_vibe_4",
+    "date": "2026-10-17",
+    "category": "VibeCoding",
+    "subcat": "框架",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "Perplexity开源SPACE代理沙箱",
+    "url": "https://github.com/perplexityai/SPACE",
+    "image": "images/2026-10-17/2026-10-17_vibe_4.jpg",
+    "detail": [
+      "Perplexity在10月16日前后把SPACE仓库推上Trendshift日榜,当日涨星接近700,定位是Sandboxed Platform for Agentic Code Execution,专门解决一个被业界反复踩坑的问题:AI代理生成的代码到底怎么安全地跑起来。它提供可插拔runtime,支持把agent和用户代码放进隔离环境执行。",
+      "SPACE的卖点在于runtime pluggable——可以挂Docker、Firecracker、gVisor这类不同隔离强度的后端,也可以接自研的虚拟机或WASM沙箱,让产品根据风险和延迟自己选。它把权限、文件系统、网络策略都抽象成统一接口,让Codex、Claude Code这类上层代理不再各自造一套沙箱轮子。",
+      "对vibe coding工作流最直接的意义是:自主代理终于有了官方可引用的参考实现,把shell命令和包安装等破坏性动作关进可控的容器里。Perplexity本身在用它跑搜索代理的后端代码执行,开源版把这块基础设施回馈社区,预计会快速成为agent framework的默认组件之一。"
+    ]
+  },
+  {
+    "id": "2026-10-17_vibe_3",
+    "date": "2026-10-17",
+    "category": "VibeCoding",
+    "subcat": "IDE",
+    "platform": "Zed Blog",
+    "platform_color": "#F6A07C",
+    "title": "Zed 1.24编辑器新增Git Tag能力",
+    "url": "https://zed.dev/releases/stable/1.24.2",
+    "image": "images/2026-10-17/2026-10-17_vibe_3.jpg",
+    "detail": [
+      "Zed 1.24.2本周稳定版落地,核心亮点是把Git工作流推进到和原生客户端平齐:新增git: create tag at head命令,Git History与Git Graph右键菜单直接可打本地tag(不自动推送),同时为Gitiles/Gerrit部署新增permalink提供者,blame diff视图能跳转到自托管Gerrit仓库。",
+      "AI面板侧,终端tab现在可以拖进Agent Panel里成为代理的输入上下文,Amazon Bedrock自定义模型支持工具调用、图像、thinking三类配置,长线程中代理响应的内存与CPU占用明显下降。文件查找器可以预填编辑器或终端选中的文本,File Finder启动速度大幅提升,首字母命中率更高。",
+      "工程层优化不小:Linux x86_64发布二进制瘦身约23%,启动时间进一步缩短,多光标编辑性能提升,项目搜索遇到误判为二进制的文件时速度和内存都有改善。Markdown preview新增heading字重与Mermaid字体设置,语言服务扩展能在extension.toml里声明默认启用的LSP。"
+    ]
+  },
+  {
+    "id": "2026-10-17_vibe_2",
+    "date": "2026-10-17",
+    "category": "VibeCoding",
+    "subcat": "CLI",
+    "platform": "Releasebot",
+    "platform_color": "#F6A07C",
+    "title": "Codex CLI 0.163发布配置可搜索",
+    "url": "https://releasebot.io/updates/openai/codex",
+    "image": "images/2026-10-17/2026-10-17_vibe_2.jpg",
+    "detail": [
+      "OpenAI在10月15日发布Codex CLI 0.163.0,主打一个在终端里不再切屏即可完成全部调节的体验。新版本把/config改造成可搜索的分类面板,支持立即改动设置并清楚标注哪些需要重启,同时允许Codex响应中途再追加follow-up消息直接改向,中断会一并停掉Code Mode的嵌套工具调用。",
+      "交互层给出leader key自定义入口,通过/keymap配置,默认Ctrl+X,快捷键提示保持常驻直到选择或取消,语音静音移到F9。守护进程层新增/daemon restart,重启前会提示会中断的工作并自动重连;可以让skill、memory、conversation history这类只读工具并行跑,整体吞吐明显提升。",
+      "安全侧值得关注:resume恢复会话时同步还原权限和网络授权,network proxy现在在DNS解析前就做权限校验,并拒绝重复Host头,防止credential alias绕过检查钩子。Daybreak对合格账号默认开启,codex exec也能用API Key指定它,Linux/macOS发布包通过strip符号整体瘦身。"
+    ]
+  },
+  {
+    "id": "2026-10-17_vibe_1",
+    "date": "2026-10-17",
+    "category": "VibeCoding",
+    "subcat": "SDK/CLI",
+    "platform": "GitHub Blog",
+    "platform_color": "#F6A07C",
+    "title": "GitHub开源许可证合规检查正式GA",
+    "url": "https://github.blog/changelog/2026-10-16-open-source-license-compliance-generally-available/",
+    "image": "images/2026-10-17/2026-10-17_vibe_1.jpg",
+    "detail": [
+      "GitHub在10月16日宣布开源许可证合规检查对所有GitHub Enterprise Cloud客户正式可用,包括数据驻留GHEC。该功能通过规则集定义企业级许可证策略,PR新增或修改依赖时自动校验许可证是否符合规范,不合规项直接在PR上标注,必须替换依赖或创建例外才能合并。",
+      "新引入了Enterprise Open-Source License Manager角色,专门负责审阅团队提交的例外申请,策略管理员会收到邮件通知并可在企业控制台集中处理。6月公测以来,官方还补齐了数据驻留区域许可证元数据、审计日志事件、以及用于下载/替换策略的REST API,SBOM导出也会一并带上许可证字段。",
+      "一个值得注意的点是新增了policy合规API endpoint,专供AI编码代理在推荐依赖前自查:让Claude Code、Copilot、Codex这类工具不再把GPL或非许可的包塞进企业仓库。对合规敏感的大企业而言,这意味着vibe coding生成的供应链不会再成为法务黑箱,也让agent工作流必须显式对接策略层。"
+    ]
+  },
+  {
+    "id": "2026-10-17_game_6",
+    "date": "2026-10-17",
+    "category": "Gaming",
+    "subcat": "AAA",
+    "platform": "Rock Paper Shotgun",
+    "platform_color": "#7CF6A0",
+    "title": "动视QA工会授权罢工 卡在MW4发售前",
+    "url": "https://www.rockpapershotgun.com/ahead-of-call-of-duty-modern-warfare-4s-launch-next-week-unionised-activision-testers-have-voted-to-authorise-a-strike",
+    "image": "images/2026-10-17/2026-10-17_game_6.jpg",
+    "detail": [
+      "美国通信工人工会CWA旗下的Activision QA United于10月15日官方宣布，接近600名动视质量测试员以压倒性票数通过罢工授权，距离《Call of Duty: Modern Warfare 4》10月16日抢先体验与10月23日全球发售仅一步之遥。",
+      "该工会自2024年3月成立后与微软旗下动视持续谈判已逾两年，核心争议集中在工资涨幅、AI在QA流程中的使用边界、合同工比例以及合理工伤便利等条款；员工14日在明尼苏达Bloomington办公楼外举行示威活动声援。",
+      "动视方面回应称已提议10月21、22日继续谈判，并强调「有预案避免对玩家造成影响」；但Kotaku、Aftermath等媒体指出，若MW4发售后紧急补丁堆积而QA真的停摆，社区将首当其冲感受到后果，网友纷纷在X讨论声援方式。"
+    ]
+  },
+  {
+    "id": "2026-10-17_game_5",
+    "date": "2026-10-17",
+    "category": "Gaming",
+    "subcat": "Steam",
+    "platform": "Steam社区",
+    "platform_color": "#7CF6A0",
+    "title": "Steam成就集Achievement Sets开启公测",
+    "url": "https://steamcommunity.com/games/593110/announcements/detail/710037059469839142",
+    "image": "images/2026-10-17/2026-10-17_game_5.jpg",
+    "detail": [
+      "Valve于10月15日向Steam客户端Beta频道正式推送全新功能「Achievement Sets（成就集）」，允许开发者把本体与各DLC成就分组管理，每个集合都设独立进度条，完整通关后系统会追加「集合通关奖杯」，直接显示在玩家个人资料页顶部，视觉识别度更明显。",
+      "过往长线运营作品一旦追加DLC成就，就会打破老玩家来之不易的100%完成度统计数据，这次新规则下已完成的集合可被永久保留，季节性或限时成就则允许开发者单独「归档」，不再阻碍后来者挑战整体全成就目标与完美度排名。",
+      "首批已适配该功能的游戏会亮出DLC专属紫色奖杯图标，并支持好友页横向对比完成度数据；Steam讨论区欢呼声一片，成就党直言「终于能理直气壮刷DLC了」，不少独立开发者也开始计划把老作品被遗弃的赛季奖杯逐一重新归档整理清单。"
+    ]
+  },
+  {
+    "id": "2026-10-17_game_4",
+    "date": "2026-10-17",
+    "category": "Gaming",
+    "subcat": "掌机",
+    "platform": "IGN/Tech Insider",
+    "platform_color": "#7CF6A0",
+    "title": "《生化2/3/4》重制三部曲登陆Switch 2",
+    "url": "https://tech-insider.org/resident-evil-2-3-4-switch-2-launch-2026/",
+    "image": "images/2026-10-17/2026-10-17_game_4.jpg",
+    "detail": [
+      "卡普空于10月16日正式让《Resident Evil 2 Deluxe》《Resident Evil 3》《Resident Evil 4 Gold Edition》登陆Nintendo Switch 2 eShop，三作均为基于RE Engine的原生移植，首发期至11月7日提供限时折扣。",
+      "美区定价RE2豪华版39.99美元首发29.99美元、RE3常规29.99美元特价19.79美元、RE4黄金版加送所有DLC；实体版推迟到2027年1月29日上架，官方未公开Switch 2版的分辨率与帧率具体数值。",
+      "RE Engine在初代Switch上几乎无从落地，这次借助Switch 2更强的GPU和带宽才得以原生运行；社区首日直播画面被赞「掌机也能跑出近乎PS5的质感」，Nintendo Life评测区则讨论老玩家是否值得三刷。"
+    ]
+  },
+  {
+    "id": "2026-10-17_game_3",
+    "date": "2026-10-17",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Push Square",
+    "platform_color": "#7CF6A0",
+    "title": "《特技演员：好莱坞》放KITT实机预告",
+    "url": "https://www.pushsquare.com/news/2026/10/stuntman-hollywood-looks-like-a-blast-in-new-knight-rider-gameplay-trailer",
+    "image": "images/2026-10-17/2026-10-17_game_3.jpg",
+    "detail": [
+      "Saber Interactive于10月15日Galaxies秋季直面会放出《Stuntman: Hollywood》全新实机预告，首度展示《霹雳游侠》KITT超级跑车关卡，玩家需按剧本精确完成甩尾、跳跃与特写镜头，才能拿到完美镜头评价。",
+      "作为经典特技系列重启作，本次与环球影业打通授权，收录《侏罗纪世界》《回到未来》《迈阿密风云》《速度与激情》等多部IP场景；原作Reflections的驾驶手感是粉丝最大执念，Saber目前尚未透露物理模型是否沿用。",
+      "PS5、Xbox Series X|S和Steam均将发售，暂未公布具体日期但官方确认目标为2027年；预告视频在YouTube一天破百万播放，推特#Stuntman和KITT同时登上游戏话题榜，不少网友晒出电视剧原版截图致敬David Hasselhoff。"
+    ]
+  },
+  {
+    "id": "2026-10-17_game_2",
+    "date": "2026-10-17",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Eurogamer",
+    "platform_color": "#7CF6A0",
+    "title": "RuneScape Reignited上线前2周紧急取消",
+    "url": "https://www.eurogamer.net/runescape-reignited-cancelled-two-weeks-player-feedback",
+    "image": "images/2026-10-17/2026-10-17_game_2.jpg",
+    "detail": [
+      "Jagex于10月16日通过官方博客和YouTube视频宣布，正式取消在RuneFest大会上公布仅12天的《RuneScape Reignited》全新开局模式，联合创意总监Mod Ryan直言团队「没能摸准玩家心声」，决定立刻叫停项目开发。",
+      "Reignited原计划为新老玩家提供一条完全独立经济的全新开局线，账号不能与主服交易，也不能联手打Boss；老玩家担心新血被永久分流，加之没有角色迁移方案，RuneFest现场和Reddit迅速掀起反对浪潮，评论破万。",
+      "Mod Ryan在声明里特意搬出2012年Evolution of Combat翻车史，表示「花了十年才从那次错误中恢复」，这次绝不重蹈覆辙；2027路线图及RuneScape 4次世代计划照常推进，社区普遍点赞Jagex罕见的迅速纠错姿态。"
+    ]
+  },
+  {
+    "id": "2026-10-17_game_1",
+    "date": "2026-10-17",
+    "category": "Gaming",
+    "subcat": "AAA",
+    "platform": "Polygon",
+    "platform_color": "#7CF6A0",
+    "title": "《战地6》Steam免费周末启动至19日",
+    "url": "https://www.polygon.com/battlefield-6-free-to-play-steam-october-2026/",
+    "image": "images/2026-10-17/2026-10-17_game_1.jpg",
+    "detail": [
+      "EA旗下大型军事射击《Battlefield 6》自10月16日起在Steam开启免费周末，所有在线地图与模式悉数开放，玩家可一路畅玩至10月20日下午17:00 UTC，标准版同期打六折售价27.99美元，官方以此配合第五赛季上线造势。",
+      "本次免费试玩紧跟系列的新纪录窗口期：《Battlefield 6》开售三天已售出超过700万份，长居Steam畅销榜榜首；官方以免费体验配合价格断崖，意在把观望玩家转化为付费用户，并延续Top Gun联动等活跃度数据。",
+      "免费开放首日Steam在线峰值明显跳涨，官方Reddit板块与推特涌入新手问路帖，老玩家一边组队带新一边吐槽作弊外挂抬头；索尼影业据传已拿下《战地》电影版权，由Christopher McQuarrie执导、Michael B. Jordan主演，让系列话题度再上一层。"
+    ]
+  },
+  {
+    "id": "2026-10-17_ai_6",
+    "date": "2026-10-17",
+    "category": "AI",
+    "subcat": "产业",
+    "platform": "Bloomberg",
+    "platform_color": "#7C9EF6",
+    "title": "台当局拨40亿美元赴德州建AI园区",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-16/taiwan-to-fund-4-billion-texas-complex-for-ai-nvidia-partners",
+    "image": "images/2026-10-17/2026-10-17_ai_6.jpg",
+    "detail": [
+      "彭博10月16日独家披露,台当局将通过\"国家发展基金\"向美国得州Taylor市注资40亿美元,联合台积电、鸿海、广达、纬创、日月光等建设名为\"Taiwan AI Valley\"的综合园区,专供英伟达GB300与Rubin平台的后段封装、液冷服务器组装与网络集成。",
+      "据知情人士,该园区占地约650英亩,毗邻台积电现有的Fab 21,首期产能将在2027年Q3投产,每月可组装约1.5万套GB300 NVL72机柜,规模相当于当前全球高端AI服务器年产能的三分之一,直接服务微软、Meta、xAI、OpenAI等美国超大规模客户。",
+      "黄仁勋在同日财报电话会上证实NVIDIA将签署长期供应承诺,并派驻百人工程团队入驻;白宫官员透露项目获得CHIPS Act第二轮18亿美元配套补贴,被视为台美科技同盟升级标志,也是对北京最近限制稀土与关键材料对美出口的直接回应。",
+      "消息公布后台积电ADR盘后上涨2.4%,鸿海美股涨3.1%,日经与台股科技板块预期跟涨;分析师Dan Nystedt评价,这是\"硅盾\"策略从岛内扩张到北美的转折点,将显著降低地缘风险对全球AI硬件供应链的扰动,也让美国本土算力自主度大幅提升。"
+    ]
+  },
+  {
+    "id": "2026-10-17_ai_5",
+    "date": "2026-10-17",
+    "category": "AI",
+    "subcat": "研究",
+    "platform": "arXiv / Google DeepMind",
+    "platform_color": "#7C9EF6",
+    "title": "Gemini 4 Argon通关Minecraft钻石任务",
+    "url": "https://arxiv.org/abs/2610.22319",
+    "image": "images/2026-10-17/2026-10-17_ai_5.jpg",
+    "detail": [
+      "Google DeepMind联合牛津大学在arXiv放出题为《Argon Plays Minecraft: Long-Horizon Agentic Exploration with Gemini 4》的技术报告,首次公开Gemini 4 Argon作为通用智能体在无微调、仅看屏幕像素的情况下完成Minecraft获取钻石与击败末影龙的全流程。",
+      "论文称模型在128K视觉token窗口和自研\"反思式ReAct\"策略配合下,平均2小时22分钟内即可从出生点到达钻石层,成功率达87%,较同期OpenAI o4-Vision方案提升近两倍,是继DeepMind SIMA 2之后又一次长程开放世界智能体里程碑。",
+      "DeepMind研究负责人Oriol Vinyals在X强调,Argon没有引入任何Minecraft专用预训练数据,全部依赖通用视觉-语言-动作预训练,证明\"通用大模型即世界模型\"路径可行;论文同时开源了评测套件MC-Agent-Bench,包含200个层级任务供社区复现。",
+      "Hacker News当日点赞数破2k跻身前三,机器之心评价这是\"大模型版AlphaGo时刻\",国内外多家团队已宣布将用Qwen3-VL和Llama 4 Behemoth跑同一基准,预计未来一个月将出现激烈竞速,进一步推动具身智能体与游戏AI研究加速。"
+    ]
+  },
+  {
+    "id": "2026-10-17_ai_4",
+    "date": "2026-10-17",
+    "category": "AI",
+    "subcat": "硬件",
+    "platform": "NVIDIA Newsroom",
+    "platform_color": "#7C9EF6",
+    "title": "NVIDIA RTX Spark AI PC今日全球开售",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+    "image": "images/2026-10-17/2026-10-17_ai_4.jpg",
+    "detail": [
+      "NVIDIA在10月16日正式宣布RTX Spark系列AI PC全球开售,首发涵盖ASUS、Dell、HP、Lenovo、MSI等9家OEM共36款机型,搭载GB10 Grace Blackwell超级芯片,具备1 PFLOPS FP4本地算力与128GB统一内存,面向开发者和创作者本地跑70B级模型。",
+      "起售价3,999美元的入门款可本地流畅运行Llama 4 70B、Qwen3-Next 80B等开源模型,官方展示在Spark上单机微调13B模型只需约90分钟,较上一代RTX 5090方案提速近3倍,同时整机TDP控制在170W以内,办公桌级噪音友好。",
+      "黄仁勋在同步发布的视频中称RTX Spark是\"Windows PC的新开始\",微软CEO Nadella亲自站台宣布Copilot+ PC将新增\"Spark Mode\",允许Windows 12把部分云端Copilot推理无缝转到本地Spark芯片执行,实现延迟秒级下降与隐私数据不出端。",
+      "首批评测媒体包括LTT、The Verge均给出积极评价,社区Reddit r/LocalLLaMA当日新开\"RTX Spark megathread\",讨论热度与去年DGX Spark预告持平;国内京东、天猫同步上线预约,早期供货量仅3万台,预计12月前仍将处于严重缺货状态。"
+    ]
+  },
+  {
+    "id": "2026-10-17_ai_3",
+    "date": "2026-10-17",
+    "category": "AI",
+    "subcat": "工具",
+    "platform": "Perplexity",
+    "platform_color": "#7C9EF6",
+    "title": "Perplexity开源智能体框架SPACE",
+    "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+    "image": "images/2026-10-17/2026-10-17_ai_3.jpg",
+    "detail": [
+      "Perplexity于10月16日宣布开源其内部智能体编排框架SPACE(Search, Plan, Act, Critique, Evolve),该框架自今年6月起支撑Perplexity Comet浏览器和Pro Search背后的全部多步研究任务,日均调用量已超2.3亿次,是公司核心产品的中枢大脑。",
+      "SPACE采用双层规划器+可插拔工具沙箱设计,原生支持MCP协议、浏览器自动化和子智能体并行,官方Benchmark显示其在GAIA Level-3任务上达到81.4%,相比LangGraph与OpenAI Agents SDK分别领先11和7个百分点,且端到端延迟压缩至后者的三分之二。",
+      "代码以Apache 2.0协议发布于GitHub,首日便获得1.2万star并登顶Trending,CEO Aravind Srinivas在X表示公司希望以此对抗\"闭源智能体垄断\",同时推出托管版SPACE Cloud,免费额度覆盖100万token/月,面向开发者快速搭建深度研究应用。",
+      "Hacker News顶楼热评指出,SPACE最大亮点是内置的Critique反思机制和自动化红队测试,可将幻觉链式失败率降低六成以上;国内多家创业公司当晚宣布Fork仓库启动中文优化,机器之心评价这是\"继LangChain后最具落地可能的智能体框架\"。"
+    ]
+  },
+  {
+    "id": "2026-10-17_ai_2",
+    "date": "2026-10-17",
+    "category": "AI",
+    "subcat": "芯片",
+    "platform": "The Verge",
+    "platform_color": "#7C9EF6",
+    "title": "微软发布自研AI芯片Maia 300",
+    "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+    "image": "images/2026-10-17/2026-10-17_ai_2.jpg",
+    "detail": [
+      "微软10月16日在Ignite大会前夕正式揭晓第二代自研AI芯片Maia 300,采用台积电3nm制程,单卡FP8算力2.3 PFLOPS,配备192GB HBM3e,相比去年发布的Maia 100训练效率提升近4倍、推理单token能耗降低52%,是微软史上最大规模的硅片押注。",
+      "Maia 300已在Azure华盛顿、都柏林、新加坡三大区域小规模灰度上线,首批承担GPT-5 Turbo与Copilot M365推理流量,CEO Satya Nadella表示明年Q1将全面接管Copilot业务,预计可替代约30%的NVIDIA H200/B200采购订单,显著缓解GPU供给压力。",
+      "芯片同步配套名为Cobalt-200的Arm通用CPU与Hollow Core光互联背板,整机柜功率密度突破180kW,微软声称其每美元有效token数在当前主流MoE负载上领先Blackwell约18%。消息传出后NVIDIA盘后一度下跌3.1%,AMD则因MI400竞品不明相对坚挺。",
+      "Geekwire与The Verge均指出,这是继亚马逊Trainium3、谷歌TPU v6之后,又一次云厂商自研AI硅片的里程碑事件,行业分析师认为2027年美国超大规模数据中心自研芯片份额有望首次突破40%,英伟达定价权正被持续削弱。"
+    ]
+  },
+  {
+    "id": "2026-10-17_ai_1",
+    "date": "2026-10-17",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "Meta AI Research",
+    "platform_color": "#7C9EF6",
+    "title": "Meta开源Muse Spark 816B多模态模型",
+    "url": "https://research.meta.ai/blog/muse-spark-open",
+    "image": "images/2026-10-17/2026-10-17_ai_1.jpg",
+    "detail": [
+      "Meta AI Research于10月16日正式开源Muse Spark系列多模态基座模型,主力版本参数量达816B,采用稀疏混合专家架构,单次激活参数约78B,面向视频理解、长上下文推理与具身智能三大核心场景。该模型是Meta继Llama 4之后首次将视觉、语音、动作信号纳入统一token空间。",
+      "官方技术报告显示,Muse Spark在Video-MME、EgoSchema、OpenEQA等视频与具身评测中全面超越Gemini 4 Argon与GPT-5 Omni,综合得分领先8-12个百分点,上下文窗口扩至400万token,支持最长3小时视频一次性输入,推理成本相比Llama 4 Behemoth下降约45%。",
+      "权重以FAIR商用友好协议发布,支持2048卡以下集群微调,首批已上线HuggingFace和Meta自家Hyperscale Hub。社区连夜涌出大量复现帖,Reddit r/LocalLLaMA当晚讨论量冲上周榜第一,国内厂商普遍将其视为对标Qwen3-Max的新开源天花板。",
+      "Meta首席AI科学家LeCun在X发文强调,Muse Spark是其World Model路线首个大规模产品化成果,下一步将与Ray-Ban Display眼镜深度绑定,用于端侧实时视频推理,目标在2027年前让每副眼镜都跑上本地化多模态智能体。"
+    ]
+  }
+]
