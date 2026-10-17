@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-16": {
-      "alibaba/open-code-review": 1,
-      "debpalash/VoiceStudio": 2,
-      "JustVugg/colibri": 3,
-      "cloudflare/security-audit-skill": 4,
-      "tt-a1i/archify": 5,
-      "Panniantong/Agent-Reach": 6,
-      "TauricResearch/TradingAgents": 7,
-      "NationalSecurityAgency/ghidra": 8,
-      "multimodal-art-projection/YuE": 9,
-      "SnailSploit/Claude-Red": 10,
-      "Tencent/WeKnora": 11,
-      "bojieli/ai-agent-book": 12,
-      "666ghj/MiroFish": 13,
-      "alphaXiv/OpenResearch": 14,
-      "earendil-works/pi": 15,
-      "ruvnet/RuView": 16,
-      "reconurge/flowsint": 17,
-      "Crosstalk-Solutions/project-nomad": 18,
-      "openai/codex": 19,
-      "addyosmani/agent-skills": 20,
-      "tech-leads-club/agent-skills": 21,
-      "TencentCloud/CubeSandbox": 22,
-      "roboflow/supervision": 23,
-      "melgarafael/DeskcommCRM": 24,
-      "thesysdev/openui": 25
-    },
     "2026-09-17": {
       "alibaba/open-code-review": 1,
       "JustVugg/colibri": 2,
@@ -836,6 +809,33 @@
       "vercel-labs/skills": 23,
       "ruvnet/ruflo": 24,
       "multica-ai/multica": 25
+    },
+    "2026-10-17": {
+      "morluto/rea": 1,
+      "xerj-org/xerj": 2,
+      "anthropics/claude-plugins-official": 3,
+      "K-Dense-AI/scientific-agent-skills": 4,
+      "stablyai/orca": 5,
+      "LibreSpark/LibreTV": 6,
+      "heygen-com/hyperframes": 7,
+      "harry0703/MoneyPrinterTurbo": 8,
+      "ruvnet/ruflo": 9,
+      "hmjz100/LinkSwift": 10,
+      "ifixai-ai/iFixAi": 11,
+      "michael-denyer/pstack-claude": 12,
+      "vxcontrol/pentagi": 13,
+      "earthtojake/text-to-cad": 14,
+      "HKUDS/CLI-Anything": 15,
+      "cursor/plugins": 16,
+      "krillinai/OpenCreator": 17,
+      "google/artemis": 18,
+      "magnitudedev/magnitude": 19,
+      "Tencent/WeKnora": 20,
+      "ruvnet/RuView": 21,
+      "Imbad0202/academic-research-skills": 22,
+      "jasonxu114514/opencode2api": 23,
+      "akitaonrails/ai-memory": 24,
+      "plugin87/ux-ui-agent-skills": 25
     }
   }
 }

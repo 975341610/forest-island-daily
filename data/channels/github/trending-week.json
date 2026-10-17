@@ -3,8 +3,8 @@
   "repos": {
     "morluto/rea": {
       "best_rank": 1,
-      "appearances": 5,
-      "total_today_stars": 198953,
+      "appearances": 6,
+      "total_today_stars": 222537,
       "language": "TypeScript",
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
@@ -147,8 +147,8 @@
     },
     "Tencent/WeKnora": {
       "best_rank": 13,
-      "appearances": 4,
-      "total_today_stars": 847,
+      "appearances": 5,
+      "total_today_stars": 1065,
       "language": "Go",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -354,8 +354,8 @@
     },
     "vxcontrol/pentagi": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 4232,
+      "appearances": 4,
+      "total_today_stars": 4600,
       "language": "Go",
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "owner_avatar": "https://avatars.githubusercontent.com/u/39194251?v=4",
@@ -372,17 +372,17 @@
     },
     "heygen-com/hyperframes": {
       "best_rank": 7,
-      "appearances": 3,
-      "total_today_stars": 2820,
+      "appearances": 4,
+      "total_today_stars": 3642,
       "language": "TypeScript",
       "description": "Write HTML. Render video. Built for agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
       "html_url": "https://github.com/heygen-com/hyperframes"
     },
     "harry0703/MoneyPrinterTurbo": {
-      "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 945,
+      "best_rank": 8,
+      "appearances": 3,
+      "total_today_stars": 1694,
       "language": "Python",
       "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4928832?v=4",
@@ -390,8 +390,8 @@
     },
     "ruvnet/RuView": {
       "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 458,
+      "appearances": 3,
+      "total_today_stars": 668,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -443,9 +443,9 @@
       "html_url": "https://github.com/NVIDIA/personaplex"
     },
     "krillinai/OpenCreator": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 119,
+      "best_rank": 17,
+      "appearances": 2,
+      "total_today_stars": 358,
       "language": "TypeScript",
       "description": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2386538?v=4",
@@ -480,8 +480,8 @@
     },
     "ifixai-ai/iFixAi": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 3696,
+      "appearances": 3,
+      "total_today_stars": 4213,
       "language": "Python",
       "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/279006089?v=4",
@@ -497,18 +497,18 @@
       "html_url": "https://github.com/NationalSecurityAgency/ghidra"
     },
     "stablyai/orca": {
-      "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 1868,
+      "best_rank": 5,
+      "appearances": 3,
+      "total_today_stars": 2970,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
       "html_url": "https://github.com/stablyai/orca"
     },
     "hmjz100/LinkSwift": {
-      "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 1212,
+      "best_rank": 10,
+      "appearances": 3,
+      "total_today_stars": 1750,
       "language": "JavaScript",
       "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
       "owner_avatar": "https://avatars.githubusercontent.com/u/98228280?v=4",
@@ -560,9 +560,9 @@
       "html_url": "https://github.com/p-e-w/heretic"
     },
     "anthropics/claude-plugins-official": {
-      "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 488,
+      "best_rank": 3,
+      "appearances": 3,
+      "total_today_stars": 2040,
       "language": "Python",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -578,9 +578,9 @@
       "html_url": "https://github.com/microsoft/vscode"
     },
     "K-Dense-AI/scientific-agent-skills": {
-      "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1254,
+      "best_rank": 4,
+      "appearances": 3,
+      "total_today_stars": 2412,
       "language": "Python",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
@@ -588,17 +588,17 @@
     },
     "HKUDS/CLI-Anything": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 716,
+      "appearances": 2,
+      "total_today_stars": 997,
       "language": "Python",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
       "html_url": "https://github.com/HKUDS/CLI-Anything"
     },
     "xerj-org/xerj": {
-      "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 715,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 2363,
       "language": "Rust",
       "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/297525353?v=4",
@@ -623,9 +623,9 @@
       "html_url": "https://github.com/laoma528/awesome-zhuiju-free"
     },
     "cursor/plugins": {
-      "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 214,
+      "best_rank": 16,
+      "appearances": 2,
+      "total_today_stars": 492,
       "language": "TypeScript",
       "description": "Cursor plugin specification and official plugins",
       "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
@@ -650,13 +650,94 @@
       "html_url": "https://github.com/longbridge/gpui-kit"
     },
     "ruvnet/ruflo": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 147,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 819,
       "language": "TypeScript",
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
       "html_url": "https://github.com/ruvnet/ruflo"
+    },
+    "LibreSpark/LibreTV": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 900,
+      "language": "TypeScript",
+      "description": "一分钟搭建影视站，支持Docker等部署方式",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/207667577?v=4",
+      "html_url": "https://github.com/LibreSpark/LibreTV"
+    },
+    "michael-denyer/pstack-claude": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 420,
+      "language": "JavaScript",
+      "description": "Claude Code, Codex, Copilot, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/97485362?v=4",
+      "html_url": "https://github.com/michael-denyer/pstack-claude"
+    },
+    "earthtojake/text-to-cad": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 290,
+      "language": "Python",
+      "description": "Give your agent CAD superpowers.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/10742417?v=4",
+      "html_url": "https://github.com/earthtojake/text-to-cad"
+    },
+    "google/artemis": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 226,
+      "language": "Python",
+      "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "html_url": "https://github.com/google/artemis"
+    },
+    "magnitudedev/magnitude": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 219,
+      "language": "Rust",
+      "description": "Open source inference engine that tunes its kernels on your hardware to find the fastest way to run each model. 2x faster than Ollama. Works on Apple Silicon, NVIDIA, AMD, or just a CPU.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/199500616?v=4",
+      "html_url": "https://github.com/magnitudedev/magnitude"
+    },
+    "Imbad0202/academic-research-skills": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 207,
+      "language": "Python",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/132531341?v=4",
+      "html_url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    "jasonxu114514/opencode2api": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 185,
+      "language": "Go",
+      "description": "A Go-based OpenCode Zen / Zen Go API proxy with OpenAI & Anthropic API compatibility, key/proxy pooling, automatic routing, and WebUI.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/117326624?v=4",
+      "html_url": "https://github.com/jasonxu114514/opencode2api"
+    },
+    "akitaonrails/ai-memory": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 159,
+      "language": "Rust",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2840?v=4",
+      "html_url": "https://github.com/akitaonrails/ai-memory"
+    },
+    "plugin87/ux-ui-agent-skills": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 137,
+      "language": "JavaScript",
+      "description": "Turn Claude into a senior design architect: DTCG tokens, 52 components, WCAG 2.2 AA-AAA, 138 design systems, any-framework code, and 50 objective gates that fail the build instead of faking success.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5790381?v=4",
+      "html_url": "https://github.com/plugin87/ux-ui-agent-skills"
     }
   }
 }
