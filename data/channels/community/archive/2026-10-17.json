@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T08:19:39+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Reddit",
+      "author": "u/Skyline34rGt",
+      "title": "LiquidAI/LFM2.5-24B-A2B 本地Agent新模型",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x52kco/liquidailfm2524ba2b/",
+      "summary": "Liquid AI 发布 LFM2.5-24B-A2B 的 r/LocalLLaMA 帖子登上热榜，24 小时内收获 573 upvotes、173 条评论，并被官方 Discord 置顶推荐。模型总参 24B、激活仅 2.45B，支持 131K 上下文、128K 词表、36T 预训练 token，LiveClaw 48.09 分（Qwen3.6-35B-A3B 为 38.19），AutomationBench 27.69 vs 8.72。社区实测 RTX 2060 6GB VRAM + 16GB DDR4 跑 Q4K_XL 可达 20-25 tok/s，Apple M5 Max 跑出 184 tok/s，被普遍认为是 24GB 消费级显卡最香的本地 Agent 模型。",
+      "metric": "573 upvotes / 173 comments / Discord Featured"
+    },
+    {
+      "platform": "HN",
+      "author": "Addy Osmani / Morgan Westlee Lunt / Qing Wang",
+      "title": "Claude Code 团队如何做代码评审",
+      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "summary": "Anthropic 工程团队披露 Claude Code 内部代码评审流程，被 Simon Willison 10 月 16 日全文摘录转发，HN 讨论串单日爆发式扩散。核心数据：Anthropic monorepo 每日落地变更从 5 月的 2500 条暴增至 9 月的 30000+ 条；Claude Code 自身仓库 6-9 月合并 PR 翻倍、revert 率反降 40%+；90% 的 Claude Code 代码由 Claude 自己写，评审从末端 gate 变成 spellcheck 式持续运行。文章提出用自动化 agent 多路并发找 bug + 风险分级人工审批，是 agentic engineering 领域本周最高热度实战帖。",
+      "metric": "Simon Willison 转发 / addy-osmani 标签 8 篇 / 2285 ai 标签联动"
+    },
+    {
+      "platform": "X",
+      "author": "@liquidai (Liquid AI)",
+      "title": "LFM2.5-24B-A2B 官宣：on-device Agent 最优解",
+      "url": "https://x.com/liquidai/status/2110055807194931348",
+      "summary": "Liquid AI 官方 X 发布 LFM2.5-24B-A2B 开源发布线程，24 小时内 153.6K 浏览、2.1K 点赞、1.2K 书签、258 转推、105 回复，是本周 AI 开源社区传播最广的一条官方公告。线程强调 24B 总参/2B 激活、131K 上下文、33T 预训练 token，在 BFCLv4(65.01)、ToolSandbox(80.71)、LiveClaw(48.09) 上追平或超越 Qwen3.6-35B-A3B；day-one 支持 llama.cpp/GGUF/MLX/vLLM/SGLang/ONNX，NVIDIA B300 单卡高并发达 21K output tok/s。许多开发者在转推中评价这是 Qwen3.6-35B 之后首个真正适合笔记本本地 Agent 的模型。",
+      "metric": "153.6K views / 2.1K likes / 1.2K bookmarks / 258 RT"
+    }
+  ],
+  "topics": [
+    {
+      "name": "#CodeReviewInTheAgeOfAI",
+      "platform": "HN/X",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+      "summary": "围绕 Anthropic Claude Code 团队代码评审方法论的大辩论在 10 月 15-16 日席卷 HN 与 X：Simon Willison 10/16 发出长引述、Thorsten Ball 的 16 条 \"code review will die\" 预测被 >800 万次浏览的 v0xium 帖子二度点燃，Addy Osmani 的 \"The Code Nobody Reads\" 累计 151 subscribers like + 20 评论。核心议题：当 Anthropic monorepo 日变更从 2500 爆增到 30000+、90% 代码由 agent 产出，line-by-line 阅读是否已失效？HN agentic-engineering 标签新增 67 篇，coding-agents 突破 259 篇。",
+      "posts_count": "simonwillison.net ai 标签 2285 / coding-agents 259"
+    },
+    {
+      "name": "#OnDeviceAgents",
+      "platform": "X/Reddit",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "summary": "On-device agent 模型爆发话题，10 月 13-16 日由 Liquid AI LFM2.5-24B-A2B 引爆，叠加 r/LocalLLaMA 48GB VRAM 讨论串、Qwen3.6-27B/Gemma 4-31B 对比帖共振。热议焦点：2B 激活 MoE 架构在 Apple M5 Max 跑出 184 tok/s、RTX 2060 跑 20-25 tok/s；DSpark 推测解码即将上线。LocalLLaMA 社区目前约 749K 成员，本周新模型相关帖子集中出现 500+ upvotes 爆款，官方 X 原文 153.6K views、Reddit 热帖 573 upvotes，是开源权重阵营最热门的硬件平权话题。",
+      "posts_count": "153.6K X views + 573 Reddit upvotes"
+    },
+    {
+      "name": "#AIDiffusionGap",
+      "platform": "X",
+      "url": "https://www.businessinsider.com/andrej-karpathy-ai-gap-widening-usage-2026-10",
+      "summary": "Andrej Karpathy 10 月 11 日提出 AI 使用分层 \"sharp funnel\" 理论持续发酵至 10 月 15-16 日：全球约 6B 人 (~75%) 几乎未碰过 LLM，1-2B 人仅使用免费 ChatGPT 类工具，约 20M 人 (0.2%) 深度使用 frontier model 编码，顶层仅约 5000 人掌握 agent 群集能力。Business Insider、The New Stack、Garry Tan、Aaron Levie 等账号接力转发，仅 TheNewStack 单条转评就带来 518+ 次 impressions。该话题被开发者社区解读为 \"vibe coding 阶级分化\" 的权威佐证。",
+      "posts_count": "原推 >1M views，30+ 转评联动"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Simon Willison",
+      "platform": "simonwillison.net / X",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
+      "summary": "AI 开发社区的首席策展人，10 月 16 日晚 10:06 发出 Claude Code 代码评审长引述，一天内在 HN 和 X 二次放大了 Anthropic 的方法论；同时在 10/12 发布 Python 3.15 深度上手笔记（包含 PEP 810 lazy import、Tachyon sampling profiler 评测），持续维护 2285 篇 AI 标签文章、1993 篇 LLMs 文章。本轮 24 小时内他的站点新增 code-review 标签至 20 篇，addy-osmani 子标签增至 8 篇，是全站 AI 工程动态的权威聚合入口。",
+      "followers": "60K+ Mastodon / 45K X",
+      "highlight": "一句话转评就能让 Anthropic 的 code review 方法论登上 HN"
+    },
+    {
+      "name": "Andrej Karpathy",
+      "platform": "X",
+      "url": "https://x.com/karpathy",
+      "summary": "前 OpenAI 创始成员、\"vibe coding\" 一词创造者，10 月 11 日发出的 AI 认知分层帖持续在 15-16 日被转评放大，Business Insider 10/12 深度报道已覆盖该观点。Karpathy 把全球 LLM 使用者切成 \"6B 未接触 / 1-2B 免费聊天 / 20M 编码 / 5000 内部\" 四层，提出 OpenAI-HF 事件预示 \"swarms of thousands of agents\" 时代即将到来。Box CEO Aaron Levie、YC Garry Tan 等纷纷引用，TheNewStack 10/15 的转评进一步推高话题热度至 500+ 次新增 impressions。",
+      "followers": "1.2M+",
+      "highlight": "一句 '5000 人俱乐部' 定义了 AI 时代的新阶级"
+    },
+    {
+      "name": "@dotey 宝玉",
+      "platform": "X",
+      "url": "https://x.com/dotey/status/2110489668609536061",
+      "summary": "华语 AI 社区头部译介者，10 月 14-15 日连发多条 AI 视频生成趣闻与前沿论文翻译，其中一条 \"X 发 AI 视频一不小心遇到本尊\" 帖在 24 小时内收获 73.5K views、96 likes、22 回复、16 bookmarks，意外成为跨文化传播样本（原作者 @yuuki_yuduru 日本本尊现身评论区）。他本周持续转发并翻译了 LFM2.5-24B-A2B、Claude Code review 等英文圈重磅内容，是 2026 年 10 月中旬华语开发者获取英文圈 AI 一手资讯的重要节点。",
+      "followers": "350K+",
+      "highlight": "华语 AI 圈最高效的英文一手资讯中继站"
+    }
+  ]
+}
