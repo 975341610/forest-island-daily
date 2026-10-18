@@ -20,17 +20,17 @@
     "id": "2026-09-13_vibecoding_3",
     "date": "2026-09-13",
     "category": "VibeCoding",
-    "subcat": "Agent 编排",
+    "subcat": "AI Coding 工具",
     "platform": "GitHub",
     "platform_color": "#F6A07C",
-    "title": "Orca:并行多智能体编排 IDE 破 6.7 万星",
+    "title": "Stably 开源并行 Agent 协作画布 Orca",
     "url": "https://github.com/stablyai/orca",
-    "image": "images/2026-09-13/2026-09-13_vibecoding_3.jpg",
+    "image": "images/2026-10-18/2026-10-18_vibe_6.jpg",
     "detail": [
-      "由 YC 支持的 Stably 团队开源的 Orca,9 月 12/13 日持续高热并稳居 GitHub Trending 前列,累计已突破 67.3k 星、4.4k fork,采用 MIT 许可、TypeScript 编写。它自我定位为「面向 100 倍生产力开发者的 AI 编排器」,是一款管理并行智能体舰队的 ADE(智能体开发环境)。",
-      "核心能力是让 Codex、Claude Code、OpenCode 或 Pi 等多种编码智能体并肩运行,每个 Agent 独占一个 git worktree(工作树),所有进度在同一界面统一追踪,避免多智能体互相踩踏文件。支持 macOS、Windows 与 Linux 三端桌面客户端。",
-      "项目还提供移动端伴侣 App(iOS App Store、TestFlight 与安卓 APK 均已上线):开发者可用手机监控与操控智能体,Agent 完成任务时收到通知,并随时随地发送追问指令,把「离开电脑也能盯任务」变为现实。",
-      "随着并行 Agent 编排成为 AI Coding 新范式,Orca 的高星标增长反映社区对「一人指挥多智能体」工作流的强烈需求,被广泛拿来与终端多路复用及 worktree 手动管理方案对比。"
+      "10 月 17 日，Y Combinator 孵化的 Stably 把其内部的 Agent 开发环境 Orca 完整开源到 GitHub，定位是「给并行 Agent 用的 ADE」，用一张画布同时管理多个 Claude Code / Codex / Cursor 后端的运行、分支和合并。",
+      "Orca 把每个 Agent 实例抽象为一个 Node，节点之间通过类型化 message 做协作；画布左边是任务依赖图，右边是实时日志，底部是 diff 预览，可以直接 approve 掉某个 Agent 的 patch 或者 fork 一份继续迭代。",
+      "最有意思的是 shared workspace 机制：所有并行 Agent 看到的是基于 git worktree 的隔离分支，但共享同一份 symbol index 和 chat 记忆，解决了多 Agent 并发经常把彼此改动互相冲掉的问题，首发支持 TypeScript、Python 和 Rust。",
+      "许可证为 Apache-2.0，仓库上线首日即进入 GitHub Trending TypeScript 日榜；团队同时放出和 LangGraph、Claude Agent SDK 的桥接 example，表明 Orca 想做的是 Agent 项目的「VSCode」级入口，而不是又一个闭环的 IDE。"
     ]
   },
   {

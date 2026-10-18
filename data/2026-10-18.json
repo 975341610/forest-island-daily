@@ -1,0 +1,274 @@
+[
+  {
+    "id": "2026-10-18_vibe_5",
+    "date": "2026-10-18",
+    "category": "VibeCoding",
+    "subcat": "开源工具",
+    "platform": "HN",
+    "platform_color": "#F6A07C",
+    "title": "LLMSpeed 发布实时推理延迟基准",
+    "url": "https://llmspeed.dev/",
+    "image": "images/2026-10-18/2026-10-18_vibe_5.jpg",
+    "detail": [
+      "10 月 17 日 Show HN 的 llmspeed.dev 当晚冲上 Hacker News 首页，它是一个专门测量 LLM API「真实」端到端延迟的开源基准面板，覆盖 OpenAI、Anthropic、Google、Groq、Together 等常见厂商的全部主力模型。",
+      "作者没有采用常见的「单请求跑一次」做法，而是每 5 分钟从美西、法兰克福、东京三地同步打一轮固定长度 prompt，统计首字符延迟 TTFT、每秒 Token 数 TPS 和 P95 尾延迟，并将原始数据以 CSV 形式开放下载，可自行复算。",
+      "首批数据亮点不少：Groq 的 Llama-3.3 70B 在 TPS 上继续吊打云厂商；Anthropic 的 Claude Sonnet 4.5 TTFT 稳定在 300ms 以内；而部分「加速版」第三方 OpenAI 兼容网关在高峰段的尾延迟实际反而更差。",
+      "整站前端是用 Astro + SQLite + Cloudflare Workers 搭的，源码采用 MIT 开源在 GitHub，HN 评论区已经出现用户自建私有版本接自家网关做内部选型；对 Agent 产品而言，这是一份比厂商宣传数字更可信的选型参考。"
+    ]
+  },
+  {
+    "id": "2026-10-18_vibe_3",
+    "date": "2026-10-18",
+    "category": "VibeCoding",
+    "subcat": "GitHub Trending",
+    "platform": "GitHub Trending",
+    "platform_color": "#F6A07C",
+    "title": "xerj 开源：Agent 专用搜索引擎",
+    "url": "https://github.com/xerj-org/xerj",
+    "image": "images/2026-10-18/2026-10-18_vibe_3.jpg",
+    "detail": [
+      "GitHub Trending 10 月 18 日榜单上，Rust 项目 xerj-org/xerj 继续冲高，自称是「为 AI 搜索数据而生」的下一代索引引擎，用一条命令就能把代码、文档、日志和 PDF 一起吃进去，交给 Agent 自动检索。",
+      "作者给出的核心指标是：相比 Agent 常用的 grep/sed 流水线，xerj 完成同等检索的 Token 消耗降低约 40 倍；它还保持了与 Elasticsearch 的 Query DSL 兼容，意味着现有 Kibana、Logstash 客户端可以零改动切换过去。",
+      "与一般向量数据库不同，xerj 把倒排索引、全文搜索、RAG 片段和安全审计拼成一个 autoindex 层，Agent 不需要先想怎么分 chunk，直接把问题塞进去就能拿到结构化结果，特别适合长对话里持续累积的「Agent memory」。",
+      "仓库采用 Apache-2.0 许可证，已经附带 Docker Compose 一键部署、SDK 示例和与 Claude Code、Cursor 的 MCP 接入模板。issue 区目前最热的讨论是如何在私有网络里把 xerj 作为通用「Agent 侧车」部署，官方承诺本周内发布 v0.4 Benchmarks。"
+    ]
+  },
+  {
+    "id": "2026-10-18_vibe_2",
+    "date": "2026-10-18",
+    "category": "VibeCoding",
+    "subcat": "开源工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "Obsidian 开源原生 Mermaid 渲染器 Pele",
+    "url": "https://github.com/obsidianmd/pele",
+    "image": "images/2026-10-18/2026-10-18_vibe_2.jpg",
+    "detail": [
+      "10 月 17 日，Obsidian 官方账号把内部孵化的图表渲染器 Pele 公开到 GitHub，并在当天连推多个提交，目标是取代体积庞大的 mermaid.js，直接在 Markdown 笔记里本地渲染流程图、时序图和类图。",
+      "Pele 用 TypeScript 重写了 Mermaid 的解析器与布局引擎，去掉对浏览器 DOM 的强依赖，可在 Node、Electron 和 WebWorker 中跑；官方 Benchmark 显示在中等规模流程图上渲染耗时相比 mermaid.js 下降约 60%，初始包体从 2.8MB 压到 420KB。",
+      "对 VibeCoding 场景，这意味着可以把 Pele 直接内嵌进 Agent 产物预览、PR 评论、文档生成管线，而不用再带着一整个 Mermaid 运行时。仓库还顺带开源了 CLI，可以把 .mmd 文件编译成 SVG/PNG，接入 CI 自动生成架构图。",
+      "许可证为 MIT，首日就冲进 GitHub Trending 的 TypeScript 日榜前列。Obsidian 表示下一步会把 Pele 发布到 npm，并提供兼容 Mermaid 语法的 drop-in 模式，让已有 Mermaid 文档零改动迁移。"
+    ]
+  },
+  {
+    "id": "2026-10-18_vibe_1",
+    "date": "2026-10-18",
+    "category": "VibeCoding",
+    "subcat": "AI Coding 工具",
+    "platform": "X/Twitter",
+    "platform_color": "#F6A07C",
+    "title": "OpenCode 披露大规模模型蒸馏攻击",
+    "url": "https://x.com/opencode/status/2111519637049319818",
+    "image": "images/2026-10-18/2026-10-18_vibe_1.jpg",
+    "detail": [
+      "10 月 17 日，开源 AI 编程 CLI OpenCode 在 X 平台发布安全通告，披露 OpenCode Console 遭遇一次「大规模模型蒸馏攻击」。攻击者批量滥用免费额度，向后端模型发起定向查询，试图抽取内部模型的分布与行为用于蒸馏复刻。",
+      "官方表示事件覆盖面约为活跃 Console 用户的 1.4%，核心代码仓库与本地 CLI 工作流未受影响，但账户额度、提示日志存在被污染或泄露风险。团队已在 24 小时内重置可疑凭证，并对高频 API Key 增加速率限制与指纹校验。",
+      "作为近期上升最快的开源 Agent CLI，OpenCode 几周前刚推出整合终端、桌面和 Web 的 2.0 架构，这次被定点蒸馏，侧面说明开源 Agent 产品一旦接入自托管模型就立刻变成竞品的训练靶子，对后续「开源 + 自建推理」路线是一次公开的压力测试。",
+      "官方给出的建议是：所有 Console 用户尽快轮换 API Token，关闭不必要的 webhook，启用新上线的用量异常告警；并提醒下游复用 OpenCode 的厂商审查最近 30 天的调用链，防止被二次利用。"
+    ]
+  },
+  {
+    "id": "2026-10-18_game_6",
+    "date": "2026-10-18",
+    "category": "Gaming",
+    "subcat": "新作发布",
+    "platform": "PS5/Xbox Series/PC",
+    "platform_color": "#7CF6A0",
+    "title": "如龙组新作《异于天堂》放出15分钟实机",
+    "url": "https://www.gamersky.com/news/202610/2229863.shtml",
+    "image": "images/2026-10-18/2026-10-18_game_6.jpg",
+    "detail": [
+      "世嘉龙如工作室(RGG Studio)于10月17日通过官方YouTube频道公开新IP《异于天堂 Project Different Heaven》约15分钟实机片段，这是继横山昌义在今年TGS轻描淡写预告后首次完整亮相，被工作室定位为面向西方市场的全新支柱系列。",
+      "游戏采用全3D开放街区结构，故事发生在虚构的近未来太平洋岛国黄金湾，主角是一名因政变流亡的前陆军翻译官，玩家将同时经营地下酒吧、调查腐败警局并与岛上黑帮周旋，战斗延续《龙于似龙》式回合制与格斗无缝切换。",
+      "该作使用《龙8》的龙引擎升级版，支持PS5 Pro与Xbox Series X的8K分辨率输出；本作英文语音由《对马之魂》主演Daisuke Tsuji领衔，日文版则邀请中井和哉担任主角配音，原声带由《如龙7》作曲家ZetaSG操刀。",
+      "横山昌义确认《异于天堂》将于2027年春季同步登陆PS5、Xbox Series与PC，不发行PS4版本，并强调该作独立于如龙宇宙，玩家无需熟悉桐生一马就能入坑；Steam商店页已上线，首发将包含完整简繁中文配音。"
+    ]
+  },
+  {
+    "id": "2026-10-18_game_5",
+    "date": "2026-10-18",
+    "category": "Gaming",
+    "subcat": "行业新闻",
+    "platform": "PC/主机",
+    "platform_color": "#7CF6A0",
+    "title": "腾讯《刺客信条》秦朝新作实机首度曝光",
+    "url": "https://www.gamersky.com/news/202610/2228804.shtml",
+    "image": "images/2026-10-18/2026-10-18_game_5.jpg",
+    "detail": [
+      "腾讯与育碧联合开发的《刺客信条：祖龙》(Assassin's Creed Jade/Qin)于10月17日晚通过Ubisoft Forward Online放出首段5分钟实机演示，背景正式确认设定在秦始皇统一六国前后的战国末期，是系列首次将主线舞台设置于中国。",
+      "实机片段展示了咸阳宫、长城雏形与楚国水乡等场景，主角身份被确认为一位出身楚地的女刺客小桃，使用改良版环首刀与隐藏腕剑作战，并保留系列传统的信仰之跃与鹰眼视觉；战斗手感更接近《影》的姿态切换系统。",
+      "该项目由腾讯天美工作室F1部门主导，育碧蒙特利尔提供引擎与机制支持，开发已持续四年；原本定位为手游的《刺客信条：祖龙》在2024年立项重启后转为PC/主机双端作品，手游版本则独立为《刺客信条：无限》。",
+      "国内玩家对历史还原度与育碧-腾讯合作模式反应两极，B站首发视频三小时破千万播放；育碧确认本作计划于2027年登陆PS5、Xbox Series、PC以及可能的Switch 2，Steam商店页同步上线并已开启愿望单登记。"
+    ]
+  },
+  {
+    "id": "2026-10-18_game_4",
+    "date": "2026-10-18",
+    "category": "Gaming",
+    "subcat": "行业新闻",
+    "platform": "PC/PS5/Xbox Series",
+    "platform_color": "#7CF6A0",
+    "title": "《赛博朋克2》总监谈项目：已超越初始愿景",
+    "url": "https://www.pushsquare.com/news/2026/10/cyberpunk-2s-director-is-a-big-reason-to-be-hyped-for-the-secretive-2077-sequel",
+    "image": "images/2026-10-18/2026-10-18_game_4.jpg",
+    "detail": [
+      "CD Projekt RED波士顿工作室总监Anna Megill在10月17日接受GameSpot与Push Square联合采访，罕见谈及代号Orion的《赛博朋克2》进展，这是自今年E3前宣布项目离开预研进入全面制作后，制作组首次对外披露核心思路。",
+      "Megill表示新作将远远超出2077最初构想，团队正在重新设计夜之城及其以外的全新城市区域，强调叙事将允许玩家从多个视角切入主线，而非延续V的单一主角模板；育碧《看门狗》《神秘海域》老兵已加入核心编剧组。",
+      "她承认像2077那样面世的开发事故不会再被允许发生，透露波士顿工作室与波兰总部之间通过虚幻引擎5的内部协作管线共享资产，并已就AI NPC行为模型与R星《GTA6》进行过技术对标。",
+      "尽管官方仍未公布发售窗口，CDPR最新财报显示《赛博朋克2》为公司当前预算最高项目，分析师Daniel Ahmad预计上线不会早于2028财年；本次采访在玩家社区引发CDPR第二春的热议，油管专访视频12小时内突破百万播放。"
+    ]
+  },
+  {
+    "id": "2026-10-18_game_3",
+    "date": "2026-10-18",
+    "category": "Gaming",
+    "subcat": "平台更新",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "Steam推出成就套组系统并上线Beta",
+    "url": "https://www.videogameschronicle.com/news/steam-is-introducing-achievement-sets-designed-to-improve-the-achievement-earning-experience/",
+    "image": "images/2026-10-18/2026-10-18_game_3.jpg",
+    "detail": [
+      "Valve于10月17日通过Steamworks开发者博客公布全新Achievement Sets（成就套组）功能，并同步开放客户端Beta测试，这是Steam成就系统自2007年推出以来最大规模的架构调整，开发者可将现有成就按主题、章节或DLC分组。",
+      "新系统允许玩家在同一游戏内查看结构化的成就进度，支持单独追踪特定套组完成度、按稀有度排序以及对未发布成就的「隐藏套组」配置；此前Steam仅能平铺列出所有成就，面对动辄数百项的游戏难以浏览。",
+      "开发者社区反应积极，V社举《饥荒》《Terraria》《空洞骑士》等拥有大量成就的游戏为示范对象；但部分成就猎人玩家担心既有百分比完成度统计方式会被重置，V社随后澄清旧数据会迁移到「综合」套组保留。",
+      "此次更新还预告了未来的「成就经验值」原型方案，可能为账户层级与社区徽章系统带来新互动；Beta客户端用户可立即在支持该功能的游戏库中体验新UI，正式版计划于11月面向全平台推送。"
+    ]
+  },
+  {
+    "id": "2026-10-18_game_2",
+    "date": "2026-10-18",
+    "category": "Gaming",
+    "subcat": "游戏评测",
+    "platform": "PC/PS5/Xbox Series/Switch 2",
+    "platform_color": "#7CF6A0",
+    "title": "《恶魔城：贝尔蒙特的诅咒》评测均分85",
+    "url": "https://gamedaily.com/games/castlevania-belmonts-curse-review-roundup",
+    "image": "images/2026-10-18/2026-10-18_game_2.jpg",
+    "detail": [
+      "科乐美与开发商Lords of Shadow合作的《恶魔城：贝尔蒙特的诅咒》于10月17日全球发售，10月18日GameDaily等媒体整理媒体评分汇总，Metacritic均分落定在85分，被认为是系列3D化十余年来口碑最佳的一次回归。",
+      "GameSpot给出9/10、Push Square 9/10、Eurogamer推荐，普遍赞赏战斗节奏、2.5D与3D交错的关卡结构，以及由山根美智留回归监修的交响配乐；主要负面声音集中在后半段关卡复用与PC版部分特效选项缺失。",
+      "有趣的是，Steam商店玩家评价停留在「褒贬不一」，差评主要围绕PC优化与键鼠操作适配，并指出首发日Denuvo加密导致进游戏需联网激活；科乐美回应将在周内推送补丁解决按键重映射与性能抖动问题。",
+      "作为自2014年《暗影之王2》后首部正统新作，本作同步登陆PS5、Xbox Series、Switch 2与PC，另有限量实体收藏版包含克苦夜曲鞭挂件与原声CD，日本预购已第二次补货仍迅速售罄。"
+    ]
+  },
+  {
+    "id": "2026-10-18_game_1",
+    "date": "2026-10-18",
+    "category": "Gaming",
+    "subcat": "游戏评测",
+    "platform": "PC/PS5/Xbox Series",
+    "platform_color": "#7CF6A0",
+    "title": "《使命召唤：现代战争4》战役评测汇总",
+    "url": "https://kotaku.com/modern-warfare-4-campaign-reviews-make-it-sound-like-its-surprisingly-good-2000746857",
+    "image": "images/2026-10-18/2026-10-18_game_1.jpg",
+    "detail": [
+      "动视《使命召唤：现代战争4》战役模式提前访问于10月16日开启，10月17日欧美主要媒体同步解禁评测，这是系列时隔两年回归「现代战争」分支后的首部真正剧情续作，由Infinity Ward主导开发，Beenox与Treyarch协助。",
+      "IGN给出8/10，称其为「过去数年系列最连贯、节奏最紧凑的单人战役」，赞赏开放式任务结构与多路径关卡设计；GameSpot评7/10，批评剧情反转仓促但认可枪械手感与演出；Kotaku汇总指出大多数评论打分落在7-8分区间。",
+      "玩家社区对评测结果普遍感到意外，Reddit相关贴文在数小时内突破万赞，不少Steam玩家表示将因战役口碑考虑购入，但也有声音担忧多人与僵尸模式的最终完成度，完整版及多人模式解禁定于10月24日。",
+      "本作同步登陆PlayStation 5、Xbox Series X|S、PC及PS4、Xbox One，首发入驻Xbox Game Pass Ultimate，是2026年度动视最重要的第一方发布，微软方面将其视为验证收购后第一方阵容的关键作品。"
+    ]
+  },
+  {
+    "id": "2026-10-18_ai_6",
+    "date": "2026-10-18",
+    "category": "AI",
+    "subcat": "语音AI",
+    "platform": "xAI",
+    "platform_color": "#7C9EF6",
+    "title": "xAI推Grok Voice Think Fast 1.0",
+    "url": "https://x.ai/news/grok-voice-think-fast",
+    "image": "images/2026-10-18/2026-10-18_ai_6.jpg",
+    "detail": [
+      "xAI在10月17日太平洋时间傍晚通过官方博客与Grok App推送Grok Voice Think Fast 1.0,是Grok Voice 3.0发布两天后的首个闪电迭代,主打\"亚秒级首词响应\"与\"边说边思考\",目标把语音对话延迟从行业平均1.1秒压到约380毫秒,直接对标OpenAI Advanced Voice 2与Gemini Live 2。",
+      "官方Benchmark显示,Think Fast 1.0在FluentBench延迟榜拿下首位,音色与情感合成则由Grok 4.5 Vocal基座负责,新增多说话人分离、现场打断、笑声/叹气插入等拟人技能,xAI称其在Big Tech语音评测里\"首次在延迟与情感两条曲线同时领跑\"。",
+      "新版配合X平台同步上线\"Voice Spaces\"功能,免费用户每日可享30分钟Grok Voice通话额度,Premium+ 用户不限时,马斯克在X发文强调该功能将在未来版本直接接入特斯拉Optimus与Grokpad车载系统,实现从手机到车再到人形机器人的统一语音入口。",
+      "社区实测视频在X平台当晚播放量破千万,媒体Winbuzzer称其\"几乎分不清是真人还是模型\",但也有安全研究者担忧极低延迟+高度拟人将显著降低电话诈骗与社工攻击门槛,xAI回应已部署声纹水印机制,并已向FCC提交AI语音身份披露规范意见稿。"
+    ]
+  },
+  {
+    "id": "2026-10-18_ai_5",
+    "date": "2026-10-18",
+    "category": "AI",
+    "subcat": "AI应用",
+    "platform": "OpenAI",
+    "platform_color": "#7C9EF6",
+    "title": "ChatGPT GPT-6 Pro推出并行Agent",
+    "url": "https://openai.com/index/chatgpt-release-notes",
+    "image": "images/2026-10-18/2026-10-18_ai_5.jpg",
+    "detail": [
+      "OpenAI于10月17日更新ChatGPT Release Notes,正式向Pro与Business用户推送GPT-6 Pro的\"并行Agent\"(Parallel Agents)能力,允许单用户在一个Project内同时拉起最多8条独立Agent轨道,各自调用工具、浏览网页、写代码,主对话窗仅做调度与结果汇总。",
+      "官方演示中,一个\"周末调研\"Project被拆解成竞品分析、财报抓取、Reddit情绪、学术论文、幻灯片生成等6条子任务并行跑,整体耗时从45分钟压缩至约7分钟,产出一份带引用的研究报告与Slides初稿,ChatGPT Slides功能同日也转为GA,支持直接导出PPTX。",
+      "The Information撰文称此次升级针对Claude Code与Perplexity Comet双重围攻,是OpenAI在Agent平台战的关键回击;Winbuzzer实测后指出GPT-6 Pro并行场景下token消耗约为常规Chat的3.4倍,但Pro订阅内暂不额外收费,被社区戏称\"官方亏钱打仗\"。",
+      "ChatGPT同步开放\"Agent to Agent\"协议预览,支持用户Agent跨账号互发请求,首批与Notion、Figma、GitHub三家合作,r/OpenAI当晚涌现大量工作流demo;分析师认为并行Agent将成为未来Pro订阅差异化卖点,也让Agent SDK生态竞争正式进入深水区。"
+    ]
+  },
+  {
+    "id": "2026-10-18_ai_4",
+    "date": "2026-10-18",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "Mistral AI",
+    "platform_color": "#7C9EF6",
+    "title": "Mistral Large 4开源权重正式放出",
+    "url": "https://mistral.ai/news/mistral-large-4-open",
+    "image": "images/2026-10-18/2026-10-18_ai_4.jpg",
+    "detail": [
+      "法国明星AI公司Mistral于10月17日欧洲时间深夜在官方Blog与HuggingFace同步放出Mistral Large 4的完整开源权重,参数规模482B,采用MoE路由8选2,激活参数约58B,面向通用推理、代码与多语种生成,这是继Large 3后公司首次把旗舰级别模型回归完整开源协议。",
+      "官方技术卡片显示,Large 4在MMLU-Pro拿下82.1、GPQA-Diamond 71.4、LiveCodeBench 68.9,整体水平贴近Claude 4.5 Sonnet,代码方面与DeepSeek V4.1-Flash-1017几乎打平,法语、阿拉伯语、德语多语种基准依旧保持压制优势,被评为\"欧洲最强开源模型\"。",
+      "权重以Apache 2.0协议完全开放商用,官方同时提供vLLM、SGLang、llama.cpp量化模板,社区半小时内即出现1.58-bit GGUF版本可在双4090本地跑通,HuggingFace当晚Trending冲上第一,r/LocalLLaMA连夜开启\"周末fine-tune大赛\"奖池。",
+      "Mistral CEO Arthur Mensch在X发文强调,这次完全开源是对欧盟新一轮AI主权政策的回应,也是对此前Timestral小模型路线的扩展;公司同步宣布与法国电信Orange、西门子签订多年期部署协议,商用与开源双轨并进路线进一步清晰。"
+    ]
+  },
+  {
+    "id": "2026-10-18_ai_3",
+    "date": "2026-10-18",
+    "category": "AI",
+    "subcat": "开源智能体",
+    "platform": "MarkTechPost",
+    "platform_color": "#7C9EF6",
+    "title": "阿里Qwen开源长时程Agent框架QwenGyre",
+    "url": "https://www.marktechpost.com/2026/10/17/alibaba-qwen-releases-qwengyre",
+    "image": "images/2026-10-18/2026-10-18_ai_3.jpg",
+    "detail": [
+      "阿里通义千问团队于10月17日在GitHub与HuggingFace同步开源长时程智能体训练框架QwenGyre,主打\"百步任务\"RL后训练,官方宣称是在Qwen3.8-Max 2.4T MoE基座之上单独蒸馏得到的30B与110B两档Agent专用模型,面向浏览器与软件工程两大场景优化。",
+      "QwenGyre采用自研\"螺旋式回放\"(Gyre Replay)机制,把平均步长拉到92步仍能稳定收敛,官方放出的OSWorld与SWE-Rebench两大长程基准成绩分别为71.4%与49.8%,全面超越DeepSeek-V4.1 Agent版和GLM-5.3-Flash,成为当前开源长时程Agent SOTA。",
+      "项目开源同时发布配套工具链QwenGyre-Studio,内置轨迹回放、人工打分、ReAct图可视化三件套,支持本地单机复现全流程训练,首日GitHub star突破6k,机器之心评价\"这是国产Agent训练栈首次把RL loop做到可观测、可审计的工业水平\"。",
+      "此次开源也是阿里近期一系列密集动作之一,前日刚宣布千问图像2.1 Turbo并获批接入苹果中国生态,QwenGyre被视为补齐应用侧闭环的最后一块拼图,业界预计年底前将出现基于其训练的Claude Code国产平替与大量垂直行业RPA Agent工厂。"
+    ]
+  },
+  {
+    "id": "2026-10-18_ai_2",
+    "date": "2026-10-18",
+    "category": "AI",
+    "subcat": "AI工具",
+    "platform": "Anthropic",
+    "platform_color": "#7C9EF6",
+    "title": "Claude Code 2.1.302推送插件GA",
+    "url": "https://www.anthropic.com/news/claude-code-plugins-ga",
+    "image": "images/2026-10-18/2026-10-18_ai_2.jpg",
+    "detail": [
+      "Anthropic于10月17日太平洋时间午后在Claude Code稳定通道推送2.1.302版本,核心变化是将此前Beta测试四个月的Plugins功能正式转为GA,并同步在官方Blog发布配套文档,开发者可通过内置Marketplace一键安装来自第三方的工具链、技能包与MCP服务器组合。",
+      "本次升级同时集成官方Anthropic Plugins Hub,内置Vercel、Linear、Sentry、GitHub Agentic Autofix、HashiCorp Boundary等15个首发合作伙伴,所有插件统一走沙箱Session并带权限审计,支持Hooks级别细粒度授权,解决了社区长期诟病的\"插件乱拿Token\"安全隐患。",
+      "Changelog还提到新引入/subagent与/compact指令、SlashCommand缓存、以及Opus 5.5在多Agent场景下的token用量优化平均降低22%,社区GitHub仓库当晚涌入700+PR,Reddit r/ClaudeAI评价\"这是Claude Code成为团队工程平台的拐点\"。",
+      "值得注意的是Linus Torvalds同日被Phoronix撰文披露已把Claude Code纳入Linux内核邮件列表的辅助工具链,用于子系统维护者整理补丁摘要,Anthropic借势官方账号转发此事,内部员工称本次GA是\"把Claude Code从Dev Tool推向Dev Platform的关键一步\"。"
+    ]
+  },
+  {
+    "id": "2026-10-18_ai_1",
+    "date": "2026-10-18",
+    "category": "AI",
+    "subcat": "大模型",
+    "platform": "DeepSeek Docs",
+    "platform_color": "#7C9EF6",
+    "title": "DeepSeek-V4.1-Flash-1017发布升级",
+    "url": "https://api-docs.deepseek.com/updates",
+    "image": "images/2026-10-18/2026-10-18_ai_1.jpg",
+    "detail": [
+      "DeepSeek团队于10月17日深夜在官方API文档悄然上线DeepSeek-V4.1-Flash-1017增量版本,这是继V4.1主干模型之后首次面向线上API全量推送小版本,官方commit note中标注本次升级主要围绕长上下文、工具调用与中文编码能力三个方向进行再训练,未改变定价。",
+      "新版将默认上下文窗口从256K扩至512K,工具调用在τ-Bench-Agent上的通过率由78.2%提升至85.6%,SWE-Bench-Verified上升4.1个百分点达到74.3%,首次在工具链路上追平Claude 4.5 Sonnet,中文编程基准CodeFuse-ZH分数更是直接拉开阶梯,成为开源阵营新标杆。",
+      "同步开放的搜索API正式转为公测,允许开发者在chat.completion里以tool形式一键挂载DeepSeek自研的实时联网检索,官方宣称查询单价仅为Perplexity Sonar的三分之一,首批免费额度覆盖100万次查询,国内接入海螺、豆包、Monica等Agent产品的开发者当晚齐刷屏。",
+      "Hacker News顶楼热帖质疑其评测自报分数虚高,但多位社区开发者独立复测SWE-Bench后承认提升真实可感,机器之心评价这是\"DeepSeek继V4.1之后节奏最快的一次迭代\",也让外界重新关注其在春节前推出V5主干模型的既定路线。"
+    ]
+  }
+]
