@@ -1,80 +1,74 @@
 {
-  "date": "2026-10-17",
-  "generated_at": "2026-10-17T08:19:39+08:00",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T08:15:27+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
-      "platform": "Reddit",
-      "author": "u/Skyline34rGt",
-      "title": "LiquidAI/LFM2.5-24B-A2B 本地Agent新模型",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x52kco/liquidailfm2524ba2b/",
-      "summary": "Liquid AI 发布 LFM2.5-24B-A2B 的 r/LocalLLaMA 帖子登上热榜，24 小时内收获 573 upvotes、173 条评论，并被官方 Discord 置顶推荐。模型总参 24B、激活仅 2.45B，支持 131K 上下文、128K 词表、36T 预训练 token，LiveClaw 48.09 分（Qwen3.6-35B-A3B 为 38.19），AutomationBench 27.69 vs 8.72。社区实测 RTX 2060 6GB VRAM + 16GB DDR4 跑 Q4K_XL 可达 20-25 tok/s，Apple M5 Max 跑出 184 tok/s，被普遍认为是 24GB 消费级显卡最香的本地 Agent 模型。",
-      "metric": "573 upvotes / 173 comments / Discord Featured"
+      "platform": "X/Twitter",
+      "author": "Matthew Berman",
+      "title": "Sam Altman谈ChatGPT个性 独家采访片段抢先释出",
+      "url": "https://www.youtube.com/watch?v=oMYXJIHcEX0",
+      "engagement": "YouTube帖 24h 内 1.1k 评论 / 近 32k 浏览, X同步 7.5k 转发",
+      "summary": "AI教育圈头部创作者 Matthew Berman (@matthew_berman, YouTube 64 万订阅) 在 10-18 发布与 OpenAI CEO Sam Altman 的独家访谈首个 clip, 完整版下周放出, 核心抛出 Altman 对 ChatGPT 个性设计的内部权衡。片段里 Altman 承认过去三个月团队故意把模型调得更顺从, 结果导致大量用户觉得被 patronize, 承诺新版本会 'opinionated by default'。评论区观点撕裂, 一派认为这是对 GPT-5 Sol 和 GPT-6 Astra 用户流失的直接回应, 另一派担心 'personality 回潮' 会把安全栏杆再抬低, Hacker News 侧也挂了讨论串。"
     },
     {
-      "platform": "HN",
-      "author": "Addy Osmani / Morgan Westlee Lunt / Qing Wang",
-      "title": "Claude Code 团队如何做代码评审",
-      "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "summary": "Anthropic 工程团队披露 Claude Code 内部代码评审流程，被 Simon Willison 10 月 16 日全文摘录转发，HN 讨论串单日爆发式扩散。核心数据：Anthropic monorepo 每日落地变更从 5 月的 2500 条暴增至 9 月的 30000+ 条；Claude Code 自身仓库 6-9 月合并 PR 翻倍、revert 率反降 40%+；90% 的 Claude Code 代码由 Claude 自己写，评审从末端 gate 变成 spellcheck 式持续运行。文章提出用自动化 agent 多路并发找 bug + 风险分级人工审批，是 agentic engineering 领域本周最高热度实战帖。",
-      "metric": "Simon Willison 转发 / addy-osmani 标签 8 篇 / 2285 ai 标签联动"
+      "platform": "Hacker News",
+      "author": "ahlCVA (提交者)",
+      "title": "Claude 25分钟破解 NSA 25年遗留 ECDSA 曲线种子之谜",
+      "url": "https://news.ycombinator.com/item?id=50122800",
+      "engagement": "1008 分 / 372 评论 (24h 冲上 HN 第 2)",
+      "summary": "Anthropic Frontier Red Team 10-16 发布研究: 内部 Claude 模型在不到半小时内把 NIST P-192/P-224/P-256/P-384/P-521 曲线的无解释种子追溯到了 1990 年代 C 库里的 lrand48 伪随机生成器 + Unix 时间戳, 彻底推翻了业内流传多年的 'NSA 用一句玩笑话 hash 出曲线' 的说法。HN 讨论焦点集中在三点: 一是过去 25 年所有密码学家都没想到的问题被 LLM 用 'generator-side 枚举' 爆破, 二是这是否能作为 '曲线无后门' 的佐证, 三是 'AI 协助密码学考古' 开始成为真研究方向。顶楼评论直言 'this is the first time I believe an LLM made a scientific discovery'。"
     },
     {
-      "platform": "X",
-      "author": "@liquidai (Liquid AI)",
-      "title": "LFM2.5-24B-A2B 官宣：on-device Agent 最优解",
-      "url": "https://x.com/liquidai/status/2110055807194931348",
-      "summary": "Liquid AI 官方 X 发布 LFM2.5-24B-A2B 开源发布线程，24 小时内 153.6K 浏览、2.1K 点赞、1.2K 书签、258 转推、105 回复，是本周 AI 开源社区传播最广的一条官方公告。线程强调 24B 总参/2B 激活、131K 上下文、33T 预训练 token，在 BFCLv4(65.01)、ToolSandbox(80.71)、LiveClaw(48.09) 上追平或超越 Qwen3.6-35B-A3B；day-one 支持 llama.cpp/GGUF/MLX/vLLM/SGLang/ONNX，NVIDIA B300 单卡高并发达 21K output tok/s。许多开发者在转推中评价这是 Qwen3.6-35B 之后首个真正适合笔记本本地 Agent 的模型。",
-      "metric": "153.6K views / 2.1K likes / 1.2K bookmarks / 258 RT"
+      "platform": "B站",
+      "author": "隔壁的程序员老王",
+      "title": "Vibe Coding是什么?从AI模型Agent到工作流彻底搞懂",
+      "url": "https://www.bilibili.com/video/BV1VC7g6vE9f/",
+      "engagement": "29.9 万播放 / 2.6k 弹幕 / 1.4k 投币 (24h 内增量 4 万+)",
+      "summary": "B 站技术区 UP 主 '隔壁的程序员老王' 在 10-17 晚更新的 Vibe Coding 原理解构视频, 10-18 24h 内播放量从 25 万冲到 29.9 万, 并被首页推荐。视频把 Karpathy 一年前抛出的 'vibe coding' 从 meme 还原到工程层面, 把 '模型 (Claude Opus 5.5 / GPT-6 Astra) → Agent 框架 (Claude Code / Codex) → 工作流 (MCP+Skills+Harness)' 三层拆开讲, 并同步演示了自己用 Claude Code + REA 复刻 Memory Map Visualizer 的全过程。评论区高赞是 '终于不是又一个只会喊 vibe 的视频', 带动中文开发者圈重新讨论 Karpathy 的 'agentic engineering' 新定义。"
     }
   ],
   "topics": [
     {
-      "name": "#CodeReviewInTheAgeOfAI",
-      "platform": "HN/X",
-      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
-      "summary": "围绕 Anthropic Claude Code 团队代码评审方法论的大辩论在 10 月 15-16 日席卷 HN 与 X：Simon Willison 10/16 发出长引述、Thorsten Ball 的 16 条 \"code review will die\" 预测被 >800 万次浏览的 v0xium 帖子二度点燃，Addy Osmani 的 \"The Code Nobody Reads\" 累计 151 subscribers like + 20 评论。核心议题：当 Anthropic monorepo 日变更从 2500 爆增到 30000+、90% 代码由 agent 产出，line-by-line 阅读是否已失效？HN agentic-engineering 标签新增 67 篇，coding-agents 突破 259 篇。",
-      "posts_count": "simonwillison.net ai 标签 2285 / coding-agents 259"
+      "name": "#REA 一周冲到 24.8 万 Star",
+      "platform": "GitHub + X + Dev.to",
+      "summary": "morluto/rea (Reverse Engineer Anything) 一周前还只有不到 1 万 Star, 10-18 已飙到 24.8 万, 冲进 GitHub 全球 Star 增速 Top3。它是一个 MIT 协议 MCP server, 把 Claude Code / Codex / Cursor / Gemini CLI 接到 Ghidra / Hopper / IDA, 让 Agent 直接要反编译伪代码和执行 trace。Matthew Berman 一句 'Software is done' 让项目破圈, SystemDesign Academy 的独立评测却泼冷水: 30/30 文件行号命中, 但 Electron 应用里 nodeIntegration 100% 漏检, 加上冒牌 lookalike 包已经出现, 社区正在吵 '它到底是软件考古的新基建还是下一个安全噩梦'。",
+      "link": "https://github.com/morluto/rea"
     },
     {
-      "name": "#OnDeviceAgents",
-      "platform": "X/Reddit",
-      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-      "summary": "On-device agent 模型爆发话题，10 月 13-16 日由 Liquid AI LFM2.5-24B-A2B 引爆，叠加 r/LocalLLaMA 48GB VRAM 讨论串、Qwen3.6-27B/Gemma 4-31B 对比帖共振。热议焦点：2B 激活 MoE 架构在 Apple M5 Max 跑出 184 tok/s、RTX 2060 跑 20-25 tok/s；DSpark 推测解码即将上线。LocalLLaMA 社区目前约 749K 成员，本周新模型相关帖子集中出现 500+ upvotes 爆款，官方 X 原文 153.6K views、Reddit 热帖 573 upvotes，是开源权重阵营最热门的硬件平权话题。",
-      "posts_count": "153.6K X views + 573 Reddit upvotes"
+      "name": "#日网友称DeepSeek颠覆格局",
+      "platform": "微博热搜",
+      "summary": "10-18 微博热搜榜第 41 位, 24h 内 3.7 万热度 2 次上榜。起因是日本 ITmedia 等媒体连续发稿称 DeepSeek V4 Pro 在 Vals Index v2.1 行业任务榜上拿到 68.9 分追平 Gemini 4 Argon, 日文 X 圈层把这件事放大为 'OpenAI 时代结束'。微博讨论焦点有两条支线: 一是 '国产模型第一次在日本技术圈被当成 benchmark 对标', 二是 iPhone Duo 国内发售首日 (10-17) 翻车话题 '安排20多人仅1人抢到iPhoneDuo首发' 同期在榜, 和苹果 Apple Intelligence 走弱形成对比, 不少用户把两个话题串起来二创。",
+      "link": "https://s.weibo.com/weibo?q=%23%E6%97%A5%E7%BD%91%E5%8F%8B%E7%A7%B0DeepSeek%E9%A2%A0%E8%A6%86%E6%A0%BC%E5%B1%80%23"
     },
     {
-      "name": "#AIDiffusionGap",
-      "platform": "X",
-      "url": "https://www.businessinsider.com/andrej-karpathy-ai-gap-widening-usage-2026-10",
-      "summary": "Andrej Karpathy 10 月 11 日提出 AI 使用分层 \"sharp funnel\" 理论持续发酵至 10 月 15-16 日：全球约 6B 人 (~75%) 几乎未碰过 LLM，1-2B 人仅使用免费 ChatGPT 类工具，约 20M 人 (0.2%) 深度使用 frontier model 编码，顶层仅约 5000 人掌握 agent 群集能力。Business Insider、The New Stack、Garry Tan、Aaron Levie 等账号接力转发，仅 TheNewStack 单条转评就带来 518+ 次 impressions。该话题被开发者社区解读为 \"vibe coding 阶级分化\" 的权威佐证。",
-      "posts_count": "原推 >1M views，30+ 转评联动"
+      "name": "#Qwen3.8 单卡 3090 跑 140 tok/s",
+      "platform": "Reddit r/LocalLLaMA",
+      "summary": "Reddit r/LocalLLaMA 10-18 置顶是一位名为 Adorable_Weakness_39 的开发者放出的 Megakernel 优化, 让 Qwen3.8-27B 在单张 RTX 3090 上跑出 140 tok/s, 对 llama.cpp 的 KL 散度仅 0.0009, 等于几乎无损推理。帖子一天 71 分 33 评论, 讨论焦点是两条: 一是国产模型 (Qwen / DeepSeek / GLM) 在 12-24GB 消费级显卡上开始取代 Mistral/Llama 成为本地部署默认选项, 二是 Megakernel + CUDA Graph 的组合能不能被 vLLM / sglang 吸收。顺带把 '国产开源 LLM 本地推理栈 2026 版' 的话题重新带热, 评论区大量讨论 Strata / DSH / MiMo-V2.6 等新框架。",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1x37q7b/update_qwen_38_27b_140_toks_on_single_rtx_3090/"
     }
   ],
   "creators": [
     {
-      "name": "Simon Willison",
-      "platform": "simonwillison.net / X",
-      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
-      "summary": "AI 开发社区的首席策展人，10 月 16 日晚 10:06 发出 Claude Code 代码评审长引述，一天内在 HN 和 X 二次放大了 Anthropic 的方法论；同时在 10/12 发布 Python 3.15 深度上手笔记（包含 PEP 810 lazy import、Tachyon sampling profiler 评测），持续维护 2285 篇 AI 标签文章、1993 篇 LLMs 文章。本轮 24 小时内他的站点新增 code-review 标签至 20 篇，addy-osmani 子标签增至 8 篇，是全站 AI 工程动态的权威聚合入口。",
-      "followers": "60K+ Mastodon / 45K X",
-      "highlight": "一句话转评就能让 Anthropic 的 code review 方法论登上 HN"
-    },
-    {
       "name": "Andrej Karpathy",
-      "platform": "X",
-      "url": "https://x.com/karpathy",
-      "summary": "前 OpenAI 创始成员、\"vibe coding\" 一词创造者，10 月 11 日发出的 AI 认知分层帖持续在 15-16 日被转评放大，Business Insider 10/12 深度报道已覆盖该观点。Karpathy 把全球 LLM 使用者切成 \"6B 未接触 / 1-2B 免费聊天 / 20M 编码 / 5000 内部\" 四层，提出 OpenAI-HF 事件预示 \"swarms of thousands of agents\" 时代即将到来。Box CEO Aaron Levie、YC Garry Tan 等纷纷引用，TheNewStack 10/15 的转评进一步推高话题热度至 500+ 次新增 impressions。",
-      "followers": "1.2M+",
-      "highlight": "一句 '5000 人俱乐部' 定义了 AI 时代的新阶级"
+      "platform": "X/Twitter",
+      "bio": "前特斯拉 AI 总监 / OpenAI 创始成员, Vibe Coding 一词的发明者",
+      "highlight": "Karpathy (@karpathy) 10-18 继续在 X 置顶他 10-17 发的 'vibe coding 一周年回顾', 该推文截至 10-18 已 130 万浏览 / 644 条回复。他正式给过去一年的实践命名为 'agentic engineering', 强调 '99% 的时间你不是在写代码, 你在编排 Agent 并担任 oversight', 并提出 'engineering 不是 vibe 的对立, 而是它的下一阶段'。这条推文被 Simon Willison / swyx / Matt Shumer 等接力引用, 直接影响今天多个 Vibe Coding YouTube 视频的开场定义。他的回顾也成为 2026 Q4 AI 开发者圈最高频转发的中英双语观点锚点。",
+      "link": "https://x.com/karpathy"
     },
     {
-      "name": "@dotey 宝玉",
-      "platform": "X",
-      "url": "https://x.com/dotey/status/2110489668609536061",
-      "summary": "华语 AI 社区头部译介者，10 月 14-15 日连发多条 AI 视频生成趣闻与前沿论文翻译，其中一条 \"X 发 AI 视频一不小心遇到本尊\" 帖在 24 小时内收获 73.5K views、96 likes、22 回复、16 bookmarks，意外成为跨文化传播样本（原作者 @yuuki_yuduru 日本本尊现身评论区）。他本周持续转发并翻译了 LFM2.5-24B-A2B、Claude Code review 等英文圈重磅内容，是 2026 年 10 月中旬华语开发者获取英文圈 AI 一手资讯的重要节点。",
-      "followers": "350K+",
-      "highlight": "华语 AI 圈最高效的英文一手资讯中继站"
+      "name": "Matthew Berman",
+      "platform": "YouTube",
+      "bio": "640k 订阅 AI 频道主理人, forwardfuture.com 创始人",
+      "highlight": "Berman 10-18 发布 Sam Altman 独家访谈首个 clip (《Sam Altman on ChatGPT Personality》), 这是继他一句 'Software is done' 把 morluto/rea 推上 24 万 Star 之后又一次风向标操作。他的频道近 30 天选题高度聚焦在 'Agent + 真实软件工程' 这条主轴, 近期视频覆盖 Claude Opus 5.5 ArtCraft 复刻实验、Qwen3.8 本地推理、REA 反编译实测, 节奏比传统 '每日 AI 新闻' 更偏独立评测, 并明确区分 claim / 实测 / 风险, 已经成为中文 AI 二创圈最常被翻译搬运的英文频道之一。",
+      "link": "https://www.youtube.com/@matthew_berman"
+    },
+    {
+      "name": "隔壁的程序员老王",
+      "platform": "B站",
+      "bio": "B 站 AI 技术区 UP, 擅长把前沿 AI 工具原理拆成 10-20 分钟中文长视频",
+      "highlight": "10-17 晚更新的《Vibe Coding是什么?》24h 内冲到 29.9 万播放, 配合他此前的《10分钟讲清楚 Prompt, Agent, MCP 是什么》(8.3 万播放) 构成完整的 '中文 Agent 工程入门序列'。他的内容特点是不吹不黑, 每期都把工具 (Claude Code / Codex / Cursor / Gemini CLI) 的差异用具体 demo 跑一遍, 10-18 评论区大量开发者反馈 '靠他的视频两周把团队从 Cursor 迁到 Claude Code + Codex 组合'。配合他开源的 memory_map_visualizer 项目, 已成为国内 Vibe Coding 本土化落地最具代表性的声音。",
+      "link": "https://space.bilibili.com/16433002"
     }
   ]
 }
