@@ -57,8 +57,8 @@
     },
     "chthollyphile/folia-major": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 1111,
+      "appearances": 3,
+      "total_today_stars": 1651,
       "language": "TypeScript",
       "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
       "owner_avatar": "https://avatars.githubusercontent.com/u/30263107?v=4",
@@ -300,8 +300,8 @@
     },
     "ollama/ollama": {
       "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 133,
+      "appearances": 2,
+      "total_today_stars": 300,
       "language": "Go",
       "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
@@ -443,9 +443,9 @@
       "html_url": "https://github.com/NVIDIA/personaplex"
     },
     "krillinai/OpenCreator": {
-      "best_rank": 17,
-      "appearances": 2,
-      "total_today_stars": 358,
+      "best_rank": 13,
+      "appearances": 3,
+      "total_today_stars": 555,
       "language": "TypeScript",
       "description": "Formerly KrillinAI, VideoTranslation and Dubbing Tool. Open-source AI workspace for creators, powered by Codex. Video downloading, video translation, create videos, images, voice, avatars, and edits with Agents in one place. Suitable for your Social Media like YouTube, TikTok, Instagram, etc.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2386538?v=4",
@@ -498,17 +498,17 @@
     },
     "stablyai/orca": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 2970,
+      "appearances": 4,
+      "total_today_stars": 3800,
       "language": "TypeScript",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
       "html_url": "https://github.com/stablyai/orca"
     },
     "hmjz100/LinkSwift": {
-      "best_rank": 10,
-      "appearances": 3,
-      "total_today_stars": 1750,
+      "best_rank": 3,
+      "appearances": 4,
+      "total_today_stars": 2810,
       "language": "JavaScript",
       "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
       "owner_avatar": "https://avatars.githubusercontent.com/u/98228280?v=4",
@@ -560,9 +560,9 @@
       "html_url": "https://github.com/p-e-w/heretic"
     },
     "anthropics/claude-plugins-official": {
-      "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 2040,
+      "best_rank": 1,
+      "appearances": 4,
+      "total_today_stars": 3437,
       "language": "Python",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -579,17 +579,17 @@
     },
     "K-Dense-AI/scientific-agent-skills": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 2412,
+      "appearances": 4,
+      "total_today_stars": 3290,
       "language": "Python",
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/238572432?v=4",
       "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
     },
     "HKUDS/CLI-Anything": {
-      "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 997,
+      "best_rank": 6,
+      "appearances": 3,
+      "total_today_stars": 1571,
       "language": "Python",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -597,8 +597,8 @@
     },
     "xerj-org/xerj": {
       "best_rank": 2,
-      "appearances": 2,
-      "total_today_stars": 2363,
+      "appearances": 3,
+      "total_today_stars": 3523,
       "language": "Rust",
       "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/297525353?v=4",
@@ -623,9 +623,9 @@
       "html_url": "https://github.com/laoma528/awesome-zhuiju-free"
     },
     "cursor/plugins": {
-      "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 492,
+      "best_rank": 11,
+      "appearances": 3,
+      "total_today_stars": 880,
       "language": "TypeScript",
       "description": "Cursor plugin specification and official plugins",
       "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
@@ -650,9 +650,9 @@
       "html_url": "https://github.com/longbridge/gpui-kit"
     },
     "ruvnet/ruflo": {
-      "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 819,
+      "best_rank": 8,
+      "appearances": 3,
+      "total_today_stars": 1239,
       "language": "TypeScript",
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -669,8 +669,8 @@
     },
     "michael-denyer/pstack-claude": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 420,
+      "appearances": 2,
+      "total_today_stars": 538,
       "language": "JavaScript",
       "description": "Claude Code, Codex, Copilot, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/97485362?v=4",
@@ -687,8 +687,8 @@
     },
     "google/artemis": {
       "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 226,
+      "appearances": 2,
+      "total_today_stars": 360,
       "language": "Python",
       "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
@@ -714,17 +714,17 @@
     },
     "jasonxu114514/opencode2api": {
       "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 185,
+      "appearances": 2,
+      "total_today_stars": 289,
       "language": "Go",
       "description": "A Go-based OpenCode Zen / Zen Go API proxy with OpenAI & Anthropic API compatibility, key/proxy pooling, automatic routing, and WebUI.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/117326624?v=4",
       "html_url": "https://github.com/jasonxu114514/opencode2api"
     },
     "akitaonrails/ai-memory": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 159,
+      "best_rank": 15,
+      "appearances": 2,
+      "total_today_stars": 337,
       "language": "Rust",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2840?v=4",
@@ -738,6 +738,96 @@
       "description": "Turn Claude into a senior design architect: DTCG tokens, 52 components, WCAG 2.2 AA-AAA, 138 design systems, any-framework code, and 50 objective gates that fail the build instead of faking success.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5790381?v=4",
       "html_url": "https://github.com/plugin87/ux-ui-agent-skills"
+    },
+    "yt-dlp/yt-dlp": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 412,
+      "language": "Python",
+      "description": "A feature-rich command-line audio/video downloader",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/79589310?v=4",
+      "html_url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    "withmarbleapp/os-taxonomy": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 392,
+      "language": "JavaScript",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/233045934?v=4",
+      "html_url": "https://github.com/withmarbleapp/os-taxonomy"
+    },
+    "android/skills": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 355,
+      "language": "Kotlin",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/32689599?v=4",
+      "html_url": "https://github.com/android/skills"
+    },
+    "anthropics/claude-code": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 179,
+      "language": "TypeScript",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-code"
+    },
+    "google/ax": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 175,
+      "language": "Go",
+      "description": "Google's open agentic orchestration runtime",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
+      "html_url": "https://github.com/google/ax"
+    },
+    "thesysdev/openui": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 170,
+      "language": "TypeScript",
+      "description": "The Open Standard for Generative UI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/155424887?v=4",
+      "html_url": "https://github.com/thesysdev/openui"
+    },
+    "elie222/rakazo": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 153,
+      "language": "TypeScript",
+      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/3090527?v=4",
+      "html_url": "https://github.com/elie222/rakazo"
+    },
+    "GCWing/OpenBitFun": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 148,
+      "language": "Rust",
+      "description": "OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/29406332?v=4",
+      "html_url": "https://github.com/GCWing/OpenBitFun"
+    },
+    "mixelpixx/Konnect": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 112,
+      "language": "Rust",
+      "description": "AI-assisted PCB design for KiCAD 10. Native KiCAD plugin — a single Rust binary exposing 217 schematic, layout, routing, placement, design-review, and manufacturing tools to Claude, or the LLM of your choosing",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11727006?v=4",
+      "html_url": "https://github.com/mixelpixx/Konnect"
+    },
+    "ScrapeCreators/social-media-research-skills": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 103,
+      "language": "Python",
+      "description": "AI agent skills for social media research. Outlier posts, comment mining, competitor teardowns, ad libraries & trends across TikTok, Instagram, YouTube, Reddit, X, LinkedIn & more. Powered by ScrapeCreators. Works with Claude Code, Cursor, Codex, Gemini CLI.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/272332798?v=4",
+      "html_url": "https://github.com/ScrapeCreators/social-media-research-skills"
     }
   }
 }
