@@ -1,74 +1,74 @@
 {
-  "date": "2026-10-18",
-  "generated_at": "2026-10-18T08:15:27+08:00",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T08:24:38+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
-      "platform": "X/Twitter",
-      "author": "Matthew Berman",
-      "title": "Sam Altman谈ChatGPT个性 独家采访片段抢先释出",
-      "url": "https://www.youtube.com/watch?v=oMYXJIHcEX0",
-      "engagement": "YouTube帖 24h 内 1.1k 评论 / 近 32k 浏览, X同步 7.5k 转发",
-      "summary": "AI教育圈头部创作者 Matthew Berman (@matthew_berman, YouTube 64 万订阅) 在 10-18 发布与 OpenAI CEO Sam Altman 的独家访谈首个 clip, 完整版下周放出, 核心抛出 Altman 对 ChatGPT 个性设计的内部权衡。片段里 Altman 承认过去三个月团队故意把模型调得更顺从, 结果导致大量用户觉得被 patronize, 承诺新版本会 'opinionated by default'。评论区观点撕裂, 一派认为这是对 GPT-5 Sol 和 GPT-6 Astra 用户流失的直接回应, 另一派担心 'personality 回潮' 会把安全栏杆再抬低, Hacker News 侧也挂了讨论串。"
-    },
-    {
+      "title": "Pele – Mermaid diagrams as themeable SVG (by Obsidian)",
       "platform": "Hacker News",
-      "author": "ahlCVA (提交者)",
-      "title": "Claude 25分钟破解 NSA 25年遗留 ECDSA 曲线种子之谜",
-      "url": "https://news.ycombinator.com/item?id=50122800",
-      "engagement": "1008 分 / 372 评论 (24h 冲上 HN 第 2)",
-      "summary": "Anthropic Frontier Red Team 10-16 发布研究: 内部 Claude 模型在不到半小时内把 NIST P-192/P-224/P-256/P-384/P-521 曲线的无解释种子追溯到了 1990 年代 C 库里的 lrand48 伪随机生成器 + Unix 时间戳, 彻底推翻了业内流传多年的 'NSA 用一句玩笑话 hash 出曲线' 的说法。HN 讨论焦点集中在三点: 一是过去 25 年所有密码学家都没想到的问题被 LLM 用 'generator-side 枚举' 爆破, 二是这是否能作为 '曲线无后门' 的佐证, 三是 'AI 协助密码学考古' 开始成为真研究方向。顶楼评论直言 'this is the first time I believe an LLM made a scientific discovery'。"
+      "url": "https://news.ycombinator.com/item?id=50132193",
+      "summary": "Obsidian 开源的 Pele 把 Mermaid 图渲染为可主题化 SVG,号称比 mermaid.js 快 500 倍,一夜冲到 HN 首页第一,228→522 分、评论区聚焦零 JS 运行时与博客场景集成。",
+      "author": "dchest"
     },
     {
-      "platform": "B站",
-      "author": "隔壁的程序员老王",
-      "title": "Vibe Coding是什么?从AI模型Agent到工作流彻底搞懂",
-      "url": "https://www.bilibili.com/video/BV1VC7g6vE9f/",
-      "engagement": "29.9 万播放 / 2.6k 弹幕 / 1.4k 投币 (24h 内增量 4 万+)",
-      "summary": "B 站技术区 UP 主 '隔壁的程序员老王' 在 10-17 晚更新的 Vibe Coding 原理解构视频, 10-18 24h 内播放量从 25 万冲到 29.9 万, 并被首页推荐。视频把 Karpathy 一年前抛出的 'vibe coding' 从 meme 还原到工程层面, 把 '模型 (Claude Opus 5.5 / GPT-6 Astra) → Agent 框架 (Claude Code / Codex) → 工作流 (MCP+Skills+Harness)' 三层拆开讲, 并同步演示了自己用 Claude Code + REA 复刻 Memory Map Visualizer 的全过程。评论区高赞是 '终于不是又一个只会喊 vibe 的视频', 带动中文开发者圈重新讨论 Karpathy 的 'agentic engineering' 新定义。"
+      "title": "48GB VRAM users, what are your daily drivers? Do you ever feel it's not enough?",
+      "platform": "Reddit r/LocalLLaMA",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ti2ga0/48gb_vram_users_what_are_your_daily_drivers_do/",
+      "summary": "48GB 显存玩家晒日常本地模型配置,Qwen3-Next-80B、GLM-4.6-Air、Llama-4-Scout 成主流,评论区热议 MoE 卸载、2bit 量化与 128GB 升级焦虑,是本地推理圈当下最真实的硬件自白。",
+      "author": "u/Borkato"
+    },
+    {
+      "title": "Claude Opus 5.5 半个月的使用体验",
+      "platform": "V2EX",
+      "url": "https://www.v2ex.com/t/1248374",
+      "summary": "V2EX 作者 orcx 发帖总结 Opus 5.5 半月实测:长上下文稳定性显著优于 Codex,但返工率在复杂重构时反而更高,22 条回复集中讨论 Claude Code 与国产套壳 IDE 的工程落地差异。",
+      "author": "orcx"
     }
   ],
   "topics": [
     {
-      "name": "#REA 一周冲到 24.8 万 Star",
-      "platform": "GitHub + X + Dev.to",
-      "summary": "morluto/rea (Reverse Engineer Anything) 一周前还只有不到 1 万 Star, 10-18 已飙到 24.8 万, 冲进 GitHub 全球 Star 增速 Top3。它是一个 MIT 协议 MCP server, 把 Claude Code / Codex / Cursor / Gemini CLI 接到 Ghidra / Hopper / IDA, 让 Agent 直接要反编译伪代码和执行 trace。Matthew Berman 一句 'Software is done' 让项目破圈, SystemDesign Academy 的独立评测却泼冷水: 30/30 文件行号命中, 但 Electron 应用里 nodeIntegration 100% 漏检, 加上冒牌 lookalike 包已经出现, 社区正在吵 '它到底是软件考古的新基建还是下一个安全噩梦'。",
-      "link": "https://github.com/morluto/rea"
+      "name": "Claude Code 把代码评审搬进 PR 流水线",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/from?site=anthropic.com",
+      "description": "Addy Osmani 与 Anthropic 团队的 Solving code review at Anthropic 本周持续发酵,HN、X、Simon Willison 博客连锁转发,焦点是 agent-based review 如何替代 lint/人工 CR,中文开发者圈同步跟进。",
+      "mentions": "热议"
     },
     {
-      "name": "#日网友称DeepSeek颠覆格局",
-      "platform": "微博热搜",
-      "summary": "10-18 微博热搜榜第 41 位, 24h 内 3.7 万热度 2 次上榜。起因是日本 ITmedia 等媒体连续发稿称 DeepSeek V4 Pro 在 Vals Index v2.1 行业任务榜上拿到 68.9 分追平 Gemini 4 Argon, 日文 X 圈层把这件事放大为 'OpenAI 时代结束'。微博讨论焦点有两条支线: 一是 '国产模型第一次在日本技术圈被当成 benchmark 对标', 二是 iPhone Duo 国内发售首日 (10-17) 翻车话题 '安排20多人仅1人抢到iPhoneDuo首发' 同期在榜, 和苹果 Apple Intelligence 走弱形成对比, 不少用户把两个话题串起来二创。",
-      "link": "https://s.weibo.com/weibo?q=%23%E6%97%A5%E7%BD%91%E5%8F%8B%E7%A7%B0DeepSeek%E9%A2%A0%E8%A6%86%E6%A0%BC%E5%B1%80%23"
+      "name": "Pele vs mermaid.js:500× 性能神话",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/front?day=2026-10-18",
+      "description": "kepano 团队把 Mermaid 从运行时 JS 转成构建期 SVG,Pele 一天内在 HN 冲上第一,X、知乎、Dev.to 讨论围绕静态博客、Obsidian 文档和 CI 产物如何零成本获得主题化图表。",
+      "mentions": "热议"
     },
     {
-      "name": "#Qwen3.8 单卡 3090 跑 140 tok/s",
-      "platform": "Reddit r/LocalLLaMA",
-      "summary": "Reddit r/LocalLLaMA 10-18 置顶是一位名为 Adorable_Weakness_39 的开发者放出的 Megakernel 优化, 让 Qwen3.8-27B 在单张 RTX 3090 上跑出 140 tok/s, 对 llama.cpp 的 KL 散度仅 0.0009, 等于几乎无损推理。帖子一天 71 分 33 评论, 讨论焦点是两条: 一是国产模型 (Qwen / DeepSeek / GLM) 在 12-24GB 消费级显卡上开始取代 Mistral/Llama 成为本地部署默认选项, 二是 Megakernel + CUDA Graph 的组合能不能被 vLLM / sglang 吸收。顺带把 '国产开源 LLM 本地推理栈 2026 版' 的话题重新带热, 评论区大量讨论 Strata / DSH / MiMo-V2.6 等新框架。",
-      "link": "https://www.reddit.com/r/LocalLLaMA/comments/1x37q7b/update_qwen_38_27b_140_toks_on_single_rtx_3090/"
+      "name": "Opus 5.5 vs Codex:返工率与速度之争",
+      "platform": "V2EX",
+      "url": "https://www.v2ex.com/go/vibecoding",
+      "description": "V2EX vibecoding 节点连续两周被 Opus 5.5 相关帖子霸榜,orcx 的实测帖、boisy 的 awesome 清单、zy199333210 的 Tellcut 工具链共同引发关于 agent IDE 返工率、$200/月订阅 ROI 的讨论。",
+      "mentions": 60
     }
   ],
   "creators": [
     {
-      "name": "Andrej Karpathy",
-      "platform": "X/Twitter",
-      "bio": "前特斯拉 AI 总监 / OpenAI 创始成员, Vibe Coding 一词的发明者",
-      "highlight": "Karpathy (@karpathy) 10-18 继续在 X 置顶他 10-17 发的 'vibe coding 一周年回顾', 该推文截至 10-18 已 130 万浏览 / 644 条回复。他正式给过去一年的实践命名为 'agentic engineering', 强调 '99% 的时间你不是在写代码, 你在编排 Agent 并担任 oversight', 并提出 'engineering 不是 vibe 的对立, 而是它的下一阶段'。这条推文被 Simon Willison / swyx / Matt Shumer 等接力引用, 直接影响今天多个 Vibe Coding YouTube 视频的开场定义。他的回顾也成为 2026 Q4 AI 开发者圈最高频转发的中英双语观点锚点。",
-      "link": "https://x.com/karpathy"
+      "name": "Simon Willison",
+      "platform": "X",
+      "url": "https://x.com/simonw",
+      "bio": "Datasette 作者、LLM CLI 维护者,每日高密度转述 AI 行业动态。本周持续追踪 Claude Code 代码评审、Opus 5.5 实测与 Pele,是英文圈 vibecoding 风向标。",
+      "highlight": "10-18 当日连发 3 条关于 Pele 与 Claude Code review 的分析推"
     },
     {
-      "name": "Matthew Berman",
-      "platform": "YouTube",
-      "bio": "640k 订阅 AI 频道主理人, forwardfuture.com 创始人",
-      "highlight": "Berman 10-18 发布 Sam Altman 独家访谈首个 clip (《Sam Altman on ChatGPT Personality》), 这是继他一句 'Software is done' 把 morluto/rea 推上 24 万 Star 之后又一次风向标操作。他的频道近 30 天选题高度聚焦在 'Agent + 真实软件工程' 这条主轴, 近期视频覆盖 Claude Opus 5.5 ArtCraft 复刻实验、Qwen3.8 本地推理、REA 反编译实测, 节奏比传统 '每日 AI 新闻' 更偏独立评测, 并明确区分 claim / 实测 / 风险, 已经成为中文 AI 二创圈最常被翻译搬运的英文频道之一。",
-      "link": "https://www.youtube.com/@matthew_berman"
+      "name": "kepano (Steph Ango)",
+      "platform": "X",
+      "url": "https://x.com/kepano",
+      "bio": "Obsidian CEO,主导 Pele 项目开源。倡导 file-over-app、local-first 理念,本周因 Pele 登顶 HN 再度刷屏,是独立开发者/知识管理圈的核心声音。",
+      "highlight": "Pele 发布 24h 内获 522 HN 分、GitHub star 破万"
     },
     {
-      "name": "隔壁的程序员老王",
-      "platform": "B站",
-      "bio": "B 站 AI 技术区 UP, 擅长把前沿 AI 工具原理拆成 10-20 分钟中文长视频",
-      "highlight": "10-17 晚更新的《Vibe Coding是什么?》24h 内冲到 29.9 万播放, 配合他此前的《10分钟讲清楚 Prompt, Agent, MCP 是什么》(8.3 万播放) 构成完整的 '中文 Agent 工程入门序列'。他的内容特点是不吹不黑, 每期都把工具 (Claude Code / Codex / Cursor / Gemini CLI) 的差异用具体 demo 跑一遍, 10-18 评论区大量开发者反馈 '靠他的视频两周把团队从 Cursor 迁到 Claude Code + Codex 组合'。配合他开源的 memory_map_visualizer 项目, 已成为国内 Vibe Coding 本土化落地最具代表性的声音。",
-      "link": "https://space.bilibili.com/16433002"
+      "name": "Addy Osmani",
+      "platform": "X",
+      "url": "https://x.com/addyosmani",
+      "bio": "Google Chrome DevRel 负责人、《Learning JavaScript Design Patterns》作者。联合 Anthropic 发表的 Claude Code 代码评审落地文本周被 HN、Simon Willison、V2EX 中英文圈同时引用。",
+      "highlight": "合著 Solving code review at Anthropic,成为 10-18 开发者圈最大话题"
     }
   ]
 }
