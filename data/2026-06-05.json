@@ -212,16 +212,17 @@
     "id": "n_2026-06-05_05",
     "date": "2026-06-05",
     "category": "VibeCoding",
-    "subcat": "AI编程工具",
-    "platform": "官方博客",
-    "platform_color": "#7C3AED",
-    "title": "Claude Code v2.1.212发布多项会话防护",
+    "subcat": "AI Coding Tools",
+    "platform": "Claude Code 官方 Changelog",
+    "platform_color": "#F6A07C",
+    "title": "Claude Code 2.1.303 发版 修复稳定性",
     "url": "https://code.claude.com/docs/en/changelog",
-    "image": "images/2026-07-18/2026-07-18_vibecoding_2.jpg",
+    "image": "images/2026-10-19/2026-10-19_vibe_1.jpg",
     "detail": [
-      "Anthropic于2026年7月17日发布Claude Code v2.1.212版本更新。作为终端AI编程代理领域的主力工具,此次更新聚焦会话管理与安全防护,针对长时间运行的智能体工作流做了大量稳定性打磨,是近期功能调整较为密集的一次迭代,直接影响开发者日常使用体验。",
-      "核心变化包括:/fork命令现在会把当前会话复制到独立的后台会话继续跑,而原来的会话内子代理改名为/subtask;新增对WebSearch调用的全局上限(默认200次,可通过环境变量调节)以及每会话子代理生成上限(默认200个),防止搜索与委派陷入失控循环;运行超过两分钟的MCP工具调用现在会自动转入后台,避免阻塞会话。",
-      "此外版本还修复了计划模式下未经权限提示就自动执行touch、rm等改文件Bash命令的隐患,以及worktree沿仓库软链接创建导致文件跑到仓库外的问题。这些防护性改动回应了开发者对智能体自动化跑飞的担忧,在Claude Code重度用户群中获得普遍关注。"
+      "北京时间 10 月 19 日凌晨,Anthropic 在 Claude Code 官方 Changelog 发布 v2.1.303 版本,官方描述为「Bug fixes and reliability improvements」。虽然体量不如 10 月 16 日 2.1.302 那次大改动,但紧随其后的小版本修补意味着此前推出的 fork subagents 默认开启、自动 compact 等重大行为变更在实际用户环境中触发了一批可观测的回归,团队选择以周四节点发出稳定性收尾补丁。",
+      "2.1.302 已把客户端自动模式分类器模型切换为可配置变量 CLAUDE_CODE_AUTO_MODE_MODEL,把 fork subagents 变成 claude -p、Agent SDK、桌面端和 VS Code 的默认行为,并修复了 43 个 bug,涵盖 Prompt 过长、Vertex/Bedrock 切换报错、plugin 市场重复 clone 等关键问题。2.1.303 在此基础上进一步稳固长会话 compaction 与 Cloud Session 的边缘路径。",
+      "开发者在 GitHub Issues 与 Slack 社群反馈,近两周 Claude Code 升级节奏明显加快(2.1.300→303 不足 5 天),这与 Anthropic 近日推出 Claude Code Plugins GA、以及推动 Agent HQ 与 VS Code 1.142 深度集成有关。对企业用户而言,频繁小版本意味着需要用 claude --version 校验 CI 构建环境,以免 fork subagents 默认行为变化影响既有自动化脚本。",
+      "值得关注的是,Changelog 同时在 10 月 15 日版本中新增了 LaTeX 数学公式渲染和 VS Code 面板的「Get more usage」入口,显示 Anthropic 把 Claude Code 从单一 CLI 全面拉向 IDE、Chrome、Slack、桌面端一体化平台。CLI 用户仍可通过 CLAUDE_CODE_FORK_SUBAGENT=0 关闭默认 fork,保留旧行为。"
     ]
   },
   {

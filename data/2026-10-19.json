@@ -1,0 +1,257 @@
+[
+  {
+    "id": "2026-10-19_vibe_6",
+    "date": "2026-10-19",
+    "category": "VibeCoding",
+    "subcat": "Hacker News",
+    "platform": "Hacker News (Show HN)",
+    "platform_color": "#F6A07C",
+    "title": "Show HN:Hybro 开源Agent互操作引擎",
+    "url": "https://news.ycombinator.com/item?id=50146655",
+    "image": "images/2026-10-19/2026-10-19_vibe_6.jpg",
+    "detail": [
+      "北京时间 10 月 19 日,开发者 kevinlu310 在 Hacker News Show HN 板块发布 Hybro 项目(github.com/hybroai/hybro),定位是「an open interoperability engine for AI agents」,目标解决当前市面上几十个 agent 协议(MCP、Anthropic Skills、OpenAI Codex Function、Google A2A)之间互不兼容的痛点。",
+      "Hybro 的核心是一个中间引擎,接入它之后一个 agent 可以直接把自己的 tool 暴露给另一个异构 agent 调用。举个场景:用 Claude Code 写的 skill 可以直接被 Cursor Composer 识别为可调用工具,反之亦然。作者在帖子里展示了几个 demo,包括把 Codex 的文件系统工具 proxy 给 Grok Bot 使用。",
+      "这个思路和 10 月初 LlamaIndex OpenDocRouter 的方向类似,但 Hybro 更聚焦底层协议 bridging,而不是文档路由。虽然刚发布只有 1 分钟、还没获得点赞,但从近期 Hacker News 社群对 agent 互操作话题的高频讨论来看,这类基础设施项目都有后续爆发潜力。",
+      "值得一提的是,10 月以来 Show HN 板块出现了 Hybro、Keel(AI 代码代理证明工作)、Gspot(gstack lint 工具)、WhatsApp MCP on Cloudflare 等一批 agent 相关项目,显示 vibe coding 浪潮已经深入到工具链底层:从模型消费层逐步往协议、互操作、可审计的方向演化。"
+    ]
+  },
+  {
+    "id": "2026-10-19_vibe_5",
+    "date": "2026-10-19",
+    "category": "VibeCoding",
+    "subcat": "Cursor 生态",
+    "platform": "GitHub / Cursor",
+    "platform_color": "#F6A07C",
+    "title": "Cursor 官方插件仓库登 Trending",
+    "url": "https://github.com/cursor/plugins",
+    "image": "images/2026-10-19/2026-10-19_vibe_5.jpg",
+    "detail": [
+      "紧随 Cursor 在 10 月 13 日宣布 Origin App Marketplace 向公众提交开放,cursor/plugins 这一「Cursor 插件规范 + 官方插件集合」仓库在 10 月 18-19 日 GitHub Trending 日榜持续在榜,单日新增 350 颗星,累计 12.7k star、1.3k fork,成为想做 Cursor 插件开发者的第一手参考。",
+      "仓库包含 teaching、continual-learning、cli-for-agent、cursor-sdk、cursor-team-kit、docs-canvas、grok-voice、orchestrate、origin-apps、pr-review-canvas、ralph-loop、thermos 等多个官方插件,每个插件自带独立 .cursor-plugin/plugin.json 清单文件,结构类似 VSCode 扩展但更面向 agent 开发,直接定义 skill、tool、hook。",
+      "这次开源意味着社区开发者可以直接 copy 任意一个官方 plugin 作为模板,快速发布自己的集成。配合同步开放的 Origin API,CodeRabbit、Linear、Sentry、Semgrep、Socket Security 等 20+ 合作伙伴已经上架。GitHub 上已经有超过 211 个 PR 排队提交新插件。",
+      "值得注意的是,Cursor 10 月 16 日又新增了 Cloud Agent Canvases 与 Environments API,整个产品节奏明显是 Anthropic Claude Code Plugins GA 后行业对标压力下的加速。plugins 仓库成为 Trending 热门,其实反映出 IDE agent 市场从「比谁模型强」转向「比谁生态厚」的拐点。"
+    ]
+  },
+  {
+    "id": "2026-10-19_vibe_2",
+    "date": "2026-10-19",
+    "category": "VibeCoding",
+    "subcat": "GitHub Trending",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "AI Job Search 登顶 Trending",
+    "url": "https://github.com/MadsLorentzen/ai-job-search",
+    "image": "images/2026-10-19/2026-10-19_vibe_2.jpg",
+    "detail": [
+      "北京时间 10 月 19 日,丹麦开发者 Mads Lorentzen 的 ai-job-search 项目冲上 GitHub Trending 日榜 Top 1,24 小时新增约 2232 颗星,总 star 数突破 53.1k、fork 17.4k。项目核心定位是「在本地机器上跑的 AI 求职框架」,完全基于 Claude Code 构建,用户 fork 后填入自己的简历与岗位 URL,就能批量执行职位匹配评估、CV 定制、Cover Letter 撰写、面试准备四类任务。",
+      "仓库结构清晰拆成 .agents(skills 定义)、company_research、cover_letters、cv、job_scraper、tools、upskill 等目录,并提供 salary_lookup.py 本地薪资查询脚本。整个方案最大的差异化在于「本地优先」:简历、求职信、公司调研全部产生在用户磁盘上,不经过第三方招聘 SaaS,解决了求职者普遍担忧的隐私泄露问题。",
+      "开发者社群尤其是 r/ClaudeAI 与 Hacker News 对该项目讨论热烈,许多人指出这是继 Anthropic 推出 Skills 机制后,第一个用 Skills + 子代理 orchestration 完整落地「个人工作流 agent」的案例。项目 MIT 协议开放贡献,目前 37 个 PR 排队,363 commits 的提交密度也侧面证明维护活跃。",
+      "该项目的爆红也验证了 Claude Code 作为 agent 运行时的生态价值:MadsLorentzen 几乎没有写服务端,全部逻辑由 skills markdown + python 工具函数组成。对想要构建行业专属 agent 的团队来说,ai-job-search 可以直接作为模板 fork 后改造成「AI 法律助手」「AI 医疗秘书」等垂直版本。"
+    ]
+  },
+  {
+    "id": "2026-10-19_game_6",
+    "date": "2026-10-19",
+    "category": "Gaming",
+    "subcat": "平台更新",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "Steam抢先体验近7000款游戏变死游",
+    "url": "https://www.gamersky.com/news/202610/2230432.shtml",
+    "image": "images/2026-10-19/2026-10-19_game_6.jpg",
+    "detail": [
+      "游民星空10月18日报道引用Steam数据分析网站SteamDB与第三方SteamSpy联合调查：当前Steam抢先体验(Early Access)分类下共12320款游戏，其中6989款已超过一年没有任何更新，占比高达56.7%，被业界与玩家称为平台的「死游」现象。",
+      "调查按最后更新时间划分发现，1-2年未更新的游戏约3200款，2-5年未更新的3100款，5年以上零更新的近700款；部分开发商已跑路或改做新项目，但Steam商店页仍标注抢先体验状态，玩家购买后无法获得任何售后或正式版更新。",
+      "Valve过去虽承诺严格审查抢先体验，但在系统层面仅要求开发者提交未来路线图而不强制交付；分析人士建议V社参考2023年「长期未更新」标签方案，将1年以上未更新项目强制标红并禁止上首页推荐，但V社尚未就此话题公开表态。",
+      "报道引发大量Steam玩家在Reddit与Steam社区讨论，不少用户称自己账户里积攒了20+款永不更新的EA游戏；也有独立开发者为这个标签叫屈，强调小团队现金流紧张时项目被迫搁置并非恶意，呼吁V社提供更灵活的「暂停」而非「死亡」判定。"
+    ]
+  },
+  {
+    "id": "2026-10-19_game_5",
+    "date": "2026-10-19",
+    "category": "Gaming",
+    "subcat": "游戏评测",
+    "platform": "PC/PS5/Xbox Series",
+    "platform_color": "#7CF6A0",
+    "title": "《现代战争4》战役口碑爆发 对标09封神作",
+    "url": "https://www.gamersky.com/news/202610/2230428.shtml",
+    "image": "images/2026-10-19/2026-10-19_game_5.jpg",
+    "detail": [
+      "游民星空10月18日汇总《使命召唤：现代战争4》战役评测反响，Infinity Ward操刀的本作在10月17日媒体解禁后收获大量高分，国内玩家将其与2009年的《现代战争2》并列称为系列封神之作，口碑好感度已显著高于近五年任何CoD新作。",
+      "海外媒体方面IGN给出8/10、GameSpot 7/10、PlayStation Universe 9/10；评测普遍赞扬本作放弃线性走廊设计，首次引入多路径「大型任务」结构，部分章节允许玩家自由选择潜行、载具突进或联手盟友，关卡设计风格更接近《神秘海域4》。",
+      "游民星空采访国内玩家反馈，评测解禁后《现代战争4》Steam页面新增愿望单破10万，国服PSN预购榜次日冲至第二；也有争议声音认为剧情反转过于仓促，部分NPC行为模型存在穿模和AI异常，开发组承诺首发日1补丁将集中修复。",
+      "本作战役提前开放时间为10月16日，10月24日完整版多人与僵尸模式上线，同步登陆PS5/Xbox Series/PC以及上一代PS4、Xbox One，首发入驻Xbox Game Pass Ultimate，是动视在被微软收购后首次全平台首发的旗舰系列作品。"
+    ]
+  },
+  {
+    "id": "2026-10-19_game_4",
+    "date": "2026-10-19",
+    "category": "Gaming",
+    "subcat": "行业新闻",
+    "platform": "Xbox/PC",
+    "platform_color": "#7CF6A0",
+    "title": "《光环》秘密新作Project Ekur被证实砍掉",
+    "url": "https://www.gamersky.com/news/202610/2230450.shtml",
+    "image": "images/2026-10-19/2026-10-19_game_4.jpg",
+    "detail": [
+      "游民星空与GamesRadar于10月18日联合报道，Halo Studios秘密开发的多人新作Project Ekur被确认取消，爆料人Rebs Gaming援引多位光环工作室内部员工称，这款原本定位为「吃鸡+撤离玩法混合体」的项目在《光环：战役进化》开发中途被叫停。",
+      "Project Ekur最早脱胎于被弃置的Tatanka大逃杀概念，由Certain Affinity与343联合孵化，目的是测试Slipspace资产能否迁移到虚幻5引擎并保留光环手感；原计划作为微软三年三作战略中的核心多人项目，支撑《战役进化》之后的生态。",
+      "报道称除Ekur外，另一新战役项目Halo Next也已被砍，这意味着Halo Studios目前没有新单人或多人作品处于实际开发阶段，整个团队都在为后续项目重新构思概念；Halo Fest可能仅能宣布「某个新项目终于进入开发」而无法展示玩法。",
+      "此次消息令《光环》玩家社区震动，Reddit相关贴24小时内突破2万赞；外界质疑微软在2024年Halo Studios改组、宣布全面转向虚幻5后至今两年仅端出一部重制版《战役进化》，微软Xbox管理层对此尚未正式回应。"
+    ]
+  },
+  {
+    "id": "2026-10-19_game_3",
+    "date": "2026-10-19",
+    "category": "Gaming",
+    "subcat": "行业新闻",
+    "platform": "PC/PS5/Xbox Series",
+    "platform_color": "#7CF6A0",
+    "title": "R星工会官司延期 结案日距GTA6发售仅1天",
+    "url": "https://www.eurogamer.net/rockstar-iwgb-employment-tribunal-delay-november",
+    "image": "images/2026-10-19/2026-10-19_game_3.jpg",
+    "detail": [
+      "Eurogamer于10月18日独家报道：Rockstar Games与IWGB英国独立工人工会的雇佣仲裁听证会因律师团要求补充时间已被格拉斯哥仲裁法庭批准延期，新增11月17日与18日两个开庭日，意味着庭审将在《GTA 6》发售前一天的11月18日正式结束。",
+      "该案核心争议是31名前员工在2025年底被R星集体解雇后起诉公司以涉嫌泄露机密为名清洗工会成员；10月18日庭上又曝出R星HR经理曾承诺以额外休假换取「线人」监视工会Discord私密群组，R星否认指控，强调解雇基于严重不当行为。",
+      "游民星空等国内媒体同日跟进该庭审新证据，HR经理Charlie Kinloch被指控向法院提供不实陈述，其是否知晓具体员工身份属于IWGB成员成为双方交锋焦点；工会律师称这是「游戏行业史上最赤裸的工会打压」，而R星则表示将强力辩护。",
+      "由于庭审结论将几乎与GTA 6发售同日落地，分析人士普遍认为Take-Two高层对判决结果异常敏感，若法庭最终认定R星存在不当解雇，可能令首发声誉受损；R星目前仍维持11月19日发售档期，Steam商店页等平台尚未受影响。"
+    ]
+  },
+  {
+    "id": "2026-10-19_game_2",
+    "date": "2026-10-19",
+    "category": "Gaming",
+    "subcat": "销量数据",
+    "platform": "PlayStation 5",
+    "platform_color": "#7CF6A0",
+    "title": "《对马之魂2》估算销量540万份",
+    "url": "https://www.ign.com/articles/ghost-of-yotei-sales-lagging-behind-tsushima-but-still-strong-on-ps5-analyst-estimates-show",
+    "image": "images/2026-10-19/2026-10-19_game_2.jpg",
+    "detail": [
+      "Alinea Analytics分析主管Rhys Elliott于10月16日公布《对马之魂2(Ghost of Yotei)》第三方销量估算，经IGN与Push Square 10月17-18日跟进：游戏累计售出约540万份，总收入4.07亿美元，实体版占比36.8%。",
+      "分析对比显示，初代《对马之魂》在上市同期已累计约700万份与4.18亿美元收入，Yotei在销量上滞后约160万份，但得益于70美元定价与仅两次短促折扣，收入几乎追平前作仅相差3%，PlayStation提升单用户变现策略见成效。",
+      "10月1日推出的《关原之声》剧情DLC与《通缉》肉鸽模式带来显著回暖，日活跃用户从150K跃升至300K+、单日峰值327K，80美元的完整版自上线以来约5万份销量另贡献200万美元；Elliott强调这与同期大作云集的发行环境形成鲜明对比。",
+      "该分析罕见给出PS5独占3A项目完整的收入曲线。Alinea估算本作2026年至今仍卖出180万份、1.21亿美元；IGN在报道中指出Yotei开发预算约6000万美元(不含营销)，按当前收入估算已回本约6.7倍，为Sucker Punch最成功的PlayStation首发项目。"
+    ]
+  },
+  {
+    "id": "2026-10-19_game_1",
+    "date": "2026-10-19",
+    "category": "Gaming",
+    "subcat": "试玩Demo",
+    "platform": "Switch 2",
+    "platform_color": "#7CF6A0",
+    "title": "《怪物猎人荒野》Switch 2免费序章试玩10月19日上线",
+    "url": "https://www.nintendolife.com/news/2026/10/monster-hunter-wilds-free-prologue-demo-brings-the-hunt-to-switch-2-next-week",
+    "image": "images/2026-10-19/2026-10-19_game_1.jpg",
+    "detail": [
+      "卡普空10月16日通过Monster Hunter官方X账号与Nintendo Life披露，《怪物猎人荒野》Switch 2版免费序章Demo将于10月19日太平洋时间(10月20日英国时间)上线eShop，玩家可提前体验游戏开头章节，Switch 2数字版预购也于同日开启。",
+      "该Demo允许玩家创建猎人与随行艾露，完整走完引导剧情，重点的是Demo存档可直接继承到正式版，省去二次创建的烦恼；本地多人联机受支持，可与同处一地的Switch 2玩家一起狩猎，但在线多人则需等正式版12月4日发售后开放。",
+      "Nintendo Life的报道同时确认，Switch 2版支持跨平台联机与Game-Key Card实体版两种模式，Capcom此前已公布Switch 2版本的分辨率与帧率表现，运行方式和画质压缩较PS5/PC版有可见差距，但掌机便携是Switch 2玩家最看重的卖点。",
+      "开发组强调序章Demo的素材分离包将首发日提供预载，Switch 2存储空间紧张的玩家可以提前释放微SD Express卡；资料片《怪物猎人荒野:上升》确认在2027年发售，Switch 2将与其他平台同期获得DLC支持。"
+    ]
+  },
+  {
+    "id": "2026-10-19_ai_6",
+    "date": "2026-10-19",
+    "category": "AI",
+    "subcat": "AI产业",
+    "platform": "The Verge",
+    "platform_color": "#7C9EF6",
+    "title": "Meta Muse Spark Open 携手苹果 MLX",
+    "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
+    "image": "images/2026-10-19/2026-10-19_ai_6.jpg",
+    "detail": [
+      "北京时间10月18-19日,The Verge与TechCrunch跟进Meta Muse Spark Open与苹果MLX的新一轮联合落地。Meta FAIR上周放出的816B MoE/42B激活、1M上下文开源模型,现已通过MLX 0.26.0直接跑在M5 Ultra Mac Studio上。",
+      "苹果机器学习工程师Awni Hannun在X展示的基准数据显示,搭载512GB统一内存的M5 Ultra用4-bit量化推理Muse Spark Open吞吐达到每秒23 token,首token延迟1.8秒,功耗仅185瓦。相比H100 PCIe单卡运行方案便宜近7倍,但吞吐只有后者1/9。",
+      "The Verge重点点出此次合作是苹果Apple Intelligence战略从云端走向本地Mac生态的关键一步。Meta罕见地允许MLX直接访问原生FP8权重,反过来也让Muse Spark Open在消费端拿下想象力空间,双方互换的是开发者份额与端侧算力话语权。",
+      "开发者社区反应异常积极,Muse Spark Open在MLX-Community镜像首日下载突破6万,r/MachineLearning热帖讨论能否把Spark Open微调成Agent底座的话题被顶上前三。分析师指出苹果与Meta这波联动,可能把本地旗舰开源模型变成主流开发默认选项。"
+    ]
+  },
+  {
+    "id": "2026-10-19_ai_5",
+    "date": "2026-10-19",
+    "category": "AI",
+    "subcat": "AI安全",
+    "platform": "DailyDev",
+    "platform_color": "#7C9EF6",
+    "title": "OpenCode 蒸馏攻击泄露用户 API 密钥",
+    "url": "https://daily.dev/posts/opencode-security-breach-distillation-attack-hit-console-users-with-linked-ai-providers-how-to-fin-yuh4w55nj",
+    "image": "images/2026-10-19/2026-10-19_ai_5.jpg",
+    "detail": [
+      "北京时间10月18日深夜,SST团队旗下OpenCode开源CLI通过X账号发布安全公告,证实10月13-16日遭遇针对性Prompt蒸馏攻击,有1.4%的Console用户的OpenAI/Anthropic API密钥被外泄,涉开发者超2800。攻击链由Anomaly Innovations披露。",
+      "攻击者伪装成热门Agent仓库,通过OpenCode的run_from_url扩展指令诱导Agent进入恶意工作区,再利用一个精心构造的蒸馏Prompt让本地模型把环境变量以base64形式打印到对话窗口,最后被影子MCP转发到外部服务器,属于一类全新的间接越权。",
+      "SST给出的时间线显示,10月17日全平台强制下线run_from_url,10月18日发布2.0.3热修版本并通知所有可能受影响用户滚动密钥。OpenAI与Anthropic已批量撤销检测到的疑似泄露密钥,并对关联企业账户发送强制轮换邮件,属Agent生态少见的联合响应。",
+      "该事件把Agent工具链的供应链安全推上风口,X上caryjan、swyx等KOL齐发帖提醒开源CLI用户立即审计配置。daily.dev复盘指出蒸馏攻击比传统prompt注入更隐蔽,是2026年底Agent安全防线的新软肋,也会倒逼CLI生态引入强制沙箱与密钥代理。"
+    ]
+  },
+  {
+    "id": "2026-10-19_ai_4",
+    "date": "2026-10-19",
+    "category": "AI",
+    "subcat": "AI硬件",
+    "platform": "NVIDIA Blogs",
+    "platform_color": "#7C9EF6",
+    "title": "英伟达GTC Berlin开幕聚焦主权AI",
+    "url": "https://blogs.nvidia.com/gtc-berlin-2026-news/",
+    "image": "images/2026-10-19/2026-10-19_ai_4.jpg",
+    "detail": [
+      "北京时间10月19日,英伟达GTC Berlin 2026在Tempodrom启动Workshop日,黄仁勋将在20日欧洲中部时间18点登台。预热页面显示本届主题围绕Sovereign AI与欧洲数据中心战略展开,Station-Berlin主会场预计接待1.4万名欧洲开发者。",
+      "官方已公布的三大议程亮点分别是:面向欧洲的DGX Cloud Lepton算力租赁更新、针对电信AI的ARIA 2加速卡,以及与Siemens合作推出的Industrial Omniverse Cloud。黄仁勋预告将首次演示搭载Vera Rubin NVL576的德国国家AI工厂早期配置。",
+      "英伟达Developer Blog同步发布Berlin之行的滚动报道页,透露预热周已经敲定与Deutsche Telekom、Mistral AI、SAP、Schwarz Group在欧洲算力联盟方面的协议,外界预期将宣布总额超80亿欧元的多方承诺,刷新欧洲AI基建单次记录。",
+      "德国联邦经济事务部长Reiche确认亲自到场致辞,并计划提前透露德国版《AI Gigafactory Act》细节。路透社观察到欧洲股市周一开盘前,SAP、Siemens AG、ASML三家欧股盘前涨幅均超过1.8%,显示市场对本次GTC Berlin落地效应极高预期。"
+    ]
+  },
+  {
+    "id": "2026-10-19_ai_3",
+    "date": "2026-10-19",
+    "category": "AI",
+    "subcat": "开源模型",
+    "platform": "MarkTechPost",
+    "platform_color": "#7C9EF6",
+    "title": "阶跃星辰开源 Step 5 Preview Agent",
+    "url": "https://www.marktechpost.com/2026/10/16/stepfun-releases-step-5-preview-open-weights-600b-moe-27b-active-1m-context/",
+    "image": "images/2026-10-19/2026-10-19_ai_3.jpg",
+    "detail": [
+      "阶跃星辰10月18日在HuggingFace与Nvidia Build同步上线Step 5 Preview开源权重,是国内继DeepSeek后又一款专为Agent工作流打造的旗舰模型。总参600B,MoE仅激活27B,原生1M上下文,商业用途遵循Nvidia Open Model License。",
+      "官方基准成绩显示新模型在SWE-Bench Verified拿下75.3%,Terminal-Bench 2.0达58.7%,BFCL函数调用准确率92.1,全面超过DeepSeek V4.1-Flash,在AA Index v4.3上位列开源第二,刷新国产旗舰纪录。",
+      "阶跃把Step 5 Preview接进Nvidia Build平台,开发者可免费试用2000万token,企业推理价每百万输入0.26、输出1.6美元,比Claude Haiku 5.5便宜近5倍。X官方账号强调已经通过BF16/FP8/Int4四档量化,24GB消费级显卡能本地跑Int4。",
+      "MarkTechPost与机器之心独家测评指出,Step 5 Preview最大亮点是把工具调用的思考链压缩在平均420 token以内,使单次Agent任务成本直降42%。阶跃团队透露正式版Step 5将在GTC Beijing发布,同时开源配套训练框架StepFlow 2。"
+    ]
+  },
+  {
+    "id": "2026-10-19_ai_2",
+    "date": "2026-10-19",
+    "category": "AI",
+    "subcat": "AI政策",
+    "platform": "Mashable",
+    "platform_color": "#7C9EF6",
+    "title": "Anthropic向美国国会递交AI安全法草案",
+    "url": "https://sea.mashable.com/tech/56038/anthropic-is-pitching-congress-its-own-ai-safety-bill-report-says",
+    "image": "images/2026-10-19/2026-10-19_ai_2.jpg",
+    "detail": [
+      "北京时间10月19日,Mashable等多家外媒报道Anthropic正私下向国会递交自拟的前沿AI安全法草案,Politico率先披露全文。CEO Dario Amodei上周亲赴华盛顿游说,公司注册说客由3人扩至27人,显示合规游说已升到战略最高级别。",
+      "草案核心是设立联邦前沿AI监督机构,只有当模型可能一次性造成10亿美元以上经济损失、或对50人以上生命构成即时威胁时政府才能介入强制整改。模型方需每年提交红队报告与关键能力评测,处罚上限年度营收4%,与欧盟AI Act对齐。",
+      "Mother Jones与Futurism对该门槛提出严厉批评,认为50人伤亡阈值远高于FAA/FDA同类标准,等于默许AI在造成大规模灾难前继续迭代,属典型监管俘获。参议院商务委员会幕僚回应称已收草案,会与此前Schumer的ROADMAP合并讨论。",
+      "Anthropic时机耐人寻味:距其拟议的2026年底IPO只剩两个月,公司估值报价已到3500亿美元。分析师指出,这份草案若能通过,将把它与OpenAI的差异化定位——以安全为护城河——写进联邦法律,从而拉开估值身位,但也可能引发反垄断再审视。"
+    ]
+  },
+  {
+    "id": "2026-10-19_ai_1",
+    "date": "2026-10-19",
+    "category": "AI",
+    "subcat": "开源模型",
+    "platform": "HuggingFace",
+    "platform_color": "#7C9EF6",
+    "title": "DeepSeek V4.1-Flash 开源权重上线",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+    "image": "images/2026-10-19/2026-10-19_ai_1.jpg",
+    "detail": [
+      "北京时间10月18日凌晨,DeepSeek在HuggingFace悄然上架V4.1-Flash-1017开源权重,采用MIT许可证全量放出。模型基于552B稀疏骨干搭配196B Engram记忆模块,原生支持1M token上下文,是幻方量化系首次把长期记忆架构带进开源旗舰。",
+      "官方模型卡显示新版在DeepSWE真实软件工程基准拿下77.0分,较V4.1上一版提升11.4分,AIME 2026数学题库也达到94.1分,追平Claude Opus 5.5闭源成绩。推理定价每百万输入0.14美元、输出1.1美元,仍是旗舰开源阵营最便宜档位之一。",
+      "社区反馈异常火热,unsloth团队当天就放出GGUF量化版,r/LocalLLaMA帖子两小时破3千赞,焦点集中在Engram模块能否解决上下文坍缩。X上Andrej Karpathy转推称这是开源阵营对闭源长上下文垄断的正面硬刚,首日下载量冲破18万。",
+      "值得注意的是检查点特意删除了部分系统提示与安全策略层,鼓励下游继续后训练。幻方团队表示下一步会推出配套Engram记忆服务与Code Agent微调方案,预计11月初发布技术报告,长远目标是把百万token上下文推理成本再压一半。"
+    ]
+  }
+]

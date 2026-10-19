@@ -3,16 +3,17 @@
     "id": "2026-09-23_vibe_4",
     "date": "2026-09-23",
     "category": "VibeCoding",
-    "subcat": "Agent框架",
+    "subcat": "Agent 基础设施",
     "platform": "GitHub",
     "platform_color": "#F6A07C",
-    "title": "ai-memory:给编码Agent的跨厂商长期记忆",
+    "title": "ai-memory 为Agent CLI注入长期记忆",
     "url": "https://github.com/akitaonrails/ai-memory",
-    "image": "images/2026-09-23/2026-09-23_vibe_4.jpg",
+    "image": "images/2026-10-19/2026-10-19_vibe_4.jpg",
     "detail": [
-      "9月23日，akitaonrails/ai-memory在GitHub Trending单日新增约575 star，累计突破8000。它要解决的痛点很具体:LLM编码Agent在会话结束后会丢失所有上下文。ai-memory为这些Agent提供一个共享、持久的wiki——每一次prompt、工具调用和决策都会被自动捕获;会话结束时相关页面被改写成连贯叙事;下一个Agent（Claude Code、Codex、OpenCode等）启动时，会看到已经预置好的你上次做到哪里的交接说明。",
-      "架构上它采用瘦客户端CLI设计:status、bootstrap、checkpoints、restore-page、curator、auto-improve、backup等命令全部是运行中服务的HTTP客户端，永不直接触碰SQLite或wiki文件，服务端是唯一真相源。对于新项目有几个月历史的情况，ai-memory bootstrap会收集git log、README、docs和模块头，一次性总结为种子wiki页，后续会话在其上继续构建。",
-      "工具还支持跨厂商的记忆交接与自动改进:配置了LLM Provider后，后台会为新完成的会话跑自动改进调度器，把提议的wiki编辑记入待写审计轨迹;curator则以无LLM的规则化方式对冷门页、陈旧槽位、重复标题和悬空跨项目链接生成维护报告。它支持在homelab机器上起一个全家共享服务，按cwd路由让各项目页面干净隔离，还能通过restore-page精确回滚单个markdown文件而不必整体回退，颇受频繁切换编码CLI的开发者欢迎。"
+      "巴西开发者 Fabio Akita 发布的 ai-memory 项目在 10 月 19 日 GitHub Trending 继续走高,单日新增 512 颗星,总 star 突破 10.5k。该项目用 Rust 实现,主打一件事:为 Claude Code、Codex 等 agent CLI 提供「长期记忆层」,并解决不同 agent 厂商之间无法 handoff 的痛点。",
+      "传统 agent CLI 的会话一结束就丢失上下文,下次开新窗口要重新 onboard;而 ai-memory 把项目级知识、代码片段、决策记录按向量索引持久化到本地 crates/ 下的 SQLite 数据库,所有 agent 通过标准 MCP 接口读写,实现「换了 agent,还是同一个你」。仓库提供 install.sh 与 install.ps1 一键脚本,兼容 Linux、macOS、Windows。",
+      "亮点是它采用 .agents/、.claude-plugin/ 双目录布局,原生被 Claude Code 当成 plugin 加载,也可以被 opencode 等开源 agent 直接识别。4008 commits 与 .gitleaks.toml 安全配置显示作者对代码质量要求相当高,DATA_HANDLING.md 文档详细说明哪些数据会上传、哪些留在本地。",
+      "这个项目的意义在于补齐 2026 年 agent 生态最大的短板:记忆跨厂商迁移。此前有 Letta、Zep 等 SaaS 方案,但都是中心化;ai-memory 走 Rust + 本地优先路线,让隐私敏感的企业和个人开发者第一次真正拥有属于自己的「agent 记忆池」。"
     ]
   },
   {
