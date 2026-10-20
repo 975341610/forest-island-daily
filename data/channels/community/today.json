@@ -1,74 +1,74 @@
 {
-  "date": "2026-10-19",
-  "generated_at": "2026-10-19T08:24:38+08:00",
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T08:55:41+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
-      "title": "Pele – Mermaid diagrams as themeable SVG (by Obsidian)",
-      "platform": "Hacker News",
-      "url": "https://news.ycombinator.com/item?id=50132193",
-      "summary": "Obsidian 开源的 Pele 把 Mermaid 图渲染为可主题化 SVG,号称比 mermaid.js 快 500 倍,一夜冲到 HN 首页第一,228→522 分、评论区聚焦零 JS 运行时与博客场景集成。",
-      "author": "dchest"
+      "platform": "Reddit",
+      "title": "deepseek-ai/DeepSeek-V4.1-Flash-1017 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x84po4/deepseekaideepseekv41flash1017_hugging_face/",
+      "author": "u/Bestlife73",
+      "likes": 1100,
+      "summary": "DeepSeek 发布 V4.1-Flash-1017 开源模型，Terminal-Bench 4.0 冲上 42.3，直接碾压 K3、GLM5.3 并逼近 GPT-5.6 Sol，LocalLLaMA 社区热评刷屏称其“Flash 已经不是 Flash 而是 Burst”。"
     },
     {
-      "title": "48GB VRAM users, what are your daily drivers? Do you ever feel it's not enough?",
-      "platform": "Reddit r/LocalLLaMA",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1ti2ga0/48gb_vram_users_what_are_your_daily_drivers_do/",
-      "summary": "48GB 显存玩家晒日常本地模型配置,Qwen3-Next-80B、GLM-4.6-Air、Llama-4-Scout 成主流,评论区热议 MoE 卸载、2bit 量化与 128GB 升级焦虑,是本地推理圈当下最真实的硬件自白。",
-      "author": "u/Borkato"
+      "platform": "X",
+      "title": "New Deepseek-V4.1-Flash-1017 on my LLM coding leaderboard — look how MASSIVE the jump is",
+      "url": "https://x.com/PovilasKorop/status/2111821859998019940",
+      "author": "@PovilasKorop",
+      "likes": 2800,
+      "summary": "Laravel 教育者 Povilas Korop 把 DeepSeek-V4.1-Flash-1017 跑进自家 LLM 编程榜单，截图显示跃升幅度惊人，被 X 上大量 vibecoding 开发者转发，并引发对开源替代 Opus 5 的讨论。"
     },
     {
-      "title": "Claude Opus 5.5 半个月的使用体验",
-      "platform": "V2EX",
-      "url": "https://www.v2ex.com/t/1248374",
-      "summary": "V2EX 作者 orcx 发帖总结 Opus 5.5 半月实测:长上下文稳定性显著优于 Codex,但返工率在复杂重构时反而更高,22 条回复集中讨论 Claude Code 与国产套壳 IDE 的工程落地差异。",
-      "author": "orcx"
+      "platform": "Blog",
+      "title": "Quotations, links and notes - My obituary for programming (Jeremy Scheff)",
+      "url": "https://simonwillison.net/2026/Oct/19/",
+      "author": "Simon Willison",
+      "likes": 980,
+      "summary": "Simon Willison 10 月 19 日转载并点评 Jeremy Scheff 的《我给编程写的讣告》，讨论 coding agent 时代程序员职业焦虑，HN 与 X 大量讨论，被视为本周 vibecoding 社区的情绪代表作。"
     }
   ],
   "topics": [
     {
-      "name": "Claude Code 把代码评审搬进 PR 流水线",
-      "platform": "Hacker News",
-      "url": "https://news.ycombinator.com/from?site=anthropic.com",
-      "description": "Addy Osmani 与 Anthropic 团队的 Solving code review at Anthropic 本周持续发酵,HN、X、Simon Willison 博客连锁转发,焦点是 agent-based review 如何替代 lint/人工 CR,中文开发者圈同步跟进。",
-      "mentions": "热议"
+      "name": "DeepSeek V4.1-Flash-1017 开源发布",
+      "platform": "Reddit/X/HuggingFace",
+      "heat": "极高",
+      "summary": "DeepSeek 10 月 17 日悄然放出 V4.1-Flash-1017 小更新，HLE 42.6、DeepSWE 77.0，开源权重登顶 HuggingFace 热榜，LocalLLaMA 与 X 开发者圈刷屏讨论推理速度与成本 Pareto 优化。"
     },
     {
-      "name": "Pele vs mermaid.js:500× 性能神话",
-      "platform": "Hacker News",
-      "url": "https://news.ycombinator.com/front?day=2026-10-18",
-      "description": "kepano 团队把 Mermaid 从运行时 JS 转成构建期 SVG,Pele 一天内在 HN 冲上第一,X、知乎、Dev.to 讨论围绕静态博客、Obsidian 文档和 CI 产物如何零成本获得主题化图表。",
-      "mentions": "热议"
+      "name": "程序员讣告 / AI coding 职业焦虑",
+      "platform": "Blog/HN/X",
+      "heat": "高",
+      "summary": "Jeremy Scheff《My obituary for programming》经 Simon Willison 转载后在 HN、X 持续热议，开发者围绕 Claude Code、OpenCode、DeepSeek Harness 讨论手写代码未来，技术博客圈集中反思 vibecoding 的边界。"
     },
     {
-      "name": "Opus 5.5 vs Codex:返工率与速度之争",
-      "platform": "V2EX",
-      "url": "https://www.v2ex.com/go/vibecoding",
-      "description": "V2EX vibecoding 节点连续两周被 Opus 5.5 相关帖子霸榜,orcx 的实测帖、boisy 的 awesome 清单、zy199333210 的 Tellcut 工具链共同引发关于 agent IDE 返工率、$200/月订阅 ROI 的讨论。",
-      "mentions": 60
+      "name": "DGX Spark + 本地大模型本周实测潮",
+      "platform": "YouTube/Reddit",
+      "heat": "中高",
+      "summary": "本周 r/LocalLLaMA 与 YouTube 多位创作者围绕 NVIDIA DGX Spark、Mac Studio 512GB 跑 DeepSeek 700B Flash 与 Qwen3.8 做横向对比，推动本地 AI 硬件选购话题在玩家社区再度升温。"
     }
   ],
   "creators": [
     {
+      "name": "Povilas Korop",
+      "platform": "X / YouTube",
+      "handle": "@PovilasKorop",
+      "url": "https://x.com/PovilasKorop",
+      "summary": "AI Coding Daily 主理人、Laravel 教育者 Povilas Korop 坚持每日用真实项目测试新 LLM，10 月 18 日对 DeepSeek-V4.1-Flash-1017 的编程榜单测评获得大量转发，是 vibecoding 圈最活跃的横评创作者之一。"
+    },
+    {
+      "name": "DeepSeek",
+      "platform": "X",
+      "handle": "@deepseek_ai",
+      "url": "https://x.com/deepseek_ai",
+      "summary": "中国开源 AI 实验室 DeepSeek 官方账号，10 月 17 日放出 V4.1-Flash-1017 开源权重掀起社区热议，持续以“minor update”式惊喜迭代 Terminal-Bench、DeepSWE 等编码基准，是开源派核心风向标。"
+    },
+    {
       "name": "Simon Willison",
-      "platform": "X",
-      "url": "https://x.com/simonw",
-      "bio": "Datasette 作者、LLM CLI 维护者,每日高密度转述 AI 行业动态。本周持续追踪 Claude Code 代码评审、Opus 5.5 实测与 Pele,是英文圈 vibecoding 风向标。",
-      "highlight": "10-18 当日连发 3 条关于 Pele 与 Claude Code review 的分析推"
-    },
-    {
-      "name": "kepano (Steph Ango)",
-      "platform": "X",
-      "url": "https://x.com/kepano",
-      "bio": "Obsidian CEO,主导 Pele 项目开源。倡导 file-over-app、local-first 理念,本周因 Pele 登顶 HN 再度刷屏,是独立开发者/知识管理圈的核心声音。",
-      "highlight": "Pele 发布 24h 内获 522 HN 分、GitHub star 破万"
-    },
-    {
-      "name": "Addy Osmani",
-      "platform": "X",
-      "url": "https://x.com/addyosmani",
-      "bio": "Google Chrome DevRel 负责人、《Learning JavaScript Design Patterns》作者。联合 Anthropic 发表的 Claude Code 代码评审落地文本周被 HN、Simon Willison、V2EX 中英文圈同时引用。",
-      "highlight": "合著 Solving code review at Anthropic,成为 10-18 开发者圈最大话题"
+      "platform": "Blog / X",
+      "handle": "simonwillison",
+      "url": "https://simonwillison.net/",
+      "summary": "Datasette 创始人、独立技术博主 Simon Willison 每日高密度整理 AI 行业链接与模型评测，10 月 19 日转载 Jeremy Scheff《程序员讣告》引发广泛讨论，是英文圈最具公信力的 AI 日志作者之一。"
     }
   ]
 }
