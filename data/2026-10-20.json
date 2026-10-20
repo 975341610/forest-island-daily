@@ -1,0 +1,286 @@
+[
+  {
+    "id": "2026-10-20_vibe_6",
+    "date": "2026-10-20",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "RuntimeWire",
+    "platform_color": "#F6A07C",
+    "title": "Anthropic 员工无法用 Bypass 模式",
+    "url": "https://runtimewire.com/article/anthropic-s-own-staff-can-t-use-claude-code-s-bypass-permissions-mode-client-cod",
+    "image": "images/2026-10-20/2026-10-20_vibe_6.jpg",
+    "detail": [
+      "RuntimeWire 在 10 月 18 日下午 5 点推出的调查文章里披露,Anthropic 内部员工自上月起已被禁止使用 Claude Code 的 Bypass Permissions 模式,原本可直接改动文件系统的危险开关对自家 workstation 一律灰显。",
+      "文章援引三名在职工程师的说法,公司法务与安全团队共同推动了这项限制,主要担忧 Bypass 模式与新上线的后台 agent sandbox 组合会在无人值守场景里绕过代码审查流水线,外部客户仍可按原方式开启,但要签增强版条款。",
+      "推文在开发者 X 圈层引发激烈讨论,Simon Willison 评论说官方自我降级反而证明 Bypass 模式威力过猛,也有人担心 Claude Code 的 agentic 能力会因此被反向阉割,官方尚未在博客做出回应,只在支持中心更新了一条 FAQ。"
+    ]
+  },
+  {
+    "id": "2026-10-20_vibe_5",
+    "date": "2026-10-20",
+    "category": "VibeCoding",
+    "subcat": "开发者圈",
+    "platform": "Hacker News",
+    "platform_color": "#F6A07C",
+    "title": "Namecheap 72 小时注销全域名登 HN",
+    "url": "https://www.secureinseconds.com/blog/2026-10-17-namecheap-domain-seizure-blast-radius",
+    "image": "images/2026-10-20/2026-10-20_vibe_5.jpg",
+    "detail": [
+      "一名独立开发者公开了与 Namecheap 的往来邮件,平台以单条 ToS 违规为由,给出仅 72 小时的全账号域名解析终止通知,涉及其运营 11 年的 SaaS 与四个开源项目,DNS、邮箱、OAuth 全线崩塌。",
+      "作者在博客里逐条拆解 blast radius:子域名绑定的 GitHub Pages、Stripe webhook、Fastmail 都会被同时切断,社区立刻把帖子推上 r/sysadmin 热门第一,24 小时内又被交叉发到 Hacker News,目前 942 点,位列首页第二。",
+      "评论区高频建议是尽快迁移到 Porkbun、Cloudflare Registrar 或自建 PowerDNS 并配合离线备份,也有人指出 ICANN 对注册商单边终止权缺乏公开仲裁通道,呼吁社区推动一次集体性的域名应急演练。"
+    ]
+  },
+  {
+    "id": "2026-10-20_vibe_4",
+    "date": "2026-10-20",
+    "category": "VibeCoding",
+    "subcat": "GitHub Trending",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "harness2 代码评测榜日增 3.1k 星",
+    "url": "https://github.com/google-research/harness2",
+    "image": "images/2026-10-20/2026-10-20_vibe_4.jpg",
+    "detail": [
+      "Google Research 团队昨晚把下一代大模型评测框架 harness2 推上 GitHub,Apache-2.0 协议,99.2% Python,主打一键跑完 300+ 评测集,支持 vLLM、SGLang、TensorRT-LLM 三套后端自动切换。",
+      "与第一代 lm-eval-harness 相比,harness2 把评测任务拆成声明式配置,内置多模态、代码、安全和 agent 四大赛道,并原生接入 Gemini、Claude、Codex 的 API,被官方博客定位为内部训练 Gemini 4 的基础设施之一。",
+      "开源不到 20 小时,仓库在 GitHub Trending Python 榜上狂飙 +3.1k 星,登顶当日 trending,HN 讨论串超过 420 条,DeepMind 工程师在评论区回答了十几个关于 reproducibility 和成本控制的问题。"
+    ]
+  },
+  {
+    "id": "2026-10-20_vibe_2",
+    "date": "2026-10-20",
+    "category": "VibeCoding",
+    "subcat": "开源工具",
+    "platform": "GitHub",
+    "platform_color": "#F6A07C",
+    "title": "Rusteerio 开源 4.5 倍提速 Cheerio",
+    "url": "https://github.com/context-dot-dev/rusteerio",
+    "image": "images/2026-10-20/2026-10-20_vibe_2.jpg",
+    "detail": [
+      "context.dev 团队 10 月 19 日把内部用了半年的 HTML/XML 解析器 Rusteerio 全量开源,用 Rust 重写并提供与 Cheerio 完全兼容的 Node.js 绑定,API 签名几乎一对一,存量脚本可无痛迁移。",
+      "官方 benchmark 在抓取 3000 个真实网页的流水线上测得,Rusteerio 比原生 Cheerio 快 4.5 倍,比 parse5 快 1.6 倍,比 jsdom 快 30 倍,内存占用也只有 Cheerio 的三分之一,适合写 AI 爬虫与数据管道。",
+      "项目同步登陆 Product Hunt 当日热门第二,仓库 README 直接给出可运行的 LangChain 和 LlamaIndex 示例,社区立刻涌入几十个 issue 讨论要不要给 Playwright 和 Puppeteer 做适配,星标 24 小时冲到 1.2k。"
+    ]
+  },
+  {
+    "id": "2026-10-20_vibe_1",
+    "date": "2026-10-20",
+    "category": "VibeCoding",
+    "subcat": "IDE 更新",
+    "platform": "zed.dev",
+    "platform_color": "#F6A07C",
+    "title": "Zed 1.24.3 加入 Gemini 4 Argon",
+    "url": "https://zed.dev/releases/stable/1.24.3",
+    "image": "images/2026-10-20/2026-10-20_vibe_1.jpg",
+    "detail": [
+      "Zed 稳定通道在 10 月 19 日悄然推送 1.24.3 小版本,把 Google 刚上线的 Gemini 4 Argon 直接加进内置 AI 模型列表,PR 编号 #65725,开发者无需任何配置,升级后即可在 Assistant 面板里切换使用。",
+      "此次更新同时修了多语言 LSP 的几个重启闪退问题,并把 Markdown 预览里代码块的滚动同步做了重写,长文档编辑再也不会出现预览窗口莫名飘到文件开头的尴尬场面,Rust 和 Zig 的内嵌提示延迟也下降了近一半。",
+      "Twitter 和 Reddit 上的编辑器党一夜之间刷屏,主要是 Gemini 4 Argon 在 Zed 内置评测的多步代码重构任务上得分首次反超 Claude Sonnet 4.6,社区戏称这是开源 IDE 阵营的一次免费大升级,整个发布只用了不到 24 小时就冲上 HN 首页。"
+    ]
+  },
+  {
+    "id": "2026-10-20_game_6",
+    "date": "2026-10-20",
+    "category": "Gaming",
+    "subcat": "Steam",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "心魔2今日登陆Steam重制",
+    "url": "https://www.gematsu.com/2026/10/dementium-ii-coming-to-steam-on-october-20",
+    "image": "images/2026-10-20/2026-10-20_game_6.jpg",
+    "detail": [
+      "独立发行商Atooi宣布，经典NDS恐怖FPS《心魔2》重制版于北京时间10月20日正式登陆Steam商店，这是该作首次脱离任天堂掌机平台走向PC端，制作团队用自研引擎重新打造了全部贴图、模型以及过场CG动画，整体视觉大幅跃升。",
+      "新版本保留了原作在精神病院与雾城探索的基本结构与地图布局，加入全新的手电筒物理模拟与真实立体音效系统，并把原本因DS硬件限制而被切片的关卡重新连接为完整的无缝流程，总流程时长相比原作延长了约30%左右。",
+      "Steam版获得Steam Deck Verified官方认证，完整支持手柄与键鼠双配置方案，提供恐怖氛围强度开关、晕动症缓解选项以及四种可调难度曲线，并内置了Mod Workshop创意工坊接口，鼓励社区制作全新章节、皮肤与剧情MOD。",
+      "首发价格定为19.99美元，10月26日前享首发八折限时优惠，Atooi同时宣布初代《心魔》重制版的开发已经同步启动，预计2027年年中推出；此外Xbox和PS5主机版本已经送审，若顺利将在冬季稍后向主机玩家开放购买渠道。"
+    ]
+  },
+  {
+    "id": "2026-10-20_game_5",
+    "date": "2026-10-20",
+    "category": "Gaming",
+    "subcat": "Switch 2",
+    "platform": "Switch 2",
+    "platform_color": "#7CF6A0",
+    "title": "龙之信条2 Switch2补丁开发中",
+    "url": "https://www.nintendolife.com/news/2026/10/dragons-dogma-2-dark-arisen-switch-2-update-currently-in-development",
+    "image": "images/2026-10-20/2026-10-20_game_5.jpg",
+    "detail": [
+      "Capcom社区经理在官方Discord频道回复玩家询问时确认，《龙之信条2：黑暗觉者》Switch 2版的首个大型补丁目前正处于积极开发阶段，重点改善TV档位帧率波动与远距离NPC加载弹跳问题，官方表示会与PS5/Xbox/PC的同款补丁错开发布节奏。",
+      "该作在9月随Switch 2一同推出黑暗觉者DLC完整版，媒体评测普遍称赞关卡设计与随从玩法但也批评性能表现，特别是在大型城市贝塔达周边区域以及夜间任务的掉帧严重，部分玩家甚至反映爬塔任务时会遇到罕见的存档回滚问题。",
+      "Capcom此次承诺的更新项除性能优化之外，还包括新“觉者挑战”限时副本、支持HD震动的新按压交互反馈，以及任天堂Switch Online云存档的直接写回支持，解决先前只能本地备份的痛点，预计补丁体积将超过2GB占用。",
+      "具体上线窗口尚未公布，官方仅表示“争取在今年之内推送”，这意味着与年末黑五/双11购物季的新主机促销节点可能对齐，社区分析认为Capcom正把Switch 2版当作该系列的长线平台，未来或还有新职业与故事DLC持续跟进中。"
+    ]
+  },
+  {
+    "id": "2026-10-20_game_4",
+    "date": "2026-10-20",
+    "category": "Gaming",
+    "subcat": "行业事件",
+    "platform": "PC/主机",
+    "platform_color": "#7CF6A0",
+    "title": "前Capcom经理揭RE7开发秘辛",
+    "url": "https://www.nintendolife.com/news/2026/10/it-was-so-all-over-the-place-ex-capcom-manager-discusses-resident-evil-7s-tumultuous-development",
+    "image": "images/2026-10-20/2026-10-20_game_4.jpg",
+    "detail": [
+      "Capcom前制作经理Miguel E. Corti在Bluesky发帖，长篇回忆自己参与过的《生化危机7》开发过程，形容整个项目“到处都在失控”，并透露团队内部为是否使用第一人称视角与VR支持争论了近一年之久，最终由当时的制作人中西晃史拍板敲定方向。",
+      "他指出工作室一度准备把VR作为核心玩法而非附加功能，这导致主机版画面被反复砍功，直到2015年E3前几个月才确定两套平行渲染方案，内部甚至做过完整的第三人称试玩版本，但在最后项目冲刺阶段被整体丢弃以保证画面效果。",
+      "Corti同时提到主角Ethan这一角色的设计几经推倒，早期剧本将他设定为前军人，为迎合更贴近普通人的恐怖体验才改成现在的平民工程师，剧情DLC《并非英雄》里被回收利用的部分内容其实来自更早版本的废弃脚本与分支结局。",
+      "帖子发出后立即被欧美玩家社群大量转发讨论，不少开发者评价这是近年最直白的3A制作内情披露之一，Capcom官方暂未对此作出任何回应，但也让玩家对正在筹备中的《生化危机9》抱有更大的开发透明度期待和幕后八卦胃口。"
+    ]
+  },
+  {
+    "id": "2026-10-20_game_3",
+    "date": "2026-10-20",
+    "category": "Gaming",
+    "subcat": "Switch 2",
+    "platform": "Switch 2",
+    "platform_color": "#7CF6A0",
+    "title": "希特曼赦免Switch2版下周上",
+    "url": "https://www.nintendolife.com/news/2026/10/hitman-absolution-finally-sneaks-onto-switch-2-next-week",
+    "image": "images/2026-10-20/2026-10-20_game_3.jpg",
+    "detail": [
+      "IO Interactive与Feral Interactive联合宣布，经典潜行作品《希特曼：赦免》的Switch 2加强版将在北京时间10月22日正式上线，补齐该系列在任天堂新主机上的空白，首发价格较PS5/XSX同期版本略低，并额外附送部分服装DLC作为福利。",
+      "加强版重点升级包括60帧性能模式、原生4K TV档位，掌机档位为1440p动态分辨率，并支持HDR与新增的触控刀具交互，开发组确认加入了全新的任务提示系统，照顾长时间没有接触该作的回归玩家不至于在复杂地图迷路。",
+      "已持有初代Switch旧版的玩家在11月5日前享有免费升级权益，这也是任天堂近期为Switch跨代游戏推行的通用策略，升级后可延续全部存档，奖杯/成就系统接入主机账号同步进度，云存档容量也相应提升到无限额度。",
+      "《赦免》的加入意味着IOI的《希特曼世界》与前传三部曲都已登陆Switch 2，官方表示下一步是把《世界》套件的若干合作关卡也带入掌机版，并与Nintendo Online云存档打通，让玩家在便携状态下也能继续潜入豪宅任务完成每周挑战。"
+    ]
+  },
+  {
+    "id": "2026-10-20_game_2",
+    "date": "2026-10-20",
+    "category": "Gaming",
+    "subcat": "主机新作",
+    "platform": "PlayStation",
+    "platform_color": "#7CF6A0",
+    "title": "PS+10月会免今日大更新",
+    "url": "https://www.pushsquare.com/news/2026/10/9-ps-plus-extra-premium-games-for-october-2026-announced",
+    "image": "images/2026-10-20/2026-10-20_game_2.jpg",
+    "detail": [
+      "索尼宣布PS Plus Extra与Premium会员的10月游戏目录于北京时间10月20日正式刷新，首发阵容涵盖九款作品，其中《四海兄弟：旧国度》作为年度主打黑帮大作首次登陆会员库，PS5中端订阅用户无需额外付费即可直接开玩完整版。",
+      "开放世界机甲猎人作品《地平线：禁忌西部》完整版同步进驻，附带已含“烧灼海岸”大型DLC的完整内容，适合错过前作的新玩家一次性补课，也让老玩家可以把本体转为云存档继续在手持串流Portal上继续探索西部。",
+      "新加入作品还包括合作射击新品《Mycopunk》、怀旧经营佳作《过山车大亨3》完整版，以及Capcom在PS Premium经典库补齐的《恐龙危机2》原始主机版，Premium订阅可直接以云游戏或模拟方式在PS5/PS4上体验原汁原味。",
+      "按照以往惯例，这批游戏将在会员目录保留至少到2027年年初，索尼同时提醒玩家9月批次的部分作品将在本周内陆续下架，建议会员提前把想通关的旧作加入下载队列，避免错过有限的会员窗口期和限时的奖杯白金冲榜活动。"
+    ]
+  },
+  {
+    "id": "2026-10-20_game_1",
+    "date": "2026-10-20",
+    "category": "Gaming",
+    "subcat": "行业事件",
+    "platform": "Xbox",
+    "platform_color": "#7CF6A0",
+    "title": "ID@Xbox独立展今日开播20作",
+    "url": "https://www.ign.com/articles/id-xbox-showcase-october-2026-how-to-watch",
+    "image": "images/2026-10-20/2026-10-20_game_1.jpg",
+    "detail": [
+      "北京时间10月20日深夜，微软将联合IGN开播秋季版ID@Xbox独立游戏发布会，官方预告将集中展示约20款正在制作或即将推出的独立新作，覆盖横版、动作、Roguelike、模拟经营等多元品类，面向Xbox主机、PC Game Pass和云端Xbox玩家同步揭晓定档窗口。",
+      "压轴重点是Telltale漫游式冒险名作《我们身边的狼》的高清重制版，重做建模、字体与过场演出的同时保留原班美术风味，承载不少老玩家的情怀期待，此外还将放出若干尚未公开的全新IP首曝预告与若干续作年份确认。",
+      "直播地点为Xbox官方YouTube与Twitch频道以及IGN全站同步转播，太平洋时间上午10点开场，预计时长约一小时，微软强调所有参展作品都已在ID@Xbox自助发行计划中有明确上线窗口，避免再度跳票引发玩家不满。",
+      "对独立开发者而言，这是年末最后一场面向主机玩家的集中亮相，Game Pass首发名额、Xbox Play Anywhere支持以及掌机Ally串流适配都将是观察重点，玩家可在直播结束后立刻在Xbox商店收藏感兴趣的候选作品并开启降价提醒。"
+    ]
+  },
+  {
+    "id": "2026-10-20_ai_6",
+    "date": "2026-10-20",
+    "category": "AI",
+    "subcat": "产品发布-工具",
+    "platform": "shattered.io",
+    "platform_color": "#7C9EF6",
+    "title": "三大AI CLI 四日连更对比",
+    "url": "https://shattered.io/claude-code-codex-cli-opencode-update-4-days-2026/",
+    "image": "images/2026-10-20/2026-10-20_ai_6.jpg",
+    "detail": [
+      "10月19日更新的 shattered.io 对比报告指出,过去四天内 Anthropic、OpenAI 与 OpenCode 三大 AI 终端连续放出大版本:Claude Code 2.1.302、Codex CLI 0.162 以及 OpenCode 2.0,竞争白热化。",
+      "Claude Code 2.1.302 正式 GA Plugins 市场,同时内置官方子代理与新 /review 流程;Codex CLI 0.162 引入了基于 GPT-6.1 Sol 的双速模式与原生 MCP 工具链,实现延迟与成本显著下降。",
+      "OpenCode 2.0 则进行架构级重构,将终端、桌面与 Web 三端收敛到同一个共享服务,支持多账户切换、多 Provider 并行与可视化会话树,但发布首日即被曝 Console 蒸馏攻击,引发用户紧急排查。",
+      "作者在实测中给出推荐组合:日常重构选 Claude Code、长上下文研究用 Codex CLI、多环境协作则交给 OpenCode,并提醒开发者升级后立刻检查 token 权限,避免被已知蒸馏漏洞影响。"
+    ]
+  },
+  {
+    "id": "2026-10-20_ai_5",
+    "date": "2026-10-20",
+    "category": "AI",
+    "subcat": "产品-硬件",
+    "platform": "TechCrunch",
+    "platform_color": "#7C9EF6",
+    "title": "亚马逊TorchNeuron剑指英伟达",
+    "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+    "image": "images/2026-10-20/2026-10-20_ai_5.jpg",
+    "detail": [
+      "10月19日,AWS 发布 TorchNeuron 开发者工具,允许开发者直接用 PyTorch 原生代码在自研 Trainium2/Trainium3 芯片上训练与推理大模型,无需手工迁移 CUDA kernel,被视为迄今最具野心的反英伟达动作。",
+      "官方演示显示,Llama 4 70B 微调任务从单卡 H200 迁移到 Trainium3 集群只需改动不到 20 行代码,训练吞吐提升约 1.4 倍,单位 token 成本下降 40%,核心亮点是 PyTorch 2.5 全兼容。",
+      "TorchNeuron 内置自动分布式切分、FP8 混合精度及 FlashAttention-3 等高级算子,Anthropic、Databricks、Perplexity 等公司已在 re:Invent 预热名单中,计划将主力训练迁移到亚马逊芯片。",
+      "分析人士认为,与去年主打 Inferentia 推理不同,这次 AWS 直接挑战训练市场,结合 Trainium3 的产能爬坡与 TorchNeuron 的易用性,英伟达 CUDA 护城河首次面对真正跨栈层级的替代方案。"
+    ]
+  },
+  {
+    "id": "2026-10-20_ai_4",
+    "date": "2026-10-20",
+    "category": "AI",
+    "subcat": "开源",
+    "platform": "TechCrunch",
+    "platform_color": "#7C9EF6",
+    "title": "英伟达开源模型跑企业Agent",
+    "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+    "image": "images/2026-10-20/2026-10-20_ai_4.jpg",
+    "detail": [
+      "10月19日,英伟达正式上线一组面向企业与 PC Agent 场景的开源权重模型,涵盖 Nemotron-Nano-Agent、Nemotron-Pro-Agent 及视觉变体 Nemotron-VL,全部托管在 HuggingFace,允许商用。",
+      "官方介绍,新模型在 BFCL、SWE-Bench、WebArena 等 Agent 基准上超过同尺寸 Qwen3 与 Llama 4 Scout,且专门针对多轮工具调用、长上下文窗口做了 RLHF 调优,支持 128k token 输入。",
+      "配套发布的 NIM 微服务可将模型一键部署到 RTX Spark 工作站、DGX 云或 Windows PC 本地,企业开发者能通过 AI Workbench 快速接入 LangGraph、CrewAI 等 Agent 框架,降低私有化门槛。",
+      "英伟达此举被视为对 OpenAI、Anthropic 闭源 API 的直接回应,也让 Nemotron 家族成为继 Llama、Qwen 之后又一主流开源 Agent 底座,利好终端侧小模型的落地与生态扩张。"
+    ]
+  },
+  {
+    "id": "2026-10-20_ai_3",
+    "date": "2026-10-20",
+    "category": "AI",
+    "subcat": "硬件-融资",
+    "platform": "TechCrunch",
+    "platform_color": "#7C9EF6",
+    "title": "Tenstorrent 15亿融资估值62亿",
+    "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+    "image": "images/2026-10-20/2026-10-20_ai_3.jpg",
+    "detail": [
+      "10月19日,由芯片传奇 Jim Keller 执掌的 AI 芯片公司 Tenstorrent 宣布完成 15 亿美元 E 轮融资,投后估值 62 亿美元,较上一轮翻倍,由 Trace Capital 与 Innovation X 联合领投。",
+      "跟投阵容堪称豪华,包括 Fidelity、Ark Invest、T. Rowe Price、SanDisk、Cadence 以及加密稳定币发行方 Tether,显示公募基金与半导体生态伙伴对开源 RISC-V AI 芯片路线的集体押注。",
+      "Jim Keller 在采访中表示,Tenstorrent 曾在今年年中拒绝了 Intel 与 Qualcomm 的收购意向,选择继续独立发展,目标是以开源权重模型+开源指令集芯片的组合,长期挑战英伟达 CUDA 生态。",
+      "本轮资金将用于量产下一代 Blackhole 卡、扩建北美与东亚研发中心,并加码 TT-Metalium 开源软件栈的编译器与分布式推理框架,首批合作客户包括日本软银以及多家欧美主权 AI 项目。"
+    ]
+  },
+  {
+    "id": "2026-10-20_ai_2",
+    "date": "2026-10-20",
+    "category": "AI",
+    "subcat": "AI安全-政策",
+    "platform": "VentureBeat",
+    "platform_color": "#7C9EF6",
+    "title": "DeepSeek V4.1 Flash遭美封禁",
+    "url": "https://venturebeat.com/security/deepseek-v4-1-flash-1017-arrives-with-improved-benchmarks-just-as-the-u-s-government-bans-it-from-agencies-what-enterprises-should-do",
+    "image": "images/2026-10-20/2026-10-20_ai_2.jpg",
+    "detail": [
+      "10月19日,DeepSeek 推送 V4.1-Flash-1017 版本,HuggingFace 页面显示其在 MMLU-Pro、GPQA、SWE-Bench Verified 等基准全面提升,推理速度相较上一代再提高约 30%,API 价格维持不变。",
+      "但同一天美国联邦机构正式将 DeepSeek 全系模型列入禁用清单,要求联邦政府、承包商和关键基础设施运营商在 60 天内从内网及工作终端卸载,理由为供应链与数据出境风险。",
+      "VentureBeat 分析指出,企业用户若已在生产环境接入 DeepSeek,需评估是否存在联邦合同暴露面,并提前准备 Qwen3、Llama 4 等开源替代,或切换到由 Together、Fireworks 托管的美国境内副本。",
+      "DeepSeek 官方尚未就封禁回应,但强调 1017 版本权重完全开源,企业可自行私有化部署规避合规风险,这也让本轮事件被视为中美开源大模型博弈的新节点。"
+    ]
+  },
+  {
+    "id": "2026-10-20_ai_1",
+    "date": "2026-10-20",
+    "category": "AI",
+    "subcat": "大模型-视频",
+    "platform": "VentureBeat",
+    "platform_color": "#7C9EF6",
+    "title": "fal 推 FLUX 3 Max 22倍提速",
+    "url": "https://venturebeat.com/technology/fal-launches-flux-3-max-claiming-22-faster-ai-video-generation-than-seedance-2-5",
+    "image": "images/2026-10-20/2026-10-20_ai_1.jpg",
+    "detail": [
+      "10月19日下午,AI云服务商 fal 正式发布视频生成模型 FLUX 3 Max,主打超低延迟图像到视频生成,在 Artificial Analysis 排行榜上以 1138 Elo 与 Dreamina Seedance 2.5 并列第一。",
+      "官方给出的基准数据显示,FLUX 3 Max 生成一段 10 秒 1080p 视频仅需 12.45 秒,而对标的 Seedance 2.5 则需要 277.80 秒,官方宣称推理速度最高提升约 22 倍,显著拉开行业差距。",
+      "定价方面,FLUX 3 Max 以每秒 0.0425 美元的促销价开放,活动截至 11 月 7 日,支持 API 一键调用,主打企业级实时视频创作、短视频生成和广告投放场景,直接冲击 Runway 与 Pika 定价。",
+      "fal 表示该模型基于 Black Forest Labs 新一代 FLUX 架构微调,并针对自家分布式 GPU 推理栈做了深度优化,后续将推出带音频、长镜头与可控相机轨迹的进阶版本,面向专业创作者。"
+    ]
+  }
+]
