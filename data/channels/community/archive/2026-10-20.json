@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-20",
+  "generated_at": "2026-10-20T08:55:41+08:00",
+  "source": "mira-research",
+  "hot_posts": [
+    {
+      "platform": "Reddit",
+      "title": "deepseek-ai/DeepSeek-V4.1-Flash-1017 · Hugging Face",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1x84po4/deepseekaideepseekv41flash1017_hugging_face/",
+      "author": "u/Bestlife73",
+      "likes": 1100,
+      "summary": "DeepSeek 发布 V4.1-Flash-1017 开源模型，Terminal-Bench 4.0 冲上 42.3，直接碾压 K3、GLM5.3 并逼近 GPT-5.6 Sol，LocalLLaMA 社区热评刷屏称其“Flash 已经不是 Flash 而是 Burst”。"
+    },
+    {
+      "platform": "X",
+      "title": "New Deepseek-V4.1-Flash-1017 on my LLM coding leaderboard — look how MASSIVE the jump is",
+      "url": "https://x.com/PovilasKorop/status/2111821859998019940",
+      "author": "@PovilasKorop",
+      "likes": 2800,
+      "summary": "Laravel 教育者 Povilas Korop 把 DeepSeek-V4.1-Flash-1017 跑进自家 LLM 编程榜单，截图显示跃升幅度惊人，被 X 上大量 vibecoding 开发者转发，并引发对开源替代 Opus 5 的讨论。"
+    },
+    {
+      "platform": "Blog",
+      "title": "Quotations, links and notes - My obituary for programming (Jeremy Scheff)",
+      "url": "https://simonwillison.net/2026/Oct/19/",
+      "author": "Simon Willison",
+      "likes": 980,
+      "summary": "Simon Willison 10 月 19 日转载并点评 Jeremy Scheff 的《我给编程写的讣告》，讨论 coding agent 时代程序员职业焦虑，HN 与 X 大量讨论，被视为本周 vibecoding 社区的情绪代表作。"
+    }
+  ],
+  "topics": [
+    {
+      "name": "DeepSeek V4.1-Flash-1017 开源发布",
+      "platform": "Reddit/X/HuggingFace",
+      "heat": "极高",
+      "summary": "DeepSeek 10 月 17 日悄然放出 V4.1-Flash-1017 小更新，HLE 42.6、DeepSWE 77.0，开源权重登顶 HuggingFace 热榜，LocalLLaMA 与 X 开发者圈刷屏讨论推理速度与成本 Pareto 优化。"
+    },
+    {
+      "name": "程序员讣告 / AI coding 职业焦虑",
+      "platform": "Blog/HN/X",
+      "heat": "高",
+      "summary": "Jeremy Scheff《My obituary for programming》经 Simon Willison 转载后在 HN、X 持续热议，开发者围绕 Claude Code、OpenCode、DeepSeek Harness 讨论手写代码未来，技术博客圈集中反思 vibecoding 的边界。"
+    },
+    {
+      "name": "DGX Spark + 本地大模型本周实测潮",
+      "platform": "YouTube/Reddit",
+      "heat": "中高",
+      "summary": "本周 r/LocalLLaMA 与 YouTube 多位创作者围绕 NVIDIA DGX Spark、Mac Studio 512GB 跑 DeepSeek 700B Flash 与 Qwen3.8 做横向对比，推动本地 AI 硬件选购话题在玩家社区再度升温。"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Povilas Korop",
+      "platform": "X / YouTube",
+      "handle": "@PovilasKorop",
+      "url": "https://x.com/PovilasKorop",
+      "summary": "AI Coding Daily 主理人、Laravel 教育者 Povilas Korop 坚持每日用真实项目测试新 LLM，10 月 18 日对 DeepSeek-V4.1-Flash-1017 的编程榜单测评获得大量转发，是 vibecoding 圈最活跃的横评创作者之一。"
+    },
+    {
+      "name": "DeepSeek",
+      "platform": "X",
+      "handle": "@deepseek_ai",
+      "url": "https://x.com/deepseek_ai",
+      "summary": "中国开源 AI 实验室 DeepSeek 官方账号，10 月 17 日放出 V4.1-Flash-1017 开源权重掀起社区热议，持续以“minor update”式惊喜迭代 Terminal-Bench、DeepSWE 等编码基准，是开源派核心风向标。"
+    },
+    {
+      "name": "Simon Willison",
+      "platform": "Blog / X",
+      "handle": "simonwillison",
+      "url": "https://simonwillison.net/",
+      "summary": "Datasette 创始人、独立技术博主 Simon Willison 每日高密度整理 AI 行业链接与模型评测，10 月 19 日转载 Jeremy Scheff《程序员讣告》引发广泛讨论，是英文圈最具公信力的 AI 日志作者之一。"
+    }
+  ]
+}
