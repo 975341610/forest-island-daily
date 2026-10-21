@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-20": {
-      "cloudflare/security-audit-skill": 1,
-      "alibaba/open-code-review": 2,
-      "Tencent/BrowserSkill": 3,
-      "vercel-labs/json-render": 4,
-      "addyosmani/agent-skills": 5,
-      "anthropics/claude-code": 6,
-      "Tencent/WeKnora": 7,
-      "Open-Dev-Society/OpenStock": 8,
-      "coder/coder": 9,
-      "supermemoryai/supermemory": 10,
-      "Fission-AI/OpenSpec": 11,
-      "rustfs/rustfs": 12,
-      "ahmedkhaleel2004/gitdiagram": 13,
-      "anthropics/knowledge-work-plugins": 14,
-      "TencentCloud/Octop": 15,
-      "cactus-compute/needle": 16,
-      "mcncarl/yichen-skills": 17,
-      "higgsfield-ai/higgsfield": 18,
-      "browser-use/browser-use": 19,
-      "tradesdontlie/tradingview-mcp": 20,
-      "byoungd/up": 21,
-      "yyjeqhc/webcodex": 22,
-      "docling-project/docling": 23,
-      "n8n-io/n8n": 24,
-      "WorldFlowAI/everything-claude-code": 25
-    },
     "2026-09-21": {
       "cloudflare/security-audit-skill": 1,
       "Open-Dev-Society/OpenStock": 2,
@@ -836,6 +809,33 @@
       "headroomlabs-ai/headroom": 23,
       "pingdotgg/t3code": 24,
       "strelov1/freehire": 25
+    },
+    "2026-10-21": {
+      "xerj-org/xerj": 1,
+      "cloudflare/security-audit-skill": 2,
+      "stablyai/orca": 3,
+      "Comfy-Org/ComfyUI": 4,
+      "akitaonrails/ai-memory": 5,
+      "Graphify-Labs/graphify": 6,
+      "shiyu-coder/Kronos": 7,
+      "ruvnet/ruflo": 8,
+      "pbakaus/impeccable": 9,
+      "withmarbleapp/os-taxonomy": 10,
+      "HKUDS/CLI-Anything": 11,
+      "headroomlabs-ai/headroom": 12,
+      "hmjz100/LinkSwift": 13,
+      "anthropics/claude-code": 14,
+      "Kruk2/jasna": 15,
+      "thesysdev/openui": 16,
+      "google/artemis": 17,
+      "rmyndharis/OpenWA": 18,
+      "anthropics/knowledge-work-plugins": 19,
+      "pingdotgg/t3code": 20,
+      "iptv-org/iptv": 21,
+      "AgriciDaniel/claude-seo": 22,
+      "ModernRelay/omnigraph": 23,
+      "elie222/rakazo": 24,
+      "longbridge/gpui-kit": 25
     }
   }
 }
