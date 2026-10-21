@@ -1,0 +1,302 @@
+[
+  {
+    "id": "2026-10-21_vibe_6",
+    "date": "2026-10-21",
+    "category": "VibeCoding",
+    "subcat": "开源工具",
+    "platform": "InfoQ",
+    "platform_color": "#F6A07C",
+    "title": "InfoQ:Spotify 月度代码变更翻倍",
+    "url": "https://www.infoq.com/news/2026/10/spotify-ai-quality-controls/",
+    "image": "images/2026-10-21/2026-10-21_vibe_6.jpg",
+    "detail": [
+      "InfoQ 架构频道近日刊发对 Spotify 内部工程团队的深度稿件,主角是 Spotify 的首席工程师 Leela Kumili。文章披露了一组让 Vibe Coding 行业振奋又警醒的数据:Spotify 在全面扩大 AI-Assisted Development 覆盖后,月度代码变更次数相比去年翻倍,然而生产事故率并未同步上升,反而因此下降了约 14%。",
+      "Spotify 的秘诀是在工程流程里插入了三道 AI 质量闸门。第一道是 Agent Pre-Review:每次 LLM 产生的 PR 都要先通过内部训练的 \"Spotify Patterns\" 模型打分,只有超过阈值才进入人类评审;第二道是 Shadow Deploy:AI 生成改动先在镜像集群上跑 24 小时 traffic replay;第三道是 SLO-aware Auto-Rollback,当任何黄金信号偏离即时回滚。",
+      "文章还披露 Spotify 现在约 42% 的 PR 由 AI 代理发起,其中 Backend Platform 团队比例高达 65%,而最具挑战的 Music Recommendation 核心团队仍维持在 18%,显示不同领域对 AI 代码的接受度存在明显梯度。工程文化上,Spotify 把 code review 的角色重新定义为 \"质量设计师\" 而非 \"错字修理工\"。",
+      "InfoQ 评论认为此次 Spotify 的实践可能是业界第一个大规模、公开披露、带可验证数据的 AI 原生工程体系案例,对正在考虑把 Claude Code、Cursor、Codex 推向生产的中大型团队都是一份极具参考价值的 \"落地蓝本\"。"
+    ]
+  },
+  {
+    "id": "2026-10-21_vibe_5",
+    "date": "2026-10-21",
+    "category": "VibeCoding",
+    "subcat": "开发者圈",
+    "platform": "HackerNoon",
+    "platform_color": "#F6A07C",
+    "title": "HackerNoon TechBeat 盘点开发者当日热榜",
+    "url": "https://hackernoon.com/10-20-2026-techbeat",
+    "image": "images/2026-10-21/2026-10-21_vibe_5.jpg",
+    "detail": [
+      "HackerNoon 旗下 TechBeat 栏目在北京时间 10 月 20 日发布的每日综述,聚合了全球开发者在过去 24 小时讨论量最高的技术话题。本期首位是 \"How I Replaced My Startup's Backend With Claude Code Hooks\" 一文,作者展示用新发布的 Claude Code v2.1.300 Hook 事件系统替换了 FastAPI 中台,把 60% 的手写胶水代码移交给 AI 代理,引发 Reddit 和 X 上数千条讨论。",
+      "第二条热议是关于 Rust 的最新 edition 2026 对 async 的大改——社区形成了对 generator syntax 的激烈分歧,支持方认为这将让 Rust 终于能和 Go 的 goroutine 一战,反对方担心新语法会碎片化生态。TechBeat 整理了 This Week in Rust 的编辑评论和 Boats 的 blog 回应。",
+      "第三位是 \"Why I Switched From Cursor to Zed After 18 Months\" 的开发者长文,作者列举 Zed 1.24 系列在原生 Rust 性能、Agent Panel 稳定性、以及开源插件生态上的三大优势,同时也诚实指出 Zed 在 Jupyter notebook 支持上仍落后 Cursor。",
+      "此外栏目还覆盖 Spotify 月度代码变更翻倍、Netflix TypeScript 转 Zig 实验、以及 WebAssembly 组件模型 1.0 正式冻结三条快讯。整体口味偏向独立开发者和中大型 SaaS 的工程视角,是看 24 小时技术脉搏的最佳一站式入口。"
+    ]
+  },
+  {
+    "id": "2026-10-21_vibe_4",
+    "date": "2026-10-21",
+    "category": "VibeCoding",
+    "subcat": "DevTool",
+    "platform": "Business Wire",
+    "platform_color": "#F6A07C",
+    "title": "Grafana 推出 Agent 可观测新品",
+    "url": "https://www.financialcontent.com/article/bizwire-2026-10-20-grafana-labs-charts-the-path-to-agentic-operations-with-watchers-pages-and-agent-observability-at-observabilitycon-2026",
+    "image": "images/2026-10-21/2026-10-21_vibe_4.jpg",
+    "detail": [
+      "北京时间 10 月 20 日晚,Grafana Labs 在 ObservabilityCON 2026 大会主题演讲上正式发布了 Watchers、Pages 和 Agent Observability 三项新品,直接针对当前 AI Coding Agent 爆发式部署后的 \"黑箱\" 运维痛点。Agent Observability 作为核心产品,首次将 OpenTelemetry GenAI 语义引入 Grafana Cloud 原生面板,与前一天刚发布的 Claude Code v2.1.300 OTel 支持无缝互动。",
+      "Watchers 则是针对 agent 行为的声明式 SLO 系统,工程师可以写一条 YAML 规则,比如 \"同一会话 token 消耗超预算 30% 自动告警\" 或 \"工具调用成功率低于 95% 时切换到 fallback 模型\",可观测体系首次能像管微服务 SLO 一样管 AI 代理。",
+      "Pages 产品偏协作:当 Agent 产生异常时,直接把 Trace、日志、Prompt、Response 组装成一个带时间线的事件页面并推送到 Slack/Lark,SRE 不用在五个工具之间切换就能完成根因定位。CEO Raj Dutt 在主题演讲中强调 \"agentic ops is the new ops\",并演示了 Grafana 自家工程团队用这套工具观测 1,200 个生产 Agent 的实况。",
+      "三款产品均在 GA 预览通道开放,企业版客户可直接申请试用。对本周所有要上线 AI Coding Agent 到生产的团队而言,这几乎是目前最成熟的开箱即用观测方案,显著降低了 Agent 时代的运维门槛。"
+    ]
+  },
+  {
+    "id": "2026-10-21_vibe_3",
+    "date": "2026-10-21",
+    "category": "VibeCoding",
+    "subcat": "GitHub Trending",
+    "platform": "StartupCorners",
+    "platform_color": "#F6A07C",
+    "title": "GitHub 热榜:Agent 骨架与 LLM 网关爆发",
+    "url": "https://startupcorners.com/digest/devtools-digest-2026-10-19",
+    "image": "images/2026-10-21/2026-10-21_vibe_3.jpg",
+    "detail": [
+      "StartupCorners 发布的最新 Devtools Digest 覆盖了北京时间 10 月 20 日前 24 小时的 GitHub Trending,一个非常明显的结构性信号是:整个热榜几乎被三类项目吃光——AI Coding Agent 骨架(scaffolding)、LLM 网关 proxy 和 Agent Skill Library。这标志着社区从 \"包装模型\" 迈入 \"构建代理原生工作流\" 的转折点。",
+      "具体趋势项中,stablyai/orca 作为新一代多代理编排框架一夜涨星 2k+,它用 Rust 实现并原生内置 OpenTelemetry;anomalyco/opencode 作为 Zed 新支持的 OpenCode 模型配套 CLI 同步登榜;而 cline/cline 的 Agent IDE 则因为宣布与 Jetbrains 全家桶集成当日新增 1.4k 星。LLM 网关侧,ruvnet/ruflo 用一组 CLI 子命令就把 Anthropic、OpenAI、DeepSeek V4.1 Flash 的 streaming 统一到了 OpenAI schema。",
+      "另一组值得留意的是 \"Agent Skill\" 类库:Fission-AI/OpenSpec、magnitudedev/magnitude、awslabs/aidlc-workflows 共同将 \"可被 AI 直接调用的技能文件\" 这一概念推向了标准化。Fission-AI/OpenSpec 甚至已经收到 Linear、Vercel、Supabase 几家公司的官方 Spec 贡献,被认为可能成为 Agent 时代的 OpenAPI。",
+      "digest 整体结论是:GitHub 的 AI-native dev 已不再是模型包装器,而是一整套 Infra 栈的重构,包含编排、网关、技能、观测四层,工程师现在上车做 AI 代理原生工具链仍属早期。"
+    ]
+  },
+  {
+    "id": "2026-10-21_vibe_2",
+    "date": "2026-10-21",
+    "category": "VibeCoding",
+    "subcat": "AI Coding",
+    "platform": "Classmethod DevelopersIO",
+    "platform_color": "#F6A07C",
+    "title": "Claude Code 2.1.300 接入 OTel",
+    "url": "https://dev.classmethod.jp/en/articles/20261015-cc-updates-v2-1-300/",
+    "image": "images/2026-10-21/2026-10-21_vibe_2.jpg",
+    "detail": [
+      "Classmethod DevelopersIO 在近日详细盘点了 Anthropic 刚推出的 Claude Code v2.1.300 大版本更新,正好落在本周 VibeCoding 升级潮内。此次 2.1.300 是 2.1 系列继 2.1.200 之后最有分量的一次 minor,核心亮点是全面接入 OpenTelemetry GenAI 语义约定,这意味着 Claude Code 的每一次工具调用、每一次 token 消耗都会以标准化的 OTel span 属性抛出。",
+      "具体字段包括 `gen_ai.system`、`gen_ai.request.model`、`gen_ai.usage.input_tokens` 等,全部对齐 CNCF 新发布的 Spec。企业接入 Datadog、Grafana Tempo、Honeycomb 等后端的工程师现在无需再写自定义 exporter,就能像观测普通 microservice 一样观测 AI coding Agent 的性能、成本与故障。",
+      "另一大更新是 `/advisor` 命令在 AWS Bedrock Claude Platform 上线,工程师可直接在 CLI 里询问 \"我这个 Terraform 有没有踩合规雷\" 等问题,背后由 Anthropic 托管的 architecture advisor 回答。此外还包括 Hook 事件扩展、subagent prompt caching 命中率提升、Windows 下 WSL 2 shell 识别优化等多项稳定性修复。",
+      "DevelopersIO 的工程师实际测试表示,新版在复杂 monorepo 的首次索引时间下降约 18%,且 OpenTelemetry 流接入 Honeycomb 后能清晰看到每个 subagent 的调用链路。对接 Enterprise 可观测体系的团队,这版几乎是必须升级。"
+    ]
+  },
+  {
+    "id": "2026-10-21_vibe_1",
+    "date": "2026-10-21",
+    "category": "VibeCoding",
+    "subcat": "IDE 更新",
+    "platform": "zed.dev",
+    "platform_color": "#F6A07C",
+    "title": "Zed 1.24.4 修复 OpenCode 模型加载崩溃",
+    "url": "https://zed.dev/releases/stable/1.24.4",
+    "image": "images/2026-10-21/2026-10-21_vibe_1.jpg",
+    "detail": [
+      "Zed 编辑器官方在北京时间 10 月 20 日放出 1.24.4 稳定版小版本更新,这是继 1.24.3 推送 Gemini 4 Argon 新模型后仅两天的紧急补丁。本次更新主要聚焦一个高频报错场景:当用户在 Agent 面板中选择 OpenCode 作为模型供应商时,会因缺失 `npm` 字段抛出异常导致模型列表完全无法加载,社区在 Issue #65875 中迅速反馈。",
+      "官方团队直接在同一周内切出 patch 分支,仅包含该单点修复,未附带新特性,保持 1.24 line 的稳定性。macOS Apple Silicon、Intel、Windows x64/ARM64、Linux x86_64/AArch64 全平台同步上线,DMG 与 tar.gz 均已挂到 CDN,原有通过 Zed Preview 频道的 nightly 用户也能自动合流。",
+      "值得注意的是,1.24 系列正在把 Agent Panel 作为重心打磨——除本次 OpenCode 修复外,近两周已累计合入 Terminal 拖拽入 Panel、Amazon Bedrock 自定义工具调用、长对话内存优化等多项代理功能。Zed 用 OSS 协作者数量的高速增长向业界展示:社区驱动的 Rust 原生 IDE 已能对标 Cursor/Windsurf 的迭代速度,且补丁响应速度明显更快。",
+      "对使用 Agent 工作流的工程师而言,这版建议立刻升级;若之前因 OpenCode 报错回退了版本,此次可以安全地重新切回。更新同时附带了若干 extension 面板和启动时间的次要改进,整体体感会比 1.24.3 更丝滑。"
+    ]
+  },
+  {
+    "id": "2026-10-21_game_6",
+    "date": "2026-10-21",
+    "category": "Gaming",
+    "subcat": "Steam",
+    "platform": "Steam",
+    "platform_color": "#7CF6A0",
+    "title": "Steam大更新来袭 Big Picture新增大图模式",
+    "url": "https://steamcommunity.com/games/593110/announcements/detail/710037059469839721",
+    "image": "images/2026-10-21/2026-10-21_game_6.jpg",
+    "detail": [
+      "Valve于北京时间2026年10月21日清晨推送了Steam客户端十月重大更新,涉及Steam Deck与Big Picture模式,是继2023年Big Picture重做之后最大一轮体验调整。",
+      "本次更新最受关注的是在Big Picture首页加入全新“Big Art Mode”(大图模式),可将游戏库封面以近乎全屏比例平铺呈现,并支持个人日历组件,使客厅与Steam Machine用户的滚动浏览体验更接近现代主机UI。",
+      "核心信息方面,更新还为Big Picture引入全新屏幕保护程序,默认是基于近期游玩和截图的艺术轮播,亦附带复古弹跳Logo保护画面;玩家可自定义screensaver目录替换素材。",
+      "性能侧,Steam客户端启动速度明显改善,高延迟连接下的下载速度得到优化,Vulkan游戏在截图/录像时的卡顿、D3D11/12游戏录屏开销也有所降低;Steam Deck端还加入“默认进入桌面模式”选项与多项电源菜单安全确认。社区反应方面,r/Steam与r/SteamDeck对Big Art Mode好评一片,很多玩家在客厅电视上截图分享“终于像PS5那样好看了”的新界面;亦有玩家抱怨游戏手柄System键请求电视切HDMI CEC源的新功能偶发不生效。整体上,这次更新被视为Steam Machine上市节点前的“大扫除”,为未来硬件铺平软件体验。"
+    ]
+  },
+  {
+    "id": "2026-10-21_game_5",
+    "date": "2026-10-21",
+    "category": "Gaming",
+    "subcat": "掌机",
+    "platform": "游民星空",
+    "platform_color": "#7CF6A0",
+    "title": "任天堂万圣节大促上线 Switch 2史低频出",
+    "url": "https://nintendoeverything.com/nintendo-switch-halloween-sale-2026/",
+    "image": "images/2026-10-21/2026-10-21_game_5.jpg",
+    "detail": [
+      "任天堂于2026年10月20日在北美与欧洲eShop同步启动“Screaming Deals”万圣节大促,覆盖Nintendo Switch 2与初代Switch两大平台的大量第三方作品,持续时间至10月底,是Switch 2发售以来规模最大的一次综合促销。",
+      "本次促销将《文明7:Switch 2版》、《Fallout 4 Anniversary Edition》、《上古卷轴4:湮灭 重制版》等重量级大作直接推上史低,引起玩家与媒体广泛关注。",
+      "核心信息方面,Switch 2端部分典型价格为:《文明7 Nintendo Switch 2 Edition》34.99美元(原价69.99)、《上古卷轴4:湮灭 重制版》39.99美元、《生化危机7+8黄金版合集》39.59美元、《生化危机:安魂曲 豪华版》55.99美元,《Little Nightmares Enhanced Edition完整版》更是打到7.49美元。",
+      "初代Switch端的《空洞骑士》《Hollow Knight》《Hades》《Celeste》等独立神作也普遍跌破5美元。社区反应方面,r/NintendoSwitch与Deals版块在促销上线后迅速涌现大量购物清单帖,玩家普遍认为Switch 2版本在定价策略上终于“向PS/Xbox的季节促销看齐”,尤其对《湮灭 重制版》近4折感到意外;不过也有玩家吐槽《生化危机:安魂曲》才发售两个月就跟促销,“仿佛昨日全价的我吃了闷亏”。欧洲玩家在Reddit抱怨折扣力度相较美区略小,期待黑色星期五再度加码。"
+    ]
+  },
+  {
+    "id": "2026-10-21_game_4",
+    "date": "2026-10-21",
+    "category": "Gaming",
+    "subcat": "掌机",
+    "platform": "Nintendo Life",
+    "platform_color": "#7CF6A0",
+    "title": "《怪物猎人荒野》Switch 2免费序章试玩上线",
+    "url": "https://www.nintendolife.com/news/2026/10/reminder-monster-hunter-wilds-switch-2-prologue-demo-now-available",
+    "image": "images/2026-10-21/2026-10-21_game_4.jpg",
+    "detail": [
+      "Capcom于北京时间2026年10月20日凌晨正式在Nintendo Switch 2 eShop上架《怪物猎人荒野》(Monster Hunter Wilds) “Prologue Demo”免费序章试玩,距离该作Switch 2正式版12月4日发售尚有约6周时间,成为Switch 2阵营今年最具话题性的大作预热动作之一。",
+      "本次试玩完全免费、无需Nintendo Switch Online会员,玩家所存档的角色与进度可直接继承到正式版。核心信息方面,试玩版可下载约为12GB,包含“禁忌之地”开场章节的新手训练和首只旗舰怪物试炼;支持本地分屏合作,但官方明确表示在线多人联机不在Demo范围内。",
+      "同一天Capcom也开启数字预购,正式版将以标准版/豪华版/数字豪华版三档发售,并同步推出“Game-Key Card”实体零售版本。此外官方同时预告2027年扩展包《Monster Hunter Wilds: Ascendance》将延续Switch 2版本更新。",
+      "社区反应方面,r/MonsterHunter与日本5ch热度在Demo上线数小时内急剧攀升,玩家普遍称赞Switch 2掌机模式下的帧数稳定在30fps,“比最初担心的要好得多”;也有玩家吐槽纹理清晰度相较PS5/Steam版明显降档,“更像是PS4 Pro对标”。本地合作被认为是Switch 2阵营最具差异化的功能,很多家长表示会用来和家人在客厅一起狩猎。"
+    ]
+  },
+  {
+    "id": "2026-10-21_game_3",
+    "date": "2026-10-21",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "官方博客",
+    "platform_color": "#7CF6A0",
+    "title": "《使命召唤:现代战争4》10月23日全平台发售",
+    "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-intel-modern-warfare-4-launch-xbox-game-pass",
+    "image": "images/2026-10-21/2026-10-21_game_3.jpg",
+    "detail": [
+      "动视与Infinity Ward确认,《使命召唤:现代战争4》(Call of Duty: Modern Warfare 4)将于北京时间2026年10月24日(北美10月23日)正式发售,登陆PlayStation 5、Xbox Series X|S、PC以及Nintendo Switch 2,首次打破系列传统不再支持PS4/Xbox One上一世代机型。",
+      "微软完成收购后,本作也将在首发日直接进入Xbox Game Pass Ultimate,成为迄今进入订阅服务规模最大的《COD》正代。核心信息方面,《MW4》继承经典的战役、多人与DMZ三大模块。",
+      "战役以朝鲜半岛爆发全面冲突为背景,玩家既会扮演年轻的韩国士兵Park,也会重返复仇路上的Price上尉,场景横跨首尔战壕、纽约近身战、巴黎追逐、孟买夜袭;多人模式强调“流畅移动与玩家选择”,DMZ则回归带有抽取式任务的“隐秘资产”叙事。标准版69.99美元,保险库版89.99美元含首年赛季通行证加成。",
+      "社区反应方面,CharlieIntel与r/ModernWarfareIV在发售周前热度飙升,玩家对单机战役重返强叙事方向多数持正面评价,数位内容创作者展示的试玩片段显示“手感更接近2019年版MW”;但也有Rock Paper Shotgun等媒体关注到旗下测试员工因加班与AI测试工具问题酝酿罢工,工会在10月18日已完成罢工授权投票,给首发日稳定运营蒙上一层阴影。"
+    ]
+  },
+  {
+    "id": "2026-10-21_game_2",
+    "date": "2026-10-21",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "Gematsu",
+    "platform_color": "#7CF6A0",
+    "title": "合作攀登《PEAK》10月22日登陆三大主机",
+    "url": "https://www.gematsu.com/2026/10/peak-coming-to-ps5-xbox-series-and-switch-2-on-october-22",
+    "image": "images/2026-10-21/2026-10-21_game_2.jpg",
+    "detail": [
+      "由Aggro Crab与Landfall组成的“Team Peak”宣布,风靡Steam的合作攀登游戏《PEAK》将于2026年10月22日同步登陆PlayStation 5、Xbox Series X|S与Nintendo Switch 2三大主机平台,并全面支持跨平台联机。",
+      "游戏最早在2025年6月16日于Steam首发,凭借“失足即坠亡”的紧张合作体验迅速在Twitch与YouTube上成为streamer热门,主机版终于在发售一年多之后到位。",
+      "核心信息方面,《PEAK》数字版定价约19.99美元/欧元,游戏支持最多4人在线合作、就近语音通信,收录PC版至今的全部四个生态区更新与道具内容;Skybound Games还将推出PS5实体版,含游戏光盘、印制护照本以及一组可赠送好友的“Buddy Code”,让团队中的另一位朋友免费获得数字版。玩法上,每日地图随机刷新,玩家需要在饥饿、天气、僵尸与毒雾等威胁下结队登顶。",
+      "社区反应方面,Gematsu评论区与PS Blog热度均较高,玩家对加入跨平台联机表示“终于能和Switch 2上的朋友一起狼狈从岩壁上掉下来”;Reddit r/PS5帖子里有玩家直言“PEAK做到了Big Walk没做到的事,首发日必买”。也有PC老玩家担心主机版的近距语音是否会和Steam端完全一致,官方在Discord确认两端规则完全同步。"
+    ]
+  },
+  {
+    "id": "2026-10-21_game_1",
+    "date": "2026-10-21",
+    "category": "Gaming",
+    "subcat": "主机",
+    "platform": "IGN",
+    "platform_color": "#7CF6A0",
+    "title": "ID@Xbox十月秀落幕 近20款独立新作集结",
+    "url": "https://www.ign.com/articles/idxbox-showcase-october-2026-everything-announced",
+    "image": "images/2026-10-21/2026-10-21_game_1.jpg",
+    "detail": [
+      "2026年10月20日,Xbox与IGN联合举办的ID@Xbox十月秀准时登场,整场约30分钟密集呈现了近20款独立游戏新作与更新计划,是本季微软独立阵线最重磅的内容发布节点。本次压轴惊喜莫过于《怪物史瑞克2 重制版》(Shrek 2 Remastered)将于11月10日登陆Xbox Series X|S,DreamWorks经典IP以更锐利画面重返主机。",
+      "另一位Telltale老朋友《与狼同行 重制版》也官宣于10月29日发售,带来新Noir模式与Bigby全新狼形。",
+      "首发日入库Game Pass的新作同样抢眼:多人向沙滩掘洞模拟器《A Game About Digging A Hole Together》确认12月4日登陆Xbox、PC与Switch 2,《Scramble Knights Online》10月26日以MMO-lite形式首发,《Red Kiss》将冷战柏林的吸血鬼谍战带进策略叙事RPG,并首日进Game Pass。",
+      "此外,CRITICAL REFLEX旗下《Arctic Eggs》当天即可购买,《Mouthwashing》10月29日上线,《No, I'm Not a Human》延期至2027年。社区反应整体积极,r/XboxSeriesX热帖集中讨论《Shrek 2》翻新的洋葱特效与音轨处理,被玩家戏称“本次showcase唯一能挑战GTA销量的作品”;《Mr. Magpie's Harmless Card Game》因邀请Matt Mercer配音也吸引了大量跑团与D&D玩家。不过部分观众认为30分钟内塞20款游戏节奏过快,期待Xbox能像Nintendo Direct一样为重点作品留出完整演示段落。"
+    ]
+  },
+  {
+    "id": "2026-10-21_ai_6",
+    "date": "2026-10-21",
+    "category": "AI",
+    "subcat": "融资",
+    "platform": "TechNode",
+    "platform_color": "#7C9EF6",
+    "title": "新石器获近4亿美元E轮博裕领投",
+    "url": "https://technode.com/2026/10/20/autonomous-delivery-vehicle-maker-neolix-raises-nearly-400-million-in-series-e-funding/",
+    "image": "images/2026-10-21/2026-10-21_ai_6.jpg",
+    "detail": [
+      "北京L4级无人配送车厂商新石器(Neolix)10月20日官宣完成近4亿美元E轮融资,由博裕资本与一家国家级基金联合领投,阿里巴巴AEF NextGen基金、Monolith、Granite Asia、Vertex Growth、广汽资本等新股东跟投,老股东建信、CDH VGC与云启也追加投入。",
+      "公司现有超过3万辆L4级RoboVan在全球300余城、20个国家运营,创始人余恩源目标是2026年底在国内扩至5万辆、2027年再增10万辆,本轮资金将用于海外本地化服务枢纽建设与端到端自动驾驶模型训练数据。",
+      "此轮融资后新石器累计融资额突破14亿美元,被36Kr与第一财经称为中国自动驾驶赛道今年最大单笔融资,也是国家AI产业投资基金首次下注无人配送赛道,显示在萝卜快跑、小马智行后无人物流被政策端正式认定为新基建方向。"
+    ]
+  },
+  {
+    "id": "2026-10-21_ai_5",
+    "date": "2026-10-21",
+    "category": "AI",
+    "subcat": "多模态",
+    "platform": "Hugging Face",
+    "platform_color": "#7C9EF6",
+    "title": "斯坦福Halcyon多模态模型不靠语言预训练",
+    "url": "https://huggingface.co/papers/2610.26863",
+    "image": "images/2026-10-21/2026-10-21_ai_5.jpg",
+    "detail": [
+      "斯坦福大学李飞飞团队与Radical Numerics 10月19日在arXiv发表Halcyon系列论文,10月20日登陆Hugging Face,主张文生图模型并不需要互联网级语言预训练,从零在100M图文配对数据集GPIC上就能训练出早融合多模态自回归模型。",
+      "Halcyon-0.52B在gFD指标上以48.0击败LlamaGen-XL/8的63.3,所用预训练算力仅为对手的1/18.2;Halcyon-1.6B则以35.3领先JiT-T2I-XXL/8++的41.0,算力节省达到惊人的275倍,还能通过caption dropout获得I2T描述能力。",
+      "作者包括Keshigeyan Chandrasegaran、吴佳俊、Juan Carlos Niebles、李飞飞与Michael Poli等,控制实验显示纯文本预训练并不能提升T2I效果,这一结论挑战了Chameleon、Emu3等主流早融合方案依赖语言预训练的既有范式,为低算力多模态开辟新路径。"
+    ]
+  },
+  {
+    "id": "2026-10-21_ai_4",
+    "date": "2026-10-21",
+    "category": "AI",
+    "subcat": "开源",
+    "platform": "GitHub",
+    "platform_color": "#7C9EF6",
+    "title": "DeepSeek开源推理引擎DeepInfer",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "image": "images/2026-10-21/2026-10-21_ai_4.jpg",
+    "detail": [
+      "DeepSeek 10月20日在GitHub以Apache 2.0协议开源了内部大规模生产推理框架DeepInfer,官方称这就是驱动DeepSeek-V4.1-Flash线上服务的高吞吐低时延推理引擎,仓库上线首日即累计5k星375 fork,社区反响火爆。",
+      "DeepInfer集成了优化Kernel、模型/采样运行时、分布式推理、推测解码、SWA Bounded Replay与结构化输出,并支持注意力DP、平衡CP以及MoE专家并行与负载均衡,硬件同时适配英伟达SM100 GPU和华为昇腾950 NPU,呼应公司上周宣布年底在昇腾上做预训练的计划。",
+      "DeepSeek同步放出tokenizer组件deepseek-recipe,保证社区自托管的编解码逻辑与官方API完全对齐;vLLM项目也发文确认DeepInfer早期基于vLLM构建,将把其中创新吸收回主线,被视为中美开源推理栈正式交叉融合的标志性事件。"
+    ]
+  },
+  {
+    "id": "2026-10-21_ai_3",
+    "date": "2026-10-21",
+    "category": "AI",
+    "subcat": "芯片",
+    "platform": "VentureBeat",
+    "platform_color": "#7C9EF6",
+    "title": "谷歌Synaptics发Astra SR200边缘AI芯片",
+    "url": "https://venturebeat.com/infrastructure/google-and-synaptics-unveil-new-ai-chips-for-wearables-and-industrial-devices-powered-by-open-source-coral-technology",
+    "image": "images/2026-10-21/2026-10-21_ai_3.jpg",
+    "detail": [
+      "VentureBeat 10月20日报道,Synaptics与Google联合推出Astra SR200系列边缘AI处理器,首次将Google Research开源的Coral NPU架构商业化落地,面向智能眼镜、可穿戴、工业视觉与语音相机等电池供电场景。",
+      "SR200采用Arm Cortex-M85与M52异构核搭配定制DRAM,SR210提供200 GOPS面向常开语音,SR230为300 GOPS多模态设备,旗舰SR250在双摄与显示通道下达到400 GOPS,整体功耗比传统系统DRAM方案低约三分之一,支持直接本地跑Gemma类模型。",
+      "Coral NPU基于RISC-V指令集,Apache 2.0协议开放,其他半导体厂商可免费接入;Synaptics同步开源Torq编译器,通过MLIR/IREE打通PyTorch、JAX与LiteRT框架,Coralboard SL开发板已在DigiKey上架,为Gemma端侧铺路。"
+    ]
+  },
+  {
+    "id": "2026-10-21_ai_2",
+    "date": "2026-10-21",
+    "category": "AI",
+    "subcat": "应用",
+    "platform": "TechCrunch",
+    "platform_color": "#7C9EF6",
+    "title": "开发者用Claude Code把智能电视变回哑巴",
+    "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+    "image": "images/2026-10-21/2026-10-21_ai_2.jpg",
+    "detail": [
+      "TechCrunch 10月19日报道,开发者正借助Claude Code、Opus 5.5、Sonnet 5.5与DeepSeek V4.1 Flash等AI工具给自家智能电视做减法,把开机广告、追踪特性和臃肿预装App一键剥离,相关项目dumbtv与cleanyourtv在GitHub走红。",
+      "作者Gathin T只给Claude Code输入了电视型号,Agent便自动在Wi-Fi里扫到设备、无需root就卸载了25个小米包并换上一个类Apple TV的全新启动器;Sabuwala基于DeepSeek打造的dumbtv则在Fire TV、索尼、TCL、飞利浦、海信、小米等平台实测通过。",
+      "一位用户将原厂启动器从192MB瘦身到83MB,但也有人反映误操作把电视直接变砖,TechCrunch评价这是vibe-coding从程序员玩具走向日常消费电子改造的典型案例,普通用户也能通过自然语言让Agent完成以往极客才能驾驭的刷机工作。"
+    ]
+  },
+  {
+    "id": "2026-10-21_ai_1",
+    "date": "2026-10-21",
+    "category": "AI",
+    "subcat": "融资",
+    "platform": "Bloomberg",
+    "platform_color": "#7C9EF6",
+    "title": "ASI融资3.25亿美元估值30亿",
+    "url": "https://news.bloomberglaw.com/daily-labor-report/asi-hits-3-billion-valuation-in-325-million-round-led-by-spark",
+    "image": "images/2026-10-21/2026-10-21_ai_1.jpg",
+    "detail": [
+      "波士顿前沿AI公司ASI(原名Air Space Intelligence)10月20日官宣完成3.25亿美元C轮融资,估值达30亿美元,由Spark Capital领投,Citadel Securities关联方、Meritech、Craft Ventures与a16z跟投。",
+      "ASI主攻关键基础设施与国家安全场景的运营型AI,产品可用于空域管理、电网调度、物流以及军用指挥系统,客户涵盖美国运输部、United与Delta航空、美国陆军与空军、国家电网,此前已拿下FAA 8.75亿美元与陆军9900万美元订单。",
+      "创始人Buckendorf称公司目标是让AI管理飞机、船舶与电网等物理资产而非只会生成文字,新资金将用于能源、物流及边缘场景的部署扩张与波士顿团队扩充,成为继Anduril、Shield AI之后又一笔推高基础设施AI估值天花板的交易。"
+    ]
+  }
+]
