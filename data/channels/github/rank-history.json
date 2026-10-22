@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-21": {
-      "cloudflare/security-audit-skill": 1,
-      "Open-Dev-Society/OpenStock": 2,
-      "addyosmani/agent-skills": 3,
-      "docling-project/docling": 4,
-      "higgsfield-ai/higgsfield": 5,
-      "anthropics/claude-code": 6,
-      "ZuodaoTech/everyone-can-use-english": 7,
-      "zhouxiaoka/autoclip": 8,
-      "cactus-compute/needle": 9,
-      "coder/coder": 10,
-      "Tencent/BrowserSkill": 11,
-      "vercel-labs/json-render": 12,
-      "FareedKhan-dev/train-llm-from-scratch": 13,
-      "krillinai/OpenCreator": 14,
-      "anthropics/financial-services": 15,
-      "cloudflare/quiche": 16,
-      "yynxxxxx/Codex-X": 17,
-      "mihail911/modern-software-dev-assignments": 18,
-      "supermemoryai/supermemory": 19,
-      "guohuiyuan/go-music-dl": 20,
-      "mnfst/awesome-free-llm-apis": 21,
-      "browserbase/stagehand": 22,
-      "ahmedkhaleel2004/gitdiagram": 23,
-      "akitaonrails/ai-memory": 24,
-      "byoungd/up": 25
-    },
     "2026-09-22": {
       "Open-Dev-Society/OpenStock": 1,
       "vercel-labs/json-render": 2,
@@ -836,6 +809,33 @@
       "ModernRelay/omnigraph": 23,
       "elie222/rakazo": 24,
       "longbridge/gpui-kit": 25
+    },
+    "2026-10-22": {
+      "cloudflare/security-audit-skill": 1,
+      "stablyai/orca": 2,
+      "Graphify-Labs/graphify": 3,
+      "Comfy-Org/ComfyUI": 4,
+      "xerj-org/xerj": 5,
+      "tt-a1i/archify": 6,
+      "tashfeenahmed/freellmapi": 7,
+      "pbakaus/impeccable": 8,
+      "ruvnet/ruflo": 9,
+      "shiyu-coder/Kronos": 10,
+      "headroomlabs-ai/headroom": 11,
+      "Asymptote-Labs/agent-beacon": 12,
+      "Panniantong/Agent-Reach": 13,
+      "withmarbleapp/os-taxonomy": 14,
+      "usestrix/strix": 15,
+      "citrolabs/ego-lite": 16,
+      "anthropics/knowledge-work-plugins": 17,
+      "thesysdev/openui": 18,
+      "pingdotgg/t3code": 19,
+      "akitaonrails/ai-memory": 20,
+      "shaobeichen/dsh-pocket": 21,
+      "github/spec-kit": 22,
+      "openai/codex": 23,
+      "iptv-org/iptv": 24,
+      "ollama/ollama": 25
     }
   }
 }
