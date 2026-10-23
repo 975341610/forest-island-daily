@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-22": {
-      "Open-Dev-Society/OpenStock": 1,
-      "vercel-labs/json-render": 2,
-      "BuilderIO/agent-native": 3,
-      "addyosmani/agent-skills": 4,
-      "agent-substrate/substrate": 5,
-      "anthropics/claude-code": 6,
-      "coder/coder": 7,
-      "earendil-works/pi": 8,
-      "anthropics/financial-services": 9,
-      "Crosstalk-Solutions/project-nomad": 10,
-      "paperless-ngx/paperless-ngx": 11,
-      "zhouxiaoka/autoclip": 12,
-      "browser-use/browser-use": 13,
-      "laoma2053/awesome-zhuiju-free": 14,
-      "bendlang/bend": 15,
-      "ruanyf/weekly": 16,
-      "mvt-project/mvt": 17,
-      "Jakubantalik/thinking-orbs": 18,
-      "akitaonrails/ai-memory": 19,
-      "multica-ai/multica": 20,
-      "krillinai/OpenCreator": 21,
-      "docling-project/docling": 22,
-      "yyjeqhc/webcodex": 23,
-      "QuantumNous/new-api": 24,
-      "yikart/AiToEarn": 25
-    },
     "2026-09-23": {
       "google/ax": 1,
       "stablyai/orca": 2,
@@ -836,6 +809,33 @@
       "openai/codex": 23,
       "iptv-org/iptv": 24,
       "ollama/ollama": 25
+    },
+    "2026-10-23": {
+      "cloudflare/security-audit-skill": 1,
+      "stablyai/orca": 2,
+      "Graphify-Labs/graphify": 3,
+      "Comfy-Org/ComfyUI": 4,
+      "tashfeenahmed/freellmapi": 5,
+      "twentyhq/twenty": 6,
+      "pbakaus/impeccable": 7,
+      "headroomlabs-ai/headroom": 8,
+      "shiyu-coder/Kronos": 9,
+      "firecrawl/firecrawl": 10,
+      "remotion-dev/remotion": 11,
+      "citrolabs/ego-lite": 12,
+      "anthropics/knowledge-work-plugins": 13,
+      "bowenliang123/dsh-context": 14,
+      "php/php-src": 15,
+      "pingdotgg/t3code": 16,
+      "withmarbleapp/os-taxonomy": 17,
+      "Asymptote-Labs/agent-beacon": 18,
+      "alibaba/open-code-review": 19,
+      "NVIDIA/OpenShell": 20,
+      "genspark-ai/genoffice": 21,
+      "onyx-dot-app/onyx": 22,
+      "openai/codex": 23,
+      "HKUDS/Vibe-Trading": 24,
+      "nautechsystems/nautilus_trader": 25
     }
   }
 }

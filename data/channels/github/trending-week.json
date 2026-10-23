@@ -12,8 +12,8 @@
     },
     "stablyai/orca": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 5842,
+      "appearances": 5,
+      "total_today_stars": 7531,
       "language": "TypeScript",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -48,8 +48,8 @@
     },
     "Graphify-Labs/graphify": {
       "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 3612,
+      "appearances": 5,
+      "total_today_stars": 5020,
       "language": "Python",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
@@ -84,8 +84,8 @@
     },
     "cloudflare/security-audit-skill": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 5052,
+      "appearances": 5,
+      "total_today_stars": 8031,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -102,8 +102,8 @@
     },
     "withmarbleapp/os-taxonomy": {
       "best_rank": 10,
-      "appearances": 3,
-      "total_today_stars": 1432,
+      "appearances": 4,
+      "total_today_stars": 1682,
       "language": "JavaScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/233045934?v=4",
@@ -183,8 +183,8 @@
     },
     "Comfy-Org/ComfyUI": {
       "best_rank": 4,
-      "appearances": 4,
-      "total_today_stars": 3310,
+      "appearances": 5,
+      "total_today_stars": 3991,
       "language": "Python",
       "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/166579949?v=4",
@@ -272,9 +272,9 @@
       "html_url": "https://github.com/bobeff/open-source-games"
     },
     "pbakaus/impeccable": {
-      "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 1692,
+      "best_rank": 7,
+      "appearances": 4,
+      "total_today_stars": 2279,
       "language": "Rust",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -291,26 +291,26 @@
     },
     "shiyu-coder/Kronos": {
       "best_rank": 7,
-      "appearances": 3,
-      "total_today_stars": 1671,
+      "appearances": 4,
+      "total_today_stars": 2171,
       "language": "Python",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65760973?v=4",
       "html_url": "https://github.com/shiyu-coder/Kronos"
     },
     "headroomlabs-ai/headroom": {
-      "best_rank": 11,
-      "appearances": 3,
-      "total_today_stars": 1333,
+      "best_rank": 8,
+      "appearances": 4,
+      "total_today_stars": 1850,
       "language": "Python",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/294291659?v=4",
       "html_url": "https://github.com/headroomlabs-ai/headroom"
     },
     "pingdotgg/t3code": {
-      "best_rank": 19,
-      "appearances": 3,
-      "total_today_stars": 828,
+      "best_rank": 16,
+      "appearances": 4,
+      "total_today_stars": 1115,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
@@ -344,9 +344,9 @@
       "html_url": "https://github.com/rmyndharis/OpenWA"
     },
     "anthropics/knowledge-work-plugins": {
-      "best_rank": 17,
-      "appearances": 2,
-      "total_today_stars": 656,
+      "best_rank": 13,
+      "appearances": 3,
+      "total_today_stars": 959,
       "language": "Python",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -380,9 +380,9 @@
       "html_url": "https://github.com/longbridge/gpui-kit"
     },
     "tashfeenahmed/freellmapi": {
-      "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 675,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1300,
       "language": "TypeScript",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -390,8 +390,8 @@
     },
     "Asymptote-Labs/agent-beacon": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 443,
+      "appearances": 2,
+      "total_today_stars": 688,
       "language": "Go",
       "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
       "owner_avatar": "https://avatars.githubusercontent.com/u/235623239?v=4",
@@ -407,9 +407,9 @@
       "html_url": "https://github.com/Panniantong/Agent-Reach"
     },
     "citrolabs/ego-lite": {
-      "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 394,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 705,
       "language": "JavaScript",
       "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
@@ -435,12 +435,111 @@
     },
     "openai/codex": {
       "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 169,
+      "appearances": 2,
+      "total_today_stars": 350,
       "language": "Rust",
       "description": "Lightweight coding agent that runs in your terminal",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
       "html_url": "https://github.com/openai/codex"
+    },
+    "twentyhq/twenty": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 605,
+      "language": "TypeScript",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/119600397?v=4",
+      "html_url": "https://github.com/twentyhq/twenty"
+    },
+    "firecrawl/firecrawl": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 424,
+      "language": "TypeScript",
+      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
+      "html_url": "https://github.com/firecrawl/firecrawl"
+    },
+    "remotion-dev/remotion": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 348,
+      "language": "TypeScript",
+      "description": "🎥      Make videos programmatically with React",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/85344006?v=4",
+      "html_url": "https://github.com/remotion-dev/remotion"
+    },
+    "bowenliang123/dsh-context": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 296,
+      "language": "TypeScript",
+      "description": "The best DeepSeek Harness plugin for context insight and management, with context dashboard / browser / sidebar and context command, for context statistics, composition, breakdown, evolution details, agent teams, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板、浏览器、侧栏、命令，透视上下文组成、演进、压缩、多 Agent等。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1935105?v=4",
+      "html_url": "https://github.com/bowenliang123/dsh-context"
+    },
+    "php/php-src": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 287,
+      "language": "C",
+      "description": "The PHP Interpreter",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/25158?v=4",
+      "html_url": "https://github.com/php/php-src"
+    },
+    "alibaba/open-code-review": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 226,
+      "language": "Go",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
+      "html_url": "https://github.com/alibaba/open-code-review"
+    },
+    "NVIDIA/OpenShell": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 211,
+      "language": "Rust",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
+      "html_url": "https://github.com/NVIDIA/OpenShell"
+    },
+    "genspark-ai/genoffice": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 193,
+      "language": "TypeScript",
+      "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/242390443?v=4",
+      "html_url": "https://github.com/genspark-ai/genoffice"
+    },
+    "onyx-dot-app/onyx": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 181,
+      "language": "Python",
+      "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/131946000?v=4",
+      "html_url": "https://github.com/onyx-dot-app/onyx"
+    },
+    "HKUDS/Vibe-Trading": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 171,
+      "language": "Python",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    "nautechsystems/nautilus_trader": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 157,
+      "language": "Rust",
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/33360632?v=4",
+      "html_url": "https://github.com/nautechsystems/nautilus_trader"
     }
   }
 }
