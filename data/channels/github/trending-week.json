@@ -12,8 +12,8 @@
     },
     "stablyai/orca": {
       "best_rank": 1,
-      "appearances": 5,
-      "total_today_stars": 7531,
+      "appearances": 6,
+      "total_today_stars": 8612,
       "language": "TypeScript",
       "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -47,9 +47,9 @@
       "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills"
     },
     "Graphify-Labs/graphify": {
-      "best_rank": 3,
-      "appearances": 5,
-      "total_today_stars": 5020,
+      "best_rank": 2,
+      "appearances": 6,
+      "total_today_stars": 6193,
       "language": "Python",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
@@ -75,8 +75,8 @@
     },
     "akitaonrails/ai-memory": {
       "best_rank": 5,
-      "appearances": 4,
-      "total_today_stars": 2274,
+      "appearances": 5,
+      "total_today_stars": 2545,
       "language": "Rust",
       "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2840?v=4",
@@ -84,8 +84,8 @@
     },
     "cloudflare/security-audit-skill": {
       "best_rank": 1,
-      "appearances": 5,
-      "total_today_stars": 8031,
+      "appearances": 6,
+      "total_today_stars": 10747,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -164,9 +164,9 @@
       "html_url": "https://github.com/thesysdev/openui"
     },
     "TauricResearch/TradingAgents": {
-      "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 222,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 707,
       "language": "Python",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192884433?v=4",
@@ -273,8 +273,8 @@
     },
     "pbakaus/impeccable": {
       "best_rank": 7,
-      "appearances": 4,
-      "total_today_stars": 2279,
+      "appearances": 5,
+      "total_today_stars": 2820,
       "language": "Rust",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -344,9 +344,9 @@
       "html_url": "https://github.com/rmyndharis/OpenWA"
     },
     "anthropics/knowledge-work-plugins": {
-      "best_rank": 13,
-      "appearances": 3,
-      "total_today_stars": 959,
+      "best_rank": 6,
+      "appearances": 4,
+      "total_today_stars": 1594,
       "language": "Python",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -390,8 +390,8 @@
     },
     "Asymptote-Labs/agent-beacon": {
       "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 688,
+      "appearances": 3,
+      "total_today_stars": 810,
       "language": "Go",
       "description": "The cross-harness, self-improving memory layer for AI agents. Join our community: https://discord.com/invite/zdNChS2fBu",
       "owner_avatar": "https://avatars.githubusercontent.com/u/235623239?v=4",
@@ -408,8 +408,8 @@
     },
     "citrolabs/ego-lite": {
       "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 705,
+      "appearances": 3,
+      "total_today_stars": 939,
       "language": "JavaScript",
       "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
@@ -434,9 +434,9 @@
       "html_url": "https://github.com/github/spec-kit"
     },
     "openai/codex": {
-      "best_rank": 23,
-      "appearances": 2,
-      "total_today_stars": 350,
+      "best_rank": 17,
+      "appearances": 3,
+      "total_today_stars": 523,
       "language": "Rust",
       "description": "Lightweight coding agent that runs in your terminal",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -453,8 +453,8 @@
     },
     "firecrawl/firecrawl": {
       "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 424,
+      "appearances": 2,
+      "total_today_stars": 854,
       "language": "TypeScript",
       "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
@@ -479,9 +479,9 @@
       "html_url": "https://github.com/bowenliang123/dsh-context"
     },
     "php/php-src": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 287,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1003,
       "language": "C",
       "description": "The PHP Interpreter",
       "owner_avatar": "https://avatars.githubusercontent.com/u/25158?v=4",
@@ -497,18 +497,18 @@
       "html_url": "https://github.com/alibaba/open-code-review"
     },
     "NVIDIA/OpenShell": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 211,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 1330,
       "language": "Rust",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
       "html_url": "https://github.com/NVIDIA/OpenShell"
     },
     "genspark-ai/genoffice": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 193,
+      "best_rank": 18,
+      "appearances": 2,
+      "total_today_stars": 345,
       "language": "TypeScript",
       "description": "Free, open-source AI Office suite: Docs, Sheets, Slides, PDF, Markdown and HTML editors with a built-in AI agent, plus a `genoffice` CLI and agent skill so Claude Code, Codex and Cursor can create and edit real .docx/.xlsx/.pptx files locally. Bring your own key. macOS, Windows & Linux.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/242390443?v=4",
@@ -516,8 +516,8 @@
     },
     "onyx-dot-app/onyx": {
       "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 181,
+      "appearances": 2,
+      "total_today_stars": 267,
       "language": "Python",
       "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
       "owner_avatar": "https://avatars.githubusercontent.com/u/131946000?v=4",
@@ -540,6 +540,96 @@
       "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
       "owner_avatar": "https://avatars.githubusercontent.com/u/33360632?v=4",
       "html_url": "https://github.com/nautechsystems/nautilus_trader"
+    },
+    "Renhuai123/ziwei-doushu": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 546,
+      "language": "TypeScript",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/91890238?v=4",
+      "html_url": "https://github.com/Renhuai123/ziwei-doushu"
+    },
+    "pollen-robotics/microduck": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 421,
+      "language": "Rust",
+      "description": "A Tiny biped duck robot 🦆",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/19241070?v=4",
+      "html_url": "https://github.com/pollen-robotics/microduck"
+    },
+    "liguobao/ds-harness-remote": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 331,
+      "language": "TypeScript",
+      "description": "一个基于 DeepSeek Harness 插件机制构建的多端远程访问方案，通过安全、低延迟、端到端加密的 P2P 优先网络，支持从 PC、Android 和 Web 随时访问并操作远程 Harness 和 CodeX。 (A multi-device remote access solution built on the DeepSeek Harness plugin system, enabling PC, Android, and Web clients to securely access and operate remote Harness and CodeX over a low-latency, end-to-end encrypted, P2P-first network.)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/10910802?v=4",
+      "html_url": "https://github.com/liguobao/ds-harness-remote"
+    },
+    "Vincentwei1021/video-shotcraft": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 259,
+      "language": "TypeScript",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/18239147?v=4",
+      "html_url": "https://github.com/Vincentwei1021/video-shotcraft"
+    },
+    "SnailSploit/Claude-Red": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 226,
+      "language": "Python",
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/95986478?v=4",
+      "html_url": "https://github.com/SnailSploit/Claude-Red"
+    },
+    "OpenBMB/VoxCPM": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 150,
+      "language": "Python",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/89920203?v=4",
+      "html_url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    "multica-ai/multica": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 105,
+      "language": "Go",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/multica"
+    },
+    "QuantumNous/new-api": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 104,
+      "language": "Go",
+      "description": "A unified AI model hub for aggregation & distribution. It supports cross-converting various LLMs into OpenAI-compatible, Claude-compatible, or Gemini-compatible formats. A centralized gateway for personal and enterprise model management.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/205075698?v=4",
+      "html_url": "https://github.com/QuantumNous/new-api"
+    },
+    "OpenHands/OpenHands": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 97,
+      "language": "TypeScript",
+      "description": "🙌 OpenHands: AI-Driven Development",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/225919603?v=4",
+      "html_url": "https://github.com/OpenHands/OpenHands"
+    },
+    "infiniflow/ragflow": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 93,
+      "language": "Go",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/69962740?v=4",
+      "html_url": "https://github.com/infiniflow/ragflow"
     }
   }
 }
