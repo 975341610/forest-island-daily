@@ -1,68 +1,96 @@
 {
-  "date": "2026-10-14",
-  "generated_at": "2026-10-14T00:27:45Z",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T08:30:00+08:00",
   "source": "mira-research",
   "hot_posts": [
     {
-      "title": "Simon Willison: Codex 新玩法 + Tailscale 本地 LLM 工作流",
-      "platform": "HN",
-      "url": "https://simonwillison.net/2026/Oct/12/codex-tailscale/",
-      "summary": "Simon Willison 在博客连发两篇长文，分享自己用 OpenAI Codex 搭配 Tailscale 把本地 GPU 盒接入远程 agent 的工作流，详细记录了如何让 Codex 自主完成 SSH 配置、模型下载、服务起停与健康检查，全程 30 分钟零人工。帖子被 HN 首页收录，评论区围绕 vibecoding 工作流可复制性、远程 agent 安全边界、硬预算上限等话题展开激烈讨论，被多位开发者称为 2026 Q4 最具参考价值的 agent 实践笔记之一。",
-      "engagement": "HN 500+ 分 / 300+ 评论"
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed 发布",
+      "platform": "Hacker News",
+      "author": "Jowsey",
+      "url": "https://news.ycombinator.com/item?id=50190363",
+      "engagement": "692 points, 439 comments",
+      "summary": "Moonshot AI 于 10 月 23 日正式发布 Kimi K3.1 Pro 及其快速版本 K3.1 Pro Highspeed，覆盖 kimi.ai、移动端、Kimi Work、Kimi Code 和 API 多端。该模型为 3T 级 MoE 架构（2.8T 总参数，约 104B 活跃参数），API 定价仅 $2/$10 per 1M tokens，显著低于前代 K3。社区讨论焦点集中在基准测试表现是否真实提升、定价策略对行业的影响以及与 DeepSeek 等竞品的对比。开源权重预计 11 月 4 日开放下载，HN 讨论区围绕模型蒸馏争议和开源时间线展开激烈辩论。"
     },
     {
-      "title": "Show HN: 把 PS2 游戏静态重编译到 WebAssembly 的开源项目爆火",
-      "platform": "HN",
-      "url": "https://news.ycombinator.com/item?id=50052251",
-      "summary": "开发者 snuri00 公布一个把 PS2 原生 ELF 静态重编译成 WebAssembly 的工具链，首批演示跑《Ratchet & Clank》《Shadow of the Colossus》等经典作，直接在浏览器里以 60fps 运行且无需模拟器 JIT。帖子登上 HN 首页第三位，Reddit 游戏复古圈同步转载，被认为是继 N64 recomp 后又一次 \"把老主机释放到网页\" 的里程碑。评论聚焦兼容率、GPU 后端选型（WebGPU vs WebGL2）与法律灰区。",
-      "engagement": "268 points / 140 comments"
+      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "platform": "Hacker News",
+      "author": "alphax314 (Simon Edwardsson)",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "engagement": "609 points, 182 comments",
+      "summary": "开发者 Simon Edwardsson 微调了一个 360M 参数的小型语言模型（基于 Qwen2.5-Coder-0.5B），让它伪装成终端——没有任何真实 shell 或文件系统，模型仅根据按键预测屏幕变化。WorldTUI 能模拟 bash、vim、tmux、Python 甚至 snake 游戏，并通过自纠错训练将 PresetBench 性能从 24/47 提升至 38/47。文章详细介绍了并行行解码 + 投机验证的工程优化，将 RTX 4090 上大帧 p95 延迟从 6.7 秒降至 0.87 秒。浏览器版本仅 208MB（int4 量化），可在 WebGPU 上本地推理运行。HN 社区高度评价其技术深度和对 world model 概念的巧妙实验。"
     },
     {
-      "title": "Planet Zoo 2 发售当天好评如潮，IGN/PushSquare 双 9 分",
-      "platform": "Reddit",
-      "url": "https://www.pushsquare.com/reviews/ps5/planet-zoo-2",
-      "summary": "Frontier 的《Planet Zoo 2》10/13 全球上线，新增水族馆、全飞行鸟舍、野生动物保护区自由摄影，130+ 物种与跨服动物交易系统获玩家一致好评。IGN、PushSquare 均给出 9/10，Steam 评论区首日 \"特别好评\"。r/pcgaming、r/gaming 的发售日感想贴涌入上千条玩家晒园区截图，讨论焦点是建造 UI 复杂度与保护区深度，被认为是本周最成功的管理模拟品类发售。",
-      "engagement": "Steam 首日好评率 92% / Reddit 1K+ 评论"
+      "title": "Dessa: the most authentic full-duplex speech model ever built",
+      "platform": "Hacker News",
+      "author": "dsr12",
+      "url": "https://block.xyz/dessa",
+      "engagement": "203 points, 86 comments",
+      "summary": "Block（原 Square）发布全双工语音模型 Dessa，号称史上最逼真的实时语音对话 AI。Dessa 完全从原始人类语音训练，不依赖任何文本或预训练模型，直接从声音中学习语言、情绪、语调、停顿和打断时机。它能同时听和说（全双工），自然完成笑声、叹气、兴奋等情感表达，推理速度快于实时，可在 MacBook Pro M4 Max 以上设备本地运行。社区讨论聚焦于纯语音训练范式与主流文本训练 LLM 的根本差异。"
+    },
+    {
+      "title": "Node2Shell: Node.js Brotli RCE 漏洞 (CVE-2026-111497)",
+      "platform": "Hacker News",
+      "author": "cowlevel",
+      "url": "https://news.ycombinator.com/item?id=50190367",
+      "engagement": "33 points, 8 comments; 全网广泛传播",
+      "summary": "安全研究人员披露 Node.js Brotli 解码器中存在远程代码执行漏洞 CVE-2026-111497（代号 Node2Shell/http2shell），攻击者可通过特制的 Brotli 压缩数据在 Node.js 24.22.0 及以下版本上执行任意代码。该漏洞同样影响 Python 和其他依赖 Brotli 底层库的运行时，多家安全厂商同步发布深度分析。Node.js 官方已发布修复版本，社区呼吁开发者立即升级。HN 上讨论延伸至 http2shell 作为通用 RCE 概念的扩展性，以及 Brotli 作为广泛部署的压缩格式的供应链风险。"
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "platform": "Hacker News / OpenAI Blog",
+      "author": "pretext",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+      "engagement": "68 points, 80 comments; 路透社等多家媒体报道",
+      "summary": "OpenAI 于 10 月 23 日发布详细技术文章，宣布在加强安全控制后已于 10 月 1 日恢复前沿模型强化学习训练和内部推理。核心措施是前沿模型训练环境完全断网运行，采用离线训练架构。文章披露了红队评估结果、已实施的修复措施及监控停止系统的改进，并报告已向超 100 家组织通报了与 AI 智能体相关的未授权活动事件。社区讨论集中在断网训练的可行性、安全性 vs 效率权衡以及对行业安全标准的潜在影响。"
     }
   ],
   "topics": [
     {
-      "name": "Meta Muse Wonder 发布",
-      "summary": "Meta 10/13 公布代号 Watermelon 的全新前沿模型 Muse Wonder，由 AI 负责人 Alexandr Wang 亲自带队，宣称在代码、金融、法律等任务上对标 GPT-6 与 Claude Opus 5.5，并通过 Meta API/Muse Code 开放给开发者，不久将接入 Muse 订阅助手。X 和中文财经社区热议 Meta 是否终于补齐前沿模型短板。",
-      "url": "http://finance.sina.com.cn/7x24/2026-10-13/doc-iniuyxuw0465202.shtml"
+      "title": "AI Agent 安全与治理：OpenShell + 安全审计技能 + 训练隔离三端共振",
+      "platform": "GitHub Trending / HN / OpenAI Blog",
+      "tag": "AI安全/Agent治理",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "trend": "24h 内 GitHub Trending 第一名、HN 热帖、OpenAI 官方博客三端共振",
+      "summary": "AI Agent 安全成为今日最强势跨平台话题。NVIDIA OpenShell 登顶 GitHub Trending（日增 1119 stars，总计 18,798 stars），定位为自主 AI 智能体的开放安全运行时。同期 Cloudflare security-audit-skill 以日增 2716 stars 领跑 Trending 榜首，提供六阶段结构化代码安全审计能力。OpenAI 同步发布前沿模型训练安全文章，宣布断网训练并恢复 RL 训练。三者共同指向一个行业趋势：AI Agent 从能用转向安全可控，安全不再依赖模型或应用自觉，而是下沉到运行时基础设施层。"
     },
     {
-      "name": "丘成桐数学 × AI 实验室联盟",
-      "summary": "菲尔兹奖得主丘成桐 10/11 牵头在清华成立 \"数学与人工智能实验室联盟\"，联合八家顶级数学机构，目标是用 AI 加速数学研究、以数学理论反哺大模型，并计划聚集千名数学家共建 AI 数学科学模型。消息在国内学术圈与 X/知乎迅速发酵，被视为中国版 AlphaProof 布局的关键一步。",
-      "url": "http://finance.sina.com.cn/jjxw/2026-10-13/doc-iniuyxuw0461016.shtml"
+      "title": "Qwen 4 月底发布预期升温，开源大模型竞争白热化",
+      "platform": "Reddit r/LocalLLaMA",
+      "tag": "AI开源/模型发布",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz1pqn/qwen_4_apparently_coming_out_at_the_end_of_october/",
+      "trend": "r/LocalLLaMA 热帖持续发酵 4 天，讨论参与度极高",
+      "summary": "Reddit r/LocalLLaMA 社区热议阿里 Qwen 4 系列预计月底发布，讨论帖已持续 4 天。同期 Kimi K3.1 Pro 于 10 月 23 日正式发布并引发 HN 692 分热帖，DeepSeek 也在 10 月 17 日完成新一轮版本迭代，国内大模型厂商密集发布形成竞争浪潮。社区讨论核心包括：Qwen 4 能否在推理和编码上超越当前 SOTA、开源权重发布时间线、蒸馏争议以及本地部署可行性与硬件需求。这一波密集发布标志着开源大模型从追赶 GPT-4 进入各自探索差异化能力的新阶段。"
     },
     {
-      "name": "Valor Mortis 第一人称魂系新秀",
-      "summary": "One More Level 开发、Lyrical Games 发行的《Valor Mortis》10/13 上线 Steam，拿破仑战争背景 + 第一人称魂系动作的组合在 Steam/Reddit/B 站引发大量试玩视频与剪辑，首日入围 Steam 热销榜前列，被玩家戏称 \"法兰西版黑暗之魂\"，带动一波第一人称 Soulslike 讨论。",
-      "url": "https://store.steampowered.com/app/2828710/Valor_Mortis/"
+      "title": "AI 编程技能生态爆发：Skills 三个月膨胀 45 倍",
+      "platform": "GitHub Trending / 掘金",
+      "tag": "AI编程/开发者工具",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "trend": "GitHub Trending 持续上榜，掘金社区多篇相关热文",
+      "summary": "Anthropic 的 knowledge-work-plugins 仓库今日在 GitHub Trending 日增 635 stars（总计 32,215 stars），提供面向知识工作者的 Claude Cowork 插件。同期 Cloudflare security-audit-skill（+2716 stars）等 AI Agent 安全技能库也同步上榜。掘金社区数据显示 Skills 生态在三个月内从 1,400 个爆炸增长至 63,000+，膨胀 45 倍，但一篇热文质疑前排没几个真货。这反映了 AI 编程技能从实验性玩具向生产工具的快速过渡，同时伴随严重的质量参差和安全隐患。"
     }
   ],
   "creators": [
     {
-      "name": "Simon Willison",
-      "platform": "个人博客 / HN",
-      "recent_work": "A new feature for my blog, built using my voice",
-      "url": "https://simonwillison.net/2026/Oct/9/voice-blog-feature/",
-      "summary": "LLM 工具链布道师，10 月连续产出 Codex、Claude Haiku 5.5、硬预算上限、语音编辑博客等高价值长文，是 vibecoding 圈最被信赖的实操来源，10/12 新发文被 HN 推上首页。"
+      "name": "Simon Edwardsson (@SimEdw)",
+      "platform": "HN / 个人博客",
+      "recent_work": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+      "summary": "Simon Edwardsson 是一位独立 AI 开发者，近日以 WorldTUI 项目引爆开发者社区。该项目用 360M 参数的小模型模拟终端行为，展示了 world model 概念在 UI 仿真中的惊人潜力。他独立完成了模型微调、WebGPU 浏览器推理引擎、并行行解码优化等全部工程工作，技术深度和展示质量获得 HN 社区高度评价。"
     },
     {
-      "name": "技术爬爬虾",
-      "platform": "B站",
-      "recent_work": "Codex (APP) 保姆级全攻略，一期精通 Codex",
-      "url": "https://www.bilibili.com/video/BV13HEw6rEDa/",
-      "summary": "B 站头部 AI 编程 UP 主，本周围绕 Codex App 与 Claude Code 对比发布多期长视频，单条播放破百万，带动中文开发者社区对终端 agent 工作流的集中讨论。"
+      "name": "Jack Dorsey (@jack)",
+      "platform": "X / Block",
+      "recent_work": "Dessa: the most authentic full-duplex speech model ever built",
+      "url": "https://block.xyz/dessa",
+      "summary": "Jack Dorsey 旗下 Block 公司发布全双工语音模型 Dessa，由 Dorsey 本人在 X 上亲自宣布。Dessa 采用纯语音训练范式（无文本、无预训练模型），从零开始学习人类对话中的语言、情感和社交信号。该项目代表了 Block 在 AI 领域的战略布局，从支付科技向语音 AI 前沿延伸。"
     },
     {
-      "name": "James Watson (PushSquare)",
-      "platform": "游戏媒体 / Reddit",
-      "recent_work": "Planet Zoo 2 Review (PS5) - 9/10",
-      "url": "https://www.pushsquare.com/reviews/ps5/planet-zoo-2",
-      "summary": "PushSquare 资深模拟经营评测人，10/13 首发 Planet Zoo 2 全面评测，围绕水族馆/保护区/摄影等新机制给出 9 分，评论和转载在 r/gaming、r/PlanetZoo 持续发酵，是本周管理模拟品类话题的主要引导者。"
+      "name": "kyriewen",
+      "platform": "掘金 (juejin.cn)",
+      "recent_work": "我数了 647 条大厂前端 JD：AI 不再只是加分项",
+      "url": "https://aicoding.juejin.cn/",
+      "summary": "kyriewen 是掘金 AI 编程社区的活跃创作者，近日发布了一篇基于 647 条大厂前端招聘 JD 的数据驱动分析文章。数据显示 63% 的 JD 提到 AI，51% 写进任职要求，55% 为硬性要求，点名最多的工具是 Claude。该文章反映了国内开发者对 AI 工具从加分项到必选项这一行业转变的强烈关注。"
     }
   ]
 }
