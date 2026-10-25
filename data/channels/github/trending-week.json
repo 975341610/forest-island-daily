@@ -84,8 +84,8 @@
     },
     "cloudflare/security-audit-skill": {
       "best_rank": 1,
-      "appearances": 6,
-      "total_today_stars": 10747,
+      "appearances": 7,
+      "total_today_stars": 13011,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -165,8 +165,8 @@
     },
     "TauricResearch/TradingAgents": {
       "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 707,
+      "appearances": 3,
+      "total_today_stars": 1016,
       "language": "Python",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192884433?v=4",
@@ -246,8 +246,8 @@
     },
     "tt-a1i/archify": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 1255,
+      "appearances": 3,
+      "total_today_stars": 1707,
       "language": "JavaScript",
       "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/53142663?v=4",
@@ -273,8 +273,8 @@
     },
     "pbakaus/impeccable": {
       "best_rank": 7,
-      "appearances": 5,
-      "total_today_stars": 2820,
+      "appearances": 6,
+      "total_today_stars": 3439,
       "language": "Rust",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -345,8 +345,8 @@
     },
     "anthropics/knowledge-work-plugins": {
       "best_rank": 6,
-      "appearances": 4,
-      "total_today_stars": 1594,
+      "appearances": 5,
+      "total_today_stars": 2118,
       "language": "Python",
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -380,9 +380,9 @@
       "html_url": "https://github.com/longbridge/gpui-kit"
     },
     "tashfeenahmed/freellmapi": {
-      "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1300,
+      "best_rank": 4,
+      "appearances": 3,
+      "total_today_stars": 2015,
       "language": "TypeScript",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -462,8 +462,8 @@
     },
     "remotion-dev/remotion": {
       "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 348,
+      "appearances": 2,
+      "total_today_stars": 744,
       "language": "TypeScript",
       "description": "🎥      Make videos programmatically with React",
       "owner_avatar": "https://avatars.githubusercontent.com/u/85344006?v=4",
@@ -497,9 +497,9 @@
       "html_url": "https://github.com/alibaba/open-code-review"
     },
     "NVIDIA/OpenShell": {
-      "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1330,
+      "best_rank": 2,
+      "appearances": 3,
+      "total_today_stars": 2226,
       "language": "Rust",
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
@@ -543,8 +543,8 @@
     },
     "Renhuai123/ziwei-doushu": {
       "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 546,
+      "appearances": 2,
+      "total_today_stars": 1035,
       "language": "TypeScript",
       "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
       "owner_avatar": "https://avatars.githubusercontent.com/u/91890238?v=4",
@@ -552,8 +552,8 @@
     },
     "pollen-robotics/microduck": {
       "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 421,
+      "appearances": 2,
+      "total_today_stars": 740,
       "language": "Rust",
       "description": "A Tiny biped duck robot 🦆",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19241070?v=4",
@@ -570,17 +570,17 @@
     },
     "Vincentwei1021/video-shotcraft": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 259,
+      "appearances": 2,
+      "total_today_stars": 455,
       "language": "TypeScript",
       "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18239147?v=4",
       "html_url": "https://github.com/Vincentwei1021/video-shotcraft"
     },
     "SnailSploit/Claude-Red": {
-      "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 226,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 856,
       "language": "Python",
       "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/95986478?v=4",
@@ -630,6 +630,123 @@
       "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/69962740?v=4",
       "html_url": "https://github.com/infiniflow/ragflow"
+    },
+    "heygen-com/hyperframes": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 743,
+      "language": "TypeScript",
+      "description": "Write HTML. Render video. Built for agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
+      "html_url": "https://github.com/heygen-com/hyperframes"
+    },
+    "anthropics/sandbox-runtime": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 650,
+      "language": "TypeScript",
+      "description": "A lightweight sandboxing tool for enforcing filesystem and network restrictions on arbitrary processes at the OS level, without requiring a container.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/sandbox-runtime"
+    },
+    "makecindy/cindy": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 477,
+      "language": "TypeScript",
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/306974279?v=4",
+      "html_url": "https://github.com/makecindy/cindy"
+    },
+    "Nutlope/hallmark": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 455,
+      "language": "CSS",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/63742054?v=4",
+      "html_url": "https://github.com/Nutlope/hallmark"
+    },
+    "basketikun/infinite-canvas": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 376,
+      "language": "TypeScript",
+      "description": "面向 AI 创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、Agent 智能助手、画布编排、对话创作、提示词库与素材管理等能力，支持可视化创作流程与多 Agent 协同工作。兼容 OpenAI 接口生态，支持 chatgpt2api、grok2api、flow2api、newapi 等渠道接入。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/114481029?v=4",
+      "html_url": "https://github.com/basketikun/infinite-canvas"
+    },
+    "vectorize-io/hindsight": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 329,
+      "language": "Python",
+      "description": "Hindsight: Agent Memory That Learns",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/81837244?v=4",
+      "html_url": "https://github.com/vectorize-io/hindsight"
+    },
+    "jbiaojerry/ebook-treasure-chest": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 227,
+      "language": "Python",
+      "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6221683?v=4",
+      "html_url": "https://github.com/jbiaojerry/ebook-treasure-chest"
+    },
+    "herdrdev/herdr": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 144,
+      "language": "Rust",
+      "description": "the runtime your coding agents live on",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/309108654?v=4",
+      "html_url": "https://github.com/herdrdev/herdr"
+    },
+    "laoma528/awesome-zhuiju-free": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 133,
+      "language": "JavaScript",
+      "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/169715751?v=4",
+      "html_url": "https://github.com/laoma528/awesome-zhuiju-free"
+    },
+    "Gaurav-Gosain/tuios": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 131,
+      "language": "Go",
+      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/55647468?v=4",
+      "html_url": "https://github.com/Gaurav-Gosain/tuios"
+    },
+    "bendlang/bend": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 107,
+      "language": "TypeScript",
+      "description": "Bend 2: a fast language that blocks AI mistakes via proof. Install: curl -fsSL https://bend-lang.com/install.sh | sh",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/330058878?v=4",
+      "html_url": "https://github.com/bendlang/bend"
+    },
+    "Tencent/WeKnora": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 94,
+      "language": "Go",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
+      "html_url": "https://github.com/Tencent/WeKnora"
+    },
+    "langfuse/langfuse": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 81,
+      "language": "TypeScript",
+      "description": "🪢 Open source agent evals & observability: Trace, evaluate, and improve LLM applications with one open platform.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/134601687?v=4",
+      "html_url": "https://github.com/langfuse/langfuse"
     }
   }
 }

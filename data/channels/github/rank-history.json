@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-24": {
-      "google/ax": 1,
-      "dream-num/univer": 2,
-      "browser-use/video-use": 3,
-      "anthropics/financial-services": 4,
-      "flexprice/flexprice": 5,
-      "agent-substrate/substrate": 6,
-      "mvt-project/mvt": 7,
-      "superdesigndev/treg": 8,
-      "laoma2053/awesome-zhuiju-free": 9,
-      "can1357/oh-my-pi": 10,
-      "Open-Dev-Society/OpenStock": 11,
-      "hydra-db/hydradb": 12,
-      "pbakaus/impeccable": 13,
-      "Nasiko-Labs/nasiko": 14,
-      "browserbase/stagehand": 15,
-      "Comfy-Org/ComfyUI": 16,
-      "byoungd/up": 17,
-      "DeusData/codebase-memory-mcp": 18,
-      "weave-os/router": 19,
-      "akitaonrails/ai-memory": 20,
-      "zhouxiaoka/autoclip": 21,
-      "strands-agents/harness-sdk": 22,
-      "mnfst/awesome-free-llm-apis": 23,
-      "TNT-Likely/PanWatch": 24,
-      "BuilderIO/agent-native": 25
-    },
     "2026-09-25": {
       "vectorize-io/hindsight": 1,
       "google/ax": 2,
@@ -836,6 +809,33 @@
       "OpenHands/OpenHands": 23,
       "infiniflow/ragflow": 24,
       "onyx-dot-app/onyx": 25
+    },
+    "2026-10-25": {
+      "cloudflare/security-audit-skill": 1,
+      "NVIDIA/OpenShell": 2,
+      "heygen-com/hyperframes": 3,
+      "tashfeenahmed/freellmapi": 4,
+      "anthropics/sandbox-runtime": 5,
+      "SnailSploit/Claude-Red": 6,
+      "pbakaus/impeccable": 7,
+      "anthropics/knowledge-work-plugins": 8,
+      "Renhuai123/ziwei-doushu": 9,
+      "makecindy/cindy": 10,
+      "Nutlope/hallmark": 11,
+      "tt-a1i/archify": 12,
+      "remotion-dev/remotion": 13,
+      "basketikun/infinite-canvas": 14,
+      "vectorize-io/hindsight": 15,
+      "pollen-robotics/microduck": 16,
+      "TauricResearch/TradingAgents": 17,
+      "jbiaojerry/ebook-treasure-chest": 18,
+      "Vincentwei1021/video-shotcraft": 19,
+      "herdrdev/herdr": 20,
+      "laoma528/awesome-zhuiju-free": 21,
+      "Gaurav-Gosain/tuios": 22,
+      "bendlang/bend": 23,
+      "Tencent/WeKnora": 24,
+      "langfuse/langfuse": 25
     }
   }
 }
