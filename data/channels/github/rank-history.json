@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-25": {
-      "vectorize-io/hindsight": 1,
-      "google/ax": 2,
-      "hydra-db/hydradb": 3,
-      "Nasiko-Labs/nasiko": 4,
-      "dream-num/univer": 5,
-      "stablyai/orca": 6,
-      "pbakaus/impeccable": 7,
-      "anthropics/financial-services": 8,
-      "experientiallabs/experiential": 9,
-      "superdesigndev/treg": 10,
-      "strands-agents/harness-sdk": 11,
-      "every-app/open-seo": 12,
-      "HKUDS/CLI-Anything": 13,
-      "agent-substrate/substrate": 14,
-      "TNT-Likely/PanWatch": 15,
-      "mvt-project/mvt": 16,
-      "Asymptote-Labs/agent-beacon": 17,
-      "op7418/Humanizer-zh": 18,
-      "can1357/oh-my-pi": 19,
-      "FxEmbed/FxEmbed": 20,
-      "harry0703/MoneyPrinterTurbo": 21,
-      "block/buzz": 22,
-      "juspay/hyperswitch": 23,
-      "anthropics/skills": 24,
-      "weave-os/router": 25
-    },
     "2026-09-26": {
       "paperclipai/paperclip": 1,
       "vectorize-io/hindsight": 2,
@@ -836,6 +809,33 @@
       "bendlang/bend": 23,
       "Tencent/WeKnora": 24,
       "langfuse/langfuse": 25
+    },
+    "2026-10-26": {
+      "cloudflare/security-audit-skill": 1,
+      "Nutlope/hallmark": 2,
+      "experientiallabs/experiential": 3,
+      "pbakaus/impeccable": 4,
+      "makecindy/cindy": 5,
+      "tashfeenahmed/freellmapi": 6,
+      "google-gemini/gemini-cli": 7,
+      "pollen-robotics/microduck": 8,
+      "NVIDIA/OpenShell": 9,
+      "TauricResearch/TradingAgents": 10,
+      "firecrawl/firecrawl": 11,
+      "remotion-dev/remotion": 12,
+      "aws/agent-toolkit-for-aws": 13,
+      "AstrBotDevs/AstrBot": 14,
+      "anthropics/sandbox-runtime": 15,
+      "Renhuai123/ziwei-doushu": 16,
+      "AgriciDaniel/claude-seo": 17,
+      "Gaurav-Gosain/tuios": 18,
+      "garrytan/gstack": 19,
+      "SnailSploit/Claude-Red": 20,
+      "HKUDS/DeepTutor": 21,
+      "basketikun/infinite-canvas": 22,
+      "every-app/open-seo": 23,
+      "ollama/ollama": 24,
+      "maboloshi/github-chinese": 25
     }
   }
 }
