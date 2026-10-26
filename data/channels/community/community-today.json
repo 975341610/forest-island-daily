@@ -1,96 +1,79 @@
 {
-  "date": "2026-10-24",
-  "generated_at": "2026-10-24T08:30:00+08:00",
-  "source": "mira-research",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T08:30:00+08:00",
+  "source": "auto-research",
   "hot_posts": [
     {
-      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed 发布",
+      "title": "The Goose Programming Language",
       "platform": "Hacker News",
-      "author": "Jowsey",
-      "url": "https://news.ycombinator.com/item?id=50190363",
-      "engagement": "692 points, 439 comments",
-      "summary": "Moonshot AI 于 10 月 23 日正式发布 Kimi K3.1 Pro 及其快速版本 K3.1 Pro Highspeed，覆盖 kimi.ai、移动端、Kimi Work、Kimi Code 和 API 多端。该模型为 3T 级 MoE 架构（2.8T 总参数，约 104B 活跃参数），API 定价仅 $2/$10 per 1M tokens，显著低于前代 K3。社区讨论焦点集中在基准测试表现是否真实提升、定价策略对行业的影响以及与 DeepSeek 等竞品的对比。开源权重预计 11 月 4 日开放下载，HN 讨论区围绕模型蒸馏争议和开源时间线展开激烈辩论。"
+      "url": "https://news.ycombinator.com/item?id=50224100",
+      "summary": "全新编程语言 Goose 发布，获 HN 首页 564 分 348 条评论。社区讨论编程语言设计范式和简洁性。",
+      "score": 564
     },
     {
-      "title": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
       "platform": "Hacker News",
-      "author": "alphax314 (Simon Edwardsson)",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "engagement": "609 points, 182 comments",
-      "summary": "开发者 Simon Edwardsson 微调了一个 360M 参数的小型语言模型（基于 Qwen2.5-Coder-0.5B），让它伪装成终端——没有任何真实 shell 或文件系统，模型仅根据按键预测屏幕变化。WorldTUI 能模拟 bash、vim、tmux、Python 甚至 snake 游戏，并通过自纠错训练将 PresetBench 性能从 24/47 提升至 38/47。文章详细介绍了并行行解码 + 投机验证的工程优化，将 RTX 4090 上大帧 p95 延迟从 6.7 秒降至 0.87 秒。浏览器版本仅 208MB（int4 量化），可在 WebGPU 上本地推理运行。HN 社区高度评价其技术深度和对 world model 概念的巧妙实验。"
+      "url": "https://news.ycombinator.com/item?id=50227356",
+      "summary": "Cerebras 详解在晶圆级芯片上部署万亿参数模型，获 350 分 127 评论。讨论超越 GPU 架构可行性。",
+      "score": 350
     },
     {
-      "title": "Dessa: the most authentic full-duplex speech model ever built",
+      "title": "10-year-old CNN outperforms frontier LLMs for skin cancer",
       "platform": "Hacker News",
-      "author": "dsr12",
-      "url": "https://block.xyz/dessa",
-      "engagement": "203 points, 86 comments",
-      "summary": "Block（原 Square）发布全双工语音模型 Dessa，号称史上最逼真的实时语音对话 AI。Dessa 完全从原始人类语音训练，不依赖任何文本或预训练模型，直接从声音中学习语言、情绪、语调、停顿和打断时机。它能同时听和说（全双工），自然完成笑声、叹气、兴奋等情感表达，推理速度快于实时，可在 MacBook Pro M4 Max 以上设备本地运行。社区讨论聚焦于纯语音训练范式与主流文本训练 LLM 的根本差异。"
+      "url": "https://news.ycombinator.com/item?id=50233779",
+      "summary": "十年前 CNN 在皮肤癌诊断击败前沿 LLM，获 403 分 194 评论。引发专用 vs 通用模型辩论。",
+      "score": 403
     },
     {
-      "title": "Node2Shell: Node.js Brotli RCE 漏洞 (CVE-2026-111497)",
-      "platform": "Hacker News",
-      "author": "cowlevel",
-      "url": "https://news.ycombinator.com/item?id=50190367",
-      "engagement": "33 points, 8 comments; 全网广泛传播",
-      "summary": "安全研究人员披露 Node.js Brotli 解码器中存在远程代码执行漏洞 CVE-2026-111497（代号 Node2Shell/http2shell），攻击者可通过特制的 Brotli 压缩数据在 Node.js 24.22.0 及以下版本上执行任意代码。该漏洞同样影响 Python 和其他依赖 Brotli 底层库的运行时，多家安全厂商同步发布深度分析。Node.js 官方已发布修复版本，社区呼吁开发者立即升级。HN 上讨论延伸至 http2shell 作为通用 RCE 概念的扩展性，以及 Brotli 作为广泛部署的压缩格式的供应链风险。"
+      "title": "Moli - Fastest headless browser for agents",
+      "platform": "Product Hunt",
+      "url": "https://www.producthunt.com/leaderboard/daily/2026/10/25",
+      "summary": "Moli 登顶 Product Hunt 10月25日榜单，226 票，AI Agent 专用极速无头浏览器。",
+      "score": 226
     },
     {
-      "title": "Securing our frontier model training environment",
-      "platform": "Hacker News / OpenAI Blog",
-      "author": "pretext",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-      "engagement": "68 points, 80 comments; 路透社等多家媒体报道",
-      "summary": "OpenAI 于 10 月 23 日发布详细技术文章，宣布在加强安全控制后已于 10 月 1 日恢复前沿模型强化学习训练和内部推理。核心措施是前沿模型训练环境完全断网运行，采用离线训练架构。文章披露了红队评估结果、已实施的修复措施及监控停止系统的改进，并报告已向超 100 家组织通报了与 AI 智能体相关的未授权活动事件。社区讨论集中在断网训练的可行性、安全性 vs 效率权衡以及对行业安全标准的潜在影响。"
+      "title": "Root shell on Samsung TV",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50218633",
+      "summary": "安全研究员获取三星电视 root shell，获 760 分 572 评论，当日 HN 最高分。引发硬件安全讨论。",
+      "score": 760
     }
   ],
   "topics": [
     {
-      "title": "AI Agent 安全与治理：OpenShell + 安全审计技能 + 训练隔离三端共振",
-      "platform": "GitHub Trending / HN / OpenAI Blog",
-      "tag": "AI安全/Agent治理",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "trend": "24h 内 GitHub Trending 第一名、HN 热帖、OpenAI 官方博客三端共振",
-      "summary": "AI Agent 安全成为今日最强势跨平台话题。NVIDIA OpenShell 登顶 GitHub Trending（日增 1119 stars，总计 18,798 stars），定位为自主 AI 智能体的开放安全运行时。同期 Cloudflare security-audit-skill 以日增 2716 stars 领跑 Trending 榜首，提供六阶段结构化代码安全审计能力。OpenAI 同步发布前沿模型训练安全文章，宣布断网训练并恢复 RL 训练。三者共同指向一个行业趋势：AI Agent 从能用转向安全可控，安全不再依赖模型或应用自觉，而是下沉到运行时基础设施层。"
+      "name": "AI Agent 通用插件生态",
+      "description": "多 harness 插件市场爆发，单一 Markdown 源适配 Claude Code、Codex、Cursor 等 7 种 agent 框架。GitHub Trending 显示 93% 热门项目已转向可移植性层。",
+      "momentum": "rising"
     },
     {
-      "title": "Qwen 4 月底发布预期升温，开源大模型竞争白热化",
-      "platform": "Reddit r/LocalLLaMA",
-      "tag": "AI开源/模型发布",
-      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1wz1pqn/qwen_4_apparently_coming_out_at_the_end_of_october/",
-      "trend": "r/LocalLLaMA 热帖持续发酵 4 天，讨论参与度极高",
-      "summary": "Reddit r/LocalLLaMA 社区热议阿里 Qwen 4 系列预计月底发布，讨论帖已持续 4 天。同期 Kimi K3.1 Pro 于 10 月 23 日正式发布并引发 HN 692 分热帖，DeepSeek 也在 10 月 17 日完成新一轮版本迭代，国内大模型厂商密集发布形成竞争浪潮。社区讨论核心包括：Qwen 4 能否在推理和编码上超越当前 SOTA、开源权重发布时间线、蒸馏争议以及本地部署可行性与硬件需求。这一波密集发布标志着开源大模型从追赶 GPT-4 进入各自探索差异化能力的新阶段。"
+      "name": "万亿参数模型部署",
+      "description": "Cerebras 展示在晶圆级芯片上部署万亿参数模型，挑战 GPU 主导地位。社区讨论专用硬件 vs 通用 GPU 路线。",
+      "momentum": "rising"
     },
     {
-      "title": "AI 编程技能生态爆发：Skills 三个月膨胀 45 倍",
-      "platform": "GitHub Trending / 掘金",
-      "tag": "AI编程/开发者工具",
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "trend": "GitHub Trending 持续上榜，掘金社区多篇相关热文",
-      "summary": "Anthropic 的 knowledge-work-plugins 仓库今日在 GitHub Trending 日增 635 stars（总计 32,215 stars），提供面向知识工作者的 Claude Cowork 插件。同期 Cloudflare security-audit-skill（+2716 stars）等 AI Agent 安全技能库也同步上榜。掘金社区数据显示 Skills 生态在三个月内从 1,400 个爆炸增长至 63,000+，膨胀 45 倍，但一篇热文质疑前排没几个真货。这反映了 AI 编程技能从实验性玩具向生产工具的快速过渡，同时伴随严重的质量参差和安全隐患。"
+      "name": "AI 对创意行业就业冲击",
+      "description": "Apricitas 分析报告指出美国媒体影视行业已流失 20 万岗位，HN 帖子获 503 分 539 评论。讨论 AI 替代 vs 工具增强边界。",
+      "momentum": "stable"
     }
   ],
   "creators": [
     {
-      "name": "Simon Edwardsson (@SimEdw)",
-      "platform": "HN / 个人博客",
-      "recent_work": "WorldTUI: I trained a 360M model to pretend to be a terminal",
-      "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-      "summary": "Simon Edwardsson 是一位独立 AI 开发者，近日以 WorldTUI 项目引爆开发者社区。该项目用 360M 参数的小模型模拟终端行为，展示了 world model 概念在 UI 仿真中的惊人潜力。他独立完成了模型微调、WebGPU 浏览器推理引擎、并行行解码优化等全部工程工作，技术深度和展示质量获得 HN 社区高度评价。"
+      "name": "Andrew Feldman",
+      "platform": "X/Twitter & TechCrunch",
+      "followers": "50K+",
+      "recent_highlight": "Cerebras CEO 在 Disrupt 2026 反驳 AI 末日论，发布万亿参数模型部署博客登顶 HN。"
     },
     {
-      "name": "Jack Dorsey (@jack)",
-      "platform": "X / Block",
-      "recent_work": "Dessa: the most authentic full-duplex speech model ever built",
-      "url": "https://block.xyz/dessa",
-      "summary": "Jack Dorsey 旗下 Block 公司发布全双工语音模型 Dessa，由 Dorsey 本人在 X 上亲自宣布。Dessa 采用纯语音训练范式（无文本、无预训练模型），从零开始学习人类对话中的语言、情感和社交信号。该项目代表了 Block 在 AI 领域的战略布局，从支付科技向语音 AI 前沿延伸。"
+      "name": "wshobson",
+      "platform": "GitHub",
+      "followers": "41K stars",
+      "recent_highlight": "agents 仓库 41,320 星登 GitHub 月度趋势榜首，94 插件/202 agent 适配 7 种 harness。"
     },
     {
-      "name": "kyriewen",
-      "platform": "掘金 (juejin.cn)",
-      "recent_work": "我数了 647 条大厂前端 JD：AI 不再只是加分项",
-      "url": "https://aicoding.juejin.cn/",
-      "summary": "kyriewen 是掘金 AI 编程社区的活跃创作者，近日发布了一篇基于 647 条大厂前端招聘 JD 的数据驱动分析文章。数据显示 63% 的 JD 提到 AI，51% 写进任职要求，55% 为硬性要求，点名最多的工具是 Claude。该文章反映了国内开发者对 AI 工具从加分项到必选项这一行业转变的强烈关注。"
+      "name": "Matt Shumer",
+      "platform": "X/Twitter",
+      "followers": "200K+",
+      "recent_highlight": "AI 变革长文获超 130 万浏览 6100 点赞，持续推动 AI 社会影响讨论。"
     }
   ]
 }
