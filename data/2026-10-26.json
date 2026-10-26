@@ -1,0 +1,370 @@
+[
+  {
+    "id": "2026-10-26_vibe_8",
+    "date": "2026-10-26",
+    "category": "VibeCoding",
+    "subcat": "主机游戏",
+    "platform": "Gematsu",
+    "platform_color": "#E60012",
+    "title": "龙珠异世界2十周年免费更新10月27日上线",
+    "url": "https://www.gematsu.com/2026/10/dragon-ball-xenoverse-2-10th-anniversary-update-launches-october-27",
+    "image": "images/2026-10-26/2026-10-26_vibe_8.jpg",
+    "detail": [
+      "《龙珠异世界2》自2016年发售至今已满十周年，万代南梦宫与开发商Dimps于2026年10月25日正式宣布十周年免费更新将于10月27日上线，随后于10月30日启动\"最终宇宙祭典\"活动。本作登陆PS5、PS4、Xbox、PC及Switch全平台。",
+      "十周年更新将带来全新登录奖励、特殊服装及时间画廊更新，后者可通过购买DLC\"未来篇第四章\"解锁。最终祭典期间，玩家可提升与特兰克斯、时之界王神或弗的角色好感度并解锁特别插画，星币获取量提升25倍。",
+      "值得注意的是，祭典中获得的专属道服和纪念章可在续作《龙珠异世界3》中通过Bandai Namco ID联动解锁特殊物品，续作预计2027年发售。这意味着老玩家的投入将延续到下一代作品中。",
+      "社区对此反响热烈，许多玩家感慨\"已经十年了\"。作为系列生命力最持久的作品之一，《龙珠异世界2》至今仍保持活跃的玩家社群，十周年庆典无疑将进一步提振热度。"
+    ]
+  },
+  {
+    "id": "2026-10-26_vibe_7",
+    "date": "2026-10-26",
+    "category": "VibeCoding",
+    "subcat": "producthunt",
+    "platform": "Product Hunt",
+    "platform_color": "#DA552F",
+    "title": "AgentGrid人机协作工作空间上线",
+    "url": "https://www.producthunt.com/products/agentgrid-io",
+    "image": "images/2026-10-26/2026-10-26_vibe_7.jpg",
+    "detail": [
+      "AgentGrid.io于10月25日在Product Hunt日榜排名第二，获得166票。该产品由设计智能公司Anima推出，定位为人与AI代理共享的协作工作空间，支持Claude、ChatGPT、Codex、Grok Bot、Hermes、OpenClaw等多种代理在同一平台上创建、编辑、分享和发布工作成果。",
+      "平台为每个文档、Markdown、HTML、React应用等文件提供一条稳定链接、一个当前版本和完整的版本历史。用户体验类似带版本控制的Google Docs加上内置网站托管功能，团队成员可在浏览器中打开文档、审查应用、恢复早期版本或发布为实时网站，无需管理代码仓库或托管基础设施。",
+      "Anthropic 2026年6月的报告显示93%的Claude对话产生了artifact，通常为HTML或Markdown文档。这些AI生成的工作往往留在聊天中、下载为文件或存储在代理本机上，团队成员难以查找、审查或继续协作。AgentGrid.io正是为解决这一痛点而生。",
+      "团队可控制每个代理的查看、编辑、分享和发布权限，权限可随时撤销，每次更改均有归属记录。产品在Product Hunt上标注了Vibe coding标签，目前免费使用。SOC 2 Type II和GDPR合规也为其企业采用提供了保障。"
+    ]
+  },
+  {
+    "id": "2026-10-26_vibe_6",
+    "date": "2026-10-26",
+    "category": "VibeCoding",
+    "subcat": "producthunt",
+    "platform": "Product Hunt",
+    "platform_color": "#DA552F",
+    "title": "Moli极速无头浏览器登顶Product Hunt",
+    "url": "https://github.com/lexmount/moli",
+    "image": "images/2026-10-26/2026-10-26_vibe_6.jpg",
+    "detail": [
+      "Moli by Lexmount在10月25日的Product Hunt日榜中以226票排名第一。该产品定位为面向AI代理和测试框架的最快无头浏览器，使用Rust构建，主打轻量、快速和高兼容性，为AI代理工作流中的浏览器自动化场景提供基础设施支持。",
+      "Moli在GitHub上已积累17.8k星，本月新增603星，显示出持续的开发者关注度。项目在Product Hunt上被归类为生产力、开发者工具和人工智能三个类别，充分体现了其服务于AI代理生态的定位。随着越来越多AI代理需要浏览器交互能力，专用无头浏览器成为关键组件。",
+      "在AI代理生态中，浏览器自动化是网页抓取、表单填写、端到端测试等任务的核心能力。传统无头浏览器如Puppeteer和Playwright虽然功能成熟，但在AI代理的高并发、低延迟场景下存在性能瓶颈。Moli以Rust重写，目标是提供更高的吞吐量和更低的资源消耗。",
+      "Product Hunt日榜排名第二的AgentGrid.io同样是AI代理相关产品，反映出当前市场对人机协作工具的强烈需求。Moli的登顶表明开发者社区对AI原生基础设施的关注已从模型层扩展到工具链层。"
+    ]
+  },
+  {
+    "id": "2026-10-26_vibe_5",
+    "date": "2026-10-26",
+    "category": "VibeCoding",
+    "subcat": "huggingface",
+    "platform": "Hugging Face",
+    "platform_color": "#FFD21E",
+    "title": "南北阁4.3-33B开源编程模型发布",
+    "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+    "image": "images/2026-10-26/2026-10-26_vibe_5.jpg",
+    "detail": [
+      "BOSS直聘旗下的大模型研究团队南北阁实验室于10月24日至25日在Hugging Face发布Nanbeige4.3-33B模型。该模型是一个330亿参数的稠密Transformer，支持最高524288个token即512K的上下文窗口，专为代理式编程、工具调用和团队协作任务设计，支持中英双语。",
+      "基准测试方面，该模型在Terminal Bench 2.1上自报80.9分，DeepSWE上65.5分，均超过Qwen3.8 27B的73.0和42.5分。不过在SWE Bench Pro上Qwen3.8仍以61.7对60.3略胜一筹。模型可在vLLM或SGLang上运行，支持Qwen3工具调用解析格式。",
+      "模型以Apache 2.0协议开源，权重于10月24日上传至Hugging Face仓库，完整的模型卡和基准对比于10月25日定稿发布。这是继DeepSeek和Qwen之后，又一家中国团队推出的面向代理式编程的开源大模型，进一步加剧了该赛道的竞争。",
+      "社区评价较为积极，认为512K上下文和33B参数量在消费级硬件上具有较好的可部署性，但在SWE Bench Pro上的表现仍落后于Qwen3.8，说明编程能力仍有提升空间。代理式编程开源模型的持续涌现为开发者提供了更多自托管选择。"
+    ]
+  },
+  {
+    "id": "2026-10-26_vibe_3",
+    "date": "2026-10-26",
+    "category": "VibeCoding",
+    "subcat": "hackernews",
+    "platform": "GitHub",
+    "platform_color": "#FF6600",
+    "title": "Corgi多路终端复用器登上Show HN",
+    "url": "https://github.com/tals/corgi",
+    "image": "images/2026-10-26/2026-10-26_vibe_3.jpg",
+    "detail": [
+      "一款名为Corgi的开源终端复用器于10月25日登上Hacker News的Show HN板块，专为管理多个AI编程代理会话而设计。该项目由独立开发者tals开发，目前在GitHub已获146颗星和635次提交，支持Claude Code、Codex和Pi等多种编程代理的并行管理。",
+      "Corgi的核心功能包括：在单个窗口中并排管理多个编程代理shell会话，实时活动反馈面板，统一启动器支持会话搜索和使用量追踪，以及通过SSH也能正常工作的图片粘贴功能。开发者可快速跳转到下一个未读代理的快捷键，大幅提升多代理协作效率。",
+      "Corgi还支持为对话命名、查看推送提交记录的弹出窗口、为Pi及其签名推理模型提供原生支持等特性。项目在Show HN上获得了社区关注，开发者表示多机器远程连接是下一步开发重点，Windows支持也在路线图中。",
+      "随着越来越多的开发者同时运行多个AI编程代理，终端复用和管理工具成为新的刚需。Corgi的出现恰逢其时，填补了tmux等传统终端复用器在AI代理工作流中的空白，社区反响积极。"
+    ]
+  },
+  {
+    "id": "2026-10-26_vibe_2",
+    "date": "2026-10-26",
+    "category": "VibeCoding",
+    "subcat": "dev.to",
+    "platform": "DEV Community",
+    "platform_color": "#0A0A0A",
+    "title": "Codex CLI新增presets与权限配置",
+    "url": "https://dev.to/aicoding-guide/codex-cli-v0164-adds-presets-and-inline-permissions-arguments-for-permission-profiles-4deb",
+    "image": "images/2026-10-26/2026-10-26_vibe_2.jpg",
+    "detail": [
+      "OpenAI的终端编程代理Codex CLI于10月25日发布0.164.0版本，这是近期少有的功能密集型发布。新版本带来两项核心功能：/presets预设槽位和内联/permissions权限参数，同时强化了沙箱检查并新增远程Bash命令中的凭据遮蔽功能，大幅提升了开发者日常使用效率。",
+      "/presets功能允许开发者将可复用的提示词和slash命令保存至十个编号槽位，通过键盘菜单快速调用，解决了每次会话重复输入固定指令的痛点。/model和/permissions命令现在接受内联参数，可直接在命令中设定模型、推理力度、速度及权限配置文件，无需打开菜单逐项选择。",
+      "权限配置文件（permission profiles）是该版本的隐藏亮点，作为beta机制允许开发者在permissions.<name>下自定义规则并通过default_permissions键选择。但需注意它不能与旧的sandbox_mode设置同时使用，同时配置时其中一个会被静默忽略，这一陷阱引发了社区讨论。",
+      "此外，新版本还支持Kitty和Sixel图形终端的图片预览、企业MCP连接的OAuth认证、Amazon Bedrock设置向导默认启用，以及压缩失败后不再在对话历史中留下部分摘要。91个commit的大版本更新获得开发者社区积极反响。"
+    ]
+  },
+  {
+    "id": "2026-10-26_vibe_1",
+    "date": "2026-10-26",
+    "category": "VibeCoding",
+    "subcat": "dev.to",
+    "platform": "VibeHacker",
+    "platform_color": "#0A0A0A",
+    "title": "Claude Code连修15处沙箱权限绕过漏洞",
+    "url": "https://vibehacker.com/news/claude-code-2-1-309-closes-sandbox-and-mcp-config-gaps-and-makes-ultrareview-ask",
+    "image": "images/2026-10-26/2026-10-26_vibe_1.jpg",
+    "detail": [
+      "Anthropic旗下的AI编程代理工具Claude Code于10月22日至23日连续发布2.1.309和2.1.310两个版本，集中修复安全沙箱与权限检查中的大量绕过漏洞。两个版本在两天内修补多达15处安全护栏失效问题，涉及deny规则未触发、沙箱边界未生效等关键缺陷，被安全社区称为值得逐条细读的版本。",
+      "核心问题包括：macOS和Linux上沙箱化Bash命令会在沙箱外先执行shell启动文件；沙箱化命令和自动接受的编辑可修改通过--mcp-config传入的MCP配置文件，意味着代理能自行扩大访问范围；Edit(path)的deny规则无法阻止Bash重定向写入该路径中的子shell命令；符号链接路径下denyWrite模式不生效；以及权限检查依赖了可能失效的变量赋值。",
+      "Windows平台上PowerShell权限检查会自动批准带有额外参数的Set-Location命令。2.1.310还修复了Git Bash缺失时PreToolUse和PermissionRequest钩子在仅含引号字符串时放行工具调用的问题。此外ultrareview现在要求workspace trust，脚本需传入--trust-workspace参数。",
+      "开发者若依赖deny规则或沙箱隔离保护.env等敏感文件，被强烈建议立即升级。安全分析指出这些是\"已配置但未实际执行\"的系统性问题。新版本还引入claude_code.safety_event OpenTelemetry事件，追踪每次被权限规则或安全检查阻止的工具调用，社区反响热烈。"
+    ]
+  },
+  {
+    "id": "2026-10-26_game_7",
+    "date": "2026-10-26",
+    "category": "Gaming",
+    "subcat": "xbox",
+    "platform": "PureXbox",
+    "platform_color": "#000000",
+    "title": "Xbox下周40余款新游：狼与我们重制等",
+    "url": "https://www.purexbox.com/news/2026/10/these-40plus-games-are-coming-to-xbox-next-week-october-26-31",
+    "image": "images/2026-10-26/2026-10-26_game_7.jpg",
+    "detail": [
+      "PureXbox报道，2026年10月26日至31日期间将有超过40款新游戏登陆Xbox平台，涵盖多种类型。其中最受瞩目的包括10月29日发售的《狼与我们重制版》，该作以增强画面和修复删除场景回归。",
+      "Game Pass方面六款新作即将加入，包括10月26日的抢先体验《Scramble Knights Online》、10月27日的《布莱克庄园的降神会》以及10月29日的《最终幻想7重制版Intergrade》。此外《Metro Redux》系列也将获得免费次世代升级。",
+      "其他亮点包括10月27日的《模拟农场25：豆与羊驼版》《Remothered: Red Nun's Legacy》，10月29日的《Croc 2：哥布林王国》以及多款独立游戏。10月30日还有复古奇幻动作RPG《Queen's Domain》登陆全平台。",
+      "社区玩家表示这一周阵容\"令人目不暇接\"，特别是万圣节前夕大量恐怖和超自然题材游戏的集中发售。有评论指出在Game Pass和零售双重加持下，这可能是2026年Xbox最忙碌的一周。"
+    ]
+  },
+  {
+    "id": "2026-10-26_game_6",
+    "date": "2026-10-26",
+    "category": "Gaming",
+    "subcat": "switch2",
+    "platform": "NintendoEverything",
+    "platform_color": "#E60012",
+    "title": "Nintendo预订更新：我的世界等多作开放",
+    "url": "https://nintendoeverything.com/nintendo-pre-order-updates-october-25-2026",
+    "image": "images/2026-10-26/2026-10-26_game_6.jpg",
+    "detail": [
+      "NintendoEverything于2026年10月25日发布了最新一期任天堂零售预订更新。Switch 2方面，《我的世界》和《Village in the Shade》将于10月27日发售，相关预订已在Amazon、Best Buy和GameStop全面开放。",
+      "《忍者神龟：裂痕传奇典藏版》同样定于10月27日，而《降世神通：格斗游戏》及其豪华版将于10月28日上架。《宝可梦传说：Z-A Switch 2版》则定于10月29日发售，被视为Switch 2年底前的重磅作品。",
+      "预订列表还包括多款2027年发售的作品，如《Romancing SaGa 3》2月16日、《塞尔达无双：灾厄启示录决定版》2月25日、《最终幻想7启示录》4月8日等，展现了Switch 2未来半年的充实阵容。",
+      "社区玩家对《宝可梦传说：Z-A》Switch 2版的发售日期尤为关注。同时《降世神通：格斗游戏》的实体版也引发讨论，因其将在掌机上提供完整的格斗体验，预订热度持续攀升。"
+    ]
+  },
+  {
+    "id": "2026-10-26_game_5",
+    "date": "2026-10-26",
+    "category": "Gaming",
+    "subcat": "switch2",
+    "platform": "GoNintendo",
+    "platform_color": "#E60012",
+    "title": "Switch 2文件大小汇总：星刃25.4GB居首",
+    "url": "https://gonintendo.com/contents/66475-nintendo-eshop-file-size-round-up-for-oct-25th-2026-minecraft-stellar-blade",
+    "image": "images/2026-10-26/2026-10-26_game_5.jpg",
+    "detail": [
+      "GoNintendo于2026年10月25日发布了最新一期Switch及Switch 2 eShop游戏文件大小汇总。其中Switch 2平台最受关注的是《星刃完整版》，文件大小达25.4GB，是本期最大的游戏文件。",
+      "其他Switch 2新作包括ANOMALITH（14.6GB）、《Steins;Gate Reboot》（8.0GB）、《Cities: Skylines扩展版》（6.0GB）、《Village in the Shade》（5.6GB）以及《我的世界》（1.2GB）等。《布莱克庄园的降神会》仅需2.1GB。",
+      "Switch初代方面，《Love Love Mystery Club》以13.2GB居首，多款恐怖和解谜类游戏集中在2GB左右。值得注意的是《Steins;Gate Reboot》在两个平台文件大小差异明显，Switch 2版8.0GB而Switch版仅5.9GB。",
+      "文件大小信息帮助玩家提前规划存储空间，特别是在Switch 2内置存储有限的情况下。社区讨论中，玩家们对《星刃完整版》的25.4GB表示关注，建议购买microSD Express卡来扩展容量。"
+    ]
+  },
+  {
+    "id": "2026-10-26_game_4",
+    "date": "2026-10-26",
+    "category": "Gaming",
+    "subcat": "主机游戏",
+    "platform": "RPGSite",
+    "platform_color": "#E60012",
+    "title": "魔界战记制作人新游恶魔之夜狂热发售",
+    "url": "https://www.rpgsite.net/news/21624-demons-night-fever-now-available-worldwide-disgaea-creator-new-rpg",
+    "image": "images/2026-10-26/2026-10-26_game_4.jpg",
+    "detail": [
+      "Arc System Works于2026年10月25日宣布，由《魔界战记》制作人新川宗平监制、SuperNiche和Drecom联合开发的全新策略RPG《恶魔之夜狂热》在全球正式发售，登陆PS5、Switch和PC平台，售价39.99美元。",
+      "本作以\"享受邪恶\"为核心理念，玩家扮演被最邪恶的恶魔附身的阴郁少年，利用独特的\"仆从剥削系统\"在战斗中牺牲己方单位来获得胜利。游戏还设有\"悖逆点数\"系统，通过作恶积累点数来强化角色。",
+      "每击败一章Boss后，游戏场景将完全变换——玩家可能化身为怪物对抗超级战队，也可能变成魔女对抗魔法少女。这种多变的叙事风格是本作最大的特色之一，每个章节都有全新体验。",
+      "作为《魔界战记》系列制作人新作，本作在发售后受到策略RPG爱好者的广泛关注。社区评价认为其继承了魔界战记的硬核策略基因，同时大胆创新了\"以恶为乐\"的玩法概念，创意十足。"
+    ]
+  },
+  {
+    "id": "2026-10-26_game_3",
+    "date": "2026-10-26",
+    "category": "Gaming",
+    "subcat": "switch2",
+    "platform": "RPGSite",
+    "platform_color": "#E60012",
+    "title": "暗黑地牢2登Switch2：60帧加鼠标操控",
+    "url": "https://www.rpgsite.net/news/21622-darkest-dungeon-2-nintendo-switch-2-edition-download-upgrade-pack-frame-rate-mouse-controls-price",
+    "image": "images/2026-10-26/2026-10-26_game_3.jpg",
+    "detail": [
+      "Red Hook Studios于2026年10月25日宣布《暗黑地牢2》Nintendo Switch 2 Edition正式发售。Switch 2版本支持掌机模式1080p、底座模式1440p分辨率，并实现60帧流畅运行。",
+      "新版本还加入了Joy-Con 2鼠标控制支持，以及快速驾驶和快速战斗选项。已在Switch初代拥有该作的玩家可通过eShop以2.99美元的升级包价格升级到Switch 2版本，优惠力度受到好评。",
+      "《暗黑地牢2》是一款以压力管理和角色关系为核心的暗黑风RPG，此前已在PS5、PS4、Xbox、PC和Switch平台发售。Switch 2版本在画质和操作体验上的提升使其成为体验该作的最佳便携选择。",
+      "玩家社区对升级包定价表示认可，认为2.99美元相对合理。有评论指出，Joy-Con 2鼠标控制的加入让这款策略RPG在掌机上的操作体验大幅改善，弥补了前作在Switch上的操控短板。"
+    ]
+  },
+  {
+    "id": "2026-10-26_game_2",
+    "date": "2026-10-26",
+    "category": "Gaming",
+    "subcat": "xbox",
+    "platform": "RollingOut",
+    "platform_color": "#000000",
+    "title": "Xbox Game Pass月末六连发：FF7重制领衔",
+    "url": "https://rollingout.com/2026/10/25/xbox-game-pass-6-games-late-october-2026/",
+    "image": "images/2026-10-26/2026-10-26_game_2.jpg",
+    "detail": [
+      "Xbox Game Pass于2026年10月25日确认将在月底前迎来六款新游，涵盖RPG、恐怖、解谜等多种类型。首批登陆的《Scramble Knights Online》于10月26日以抢先体验形式加入，是一款带有轻度MMO元素的动作RPG。",
+      "10月27日将加入超自然侦探游戏《布莱克庄园的降神会》，故事设定在1897年爱尔兰。10月29日是重头戏——《最终幻想7重制版Intergrade》登陆Game Pass，这是该作首次加入微软的订阅服务。",
+      "同日还有三款作品加入：心理恐怖游戏《漱口水》、经典塔防重制《植物大战僵尸：重制版》以及恐怖跑酷新作《可怕的蜥蜴》。其中《可怕的蜥蜴》由JT Music团队首度跨界开发，主打无武器跑酷生存。",
+      "这波阵容恰逢万圣节档期，六款中四款偏向恐怖和超自然题材。订阅用户社区对此表示满意，认为微软在十月末的阵容既有大作也有独立精品，性价比突出。"
+    ]
+  },
+  {
+    "id": "2026-10-26_game_1",
+    "date": "2026-10-26",
+    "category": "Gaming",
+    "subcat": "switch2",
+    "platform": "NintendoEverything",
+    "platform_color": "#E60012",
+    "title": "Switch 2 eShop榜：体感运动力压使命召唤",
+    "url": "https://nintendoeverything.com/nintendo-switch-2-eshop-charts-october-25-2026/",
+    "image": "images/2026-10-26/2026-10-26_game_1.jpg",
+    "detail": [
+      "任天堂于2026年10月25日公布了最新一期Switch 2 eShop下载排行榜。令人意外的是，任天堂自家的体感运动游戏《Nintendo Switch Sports Resort》力压刚刚发售的《使命召唤：现代战争4》登顶第一。",
+      "排行榜前三名为《Nintendo Switch Sports Resort》《使命召唤：现代战争4 标准版》和《最终幻想共鸣》，数字豪华版也进入前五。《赛博朋克2077：终极版》排在第五，近期新作《PEAK》《王国之心合集》等也进入前二十。",
+      "作为Switch 2的首个使命召唤作品，《现代战争4》在掌机平台的表现备受关注。然而体感运动游戏在任天堂平台的传统号召力依然强劲，《Sports Resort》延续了Wii时代的运动游戏基因。",
+      "社区评论指出\"谁说任天堂玩家不喜欢运动游戏\"，反映出Switch 2用户群体的多元化偏好。同时《古墓丽影：暗影》和《生化危机4黄金版》等移植作品也在榜单中占据一席之地。"
+    ]
+  },
+  {
+    "id": "2026-10-26_ai_8",
+    "date": "2026-10-26",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "Zhipu AI",
+    "platform_color": "#10A37F",
+    "title": "GLM-5.2登顶Artificial Analysis开源权重模型榜首",
+    "url": "https://artificialanalysis.ai/articles/glm-5-2-is-the-new-leading-open-weights-model-on-the-artificial-analysis-intelligence-index",
+    "image": "images/2026-10-26/2026-10-26_ai_8.jpg",
+    "detail": [
+      "独立评测机构Artificial Analysis将Z.ai的GLM-5.2列为智能指数v4.1开源权重模型第一名，得分51，领先MiniMax-M3（44）、DeepSeek V4 Pro（44）和Kimi K2.6（43）。模型在FrontierSWE基准上达74.4%，仅落后Claude Opus 4.8一个百分点，超越GPT-5.5。",
+      "GLM-5.2采用744B总参数、40B活跃参数的MoE架构，MIT许可证下发布，支持100万token上下文。技术上通过IndexShare技术——每四层稀疏注意力共享一个轻量索引器——将百万token上下文的单token计算量降低2.9倍。API定价为每百万输入1.4美元、输出4.4美元，约为Opus 4.8的五分之一。",
+      "不过Artificial Analysis指出GLM-5.2每个任务消耗4.3万个输出token，高于多数开源竞品。独立测试者Nate Herk实测网站构建用时3分59秒，而Opus 4.8需14分59秒。在Code Arena WebDev排行榜上GLM-5.2排名第二，仅次于Claude Fable 5，Simon Willison称其为\"最强大的纯文本开源权重系统\"。"
+    ]
+  },
+  {
+    "id": "2026-10-26_ai_7",
+    "date": "2026-10-26",
+    "category": "AI",
+    "subcat": "AI政策",
+    "platform": "Semafor",
+    "platform_color": "#10A37F",
+    "title": "特朗普政府拟对AI企业持股，内阁分歧浮现",
+    "url": "https://aiweekly.co/alerts/trump-aides-weigh-ai-equity-stakes-amid-industry-pushback",
+    "image": "images/2026-10-26/2026-10-26_ai_7.jpg",
+    "detail": [
+      "Semafor报道特朗普政府高级官员正在讨论对主要AI公司持有政府股权的方案。财政部长Bessent倾向于将AI企业股权用于注入\"特朗普账户\"——一种面向美国新生儿的投资账户计划，而商务部长Lutnick则倾向于将股权纳入主权财富基金模式。该讨论仍处于早期阶段，尚无最终决定。",
+      "结构性难题在于：AI公司通常将利润再投资而非分红，政府持股如何获得实际回报尚不明朗。一位AI游说者直言\"稍微做一下压力测试就会发现整个方案站不住脚\"。微软和Meta已公开反对政府持股权想法，认为这可能影响企业独立性和全球竞争力，共和党参议员Lummis和Kennedy也表达了疑虑。",
+      "Anthropic的出口管制事件为谈判增加了复杂层级。特朗普曾表示将与\"前12至15位高管\"会面，但会议尚未举行。AI行业内部对此方案态度分化：部分初创公司担忧政府持股可能带来额外监管限制，另一些则认为政府背书可能提升市场信心。",
+      "该讨论如果推进，将开创美国政府直接持有AI公司股权的先例，可能重塑美国AI产业与政府的关系结构。与阿联酋通过MGX投资OpenAI、沙特PIF布局AI基建等主权基金模式形成对照，美国政府的直接持股方案在全球AI产业中尚无先例。"
+    ]
+  },
+  {
+    "id": "2026-10-26_ai_6",
+    "date": "2026-10-26",
+    "category": "AI",
+    "subcat": "AI产业",
+    "platform": "Anthropic",
+    "platform_color": "#10A37F",
+    "title": "Dario Amodei详述离开OpenAI原因：不信任Sam Altman",
+    "url": "https://aiweekly.co/alerts/dario-amodei-why-argue-with-someone-you-dont-trust-anthropic-ceo-explains-why",
+    "image": "images/2026-10-26/2026-10-26_ai_6.jpg",
+    "detail": [
+      "Anthropic CEO Dario Amodei在Bloomberg\"The Circuit with Emily Chang\"节目中详细阐述了他离开OpenAI的原因。他表示\"当你和一个人没有共同愿景且不信任他时，为什么还要争吵呢\"，这被广泛解读为对Sam Altman的暗讽。该采访于10月25日由AI Weekly重新推送引发关注。",
+      "Amodei强调他已完全释然，\"我们用自己的方式做事，他们用自己的方式做事\"。他还透露信任Google DeepMind CEO Demis Hassabis，称两人认识15年，经常交换安全研究想法，并从Google购买算力。相比之下，他暗示OpenAI内部存在\"令人不安的行为模式和不诚实\"。",
+      "这一采访重新引发关注与Ronan Farrow在《纽约客》的报道有关，该报道审视Altman是否值得信任，并引用了Amodei在OpenAI期间关于Altman的笔记。Amodei表示最终由市场和公众舆论来评判谁是对的，而Anthropic正迈向IPO，Q3增长率为45%，算力支出约占营收一半以下。"
+    ]
+  },
+  {
+    "id": "2026-10-26_ai_5",
+    "date": "2026-10-26",
+    "category": "AI",
+    "subcat": "AI基建",
+    "platform": "SpaceX",
+    "platform_color": "#10A37F",
+    "title": "SpaceX完成400亿美元债务融资采购GPU",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-25/musk-says-spacex-closed-40-billion-debt-deal-blasts-neoclouds",
+    "image": "images/2026-10-26/2026-10-26_ai_5.jpg",
+    "detail": [
+      "马斯克10月25日在X上宣布SpaceX已完成400亿美元债务融资，用于采购英伟达GPU，这些芯片计划于2027年初交付。马斯克表示，SpaceX凭借投资级信用评级以及Starlink卫星业务和火箭发射的多元化收入获得了该融资。",
+      "马斯克同时抨击NeoCloud（专门提供GPU租赁的云服务商），称许多小型AI基础设施公司面临资金链断裂风险，可能导致行业倒闭或整合。这笔债务大部分为可提前偿还结构，为SpaceX提供了灵活的退出选项。GuruFocus数据显示SpaceX市值约1.98万亿美元。",
+      "该融资规模反映出AI算力竞争已从模型层延伸至芯片采购层。SpaceX此前曾于10月初被报道正在寻求约400亿美元债务融资购买英伟达芯片，此次正式完成标志着非传统AI企业大规模入局GPU囤积竞赛，加剧了对GPU供给的争夺。"
+    ]
+  },
+  {
+    "id": "2026-10-26_ai_4",
+    "date": "2026-10-26",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "Moonshot AI",
+    "platform_color": "#10A37F",
+    "title": "Kimi K3.1 Pro发布即陷付费博主隐藏标记丑闻",
+    "url": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
+    "image": "images/2026-10-26/2026-10-26_ai_4.jpg",
+    "detail": [
+      "Moonshot AI于10月23日发布Kimi K3.1 Pro，Artificial Analysis将其排在智能指数第四位，得分55，仅次于Claude Opus 5.5（58），超越GPT-6 Astra和Gemini 4 Argon。模型支持100万token上下文，定价为每百万输入2美元、输出10美元，约为Opus 5.5的一半。权重承诺于11月4日开源。",
+      "然而发布同日，X博主Elshayib公开了据称为Kimi营销简报的截图，其中明确要求创作者\"不要添加付费合作伙伴标签\"，并需提交稿件待审后方可发布。建议话术包括\"中国让Opus 5.5免费开放给所有人\"，将产品发布框定为中美科技竞争叙事。",
+      "德国AI评论人@kimmonismus虽此前赞赏Kimi的技术成就，但严厉批评此做法，强调自己的报道从未接受付费。Pekingnology分析指出，这种将国内营销习惯带入国际市场的做法在Moonshot已面临美国蒸馏指控和制裁压力的背景下格外危险，可能被解读为有组织的舆论操控。Moonshot截至周日未公开回应。"
+    ]
+  },
+  {
+    "id": "2026-10-26_ai_3",
+    "date": "2026-10-26",
+    "category": "AI",
+    "subcat": "AI视频",
+    "platform": "xAI",
+    "platform_color": "#10A37F",
+    "title": "Grok发布AI生成《奥德赛》首集七分钟视频",
+    "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+    "image": "images/2026-10-26/2026-10-26_ai_3.jpg",
+    "detail": [
+      "Grok Imagine于10月23日在X平台发布了AI生成的《奥德赛》系列第一集，时长约七分钟，由Grok Imagine与Wonder Studios及导演Dev Walker合作完成。这是马斯克三个月前承诺制作全长电影后的首次交付，不过从院线电影缩减为网络分集发布，制作规模明显缩水。",
+      "视频讲述希腊人抵达特洛伊的故事，但展现出AI生成视频的典型技术问题：人物牙齿过于完美，头发质感失重如水，皮肤因模型无法正确处理光影而呈现模糊效果。全片仅奥德修斯一个角色有名字，对不熟悉史诗的观众而言人物辨识困难。场景切换生硬，角色表情缺乏微妙的情感变化，动作场面虽然宏大但缺乏物理真实感。",
+      "该帖在X上获得约396万次浏览，马斯克转发帖获得约219万次浏览。评论呈现两极分化：支持者称赞叙事创意和配乐氛围，批评者质疑视觉质量和角色建模。有用户指出视频中的船桨动作与水面缺乏物理交互，暴露了当前AI视频生成的技术短板。",
+      "Variety称这是马斯克对七月承诺的\"部分兑现\"，更多集数仍在制作中。业内人士分析认为，从院线电影降级为分集网络发布，反映出AI视频生成在长篇叙事连贯性上仍面临重大挑战。Grok Imagine团队尚未公布后续集数的发布时间表。"
+    ]
+  },
+  {
+    "id": "2026-10-26_ai_2",
+    "date": "2026-10-26",
+    "category": "AI",
+    "subcat": "AI经济",
+    "platform": "Bloomberg",
+    "platform_color": "#10A37F",
+    "title": "Apollo首席经济学家称AI对非科技企业回报为零",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-25/ai-provides-zero-payoff-to-s-p-493-outside-tech-apollo-economist-says",
+    "image": "images/2026-10-26/2026-10-26_ai_2.jpg",
+    "detail": [
+      "Apollo全球管理公司首席经济学家Torsten Slok在10月24日发表研报指出，尽管AI投资规模巨大，该技术对科技行业以外的美国企业带来了\"零财务回报\"。Mag 7的人均营收持续上升，而标普493的人均营收基本持平，利润率也呈现同样的分化趋势。",
+      "Slok引用Ramp数据显示，AI支出极度集中：模型推理支出的99.5%来自前10%的企业，OpenAI和Anthropic的直接付款中95.6%来自同一群体。前1%的AI重度用户中80.4%为风投支持的创业公司，这意味着大部分AI需求来自依赖外部融资而非经营利润的企业。",
+      "KPMG调查显示49%的企业因成本超支而缩减或暂停AI智能体部署，仅7%报告已建立ROI。Slok总结称\"AI的故事将由标普493而非Mag 7决定\"，目前没有证据表明科技行业之外的营收增长或利润率正在改善，主流企业正开始将token支出视为成本中心而非增长来源。"
+    ]
+  },
+  {
+    "id": "2026-10-26_ai_1",
+    "date": "2026-10-26",
+    "category": "AI",
+    "subcat": "AI产业",
+    "platform": "OpenAI",
+    "platform_color": "#10A37F",
+    "title": "OpenAI以30%折扣从Anthropic手中抢走Replit过亿订单",
+    "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity",
+    "image": "images/2026-10-26/2026-10-26_ai_1.jpg",
+    "detail": [
+      "Replit近几个月将大部分AI预算从Anthropic转向OpenAI，OpenAI对年额1亿美元以上合同提供超过30%的折扣，而Anthropic要求更大支出承诺才愿延续此前的优惠。DataCamp CEO也透露OpenAI为其内部产品开发模型提供了40%折扣，条件是绑定使用Codex。",
+      "Rippling数据揭示更广趋势：5月份Anthropic模型承担了工程师57%的编码工作，OpenAI仅16%，如今格局逆转——OpenAI升至52%，Anthropic跌至18%。CEO Parker Conrad将转变归因于OpenAI的价格竞争力。OpenAI同时向多家企业以折扣换取Codex绑定策略，加速抢占默认模型地位。",
+      "不过反向信号同时存在。OpenRouter数据显示Claude Opus 5.5发布后Anthropic重新夺回使用量第一，一周用量约为OpenAI模型的两倍。一家资产超70亿美元的美国银行将ChatGPT账号限额翻倍至500个，放弃了迁移Claude的计划。折扣能否长期锁定客户仍待观察。"
+    ]
+  }
+]
