@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T08:30:00+08:00",
+  "source": "auto-research",
+  "hot_posts": [
+    {
+      "title": "The Goose Programming Language",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50224100",
+      "summary": "全新编程语言 Goose 发布，获 HN 首页 564 分 348 条评论。社区讨论编程语言设计范式和简洁性。",
+      "score": 564
+    },
+    {
+      "title": "Cerebras Deploys Trillion-Parameter AI Models",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50227356",
+      "summary": "Cerebras 详解在晶圆级芯片上部署万亿参数模型，获 350 分 127 评论。讨论超越 GPU 架构可行性。",
+      "score": 350
+    },
+    {
+      "title": "10-year-old CNN outperforms frontier LLMs for skin cancer",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50233779",
+      "summary": "十年前 CNN 在皮肤癌诊断击败前沿 LLM，获 403 分 194 评论。引发专用 vs 通用模型辩论。",
+      "score": 403
+    },
+    {
+      "title": "Moli - Fastest headless browser for agents",
+      "platform": "Product Hunt",
+      "url": "https://www.producthunt.com/leaderboard/daily/2026/10/25",
+      "summary": "Moli 登顶 Product Hunt 10月25日榜单，226 票，AI Agent 专用极速无头浏览器。",
+      "score": 226
+    },
+    {
+      "title": "Root shell on Samsung TV",
+      "platform": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50218633",
+      "summary": "安全研究员获取三星电视 root shell，获 760 分 572 评论，当日 HN 最高分。引发硬件安全讨论。",
+      "score": 760
+    }
+  ],
+  "topics": [
+    {
+      "name": "AI Agent 通用插件生态",
+      "description": "多 harness 插件市场爆发，单一 Markdown 源适配 Claude Code、Codex、Cursor 等 7 种 agent 框架。GitHub Trending 显示 93% 热门项目已转向可移植性层。",
+      "momentum": "rising"
+    },
+    {
+      "name": "万亿参数模型部署",
+      "description": "Cerebras 展示在晶圆级芯片上部署万亿参数模型，挑战 GPU 主导地位。社区讨论专用硬件 vs 通用 GPU 路线。",
+      "momentum": "rising"
+    },
+    {
+      "name": "AI 对创意行业就业冲击",
+      "description": "Apricitas 分析报告指出美国媒体影视行业已流失 20 万岗位，HN 帖子获 503 分 539 评论。讨论 AI 替代 vs 工具增强边界。",
+      "momentum": "stable"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Andrew Feldman",
+      "platform": "X/Twitter & TechCrunch",
+      "followers": "50K+",
+      "recent_highlight": "Cerebras CEO 在 Disrupt 2026 反驳 AI 末日论，发布万亿参数模型部署博客登顶 HN。"
+    },
+    {
+      "name": "wshobson",
+      "platform": "GitHub",
+      "followers": "41K stars",
+      "recent_highlight": "agents 仓库 41,320 星登 GitHub 月度趋势榜首，94 插件/202 agent 适配 7 种 harness。"
+    },
+    {
+      "name": "Matt Shumer",
+      "platform": "X/Twitter",
+      "followers": "200K+",
+      "recent_highlight": "AI 变革长文获超 130 万浏览 6100 点赞，持续推动 AI 社会影响讨论。"
+    }
+  ]
+}
