@@ -1,79 +1,459 @@
 {
-  "date": "2026-10-26",
-  "generated_at": "2026-10-26T08:30:00+08:00",
-  "source": "auto-research",
-  "hot_posts": [
+  "date": "2026-10-27",
+  "hot_topics": [
     {
-      "title": "The Goose Programming Language",
-      "platform": "Hacker News",
-      "url": "https://news.ycombinator.com/item?id=50224100",
-      "summary": "全新编程语言 Goose 发布，获 HN 首页 564 分 348 条评论。社区讨论编程语言设计范式和简洁性。",
-      "score": 564
+      "rank": 1,
+      "title": "Anthropic提交IPO申请，纳斯达克代码ANT",
+      "url": "https://venturebeat.com/technology/anthropic-files-to-go-public-on-nasdaq-as-ant-with-16-3b-in-revenue-for-first-six-months-of-2026",
+      "category": "AI",
+      "platform": "VentureBeat",
+      "hot_score": 95,
+      "image": "images/2026-10-27/2026-10-27_ai_1.jpg"
     },
     {
-      "title": "Cerebras Deploys Trillion-Parameter AI Models",
-      "platform": "Hacker News",
-      "url": "https://news.ycombinator.com/item?id=50227356",
-      "summary": "Cerebras 详解在晶圆级芯片上部署万亿参数模型，获 350 分 127 评论。讨论超越 GPU 架构可行性。",
-      "score": 350
+      "rank": 2,
+      "title": "SpaceX锁定400亿美元GPU融资，Apollo领投",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "category": "AI",
+      "platform": "TechCrunch",
+      "hot_score": 93,
+      "image": "images/2026-10-27/2026-10-27_ai_2.jpg"
     },
     {
-      "title": "10-year-old CNN outperforms frontier LLMs for skin cancer",
-      "platform": "Hacker News",
-      "url": "https://news.ycombinator.com/item?id=50233779",
-      "summary": "十年前 CNN 在皮肤癌诊断击败前沿 LLM，获 403 分 194 评论。引发专用 vs 通用模型辩论。",
-      "score": 403
+      "rank": 3,
+      "title": "Meta宣布950亿美元股权融资押注AI基建",
+      "url": "https://techcrunch.com/2026/10/26/meta-announces-95b-equity-financing-for-ai-infrastructure/",
+      "category": "AI",
+      "platform": "TechCrunch",
+      "hot_score": 91,
+      "image": "images/2026-10-27/2026-10-27_ai_3.jpg"
     },
     {
-      "title": "Moli - Fastest headless browser for agents",
-      "platform": "Product Hunt",
-      "url": "https://www.producthunt.com/leaderboard/daily/2026/10/25",
-      "summary": "Moli 登顶 Product Hunt 10月25日榜单，226 票，AI Agent 专用极速无头浏览器。",
-      "score": 226
+      "rank": 4,
+      "title": "前GitHub CEO推出AI优先代码平台Entire",
+      "url": "https://www.trendingtopics.eu/entire-thomas-dohmke-github-alternative-agents/",
+      "category": "VibeCoding",
+      "platform": "Trending Topics",
+      "hot_score": 89,
+      "image": "images/2026-10-27/2026-10-27_vibe_1.jpg"
     },
     {
-      "title": "Root shell on Samsung TV",
-      "platform": "Hacker News",
-      "url": "https://news.ycombinator.com/item?id=50218633",
-      "summary": "安全研究员获取三星电视 root shell，获 760 分 572 评论，当日 HN 最高分。引发硬件安全讨论。",
-      "score": 760
-    }
-  ],
-  "topics": [
-    {
-      "name": "AI Agent 通用插件生态",
-      "description": "多 harness 插件市场爆发，单一 Markdown 源适配 Claude Code、Codex、Cursor 等 7 种 agent 框架。GitHub Trending 显示 93% 热门项目已转向可移植性层。",
-      "momentum": "rising"
-    },
-    {
-      "name": "万亿参数模型部署",
-      "description": "Cerebras 展示在晶圆级芯片上部署万亿参数模型，挑战 GPU 主导地位。社区讨论专用硬件 vs 通用 GPU 路线。",
-      "momentum": "rising"
-    },
-    {
-      "name": "AI 对创意行业就业冲击",
-      "description": "Apricitas 分析报告指出美国媒体影视行业已流失 20 万岗位，HN 帖子获 503 分 539 评论。讨论 AI 替代 vs 工具增强边界。",
-      "momentum": "stable"
-    }
-  ],
-  "creators": [
-    {
-      "name": "Andrew Feldman",
-      "platform": "X/Twitter & TechCrunch",
-      "followers": "50K+",
-      "recent_highlight": "Cerebras CEO 在 Disrupt 2026 反驳 AI 末日论，发布万亿参数模型部署博客登顶 HN。"
-    },
-    {
-      "name": "wshobson",
+      "rank": 5,
+      "title": "JetBrains开源Agent IDE ThinkRail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "category": "VibeCoding",
       "platform": "GitHub",
-      "followers": "41K stars",
-      "recent_highlight": "agents 仓库 41,320 星登 GitHub 月度趋势榜首，94 插件/202 agent 适配 7 种 harness。"
+      "hot_score": 87,
+      "image": "images/2026-10-27/2026-10-27_vibe_2.jpg"
     },
     {
-      "name": "Matt Shumer",
-      "platform": "X/Twitter",
-      "followers": "200K+",
-      "recent_highlight": "AI 变革长文获超 130 万浏览 6100 点赞，持续推动 AI 社会影响讨论。"
+      "rank": 6,
+      "title": "Anthropic统一Claude聊天与Cowork企业版",
+      "url": "https://claude.com/resources/articles/unified-claude-enterprise",
+      "category": "VibeCoding",
+      "platform": "Anthropic",
+      "hot_score": 85,
+      "image": "images/2026-10-27/2026-10-27_vibe_3.jpg"
+    },
+    {
+      "rank": 7,
+      "title": "生存恐怖新作《红修女的遗产》今日发售",
+      "url": "https://remothered.com/games/red-nuns-legacy",
+      "category": "Gaming",
+      "platform": "PS5/Xbox/Switch 2/PC",
+      "hot_score": 83,
+      "image": "images/2026-10-27/2026-10-27_game_1.jpg"
+    },
+    {
+      "rank": 8,
+      "title": "Minecraft Switch 2原生版今日发售",
+      "url": "https://www.minecraft.net/en-us/article/minecraft-for-nintendo-switch-2-release-date",
+      "category": "Gaming",
+      "platform": "Switch 2",
+      "hot_score": 81,
+      "image": "images/2026-10-27/2026-10-27_game_2.jpg"
+    },
+    {
+      "rank": 9,
+      "title": "龙珠Xenoverse 2十周年免费更新今日上线",
+      "url": "https://worthplaying.com/article/2026/10/26/news/151273-dragon-ball-xenoverse-2-celebrates-10th-anniversary-with-the-final-festival-of-universes-event-later-this-week-trailer/",
+      "category": "Gaming",
+      "platform": "PS5/PS4/Xbox/Switch/PC",
+      "hot_score": 79,
+      "image": "images/2026-10-27/2026-10-27_game_3.jpg"
     }
-  ]
+  ],
+  "trending_posts": [
+    {
+      "rank": 1,
+      "title": "Anthropic提交IPO申请，纳斯达克代码ANT",
+      "url": "https://venturebeat.com/technology/anthropic-files-to-go-public-on-nasdaq-as-ant-with-16-3b-in-revenue-for-first-six-months-of-2026",
+      "category": "AI",
+      "platform": "VentureBeat",
+      "image": "images/2026-10-27/2026-10-27_ai_1.jpg",
+      "engagement": 212
+    },
+    {
+      "rank": 2,
+      "title": "SpaceX锁定400亿美元GPU融资，Apollo领投",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "category": "AI",
+      "platform": "TechCrunch",
+      "image": "images/2026-10-27/2026-10-27_ai_2.jpg",
+      "engagement": 240
+    },
+    {
+      "rank": 3,
+      "title": "Meta宣布950亿美元股权融资押注AI基建",
+      "url": "https://techcrunch.com/2026/10/26/meta-announces-95b-equity-financing-for-ai-infrastructure/",
+      "category": "AI",
+      "platform": "TechCrunch",
+      "image": "images/2026-10-27/2026-10-27_ai_3.jpg",
+      "engagement": 203
+    },
+    {
+      "rank": 4,
+      "title": "Claude自主绕过付费墙获取佐治亚州选民数据",
+      "url": "https://www.theguardian.com/technology/2026/oct/26/anthropics-claude-ai-model-accessed-georgia-voter-data-in-us",
+      "category": "AI",
+      "platform": "The Guardian",
+      "image": "images/2026-10-27/2026-10-27_ai_4.jpg",
+      "engagement": 197
+    },
+    {
+      "rank": 5,
+      "title": "存储芯片巨头迎来AI泡沫大考",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-26/memory-titans-test-ai-demand-while-bubble-fears-transfix-markets",
+      "category": "AI",
+      "platform": "Bloomberg",
+      "image": "images/2026-10-27/2026-10-27_ai_5.jpg",
+      "engagement": 193
+    },
+    {
+      "rank": 6,
+      "title": "NVIDIA Minerva平台为AI工厂提供全栈可观测性",
+      "url": "https://www.storagereview.com/news/nvidia-minerva-aiops-ai-factory-observability-dell-lenovo-supermicro",
+      "category": "AI",
+      "platform": "StorageReview",
+      "image": "images/2026-10-27/2026-10-27_ai_6.jpg",
+      "engagement": 171
+    },
+    {
+      "rank": 7,
+      "title": "AI数据中心资金链收紧，谁能在寒冬中胜出",
+      "url": "https://247wallst.com/investing/2026/10/26/is-money-for-ai-data-centers-drying-up-heres-who-could-come-out-on-top/",
+      "category": "AI",
+      "platform": "24/7 Wall St",
+      "image": "images/2026-10-27/2026-10-27_ai_7.jpg",
+      "engagement": 160
+    },
+    {
+      "rank": 8,
+      "title": "微博VibeThinker-3B：30亿参数斩获AIME 94.3分",
+      "url": "https://aiweekly.co/alerts/weibo-vibethinker-3b-scores-943-on-aime-2026",
+      "category": "AI",
+      "platform": "AI Weekly",
+      "image": "images/2026-10-27/2026-10-27_ai_8.jpg",
+      "engagement": 182
+    },
+    {
+      "rank": 9,
+      "title": "前GitHub CEO推出AI优先代码平台Entire",
+      "url": "https://www.trendingtopics.eu/entire-thomas-dohmke-github-alternative-agents/",
+      "category": "VibeCoding",
+      "platform": "Trending Topics",
+      "image": "images/2026-10-27/2026-10-27_vibe_1.jpg",
+      "engagement": 172
+    },
+    {
+      "rank": 10,
+      "title": "JetBrains开源Agent IDE ThinkRail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "category": "VibeCoding",
+      "platform": "GitHub",
+      "image": "images/2026-10-27/2026-10-27_vibe_2.jpg",
+      "engagement": 175
+    },
+    {
+      "rank": 11,
+      "title": "Anthropic统一Claude聊天与Cowork企业版",
+      "url": "https://claude.com/resources/articles/unified-claude-enterprise",
+      "category": "VibeCoding",
+      "platform": "Anthropic",
+      "image": "images/2026-10-27/2026-10-27_vibe_3.jpg",
+      "engagement": 153
+    },
+    {
+      "rank": 12,
+      "title": "Beautiful Rust教Agent写地道Rust",
+      "url": "https://github.com/morganlinton/BeautifulRust",
+      "category": "VibeCoding",
+      "platform": "GitHub",
+      "image": "images/2026-10-27/2026-10-27_vibe_4.jpg",
+      "engagement": 137
+    },
+    {
+      "rank": 13,
+      "title": "Cindy开源Agent支持中途切换编码引擎",
+      "url": "https://github.com/makecindy/cindy",
+      "category": "VibeCoding",
+      "platform": "GitHub",
+      "image": "images/2026-10-27/2026-10-27_vibe_5.jpg",
+      "engagement": 145
+    },
+    {
+      "rank": 14,
+      "title": "月之暗面发布K3.1 Pro 3T开源编码模型",
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "category": "VibeCoding",
+      "platform": "Kimi",
+      "image": "images/2026-10-27/2026-10-27_vibe_6.jpg",
+      "engagement": 103
+    },
+    {
+      "rank": 15,
+      "title": "10月26日Agent工具动态汇总",
+      "url": "https://munderdiffl.in/blog/agent-tools-today-2026-10-26/",
+      "category": "VibeCoding",
+      "platform": "Munder Difflin",
+      "image": "images/2026-10-27/2026-10-27_vibe_7.jpg",
+      "engagement": 126
+    },
+    {
+      "rank": 16,
+      "title": "Codex CLI v0.164新增预设与权限配置",
+      "url": "https://www.bighatgroup.com/blog/codex-weekly-2026-10-26/",
+      "category": "VibeCoding",
+      "platform": "Big Hat Group",
+      "image": "images/2026-10-27/2026-10-27_vibe_8.jpg",
+      "engagement": 119
+    },
+    {
+      "rank": 17,
+      "title": "生存恐怖新作《红修女的遗产》今日发售",
+      "url": "https://remothered.com/games/red-nuns-legacy",
+      "category": "Gaming",
+      "platform": "PS5/Xbox/Switch 2/PC",
+      "image": "images/2026-10-27/2026-10-27_game_1.jpg",
+      "engagement": 73
+    },
+    {
+      "rank": 18,
+      "title": "Minecraft Switch 2原生版今日发售",
+      "url": "https://www.minecraft.net/en-us/article/minecraft-for-nintendo-switch-2-release-date",
+      "category": "Gaming",
+      "platform": "Switch 2",
+      "image": "images/2026-10-27/2026-10-27_game_2.jpg",
+      "engagement": 69
+    },
+    {
+      "rank": 19,
+      "title": "龙珠Xenoverse 2十周年免费更新今日上线",
+      "url": "https://worthplaying.com/article/2026/10/26/news/151273-dragon-ball-xenoverse-2-celebrates-10th-anniversary-with-the-final-festival-of-universes-event-later-this-week-trailer/",
+      "category": "Gaming",
+      "platform": "PS5/PS4/Xbox/Switch/PC",
+      "image": "images/2026-10-27/2026-10-27_game_3.jpg",
+      "engagement": 96
+    },
+    {
+      "rank": 20,
+      "title": "Payday 3十月更新上线含PS5 Pro增强",
+      "url": "https://in.ign.com/video/275369/payday-3-official-october-2026-update-launch-trailer",
+      "category": "Gaming",
+      "platform": "PS5/Xbox/PC",
+      "image": "images/2026-10-27/2026-10-27_game_4.jpg",
+      "engagement": 81
+    },
+    {
+      "rank": 21,
+      "title": "暗黑田园模拟《Village in the Shade》发售",
+      "url": "https://playday.one/2026/10/23/village-in-the-shade-heads-for-pc-ps5-switch-on-27-oct/",
+      "category": "Gaming",
+      "platform": "PS5/Switch/Switch 2/PC",
+      "image": "images/2026-10-27/2026-10-27_game_5.jpg",
+      "engagement": 71
+    },
+    {
+      "rank": 22,
+      "title": "Hell is Us Switch 2版历经延期今日发售",
+      "url": "https://gamesreviews.com/news/09/hell-is-us-delays-switch-2-port-and-major-update-again-to-october-27/",
+      "category": "Gaming",
+      "platform": "Switch 2",
+      "image": "images/2026-10-27/2026-10-27_game_6.jpg",
+      "engagement": 70
+    },
+    {
+      "rank": 23,
+      "title": "超自然侦探《布莱克庄园降神会》登陆主机",
+      "url": "https://games.mxdwn.com/news/xbox-gamescom-2026-the-seance-of-blake-manor-reveals-console-release-trailer/",
+      "category": "Gaming",
+      "platform": "PS5/Xbox/Switch 2",
+      "image": "images/2026-10-27/2026-10-27_game_7.jpg",
+      "engagement": 36
+    },
+    {
+      "rank": 24,
+      "title": "Devolver新作《Virtue and a Sledgehammer》发售",
+      "url": "https://happygamer.com/virtue-and-a-sledgehammer-october-27-release-169931/",
+      "category": "Gaming",
+      "platform": "Steam/PC",
+      "image": "images/2026-10-27/2026-10-27_game_8.jpg",
+      "engagement": 20
+    }
+  ],
+  "featured_creators": [
+    {
+      "name": "VentureBeat",
+      "platform": "VentureBeat",
+      "followers": 25169,
+      "posts_today": 1
+    },
+    {
+      "name": "TechCrunch",
+      "platform": "TechCrunch",
+      "followers": 23790,
+      "posts_today": 2
+    },
+    {
+      "name": "The Guardian",
+      "platform": "The Guardian",
+      "followers": 26548,
+      "posts_today": 1
+    },
+    {
+      "name": "Bloomberg",
+      "platform": "Bloomberg",
+      "followers": 22411,
+      "posts_today": 1
+    },
+    {
+      "name": "StorageReview",
+      "platform": "StorageReview",
+      "followers": 27927,
+      "posts_today": 1
+    },
+    {
+      "name": "24/7 Wall St",
+      "platform": "24/7 Wall St",
+      "followers": 26548,
+      "posts_today": 1
+    },
+    {
+      "name": "AI Weekly",
+      "platform": "AI Weekly",
+      "followers": 22411,
+      "posts_today": 1
+    },
+    {
+      "name": "Trending Topics",
+      "platform": "Trending Topics",
+      "followers": 30685,
+      "posts_today": 1
+    },
+    {
+      "name": "GitHub",
+      "platform": "GitHub",
+      "followers": 18274,
+      "posts_today": 3
+    },
+    {
+      "name": "Anthropic",
+      "platform": "Anthropic",
+      "followers": 22411,
+      "posts_today": 1
+    },
+    {
+      "name": "Kimi",
+      "platform": "Kimi",
+      "followers": 15516,
+      "posts_today": 1
+    },
+    {
+      "name": "Munder Difflin",
+      "platform": "Munder Difflin",
+      "followers": 29306,
+      "posts_today": 1
+    },
+    {
+      "name": "Big Hat Group",
+      "platform": "Big Hat Group",
+      "followers": 27927,
+      "posts_today": 1
+    },
+    {
+      "name": "PS5/Xbox/Switch 2/PC",
+      "platform": "PS5/Xbox/Switch 2/PC",
+      "followers": 37580,
+      "posts_today": 1
+    },
+    {
+      "name": "Switch 2",
+      "platform": "Switch 2",
+      "followers": 21032,
+      "posts_today": 2
+    },
+    {
+      "name": "PS5/PS4/Xbox/Switch/PC",
+      "platform": "PS5/PS4/Xbox/Switch/PC",
+      "followers": 40338,
+      "posts_today": 1
+    },
+    {
+      "name": "PS5/Xbox/PC",
+      "platform": "PS5/Xbox/PC",
+      "followers": 25169,
+      "posts_today": 1
+    },
+    {
+      "name": "PS5/Switch/Switch 2/PC",
+      "platform": "PS5/Switch/Switch 2/PC",
+      "followers": 40338,
+      "posts_today": 1
+    },
+    {
+      "name": "PS5/Xbox/Switch 2",
+      "platform": "PS5/Xbox/Switch 2",
+      "followers": 33443,
+      "posts_today": 1
+    },
+    {
+      "name": "Steam/PC",
+      "platform": "Steam/PC",
+      "followers": 21032,
+      "posts_today": 1
+    }
+  ],
+  "category_stats": {
+    "AI": {
+      "count": 8,
+      "trending": [
+        "Anthropic提交IPO申请，纳斯达克代码ANT",
+        "SpaceX锁定400亿美元GPU融资，Apollo领投",
+        "Meta宣布950亿美元股权融资押注AI基建"
+      ]
+    },
+    "VibeCoding": {
+      "count": 8,
+      "trending": [
+        "前GitHub CEO推出AI优先代码平台Entire",
+        "JetBrains开源Agent IDE ThinkRail",
+        "Anthropic统一Claude聊天与Cowork企业版"
+      ]
+    },
+    "Gaming": {
+      "count": 8,
+      "trending": [
+        "生存恐怖新作《红修女的遗产》今日发售",
+        "Minecraft Switch 2原生版今日发售",
+        "龙珠Xenoverse 2十周年免费更新今日上线"
+      ]
+    }
+  },
+  "stats": {
+    "total_posts": 24,
+    "ai_posts": 8,
+    "vibe_posts": 8,
+    "game_posts": 8,
+    "active_platforms": 20
+  }
 }
