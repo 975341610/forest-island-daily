@@ -3,17 +3,17 @@
   "repos": {
     "cloudflare/security-audit-skill": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 2878,
+      "appearances": 2,
+      "total_today_stars": 4738,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
       "html_url": "https://github.com/cloudflare/security-audit-skill"
     },
     "Nutlope/hallmark": {
-      "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 1317,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 3561,
       "language": "CSS",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/63742054?v=4",
@@ -29,9 +29,9 @@
       "html_url": "https://github.com/experientiallabs/experiential"
     },
     "pbakaus/impeccable": {
-      "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 1092,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 2598,
       "language": "Rust",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -39,8 +39,8 @@
     },
     "makecindy/cindy": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 675,
+      "appearances": 2,
+      "total_today_stars": 1971,
       "language": "TypeScript",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/306974279?v=4",
@@ -66,8 +66,8 @@
     },
     "pollen-robotics/microduck": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 647,
+      "appearances": 2,
+      "total_today_stars": 1490,
       "language": "Rust",
       "description": "A Tiny biped duck robot 🦆",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19241070?v=4",
@@ -83,9 +83,9 @@
       "html_url": "https://github.com/NVIDIA/OpenShell"
     },
     "TauricResearch/TradingAgents": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 381,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1776,
       "language": "Python",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192884433?v=4",
@@ -119,9 +119,9 @@
       "html_url": "https://github.com/aws/agent-toolkit-for-aws"
     },
     "AstrBotDevs/AstrBot": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 208,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 584,
       "language": "Python",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
       "owner_avatar": "https://avatars.githubusercontent.com/u/197911947?v=4",
@@ -146,9 +146,9 @@
       "html_url": "https://github.com/Renhuai123/ziwei-doushu"
     },
     "AgriciDaniel/claude-seo": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 197,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 1654,
       "language": "Python",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
@@ -156,8 +156,8 @@
     },
     "Gaurav-Gosain/tuios": {
       "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 190,
+      "appearances": 2,
+      "total_today_stars": 365,
       "language": "Go",
       "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent. Official only at tuios.dev and this repo. tuios has no X/Twitter account.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/55647468?v=4",
@@ -165,8 +165,8 @@
     },
     "garrytan/gstack": {
       "best_rank": 19,
-      "appearances": 1,
-      "total_today_stars": 189,
+      "appearances": 2,
+      "total_today_stars": 356,
       "language": "TypeScript",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
@@ -225,6 +225,141 @@
       "description": "GitHub 汉化插件，GitHub 中文化界面。 (GitHub Translation To Chinese)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/7850715?v=4",
       "html_url": "https://github.com/maboloshi/github-chinese"
+    },
+    "JetBrains/thinkrail": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 1173,
+      "language": "TypeScript",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/878437?v=4",
+      "html_url": "https://github.com/JetBrains/thinkrail"
+    },
+    "Panniantong/Agent-Reach": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 746,
+      "language": "Python",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/73925474?v=4",
+      "html_url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    "multica-ai/andrej-karpathy-skills": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 638,
+      "language": null,
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    "bilawalsidhu/gods-eye-view": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 400,
+      "language": "JavaScript",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/106619546?v=4",
+      "html_url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    "Alishahryar1/free-claude-code": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 355,
+      "language": "Python",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
+      "html_url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    "thesysdev/openui": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 331,
+      "language": "TypeScript",
+      "description": "The Open Standard for Generative UI",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/155424887?v=4",
+      "html_url": "https://github.com/thesysdev/openui"
+    },
+    "addyosmani/agent-skills": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 326,
+      "language": "JavaScript",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
+      "html_url": "https://github.com/addyosmani/agent-skills"
+    },
+    "alchaincyf/huashu-design": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 251,
+      "language": "HTML",
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127714341?v=4",
+      "html_url": "https://github.com/alchaincyf/huashu-design"
+    },
+    "higgsfield-ai/skills": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 226,
+      "language": "Python",
+      "description": "",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/146205480?v=4",
+      "html_url": "https://github.com/higgsfield-ai/skills"
+    },
+    "NVIDIA/SkillSpector": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 214,
+      "language": "Python",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
+      "html_url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    "ruvnet/RuView": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 211,
+      "language": "Rust",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
+      "html_url": "https://github.com/ruvnet/RuView"
+    },
+    "microsoft/skill-recorder": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 203,
+      "language": "TypeScript",
+      "description": "Desktop app that records your on-screen work session and uses the GitHub Copilot SDK to reconstruct it as an intent + ordered steps, then builds a reusable Skill or Automation for Microsoft Autopilots like Scout, Microsoft Copilot Cowork, or Copilot Studio.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/skill-recorder"
+    },
+    "gitroomhq/postiz-app": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 188,
+      "language": "TypeScript",
+      "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/128401275?v=4",
+      "html_url": "https://github.com/gitroomhq/postiz-app"
+    },
+    "nightly-labs/openbot": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 176,
+      "language": "TypeScript",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/100160810?v=4",
+      "html_url": "https://github.com/nightly-labs/openbot"
+    },
+    "ranxianglei/billion-context": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 176,
+      "language": "TypeScript",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/12445698?v=4",
+      "html_url": "https://github.com/ranxianglei/billion-context"
     }
   }
 }

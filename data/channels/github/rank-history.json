@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-26": {
-      "paperclipai/paperclip": 1,
-      "vectorize-io/hindsight": 2,
-      "google/ax": 3,
-      "dream-num/univer": 4,
-      "hydra-db/hydradb": 5,
-      "stablyai/orca": 6,
-      "public-apis/public-apis": 7,
-      "NVIDIA/Model-Optimizer": 8,
-      "pbakaus/impeccable": 9,
-      "HKUDS/CLI-Anything": 10,
-      "browser-use/video-use": 11,
-      "superdesigndev/treg": 12,
-      "strands-agents/harness-sdk": 13,
-      "anthropics/financial-services": 14,
-      "every-app/open-seo": 15,
-      "anthropics/skills": 16,
-      "derv82/wifit3": 17,
-      "juspay/hyperswitch": 18,
-      "block/buzz": 19,
-      "google/langextract": 20,
-      "FxEmbed/FxEmbed": 21,
-      "kelseyhightower/kubernetes-the-hard-way": 22,
-      "ruvnet/RuView": 23,
-      "ollama/ollama": 24,
-      "Alishahryar1/free-claude-code": 25
-    },
     "2026-09-27": {
       "paperclipai/paperclip": 1,
       "vectorize-io/hindsight": 2,
@@ -836,6 +809,33 @@
       "every-app/open-seo": 23,
       "ollama/ollama": 24,
       "maboloshi/github-chinese": 25
+    },
+    "2026-10-27": {
+      "Nutlope/hallmark": 1,
+      "cloudflare/security-audit-skill": 2,
+      "pbakaus/impeccable": 3,
+      "AgriciDaniel/claude-seo": 4,
+      "TauricResearch/TradingAgents": 5,
+      "makecindy/cindy": 6,
+      "JetBrains/thinkrail": 7,
+      "pollen-robotics/microduck": 8,
+      "Panniantong/Agent-Reach": 9,
+      "multica-ai/andrej-karpathy-skills": 10,
+      "bilawalsidhu/gods-eye-view": 11,
+      "AstrBotDevs/AstrBot": 12,
+      "Alishahryar1/free-claude-code": 13,
+      "thesysdev/openui": 14,
+      "addyosmani/agent-skills": 15,
+      "alchaincyf/huashu-design": 16,
+      "higgsfield-ai/skills": 17,
+      "NVIDIA/SkillSpector": 18,
+      "ruvnet/RuView": 19,
+      "microsoft/skill-recorder": 20,
+      "gitroomhq/postiz-app": 21,
+      "nightly-labs/openbot": 22,
+      "ranxianglei/billion-context": 23,
+      "Gaurav-Gosain/tuios": 24,
+      "garrytan/gstack": 25
     }
   }
 }
