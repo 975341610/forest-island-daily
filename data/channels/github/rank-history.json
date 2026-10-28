@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-27": {
-      "paperclipai/paperclip": 1,
-      "vectorize-io/hindsight": 2,
-      "hydra-db/hydradb": 3,
-      "dream-num/univer": 4,
-      "pbakaus/impeccable": 5,
-      "openbao/openbao": 6,
-      "NVIDIA/Model-Optimizer": 7,
-      "derv82/wifit3": 8,
-      "harry0703/MoneyPrinterTurbo": 9,
-      "block/buzz": 10,
-      "anthropics/claude-plugins-official": 11,
-      "androoAGI/starnet": 12,
-      "666ghj/MiroFish": 13,
-      "usestrix/strix": 14,
-      "mobile-next/mobile-mcp": 15,
-      "shy3130/tick-stock-panel": 16,
-      "juspay/hyperswitch": 17,
-      "putyy/res-downloader": 18,
-      "HKUDS/CLI-Anything": 19,
-      "microsoft/vscode": 20,
-      "sherlock-project/sherlock": 21,
-      "vercel-labs/scriptc": 22,
-      "MakazhanAlpamys/Soup": 23,
-      "Jakubantalik/Libraries.dev": 24,
-      "hmjz100/LinkSwift": 25
-    },
     "2026-09-28": {
       "vectorize-io/hindsight": 1,
       "debpalash/VoiceStudio": 2,
@@ -836,6 +809,33 @@
       "ranxianglei/billion-context": 23,
       "Gaurav-Gosain/tuios": 24,
       "garrytan/gstack": 25
+    },
+    "2026-10-28": {
+      "hmjz100/LinkSwift": 1,
+      "Nutlope/hallmark": 2,
+      "TauricResearch/TradingAgents": 3,
+      "Panniantong/Agent-Reach": 4,
+      "HKUDS/DeepTutor": 5,
+      "makecindy/cindy": 6,
+      "pbakaus/impeccable": 7,
+      "JetBrains/thinkrail": 8,
+      "YuJunZhiXue/dsh-purge": 9,
+      "NVIDIA/SkillSpector": 10,
+      "gitroomhq/postiz-app": 11,
+      "heygen-com/hyperframes": 12,
+      "togg53192-cmd/jailbreaks": 13,
+      "nightly-labs/openbot": 14,
+      "AgriciDaniel/claude-seo": 15,
+      "tt-a1i/archify": 16,
+      "pollen-robotics/microduck": 17,
+      "ruvnet/RuView": 18,
+      "remotion-dev/remotion": 19,
+      "addyosmani/agent-skills": 20,
+      "pingdotgg/t3code": 21,
+      "Renhuai123/ziwei-doushu": 22,
+      "SnailSploit/Claude-Red": 23,
+      "superdesigndev/treg": 24,
+      "alibaba/open-code-review": 25
     }
   }
 }
