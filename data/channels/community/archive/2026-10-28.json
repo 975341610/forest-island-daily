@@ -1,0 +1,447 @@
+{
+  "date": "2026-10-28",
+  "hot_topics": [
+    {
+      "rank": 1,
+      "title": "Anthropic IPO文件披露AI安全漏洞与训练暂停",
+      "url": "https://www.moneycontrol.com/news/business/anthropic-discloses-month-long-training-pause-ai-security-breaches-in-ipo-filing-14060620.html",
+      "category": "AI",
+      "platform": "Moneycontrol",
+      "hot_score": 95,
+      "image": "images/2026-10-28/2026-10-28_ai_1.jpg"
+    },
+    {
+      "rank": 2,
+      "title": "Meta筹集975亿美元AI资金，英伟达AMD注资",
+      "url": "https://convergedigest.com/meta-35b-equity-raise-nvidia-amd-ai-infrastructure-2026/",
+      "category": "AI",
+      "platform": "Converge Digest",
+      "hot_score": 93,
+      "image": "images/2026-10-28/2026-10-28_ai_2.jpg"
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI宣布AI攻克数学与物理重大难题",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "category": "AI",
+      "platform": "TechCrunch",
+      "hot_score": 91,
+      "image": "images/2026-10-28/2026-10-28_ai_3.jpg"
+    },
+    {
+      "rank": 4,
+      "title": "GPT-6.1 Terra登陆GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot/",
+      "category": "VibeCoding",
+      "platform": "GitHub Blog",
+      "hot_score": 89,
+      "image": "images/2026-10-28/2026-10-28_vibe_1.jpg"
+    },
+    {
+      "rank": 5,
+      "title": "tstack: Claude Code/Codex日常智能体技能包",
+      "url": "https://github.com/t3dotgg/tstack",
+      "category": "VibeCoding",
+      "platform": "GitHub",
+      "hot_score": 87,
+      "image": "images/2026-10-28/2026-10-28_vibe_2.jpg"
+    },
+    {
+      "rank": 6,
+      "title": "为AI智能体打造杀毒软件的8个月实验",
+      "url": "https://dev.to/id_1/ai-agents-have-the-keys-to-your-computer-i-spent-8-months-building-an-antivirus-for-them-349j",
+      "category": "VibeCoding",
+      "platform": "DEV Community",
+      "hot_score": 85,
+      "image": "images/2026-10-28/2026-10-28_vibe_3.jpg"
+    },
+    {
+      "rank": 7,
+      "title": "任天堂宣布独立游戏展示会",
+      "url": "https://nintendowire.com/news/2026/10/27/nintendo-closes-out-october-2026-with-a-15-minute-indie-world-showcase/",
+      "category": "Gaming",
+      "platform": "Nintendo Wire",
+      "hot_score": 83,
+      "image": "images/2026-10-28/2026-10-28_game_1.jpg"
+    },
+    {
+      "rank": 8,
+      "title": "赛博朋克2077发布热修复补丁",
+      "url": "https://mp1st.com/title-updates-and-patches/cyberpunk-2077-hotfix-2-500-200-released-october-27",
+      "category": "Gaming",
+      "platform": "MP1st",
+      "hot_score": 81,
+      "image": "images/2026-10-28/2026-10-28_game_2.jpg"
+    },
+    {
+      "rank": 9,
+      "title": "龙珠超宇宙2十周年更新上线",
+      "url": "https://mp1st.com/title-updates-and-patches/dragon-ball-xenoverse-2-10th-anniversary-update-released-on-october-27-via-patch-1-54-1-006",
+      "category": "Gaming",
+      "platform": "MP1st",
+      "hot_score": 79,
+      "image": "images/2026-10-28/2026-10-28_game_3.jpg"
+    }
+  ],
+  "trending_posts": [
+    {
+      "rank": 1,
+      "title": "Anthropic IPO文件披露AI安全漏洞与训练暂停",
+      "url": "https://www.moneycontrol.com/news/business/anthropic-discloses-month-long-training-pause-ai-security-breaches-in-ipo-filing-14060620.html",
+      "category": "AI",
+      "platform": "Moneycontrol",
+      "image": "images/2026-10-28/2026-10-28_ai_1.jpg",
+      "engagement": 229
+    },
+    {
+      "rank": 2,
+      "title": "Meta筹集975亿美元AI资金，英伟达AMD注资",
+      "url": "https://convergedigest.com/meta-35b-equity-raise-nvidia-amd-ai-infrastructure-2026/",
+      "category": "AI",
+      "platform": "Converge Digest",
+      "image": "images/2026-10-28/2026-10-28_ai_2.jpg",
+      "engagement": 194
+    },
+    {
+      "rank": 3,
+      "title": "OpenAI宣布AI攻克数学与物理重大难题",
+      "url": "https://techcrunch.com/2026/10/27/frontier-ai-labs-say-their-models-refuted-the-exponential-time-hypothesis-what-does-that-mean/",
+      "category": "AI",
+      "platform": "TechCrunch",
+      "image": "images/2026-10-28/2026-10-28_ai_3.jpg",
+      "engagement": 217
+    },
+    {
+      "rank": 4,
+      "title": "Oracle签约谷歌Cerebras扩展AI芯片供应",
+      "url": "https://superpowerdaily.com/posts/oracle-signs-deals-for-google-and-other-ai-chips-keeping-nvidia-in-the-mix",
+      "category": "AI",
+      "platform": "Superpower Daily",
+      "image": "images/2026-10-28/2026-10-28_ai_4.jpg",
+      "engagement": 185
+    },
+    {
+      "rank": 5,
+      "title": "Cohere发现阿里Qwen模型试图向北京传数据",
+      "url": "https://venturebeat.com/data/coheres-test-caught-an-open-source-qwen3-8-model-trying-to-phone-home-to-china-what-enterprises-should-know",
+      "category": "AI",
+      "platform": "VentureBeat",
+      "image": "images/2026-10-28/2026-10-28_ai_5.jpg",
+      "engagement": 213
+    },
+    {
+      "rank": 6,
+      "title": "硅谷AI政治团体分裂，共投入7850万美元",
+      "url": "https://www.cnbc.com/2026/10/27/ai-political-spending-silicon-valley-election.html",
+      "category": "AI",
+      "platform": "CNBC",
+      "image": "images/2026-10-28/2026-10-28_ai_6.jpg",
+      "engagement": 209
+    },
+    {
+      "rank": 7,
+      "title": "Cloudflare披露GLM-5.3模型跨请求数据泄露",
+      "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation",
+      "category": "AI",
+      "platform": "Cloudflare Blog",
+      "image": "images/2026-10-28/2026-10-28_ai_7.jpg",
+      "engagement": 188
+    },
+    {
+      "rank": 8,
+      "title": "自动驾驶挖掘机初创Bedrock获6亿美元融资",
+      "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+      "category": "AI",
+      "platform": "TechCrunch",
+      "image": "images/2026-10-28/2026-10-28_ai_8.jpg",
+      "engagement": 174
+    },
+    {
+      "rank": 9,
+      "title": "GPT-6.1 Terra登陆GitHub Copilot",
+      "url": "https://github.blog/changelog/2026-10-26-gpt-6-1-terra-in-github-copilot/",
+      "category": "VibeCoding",
+      "platform": "GitHub Blog",
+      "image": "images/2026-10-28/2026-10-28_vibe_1.jpg",
+      "engagement": 168
+    },
+    {
+      "rank": 10,
+      "title": "tstack: Claude Code/Codex日常智能体技能包",
+      "url": "https://github.com/t3dotgg/tstack",
+      "category": "VibeCoding",
+      "platform": "GitHub",
+      "image": "images/2026-10-28/2026-10-28_vibe_2.jpg",
+      "engagement": 130
+    },
+    {
+      "rank": 11,
+      "title": "为AI智能体打造杀毒软件的8个月实验",
+      "url": "https://dev.to/id_1/ai-agents-have-the-keys-to-your-computer-i-spent-8-months-building-an-antivirus-for-them-349j",
+      "category": "VibeCoding",
+      "platform": "DEV Community",
+      "image": "images/2026-10-28/2026-10-28_vibe_3.jpg",
+      "engagement": 167
+    },
+    {
+      "rank": 12,
+      "title": "30天纯Claude Code编程实战报告",
+      "url": "https://dev.to/infoinlet1/i-coded-for-30-days-using-only-claude-code-heres-what-i-learned-3cln",
+      "category": "VibeCoding",
+      "platform": "DEV Community",
+      "image": "images/2026-10-28/2026-10-28_vibe_4.jpg",
+      "engagement": 117
+    },
+    {
+      "rank": 13,
+      "title": "JetBrains开源智能体IDE：智能体不碰代码库",
+      "url": "https://dev.to/slabb/jetbrains-open-sourced-an-agentic-ide-where-agents-never-touch-your-checkout-22hc",
+      "category": "VibeCoding",
+      "platform": "DEV Community",
+      "image": "images/2026-10-28/2026-10-28_vibe_5.jpg",
+      "engagement": 144
+    },
+    {
+      "rank": 14,
+      "title": "OpenAI GPT-6.1 Terra API价格直降50%",
+      "url": "https://www.ghacks.net/2026/10/27/openai-launches-gpt-6-1-terra-with-api-pricing-50-lower-than-gpt-5-6-terra/",
+      "category": "VibeCoding",
+      "platform": "gHacks Tech News",
+      "image": "images/2026-10-28/2026-10-28_vibe_6.jpg",
+      "engagement": 102
+    },
+    {
+      "rank": 15,
+      "title": "Claude Code Token优化实战技巧",
+      "url": "https://dev.to/vishnub33527201/tips-for-token-optimisation-in-claude-code-1kn5",
+      "category": "VibeCoding",
+      "platform": "DEV Community",
+      "image": "images/2026-10-28/2026-10-28_vibe_7.jpg",
+      "engagement": 135
+    },
+    {
+      "rank": 16,
+      "title": "CERT-In发布AI智能体安全公告：本周修复清单",
+      "url": "https://dev.to/dunimetech/cert-ins-ai-agent-advisory-what-to-fix-this-week-4fki",
+      "category": "VibeCoding",
+      "platform": "DEV Community",
+      "image": "images/2026-10-28/2026-10-28_vibe_8.jpg",
+      "engagement": 99
+    },
+    {
+      "rank": 17,
+      "title": "任天堂宣布独立游戏展示会",
+      "url": "https://nintendowire.com/news/2026/10/27/nintendo-closes-out-october-2026-with-a-15-minute-indie-world-showcase/",
+      "category": "Gaming",
+      "platform": "Nintendo Wire",
+      "image": "images/2026-10-28/2026-10-28_game_1.jpg",
+      "engagement": 91
+    },
+    {
+      "rank": 18,
+      "title": "赛博朋克2077发布热修复补丁",
+      "url": "https://mp1st.com/title-updates-and-patches/cyberpunk-2077-hotfix-2-500-200-released-october-27",
+      "category": "Gaming",
+      "platform": "MP1st",
+      "image": "images/2026-10-28/2026-10-28_game_2.jpg",
+      "engagement": 93
+    },
+    {
+      "rank": 19,
+      "title": "龙珠超宇宙2十周年更新上线",
+      "url": "https://mp1st.com/title-updates-and-patches/dragon-ball-xenoverse-2-10th-anniversary-update-released-on-october-27-via-patch-1-54-1-006",
+      "category": "Gaming",
+      "platform": "MP1st",
+      "image": "images/2026-10-28/2026-10-28_game_3.jpg",
+      "engagement": 87
+    },
+    {
+      "rank": 20,
+      "title": "与狼同行重制版评测出炉",
+      "url": "https://finalweapon.net/2026/10/27/the-wolf-among-us-remastered-review/",
+      "category": "Gaming",
+      "platform": "Final Weapon",
+      "image": "images/2026-10-28/2026-10-28_game_4.jpg",
+      "engagement": 70
+    },
+    {
+      "rank": 21,
+      "title": "幻刃零评测解禁均分88",
+      "url": "https://fenixbazaar.com/2026/10/27/phantom-blade-zero-review-scores-metacritic/",
+      "category": "Gaming",
+      "platform": "Fenix Bazaar",
+      "image": "images/2026-10-28/2026-10-28_game_5.jpg",
+      "engagement": 79
+    },
+    {
+      "rank": 22,
+      "title": "心理恐怖名作Mouthwashing加入XGP",
+      "url": "https://techyorker.com/mouthwashing-comes-to-xbox-game-pass-on-october-29-2026/",
+      "category": "Gaming",
+      "platform": "TechYorker",
+      "image": "images/2026-10-28/2026-10-28_game_6.jpg",
+      "engagement": 73
+    },
+    {
+      "rank": 23,
+      "title": "ANOMALITH恐怖射击登陆Steam",
+      "url": "https://store.steampowered.com/app/4017880/ANOMALITH/",
+      "category": "Gaming",
+      "platform": "Steam",
+      "image": "images/2026-10-28/2026-10-28_game_7.jpg",
+      "engagement": 58
+    },
+    {
+      "rank": 24,
+      "title": "九款Xbox新游戏同日发售",
+      "url": "https://www.purexbox.com/news/2026/10/nine-xbox-games-are-available-today-including-a-supernatural-detective-mystery-on-game-pass-october-27",
+      "category": "Gaming",
+      "platform": "Pure Xbox",
+      "image": "images/2026-10-28/2026-10-28_game_8.jpg",
+      "engagement": 20
+    }
+  ],
+  "featured_creators": [
+    {
+      "name": "Moneycontrol",
+      "platform": "Moneycontrol",
+      "followers": 26548,
+      "posts_today": 1
+    },
+    {
+      "name": "Converge Digest",
+      "platform": "Converge Digest",
+      "followers": 30685,
+      "posts_today": 1
+    },
+    {
+      "name": "TechCrunch",
+      "platform": "TechCrunch",
+      "followers": 23790,
+      "posts_today": 2
+    },
+    {
+      "name": "Superpower Daily",
+      "platform": "Superpower Daily",
+      "followers": 32064,
+      "posts_today": 1
+    },
+    {
+      "name": "VentureBeat",
+      "platform": "VentureBeat",
+      "followers": 25169,
+      "posts_today": 1
+    },
+    {
+      "name": "CNBC",
+      "platform": "CNBC",
+      "followers": 15516,
+      "posts_today": 1
+    },
+    {
+      "name": "Cloudflare Blog",
+      "platform": "Cloudflare Blog",
+      "followers": 30685,
+      "posts_today": 1
+    },
+    {
+      "name": "GitHub Blog",
+      "platform": "GitHub Blog",
+      "followers": 25169,
+      "posts_today": 1
+    },
+    {
+      "name": "GitHub",
+      "platform": "GitHub",
+      "followers": 18274,
+      "posts_today": 1
+    },
+    {
+      "name": "DEV Community",
+      "platform": "DEV Community",
+      "followers": 27927,
+      "posts_today": 5
+    },
+    {
+      "name": "gHacks Tech News",
+      "platform": "gHacks Tech News",
+      "followers": 32064,
+      "posts_today": 1
+    },
+    {
+      "name": "Nintendo Wire",
+      "platform": "Nintendo Wire",
+      "followers": 27927,
+      "posts_today": 1
+    },
+    {
+      "name": "MP1st",
+      "platform": "MP1st",
+      "followers": 16895,
+      "posts_today": 2
+    },
+    {
+      "name": "Final Weapon",
+      "platform": "Final Weapon",
+      "followers": 26548,
+      "posts_today": 1
+    },
+    {
+      "name": "Fenix Bazaar",
+      "platform": "Fenix Bazaar",
+      "followers": 26548,
+      "posts_today": 1
+    },
+    {
+      "name": "TechYorker",
+      "platform": "TechYorker",
+      "followers": 23790,
+      "posts_today": 1
+    },
+    {
+      "name": "Steam",
+      "platform": "Steam",
+      "followers": 16895,
+      "posts_today": 1
+    },
+    {
+      "name": "Pure Xbox",
+      "platform": "Pure Xbox",
+      "followers": 22411,
+      "posts_today": 1
+    }
+  ],
+  "category_stats": {
+    "AI": {
+      "count": 8,
+      "trending": [
+        "Anthropic IPO文件披露AI安全漏洞与训练暂停",
+        "Meta筹集975亿美元AI资金，英伟达AMD注资",
+        "OpenAI宣布AI攻克数学与物理重大难题"
+      ]
+    },
+    "VibeCoding": {
+      "count": 8,
+      "trending": [
+        "GPT-6.1 Terra登陆GitHub Copilot",
+        "tstack: Claude Code/Codex日常智能体",
+        "为AI智能体打造杀毒软件的8个月实验"
+      ]
+    },
+    "Gaming": {
+      "count": 8,
+      "trending": [
+        "任天堂宣布独立游戏展示会",
+        "赛博朋克2077发布热修复补丁",
+        "龙珠超宇宙2十周年更新上线"
+      ]
+    }
+  },
+  "stats": {
+    "total_posts": 24,
+    "ai_posts": 8,
+    "vibe_posts": 8,
+    "game_posts": 8,
+    "active_platforms": 18
+  }
+}
