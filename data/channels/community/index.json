@@ -1,7 +1,11 @@
 {
-  "latest_date": "2026-10-27",
+  "latest_date": "2026-10-28",
   "total_dates": 120,
   "dates": [
+    {
+      "date": "2026-10-28",
+      "posts": 24
+    },
     {
       "date": "2026-10-27",
       "posts": 24
