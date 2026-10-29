@@ -12,8 +12,8 @@
     },
     "Nutlope/hallmark": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 6391,
+      "appearances": 4,
+      "total_today_stars": 8501,
       "language": "CSS",
       "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/63742054?v=4",
@@ -30,8 +30,8 @@
     },
     "pbakaus/impeccable": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 4047,
+      "appearances": 4,
+      "total_today_stars": 5519,
       "language": "Rust",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -39,8 +39,8 @@
     },
     "makecindy/cindy": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 3436,
+      "appearances": 4,
+      "total_today_stars": 4164,
       "language": "TypeScript",
       "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/306974279?v=4",
@@ -84,8 +84,8 @@
     },
     "TauricResearch/TradingAgents": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 3511,
+      "appearances": 4,
+      "total_today_stars": 4165,
       "language": "Python",
       "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
       "owner_avatar": "https://avatars.githubusercontent.com/u/192884433?v=4",
@@ -147,8 +147,8 @@
     },
     "AgriciDaniel/claude-seo": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 2365,
+      "appearances": 4,
+      "total_today_stars": 2946,
       "language": "Python",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
@@ -182,9 +182,9 @@
       "html_url": "https://github.com/SnailSploit/Claude-Red"
     },
     "HKUDS/DeepTutor": {
-      "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1774,
+      "best_rank": 1,
+      "appearances": 3,
+      "total_today_stars": 4145,
       "language": "Python",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -228,8 +228,8 @@
     },
     "JetBrains/thinkrail": {
       "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 2377,
+      "appearances": 3,
+      "total_today_stars": 3445,
       "language": "TypeScript",
       "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "owner_avatar": "https://avatars.githubusercontent.com/u/878437?v=4",
@@ -264,8 +264,8 @@
     },
     "Alishahryar1/free-claude-code": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 355,
+      "appearances": 2,
+      "total_today_stars": 755,
       "language": "Python",
       "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -282,8 +282,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 15,
-      "appearances": 2,
-      "total_today_stars": 672,
+      "appearances": 3,
+      "total_today_stars": 1019,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -309,17 +309,17 @@
     },
     "NVIDIA/SkillSpector": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 1167,
+      "appearances": 3,
+      "total_today_stars": 1465,
       "language": "Python",
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
       "html_url": "https://github.com/NVIDIA/SkillSpector"
     },
     "ruvnet/RuView": {
-      "best_rank": 18,
-      "appearances": 2,
-      "total_today_stars": 626,
+      "best_rank": 14,
+      "appearances": 3,
+      "total_today_stars": 1183,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -335,18 +335,18 @@
       "html_url": "https://github.com/microsoft/skill-recorder"
     },
     "gitroomhq/postiz-app": {
-      "best_rank": 11,
-      "appearances": 2,
-      "total_today_stars": 1139,
+      "best_rank": 9,
+      "appearances": 3,
+      "total_today_stars": 2032,
       "language": "TypeScript",
       "description": "📨 The ultimate agentic social media scheduling tool 🤖",
       "owner_avatar": "https://avatars.githubusercontent.com/u/128401275?v=4",
       "html_url": "https://github.com/gitroomhq/postiz-app"
     },
     "nightly-labs/openbot": {
-      "best_rank": 14,
-      "appearances": 2,
-      "total_today_stars": 953,
+      "best_rank": 8,
+      "appearances": 3,
+      "total_today_stars": 2007,
       "language": "TypeScript",
       "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/100160810?v=4",
@@ -363,35 +363,35 @@
     },
     "hmjz100/LinkSwift": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 3209,
+      "appearances": 2,
+      "total_today_stars": 4825,
       "language": "JavaScript",
       "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
       "owner_avatar": "https://avatars.githubusercontent.com/u/98228280?v=4",
       "html_url": "https://github.com/hmjz100/LinkSwift"
     },
     "YuJunZhiXue/dsh-purge": {
-      "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 1201,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 2329,
       "language": "JavaScript",
       "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
       "owner_avatar": "https://avatars.githubusercontent.com/u/188421097?v=4",
       "html_url": "https://github.com/YuJunZhiXue/dsh-purge"
     },
     "heygen-com/hyperframes": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 934,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 1780,
       "language": "TypeScript",
       "description": "Write HTML. Render video. Built for agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65394575?v=4",
       "html_url": "https://github.com/heygen-com/hyperframes"
     },
     "togg53192-cmd/jailbreaks": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 902,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 2379,
       "language": null,
       "description": "LIST OF ALL MY JAILBREAKS",
       "owner_avatar": "https://avatars.githubusercontent.com/u/222877182?v=4",
@@ -425,13 +425,76 @@
       "html_url": "https://github.com/superdesigndev/treg"
     },
     "alibaba/open-code-review": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 169,
+      "best_rank": 20,
+      "appearances": 2,
+      "total_today_stars": 479,
       "language": "Go",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
       "html_url": "https://github.com/alibaba/open-code-review"
+    },
+    "KeygraphHQ/shannon": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 476,
+      "language": "TypeScript",
+      "description": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/182008209?v=4",
+      "html_url": "https://github.com/KeygraphHQ/shannon"
+    },
+    "baidu/Unlimited-OCR": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 429,
+      "language": "Python",
+      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/13245940?v=4",
+      "html_url": "https://github.com/baidu/Unlimited-OCR"
+    },
+    "github/spec-kit": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 361,
+      "language": "Python",
+      "description": "💫 Toolkit to help you get started with SDD or any other process!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
+      "html_url": "https://github.com/github/spec-kit"
+    },
+    "p-e-w/heretic": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 307,
+      "language": "Python",
+      "description": "Fully automatic censorship removal for language models",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2702526?v=4",
+      "html_url": "https://github.com/p-e-w/heretic"
+    },
+    "openai/codex": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 284,
+      "language": "Rust",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
+      "html_url": "https://github.com/openai/codex"
+    },
+    "trymirai/uzu": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 260,
+      "language": "Rust",
+      "description": "A high-performance inference engine for AI models",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/153534303?v=4",
+      "html_url": "https://github.com/trymirai/uzu"
+    },
+    "citrolabs/ego-lite": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 256,
+      "language": "JavaScript",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
+      "html_url": "https://github.com/citrolabs/ego-lite"
     }
   }
 }
