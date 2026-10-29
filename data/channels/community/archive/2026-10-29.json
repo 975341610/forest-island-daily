@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-29",
+  "hot_topics": [
+    {
+      "topic": "GitHub Universe 2026",
+      "posts": 342,
+      "trend": "+185%",
+      "category": "VibeCoding"
+    },
+    {
+      "topic": "Gemini 4 Carbon 登顶 AI 指数",
+      "posts": 218,
+      "trend": "+92%",
+      "category": "AI"
+    },
+    {
+      "topic": "Phantom Blade Zero 全球发售",
+      "posts": 176,
+      "trend": "+67%",
+      "category": "Gaming"
+    },
+    {
+      "topic": "Cursor 被 SpaceX 600 亿美元收购",
+      "posts": 165,
+      "trend": "+78%",
+      "category": "VibeCoding"
+    },
+    {
+      "topic": "OpenAI GPT-6.1 Terra API 降价",
+      "posts": 143,
+      "trend": "+54%",
+      "category": "AI"
+    },
+    {
+      "topic": "Nintendo Indie World Showcase",
+      "posts": 128,
+      "trend": "+41%",
+      "category": "Gaming"
+    }
+  ],
+  "trending_posts": [
+    {
+      "title": "GPT-6.1 Terra halves API cost",
+      "url": "https://www.theneuron.ai/news/openai-gpt-6-1-terra-api-price-cuts-authorization-risks/",
+      "category": "AI",
+      "platform": "OpenAI",
+      "engagement": 800
+    },
+    {
+      "title": "Gemini 4 Carbon tops AI index",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "category": "AI",
+      "platform": "Google",
+      "engagement": 770
+    },
+    {
+      "title": "OpenAI eyes Google TPU chips",
+      "url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/",
+      "category": "AI",
+      "platform": "OpenAI",
+      "engagement": 740
+    },
+    {
+      "title": "Anthropic expands GSA deal",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "category": "AI",
+      "platform": "Anthropic",
+      "engagement": 710
+    },
+    {
+      "title": "Claude adds legal artifacts",
+      "url": "https://www.law.com/legaltechnews/2026/10/28/anthropic-releases-claude-for-legal-artifacts-a-set-of-new-interactive-tools-for-legal-users-/",
+      "category": "AI",
+      "platform": "Anthropic",
+      "engagement": 680
+    },
+    {
+      "title": "Mistral opens Timestral models",
+      "url": "https://huggingface.co/mistralai/Timestral-209M",
+      "category": "AI",
+      "platform": "Mistral AI",
+      "engagement": 650
+    },
+    {
+      "title": "Hy-Nomas 8B world model lands",
+      "url": "https://aiweekly.co/alerts/hy-nomas-ships-8b-interactive-world-model-on-a-single-rtx-4090",
+      "category": "AI",
+      "platform": "Tencent",
+      "engagement": 620
+    },
+    {
+      "title": "Trump bans AI for SI",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/",
+      "category": "AI",
+      "platform": "US Government",
+      "engagement": 590
+    },
+    {
+      "title": "Copilot Fusion多模型路由GA",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+      "category": "VibeCoding",
+      "platform": "GitHub Blog",
+      "engagement": 560
+    },
+    {
+      "title": "Copilot Projects公测上线",
+      "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/",
+      "category": "VibeCoding",
+      "platform": "GitHub Blog",
+      "engagement": 530
+    }
+  ],
+  "featured_creators": [
+    {
+      "name": "Dario Amodei",
+      "handle": "@anthropic",
+      "followers": "2.1M",
+      "topic": "AI Safety & Enterprise",
+      "trend": "+12K"
+    },
+    {
+      "name": "Thomas Dohmke",
+      "handle": "@github",
+      "followers": "1.8M",
+      "topic": "Copilot Fusion & Agentic Workflows",
+      "trend": "+28K"
+    },
+    {
+      "name": "S-GAME Studio",
+      "handle": "@sgame",
+      "followers": "456K",
+      "topic": "Phantom Blade Zero Launch",
+      "trend": "+18K"
+    }
+  ],
+  "category_stats": {
+    "AI": {
+      "posts": 8,
+      "top_topic": "Gemini 4 Carbon",
+      "engagement": 4521
+    },
+    "VibeCoding": {
+      "posts": 8,
+      "top_topic": "GitHub Universe 2026",
+      "engagement": 5832
+    },
+    "Gaming": {
+      "posts": 8,
+      "top_topic": "Phantom Blade Zero",
+      "engagement": 3987
+    }
+  }
+}
