@@ -1,38 +1,38 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "hot_topics": [
     {
-      "topic": "GitHub Universe 2026",
-      "posts": 342,
-      "trend": "+185%",
-      "category": "VibeCoding"
-    },
-    {
-      "topic": "Gemini 4 Carbon 登顶 AI 指数",
-      "posts": 218,
-      "trend": "+92%",
+      "topic": "Mistral Large 4 开源权重发布",
+      "posts": 285,
+      "trend": "+156%",
       "category": "AI"
     },
     {
-      "topic": "Phantom Blade Zero 全球发售",
-      "posts": 176,
+      "topic": "Alphabet 史上最大单日跌幅",
+      "posts": 242,
+      "trend": "+89%",
+      "category": "AI"
+    },
+    {
+      "topic": "GitHub Universe 2026 Copilot Fusion GA",
+      "posts": 198,
       "trend": "+67%",
+      "category": "VibeCoding"
+    },
+    {
+      "topic": "Phantom Blade Zero Steam 峰值72万",
+      "posts": 176,
+      "trend": "+54%",
       "category": "Gaming"
     },
     {
-      "topic": "Cursor 被 SpaceX 600 亿美元收购",
-      "posts": 165,
+      "topic": "EMBRACE 漏洞袭击五款AI工具",
+      "posts": 143,
       "trend": "+78%",
       "category": "VibeCoding"
     },
     {
-      "topic": "OpenAI GPT-6.1 Terra API 降价",
-      "posts": 143,
-      "trend": "+54%",
-      "category": "AI"
-    },
-    {
-      "topic": "Nintendo Indie World Showcase",
+      "topic": "Mouthwashing 主机版发售",
       "posts": 128,
       "trend": "+41%",
       "category": "Gaming"
@@ -40,114 +40,114 @@
   ],
   "trending_posts": [
     {
-      "title": "GPT-6.1 Terra halves API cost",
-      "url": "https://www.theneuron.ai/news/openai-gpt-6-1-terra-api-price-cuts-authorization-risks/",
+      "title": "Mistral发布Large4开源权重",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
       "category": "AI",
-      "platform": "OpenAI",
+      "platform": "Mistral",
       "engagement": 800
     },
     {
-      "title": "Gemini 4 Carbon tops AI index",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "title": "Alphabet遭遇史上最惨单日",
+      "url": "https://startupfortune.com/alphabet-shares-suffer-worst-day-ever-as-wall-street-doubts-ai-payoff/",
       "category": "AI",
-      "platform": "Google",
+      "platform": "Google/Alphabet",
       "engagement": 770
     },
     {
-      "title": "OpenAI eyes Google TPU chips",
-      "url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/",
+      "title": "Nvidia发布开源语音模型",
+      "url": "https://www.tun.com/home/nvidia-nemotron-3-5-transcribe-one-open-model-for-speech-ai/",
       "category": "AI",
-      "platform": "OpenAI",
+      "platform": "Nvidia",
       "engagement": 740
     },
     {
-      "title": "Anthropic expands GSA deal",
-      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "title": "韩国将刑事起诉AI眼镜作弊",
+      "url": "https://www.koreatimes.co.kr/southkorea/20261029/govt-to-pursue-criminal-punishment-3-year-exam-ban-for-csat-cheaters-using-ai-glasses",
       "category": "AI",
-      "platform": "Anthropic",
+      "platform": "AI Education",
       "engagement": 710
     },
     {
-      "title": "Claude adds legal artifacts",
-      "url": "https://www.law.com/legaltechnews/2026/10/28/anthropic-releases-claude-for-legal-artifacts-a-set-of-new-interactive-tools-for-legal-users-/",
+      "title": "OpenAI设选举监控中心",
+      "url": "https://mashable.com/tech/open-ai-launches-midterm-election-war-room",
       "category": "AI",
-      "platform": "Anthropic",
+      "platform": "OpenAI",
       "engagement": 680
     },
     {
-      "title": "Mistral opens Timestral models",
-      "url": "https://huggingface.co/mistralai/Timestral-209M",
+      "title": "FuriosaAI融资6.2亿美元",
+      "url": "https://thenextweb.com/news/furiosaai-series-d-620m-2-9bn-valuation",
       "category": "AI",
-      "platform": "Mistral AI",
+      "platform": "FuriosaAI",
       "engagement": 650
     },
     {
-      "title": "Hy-Nomas 8B world model lands",
-      "url": "https://aiweekly.co/alerts/hy-nomas-ships-8b-interactive-world-model-on-a-single-rtx-4090",
+      "title": "xAI收购密西西比房屋",
+      "url": "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
       "category": "AI",
-      "platform": "Tencent",
+      "platform": "xAI",
       "engagement": 620
     },
     {
-      "title": "Trump bans AI for SI",
-      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/",
+      "title": "澳大利亚禁AI聊天情感亲密",
+      "url": "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics",
       "category": "AI",
-      "platform": "US Government",
+      "platform": "AI Chatbots",
       "engagement": 590
     },
     {
-      "title": "Copilot Fusion多模型路由GA",
-      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+      "title": "OpenAI撤销Codex削减翻倍额度",
+      "url": "https://kingy.ai/blog/openai-cancels-chatgpt-pro-usage-cut-doubles-allowances/",
       "category": "VibeCoding",
-      "platform": "GitHub Blog",
+      "platform": "OpenAI",
       "engagement": 560
     },
     {
-      "title": "Copilot Projects公测上线",
-      "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/",
+      "title": "EMBRACE漏洞袭击五款AI工具",
+      "url": "https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/",
       "category": "VibeCoding",
-      "platform": "GitHub Blog",
+      "platform": "Forever Security",
       "engagement": 530
     }
   ],
   "featured_creators": [
     {
-      "name": "Dario Amodei",
-      "handle": "@anthropic",
-      "followers": "2.1M",
-      "topic": "AI Safety & Enterprise",
-      "trend": "+12K"
+      "name": "Arthur Mensch",
+      "handle": "@mistralai",
+      "followers": "890K",
+      "topic": "Mistral Large 4 Open Weights",
+      "trend": "+35K"
     },
     {
       "name": "Thomas Dohmke",
       "handle": "@github",
-      "followers": "1.8M",
+      "followers": "1.9M",
       "topic": "Copilot Fusion & Agentic Workflows",
-      "trend": "+28K"
+      "trend": "+22K"
     },
     {
       "name": "S-GAME Studio",
       "handle": "@sgame",
-      "followers": "456K",
+      "followers": "512K",
       "topic": "Phantom Blade Zero Launch",
-      "trend": "+18K"
+      "trend": "+45K"
     }
   ],
   "category_stats": {
     "AI": {
       "posts": 8,
-      "top_topic": "Gemini 4 Carbon",
-      "engagement": 4521
+      "top_topic": "Mistral Large 4",
+      "engagement": 5234
     },
     "VibeCoding": {
       "posts": 8,
-      "top_topic": "GitHub Universe 2026",
-      "engagement": 5832
+      "top_topic": "EMBRACE Vulnerability",
+      "engagement": 4156
     },
     "Gaming": {
       "posts": 8,
       "top_topic": "Phantom Blade Zero",
-      "engagement": 3987
+      "engagement": 4567
     }
   }
 }
