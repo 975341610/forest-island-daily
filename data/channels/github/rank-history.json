@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-29": {
-      "vectorize-io/hindsight": 1,
-      "debpalash/VoiceStudio": 2,
-      "paperclipai/paperclip": 3,
-      "hydra-db/hydradb": 4,
-      "dream-num/univer": 5,
-      "mvschwarz/openrig": 6,
-      "t8y2/dbx": 7,
-      "mobile-next/mobile-mcp": 8,
-      "juspay/hyperswitch": 9,
-      "byoungd/up": 10,
-      "vercel-labs/scriptc": 11,
-      "moeru-ai/airi": 12,
-      "pacifio/atlas": 13,
-      "block/buzz": 14,
-      "practical-tutorials/project-based-learning": 15,
-      "cs341-illinois/coursebook": 16,
-      "NawfalMotii79/PLFM_RADAR": 17,
-      "alirezarezvani/claude-skills": 18,
-      "microsoft/SkillOpt": 19,
-      "ashhart/TensorFold": 20,
-      "ruvnet/RuView": 21,
-      "samugit83/redamon": 22,
-      "vercel/next.js": 23,
-      "guohuiyuan/go-music-dl": 24,
-      "Billionmail/BillionMail": 25
-    },
     "2026-09-30": {
       "debpalash/VoiceStudio": 1,
       "vectorize-io/hindsight": 2,
@@ -836,6 +809,33 @@
       "openai/codex": 23,
       "trymirai/uzu": 24,
       "citrolabs/ego-lite": 25
+    },
+    "2026-10-30": {
+      "pbakaus/impeccable": 1,
+      "hmjz100/LinkSwift": 2,
+      "HKUDS/DeepTutor": 3,
+      "togg53192-cmd/jailbreaks": 4,
+      "vectorize-io/hindsight": 5,
+      "JetBrains/thinkrail": 6,
+      "YuJunZhiXue/dsh-purge": 7,
+      "ruvnet/RuView": 8,
+      "nightly-labs/openbot": 9,
+      "AgriciDaniel/claude-seo": 10,
+      "macro-inc/macro": 11,
+      "github/spec-kit": 12,
+      "KeygraphHQ/shannon": 13,
+      "addyosmani/agent-skills": 14,
+      "rlaope/oh-my-hermes": 15,
+      "CopilotKit/OpenBot": 16,
+      "baidu/Unlimited-OCR": 17,
+      "jub0t/Concat": 18,
+      "lfnovo/open-notebook": 19,
+      "chthollyphile/folia-major": 20,
+      "gitroomhq/postiz-app": 21,
+      "hydro-project/infinity": 22,
+      "nyakang/nyaterm": 23,
+      "p-e-w/heretic": 24,
+      "agentscope-ai/QwenPaw": 25
     }
   }
 }

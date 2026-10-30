@@ -29,9 +29,9 @@
       "html_url": "https://github.com/experientiallabs/experiential"
     },
     "pbakaus/impeccable": {
-      "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 5519,
+      "best_rank": 1,
+      "appearances": 5,
+      "total_today_stars": 8389,
       "language": "Rust",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -147,8 +147,8 @@
     },
     "AgriciDaniel/claude-seo": {
       "best_rank": 4,
-      "appearances": 4,
-      "total_today_stars": 2946,
+      "appearances": 5,
+      "total_today_stars": 3628,
       "language": "Python",
       "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/223140489?v=4",
@@ -183,8 +183,8 @@
     },
     "HKUDS/DeepTutor": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 4145,
+      "appearances": 4,
+      "total_today_stars": 6075,
       "language": "Python",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -227,9 +227,9 @@
       "html_url": "https://github.com/maboloshi/github-chinese"
     },
     "JetBrains/thinkrail": {
-      "best_rank": 7,
-      "appearances": 3,
-      "total_today_stars": 3445,
+      "best_rank": 6,
+      "appearances": 4,
+      "total_today_stars": 4562,
       "language": "TypeScript",
       "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
       "owner_avatar": "https://avatars.githubusercontent.com/u/878437?v=4",
@@ -281,9 +281,9 @@
       "html_url": "https://github.com/thesysdev/openui"
     },
     "addyosmani/agent-skills": {
-      "best_rank": 15,
-      "appearances": 3,
-      "total_today_stars": 1019,
+      "best_rank": 14,
+      "appearances": 4,
+      "total_today_stars": 1324,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -317,9 +317,9 @@
       "html_url": "https://github.com/NVIDIA/SkillSpector"
     },
     "ruvnet/RuView": {
-      "best_rank": 14,
-      "appearances": 3,
-      "total_today_stars": 1183,
+      "best_rank": 8,
+      "appearances": 4,
+      "total_today_stars": 2032,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -336,8 +336,8 @@
     },
     "gitroomhq/postiz-app": {
       "best_rank": 9,
-      "appearances": 3,
-      "total_today_stars": 2032,
+      "appearances": 4,
+      "total_today_stars": 2231,
       "language": "TypeScript",
       "description": "📨 The ultimate agentic social media scheduling tool 🤖",
       "owner_avatar": "https://avatars.githubusercontent.com/u/128401275?v=4",
@@ -345,8 +345,8 @@
     },
     "nightly-labs/openbot": {
       "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 2007,
+      "appearances": 4,
+      "total_today_stars": 2716,
       "language": "TypeScript",
       "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/100160810?v=4",
@@ -363,8 +363,8 @@
     },
     "hmjz100/LinkSwift": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 4825,
+      "appearances": 3,
+      "total_today_stars": 6883,
       "language": "JavaScript",
       "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
       "owner_avatar": "https://avatars.githubusercontent.com/u/98228280?v=4",
@@ -372,8 +372,8 @@
     },
     "YuJunZhiXue/dsh-purge": {
       "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 2329,
+      "appearances": 3,
+      "total_today_stars": 3283,
       "language": "JavaScript",
       "description": "DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分",
       "owner_avatar": "https://avatars.githubusercontent.com/u/188421097?v=4",
@@ -390,8 +390,8 @@
     },
     "togg53192-cmd/jailbreaks": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 2379,
+      "appearances": 3,
+      "total_today_stars": 3973,
       "language": null,
       "description": "LIST OF ALL MY JAILBREAKS",
       "owner_avatar": "https://avatars.githubusercontent.com/u/222877182?v=4",
@@ -434,9 +434,9 @@
       "html_url": "https://github.com/alibaba/open-code-review"
     },
     "KeygraphHQ/shannon": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 476,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 810,
       "language": "TypeScript",
       "description": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/182008209?v=4",
@@ -444,17 +444,17 @@
     },
     "baidu/Unlimited-OCR": {
       "best_rank": 16,
-      "appearances": 1,
-      "total_today_stars": 429,
+      "appearances": 2,
+      "total_today_stars": 676,
       "language": "Python",
       "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/13245940?v=4",
       "html_url": "https://github.com/baidu/Unlimited-OCR"
     },
     "github/spec-kit": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 361,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 696,
       "language": "Python",
       "description": "💫 Toolkit to help you get started with SDD or any other process!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
@@ -462,8 +462,8 @@
     },
     "p-e-w/heretic": {
       "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 307,
+      "appearances": 2,
+      "total_today_stars": 459,
       "language": "Python",
       "description": "Fully automatic censorship removal for language models",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2702526?v=4",
@@ -495,6 +495,96 @@
       "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
       "html_url": "https://github.com/citrolabs/ego-lite"
+    },
+    "vectorize-io/hindsight": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 1454,
+      "language": "Python",
+      "description": "Hindsight: Agent Memory That Learns",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/81837244?v=4",
+      "html_url": "https://github.com/vectorize-io/hindsight"
+    },
+    "macro-inc/macro": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 379,
+      "language": "Rust",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/65687018?v=4",
+      "html_url": "https://github.com/macro-inc/macro"
+    },
+    "rlaope/oh-my-hermes": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 267,
+      "language": "Python",
+      "description": "⚚ The coding harness with Hermes Agent wired into IDE.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/105429536?v=4",
+      "html_url": "https://github.com/rlaope/oh-my-hermes"
+    },
+    "CopilotKit/OpenBot": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 247,
+      "language": "TypeScript",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/131273140?v=4",
+      "html_url": "https://github.com/CopilotKit/OpenBot"
+    },
+    "jub0t/Concat": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 224,
+      "language": "Rust",
+      "description": "The truly free, open-source, local-first, cross-platform CapCut replacement. Scriptable through a JSON-RPC API & MCP.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/57962439?v=4",
+      "html_url": "https://github.com/jub0t/Concat"
+    },
+    "lfnovo/open-notebook": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 220,
+      "language": "TypeScript",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/579178?v=4",
+      "html_url": "https://github.com/lfnovo/open-notebook"
+    },
+    "chthollyphile/folia-major": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 203,
+      "language": "TypeScript",
+      "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方多平台在线音乐播放器",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/30263107?v=4",
+      "html_url": "https://github.com/chthollyphile/folia-major"
+    },
+    "hydro-project/infinity": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 180,
+      "language": "Rust",
+      "description": "An agent runtime and tool protocol for principled agent concurrency",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/41653956?v=4",
+      "html_url": "https://github.com/hydro-project/infinity"
+    },
+    "nyakang/nyaterm": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 169,
+      "language": "Rust",
+      "description": "A modern remote terminal workspace",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/61106285?v=4",
+      "html_url": "https://github.com/nyakang/nyaterm"
+    },
+    "agentscope-ai/QwenPaw": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 152,
+      "language": "TypeScript",
+      "description": "Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/211762292?v=4",
+      "html_url": "https://github.com/agentscope-ai/QwenPaw"
     }
   }
 }
