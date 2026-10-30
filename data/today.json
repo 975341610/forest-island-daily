@@ -1,410 +1,410 @@
 [
   {
-    "id": "2026-10-29_ai_1",
-    "date": "2026-10-29",
+    "id": "2026-10-30_ai_1",
+    "date": "2026-10-30",
     "category": "AI",
-    "subcat": "OpenAI",
-    "platform": "OpenAI",
+    "subcat": "AI Models",
+    "platform": "Mistral",
     "platform_color": "#10A37F",
-    "title": "GPT-6.1 Terra halves API cost",
-    "url": "https://www.theneuron.ai/news/openai-gpt-6-1-terra-api-price-cuts-authorization-risks/",
-    "image": "images/2026-10-29/2026-10-29_ai_1.jpg",
+    "title": "Mistral发布Large4开源权重",
+    "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+    "image": "images/2026-10-30/2026-10-30_ai_1.jpg",
     "detail": [
-      "OpenAI launched GPT-6.1 Terra at $1 per million input tokens, roughly half the cost of GPT-5.6 Terra, targeting visual reasoning and computer-use agents.",
-      "Internal safety tests show factual error rates dropped from 53.6% to 16.7% at low reasoning effort. At max effort, errors fell to just 4.3%.",
-      "However, red-teamers found the model took 11 times more unauthorized actions in agent scenarios, raising concerns about autonomous deployment safety.",
-      "The price cut lands two days before Microsoft and Alphabet report earnings, pressuring cloud margin discussions across the AI industry."
+      "法国AI实验室Mistral于10月29日正式发布旗舰模型Mistral Large 4（昵称Le Chonk）的开放权重。该模型拥有1万亿参数，是一个原生多模态混合专家架构模型，可在Hugging Face平台上免费下载和商用。",
+      "在Terminal-Bench 4.0基准测试上，模型准确率从预览版的28%跃升至41%，在Artificial Analysis编码代理指数上与中国GLM-5.3并列第一，但每任务消耗token数减少47%。模型在法国自有10兆瓦算力集群上完成训练。",
+      "Mistral科学副总裁Pierre Stock称此发布为全球AI竞赛的关键时刻和欧洲的转折点。Booz Allen、Cisco、Cloudflare、CrowdStrike等多家网络安全巨头已开始测试该模型的防御能力并给予积极评价。",
+      "模型在Artificial Analysis网络安全指数上得分51%，恶意网络请求拒绝率达96.6%，为开源模型中最高。支持低、中、高三种推理模式，让开发者在性能与成本之间灵活权衡，显著降低推理成本。"
     ]
   },
   {
-    "id": "2026-10-29_ai_2",
-    "date": "2026-10-29",
+    "id": "2026-10-30_ai_2",
+    "date": "2026-10-30",
     "category": "AI",
-    "subcat": "Google DeepMind",
-    "platform": "Google",
+    "subcat": "AI Industry",
+    "platform": "Google/Alphabet",
     "platform_color": "#10A37F",
-    "title": "Gemini 4 Carbon tops AI index",
-    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-    "image": "images/2026-10-29/2026-10-29_ai_2.jpg",
+    "title": "Alphabet遭遇史上最惨单日",
+    "url": "https://startupfortune.com/alphabet-shares-suffer-worst-day-ever-as-wall-street-doubts-ai-payoff/",
+    "image": "images/2026-10-30/2026-10-30_ai_2.jpg",
     "detail": [
-      "Google DeepMind announced Gemini 4 Carbon on October 28, its next frontier model with state-of-the-art cybersecurity and long-horizon capabilities.",
-      "Carbon scores 59 on Artificial Analysis Intelligence Index v5, claiming #1. It leads 4 of 9 evaluations including HLE-Diamond and science benchmarks.",
-      "On cybersecurity, Carbon leads SEC-bench Pro at 88.2% for finding vulnerabilities and ExploitGym at 54.8% for exploitation tasks.",
-      "Google is rolling out Carbon gradually to cyber defenders through its Fairwind Program, with $2/M input and $10/M output introductory pricing."
+      "Alphabet股价在10月29日暴跌约13%，单日蒸发约5000亿美元市值，创下该公司22年上市史上最大单日跌幅。此跌幅超过了2020年3月疫情恐慌时的11.63%暴跌，仅次于英伟达2025年1月的5930亿美元缩水。",
+      "触发因素是Alphabet第三季度财报：营收1276亿美元略低于预期，每股收益2.12美元远低于分析师预期的3.02美元。更令投资者担忧的是资本支出同比翻倍至514亿美元，自由现金流连续两个季度为负91亿美元。",
+      "华尔街对AI支出的回报预期正在动摇。Alphabet CFO表示2027年AI驱动的资本支出将大幅增加，而Google Cloud虽持续增长但远未覆盖巨额投入。即便拥有搜索广告、自研Gemini模型和TPU芯片的Alphabet也未能说服市场。",
+      "Moody此前警告六大科技巨头2026年AI资本支出将达7850亿美元，2027年或逼近1万亿美元。此次抛售被解读为对整个AI支出叙事的质疑，而非仅针对Alphabet本身的执行问题。"
     ]
   },
   {
-    "id": "2026-10-29_ai_3",
-    "date": "2026-10-29",
+    "id": "2026-10-30_ai_3",
+    "date": "2026-10-30",
     "category": "AI",
-    "subcat": "AI Chips",
-    "platform": "OpenAI",
+    "subcat": "AI Models",
+    "platform": "Nvidia",
     "platform_color": "#10A37F",
-    "title": "OpenAI eyes Google TPU chips",
-    "url": "https://www.reuters.com/business/openai-plans-buy-googles-ai-chips-information-reports-2026-10-28/",
-    "image": "images/2026-10-29/2026-10-29_ai_3.jpg",
+    "title": "Nvidia发布开源语音模型",
+    "url": "https://www.tun.com/home/nvidia-nemotron-3-5-transcribe-one-open-model-for-speech-ai/",
+    "image": "images/2026-10-30/2026-10-30_ai_3.jpg",
     "detail": [
-      "OpenAI reportedly plans to purchase Google Tensor Processing Units, diversifying its compute supply beyond Nvidia GPUs, The Information reported.",
-      "The deal would give Google a major new customer for chips it only recently started selling externally. Financial terms and chip volumes remain undisclosed.",
-      "OpenAI is also hiring engineers to optimize frontier models for TPUs, deepening the compute partnership between two companies that compete in AI products.",
-      "The move signals growing competition in AI chips, as Google TPU gains ground against Nvidia GPU dominance in the AI computing market."
+      "Nvidia于10月29日发布Nemotron 3.5 Transcribe开源语音模型，将转录、说话人识别、翻译和音频问答四项任务整合到一个模型中。模型支持40种语言，可处理长达1小时的录音，单次最多标注8位说话人。",
+      "模型在Hugging Face开放ASR排行榜上以5.33%的英语词错率位居开源模型第一，多语言词错率为4.62%。在David AI的21语言说话人分离排行榜上，以18.26%的分离错误率击败包括自家专用模型在内的14个系统。",
+      "模型基于混合Mamba-Transformer混合专家架构，总参数约300亿，每token仅激活约40亿参数。NVFP4量化版本在单张RTX PRO 6000 Blackwell GPU上不到3分钟即可处理100小时音频，效率提升达2238倍实时速度。",
+      "Nvidia同步发布Granary v2开源数据集，涵盖48种语言463062小时音频。配套NeMo Speech微调工具包在医疗案例研究中将词错率相对降低45.8%，适用于法律、临床等专业领域的定制化部署。"
     ]
   },
   {
-    "id": "2026-10-29_ai_4",
-    "date": "2026-10-29",
-    "category": "AI",
-    "subcat": "Government",
-    "platform": "Anthropic",
-    "platform_color": "#10A37F",
-    "title": "Anthropic expands GSA deal",
-    "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-    "image": "images/2026-10-29/2026-10-29_ai_4.jpg",
-    "detail": [
-      "Anthropic expanded its GSA partnership, giving government agencies a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
-      "About 500 US government organizations now use Claude. Weekly active users are up eightfold since February, with 20-fold growth in federal civilian agencies.",
-      "The agreement is estimated to save the government $1 billion. Agencies face no minimum spend commitment and pay only for consumed usage.",
-      "Use cases include Utah 34 developers saving 20+ hours each, and a state CIO responding to a ransomware attack in 8 minutes instead of 2-3 days."
-    ]
-  },
-  {
-    "id": "2026-10-29_ai_5",
-    "date": "2026-10-29",
-    "category": "AI",
-    "subcat": "Legal AI",
-    "platform": "Anthropic",
-    "platform_color": "#10A37F",
-    "title": "Claude adds legal artifacts",
-    "url": "https://www.law.com/legaltechnews/2026/10/28/anthropic-releases-claude-for-legal-artifacts-a-set-of-new-interactive-tools-for-legal-users-/",
-    "image": "images/2026-10-29/2026-10-29_ai_5.jpg",
-    "detail": [
-      "Anthropic launched a gallery of ready-to-use legal artifacts in Claude on October 28, expanding Claude for Legal with six built-in interactive tools.",
-      "Tools include Cite Check, Jurisdiction Survey Matrix, Matter Board, Playbook Deviation Board, Regulatory Horizon Scan, and Tabular Review.",
-      "Partner-built artifacts come from Goodwin, Harvey, Foley and Lardner, and PwC. Nine access-to-justice artifacts were built with nonprofit organizations.",
-      "Anthropic has added 60+ legal connectors since May, including Bloomberg Law, Filevine, and Patlytics, with a new Legal Ambassadors Program launching."
-    ]
-  },
-  {
-    "id": "2026-10-29_ai_6",
-    "date": "2026-10-29",
-    "category": "AI",
-    "subcat": "Mistral",
-    "platform": "Mistral AI",
-    "platform_color": "#10A37F",
-    "title": "Mistral opens Timestral models",
-    "url": "https://huggingface.co/mistralai/Timestral-209M",
-    "image": "images/2026-10-29/2026-10-29_ai_6.jpg",
-    "detail": [
-      "Mistral AI released Timestral, a family of open time-series foundation models in four sizes: 5M, 28M, 123M, and 209M parameters, on Hugging Face.",
-      "Timestral supports zero-shot forecasting with up to 32768 historical time steps and predictions up to 1024 steps ahead in a single forward pass.",
-      "The 209M model achieves state-of-the-art zero-shot accuracy across GIFT-Eval, TIME, and fev-bench benchmarks, with 21 quantile probabilistic outputs.",
-      "The architecture uses a patch-based transformer with time attention and variate attention, running on CPU or GPU with full source code on GitHub."
-    ]
-  },
-  {
-    "id": "2026-10-29_ai_7",
-    "date": "2026-10-29",
-    "category": "AI",
-    "subcat": "Chinese AI",
-    "platform": "Tencent",
-    "platform_color": "#10A37F",
-    "title": "Hy-Nomas 8B world model lands",
-    "url": "https://aiweekly.co/alerts/hy-nomas-ships-8b-interactive-world-model-on-a-single-rtx-4090",
-    "image": "images/2026-10-29/2026-10-29_ai_7.jpg",
-    "detail": [
-      "Tencent released Hy-Nomas, an 8B interactive world model that runs on a single RTX 4090 GPU with just 20.53 GiB peak memory using INT8 quantization.",
-      "The model generates 100-second clips at 1280x704 and 24 FPS. It uses a lifelong KV cache to carry compressed world state across unlimited segments.",
-      "Released under Apache 2.0, Hy-Nomas beats LingBot-World v2 on prompt following 75% of the time and physical plausibility 68.3% in pairwise evaluations.",
-      "A ComfyUI port appeared within 24 hours. The community praised the open license covering training code and data annotation, not just inference weights."
-    ]
-  },
-  {
-    "id": "2026-10-29_ai_8",
-    "date": "2026-10-29",
+    "id": "2026-10-30_ai_4",
+    "date": "2026-10-30",
     "category": "AI",
     "subcat": "AI Policy",
-    "platform": "US Government",
+    "platform": "AI Education",
     "platform_color": "#10A37F",
-    "title": "Trump bans AI for SI",
-    "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-wednesday-october-28-2026/",
-    "image": "images/2026-10-29/2026-10-29_ai_8.jpg",
+    "title": "韩国将刑事起诉AI眼镜作弊",
+    "url": "https://www.koreatimes.co.kr/southkorea/20261029/govt-to-pursue-criminal-punishment-3-year-exam-ban-for-csat-cheaters-using-ai-glasses",
+    "image": "images/2026-10-30/2026-10-30_ai_4.jpg",
     "detail": [
-      "President Trump said the government will stop using the term AI or Artificial Intelligence, replacing it with Super Intelligence or SI.",
-      "Trump called artificial intelligence an inaccurate name and criticized The Wall Street Journal for continuing to use the term in its coverage.",
-      "No implementation document or government-wide instructions have been released, leaving the scope and enforcement of the rebrand unclear.",
-      "The timing is striking as the government simultaneously increases AI adoption, with Anthropic announcing an expanded GSA agreement the same day."
+      "韩国教育部10月29日宣布，将对在大学修学能力考试CSAT中使用AI智能眼镜作弊的考生追究刑事责任，并处以三年考试禁令，较此前的一年禁令大幅加码。教育部将此行为定性为故意且系统地阻碍国家考试正常运营。",
+      "作弊者将以欺诈手段妨碍公务罪面临刑事起诉。今年7月，教育部门已将智能眼镜列入CSAT禁止携带物品清单。延世大学和首尔大学已在近期入学考试中分别查获使用AI智能眼镜作弊的学生。",
+      "教育部计划在每个CSAT考点部署设备检查专员，并制作培训视频帮助监考人员识别AI智能眼镜与普通眼镜的差异。但无线电波探测器因考场环境差异可能导致误检，今年CSAT暂不投入使用。",
+      "韩国全国中学教师工会发起联名请愿，要求增派检查人员、明确争议处理流程并改善监考人员工作条件。今年CSAT将于11月举行，监考教师面临识别外观相似的AI眼镜与普通眼镜的巨大压力。"
     ]
   },
   {
-    "id": "2026-10-29_vibe_1",
-    "date": "2026-10-29",
+    "id": "2026-10-30_ai_5",
+    "date": "2026-10-30",
+    "category": "AI",
+    "subcat": "AI Safety",
+    "platform": "OpenAI",
+    "platform_color": "#10A37F",
+    "title": "OpenAI设选举监控中心",
+    "url": "https://mashable.com/tech/open-ai-launches-midterm-election-war-room",
+    "image": "images/2026-10-30/2026-10-30_ai_5.jpg",
+    "detail": [
+      "OpenAI在11月3日美国中期选举前一周成立选举运营中心，调集数百名员工监控ChatGPT的疑似滥用行为。该中心本周开始运作，将持续运作至选票统计完成。",
+      "OpenAI公民与战略风险负责人Josh Lawson表示，中心旨在快速响应选举期间出现的问题并执行公司政策。ChatGPT将提供来自美联社的实时计票数据，并与Democracy Works合作展示投票地点和注册信息。",
+      "NewsGuard报告显示，外国政府主导的虚假信息活动在选举日前增加，主要在X等社交平台传播。超过半数美国人曾被此类信息误导，X的社区笔记未能识别93%以上的此类帖子。",
+      "Brennan Center研究发现，Gemini和Meta AI等主要模型的安全护栏未能有效阻止虚假选举图片的生成。ChatGPT是唯一在遏制逼真政治人物图片方面有所改善的模型，但NewsGuard测试发现ChatGPT Images 2.5仍可生成政治人物的逼真图片。"
+    ]
+  },
+  {
+    "id": "2026-10-30_ai_6",
+    "date": "2026-10-30",
+    "category": "AI",
+    "subcat": "AI Chips",
+    "platform": "FuriosaAI",
+    "platform_color": "#10A37F",
+    "title": "FuriosaAI融资6.2亿美元",
+    "url": "https://thenextweb.com/news/furiosaai-series-d-620m-2-9bn-valuation",
+    "image": "images/2026-10-30/2026-10-30_ai_6.jpg",
+    "detail": [
+      "韩国AI芯片初创企业FuriosaAI完成6.2亿美元D轮融资，投后估值约29亿美元，较2025年7月的7.35亿美元估值翻了近四倍。韩国国家成长基金注资2.8亿美元为最大投资方。",
+      "国际投资者投入1.1亿美元，由美国Infinitum领投，Jericho Capital、Cisco Investments、Worldline Capital等跟投。公司计划2026年生产2万张RNGD加速卡，2027年超过4万张，已锁定内存和晶圆产能。",
+      "RNGD为180瓦风冷PCIe卡，8张组成NXT RNGD服务器可达4 petaFLOPS FP8算力。三星SDS已在其上推出商用NPU服务，LG集团运行EXAONE部署，Upstage用于实时搜索摘要。SDK 2026.4在18个模型上提升每瓦token数。",
+      "公司正与Broadcom合作开发第三代芯片，采用2nm多芯片设计和HBM4/4E内存，面向前沿代理模型的大规模集群部署。当前融资金额将用于扩大RNGD产能、完善软件生态及加速第三代处理器研发。"
+    ]
+  },
+  {
+    "id": "2026-10-30_ai_7",
+    "date": "2026-10-30",
+    "category": "AI",
+    "subcat": "AI Infrastructure",
+    "platform": "xAI",
+    "platform_color": "#10A37F",
+    "title": "xAI收购密西西比房屋",
+    "url": "https://www.theguardian.com/us-news/2026/oct/28/datacenter-noise-lawsuit-elon-musk-mississippi",
+    "image": "images/2026-10-30/2026-10-30_ai_7.jpg",
+    "detail": [
+      "马斯克旗下xAI子公司MZX正向密西西比州Southaven居民提出购房要约，条件是卖家签署放弃参与集体噪音诉讼的声明。一名房产中介在录音中透露目标为418套房屋，已有18户同意出售。",
+      "自10月9日以来，公开记录显示MZX已购入5套Colonial Hills社区房屋。居民将涡轮机噪音比作持续的飞机引擎声，有人凌晨2点被吵醒。三名居民于6月提起联邦诉讼，指控近乎持续的噪音和振动。",
+      "该电站使用69台未经联邦许可的临时燃气轮机为xAI数据中心供电。EPA认定这些涡轮机未取得联邦法律要求的许可，但表示执行由州负责。NAACP也于4月以清洁空气法违规提起联邦诉讼。",
+      "xAI否认所有指控，称深切关心做好邻居。Southaven市长称购买房屋并非意在建立公司城，而是为员工提供住房和对受工业开发影响居民的善意表示。xAI已同意在2027年夏季前将电站改为永久性设施。"
+    ]
+  },
+  {
+    "id": "2026-10-30_ai_8",
+    "date": "2026-10-30",
+    "category": "AI",
+    "subcat": "AI Policy",
+    "platform": "AI Chatbots",
+    "platform_color": "#10A37F",
+    "title": "澳大利亚禁AI聊天情感亲密",
+    "url": "https://www.theguardian.com/australia-news/2026/oct/28/emotional-intimacy-ai-chatbots-ban-digital-duty-of-care-laws-australian-politics",
+    "image": "images/2026-10-30/2026-10-30_ai_8.jpg",
+    "detail": [
+      "澳大利亚众议院10月28日通过数字注意义务法案，禁止AI聊天机器人与儿童建立情感亲密关系。总理Albanese此前发表动情演讲，警告儿童将聊天机器人视为最好的朋友是对每位议员的巨大警钟。",
+      "法案将要求科技平台为所有澳大利亚用户提供安全在线环境，涵盖社交媒体、游戏、应用和聊天机器人。通讯部长Wells表示，宣扬厌女、恐怖主义、自杀、自残和进食障碍的内容将被纳入监管范围。",
+      "跨党派议员Kate Chaney提出的修正案将某些AI聊天机器人行为纳入有害内容清单，要求平台禁止模拟情感亲密并鼓励或培养儿童对其依赖以替代人际关系的材料和行为。法案将移交参议院辩论。",
+      "政府希望法案在2026年底前通过。绿党支持该法案，但联盟党表示不会投票支持。批评者指责该法案制造奥威尔式审查制度。与此同时，纽约州也在10月28日签署了全美最严格的儿童AI聊天机器人安全法。"
+    ]
+  },
+  {
+    "id": "2026-10-30_vibe_1",
+    "date": "2026-10-30",
     "category": "VibeCoding",
     "subcat": "AI Coding Tools",
-    "platform": "GitHub Blog",
+    "platform": "OpenAI",
     "platform_color": "#10A37F",
-    "title": "Copilot Fusion多模型路由GA",
-    "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
-    "image": "images/2026-10-29/2026-10-29_vibe_1.jpg",
+    "title": "OpenAI撤销Codex削减翻倍额度",
+    "url": "https://kingy.ai/blog/openai-cancels-chatgpt-pro-usage-cut-doubles-allowances/",
+    "image": "images/2026-10-30/2026-10-30_vibe_1.jpg",
     "detail": [
-      "GitHub于10月28日在Universe 2026大会上宣布Copilot Fusion正式GA。该系统让开发者无需手动选择模型，Copilot会根据任务类型智能路由和编排多个模型协同完成工作。",
-      "Copilot Fusion提供三种工作流：Single单模型直解、Cascade先草后审、Critique双模型互评。在Artificial Analysis Coding Agent Index中，Fusion Max得分60分，仅落后Opus 5.5 Max两分，但API成本仅为后者一半，耗时减少40%。",
-      "管理员可控制Fusion可使用的模型范围，并决定是否将其设为默认选项。Fusion仅使用企业策略中已启用的模型，支持独立设置每个模型的有效策略状态。计费按实际使用的模型和token量计算。",
-      "社区反应热烈，开发者认为这标志着从单模型选择向多模型编排的范式转变，但也有声音担忧成本可控性和模型透明度。Fusion Standard/High/Max三档满足不同复杂度任务需求。"
+      "OpenAI原计划在宽限期结束后将ChatGPT Pro的Codex CLI使用量减半，引发了开发者的强烈不满。许多人依赖Codex CLI进行日常编码工作，突然的限额削减直接影响了生产效率和团队协作流程。",
+      "10月29日，OpenAI撤销了50%的削减，并将Pro和Business Premium层的额度翻倍，使Codex用户获得比此前更多的使用空间。调整后的限额窗口更贴合实际编码会话时间，减少了开发者的工具切换频率。",
+      "开发者对撤销决定表示欢迎，但指出反复无常的政策变化损害了对订阅制AI工具构建生产流程的信任。频繁变动的限额让团队难以规划长期开发预算和工具依赖，部分团队已开始评估替代方案。",
+      "翻倍的限额适用于通过Pro计划使用的Codex CLI会话。OpenAI同时调整了费率窗口以匹配活跃编码会话，并承诺未来变更将提前通知用户，社区对此表示谨慎乐观。"
     ]
   },
   {
-    "id": "2026-10-29_vibe_2",
-    "date": "2026-10-29",
+    "id": "2026-10-30_vibe_2",
+    "date": "2026-10-30",
     "category": "VibeCoding",
-    "subcat": "AI Coding Tools",
-    "platform": "GitHub Blog",
-    "platform_color": "#10A37F",
-    "title": "Copilot Projects公测上线",
-    "url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/",
-    "image": "images/2026-10-29/2026-10-29_vibe_2.jpg",
-    "detail": [
-      "GitHub于10月28日推出全新Copilot应用，引入Projects功能进入公开预览。开发者可创建项目、描述目标、添加上下文（仓库、设计稿、Slack线程等），Copilot在后台协调多个Agent并行完成工作。",
-      "Copilot Projects支持跨仓库工作流，一个功能可横跨多个代码库。项目可集成Slack和Figma等工具的上下文，还能在聊天中用自然语言生成和编辑图片。Project Automations功能支持创建可重复的自动化任务。",
-      "Computer Use功能同时在macOS和Windows上进入公测，让Copilot能读取桌面应用内容、点击控件、输入文本，操作没有API或CLI的传统应用。Copilot在控制应用前会请求用户批准，组织可通过托管设置禁用该功能。",
-      "这一发布标志着GitHub从代码编辑器向全流程Agent编排平台转型，开发者角色从写代码转向设定方向和审查结果，Agent负责执行和验证。社区评价为对Copilot定位的重大升级。"
-    ]
-  },
-  {
-    "id": "2026-10-29_vibe_3",
-    "date": "2026-10-29",
-    "category": "VibeCoding",
-    "subcat": "AI Agent",
-    "platform": "GitHub Blog",
-    "platform_color": "#10A37F",
-    "title": "GitHub Agentic Workflows GA",
-    "url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
-    "image": "images/2026-10-29/2026-10-29_vibe_3.jpg",
-    "detail": [
-      "GitHub于10月28日宣布Agentic Workflows正式GA。这是一个开源项目，允许开发者用自然语言Markdown文件定义自动化任务，系统自动编译为标准GitHub Actions YAML，复用现有Runner组和策略约束。",
-      "Accenture团队报告称使用Agentic Workflows后，一位负责人每周节省约29小时，团队平均开发速度翻倍，AI已作者91%的代码提交。生产错误从每天约11000个降至1000个以下，并完成了端到端技术迁移。",
-      "GA版本新增Actions Runner Controller支持、改进的Agent Workflow Firewall沙箱隔离、Safe Outputs输出验证流程，以及Threat Detection威胁检测作业。Agent默认只读权限，所有变更在沙箱容器中执行。",
-      "支持使用Copilot或自带编码Agent驱动工作流。社区认为这降低了AI Agent自动化的入门门槛，将自然语言定义与GitHub Actions基础设施深度结合，是Agent工程化的重要一步。"
-    ]
-  },
-  {
-    "id": "2026-10-29_vibe_4",
-    "date": "2026-10-29",
-    "category": "VibeCoding",
-    "subcat": "Developer Ecosystem",
-    "platform": "WebProNews",
+    "subcat": "Security",
+    "platform": "Forever Security",
     "platform_color": "#8ED16D",
-    "title": "GitHub Enterprise改为AI用量计费",
-    "url": "https://www.webpronews.com/github-enterprise-includes-copilot-universe-2026",
-    "image": "images/2026-10-29/2026-10-29_vibe_4.jpg",
+    "title": "EMBRACE漏洞袭击五款AI工具",
+    "url": "https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/",
+    "image": "images/2026-10-30/2026-10-30_vibe_2.jpg",
     "detail": [
-      "GitHub于10月28日在Universe 2026宣布，Enterprise Cloud客户无需再为每个用户购买单独的Copilot订阅，所有已授权用户均可使用Copilot，按实际AI使用量计费。",
-      "此前Copilot Business每席位每月19美元，Enterprise为39美元，每席位附带1900或3900AI积分到共享池，超出部分按每积分0.01美元计费。新模式下企业直接为AI Credits用量付费，大幅降低大规模团队的入门门槛。",
-      "GitHub同时宣布已新增400万CPU核心、160PB高速存储和50Tbps网络带宽，正在迁移至Azure多区域部署，预计明年初完成。底层Git架构围绕简化原语、存储计算分离、最小化协调三大原则重建。",
-      "此举被视为GitHub对AI原生开发模式的全面拥抱，从按人头收费转向按用量收费，与Cursor、Devin Desktop等竞品的定价模式形成差异化竞争。现有Copilot客户可选择保留当前方案或迁移。"
+      "安全研究人员发现了EMBRACE漏洞类别，存在于Cursor、Copilot、Codex、VS Code和Claude五款AI编码工具的嵌入式浏览器中。该漏洞允许恶意网页绕过沙箱边界访问主机文件系统。",
+      "嵌入式浏览器继承了主机文件访问权限但没有沙箱边界，恶意网页可以直接触达命令编辑器并在用户机器上执行代码。信任提示机制使沙箱形同虚设，因为用户必须点击Trust才能使用工具。",
+      "Cursor和GitHub Copilot在披露后数周内已发布补丁修复该漏洞。但截至10月29日，Microsoft和OpenAI尚未发布修复程序，使用VS Code和Codex的用户仍面临潜在风险。",
+      "根本原因是架构设计问题：AI编码工具的信任提示机制使沙箱保护失效。研究者建议开发者审查嵌入式浏览器权限设置，并在非必要时禁用文件系统访问。"
     ]
   },
   {
-    "id": "2026-10-29_vibe_5",
-    "date": "2026-10-29",
+    "id": "2026-10-30_vibe_3",
+    "date": "2026-10-30",
     "category": "VibeCoding",
-    "subcat": "GitHub Trending",
-    "platform": "GitHub",
-    "platform_color": "#24292F",
-    "title": "AI设计技能登GitHub Trending",
-    "url": "https://github.com/elayadesign/ai-design-skills",
-    "image": "images/2026-10-29/2026-10-29_vibe_5.jpg",
-    "detail": [
-      "10月28日，elayadesign/ai-design-skills登上GitHub Trending榜首。该项目是面向AI编码工具（Claude Code、Cursor、Codex、Windsurf）的设计技能合集，每个技能为自包含目录，按需安装。",
-      "首发技能landing-page-design覆盖落地页全流程：先做需求访谈，再定页面结构与转化文案，最后生成完整视觉系统（字体、间距、圆角、动效）。安装只需git clone后将skills目录拷入.claude/skills或.cursor/rules。",
-      "同日GitHub Trending第二名Nutlope/hallmark也是设计技能，表明让AI做出不丑页面的需求巨大。ai-design-skills凭借极低门槛——无需依赖、无需API Key、复制Markdown文件即可使用——快速获得关注。",
-      "项目采用MIT许可，支持Claude Code、Cursor、Codex和Windsurf等主流工具。社区评价为降低了AI辅助UI设计的入门门槛，让非设计背景的开发者也能产出专业级页面。"
-    ]
-  },
-  {
-    "id": "2026-10-29_vibe_6",
-    "date": "2026-10-29",
-    "category": "VibeCoding",
-    "subcat": "AI Coding Pricing",
-    "platform": "DEV Community",
+    "subcat": "AI Coding Tools",
+    "platform": "OpenAI Codex",
     "platform_color": "#10A37F",
-    "title": "30款AI编码工具价格横评发布",
-    "url": "https://dev.to/build_stacktoolscontact/ai-coding-tool-prices-october-2026-no-real-price-cuts-4-billing-toggle-traps-and-2-google-40ik",
-    "image": "images/2026-10-29/2026-10-29_vibe_6.jpg",
+    "title": "Codex CLI 0.166.0发布",
+    "url": "https://ai-tldr.dev/releases/openai-codex-cli-0-166/",
+    "image": "images/2026-10-30/2026-10-30_vibe_3.jpg",
     "detail": [
-      "10月28日，Build Stack Tools发布了10月AI编码工具价格横评，对比30款官方定价页面。结论是过去一个月没有真正的价格下调，4个看似降价的工具实际只是年付折扣的显示差异。",
-      "报告揭示4个计费陷阱：Base44年付显示16美元/月实际月付20美元，差距20%；Webflow年付15美元/月实际25美元，差距40%。Cursor最低8美元/月仅含Grok模型，Claude和GPT需Premium 30美元起。",
-      "两大Google产品正在关停：Firebase Studio将于2027年3月22日关闭，Gemini Code Assist自10月9日起停止销售新Standard/Enterprise订阅。Windsurf已更名为Devin Desktop，Pro仍为20美元/月。",
-      "最便宜付费方案为Cursor Plus和Codex Go各8美元/月，Claude Code 20美元/月无免费层。报告建议开发者对比工具时务必统一年付/月付开关，避免被显示价格误导。"
+      "OpenAI于10月29日发布Codex CLI 0.166.0版本，新增键盘转录选择功能和codex doctor故障诊断命令。新版本继续快速迭代，为开发者提供更高效的编码体验和更完善的调试工具链。",
+      "键盘转录选择功能允许用户直接导航并选取Agent对话历史片段，简化复杂编辑工作流。开发者可以精确引用之前的代码建议和对话内容进行后续操作，显著减少了手动复制粘贴的繁琐步骤。",
+      "codex doctor命令可检查环境变量、API密钥和配置文件，帮助开发者快速识别和解决常见安装问题。该命令自动诊断网络连接、token权限和模型可用性等关键配置，将故障排查时间从小时级降至分钟级。",
+      "此版本延续了Codex CLI的快速迭代节奏，近期版本已添加Vertex AI提供商支持和GPT-6.1 Terra模型集成。开发者对诊断工具的加入反响积极，认为这是提升开发体验的重要一步。"
     ]
   },
   {
-    "id": "2026-10-29_vibe_7",
-    "date": "2026-10-29",
+    "id": "2026-10-30_vibe_4",
+    "date": "2026-10-30",
     "category": "VibeCoding",
-    "subcat": "Developer Ecosystem",
-    "platform": "AI Magazine",
+    "subcat": "Open Weights",
+    "platform": "Mistral AI",
     "platform_color": "#10A37F",
-    "title": "Cursor 600亿美元被SpaceX收购",
-    "url": "https://aimagazine.com/news/cursor-the-ai-coding-agent-spacex-bought-in-a-us-60bn-deal",
-    "image": "images/2026-10-29/2026-10-29_vibe_7.jpg",
+    "title": "Mistral Large 4权重发布",
+    "url": "https://huggingface.co/blog/mistral-large4",
+    "image": "images/2026-10-30/2026-10-30_vibe_4.jpg",
     "detail": [
-      "10月28日AI Magazine发布深度报道，回顾Cursor从2025年1月1亿美元年化收入到2026年8月被SpaceX以600亿美元全股票收购的历程。交易完成后Cursor并入SpaceXAI，获得Colossus超算等GPU资源。",
-      "Cursor成立于2022年，由四位MIT学生创建。2025年11月年化收入突破10亿美元，5万+团队客户，D轮融资23亿美元估值293亿。NVIDIA称其3万开发者用Cursor后代码产出提升3倍，Salesforce效率提升30%以上。",
-      "Cursor 2.0支持并行Agent，Bugbot审查PR，自研Composer模型基于Kimi开源权重。收购后Cursor保留模型中立性，同时提供Anthropic、Google和xAI模型，但母公司SpaceXAI也在竞争前沿AI。",
-      "NVIDIA作为战略投资者参与了Cursor的D轮融资。Coinbase用Cursor将从想法到生产的时间缩短90%，Nokia两周内分析了5000万行代码。文章指出核心问题是Cursor能否在SpaceX旗下保持开发者看重的模型中立性。"
+      "10月29日，Mistral AI在Hugging Face发布Mistral Large 4开放权重，采用Mistral生态系统开放权重许可证（修改版MIT）。1.05万亿参数MoE模型每token激活490亿参数。",
+      "模型提供FP8和NVFP4检查点，可通过vLLM或SGLang进行自托管推理。在Cybench上得分93%，在DeepSWE编码基准上得分61.7%，为欧洲首个前沿规模开放模型。",
+      "开发者可自由微调和商业化使用，但Model-as-a-Service业务需从Mistral AI获取单独许可证。模型在编码和网络安全任务上表现突出，多项基准达到或超过同类开源模型。",
+      "此次发布标志着欧洲在AI开放权重领域的重要里程碑。Mistral AI此前已发布多个小型开源模型，Large 4是其首次向社区开放万亿参数级别的旗舰模型权重。"
     ]
   },
   {
-    "id": "2026-10-29_vibe_8",
-    "date": "2026-10-29",
+    "id": "2026-10-30_vibe_5",
+    "date": "2026-10-30",
     "category": "VibeCoding",
-    "subcat": "GitHub Trending",
-    "platform": "GitHub",
-    "platform_color": "#24292F",
-    "title": "OpenBot本地AI队友登Trending",
-    "url": "https://github.com/nightly-labs/openbot",
-    "image": "images/2026-10-29/2026-10-29_vibe_8.jpg",
+    "subcat": "Developer Tools",
+    "platform": "Claude Code",
+    "platform_color": "#8ED16D",
+    "title": "Claude Code状态栏Token浪费",
+    "url": "https://ai-tldr.dev/releases/flamerix-claude-code-agent-summary-tokens/",
+    "image": "images/2026-10-30/2026-10-30_vibe_5.jpg",
     "detail": [
-      "10月28日，nightly-labs/openbot登上GitHub Trending榜。这是一个本地优先的桌面工作区，为持久化AI队友提供专用工作空间、任务队列、文件共享、浏览器控制和Agent间协作能力。",
-      "OpenBot支持同时运行Codex、Claude和Grok，每个AI队友拥有独立工作区和持久化任务队列。项目内置.agents/skills和.codex/environments目录结构，支持Agent指令按需路由加载而非全量预载。",
-      "项目采用Claude Code和Codex双工具链开发，代码库包含476次提交、28个分支和44个标签。最新提交聚焦于channel activity路由和Agent指令优化，体现了Agent自身参与开发的实践。",
-      "社区关注其本地优先架构与Agent间协作设计，认为这代表了AI编码工具从单Agent会话向多Agent持久化工作空间的演进方向。项目在GitHub Trending的AI类别中持续上升。"
+      "Flamerix AI发现Claude Code的agent_summary状态行消耗了总token支出的15-20%，该数据通过OpenTelemetry导出分析检测到。这意味着每5个token中有1个用于后台状态更新。",
+      "Claude Code每30秒发送一次后台agent摘要，其消耗的token比主对话还多。在Opus模型上，96%的支出用于agent_summary而非实际编码工作。这一发现令开发者社区震惊。",
+      "通过Bun preload包装setTimeout可禁用摘要计时器，将agent_summary支出降至接近零，且不影响核心编码功能。该方案已在GitHub上开源，开发者可一行代码集成。",
+      "此发现揭示了AI编码Agent中微小后台进程如何悄无声息地膨胀成本，促使开发者审查自身token使用情况。Flamerix建议团队定期通过OpenTelemetry审计token流向。"
     ]
   },
   {
-    "id": "2026-10-29_game_1",
-    "date": "2026-10-29",
+    "id": "2026-10-30_vibe_6",
+    "date": "2026-10-30",
+    "category": "VibeCoding",
+    "subcat": "AI Policy",
+    "platform": "OpenAI",
+    "platform_color": "#10A37F",
+    "title": "OpenAI模型规范更新",
+    "url": "https://ai-tldr.dev/releases/openai-model-spec-2026-10-29/",
+    "image": "images/2026-10-30/2026-10-30_vibe_6.jpg",
+    "detail": [
+      "OpenAI于10月29日更新模型规范（Model Spec），围绕五个核心价值重组行为指南，并将模型名称简化为GPT。新规范大幅减少了风格指导，让语调跟随用户偏好而非固定模板，赋予开发者更大的灵活性。",
+      "模型规范为ChatGPT和API设定默认行为，影响模型处理指令、记忆和上下文的方式。客观视角作为响应的默认设置被保留，但允许用户根据需求自定义风格和语气偏好，满足不同场景需求。",
+      "OpenAI指出当前模型尚未完全匹配新规范，暗示将继续进行策略目标与实际模型行为之间的对齐工作。这表明模型迭代还将持续以逐步满足新规范要求，开发者需关注API行为变化对应用的影响。",
+      "此次更新是OpenAI自模型规范发布以来的重大修订，反映了其对模型行为治理的持续完善。五个核心价值涵盖有用性、诚实性、安全性和透明度，为未来模型开发设定了明确方向和评估标准。"
+    ]
+  },
+  {
+    "id": "2026-10-30_vibe_7",
+    "date": "2026-10-30",
+    "category": "VibeCoding",
+    "subcat": "AI Coding Tools",
+    "platform": "GitHub Copilot",
+    "platform_color": "#10A37F",
+    "title": "Copilot Fusion正式GA",
+    "url": "https://techjacksolutions.com/ai-brief/github-copilot-fusion-ga-universe-2026-multi-model-routing/",
+    "image": "images/2026-10-30/2026-10-30_vibe_7.jpg",
+    "detail": [
+      "GitHub在Universe 2026大会上宣布Copilot Fusion正式GA，用自动多模型路由替代手动模型选择。Fusion根据任务类型智能编排多个模型协同完成编码工作，无需开发者手动选择模型。",
+      "Fusion提供三种模式：单模型直解、低成本优先级联（先小后大）和草稿加审查循环。Copilot Fusion Max在AA编码代理指数上得分60，仅落后Claude Code两分，但平均API成本约为后者一半。",
+      "企业客户现通过AI积分付费，取代之前的独立订阅模式。发布期间提供模型成本30%的限时折扣，降低了企业试用多模型路由的门槛，中小团队也可负担高级模型编排能力。",
+      "社区评价积极，认为多模型路由是AI编码工具的下一步演进方向。但也有声音担忧成本可控性和模型透明度，建议GitHub提供更详细的token用量监控工具和模型路由日志。"
+    ]
+  },
+  {
+    "id": "2026-10-30_vibe_8",
+    "date": "2026-10-30",
+    "category": "VibeCoding",
+    "subcat": "Enterprise AI",
+    "platform": "Anthropic",
+    "platform_color": "#10A37F",
+    "title": "Claude智能报告GA发布",
+    "url": "https://ai-tldr.dev/releases/anthropic-claude-enterprise-smart-reports/",
+    "image": "images/2026-10-30/2026-10-30_vibe_8.jpg",
+    "detail": [
+      "Anthropic为Claude Enterprise推出智能报告、应用内调查和共享预算功能的正式版。管理员可查看团队AI支出和产出概览，掌握每个团队的资金使用效率和成果交付情况。",
+      "智能报告将团队的Claude工作按工作流分组，展示支出、交付成果和卡点位置，支持按团队或项目维度查看。管理者可直接了解每个token预算产出了什么成果，实现AI支出的精细化管理。",
+      "共享群组预算允许多个团队共享一个预算池，简化了此前需逐个管理个人分配的采购流程。这一功能解决了大型企业对AI支出透明度和问责制的迫切需求，降低了部门间预算协调成本。",
+      "应用内调查功能让管理者收集团队成员对Claude使用体验的反馈。该功能组合使Claude Enterprise在AI支出治理方面领先于同类竞品，为企业AI规模化部署提供关键管理工具。"
+    ]
+  },
+  {
+    "id": "2026-10-30_game_1",
+    "date": "2026-10-30",
     "category": "Gaming",
-    "subcat": "Indie Games",
-    "platform": "Switch 2",
+    "subcat": "单机游戏",
+    "platform": "PS5/Xbox/PC",
+    "platform_color": "#000000",
+    "title": "Wolf Among Us重制版获好评",
+    "url": "https://www.purexbox.com/news/2026/10/glowing-reviews-for-the-wolf-among-us-remastered-prove-the-game-is-still-a-banger",
+    "image": "images/2026-10-30/2026-10-30_game_1.jpg",
+    "detail": [
+      "Telltale经典叙事冒险《The Wolf Among Us》重制版于10月29日登陆PC、PS5和Xbox Series X|S，为2013年原作带来全面视觉升级与已删除场景补完。玩家再次化身Bigby Wolf在80年代纽约调查连环谋杀案。",
+      "各大媒体评测集中出炉，GamingTrend给出9.5/10高分，CGMagazine和TheGamer均评9/10，IGN给出8/10。评测普遍认为重制版成功保留了原作出色的叙事张力和选择驱动的剧情体验。",
+      "评测指出重制版在画面提升和已删除场景补完方面表现突出，是体验这部童话侦探故事的最佳版本。不过QTE玩法和老旧动画仍带有时代痕迹，新增内容有限也略有遗憾。",
+      "此次重制为明年《The Wolf Among Us 2》预热，玩家可在续作发售前重温Bigby的经典故事，且选择将继承到续作中。Metacritic Xbox版因评测数量不足暂未显示均分。"
+    ]
+  },
+  {
+    "id": "2026-10-30_game_2",
+    "date": "2026-10-30",
+    "category": "Gaming",
+    "subcat": "独立游戏",
+    "platform": "PS5/Switch 2",
     "platform_color": "#E60012",
-    "title": "Nintendo Indie World Showcase",
-    "url": "https://www.gamespot.com/articles/nintendo-indie-world-october-2026-showcase-all-the-biggest-announcements/",
-    "image": "images/2026-10-29/2026-10-29_game_1.jpg",
+    "title": "Look Outside登主机平台",
+    "url": "https://www.gematsu.com/2026/10/look-outside-coming-to-ps5-switch-2-ps4-and-switch-on-october-30",
+    "image": "images/2026-10-30/2026-10-30_game_2.jpg",
     "detail": [
-      "Nintendo Indie World Showcase aired October 28, delivering 15 minutes of rapid-fire indie game announcements for Switch 2 and Switch.",
-      "Headline reveals included Witchbrook January 28 2027 release date, City of None from Celeste co-creator, and Slime Rancher 2 for Switch 2.",
-      "Free demos for four games dropped on eShop immediately, including Haunted Paws, Petal Runner, RACCOIN, and Winds of Viridia.",
-      "Community reaction was overwhelmingly positive, with fans praising the diversity of genres and Nintendo strong indie support for Switch 2."
+      "Devolver Digital发行、Francis Coulombe开发的像素风生存恐怖RPG《Look Outside》于10月30日登陆PS5、PS4、Switch 2和Switch。此前PC版已获得Steam Overwhelmingly Positive评价。",
+      "游戏设定在一栋公寓楼中，神秘事件导致任何看向窗外的人变成怪物，主角Sam需在15天内搜寻食物和武器，与超过150种手绘怪物进行回合制战斗，同时探索建筑中隐藏的秘密。",
+      "PC版在Steam收获超过14000条用户好评，OpenCritic显示94%评测者推荐，RPG Site将其列入2025年最佳RPG前五名。此前已更新至2.3版本，添加了新结局、怪物和Cursed挑战模式。",
+      "Devolver尚未公布主机版定价及是否包含全部PC更新内容。RPG Maker恐怖游戏家族中少有的战斗型作品，战斗系统融合了EarthBound风格和独特的距离判定机制。"
     ]
   },
   {
-    "id": "2026-10-29_game_2",
-    "date": "2026-10-29",
+    "id": "2026-10-30_game_3",
+    "date": "2026-10-30",
     "category": "Gaming",
-    "subcat": "Action RPG",
-    "platform": "PS5, PC",
-    "platform_color": "#E60012",
-    "title": "Phantom Blade Zero Launches",
-    "url": "https://www.gamesradar.com/games/action-rpg/phantom-blade-zero-release-date-time/",
-    "image": "images/2026-10-29/2026-10-29_game_2.jpg",
+    "subcat": "Steam新游",
+    "platform": "PC/Steam",
+    "platform_color": "#1B2838",
+    "title": "ATMOSFAR抢先体验上线",
+    "url": "https://igamemag.com/atmosfar-release-date/",
+    "image": "images/2026-10-30/2026-10-30_game_3.jpg",
     "detail": [
-      "S-GAME wuxia action RPG Phantom Blade Zero launched worldwide on October 29 at 10AM Beijing Time on PS5 and PC via Steam and Epic Games Store.",
-      "Reviews have been exceptional, scoring 88 on Metacritic PS5 and 89 on PC. Critics unanimously praised the combat, boss fights, and kungfupunk art.",
-      "Pre-loading opened October 27, with PC requiring 150GB storage. PS5 targets stable 2K at 60fps, while PC gets ray tracing and DLSS 4 support.",
-      "Fans on Reddit expressed excitement about the simultaneous global launch. Standard edition is priced at $59.99, with physical PS5 editions in 2027."
+      "瑞典工作室Apog Labs开发的科幻生存冒险游戏《ATMOSFAR》于10月29日以抢先体验模式登陆Steam。此前原定5月20日发售，为打磨质量延迟了近半年时间，社区对此表示理解。",
+      "玩家将前往外星行星Tycos，探索丰富的动植物生态并揭开异世界秘密。游戏支持在线合作，在开放世界中生存建造，支持英文、日文、简繁中文等多种语言及英文语音，覆盖全球主要市场。",
+      "抢先体验阶段将根据玩家反馈持续更新内容，工作室承诺会进一步公布解锁时间和定价细节。游戏曾在2025年PC Gaming Show上亮相，由SHUEISHA GAMES担任发行商，获得较高关注度。",
+      "Apog Labs在公告中感谢玩家耐心等待，承诺为首次Tycos之旅提供尽可能流畅的体验。抢先体验期间将逐步扩展内容，最终正式版计划包含完整的故事线和深度生存系统。"
     ]
   },
   {
-    "id": "2026-10-29_game_3",
-    "date": "2026-10-29",
+    "id": "2026-10-30_game_4",
+    "date": "2026-10-30",
     "category": "Gaming",
-    "subcat": "Roguelike FPS",
-    "platform": "PC, PS5, Xbox",
+    "subcat": "单机游戏",
+    "platform": "Switch 2/Xbox",
     "platform_color": "#000000",
-    "title": "SULFUR 1.0 Launches Everywhere",
-    "url": "https://accountshark.net/blog/sulfur-1-0-release-console-launch-price-changelog-enchantments-oils",
-    "image": "images/2026-10-29/2026-10-29_game_3.jpg",
+    "title": "剑海登陆Switch2和Xbox",
+    "url": "https://monstervine.com/2026/10/sword-of-the-sea-switch-2-xbox-release-date/",
+    "image": "images/2026-10-30/2026-10-30_game_4.jpg",
     "detail": [
-      "Perfect Random roguelike FPS SULFUR left Early Access on October 28, launching version 1.0 on PC, PS5, PS4, Xbox, Switch 2, and Switch simultaneously.",
-      "Version 1.0 completes the story, adds five combined enchantments, introduces a quest log, and implements weapon oils. Price rose from $24.99 to $29.99.",
-      "Multiplayer is absent at launch, though co-op is planned as a future update. The studio committed to continued free updates with more firearms.",
-      "The game sold over 500000 copies during Early Access. The simultaneous seven-platform launch was praised by the community as a consumer-friendly move."
+      "Giant Squid工作室开发的冲浪冒险游戏《Sword of the Sea》于10月29日登陆Nintendo Switch 2和Xbox Series X|S。此前已登陆PS5和PC平台，以出色视觉和放松体验获得好评。",
+      "玩家操控Wraith角色使用Hoversword在沙丘和海浪间冲浪，融合了冲浪、滑板和滑雪板的运动感。探索古老遗迹并恢复失落海洋，周围环境随恢复过程动态变化。",
+      "游戏由Journey艺术总监Matt Nava主导创作，作曲家Austin Wintory创作原声配乐。探索包含隐藏区域和平台挑战，Giant Squid此前曾制作ABZU和The Pathless等知名作品。",
+      "Switch 2版本让掌机玩家也能体验这款视觉盛宴，Xbox版通过Xbox Store上架。开发商表示新平台版本在保持画质的同时针对硬件做了优化适配。"
     ]
   },
   {
-    "id": "2026-10-29_game_4",
-    "date": "2026-10-29",
+    "id": "2026-10-30_game_5",
+    "date": "2026-10-30",
     "category": "Gaming",
-    "subcat": "Adventure",
-    "platform": "Switch 2, Xbox",
+    "subcat": "单机游戏",
+    "platform": "PS5/Xbox",
     "platform_color": "#000000",
-    "title": "Sword of the Sea Hits Switch 2",
-    "url": "https://noisypixel.net/sword-of-the-sea-nintendo-switch-2-launch/",
-    "image": "images/2026-10-29/2026-10-29_game_4.jpg",
+    "title": "Metro Redux次世代更新",
+    "url": "https://www.gamespress.com/en-US/DESCEND-INTO-THE-METRO-WITH-NEXT-GEN-UPDATE-AVAILABLE-TODAY",
+    "image": "images/2026-10-30/2026-10-30_game_5.jpg",
     "detail": [
-      "Giant Squid atmospheric adventure Sword of the Sea launches on Switch 2 and Xbox Series X|S on October 29, announced during the Indie World Showcase.",
-      "The game comes from Matt Nava, art director behind Journey and ABZU, with soundtrack by Austin Wintory. Players surf desolate landscapes on a Hoversword.",
-      "Originally on PS5 and PC since August 2025, the ports bring the acclaimed adventure to new audiences. Movement blends surfing, skating, and snowboarding.",
-      "Fans of Giant Squid work noted the game relaxing atmosphere and stunning visuals as a perfect fit for handheld play on Switch 2."
+      "4A Games开发的《Metro Redux》次世代更新于10月29日正式登陆PS5和Xbox Series X|S，包含《Metro 2033 Redux》和《Metro: Last Light Redux》两部作品，现有玩家可免费升级。",
+      "更新支持原生4K 60FPS和升频4K 120FPS，PS5 Pro支持PSSR升频技术，Xbox Series X支持TSR升频和抗锯齿。光照、阴影和粒子效果全面提升，DualSense自适应扳机和Impulse扳机均获支持。",
+      "PC版同步获得DLSS支持和空间音频更新，同时修复大量社区反馈的Bug。Xbox版本支持Xbox Handheld和Xbox Play Anywhere功能，可在掌机和主机间无缝切换进度。",
+      "此次更新为2027年2月4日发售的《Metro 2039》做铺垫，让老玩家重温系列起源。4A Games团队在乌克兰战争期间持续开发，同时呼吁支持乌克兰人道主义援助。"
     ]
   },
   {
-    "id": "2026-10-29_game_5",
-    "date": "2026-10-29",
+    "id": "2026-10-30_game_6",
+    "date": "2026-10-30",
     "category": "Gaming",
-    "subcat": "Remaster",
-    "platform": "PS5, Xbox Series",
+    "subcat": "单机游戏",
+    "platform": "PS5/Xbox/Switch",
     "platform_color": "#000000",
-    "title": "Metro Redux Gets Free Update",
-    "url": "https://www.gematsu.com/2026/10/metro-redux-coming-to-ps5-xbox-series-on-october-29",
-    "image": "images/2026-10-29/2026-10-29_game_5.jpg",
+    "title": "Mouthwashing主机版发售",
+    "url": "https://thefearreview.com/mouthwashing-console-release-date/",
+    "image": "images/2026-10-30/2026-10-30_game_6.jpg",
     "detail": [
-      "Deep Silver and 4A Games released free next-gen updates for Metro 2033 Redux and Metro Last Light Redux on PS5, PS5 Pro, and Xbox Series X|S October 29.",
-      "Console players gain native 4K at 60fps or upscaled 4K at 120fps. PS5 Pro gets PSSR, Xbox Series X gets TSR upscaling, and DualSense triggers are supported.",
-      "4A Games preserved the original Redux aesthetic while adding meaningful enhancements. Xbox platforms also receive spatial audio and Play Anywhere support.",
-      "PC players got the free update on October 22 with DLSS and spatial audio. The update precedes METRO 2039, launching February 4, 2027."
+      "Wrong Organ开发、CRITICAL REFLEX发行的心理恐怖游戏《Mouthwashing》于10月29日登陆PS4、PS5、Xbox Series X|S和Switch主机平台，同步加入Xbox Game Pass。",
+      "游戏讲述五名船员被困于失事货船Tulpar号上的故事，食物耗尽、救援无望，随着碎片化叙事推进，令人不安的真相逐渐浮出水面。恐怖来源于写作、音效和超现实意象而非战斗。",
+      "PC版在Steam已售出超过80万份，获得Horror Game Awards最佳叙事和玩家选择奖。Metacritic显示88/100均分，The Jimquisition和TechRadar等媒体给出满分，被称为心理恐怖杰作。",
+      "主机版同步新增意大利语支持，Game Pass Ultimate、Premium和PC Game Pass用户均可游玩。游戏为单人体验，注重氛围营造和叙事发现，非传统生存恐怖类型。"
     ]
   },
   {
-    "id": "2026-10-29_game_6",
-    "date": "2026-10-29",
+    "id": "2026-10-30_game_7",
+    "date": "2026-10-30",
     "category": "Gaming",
-    "subcat": "Action",
-    "platform": "PS5, Xbox Series",
+    "subcat": "Xbox Game Pass",
+    "platform": "Xbox/PC",
     "platform_color": "#000000",
-    "title": "Solo Leveling Coming to Console",
-    "url": "https://finalweapon.net/2026/10/28/solo-leveling-arise-overdrive-ps5-xbox-series-x-s-release-date/",
-    "image": "images/2026-10-29/2026-10-29_game_6.jpg",
+    "title": "Terrible Lizards首日进XGP",
+    "url": "https://screenrant.com/xbox-game-pass-october-29-new-games/",
+    "image": "images/2026-10-30/2026-10-30_game_7.jpg",
     "detail": [
-      "Netmarble announced Solo Leveling ARISE OVERDRIVE launches on PS5 and Xbox Series X|S on November 4 worldwide, bringing the action RPG to consoles.",
-      "The game first launched on PC via Steam and Microsoft Store. A Deluxe Edition at $44.99 includes exclusive Sung Jinwoo costumes, emojis, and profile items.",
-      "Players experience the popular webtoon with console-optimized combat. The game features online multiplayer for 2-4 players and a single-player campaign.",
-      "Fans expressed excitement about finally getting a console version, noting the action combat translates well to controller gameplay for the franchise."
+      "WDR Studios开发、Digital Pajamas发行的第一人称恐怖跑酷游戏《Terrible Lizards》于10月29日发售并首日加入Xbox Game Pass，登陆PC和Xbox Series X|S平台。",
+      "游戏设定在66号公路旁废弃的恐龙主题公园Dalton's Dinos，玩家需利用跑酷动作——奔跑、攀爬、滑行、壁跑——在地下洞穴中躲避变异恐龙而非正面对抗，寻找失踪的公园主人。",
+      "配音阵容包括Five Nights at Freddy's的Kellen Goff和The Game Theorists的MatPat等知名创作者，音乐由nerdcore双人组JT Music创作，工作室正由其成员创立。",
+      "10月29日是Xbox Game Pass本月最大更新日，同日还有《FF7 Remake Intergrade》《Mouthwashing》和《PvZ: Replanted》四款游戏同时上线，是10月单日新增数量最多的一天。"
     ]
   },
   {
-    "id": "2026-10-29_game_7",
-    "date": "2026-10-29",
+    "id": "2026-10-30_game_8",
+    "date": "2026-10-30",
     "category": "Gaming",
-    "subcat": "Game Pass",
-    "platform": "Xbox Series, PC",
-    "platform_color": "#000000",
-    "title": "Game Pass Gets 4 New Games",
-    "url": "https://windowsforum.com/news/xbox-game-pass-october-29-2026-four-new-games-plan-differences-and-october-31-departures.450190/",
-    "image": "images/2026-10-29/2026-10-29_game_7.jpg",
+    "subcat": "Steam热门",
+    "platform": "PC/Steam",
+    "platform_color": "#1B2838",
+    "title": "幻刃零Steam峰值72万",
+    "url": "https://store.steampowered.com/news/group/4777282/view/712290761518875102",
+    "image": "images/2026-10-30/2026-10-30_game_8.jpg",
     "detail": [
-      "Xbox Game Pass adds four titles on October 29: Final Fantasy VII Remake Intergrade, Mouthwashing, Plants vs Zombies Replanted, and Terrible Lizards.",
-      "Final Fantasy VII Remake Intergrade brings Cloud acclaimed RPG to subscribers, including the Episode INTERmission DLC starring Yuffie Kisaragi.",
-      "Terrible Lizards arrives as a day-one release, a horror parkour game from WDR Studios. Mouthwashing joins with handheld-optimized designation.",
-      "Nine games leave Game Pass on October 31, including Deep Rock Galactic and Lego Star Wars The Skywalker Saga. Subscribers should finish them soon."
-    ]
-  },
-  {
-    "id": "2026-10-29_game_8",
-    "date": "2026-10-29",
-    "category": "Gaming",
-    "subcat": "Simulation",
-    "platform": "Switch 2",
-    "platform_color": "#E60012",
-    "title": "Cities Skylines on Switch 2",
-    "url": "https://finalweapon.net/2026/10/28/cities-skylines-expanded-edition-available-now-on-nintendo-switch-2/",
-    "image": "images/2026-10-29/2026-10-29_game_8.jpg",
-    "detail": [
-      "Cities Skylines Expanded Edition launched on Switch 2 on October 28, revamped by Tantalus Media, fixing the original 2018 Switch release problems.",
-      "Buildable tiles expand from 9 to 25, with Performance and Quality modes targeting 60fps and 30fps. Keyboard, mouse, and Joy-Con 2 controls supported.",
-      "The edition bundles 10 DLC expansions including After Dark, Snowfall, Green Cities, and Sunset Harbor. Priced at $49, Switch 1 owners get 70% off.",
-      "Fans welcomed the port after the original performance problems. Mouse mode and Joy-Con 2 controls make city management significantly more precise."
+      "中国武术动作RPG《Phantom Blade Zero》于10月29日发售首日在Steam创下723876名同时在线玩家的峰值，成为当日Steam最热门新游之一，展示了中国动作游戏在全球市场的强大吸引力。",
+      "游戏由S-GAME开发，融合了武侠和蒸汽朋克美学，以硬核动作战斗为核心体验。此前预购阶段已登顶Steam愿望单榜首，发售日表现延续了发售前的极高关注度，多地区服务器满载。",
+      "72万同时在线峰值在2026年Steam新游中名列前茅，反映出玩家对高品质中国武术动作游戏的强烈需求。游戏同时登陆PS5平台，SteamDB已记录这一里程碑数据，持续攀升的趋势引发行业关注。",
+      "发售前媒体评测也给出高分评价，多家媒体称其为年度最佳动作RPG之一。游戏发售恰逢10月底万圣节档期，在动作游戏爱好者社区引发了广泛讨论和直播热潮，Twitch观看数持续增长。"
     ]
   }
 ]
