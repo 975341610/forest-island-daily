@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-09-30": {
-      "debpalash/VoiceStudio": 1,
-      "vectorize-io/hindsight": 2,
-      "paperclipai/paperclip": 3,
-      "byoungd/up": 4,
-      "NVIDIA/OpenShell": 5,
-      "hydra-db/hydradb": 6,
-      "mvschwarz/openrig": 7,
-      "tt-a1i/archify": 8,
-      "dream-num/univer": 9,
-      "cs341-illinois/coursebook": 10,
-      "oblien/openship": 11,
-      "pbakaus/impeccable": 12,
-      "harry0703/MoneyPrinterTurbo": 13,
-      "heygen-com/hyperframes": 14,
-      "TencentCloud/Octop": 15,
-      "mobile-next/mobile-mcp": 16,
-      "t8y2/dbx": 17,
-      "Pumpkin-MC/Pumpkin": 18,
-      "juspay/hyperswitch": 19,
-      "Gaurav-Gosain/tuios": 20,
-      "moeru-ai/airi": 21,
-      "longbridge/gpui-kit": 22,
-      "magnitudedev/magnitude": 23,
-      "averygan/reclip": 24,
-      "multica-ai/multica": 25
-    },
     "2026-10-01": {
       "debpalash/VoiceStudio": 1,
       "NVIDIA/OpenShell": 2,
@@ -836,6 +809,33 @@
       "nyakang/nyaterm": 23,
       "p-e-w/heretic": 24,
       "agentscope-ai/QwenPaw": 25
+    },
+    "2026-10-31": {
+      "pbakaus/impeccable": 1,
+      "HKUDS/DeepTutor": 2,
+      "togg53192-cmd/jailbreaks": 3,
+      "Renhuai123/ziwei-doushu": 4,
+      "Orkas-AI/Orkas": 5,
+      "pingdotgg/t3code": 6,
+      "JetBrains/thinkrail": 7,
+      "CopilotKit/OpenBot": 8,
+      "lightpanda-io/browser": 9,
+      "nightly-labs/openbot": 10,
+      "hmjz100/LinkSwift": 11,
+      "vectorize-io/hindsight": 12,
+      "anthropics/skills": 13,
+      "addyosmani/agent-skills": 14,
+      "MemPalace/mempalace": 15,
+      "KeygraphHQ/shannon": 16,
+      "ruvnet/RuView": 17,
+      "alibaba/open-code-review": 18,
+      "n8n-io/n8n": 19,
+      "multica-ai/multica": 20,
+      "daeuniverse/honk": 21,
+      "AdguardTeam/AdGuardHome": 22,
+      "infiniflow/ragflow": 23,
+      "lfnovo/open-notebook": 24,
+      "Crosstalk-Solutions/project-nomad": 25
     }
   }
 }
