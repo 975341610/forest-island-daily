@@ -30,8 +30,8 @@
     },
     "pbakaus/impeccable": {
       "best_rank": 1,
-      "appearances": 6,
-      "total_today_stars": 10689,
+      "appearances": 7,
+      "total_today_stars": 12027,
       "language": "Rust",
       "description": "The design language that makes your AI harness better at design.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
@@ -48,8 +48,8 @@
     },
     "tashfeenahmed/freellmapi": {
       "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 675,
+      "appearances": 2,
+      "total_today_stars": 1268,
       "language": "TypeScript",
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -137,9 +137,9 @@
       "html_url": "https://github.com/anthropics/sandbox-runtime"
     },
     "Renhuai123/ziwei-doushu": {
-      "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 1620,
+      "best_rank": 3,
+      "appearances": 4,
+      "total_today_stars": 2712,
       "language": "TypeScript",
       "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
       "owner_avatar": "https://avatars.githubusercontent.com/u/91890238?v=4",
@@ -183,8 +183,8 @@
     },
     "HKUDS/DeepTutor": {
       "best_rank": 1,
-      "appearances": 5,
-      "total_today_stars": 8357,
+      "appearances": 6,
+      "total_today_stars": 9391,
       "language": "Python",
       "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -255,8 +255,8 @@
     },
     "bilawalsidhu/gods-eye-view": {
       "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 400,
+      "appearances": 2,
+      "total_today_stars": 738,
       "language": "JavaScript",
       "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/106619546?v=4",
@@ -282,8 +282,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 14,
-      "appearances": 5,
-      "total_today_stars": 1603,
+      "appearances": 6,
+      "total_today_stars": 1834,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -407,18 +407,18 @@
       "html_url": "https://github.com/tt-a1i/archify"
     },
     "pingdotgg/t3code": {
-      "best_rank": 6,
-      "appearances": 2,
-      "total_today_stars": 1274,
+      "best_rank": 2,
+      "appearances": 3,
+      "total_today_stars": 2422,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
       "html_url": "https://github.com/pingdotgg/t3code"
     },
     "superdesigndev/treg": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 212,
+      "best_rank": 15,
+      "appearances": 2,
+      "total_today_stars": 478,
       "language": "Python",
       "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
       "owner_avatar": "https://avatars.githubusercontent.com/u/217153862?v=4",
@@ -453,8 +453,8 @@
     },
     "github/spec-kit": {
       "best_rank": 12,
-      "appearances": 2,
-      "total_today_stars": 696,
+      "appearances": 3,
+      "total_today_stars": 850,
       "language": "Python",
       "description": "💫 Toolkit to help you get started with SDD or any other process!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
@@ -470,9 +470,9 @@
       "html_url": "https://github.com/p-e-w/heretic"
     },
     "openai/codex": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 284,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 1015,
       "language": "Rust",
       "description": "Lightweight coding agent that runs in your terminal",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
@@ -525,8 +525,8 @@
     },
     "CopilotKit/OpenBot": {
       "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 953,
+      "appearances": 3,
+      "total_today_stars": 1561,
       "language": "TypeScript",
       "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/131273140?v=4",
@@ -587,27 +587,27 @@
       "html_url": "https://github.com/agentscope-ai/QwenPaw"
     },
     "Orkas-AI/Orkas": {
-      "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 1004,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 2048,
       "language": "JavaScript",
       "description": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for macOS & Windows; built-in models or your own keys.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/217779447?v=4",
       "html_url": "https://github.com/Orkas-AI/Orkas"
     },
     "lightpanda-io/browser": {
-      "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 626,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 1555,
       "language": "Zig",
       "description": "Lightpanda: the headless browser designed for AI and automation",
       "owner_avatar": "https://avatars.githubusercontent.com/u/145980012?v=4",
       "html_url": "https://github.com/lightpanda-io/browser"
     },
     "anthropics/skills": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 295,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 1049,
       "language": "Python",
       "description": "Public repository for Agent Skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -642,8 +642,8 @@
     },
     "daeuniverse/honk": {
       "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 133,
+      "appearances": 2,
+      "total_today_stars": 245,
       "language": "Rust",
       "description": "Inspired by dae & sing-box",
       "owner_avatar": "https://avatars.githubusercontent.com/u/126714249?v=4",
@@ -668,13 +668,94 @@
       "html_url": "https://github.com/infiniflow/ragflow"
     },
     "Crosstalk-Solutions/project-nomad": {
-      "best_rank": 25,
-      "appearances": 1,
-      "total_today_stars": 100,
+      "best_rank": 24,
+      "appearances": 2,
+      "total_today_stars": 198,
       "language": "TypeScript",
       "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/105950641?v=4",
       "html_url": "https://github.com/Crosstalk-Solutions/project-nomad"
+    },
+    "stablyai/orca": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 728,
+      "language": "TypeScript",
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "html_url": "https://github.com/stablyai/orca"
+    },
+    "Graphify-Labs/graphify": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 660,
+      "language": "Python",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
+      "html_url": "https://github.com/Graphify-Labs/graphify"
+    },
+    "paperclipai/paperclip": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 401,
+      "language": "TypeScript",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/264498616?v=4",
+      "html_url": "https://github.com/paperclipai/paperclip"
+    },
+    "herdrdev/herdr": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 246,
+      "language": "Rust",
+      "description": "the runtime your coding agents live on",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/309108654?v=4",
+      "html_url": "https://github.com/herdrdev/herdr"
+    },
+    "Nasiko-Labs/nasiko": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 212,
+      "language": "Rust",
+      "description": "The Open Runtime for AI Agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/259143031?v=4",
+      "html_url": "https://github.com/Nasiko-Labs/nasiko"
+    },
+    "The-PR-Agent/pr-agent": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 122,
+      "language": "Python",
+      "description": "🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/264152072?v=4",
+      "html_url": "https://github.com/The-PR-Agent/pr-agent"
+    },
+    "THU-MAIC/OpenMAIC": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 116,
+      "language": "TypeScript",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/163809488?v=4",
+      "html_url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    "Billionmail/BillionMail": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 101,
+      "language": "Go",
+      "description": "BillionMail gives you open-source MailServer, NewsLetter,  Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord: https://discord.gg/asfXzBUhZr",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/216815005?v=4",
+      "html_url": "https://github.com/Billionmail/BillionMail"
+    },
+    "Tencent/WeKnora": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 84,
+      "language": "Go",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
+      "html_url": "https://github.com/Tencent/WeKnora"
     }
   }
 }

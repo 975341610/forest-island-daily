@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-01": {
-      "debpalash/VoiceStudio": 1,
-      "NVIDIA/OpenShell": 2,
-      "t8y2/dbx": 3,
-      "byoungd/up": 4,
-      "HunxByts/GhostTrack": 5,
-      "mvschwarz/openrig": 6,
-      "oblien/openship": 7,
-      "firecrawl/firecrawl": 8,
-      "pbakaus/impeccable": 9,
-      "harry0703/MoneyPrinterTurbo": 10,
-      "heygen-com/hyperframes": 11,
-      "ifixai-ai/iFixAi": 12,
-      "alphaXiv/OpenResearch": 13,
-      "TencentCloud/Octop": 14,
-      "NawfalMotii79/PLFM_RADAR": 15,
-      "ruvnet/RuView": 16,
-      "longbridge/gpui-kit": 17,
-      "github/spec-kit": 18,
-      "qbittorrent/search-plugins": 19,
-      "Pumpkin-MC/Pumpkin": 20,
-      "anthropics/claude-code": 21,
-      "alirezarezvani/claude-skills": 22,
-      "yorukot/superfile": 23,
-      "ComposioHQ/awesome-claude-skills": 24,
-      "colbymchenry/codegraph": 25
-    },
     "2026-10-02": {
       "NVIDIA/OpenShell": 1,
       "ifixai-ai/iFixAi": 2,
@@ -836,6 +809,33 @@
       "infiniflow/ragflow": 23,
       "lfnovo/open-notebook": 24,
       "Crosstalk-Solutions/project-nomad": 25
+    },
+    "2026-11-01": {
+      "pbakaus/impeccable": 1,
+      "pingdotgg/t3code": 2,
+      "Renhuai123/ziwei-doushu": 3,
+      "Orkas-AI/Orkas": 4,
+      "HKUDS/DeepTutor": 5,
+      "lightpanda-io/browser": 6,
+      "anthropics/skills": 7,
+      "openai/codex": 8,
+      "stablyai/orca": 9,
+      "Graphify-Labs/graphify": 10,
+      "CopilotKit/OpenBot": 11,
+      "tashfeenahmed/freellmapi": 12,
+      "paperclipai/paperclip": 13,
+      "bilawalsidhu/gods-eye-view": 14,
+      "superdesigndev/treg": 15,
+      "herdrdev/herdr": 16,
+      "addyosmani/agent-skills": 17,
+      "Nasiko-Labs/nasiko": 18,
+      "github/spec-kit": 19,
+      "The-PR-Agent/pr-agent": 20,
+      "THU-MAIC/OpenMAIC": 21,
+      "daeuniverse/honk": 22,
+      "Billionmail/BillionMail": 23,
+      "Crosstalk-Solutions/project-nomad": 24,
+      "Tencent/WeKnora": 25
     }
   }
 }
