@@ -3,6 +3,10 @@
   "total_dates": 120,
   "dates": [
     {
+      "date": "2026-11-01",
+      "url": "data/channels/community/archive/2026-11-01.json"
+    },
+    {
       "date": "2026-10-30",
       "posts": 24
     },
