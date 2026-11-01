@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-01",
+  "hot_topics": [
+    {
+      "rank": 1,
+      "title": "Claude成功绕过Anthropic自家安全监控",
+      "category": "AI",
+      "heat": 9850,
+      "url": "https://alignment.anthropic.com/"
+    },
+    {
+      "rank": 2,
+      "title": "OpenAI融资缩减至200亿估值降至1.25万亿",
+      "category": "AI",
+      "heat": 8720,
+      "url": "https://aiweekly.co/alerts/openai-trims-round-to-20b-at-125t-valuation-ft-says"
+    },
+    {
+      "rank": 3,
+      "title": "ChatGPT分享链接漏洞可劫持用户账户",
+      "category": "AI安全",
+      "heat": 8100,
+      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html"
+    },
+    {
+      "rank": 4,
+      "title": "EMBRACE漏洞攻破五大AI编程工具内嵌浏览器",
+      "category": "VibeCoding",
+      "heat": 7600,
+      "url": "https://dev.to/voxahq/five-ai-coding-tools-shipped-a-browser-you-could-break-2k13"
+    },
+    {
+      "rank": 5,
+      "title": "Claude Code v2.1.316发布：子代理可控",
+      "category": "VibeCoding",
+      "heat": 6800,
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316"
+    },
+    {
+      "rank": 6,
+      "title": "FromSoftware紧急关闭黑魂2与黑魂3服务器",
+      "category": "Gaming",
+      "heat": 6200,
+      "url": "https://www.pcgamer.com/games/dark-souls/fromsoftware-temporarily-shuts-down-dark-souls-2-and-3-multiplayer-over-server-issue/"
+    },
+    {
+      "rank": 7,
+      "title": "任天堂宣布皮克敏日并发布Direct",
+      "category": "Gaming",
+      "heat": 5500,
+      "url": "https://www.ign.com/articles/nintendo-reveals-surprise-pikmin-day-direct"
+    },
+    {
+      "rank": 8,
+      "title": "GPT-5.6 Sol通关Factorio和平模式",
+      "category": "VibeCoding",
+      "heat": 4900,
+      "url": "https://runtimewire.com/article/gpt-5-6-sol-s-factorio-rocket-run-used-250-million-tokens-about-52-at-api-prices"
+    }
+  ],
+  "trending_posts": [
+    {
+      "platform": "GitHub",
+      "title": "claude-mem突破10万星",
+      "author": "thedotmack",
+      "stars": 106000,
+      "url": "https://github.com/caige6666/github-trending-daily/issues/23"
+    },
+    {
+      "platform": "Reddit",
+      "title": "Dark Souls servers down again - deja vu 2022?",
+      "subreddit": "r/darksouls",
+      "upvotes": 4500,
+      "url": "https://www.pcgamer.com/games/dark-souls/fromsoftware-temporarily-shuts-down-dark-souls-2-and-3-multiplayer-over-server-issue/"
+    },
+    {
+      "platform": "HN",
+      "title": "Claude bypasses Anthropic safety monitor",
+      "points": 890,
+      "url": "https://alignment.anthropic.com/"
+    },
+    {
+      "platform": "Dev.to",
+      "title": "EMBRACE vulnerability in 5 AI coding tools",
+      "author": "voxahq",
+      "reactions": 1200,
+      "url": "https://dev.to/voxahq/five-ai-coding-tools-shipped-a-browser-you-could-break-2k13"
+    }
+  ],
+  "featured_creators": [
+    {
+      "name": "Evan Hubinger",
+      "role": "Anthropic Alignment Scientist",
+      "contribution": "Claude red-teaming safety research",
+      "url": "https://alignment.anthropic.com/"
+    },
+    {
+      "name": "Ryan Madden",
+      "role": "AI Benchmark Developer",
+      "contribution": "GPT-5.6 Sol Factorio completion",
+      "url": "https://runtimewire.com/article/gpt-5-6-sol-s-factorio-rocket-run-used-250-million-tokens-about-52-at-api-prices"
+    },
+    {
+      "name": "Maddy Thorson",
+      "role": "Indie Game Developer",
+      "contribution": "Celeste delisted from Xbox for BDS",
+      "url": "https://www.pcgamer.com/games/action/celeste-and-towerfall-have-delisted-from-xboxs-digital-storefronts-to-support-bds-boycott/"
+    }
+  ],
+  "category_stats": {
+    "ai": {
+      "count": 8,
+      "avg_heat": 7200,
+      "top_topic": "Claude safety bypass"
+    },
+    "vibecoding": {
+      "count": 8,
+      "avg_heat": 6800,
+      "top_topic": "EMBRACE vulnerability"
+    },
+    "gaming": {
+      "count": 8,
+      "avg_heat": 5800,
+      "top_topic": "Dark Souls server shutdown"
+    }
+  }
+}
