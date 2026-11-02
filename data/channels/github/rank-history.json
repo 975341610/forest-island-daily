@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-02": {
-      "NVIDIA/OpenShell": 1,
-      "ifixai-ai/iFixAi": 2,
-      "debpalash/VoiceStudio": 3,
-      "t8y2/dbx": 4,
-      "tt-a1i/archify": 5,
-      "mvschwarz/openrig": 6,
-      "heygen-com/hyperframes": 7,
-      "harry0703/MoneyPrinterTurbo": 8,
-      "bilawalsidhu/gods-eye-view": 9,
-      "magnitudedev/magnitude": 10,
-      "pbakaus/impeccable": 11,
-      "HunxByts/GhostTrack": 12,
-      "pablostanley/yoinks": 13,
-      "byoungd/up": 14,
-      "ComposioHQ/awesome-claude-skills": 15,
-      "earendil-works/pi": 16,
-      "tinyhumansai/openhuman": 17,
-      "Friedrich-M/UniMate": 18,
-      "addyosmani/agent-skills": 19,
-      "longbridge/gpui-kit": 20,
-      "modelcontextprotocol/servers": 21,
-      "TencentCloud/Octop": 22,
-      "Neet-Nestor/Telegram-Media-Downloader": 23,
-      "tile-ai/tilelang": 24,
-      "openai/codex": 25
-    },
     "2026-10-03": {
       "pbakaus/impeccable": 1,
       "Panniantong/Agent-Reach": 2,
@@ -836,6 +809,33 @@
       "Billionmail/BillionMail": 23,
       "Crosstalk-Solutions/project-nomad": 24,
       "Tencent/WeKnora": 25
+    },
+    "2026-11-02": {
+      "pingdotgg/t3code": 1,
+      "ifixai-ai/iFixAi": 2,
+      "Orkas-AI/Orkas": 3,
+      "pbakaus/impeccable": 4,
+      "Renhuai123/ziwei-doushu": 5,
+      "lightpanda-io/browser": 6,
+      "togg53192-cmd/jailbreaks": 7,
+      "shiyu-coder/Kronos": 8,
+      "paperclipai/paperclip": 9,
+      "beenuar/AiSOC": 10,
+      "anthropics/skills": 11,
+      "jub0t/Concat": 12,
+      "leepokai/Codync": 13,
+      "public-apis/public-apis": 14,
+      "THU-MAIC/OpenMAIC": 15,
+      "openai/codex": 16,
+      "FlashML-org/FreeToken": 17,
+      "chthollyphile/folia-major": 18,
+      "lfnovo/open-notebook": 19,
+      "herdrdev/herdr": 20,
+      "golang/go": 21,
+      "CopilotKit/OpenBot": 22,
+      "kubernetes/kubernetes": 23,
+      "hashicorp/terraform": 24,
+      "laoma528/awesome-zhuiju-free": 25
     }
   }
 }
