@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-02",
+  "hot_topics": [
+    {
+      "topic": "OpenAI融资目标从300亿砍至200亿",
+      "category": "AI",
+      "heat": 95,
+      "sources": [
+        "Trending Topics",
+        "FT",
+        "TechCrunch"
+      ]
+    },
+    {
+      "topic": "Big Tech Q3 AI资本支出2019亿创新高",
+      "category": "AI",
+      "heat": 92,
+      "sources": [
+        "Kobeissi Letter",
+        "247wallst"
+      ]
+    },
+    {
+      "topic": "Claude Code扩展被植入SSH后门",
+      "category": "VibeCoding",
+      "heat": 98,
+      "sources": [
+        "PRSOL",
+        "HN",
+        "Cursor"
+      ]
+    },
+    {
+      "topic": "Cisco给27岁工程师无限AI Token重写代码",
+      "category": "VibeCoding",
+      "heat": 88,
+      "sources": [
+        "Dev.to",
+        "Fortune",
+        "HN"
+      ]
+    },
+    {
+      "topic": "Zelda时之笛预载登顶Switch 2 eShop",
+      "category": "Gaming",
+      "heat": 90,
+      "sources": [
+        "Nintendo Everything"
+      ]
+    },
+    {
+      "topic": "Xbox Game Pass十一月七款无一支持Xbox One",
+      "category": "Gaming",
+      "heat": 85,
+      "sources": [
+        "GamesHub"
+      ]
+    }
+  ],
+  "trending_posts": [
+    {
+      "title": "Claude Code恶意扩展暴露AI编程工具供应链风险",
+      "platform": "Hacker News",
+      "score": 967,
+      "comments": 547,
+      "url": "https://news.ycombinator.com/item?id=50318234"
+    },
+    {
+      "title": "AI正在去技能化SRE而非替代他们",
+      "platform": "Hacker News",
+      "score": 647,
+      "comments": 474,
+      "url": "https://news.ycombinator.com/item?id=50318765"
+    },
+    {
+      "title": "Anthropic封禁涉及大模型训练的用户",
+      "platform": "Hacker News",
+      "score": 210,
+      "comments": 118,
+      "url": "https://news.ycombinator.com/item?id=50319358"
+    },
+    {
+      "title": "AA智能指数v5发布 开源闭源差距扩大到12分",
+      "platform": "Hacker News",
+      "score": 135,
+      "comments": 72,
+      "url": "https://news.ycombinator.com/item?id=50318567"
+    }
+  ],
+  "featured_creators": [
+    {
+      "name": "Jeetu Patel",
+      "role": "Cisco总裁",
+      "reason": "授权27岁工程师用AI重写98%遗留代码"
+    },
+    {
+      "name": "Josh Holmes",
+      "role": "Octopus Panic创始人",
+      "reason": "前Halo创意总监新作GRAVHOUNDS上线"
+    },
+    {
+      "name": "John Ternus",
+      "role": "苹果CEO",
+      "reason": "首次系统回应AI战略：不为AI而AI"
+    }
+  ],
+  "category_stats": {
+    "ai": {
+      "count": 8,
+      "avg_detail_chars": 680,
+      "top_subcat": "行业融资"
+    },
+    "vibecoding": {
+      "count": 8,
+      "avg_detail_chars": 620,
+      "top_subcat": "安全事件"
+    },
+    "gaming": {
+      "count": 8,
+      "avg_detail_chars": 610,
+      "top_subcat": "新游发布"
+    }
+  }
+}
