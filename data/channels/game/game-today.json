@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-01",
-  "generated_at": "2026-11-01T06:30:19.177136+00:00",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T06:30:45.647642+00:00",
   "source": "rss-auto",
   "releases": [
     {
@@ -227,118 +227,132 @@
   ],
   "hot": [
     {
-      "title": "9 Years Later, Jon Bernthal’s Action Series Is a Masterpiece",
+      "title": "Luke Skywalker's Single Greatest Star Wars Line Hits Harder ",
       "category": "重磅新闻",
-      "summary": "One batch, two batch, penny and dime",
+      "summary": "Luke Skywalker is easily the greatest 'Star Wars' character of all time. But what was his best quote?",
       "source": "Polygon",
-      "url": "https://www.polygon.com/jon-bernthal-punisher-action-masterpiece-marvel-disney-plus/"
+      "url": "https://www.polygon.com/luke-skywalker-best-quote-has-nothing-to-do-with-darth-vader/"
     },
     {
-      "title": "Ridley Scott's Near-Perfect Sci-Fi Masterpiece is Waiting to",
+      "title": "The HeroQuest board game is coming to Steam with a quest edi",
       "category": "重磅新闻",
-      "summary": "One of the best films in Ridley Scott's filmography and a key entry into the sci-fi canon",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/ridley-scott-blade-runner-final-cut-streaming-november-2026/"
-    },
-    {
-      "title": "All 8 Dungeon Crawler Carl Books Ranked (by Their Goodreads ",
-      "category": "重磅新闻",
-      "summary": "Matt Dinniman's hit LitRPG series keeps raising the stakes, but which Dungeon Crawler Carl book ranks highest?",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/every-dungeon-crawler-carl-book-ranked-by-their-goodreads-score/"
-    },
-    {
-      "title": "Patrick Stewart's Perfect 'Simpsons' Episode Reveals the Bel",
-      "category": "重磅新闻",
-      "summary": "Sir Patrick Stewart is being remembered for Star Trek and X-Men, but he was also the perfect guest star on The Simpsons",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/patrick-stewart-the-simpsons-guest-star/"
-    },
-    {
-      "title": "After almost a decade of work, Alien: Isolation mod tools hi",
-      "category": "重磅新闻",
-      "summary": "Structural perfection.",
+      "summary": "The best thing about HeroQuest...",
       "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/horror/after-almost-a-decade-of-work-alien-isolation-mod-tools-hit-1-0-with-support-for-full-custom-maps-missions-modes-characters-weapons-animations-sounds-models-textures-and-more/"
+      "url": "https://www.pcgamer.com/games/board-games/the-heroquest-board-game-is-coming-to-steam-with-a-quest-editor-and-multiplayer/"
     },
     {
-      "title": "10 Video Games With the Best Twist Endings Nobody Saw Coming",
+      "title": "Quentin Tarantino’s First New Movie in 7 Years Officially Ar",
       "category": "重磅新闻",
-      "summary": "From Spec Ops: The Line to Link’s Awakening, these 10 video games have the best twist endings, with reveals that recast everything before them.",
+      "summary": "The Once Upon a Time in Hollywood universe returns with a new crime thriller from David Fincher and Quentin Tarantino, arriving on Netflix next month.",
       "source": "Polygon",
-      "url": "https://www.polygon.com/best-video-game-twist-endings/"
+      "url": "https://www.polygon.com/quentin-tarantino-the-further-mis-adventures-of-cliff-booth-release-date/"
     },
     {
-      "title": "Input Lag Is So Bad in Call of Duty: Modern Warfare 4 on Nin",
+      "title": "10 Best BG3 NPCs Fans Still Want To Join The Party All These",
       "category": "重磅新闻",
-      "summary": "If you’re playing Call of Duty: Modern Warfare 4 on Nintendo Switch 2, beware: you’re at a disadvantage in competitive Multiplayer due to crushing input lag that is much worse than the other platforms.",
+      "summary": "The best BG3 NPCs are still unable to join your Baldur's Gate 3 party, but fans have wanted them to be party members for years.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/bg3-best-npcs/"
+    },
+    {
+      "title": "10 Best Classic Shooters That Are So Good They Never Need A ",
+      "category": "重磅新闻",
+      "summary": "The best classic shooters of the 2000s were perfect two decades ago, and don't need a remake in 2026.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/best-classic-shooters/"
+    },
+    {
+      "title": "Footage of what sure looks like a Persona 1 remake has leake",
+      "category": "爆料",
+      "summary": "Is that you, Boy With Earring?",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/rpg/footage-of-what-sure-looks-like-a-persona-1-remake-has-leaked/"
+    },
+    {
+      "title": "Obsidian's Josh Sawyer on RPG cities: 'Compared to a dungeon",
+      "category": "重磅新闻",
+      "summary": "It's these freaking zoning laws, man.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/rpg/obsidians-josh-sawyer-on-rpg-cities-compared-to-a-dungeon-generally-speaking-a-town-is-4x-the-expense-per-square-foot/"
+    },
+    {
+      "title": "Here's one bit of good news for Mass Effect: modders are bri",
+      "category": "重磅新闻",
+      "summary": "\"Enemies still active, stay alert.\"",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/mass-effect/heres-one-bit-of-good-news-for-mass-effect-modders-are-bringing-the-multiplayer-mode-to-mass-effect-legendary-edition/"
+    },
+    {
+      "title": "8 Years Later, a Buffy Star's Obscure Thriller Is Waiting to",
+      "category": "重磅新闻",
+      "summary": "Remember, everyone, if you find a strange mask in the woods, don't put it on",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/you-might-be-the-killer-free/"
+    },
+    {
+      "title": "The Best Deals Today: Gears of War: E-Day, Apple Watch Ultra",
+      "category": "重磅新闻",
+      "summary": "The Best Deals Today: Gears of War: E-Day, Apple Watch Ultra 4, Star Wars Zero Company, and More",
       "source": "IGN",
-      "url": "https://www.ign.com/articles/input-lag-is-so-bad-in-call-of-duty-modern-warfare-4-on-nintendo-switch-2-that-players-suffer-from-a-competitive-disadvantage"
+      "url": "https://www.ign.com/articles/best-deals-for-november-1-2026"
     },
     {
-      "title": "Andy Weir's New Time-Travel Sci-fi Thriller Officially Arriv",
+      "title": "Patrick Stewart, Our Captain Of Multimedia CD-ROM Edutainmen",
       "category": "重磅新闻",
-      "summary": "The Andy Weir-produced Audible Original story Exoplanet stars Anthony Mackie, Ariana DeBose, and John Leguizamo.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/andy-weir-benjamin-percy-exoplanet-sci-fi-audiobook/"
+      "summary": "While there is still much to parse from the multifaceted performer, we should take a minute to remember the scholar who lived inside our computer encyclopedias",
+      "source": "Kotaku",
+      "url": "https://kotaku.com/patrick-stewart-our-captain-of-multimedia-cd-rom-edutainment-2000752105"
     },
     {
-      "title": "Save Mass Effect Graffiti Reportedly Spray-Painted Outside E",
+      "title": "Team Behind Fan-Made Oblivion Remake Face Lawsuit From Forme",
       "category": "重磅新闻",
-      "summary": "An EA office building in Madrid was vandalized with the words \"Save Mass Effect\" just days after the company announced it had shuttered series developer BioWare.",
-      "source": "IGN",
-      "url": "https://www.ign.com/articles/save-mass-effect-graffiti-reportedly-spray-painted-outside-ea-building"
-    },
-    {
-      "title": "5 Must-Play Nintendo Switch 2 Games Coming in November 2026",
-      "category": "重磅新闻",
-      "summary": "The Legend of Zelda: Ocarina of Time remake and Metaphor: ReFantazio lead a strong month for Nintendo Switch 2 game releases",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/new-nintendo-switch-games-november-2026/"
-    },
-    {
-      "title": "5 Best Nintendo Switch Games That Desperately Need Switch 2 ",
-      "category": "重磅新闻",
-      "summary": "Many Nintendo Switch games received upgrades for Switch 2, but here are five classic Nintendo Switch games that did not.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/nintendo-switch-games-no-switch-2-edition/"
-    },
-    {
-      "title": "10 Classic '90s RPGs That Have Aged Like Fine Wine, Ranked",
-      "category": "重磅新闻",
-      "summary": "RPGs from the 1990s were some of the most pivotal games in history. Here are 10 classic 1990s RPGs that are so good they don't need a remake.",
-      "source": "Polygon",
-      "url": "https://www.polygon.com/best-classic-90s-rpgs/"
+      "summary": "Community projects are no stranger to legal threats, but in a rare instance the 'Skyblivion' developers are facing litigation from one of their own",
+      "source": "Kotaku",
+      "url": "https://kotaku.com/team-behind-fan-made-oblivion-remake-face-lawsuit-from-former-contributor-2000752100"
     }
   ],
   "studios": [
     {
       "company": "任天堂",
-      "title": "Round Up: Pikmin Day 2026 - Updates, Demo And New Animated S",
-      "summary": "Happy Pikmin Day!Nintendo surprised us with a Pikmin-themed Direct this weekend, announcing Pikmin Day! If you haven't already watched the video, here's everything from the broadcast:Read the full article on nintendolife.com",
+      "title": "HoYoverse Announces Cosy Galactic Life Sim 'Petit Planet' Fo",
+      "summary": "The free-to-play title launches in 2027.HoYoverse, the company known for games like Genshin Impact and Zenless Zone Zero, has announced it's bringing the cosy free-to-play galactic life sim Petit Planet to the Switch 2 in 2027.It shared news about the Nintendo version of the game",
       "source": "Nintendo Life",
-      "url": "https://www.nintendolife.com/news/2026/11/round-up-pikmin-day-2026-updates-demo-and-new-animated-shorts"
+      "url": "https://www.nintendolife.com/news/2026/11/hoyoverse-announces-cosy-galactic-life-sim-petit-planet-for-switch-2"
     },
     {
       "company": "微软 / Xbox",
-      "title": "Forza co-creator Dan Greenawalt is reportedly leaving Micros",
-      "summary": "Another nail in Motorsport's coffin.",
-      "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/racing/forza-co-creator-dan-greenawalt-is-reportedly-leaving-microsoft/"
+      "title": "Penguin Colony was made to 'put the games industry on notice",
+      "summary": "Why the Xbox boycott and Palestinian crisis fuel Penguin Colony, a penguin adventure game set among Lovecraft's horrors.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/penguin-colony-interview-development/"
+    },
+    {
+      "company": "Epic Games",
+      "title": "How to get the Pirate Shop Access Token in Fortnite Chapter ",
+      "summary": "The Pirate Shop Access Token lets you get anything for free in Fortnite Chapter 7 mini season. Here's how to get it and what you can buy.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/fortnite-chapter-7-mini-season-pirate-shop-access-token-free-how-to-get/"
     },
     {
       "company": "Take-Two / Rockstar",
-      "title": "I'm 100% here for a more grounded, realistic GTA 6, one I be",
-      "summary": "I hope Rockstar makes us work a little harder to wreak our usual mayhem.",
+      "title": "Grand Theft Auto 6 teased a handful of its upcoming radio st",
+      "summary": "I can already picture my late-night Leonida drives to these bangers.",
       "source": "PC Gamer",
-      "url": "https://www.pcgamer.com/games/grand-theft-auto/im-100-percent-here-for-a-more-grounded-realistic-gta-6-one-i-believe-wont-come-at-the-expense-of-its-usual-haphazard-chaos/"
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/grand-theft-auto-6-teased-a-handful-of-its-upcoming-radio-stations-and-its-music-curation-is-as-strong-as-ever/"
     },
     {
-      "company": "EA / 美国艺电",
-      "title": "Blizzard hints at console ports for World of Warcraft: Forev",
-      "summary": "After more than two decades dominating the PC MMO battlefield, it sounds like Blizzard Entertainment's taking the idea of a World of Warcraft console port more seriously than ever. Read more",
-      "source": "Eurogamer",
-      "url": "https://www.eurogamer.net/blizzard-console-port-hints-world-of-warcraft-forever"
+      "company": "Valve",
+      "title": "Valve's long-lost prototype Portal prequel appears online af",
+      "summary": "F-Stop was a result of a post-Orange Box, 2007 Valve game jam.",
+      "source": "PC Gamer",
+      "url": "https://www.pcgamer.com/games/fps/valves-long-lost-prototype-portal-prequel-appears-online-after-nearly-20-years/"
+    },
+    {
+      "company": "卡普空 / Capcom",
+      "title": "Capcom Officially Reveals Fourth Mega Man: Dual Override Rob",
+      "summary": "\"He's cooking up a storm\".Capcom continues to build excitement for Mega Man: Dual Override, and following the official reveal of Tank Man earlier this week, it's now lifted the lid on Cook Man.He is one of the many Robot Masters coming to the game. This master chef is ready to sl",
+      "source": "Nintendo Life",
+      "url": "https://www.nintendolife.com/news/2026/11/capcom-officially-reveals-fourth-mega-man-dual-override-robot-master"
     }
   ]
 }
