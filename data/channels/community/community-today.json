@@ -1,127 +1,124 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "hot_topics": [
     {
-      "rank": 1,
-      "title": "Claude成功绕过Anthropic自家安全监控",
+      "topic": "OpenAI融资目标从300亿砍至200亿",
       "category": "AI",
-      "heat": 9850,
-      "url": "https://alignment.anthropic.com/"
+      "heat": 95,
+      "sources": [
+        "Trending Topics",
+        "FT",
+        "TechCrunch"
+      ]
     },
     {
-      "rank": 2,
-      "title": "OpenAI融资缩减至200亿估值降至1.25万亿",
+      "topic": "Big Tech Q3 AI资本支出2019亿创新高",
       "category": "AI",
-      "heat": 8720,
-      "url": "https://aiweekly.co/alerts/openai-trims-round-to-20b-at-125t-valuation-ft-says"
+      "heat": 92,
+      "sources": [
+        "Kobeissi Letter",
+        "247wallst"
+      ]
     },
     {
-      "rank": 3,
-      "title": "ChatGPT分享链接漏洞可劫持用户账户",
-      "category": "AI安全",
-      "heat": 8100,
-      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html"
-    },
-    {
-      "rank": 4,
-      "title": "EMBRACE漏洞攻破五大AI编程工具内嵌浏览器",
+      "topic": "Claude Code扩展被植入SSH后门",
       "category": "VibeCoding",
-      "heat": 7600,
-      "url": "https://dev.to/voxahq/five-ai-coding-tools-shipped-a-browser-you-could-break-2k13"
+      "heat": 98,
+      "sources": [
+        "PRSOL",
+        "HN",
+        "Cursor"
+      ]
     },
     {
-      "rank": 5,
-      "title": "Claude Code v2.1.316发布：子代理可控",
+      "topic": "Cisco给27岁工程师无限AI Token重写代码",
       "category": "VibeCoding",
-      "heat": 6800,
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316"
+      "heat": 88,
+      "sources": [
+        "Dev.to",
+        "Fortune",
+        "HN"
+      ]
     },
     {
-      "rank": 6,
-      "title": "FromSoftware紧急关闭黑魂2与黑魂3服务器",
+      "topic": "Zelda时之笛预载登顶Switch 2 eShop",
       "category": "Gaming",
-      "heat": 6200,
-      "url": "https://www.pcgamer.com/games/dark-souls/fromsoftware-temporarily-shuts-down-dark-souls-2-and-3-multiplayer-over-server-issue/"
+      "heat": 90,
+      "sources": [
+        "Nintendo Everything"
+      ]
     },
     {
-      "rank": 7,
-      "title": "任天堂宣布皮克敏日并发布Direct",
+      "topic": "Xbox Game Pass十一月七款无一支持Xbox One",
       "category": "Gaming",
-      "heat": 5500,
-      "url": "https://www.ign.com/articles/nintendo-reveals-surprise-pikmin-day-direct"
-    },
-    {
-      "rank": 8,
-      "title": "GPT-5.6 Sol通关Factorio和平模式",
-      "category": "VibeCoding",
-      "heat": 4900,
-      "url": "https://runtimewire.com/article/gpt-5-6-sol-s-factorio-rocket-run-used-250-million-tokens-about-52-at-api-prices"
+      "heat": 85,
+      "sources": [
+        "GamesHub"
+      ]
     }
   ],
   "trending_posts": [
     {
-      "platform": "GitHub",
-      "title": "claude-mem突破10万星",
-      "author": "thedotmack",
-      "stars": 106000,
-      "url": "https://github.com/caige6666/github-trending-daily/issues/23"
+      "title": "Claude Code恶意扩展暴露AI编程工具供应链风险",
+      "platform": "Hacker News",
+      "score": 967,
+      "comments": 547,
+      "url": "https://news.ycombinator.com/item?id=50318234"
     },
     {
-      "platform": "Reddit",
-      "title": "Dark Souls servers down again - deja vu 2022?",
-      "subreddit": "r/darksouls",
-      "upvotes": 4500,
-      "url": "https://www.pcgamer.com/games/dark-souls/fromsoftware-temporarily-shuts-down-dark-souls-2-and-3-multiplayer-over-server-issue/"
+      "title": "AI正在去技能化SRE而非替代他们",
+      "platform": "Hacker News",
+      "score": 647,
+      "comments": 474,
+      "url": "https://news.ycombinator.com/item?id=50318765"
     },
     {
-      "platform": "HN",
-      "title": "Claude bypasses Anthropic safety monitor",
-      "points": 890,
-      "url": "https://alignment.anthropic.com/"
+      "title": "Anthropic封禁涉及大模型训练的用户",
+      "platform": "Hacker News",
+      "score": 210,
+      "comments": 118,
+      "url": "https://news.ycombinator.com/item?id=50319358"
     },
     {
-      "platform": "Dev.to",
-      "title": "EMBRACE vulnerability in 5 AI coding tools",
-      "author": "voxahq",
-      "reactions": 1200,
-      "url": "https://dev.to/voxahq/five-ai-coding-tools-shipped-a-browser-you-could-break-2k13"
+      "title": "AA智能指数v5发布 开源闭源差距扩大到12分",
+      "platform": "Hacker News",
+      "score": 135,
+      "comments": 72,
+      "url": "https://news.ycombinator.com/item?id=50318567"
     }
   ],
   "featured_creators": [
     {
-      "name": "Evan Hubinger",
-      "role": "Anthropic Alignment Scientist",
-      "contribution": "Claude red-teaming safety research",
-      "url": "https://alignment.anthropic.com/"
+      "name": "Jeetu Patel",
+      "role": "Cisco总裁",
+      "reason": "授权27岁工程师用AI重写98%遗留代码"
     },
     {
-      "name": "Ryan Madden",
-      "role": "AI Benchmark Developer",
-      "contribution": "GPT-5.6 Sol Factorio completion",
-      "url": "https://runtimewire.com/article/gpt-5-6-sol-s-factorio-rocket-run-used-250-million-tokens-about-52-at-api-prices"
+      "name": "Josh Holmes",
+      "role": "Octopus Panic创始人",
+      "reason": "前Halo创意总监新作GRAVHOUNDS上线"
     },
     {
-      "name": "Maddy Thorson",
-      "role": "Indie Game Developer",
-      "contribution": "Celeste delisted from Xbox for BDS",
-      "url": "https://www.pcgamer.com/games/action/celeste-and-towerfall-have-delisted-from-xboxs-digital-storefronts-to-support-bds-boycott/"
+      "name": "John Ternus",
+      "role": "苹果CEO",
+      "reason": "首次系统回应AI战略：不为AI而AI"
     }
   ],
   "category_stats": {
     "ai": {
       "count": 8,
-      "avg_heat": 7200,
-      "top_topic": "Claude safety bypass"
+      "avg_detail_chars": 680,
+      "top_subcat": "行业融资"
     },
     "vibecoding": {
       "count": 8,
-      "avg_heat": 6800,
-      "top_topic": "EMBRACE vulnerability"
+      "avg_detail_chars": 620,
+      "top_subcat": "安全事件"
     },
     "gaming": {
       "count": 8,
-      "avg_heat": 5800,
-      "top_topic": "Dark Souls server shutdown"
+      "avg_detail_chars": 610,
+      "top_subcat": "新游发布"
     }
   }
 }
