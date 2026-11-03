@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-03": {
-      "pbakaus/impeccable": 1,
-      "Panniantong/Agent-Reach": 2,
-      "mvschwarz/openrig": 3,
-      "pablostanley/yoinks": 4,
-      "NVIDIA/OpenShell": 5,
-      "heygen-com/hyperframes": 6,
-      "HunxByts/GhostTrack": 7,
-      "ayghri/i-have-adhd": 8,
-      "magnitudedev/magnitude": 9,
-      "Friedrich-M/UniMate": 10,
-      "tile-ai/tilelang": 11,
-      "FalkorDB/FalkorDB": 12,
-      "longbridge/gpui-kit": 13,
-      "addyosmani/agent-skills": 14,
-      "NVIDIA/SkillSpector": 15,
-      "mnfst/awesome-free-llm-apis": 16,
-      "cursor/plugins": 17,
-      "androoAGI/starnet": 18,
-      "garrytan/gstack": 19,
-      "LuxAlgo/Vela": 20,
-      "ruvnet/ruflo": 21,
-      "colbymchenry/codegraph": 22,
-      "n8n-io/n8n": 23,
-      "tailscale/tailcat": 24,
-      "MakazhanAlpamys/Soup": 25
-    },
     "2026-10-04": {
       "Panniantong/Agent-Reach": 1,
       "pbakaus/impeccable": 2,
@@ -836,6 +809,33 @@
       "kubernetes/kubernetes": 23,
       "hashicorp/terraform": 24,
       "laoma528/awesome-zhuiju-free": 25
+    },
+    "2026-11-03": {
+      "pingdotgg/t3code": 1,
+      "vercel-labs/agent-desktop": 2,
+      "public-apis/public-apis": 3,
+      "shiyu-coder/Kronos": 4,
+      "DeanChensj/jiangshan-map": 5,
+      "JustVugg/colibri": 6,
+      "beenuar/AiSOC": 7,
+      "FlashML-org/FreeToken": 8,
+      "Orkas-AI/Orkas": 9,
+      "github/spec-kit": 10,
+      "hyprwm/Hyprland": 11,
+      "p-e-w/heretic": 12,
+      "paperclipai/paperclip": 13,
+      "cheaper-inference/OmniRoute": 14,
+      "karpathy/nanochat": 15,
+      "jub0t/Concat": 16,
+      "warmbly/warmbly": 17,
+      "Nasiko-Labs/nasiko": 18,
+      "addyosmani/agent-skills": 19,
+      "Crosstalk-Solutions/project-nomad": 20,
+      "vercel-labs/skills": 21,
+      "CNCKitchen/ScanRuler": 22,
+      "derv82/wifit3": 23,
+      "leepokai/Codync": 24,
+      "ollama/ollama": 25
     }
   }
 }
