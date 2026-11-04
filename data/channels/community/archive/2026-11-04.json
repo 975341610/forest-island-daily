@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-04",
+  "updated_at": "2026-11-04T01:30:00Z",
+  "total": 13,
+  "items": [
+    {
+      "id": "2026-11-04_ai_1",
+      "date": "2026-11-04",
+      "category": "ai",
+      "subcat": "AI基础设施",
+      "platform": "Pomegra",
+      "title": "Fal 融资13亿美元估值翻倍",
+      "url": "https://pomegra.io/startups/fal-s-16b-valuation-1-3b-series-f-in-2026-2026-11-04",
+      "image": "images/2026-11-04/2026-11-04_ai_1.jpg",
+      "excerpt": "Fal 是旧金山AI推理基础设施创业公司，11月3日宣布完成13亿美元F轮融资，估值达160亿美元，由 Bessemer Venture Partners 领投...",
+      "detail": [
+        "Fal 是旧金山AI推理基础设施创业公司，11月3日宣布完成13亿美元F轮融资，估值达160亿美元，由 Bessemer Venture Partners 领投，Nvidia、Sound Ventures、HOF Capital 和 T. Rowe Price 参投。此次估值较今年4月的80亿美元翻了一倍，较2025年12月的45亿美元翻了三倍多。",
+        "公司年化收入已超8亿美元，团队仅185人，相当于每人新增约700万美元资本。CEO Burkay Gur 表示夏季出现产能瓶颈，不得不对客户限速，融资主要投向算力和招聘。Fal 专注于图像、视频和音频生成模型的推理服务，客户包括娱乐工作室、广告代理商和游戏开发商。",
+        "该轮融资将 Fal 置于AI推理赛道的头部阵营，仅次于7月以175亿美元估值融资15亿美元的 Fireworks AI。两家公司定位不同：Fireworks 侧重文本和开源语言模型，Fal 专攻媒体生成。投资者正在将推理作为整体赛道定价，150亿美元以上估值的集群表明市场预期将有多家大赢家。",
+        "主要风险在于利润率。8亿美元年收入如果大部分流向GPU供应商，实际价值有限。视频生成的单次计算消耗远高于文本，客户成本可能比收入增长更快。此外，Fal 依赖第三方模型，如果实验室决定自建推理服务，平台内容供给将受到冲击。"
+      ]
+    },
+    {
+      "id": "2026-11-04_ai_2",
+      "date": "2026-11-04",
+      "category": "ai",
+      "subcat": "AI安全",
+      "platform": "RuntimeWire",
+      "title": "Anthropic 发布 FlashProve",
+      "url": "https://runtimewire.com/article/anthropic-flashprove-provable-inference-model-identity",
+      "image": "images/2026-11-04/2026-11-04_ai_2.jpg",
+      "excerpt": "Anthropic 于11月2日发布 FlashProve 开源研究原型，为AI模型的每次回复附加密码学证明，使接收者可以验证回复确实来自承诺的模型权重。该系统...",
+      "detail": [
+        "Anthropic 于11月2日发布 FlashProve 开源研究原型，为AI模型的每次回复附加密码学证明，使接收者可以验证回复确实来自承诺的模型权重。该系统使用 zkSNARK 技术实现零知识证明，在不曝露权重的前提下，让任何人都能在普通CPU上验证模型身份。",
+        "在 Llama 4 Maverick（4000亿参数MoE模型）上，单张H100 GPU可实现每秒约110个token的证明速度，每个1024-token请求生成18.78MB的证明文件。验证仅需24线程CPU约17秒，无需GPU。证明开销约为vLLM推理的72倍，较此前系统的每小时级别大幅下降。",
+        "这一进展意味着AI推理的可验证性正从理论走向工程可行。对于通过路由器、经销商或平台调用模型的企业买家来说，FlashProve 展示了密码学收据的技术可行性。虽然72倍的计算开销和1024-token的限制解释了为何尚无提供商部署，但成本正在快速下降。",
+        "目前 FlashProve 仍是原型：仅支持1024-token上下文、贪心解码、MoE架构模型，快速C++代码尚未通过Lean形式化验证。Anthropic 表示通过另一个项目已满足其9月30日的推理验证目标，FlashProve 是同一目标的密码学路线，以Apache 2.0协议开源。"
+      ]
+    },
+    {
+      "id": "2026-11-04_ai_3",
+      "date": "2026-11-04",
+      "category": "ai",
+      "subcat": "大模型",
+      "platform": "AIBase",
+      "title": "美团发布 LongCat-2.5",
+      "url": "https://news.aibase.com/news/32040",
+      "image": "images/2026-11-04/2026-11-04_ai_3.jpg",
+      "excerpt": "美团于11月2日正式发布 LongCat-2.5，这是一个总参数量达1.6万亿的原生多模态大模型，专为长程智能体任务设计。作为 LongCat-2.0 的重大迭...",
+      "detail": [
+        "美团于11月2日正式发布 LongCat-2.5，这是一个总参数量达1.6万亿的原生多模态大模型，专为长程智能体任务设计。作为 LongCat-2.0 的重大迭代，模型在原生视觉理解和智能体编码能力上全面升级，在多个权威评测中与海外顶级大模型正面竞争。",
+        "架构上，LongCat-2.5 采用稀疏混合专家设计，每个token推理激活约480亿参数，支持100万token上下文窗口和最高12.8万token输出。团队引入了更丰富的长程轨迹数据和大规模强化学习训练，显著提升了模型在复杂代码库开发和完整项目构建等端到端工程任务上的能力。",
+        "在权威评测中，LongCat-2.5 在 AutomationBench 得分51.8，超越 Claude-Opus-5 的50.3；在 BrowseComp 基准以91.9分排名第一；在3D代码生成测试3DCodeBench中得分55.4，略领先同类竞品。模型在网页浏览、自动化操作和3D生成等智能体任务上表现突出。",
+        "值得注意的是，LongCat-2.5 的训练深度优化了国产算力环境，突破长上下文训练和W4A4推理的技术瓶颈。模型已通过美团聊天和API开放使用，GitHub和Hugging Face发布计划在即。这标志着以外卖业务起家的美团，在前沿大模型和具身智能领域的技术积累已达全球第一梯队。"
+      ]
+    },
+    {
+      "id": "2026-11-04_ai_4",
+      "date": "2026-11-04",
+      "category": "ai",
+      "subcat": "AI人才",
+      "platform": "Business Insider",
+      "title": "Claude Code 产品负责人离职",
+      "url": "https://biztoc.com/x/6819203b0c8e42a4",
+      "image": "images/2026-11-04/2026-11-04_ai_4.jpg",
+      "excerpt": "据 Business Insider 11月4日报道，Claude Code 产品负责人 Cat Wu（吴凯瑟琳）已离开 Anthropic。她于2024年8月...",
+      "detail": [
+        "据 Business Insider 11月4日报道，Claude Code 产品负责人 Cat Wu（吴凯瑟琳）已离开 Anthropic。她于2024年8月加入 Anthropic，最初担任研究产品经理，2025年正式成为 Claude Code 产品负责人，将这款命令行工具打造成科技行业最重要的AI编程产品之一。",
+        "Cat Wu 毕业于普林斯顿大学计算机科学系，曾在 Scale AI 担任早期产品工程师，后在 Dagster Labs 担任工程经理，还曾在 Index Ventures 担任近三年合伙人，专注开发者工具和数据基础设施领域投资。2025年7月她曾短暂加入 Cursor，约两周后返回 Anthropic。",
+        "她的离职是 Anthropic 近期人才流失的延续。上月，同样在 Claude Code 工作的 Thariq Shihipar 也宣布离职。在 Claude Code 竞争加剧的背景下——GitHub Copilot CLI、OpenAI Codex 和各种命令行代理工具快速迭代——核心产品负责人的离开对团队连续性构成挑战。",
+        "Cat Wu 在产品管理理念上主张“做简单的事”原则，建立了“支线任务”实验框架，倡导“原型和评估取代文档”。她认为AI时代传统产品管理的基本假设已不再有效，因为模型能力在项目周期内会发生变化。这些理念对 Claude Code 的快速迭代风格产生了深远影响。"
+      ]
+    },
+    {
+      "id": "2026-11-04_vibe_1",
+      "date": "2026-11-04",
+      "category": "vibecoding",
+      "subcat": "AI Coding",
+      "platform": "GitHub",
+      "title": "Copilot CLI 强化控制台体验",
+      "url": "https://github.com/github/copilot-cli/releases/tag/v1.0.106-6",
+      "image": "images/2026-11-04/2026-11-04_vibe_1.jpg",
+      "excerpt": "GitHub 在北京时间 11 月 3 日下午发布 Copilot CLI v1.0.106-6，这是近期把 Copilot 继续从“代码补全”推向“终端代理”...",
+      "detail": [
+        "GitHub 在北京时间 11 月 3 日下午发布 Copilot CLI v1.0.106-6，这是近期把 Copilot 继续从“代码补全”推向“终端代理”的一轮密集迭代。对 VibeCoding 用户来说，CLI 是否顺滑、是否可控，决定了 AI 能否真正承担搜索、修改、执行与回顾这一整条开发链路，而不只是偶尔给几段建议代码。",
+        "这版最醒目的改动，是让 /settings 对所有用户统一打开新的设置面板，并加入跨设置项与本地资源的全局搜索；同时，交互式 CLI 会向支持的终端主动上报运行状态，提示程序何时在工作、何时需要人工注意，明显降低“AI 在后台做了什么看不见”的黑箱感。",
+        "另一个关键变化落在 MCP 安全边界：只发给用户的 MCP 内容不再继续送给模型，相关图片也可以在交互界面内联显示，或直接保存为文件。再叠加对 prompt budget 重跑、SQL 超时、终端渲染、PowerShell 兼容性以及流式子代理输出顺序的一串修复，这已经不是常规小补丁，而是一次可用性与治理并重的版本升级。",
+        "它的信号意义在于，GitHub 正把 Copilot CLI 从“能用”推到“适合长期挂在开发终端里用”。统一设置入口、可视状态提示和更严格的 MCP 内容分流，正对应企业开发者最在意的可控性与可审计性；在 Claude Code、Codex 等命令行代理快速迭代的背景下，这会被很多开发者视为 GitHub 在 CLI 代理战线上的一次实质加码。"
+      ]
+    },
+    {
+      "id": "2026-11-04_vibe_2",
+      "date": "2026-11-04",
+      "category": "vibecoding",
+      "subcat": "AI Coding",
+      "platform": "GitHub",
+      "title": "Codex alpha.4 补齐代理底座",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4",
+      "image": "images/2026-11-04/2026-11-04_vibe_2.jpg",
+      "excerpt": "OpenAI 在北京时间 11 月 3 日上午发布 Codex rust-v0.167.0-alpha.4。虽然 GitHub Release 页正文极短，但对...",
+      "detail": [
+        "OpenAI 在北京时间 11 月 3 日上午发布 Codex rust-v0.167.0-alpha.4。虽然 GitHub Release 页正文极短，但对比 alpha.3 到 alpha.4 的提交差异可以看出，这一版并非例行滚动，而是围绕 app server、模型提供方接入、审查链路和 MCP 协作能力的一次结构性推进，对开发者工具层面的意义明显大于表面文案所展示的内容。",
+        "最核心的新增，是 app server 开始支持 model provider discovery，并补上 model provider configuration 的写入能力。这意味着 Codex 正从“单模型 CLI”朝“统一发现、统一配置、统一切换不同模型来源”的运行层演进，为后续接 OpenAI、自托管或第三方后端打底，也让模型路由能力更像平台基础设施，而不是零散实验功能。",
+        "同一批差异里，Guardian review 还新增了 direct review 的原生 patch 支持与 permission request 支持；另外又加入独立的 HTTP message board MCP server、插件化的 message board 连接，以及内存态 launcher。换句话说，这 67 个提交同时把代码修改审查、权限交互和多代理消息传递往前推了一截，指向的是完整代理系统，而非单点命令增强。",
+        "对 AI Coding 工具竞争格局而言，这说明 Codex 团队正在把产品重心从“单次生成”转向“多组件编排”。一旦 provider 发现、Guardian 审查和 message-board MCP 这些底层件逐步稳定，Codex 会更像一个可插拔代理平台，而不是单纯的命令行助手；这也是最近一轮代理式开发框架竞争里最值得持续跟踪的方向之一。"
+      ]
+    },
+    {
+      "id": "2026-11-04_vibe_3",
+      "date": "2026-11-04",
+      "category": "vibecoding",
+      "subcat": "AI Coding",
+      "platform": "npm",
+      "title": "Claude Code 2.1.318 上线",
+      "url": "https://registry.npmjs.org/@anthropic-ai/claude-code/2.1.318",
+      "image": "images/2026-11-04/2026-11-04_vibe_3.jpg",
+      "excerpt": "Anthropic 旗下 Claude Code 在北京时间 11 月 4 日清晨发布 2.1.318，延续了几乎按天推进的更新节奏。相较只强调模型能力，这次更...",
+      "detail": [
+        "Anthropic 旗下 Claude Code 在北京时间 11 月 4 日清晨发布 2.1.318，延续了几乎按天推进的更新节奏。相较只强调模型能力，这次更偏向“代理如何在真实会话里更稳、更可控地工作”，因此对重度命令行用户、长期会话场景以及团队级接入者都更有实际价值，也更符合当下 VibeCoding 工具比拼工程成熟度的趋势。",
+        "版本里最值得关注的一点，是 mod 的 $.model.fork 新增 effort 选项，允许在同一会话的高 effort 环境下，把某些快速旁支任务降到 low 执行。这等于把过去一刀切的推理强度，拆成主任务与子任务可分层配置；对那些一边跑重推理、一边让子代理做搜索、整理、修小错的工作流来说，速度、延迟和成本都会因此更好控制。",
+        "与此同时，Claude Code 还记录了用户对“是否启用本会话写入的 mods”的回答，给 claude auth status 增加登录到期时间 loginExpiresAt，并修复 --continue 偶发丢失上文、权限提示被误按键抢答等问题。它还补入了 assume_role 在 Claude apps gateway 上游的支持，明显是在补企业场景更在意的身份与接入细节。",
+        "这些变化看似分散，实则共同指向一个主题：Claude Code 正把“能写代码”进一步推成“适合持续值守的开发代理”。可分级 effort 减少了重活与轻活混跑时的资源浪费，权限与续接修复则降低长会话翻车概率；对正在比较 Claude Code、Copilot CLI、Codex 的团队来说，这是一轮偏工程化成熟度的加分更新。"
+      ]
+    },
+    {
+      "id": "2026-11-04_vibe_4",
+      "date": "2026-11-04",
+      "category": "vibecoding",
+      "subcat": "AI Coding",
+      "platform": "GitHub",
+      "title": "agent-desktop 冲上 GitHub",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "image": "images/2026-11-04/2026-11-04_vibe_4.jpg",
+      "excerpt": "过去 24 小时里，vercel-labs/agent-desktop 成为 GitHub 上最强势的 AI Coding 新项目之一。它的仓库描述非常直接：C...",
+      "detail": [
+        "过去 24 小时里，vercel-labs/agent-desktop 成为 GitHub 上最强势的 AI Coding 新项目之一。它的仓库描述非常直接：Computer use CLI for AI agents，也就是把“会操作电脑”的代理能力，以命令行和桌面工作流的形态交给开发者自己调度，而不是停留在网页演示或封闭产品体验里，这正好击中了当下开发者对代理自动化的兴趣点。",
+        "从 GitHub Trending 抓取到的数据看，这个项目单日新增星标达到 9568，仓库总星数迅速升到 12689，而且在北京时间 11 月 4 日早晨前仍有持续提交。对于日报选题来说，这种“高星暴涨 + 代码继续推进”的组合，比单纯营销热度更有说服力，因此完全可以视为过去一天里 VibeCoding 方向的重大新进展。",
+        "它引发开发者围观的原因，在于 computer use 最近正从模型展示功能，转成可被工程师编排的开发接口。只要这类 CLI 能稳定接管点击、输入、窗口切换、任务串联和结果回传，AI 代理就不再只是在终端里写代码，而是可以跨浏览器、IDE、桌面应用完成更完整的研发动作，工作边界明显被拉宽。",
+        "这也解释了为何社区会把它视为下一个观察点：如果 Vercel 的实验性项目都能在一天内吸走近万星，说明开发者对“能操控真实电脑环境的代理”需求非常强。后续竞争焦点，很可能从单模型编码质量，继续外溢到权限控制、可回放性、桌面安全和多工具协同这几个方向。"
+      ]
+    },
+    {
+      "id": "2026-11-04_vibe_5",
+      "date": "2026-11-04",
+      "category": "vibecoding",
+      "subcat": "AI Coding",
+      "platform": "GitHub",
+      "title": "claude-mem-lite 修记忆污染",
+      "url": "https://github.com/sdsrss/claude-mem-lite/releases/tag/v6.31.0",
+      "image": "images/2026-11-04/2026-11-04_vibe_5.jpg",
+      "excerpt": "第三方记忆插件 claude-mem-lite 在北京时间 11 月 4 日凌晨发布 v6.31.0。虽然它不是大厂官方工具，但在 Claude Code 生态...",
+      "detail": [
+        "第三方记忆插件 claude-mem-lite 在北京时间 11 月 4 日凌晨发布 v6.31.0。虽然它不是大厂官方工具，但在 Claude Code 生态里，记忆层一直是高频痛点：上下文太短、跨目录误召回、错误回顾噪声过多，都会直接影响 VibeCoding 的稳定性和可信度。正因为如此，这种看似小众的工具更新，往往比表面看起来更值得开发者关注。",
+        "这版最重要的修正，是 PreToolUse recall 不再把“另一个目录中同名文件”的经验错误注入当前上下文，发布说明还直接给出数据：此前 4037 条注入里有 210 条属于这种跨目录同名误召回。问题的危险之处在于，它不会像语法错误那样立刻暴露，而是会让 AI 在“好像记得这个文件”的前提下，对错误目标做出貌似合理的判断。",
+        "此外，error recall 现在会在读取 exit 0 的 git 命令输出时，避开 git 自带的提交记录文本；官方统计这一问题曾出现在 422 次 exit-0 触发中的 6 次。版本还删掉了错误回顾块尾部“Use mem_get(ids=...) for details.” 这句引导，说明维护者在继续压缩提示负担、减少无意义的记忆调用，并让代理回顾链路更干净。",
+        "它的信号意义不在于功能炫，而在于维护者开始用量化数据治理“记忆污染”。这正是 AI Coding 进入深水区后的新竞争点：谁能减少错误召回、减少无效 token、减少错文件联想，谁就更适合长会话开发。对不少依赖 Claude 系工作流的个人开发者而言，这类生态工具的迭代价值并不低于主模型升级。"
+      ]
+    },
+    {
+      "id": "2026-11-04_game_1",
+      "date": "2026-11-04",
+      "category": "gaming",
+      "subcat": "MMO",
+      "platform": "LFCarry",
+      "title": "魔兽世界 Forever 今日开服",
+      "url": "https://lfcarry.com/guides/wow-forever-release-date",
+      "image": "images/2026-11-04/2026-11-04_game_1.jpg",
+      "excerpt": "暴雪娱乐的《魔兽世界：Forever》于北京时间11月4日正式开服，全球统一在太平洋时间下匦3点（UTC 23:00）上线。这款被社区称为“经典Plus”的大型...",
+      "detail": [
+        "暴雪娱乐的《魔兽世界：Forever》于北京时间11月4日正式开服，全球统一在太平洋时间下匦3点（UTC 23:00）上线。这款被社区称为“经典Plus”的大型MMORPG在2026年BlizzCon上公布，是暴雪对经典魔兽体验的一次全面升级，包含新职业、新区域和现代化游戏系统改进。",
+        "游戏在开服前已完成beta测试，10月23日关闭，10月27日开放名称预留，首个团队副本将于12月9日解锁。Forever 版本包含在WoW订阅中，无需额外购买。玩家可选择普通服或RP服，全球统一时间开服意味着所有地区同时进入游戏。",
+        "作为暴雪对“经典Plus”概念的正式回应，Forever 不是简单的怀旧服，而是在经典框架上引入全新内容。这意味着玩家将体验到原版魔兽从未有过的职业改动、任务线和游戏机制，社区对此反应热烈，认为这是暴雪在经典与现代之间找到平衡的一次尝试。",
+        "在11月游戏发售日历中，WoW Forever 是本月为数不多的非GTA 6重大发行之一。由于大量厂商为避开GTA 6而将游戏推迟到其他月份，11月的发行阵容相对清淡，这使得Forever的开服在当月游戏圈中获得了更多关注和讨论空间。"
+      ]
+    },
+    {
+      "id": "2026-11-04_game_2",
+      "date": "2026-11-04",
+      "category": "gaming",
+      "subcat": "Xbox",
+      "platform": "Xbox Wire",
+      "title": "Xbox Game Pass 十一月首批",
+      "url": "https://news.xbox.com/en-us/2026/11/03/xbox-game-pass-november-2026-wave-1/",
+      "image": "images/2026-11-04/2026-11-04_game_2.jpg",
+      "excerpt": "微软于11月3日正式公布 Xbox Game Pass 十一月第一波阵容，共新增15款游戏，覆盖解谜冒险、策略、射击和体育管理等类型。其中多款为首发同步加入Ga...",
+      "detail": [
+        "微软于11月3日正式公布 Xbox Game Pass 十一月第一波阵容，共新增15款游戏，覆盖解谜冒险、策略、射击和体育管理等类型。其中多款为首发同步加入Game Pass的日一大作，包括《Escape Academy 2: Back 2 School》和《Football Manager 2027》。",
+        "11月4日当天上架的两款游戏分别是《Vampire Crawlers》和《VOID/BREAKER 1.0》。前者来自《吸血鬼幸存者》开发团队，是一款回合制肉鹅卡牌游戏；后者是一款肾上腺素驱动的肉鹅FPS，玩家需在无尽循环中对抗机械敌人，通过深度武器改装系统打造致命协同效应。",
+        "11月5日则有四款游戏同时加入：《Escape Academy 2》作为首款开放世界密室逃脱游戏支持双人合作；《Firefighting Simulator: Ignite》让玩家体验美国消防员的工作；《MySims Cozy Bundle》将两款可爱的模拟经营游戏带回现代平台。后续还有《Thronefall》《Warhammer Survivors》等。",
+        "此外，八款经典游戏作为Essential会员福利回归，包括《班玝熊大冒险》三部曲、《战争机器：审判》、《光环：斯巴达突袭》和《完美黑暗》等Rare与微软经典IP。同时有多款游戏即将离开服务，微软为符合条件的离场游戏提供折扣。"
+      ]
+    },
+    {
+      "id": "2026-11-04_game_3",
+      "date": "2026-11-04",
+      "category": "gaming",
+      "subcat": "PlayStation",
+      "platform": "PushSquare",
+      "title": "PS5 本周28款新游上架",
+      "url": "https://www.pushsquare.com/guides/these-28plus-ps5-and-ps-plus-games-are-coming-out-this-week-2nd-8th-november",
+      "image": "images/2026-11-04/2026-11-04_game_3.jpg",
+      "excerpt": "随着 GTA 6 发售日临近，PS5 的11月新游阵容明显减薄，但本周（11月2日至8日）仍有28款以上游戏上架。Push Square 统计显示，本周 PS5...",
+      "detail": [
+        "随着 GTA 6 发售日临近，PS5 的11月新游阵容明显减薄，但本周（11月2日至8日）仍有28款以上游戏上架。Push Square 统计显示，本周 PS5 发行涵盖了怪兽格斗、音乐游戏、恐怖合作和动作RPG等多个品类，为避开GTA 6锋芒的厂商提供了展示窗口。",
+        "11月3日上架的亮点包括《哥斯拉：怪兽大乱斗 重制版》，这款2002年经典怪兽格斗游戏的4K重制版加入在线多人模式；《Solo Leveling Arise: Overdrive》将全球热门网漫改编为动作RPG，支持4人合作突袭；《Pit of Goblin》则是一款在线恐怖合作游戏，玩家扮演地精在地下城中搜刮。",
+        "本周还有《CRYMELIGHT》，一款爱丽丝梦游仙境主题的肉鹅游戏，以及《Zero Parades》导演剪辑版的PS5版本。独立游戏方面，《The Slormancer》和《Let's Sing 2027》也在同日发售。虽然缺少3A级大作，但品类多样性弥补了数量上的不足。",
+        "这种“避让GTA 6”的发行策略在整个11月都可见。Polygon 指出，PS5可能从未有过比2026年11月更安静的新游月份，除了11月19日的GTA 6本身。大量发行商将游戏推迟到12月或更晚，使得本周的多款中小型发行反而获得了更多曝光机会。"
+      ]
+    },
+    {
+      "id": "2026-11-04_game_4",
+      "date": "2026-11-04",
+      "category": "gaming",
+      "subcat": "Switch 2",
+      "platform": "GameRant",
+      "title": "Switch 2 十一月九款新游",
+      "url": "https://gamerant.com/nintendo-switch-2-new-games-coming-out-soon-list-november-oot-remake/",
+      "image": "images/2026-11-04/2026-11-04_game_4.jpg",
+      "excerpt": "任天堂公布了11月发售阵容，共9款游戏正式确认，其中8款为Switch 2平台作品。这被认为是Switch 2第二年发行管线最清晰的信号之一。阵容以重制版、复刻...",
+      "detail": [
+        "任天堂公布了11月发售阵容，共9款游戏正式确认，其中8款为Switch 2平台作品。这被认为是Switch 2第二年发行管线最清晰的信号之一。阵容以重制版、复刻版和完整版为主，但包含了多个重量级IP。",
+        "11月3日开售的是《哥斯拉：怪兽大乱斗 重制版》；11月5日则是两个重磅 title：《塞尔达传说：时之笃》重制版和《Marvel's Guardians of the Galaxy: Encore Edition》。前者是N64经典的全面重制，后者将获奖故事冒险游戏首次带到任天堂平台。",
+        "后续还有《Pikmin 4》试玩版、《Stellar Blade Complete Edition》和《Metaphor: ReFantazio》完整版等。九款游戏中只有一款不包含Switch 2版本，这表明任天堂正加速将主力发行向新主机倾斜，Switch 1逐步退居兼容角色。",
+        "这一阵容反映了Switch 2第二年的发行策略：以高清重制和跨平台移植填充第一方大作之间的空档期。虽然粉丝期待更多原生新作，但《时之笃》重制版的加入本身就是重磅消息，这部被广泛视为史上最伟大游戏之一的N64经典在Switch 2上的表现备受关注。"
+      ]
+    }
+  ]
+}
