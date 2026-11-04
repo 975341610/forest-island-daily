@@ -3,8 +3,8 @@
   "repos": {
     "pingdotgg/t3code": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 6323,
+      "appearances": 3,
+      "total_today_stars": 9496,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
@@ -66,8 +66,8 @@
     },
     "shiyu-coder/Kronos": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1487,
+      "appearances": 3,
+      "total_today_stars": 1990,
       "language": "Python",
       "description": "Kronos: A Foundation Model for the Language of Financial Markets",
       "owner_avatar": "https://avatars.githubusercontent.com/u/65760973?v=4",
@@ -111,8 +111,8 @@
     },
     "leepokai/Codync": {
       "best_rank": 13,
-      "appearances": 2,
-      "total_today_stars": 531,
+      "appearances": 3,
+      "total_today_stars": 648,
       "language": "Rust",
       "description": "Open source Grok Bot alternative, Bring your own agent and subscription: message Claude Code, Codex, Gemini CLI, Cursor, Copilot and 40+ AI agents as bots on your own computer, from iPhone, Mac, Windows, Linux or terminal. Agent-agnostic and free. Also a Muse and Dots alternative. Built in Rust.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/109857817?v=4",
@@ -120,8 +120,8 @@
     },
     "public-apis/public-apis": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1635,
+      "appearances": 3,
+      "total_today_stars": 2054,
       "language": "Python",
       "description": "A collective list of free APIs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/51121562?v=4",
@@ -146,9 +146,9 @@
       "html_url": "https://github.com/openai/codex"
     },
     "FlashML-org/FreeToken": {
-      "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 895,
+      "best_rank": 6,
+      "appearances": 3,
+      "total_today_stars": 1503,
       "language": "Python",
       "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/286493426?v=4",
@@ -173,9 +173,9 @@
       "html_url": "https://github.com/lfnovo/open-notebook"
     },
     "herdrdev/herdr": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 197,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 492,
       "language": "Rust",
       "description": "the runtime your coding agents live on",
       "owner_avatar": "https://avatars.githubusercontent.com/u/309108654?v=4",
@@ -227,9 +227,9 @@
       "html_url": "https://github.com/laoma528/awesome-zhuiju-free"
     },
     "vercel-labs/agent-desktop": {
-      "best_rank": 2,
-      "appearances": 1,
-      "total_today_stars": 2275,
+      "best_rank": 1,
+      "appearances": 2,
+      "total_today_stars": 6066,
       "language": "Rust",
       "description": "Computer use CLI for AI agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
@@ -237,17 +237,17 @@
     },
     "DeanChensj/jiangshan-map": {
       "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 789,
+      "appearances": 2,
+      "total_today_stars": 1143,
       "language": "JavaScript",
       "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 164 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9414763?v=4",
       "html_url": "https://github.com/DeanChensj/jiangshan-map"
     },
     "JustVugg/colibri": {
-      "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 675,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 1477,
       "language": "C",
       "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "owner_avatar": "https://avatars.githubusercontent.com/u/13022503?v=4",
@@ -272,9 +272,9 @@
       "html_url": "https://github.com/hyprwm/Hyprland"
     },
     "p-e-w/heretic": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 420,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 1121,
       "language": "Python",
       "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2702526?v=4",
@@ -290,9 +290,9 @@
       "html_url": "https://github.com/cheaper-inference/OmniRoute"
     },
     "karpathy/nanochat": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 321,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 800,
       "language": "Python",
       "description": "The best ChatGPT that $100 can buy.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/241138?v=4",
@@ -326,9 +326,9 @@
       "html_url": "https://github.com/addyosmani/agent-skills"
     },
     "Crosstalk-Solutions/project-nomad": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 255,
+      "best_rank": 16,
+      "appearances": 2,
+      "total_today_stars": 459,
       "language": "TypeScript",
       "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/105950641?v=4",
@@ -345,8 +345,8 @@
     },
     "CNCKitchen/ScanRuler": {
       "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 222,
+      "appearances": 2,
+      "total_today_stars": 337,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11601966?v=4",
@@ -369,6 +369,114 @@
       "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
       "html_url": "https://github.com/ollama/ollama"
+    },
+    "tashfeenahmed/freellmapi": {
+      "best_rank": 5,
+      "appearances": 1,
+      "total_today_stars": 688,
+      "language": "TypeScript",
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
+      "html_url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    "max-sixty/worktrunk": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 438,
+      "language": "Rust",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5635139?v=4",
+      "html_url": "https://github.com/max-sixty/worktrunk"
+    },
+    "blader/humanizer": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 407,
+      "language": "Python",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1672?v=4",
+      "html_url": "https://github.com/blader/humanizer"
+    },
+    "lexmount/moli": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 229,
+      "language": "Rust",
+      "description": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/231927209?v=4",
+      "html_url": "https://github.com/lexmount/moli"
+    },
+    "Usagi-org/ai-goofish-monitor": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 228,
+      "language": "Python",
+      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/233881235?v=4",
+      "html_url": "https://github.com/Usagi-org/ai-goofish-monitor"
+    },
+    "Yuan1z0825/nature-skills": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 167,
+      "language": "Python",
+      "description": "符合nature论文学术表达和科研绘图的Skill",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/140061814?v=4",
+      "html_url": "https://github.com/Yuan1z0825/nature-skills"
+    },
+    "liguobao/ds-harness-remote": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 162,
+      "language": "TypeScript",
+      "description": "基于 DeepSeek Harness 插件机制构建的远程访问方案，通过低延迟、端到端加密的 P2P 网络，支持使用 PC、移动端 和 Web 随时访问本地设备上的DSH 、CodeX、Cursor、Claude Code等工作区。 (Built on DeepSeek Harness plugins, this low-latency, end-to-end encrypted P2P solution lets PC, mobile, and web clients access local DSH, Codex, Cursor, and Claude Code workspaces.)",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/10910802?v=4",
+      "html_url": "https://github.com/liguobao/ds-harness-remote"
+    },
+    "vercel-labs/agent-browser": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 143,
+      "language": "Rust",
+      "description": "Browser automation CLI for AI agents",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
+      "html_url": "https://github.com/vercel-labs/agent-browser"
+    },
+    "vxcontrol/pentagi": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 133,
+      "language": "Go",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/39194251?v=4",
+      "html_url": "https://github.com/vxcontrol/pentagi"
+    },
+    "multica-ai/multica": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 128,
+      "language": "Go",
+      "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
+      "html_url": "https://github.com/multica-ai/multica"
+    },
+    "Fission-AI/OpenSpec": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 117,
+      "language": "TypeScript",
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/203414896?v=4",
+      "html_url": "https://github.com/Fission-AI/OpenSpec"
+    },
+    "MakazhanAlpamys/Soup": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 111,
+      "language": "Python",
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/188336071?v=4",
+      "html_url": "https://github.com/MakazhanAlpamys/Soup"
     }
   }
 }

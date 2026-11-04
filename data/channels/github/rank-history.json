@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-04": {
-      "Panniantong/Agent-Reach": 1,
-      "pbakaus/impeccable": 2,
-      "mvschwarz/openrig": 3,
-      "heygen-com/hyperframes": 4,
-      "pablostanley/yoinks": 5,
-      "earendil-works/pi": 6,
-      "Effect-TS/effect": 7,
-      "p-e-w/heretic": 8,
-      "pingdotgg/t3code": 9,
-      "addyosmani/agent-skills": 10,
-      "google/skills": 11,
-      "usestrix/strix": 12,
-      "getsentry/sentry": 13,
-      "cursor/plugins": 14,
-      "jamwithai/production-agentic-rag-course": 15,
-      "longbridge/gpui-kit": 16,
-      "FalkorDB/FalkorDB": 17,
-      "anthropics/claude-code": 18,
-      "mnfst/awesome-free-llm-apis": 19,
-      "handsomestWei/patent-disclosure-skill": 20,
-      "can1357/oh-my-pi": 21,
-      "cloudflare/cloudflare-os": 22,
-      "ruvnet/ruflo": 23,
-      "tailscale/tailcat": 24,
-      "WorldFlowAI/everything-claude-code": 25
-    },
     "2026-10-05": {
       "pbakaus/impeccable": 1,
       "Panniantong/Agent-Reach": 2,
@@ -836,6 +809,33 @@
       "derv82/wifit3": 23,
       "leepokai/Codync": 24,
       "ollama/ollama": 25
+    },
+    "2026-11-04": {
+      "vercel-labs/agent-desktop": 1,
+      "pingdotgg/t3code": 2,
+      "JustVugg/colibri": 3,
+      "p-e-w/heretic": 4,
+      "tashfeenahmed/freellmapi": 5,
+      "FlashML-org/FreeToken": 6,
+      "shiyu-coder/Kronos": 7,
+      "karpathy/nanochat": 8,
+      "max-sixty/worktrunk": 9,
+      "public-apis/public-apis": 10,
+      "blader/humanizer": 11,
+      "DeanChensj/jiangshan-map": 12,
+      "herdrdev/herdr": 13,
+      "lexmount/moli": 14,
+      "Usagi-org/ai-goofish-monitor": 15,
+      "Crosstalk-Solutions/project-nomad": 16,
+      "Yuan1z0825/nature-skills": 17,
+      "liguobao/ds-harness-remote": 18,
+      "vercel-labs/agent-browser": 19,
+      "vxcontrol/pentagi": 20,
+      "multica-ai/multica": 21,
+      "Fission-AI/OpenSpec": 22,
+      "leepokai/Codync": 23,
+      "CNCKitchen/ScanRuler": 24,
+      "MakazhanAlpamys/Soup": 25
     }
   }
 }
