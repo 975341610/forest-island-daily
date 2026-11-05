@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-05",
+  "updated_at": "2026-11-05T01:30:00Z",
+  "total": 13,
+  "items": [
+    {
+      "id": "2026-11-05_ai_1",
+      "date": "2026-11-05",
+      "category": "ai",
+      "subcat": "大模型",
+      "platform": "Tencent",
+      "title": "腾讯发布 Hy4 开源大模型",
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+      "image": "images/2026-11-05/2026-11-05_ai_1.jpg",
+      "excerpt": "腾讯于11月4日正式发布新一代大语言模型 Hy4，号称已跻身全球最强开源模型之列。该模型基于混合专家架构，总参数量达7700亿，支持超过100万token的上下...",
+      "detail": [
+        "腾讯于11月4日正式发布新一代大语言模型 Hy4，号称已跻身全球最强开源模型之列。该模型基于混合专家架构，总参数量达7700亿，支持超过100万token的上下文窗口。相比此前的 Hy4 Preview，新模型进一步扩大了预训练和后训练规模，首次引入视觉理解能力，并重点强化了指令遵循、长文本理解和长程智能体任务表现。",
+        "Hy4 首次具备计算机操作能力，可以同时交互命令行和图形界面执行复杂任务。模型经过 Blender 和 CAD 等专业软件的专门训练，还深度集成了虚幻引擎、Unity 和 Godot 等主流游戏引擎的开发适配。在金融评测中，Hy4 以3.04分位列第一，超过 DeepSeek-V4.1-Flash 的2.97分和 Kimi K3.1 Pro 的2.68分，评测覆盖579个真实金融任务，由213名金融专业人员参与盲评。",
+        "在办公协作场景中，Hy4 在腾讯 WorkBuddy 上平均性能得分83.18，通过率96.15%，在中国大陆市场的12个场景中有9个排名第一。模型还针对幻觉问题做了专项优化，幻觉率从 Hy4 Preview 的12.95%降至7.2%，因无依据假设导致的错误从23.1%降至5.6%。API定价保持不变：每百万输入token约0.90美元，输出约2.70美元。",
+        "腾讯宣布11月4日至15日期间 WorkBuddy 和 CodeBuddy 免费开放使用，腾讯云 TokenHub 调用享受半价优惠至12月31日。Hy4 Flash 版本即将发布，定位更高性价比。然而混元团队坦言，尽管 Hy4 已是当前最强开源模型之一，但与顶尖闭源模型仍存在较大差距。腾讯今年以来市值已缩水约35%，投资者对AI基础设施投入能否带来回报持续关注。"
+      ]
+    },
+    {
+      "id": "2026-11-05_ai_2",
+      "date": "2026-11-05",
+      "category": "ai",
+      "subcat": "AI基础设施",
+      "platform": "Anthropic",
+      "title": "Claude 推出 Message Threads",
+      "url": "https://claude.com/resources/articles/message-threads",
+      "image": "images/2026-11-05/2026-11-05_ai_2.jpg",
+      "excerpt": "Anthropic 于11月2日在 Claude 平台推出 Message Threads 公开测试版，为 Messages API 增加服务端会话线程功能。该...",
+      "detail": [
+        "Anthropic 于11月2日在 Claude 平台推出 Message Threads 公开测试版，为 Messages API 增加服务端会话线程功能。该功能让长程智能体无需在每次请求中重发完整对话历史，只需发送新增消息即可，显著降低长会话场景下的延迟。这一改进对编码代理、计算机操作代理和图片密集型工作流尤为重要。",
+        "在技术实现上，首个请求包含完整对话并启动线程，后续请求只需携带新消息和上一个响应的ID。线程在内存中加密保存，不写入磁盘，最后一次请求后5分钟过期。对于500K至1M token的请求，消息线程可使首个token的延迟中位数下降约35%。Claude Code 用户已默认启用此功能。",
+        "值得注意的是，虽然请求体积变小，但 Claude 仍然在每轮读取完整对话，因此 token 用量保持不变。这意味着该功能纯粹是传输层优化，不改变模型的计费方式。线程在内存中加密存储而非持久化到磁盘的设计，兼顾了性能与隐私安全。过期后客户端需重新发送完整对话以启动新线程。",
+        "Message Threads 已在 Claude 原生平台、AWS、Microsoft Foundry 和 Google Cloud 上可用，标准 token 费率和现有速率限制适用。这一功能回应了开发者社区对长程代理延迟问题的长期诉求，特别是在 Claude Code 等工具中数百轮交互的场景下，减少网络传输量带来的体验提升显著。"
+      ]
+    },
+    {
+      "id": "2026-11-05_ai_3",
+      "date": "2026-11-05",
+      "category": "ai",
+      "subcat": "AI智能体",
+      "platform": "DeepSeek",
+      "title": "DeepSeek 开源 SuperAgent 原型",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "image": "images/2026-11-05/2026-11-05_ai_3.jpg",
+      "excerpt": "DeepSeek 于10月31日在官方 GitHub 发布 dsh-superagent 研究原型，这是一个面向单一代码仓库的主动式编码代理，以 MIT 协议开...",
+      "detail": [
+        "DeepSeek 于10月31日在官方 GitHub 发布 dsh-superagent 研究原型，这是一个面向单一代码仓库的主动式编码代理，以 MIT 协议开源。该项目作为 DeepSeek Harness（DSH）的插件包运行，DSH 是 DeepSeek 推出的开源代理程序，定位为 Claude Code 的替代方案，目前已积累超过20万 star。",
+        "dsh-superagent 的核心设计理念是「被授权才行动」。它监听 GitHub 和飞书的事件流，每分钟轮询一次仓库通知，只有当授权人员请求或团队预设规则允许时才执行操作。完整流程包括：Source 收集事件、Trigger 触发评估、Gate 进行规则校验、Ticket 分配任务、Executor 在独立会话中执行、Channel 回复或提交 PR、Panel 呈现需要人工处理的事项。",
+        "该项目发布后迅速走红，24小时内获得超过4000 star，5天内 star 数突破13759，登上 GitHub Trending 前列。Reddit r/singularity 社区相关帖子单日投票超过440。项目目前仅有一个提交，代码以 TypeScript 为主，包含完整的文档体系涵盖域模型、面板、部署等六个章节。",
+        "作为研究原型，dsh-superagent 明确标注非生产级软件。部署需要专用 DSH 配置文件、独立 GitHub 账户、模型提供商配置、Node.js 22.19+、pnpm、git、tmux、Python 3.8 和 GitHub CLI。它还能读取飞书（Lark）聊天，这使其在中国企业开发场景中具备独特吸引力。安全设计上，代理使用独立工作目录和会话，避免与用户个人配置冲突。"
+      ]
+    },
+    {
+      "id": "2026-11-05_ai_4",
+      "date": "2026-11-05",
+      "category": "ai",
+      "subcat": "AI Coding",
+      "platform": "GitHub",
+      "title": "unslop 修复 AI 生成界面",
+      "url": "https://github.com/heydamir/unslop",
+      "image": "images/2026-11-05/2026-11-05_ai_4.jpg",
+      "excerpt": "开源项目 unslop 于10月29日在 GitHub 发布，这是一个面向 Claude Code 和 Codex 的技能插件，专门识别并修复 AI 生成界面的...",
+      "detail": [
+        "开源项目 unslop 于10月29日在 GitHub 发布，这是一个面向 Claude Code 和 Codex 的技能插件，专门识别并修复 AI 生成界面的视觉特征。项目由开发者 Damir Sokolovsky 创建，发布6天内获得超过3200 star和163 fork，迅速登上 GitHub Trending。",
+        "unslop 的工作原理是审计 AI 生成界面的典型视觉特征——紫色渐变、光晕、emoji 标签、夸张文案、不均匀间距——然后从产品本身推导设计方向，按顺序分九轮修复：间距、配色、图标、文案、字体、布局、细节、视觉和动效。它支持 Next.js、React、Vue、Svelte、Tailwind 和纯 HTML/CSS 等主流技术栈。",
+        "使用方式简单直接：在 Claude Code 中输入 /unslop 加目标描述即可，也可以传入 URL 对线上网站进行审计。插件在修改前会先审计并提出方向，如果界面已经良好则建议小幅优化而非强制重设计。可选功能包括通过 fal、Replicate 或 OpenAI 等服务生成 hero 配图，以及生成界面改进过程的短视频。",
+        "该项目以 CC BY 4.0 协议开源，允许商业使用但需署名。安装方式是将技能文件夹复制到 ~/.claude/skills/ 目录，或项目级 .claude/skills/ 目录。Codex 用户可通过 $skill-installer 直接安装。unslop 的走红反映了开发者社区对 AI 生成代码质量的关注，特别是 vibecoding 产出的界面同质化问题正在被认真对待。"
+      ]
+    },
+    {
+      "id": "2026-11-05_vibecoding_1",
+      "date": "2026-11-05",
+      "category": "vibecoding",
+      "subcat": "AI Coding",
+      "platform": "GitHub",
+      "title": "craft-anything 逆向重构软件",
+      "url": "https://github.com/storytold/craft-anything",
+      "image": "images/2026-11-05/2026-11-05_vibecoding_1.jpg",
+      "excerpt": "开源项目 craft-anything 于近日在 GitHub 发布，这是一个用 Rust 编写的引擎，能够让 AI 编码代理研究现有软件的工作原理并进行洁净室...",
+      "detail": [
+        "开源项目 craft-anything 于近日在 GitHub 发布，这是一个用 Rust 编写的引擎，能够让 AI 编码代理研究现有软件的工作原理并进行洁净室重构。项目由 storytold 团队开发，以 Apache-2.0 和 MIT 双协议开源，发布后迅速获得超过9300 star和474 fork。",
+        "craft-anything 的工作流程分为四步：Study（研究目标软件）、Build（让编码代理构建新项目）、Check（与原版对比并列出差异）、Ready（预览结果或请求修改）。默认的洁净室模式不读取原项目的代码、文件或页面源码，仅根据可见外观（截图、可见文本、布局、颜色、字体和间距）进行重建。Deep 模式则允许查看内部代码。",
+        "项目支持桌面应用、CLI 和 MCP 服务器三种使用方式，可驱动多种编码代理。当前可用的功能包括对网站和简单游戏的重建，行为检查和应用重建功能仍在开发中。项目强调知识产权合规，洁净室模式确保产出代码与原项目无直接复制关系。",
+        "craft-anything 的走红反映了 AI 辅助开发领域对「理解-重建」范式日益增长的兴趣。开发者社区对其在快速原型制作和学习软件架构方面的潜力表示关注，但也有声音提醒需注意知识产权边界和深层模式下的合规风险。项目目前处于活跃开发阶段，README 坦承部分功能尚未完全就绪。"
+      ]
+    },
+    {
+      "id": "2026-11-05_vibecoding_2",
+      "date": "2026-11-05",
+      "category": "vibecoding",
+      "subcat": "GitHub Trending",
+      "platform": "GitHub",
+      "title": "Mika 安卓端 AI 代理",
+      "url": "https://github.com/wangzan101/Mika",
+      "image": "images/2026-11-05/2026-11-05_vibecoding_2.jpg",
+      "excerpt": "Mika 是一个开源的安卓端 AI 代理项目，由开发者 wangzan101 创建，使用 Kotlin 编写。它利用安卓无障碍服务和 UI 层级分析来理解屏幕上...",
+      "detail": [
+        "Mika 是一个开源的安卓端 AI 代理项目，由开发者 wangzan101 创建，使用 Kotlin 编写。它利用安卓无障碍服务和 UI 层级分析来理解屏幕上下文，规划和执行模拟触摸和文本输入操作，直接在设备上完成跨应用的多步骤工作流。项目在 GitHub Trending 上获得超过6200 star。",
+        "Mika 的核心能力在于本地 GUI 自动化：它可以自主导航手机应用和浏览器，执行如发送微信消息、浏览网页、填写表单等操作。项目最新版本0.1.33于11月1日发布，新增了 history_read 功能，让模型在任务暂停后继续时能查看之前几轮读取的内容。询问模式也做了精简，仅在可能产生费用时才确认。",
+        "项目展示了多个在中国常用应用上的演示，包括微信主消息应用的操作。开发者选项中支持录制并本地导出详细的运行 Trace，便于调试和优化。Mika 使用 Jetpack Compose 构建 UI，支持多架构 APK 发布，贡献指南已规范了发布流程。",
+        "作为端侧 AI 代理，Mika 代表了移动自动化领域的一个重要方向：无需云端依赖、无需 root 权限，直接通过系统级无障碍服务实现智能操作。这与 DeepSeek 的 dsh-superagent 形成互补——后者面向代码仓库，Mika 面向移动端日常使用场景。项目的活跃度和社区参与度持续增长。"
+      ]
+    },
+    {
+      "id": "2026-11-05_vibecoding_3",
+      "date": "2026-11-05",
+      "category": "vibecoding",
+      "subcat": "AI Coding",
+      "platform": "GitHub",
+      "title": "pixelfx 像素特效库发布",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "image": "images/2026-11-05/2026-11-05_vibecoding_3.jpg",
+      "excerpt": "patch-gg 团队于10月30日在 GitHub 发布 pixelfx 项目，这是一个包含超过244种像素艺术特效的代码驱动库，每种特效都是一小段可独立使用...",
+      "detail": [
+        "patch-gg 团队于10月30日在 GitHub 发布 pixelfx 项目，这是一个包含超过244种像素艺术特效的代码驱动库，每种特效都是一小段可独立使用的代码。项目同时附带一个 Claude Code 技能，允许开发者通过 AI 辅助创建自定义特效。发布后获得超过4300 star。",
+        "pixelfx 的特效覆盖动画、画布渲染、精灵表、游戏开发和 VFX 等多个主题领域。所有特效都达到了 Sprite Fusion 的质量标准，项目包含一个在线画廊页面展示所有特效的分类预览。开发者可以直接浏览特效目录，选择需要的特效集成到自己的游戏项目中。",
+        "项目附带 Claude Code 插件，安装后开发者可以用自然语言描述需要的特效，AI 代理会基于现有特效库生成新代码。这种「AI 辅助创建」的模式降低了像素艺术特效的制作门槛，让独立开发者和小团队也能快速获得高质量的视觉特效资源。",
+        "pixelfx 以 MIT 协议开源，适合独立游戏开发者和像素艺术爱好者使用。项目体现了 AI Coding 工具与传统游戏开发资源结合的趋势——Claude Code 技能不仅用于写代码，还能生成创意资产。GitHub 页面显示项目由 rehan-remade 和 claude（AI）共同维护，展示人机协作的开发模式。"
+      ]
+    },
+    {
+      "id": "2026-11-05_vibecoding_4",
+      "date": "2026-11-05",
+      "category": "vibecoding",
+      "subcat": "AI Coding",
+      "platform": "VGC",
+      "title": "GitHub Copilot 模型退场",
+      "url": "https://devshot.co/blog/ai-coding-tool-changes-tracker",
+      "image": "images/2026-11-05/2026-11-05_vibecoding_4.jpg",
+      "excerpt": "据 Devshot 的 AI 编码工具月度追踪报告，GitHub Copilot 将于11月16日下架 Claude Opus 5、Claude Opus 4....",
+      "detail": [
+        "据 Devshot 的 AI 编码工具月度追踪报告，GitHub Copilot 将于11月16日下架 Claude Opus 5、Claude Opus 4.8 和 GPT-5.6 Terra 三款模型，影响范围覆盖聊天、代理模式和代码补全等所有 Copilot 界面。GitHub 推荐使用 Claude Opus 5.5 替代两款 Opus 模型，GPT-6.1 Sol 或 GPT-6 Luna 替代 Terra。",
+        "此次模型退场对依赖特定模型配置的团队影响显著。使用保存的模型 ID 的脚本、CI 任务和自定义代理配置需要更新。一个例外是年度订阅的个人用户可继续使用 Opus 4.8。同时，OpenAI Codex 已于10月14日为 ChatGPT 登录用户退役 GPT-5.5，需更新工作区默认设置和自定义代理配置，API-key 会话不受影响。",
+        "在定价方面，Copilot Pro 仍为每月10美元，Claude Code 账单年付17美元/月，Cursor Plus 为8美元/月（仅 Grok 模型）。Toolradar 数据显示，10月份 Cursor 在比较页面中获得439次浏览，领先于 Copilot 的267次和 Claude Code 的210次，反映开发者选型活跃度。",
+        "此外，Codex 的 GPT-5.6 Sol 促销积分定价至少持续到11月21日，依赖促销费率的团队预算需在此后重新评估。Claude Code 2.1.302 版本通知 /design-sync 和 /design-login 的独立 Claude Design 站点将于12月14日关闭，通过这些命令同步设计文件的用户需提前迁移。这些变化共同标志着 AI 编码工具进入模型迭代和功能整合的新阶段。"
+      ]
+    },
+    {
+      "id": "2026-11-05_vibecoding_5",
+      "date": "2026-11-05",
+      "category": "vibecoding",
+      "subcat": "AI Coding",
+      "platform": "VGC",
+      "title": "Eglantine Switch 2 模拟器",
+      "url": "https://github.com/Djihads80/Eglantine",
+      "image": "images/2026-11-05/2026-11-05_vibecoding_5.jpg",
+      "excerpt": "开源项目 Eglantine 于近日在 GitHub 公开，这是一个实验性的 Nintendo Switch 2 模拟器，由开发者 Djihads80 使用 C...",
+      "detail": [
+        "开源项目 Eglantine 于近日在 GitHub 公开，这是一个实验性的 Nintendo Switch 2 模拟器，由开发者 Djihads80 使用 C++ 编写。项目在 GitHub Trending 上获得超过3100 star，引发了模拟器社区和游戏开发者的广泛关注。",
+        "作为 Switch 2 的早期模拟器项目，Eglantine 定位于「非常实验性」，意味着它处于开发的最初期阶段。Switch 2 于2026年发售，硬件架构和系统安全机制与前代有显著差异，模拟器开发面临的技术挑战巨大。项目选择 C++ 以追求性能，这在模拟器领域是标准做法。",
+        "Switch 2 模拟器的出现速度引人注目。前代 Switch 的主流模拟器如 Ryujinx 和 Yuzu 花费了数年才达到可玩状态，而 Switch 2 发售不到一年就有实验性项目出现，部分原因是前代模拟器的技术积累可以复用。不过 Eglantine 目前可能仅能启动部分商业游戏的加载界面。",
+        "模拟器项目在游戏社区中始终存在争议。任天堂此前对 Yuzu 项目采取了法律行动，最终导致其关闭。Eglantine 的开发者需要在技术探索和法律风险之间谨慎行事。项目 README 中「非常实验性」的定位也可能是出于降低法律关注度的考虑。社区对项目的技术路线和进展保持密切关注。"
+      ]
+    },
+    {
+      "id": "2026-11-05_gaming_1",
+      "date": "2026-11-05",
+      "category": "gaming",
+      "subcat": "Switch 2",
+      "platform": "Game Informer",
+      "title": "时之笛 重制版获9.25分",
+      "url": "https://gameinformer.com/review/the-legend-of-zelda-ocarina-of-time-2026/exceptionally-familiar",
+      "image": "images/2026-11-05/2026-11-05_gaming_1.jpg",
+      "excerpt": "Game Informer 为《塞尔达传说：时之笛》Switch 2 重制版打出9.25分高分，称其为「对1998年原作的精心重现」。重制版于11月5日正式发售...",
+      "detail": [
+        "Game Informer 为《塞尔达传说：时之笛》Switch 2 重制版打出9.25分高分，称其为「对1998年原作的精心重现」。重制版于11月5日正式发售，作为 Switch 2 独占作品，带来全面升级的视觉、配乐和操作体验。评测者 Kyle Hilliard 表示这款游戏虽然看起来全新，但玩起来并不觉得陌生。",
+        "重制版最大的改进是全自由视角控制和主动跳跃功能。玩家可以自由旋转摄像机观察升级后的环境，特别是在原来使用预渲染背景的场景中，这种视角自由度带来了全新的探索体验。跳跃功能让玩家在探索中更加主动，虽然一定程度上降低了某些陷阱的威胁性。水神殿的谜题也做了优化调整，减少了钥匙管理的繁琐。",
+        "视觉方面，游戏整体容量不到25GB却呈现出惊人的画面质量，被评为「工程奇迹」。角色、环境、敌人和物品的全新建模令人印象深刻，日出日落在海拉鲁大陆上的光影效果依然充满魔力。配乐采用全新管弦乐编曲，Link 吹奏陶笛时4K手指按孔的细节令人沉迷。对话虽然加入了语音演出但大部分仍为文字，角色和故事细节有小幅扩展。",
+        "日本杂志 Famitsu 给出37/40的评分（四个评分者分别给出10、9、9、9），赞扬了舒适的新摄像机设置和丰富的画面细节，但部分评分者认为与现代游戏相比略显简单。原版 N64《时之笛》是 Famitsu 历史上第一个满分40分的游戏，重制版虽未达到完美但已获得极高评价。"
+      ]
+    },
+    {
+      "id": "2026-11-05_gaming_2",
+      "date": "2026-11-05",
+      "category": "gaming",
+      "subcat": "Switch 2",
+      "platform": "games.gg",
+      "title": "Stellar Blade 登陆 Switch 2",
+      "url": "https://games.gg/stellar-blade/guides/stellar-blade-switch-2-release-time-60fps-and-whats-included/",
+      "image": "images/2026-11-05/2026-11-05_gaming_2.jpg",
+      "excerpt": "《Stellar Blade Complete Edition》于11月5日全球同步登陆 Switch 2，解锁时间为 GMT 15:00（北京时间23:00）...",
+      "detail": [
+        "《Stellar Blade Complete Edition》于11月5日全球同步登陆 Switch 2，解锁时间为 GMT 15:00（北京时间23:00）。售价59.99美元，整个游戏完全装在卡带上，无需额外下载。Complete Edition 包含 NieR:Automata 和 NIKKE 联动 DLC，首发当天还附带四套免费 Bayonetta 风格服装。",
+        "在技术表现方面，Shift Up 团队实现了掌机和底座模式下的60fps目标，但基础帧率为30fps，通过 AMD FSR 3.1 帧生成技术插值到60fps。DLSS 负责将掌机720p和底座1080p的画面进行超分辨率放大。技术总监 DongKi Lee 表示团队在延迟均匀性上做了重点优化，并在玩家试玩反馈后决定在发售时加入帧生成开关，让对插值敏感的玩家可以选择原生30fps。",
+        "Polygon 在11月2日的试玩印象中给出了正面评价，称游戏运行流畅，未遇到明显的性能问题。不过评测也指出，如果有其他平台可以选择，建议在其他平台体验本作——这暗示 Switch 2 版本虽好但并非最优体验。作为一款原为 PS5 独占的动作冒险游戏，移植到 Switch 2 的技术实现已经相当出色。",
+        "Stellar Blade 的 Switch 2 移植代表了主机独占游戏跨平台的新趋势。Shift Up 作为韩国开发商，选择在 Switch 2 平台进行全球同步发售，显示了任天堂新主机对亚洲第三方开发商的吸引力。Complete Edition 的全卡带无下载策略也回应了玩家对实体媒介完整性的诉求。"
+      ]
+    },
+    {
+      "id": "2026-11-05_gaming_3",
+      "date": "2026-11-05",
+      "category": "gaming",
+      "subcat": "Steam",
+      "platform": "Steam",
+      "title": "Lightyear Frontier 正式发布",
+      "url": "https://www.mynewsdesk.com/uk/swipe-right/pressreleases/open-world-farming-adventure-lightyear-frontier-releases-into-1-dot-0-on-november-4th-3469640",
+      "image": "images/2026-11-05/2026-11-05_gaming_3.jpg",
+      "excerpt": "开放世界太空农场冒险游戏《Lightyear Frontier》于11月4日正式发布1.0版本，结束长达两年的 Early Access 旅程。游戏在 PC（S...",
+      "detail": [
+        "开放世界太空农场冒险游戏《Lightyear Frontier》于11月4日正式发布1.0版本，结束长达两年的 Early Access 旅程。游戏在 PC（Steam）和 Xbox Series X|S 平台同步发售，由瑞典工作室 FRAME BREAK 开发、Coffee Stain 发行。1.0版本带来了全新区域 Sandswept Highlands 以及主线故事的最终章节。",
+        "1.0版本引入了全面升级的机甲系统，玩家可以通过精简的升级路径自定义工具、身体部件和变形模式，无需逐级重制。完全升级的机甲解锁了 skyblazer 变形模式的持续飞行能力、强力悬浮推进器和快速播种模组芯片。新区域 Sandswept Highlands 是游戏的最终区域，充满了未发现的植物、资源和与前人故事相关的秘密。",
+        "自2024年进入 Early Access 以来，Lightyear Frontier 经历了六次重大内容更新，包括动物与邻居、Rev Up and Roll Out、Shifting Gears、Greater Cause、Country Roads 和最近的 Automation Update。每次更新都引入了新功能和改进，Automation Update 加入了 Automator 流水线工具、喷气背包和建筑改进。Coffee Stain 曾发行 Deep Rock Galactic 和 Valheim 等知名作品。",
+        "FRAME BREAK CEO Mattias Lindblad 表示，团队自2020年开始开发这款游戏，2024年进入 Early Access，经历多年打磨后对达到1.0里程碑感到非常自豪。Coffee Stain 同时也是 Goat Simulator 和 Satisfactory 的开发商，在独立游戏发行领域有良好口碑。游戏定价29.99美元，1.0版本带来了改进的进度系统、UI和性能优化。"
+      ]
+    },
+    {
+      "id": "2026-11-05_gaming_4",
+      "date": "2026-11-05",
+      "category": "gaming",
+      "subcat": "Steam",
+      "platform": "GameDaily",
+      "title": "VOID/BREAKER 正式版发售",
+      "url": "https://store.steampowered.com/news/app/2615540/view/719043624313028684",
+      "image": "images/2026-11-05/2026-11-05_gaming_4.jpg",
+      "excerpt": "高速肉鸽 FPS 游戏《VOID/BREAKER》于11月4日正式推出1.0版本，结束自2025年8月开始的 Early Access 旅程。游戏同步登陆 PC...",
+      "detail": [
+        "高速肉鸽 FPS 游戏《VOID/BREAKER》于11月4日正式推出1.0版本，结束自2025年8月开始的 Early Access 旅程。游戏同步登陆 PC（Steam）、PS5 和 Xbox Series X|S，定价29.99美元，首发同步加入 Xbox Game Pass。开发商 Stubby Games 是 Daniel Stubbington 的个人工作室，由 Playstack 发行。",
+        "玩家在游戏中对抗由敌对 AI 控制的机械敌人，困在无尽的战斗与死亡循环中。核心玩法围绕快节奏枪战和深度武器改装系统展开，玩家可以通过构建无限的武器变体和致命协同效应来撕裂模拟世界。环境破坏是核心机制之一，玩家可以利用破坏环境来生存和导航。每次运行都基于对不同战斗和路径的选择，威胁随进度递增。",
+        "Daniel Stubbington 此前开发过解谜游戏《The Entropy Centre》，VOID/BREAKER 是他的第二款作品。Early Access 期间游戏经历了多次内容更新和价格调整，1.0版本是最终价格。在 Steam 商店页面上，游戏获得了积极的玩家评价。Early Access 购买者在1.0发布时免费获得 Supporter's Pack，包含由 Joe Ford 创作的官方原声带。",
+        "VOID/BREAKER 的多平台同步首发策略和 Game Pass 合作体现了独立游戏发行的新模式。Playstack 作为发行商在恐怖和解谜类型有丰富经验。游戏提供免费试玩 Demo，进度可继承到正式版。11月的发售日历中，VOID/BREAKER 与 Lightyear Frontier 同日发售，两者都是从 Early Access 毕业的独立作品，共同丰富了11月初的非3A游戏选择。"
+      ]
+    }
+  ]
+}
