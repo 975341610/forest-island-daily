@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-06": {
-      "tester-army/e2e": 1,
-      "Panniantong/Agent-Reach": 2,
-      "boykopovar/AnyPS5": 3,
-      "pbakaus/impeccable": 4,
-      "caddyserver/caddy": 5,
-      "pingdotgg/t3code": 6,
-      "666ghj/MiroFish": 7,
-      "earthtojake/text-to-cad": 8,
-      "addyosmani/agent-skills": 9,
-      "FalkorDB/FalkorDB": 10,
-      "pablostanley/yoinks": 11,
-      "tashfeenahmed/freellmapi": 12,
-      "garrytan/gstack": 13,
-      "ruvnet/RuView": 14,
-      "michael-denyer/pstack-claude": 15,
-      "storytold/artcraft": 16,
-      "M-Abozaid/esp32-c3-adblock": 17,
-      "zerx-lab/FluxDown": 18,
-      "linshenkx/prompt-optimizer": 19,
-      "longbridge/gpui-kit": 20,
-      "chthollyphile/folia-major": 21,
-      "anthropics/claude-code": 22,
-      "Alishahryar1/free-claude-code": 23,
-      "laoma528/awesome-zhuiju-free": 24,
-      "p-e-w/heretic": 25
-    },
     "2026-10-07": {
       "morluto/rea": 1,
       "tester-army/e2e": 2,
@@ -836,6 +809,33 @@
       "Thysrael/Horizon": 23,
       "Tencent/WeKnora": 24,
       "michael-denyer/pstack-claude": 25
+    },
+    "2026-11-06": {
+      "NVIDIA/auto-ontology": 1,
+      "vercel-labs/agent-desktop": 2,
+      "pingdotgg/t3code": 3,
+      "pbakaus/impeccable": 4,
+      "HunYiSage/dsh-purge": 5,
+      "JiaFeiMiao-K-Cat/DiscImageStudio": 6,
+      "harry0703/MoneyPrinterTurbo": 7,
+      "github/spec-kit": 8,
+      "scenario-labs/skills": 9,
+      "garrytan/gstack": 10,
+      "max-sixty/worktrunk": 11,
+      "The-PR-Agent/pr-agent": 12,
+      "longbridge/gpui-kit": 13,
+      "Usagi-org/ai-goofish-monitor": 14,
+      "microsoft/VibeVoice": 15,
+      "liguobao/ds-harness-remote": 16,
+      "tembo/voxl": 17,
+      "google/skills": 18,
+      "derv82/wifit3": 19,
+      "tester-army/e2e": 20,
+      "sandbox-quantum/switch": 21,
+      "Anil-matcha/Open-Generative-AI": 22,
+      "ConardLi/garden-skills": 23,
+      "openai/codex": 24,
+      "elie222/rakazo": 25
     }
   }
 }
