@@ -182,9 +182,9 @@
       "html_url": "https://github.com/herdrdev/herdr"
     },
     "golang/go": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 178,
+      "best_rank": 19,
+      "appearances": 2,
+      "total_today_stars": 358,
       "language": "Go",
       "description": "The Go programming language",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4314092?v=4",
@@ -200,9 +200,9 @@
       "html_url": "https://github.com/CopilotKit/OpenBot"
     },
     "kubernetes/kubernetes": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 170,
+      "best_rank": 15,
+      "appearances": 2,
+      "total_today_stars": 371,
       "language": "Go",
       "description": "Production-Grade Container Scheduling and Management",
       "owner_avatar": "https://avatars.githubusercontent.com/u/13629408?v=4",
@@ -381,8 +381,8 @@
     },
     "max-sixty/worktrunk": {
       "best_rank": 8,
-      "appearances": 3,
-      "total_today_stars": 1515,
+      "appearances": 4,
+      "total_today_stars": 1937,
       "language": "Rust",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5635139?v=4",
@@ -434,9 +434,9 @@
       "html_url": "https://github.com/liguobao/ds-harness-remote"
     },
     "vercel-labs/agent-browser": {
-      "best_rank": 19,
-      "appearances": 2,
-      "total_today_stars": 275,
+      "best_rank": 6,
+      "appearances": 3,
+      "total_today_stars": 897,
       "language": "Rust",
       "description": "Browser automation CLI for AI agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
@@ -480,8 +480,8 @@
     },
     "NVIDIA/auto-ontology": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 4729,
+      "appearances": 3,
+      "total_today_stars": 6744,
       "language": "Python",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
@@ -551,9 +551,9 @@
       "html_url": "https://github.com/scenario-labs/skills"
     },
     "ConardLi/garden-skills": {
-      "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 356,
+      "best_rank": 8,
+      "appearances": 3,
+      "total_today_stars": 874,
       "language": "JavaScript",
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/30708545?v=4",
@@ -632,9 +632,9 @@
       "html_url": "https://github.com/longbridge/gpui-kit"
     },
     "microsoft/VibeVoice": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 223,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1227,
       "language": "Python",
       "description": "Open-Source Frontier Voice AI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -650,9 +650,9 @@
       "html_url": "https://github.com/tembo/voxl"
     },
     "google/skills": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 211,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 745,
       "language": "Python",
       "description": "Agent Skills for Google products and technologies",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
@@ -677,13 +677,157 @@
       "html_url": "https://github.com/sandbox-quantum/switch"
     },
     "Anil-matcha/Open-Generative-AI": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 182,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 580,
       "language": "JavaScript",
       "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
       "html_url": "https://github.com/Anil-matcha/Open-Generative-AI"
+    },
+    "cloudflare/security-audit-skill": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 2548,
+      "language": "JavaScript",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
+      "html_url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    "sherlock-project/sherlock": {
+      "best_rank": 3,
+      "appearances": 1,
+      "total_today_stars": 1761,
+      "language": "Python",
+      "description": "Hunt down social media accounts by username across social networks",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/48293496?v=4",
+      "html_url": "https://github.com/sherlock-project/sherlock"
+    },
+    "stablyai/orca": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 1155,
+      "language": "TypeScript",
+      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "html_url": "https://github.com/stablyai/orca"
+    },
+    "lz4/lz4": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 315,
+      "language": "C",
+      "description": "Extremely Fast Compression algorithm",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/11667224?v=4",
+      "html_url": "https://github.com/lz4/lz4"
+    },
+    "microsoft/vscode": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 301,
+      "language": "TypeScript",
+      "description": "Visual Studio Code",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
+      "html_url": "https://github.com/microsoft/vscode"
+    },
+    "react/react": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 248,
+      "language": "JavaScript",
+      "description": "The library for web and native user interfaces.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/102812?v=4",
+      "html_url": "https://github.com/react/react"
+    },
+    "elder-plinius/T3MP3ST": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 242,
+      "language": "TypeScript",
+      "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/133052465?v=4",
+      "html_url": "https://github.com/elder-plinius/T3MP3ST"
+    },
+    "meta/astryx": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 198,
+      "language": "TypeScript",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/69631?v=4",
+      "html_url": "https://github.com/meta/astryx"
+    },
+    "pandas-dev/pandas": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 194,
+      "language": "Python",
+      "description": "Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/21206976?v=4",
+      "html_url": "https://github.com/pandas-dev/pandas"
+    },
+    "rust-lang/rust": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 192,
+      "language": "Rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5430905?v=4",
+      "html_url": "https://github.com/rust-lang/rust"
+    },
+    "astral-sh/ruff": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 169,
+      "language": "Rust",
+      "description": "An extremely fast Python linter and code formatter, written in Rust.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/115962839?v=4",
+      "html_url": "https://github.com/astral-sh/ruff"
+    },
+    "vuejs/vue": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 169,
+      "language": "TypeScript",
+      "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/6128107?v=4",
+      "html_url": "https://github.com/vuejs/vue"
+    },
+    "rivet-dev/rivet": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 162,
+      "language": "Rust",
+      "description": "The orchestrator for agentic workloads. A fast, high-density and scalable orchestrator for every workload an agent needs.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/57733614?v=4",
+      "html_url": "https://github.com/rivet-dev/rivet"
+    },
+    "tailwindlabs/tailwindcss": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 152,
+      "language": "TypeScript",
+      "description": "A utility-first CSS framework for rapid UI development.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/67109815?v=4",
+      "html_url": "https://github.com/tailwindlabs/tailwindcss"
+    },
+    "prometheus/prometheus": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 148,
+      "language": "Go",
+      "description": "The Prometheus monitoring system and time series database.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
+      "html_url": "https://github.com/prometheus/prometheus"
+    },
+    "denoland/deno": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 146,
+      "language": "Rust",
+      "description": "A modern runtime for JavaScript and TypeScript.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/42048915?v=4",
+      "html_url": "https://github.com/denoland/deno"
     }
   }
 }

@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-07": {
-      "morluto/rea": 1,
-      "tester-army/e2e": 2,
-      "boykopovar/AnyPS5": 3,
-      "Panniantong/Agent-Reach": 4,
-      "heygen-com/hyperframes": 5,
-      "earthtojake/text-to-cad": 6,
-      "pbakaus/impeccable": 7,
-      "caddyserver/caddy": 8,
-      "cloudflare/security-audit-skill": 9,
-      "addyosmani/agent-skills": 10,
-      "pingdotgg/t3code": 11,
-      "FalkorDB/FalkorDB": 12,
-      "p-e-w/heretic": 13,
-      "ayghri/i-have-adhd": 14,
-      "Joooook/12306-mcp": 15,
-      "storytold/artcraft": 16,
-      "kanoqwq/UFI-TOOLS": 17,
-      "Stremio/stremio-web": 18,
-      "deepseek-ai/DeepGEMM": 19,
-      "garrytan/gstack": 20,
-      "cursor/plugins": 21,
-      "anthropics/knowledge-work-plugins": 22,
-      "ollama/ollama": 23,
-      "eolix/photosuite": 24,
-      "Autumn-27/ARTEX": 25
-    },
     "2026-10-08": {
       "morluto/rea": 1,
       "boykopovar/AnyPS5": 2,
@@ -836,6 +809,33 @@
       "ConardLi/garden-skills": 23,
       "openai/codex": 24,
       "elie222/rakazo": 25
+    },
+    "2026-11-07": {
+      "cloudflare/security-audit-skill": 1,
+      "NVIDIA/auto-ontology": 2,
+      "sherlock-project/sherlock": 3,
+      "stablyai/orca": 4,
+      "microsoft/VibeVoice": 5,
+      "vercel-labs/agent-browser": 6,
+      "google/skills": 7,
+      "ConardLi/garden-skills": 8,
+      "max-sixty/worktrunk": 9,
+      "Anil-matcha/Open-Generative-AI": 10,
+      "lz4/lz4": 11,
+      "microsoft/vscode": 12,
+      "react/react": 13,
+      "elder-plinius/T3MP3ST": 14,
+      "kubernetes/kubernetes": 15,
+      "meta/astryx": 16,
+      "pandas-dev/pandas": 17,
+      "rust-lang/rust": 18,
+      "golang/go": 19,
+      "astral-sh/ruff": 20,
+      "vuejs/vue": 21,
+      "rivet-dev/rivet": 22,
+      "tailwindlabs/tailwindcss": 23,
+      "prometheus/prometheus": 24,
+      "denoland/deno": 25
     }
   }
 }
