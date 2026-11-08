@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-08": {
-      "morluto/rea": 1,
-      "boykopovar/AnyPS5": 2,
-      "storytold/artcraft": 3,
-      "tester-army/e2e": 4,
-      "anthropics/knowledge-work-plugins": 5,
-      "addyosmani/agent-skills": 6,
-      "ayghri/i-have-adhd": 7,
-      "cloudflare/security-audit-skill": 8,
-      "earthtojake/text-to-cad": 9,
-      "superdesigndev/treg": 10,
-      "xerj-org/xerj": 11,
-      "tinyhumansai/openhuman": 12,
-      "pingdotgg/t3code": 13,
-      "Autumn-27/ARTEX": 14,
-      "reconurge/flowsint": 15,
-      "Z4nzu/hackingtool": 16,
-      "smicallef/spiderfoot": 17,
-      "microsoft/markitdown": 18,
-      "anthropics/claude-code": 19,
-      "cursor/plugins": 20,
-      "ollama/ollama": 21,
-      "Joooook/12306-mcp": 22,
-      "caddyserver/caddy": 23,
-      "EpicGames/raddebugger": 24,
-      "kanoqwq/UFI-TOOLS": 25
-    },
     "2026-10-09": {
       "morluto/rea": 1,
       "boykopovar/AnyPS5": 2,
@@ -836,6 +809,33 @@
       "tailwindlabs/tailwindcss": 23,
       "prometheus/prometheus": 24,
       "denoland/deno": 25
+    },
+    "2026-11-08": {
+      "morluto/rea": 1,
+      "cloudflare/security-audit-skill": 2,
+      "sherlock-project/sherlock": 3,
+      "NVIDIA/auto-ontology": 4,
+      "stablyai/orca": 5,
+      "google/skills": 6,
+      "anthropics/skills": 7,
+      "jamiepine/voicebox": 8,
+      "astral-sh/ruff": 9,
+      "rust-lang/rust": 10,
+      "microsoft/vscode": 11,
+      "prometheus/prometheus": 12,
+      "cheaper-inference/OmniRoute": 13,
+      "angular/angular": 14,
+      "react/react": 15,
+      "garrytan/gstack": 16,
+      "microsoft/VibeVoice": 17,
+      "donnemartin/system-design-primer": 18,
+      "ranxianglei/billion-context": 19,
+      "vercel-labs/agent-browser": 20,
+      "Unleash/unleash": 21,
+      "longbridge/gpui-kit": 22,
+      "etcd-io/etcd": 23,
+      "max-sixty/worktrunk": 24,
+      "Anil-matcha/Open-Generative-AI": 25
     }
   }
 }

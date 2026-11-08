@@ -92,9 +92,9 @@
       "html_url": "https://github.com/beenuar/AiSOC"
     },
     "anthropics/skills": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 431,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 821,
       "language": "Python",
       "description": "Public repository for Agent Skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -281,9 +281,9 @@
       "html_url": "https://github.com/p-e-w/heretic"
     },
     "cheaper-inference/OmniRoute": {
-      "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 402,
+      "best_rank": 13,
+      "appearances": 2,
+      "total_today_stars": 724,
       "language": "TypeScript",
       "description": "Never stop coding. Free MIT AI gateway: one endpoint, 375 providers (150+ free), 1,400+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 900+ contributors",
       "owner_avatar": "https://avatars.githubusercontent.com/u/320819803?v=4",
@@ -381,8 +381,8 @@
     },
     "max-sixty/worktrunk": {
       "best_rank": 8,
-      "appearances": 4,
-      "total_today_stars": 1937,
+      "appearances": 5,
+      "total_today_stars": 2084,
       "language": "Rust",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5635139?v=4",
@@ -435,8 +435,8 @@
     },
     "vercel-labs/agent-browser": {
       "best_rank": 6,
-      "appearances": 3,
-      "total_today_stars": 897,
+      "appearances": 4,
+      "total_today_stars": 1087,
       "language": "Rust",
       "description": "Browser automation CLI for AI agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
@@ -480,8 +480,8 @@
     },
     "NVIDIA/auto-ontology": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 6744,
+      "appearances": 4,
+      "total_today_stars": 7899,
       "language": "Python",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
@@ -516,8 +516,8 @@
     },
     "garrytan/gstack": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 902,
+      "appearances": 3,
+      "total_today_stars": 1182,
       "language": "TypeScript",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
@@ -624,8 +624,8 @@
     },
     "longbridge/gpui-kit": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 285,
+      "appearances": 2,
+      "total_today_stars": 463,
       "language": "Rust",
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/68419756?v=4",
@@ -633,8 +633,8 @@
     },
     "microsoft/VibeVoice": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1227,
+      "appearances": 3,
+      "total_today_stars": 1472,
       "language": "Python",
       "description": "Open-Source Frontier Voice AI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -650,9 +650,9 @@
       "html_url": "https://github.com/tembo/voxl"
     },
     "google/skills": {
-      "best_rank": 7,
-      "appearances": 2,
-      "total_today_stars": 745,
+      "best_rank": 6,
+      "appearances": 3,
+      "total_today_stars": 1188,
       "language": "Python",
       "description": "Agent Skills for Google products and technologies",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1342004?v=4",
@@ -678,8 +678,8 @@
     },
     "Anil-matcha/Open-Generative-AI": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 580,
+      "appearances": 3,
+      "total_today_stars": 726,
       "language": "JavaScript",
       "description": "Unrestricted Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
@@ -687,8 +687,8 @@
     },
     "cloudflare/security-audit-skill": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 2548,
+      "appearances": 2,
+      "total_today_stars": 4633,
       "language": "JavaScript",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "owner_avatar": "https://avatars.githubusercontent.com/u/314135?v=4",
@@ -696,8 +696,8 @@
     },
     "sherlock-project/sherlock": {
       "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 1761,
+      "appearances": 2,
+      "total_today_stars": 3527,
       "language": "Python",
       "description": "Hunt down social media accounts by username across social networks",
       "owner_avatar": "https://avatars.githubusercontent.com/u/48293496?v=4",
@@ -705,8 +705,8 @@
     },
     "stablyai/orca": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 1155,
+      "appearances": 2,
+      "total_today_stars": 2086,
       "language": "TypeScript",
       "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
@@ -722,9 +722,9 @@
       "html_url": "https://github.com/lz4/lz4"
     },
     "microsoft/vscode": {
-      "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 301,
+      "best_rank": 11,
+      "appearances": 2,
+      "total_today_stars": 626,
       "language": "TypeScript",
       "description": "Visual Studio Code",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -732,8 +732,8 @@
     },
     "react/react": {
       "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 248,
+      "appearances": 2,
+      "total_today_stars": 531,
       "language": "JavaScript",
       "description": "The library for web and native user interfaces.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/102812?v=4",
@@ -767,18 +767,18 @@
       "html_url": "https://github.com/pandas-dev/pandas"
     },
     "rust-lang/rust": {
-      "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 192,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 538,
       "language": "Rust",
       "description": "Empowering everyone to build reliable and efficient software.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/5430905?v=4",
       "html_url": "https://github.com/rust-lang/rust"
     },
     "astral-sh/ruff": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 169,
+      "best_rank": 9,
+      "appearances": 2,
+      "total_today_stars": 519,
       "language": "Rust",
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/115962839?v=4",
@@ -812,9 +812,9 @@
       "html_url": "https://github.com/tailwindlabs/tailwindcss"
     },
     "prometheus/prometheus": {
-      "best_rank": 24,
-      "appearances": 1,
-      "total_today_stars": 148,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 470,
       "language": "Go",
       "description": "The Prometheus monitoring system and time series database.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/3380462?v=4",
@@ -828,6 +828,69 @@
       "description": "A modern runtime for JavaScript and TypeScript.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/42048915?v=4",
       "html_url": "https://github.com/denoland/deno"
+    },
+    "morluto/rea": {
+      "best_rank": 1,
+      "appearances": 1,
+      "total_today_stars": 3286,
+      "language": "TypeScript",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76467478?v=4",
+      "html_url": "https://github.com/morluto/rea"
+    },
+    "jamiepine/voicebox": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 378,
+      "language": "Python",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/32987599?v=4",
+      "html_url": "https://github.com/jamiepine/voicebox"
+    },
+    "angular/angular": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 305,
+      "language": "TypeScript",
+      "description": "Deliver web apps with confidence 🚀",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/139426?v=4",
+      "html_url": "https://github.com/angular/angular"
+    },
+    "donnemartin/system-design-primer": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 192,
+      "language": "Python",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/5458997?v=4",
+      "html_url": "https://github.com/donnemartin/system-design-primer"
+    },
+    "ranxianglei/billion-context": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 191,
+      "language": "TypeScript",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/12445698?v=4",
+      "html_url": "https://github.com/ranxianglei/billion-context"
+    },
+    "Unleash/unleash": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 183,
+      "language": "TypeScript",
+      "description": "Open-source feature management platform",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/23053233?v=4",
+      "html_url": "https://github.com/Unleash/unleash"
+    },
+    "etcd-io/etcd": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 159,
+      "language": "Go",
+      "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/41972792?v=4",
+      "html_url": "https://github.com/etcd-io/etcd"
     }
   }
 }
