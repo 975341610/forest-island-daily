@@ -1,236 +1,218 @@
 [
   {
-    "subcat": "AI行业商业",
-    "platform": "TechCrunch",
-    "title": "Ramp数据：AI支出增速骤停",
-    "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+    "subcat": "AI安全研究",
+    "platform": "Help Net Security",
+    "title": "OpenAI AI模型发现948个Linux提权漏洞",
+    "url": "https://www.helpnetsecurity.com/2026/11/05/openai-linux-kernel-root-exploits/",
     "detail": [
-      "企业支出管理平台Ramp于11月6日发布最新报告，显示2026年8月至9月间AI相关token支出仅增长1.5%，而7月单月增幅曾高达42%。这一数据在Anthropic即将IPO之际引发市场对AI公司收入增长可持续性的深度质疑。",
-      "Ramp首席经济学家Ara Kharazian指出，最重度使用AI的前1%企业曾达到每员工每月1万美元支出峰值，但在8、9月出现支出回落。OpenAI在9月将GPT-6 Sol和Luna的API价格砍半，Anthropic也大幅下调Fable 5.1和Opus 5.5定价，直接导致收入减少约6亿美元。Kharazian认为市场已从卖方市场转向买方市场。",
-      "报告还揭示了一个悖论：AI使用量持续上升，但支出却持平甚至下降。原因包括企业更善于成本控制、使用模型路由器将任务分配给更便宜的模型、以及Meta和Nvidia等竞争者推出廉价或开源模型。Notion联合创始人Akshay Kothari在社交媒体总结道，token暴涨，成本暴跌。",
-      "Bloomberg同日报导Anthropic估值从10月初预估的2万亿美元降至1.2至1.3万亿美元，OpenAI也将最新一轮融资估值从1.4万亿降至1.25万亿并削减约100亿美元融资目标。分析师警告，除非出现类似AI编码工具那样的下一个杀手级用例，否则AI行业可能已告别超高速增长期。"
+      "OpenAI于11月5日发布安全研究报告，披露其网络安全团队使用一款未发布的AI模型构建了自动化漏洞发现管道，在10月中旬的一次运行中针对最新Linux内核发现了948个独立的本地提权漏洞，并为每个漏洞生成了可用的exploit和补丁。整个运行耗时30小时，消耗API费用121.3万美元，平均每个exploit成本约1279美元。",
+      "该管道分为三个阶段：第一组AI代理筛选出低权限用户可触及的安全相关代码，将审计范围缩小至约7%；第二组在12小时内识别出2308个可疑漏洞；分类代理在隔离虚拟机中复现了其中1724个，复现率74.7%。最终exploit开发代理在启用标准防护机制的机器上产出了291个信息泄露PoC和1169个可用的root提权exploit，去重后为948个独立漏洞。",
+      "OpenAI在抽样166个exploit后发现代理使用了10种人类专家此前未见的利用技术，经第三方内核安全专家确认均为全新技术。截至报告发布时，已有61个漏洞被上游修补，43个有暂存补丁，299个正在公开讨论中。OpenAI已向内核维护者发送了数百份报告和补丁。",
+      "该研究在Google加固版kernelCTF上也进行了测试，112小时内产出21个提权exploit，而kernelCTF在2026全年仅确认了26个零日提权漏洞。OpenAI警告称，未及时修补的系统对有资源的攻击者而言相当于直接赋予root权限，建议采用Firecracker和gVisor等沙箱隔离工具进行分层防御。"
     ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon raccoon villager sitting at a desk looking at a flatlining chart on a computer screen, holding a coffee cup, looking worried, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_ai_1",
-    "date": "2026-11-07",
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon penguin villager hacker wearing a green visor, looking at a computer screen showing bug icons and shield patches, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_ai_1",
+    "date": "2026-11-09",
     "category": "ai",
     "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_ai_1.jpg"
+    "image": "images/2026-11-09/2026-11-09_ai_1.jpg"
   },
   {
     "subcat": "AI政策",
-    "platform": "The Verge",
-    "title": "OpenAI放弃数据中心保密协议",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+    "platform": "Claims Journal",
+    "title": "民主党计划推出AI监管法案潮",
+    "url": "https://www.claimsjournal.com/news/national/2026/11/06/341154.htm",
     "detail": [
-      "在11月5日美国中期选举中选民压倒性反对数据中心扩张后，OpenAI于11月6日宣布新的社区承诺：不再就数据中心项目与公职人员签署保密协议（NDA），仅保留针对合法安全信息和商业机密的狭窄保护条款。此举被视为对公众压力的直接回应。",
-      "OpenAI同时承诺将支付其使用的全部电力成本及配套基础设施费用，公开发布预期创造的就业岗位并定期汇报招聘进展。公司还将未来自有的数据中心重新命名为算力园区，每个园区都将制定反映当地优先事项的地方契约。10月Amazon也曾宣布不再与政府机构签署数据中心NDA。",
-      "此次让步的背景是中期选举中44项地方数据中心暂停令有43项获通过，投票率高达76%的选民反对在社区建设数据中心。德州州长当选人已承诺在立法保护措施出台前全面暂停数据中心审批。这一两党共识使AI基础设施扩张面临前所未有的政治阻力。",
-      "Meta同日发出警告，称社区对大型数据中心日益增长的政治反对可能威胁未来AI投资。据华尔街日报报导，Meta高管表示许多AI公司正考虑将数据中心建设转移至海外。OpenAI和Anthropic均未对The Verge的评论请求作出回应，AI行业CEO们私下对算力容量约束表示深切担忧。"
+      "据路透社11月6日报道，民主党在赢得参众两院控制权后，计划于明年1月接管国会时推出一系列AI监管法案。这将标志着与共和党主导的国会有根本性转变——此前的国会主要推动AI发展，未通过任何限制性立法。法案将聚焦三个领域：保护消费者免受数据中心电力成本上涨影响、要求高级AI模型接受独立安全测试、以及明确AI公司对其产品造成损害的责任。",
+      "参议员Chuck Schumer预计将成为参议院多数党领袖，他表示保护消费者免受数据中心扩张带来的电费上涨将是明年的优先事项。众议员Lori Trahan计划推动要求独立专家对领先AI模型进行安全标准评估的立法，并将推动明确AI公司对其系统造成损害时的法律责任。众议员Zoe Lofgren表示民主党将追求在促进创新的同时制定负责任的AI监管。",
+      "任何立法都将面临重大障碍，因为特朗普总统已多次拒绝强制AI规则。推翻否决需要参众两院三分之二多数票。但民主党控制委员会将获得传唤权和听证会平台，可以传召AI行业高管作证。众议员Greg Casar已表示AI高管应在宣誓后作证。Raymond James分析师Ed Mills认为通过立法的可能性高于预期，可能搭车必须通过的年度法案。",
+      "此次监管推动建立在中期选举后数据中心暂停令的强劲势头之上。NBC新闻出口民调显示56%的选民认为AI和数据中心是其国会投票的关键或主要因素。科技股在周四和周五因新国会可能放缓AI发展的担忧大幅抛售。当选参议员Abdul El-Sayed在竞选期间呼吁建立独立AI监管机构。"
     ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon owl villager mayor standing at a podium with a document labeled NDA with a big X through it, a small town hall building in background, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_ai_2",
-    "date": "2026-11-07",
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon eagle villager politician at a podium with documents and a tiny capitol building, holding a gavel, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_ai_2",
+    "date": "2026-11-09",
     "category": "ai",
     "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_ai_2.jpg"
+    "image": "images/2026-11-09/2026-11-09_ai_2.jpg"
   },
   {
-    "subcat": "AI安全研究",
-    "platform": "The Verge",
-    "title": "METR评估：Anthropic研发提速翻倍",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1028046/an-anthropic-risk-assessment-from-ai-safety-organization-metr-is-out",
+    "subcat": "AI模型发布",
+    "platform": "OpenAI",
+    "title": "OpenAI发布Images 2.6支持GIF",
+    "url": "https://openai.com/index/introducing-images-2-6/",
     "detail": [
-      "独立AI安全评估机构METR于11月5日发布对Anthropic的深度评估报告。该评估历时近三个月，METR团队获得了Anthropic内部AI研发流程的前所未有的访问权限，包括预训练、强化学习、训练算力及模型基准评分等多项内部指标数据。",
-      "METR的核心发现是：截至2026年10月，Anthropic在明确定义任务上的模型能力提升速度约为2024年3月至2025年10月期间的两倍，95%置信区间为1.5至2.8倍。METR猜测约80%的当前加速归因于AI辅助研发本身，而非单纯增加训练算力。内部Slack自报调查显示最新内部模型带来的研发效率提升约达12倍，但METR将此视为较弱的证据。",
-      "这一发现引发了对AI失控风险的严重关注。如果AI系统能显著加速AI自身的研发，可能导致极端危险能力的突然涌现。METR指出已观察到完全自主研发的初步迹象，但主要加速仍来自AI辅助而非完全自主的研发流程。Anthropic联合创始人Sam McCandlish表示公司将发布自己的研发速度分析报告。",
-      "该报告与Anthropic CEO Dario Amodei 9月发表的控制前沿文章形成呼应。METR此前已于10月14日发布提案，呼吁公众理解AI研发加速相关问题以判断前沿AI开发的失控风险。这是AI安全领域首次有独立机构获得如此深入的前沿实验室内部访问权限，被视为AI治理透明化的重要里程碑。"
+      "OpenAI于11月4日发布Images 2.6图像模型，在ChatGPT和Codex全平台上线，覆盖所有订阅层级。新模型生成速度比前代提升50%，新增原生GIF动画生成功能，用户可从文字提示或上传照片创建2至16帧的循环动画，默认9帧每帧200毫秒。用户可调整播放速度、逐帧编辑并直接分享。",
+      "API端同步推出两个新模型：GPT-Image-2.6 Flare专注速度，低质量模式下最快6秒生成一张图片；GPT-Image-2.6 Sunburst专注细节和编辑一致性。新增复杂度参数控制模型规划深度，OpenAI建议快速编辑使用低复杂度。图片标记编辑功能从ChatGPT扩展到API，开发者可通过透明PNG叠加层精确指定编辑区域。SVG矢量导出支持网站、应用和印刷设计流程。",
+      "Images 2.6还引入了可复用参考图片功能，用户可保存角色、宠物和产品的参考图，在后续创作中无需重复上传。OpenAI宣布全球用户通过ChatGPT、Codex和API每周生成超过40亿张图片，日均超5亿张，较9月报告的30亿张大幅增长。",
+      "此次发布进一步巩固了OpenAI在AI图像生成领域的领先地位。GIF功能填补了ChatGPT在动画创作方面的空白，此前用户需借助外部工具拼接静态图片。Flare和Sunburst的双模型策略让开发者可根据延迟和质量需求灵活选择，SVG导出和标记编辑功能则降低了设计工作流的摩擦。"
     ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon cat villager scientist wearing lab goggles, standing in front of a chalkboard with an upward arrow chart doubling in steepness, holding a magnifying glass, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_ai_3",
-    "date": "2026-11-07",
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon rabbit villager artist painting colorful images and animated GIF frames on a big screen, with sparkles and picture frames around, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_ai_3",
+    "date": "2026-11-09",
     "category": "ai",
     "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_ai_3.jpg"
+    "image": "images/2026-11-09/2026-11-09_ai_3.jpg"
   },
   {
     "subcat": "AI行业商业",
-    "platform": "The Daily Star",
-    "title": "蓝色浪潮冲击：全球科技股暴跌",
-    "url": "https://www.thedailystar.net/news/world/united-states/news/midterms-fuel-ai-fears-4317426",
+    "platform": "Anthropic",
+    "title": "Anthropic发布Claude个人财务功能",
+    "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
     "detail": [
-      "11月7日发布的报道显示，美国中期选举民主党大获全胜后，全球科技股遭遇血洗。投资者担忧民主党将加大对AI行业的监管力度，导致华尔街和亚太市场出现大面积抛售。纳斯达克暴跌5.5%，创去年4月以来最大单日跌幅，标普500下跌逾4%，道琼斯跌超3%。",
-      "亚洲市场同样受到重创，首尔股市盘中一度暴跌近9%，最终收跌6%，芯片巨头SK海力士跌超10%，三星下跌6.4%。费城半导体指数本周累计下挫约16%，有望创去年4月以来最差单周表现。分析师指出，数据中心在全美范围内遭到跨党派反对，许多中期选举获胜者已承诺叫停相关项目。",
-      "进步派参议员Bernie Sanders呼吁在全国范围内暂停数据中心建设，进一步加剧了投资者恐慌。此次暴跌还叠加了对AI行业巨额投入回报前景的担忧以及近期借贷成本上升的压力。特朗普在Truth Social发文将股市崩盘归咎于民主党获胜。",
-      "分析师Michael Hewson表示，投资者抛售源于对AI建设计划面临更大反对的担忧，德克萨斯州的结果尤其引发对政客可能针对马斯克旗下Tesla和SpaceX的担忧。此前AI公司估值的大幅上涨已在交易大厅引发不安，此次选举结果成为估值回调的催化剂。"
+      "Anthropic于11月5日推出Claude Personal Finance功能，允许用户安全连接银行和信用卡账户，用自然语言询问个人财务问题。该功能通过Plaid服务连接账户，Claude仅获得只读访问权限，无法移动、管理或投资用户资金。功能面向美国市场Pro、Max和Ultra计划用户以beta形式推出。",
+      "用户连接账户后可询问「这个月钱花在哪里了」等问题，Claude会跨所有已连接账户汇总支出并按类别分类。用户可进一步追问「是否比平时多」「还剩多少到发薪日」，Claude会检查历史数据并指出可能遗漏的会员续费等。Claude还能识别重复扣款、意外费用或逐月攀升的账单，并可生成周支出图表、到期日日历和数据仪表盘。",
+      "安全方面，用户通过Plaid自行登录银行并授权Claude只读访问，Claude不接触用户银行密码。Claude可查看银行名称、账户名称和类型、余额和信用额度及最长两年的交易记录。Personal Finance对话不会被用于训练模型，用户可随时取消账户关联。Anthropic强调该功能不提供投资建议，且Claude可能出错，建议用户向银行确认重要数字。",
+      "该功能使Claude直接与ChatGPT的财务功能竞争，反映了AI助手从通用对话工具向垂直生活助手扩展的趋势。Anthropic强调Claude无广告、无赞助推荐、不推销信用卡或贷款，与银行应用的碎片化体验形成差异化。通过自然语言交互降低财务管理门槛，有望吸引不善于使用传统理财工具的用户群体。"
     ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon bear villager stockbroker looking at a red stock chart screen with hands on cheeks in surprise, a tiny capitol building in the background, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_ai_4",
-    "date": "2026-11-07",
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon cat villager sitting at a desk with a calculator and colorful coin stacks, looking at a financial dashboard on screen, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_ai_4",
+    "date": "2026-11-09",
     "category": "ai",
     "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_ai_4.jpg"
+    "image": "images/2026-11-09/2026-11-09_ai_4.jpg"
   },
   {
     "subcat": "AI Coding",
-    "platform": "GitHub Blog",
-    "title": "Copilot周报：PR合并与JetBrains支持",
-    "url": "https://github.blog/copilot/copilot-weekly-releases/",
+    "platform": "Cursor",
+    "title": "Cursor推出Live Apps一键部署",
+    "url": "https://cursor.com/changelog/build-live-apps",
     "detail": [
-      "GitHub于11月6日发布Copilot每周更新公告，带来多项重要功能改进。最引人注目的是Agent Merge功能，允许Copilot直接从Pull Request中合并代码变更，进一步简化了AI辅助开发的代码审查和合并流程。同时新增了对JetBrains Air和Xcode 27.3 beta的支持，扩大了IDE覆盖范围。",
-      "CLI方面推出了统一的settings dashboard，开发者可以在命令行界面中一站式管理所有Copilot配置。VS Code 1.145版本中加入了实验性的chat view modes和基于cron的本地自动化功能，让开发者可以设定定时任务自动执行编码工作流。这些改进反映了GitHub将Copilot从代码补全工具向全流程AI编码代理转型的战略。",
-      "Agent Merge功能的推出意味着Copilot现在可以在PR审查通过后自动执行合并操作，无需开发者手动切换到GitHub界面。这与其他AI编码工具如Claude Code和Cursor的自动化能力形成竞争。JetBrains Air支持覆盖了使用IntelliJ生态的大量Java和Kotlin开发者，而Xcode 27.3 beta支持则为iOS开发者带来了AI辅助能力。",
-      "GitHub Copilot目前月费10美元，与Claude Code的年付17美元/月和Cursor Plus的8美元/月形成三足鼎立格局。本周的更新进一步巩固了GitHub在IDE集成方面的优势，但在Agent自治能力上仍落后于Claude Code和Cursor。社区对cron自动化功能的反响尤为积极，认为这是向后台自治Agent迈出的重要一步。"
+      "Cursor于11月5日发布Build Live Apps功能，允许开发者通过自然语言描述从零构建完整Web应用并部署到可分享的在线链接。开发者只需启动云代理并说明要构建的应用，Cursor会自动搭建Web应用、按需创建Postgres数据库、配置Cursor SSO认证并配置托管服务。",
+      "发布流程设有安全门控：Cursor在应用上线前运行确定性安全检查和AI代理安全审查，捕获硬编码密钥、暴露凭证等常见问题。检查未通过时代理会告知需修复的内容，必须通过检查并明确发布后才能上线。团队管理员可查看所有应用和密钥、添加自定义安全规则、审批被阻止的发布并下架任何应用。",
+      "应用可从Cursor Origin和GitHub的新建或现有仓库部署，GitLab支持即将推出。发布后可分享给特定人员、群组或整个团队，均通过Cursor登录保护。个人计划用户也可公开分享应用。Cursor内部销售、运营、法务、财务和工程团队已开始使用该功能构建活动报名、桌面分配、销售仪表盘和培训门户等内部工具。",
+      "该功能解决了AI编码工具的关键痛点：代理让写代码变便宜了，但部署从未变得便宜。大部分用户构建的应用从未离开localhost。Live Apps将最后一公里部署纳入AI代理工作流，使非工程角色也能快速构建并分享内部工具。这标志着AI编码工具从代码助手向全流程应用交付平台的重要转型。"
     ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon developer villager with a colorful rocket ship merging code branches on a screen, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_vibecoding_1",
-    "date": "2026-11-07",
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon fox villager developer launching a colorful rocket app from a laptop screen with a live link, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_vibecoding_1",
+    "date": "2026-11-09",
     "category": "vibecoding",
     "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_vibecoding_1.jpg"
+    "image": "images/2026-11-09/2026-11-09_vibecoding_1.jpg"
   },
   {
     "subcat": "AI Coding",
-    "platform": "AWS Blog",
-    "title": "AWS Kiro Bots正式发布",
-    "url": "https://aws.amazon.com/blogs/aws/announce-aws-kiro-bots-generally-available/",
+    "platform": "Anthropic",
+    "title": "Anthropic详解Claude代理记忆系统",
+    "url": "https://www.anthropic.com/research/components-of-agent-memory",
     "detail": [
-      "AWS于11月5日至6日正式发布Kiro Bots通用可用版本。Kiro Bots是持久化的命名AI代理，拥有独立记忆和并行工作会话，支持通过自然语言进行调度安排。每个Bot可以配置不同的权限范围、使用不同的底层模型，并在笔记本电脑、Mac Mini或EC2实例上运行。",
-      "Kiro Bots的核心设计理念是将AI编码代理从一次性会话工具转变为长期工作伙伴。开发者可以为不同项目创建专门的Bot，每个Bot维护自己的上下文记忆，可以并行处理多个任务。自然语言调度功能让开发者可以用日常语言安排Bot的工作计划，例如让Bot在特定时间检查CI失败或审查新提交的PR。",
-      "权限管理系统支持细粒度控制，开发者可以限定Bot只能访问特定目录、使用特定工具或执行特定操作。多模型支持意味着不同Bot可以使用不同的AI模型，根据任务复杂度选择性价比最优的方案。AWS表示Kiro Bots已在其内部团队中使用数月，显著提升了开发效率。",
-      "Kiro Bots的发布标志着云计算巨头正式进入AI编码Agent编排领域。与Meta收购Conductor形成对比，AWS选择自建而非收购。这一产品的推出也反映了市场对持久化AI代理的需求——开发者不再满足于单次对话式AI辅助，而是需要能够长期记忆项目上下文、主动承担持续工作的AI伙伴。"
+      "Anthropic于11月6日发布工程博客文章，详细阐述Claude代理记忆系统的四大组件：会话记录、模型撰写的笔记、更大的链接结构（如Wiki）以及在每次会话开始时加载的小块信息。文章类比人类大脑的海马体记忆机制，介绍了被称为「做梦」的离线整理过程，即代理在空闲时回顾旧日志、修正笔记或重组记忆表征。",
+      "「做梦」过程受到人脑睡眠重放机制启发：人脑在睡眠时标记为重要的记忆会被更频繁地重放并整合到长期记忆中。类似地，Claude可在会话日志中标记重要事件以便后续检索，或将其写入记忆存储。做梦可纠正错误、创建笔记、构建新的记忆表征或影响未来会话预加载的内容。",
+      "Anthropic报告称记忆系统使Opus 5.5在数据库任务上的平均奖励从0.655提升至0.838。该研究基于Letta和UC Berkeley提出的「睡眠时计算」概念。Claude Code在每次会话中仅加载其记忆文件的前200行或25KB内容。评估还涵盖了207049个Claude会话的分析，其中数据分析占33.7%、写作占32%。",
+      "该文章是AI代理记忆领域的重要技术参考，首次系统性地描述了前沿AI实验室如何实现持久化代理记忆。做梦机制的引入表明AI记忆正在从简单的键值存储向模仿生物记忆的分层整合演进，这对需要长期跟踪项目上下文的编码代理和自动化工作流具有深远影响。"
     ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon elephant villager cloud engineer managing multiple small robot workers on different screens, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_vibecoding_2",
-    "date": "2026-11-07",
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon owl villager scientist with a notebook and floating memory bubbles organized in connected clouds, with a moon and stars for dreaming, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_vibecoding_2",
+    "date": "2026-11-09",
     "category": "vibecoding",
     "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_vibecoding_2.jpg"
+    "image": "images/2026-11-09/2026-11-09_vibecoding_2.jpg"
   },
   {
     "subcat": "AI Coding",
-    "platform": "DigitalOcean",
-    "title": "DigitalOcean Cuttlefish手机端监控Agent",
-    "url": "https://www.digitalocean.com/blog/introducing-cuttlefish/",
+    "platform": "Perplexity",
+    "title": "Perplexity发布Teammates持久AI代理",
+    "url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
     "detail": [
-      "DigitalOcean于11月5日推出Cuttlefish，一款原生iPhone应用，让开发者可以随时随地监督云端AI代理的运行。开发者可以通过手机批准工具调用请求（附带完整diff）、暂停或停止会话、以及引导Agent调整方向。对于高风险操作，应用支持Face ID生物认证确认。",
-      "Cuttlefish兼容多种AI编码工具，包括Claude Code、Codex CLI、OpenCode、Hermes、LangGraph和CrewAI。这意味着无论开发者使用哪种AI Agent框架，都可以通过统一的移动界面进行监督。Box Mount功能可以将企业内容同步到Agent工作空间，确保Agent在企业安全策略下访问所需文件。",
-      "该应用解决了AI编码代理的核心信任问题：当Agent在远程服务器上自主执行操作时，开发者需要一种可靠的方式来监督和干预。传统方案要求开发者保持SSH连接或定期检查日志，而Cuttlefish提供了实时推送通知和交互式审批界面，让监督变得像回复消息一样简单。",
-      "Cuttlefish的推出反映了AI编码工具从桌面向移动端扩展的趋势。开发者越来越需要在离开键盘时保持对Agent的监督能力，特别是在Agent执行长时间任务如大规模重构或CI修复时。DigitalOcean此举也与其云平台战略形成协同，为使用其GPU实例运行AI Agent的开发者提供了完整的移动管理工具链。"
+      "Perplexity于11月5日推出Teammates功能，一种专为长期持续工作设计的持久化AI代理。与传统的单次对话式AI不同，Teammates能够承担持续性工作职责，记住项目目标、任务历史和共享文件，并在不同工作流（如营销、销售、客服、运营或财务）中持续学习和记忆。",
+      "每个Teammate出现在Perplexity中独立的线程内，永久可用并可随时激活。Teammates可协调Perplexity Computer会话和其他Teammates以推进项目，可在Slack中向同事发送消息并与其他Teammates协作。用户可查看结果、重定向工作、请求状态更新或接管代理的桌面。",
+      "Teammates构建在Perplexity Computer平台之上，利用Computer的全部工具和文件访问能力。代理可调查问题、研究市场或测试产品改进等任务，每个新任务都建立在已完成工作的基础上。该功能目前作为研究预览版向Max计划用户推出，代表了AI助手从被动问答工具向主动工作伙伴的范式转变。",
+      "Teammates的推出反映了AI代理领域从一次性任务向持久化角色的发展趋势，与AWS Kiro Bots和Anthropic的记忆系统研究形成呼应。市场对持久化代理的需求日益增长，开发者不再满足于单次对话式辅助，而是需要能够长期记忆项目上下文、主动承担持续工作的AI伙伴。"
     ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon octopus villager holding a smartphone with colorful app icons and tiny robots on screen, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_vibecoding_3",
-    "date": "2026-11-07",
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon dog villager teammate with a tiny briefcase working at multiple desks with screens, surrounded by sticky notes and task cards, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_vibecoding_3",
+    "date": "2026-11-09",
     "category": "vibecoding",
     "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_vibecoding_3.jpg"
-  },
-  {
-    "subcat": "GitHub Trending",
-    "platform": "GitHub",
-    "title": "zilliztech/claude-context登顶Trending",
-    "url": "https://github.com/zilliztech/claude-context",
-    "detail": [
-      "zilliztech/claude-context于11月6日登上GitHub Trending榜首，目前拥有约12700 stars。这是一个为Claude Code设计的代码搜索MCP服务器，利用向量数据库和语义搜索技术，将代码库内容向量化后提供精准检索，声称可减少约94%的工具调用次数。",
-      "该工具通过在本地或远程构建代码库的向量索引，让Claude Code能够通过语义查询快速定位相关代码片段，而非反复调用文件读取和搜索命令。这种方案显著降低了Agent与代码库之间的交互成本，特别是在大型代码仓库中，传统方式可能需要数十次文件读取才能找到目标代码。",
-      "项目支持多种工具集成，包括Claude Code、Codex CLI、Cursor、Gemini CLI、Windsurf和VS Code等主流AI编码工具。安装方式为通过MCP配置添加服务器，支持本地和远程部署模式。项目使用Zilliz的向量数据库技术，这也是该公司推广其向量数据库产品的策略之一。",
-      "claude-context的走红反映了AI编码工作流中的一个核心痛点：Agent在理解大型代码库时效率低下。随着项目规模增长，Agent需要越来越多的工具调用来理解代码结构，这不仅消耗token还增加延迟。向量搜索方案被认为是解决这一问题的有效路径，多个类似项目近期都在GitHub上获得了显著关注。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon elephant villager librarian organizing colorful code books on shelves with a glowing search magnifying glass, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_vibecoding_4",
-    "date": "2026-11-07",
-    "category": "vibecoding",
-    "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_vibecoding_4.jpg"
+    "image": "images/2026-11-09/2026-11-09_vibecoding_3.jpg"
   },
   {
     "subcat": "开发者工具",
     "platform": "GitHub",
-    "title": "KIKUmap：聊天记录可视化思维导图",
-    "url": "https://github.com/nicepkg/KIKUmap",
+    "title": "sand3d：为LLM打造的3D建模工具",
+    "url": "https://github.com/SandFlow-ai/sand3d",
     "detail": [
-      "KIKUmap于11月6日在GitHub Trendshift上获得关注，目前拥有659 stars。这是一个开源的macOS菜单栏应用，能够将Claude、ChatGPT和Claude Code的聊天记录可视化为交互式思维导图。项目使用原生Swift和AppKit开发，不依赖Electron，最新版本v1.0.9 build 41于11月6日发布。",
-      "该工具的核心价值在于帮助开发者理解和梳理与AI的长时间对话。当AI编码会话包含数十轮交互时，理解整个对话脉络变得困难。KIKUmap将对话内容自动提取关键节点，以思维导图形式呈现话题分支、决策路径和代码变更历史，让开发者可以快速回顾和理解AI辅助开发的全过程。",
-      "作为原生macOS应用，KIKUmap具有轻量级、响应快的特点。菜单栏设计让开发者可以随时唤起导图视图，不影响正在进行的编码工作。项目支持多种AI平台的聊天记录导入，包括Claude Code的会话日志格式。开发者可以导出导图用于团队分享或文档记录。",
-      "KIKUmap的出现反映了AI辅助开发工作流中的一个新兴需求：对话管理。随着AI编码工具使用频率增加，开发者积累了大量与AI的对话历史，这些对话包含重要的决策推理和代码演化过程。将非结构化的对话转化为可视化的知识图谱，有助于团队协作和知识传承，也是AI辅助开发走向成熟期的标志之一。"
+      "sand3d于11月8日登上GitHub Trending榜，目前拥有约1130 stars。这是一个用Python构建的3D建模工具，专为LLM设计，支持通过自然语言描述生成3D模型。项目集成Blender和USD格式，支持程序化建模，让AI代理能够通过代码创建和操作3D几何体。",
+      "该工具填补了AI代理在3D创作领域的空白。传统3D建模需要专业软件和大量手动操作，而sand3d将建模过程转化为LLM可执行的Python代码。开发者可描述所需模型，LLM生成对应的程序化建模代码，sand3d负责渲染和导出。支持CAD格式输出，适用于产品设计、建筑可视化等场景。",
+      "项目使用HTML作为前端界面，Python后端处理建模逻辑。集成Blender提供专业级渲染能力，USD格式支持确保与Pixar等行业标准工具链兼容。程序化建模方式使模型可参数化调整，LLM可根据反馈迭代修改代码而非手动重绘。项目还支持将建模步骤分解为可复用的函数库。",
+      "sand3d的出现表明AI编码工具正在从纯文本和2D图像领域向3D创作扩展。随着LLM代码生成能力增强，将专业工具的API封装为LLM可调用的接口成为新趋势。sand3d的程序化建模方式与cinecode等项目的代码生成电影理念相似，都代表了以代码为媒介的创意工作流。"
     ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon squirrel villager looking at a colorful floating mind map with connected bubbles, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_vibecoding_5",
-    "date": "2026-11-07",
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon beaver villager builder crafting colorful 3D shapes and blocks on a screen with geometric tools, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_vibecoding_4",
+    "date": "2026-11-09",
     "category": "vibecoding",
     "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_vibecoding_5.jpg"
+    "image": "images/2026-11-09/2026-11-09_vibecoding_4.jpg"
   },
   {
-    "subcat": "游戏展会",
-    "platform": "IGN",
-    "title": "ENDIX数字游戏展今日上线",
-    "url": "https://www.ign.com/articles/endix-the-fully-free-digital-gaming-expo-is-now-live-with-more-than-50-games-world-premieres-exclusive-trailers-and-more",
+    "subcat": "游戏发布",
+    "platform": "Steam",
+    "title": "DREADMOOR今日登陆Steam抢先体验",
+    "url": "https://store.steampowered.com/app/3629430/DREADMOOR/",
     "detail": [
-      "ENDIX是一个完全免费、全数字化的游戏展会，于2026年11月6日至8日向全球玩家开放。玩家可以通过Steam或Epic Games Store免费下载ENDIX客户端，创建自己的虚拟形象，在虚拟展厅中漫步探索超过50款游戏，体验试玩Demo、观看世界首发的预告片和独家内容。",
-      "本届ENDIX汇集了多家知名发行商和独立工作室。THQ Nordic设立了专属展区，展示Titan Quest II、Expeditions: Samurai等四款游戏；Bohemia Interactive带来Silica和Nailcrown；505 Games展出Among the Trolls；Frozen District则展示House Flipper 2: Pets等作品。此外还有Playism、Noodlecake等多家厂商参与。",
-      "展会还设有多个主题区域，包括休闲放松的Cozy Area、恐怖主题的Theatrum Obscuram，以及展示Crema新作Temtem: Pioneers的City Mega Stand。Alienware和Elgato作为品牌合作伙伴提供小游戏互动体验。ENDIX创始人Nikos Perifanis表示，该展会致力于为全球玩家打造最独特和包容的活动体验。",
-      "玩家可以直接与开发团队通过内置语音聊天交流，这种零距离互动是传统线下展会难以实现的。ENDIX的完全免费策略也降低了参与门槛，任何拥有PC的玩家都能体验。在疫情后线下展会恢复但成本攀升的背景下，ENDIX代表了数字化游戏展会的新方向。"
+      "Dream Dock开发的暗黑第一人称钓鱼冒险游戏DREADMOOR于11月9日登陆Steam抢先体验，定价19.99美元。游戏设定在被灾难性事件淹没的后启示录世界，玩家驾驶渔船在被诅咒的淹没之地探索，通过钓鱼、拾荒和升级船只求生。游戏在Steam心愿单排名前100。",
+      "抢先体验版本包含完整核心玩法循环、一个主要区域、原创故事和多种鱼类及变异物种。玩家操控拖网渔船在被淹没的废墟和湿地间航行，使用触觉式钓鱼系统选择鱼饵、放线并等待时机收线。捕到的鱼存放在船舱隔间中，部分鱼种会互相吞噬影响利润。玩家还需监控船体耐久和燃料。",
+      "拾荒系统允许玩家用抓钩打捞废弃建筑、洞穴和沉船中的废料和蓝图，用于制作更强的鱼竿、加固船体和升级设备。夜间出航带来更高风险但也有稀有收获，变异生物在黑暗中更具攻击性。船舱升级包括引擎、螺旋桨、加固船体、探照灯和短时加速推进器。开发团队预计抢先体验持续6至12个月。",
+      "Dream Dock CEO Rostislav Fedorov表示团队正在阅读Steam、Discord、Reddit和游戏内问卷的所有反馈。抢先体验价格低于正式发布价格，完整版计划新增区域、鱼种、钓鱼机制和船只升级。游戏支持12种语言并含完整配音。DREADMOOR的独特定位——将钓鱼模拟与生存恐怖结合——使其在Steam新作中脱颖而出。"
     ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon villager in a costume exploring a colorful virtual game expo booth, surrounded by game posters and demo stations, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_gaming_1",
-    "date": "2026-11-07",
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon bear villager fisherman on a small boat in misty dark waters, holding a fishing rod with a glowing lantern, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_gaming_1",
+    "date": "2026-11-09",
     "category": "gaming",
     "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_gaming_1.jpg"
+    "image": "images/2026-11-09/2026-11-09_gaming_1.jpg"
+  },
+  {
+    "subcat": "游戏发布",
+    "platform": "Steam",
+    "title": "Football Manager 27将于明日发售",
+    "url": "https://store.steampowered.com/app/4530370/Football_Manager_27/",
+    "detail": [
+      "Sports Interactive开发、SEGA发行的Football Manager 27将于11月10日在Steam发售，目前预购可享9折优惠。作为足球管理模拟系列的最新作品，FM27承诺带来更深入的战术控制和更真实的俱乐部经营体验。游戏支持单人和跨平台多人模式。",
+      "FM27的核心宣传语是「做出决定」。玩家选择俱乐部、组建阵容、制定战术并追逐只有自己能看到的未来。Steam页面标签显示游戏涵盖足球、管理、模拟、战术、策略和电竞等元素，支持Steam成就和角色定制。预购促销在11月10日发售日截止。",
+      "Football Manager系列是体育管理模拟领域的标杆，每年发售的新作都会吸引大量忠实玩家群体。FM27面临的关键问题是相比前作的创新程度。系列传统上每年更新数据库和界面细节，但核心玩法保持稳定。玩家社区将密切关注首发评测和实况内容创作者的反馈。",
+      "在11月游戏发售密集期中，FM27选择了GTA VI发售前一周的窗口期。虽然无法避免与Rockstar的巨作竞争关注，但足球管理模拟的受众与开放世界动作游戏高度差异化，FM27有望在其垂直领域保持稳定销量。SEGA和Sports Interactive预计将在发售日公布更多新特性细节。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon soccer ball villager coach with a clipboard and tactical board showing colorful field positions, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_gaming_2",
+    "date": "2026-11-09",
+    "category": "gaming",
+    "platform_color": "#888888",
+    "image": "images/2026-11-09/2026-11-09_gaming_2.jpg"
+  },
+  {
+    "subcat": "游戏发布",
+    "platform": "Nintendo Life",
+    "title": "Sonic PICO PARK联动11月12日发售",
+    "url": "https://www.nintendolife.com/news/2026/10/sonic-pico-park-brings-co-op-action-puzzle-fun-to-switch-1-and-2-next-month",
+    "detail": [
+      "TECOPARK与SEGA合作的Sonic PICO PARK将于11月12日登陆Switch、Switch 2、PS5、Xbox Series和PC平台。这是PICO PARK合作动作解谜系列与索尼克IP的跨界合作，支持2至8人本地或在线联机。游戏结合了索尼克宇宙的经典机关和PICO PARK系列的合作解谜玩法。",
+      "SEGA在索尼克35周年庆典活动中公布了新预告片，确认Silver和Blaze将加入角色阵容，与Sonic、Tails、Knuckles、Amy、Shadow、Cream & Cheese、Big以及Sonic Pico Cat一同登场。游戏包含48个关卡，每个关卡都有专为多人合作设计的独特机关。",
+      "PICO PARK系列的规则简单但强调合作：获取所有钥匙并到达终点即可通关，但48个关卡中的机关需要玩家协商并想出新的合作方式。不同关卡会随进度出现不同机关，考验团队的沟通和配合能力。前作Pico Park定价4.99美元，Pico Park 2定价8.99美元。",
+      "Sonic PICO PARK的跨界合作是SEGA扩大索尼克IP影响力的策略之一。索尼克系列在2026年持续扩展，从Fortnite联动到Sonic Racing: CrossWorlds的年度更新计划，IP生态不断丰富。PICO PARK系列以其低门槛高合作性的设计在派对游戏领域建立了口碑，此次联动有望吸引索尼克粉丝和派对游戏玩家的双重受众。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon hedgehog villager and friends holding colorful keys and running through puzzle doors together, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_gaming_3",
+    "date": "2026-11-09",
+    "category": "gaming",
+    "platform_color": "#888888",
+    "image": "images/2026-11-09/2026-11-09_gaming_3.jpg"
   },
   {
     "subcat": "硬件资讯",
     "platform": "Eurogamer",
-    "title": "索尼确认PS6开发按计划推进",
-    "url": "https://www.eurogamer.net/playstation-6-sony-financials-2026-hardware",
+    "title": "GTA VI前最后一周新作密集发售",
+    "url": "https://www.eurogamer.net/upcoming-video-games-2026-releases",
     "detail": [
-      "索尼在2026年11月5日发布的最新季度财报中，CFO林桃透露了下一代PlayStation主机的开发进展。她表示该主机的开发正在按计划推进，团队已取得实质性进展，并计划从下财年起加大对新平台的投资力度，为下一代主机生产做准备。",
-      "财报同时披露PS5全球出货量已达9790万台，本季度新增260万台。尽管新PS5主机销量在主机生命周期后期如预期般逐步下降，PlayStation平台仍在稳定扩张。索尼游戏与网络服务部门营收同比增长9%，营业利润增长83%，主要受益于网络服务和第一方软件的增长。此外索尼还获得蜘蛛侠电影票房成功的推动，上调了全年利润预期。",
-      "围绕PS6的成本担忧持续存在。此前有报道称PS6仅内存和存储组件成本就可能超过680美元，叠加持续的组件短缺问题，外界预计PS6基础定价可能超过1000美元。林桃表示索尼已通过成本削减和价格上调来抵消内存成本上涨，并为下个业务年度锁定了足够的内存供应。",
-      "索尼CEO十和彦此前曾表示尚未确定新主机的发布时间和价格，将在适当时机公布更多信息。这是索尼首次在官方层面确认PS6的实质性开发进展，市场普遍预期新主机将在2027至2028年间发售。在Switch 2已于2026年发售、微软也在开发下一代Xbox的背景下，次世代主机竞赛已悄然拉开序幕。"
+      "11月第二周（11月9日至15日）是GTA VI于11月19日发售前的最后一个密集发售窗口。本周有多款重要新作上市，包括11月9日的DREADMOOR抢先体验、11月10日的Football Manager 27、11月12日的Metaphor: ReFantazio Switch 2版、Pikmin 4 Switch 2版和Sonic PICO PARK等。",
+      "玩家社区普遍将本周视为GTA VI发售前的「最后机会窗口」，多家媒体指出发行商有意在GTA VI占据全球关注之前推出各自的新作。Warhammer Survivors也于11月10日登陆全平台。11月12日还有Shadow of the Road战术RPG和Barbie Rewind复古合集发售。",
+      "Eurogamer的2026年发售日历显示11月共有508款游戏在各平台追踪发售，是全年最密集的月份。Nintendo Switch 2在11月有密集的第一方和第三方发售，包括Metaphor: ReFantazio、Pikmin 4: Switch 2 Edition + Dandori Academy和Gothic 3 Classic等。",
+      "GTA VI预定11月19日登陆PS5和Xbox Series X|S，业界普遍预期它将打破娱乐产品销售纪录。在GTA VI的阴影下，11月第二周成为中小型发行商争夺玩家注意力的最后机会。多家分析师建议发行商避开GTA VI发售周，因为玩家的购买预算和时间将被Rockstar的巨作完全占据。"
     ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon villager in a futuristic costume looking at a sleek next-generation game console concept, with sparkles and blue light, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_gaming_2",
-    "date": "2026-11-07",
+    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon villager looking at a calendar full of colorful game release dates with a big star on November 19, holding a stack of game boxes, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
+    "id": "2026-11-09_gaming_4",
+    "date": "2026-11-09",
     "category": "gaming",
     "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_gaming_2.jpg"
-  },
-  {
-    "subcat": "行业并购",
-    "platform": "GamesIndustry.biz",
-    "title": "Unity被传与沙特PIF洽谈收购",
-    "url": "https://www.gamesindustry.biz/unity-reportedly-in-acquisition-talks-with-silver-lake-and-public-investment-fund-two-firms-involved-in-eas-55bn-buyout",
-    "detail": [
-      "据路透社2026年11月5日报道，游戏引擎巨头Unity已与私募股权公司Silver Lake Partners和沙特阿拉伯主权财富基金（PIF）组成的投资财团展开收购谈判。报道援引知情人士称，双方在Unity最新财报发布前讨论了约250亿美元的估值方案，Unity正在与一家投资银行合作评估方案。",
-      "Silver Lake与PIF此前曾联合收购Electronic Arts（EA），交易金额约550亿美元，是史上最大的杠杆收购之一。Silver Lake早在2017年就以4亿美元投资Unity，目前持有约8%的股份，是Unity最大股东之一，其合伙人Egon Durban也在Unity董事会任职。该财团旗下的Scopely和Niantic等游戏公司也使用Unity引擎。",
-      "Unity在同日发布了史上最强劲的Q3财报，营收同比增长32%至6.22亿美元，并首次实现GAAP盈利，主要受益于其AI驱动的广告平台Vector的增长。财报发布后Unity市值升至约215亿美元，盘后股价上涨约4%。Unity对此拒绝置评，交易能否最终达成尚不确定。",
-      "此消息在开发者社区引发广泛讨论，不少独立开发者表示担忧，部分人呼吁转向Godot等开源替代引擎。Unity近年来因定价政策调整和引擎质量问题已流失部分开发者，若被沙特主权基金收购可能进一步加剧品牌信任危机。这也反映了游戏行业整合加速的大趋势，继微软收购动视暴雪和Silver Lake-PIF收购EA后，大型交易仍在持续。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon villager in a business suit holding puzzle pieces representing game engine technology, with coins and building blocks around, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_gaming_3",
-    "date": "2026-11-07",
-    "category": "gaming",
-    "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_gaming_3.jpg"
-  },
-  {
-    "subcat": "游戏下架",
-    "platform": "Push Square",
-    "title": "八款PS5游戏将在年底前下架",
-    "url": "https://www.pushsquare.com/news/2026/11/these-8plus-ps5-games-will-be-delisted-in-november-and-december-2026",
-    "detail": [
-      "Push Square于11月7日报道，年末PS5平台将迎来一波游戏下架和服务器关闭潮。索尼第一方游戏Destruction AllStars将于11月25日关闭在线服务，这将导致大部分单人内容无法游玩，仅保留少量街机挑战模式。万代南梦宫的在线射击游戏Synduality: Echo of Ada将于12月18日移除游戏内购买。",
-      "PSVR2 MMORPG Zenith: Nexus将于12月18日关闭在线服务。年末还有多款因授权到期而遭下架的游戏，包括降世神通题材的Avatar: The Last Airbender - Quest for Balance、Hotel Transylvania 3: Monsters Overdrive、Street Outlaws系列两款赛车游戏等。2K Sports的NBA 2K25将于12月31日关闭在线服务器，但单人模式仍可游玩。",
-      "Ratchet & Clank: Ranger Rumble这款移动端游戏将于11月21日从应用商店下架。Push Square编辑指出，今年年末下架数量相对往年有所减少，但仍提醒玩家如果对上述游戏感兴趣应尽快购买。此前购买的游戏将保留在玩家的数字库中，但下架后将无法再进行新购买。",
-      "社区对此反响强烈，多位玩家批评数字版游戏的可获取性问题，呼吁建立更好的游戏保存机制。Destruction AllStars作为索尼第一方作品也被关闭服务引发特别关注，这表明即使是平台方自有IP也无法保证永久在线。数字保存已成为游戏行业日益严峻的议题，多家机构正在推动游戏归档立法。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration, a friendly cartoon villager in a librarian costume holding a stack of game boxes with some fading away like ghosts, soft pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square 1024x1024",
-    "id": "2026-11-07_gaming_4",
-    "date": "2026-11-07",
-    "category": "gaming",
-    "platform_color": "#888888",
-    "image": "images/2026-11-07/2026-11-07_gaming_4.jpg"
+    "image": "images/2026-11-09/2026-11-09_gaming_4.jpg"
   }
 ]
