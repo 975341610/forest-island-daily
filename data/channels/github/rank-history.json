@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-09": {
-      "morluto/rea": 1,
-      "boykopovar/AnyPS5": 2,
-      "storytold/artcraft": 3,
-      "tester-army/e2e": 4,
-      "docker/docker-agent": 5,
-      "addyosmani/agent-skills": 6,
-      "cloudflare/security-audit-skill": 7,
-      "tashfeenahmed/freellmapi": 8,
-      "liquidslr/system-design-notes": 9,
-      "anthropics/knowledge-work-plugins": 10,
-      "EpicGames/raddebugger": 11,
-      "DmNote-App/DmNote": 12,
-      "Vincentwei1021/video-shotcraft": 13,
-      "earthtojake/text-to-cad": 14,
-      "IAmTomShaw/f1-race-replay": 15,
-      "microsoft/mxc": 16,
-      "ollama/ollama": 17,
-      "akitaonrails/ai-memory": 18,
-      "superdesigndev/treg": 19,
-      "martin-olivier/airgorah": 20,
-      "koala73/worldmonitor": 21,
-      "smicallef/spiderfoot": 22,
-      "Tracer-Cloud/opensre": 23,
-      "reconurge/flowsint": 24,
-      "tabler/tabler-icons": 25
-    },
     "2026-10-10": {
       "morluto/rea": 1,
       "boykopovar/AnyPS5": 2,
@@ -836,6 +809,33 @@
       "etcd-io/etcd": 23,
       "max-sixty/worktrunk": 24,
       "Anil-matcha/Open-Generative-AI": 25
+    },
+    "2026-11-09": {
+      "sherlock-project/sherlock": 1,
+      "cloudflare/security-audit-skill": 2,
+      "meta/astryx": 3,
+      "vercel-labs/agent-browser": 4,
+      "anthropics/skills": 5,
+      "jub0t/Concat": 6,
+      "ranxianglei/billion-context": 7,
+      "Anil-matcha/Open-Generative-AI": 8,
+      "dsx-ai-factory/nvke": 9,
+      "herdrdev/herdr": 10,
+      "storytold/artcraft": 11,
+      "hmjz100/LinkSwift": 12,
+      "tailwindlabs/tailwindcss": 13,
+      "astral-sh/ruff": 14,
+      "Albert-Weasker/niubigeo": 15,
+      "prometheus/prometheus": 16,
+      "jamiepine/voicebox": 17,
+      "ruvnet/RuView": 18,
+      "vercel-labs/json-render": 19,
+      "poco-ai/Agentero": 20,
+      "elie222/rakazo": 21,
+      "googlecolab/google-colab-cli": 22,
+      "henrygd/beszel": 23,
+      "vxcontrol/pentagi": 24,
+      "bradautomates/claude-video": 25
     }
   }
 }
