@@ -1,0 +1,182 @@
+[
+  {
+    "category": "vibecoding",
+    "subcat": "Web Avatar",
+    "platform": "GitHub",
+    "platform_color": "#181717",
+    "title": "player：轻量级Web 2.5D虚拟角色",
+    "url": "https://github.com/livliv-dev/player",
+    "detail": [
+      "player是开发者livliv-dev在GitHub上开源的轻量级2.5D网页角色组件，近期在GitHub Trending上获得关注，已积累约1400颗Star，最后一次提交日期为11月9日。项目的核心功能是提供一个可直接嵌入网页的实时互动角色，支持唇形同步和摄像头面部追踪，无需3D引擎或重量级依赖。",
+      "技术实现方面，player通过WebRTC获取摄像头画面，利用MediaPipe Face Mesh进行实时面部关键点检测，将面部表情数据映射到2.5D角色模型上。角色渲染采用Canvas 2D和CSS变换组合方案，在保持流畅动画的同时将包体积控制在极小范围。唇形同步功能通过分析音频频谱数据驱动嘴部形变，支持中英文等多语言语音输入。",
+      "使用场景方面，player适合用于个人网站、直播虚拟形象、在线教育助手和产品引导角色等场景。开发者只需引入一个JavaScript文件即可在页面中添加可交互角色，角色支持自定义外观、服装和表情。项目还提供了事件回调接口，允许开发者将角色动作与页面逻辑关联，例如角色在用户滚动时进行特定动画反馈。",
+      "在VibeCoding生态中，player填补了轻量级网页角色工具的空白。相比于Live2D或VTuber工具链，它大幅降低了部署门槛和性能开销，特别适合独立开发者和个人创作者。社区反馈集中在多角色同屏渲染和更细腻的表情映射需求上，开发者已在路线图中规划了WebGPU加速和AI驱动对话功能的后续版本。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon villager with big eyes looking at a computer screen, webcam tracking dots on face, pastel colors, round shapes, cozy desk, high detail, sharp, 4k quality, 1:1 square",
+    "id": "2026-11-10_vibecoding_3",
+    "date": "2026-11-10",
+    "image": "images/2026-11-10/2026-11-10_vibecoding_3.jpg"
+  },
+  {
+    "category": "vibecoding",
+    "subcat": "Game Mod",
+    "platform": "GitHub",
+    "platform_color": "#181717",
+    "title": "Hookshot：塞尔达OoT Switch重制版PC移植",
+    "url": "https://github.com/NotRexed/Hookshot",
+    "detail": [
+      "Hookshot是GitHub上近期引发关注的游戏逆向工程项目，由开发者NotRexed发起。项目的核心目标是实现对塞尔达传说：时之笛Switch 2重制版的本地重编译移植，让这款经典游戏能够在PC和Linux平台上原生运行。项目已在GitHub上获得约1200颗Star，最后一次提交日期为11月7日。",
+      "技术路线上，Hookshot采用Native Recompilation方式，而非传统的模拟器封装。这意味着开发者对游戏原始机器码进行反编译，再针对x86-64架构重新编译为原生可执行文件。这种方式消除了模拟器中间层带来的性能损耗，支持更高帧率、自定义分辨率和现代显卡特性。项目还集成了改进的着色器编译和纹理过滤管线，在视觉保真度和运行流畅度之间取得了良好平衡。",
+      "项目还提供了现代化的输入支持、自定义控制映射和存档管理功能。社区贡献者已在GitHub Issues中积极讨论多人联机模式和自定义关卡编辑器的可能性。由于Switch 2重制版本身在画面和机制上对原作进行了大量改进，Hookshot的移植工作也间接保留了这些改进内容，使PC玩家能体验到重制版的完整内容。",
+      "法律和版权方面，项目要求用户自行拥有合法游戏副本，仅提供移植框架而不分发任何受版权保护的游戏资产。这沿用了Decompilation项目社区的通行做法。尽管如此，任天堂历史上对类似项目态度强硬，社区对项目的长期存续持谨慎态度。不过在技术层面，Hookshot的Native Recompilation方案被视为经典游戏PC保存的重要技术路径。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon hero villager in green costume with a sword, standing in front of a castle, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
+    "id": "2026-11-10_vibecoding_2",
+    "date": "2026-11-10",
+    "image": "images/2026-11-10/2026-11-10_vibecoding_2.jpg"
+  },
+  {
+    "category": "vibecoding",
+    "subcat": "AI Film",
+    "platform": "GitHub",
+    "platform_color": "#181717",
+    "title": "cinecode：用代码拍电影的AI代理",
+    "url": "https://github.com/sarpstar/cinecode",
+    "detail": [
+      "cinecode是近期登上GitHub Trending的AI编程创意项目，由开发者sarpstar开发。它的核心理念是让AI代理用代码制作完整电影——从撰写剧本、构建每一帧画面、设计音效到输出MP4文件，全程由AI自主完成。项目在GitHub上已获得约1700颗Star，近期活跃度显著上升。",
+      "工作流程方面，cinecode将电影制作拆解为多个代码驱动的阶段：首先由AI生成结构化剧本，包含场景描述、角色对话和镜头指示；然后逐帧渲染画面，支持通过代码程序化生成动画和视觉效果；接着合成音效和配乐；最终编码输出为标准MP4格式。整个过程开发者只需提供创意方向或参考素材，AI代理负责所有技术实现细节。",
+      "技术栈上，cinecode基于Python构建，结合了多个AI模型的API调用能力，包括文本生成、图像合成和音频处理。项目采用模块化设计，每个制作阶段都可以独立替换底层模型。开发者可以通过修改配置文件调整画面风格、帧率、分辨率等输出参数。仓库中还包含多个示例作品，展示了从简单动画到复杂叙事短片的制作能力。",
+      "在VibeCoding社区中，cinecode代表了AI创作工具从单一任务向端到端工作流演进的趋势。它不只是一个视频生成器，而是让AI代理理解电影制作的完整流程并自主执行。社区讨论集中在输出质量的稳定性和商业素材版权问题上，部分开发者已开始尝试用它快速制作产品演示视频和教学内容。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon director villager with a clapperboard, film camera, surrounded by film strips, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
+    "id": "2026-11-10_vibecoding_1",
+    "date": "2026-11-10",
+    "image": "images/2026-11-10/2026-11-10_vibecoding_1.jpg"
+  },
+  {
+    "category": "gaming",
+    "subcat": "Arcade Platformer",
+    "platform": "Steam",
+    "platform_color": "#1b2838",
+    "title": "Icy Tower经典跳跃游戏Steam重制",
+    "url": "https://store.steampowered.com/app/3014860/Icy_Tower/",
+    "detail": [
+      "Icy Tower于2026年11月10日在Steam平台正式发售。这款经典跳跃游戏自2001年首次发布以来已累计超过4000万玩家，本次由原开发者Johan Peitz和Anders Svensson重新制作，发行商为Apskeppet。游戏定位为精准跳跃平台动作类，支持单人和合作模式，采用像素图形风格并保留了原作的复古街机质感。",
+      "玩法核心是控制角色Harold the Homeboy不断向上跳跃攀登高塔，通过连续跳跃组合积累高分。重制版在保留原版操作手感的基础上新增了程序化生成塔层机制，每次游戏的塔结构都不同。游戏支持手柄操作，包含多种角色皮肤和自定义选项。Steam商店页面标签包括快节奏、精准平台、像素图形、怀旧、困难和复古等。",
+      "开发历程方面，Johan Peitz在2025年12月的Steam公告中宣布游戏已获得超过10000个愿望单收藏。2026年10月底发布了发售日期预告视频，11月初更新了最后一篇开发日志，表示团队正在打磨UI界面、优化服务器和修复最终bug。原版Icy Tower在2000年代初作为免费Flash游戏风靡全球，是许多PC玩家的童年回忆。",
+      "社区反响方面，Steam商店暂无用户评测，但从愿望单数量和社区讨论热度来看，怀旧玩家群体对重制版期待度较高。Blue's News和Games Press等游戏媒体均在发售前进行了报道。游戏的定价尚未在公告中明确标注，但作为一款独立复古重制作品，社区预期定价在5到10美元区间。Icy Tower的重制被视为2000年代Flash游戏黄金时代IP复兴的又一案例。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon character jumping up a colorful tower made of ice blocks, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
+    "id": "2026-11-10_gaming_4",
+    "date": "2026-11-10",
+    "image": "images/2026-11-10/2026-11-10_gaming_4.jpg"
+  },
+  {
+    "category": "gaming",
+    "subcat": "Simulation DLC",
+    "platform": "Steam",
+    "platform_color": "#1b2838",
+    "title": "欧卡2冰岛DLC今日上线",
+    "url": "https://store.steampowered.com/app/3796990/Euro_Truck_Simulator_2_Iceland/",
+    "detail": [
+      "Euro Truck Simulator 2的Iceland DLC于2026年11月10日正式上线Steam，由SCS Software开发发行。这款地图扩展将游戏版图延伸至冰岛，涵盖14个城市和定居点，包括首都雷克雅未克和北部重镇阿克雷里。城市之间通过环绕全岛的Ring Road连接，沿途经过繁忙城镇、偏远聚落和人迹罕至的角落。",
+      "地图内容方面，冰岛DLC着重还原了岛屿独特的自然地貌。玩家将穿越冰原、崎岖海岸线、黑沙滩和众多瀑布景观，包括Jokulsarlon冰川泻湖、Godafoss瀑布、Gullfoss瀑布、Seljalandsfoss瀑布、Vikurfjara海滩、Geysir间歇泉和Thingvellir国家公园等标志性地点。夜间驾驶时在合适条件下还能看到北极光点亮天空，日照时长也跟随冰岛真实世界时间变化。",
+      "驾驶体验方面，冰岛地图引入了单车道桥梁机制——遇到对向来车时必须先让行才能通过，满载卡车需要额外规划。SCS还制作了定制农场和采石场供配送任务使用，以及位于Husavik的硅工厂。此外DLC还新增了4条Special Transport特殊运输路线，需要拥有Special Transport DLC才能体验。同系列的Coaches巴士系统将于11月12日单独发布。",
+      "SCS Software在Reddit和Threads上的公告分别获得202票和244次互动，社区对冰岛地图的期待度较高。玩家讨论集中在地图面积大小和定价上，SCS尚未在公告中公布具体价格。欧卡2系列凭借持续的地图扩展保持着十年以上的长线运营，冰岛DLC是继北欧多国之后的又一座岛屿地图扩展，进一步丰富了斯堪的纳维亚地区的驾驶体验。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon truck driver villager in a big rig truck, driving past waterfalls and northern lights, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
+    "id": "2026-11-10_gaming_3",
+    "date": "2026-11-10",
+    "image": "images/2026-11-10/2026-11-10_gaming_3.jpg"
+  },
+  {
+    "category": "gaming",
+    "subcat": "Bullet Heaven",
+    "platform": "Steam",
+    "platform_color": "#1b2838",
+    "title": "Warhammer Survivors全平台发售",
+    "url": "https://store.steampowered.com/app/3669620/Warhammer_Survivors/",
+    "detail": [
+      "Warhammer Survivors于2026年11月10日在全平台同步发售，覆盖PC（Steam和GOG）、PlayStation 5、Xbox Series X|S、Nintendo Switch和Switch 2以及iOS和Android移动端。游戏定价7.99美元，发售周提供10%折扣，同时首发加入Xbox Game Pass Ultimate和PC Game Pass。",
+      "游戏由Auroch Digital开发，并与Vampire Survivors开发商poncle合作打造。Steam页面显示游戏支持超过40名来自战锤40K和西格玛时代宇宙的经典英雄角色。玩家组成小队对抗大规模敌群，融合了Vampire Survivors的割草玩法和Warhammer世界的阵营特色。游戏包含阵营特质系统、敌人技能机制和拾取道具等多种玩法元素。",
+      "平台解锁时间方面，PlayStation Store和Xbox Store均指向UTC时间10:00解锁。Steam Deck兼容性已获得Verified认证。Steam社区已有超过50万用户将游戏加入愿望单，社区讨论活跃度在发售前显著上升。各平台价格略有差异，PlayStation Store英国区定价6.49英镑，Steam定价6.39英镑。",
+      "Warhammer Survivors被视为Vampire Survivors品类与大型IP结合的典型案例。poncle的参与让玩家对玩法的正宗性有较高期待，但部分Steam社区评价指出节奏相比原版Vampire Survivors偏慢，进度感不够强。发售后的玩家反馈将决定这款IP衍生作品能否在拥挤的Bullet Heaven赛道中站稳脚跟。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon knight villager in armor with a shield, surrounded by tiny cartoon creatures, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
+    "id": "2026-11-10_gaming_2",
+    "date": "2026-11-10",
+    "image": "images/2026-11-10/2026-11-10_gaming_2.jpg"
+  },
+  {
+    "category": "gaming",
+    "subcat": "RTS",
+    "platform": "Steam",
+    "platform_color": "#1b2838",
+    "title": "灰烬之 Singularity II 今日发售",
+    "url": "https://ashes2.wiki/release/",
+    "detail": [
+      "Ashes of the Singularity II于2026年11月10日正式在PC平台发售，由Oxide Games开发、Stardock发行。游戏提供标准版和豪华版两个版本，标准版定价39.99美元，豪华版定价69.99美元，豪华版包含基础游戏、前三个DLC包和原声带。发售期间提供20%启动折扣，持续至11月17日。",
+      "游戏内容方面，本作包含三个可玩阵营，其中包括全新的人类阵营。发售版本提供完整的UEF战役剧情，以及即时遭遇战、PvP对战和合作模式。游戏采用Oxide Games自研的Nitrous引擎，支持大规模单位同屏渲染，安装体积约50GB，官方推荐使用SSD存储。SteamDB追踪的解锁时间为UTC时间14:00。",
+      "平台支持方面，本作首发仅限Windows PC，通过Steam、Stardock官方商店和其他合作渠道销售。Stardock开发者表示正在测试Steam Deck兼容性并将提交Verified认证，但Valve尚未公布评级。游戏支持14种语言，包括简体中文、日语、韩语和主要欧洲语言，英语版本提供完整语音支持。",
+      "Ashes of the Singularity系列以超大规模即时战略著称，初代在2016年首发时是首批支持DirectX 12的游戏之一。续作在引擎技术和战场规模上进一步突破，社区对其RTS品类创新充满期待。官方将于UTC时间18:00举办发售日直播活动。不过初代在发布初期曾因优化问题受到批评，续作的实际性能表现仍需发售后验证。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon commander villager with a map, toy tanks and spaceships, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
+    "id": "2026-11-10_gaming_1",
+    "date": "2026-11-10",
+    "image": "images/2026-11-10/2026-11-10_gaming_1.jpg"
+  },
+  {
+    "category": "ai",
+    "subcat": "Acquisition",
+    "platform": "dev.to",
+    "platform_color": "#1a1a1a",
+    "title": "OpenAI收购Astral Python工具链团队",
+    "url": "https://openai.com/index/openai-to-acquire-astral",
+    "detail": [
+      "11月9日，OpenAI宣布已达成收购Astral的协议。Astral是Ruff、uv和ty等Python核心开发工具背后的公司，此次收购将其团队整体并入OpenAI Codex部门。收购条款未公开披露。创始人Charlie Marsh在Astral博客上发文宣布这一消息，表示这些工具从零增长到每月数亿次下载，已成为现代Python开发基础设施的关键组成部分。",
+      "被收购的工具链并非小众工具。Ruff是用Rust编写的Python代码检查和格式化工具，在Astral自家基准测试中速度达到Flake8和Black的10到100倍，已取代了大量单一用途工具。uv将pip、virtualenv、venv和pyenv整合为单一包管理器。ty是2025年12月发布的类型检查器，在增量更新场景中相比Pyright有显著性能提升。Astral此前完成了由Accel领投的种子轮和A轮，以及Andreessen Horowitz领投的B轮融资。",
+      "开源问题是社区最关心的焦点。Marsh在博文中直接回应：收购完成后OpenAI将继续支持这些开源工具，团队将继续在开放环境中为更广泛的Python生态系统构建。然而Hacker News讨论帖在777分热度下积累485条评论，显示出社区对此类承诺惯有的怀疑态度。任何在CI流水线中使用Ruff或uv的开发者都清楚，许可证变更或功能限制将直接波及整个代理工具链。",
+      "这是OpenAI在一周内的第二笔开发者基础设施收购，此前于11月4日完成了Pierre Computer的交易。对于OpenAI而言，将Python工具链纳入Codex体系有望提升AI编程工具的底层执行效率和依赖管理能力。但社区普遍认为，承诺可信但不可强制执行，收购完成后的治理和许可决策才是真正需要持续关注的焦点。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon developer villager with a laptop, surrounded by floating Python logos, cozy pastel workspace, soft colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
+    "id": "2026-11-10_ai_3",
+    "date": "2026-11-10",
+    "image": "images/2026-11-10/2026-11-10_ai_3.jpg"
+  },
+  {
+    "category": "ai",
+    "subcat": "Model Release",
+    "platform": "dev.to",
+    "platform_color": "#1a1a1a",
+    "title": "Anthropic发布Claude Fable 5.2和Mythos 5.2",
+    "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-10-2026-openai-buys-astral-nvidia-opens-gr00t-2-claude-fable-52-32p5",
+    "detail": [
+      "11月9日，Anthropic发布了两款新前沿模型：Claude Fable 5.2和Claude Mythos 5.2。Fable 5.2面向通用编码和知识工作场景，已在AWS、Google Cloud和Microsoft Azure全平台上线，Claude Code平台同步开放快速模式。Mythos 5.2定位网络安全方向，需通过Cyber Verification Program验证后才能使用，同时驱动Claude Security安全产品。",
+      "性能方面，Fable 5.2相比5.1版本整体速度提升30%，定价为输入每百万token 8美元、输出每百万token 40美元。在RoboDojo基准测试中，Fable 5.2得分64.9%，较前代的27.6%有显著跃升。Mythos 5.2在漏洞挖掘任务中比上一代多发现14.4%的CVE，两个模型均已通过英国AISI、Frontier Design和METR三家机构的安全评估。",
+      "一个值得关注的工程决策是做减法而非加法。Anthropic在训练阶段刻意限制了会直接加速AI研发的研究能力——在加速器内核优化和LLM架构改进方面，Fable 5.2和Mythos 5.2仅维持在Opus 5.5水平，尽管在其他领域已超越该水平。这一限制在训练阶段而非推理阶段实施，而代理编码、硬件开发和可解释性研究能力则未受影响。Anthropic在其模型卡中透明披露了这些限制的具体范围。",
+      "商业层面，符合条件的付费计划用户可获得1到3次Fable重置额度，Fable在Pro计划中最多可占每周使用量的50%。此举被社区解读为Anthropic在IPO前夕通过频繁模型迭代巩固企业客户粘性的策略。不过部分开发者反馈，研究能力限制可能导致部分学术研究场景需要切换回Opus 5.5，增加了模型选择的复杂度。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon scholar villager with glasses, reading a glowing book, soft pastel colors, round shapes, cozy library setting, high detail, sharp, 4k quality, 1:1 square",
+    "id": "2026-11-10_ai_2",
+    "date": "2026-11-10",
+    "image": "images/2026-11-10/2026-11-10_ai_2.jpg"
+  },
+  {
+    "category": "ai",
+    "subcat": "Robotics",
+    "platform": "dev.to",
+    "platform_color": "#1a1a1a",
+    "title": "NVIDIA发布GR00T 2人形机器人模型",
+    "url": "https://dev.to/delimitter/nvidia-introduces-gr00t-2-and-isaac-lab-30-for-robot-learning-and-simulation-b4f",
+    "detail": [
+      "11月9日，在得克萨斯州奥斯汀举办的CoRL 2026学术会议上，NVIDIA正式发布了GR00T 2通用人形机器人世界行动模型以及配套的Isaac Lab 3.0仿真训练平台。GR00T 2基于10万小时真实和仿真混合训练数据构建，采用视觉-语言-行动统一架构，能够直接从摄像头和传感器输入生成关节控制指令，实现跨场景泛化操作能力。",
+      "性能数据方面，NVIDIA报告在标准评估中，GR00T 2仅需1到5次人类示范即可将操作成功率从71%提升至95%，大幅降低了新任务的学习门槛。模型支持零样本迁移到未见过的物体和环境，在分拣、组装、搬运等工业任务上表现尤为突出。Isaac Lab 3.0同步升级了并行仿真能力，单机可同时运行4096个环境实例，训练效率较上代提升约6倍。",
+      "生态合作层面，Ambi Robotics、Bosch、Siemens和Foxconn已开始基于GR00T 2部署工业机器人试点项目。Bosch计划将其应用于工厂物流搬运场景，Foxconn则探索在电子组装产线上替代部分人工工序。NVIDIA还宣布将模型权重以开源方式发布，供学术研究免费使用，商业授权通过NVIDIA Isaac平台获取。社区普遍关注开源许可的具体条款，以及模型在非NVIDIA硬件上的推理性能表现。",
+      "行业影响方面，GR00T 2被视为通用人形机器人从实验室走向工业落地的关键一步。相比于Boston Dynamics等公司的封闭策略，NVIDIA选择开源核心模型权重的方式有望加速整个仿人机器人生态的发展。不过也有研究者指出，10万小时训练数据中仿真数据占比过高，在真实复杂环境下的泛化能力仍需长期验证。"
+    ],
+    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon robot villager with round eyes, holding a small package, standing in a cozy workshop with pastel colors, soft lighting, high detail, sharp, 4k quality, 1:1 square",
+    "id": "2026-11-10_ai_1",
+    "date": "2026-11-10",
+    "image": "images/2026-11-10/2026-11-10_ai_1.jpg"
+  }
+]
