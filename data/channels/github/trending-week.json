@@ -3,8 +3,8 @@
   "repos": {
     "sherlock-project/sherlock": {
       "best_rank": 1,
-      "appearances": 1,
-      "total_today_stars": 2373,
+      "appearances": 2,
+      "total_today_stars": 6640,
       "language": "Python",
       "description": "Hunt down social media accounts by username across social networks",
       "owner_avatar": "https://avatars.githubusercontent.com/u/48293496?v=4",
@@ -20,9 +20,9 @@
       "html_url": "https://github.com/cloudflare/security-audit-skill"
     },
     "meta/astryx": {
-      "best_rank": 3,
-      "appearances": 1,
-      "total_today_stars": 875,
+      "best_rank": 2,
+      "appearances": 2,
+      "total_today_stars": 4153,
       "language": "TypeScript",
       "description": "An open source design system that's fully customizable and agent ready",
       "owner_avatar": "https://avatars.githubusercontent.com/u/69631?v=4",
@@ -30,17 +30,17 @@
     },
     "vercel-labs/agent-browser": {
       "best_rank": 4,
-      "appearances": 1,
-      "total_today_stars": 815,
+      "appearances": 2,
+      "total_today_stars": 1731,
       "language": "Rust",
       "description": "Browser automation CLI for AI agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/108547162?v=4",
       "html_url": "https://github.com/vercel-labs/agent-browser"
     },
     "anthropics/skills": {
-      "best_rank": 5,
-      "appearances": 1,
-      "total_today_stars": 792,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 1830,
       "language": "Python",
       "description": "Public repository for Agent Skills",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -48,17 +48,17 @@
     },
     "jub0t/Concat": {
       "best_rank": 6,
-      "appearances": 1,
-      "total_today_stars": 488,
+      "appearances": 2,
+      "total_today_stars": 981,
       "language": "Rust",
       "description": "Beta: The truly free, open-source, local-first, cross-platform video editor. Scriptable through a JSON-RPC API & MCP.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/57962439?v=4",
       "html_url": "https://github.com/jub0t/Concat"
     },
     "ranxianglei/billion-context": {
-      "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 460,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1220,
       "language": "TypeScript",
       "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
       "owner_avatar": "https://avatars.githubusercontent.com/u/12445698?v=4",
@@ -66,8 +66,8 @@
     },
     "Anil-matcha/Open-Generative-AI": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 373,
+      "appearances": 2,
+      "total_today_stars": 686,
       "language": "JavaScript",
       "description": "Uncensored Open-source alternative to AI video platforms — Free AI image & video generation studio with 600+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4326215?v=4",
@@ -75,8 +75,8 @@
     },
     "dsx-ai-factory/nvke": {
       "best_rank": 9,
-      "appearances": 1,
-      "total_today_stars": 345,
+      "appearances": 2,
+      "total_today_stars": 678,
       "language": "Go",
       "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/311157577?v=4",
@@ -93,8 +93,8 @@
     },
     "storytold/artcraft": {
       "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 335,
+      "appearances": 2,
+      "total_today_stars": 713,
       "language": "Rust",
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76897702?v=4",
@@ -102,8 +102,8 @@
     },
     "hmjz100/LinkSwift": {
       "best_rank": 12,
-      "appearances": 1,
-      "total_today_stars": 334,
+      "appearances": 2,
+      "total_today_stars": 556,
       "language": "JavaScript",
       "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
       "owner_avatar": "https://avatars.githubusercontent.com/u/98228280?v=4",
@@ -156,8 +156,8 @@
     },
     "ruvnet/RuView": {
       "best_rank": 18,
-      "appearances": 1,
-      "total_today_stars": 203,
+      "appearances": 2,
+      "total_today_stars": 375,
       "language": "Rust",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2934394?v=4",
@@ -183,8 +183,8 @@
     },
     "elie222/rakazo": {
       "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 107,
+      "appearances": 2,
+      "total_today_stars": 250,
       "language": "TypeScript",
       "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/3090527?v=4",
@@ -225,6 +225,123 @@
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/186665980?v=4",
       "html_url": "https://github.com/bradautomates/claude-video"
+    },
+    "HKUDS/DeepTutor": {
+      "best_rank": 6,
+      "appearances": 1,
+      "total_today_stars": 710,
+      "language": "Python",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/DeepTutor"
+    },
+    "google-deepmind/mujoco": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 574,
+      "language": "C++",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/8596759?v=4",
+      "html_url": "https://github.com/google-deepmind/mujoco"
+    },
+    "anthropics/claude-quickstarts": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 551,
+      "language": "Python",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-quickstarts"
+    },
+    "ZhuLinsen/daily_stock_analysis": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 506,
+      "language": "Python",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/42829555?v=4",
+      "html_url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    "OpenBMB/VoxCPM": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 387,
+      "language": "Python",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/89920203?v=4",
+      "html_url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    "superplanehq/superplane": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 228,
+      "language": "Go",
+      "description": "Open source factory for one-shot engineering",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/210748804?v=4",
+      "html_url": "https://github.com/superplanehq/superplane"
+    },
+    "garrytan/gbrain": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 216,
+      "language": "TypeScript",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/19957?v=4",
+      "html_url": "https://github.com/garrytan/gbrain"
+    },
+    "opensandbox-group/OpenSandbox": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 168,
+      "language": "Python",
+      "description": "Secure, Fast, and Extensible Sandbox runtime for AI agents.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/290567599?v=4",
+      "html_url": "https://github.com/opensandbox-group/OpenSandbox"
+    },
+    "longbridge/gpui-kit": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 163,
+      "language": "Rust",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/68419756?v=4",
+      "html_url": "https://github.com/longbridge/gpui-kit"
+    },
+    "anthropics/claude-plugins-official": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 149,
+      "language": "Python",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
+      "html_url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    "ooolabdev/ooosplat": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 121,
+      "language": "Rust",
+      "description": "A local desktop app that turns videos and images into 3D Gaussian Splats in one click.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/105619733?v=4",
+      "html_url": "https://github.com/ooolabdev/ooosplat"
+    },
+    "mantrakp04/ardia": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 115,
+      "language": "TypeScript",
+      "description": "A free Chromium browser for the Mac: Arc's sidebar, Dia's polish. Chat on Discord: discord.gg/TdhuXrbcA6",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/87142457?v=4",
+      "html_url": "https://github.com/mantrakp04/ardia"
+    },
+    "trufflesecurity/trufflehog": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 94,
+      "language": "Go",
+      "description": "Find, verify, and analyze leaked credentials",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/79229934?v=4",
+      "html_url": "https://github.com/trufflesecurity/trufflehog"
     }
   }
 }

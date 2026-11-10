@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-10": {
-      "morluto/rea": 1,
-      "boykopovar/AnyPS5": 2,
-      "storytold/artcraft": 3,
-      "tt-a1i/archify": 4,
-      "anthropics/knowledge-work-plugins": 5,
-      "microsoft/mxc": 6,
-      "addyosmani/agent-skills": 7,
-      "hugohe3/ppt-master": 8,
-      "cloudflare/security-audit-skill": 9,
-      "alibaba/open-code-review": 10,
-      "thesysdev/openui": 11,
-      "bojieli/ai-agent-book": 12,
-      "Tencent/WeKnora": 13,
-      "openai/codex": 14,
-      "datawhalechina/hello-agents": 15,
-      "Vincentwei1021/video-shotcraft": 16,
-      "ollama/ollama": 17,
-      "docker/docker-agent": 18,
-      "K-Dense-AI/scientific-agent-skills": 19,
-      "Tencent-Hunyuan/Hy-MT2": 20,
-      "Robbyant/lingbot-map": 21,
-      "headroomlabs-ai/headroom": 22,
-      "QuantumNous/new-api": 23,
-      "multica-ai/multica": 24,
-      "Wei-Shaw/sub2api": 25
-    },
     "2026-10-11": {
       "morluto/rea": 1,
       "boykopovar/AnyPS5": 2,
@@ -836,6 +809,33 @@
       "henrygd/beszel": 23,
       "vxcontrol/pentagi": 24,
       "bradautomates/claude-video": 25
+    },
+    "2026-11-10": {
+      "sherlock-project/sherlock": 1,
+      "meta/astryx": 2,
+      "anthropics/skills": 3,
+      "vercel-labs/agent-browser": 4,
+      "ranxianglei/billion-context": 5,
+      "HKUDS/DeepTutor": 6,
+      "google-deepmind/mujoco": 7,
+      "anthropics/claude-quickstarts": 8,
+      "ZhuLinsen/daily_stock_analysis": 9,
+      "jub0t/Concat": 10,
+      "OpenBMB/VoxCPM": 11,
+      "storytold/artcraft": 12,
+      "dsx-ai-factory/nvke": 13,
+      "Anil-matcha/Open-Generative-AI": 14,
+      "superplanehq/superplane": 15,
+      "hmjz100/LinkSwift": 16,
+      "garrytan/gbrain": 17,
+      "ruvnet/RuView": 18,
+      "opensandbox-group/OpenSandbox": 19,
+      "longbridge/gpui-kit": 20,
+      "anthropics/claude-plugins-official": 21,
+      "elie222/rakazo": 22,
+      "ooolabdev/ooosplat": 23,
+      "mantrakp04/ardia": 24,
+      "trufflesecurity/trufflehog": 25
     }
   }
 }
