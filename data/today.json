@@ -1,182 +1,172 @@
 [
   {
-    "category": "ai",
-    "subcat": "Robotics",
+    "id": "2026-11-11_ai_1",
+    "date": "2026-11-11",
+    "category": "AI",
+    "subcat": "AI Products",
     "platform": "dev.to",
-    "platform_color": "#1a1a1a",
-    "title": "NVIDIA发布GR00T 2人形机器人模型",
-    "url": "https://dev.to/delimitter/nvidia-introduces-gr00t-2-and-isaac-lab-30-for-robot-learning-and-simulation-b4f",
+    "platform_color": "#6A1B9A",
+    "title": "Claude变身办公套件",
+    "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-11-2026-claude-becomes-an-office-suite-chatgpt-gets-business-agents-3bg8",
+    "image": "images/2026-11-11/2026-11-11_ai_1.jpg",
     "detail": [
-      "11月9日，在得克萨斯州奥斯汀举办的CoRL 2026学术会议上，NVIDIA正式发布了GR00T 2通用人形机器人世界行动模型以及配套的Isaac Lab 3.0仿真训练平台。GR00T 2基于10万小时真实和仿真混合训练数据构建，采用视觉-语言-行动统一架构，能够直接从摄像头和传感器输入生成关节控制指令，实现跨场景泛化操作能力。",
-      "性能数据方面，NVIDIA报告在标准评估中，GR00T 2仅需1到5次人类示范即可将操作成功率从71%提升至95%，大幅降低了新任务的学习门槛。模型支持零样本迁移到未见过的物体和环境，在分拣、组装、搬运等工业任务上表现尤为突出。Isaac Lab 3.0同步升级了并行仿真能力，单机可同时运行4096个环境实例，训练效率较上代提升约6倍。",
-      "生态合作层面，Ambi Robotics、Bosch、Siemens和Foxconn已开始基于GR00T 2部署工业机器人试点项目。Bosch计划将其应用于工厂物流搬运场景，Foxconn则探索在电子组装产线上替代部分人工工序。NVIDIA还宣布将模型权重以开源方式发布，供学术研究免费使用，商业授权通过NVIDIA Isaac平台获取。社区普遍关注开源许可的具体条款，以及模型在非NVIDIA硬件上的推理性能表现。",
-      "行业影响方面，GR00T 2被视为通用人形机器人从实验室走向工业落地的关键一步。相比于Boston Dynamics等公司的封闭策略，NVIDIA选择开源核心模型权重的方式有望加速整个仿人机器人生态的发展。不过也有研究者指出，10万小时训练数据中仿真数据占比过高，在真实复杂环境下的泛化能力仍需长期验证。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon robot villager with round eyes, holding a small package, standing in a cozy workshop with pastel colors, soft lighting, high detail, sharp, 4k quality, 1:1 square",
-    "id": "2026-11-10_ai_1",
-    "date": "2026-11-10",
-    "image": "images/2026-11-10/2026-11-10_ai_1.jpg"
+      "Anthropic于11月10日正式发布了Claude办公套件，将Claude从一个对话式AI助手升级为完整的办公生产力平台。新套件包含Claude Meetings（会议）、Claude Sheets（表格）、Claude Whiteboards（白板）和Claude Data（数据分析）四款产品，全部进入正式可用阶段（GA）。其中Claude Meetings允许Claude作为可见参与者加入视频通话，能够实时起草会议纪要、回答问题并跟踪行动项。",
+      "这次发布与Anthropic同日启动的IPO路演形成战略协同。Claude套件直接对标Microsoft 365 Copilot和Google Workspace的Gemini集成，标志着AI公司从工具提供者向平台生态构建者的关键转型。发布当天Microsoft股价下跌约3%，市场解读为投资者对Claude办公套件竞争威胁的直接反应。",
+      "Claude Sheets支持自然语言驱动的数据分析和公式生成，Claude Whiteboards允许团队在AI辅助下进行头脑风暴和流程图创建，而Claude Data则提供无需SQL的可视化数据探索功能。所有产品共享统一的对话界面和上下文记忆，用户在不同工具间的操作可以无缝衔接。",
+      "行业分析师指出，Anthropic选择在IPO路演当天发布办公套件，既展示了商业化能力，也向投资者传递了从API提供商向SaaS平台转型的信号。此举可能改变企业AI市场的竞争格局，迫使Microsoft和Google加速自身AI办公产品的迭代节奏。"
+    ]
   },
   {
-    "category": "ai",
-    "subcat": "Model Release",
-    "platform": "dev.to",
-    "platform_color": "#1a1a1a",
-    "title": "Anthropic发布Claude Fable 5.2和Mythos 5.2",
-    "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-10-2026-openai-buys-astral-nvidia-opens-gr00t-2-claude-fable-52-32p5",
+    "id": "2026-11-11_ai_2",
+    "date": "2026-11-11",
+    "category": "AI",
+    "subcat": "AI Products",
+    "platform": "OpenAI",
+    "platform_color": "#10A37F",
+    "title": "ChatGPT推出企业版功能",
+    "url": "https://openai.com/index/introducing-businesses-chatgpt/",
+    "image": "images/2026-11-11/2026-11-11_ai_2.jpg",
     "detail": [
-      "11月9日，Anthropic发布了两款新前沿模型：Claude Fable 5.2和Claude Mythos 5.2。Fable 5.2面向通用编码和知识工作场景，已在AWS、Google Cloud和Microsoft Azure全平台上线，Claude Code平台同步开放快速模式。Mythos 5.2定位网络安全方向，需通过Cyber Verification Program验证后才能使用，同时驱动Claude Security安全产品。",
-      "性能方面，Fable 5.2相比5.1版本整体速度提升30%，定价为输入每百万token 8美元、输出每百万token 40美元。在RoboDojo基准测试中，Fable 5.2得分64.9%，较前代的27.6%有显著跃升。Mythos 5.2在漏洞挖掘任务中比上一代多发现14.4%的CVE，两个模型均已通过英国AISI、Frontier Design和METR三家机构的安全评估。",
-      "一个值得关注的工程决策是做减法而非加法。Anthropic在训练阶段刻意限制了会直接加速AI研发的研究能力——在加速器内核优化和LLM架构改进方面，Fable 5.2和Mythos 5.2仅维持在Opus 5.5水平，尽管在其他领域已超越该水平。这一限制在训练阶段而非推理阶段实施，而代理编码、硬件开发和可解释性研究能力则未受影响。Anthropic在其模型卡中透明披露了这些限制的具体范围。",
-      "商业层面，符合条件的付费计划用户可获得1到3次Fable重置额度，Fable在Pro计划中最多可占每周使用量的50%。此举被社区解读为Anthropic在IPO前夕通过频繁模型迭代巩固企业客户粘性的策略。不过部分开发者反馈，研究能力限制可能导致部分学术研究场景需要切换回Opus 5.5，增加了模型选择的复杂度。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon scholar villager with glasses, reading a glowing book, soft pastel colors, round shapes, cozy library setting, high detail, sharp, 4k quality, 1:1 square",
-    "id": "2026-11-10_ai_2",
-    "date": "2026-11-10",
-    "image": "images/2026-11-10/2026-11-10_ai_2.jpg"
+      "OpenAI于11月10日至11日正式在ChatGPT中推出企业版功能，包含Business Hub（企业中心）和Business Agents（企业智能体）两大核心模块。Business Hub允许企业管理员统一认领员工资料、查看使用洞察和管理权限，而Business Agents则让企业能够创建和部署自动化AI智能体来处理重复性业务流程。",
+      "ChatGPT目前拥有超过12亿周活跃用户，其中企业用户占比持续增长。新功能标志着OpenAI从个人消费级产品向企业级平台的战略延伸。Business Hub提供了团队管理、使用分析和数据治理工具，而Business Agents支持自定义工作流自动化，涵盖客服、数据录入、报告生成等场景。",
+      "此次发布与Anthropic同日推出Claude办公套件形成直接竞争。两家公司都在争夺企业AI市场的主导地位，但策略有所不同：Anthropic以办公套件为切入点，强调深度工具集成；OpenAI则依托ChatGPT庞大的用户基础，通过企业管理和智能体功能实现商业化深化。",
+      "市场观察人士认为，OpenAI的企业化转型是对投资者关切的回应。随着AI公司估值攀升和IPO窗口打开，展示企业级收入能力成为关键。Business Agents的智能体功能尤其受到关注，因为它代表了AI从辅助工具向自主执行者的演进方向，可能重塑企业工作流程。"
+    ]
   },
   {
-    "category": "ai",
-    "subcat": "Acquisition",
-    "platform": "dev.to",
-    "platform_color": "#1a1a1a",
-    "title": "OpenAI收购Astral Python工具链团队",
-    "url": "https://openai.com/index/openai-to-acquire-astral",
+    "id": "2026-11-11_ai_3",
+    "date": "2026-11-11",
+    "category": "AI",
+    "subcat": "AI Robotics",
+    "platform": "Interesting Engineering",
+    "platform_color": "#FF6B35",
+    "title": "Gemini机器人2.5发布",
+    "url": "https://interestingengineering.com/ai-robotics/google-gemini-robotics-2-5-humanoid-factory-trial",
+    "image": "images/2026-11-11/2026-11-11_ai_3.jpg",
     "detail": [
-      "11月9日，OpenAI宣布已达成收购Astral的协议。Astral是Ruff、uv和ty等Python核心开发工具背后的公司，此次收购将其团队整体并入OpenAI Codex部门。收购条款未公开披露。创始人Charlie Marsh在Astral博客上发文宣布这一消息，表示这些工具从零增长到每月数亿次下载，已成为现代Python开发基础设施的关键组成部分。",
-      "被收购的工具链并非小众工具。Ruff是用Rust编写的Python代码检查和格式化工具，在Astral自家基准测试中速度达到Flake8和Black的10到100倍，已取代了大量单一用途工具。uv将pip、virtualenv、venv和pyenv整合为单一包管理器。ty是2025年12月发布的类型检查器，在增量更新场景中相比Pyright有显著性能提升。Astral此前完成了由Accel领投的种子轮和A轮，以及Andreessen Horowitz领投的B轮融资。",
-      "开源问题是社区最关心的焦点。Marsh在博文中直接回应：收购完成后OpenAI将继续支持这些开源工具，团队将继续在开放环境中为更广泛的Python生态系统构建。然而Hacker News讨论帖在777分热度下积累485条评论，显示出社区对此类承诺惯有的怀疑态度。任何在CI流水线中使用Ruff或uv的开发者都清楚，许可证变更或功能限制将直接波及整个代理工具链。",
-      "这是OpenAI在一周内的第二笔开发者基础设施收购，此前于11月4日完成了Pierre Computer的交易。对于OpenAI而言，将Python工具链纳入Codex体系有望提升AI编程工具的底层执行效率和依赖管理能力。但社区普遍认为，承诺可信但不可强制执行，收购完成后的治理和许可决策才是真正需要持续关注的焦点。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon developer villager with a laptop, surrounded by floating Python logos, cozy pastel workspace, soft colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
-    "id": "2026-11-10_ai_3",
-    "date": "2026-11-10",
-    "image": "images/2026-11-10/2026-11-10_ai_3.jpg"
+      "Google于11月10日发布了Gemini Robotics 2.5模型，这是专为机器人控制设计的AI系统的重要升级。在梅赛德斯-奔驰工厂的试验中，Gemini Robotics 2.5驱动的Apptronik Apollo 2人形机器人成功完成了200多种不同任务，整体成功率达到96%，涵盖零部件搬运、装配辅助和工具递送等场景。",
+      "Gemini Robotics 2.5的核心突破在于多模态理解能力：模型能够同时处理视觉输入、语言指令和物理传感器数据，实现对复杂工厂环境的实时感知和动作规划。Google还发布了ASIMOV越狱基准测试，专门评估机器人AI系统在极端边界条件下的安全表现，该基准已成为行业标准参考。",
+      "此次升级标志着Google从纯软件AI向具身智能领域的关键扩展。与Apptronik的合作使Google能够将Gemini模型直接部署在物理机器人上，而不依赖于模拟环境。梅赛德斯-奔驰工厂作为首个商业试验场景，为汽车制造业的自动化提供了新的技术路径。",
+      "96%的成功率在大规模多任务场景下具有里程碑意义，但Google强调仍有4%的失败案例需要人类干预。公司表示下一步将聚焦于失败案例的边缘场景训练，并计划在2027年将试验扩展到更多制造场景。这一进展也加剧了与Tesla Optimus和Figure AI在通用人形机器人领域的竞争。"
+    ]
   },
   {
-    "category": "vibecoding",
-    "subcat": "AI Film",
+    "id": "2026-11-11_vibecoding_1",
+    "date": "2026-11-11",
+    "category": "VibeCoding",
+    "subcat": "AI Coding Tools",
+    "platform": "OpenTools",
+    "platform_color": "#2196F3",
+    "title": "AI编程工具加入语音",
+    "url": "https://opentools.ai/news/cursor-google-coding-agents-voice-claude-code-silent-2026",
+    "image": "images/2026-11-11/2026-11-11_vibecoding_1.jpg",
+    "detail": [
+      "AI编程工具Cursor和Google Antigravity于11月10日同时推出了双向语音交互功能，允许开发者通过自然语言对话指导代码编写。Cursor采用了xAI的Grok Voice技术实现实时语音对话，开发者可以边走边描述需求，AI助手会即时生成和修改代码。Google Antigravity则集成了Gemini Live，支持流畅的多轮语音交互。",
+      "这一更新标志着AI编程工具从纯文本交互向多模态交互的演进。语音功能的引入使开发者能够在白板讨论、代码审查和结对编程等场景中获得更自然的AI协作体验。Cursor的Grok Voice集成支持中断式对话，开发者可以在AI说话时随时插入修改意见，模拟真实的结对编程节奏。",
+      "值得注意的是，Anthropic的Claude Code目前仍保持仅听写模式，未跟进双向语音功能。这一策略差异引发了社区讨论：部分开发者认为语音交互在嘈杂办公环境中实用性有限，而另一些人则认为这是降低编程门槛的重要一步，尤其对初学者和移动办公场景有显著价值。",
+      "语音编程的兴起也带来了新的技术挑战，包括背景噪声处理、专业术语识别准确率、以及代码语法结构在语音表达中的歧义问题。Cursor和Google都表示将持续优化语音模型在编程领域的专项能力，预计2027年将有更多AI编程工具跟进这一功能方向。"
+    ]
+  },
+  {
+    "id": "2026-11-11_vibecoding_2",
+    "date": "2026-11-11",
+    "category": "VibeCoding",
+    "subcat": "GitHub Trending",
     "platform": "GitHub",
     "platform_color": "#181717",
-    "title": "cinecode：用代码拍电影的AI代理",
-    "url": "https://github.com/sarpstar/cinecode",
+    "title": "codegraph代码知识图谱",
+    "url": "https://github.com/colbymchenry/codegraph",
+    "image": "images/2026-11-11/2026-11-11_vibecoding_2.jpg",
     "detail": [
-      "cinecode是近期登上GitHub Trending的AI编程创意项目，由开发者sarpstar开发。它的核心理念是让AI代理用代码制作完整电影——从撰写剧本、构建每一帧画面、设计音效到输出MP4文件，全程由AI自主完成。项目在GitHub上已获得约1700颗Star，近期活跃度显著上升。",
-      "工作流程方面，cinecode将电影制作拆解为多个代码驱动的阶段：首先由AI生成结构化剧本，包含场景描述、角色对话和镜头指示；然后逐帧渲染画面，支持通过代码程序化生成动画和视觉效果；接着合成音效和配乐；最终编码输出为标准MP4格式。整个过程开发者只需提供创意方向或参考素材，AI代理负责所有技术实现细节。",
-      "技术栈上，cinecode基于Python构建，结合了多个AI模型的API调用能力，包括文本生成、图像合成和音频处理。项目采用模块化设计，每个制作阶段都可以独立替换底层模型。开发者可以通过修改配置文件调整画面风格、帧率、分辨率等输出参数。仓库中还包含多个示例作品，展示了从简单动画到复杂叙事短片的制作能力。",
-      "在VibeCoding社区中，cinecode代表了AI创作工具从单一任务向端到端工作流演进的趋势。它不只是一个视频生成器，而是让AI代理理解电影制作的完整流程并自主执行。社区讨论集中在输出质量的稳定性和商业素材版权问题上，部分开发者已开始尝试用它快速制作产品演示视频和教学内容。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon director villager with a clapperboard, film camera, surrounded by film strips, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
-    "id": "2026-11-10_vibecoding_1",
-    "date": "2026-11-10",
-    "image": "images/2026-11-10/2026-11-10_vibecoding_1.jpg"
+      "GitHub Trending项目codegraph（colbymchenry/codegraph）近日获得超过2.47万Star，成为AI编程辅助工具领域的新焦点。该项目为Claude Code、OpenAI Codex和Cursor等AI编程工具提供预索引的代码知识图谱，使AI助手能够在大型代码库中快速定位和理解代码结构，显著提升代码生成和修改的准确性。",
+      "codegraph的核心创新在于将代码仓库转化为结构化的知识图谱表示，包含函数调用关系、模块依赖、类型定义和数据流等信息。当开发者使用AI编程工具时，codegraph会自动检索相关代码节点并提供上下文，避免了传统方式中AI工具需要扫描整个代码库的性能瓶颈。",
+      "项目支持多种主流编程语言，包括TypeScript、Python、Rust和Go，并提供了与Claude Code MCP协议的无缝集成。开发者只需在项目中运行一次索引命令，后续所有AI交互都能利用预构建的图谱数据。社区反馈显示，在超过10万行代码的大型项目中，codegraph能将AI代码建议的相关性提升40%以上。",
+      "随着AI编程工具在大型企业代码库中的普及，代码知识图谱成为解决上下文窗口限制的关键基础设施。codegraph的开源策略和跨工具兼容性设计使其在竞争激烈的AI编程生态中获得了独特定位，多个企业团队已开始在内部代码库中部署该工具。"
+    ]
   },
   {
-    "category": "vibecoding",
-    "subcat": "Game Mod",
+    "id": "2026-11-11_vibecoding_3",
+    "date": "2026-11-11",
+    "category": "VibeCoding",
+    "subcat": "GitHub Trending",
     "platform": "GitHub",
     "platform_color": "#181717",
-    "title": "Hookshot：塞尔达OoT Switch重制版PC移植",
-    "url": "https://github.com/NotRexed/Hookshot",
+    "title": "Understand-Anything",
+    "url": "https://github.com/Lum1104/Understand-Anything",
+    "image": "images/2026-11-11/2026-11-11_vibecoding_3.jpg",
     "detail": [
-      "Hookshot是GitHub上近期引发关注的游戏逆向工程项目，由开发者NotRexed发起。项目的核心目标是实现对塞尔达传说：时之笛Switch 2重制版的本地重编译移植，让这款经典游戏能够在PC和Linux平台上原生运行。项目已在GitHub上获得约1200颗Star，最后一次提交日期为11月7日。",
-      "技术路线上，Hookshot采用Native Recompilation方式，而非传统的模拟器封装。这意味着开发者对游戏原始机器码进行反编译，再针对x86-64架构重新编译为原生可执行文件。这种方式消除了模拟器中间层带来的性能损耗，支持更高帧率、自定义分辨率和现代显卡特性。项目还集成了改进的着色器编译和纹理过滤管线，在视觉保真度和运行流畅度之间取得了良好平衡。",
-      "项目还提供了现代化的输入支持、自定义控制映射和存档管理功能。社区贡献者已在GitHub Issues中积极讨论多人联机模式和自定义关卡编辑器的可能性。由于Switch 2重制版本身在画面和机制上对原作进行了大量改进，Hookshot的移植工作也间接保留了这些改进内容，使PC玩家能体验到重制版的完整内容。",
-      "法律和版权方面，项目要求用户自行拥有合法游戏副本，仅提供移植框架而不分发任何受版权保护的游戏资产。这沿用了Decompilation项目社区的通行做法。尽管如此，任天堂历史上对类似项目态度强硬，社区对项目的长期存续持谨慎态度。不过在技术层面，Hookshot的Native Recompilation方案被视为经典游戏PC保存的重要技术路径。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon hero villager in green costume with a sword, standing in front of a castle, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
-    "id": "2026-11-10_vibecoding_2",
-    "date": "2026-11-10",
-    "image": "images/2026-11-10/2026-11-10_vibecoding_2.jpg"
+      "GitHub Trending项目Understand-Anything（Lum1104/Understand-Anything）近日突破3.03万Star，是一款面向开发者的交互式代码理解工具。该项目通过自动生成交互式知识图谱，帮助开发者快速理解陌生代码库的结构、逻辑和依赖关系，特别适用于入职新项目或接手遗留代码的场景。",
+      "Understand-Anything的核心功能包括自动代码结构分析、函数调用链可视化、模块依赖图绘制和关键路径标注。工具支持一键导入GitHub仓库或本地代码目录，在数分钟内生成可交互的Web界面，开发者可以通过点击节点展开详情、追踪调用路径和查看代码片段。",
+      "与传统的静态分析工具不同，Understand-Anything集成了AI模型来生成代码摘要和设计意图解释。每个知识图谱节点都附带AI生成的自然语言描述，帮助开发者理解代码的设计逻辑而非仅关注语法结构。这一设计在社区中获得了高度评价，多位开发者表示该工具将新项目上手时间从数天缩短到数小时。",
+      "项目的开源性质和零配置设计降低了使用门槛，使其在中小型开发团队中快速传播。作者表示下一步计划增加实时协作功能，允许多个开发者同时在同一知识图谱上标注和讨论，进一步推动代码理解从个人活动向团队协作演进。"
+    ]
   },
   {
-    "category": "vibecoding",
-    "subcat": "Web Avatar",
-    "platform": "GitHub",
-    "platform_color": "#181717",
-    "title": "player：轻量级Web 2.5D虚拟角色",
-    "url": "https://github.com/livliv-dev/player",
+    "id": "2026-11-11_gaming_1",
+    "date": "2026-11-11",
+    "category": "Gaming",
+    "subcat": "Update",
+    "platform": "Inven Global",
+    "platform_color": "#E91E63",
+    "title": "星穹铁道4.7版本上线",
+    "url": "https://www.invenglobal.com/articles/28022/honkai-star-rail-to-release-version-47-update-on-november-11",
+    "image": "images/2026-11-11/2026-11-11_gaming_1.jpg",
     "detail": [
-      "player是开发者livliv-dev在GitHub上开源的轻量级2.5D网页角色组件，近期在GitHub Trending上获得关注，已积累约1400颗Star，最后一次提交日期为11月9日。项目的核心功能是提供一个可直接嵌入网页的实时互动角色，支持唇形同步和摄像头面部追踪，无需3D引擎或重量级依赖。",
-      "技术实现方面，player通过WebRTC获取摄像头画面，利用MediaPipe Face Mesh进行实时面部关键点检测，将面部表情数据映射到2.5D角色模型上。角色渲染采用Canvas 2D和CSS变换组合方案，在保持流畅动画的同时将包体积控制在极小范围。唇形同步功能通过分析音频频谱数据驱动嘴部形变，支持中英文等多语言语音输入。",
-      "使用场景方面，player适合用于个人网站、直播虚拟形象、在线教育助手和产品引导角色等场景。开发者只需引入一个JavaScript文件即可在页面中添加可交互角色，角色支持自定义外观、服装和表情。项目还提供了事件回调接口，允许开发者将角色动作与页面逻辑关联，例如角色在用户滚动时进行特定动画反馈。",
-      "在VibeCoding生态中，player填补了轻量级网页角色工具的空白。相比于Live2D或VTuber工具链，它大幅降低了部署门槛和性能开销，特别适合独立开发者和个人创作者。社区反馈集中在多角色同屏渲染和更细腻的表情映射需求上，开发者已在路线图中规划了WebGPU加速和AI驱动对话功能的后续版本。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon villager with big eyes looking at a computer screen, webcam tracking dots on face, pastel colors, round shapes, cozy desk, high detail, sharp, 4k quality, 1:1 square",
-    "id": "2026-11-10_vibecoding_3",
-    "date": "2026-11-10",
-    "image": "images/2026-11-10/2026-11-10_vibecoding_3.jpg"
+      "《崩坏：星穹铁道》于11月11日正式上线4.7版本更新，主题为「如今，将欢笑献给群星」。本次更新引入了全新可玩角色Aeon★Aha（欢愉命途·量子属性），这是游戏首次将星神本身作为可操控角色加入卡池，在玩家社区中引发了巨大反响。版本更新还重启了Silver Wolf LV.999、Sparxie和Yao Guang三位人气角色。",
+      "4.7版本的核心系统革新是EX-Eidolon（星魂扩展）系统的引入，允许玩家在特定条件下解锁角色的额外星魂效果，为角色养成提供了新的深度维度。同时更新带来了全新剧情章节，围绕「欢愉」星神Aha展开，探索宇宙中笑声与混乱的哲学主题，剧情内容量超过此前任何版本更新。",
+      "版本更新前预下载已于11月10日开放，全球服在11月11日UTC+8进行约5小时维护后正式开放。玩家社区对Aeon★Aha的角色设计和战斗机制反响热烈，多个社交平台的相关话题登上热搜。首日流水预期将刷新4.x系列版本记录，分析师指出星神角色的稀缺性和独特机制是主要驱动因素。",
+      "本次更新还优化了回合制战斗系统的节奏和视觉效果，新增了「星神试炼」高难度挑战模式，为资深玩家提供了更具策略性的战斗内容。开发团队表示4.7版本是2026年最后一个大版本更新，后续将进入年度总结和2027年路线图预告阶段。"
+    ]
   },
   {
-    "category": "gaming",
-    "subcat": "RTS",
-    "platform": "Steam",
-    "platform_color": "#1b2838",
-    "title": "灰烬之 Singularity II 今日发售",
-    "url": "https://ashes2.wiki/release/",
+    "id": "2026-11-11_gaming_2",
+    "date": "2026-11-11",
+    "category": "Gaming",
+    "subcat": "Event",
+    "platform": "games.gg",
+    "platform_color": "#00BCD4",
+    "title": "GTA6音乐节门票开售",
+    "url": "https://games.gg/news/grand-theft-auto-vi-the-festival-miami/",
+    "image": "images/2026-11-11/2026-11-11_gaming_2.jpg",
     "detail": [
-      "Ashes of the Singularity II于2026年11月10日正式在PC平台发售，由Oxide Games开发、Stardock发行。游戏提供标准版和豪华版两个版本，标准版定价39.99美元，豪华版定价69.99美元，豪华版包含基础游戏、前三个DLC包和原声带。发售期间提供20%启动折扣，持续至11月17日。",
-      "游戏内容方面，本作包含三个可玩阵营，其中包括全新的人类阵营。发售版本提供完整的UEF战役剧情，以及即时遭遇战、PvP对战和合作模式。游戏采用Oxide Games自研的Nitrous引擎，支持大规模单位同屏渲染，安装体积约50GB，官方推荐使用SSD存储。SteamDB追踪的解锁时间为UTC时间14:00。",
-      "平台支持方面，本作首发仅限Windows PC，通过Steam、Stardock官方商店和其他合作渠道销售。Stardock开发者表示正在测试Steam Deck兼容性并将提交Verified认证，但Valve尚未公布评级。游戏支持14种语言，包括简体中文、日语、韩语和主要欧洲语言，英语版本提供完整语音支持。",
-      "Ashes of the Singularity系列以超大规模即时战略著称，初代在2016年首发时是首批支持DirectX 12的游戏之一。续作在引擎技术和战场规模上进一步突破，社区对其RTS品类创新充满期待。官方将于UTC时间18:00举办发售日直播活动。不过初代在发布初期曾因优化问题受到批评，续作的实际性能表现仍需发售后验证。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon commander villager with a map, toy tanks and spaceships, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
-    "id": "2026-11-10_gaming_1",
-    "date": "2026-11-10",
-    "image": "images/2026-11-10/2026-11-10_gaming_1.jpg"
+      "Rockstar Games于11月9日宣布将在迈阿密Mana Wynwood举办「Grand Theft Auto VI: The Festival」音乐节，庆祝GTA 6于11月19日正式发售。音乐节定于11月21日举行，即游戏发售两天后，由PlayStation联合呈现，III Points团队制作。演出阵容包括Travis Scott、Cardi B、Metro Boomin、Justice（DJ Set）等13组艺人。",
+      "门票采用抽签制购买，注册已于11月10日下午4点ET截止，中签者将在当天晚上7点前收到短信通知。中签者可于11月11日中午12点ET通过DICE平台购票，每人限购两张，购票者须年满17岁。票价尚未提前公布，仅在购票窗口开放后显示。这一稀缺性策略在社区引发了广泛讨论。",
+      "音乐节的阵容与GTA 6游戏内音乐深度绑定，所有演出艺人均参与了游戏或原声带的创作。Travis Scott为GTA 6原声专辑贡献了原创曲目，Justice为游戏谱写了完整原创配乐（12月11日发行），Cardi B则发布了与GTA 6联动的单曲《Don't Chart》。这使音乐节成为游戏世界与现实世界的跨界体验。",
+      "GTA 6原声专辑《GTA 6: The Album》将于11月19日同步发行，包含34首原创曲目，Keith Richards等传奇音乐人也参与了录制。游戏预售量已估计达770万份，接近Cyberpunk 2077的历史纪录。音乐节和原声带的发布策略被视为Rockstar将GTA 6打造为跨媒体文化事件的野心体现。"
+    ]
   },
   {
-    "category": "gaming",
-    "subcat": "Bullet Heaven",
-    "platform": "Steam",
-    "platform_color": "#1b2838",
-    "title": "Warhammer Survivors全平台发售",
-    "url": "https://store.steampowered.com/app/3669620/Warhammer_Survivors/",
+    "id": "2026-11-11_gaming_3",
+    "date": "2026-11-11",
+    "category": "Gaming",
+    "subcat": "Release",
+    "platform": "GameDaily",
+    "platform_color": "#FF5722",
+    "title": "魔界战记派对游戏发售",
+    "url": "https://gamedaily.com/games/prinny-party-going-overboard-release-date",
+    "image": "images/2026-11-11/2026-11-11_gaming_3.jpg",
     "detail": [
-      "Warhammer Survivors于2026年11月10日在全平台同步发售，覆盖PC（Steam和GOG）、PlayStation 5、Xbox Series X|S、Nintendo Switch和Switch 2以及iOS和Android移动端。游戏定价7.99美元，发售周提供10%折扣，同时首发加入Xbox Game Pass Ultimate和PC Game Pass。",
-      "游戏由Auroch Digital开发，并与Vampire Survivors开发商poncle合作打造。Steam页面显示游戏支持超过40名来自战锤40K和西格玛时代宇宙的经典英雄角色。玩家组成小队对抗大规模敌群，融合了Vampire Survivors的割草玩法和Warhammer世界的阵营特色。游戏包含阵营特质系统、敌人技能机制和拾取道具等多种玩法元素。",
-      "平台解锁时间方面，PlayStation Store和Xbox Store均指向UTC时间10:00解锁。Steam Deck兼容性已获得Verified认证。Steam社区已有超过50万用户将游戏加入愿望单，社区讨论活跃度在发售前显著上升。各平台价格略有差异，PlayStation Store英国区定价6.49英镑，Steam定价6.39英镑。",
-      "Warhammer Survivors被视为Vampire Survivors品类与大型IP结合的典型案例。poncle的参与让玩家对玩法的正宗性有较高期待，但部分Steam社区评价指出节奏相比原版Vampire Survivors偏慢，进度感不够强。发售后的玩家反馈将决定这款IP衍生作品能否在拥挤的Bullet Heaven赛道中站稳脚跟。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon knight villager in armor with a shield, surrounded by tiny cartoon creatures, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
-    "id": "2026-11-10_gaming_2",
-    "date": "2026-11-10",
-    "image": "images/2026-11-10/2026-11-10_gaming_2.jpg"
+      "NIS America于11月11日正式发售《Prinny Party: Going Overboard!》（魔界战记派对游戏），登陆Nintendo Switch 2、Nintendo Switch、PlayStation 5和Steam平台。这是《魔界战记》系列的衍生派对游戏，支持四人本地多人游玩，免费体验版已在发售前上线各平台商店。",
+      "游戏以系列标志性角色Prinny（企鹅型魔界居民）为主角，玩家在棋盘式地图上移动、收集道具并触发迷你游戏对战。核心模式要求玩家组队对抗「Supreme Overboard」及其「Protago-Knights」，融合了传统桌游的策略性与派对游戏的欢乐氛围。地图上设有陷阱、加速带和随机事件格，确保每局体验不同。",
+      "本作是《魔界战记》IP首次向派对游戏类型扩展的尝试，NIS America选择在Switch 2首发期内跨平台同步发售，覆盖了尽可能多的玩家群体。游戏支持跨世代联机，Switch和Switch 2玩家可以同场游玩，这一设计在家庭聚会场景中具有实用价值。",
+      "发售日选择在11月11日避开了11月19日GTA 6的发布窗口，体现了中小型发行商对档期策略的谨慎考量。NIS America表示免费体验版上线后注册量超出预期，特别是日本和北美市场的关注度较高。系列粉丝对Prinny角色的幽默风格和魔界战记世界观在派对游戏中的呈现表示期待。"
+    ]
   },
   {
-    "category": "gaming",
-    "subcat": "Simulation DLC",
-    "platform": "Steam",
-    "platform_color": "#1b2838",
-    "title": "欧卡2冰岛DLC今日上线",
-    "url": "https://store.steampowered.com/app/3796990/Euro_Truck_Simulator_2_Iceland/",
+    "id": "2026-11-11_gaming_4",
+    "date": "2026-11-11",
+    "category": "Gaming",
+    "subcat": "Release",
+    "platform": "GoNintendo",
+    "platform_color": "#4CAF50",
+    "title": "暗喻幻想登陆Switch2",
+    "url": "https://gonintendo.com/contents/61676-metaphor-refantazio-launches-on-switch-2-nov-12th-2026-update",
+    "image": "images/2026-11-11/2026-11-11_gaming_4.jpg",
     "detail": [
-      "Euro Truck Simulator 2的Iceland DLC于2026年11月10日正式上线Steam，由SCS Software开发发行。这款地图扩展将游戏版图延伸至冰岛，涵盖14个城市和定居点，包括首都雷克雅未克和北部重镇阿克雷里。城市之间通过环绕全岛的Ring Road连接，沿途经过繁忙城镇、偏远聚落和人迹罕至的角落。",
-      "地图内容方面，冰岛DLC着重还原了岛屿独特的自然地貌。玩家将穿越冰原、崎岖海岸线、黑沙滩和众多瀑布景观，包括Jokulsarlon冰川泻湖、Godafoss瀑布、Gullfoss瀑布、Seljalandsfoss瀑布、Vikurfjara海滩、Geysir间歇泉和Thingvellir国家公园等标志性地点。夜间驾驶时在合适条件下还能看到北极光点亮天空，日照时长也跟随冰岛真实世界时间变化。",
-      "驾驶体验方面，冰岛地图引入了单车道桥梁机制——遇到对向来车时必须先让行才能通过，满载卡车需要额外规划。SCS还制作了定制农场和采石场供配送任务使用，以及位于Husavik的硅工厂。此外DLC还新增了4条Special Transport特殊运输路线，需要拥有Special Transport DLC才能体验。同系列的Coaches巴士系统将于11月12日单独发布。",
-      "SCS Software在Reddit和Threads上的公告分别获得202票和244次互动，社区对冰岛地图的期待度较高。玩家讨论集中在地图面积大小和定价上，SCS尚未在公告中公布具体价格。欧卡2系列凭借持续的地图扩展保持着十年以上的长线运营，冰岛DLC是继北欧多国之后的又一座岛屿地图扩展，进一步丰富了斯堪的纳维亚地区的驾驶体验。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon truck driver villager in a big rig truck, driving past waterfalls and northern lights, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
-    "id": "2026-11-10_gaming_3",
-    "date": "2026-11-10",
-    "image": "images/2026-11-10/2026-11-10_gaming_3.jpg"
-  },
-  {
-    "category": "gaming",
-    "subcat": "Arcade Platformer",
-    "platform": "Steam",
-    "platform_color": "#1b2838",
-    "title": "Icy Tower经典跳跃游戏Steam重制",
-    "url": "https://store.steampowered.com/app/3014860/Icy_Tower/",
-    "detail": [
-      "Icy Tower于2026年11月10日在Steam平台正式发售。这款经典跳跃游戏自2001年首次发布以来已累计超过4000万玩家，本次由原开发者Johan Peitz和Anders Svensson重新制作，发行商为Apskeppet。游戏定位为精准跳跃平台动作类，支持单人和合作模式，采用像素图形风格并保留了原作的复古街机质感。",
-      "玩法核心是控制角色Harold the Homeboy不断向上跳跃攀登高塔，通过连续跳跃组合积累高分。重制版在保留原版操作手感的基础上新增了程序化生成塔层机制，每次游戏的塔结构都不同。游戏支持手柄操作，包含多种角色皮肤和自定义选项。Steam商店页面标签包括快节奏、精准平台、像素图形、怀旧、困难和复古等。",
-      "开发历程方面，Johan Peitz在2025年12月的Steam公告中宣布游戏已获得超过10000个愿望单收藏。2026年10月底发布了发售日期预告视频，11月初更新了最后一篇开发日志，表示团队正在打磨UI界面、优化服务器和修复最终bug。原版Icy Tower在2000年代初作为免费Flash游戏风靡全球，是许多PC玩家的童年回忆。",
-      "社区反响方面，Steam商店暂无用户评测，但从愿望单数量和社区讨论热度来看，怀旧玩家群体对重制版期待度较高。Blue's News和Games Press等游戏媒体均在发售前进行了报道。游戏的定价尚未在公告中明确标注，但作为一款独立复古重制作品，社区预期定价在5到10美元区间。Icy Tower的重制被视为2000年代Flash游戏黄金时代IP复兴的又一案例。"
-    ],
-    "image_prompt": "Animal Crossing style, cute kawaii illustration of a friendly cartoon character jumping up a colorful tower made of ice blocks, pastel colors, round shapes, high detail, sharp, 4k quality, 1:1 square",
-    "id": "2026-11-10_gaming_4",
-    "date": "2026-11-10",
-    "image": "images/2026-11-10/2026-11-10_gaming_4.jpg"
+      "ATLUS与SEGA联合宣布，《暗喻幻想：ReFantazio》Nintendo Switch 2版将于11月12日正式发售，数字预购已于11月11日晚间截止。Switch 2版定价39.99美元，远低于PS5/Xbox版的59.99美元首发价，体现了ATLUS对新平台定价策略的调整。同时推出的还有35周年数字纪念版，包含游戏本体、数字画册、原声集和DLC。",
+      "《暗喻幻想》原版于2024年10月发售，首日销量即突破百万，成为ATLUS史上销售最快的游戏。游戏获得了The Game Awards 2024最佳RPG、最佳叙事和最佳艺术指导三项大奖，PlayStation版Metacritic评分高达94分。Switch 2版由ATLUS Studio Zero原班团队移植，在保持完整游戏内容的基础上针对Switch 2硬件进行了性能优化。",
+      "Switch 2版新增了与Joy-Con 2体感操控的集成，并支持主机模式下更高的分辨率输出。预购数字版的玩家可获得「原型经验宝箱集」和「冒险者旅程包」等早期购入特典，包含经验加成道具和回复物品。SEGA表示Switch 2版的低价策略旨在吸引新玩家群体，扩大ATLUS RPG的受众基础。",
+      "游戏由《女神异闻录》系列制作人桥野桂、角色设计师副岛成记和作曲家目黑将司联手打造，被业界视为PS2时代以来JRPG的标杆之作。Switch 2版的发售恰逢年末购物季前期，SEGA预期将成为Switch 2平台上RPG品类的销量主力。角色设计师副岛成记为Switch 2版专门绘制了全新插图以示庆祝。"
+    ]
   }
 ]
