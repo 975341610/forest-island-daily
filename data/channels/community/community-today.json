@@ -1,166 +1,182 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "items": [
     {
-      "id": "2026-11-11_ai_1",
-      "date": "2026-11-11",
+      "id": "2026-11-12_ai_1",
+      "date": "2026-11-12",
       "category": "AI",
-      "subcat": "AI Products",
-      "platform": "dev.to",
-      "title": "Claude变身办公套件",
-      "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-11-2026-claude-becomes-an-office-suite-chatgpt-gets-business-agents-3bg8",
-      "image": "images/2026-11-11/2026-11-11_ai_1.jpg",
+      "subcat": "AI API",
+      "platform": "X",
+      "title": "Google推出Gemini Decisions API",
+      "url": "https://x.com/sundarpichai/status/2120581155078729728",
+      "image": "images/2026-11-12/2026-11-12_ai_1.jpg",
       "detail": [
-        "Anthropic于11月10日正式发布了Claude办公套件，将Claude从一个对话式AI助手升级为完整的办公生产力平台。新套件包含Claude Meetings（会议）、Claude Sheets（表格）、Claude Whiteboards（白板）和Claude Data（数据分析）四款产品，全部进入正式可用阶段（GA）。其中Claude Meetings允许Claude作为可见参与者加入视频通话，能够实时起草会议纪要、回答问题并跟踪行动项。",
-        "这次发布与Anthropic同日启动的IPO路演形成战略协同。Claude套件直接对标Microsoft 365 Copilot和Google Workspace的Gemini集成，标志着AI公司从工具提供者向平台生态构建者的关键转型。发布当天Microsoft股价下跌约3%，市场解读为投资者对Claude办公套件竞争威胁的直接反应。",
-        "Claude Sheets支持自然语言驱动的数据分析和公式生成，Claude Whiteboards允许团队在AI辅助下进行头脑风暴和流程图创建，而Claude Data则提供无需SQL的可视化数据探索功能。所有产品共享统一的对话界面和上下文记忆，用户在不同工具间的操作可以无缝衔接。",
-        "行业分析师指出，Anthropic选择在IPO路演当天发布办公套件，既展示了商业化能力，也向投资者传递了从API提供商向SaaS平台转型的信号。此举可能改变企业AI市场的竞争格局，迫使Microsoft和Google加速自身AI办公产品的迭代节奏。"
+        "Google DeepMind于11月11日推出Gemini Decisions API及全新模型Gemini Decision 1。与传统LLM逐token生成文本不同，该模型专为封闭式决策设计，可在单次前向传播中对输入内容评分多达1000个问题。Sundar Pichai于当日18:15在X平台发布该消息，Google官方账号同步详细介绍。模型支持三种决策类型：是非题、多选题（最多255个选项）和评分量表，覆盖文本、图片、音频、视频和PDF五种模态，上下文窗口为256K token。",
+        "定价方面，Gemini Decision 1仅收取输入token费用，每百万输入token定价0.10美元，输出token完全免费，比Gemini 3.5 Flash-Lite便宜约5倍。开发者可在Google AI Studio免费试用，免费层限额为每分钟200次请求和50000输入token。OpenRouter和Vercel AI Gateway也已上架该模型。Google内部团队已开始使用该API构建应用， Philipp Schmid透露该模型从内部测试到正式发布仅用了6周时间。",
+        "社区反应积极。Logan Kilpatrick在X平台的发布帖数小时内获得40.6万次浏览和7500个赞。VentureBeat报道指出该API非常适合理赔intake、内容审核和客服工单路由等需要快速做出一系列小判断的场景。Google内部测试显示一个客服工单路由任务用Decision 1成本仅0.88美元，每个答案附带置信度分数，允许应用对高置信结果自动执行、对低置信结果转人工审核。",
+        "该API的推出标志着大模型应用范式从文本生成向结构化决策的扩展，开发者可将模型输出直接用作程序分支条件，无需解析自然语言响应。Google表示付费服务的提示词和响应不会用于产品改进，日志仅保留有限时间用于合规披露。此举直接对标OpenAI基于GPT-6 Luna的Decisions API，加剧了决策模型赛道的竞争。"
       ]
     },
     {
-      "id": "2026-11-11_ai_2",
-      "date": "2026-11-11",
+      "id": "2026-11-12_ai_2",
+      "date": "2026-11-12",
       "category": "AI",
-      "subcat": "AI Products",
-      "platform": "OpenAI",
-      "title": "ChatGPT推出企业版功能",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt/",
-      "image": "images/2026-11-11/2026-11-11_ai_2.jpg",
+      "subcat": "国产大模型",
+      "platform": "X",
+      "title": "阿里Qwen4-Max预览版上线",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/qwen4-max-preview",
+      "image": "images/2026-11-12/2026-11-12_ai_2.jpg",
       "detail": [
-        "OpenAI于11月10日至11日正式在ChatGPT中推出企业版功能，包含Business Hub（企业中心）和Business Agents（企业智能体）两大核心模块。Business Hub允许企业管理员统一认领员工资料、查看使用洞察和管理权限，而Business Agents则让企业能够创建和部署自动化AI智能体来处理重复性业务流程。",
-        "ChatGPT目前拥有超过12亿周活跃用户，其中企业用户占比持续增长。新功能标志着OpenAI从个人消费级产品向企业级平台的战略延伸。Business Hub提供了团队管理、使用分析和数据治理工具，而Business Agents支持自定义工作流自动化，涵盖客服、数据录入、报告生成等场景。",
-        "此次发布与Anthropic同日推出Claude办公套件形成直接竞争。两家公司都在争夺企业AI市场的主导地位，但策略有所不同：Anthropic以办公套件为切入点，强调深度工具集成；OpenAI则依托ChatGPT庞大的用户基础，通过企业管理和智能体功能实现商业化深化。",
-        "市场观察人士认为，OpenAI的企业化转型是对投资者关切的回应。随着AI公司估值攀升和IPO窗口打开，展示企业级收入能力成为关键。Business Agents的智能体功能尤其受到关注，因为它代表了AI从辅助工具向自主执行者的演进方向，可能重塑企业工作流程。"
+        "阿里巴巴旗下Qwen团队于11月11日上午9:01（北京时间）在X平台发布\"Qwen4 is coming\"，标志着Qwen4系列首个模型Qwen4-Max Preview正式进入预览阶段。该模型同步在Alibaba Cloud Model Studio、QwenWork、Qoder、Qwen APP和QwenStudio上线。此前Qwen官方于11月6日发布了预告，CTO曾在11月2日当周暗示过发布时间。Qwen4-Max成为Qwen4家族中首个可供公众试用的模型。",
+        "Qwen4-Max Preview支持100万token上下文窗口，输入模态涵盖文本、图片和视频。模型具备函数调用、联网搜索、内置工具使用能力，输出可遵循JSON Schema。兼容OpenAI API（Chat Completions和Responses）及Anthropic Messages接口，可直接接入Claude Code、Cursor等编程工具。预览期持续至11月25日，期间Token Plan积分消耗仅为标准费率的20%，北京时间22:00至次日8:00进一步降至8%。",
+        "阿里尚未公布基准测试结果、模型卡片或按token定价细节，参数量、许可证和开源权重信息均未知。社交媒体上已有用户声称Qwen4-Max超越GPT-6和Claude Fable 5.2，但缺乏数据支撑。AlphaSignal指出该模型既无基准表也无模型卡，所有质量声明均来自阿里自身。上线前夕用户在Qwen Chat代码中发现\"qwen-4.0-max-preview\"标识，一个名为\"Qoduck\"的匿名模型曾短暂出现在Qoder平台上后被确认与Qwen4-Max关联。",
+        "Token Plan仅限交互式使用，禁止脚本调用和批量请求。Qwen团队要求用户在实际问题上测试模型并分享成果。截至目前Qwen在Hugging Face上的衍生模型已超过10万个。参考Qwen3.8-Max的节奏（7月19日预览、8月3日正式发布、8月12日开源权重），Qwen4-Max的完整发布和开源权重可能在数周内到来。Qwen4 27B开源模型目前仅以早期形态出现，最终开源计划尚未公布。"
       ]
     },
     {
-      "id": "2026-11-11_ai_3",
-      "date": "2026-11-11",
+      "id": "2026-11-12_ai_3",
+      "date": "2026-11-12",
       "category": "AI",
-      "subcat": "AI Robotics",
-      "platform": "Interesting Engineering",
-      "title": "Gemini机器人2.5发布",
-      "url": "https://interestingengineering.com/ai-robotics/google-gemini-robotics-2-5-humanoid-factory-trial",
-      "image": "images/2026-11-11/2026-11-11_ai_3.jpg",
+      "subcat": "AI公司IPO",
+      "platform": "QZ",
+      "title": "Anthropic IPO获数倍超额认购",
+      "url": "https://qz.com/anthropic-ipo-oversubscribed-roadshow-demand-111126",
+      "image": "images/2026-11-12/2026-11-12_ai_3.jpg",
       "detail": [
-        "Google于11月10日发布了Gemini Robotics 2.5模型，这是专为机器人控制设计的AI系统的重要升级。在梅赛德斯-奔驰工厂的试验中，Gemini Robotics 2.5驱动的Apptronik Apollo 2人形机器人成功完成了200多种不同任务，整体成功率达到96%，涵盖零部件搬运、装配辅助和工具递送等场景。",
-        "Gemini Robotics 2.5的核心突破在于多模态理解能力：模型能够同时处理视觉输入、语言指令和物理传感器数据，实现对复杂工厂环境的实时感知和动作规划。Google还发布了ASIMOV越狱基准测试，专门评估机器人AI系统在极端边界条件下的安全表现，该基准已成为行业标准参考。",
-        "此次升级标志着Google从纯软件AI向具身智能领域的关键扩展。与Apptronik的合作使Google能够将Gemini模型直接部署在物理机器人上，而不依赖于模拟环境。梅赛德斯-奔驰工厂作为首个商业试验场景，为汽车制造业的自动化提供了新的技术路径。",
-        "96%的成功率在大规模多任务场景下具有里程碑意义，但Google强调仍有4%的失败案例需要人类干预。公司表示下一步将聚焦于失败案例的边缘场景训练，并计划在2027年将试验扩展到更多制造场景。这一进展也加剧了与Tesla Optimus和Figure AI在通用人形机器人领域的竞争。"
+        "11月11日多家媒体确认Anthropic的IPO已获数倍超额认购，此时路演刚刚启动一天。Anthropic于11月10日启动IPO路演，设定发行价区间为每股70至78美元，公开发行8.25亿股A类股票，将在纳斯达克全球精选市场上市，股票代码为ANT。按区间上限计算，完全稀释估值约达1.4万亿美元。路演由高盛和摩根士丹利牵头，Anthropic目标零售配售比例约20%，远高于通常的5%-10%。",
+        "发行结构包括Anthropic新发行的8.01亿股和售股股东提供的2365万股，承销商另享有最多1.24亿股超额配售权。Broadcom、Google和Nvidia等合作伙伴同意以IPO价格认购260亿美元无投票权股票，使总融资规模达约900亿美元。若以78美元定价，基础公开发行将筹集643.5亿美元，有望超越SpaceX创下的750亿美元IPO纪录。七位创始人每人将持有约2.4亿股，按区间中值对应每人约170至180亿美元市值。",
+        "Bloomberg和Seeking Alpha于11月11日率先报道超额认购消息。银行家正在考虑提高估值定价。《华尔街日报》报道可能的交易窗口为11月19-20日。Anthropic在修订S-1文件中披露Q3营收近170亿美元，运营亏损5.67亿美元，而2025年全年营收46亿美元、净亏损420亿美元。Anthropic还将对Microsoft的最低承诺支出上调了43亿美元，最高达490亿美元以上。",
+        "IPO处于AI市场更广泛不确定性之中。中期选举后民主党大胜引发科技股暴跌又反弹，投资者担忧数据中心建设可能放缓。此前有报道称Anthropic寻求高达2万亿美元估值，后因市场变化部分投资者将预期下调至约1.5万亿美元。二级市场上Anthropic股价在7月已飙升至1.2万亿美元估值。超额认购表明市场对AI前沿公司的需求依然强劲，但最终定价和首日表现仍取决于银行家判断和监管批准。"
       ]
     },
     {
-      "id": "2026-11-11_vibecoding_1",
-      "date": "2026-11-11",
+      "id": "2026-11-12_ai_4",
+      "date": "2026-11-12",
+      "category": "AI",
+      "subcat": "AI安全",
+      "platform": "The Hacker News",
+      "title": "Grok Build应用大规模数据暴露",
+      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "image": "images/2026-11-12/2026-11-12_ai_4.jpg",
+      "detail": [
+        "安全公司Claroc Research于11月10日至11日发布报告\"GhostShares 2\"，披露Grok Build平台上35578个应用可在无需登录的情况下被任何人访问。Claroc在11月8日至10日期间测试了grok.me域名下的43551个地址，其中37571个应用仍在线，94.7%处于完全开放状态。约十分之一的开放应用包含内部商业或个人敏感数据。The Hacker News于11月11日对此进行了详细报道，引发广泛关注。",
+        "暴露应用中有24个由SpaceXSI（原xAI）和X员工构建，包含标记为机密的新员工入职计划、覆盖594个客户销售管线图、八份X广告提案（含面向美国联邦机构的机密提案）、四个实时广告主账户看板和七份多国广告活动报告。除SpaceXSI自身外，开放应用还涉及30个可识别组织，其中26个员工超千人、6家为财富500强企业。暴露内容包括某医院集团3500余名员工可搜索名单、ICU患者实验室结果和消防部门实时排班表。",
+        "问题根源在于Grok Build的默认分享设置。用户点击发布时系统预选\"任何拥有链接的人\"选项，而应用地址可通过被动DNS记录被发现。Grok为每个应用生成四个随机英文单词作为子域名，约半数发现的名称遵循该模式——虽难以猜测，但一旦进入可搜索列表便形同虚设。作为对比ChatGPT的应用构建器默认设置为\"仅自己\"。SpaceXSI在收到报告后移除了24个员工应用，但未处理数千个其他用户的开放应用。",
+        "Grok Build于2026年8月19日向所有Grok付费计划开放，三个月内增长到数万个在线应用，暴露了组织级访问管理的缺失。The Hacker News的报道引发行业讨论，Cryptobriefing同日发表分析指出难以猜测的链接不等于登录。医疗数据暴露可能引发HIPAA合规问题，联邦机构相关材料则可能招致采购和安全团队调查。该事件凸显AI应用构建平台快速扩张与访问控制之间的结构性矛盾，也引发对ChatGPT等同类平台安全默认设置的行业审视。"
+      ]
+    },
+    {
+      "id": "2026-11-12_vibecoding_1",
+      "date": "2026-11-12",
       "category": "VibeCoding",
-      "subcat": "AI Coding Tools",
-      "platform": "OpenTools",
-      "title": "AI编程工具加入语音",
-      "url": "https://opentools.ai/news/cursor-google-coding-agents-voice-claude-code-silent-2026",
-      "image": "images/2026-11-11/2026-11-11_vibecoding_1.jpg",
-      "detail": [
-        "AI编程工具Cursor和Google Antigravity于11月10日同时推出了双向语音交互功能，允许开发者通过自然语言对话指导代码编写。Cursor采用了xAI的Grok Voice技术实现实时语音对话，开发者可以边走边描述需求，AI助手会即时生成和修改代码。Google Antigravity则集成了Gemini Live，支持流畅的多轮语音交互。",
-        "这一更新标志着AI编程工具从纯文本交互向多模态交互的演进。语音功能的引入使开发者能够在白板讨论、代码审查和结对编程等场景中获得更自然的AI协作体验。Cursor的Grok Voice集成支持中断式对话，开发者可以在AI说话时随时插入修改意见，模拟真实的结对编程节奏。",
-        "值得注意的是，Anthropic的Claude Code目前仍保持仅听写模式，未跟进双向语音功能。这一策略差异引发了社区讨论：部分开发者认为语音交互在嘈杂办公环境中实用性有限，而另一些人则认为这是降低编程门槛的重要一步，尤其对初学者和移动办公场景有显著价值。",
-        "语音编程的兴起也带来了新的技术挑战，包括背景噪声处理、专业术语识别准确率、以及代码语法结构在语音表达中的歧义问题。Cursor和Google都表示将持续优化语音模型在编程领域的专项能力，预计2027年将有更多AI编程工具跟进这一功能方向。"
-      ]
-    },
-    {
-      "id": "2026-11-11_vibecoding_2",
-      "date": "2026-11-11",
-      "category": "VibeCoding",
-      "subcat": "GitHub Trending",
+      "subcat": "新工具",
       "platform": "GitHub",
-      "title": "codegraph代码知识图谱",
-      "url": "https://github.com/colbymchenry/codegraph",
-      "image": "images/2026-11-11/2026-11-11_vibecoding_2.jpg",
+      "title": "Modern Web Guidance 1.0发布",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "image": "images/2026-11-12/2026-11-12_vibecoding_1.jpg",
       "detail": [
-        "GitHub Trending项目codegraph（colbymchenry/codegraph）近日获得超过2.47万Star，成为AI编程辅助工具领域的新焦点。该项目为Claude Code、OpenAI Codex和Cursor等AI编程工具提供预索引的代码知识图谱，使AI助手能够在大型代码库中快速定位和理解代码结构，显著提升代码生成和修改的准确性。",
-        "codegraph的核心创新在于将代码仓库转化为结构化的知识图谱表示，包含函数调用关系、模块依赖、类型定义和数据流等信息。当开发者使用AI编程工具时，codegraph会自动检索相关代码节点并提供上下文，避免了传统方式中AI工具需要扫描整个代码库的性能瓶颈。",
-        "项目支持多种主流编程语言，包括TypeScript、Python、Rust和Go，并提供了与Claude Code MCP协议的无缝集成。开发者只需在项目中运行一次索引命令，后续所有AI交互都能利用预构建的图谱数据。社区反馈显示，在超过10万行代码的大型项目中，codegraph能将AI代码建议的相关性提升40%以上。",
-        "随着AI编程工具在大型企业代码库中的普及，代码知识图谱成为解决上下文窗口限制的关键基础设施。codegraph的开源策略和跨工具兼容性设计使其在竞争激烈的AI编程生态中获得了独特定位，多个企业团队已开始在内部代码库中部署该工具。"
+        "Google Chrome团队于北京时间11月11日正式发布Modern Web Guidance 1.0，这是一套面向AI编码代理的技能包，旨在引导AI编码工具使用最新的Web平台特性而非停留在过时的编程模式。该项目在Google I/O 2026上首次预览后历经半年打磨正式上线。GitHub仓库上线首日即获得5000+ Star和161个Fork，Chrome for Developers官方推文当日获得1800+点赞和1700+收藏。",
+        "1.0版本包含200+专家审核指南，覆盖250个现代Web特性，涵盖CSS布局（container queries、subgrid、oklch色彩空间）、HTML DOM组件（dialog、popover、anchor positioning）、JavaScript API和浏览器内置AI能力等核心领域。用户通过一条npx命令即可将技能安装到Claude Code、Cursor、Codex、Gemini CLI等主流编码代理中。1.0版本新增代码审计功能可扫描现有项目识别可安全现代化的旧模式。Google自评数据显示安装指南后代理通过率从56%提升至88%。",
+        "发布当日该工具在Hacker News获得266分和77条评论，成为当日VibeCoding领域最受关注的工具发布。早期用户数据颇具说服力：日本note inc.在6个UI任务180次测试中代理通过率从60.8%提升至94.0%；MetaMask将指南作为PR自动审查机器人运行5周，在57个PR中发现102个问题其中43个被完全修复16个被判定为误报。社区讨论焦点集中在88%通过率是否可靠以及额外token成本是否物有所值。",
+        "该项目采用跨浏览器治理模式，Chrome、Microsoft Edge、Mozilla Firefox和MDN Web Docs共同参与，六席治理委员会中Chrome占两席、Edge和Mozilla各一席、独立专家两席。Firefox和Edge团队的加入使该工具摆脱了\"Chrome-only\"标签。Google下一步计划将指南与Chrome DevTools for agents集成，让代理能够自行运行和测试生成的代码形成完整的编码-验证闭环。Sarah Drasner表示编码模型\"被困在旧训练数据中\"，而该技能层正是连接模型与现代Web平台的关键桥梁。"
       ]
     },
     {
-      "id": "2026-11-11_vibecoding_3",
-      "date": "2026-11-11",
+      "id": "2026-11-12_vibecoding_2",
+      "date": "2026-11-12",
       "category": "VibeCoding",
-      "subcat": "GitHub Trending",
-      "platform": "GitHub",
-      "title": "Understand-Anything",
-      "url": "https://github.com/Lum1104/Understand-Anything",
-      "image": "images/2026-11-11/2026-11-11_vibecoding_3.jpg",
+      "subcat": "开发者圈",
+      "platform": "Hacker News",
+      "title": "前Meta工程师揭露AI代码脆弱性",
+      "url": "https://news.ycombinator.com/item?id=50438318",
+      "image": "images/2026-11-12/2026-11-12_vibecoding_2.jpg",
       "detail": [
-        "GitHub Trending项目Understand-Anything（Lum1104/Understand-Anything）近日突破3.03万Star，是一款面向开发者的交互式代码理解工具。该项目通过自动生成交互式知识图谱，帮助开发者快速理解陌生代码库的结构、逻辑和依赖关系，特别适用于入职新项目或接手遗留代码的场景。",
-        "Understand-Anything的核心功能包括自动代码结构分析、函数调用链可视化、模块依赖图绘制和关键路径标注。工具支持一键导入GitHub仓库或本地代码目录，在数分钟内生成可交互的Web界面，开发者可以通过点击节点展开详情、追踪调用路径和查看代码片段。",
-        "与传统的静态分析工具不同，Understand-Anything集成了AI模型来生成代码摘要和设计意图解释。每个知识图谱节点都附带AI生成的自然语言描述，帮助开发者理解代码的设计逻辑而非仅关注语法结构。这一设计在社区中获得了高度评价，多位开发者表示该工具将新项目上手时间从数天缩短到数小时。",
-        "项目的开源性质和零配置设计降低了使用门槛，使其在中小型开发团队中快速传播。作者表示下一步计划增加实时协作功能，允许多个开发者同时在同一知识图谱上标注和讨论，进一步推动代码理解从个人活动向团队协作演进。"
+        "11月11日一篇名为\"AI usage generates a fragile codebase\"的文章在Hacker News引爆讨论，获得388分和410条评论，成为当日非模型发布类话题中热度最高的帖子。作者Evan X. Merz是前Meta工程师，自称在Meta最后数月中超过90%的代码由AI生成。他以亲历者视角指出AI编码工具虽然加速了代码产出，却在代码库中积累了隐藏的脆弱性。Merz于2026年5月从Meta离职，他的观察基于一线大厂的真实AI编码实践。",
+        "Merz总结了四大成因：AI倾向于编写浅层测试如仅检查getter/setter的trivial用例而非业务逻辑验证；过度应用DRY原则并添加不必要的辅助方法导致代码结构臃肿且难以追踪；依赖AI的开发者对自身代码理解程度下降在事故发生时难以快速诊断；AI生成的Pull Request到达速度超过审查者有效检查的速度使review沦为形式。他特别强调AI并未实现十倍产出提升甚至未达到两倍——因为他选择花时间保障代码质量而同事则以更快速度合并脆弱变更。",
+        "这篇文章在11月11日达到讨论高峰引发了VibeCoding社区最实质性的工程辩论。支持者引用生产力提升和开发速度数据，批评者强调长期维护成本和系统性风险。410条评论中出现了大量一线工程师的真实经验分享，有人描述\"AI生成1199行无人理解的变更\"，也有人展示了成功的大规模AI辅助开发实践。辩论核心已从\"AI能不能写代码\"转向\"AI写的代码能不能维护\"，标志着社区对VibeCoding的思考从狂热期进入理性反思期。",
+        "文章传播后dev.to上迅速出现技术响应：一位开发者构建了CLI工具通过测量孤立代码行比例、变更复杂度和覆盖率信号来量化AI生成变更的\"脆弱度分数\"，并发现标准Co-Authored-By提交标记竟可绕过检测。UK AI Weekly等媒体也从工程管理角度深度分析，建议团队在关注产出速度的同时同步追踪事故率、恢复时间和有效测试覆盖率。这场讨论促使更多团队开始建立AI编码的审查规范和质量门禁机制。"
       ]
     },
     {
-      "id": "2026-11-11_gaming_1",
-      "date": "2026-11-11",
-      "category": "Gaming",
-      "subcat": "Update",
-      "platform": "Inven Global",
-      "title": "星穹铁道4.7版本上线",
-      "url": "https://www.invenglobal.com/articles/28022/honkai-star-rail-to-release-version-47-update-on-november-11",
-      "image": "images/2026-11-11/2026-11-11_gaming_1.jpg",
+      "id": "2026-11-12_vibecoding_3",
+      "date": "2026-11-12",
+      "category": "VibeCoding",
+      "subcat": "AI Coding",
+      "platform": "Hacker News",
+      "title": "Apple Harbor简化Mac本地AI运行",
+      "url": "https://news.ycombinator.com/item?id=50446520",
+      "image": "images/2026-11-12/2026-11-12_vibecoding_3.jpg",
       "detail": [
-        "《崩坏：星穹铁道》于11月11日正式上线4.7版本更新，主题为「如今，将欢笑献给群星」。本次更新引入了全新可玩角色Aeon★Aha（欢愉命途·量子属性），这是游戏首次将星神本身作为可操控角色加入卡池，在玩家社区中引发了巨大反响。版本更新还重启了Silver Wolf LV.999、Sparxie和Yao Guang三位人气角色。",
-        "4.7版本的核心系统革新是EX-Eidolon（星魂扩展）系统的引入，允许玩家在特定条件下解锁角色的额外星魂效果，为角色养成提供了新的深度维度。同时更新带来了全新剧情章节，围绕「欢愉」星神Aha展开，探索宇宙中笑声与混乱的哲学主题，剧情内容量超过此前任何版本更新。",
-        "版本更新前预下载已于11月10日开放，全球服在11月11日UTC+8进行约5小时维护后正式开放。玩家社区对Aeon★Aha的角色设计和战斗机制反响热烈，多个社交平台的相关话题登上热搜。首日流水预期将刷新4.x系列版本记录，分析师指出星神角色的稀缺性和独特机制是主要驱动因素。",
-        "本次更新还优化了回合制战斗系统的节奏和视觉效果，新增了「星神试炼」高难度挑战模式，为资深玩家提供了更具策略性的战斗内容。开发团队表示4.7版本是2026年最后一个大版本更新，后续将进入年度总结和2027年路线图预告阶段。"
+        "北京时间11月11日9to5Mac披露Apple正在开发名为Harbor的Mac应用，目前以Claris品牌进行私下预览。该应用旨在简化在Mac上运行本地AI模型的过程，对于依赖本地模型进行AI编码的开发者群体意义重大。消息发布后迅速登上Hacker News头条获得502分和513条评论，成为当日AI基础设施话题中讨论量最高的帖子。themorning.dev将其标记为\"Launch, Medium impact\"级别事件。",
+        "Harbor最引人注目的特性是支持通过Thunderbolt 5连接两台或更多Mac将统一内存池化用于模型推理。这意味着开发者可以突破单台Mac的内存限制运行超出单机内存容量的更大模型。对于VibeCoding生态这直接关系到本地运行的编码代理——如通过Ollama运行本地模型的OpenCode、连接本地OpenAI兼容端点的Claude Code、以及LM Studio等工具——的性能上限和可用模型范围。当前开发者运行本地编码模型需要手动配置多个工具链，Harbor可能成为Apple官方的一站式解决方案。",
+        "HN讨论中开发者反应两极分化。约25%的评论者期待\"无需手动配置的本地模型运行方案\"认为这正是他们等待多年的工具；约20%对Claris品牌表示怀疑认为这个鲜为人知的Apple子公司难以承担重大AI产品的开发；另有20%担忧Mac硬件短缺和高DRAM价格使方案成本过高。约10%的评论者将集群功能视为关键差异点认为通过Thunderbolt 5池化内存是Apple硬件生态的独特优势。也有人指出云端模型目前仍更便宜本地方案的价值在于隐私和延迟。",
+        "对VibeCoding工作流而言Harbor如果按描述发布将显著降低本地AI编码的门槛。当前开发者运行本地编码模型需要手动配置Ollama、LM Studio等工具并处理模型量化、内存分配等细节，而Harbor的厂商支持方案可能消除这些摩擦。集群功能的差异化价值在于通过Thunderbolt 5池化统一内存，两台配备128GB内存的Mac Studio理论上可运行超过200GB参数的模型接近云端API的模型能力同时保持数据本地化。目前Apple尚未公布正式发布时间Harbor仍处于Claris品牌下的私有预览阶段。"
       ]
     },
     {
-      "id": "2026-11-11_gaming_2",
-      "date": "2026-11-11",
+      "id": "2026-11-12_gaming_1",
+      "date": "2026-11-12",
       "category": "Gaming",
-      "subcat": "Event",
-      "platform": "games.gg",
-      "title": "GTA6音乐节门票开售",
-      "url": "https://games.gg/news/grand-theft-auto-vi-the-festival-miami/",
-      "image": "images/2026-11-11/2026-11-11_gaming_2.jpg",
+      "subcat": "AAA/行业",
+      "platform": "Game Informer",
+      "title": "GTA6预载开放确认30帧",
+      "url": "https://gameinformer.com/2026/11/10/grand-theft-auto-vi-will-run-at-30-fps-on-all-consoles-but-ps5-pro-will-feature-improved",
+      "image": "images/2026-11-12/2026-11-12_gaming_1.jpg",
       "detail": [
-        "Rockstar Games于11月9日宣布将在迈阿密Mana Wynwood举办「Grand Theft Auto VI: The Festival」音乐节，庆祝GTA 6于11月19日正式发售。音乐节定于11月21日举行，即游戏发售两天后，由PlayStation联合呈现，III Points团队制作。演出阵容包括Travis Scott、Cardi B、Metro Boomin、Justice（DJ Set）等13组艺人。",
-        "门票采用抽签制购买，注册已于11月10日下午4点ET截止，中签者将在当天晚上7点前收到短信通知。中签者可于11月11日中午12点ET通过DICE平台购票，每人限购两张，购票者须年满17岁。票价尚未提前公布，仅在购票窗口开放后显示。这一稀缺性策略在社区引发了广泛讨论。",
-        "音乐节的阵容与GTA 6游戏内音乐深度绑定，所有演出艺人均参与了游戏或原声带的创作。Travis Scott为GTA 6原声专辑贡献了原创曲目，Justice为游戏谱写了完整原创配乐（12月11日发行），Cardi B则发布了与GTA 6联动的单曲《Don't Chart》。这使音乐节成为游戏世界与现实世界的跨界体验。",
-        "GTA 6原声专辑《GTA 6: The Album》将于11月19日同步发行，包含34首原创曲目，Keith Richards等传奇音乐人也参与了录制。游戏预售量已估计达770万份，接近Cyberpunk 2077的历史纪录。音乐节和原声带的发布策略被视为Rockstar将GTA 6打造为跨媒体文化事件的野心体现。"
+        "Rockstar于11月10日开放GTA 6数字预载，距11月19日发售仅九天。游戏以虚构佛罗里达州Leonida为舞台重返罪恶城，讲述Lucia和Jason的犯罪故事，Lucia为系列首位女性主角。前作GTA V售出超2.2亿份，索尼和微软均确认GTA 6为各自商店史上预购量最高的游戏。双方同时敦促玩家尽快预载，预载文件高达212GB，Xbox商店数据显示实际下载量225.3GB。",
+        "Rockstar同时确认GTA 6在PS5、PS5 Pro和Xbox Series X|S上均以30帧为目标，无单独性能模式。官方称30帧是维持Leonida世界密度和视觉保真度的代价。PS5 Pro独占PSSR（AI升采样）和光线追踪阴影但帧率不提升。512GB版Series S可用空间将被占去过半。微软另宣布GTA 6将于11月19日支持Xbox Cloud Gaming使Xbox One玩家也能串流体验，11月11日起支持市场的玩家无需Game Pass订阅即可购买云游戏时长。",
+        "30帧确认在社区引发激烈讨论。部分玩家对当前世代主机无法达到60帧表示失望，也有理解者认为保真度优先是合理的艺术决策。212GB存储需求令大量玩家担忧。据Sensor Tower估计GTA 6数字版预购约771万份价值约7.51亿美元，74%来自PlayStation。Take-Two将发售季度营收指引设为33.5至35亿美元。实体版11月12日起发货到达零售渠道。",
+        "标准版售价80美元，终极版100美元。伦敦Selfridges已变身为罪恶城主题零售空间，迈阿密将于11月21日举办GTA 6音乐节。GTA 6原声专辑《GTA 6: The Album》将于11月19日同步发行包含34首原创曲目，Keith Richards等传奇音乐人参与录制。游戏预售量已估计达770万份接近Cyberpunk 2077的历史纪录，Rockstar正将GTA 6打造为跨媒体文化事件。"
       ]
     },
     {
-      "id": "2026-11-11_gaming_3",
-      "date": "2026-11-11",
+      "id": "2026-11-12_gaming_2",
+      "date": "2026-11-12",
       "category": "Gaming",
-      "subcat": "Release",
-      "platform": "GameDaily",
-      "title": "魔界战记派对游戏发售",
-      "url": "https://gamedaily.com/games/prinny-party-going-overboard-release-date",
-      "image": "images/2026-11-11/2026-11-11_gaming_3.jpg",
+      "subcat": "JRPG",
+      "platform": "Nintendo Life",
+      "title": "暗喻幻想Switch2版发售",
+      "url": "https://www.nintendolife.com/reviews/nintendo-switch-2/metaphor-refantazio",
+      "image": "images/2026-11-12/2026-11-12_gaming_2.jpg",
       "detail": [
-        "NIS America于11月11日正式发售《Prinny Party: Going Overboard!》（魔界战记派对游戏），登陆Nintendo Switch 2、Nintendo Switch、PlayStation 5和Steam平台。这是《魔界战记》系列的衍生派对游戏，支持四人本地多人游玩，免费体验版已在发售前上线各平台商店。",
-        "游戏以系列标志性角色Prinny（企鹅型魔界居民）为主角，玩家在棋盘式地图上移动、收集道具并触发迷你游戏对战。核心模式要求玩家组队对抗「Supreme Overboard」及其「Protago-Knights」，融合了传统桌游的策略性与派对游戏的欢乐氛围。地图上设有陷阱、加速带和随机事件格，确保每局体验不同。",
-        "本作是《魔界战记》IP首次向派对游戏类型扩展的尝试，NIS America选择在Switch 2首发期内跨平台同步发售，覆盖了尽可能多的玩家群体。游戏支持跨世代联机，Switch和Switch 2玩家可以同场游玩，这一设计在家庭聚会场景中具有实用价值。",
-        "发售日选择在11月11日避开了11月19日GTA 6的发布窗口，体现了中小型发行商对档期策略的谨慎考量。NIS America表示免费体验版上线后注册量超出预期，特别是日本和北美市场的关注度较高。系列粉丝对Prinny角色的幽默风格和魔界战记世界观在派对游戏中的呈现表示期待。"
+        "ATLUS旗下Studio Zero的幻想RPG《暗喻幻想：ReFantazio》于11月12日登陆Nintendo Switch 2，定价3990日元（含税）较其他平台原价更低。该作2024年10月首发获The Game Awards 2024最佳RPG等三项大奖及日本游戏大奖2025年度大奖，PS5版Metascore高达94分。由《女神异闻录3/4/5》核心团队桥野桂、副岛成记和目黑将司联手打造，被业界视为PS2时代以来JRPG的标杆之作。",
+        "Switch 2版评测于11月11日解禁。Nintendo Life称其为\"非凡的JRPG\"叙事和战斗均属顶尖水准。Digitally Downloaded认为这是\"值得反复品味的艺术品\"移植几乎没有妥协。然而Digital Foundry在技术分析中指出一个显著缺陷：游戏使用DLSS升采样静止时垂直轴出现严重阶梯状锯齿移动时明显改善。DF认为这是ATLUS的技术失误而非有意设计。掌机模式下游戏估算运行在1280x720p并通过DLSS升采样。",
+        "尽管静止时有锯齿问题DF认为整体视觉效果优于PS4版运动平滑度甚至超过PS5版（后者因缺乏抗锯齿存在闪烁问题）。评测者普遍认为分辨率下降对动漫风格画面影响甚微，80余小时完整JRPG体验可随身携带是该版本最大价值。部分评测指出掌机小屏上界面略显拥挤。数字豪华版\"ATLUS 35周年数字纪念版\"定价5990日元含数字画集、原声集应用及DLC。早期购入特典含经验加成道具和游戏内货币。",
+        "Demo已上线且存档可继承至正式版。角色设计师副岛成记为Switch 2版发售绘制了全新插画以示庆祝。社区普遍期待ATLUS在发售后通过补丁修复DLSS垂直轴锯齿问题。Switch 2版的发售恰逢年末购物季前期，SEGA预期将成为Switch 2平台上RPG品类的销量主力。该作在Switch 2上的表现也将为ATLUS后续 Persona 系列登陆该平台提供重要参考。"
       ]
     },
     {
-      "id": "2026-11-11_gaming_4",
-      "date": "2026-11-11",
+      "id": "2026-11-12_gaming_3",
+      "date": "2026-11-12",
       "category": "Gaming",
-      "subcat": "Release",
-      "platform": "GoNintendo",
-      "title": "暗喻幻想登陆Switch2",
-      "url": "https://gonintendo.com/contents/61676-metaphor-refantazio-launches-on-switch-2-nov-12th-2026-update",
-      "image": "images/2026-11-11/2026-11-11_gaming_4.jpg",
+      "subcat": "策略",
+      "platform": "Eurogamer",
+      "title": "皮克敏4 Switch2版发售",
+      "url": "https://www.eurogamer.net/pikmin-4-switch-2-edition-release-date-demo",
+      "image": "images/2026-11-12/2026-11-12_gaming_3.jpg",
       "detail": [
-        "ATLUS与SEGA联合宣布，《暗喻幻想：ReFantazio》Nintendo Switch 2版将于11月12日正式发售，数字预购已于11月11日晚间截止。Switch 2版定价39.99美元，远低于PS5/Xbox版的59.99美元首发价，体现了ATLUS对新平台定价策略的调整。同时推出的还有35周年数字纪念版，包含游戏本体、数字画册、原声集和DLC。",
-        "《暗喻幻想》原版于2024年10月发售，首日销量即突破百万，成为ATLUS史上销售最快的游戏。游戏获得了The Game Awards 2024最佳RPG、最佳叙事和最佳艺术指导三项大奖，PlayStation版Metacritic评分高达94分。Switch 2版由ATLUS Studio Zero原班团队移植，在保持完整游戏内容的基础上针对Switch 2硬件进行了性能优化。",
-        "Switch 2版新增了与Joy-Con 2体感操控的集成，并支持主机模式下更高的分辨率输出。预购数字版的玩家可获得「原型经验宝箱集」和「冒险者旅程包」等早期购入特典，包含经验加成道具和回复物品。SEGA表示Switch 2版的低价策略旨在吸引新玩家群体，扩大ATLUS RPG的受众基础。",
-        "游戏由《女神异闻录》系列制作人桥野桂、角色设计师副岛成记和作曲家目黑将司联手打造，被业界视为PS2时代以来JRPG的标杆之作。Switch 2版的发售恰逢年末购物季前期，SEGA预期将成为Switch 2平台上RPG品类的销量主力。角色设计师副岛成记为Switch 2版专门绘制了全新插图以示庆祝。"
+        "《皮克敏4》Nintendo Switch 2 Edition于11月12日发售，新增\"Dandori学院\"模式。原版2023年7月登陆Switch是系列十年后的全新正作。Switch 2版增加72个Dandori考试关卡、Oatchi语音指令、GameShare联机和高分辨率画面强化。已拥有原版的玩家可花9.99美元购买升级包需配合原版游戏使用。文件大小约1.2GB支持1至2人游玩。",
+        "Dandori学院为限时考试模式72个关卡分批发布设三种难度等级最高难度将面对\"女皇恰比\"（Empress Bulblax）。考试每周五、六、日开放。新功能亮点是通过Switch 2内置麦克风向太空狗Oatchi发出语音指令包括\"嗷呜\"（Howl-Out）等口令。TV模式和掌机模式均获高分辨率强化皮克敏在战场上的细节更加清晰。Demo已上架eShop进度可继承。",
+        "GameShare功能允许与没有游戏的好友联机游玩Dandori对战模式需所有参与者拥有Switch 2和GameChat功能及NSO会员资格。任天堂已于11月4日推送原版2.0.0更新为Switch 2版做准备并修复若干问题。跨界联动方面游玩Switch 2版并完成特定考试可在《Pikmin Bloom》中获限定Mii服装和明信片。",
+        "系列创始人宫本茂在10月31日的Pikmin Day Direct中宣布11月1日为\"皮克敏日\"并邀请日本演员小日向向香担任系列新大使。Direct虽无新作公布但展示了Dandori学院玩法演示和系列全新动画短片。Switch 2版的GameChat和GameShare功能使多人体验门槛显著降低，Dandori对战支持同机双人或在线联机。这是任天堂第一方IP在Switch 2增强版策略下的又一重要落地。"
+      ]
+    },
+    {
+      "id": "2026-11-12_gaming_4",
+      "date": "2026-11-12",
+      "category": "Gaming",
+      "subcat": "模拟/策略",
+      "platform": "Steam",
+      "title": "Main Sequence太空工厂EA",
+      "url": "https://store.steampowered.com/app/2487190/Main_Sequence/",
+      "image": "images/2026-11-12/2026-11-12_gaming_4.jpg",
+      "detail": [
+        "由Tumbling Dumpling Studio开发、Mythwright发行的太空工厂建造游戏《Main Sequence》于11月12日登陆Steam抢先体验。这是一款第一人称太空工业建造游戏，玩家从一艘采矿船起步逐步设计飞船、建造空间站、建立自动化生产线最终打造星际工业帝国。独立开发者Kaiden历经数年开发，游戏在Steam累积超过20万愿望单。Steam关注者近1.5万社区Discord已有活跃的玩家建造展示和讨论。",
+        "抢先体验版定价24.99美元/24.99欧元/21.99英镑发售首两周享20%折扣。核心玩法包括小行星扫描采矿、资源精炼、空间站工厂建造、传送带自动化生产线设计以及模块化飞船设计——货舱、反应堆、武器均可自定义。飞船设计可保存分享或在创造模式自由建造。支持单人及在线合作多人模式合作中每位玩家拥有独立飞船。Demo已上线存档可继承。",
+        "游戏在工厂建造和太空模拟爱好者社区受到广泛关注。开发者表示抢先体验只是旅程的开始将根据玩家反馈持续扩展科技树、飞船和空间站模块。游戏与X4: Foundations、shapez 2和Astrometica推出Steam捆绑包拥有这些游戏的玩家可折扣补差价。PvE战斗系统含护盾发生器等装备海盗派系为自动化建造增添战术挑战。",
+        "Next Fest期间Demo更新新增电磁科学研究内容、合作多人模式和护盾发生器Mk.1等新装备。10月21日热修复补丁修复了停靠区和无人机湾筛选器问题。开发者计划在抢先体验期间持续扩展内容支持英语等十种语言界面。该游戏填补了Factorio风格自动化建造与太空模拟之间的空白，是2026年独立游戏在工厂建造品类中的亮眼新作。"
       ]
     }
   ],
-  "total": 10
+  "total": 11
 }
