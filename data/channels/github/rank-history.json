@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-12": {
-      "morluto/rea": 1,
-      "boykopovar/AnyPS5": 2,
-      "storytold/artcraft": 3,
-      "debpalash/VoiceStudio": 4,
-      "hugohe3/ppt-master": 5,
-      "bilawalsidhu/gods-eye-view": 6,
-      "chthollyphile/folia-major": 7,
-      "Alishahryar1/free-claude-code": 8,
-      "huggingface/transformers": 9,
-      "anthropics/knowledge-work-plugins": 10,
-      "pytorch/pytorch": 11,
-      "alibaba/open-code-review": 12,
-      "CopilotKit/OpenIntelligentUI": 13,
-      "Shubhamsaboo/awesome-llm-apps": 14,
-      "HunxByts/GhostTrack": 15,
-      "agalwood/Motrix": 16,
-      "Tencent/WeKnora": 17,
-      "XiaoYouChR/Ghost-Downloader-3": 18,
-      "datawhalechina/hello-agents": 19,
-      "microsoft/TRELLIS.2": 20,
-      "denoland/celld": 21,
-      "langgenius/dify": 22,
-      "Wei-Shaw/sub2api": 23,
-      "QuantumNous/new-api": 24,
-      "multica-ai/multica": 25
-    },
     "2026-10-13": {
       "morluto/rea": 1,
       "storytold/artcraft": 2,
@@ -836,6 +809,33 @@
       "ashishpatel26/500-AI-Agents-Projects": 23,
       "Tencent/WeKnora": 24,
       "trufflesecurity/trufflehog": 25
+    },
+    "2026-11-12": {
+      "meta/astryx": 1,
+      "sherlock-project/sherlock": 2,
+      "we-promise/sure": 3,
+      "anthropics/skills": 4,
+      "addyosmani/agent-skills": 5,
+      "ranxianglei/billion-context": 6,
+      "vercel-labs/agent-browser": 7,
+      "homeassistant-ai/ha-mcp": 8,
+      "Alishahryar1/free-claude-code": 9,
+      "experientiallabs/experiential": 10,
+      "anthropics/claude-quickstarts": 11,
+      "ZhuLinsen/daily_stock_analysis": 12,
+      "garrytan/gbrain": 13,
+      "Anil-matcha/Open-Generative-AI": 14,
+      "ruvnet/RuView": 15,
+      "multica-ai/multica": 16,
+      "LibreSpark/LibreTV": 17,
+      "browser-use/browser-use": 18,
+      "GoogleChrome/modern-web-guidance-src": 19,
+      "dream-num/univer": 20,
+      "NapNeko/NapCatQQ": 21,
+      "Tencent/WeKnora": 22,
+      "ShayanAbbas1/dbdelve": 23,
+      "opensandbox-group/OpenSandbox": 24,
+      "shy3130/tick-stock-panel": 25
     }
   }
 }
