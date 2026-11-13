@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-13": {
-      "morluto/rea": 1,
-      "storytold/artcraft": 2,
-      "bilawalsidhu/gods-eye-view": 3,
-      "debpalash/VoiceStudio": 4,
-      "hugohe3/ppt-master": 5,
-      "paperclipai/paperclip": 6,
-      "Alishahryar1/free-claude-code": 7,
-      "chthollyphile/folia-major": 8,
-      "tashfeenahmed/freellmapi": 9,
-      "pytorch/pytorch": 10,
-      "public-apis/public-apis": 11,
-      "OpenBMB/VoxCPM": 12,
-      "CopilotKit/OpenIntelligentUI": 13,
-      "multimodal-art-projection/YuE": 14,
-      "ranxianglei/billion-context": 15,
-      "Crosstalk-Solutions/project-nomad": 16,
-      "rmyndharis/OpenWA": 17,
-      "ollama/ollama": 18,
-      "agalwood/Motrix": 19,
-      "microsoft/BitNet": 20,
-      "huggingface/transformers": 21,
-      "gtsteffaniak/filebrowser": 22,
-      "greensock/GSAP": 23,
-      "Armur-Ai/Pentest-Swarm-AI": 24,
-      "JoeanAmier/TikTokDownloader": 25
-    },
     "2026-10-14": {
       "morluto/rea": 1,
       "storytold/artcraft": 2,
@@ -836,6 +809,33 @@
       "ShayanAbbas1/dbdelve": 23,
       "opensandbox-group/OpenSandbox": 24,
       "shy3130/tick-stock-panel": 25
+    },
+    "2026-11-13": {
+      "meta/astryx": 1,
+      "ZhuLinsen/daily_stock_analysis": 2,
+      "we-promise/sure": 3,
+      "addyosmani/agent-skills": 4,
+      "GoogleChrome/modern-web-guidance-src": 5,
+      "homeassistant-ai/ha-mcp": 6,
+      "openai/codex-security": 7,
+      "vercel-labs/agent-browser": 8,
+      "Alishahryar1/free-claude-code": 9,
+      "CopilotKit/OpenBot": 10,
+      "NVIDIA/SkillSpector": 11,
+      "pookjw/HermesEnabler": 12,
+      "Tencent/LoopForge": 13,
+      "ggml-org/llama.cpp": 14,
+      "tailscale/tailcat": 15,
+      "n8n-io/n8n": 16,
+      "QwenLM/qwen-code": 17,
+      "multica-ai/multica": 18,
+      "every-app/open-seo": 19,
+      "laoma528/awesome-zhuiju-free": 20,
+      "OpenWhispr/openwhispr": 21,
+      "openai/whisper": 22,
+      "mvanhorn/last30days-skill": 23,
+      "NVIDIA/SkillEvaluator": 24,
+      "ShayanAbbas1/dbdelve": 25
     }
   }
 }
