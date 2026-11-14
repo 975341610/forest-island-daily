@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-14": {
-      "morluto/rea": 1,
-      "storytold/artcraft": 2,
-      "bilawalsidhu/gods-eye-view": 3,
-      "vxcontrol/pentagi": 4,
-      "debpalash/VoiceStudio": 5,
-      "Alishahryar1/free-claude-code": 6,
-      "xtool-org/xtool": 7,
-      "heygen-com/hyperframes": 8,
-      "tashfeenahmed/freellmapi": 9,
-      "alibaba/open-code-review": 10,
-      "harry0703/MoneyPrinterTurbo": 11,
-      "ruvnet/RuView": 12,
-      "Tencent/WeKnora": 13,
-      "baidu/Unlimited-OCR": 14,
-      "apify/apify-mcp-server": 15,
-      "vercel-labs/skills": 16,
-      "Crosstalk-Solutions/project-nomad": 17,
-      "CopilotKit/OpenIntelligentUI": 18,
-      "every-app/open-seo": 19,
-      "NVIDIA/personaplex": 20,
-      "krillinai/OpenCreator": 21,
-      "rommapp/romm": 22,
-      "multica-ai/multica": 23,
-      "citrolabs/ego-lite": 24,
-      "browser-use/video-use": 25
-    },
     "2026-10-15": {
       "morluto/rea": 1,
       "debpalash/VoiceStudio": 2,
@@ -836,6 +809,33 @@
       "mvanhorn/last30days-skill": 23,
       "NVIDIA/SkillEvaluator": 24,
       "ShayanAbbas1/dbdelve": 25
+    },
+    "2026-11-14": {
+      "GoogleChrome/modern-web-guidance-src": 1,
+      "we-promise/sure": 2,
+      "Alishahryar1/free-claude-code": 3,
+      "openai/codex-security": 4,
+      "CopilotKit/OpenBot": 5,
+      "addyosmani/agent-skills": 6,
+      "QwenLM/qwen-code": 7,
+      "tailscale/tailcat": 8,
+      "Likely7/Veyra-NRVideo": 9,
+      "alibaba/open-code-review": 10,
+      "NVIDIA/SkillSpector": 11,
+      "Tencent/LoopForge": 12,
+      "multica-ai/multica": 13,
+      "ModernRelay/omnigraph": 14,
+      "ollama/ollama": 15,
+      "anthropics/claude-plugins-official": 16,
+      "headroomlabs-ai/headroom": 17,
+      "a2ui-project/a2ui": 18,
+      "volcengine/OpenViking": 19,
+      "mvanhorn/last30days-skill": 20,
+      "backnotprop/plannotator": 21,
+      "ShayanAbbas1/dbdelve": 22,
+      "block/buzz": 23,
+      "shanliuling/dsh-image-gen": 24,
+      "Tencent/WeKnora": 25
     }
   }
 }

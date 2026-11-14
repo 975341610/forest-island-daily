@@ -308,9 +308,9 @@
       "html_url": "https://github.com/longbridge/gpui-kit"
     },
     "anthropics/claude-plugins-official": {
-      "best_rank": 21,
-      "appearances": 1,
-      "total_today_stars": 149,
+      "best_rank": 16,
+      "appearances": 2,
+      "total_today_stars": 279,
       "language": "Python",
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/76263028?v=4",
@@ -354,8 +354,8 @@
     },
     "addyosmani/agent-skills": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 2068,
+      "appearances": 4,
+      "total_today_stars": 2659,
       "language": "JavaScript",
       "description": "Production-grade engineering skills for AI coding agents.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/110953?v=4",
@@ -398,9 +398,9 @@
       "html_url": "https://github.com/WhiteTowerAI/ohmygame"
     },
     "we-promise/sure": {
-      "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 2204,
+      "best_rank": 2,
+      "appearances": 4,
+      "total_today_stars": 3129,
       "language": "Ruby",
       "description": "The personal finance app for everyone (by everyone)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/222344567?v=4",
@@ -426,17 +426,17 @@
     },
     "Tencent/WeKnora": {
       "best_rank": 22,
-      "appearances": 2,
-      "total_today_stars": 221,
+      "appearances": 3,
+      "total_today_stars": 309,
       "language": "Go",
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
       "html_url": "https://github.com/Tencent/WeKnora"
     },
     "Alishahryar1/free-claude-code": {
-      "best_rank": 9,
-      "appearances": 2,
-      "total_today_stars": 1051,
+      "best_rank": 3,
+      "appearances": 3,
+      "total_today_stars": 1838,
       "language": "Python",
       "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
       "owner_avatar": "https://avatars.githubusercontent.com/u/20476625?v=4",
@@ -452,9 +452,9 @@
       "html_url": "https://github.com/experientiallabs/experiential"
     },
     "multica-ai/multica": {
-      "best_rank": 16,
-      "appearances": 2,
-      "total_today_stars": 348,
+      "best_rank": 13,
+      "appearances": 3,
+      "total_today_stars": 515,
       "language": "Go",
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
@@ -479,9 +479,9 @@
       "html_url": "https://github.com/browser-use/browser-use"
     },
     "GoogleChrome/modern-web-guidance-src": {
-      "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 898,
+      "best_rank": 1,
+      "appearances": 3,
+      "total_today_stars": 2823,
       "language": "TypeScript",
       "description": "",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1778935?v=4",
@@ -506,9 +506,9 @@
       "html_url": "https://github.com/NapNeko/NapCatQQ"
     },
     "ShayanAbbas1/dbdelve": {
-      "best_rank": 23,
-      "appearances": 2,
-      "total_today_stars": 209,
+      "best_rank": 22,
+      "appearances": 3,
+      "total_today_stars": 315,
       "language": "Rust",
       "description": "Fast and lightweight DB Client made in Rust and GPUI.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/74356580?v=4",
@@ -524,18 +524,18 @@
       "html_url": "https://github.com/shy3130/tick-stock-panel"
     },
     "openai/codex-security": {
-      "best_rank": 7,
-      "appearances": 1,
-      "total_today_stars": 643,
+      "best_rank": 4,
+      "appearances": 2,
+      "total_today_stars": 1394,
       "language": "TypeScript",
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "owner_avatar": "https://avatars.githubusercontent.com/u/14957082?v=4",
       "html_url": "https://github.com/openai/codex-security"
     },
     "CopilotKit/OpenBot": {
-      "best_rank": 10,
-      "appearances": 1,
-      "total_today_stars": 298,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 972,
       "language": "TypeScript",
       "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/131273140?v=4",
@@ -543,8 +543,8 @@
     },
     "NVIDIA/SkillSpector": {
       "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 297,
+      "appearances": 2,
+      "total_today_stars": 487,
       "language": "Python",
       "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
@@ -560,9 +560,9 @@
       "html_url": "https://github.com/pookjw/HermesEnabler"
     },
     "Tencent/LoopForge": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 184,
+      "best_rank": 12,
+      "appearances": 2,
+      "total_today_stars": 358,
       "language": "Go",
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -578,9 +578,9 @@
       "html_url": "https://github.com/ggml-org/llama.cpp"
     },
     "tailscale/tailcat": {
-      "best_rank": 15,
-      "appearances": 1,
-      "total_today_stars": 173,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 429,
       "language": "Go",
       "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "owner_avatar": "https://avatars.githubusercontent.com/u/48932923?v=4",
@@ -596,9 +596,9 @@
       "html_url": "https://github.com/n8n-io/n8n"
     },
     "QwenLM/qwen-code": {
-      "best_rank": 17,
-      "appearances": 1,
-      "total_today_stars": 151,
+      "best_rank": 7,
+      "appearances": 2,
+      "total_today_stars": 613,
       "language": "TypeScript",
       "description": "An open-source AI coding agent that lives in your terminal.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/141221163?v=4",
@@ -632,9 +632,9 @@
       "html_url": "https://github.com/openai/whisper"
     },
     "mvanhorn/last30days-skill": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 112,
+      "best_rank": 20,
+      "appearances": 2,
+      "total_today_stars": 223,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
@@ -648,6 +648,96 @@
       "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
       "html_url": "https://github.com/NVIDIA/SkillEvaluator"
+    },
+    "Likely7/Veyra-NRVideo": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 256,
+      "language": "C++",
+      "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/243683505?v=4",
+      "html_url": "https://github.com/Likely7/Veyra-NRVideo"
+    },
+    "alibaba/open-code-review": {
+      "best_rank": 10,
+      "appearances": 1,
+      "total_today_stars": 215,
+      "language": "Go",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
+      "html_url": "https://github.com/alibaba/open-code-review"
+    },
+    "ModernRelay/omnigraph": {
+      "best_rank": 14,
+      "appearances": 1,
+      "total_today_stars": 160,
+      "language": "Rust",
+      "description": "Object-storage native graph database with branching and typed ontology",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/206314331?v=4",
+      "html_url": "https://github.com/ModernRelay/omnigraph"
+    },
+    "ollama/ollama": {
+      "best_rank": 15,
+      "appearances": 1,
+      "total_today_stars": 141,
+      "language": "Go",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/151674099?v=4",
+      "html_url": "https://github.com/ollama/ollama"
+    },
+    "headroomlabs-ai/headroom": {
+      "best_rank": 17,
+      "appearances": 1,
+      "total_today_stars": 120,
+      "language": "Python",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/294291659?v=4",
+      "html_url": "https://github.com/headroomlabs-ai/headroom"
+    },
+    "a2ui-project/a2ui": {
+      "best_rank": 18,
+      "appearances": 1,
+      "total_today_stars": 117,
+      "language": "TypeScript",
+      "description": "Open-source generative UI framework: agents stream layout data, and apps render it with native components in React, Angular, Lit, Flutter, SwiftUI and Jetpack Compose.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/265316950?v=4",
+      "html_url": "https://github.com/a2ui-project/a2ui"
+    },
+    "volcengine/OpenViking": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 113,
+      "language": "Python",
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/67365215?v=4",
+      "html_url": "https://github.com/volcengine/OpenViking"
+    },
+    "backnotprop/plannotator": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 108,
+      "language": "TypeScript",
+      "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/7244317?v=4",
+      "html_url": "https://github.com/backnotprop/plannotator"
+    },
+    "block/buzz": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 97,
+      "language": "Rust",
+      "description": "A hive mind communication platform",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/185116535?v=4",
+      "html_url": "https://github.com/block/buzz"
+    },
+    "shanliuling/dsh-image-gen": {
+      "best_rank": 24,
+      "appearances": 1,
+      "total_today_stars": 95,
+      "language": "TypeScript",
+      "description": " 可在对话内生成、编辑、对比图像；内置 500 + 提示词、图库、多模型工作流，支持 ComfyUI。AI image studio for DeepSeek Harness — generate, edit & compare images in chat, with 500+ prompts, gallery, multi-model workflows and ComfyUI.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/83563400?v=4",
+      "html_url": "https://github.com/shanliuling/dsh-image-gen"
     }
   }
 }
