@@ -1,0 +1,172 @@
+[
+  {
+    "id": "2026-11-14_vibecoding_3",
+    "date": "2026-11-14",
+    "category": "VibeCoding",
+    "subcat": "开源模型",
+    "platform": "GitHub",
+    "platform_color": "#181717",
+    "title": "Edge0开源145B端侧模型",
+    "url": "https://github.com/Edge0-AI/Edge0",
+    "image": "images/2026-11-14/2026-11-14_vibecoding_3.jpg",
+    "detail": [
+      "Edge0-AI于11月12至13日发布了Edge0-145B和Edge0-120B两款开源混合专家模型，声称是首个可在笔记本电脑上运行的1450亿参数开源模型。该项目在GitHub上迅速获得超过1万Star，引发端侧AI推理社区热议。模型权重以Apache-2.0许可证开源，已在Hugging Face上发布。",
+      "Edge0-145B采用Latent MoE架构和SSD流式权重加载技术，总参数145B但每次推理仅激活约100亿参数，可在单张NVIDIA GPU上运行于Linux或Windows系统。在48GB内存笔记本上峰值仅需29GB显存，生成速度达每秒80+token，提示处理速度超过每秒1100token。配套的edge0-infer推理框架支持serve和chat两种启动模式。",
+      "项目核心创新在于三层存储流水线推理框架：高频访问的专家网络驻留GPU显存，约40GB的专家库放在系统内存，约48GB的词表数据存储在SSD按需加载。CPU与GPU协同计算，配合投机解码同时验证多个候选token，大幅摊薄权重读取成本。基准测试中Terminal-Bench 2.1得分86.52，超越DeepSeek-V4-Flash的82.7和Qwen3.8-Flash-Next的83.3。",
+      "Edge0的出现挑战了大模型只能云端运行的固有认知。对于关注隐私和离线场景的开发者，端侧大模型提供了不依赖云API的替代方案。测试显示模型可在一小时内独立完成研究、脚本编写、资产生成和视频剪辑的全流程。不过实际运行仍需CUDA 13支持和足够的显存预算，距离手机端运行145B模型仍有距离。社区对其推理质量和实际部署成本的讨论持续升温。"
+    ]
+  },
+  {
+    "id": "2026-11-14_vibecoding_2",
+    "date": "2026-11-14",
+    "category": "VibeCoding",
+    "subcat": "AI编码工具",
+    "platform": "Anthropic",
+    "platform_color": "#D97757",
+    "title": "Claude认证故障致大面积宕机",
+    "url": "https://explainx.ai/blog/claude-authentication-outage-claude-ai-code-november-13-2026",
+    "image": "images/2026-11-14/2026-11-14_vibecoding_2.jpg",
+    "detail": [
+      "11月13日，Anthropic遭遇认证系统故障，导致claude.ai进入重大宕机状态，Claude Code也出现部分功能不可用。这是Anthropic在48小时内遭遇的第二次可靠性事件，引发开发者社区广泛关注。根据官方状态页面记录，第一次事件于UTC时间09:58开始，用户无法登录claude.ai和Claude Code。",
+      "Anthropic在11:05 UTC部署修复并进入监控阶段。然而同日13:09 UTC又出现第二次性能降级事件，波及claude.ai、Claude API和Claude Code，并蔓延至连接器和Managed Agents等服务，直到15:38 UTC才解除。值得注意的是，Claude API在认证故障期间保持正常运行，这意味着使用长期API密钥的批处理任务和服务器端Agent可以继续工作。",
+      "依赖OAuth和Web会话的Claude Code IDE扩展则受到直接影响。Hacker News上已有开发者讨论此次中断对Agent工作流的冲击。认证类故障对Agent工作流打击尤为严重，因为IDE扩展需要定期刷新令牌来调用工具和子代理。此次事件叠加11月12日开始的Microsoft 365连接器故障，使依赖Claude Meetings和Outlook插件的团队面临双重独立故障。",
+      "此次宕机引发了对AI编码工具单点依赖风险的深度讨论。与GitHub Copilot同时支持多模型不同，Claude Code目前仅支持Anthropic自家模型，一旦认证链路中断即完全不可用。社区建议开发者在关键工作流中准备备用编码工具或使用API密钥直连模式以降低单点故障风险。事件也凸显了AI编码工具在生产环境中的可靠性仍需提升。"
+    ]
+  },
+  {
+    "id": "2026-11-14_vibecoding_1",
+    "date": "2026-11-14",
+    "category": "VibeCoding",
+    "subcat": "AI编码工具",
+    "platform": "GitHub",
+    "platform_color": "#181717",
+    "title": "Copilot上线Hydrogen退役6模型",
+    "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot/",
+    "image": "images/2026-11-14/2026-11-14_vibecoding_1.jpg",
+    "detail": [
+      "11月13日，GitHub连续发布两条Copilot重要变更：一是将Google最新发布的Gemini 4 Hydrogen模型正式接入Copilot全产品线，二是宣布将于12月14日退役6款旧模型。这意味着Copilot用户模型选择面迎来一次大幅换血。Gemini 4 Hydrogen面向快速Agent编码工作流设计，在指令遵循方面优于前代Gemini 3.8 Flash。",
+      "该模型已向Copilot Pro、Pro+、Max、Business和Enterprise用户开放，覆盖VS Code、Visual Studio、JetBrains IDE、Xcode等全部Copilot支持的平台，费用按提供商列表价格在用量计费下收取。同日公布的退役清单包括Claude Fable 5、Claude Haiku 4.5、Gemini 3.8 Flash、Gemini 4 Argon、Grok 4.6和Kimi K3共6款模型。",
+      "GitHub为每款退役模型提供了替代建议，如Fable 5迁移至Fable 5.2、Gemini 3.8 Flash迁移至Hydrogen。企业用户在默认开启状态下将自动获得替代模型。年费个人订阅用户的Haiku 4.5不受退役影响，但其余模型将全面下线。开发者需在12月14日前更新工作流和集成配置。",
+      "此次换血标志着Copilot模型生态加速向新一代模型过渡。尤其依赖Haiku 4.5和Kimi K3的用户需特别关注迁移路径。Gemini 4 Hydrogen同日上线Google Antigravity和GitHub Copilot两大编码平台，显示快速Agent模型正成为主流需求，也意味着编码工具竞争已从功能层面延伸到底层模型选择层面。"
+    ]
+  },
+  {
+    "id": "2026-11-14_gaming_4",
+    "date": "2026-11-14",
+    "category": "Gaming",
+    "subcat": "FPS/合作",
+    "platform": "Halo Waypoint",
+    "platform_color": "#00B374",
+    "title": "Halo将免费追加Firefight模式",
+    "url": "https://www.halowaypoint.com/news/firefight-update-winter-2026",
+    "image": "images/2026-11-14/2026-11-14_gaming_4.jpg",
+    "detail": [
+      "Halo Studios宣布经典合作PvE模式Firefight将以免费更新形式加入Halo: Campaign Evolved，于今年冬季上线。这是近二十年来深受玩家喜爱的波次防守模式首次出现在初代Halo的重制版中，支持四名玩家组队抵抗一波又一波的敌人进攻。更新将于Xbox FanFest活动现场率先提供试玩。",
+      "Firefight模式自Halo 3: ODST引入以来一直是系列粉丝最钟爱的玩法之一。此次加入Campaign Evolved的版本将带来全新地图和丰富的武器选择，让斯巴达战士们有更多战术空间。Halo Studios表示更多细节将于12月12日至13日在西雅图举办的Halo Fest活动中公布，到场玩家也将有机会体验Firefight模式，同时庆祝Halo和Xbox诞生25周年。",
+      "此次更新是Halo Studios（原343 Industries）在Xbox重组后的重要内容投放。值得注意的是，该工作室近期经历了裁员调整，但仍在持续为现有作品提供支持。Firefight作为免费更新而非付费DLC的策略也受到社区好评，玩家普遍认为这体现了对核心粉丝群体的重视。",
+      "Halo Fest作为线下庆祝活动还将涵盖系列历史回顾和未来展望，是25周年庆典的重头戏。Halo: Campaign Evolved自发布以来持续获得内容更新，Firefight的加入进一步丰富了游戏的合作玩法生态。对于Xbox平台而言，经典IP的持续运营与25周年庆典相结合，有望在年末假期吸引老玩家回归并提升平台活跃度。"
+    ]
+  },
+  {
+    "id": "2026-11-14_gaming_3",
+    "date": "2026-11-14",
+    "category": "Gaming",
+    "subcat": "行业/促销",
+    "platform": "VGC",
+    "platform_color": "#E91E63",
+    "title": "任天堂黑五首次Switch2折扣",
+    "url": "https://www.videogameschronicle.com/news/nintendos-black-friday-deals-include-switch-2-and-mario-kart-world-bundle/",
+    "image": "images/2026-11-14/2026-11-14_gaming_3.jpg",
+    "detail": [
+      "任天堂正式公布2026年黑色星期五促销计划，首次对Switch 2主机提供官方折扣。Switch 2与马里奥赛车World同捆套装将从11月22日至12月5日以499.99美元出售，附带90天Nintendo Switch Online会员，相比常规价549.99美元节省约50美元。这是Switch 2自9月因国际市场涨价至499.99美元后的首次官方降价活动。",
+      "另一款Switch 2与Nintendo Switch Sports Resort同捆套装同样附带90天会员，售价529.99美元。实体游戏促销从11月22日持续至29日，参与游戏各降价20美元，包括大金刚Bananza、密特罗德Prime 4超越、星之卡比Air Riders以及超级马里奥银河1加2。数字版游戏促销则从11月19日持续至12月2日。",
+      "此次促销是Switch 2上市以来首次硬件折扣，对玩家而言相当于抵消了9月的涨价幅度。VGC指出，相比PlayStation仅限软件的促销，任天堂在硬件层面更具诚意，但优惠力度仍不如预期——499.99美元的同捆价恰好是Switch 2原定首发价。目前欧洲地区暂无类似促销的官方消息，数字版促销可能覆盖多地区。",
+      "任天堂此前公布的H1 FY2027财报显示Switch 2销量同比下降37.4%，此次促销或旨在提振年末销售。Switch 2自发售以来在全球已售出超过2635万台，Switch系列累计超1.572亿台。黑色星期五作为北美最大购物季，任天堂的硬件折扣策略将直接影响Switch 2能否在年末实现销量目标，也为后续价格策略提供参考。"
+    ]
+  },
+  {
+    "id": "2026-11-14_gaming_2",
+    "date": "2026-11-14",
+    "category": "Gaming",
+    "subcat": "AAA/行业",
+    "platform": "Inven Global",
+    "platform_color": "#FF6600",
+    "title": "顽皮狗新作进入制作末期",
+    "url": "https://www.invenglobal.com/articles/28537/intergalactic-is-in-its-last-stage-of-production-says-naughty-dogs-druckmann",
+    "image": "images/2026-11-14/2026-11-14_gaming_2.jpg",
+    "detail": [
+      "顽皮狗工作室负责人Neil Druckmann在Comic Creators Block Party 2026活动上透露，工作室备受期待的科幻新作Intergalactic: The Heretic Prophet已进入制作最后阶段，游戏目前已完全可玩，团队正在进行打磨和优化。这是自2024年TGA公布以来关于该项目最实质性的进展更新。",
+      "Druckmann将本作描述为顽皮狗三大经典系列的融合体：取Jak and Daxter的科幻奇幻设定、神秘海域的冒险动作风格，以及最后生还者的严肃叙事。他透露团队希望在保持电影化叙事的同时构建更深层次的游戏系统。Druckmann还提到新世纪福音战士和阿基拉等动画是重要灵感来源。",
+      "顽皮狗上一次推出全新IP已是2013年的最后生还者。Druckmann确认将于2027年进行游戏的完整公布，届时将展示实际玩法和更多剧情细节。目前官方尚未公布发售窗口，但2025年曾有报道称游戏距离发售仍有数年。Bloomberg曾报道顽皮狗要求开发者加班以赶截止日期。",
+      "Druckmann还透露工作室正在开发新的最后生还者项目和疑似神秘海域新作。顽皮狗作为PlayStation第一方旗舰工作室，其项目进度一直备受关注。Intergalactic进入制作末期意味着PS5后期到PS6早期的第一方阵容正在成型，该作有望成为顽皮狗继最后生还者之后最具野心的全新IP。"
+    ]
+  },
+  {
+    "id": "2026-11-14_gaming_1",
+    "date": "2026-11-14",
+    "category": "Gaming",
+    "subcat": "AAA/行业",
+    "platform": "VGC",
+    "platform_color": "#E91E63",
+    "title": "GTA6实体版地图意外泄露",
+    "url": "https://www.videogameschronicle.com/news/gta-6-map-seemingly-leaks-at-selfridges-merch-drop/",
+    "image": "images/2026-11-14/2026-11-14_gaming_1.jpg",
+    "detail": [
+      "距离GTA6发售仅剩一周，游戏实体收藏版中的利奥尼达州地图在英国Selfridges百货商店的快闪展示活动中意外泄露。据报道，曼彻斯特交易所广场的Selfridges门店展出了售价399.99美元的收藏套装，其中包含的折叠地图被现场拍照并流传至社交媒体。图片显示多个此前未知的新地点名称。",
+      "泄露的地点包括Port Gellhorn、Goose Key、Pelican Valley、Lummox County、Manzana和Moreau等。最清晰的地图图片源自一名Selfridges员工的Instagram Story，发布后迅速被删除但已被玩家截屏保存。X用户也在门店拍到了展示柜中折叠的地图。统计显示海报上至少包含5个主要县域、11座岛屿和礁岛、13个城镇以及9个其他命名地点，地图规模相比前作GTA5有显著扩大。",
+      "Rockstar尚未对泄露事件发表评论。这张地图属于收藏版附赠的双面纪念海报，采用艺术化风格而非游戏内精确地图——红色标记城区、黄橙色为乡村、绿色为自然保护区。VGC指出整个GTA6营销过程中充斥着各类泄露，此前Cyberleak甚至获取过可玩版本。GTA6将于11月19日正式登陆PS5和Xbox Series X S，预载已于11月10日开放。",
+      "GTA6标准版售价80美元，终极版100美元。伦敦Selfridges已变身为罪恶城主题零售空间，迈阿密将于11月21日举办GTA 6音乐节。据Sensor Tower估计GTA 6数字版预购约771万份价值约7.51亿美元，74%来自PlayStation。Take-Two将发售季度营收指引设为33.5至35亿美元。Rockstar正将GTA 6打造为跨媒体文化事件，原声专辑将于11月19日同步发行。"
+    ]
+  },
+  {
+    "id": "2026-11-14_ai_3",
+    "date": "2026-11-14",
+    "category": "AI",
+    "subcat": "国产大模型",
+    "platform": "百度",
+    "platform_color": "#2932E1",
+    "title": "百度ERNIE 5.5 Flash预览版",
+    "url": "https://ai-tldr.dev/models/ernie-5-5-flash-preview/",
+    "image": "images/2026-11-14/2026-11-14_ai_3.jpg",
+    "detail": [
+      "百度于11月11日发布ERNIE 5.5 Flash Preview预览版模型，这是ERNIE 5.5 Flash系列的首个后训练模型。该模型采用混合专家架构，总参数量约2800亿，但每个token仅激活140亿参数，实现了大知识库与低推理成本的平衡。模型支持100万token上下文窗口，定位于智能体编程、3D建模、知识工作和内容创作等场景。",
+      "百度表示ERNIE 5.5 Flash专为零散稀疏的MoE设计优化，基础模型仅六天前才公开，后训练版本即已上线。API已在百度千帆平台和OpenRouter上同步开放，百度同时承诺模型权重将以Apache 2.0协议开源，但发布时尚未公布具体时间。百度将该版本定位为中间训练检查点，正式版将随后推出。",
+      "在功能展示中，百度重点演示了四大场景：游戏开发领域模型经过领域数据训练可生成可玩游戏；知识工作场景展示了名为LIFEWEALTH的交互式财富规划工具，支持蒙特卡洛模拟；此外还涵盖3D建模和内容创作能力。OpenRouter已收录该模型，开发者可通过统一API直接调用。",
+      "此次发布恰逢国产大模型竞争白热化阶段。当前Arena中文排行榜显示，Kimi K3 Max、Qwen 3.8 Max和GLM 5.3 Max分列前三，ERNIE 5.1排名约第十。百度需要凭借5.5系列的Agent编程能力和长上下文优势缩小与头部模型的差距，开源承诺也将影响其在开源生态中的竞争力。"
+    ]
+  },
+  {
+    "id": "2026-11-14_ai_2",
+    "date": "2026-11-14",
+    "category": "AI",
+    "subcat": "AI硬件",
+    "platform": "TechRepublic",
+    "platform_color": "#1B1B2F",
+    "title": "Google智能眼镜开放预订",
+    "url": "https://www.techrepublic.com/article/news-samsung-google-ai-glasses-preorders/",
+    "image": "images/2026-11-14/2026-11-14_ai_2.jpg",
+    "detail": [
+      "三星与Google联合打造的Gemini智能眼镜Intelligent Eyewear于11月12日正式开放预订，起售价395美元。该产品由三星提供硬件，Google的Gemini助手提供AI能力，眼镜框架则分别由Warby Parker和Gentle Monster设计，共推出9款框型、30种变化组合，预计12月10日在美国正式发售，Gentle Monster系列同步在韩国上市。",
+      "Warby Parker系列包含Alden、Reid和Wren三款框型，提供处方镜片、非处方镜片及太阳镜选项，起价395美元；Gentle Monster系列提供6款更具雕塑感的设计，价格区间449至489美元。用户可通过语音指令或轻触镜框激活Gemini助手，实现视觉识别、实时翻译、导航指引等免手持操作，无需掏出手机即可完成日常任务。",
+      "值得注意的是，部分AI功能并非兼容所有手机。Google特别强调了隐私设计，眼镜在拍摄或传输数据前会有明确指示。这一产品标志着Google在AI可穿戴设备领域的正式落地，与Meta Ray-Ban智能眼镜形成直接竞争。Ars Technica报道指出Google正以隐私保护作为核心卖点进行差异化推广。",
+      "行业分析认为，Gemini眼镜的发布意味着AI助手的载体正在从手机屏幕向可穿戴设备延伸。结合Gemini 4 Hydrogen同日发布的高效推理模型，Google正在构建从云端模型到终端硬件的完整AI生态闭环，与苹果Vision Pro和Meta智能眼镜争夺下一代计算入口。"
+    ]
+  },
+  {
+    "id": "2026-11-14_ai_1",
+    "date": "2026-11-14",
+    "category": "AI",
+    "subcat": "大模型发布",
+    "platform": "Google DeepMind",
+    "platform_color": "#4285F4",
+    "title": "Google发布Gemini4 Hydrogen",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+    "image": "images/2026-11-14/2026-11-14_ai_1.jpg",
+    "detail": [
+      "Google DeepMind于11月12日正式发布Gemini 4 Hydrogen模型，定位为面向日常编程和智能体工作流的快速低成本模型。与前沿旗舰模型Gemini 4 Carbon和Argon不同，Hydrogen主打高效率，旨在让前沿级智能以更低成本和更快速度服务于开发者和企业的日常Agent任务。该模型即日起面向所有用户开放，覆盖Gemini App、Google Search及API等多条产品线。",
+      "Hydrogen引入了统一的100万token输入输出限额，支持长解码模式可将输出扩展至近百万token。模型提供LOW、MEDIUM、HIGH（默认）和XHIGH四档思考级别，开发者可根据任务复杂度灵活调配推理深度与延迟的平衡。API定价为每百万输入token 1.50美元、输出token 7.50美元，且在整个上下文窗口内价格扁平。Google称其速度比Gemini 3.8 Flash快2.5倍。",
+      "在Artificial Analysis智能指数上，Hydrogen默认高思考级别得分为51，超过Argon的50，在最高XHIGH设置下可达54。在Google Antigravity编码工具中，新增的Orchestrator功能可在同一会话内自动在Carbon和Hydrogen之间切换，让开发者无需手动选模型即可平衡深度推理与快速执行。该设计特别适配多模型协作场景。",
+      "Hydrogen的发布标志着Google在Gemini 4系列中形成了完整的多层级产品矩阵：Carbon和Argon服务前沿推理，Hydrogen负责日常高效执行。社区评价认为这一分层策略与Meta的Muse Wonder+Ember组合及OpenAI的分层模型思路趋同，表明行业正在从单一旗舰模型转向规划加执行的分工架构，低成本高吞吐的Agent执行模型正在成为标配。"
+    ]
+  }
+]
