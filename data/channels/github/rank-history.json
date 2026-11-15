@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-15": {
-      "morluto/rea": 1,
-      "debpalash/VoiceStudio": 2,
-      "storytold/artcraft": 3,
-      "ifixai-ai/iFixAi": 4,
-      "xtool-org/xtool": 5,
-      "bilawalsidhu/gods-eye-view": 6,
-      "heygen-com/hyperframes": 7,
-      "vxcontrol/pentagi": 8,
-      "NationalSecurityAgency/ghidra": 9,
-      "stablyai/orca": 10,
-      "vercel-labs/skills": 11,
-      "hmjz100/LinkSwift": 12,
-      "Alishahryar1/free-claude-code": 13,
-      "t8y2/dbx": 14,
-      "Crosstalk-Solutions/project-nomad": 15,
-      "MakazhanAlpamys/Soup": 16,
-      "Tencent/WeKnora": 17,
-      "apify/apify-mcp-server": 18,
-      "openai/codex": 19,
-      "rust-lang/rust": 20,
-      "ruvnet/RuView": 21,
-      "p-e-w/heretic": 22,
-      "anthropics/claude-plugins-official": 23,
-      "microsoft/vscode": 24,
-      "K-Dense-AI/scientific-agent-skills": 25
-    },
     "2026-10-16": {
       "morluto/rea": 1,
       "ifixai-ai/iFixAi": 2,
@@ -836,6 +809,33 @@
       "block/buzz": 23,
       "shanliuling/dsh-image-gen": 24,
       "Tencent/WeKnora": 25
+    },
+    "2026-11-15": {
+      "GoogleChrome/modern-web-guidance-src": 1,
+      "alibaba/open-code-review": 2,
+      "ChromeDevTools/chrome-devtools-mcp": 3,
+      "we-promise/sure": 4,
+      "openai/codex-security": 5,
+      "tradermonty/claude-trading-skills": 6,
+      "dream-num/univer": 7,
+      "tailscale/tailcat": 8,
+      "Likely7/Veyra-NRVideo": 9,
+      "addyosmani/agent-skills": 10,
+      "backnotprop/plannotator": 11,
+      "Alishahryar1/free-claude-code": 12,
+      "block/buzz": 13,
+      "martin-olivier/airgorah": 14,
+      "ModernRelay/omnigraph": 15,
+      "CopilotKit/OpenBot": 16,
+      "anthropics/claude-plugins-official": 17,
+      "NVIDIA/SkillEvaluator": 18,
+      "andrewyng/openworker": 19,
+      "headroomlabs-ai/headroom": 20,
+      "pnnbao97/VieNeu-TTS": 21,
+      "aaif-goose/goose": 22,
+      "QwenLM/qwen-code": 23,
+      "tailscale/tailscale": 24,
+      "a2ui-project/a2ui": 25
     }
   }
 }
