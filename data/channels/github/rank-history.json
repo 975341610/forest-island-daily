@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-16": {
-      "morluto/rea": 1,
-      "ifixai-ai/iFixAi": 2,
-      "vxcontrol/pentagi": 3,
-      "NationalSecurityAgency/ghidra": 4,
-      "K-Dense-AI/scientific-agent-skills": 5,
-      "stablyai/orca": 6,
-      "heygen-com/hyperframes": 7,
-      "HKUDS/CLI-Anything": 8,
-      "xerj-org/xerj": 9,
-      "harry0703/MoneyPrinterTurbo": 10,
-      "hmjz100/LinkSwift": 11,
-      "paperclipai/paperclip": 12,
-      "bilawalsidhu/gods-eye-view": 13,
-      "tashfeenahmed/freellmapi": 14,
-      "SegFault42/HeliosGen": 15,
-      "anthropics/claude-plugins-official": 16,
-      "laoma528/awesome-zhuiju-free": 17,
-      "Tencent/WeKnora": 18,
-      "cursor/plugins": 19,
-      "bojieli/ai-agent-book": 20,
-      "longbridge/gpui-kit": 21,
-      "Crosstalk-Solutions/project-nomad": 22,
-      "vercel-labs/skills": 23,
-      "ruvnet/ruflo": 24,
-      "multica-ai/multica": 25
-    },
     "2026-10-17": {
       "morluto/rea": 1,
       "xerj-org/xerj": 2,
@@ -836,6 +809,33 @@
       "QwenLM/qwen-code": 23,
       "tailscale/tailscale": 24,
       "a2ui-project/a2ui": 25
+    },
+    "2026-11-16": {
+      "GoogleChrome/modern-web-guidance-src": 1,
+      "dream-num/univer": 2,
+      "backnotprop/plannotator": 3,
+      "ChromeDevTools/chrome-devtools-mcp": 4,
+      "tradermonty/claude-trading-skills": 5,
+      "alibaba/open-code-review": 6,
+      "martin-olivier/airgorah": 7,
+      "tashfeenahmed/freellmapi": 8,
+      "Tencent/LoopForge": 9,
+      "ag-ui-protocol/ag-ui": 10,
+      "maillab/cloud-mail": 11,
+      "google-labs-code/stitch-skills": 12,
+      "tailscale/tailcat": 13,
+      "antithesishq/bombadil": 14,
+      "ModernRelay/omnigraph": 15,
+      "andrewyng/openworker": 16,
+      "SnailSploit/Claude-Red": 17,
+      "bojieli/ai-infra-book": 18,
+      "NVIDIA/SkillEvaluator": 19,
+      "motion-canvas/motion-canvas": 20,
+      "nolly-studio/cult-ui": 21,
+      "HKUDS/Vibe-Trading": 22,
+      "ManimCommunity/manim": 23,
+      "PrefectHQ/fastmcp": 24,
+      "motiondivision/motion": 25
     }
   }
 }
