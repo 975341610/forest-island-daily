@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-17": {
-      "morluto/rea": 1,
-      "xerj-org/xerj": 2,
-      "anthropics/claude-plugins-official": 3,
-      "K-Dense-AI/scientific-agent-skills": 4,
-      "stablyai/orca": 5,
-      "LibreSpark/LibreTV": 6,
-      "heygen-com/hyperframes": 7,
-      "harry0703/MoneyPrinterTurbo": 8,
-      "ruvnet/ruflo": 9,
-      "hmjz100/LinkSwift": 10,
-      "ifixai-ai/iFixAi": 11,
-      "michael-denyer/pstack-claude": 12,
-      "vxcontrol/pentagi": 13,
-      "earthtojake/text-to-cad": 14,
-      "HKUDS/CLI-Anything": 15,
-      "cursor/plugins": 16,
-      "krillinai/OpenCreator": 17,
-      "google/artemis": 18,
-      "magnitudedev/magnitude": 19,
-      "Tencent/WeKnora": 20,
-      "ruvnet/RuView": 21,
-      "Imbad0202/academic-research-skills": 22,
-      "jasonxu114514/opencode2api": 23,
-      "akitaonrails/ai-memory": 24,
-      "plugin87/ux-ui-agent-skills": 25
-    },
     "2026-10-18": {
       "anthropics/claude-plugins-official": 1,
       "xerj-org/xerj": 2,
@@ -836,6 +809,33 @@
       "ManimCommunity/manim": 23,
       "PrefectHQ/fastmcp": 24,
       "motiondivision/motion": 25
+    },
+    "2026-11-17": {
+      "dream-num/univer": 1,
+      "GoogleChrome/modern-web-guidance-src": 2,
+      "Tencent/LoopForge": 3,
+      "alibaba/open-code-review": 4,
+      "NVIDIA/SkillEvaluator": 5,
+      "ChromeDevTools/chrome-devtools-mcp": 6,
+      "tradermonty/claude-trading-skills": 7,
+      "ag-ui-protocol/ag-ui": 8,
+      "backnotprop/plannotator": 9,
+      "google-labs-code/stitch-skills": 10,
+      "google-research/paper-orchestra": 11,
+      "ifixai-ai/iFixAi": 12,
+      "DeanChensj/jiangshan-map": 13,
+      "elie222/rakazo": 14,
+      "bilawalsidhu/gods-eye-view": 15,
+      "martin-olivier/airgorah": 16,
+      "ModernRelay/omnigraph": 17,
+      "rust-lang/rust": 18,
+      "maillab/cloud-mail": 19,
+      "mvanhorn/last30days-skill": 20,
+      "huggingface/transformers": 21,
+      "openai/whisper": 22,
+      "agent-substrate/substrate": 23,
+      "kubernetes/kubernetes": 24,
+      "golang/go": 25
     }
   }
 }
