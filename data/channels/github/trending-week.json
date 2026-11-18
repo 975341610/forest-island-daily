@@ -12,8 +12,8 @@
     },
     "dream-num/univer": {
       "best_rank": 1,
-      "appearances": 2,
-      "total_today_stars": 2816,
+      "appearances": 3,
+      "total_today_stars": 4590,
       "language": "TypeScript",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/61444807?v=4",
@@ -21,8 +21,8 @@
     },
     "backnotprop/plannotator": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1562,
+      "appearances": 3,
+      "total_today_stars": 2253,
       "language": "TypeScript",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
       "owner_avatar": "https://avatars.githubusercontent.com/u/7244317?v=4",
@@ -30,8 +30,8 @@
     },
     "ChromeDevTools/chrome-devtools-mcp": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1558,
+      "appearances": 3,
+      "total_today_stars": 2036,
       "language": "TypeScript",
       "description": "Chrome DevTools for coding agents",
       "owner_avatar": "https://avatars.githubusercontent.com/u/11260967?v=4",
@@ -39,8 +39,8 @@
     },
     "tradermonty/claude-trading-skills": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1543,
+      "appearances": 3,
+      "total_today_stars": 2246,
       "language": "Python",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/205491838?v=4",
@@ -48,8 +48,8 @@
     },
     "alibaba/open-code-review": {
       "best_rank": 4,
-      "appearances": 2,
-      "total_today_stars": 1642,
+      "appearances": 3,
+      "total_today_stars": 2405,
       "language": "Go",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -66,8 +66,8 @@
     },
     "tashfeenahmed/freellmapi": {
       "best_rank": 8,
-      "appearances": 1,
-      "total_today_stars": 579,
+      "appearances": 2,
+      "total_today_stars": 1192,
       "language": "TypeScript",
       "description": "10.1 billion tokens per month. 87 free LLM providers. 1,313 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9307356?v=4",
@@ -75,17 +75,17 @@
     },
     "Tencent/LoopForge": {
       "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1443,
+      "appearances": 3,
+      "total_today_stars": 2034,
       "language": "Go",
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
       "html_url": "https://github.com/Tencent/LoopForge"
     },
     "ag-ui-protocol/ag-ui": {
-      "best_rank": 8,
-      "appearances": 2,
-      "total_today_stars": 1146,
+      "best_rank": 2,
+      "appearances": 3,
+      "total_today_stars": 2591,
       "language": "TypeScript",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/209775067?v=4",
@@ -102,8 +102,8 @@
     },
     "google-labs-code/stitch-skills": {
       "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 776,
+      "appearances": 3,
+      "total_today_stars": 1126,
       "language": "TypeScript",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/161364575?v=4",
@@ -120,8 +120,8 @@
     },
     "antithesishq/bombadil": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 202,
+      "appearances": 2,
+      "total_today_stars": 582,
       "language": "Rust",
       "description": "Property-based testing for web and terminal UIs",
       "owner_avatar": "https://avatars.githubusercontent.com/u/128631861?v=4",
@@ -165,8 +165,8 @@
     },
     "NVIDIA/SkillEvaluator": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 995,
+      "appearances": 3,
+      "total_today_stars": 1864,
       "language": "Python",
       "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
@@ -227,9 +227,9 @@
       "html_url": "https://github.com/motiondivision/motion"
     },
     "google-research/paper-orchestra": {
-      "best_rank": 11,
-      "appearances": 1,
-      "total_today_stars": 313,
+      "best_rank": 3,
+      "appearances": 2,
+      "total_today_stars": 1385,
       "language": "Python",
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43830688?v=4",
@@ -245,9 +245,9 @@
       "html_url": "https://github.com/ifixai-ai/iFixAi"
     },
     "DeanChensj/jiangshan-map": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 288,
+      "best_rank": 5,
+      "appearances": 2,
+      "total_today_stars": 1279,
       "language": "JavaScript",
       "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9414763?v=4",
@@ -255,8 +255,8 @@
     },
     "elie222/rakazo": {
       "best_rank": 14,
-      "appearances": 1,
-      "total_today_stars": 266,
+      "appearances": 2,
+      "total_today_stars": 454,
       "language": "TypeScript",
       "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/3090527?v=4",
@@ -281,9 +281,9 @@
       "html_url": "https://github.com/rust-lang/rust"
     },
     "mvanhorn/last30days-skill": {
-      "best_rank": 20,
-      "appearances": 1,
-      "total_today_stars": 135,
+      "best_rank": 10,
+      "appearances": 2,
+      "total_today_stars": 831,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
@@ -333,6 +333,96 @@
       "description": "The Go programming language",
       "owner_avatar": "https://avatars.githubusercontent.com/u/4314092?v=4",
       "html_url": "https://github.com/golang/go"
+    },
+    "stablyai/orca": {
+      "best_rank": 4,
+      "appearances": 1,
+      "total_today_stars": 1066,
+      "language": "TypeScript",
+      "description": "Orca lets you run a fleet of coding agents (e.g. Claude Code, Codex) with your own subscription. Available on desktop, mobile and remote runtime.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/127256420?v=4",
+      "html_url": "https://github.com/stablyai/orca"
+    },
+    "pbakaus/impeccable": {
+      "best_rank": 8,
+      "appearances": 1,
+      "total_today_stars": 748,
+      "language": "Rust",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/43004?v=4",
+      "html_url": "https://github.com/pbakaus/impeccable"
+    },
+    "Graphify-Labs/graphify": {
+      "best_rank": 12,
+      "appearances": 1,
+      "total_today_stars": 649,
+      "language": "Python",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/297659074?v=4",
+      "html_url": "https://github.com/Graphify-Labs/graphify"
+    },
+    "getarcaneapp/arcane": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 618,
+      "language": "Go",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
+      "html_url": "https://github.com/getarcaneapp/arcane"
+    },
+    "nightly-labs/openbot": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 343,
+      "language": "TypeScript",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/100160810?v=4",
+      "html_url": "https://github.com/nightly-labs/openbot"
+    },
+    "usestrix/strix": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 337,
+      "language": "Python",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/187630752?v=4",
+      "html_url": "https://github.com/usestrix/strix"
+    },
+    "citrolabs/ego-lite": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 251,
+      "language": "JavaScript",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/234319236?v=4",
+      "html_url": "https://github.com/citrolabs/ego-lite"
+    },
+    "cursor/plugins": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 201,
+      "language": "TypeScript",
+      "description": "Cursor plugin specification and official plugins",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
+      "html_url": "https://github.com/cursor/plugins"
+    },
+    "jingyaogong/minimind": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 192,
+      "language": "Python",
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/62287848?v=4",
+      "html_url": "https://github.com/jingyaogong/minimind"
+    },
+    "lodash/lodash": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 178,
+      "language": "JavaScript",
+      "description": "A modern JavaScript utility library delivering modularity, performance, & extras.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2565403?v=4",
+      "html_url": "https://github.com/lodash/lodash"
     }
   }
 }

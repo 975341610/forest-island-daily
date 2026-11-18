@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-18": {
-      "anthropics/claude-plugins-official": 1,
-      "xerj-org/xerj": 2,
-      "hmjz100/LinkSwift": 3,
-      "K-Dense-AI/scientific-agent-skills": 4,
-      "stablyai/orca": 5,
-      "HKUDS/CLI-Anything": 6,
-      "chthollyphile/folia-major": 7,
-      "ruvnet/ruflo": 8,
-      "yt-dlp/yt-dlp": 9,
-      "withmarbleapp/os-taxonomy": 10,
-      "cursor/plugins": 11,
-      "android/skills": 12,
-      "krillinai/OpenCreator": 13,
-      "anthropics/claude-code": 14,
-      "akitaonrails/ai-memory": 15,
-      "google/ax": 16,
-      "thesysdev/openui": 17,
-      "ollama/ollama": 18,
-      "elie222/rakazo": 19,
-      "GCWing/OpenBitFun": 20,
-      "google/artemis": 21,
-      "michael-denyer/pstack-claude": 22,
-      "mixelpixx/Konnect": 23,
-      "jasonxu114514/opencode2api": 24,
-      "ScrapeCreators/social-media-research-skills": 25
-    },
     "2026-10-19": {
       "anthropics/claude-plugins-official": 1,
       "stablyai/orca": 2,
@@ -836,6 +809,33 @@
       "agent-substrate/substrate": 23,
       "kubernetes/kubernetes": 24,
       "golang/go": 25
+    },
+    "2026-11-18": {
+      "dream-num/univer": 1,
+      "ag-ui-protocol/ag-ui": 2,
+      "google-research/paper-orchestra": 3,
+      "stablyai/orca": 4,
+      "DeanChensj/jiangshan-map": 5,
+      "NVIDIA/SkillEvaluator": 6,
+      "alibaba/open-code-review": 7,
+      "pbakaus/impeccable": 8,
+      "tradermonty/claude-trading-skills": 9,
+      "mvanhorn/last30days-skill": 10,
+      "backnotprop/plannotator": 11,
+      "Graphify-Labs/graphify": 12,
+      "getarcaneapp/arcane": 13,
+      "tashfeenahmed/freellmapi": 14,
+      "Tencent/LoopForge": 15,
+      "ChromeDevTools/chrome-devtools-mcp": 16,
+      "antithesishq/bombadil": 17,
+      "google-labs-code/stitch-skills": 18,
+      "nightly-labs/openbot": 19,
+      "usestrix/strix": 20,
+      "citrolabs/ego-lite": 21,
+      "cursor/plugins": 22,
+      "jingyaogong/minimind": 23,
+      "elie222/rakazo": 24,
+      "lodash/lodash": 25
     }
   }
 }
