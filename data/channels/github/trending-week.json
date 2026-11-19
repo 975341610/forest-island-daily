@@ -12,8 +12,8 @@
     },
     "dream-num/univer": {
       "best_rank": 1,
-      "appearances": 3,
-      "total_today_stars": 4590,
+      "appearances": 4,
+      "total_today_stars": 5742,
       "language": "TypeScript",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/61444807?v=4",
@@ -21,8 +21,8 @@
     },
     "backnotprop/plannotator": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 2253,
+      "appearances": 4,
+      "total_today_stars": 2645,
       "language": "TypeScript",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click. ",
       "owner_avatar": "https://avatars.githubusercontent.com/u/7244317?v=4",
@@ -48,8 +48,8 @@
     },
     "alibaba/open-code-review": {
       "best_rank": 4,
-      "appearances": 3,
-      "total_today_stars": 2405,
+      "appearances": 4,
+      "total_today_stars": 3027,
       "language": "Go",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1961952?v=4",
@@ -75,8 +75,8 @@
     },
     "Tencent/LoopForge": {
       "best_rank": 3,
-      "appearances": 3,
-      "total_today_stars": 2034,
+      "appearances": 4,
+      "total_today_stars": 2855,
       "language": "Go",
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -84,8 +84,8 @@
     },
     "ag-ui-protocol/ag-ui": {
       "best_rank": 2,
-      "appearances": 3,
-      "total_today_stars": 2591,
+      "appearances": 4,
+      "total_today_stars": 3104,
       "language": "TypeScript",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/209775067?v=4",
@@ -102,8 +102,8 @@
     },
     "google-labs-code/stitch-skills": {
       "best_rank": 10,
-      "appearances": 3,
-      "total_today_stars": 1126,
+      "appearances": 4,
+      "total_today_stars": 1491,
       "language": "TypeScript",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/161364575?v=4",
@@ -165,8 +165,8 @@
     },
     "NVIDIA/SkillEvaluator": {
       "best_rank": 5,
-      "appearances": 3,
-      "total_today_stars": 1864,
+      "appearances": 4,
+      "total_today_stars": 2176,
       "language": "Python",
       "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1728152?v=4",
@@ -227,9 +227,9 @@
       "html_url": "https://github.com/motiondivision/motion"
     },
     "google-research/paper-orchestra": {
-      "best_rank": 3,
-      "appearances": 2,
-      "total_today_stars": 1385,
+      "best_rank": 1,
+      "appearances": 3,
+      "total_today_stars": 2909,
       "language": "Python",
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43830688?v=4",
@@ -246,8 +246,8 @@
     },
     "DeanChensj/jiangshan-map": {
       "best_rank": 5,
-      "appearances": 2,
-      "total_today_stars": 1279,
+      "appearances": 3,
+      "total_today_stars": 1497,
       "language": "JavaScript",
       "description": "江山时序 · 中国历史交互地图时间轴 (403 BCE – Present) | Interactive Historical Atlas of China across 18 dynasties, 198 territory snapshots, ancient-to-modern place genealogy & classical poetry routes",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9414763?v=4",
@@ -281,9 +281,9 @@
       "html_url": "https://github.com/rust-lang/rust"
     },
     "mvanhorn/last30days-skill": {
-      "best_rank": 10,
-      "appearances": 2,
-      "total_today_stars": 831,
+      "best_rank": 4,
+      "appearances": 3,
+      "total_today_stars": 1890,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
@@ -308,9 +308,9 @@
       "html_url": "https://github.com/openai/whisper"
     },
     "agent-substrate/substrate": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 118,
+      "best_rank": 14,
+      "appearances": 2,
+      "total_today_stars": 495,
       "language": "Go",
       "description": "Agent Substrate: the core system",
       "owner_avatar": "https://avatars.githubusercontent.com/u/280516639?v=4",
@@ -362,9 +362,9 @@
       "html_url": "https://github.com/Graphify-Labs/graphify"
     },
     "getarcaneapp/arcane": {
-      "best_rank": 13,
-      "appearances": 1,
-      "total_today_stars": 618,
+      "best_rank": 8,
+      "appearances": 2,
+      "total_today_stars": 1165,
       "language": "Go",
       "description": "Modern Docker Management, Designed for Everyone",
       "owner_avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
@@ -398,18 +398,18 @@
       "html_url": "https://github.com/citrolabs/ego-lite"
     },
     "cursor/plugins": {
-      "best_rank": 22,
-      "appearances": 1,
-      "total_today_stars": 201,
+      "best_rank": 17,
+      "appearances": 2,
+      "total_today_stars": 515,
       "language": "TypeScript",
       "description": "Cursor plugin specification and official plugins",
       "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
       "html_url": "https://github.com/cursor/plugins"
     },
     "jingyaogong/minimind": {
-      "best_rank": 23,
-      "appearances": 1,
-      "total_today_stars": 192,
+      "best_rank": 6,
+      "appearances": 2,
+      "total_today_stars": 879,
       "language": "Python",
       "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/62287848?v=4",
@@ -423,6 +423,105 @@
       "description": "A modern JavaScript utility library delivering modularity, performance, & extras.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2565403?v=4",
       "html_url": "https://github.com/lodash/lodash"
+    },
+    "pingdotgg/t3code": {
+      "best_rank": 2,
+      "appearances": 1,
+      "total_today_stars": 1220,
+      "language": "TypeScript",
+      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/89191727?v=4",
+      "html_url": "https://github.com/pingdotgg/t3code"
+    },
+    "p-e-w/heretic": {
+      "best_rank": 9,
+      "appearances": 1,
+      "total_today_stars": 515,
+      "language": "Python",
+      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/2702526?v=4",
+      "html_url": "https://github.com/p-e-w/heretic"
+    },
+    "XiaoYouChR/Ghost-Downloader-3": {
+      "best_rank": 11,
+      "appearances": 1,
+      "total_today_stars": 432,
+      "language": "Python",
+      "description": "The only downloader you need. 下载器的集大成者。",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/87308195?v=4",
+      "html_url": "https://github.com/XiaoYouChR/Ghost-Downloader-3"
+    },
+    "HKUDS/CLI-Anything": {
+      "best_rank": 13,
+      "appearances": 1,
+      "total_today_stars": 389,
+      "language": "Python",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
+      "html_url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    "n8n-io/n8n": {
+      "best_rank": 16,
+      "appearances": 1,
+      "total_today_stars": 325,
+      "language": "TypeScript",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/45487711?v=4",
+      "html_url": "https://github.com/n8n-io/n8n"
+    },
+    "jquery/jquery": {
+      "best_rank": 19,
+      "appearances": 1,
+      "total_today_stars": 266,
+      "language": "JavaScript",
+      "description": "jQuery JavaScript Library",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/70142?v=4",
+      "html_url": "https://github.com/jquery/jquery"
+    },
+    "astral-sh/uv": {
+      "best_rank": 20,
+      "appearances": 1,
+      "total_today_stars": 258,
+      "language": "Rust",
+      "description": "An extremely fast Python package and project manager, written in Rust.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/115962839?v=4",
+      "html_url": "https://github.com/astral-sh/uv"
+    },
+    "nvm-sh/nvm": {
+      "best_rank": 21,
+      "appearances": 1,
+      "total_today_stars": 237,
+      "language": "Shell",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/49963700?v=4",
+      "html_url": "https://github.com/nvm-sh/nvm"
+    },
+    "Vincentwei1021/video-shotcraft": {
+      "best_rank": 22,
+      "appearances": 1,
+      "total_today_stars": 237,
+      "language": "TypeScript",
+      "description": "AI video skill for Claude Code & Codex — cinematic, editable product promos with Remotion: 124 shot recipe cards, 150 motion previews, beat sync, sound design, Motion Workbench & JianYing (CapCut CN) export.",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/18239147?v=4",
+      "html_url": "https://github.com/Vincentwei1021/video-shotcraft"
+    },
+    "appwrite/appwrite": {
+      "best_rank": 23,
+      "appearances": 1,
+      "total_today_stars": 232,
+      "language": "TypeScript",
+      "description": "The open-source cloud for agents & devs. Including Auth, Databases, Storage, Functions, Messaging, Hosting, Realtime, WAF and more",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/25003669?v=4",
+      "html_url": "https://github.com/appwrite/appwrite"
+    },
+    "nestjs/nest": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 214,
+      "language": "TypeScript",
+      "description": "A progressive TypeScript framework for Node.js backends: from a small API in one file to efficient, scalable, enterprise-grade systems 🚀",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/28507035?v=4",
+      "html_url": "https://github.com/nestjs/nest"
     }
   }
 }
