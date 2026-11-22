@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-22": {
-      "cloudflare/security-audit-skill": 1,
-      "stablyai/orca": 2,
-      "Graphify-Labs/graphify": 3,
-      "Comfy-Org/ComfyUI": 4,
-      "xerj-org/xerj": 5,
-      "tt-a1i/archify": 6,
-      "tashfeenahmed/freellmapi": 7,
-      "pbakaus/impeccable": 8,
-      "ruvnet/ruflo": 9,
-      "shiyu-coder/Kronos": 10,
-      "headroomlabs-ai/headroom": 11,
-      "Asymptote-Labs/agent-beacon": 12,
-      "Panniantong/Agent-Reach": 13,
-      "withmarbleapp/os-taxonomy": 14,
-      "usestrix/strix": 15,
-      "citrolabs/ego-lite": 16,
-      "anthropics/knowledge-work-plugins": 17,
-      "thesysdev/openui": 18,
-      "pingdotgg/t3code": 19,
-      "akitaonrails/ai-memory": 20,
-      "shaobeichen/dsh-pocket": 21,
-      "github/spec-kit": 22,
-      "openai/codex": 23,
-      "iptv-org/iptv": 24,
-      "ollama/ollama": 25
-    },
     "2026-10-23": {
       "cloudflare/security-audit-skill": 1,
       "stablyai/orca": 2,
@@ -836,6 +809,33 @@
       "colbymchenry/codegraph": 23,
       "Imbad0202/academic-research-skills": 24,
       "solidjs/solid": 25
+    },
+    "2026-11-22": {
+      "firecrawl/firecrawl": 1,
+      "XiaoYouChR/Ghost-Downloader-3": 2,
+      "HKUDS/CLI-Anything": 3,
+      "zhouxiaoka/autoclip": 4,
+      "mvanhorn/last30days-skill": 5,
+      "jingyaogong/minimind": 6,
+      "Tracer-Cloud/opensre": 7,
+      "FlashML-org/FreeVideo": 8,
+      "google-labs-code/stitch-skills": 9,
+      "google-research/paper-orchestra": 10,
+      "cursor/plugins": 11,
+      "Tencent/LoopForge": 12,
+      "openvinotoolkit/openvino": 13,
+      "nginx/nginx": 14,
+      "microsoft/markitdown": 15,
+      "p-e-w/heretic": 16,
+      "earendil-works/pi": 17,
+      "multica-ai/multica": 18,
+      "github/spec-kit": 19,
+      "phone-harness/phone-harness": 20,
+      "superdesigndev/treg": 21,
+      "Imbad0202/academic-research-skills": 22,
+      "datazip-inc/olake-go": 23,
+      "Fission-AI/OpenSpec": 24,
+      "agent-substrate/substrate": 25
     }
   }
 }
