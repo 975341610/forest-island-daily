@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-23": {
-      "cloudflare/security-audit-skill": 1,
-      "stablyai/orca": 2,
-      "Graphify-Labs/graphify": 3,
-      "Comfy-Org/ComfyUI": 4,
-      "tashfeenahmed/freellmapi": 5,
-      "twentyhq/twenty": 6,
-      "pbakaus/impeccable": 7,
-      "headroomlabs-ai/headroom": 8,
-      "shiyu-coder/Kronos": 9,
-      "firecrawl/firecrawl": 10,
-      "remotion-dev/remotion": 11,
-      "citrolabs/ego-lite": 12,
-      "anthropics/knowledge-work-plugins": 13,
-      "bowenliang123/dsh-context": 14,
-      "php/php-src": 15,
-      "pingdotgg/t3code": 16,
-      "withmarbleapp/os-taxonomy": 17,
-      "Asymptote-Labs/agent-beacon": 18,
-      "alibaba/open-code-review": 19,
-      "NVIDIA/OpenShell": 20,
-      "genspark-ai/genoffice": 21,
-      "onyx-dot-app/onyx": 22,
-      "openai/codex": 23,
-      "HKUDS/Vibe-Trading": 24,
-      "nautechsystems/nautilus_trader": 25
-    },
     "2026-10-24": {
       "cloudflare/security-audit-skill": 1,
       "Graphify-Labs/graphify": 2,
@@ -836,6 +809,33 @@
       "datazip-inc/olake-go": 23,
       "Fission-AI/OpenSpec": 24,
       "agent-substrate/substrate": 25
+    },
+    "2026-11-23": {
+      "firecrawl/firecrawl": 1,
+      "XiaoYouChR/Ghost-Downloader-3": 2,
+      "HKUDS/CLI-Anything": 3,
+      "mvanhorn/last30days-skill": 4,
+      "zhouxiaoka/autoclip": 5,
+      "google-labs-code/stitch-skills": 6,
+      "jingyaogong/minimind": 7,
+      "microsoft/markitdown": 8,
+      "Tracer-Cloud/opensre": 9,
+      "cursor/plugins": 10,
+      "google-research/paper-orchestra": 11,
+      "FlashML-org/FreeVideo": 12,
+      "nginx/nginx": 13,
+      "earendil-works/pi": 14,
+      "openvinotoolkit/openvino": 15,
+      "Tencent/LoopForge": 16,
+      "jquery/jquery": 17,
+      "p-e-w/heretic": 18,
+      "appwrite/appwrite": 19,
+      "multica-ai/multica": 20,
+      "Imbad0202/academic-research-skills": 21,
+      "github/spec-kit": 22,
+      "colbymchenry/codegraph": 23,
+      "datazip-inc/olake-go": 24,
+      "vercel-labs/agent-skills": 25
     }
   }
 }
