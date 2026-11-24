@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-24": {
-      "cloudflare/security-audit-skill": 1,
-      "Graphify-Labs/graphify": 2,
-      "NVIDIA/OpenShell": 3,
-      "stablyai/orca": 4,
-      "php/php-src": 5,
-      "anthropics/knowledge-work-plugins": 6,
-      "Renhuai123/ziwei-doushu": 7,
-      "pbakaus/impeccable": 8,
-      "TauricResearch/TradingAgents": 9,
-      "firecrawl/firecrawl": 10,
-      "pollen-robotics/microduck": 11,
-      "liguobao/ds-harness-remote": 12,
-      "akitaonrails/ai-memory": 13,
-      "Vincentwei1021/video-shotcraft": 14,
-      "citrolabs/ego-lite": 15,
-      "SnailSploit/Claude-Red": 16,
-      "openai/codex": 17,
-      "genspark-ai/genoffice": 18,
-      "OpenBMB/VoxCPM": 19,
-      "Asymptote-Labs/agent-beacon": 20,
-      "multica-ai/multica": 21,
-      "QuantumNous/new-api": 22,
-      "OpenHands/OpenHands": 23,
-      "infiniflow/ragflow": 24,
-      "onyx-dot-app/onyx": 25
-    },
     "2026-10-25": {
       "cloudflare/security-audit-skill": 1,
       "NVIDIA/OpenShell": 2,
@@ -836,6 +809,33 @@
       "colbymchenry/codegraph": 23,
       "datazip-inc/olake-go": 24,
       "vercel-labs/agent-skills": 25
+    },
+    "2026-11-24": {
+      "XiaoYouChR/Ghost-Downloader-3": 1,
+      "firecrawl/firecrawl": 2,
+      "zhouxiaoka/autoclip": 3,
+      "jingyaogong/minimind": 4,
+      "mvanhorn/last30days-skill": 5,
+      "HKUDS/CLI-Anything": 6,
+      "Tracer-Cloud/opensre": 7,
+      "google-labs-code/stitch-skills": 8,
+      "multica-ai/multica": 9,
+      "cursor/plugins": 10,
+      "FlashML-org/FreeVideo": 11,
+      "microsoft/markitdown": 12,
+      "google-research/paper-orchestra": 13,
+      "Tencent/LoopForge": 14,
+      "p-e-w/heretic": 15,
+      "earendil-works/pi": 16,
+      "openvinotoolkit/openvino": 17,
+      "nginx/nginx": 18,
+      "Imbad0202/academic-research-skills": 19,
+      "github/spec-kit": 20,
+      "colbymchenry/codegraph": 21,
+      "Fission-AI/OpenSpec": 22,
+      "t8y2/dbx": 23,
+      "phone-harness/phone-harness": 24,
+      "agentscope-ai/agentscope": 25
     }
   }
 }
