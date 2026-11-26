@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-26": {
-      "cloudflare/security-audit-skill": 1,
-      "Nutlope/hallmark": 2,
-      "experientiallabs/experiential": 3,
-      "pbakaus/impeccable": 4,
-      "makecindy/cindy": 5,
-      "tashfeenahmed/freellmapi": 6,
-      "google-gemini/gemini-cli": 7,
-      "pollen-robotics/microduck": 8,
-      "NVIDIA/OpenShell": 9,
-      "TauricResearch/TradingAgents": 10,
-      "firecrawl/firecrawl": 11,
-      "remotion-dev/remotion": 12,
-      "aws/agent-toolkit-for-aws": 13,
-      "AstrBotDevs/AstrBot": 14,
-      "anthropics/sandbox-runtime": 15,
-      "Renhuai123/ziwei-doushu": 16,
-      "AgriciDaniel/claude-seo": 17,
-      "Gaurav-Gosain/tuios": 18,
-      "garrytan/gstack": 19,
-      "SnailSploit/Claude-Red": 20,
-      "HKUDS/DeepTutor": 21,
-      "basketikun/infinite-canvas": 22,
-      "every-app/open-seo": 23,
-      "ollama/ollama": 24,
-      "maboloshi/github-chinese": 25
-    },
     "2026-10-27": {
       "Nutlope/hallmark": 1,
       "cloudflare/security-audit-skill": 2,
@@ -836,6 +809,33 @@
       "t8y2/dbx": 23,
       "phone-harness/phone-harness": 24,
       "agentscope-ai/agentscope": 25
+    },
+    "2026-11-26": {
+      "firecrawl/firecrawl": 1,
+      "HKUDS/CLI-Anything": 2,
+      "XiaoYouChR/Ghost-Downloader-3": 3,
+      "mvanhorn/last30days-skill": 4,
+      "zhouxiaoka/autoclip": 5,
+      "jingyaogong/minimind": 6,
+      "cursor/plugins": 7,
+      "google-labs-code/stitch-skills": 8,
+      "Tracer-Cloud/opensre": 9,
+      "microsoft/markitdown": 10,
+      "p-e-w/heretic": 11,
+      "multica-ai/multica": 12,
+      "openvinotoolkit/openvino": 13,
+      "nginx/nginx": 14,
+      "earendil-works/pi": 15,
+      "Imbad0202/academic-research-skills": 16,
+      "google-research/paper-orchestra": 17,
+      "github/spec-kit": 18,
+      "phone-harness/phone-harness": 19,
+      "Tencent/LoopForge": 20,
+      "Fission-AI/OpenSpec": 21,
+      "t8y2/dbx": 22,
+      "FlashML-org/FreeVideo": 23,
+      "colbymchenry/codegraph": 24,
+      "vxcontrol/pentagi": 25
     }
   }
 }
