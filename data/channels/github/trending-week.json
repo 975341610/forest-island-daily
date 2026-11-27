@@ -3,8 +3,8 @@
   "repos": {
     "firecrawl/firecrawl": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 3965,
+      "appearances": 5,
+      "total_today_stars": 5011,
       "language": "TypeScript",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/135057108?v=4",
@@ -12,8 +12,8 @@
     },
     "XiaoYouChR/Ghost-Downloader-3": {
       "best_rank": 1,
-      "appearances": 4,
-      "total_today_stars": 3831,
+      "appearances": 5,
+      "total_today_stars": 4720,
       "language": "Python",
       "description": "The only downloader you need. 下载器的集大成者。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/87308195?v=4",
@@ -21,8 +21,8 @@
     },
     "HKUDS/CLI-Anything": {
       "best_rank": 2,
-      "appearances": 4,
-      "total_today_stars": 3669,
+      "appearances": 5,
+      "total_today_stars": 4415,
       "language": "Python",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "owner_avatar": "https://avatars.githubusercontent.com/u/118165258?v=4",
@@ -30,8 +30,8 @@
     },
     "mvanhorn/last30days-skill": {
       "best_rank": 4,
-      "appearances": 4,
-      "total_today_stars": 3113,
+      "appearances": 5,
+      "total_today_stars": 3872,
       "language": "Python",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "owner_avatar": "https://avatars.githubusercontent.com/u/455140?v=4",
@@ -39,8 +39,8 @@
     },
     "zhouxiaoka/autoclip": {
       "best_rank": 3,
-      "appearances": 4,
-      "total_today_stars": 3408,
+      "appearances": 5,
+      "total_today_stars": 4182,
       "language": "Python",
       "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/78066887?v=4",
@@ -48,8 +48,8 @@
     },
     "google-labs-code/stitch-skills": {
       "best_rank": 6,
-      "appearances": 4,
-      "total_today_stars": 1674,
+      "appearances": 5,
+      "total_today_stars": 1983,
       "language": "TypeScript",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/161364575?v=4",
@@ -57,8 +57,8 @@
     },
     "jingyaogong/minimind": {
       "best_rank": 4,
-      "appearances": 4,
-      "total_today_stars": 2854,
+      "appearances": 5,
+      "total_today_stars": 3556,
       "language": "Python",
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/62287848?v=4",
@@ -66,8 +66,8 @@
     },
     "microsoft/markitdown": {
       "best_rank": 8,
-      "appearances": 4,
-      "total_today_stars": 1114,
+      "appearances": 5,
+      "total_today_stars": 1278,
       "language": "Python",
       "description": "Python tool for converting files and office documents to Markdown.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/6154722?v=4",
@@ -75,8 +75,8 @@
     },
     "Tracer-Cloud/opensre": {
       "best_rank": 7,
-      "appearances": 4,
-      "total_today_stars": 1581,
+      "appearances": 5,
+      "total_today_stars": 1908,
       "language": "Python",
       "description": "The open-source agent for CI/CD reliability.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/196393879?v=4",
@@ -84,8 +84,8 @@
     },
     "cursor/plugins": {
       "best_rank": 7,
-      "appearances": 4,
-      "total_today_stars": 1467,
+      "appearances": 5,
+      "total_today_stars": 1737,
       "language": "TypeScript",
       "description": "Cursor plugin specification and official plugins",
       "owner_avatar": "https://avatars.githubusercontent.com/u/126759922?v=4",
@@ -93,8 +93,8 @@
     },
     "google-research/paper-orchestra": {
       "best_rank": 11,
-      "appearances": 4,
-      "total_today_stars": 756,
+      "appearances": 5,
+      "total_today_stars": 869,
       "language": "Python",
       "description": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/43830688?v=4",
@@ -102,8 +102,8 @@
     },
     "FlashML-org/FreeVideo": {
       "best_rank": 10,
-      "appearances": 4,
-      "total_today_stars": 891,
+      "appearances": 5,
+      "total_today_stars": 993,
       "language": "Python",
       "description": "Make videos on the computer you already own. FreeVideo runs MiniMax H3 in as little as 8 GB of VRAM and 16 GB of RAM, and adapts its acceleration path to your hardware.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/286493426?v=4",
@@ -111,26 +111,26 @@
     },
     "nginx/nginx": {
       "best_rank": 13,
-      "appearances": 4,
-      "total_today_stars": 671,
+      "appearances": 5,
+      "total_today_stars": 821,
       "language": "C",
       "description": "The official NGINX Open Source repository.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/1412239?v=4",
       "html_url": "https://github.com/nginx/nginx"
     },
     "earendil-works/pi": {
-      "best_rank": 14,
-      "appearances": 4,
-      "total_today_stars": 729,
+      "best_rank": 11,
+      "appearances": 5,
+      "total_today_stars": 942,
       "language": "TypeScript",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "owner_avatar": "https://avatars.githubusercontent.com/u/207902832?v=4",
       "html_url": "https://github.com/earendil-works/pi"
     },
     "openvinotoolkit/openvino": {
-      "best_rank": 13,
-      "appearances": 4,
-      "total_today_stars": 718,
+      "best_rank": 12,
+      "appearances": 5,
+      "total_today_stars": 894,
       "language": "C++",
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "owner_avatar": "https://avatars.githubusercontent.com/u/55443902?v=4",
@@ -138,8 +138,8 @@
     },
     "Tencent/LoopForge": {
       "best_rank": 14,
-      "appearances": 4,
-      "total_today_stars": 637,
+      "appearances": 5,
+      "total_today_stars": 734,
       "language": "Go",
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18461506?v=4",
@@ -156,8 +156,8 @@
     },
     "p-e-w/heretic": {
       "best_rank": 11,
-      "appearances": 4,
-      "total_today_stars": 735,
+      "appearances": 5,
+      "total_today_stars": 869,
       "language": "Python",
       "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
       "owner_avatar": "https://avatars.githubusercontent.com/u/2702526?v=4",
@@ -174,8 +174,8 @@
     },
     "multica-ai/multica": {
       "best_rank": 9,
-      "appearances": 4,
-      "total_today_stars": 922,
+      "appearances": 5,
+      "total_today_stars": 1095,
       "language": "Go",
       "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
       "owner_avatar": "https://avatars.githubusercontent.com/u/254743058?v=4",
@@ -183,8 +183,8 @@
     },
     "Imbad0202/academic-research-skills": {
       "best_rank": 16,
-      "appearances": 4,
-      "total_today_stars": 590,
+      "appearances": 5,
+      "total_today_stars": 710,
       "language": "Python",
       "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
       "owner_avatar": "https://avatars.githubusercontent.com/u/132531341?v=4",
@@ -192,8 +192,8 @@
     },
     "github/spec-kit": {
       "best_rank": 18,
-      "appearances": 4,
-      "total_today_stars": 517,
+      "appearances": 5,
+      "total_today_stars": 636,
       "language": "Python",
       "description": "💫 Toolkit to help you get started with SDD or any other process!",
       "owner_avatar": "https://avatars.githubusercontent.com/u/9919?v=4",
@@ -201,8 +201,8 @@
     },
     "colbymchenry/codegraph": {
       "best_rank": 21,
-      "appearances": 4,
-      "total_today_stars": 425,
+      "appearances": 5,
+      "total_today_stars": 524,
       "language": "TypeScript",
       "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
       "owner_avatar": "https://avatars.githubusercontent.com/u/18431132?v=4",
@@ -236,9 +236,9 @@
       "html_url": "https://github.com/Fission-AI/OpenSpec"
     },
     "t8y2/dbx": {
-      "best_rank": 22,
-      "appearances": 3,
-      "total_today_stars": 299,
+      "best_rank": 19,
+      "appearances": 4,
+      "total_today_stars": 416,
       "language": "Rust",
       "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
       "owner_avatar": "https://avatars.githubusercontent.com/u/77960507?v=4",
@@ -246,8 +246,8 @@
     },
     "phone-harness/phone-harness": {
       "best_rank": 19,
-      "appearances": 3,
-      "total_today_stars": 284,
+      "appearances": 4,
+      "total_today_stars": 384,
       "language": "Python",
       "description": "let your agent control your phone",
       "owner_avatar": "https://avatars.githubusercontent.com/u/325502100?v=4",
@@ -279,6 +279,24 @@
       "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
       "owner_avatar": "https://avatars.githubusercontent.com/u/39194251?v=4",
       "html_url": "https://github.com/vxcontrol/pentagi"
+    },
+    "superdesigndev/treg": {
+      "best_rank": 7,
+      "appearances": 1,
+      "total_today_stars": 501,
+      "language": "Python",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/217153862?v=4",
+      "html_url": "https://github.com/superdesigndev/treg"
+    },
+    "getarcaneapp/arcane": {
+      "best_rank": 25,
+      "appearances": 1,
+      "total_today_stars": 95,
+      "language": "Go",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "owner_avatar": "https://avatars.githubusercontent.com/u/236685631?v=4",
+      "html_url": "https://github.com/getarcaneapp/arcane"
     }
   }
 }

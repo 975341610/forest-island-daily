@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-27": {
-      "Nutlope/hallmark": 1,
-      "cloudflare/security-audit-skill": 2,
-      "pbakaus/impeccable": 3,
-      "AgriciDaniel/claude-seo": 4,
-      "TauricResearch/TradingAgents": 5,
-      "makecindy/cindy": 6,
-      "JetBrains/thinkrail": 7,
-      "pollen-robotics/microduck": 8,
-      "Panniantong/Agent-Reach": 9,
-      "multica-ai/andrej-karpathy-skills": 10,
-      "bilawalsidhu/gods-eye-view": 11,
-      "AstrBotDevs/AstrBot": 12,
-      "Alishahryar1/free-claude-code": 13,
-      "thesysdev/openui": 14,
-      "addyosmani/agent-skills": 15,
-      "alchaincyf/huashu-design": 16,
-      "higgsfield-ai/skills": 17,
-      "NVIDIA/SkillSpector": 18,
-      "ruvnet/RuView": 19,
-      "microsoft/skill-recorder": 20,
-      "gitroomhq/postiz-app": 21,
-      "nightly-labs/openbot": 22,
-      "ranxianglei/billion-context": 23,
-      "Gaurav-Gosain/tuios": 24,
-      "garrytan/gstack": 25
-    },
     "2026-10-28": {
       "hmjz100/LinkSwift": 1,
       "Nutlope/hallmark": 2,
@@ -836,6 +809,33 @@
       "FlashML-org/FreeVideo": 23,
       "colbymchenry/codegraph": 24,
       "vxcontrol/pentagi": 25
+    },
+    "2026-11-27": {
+      "firecrawl/firecrawl": 1,
+      "XiaoYouChR/Ghost-Downloader-3": 2,
+      "zhouxiaoka/autoclip": 3,
+      "mvanhorn/last30days-skill": 4,
+      "HKUDS/CLI-Anything": 5,
+      "jingyaogong/minimind": 6,
+      "superdesigndev/treg": 7,
+      "Tracer-Cloud/opensre": 8,
+      "google-labs-code/stitch-skills": 9,
+      "cursor/plugins": 10,
+      "earendil-works/pi": 11,
+      "openvinotoolkit/openvino": 12,
+      "multica-ai/multica": 13,
+      "microsoft/markitdown": 14,
+      "nginx/nginx": 15,
+      "p-e-w/heretic": 16,
+      "Imbad0202/academic-research-skills": 17,
+      "github/spec-kit": 18,
+      "t8y2/dbx": 19,
+      "google-research/paper-orchestra": 20,
+      "FlashML-org/FreeVideo": 21,
+      "phone-harness/phone-harness": 22,
+      "colbymchenry/codegraph": 23,
+      "Tencent/LoopForge": 24,
+      "getarcaneapp/arcane": 25
     }
   }
 }
