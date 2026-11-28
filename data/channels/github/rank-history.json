@@ -1,32 +1,5 @@
 {
   "snapshots": {
-    "2026-10-28": {
-      "hmjz100/LinkSwift": 1,
-      "Nutlope/hallmark": 2,
-      "TauricResearch/TradingAgents": 3,
-      "Panniantong/Agent-Reach": 4,
-      "HKUDS/DeepTutor": 5,
-      "makecindy/cindy": 6,
-      "pbakaus/impeccable": 7,
-      "JetBrains/thinkrail": 8,
-      "YuJunZhiXue/dsh-purge": 9,
-      "NVIDIA/SkillSpector": 10,
-      "gitroomhq/postiz-app": 11,
-      "heygen-com/hyperframes": 12,
-      "togg53192-cmd/jailbreaks": 13,
-      "nightly-labs/openbot": 14,
-      "AgriciDaniel/claude-seo": 15,
-      "tt-a1i/archify": 16,
-      "pollen-robotics/microduck": 17,
-      "ruvnet/RuView": 18,
-      "remotion-dev/remotion": 19,
-      "addyosmani/agent-skills": 20,
-      "pingdotgg/t3code": 21,
-      "Renhuai123/ziwei-doushu": 22,
-      "SnailSploit/Claude-Red": 23,
-      "superdesigndev/treg": 24,
-      "alibaba/open-code-review": 25
-    },
     "2026-10-29": {
       "HKUDS/DeepTutor": 1,
       "Nutlope/hallmark": 2,
@@ -836,6 +809,33 @@
       "colbymchenry/codegraph": 23,
       "Tencent/LoopForge": 24,
       "getarcaneapp/arcane": 25
+    },
+    "2026-11-28": {
+      "XiaoYouChR/Ghost-Downloader-3": 1,
+      "firecrawl/firecrawl": 2,
+      "zhouxiaoka/autoclip": 3,
+      "mvanhorn/last30days-skill": 4,
+      "HKUDS/CLI-Anything": 5,
+      "jingyaogong/minimind": 6,
+      "github/spec-kit": 7,
+      "Tracer-Cloud/opensre": 8,
+      "google-labs-code/stitch-skills": 9,
+      "superdesigndev/treg": 10,
+      "cursor/plugins": 11,
+      "earendil-works/pi": 12,
+      "NYLLON-SOFTWARE/SignuDoc": 13,
+      "phone-harness/phone-harness": 14,
+      "microsoft/markitdown": 15,
+      "t8y2/dbx": 16,
+      "Imbad0202/academic-research-skills": 17,
+      "openvinotoolkit/openvino": 18,
+      "p-e-w/heretic": 19,
+      "nginx/nginx": 20,
+      "multica-ai/multica": 21,
+      "agent-substrate/substrate": 22,
+      "colbymchenry/codegraph": 23,
+      "google-research/paper-orchestra": 24,
+      "Tencent/LoopForge": 25
     }
   }
 }
